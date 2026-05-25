@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Complete digital… — Websites that get tradies booked out</title>
+  <meta name="description" content="Complete digital builds fast, mobile-first websites for sparkies, chippies, plumbers and builders." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Floating bubble navigation -->
+  <header class="nav-wrap">
+    <nav class="nav-bubble" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Complete digital home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-name">Complete digital<span class="brand-ellipsis">…</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#home" class="nav-link is-active" aria-label="Home">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="nav-icon"><path d="M3 11.2 12 4l9 7.2M5.5 9.6V20h13V9.6"/></svg>
+            <span>Home</span>
+          </a>
+        </li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="nav-cta">
+        Get a quote
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero / header section -->
+  <main>
+    <section class="hero" id="home">
+      <!-- Soft background blobs + grid -->
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="grid"></span>
+      </div>
+
+      <!-- Flying trade tools -->
+      <div class="tools" aria-hidden="true">
+        <!-- Wood plank -->
+        <div class="tool" data-tool="wood" style="--rest-top:18%; --rest-left:6%; --dx:-60vw; --dy:-10vh; --dr:-35deg; --delay:.15s;">
+          <div class="tool-art">
+            <svg viewBox="0 0 120 46"><defs><linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9a066"/><stop offset="1" stop-color="#b9763c"/></linearGradient></defs><rect x="1" y="1" width="118" height="44" rx="6" fill="url(#wood)" stroke="#8a5523" stroke-width="2"/><path d="M14 8c30 6 62 6 92 0M10 23c34 7 70 7 100 0M16 38c28 5 58 5 88 0" stroke="#8a5523" stroke-width="1.5" fill="none" opacity=".55"/></svg>
+          </div>
+        </div>
+
+        <!-- Lightning bolt (electrical) -->
+        <div class="tool" data-tool="bolt" style="--rest-top:12%; --rest-right:9%; --dx:60vw; --dy:-12vh; --dr:40deg; --delay:.32s;">
+          <div class="tool-art tool-spark">
+            <svg viewBox="0 0 48 64"><path d="M27 2 6 36h14l-6 26 28-40H26z" fill="#48cae4" stroke="#0a2540" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Wrench (plumbing / general) -->
+        <div class="tool" data-tool="wrench" style="--rest-top:54%; --rest-left:4%; --dx:-55vw; --dy:25vh; --dr:60deg; --delay:.48s;">
+          <div class="tool-art">
+            <svg viewBox="0 0 70 70"><path d="M46 8a16 16 0 0 0-13 26L9 58a6 6 0 0 0 8 8l24-24a16 16 0 0 0 18-22l-9 9-8-2-2-8z" fill="#9fb3c8" stroke="#0a2540" stroke-width="3" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Paint roller -->
+        <div class="tool" data-tool="roller" style="--rest-top:60%; --rest-right:6%; --dx:55vw; --dy:22vh; --dr:-45deg; --delay:.6s;">
+          <div class="tool-art">
+            <svg viewBox="0 0 70 64"><rect x="10" y="6" width="44" height="18" rx="5" fill="#48cae4" stroke="#0a2540" stroke-width="3"/><path d="M54 15h7v9H40" fill="none" stroke="#0a2540" stroke-width="3"/><path d="M40 24v8a4 4 0 0 1-4 4h-6v22" fill="none" stroke="#0a2540" stroke-width="3"/></svg>
+          </div>
+        </div>
+
+        <!-- Screw -->
+        <div class="tool tool-sm" data-tool="screw" style="--rest-top:34%; --rest-left:16%; --dx:-40vw; --dy:30vh; --dr:120deg; --delay:.72s;">
+          <div class="tool-art">
+            <svg viewBox="0 0 24 56"><path d="M12 2 4 10v6l8-6 8 6v-6z" fill="#9fb3c8" stroke="#0a2540" stroke-width="2" stroke-linejoin="round"/><path d="M5 18h14l-2 5H7zM6 24h12l-2 5H8zM7 30h10l-2 5H9zM8 36h8l-4 16z" fill="#9fb3c8" stroke="#0a2540" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <!-- Ruler -->
+        <div class="tool tool-sm" data-tool="ruler" style="--rest-top:78%; --rest-left:24%; --dx:-30vw; --dy:40vh; --dr:-80deg; --delay:.85s;">
+          <div class="tool-art">
+            <svg viewBox="0 0 110 28"><rect x="1" y="1" width="108" height="26" rx="4" fill="#ffd166" stroke="#0a2540" stroke-width="2"/><path d="M16 1v9M31 1v6M46 1v9M61 1v6M76 1v9M91 1v6" stroke="#0a2540" stroke-width="2"/></svg>
+          </div>
+        </div>
+
+        <!-- Particles: sparks + sawdust -->
+        <div class="particles">
+          <span class="spark" style="--px:74%; --py:24%; --d:.9s;"></span>
+          <span class="spark" style="--px:78%; --py:30%; --d:1.4s;"></span>
+          <span class="spark" style="--px:70%; --py:20%; --d:1.1s;"></span>
+          <span class="dust" style="--px:10%; --py:32%; --d:1.2s;"></span>
+          <span class="dust" style="--px:14%; --py:40%; --d:1.6s;"></span>
+          <span class="dust" style="--px:8%; --py:26%; --d:1.0s;"></span>
+        </div>
+      </div>
+
+      <!-- Hero content -->
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Websites for tradies
+          </span>
+          <h1 class="headline">
+            Websites that get<br />
+            <span class="headline-accent">tradies booked out.</span>
+          </h1>
+          <p class="subhead">
+            <strong>Complete digital</strong> builds fast, mobile-first websites for sparkies,
+            chippies, plumbers &amp; builders — so you spend less time quoting and more
+            time on the tools.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              Start your site
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#work" class="btn btn-ghost">See our work</a>
+          </div>
+          <div class="hero-trust">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p>Loved by <strong>40+</strong> local trades across the country</p>
+          </div>
+        </div>
+
+        <!-- Phone that flies up -->
+        <div class="phone-stage">
+          <div class="phone-glow" aria-hidden="true"></div>
+          <div class="phone">
+            <span class="phone-notch" aria-hidden="true"></span>
+            <div class="phone-screen">
+              <div class="scr-statusbar">
+                <span>9:41</span>
+                <span class="scr-status-icons" aria-hidden="true">
+                  <i></i><i></i><i class="batt"></i>
+                </span>
+              </div>
+              <div class="scr-content">
+                <div class="scr-nav">
+                  <span class="scr-logo"><b></b> Voltforce</span>
+                  <span class="scr-menu" aria-hidden="true"><i></i><i></i><i></i></span>
+                </div>
+                <div class="scr-hero">
+                  <span class="scr-badge">⚡ 24/7 Emergency Sparky</span>
+                  <h3>Need a sparky?<br />We're on the way.</h3>
+                  <p>Licensed electricians serving your local area — fast, tidy, guaranteed.</p>
+                  <span class="scr-cta">Call now · 0400 000 000</span>
+                </div>
+                <div class="scr-stats">
+                  <div><b>4.9★</b><small>120 reviews</small></div>
+                  <div><b>15min</b><small>response</small></div>
+                  <div><b>10yr</b><small>experience</small></div>
+                </div>
+                <div class="scr-services">
+                  <span>Rewiring</span><span>Switchboards</span>
+                  <span>Lighting</span><span>Safety checks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-shadow" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <!-- Scroll hint -->
+      <a href="#work" class="scroll-hint" aria-label="Scroll down">
+        <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+        <span class="scroll-text">Scroll</span>
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
