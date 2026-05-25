@@ -161,11 +161,31 @@
       </section>
     </div>
 
-    <!-- What we handle: pinned horizontal rail (scrolls right-to-left) -->
-    <section class="do" id="services">
-      <div class="do-track">
-        <div class="do-pin">
-          <div class="do-head">
+    <!-- Story: cards rail scrolls, a white panel covers the tiles, then the
+         CRM section reveals with fade-in/out steps. Driven by one pinned
+         scroll track (see script.js). -->
+    <section class="story" id="services">
+      <div class="story-track">
+        <div class="story-pin">
+
+          <!-- Layer 1: the cards rail (scrolls right-to-left) -->
+          <div class="rail-layer">
+            <div class="do-rail">
+              <article class="do-card" style="--i:0"><span class="do-num">01</span><h3>Website</h3></article>
+              <article class="do-card" style="--i:1"><span class="do-num">02</span><h3>Leads</h3></article>
+              <article class="do-card" style="--i:2"><span class="do-num">03</span><h3>Ads</h3></article>
+              <article class="do-card" style="--i:3"><span class="do-num">04</span><h3>Payments</h3></article>
+              <article class="do-card" style="--i:4"><span class="do-num">05</span><h3>Business profile</h3></article>
+              <article class="do-card" style="--i:5"><span class="do-num">06</span><h3>Parts ordering</h3></article>
+              <article class="do-card" style="--i:6"><span class="do-num">07</span><h3>Cheap imports</h3></article>
+            </div>
+          </div>
+
+          <!-- Layer 2: white panel that scrolls up over the tiles -->
+          <div class="cover" aria-hidden="true"></div>
+
+          <!-- Layer 4: heading, stays on top while the white rises beneath it -->
+          <div class="head-bar">
             <span class="eyebrow">
               <span class="eyebrow-dot"></span>
               What we handle
@@ -174,15 +194,68 @@
             <div class="do-progress" aria-hidden="true"><span></span></div>
           </div>
 
-          <div class="do-rail">
-            <article class="do-card" style="--i:0"><span class="do-num">01</span><h3>Website</h3></article>
-            <article class="do-card" style="--i:1"><span class="do-num">02</span><h3>Leads</h3></article>
-            <article class="do-card" style="--i:2"><span class="do-num">03</span><h3>Ads</h3></article>
-            <article class="do-card" style="--i:3"><span class="do-num">04</span><h3>Payments</h3></article>
-            <article class="do-card" style="--i:4"><span class="do-num">05</span><h3>Business profile</h3></article>
-            <article class="do-card" style="--i:5"><span class="do-num">06</span><h3>Parts ordering</h3></article>
-            <article class="do-card" style="--i:6"><span class="do-num">07</span><h3>Cheap imports</h3></article>
+          <!-- Layer 3: CRM reveal -->
+          <div class="crm">
+            <div class="crm-head">
+              <span class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                The engine room
+              </span>
+              <h2 class="crm-title">Complete <span class="headline-accent">CRM System</span></h2>
+            </div>
+
+            <div class="crm-stage">
+              <article class="crm-step" data-step="0">
+                <div class="crm-figure">
+                  <div class="quote-card">
+                    <div class="quote-imgs"><span></span><span></span><span></span></div>
+                    <div class="quote-ai"><span class="spark">✦</span> AI reading photos…</div>
+                    <div class="quote-row"><small>Instant estimate</small><b>$1,240</b></div>
+                  </div>
+                </div>
+                <div class="crm-copy">
+                  <h3>Instant quotes</h3>
+                  <p>Our AI scans what the customer needs and the photos they upload, then
+                    returns a price in seconds. Prefer the personal touch? Switch it off and
+                    keep a clean, standard booking system — your call.</p>
+                </div>
+              </article>
+
+              <article class="crm-step" data-step="1">
+                <div class="crm-figure">
+                  <div class="text-mock">
+                    <div class="bubble"><b>New booking</b> · Rewiring<br />Tue 9:00am — 12 Smith St</div>
+                    <div class="bubble alt"><b>New enquiry</b> from Sarah M.</div>
+                  </div>
+                </div>
+                <div class="crm-copy">
+                  <h3>We text you</h3>
+                  <p>Every new booking, quote and enquiry lands as a text straight to your
+                    phone — so you never miss a job, even when you're up a ladder.</p>
+                </div>
+              </article>
+
+              <article class="crm-step" data-step="2">
+                <div class="crm-figure">
+                  <div class="cal">
+                    <div class="cal-top"><b>March</b><span class="cal-nav" aria-hidden="true"><i></i><i></i></span></div>
+                    <div class="cal-dow"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+                    <div class="cal-grid"></div>
+                    <div class="cal-events">
+                      <div><span class="dot"></span> 9:00 · Rewiring — 12 Smith St</div>
+                      <div><span class="dot alt"></span> 2:00 · Switchboard upgrade</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="crm-copy">
+                  <h3>Automatic calendar updates</h3>
+                  <p>Confirmed jobs drop straight into your calendar and sync across your
+                    devices — no double-handling, no double-bookings.</p>
+                </div>
+              </article>
+            </div>
           </div>
+
         </div>
       </div>
     </section>

@@ -559,56 +559,30 @@ ul { list-style: none; }
 .stage.revealed .phone-shadow { animation: glowIn 0.8s ease 0.5s forwards; }
 
 /* ===========================================================
-   What we handle — pinned horizontal rail
+   Story section: rail -> white cover -> CRM reveal
+   All layers live inside one pinned stage; JS maps scroll to phases.
    =========================================================== */
-.do {
+.story {
   position: relative;
   background: linear-gradient(180deg, #fff 0%, var(--paper) 100%);
 }
-/* Tall track; height set by JS = viewport + horizontal scroll distance. */
-.do-track { position: relative; }
-.do-pin {
+.story-track { position: relative; }   /* height set by JS */
+.story-pin {
   position: sticky;
   top: 0;
   height: 100vh;
   overflow: hidden;
+}
+
+/* ---- Layer 1: cards rail ---- */
+.rail-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 28px;
+  align-items: flex-end;
+  padding: 0 0 7vh;
 }
-
-.do-head {
-  flex: 0 0 auto;
-  padding: 0 24px;
-}
-.do-title {
-  font-family: "Outfit", sans-serif;
-  font-weight: 800;
-  font-size: clamp(1.8rem, 6vw, 3rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
-  margin: 12px 0 18px;
-  max-width: 14em;
-}
-.do-progress {
-  width: min(220px, 60%);
-  height: 5px;
-  border-radius: 999px;
-  background: rgba(10, 37, 64, 0.10);
-  overflow: hidden;
-}
-.do-progress span {
-  display: block;
-  height: 100%;
-  width: 100%;
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--theme), var(--theme-deep));
-  transform: scaleX(0);
-  transform-origin: left;
-}
-
-/* The rail is translated left (right-to-left) as the section is scrolled. */
 .do-rail {
   display: flex;
   align-items: stretch;
@@ -621,7 +595,7 @@ ul { list-style: none; }
   position: relative;
   flex: 0 0 auto;
   width: clamp(230px, 78vw, 340px);
-  height: clamp(300px, 52vh, 460px);
+  height: clamp(280px, 50vh, 440px);
   border-radius: 26px;
   padding: 26px;
   background: linear-gradient(165deg, #ffffff, var(--paper));
@@ -631,7 +605,6 @@ ul { list-style: none; }
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  transition: transform 0.35s var(--ease-out), box-shadow 0.35s, border-color 0.35s;
 }
 .do-card::after {
   content: "";
@@ -640,11 +613,6 @@ ul { list-style: none; }
   right: -70px; bottom: -80px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(72, 202, 228, 0.22), transparent 70%);
-}
-.do-card:hover {
-  transform: translateY(-8px);
-  border-color: rgba(72, 202, 228, 0.6);
-  box-shadow: 0 30px 50px -26px rgba(0, 168, 207, 0.55);
 }
 .do-num {
   font-family: "Outfit", sans-serif;
@@ -660,6 +628,175 @@ ul { list-style: none; }
   font-size: clamp(1.7rem, 5vw, 2.4rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
+}
+
+/* ---- Layer 2: white cover that rises over the tiles ---- */
+.cover {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(180deg, #fff 0%, var(--paper) 100%);
+  transform: translateY(100%);
+  will-change: transform;
+}
+
+/* ---- Layer 4: pinned heading (stays above the rising white) ---- */
+.head-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 4;
+  padding: 116px 24px 0;
+  will-change: opacity, transform;
+}
+.do-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.9rem, 6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 12px 0 18px;
+  max-width: 14em;
+}
+.do-progress {
+  width: min(240px, 62%);
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(10, 37, 64, 0.10);
+  overflow: hidden;
+}
+.do-progress span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--theme), var(--theme-deep));
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+/* ---- Layer 3: CRM reveal ---- */
+.crm {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  padding: 96px 24px 52px;
+  text-align: center;
+  will-change: opacity;
+}
+.crm-head { flex: 0 0 auto; }
+.crm-head .crm-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.9rem, 5.4vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-top: 12px;
+}
+.crm-stage {
+  position: relative;
+  width: min(920px, 100%);
+  flex: 1 1 auto;
+  min-height: 0;
+}
+.crm-step {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.crm-copy { max-width: 30em; }
+.crm-copy h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4.4vw, 2.3rem);
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+.crm-copy p {
+  font-size: clamp(0.98rem, 1.4vw, 1.12rem);
+  line-height: 1.6;
+  color: var(--navy-soft);
+}
+
+/* ---- CRM figures ---- */
+.quote-card {
+  width: min(300px, 82vw);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow-lg);
+  padding: 16px;
+  text-align: left;
+}
+.quote-imgs { display: flex; gap: 8px; margin-bottom: 12px; }
+.quote-imgs span { flex: 1; aspect-ratio: 1; border-radius: 10px; background: linear-gradient(135deg, var(--theme), var(--theme-deep)); }
+.quote-imgs span:nth-child(2) { background: linear-gradient(135deg, #123c5e, #0a2540); }
+.quote-imgs span:nth-child(3) { background: linear-gradient(135deg, #2a6f97, #48cae4); }
+.quote-ai {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 0.78rem; font-weight: 600; color: var(--theme-deep);
+  background: rgba(72, 202, 228, 0.12); padding: 7px 12px; border-radius: 999px;
+  margin-bottom: 14px;
+}
+.quote-ai .spark { animation: zap 1.6s ease-in-out infinite; }
+.quote-row { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 12px; }
+.quote-row small { font-size: 0.72rem; color: var(--ink-faint); }
+.quote-row b { font-family: "Outfit", sans-serif; font-size: 1.55rem; color: var(--navy); }
+
+.text-mock { width: min(300px, 82vw); display: flex; flex-direction: column; gap: 10px; }
+.bubble {
+  background: #fff; border: 1px solid var(--line);
+  border-radius: 16px 16px 16px 4px; padding: 12px 15px;
+  box-shadow: var(--shadow-sm); font-size: 0.82rem; line-height: 1.45;
+  color: var(--navy); align-self: flex-start; max-width: 92%; text-align: left;
+}
+.bubble b { color: var(--theme-deep); }
+.bubble.alt { border-radius: 16px 16px 4px 16px; align-self: flex-end; background: var(--navy); color: #fff; }
+.bubble.alt b { color: var(--theme); }
+
+.cal {
+  width: min(380px, 86vw);
+  background: #fff; border: 1px solid var(--line);
+  border-radius: 20px; box-shadow: var(--shadow-lg);
+  overflow: hidden; text-align: left;
+}
+.cal-top { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; background: var(--navy); color: #fff; }
+.cal-top b { font-family: "Outfit", sans-serif; font-size: 1rem; }
+.cal-nav { display: inline-flex; gap: 12px; }
+.cal-nav i { width: 7px; height: 7px; border-right: 2px solid rgba(255, 255, 255, 0.55); border-bottom: 2px solid rgba(255, 255, 255, 0.55); transform: rotate(135deg); }
+.cal-nav i:last-child { transform: rotate(-45deg); }
+.cal-dow { display: grid; grid-template-columns: repeat(7, 1fr); padding: 10px 12px 0; }
+.cal-dow span { text-align: center; font-size: 0.6rem; font-weight: 600; color: var(--ink-faint); }
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; padding: 8px 12px 12px; }
+.cal-day {
+  aspect-ratio: 1; border-radius: 8px; background: var(--paper);
+  font-size: 0.64rem; color: var(--navy-soft);
+  display: flex; align-items: flex-start; justify-content: flex-end;
+  padding: 4px 5px; position: relative;
+}
+.cal-day.muted { opacity: 0.38; }
+.cal-day.busy { background: rgba(72, 202, 228, 0.18); color: var(--navy); font-weight: 600; }
+.cal-day.busy::after { content: ""; position: absolute; left: 5px; right: 5px; bottom: 5px; height: 4px; border-radius: 3px; background: var(--theme); }
+.cal-day.busy.two::before { content: ""; position: absolute; left: 5px; right: 5px; bottom: 11px; height: 4px; border-radius: 3px; background: var(--navy); }
+.cal-events { border-top: 1px solid var(--line); padding: 12px 16px 16px; display: flex; flex-direction: column; gap: 9px; }
+.cal-events div { display: flex; align-items: center; gap: 9px; font-size: 0.76rem; color: var(--navy); }
+.cal-events .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--theme); flex: 0 0 auto; }
+.cal-events .dot.alt { background: var(--navy); }
+
+@media (min-width: 860px) {
+  .crm-step { flex-direction: row; gap: 54px; text-align: left; }
+  .crm-copy { text-align: left; }
 }
 
 /* Scroll-reveal */
@@ -705,6 +842,15 @@ ul { list-style: none; }
   .tool-art { width: 84px; }
   .tool[data-tool="roller"] { --rest-right: 2%; }
   .tool[data-tool="wood"] { --rest-left: 2%; }
+
+  /* compact the CRM step so the calendar + copy fit on small screens */
+  .crm { padding: 78px 18px 34px; gap: 16px; }
+  .crm-step { gap: 16px; }
+  .cal { width: min(320px, 88vw); }
+  .cal-events { padding: 10px 14px 12px; gap: 6px; }
+  .cal-events div { font-size: 0.72rem; }
+  .crm-copy h3 { margin-bottom: 6px; }
+  .crm-copy p { font-size: 0.95rem; line-height: 1.5; }
 }
 
 /* shorter viewports: shrink the phone so it stays fully in view when pinned */
