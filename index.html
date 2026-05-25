@@ -48,7 +48,10 @@
 
   <!-- Hero / header section -->
   <main>
-    <section class="hero" id="home">
+    <!-- Tall track: the hero pins (scroll appears to "stop") while the
+         phone's inner site scrolls; releases once that site hits bottom. -->
+    <div class="hero-track" id="home">
+    <section class="hero">
       <!-- Soft background blobs + grid -->
       <div class="hero-bg" aria-hidden="true">
         <span class="blob blob-1"></span>
@@ -146,45 +149,17 @@
           <div class="phone">
             <span class="phone-notch" aria-hidden="true"></span>
             <div class="phone-screen">
-              <div class="scr-statusbar">
-                <span>9:41</span>
-                <span class="scr-status-icons" aria-hidden="true">
-                  <i></i><i></i><i class="batt"></i>
-                </span>
-              </div>
-              <div class="scr-content">
-                <div class="scr-nav">
-                  <span class="scr-logo"><b></b> Voltforce</span>
-                  <span class="scr-menu" aria-hidden="true"><i></i><i></i><i></i></span>
-                </div>
-                <div class="scr-hero">
-                  <span class="scr-badge">⚡ 24/7 Emergency Sparky</span>
-                  <h3>Need a sparky?<br />We're on the way.</h3>
-                  <p>Licensed electricians serving your local area — fast, tidy, guaranteed.</p>
-                  <span class="scr-cta">Call now · 0400 000 000</span>
-                </div>
-                <div class="scr-stats">
-                  <div><b>4.9★</b><small>120 reviews</small></div>
-                  <div><b>15min</b><small>response</small></div>
-                  <div><b>10yr</b><small>experience</small></div>
-                </div>
-                <div class="scr-services">
-                  <span>Rewiring</span><span>Switchboards</span>
-                  <span>Lighting</span><span>Safety checks</span>
-                </div>
-              </div>
+              <!-- Swappable: drop a different site at this src later. -->
+              <iframe class="phone-frame" src="phone-site.html"
+                      title="Sample tradie website" scrolling="no" loading="eager"></iframe>
             </div>
           </div>
           <div class="phone-shadow" aria-hidden="true"></div>
         </div>
       </div>
 
-      <!-- Scroll hint -->
-      <a href="#work" class="scroll-hint" aria-label="Scroll down">
-        <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
-        <span class="scroll-text">Scroll</span>
-      </a>
     </section>
+    </div>
   </main>
 
   <script src="script.js"></script>
