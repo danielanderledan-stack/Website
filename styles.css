@@ -804,6 +804,239 @@ ul { list-style: none; }
 .reveal.in { animation: rise 0.75s var(--ease-out) forwards; }
 
 /* ===========================================================
+   Section 1: "so you can ..." rotating words
+   =========================================================== */
+.relax {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 24px;
+  background: linear-gradient(180deg, var(--paper) 0%, #fff 100%);
+}
+.relax-inner { width: min(900px, 100%); }
+.relax-h {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+.rotator {
+  height: 1.2em;
+  overflow: hidden;
+  margin: 8px auto 36px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+.rotator-list { display: flex; flex-direction: column; animation: rollWords 11s cubic-bezier(0.7, 0, 0.2, 1) infinite; }
+.rotator-list span {
+  display: block;
+  height: 1.2em;
+  white-space: nowrap;
+  background: linear-gradient(120deg, var(--theme-deep), var(--theme));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes rollWords {
+  0%, 13%       { transform: translateY(0%); }
+  16.6%, 29.6%  { transform: translateY(-16.667%); }
+  33.3%, 46.3%  { transform: translateY(-33.333%); }
+  50%, 63%      { transform: translateY(-50%); }
+  66.6%, 79.6%  { transform: translateY(-66.667%); }
+  83.3%, 100%   { transform: translateY(-83.333%); }
+}
+.relax-sub {
+  font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+  font-weight: 500;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+.relax-sub strong { color: var(--theme-deep); }
+.relax-stat {
+  display: inline-block;
+  font-size: clamp(0.95rem, 1.4vw, 1.12rem);
+  color: var(--navy-soft);
+  background: rgba(72, 202, 228, 0.12);
+  border: 1px solid rgba(72, 202, 228, 0.3);
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+.relax-stat strong { color: var(--theme-deep); }
+
+/* ===========================================================
+   Section 2: white cover + scroll-driven conveyor
+   =========================================================== */
+/* Overlap the previous section so the white panel rises OVER it. */
+.awd { position: relative; z-index: 2; margin-top: -100vh; }
+.awd-track { position: relative; }   /* height set by JS */
+.awd-pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+/* White panel slides up from below to cover the previous section. */
+.awd-panel {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #fff 0%, var(--paper) 100%);
+  transform: translateY(100%);
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+}
+.awd-head {
+  flex: 0 0 auto;
+  padding: 118px 24px 0;
+}
+.awd-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.9rem, 6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-top: 12px;
+}
+.awd-conveyor {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  will-change: opacity;
+}
+.awd-item {
+  position: absolute;
+  top: 50%;
+  left: clamp(20px, 8vw, 90px);
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.7rem, 6vw, 3.4rem);
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  white-space: nowrap;
+  will-change: transform, opacity;
+}
+.awd-item.active {
+  background: linear-gradient(120deg, var(--theme-deep), var(--theme));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.awd-outro {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+.awd-outro h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.4rem, 8vw, 5rem);
+  letter-spacing: -0.03em;
+  color: var(--navy);
+}
+
+/* ===========================================================
+   Section 3: "Your phone, simplified."
+   =========================================================== */
+.simpl {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 18px;
+  padding: 110px 24px;
+  background: radial-gradient(120% 90% at 50% 0%, #123c5e, var(--navy));
+  color: #fff;
+  overflow: hidden;
+}
+.eyebrow.light {
+  background: rgba(72, 202, 228, 0.16);
+  border-color: rgba(72, 202, 228, 0.4);
+  color: var(--theme-soft);
+}
+.simpl-h {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 6.5vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+.simpl-lead {
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 24em;
+}
+.simpl-card {
+  width: min(360px, 92vw);
+  background: #fff;
+  color: var(--navy);
+  border-radius: 22px;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  text-align: left;
+  margin: 12px 0;
+}
+.simpl-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 18px;
+  background: linear-gradient(120deg, var(--theme-deep), var(--theme));
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.simpl-sched { list-style: none; padding: 8px 8px 4px; }
+.simpl-sched li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 12px;
+  border-radius: 12px;
+}
+.simpl-sched li + li { border-top: 1px solid var(--line); }
+.simpl-sched .t { font-family: "Outfit", sans-serif; font-weight: 700; color: var(--theme-deep); width: 3.2em; flex: 0 0 auto; }
+.simpl-sched .j { font-size: 0.95rem; }
+.simpl-reminder {
+  margin: 6px 12px 16px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  background: rgba(72, 202, 228, 0.13);
+  color: var(--theme-deep);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.simpl-sub {
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  color: rgba(255, 255, 255, 0.85);
+}
+.simpl-sub strong { color: #fff; }
+.simpl-big {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.6rem, 4.5vw, 2.6rem);
+  letter-spacing: -0.02em;
+  background: linear-gradient(120deg, var(--theme-soft), var(--theme));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 6px;
+}
+
+/* ===========================================================
    Responsive
    =========================================================== */
 @media (max-width: 900px) {

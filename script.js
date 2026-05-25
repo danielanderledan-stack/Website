@@ -159,9 +159,73 @@ function updateStory() {
   }
 }
 
+/* ===========================================================
+   "Here's what we can do" — white cover rises over the previous
+   section, then a conveyor of capabilities streams bottom-left ->
+   centre -> top-left as you scroll, ending on "We do it all."
+   =========================================================== */
+const awdTrack = document.querySelector(".awd-track");
+const awdPin = document.querySelector(".awd-pin");
+const awdPanel = document.querySelector(".awd-panel");
+const awdHead = document.querySelector(".awd-head");
+const awdConveyor = document.querySelector(".awd-conveyor");
+const awdItems = Array.prototype.slice.call(document.querySelectorAll(".awd-item"));
+const awdOutro = document.querySelector(".awd-outro");
+const awd = { coverDist: 0, convDist: 0, outroDist: 0, total: 0, spacing: 0 };
+
+function measureAwd() {
+  if (!awdTrack || !awdPin) return;
+  const vh = window.innerHeight;
+  awd.coverDist = vh * 0.85;
+  awd.convDist = vh * 0.55 * awdItems.length;
+  awd.outroDist = vh * 0.9;
+  awd.total = awd.coverDist + awd.convDist + awd.outroDist;
+  awd.spacing = Math.max((awdConveyor ? awdConveyor.clientHeight : vh) * 0.24, 62);
+  awdTrack.style.height = vh + awd.total + "px";
+  updateAwd();
+}
+function updateAwd() {
+  if (!awdTrack) return;
+  const top = awdTrack.getBoundingClientRect().top;
+  const s = Math.min(Math.max(-top, 0), awd.total);
+
+  // Phase A: white panel rises to cover the previous section
+  const coverP = clamp01(s / awd.coverDist);
+  if (awdPanel) awdPanel.style.transform = "translateY(" + (1 - coverP) * 100 + "%)";
+
+  // Phase B: conveyor streams
+  const b1 = awd.coverDist;
+  const convP = clamp01((s - b1) / awd.convDist);
+  const N = awdItems.length;
+  const a = -1.5 + convP * (N + 3); // active fractional index
+  const sp = awd.spacing;
+  for (let i = 0; i < N; i++) {
+    const d = i - a;
+    const ad = Math.abs(d);
+    const y = d * sp;
+    const x = -(Math.min(ad, 2.5) / 2.5) * 90;
+    const sc = 1 - Math.min(ad, 3) * 0.07;
+    const op = clamp01(1 - (ad - 0.45) / 2.0);
+    const el = awdItems[i];
+    el.style.transform =
+      "translate(" + x.toFixed(1) + "px, calc(-50% + " + y.toFixed(1) + "px)) scale(" + sc.toFixed(3) + ")";
+    el.style.opacity = op.toFixed(3);
+    el.classList.toggle("active", ad < 0.55);
+  }
+
+  // Phase C: outro — fade head + conveyor out, "We do it all." in
+  const b2 = b1 + awd.convDist;
+  const outP = clamp01((s - b2) / awd.outroDist);
+  if (awdOutro) awdOutro.style.opacity = outP.toFixed(3);
+  const fade = (1 - outP).toFixed(3);
+  if (awdHead) awdHead.style.opacity = fade;
+  if (awdConveyor) awdConveyor.style.opacity = fade;
+}
+
 function measureAll() {
   measure();
   measureStory();
+  measureAwd();
 }
 
 let ticking = false;
@@ -171,6 +235,7 @@ function onScroll() {
   requestAnimationFrame(() => {
     update();
     updateStory();
+    updateAwd();
     ticking = false;
   });
 }
