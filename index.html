@@ -48,10 +48,8 @@
 
   <!-- Hero / header section -->
   <main>
-    <!-- Tall track: the hero pins (scroll appears to "stop") while the
-         phone's inner site scrolls; releases once that site hits bottom. -->
-    <div class="hero-track" id="home">
-    <section class="hero">
+    <!-- Intro: headline + copy (normal flow, vertically centered) -->
+    <section class="hero" id="home">
       <!-- Soft background blobs + grid -->
       <div class="hero-bg" aria-hidden="true">
         <span class="blob blob-1"></span>
@@ -115,35 +113,39 @@
       </div>
 
       <!-- Hero content -->
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <span class="eyebrow">
-            <span class="eyebrow-dot"></span>
-            Websites for tradies
-          </span>
-          <h1 class="headline">
-            Websites that get<br />
-            <span class="headline-accent">tradies booked out.</span>
-          </h1>
-          <p class="subhead">
-            <strong>Complete digital</strong> builds fast, mobile-first websites for sparkies,
-            chippies, plumbers &amp; builders — so you spend less time quoting and more
-            time on the tools.
-          </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">
-              Start your site
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-            </a>
-            <a href="#work" class="btn btn-ghost">See our work</a>
-          </div>
-          <div class="hero-trust">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <p>Loved by <strong>40+</strong> local trades across the country</p>
-          </div>
+      <div class="hero-copy">
+        <span class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Websites for tradies
+        </span>
+        <h1 class="headline">
+          Websites that get<br />
+          <span class="headline-accent">tradies booked out.</span>
+        </h1>
+        <p class="subhead">
+          <strong>Complete digital</strong> builds fast, mobile-first websites for sparkies,
+          chippies, plumbers &amp; builders — so you spend less time quoting and more
+          time on the tools.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            Start your site
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#work" class="btn btn-ghost">See our work</a>
         </div>
+        <div class="hero-trust">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <p>Loved by <strong>40+</strong> local trades across the country</p>
+        </div>
+      </div>
+    </section>
 
-        <!-- Phone that flies up -->
+    <!-- Phone showcase: the stage pins with the phone centred & fully in
+         view; only once pinned does the inner site begin to scroll. -->
+    <div class="hero-track" id="work">
+      <section class="stage">
+        <p class="stage-tag">A live site we built — scroll to explore it</p>
         <div class="phone-stage">
           <div class="phone-glow" aria-hidden="true"></div>
           <div class="phone">
@@ -156,10 +158,67 @@
           </div>
           <div class="phone-shadow" aria-hidden="true"></div>
         </div>
-      </div>
-
-    </section>
+      </section>
     </div>
+
+    <!-- Digital ally section -->
+    <section class="ally" id="services">
+      <div class="ally-inner">
+        <div class="ally-head reveal">
+          <span class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            More than a website
+          </span>
+          <h2 class="ally-title">We're your complete <span class="headline-accent">digital ally.</span></h2>
+          <p class="ally-sub">
+            A website is just the start. We run the whole digital side of your trade
+            business — bringing the work in and keeping it coming — so you can stay
+            focused on the job in front of you.
+          </p>
+        </div>
+
+        <div class="ally-grid">
+          <article class="ally-card reveal" style="--i:0">
+            <span class="ally-ic">🎯</span>
+            <h3>Lead generation</h3>
+            <p>We turn clicks into quote requests landing straight in your inbox or phone.</p>
+          </article>
+          <article class="ally-card reveal" style="--i:1">
+            <span class="ally-ic">📣</span>
+            <h3>Google &amp; Meta ads</h3>
+            <p>Targeted campaigns that put you in front of locals ready to book — today.</p>
+          </article>
+          <article class="ally-card reveal" style="--i:2">
+            <span class="ally-ic">🔍</span>
+            <h3>SEO &amp; Google rank</h3>
+            <p>We get you found on Google Maps and search for the jobs you actually want.</p>
+          </article>
+          <article class="ally-card reveal" style="--i:3">
+            <span class="ally-ic">🛠️</span>
+            <h3>Site updates &amp; care</h3>
+            <p>New photos, prices, services — we keep everything fresh. You never touch code.</p>
+          </article>
+          <article class="ally-card reveal" style="--i:4">
+            <span class="ally-ic">⭐</span>
+            <h3>Reviews &amp; reputation</h3>
+            <p>We help you collect 5-star reviews and show them off where they count.</p>
+          </article>
+          <article class="ally-card reveal" style="--i:5">
+            <span class="ally-ic">📈</span>
+            <h3>Tracking &amp; reporting</h3>
+            <p>Clear monthly numbers on calls, leads and spend — no jargon, no guessing.</p>
+          </article>
+        </div>
+
+        <div class="ally-banner reveal">
+          <p>We do the <strong>digital</strong>, so you've got more time for the <strong>physical</strong>.</p>
+          <a href="#contact" class="btn btn-primary">
+            Become a partner
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script src="script.js"></script>

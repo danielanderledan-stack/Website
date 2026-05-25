@@ -112,3 +112,27 @@ window.addEventListener("message", (e) => {
 window.addEventListener("scroll", onScroll, { passive: true });
 window.addEventListener("resize", measure);
 measure();
+
+/* ===========================================================
+   Scroll reveals
+   - `.stage` gets `.revealed` (phone fly-up) as it scrolls into view,
+     so the phone is centred & landing before the inner site can scroll.
+   - `.reveal` elements (ally section) fade/rise in once.
+   =========================================================== */
+const revealEls = document.querySelectorAll(".stage, .reveal");
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        el.classList.add(el.classList.contains("stage") ? "revealed" : "in");
+        io.unobserve(el);
+      });
+    },
+    { threshold: 0.2 }
+  );
+  revealEls.forEach((el) => io.observe(el));
+} else {
+  revealEls.forEach((el) => el.classList.add(el.classList.contains("stage") ? "revealed" : "in"));
+}

@@ -167,18 +167,48 @@ ul { list-style: none; }
 /* ===========================================================
    Hero
    =========================================================== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 180px 24px 90px;
+  overflow: hidden;
+}
+
+/* ---- Pinned phone showcase ---- */
 /* Tall track drives the pinned-scroll; height set by JS = viewport + inner-site scroll. */
 .hero-track { position: relative; }
-
-.hero {
+.stage {
   position: sticky;
   top: 0;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 150px 24px 60px;
+  justify-content: center;
+  gap: 24px;
+  padding: 86px 24px 38px;
   overflow: hidden;
+  background: radial-gradient(120% 80% at 50% 0%, rgba(72, 202, 228, 0.10), transparent 58%);
 }
+.stage-tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--theme-deep);
+  background: rgba(72, 202, 228, 0.12);
+  border: 1px solid rgba(72, 202, 228, 0.32);
+  padding: 8px 17px;
+  border-radius: 999px;
+  opacity: 0;
+}
+.stage.revealed .stage-tag { animation: rise 0.6s var(--ease-out) 0.1s forwards; }
 
 .hero-bg { position: absolute; inset: 0; z-index: 0; }
 .blob {
@@ -293,16 +323,15 @@ ul { list-style: none; }
   100% { opacity: 0; transform: translate(-14px, 46px); }
 }
 
-/* ---- Hero inner layout ---- */
-.hero-inner {
+/* ---- Hero copy ---- */
+.hero-copy {
   position: relative;
   z-index: 5;
-  width: min(1180px, 100%);
+  width: min(800px, 100%);
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 40px;
 }
 
 .hero-copy > * {
@@ -389,6 +418,7 @@ ul { list-style: none; }
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 14px;
   margin-bottom: 34px;
 }
@@ -428,33 +458,32 @@ ul { list-style: none; }
 .stars { color: #ffb703; letter-spacing: 2px; font-size: 1.05rem; }
 
 /* ===========================================================
-   Phone that flies up
+   Phone that flies up (entrance triggered when the stage scrolls in)
    =========================================================== */
 .phone-stage {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  min-height: 560px;
+  align-items: center;
 }
 
 .phone-glow {
   position: absolute;
-  width: 360px; height: 360px;
+  width: 380px; height: 380px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(72, 202, 228, 0.5), transparent 65%);
   filter: blur(50px);
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: glowIn 1s ease 1.3s forwards;
 }
+.stage.revealed .phone-glow { animation: glowIn 1s ease 0.3s forwards; }
 @keyframes glowIn { to { opacity: 1; } }
 
 .phone {
   position: relative;
-  width: 270px;
-  height: 552px;
+  width: 264px;
+  height: 540px;
   background: linear-gradient(160deg, #16324f, #0a2540);
   border-radius: 42px;
   padding: 13px;
@@ -462,20 +491,19 @@ ul { list-style: none; }
     var(--shadow-lg),
     inset 0 0 0 2px rgba(255, 255, 255, 0.08),
     inset 0 0 0 6px #06182b;
-  /* Fly-up entrance: starts low + large, settles into place */
-  transform: translateY(58vh) scale(1.14);
+  /* Fly-up entrance: rises into place when the stage reveals */
+  transform: translateY(110px) scale(0.94);
   opacity: 0;
-  animation: phoneFlyUp 1.5s var(--ease-out) 0.45s forwards;
   z-index: 2;
 }
+.stage.revealed .phone {
+  animation: phoneFlyUp 1.2s var(--ease-out) forwards,
+             phoneIdle 7s ease-in-out 1.5s infinite;
+}
 @keyframes phoneFlyUp {
-  0%   { transform: translateY(58vh) scale(1.14); opacity: 0; }
-  18%  { opacity: 1; }
+  0%   { transform: translateY(110px) scale(0.94); opacity: 0; }
   100% { transform: translateY(0) scale(1); opacity: 1; }
 }
-
-/* gentle idle float after landing */
-.loaded .phone { animation: phoneFlyUp 1.5s var(--ease-out) 0.45s forwards, phoneIdle 7s ease-in-out 2s infinite; }
 @keyframes phoneIdle {
   0%, 100% { translate: 0 0; }
   50% { translate: 0 -12px; }
@@ -515,8 +543,8 @@ ul { list-style: none; }
   background: #fff;
   will-change: transform;
   opacity: 0;
-  animation: glowIn 0.7s ease 1.5s forwards;   /* fade in once phone lands */
 }
+.stage.revealed .phone-frame { animation: glowIn 0.7s ease 0.55s forwards; }
 
 .phone-shadow {
   position: absolute;
@@ -527,8 +555,110 @@ ul { list-style: none; }
   filter: blur(18px);
   border-radius: 50%;
   opacity: 0;
-  animation: glowIn 0.8s ease 1.6s forwards;
 }
+.stage.revealed .phone-shadow { animation: glowIn 0.8s ease 0.5s forwards; }
+
+/* ===========================================================
+   Digital ally section
+   =========================================================== */
+.ally {
+  position: relative;
+  padding: 110px 24px 120px;
+  background: linear-gradient(180deg, #fff 0%, var(--paper) 100%);
+}
+.ally-inner { width: min(1080px, 100%); margin: 0 auto; }
+
+.ally-head {
+  text-align: center;
+  max-width: 740px;
+  margin: 0 auto 54px;
+}
+.ally-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 4.4vw, 3.1rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 16px 0 18px;
+}
+.ally-sub {
+  font-size: clamp(1rem, 1.4vw, 1.18rem);
+  line-height: 1.6;
+  color: var(--navy-soft);
+}
+
+.ally-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.ally-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.3s var(--ease-out), border-color 0.3s;
+}
+.ally-card:hover {
+  border-color: rgba(72, 202, 228, 0.6);
+  box-shadow: 0 26px 46px -24px rgba(0, 168, 207, 0.55);
+}
+.ally-ic {
+  display: inline-grid;
+  place-items: center;
+  width: 54px; height: 54px;
+  border-radius: 16px;
+  background: rgba(72, 202, 228, 0.14);
+  font-size: 1.55rem;
+  margin-bottom: 18px;
+}
+.ally-card h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+.ally-card p { font-size: 0.96rem; line-height: 1.55; color: var(--navy-soft); }
+
+.ally-banner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--navy), #123c5e);
+  color: #fff;
+  border-radius: 26px;
+  padding: 52px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.ally-banner::after {
+  content: "";
+  position: absolute;
+  width: 320px; height: 320px;
+  right: -90px; top: -120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(72, 202, 228, 0.5), transparent 70%);
+}
+.ally-banner p {
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.2vw, 2.25rem);
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  max-width: 16em;
+}
+.ally-banner strong { color: var(--theme); font-weight: 700; }
+.ally-banner .btn { position: relative; }
+
+/* Scroll-reveal */
+.reveal { opacity: 0; }
+.reveal.in { animation: rise 0.75s var(--ease-out) forwards; }
+.ally-card.reveal.in { animation-delay: calc(var(--i) * 80ms); }
 
 /* ===========================================================
    Responsive
@@ -557,25 +687,30 @@ ul { list-style: none; }
   .nav-links.is-open { display: flex; }
   .nav-link { justify-content: center; padding: 12px; }
 
-  .hero-inner {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 24px;
-  }
-  .hero-copy { display: flex; flex-direction: column; align-items: center; }
   .subhead { margin-left: auto; margin-right: auto; }
-  .phone-stage { min-height: 480px; order: 2; }
+  .ally-grid { grid-template-columns: repeat(2, 1fr); }
 
   /* keep flying tools from crowding text on small screens */
   .tool[data-tool="wrench"], .tool[data-tool="screw"], .tool[data-tool="ruler"] { display: none; }
 }
 
 @media (max-width: 560px) {
-  .hero { padding-top: 130px; }
+  .hero { padding-top: 140px; }
   .phone { width: 230px; height: 470px; }
   .tool-art { width: 84px; }
   .tool[data-tool="roller"] { --rest-right: 2%; }
   .tool[data-tool="wood"] { --rest-left: 2%; }
+  .ally-grid { grid-template-columns: 1fr; }
+  .ally { padding: 80px 20px 90px; }
+}
+
+/* shorter viewports: shrink the phone so it stays fully in view when pinned */
+@media (max-height: 760px) {
+  .phone { width: 230px; height: 470px; }
+}
+@media (max-height: 660px) {
+  .phone { width: 198px; height: 404px; }
+  .stage { gap: 16px; padding-top: 72px; }
 }
 
 /* ===========================================================
@@ -583,7 +718,8 @@ ul { list-style: none; }
    =========================================================== */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
-  .nav-bubble, .hero-copy > *, .phone-glow, .phone-shadow, .phone-frame { opacity: 1 !important; transform: none !important; }
+  .nav-bubble, .hero-copy > *, .phone-glow, .phone-shadow, .phone-frame,
+  .reveal, .stage-tag { opacity: 1 !important; transform: none !important; }
   .phone { transform: none !important; opacity: 1 !important; }
   .tool { opacity: 1 !important; transform: translate(0, 0) rotate(0) !important; }
   .headline-accent::after { transform: scaleX(1) !important; }
