@@ -559,106 +559,112 @@ ul { list-style: none; }
 .stage.revealed .phone-shadow { animation: glowIn 0.8s ease 0.5s forwards; }
 
 /* ===========================================================
-   Digital ally section
+   What we handle — pinned horizontal rail
    =========================================================== */
-.ally {
+.do {
   position: relative;
-  padding: 110px 24px 120px;
   background: linear-gradient(180deg, #fff 0%, var(--paper) 100%);
 }
-.ally-inner { width: min(1080px, 100%); margin: 0 auto; }
-
-.ally-head {
-  text-align: center;
-  max-width: 740px;
-  margin: 0 auto 54px;
-}
-.ally-title {
-  font-family: "Outfit", sans-serif;
-  font-weight: 800;
-  font-size: clamp(2rem, 4.4vw, 3.1rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
-  margin: 16px 0 18px;
-}
-.ally-sub {
-  font-size: clamp(1rem, 1.4vw, 1.18rem);
-  line-height: 1.6;
-  color: var(--navy-soft);
-}
-
-.ally-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-}
-.ally-card {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  padding: 28px 24px;
-  box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.3s var(--ease-out), border-color 0.3s;
-}
-.ally-card:hover {
-  border-color: rgba(72, 202, 228, 0.6);
-  box-shadow: 0 26px 46px -24px rgba(0, 168, 207, 0.55);
-}
-.ally-ic {
-  display: inline-grid;
-  place-items: center;
-  width: 54px; height: 54px;
-  border-radius: 16px;
-  background: rgba(72, 202, 228, 0.14);
-  font-size: 1.55rem;
-  margin-bottom: 18px;
-}
-.ally-card h3 {
-  font-family: "Outfit", sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: -0.01em;
-  margin-bottom: 8px;
-}
-.ally-card p { font-size: 0.96rem; line-height: 1.55; color: var(--navy-soft); }
-
-.ally-banner {
-  position: relative;
+/* Tall track; height set by JS = viewport + horizontal scroll distance. */
+.do-track { position: relative; }
+.do-pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
   overflow: hidden;
-  margin-top: 50px;
-  text-align: center;
-  background: linear-gradient(135deg, var(--navy), #123c5e);
-  color: #fff;
-  border-radius: 26px;
-  padding: 52px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 24px;
+  justify-content: center;
+  gap: 28px;
 }
-.ally-banner::after {
+
+.do-head {
+  flex: 0 0 auto;
+  padding: 0 24px;
+}
+.do-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 12px 0 18px;
+  max-width: 14em;
+}
+.do-progress {
+  width: min(220px, 60%);
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(10, 37, 64, 0.10);
+  overflow: hidden;
+}
+.do-progress span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--theme), var(--theme-deep));
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+/* The rail is translated left (right-to-left) as the section is scrolled. */
+.do-rail {
+  display: flex;
+  align-items: stretch;
+  gap: 18px;
+  padding: 0 24px;
+  width: max-content;
+  will-change: transform;
+}
+.do-card {
+  position: relative;
+  flex: 0 0 auto;
+  width: clamp(230px, 78vw, 340px);
+  height: clamp(300px, 52vh, 460px);
+  border-radius: 26px;
+  padding: 26px;
+  background: linear-gradient(165deg, #ffffff, var(--paper));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: transform 0.35s var(--ease-out), box-shadow 0.35s, border-color 0.35s;
+}
+.do-card::after {
   content: "";
   position: absolute;
-  width: 320px; height: 320px;
-  right: -90px; top: -120px;
+  width: 200px; height: 200px;
+  right: -70px; bottom: -80px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(72, 202, 228, 0.5), transparent 70%);
+  background: radial-gradient(circle, rgba(72, 202, 228, 0.22), transparent 70%);
 }
-.ally-banner p {
-  position: relative;
+.do-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(72, 202, 228, 0.6);
+  box-shadow: 0 30px 50px -26px rgba(0, 168, 207, 0.55);
+}
+.do-num {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
-  font-size: clamp(1.5rem, 3.2vw, 2.25rem);
-  line-height: 1.18;
-  letter-spacing: -0.02em;
-  max-width: 16em;
+  font-size: 1rem;
+  color: var(--theme-deep);
+  letter-spacing: 0.08em;
 }
-.ally-banner strong { color: var(--theme); font-weight: 700; }
-.ally-banner .btn { position: relative; }
+.do-card h3 {
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.7rem, 5vw, 2.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
 
 /* Scroll-reveal */
 .reveal { opacity: 0; }
 .reveal.in { animation: rise 0.75s var(--ease-out) forwards; }
-.ally-card.reveal.in { animation-delay: calc(var(--i) * 80ms); }
 
 /* ===========================================================
    Responsive
@@ -688,7 +694,6 @@ ul { list-style: none; }
   .nav-link { justify-content: center; padding: 12px; }
 
   .subhead { margin-left: auto; margin-right: auto; }
-  .ally-grid { grid-template-columns: repeat(2, 1fr); }
 
   /* keep flying tools from crowding text on small screens */
   .tool[data-tool="wrench"], .tool[data-tool="screw"], .tool[data-tool="ruler"] { display: none; }
@@ -700,8 +705,6 @@ ul { list-style: none; }
   .tool-art { width: 84px; }
   .tool[data-tool="roller"] { --rest-right: 2%; }
   .tool[data-tool="wood"] { --rest-left: 2%; }
-  .ally-grid { grid-template-columns: 1fr; }
-  .ally { padding: 80px 20px 90px; }
 }
 
 /* shorter viewports: shrink the phone so it stays fully in view when pinned */

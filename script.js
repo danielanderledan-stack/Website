@@ -71,18 +71,49 @@ function measure() {
   update();
 }
 
-let ticking = false;
 function update() {
   if (!track || !frame) return;
   const top = track.getBoundingClientRect().top;
   const scrolled = Math.min(Math.max(-top, 0), innerMax);
   frame.style.transform = "translateY(" + -scrolled + "px)";
 }
+
+/* ----- Pinned horizontal rail ("what we handle") ----- */
+const doTrack = document.querySelector(".do-track");
+const doPin = document.querySelector(".do-pin");
+const doRail = document.querySelector(".do-rail");
+const doBar = document.querySelector(".do-progress span");
+let doMax = 0;
+
+function measureDo() {
+  if (!doTrack || !doPin || !doRail) return;
+  doMax = Math.max(doRail.scrollWidth - doPin.clientWidth, 0);
+  doTrack.style.height = window.innerHeight + doMax + "px";
+  updateDo();
+}
+function updateDo() {
+  if (!doTrack || !doRail) return;
+  const top = doTrack.getBoundingClientRect().top;
+  const scrolled = Math.min(Math.max(-top, 0), doMax);
+  doRail.style.transform = "translateX(" + -scrolled + "px)";
+  if (doBar) {
+    const p = doMax > 0 ? scrolled / doMax : 0;
+    doBar.style.transform = "scaleX(" + p + ")";
+  }
+}
+
+function measureAll() {
+  measure();
+  measureDo();
+}
+
+let ticking = false;
 function onScroll() {
   if (ticking) return;
   ticking = true;
   requestAnimationFrame(() => {
     update();
+    updateDo();
     ticking = false;
   });
 }
@@ -110,8 +141,14 @@ window.addEventListener("message", (e) => {
 });
 
 window.addEventListener("scroll", onScroll, { passive: true });
-window.addEventListener("resize", measure);
-measure();
+window.addEventListener("resize", measureAll);
+measureAll();
+
+// Card widths depend on fonts; re-measure once they settle.
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(measureAll);
+}
+setTimeout(measureAll, 400);
 
 /* ===========================================================
    Scroll reveals
