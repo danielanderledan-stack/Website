@@ -32,7 +32,9 @@ const track = document.querySelector(".hero-track");
 const frame = document.querySelector(".phone-frame");
 const screen = document.querySelector(".phone-screen");
 
-let innerMax = 0;          // how far the inner site can scroll
+let innerMax = 0;          // how far the inner site can scroll (in screen px)
+let frameScale = 1;        // inner site is rendered at a reference width then scaled
+const FRAME_REF_W = 238;   // logical width of the inner site (desktop screen inner width)
 const FALLBACK_MAX = 1400; // used if the iframe height can't be read
 
 function readContentHeight() {
@@ -56,16 +58,25 @@ function measure() {
   if (!track || !frame || !screen) return;
 
   const screenH = screen.clientHeight;
-  let contentH = readContentHeight();
+  const screenW = screen.clientWidth;
+  // Render the inner site at a fixed reference width and scale it to fill the
+  // screen, so the UI scales with the phone rather than reflowing. On desktop
+  // the screen is ~238px wide, so the scale is 1 and nothing changes.
+  frameScale = screenW / FRAME_REF_W;
+  frame.style.width = FRAME_REF_W + "px";
+
+  let contentH = readContentHeight(); // measured at the reference width
 
   if (contentH > 0) {
     frame.style.height = contentH + "px";
   } else {
-    // Couldn't read the iframe; keep it screen-height and use a fallback span.
-    contentH = screenH + FALLBACK_MAX;
+    // Couldn't read the iframe; fall back to a generous span.
+    contentH = screenH / frameScale + FALLBACK_MAX;
+    frame.style.height = contentH + "px";
   }
 
-  innerMax = Math.max(Math.round(contentH - screenH), 0);
+  // Visual (post-scale) distance the inner site can travel inside the screen.
+  innerMax = Math.max(Math.round(contentH * frameScale - screenH), 0);
   // Track = one viewport (the pinned portion) + the inner scroll distance.
   track.style.height = window.innerHeight + innerMax + "px";
   update();
@@ -75,7 +86,7 @@ function update() {
   if (!track || !frame) return;
   const top = track.getBoundingClientRect().top;
   const scrolled = Math.min(Math.max(-top, 0), innerMax);
-  frame.style.transform = "translateY(" + -scrolled + "px)";
+  frame.style.transform = "translateY(" + -scrolled + "px) scale(" + frameScale + ")";
 }
 
 function clamp01(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
@@ -175,7 +186,7 @@ window.addEventListener("message", (e) => {
   if (data && data.type === "phoneSiteHeight" && typeof data.height === "number") {
     const screenH = screen ? screen.clientHeight : 0;
     frame.style.height = data.height + "px";
-    innerMax = Math.max(Math.round(data.height - screenH), 0);
+    innerMax = Math.max(Math.round(data.height * frameScale - screenH), 0);
     track.style.height = window.innerHeight + innerMax + "px";
     update();
   }

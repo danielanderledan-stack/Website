@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design philosophy — Complete digital…</title>
+  <meta name="description" content="How Complete digital builds tradie websites: listen, mobile-first, speed, convert, maintain." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Floating bubble navigation -->
+  <header class="nav-wrap">
+    <nav class="nav-bubble" aria-label="Primary">
+      <a class="brand" href="index.html#home" aria-label="Complete digital home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-name">Complete digital<span class="brand-ellipsis">…</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html#home" class="nav-link" aria-label="Home">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="nav-icon"><path d="M3 11.2 12 4l9 7.2M5.5 9.6V20h13V9.6"/></svg>
+            <span>Home</span>
+          </a>
+        </li>
+        <li><a href="design.html" class="nav-link is-active">Design</a></li>
+        <li><a href="seo.html" class="nav-link">SEO</a></li>
+      </ul>
+
+      <a href="index.html#contact" class="nav-cta">
+        Get a quote
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <span class="eyebrow reveal"><span class="eyebrow-dot"></span> Design philosophy</span>
+      <h1 class="page-title reveal">How we build, <span class="headline-accent">step by step.</span></h1>
+      <p class="page-lead reveal">No templates dressed up as custom work. Every site follows the same
+        five-stage method — the same one we'd want a tradie to use on our own job.</p>
+
+      <div class="stages">
+        <div class="stage-row reveal">
+          <span class="stage-node" aria-hidden="true"></span>
+          <span class="stage-num" aria-hidden="true">01</span>
+          <div class="stage-body">
+            <h2 class="stage-title">Listen</h2>
+            <p class="stage-text">We start with the trade, the area and the customers — not a colour
+              palette. Who's calling you, what they're searching at 7pm with a tripped switchboard,
+              which suburbs actually pay. The jobs you want more of and the ones you'd rather hand off.
+              Get that right and the site almost designs itself. Get it wrong and no amount of polish
+              saves it.</p>
+          </div>
+        </div>
+
+        <div class="stage-row reveal">
+          <span class="stage-node" aria-hidden="true"></span>
+          <span class="stage-num" aria-hidden="true">02</span>
+          <div class="stage-body">
+            <h2 class="stage-title">Mobile-first</h2>
+            <p class="stage-text">Built for the thumb, not the boardroom. The overwhelming majority of
+              your customers find you on a phone, one-handed, half-distracted. So we design the small
+              screen first — big tap targets, a phone number that's never more than a thumb away, no
+              pinch-zooming to read a price. The desktop version comes after, not before.</p>
+          </div>
+        </div>
+
+        <div class="stage-row reveal">
+          <span class="stage-node" aria-hidden="true"></span>
+          <span class="stage-num" aria-hidden="true">03</span>
+          <div class="stage-body">
+            <h2 class="stage-title">Speed</h2>
+            <p class="stage-text">Sub-2-second loads, or it's not finished. A slow site bleeds customers
+              before they ever see your work — and more than half of mobile visitors leave a page that
+              takes over three seconds. We ship lean code, compressed images and no bloated page-builders,
+              then measure it on a real phone on real mobile data. Fast isn't a nice-to-have; it's the job.</p>
+          </div>
+        </div>
+
+        <div class="stage-row reveal">
+          <span class="stage-node" aria-hidden="true"></span>
+          <span class="stage-num" aria-hidden="true">04</span>
+          <div class="stage-body">
+            <h2 class="stage-title">Convert</h2>
+            <p class="stage-text">Every page earns a booking or gets cut. A website isn't a brochure — it's
+              a salesperson that works while you're up a ladder. Each page has one clear job: get the
+              visitor to call, message or book. If a section doesn't move someone closer to that, it's
+              clutter, and clutter gets deleted. Pretty is easy. Pretty that books work is the point.</p>
+          </div>
+        </div>
+
+        <div class="stage-row reveal">
+          <span class="stage-node" aria-hidden="true"></span>
+          <span class="stage-num" aria-hidden="true">05</span>
+          <div class="stage-body">
+            <h2 class="stage-title">Maintain</h2>
+            <p class="stage-text">Sites die without care — we don't ship and run. Search engines shift,
+              browsers update, your services change and reviews keep rolling in. We keep the site current,
+              fast and secure, swap in new work and prices, and watch the numbers so small problems get
+              fixed before they cost you jobs. A website is a tool you keep sharp, not a plaque you hang once.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="page-back"><a href="seo.html">Next: how we get you found — our SEO approach →</a></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
