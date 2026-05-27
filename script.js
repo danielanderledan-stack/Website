@@ -274,7 +274,7 @@ setTimeout(measureAll, 400);
 /* ===========================================================
    Contact form → POST the enquiry to the n8n webhook as JSON
    =========================================================== */
-const WEBHOOK_URL = "https://n8n-production-d02c.up.railway.app/webhook-test/a9535112-5d90-4ecc-a74a-7a9c8bcbdc81";
+const WEBHOOK_URL = "https://n8n-production-d02c.up.railway.app/webhook/a9535112-5d90-4ecc-a74a-7a9c8bcbdc81";
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
   const statusEl = contactForm.querySelector(".form-status");

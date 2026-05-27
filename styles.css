@@ -145,6 +145,10 @@ ul { list-style: none; }
 .nav-cta svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .nav-cta:hover { transform: translateY(-2px); background: #06182b; }
 
+/* "Get a quote" inside the mobile dropdown — hidden on desktop where the
+   standalone .nav-cta button is shown instead. */
+.nav-links-cta { display: none; }
+
 .nav-burger {
   display: none;
   flex-direction: column;
@@ -1029,6 +1033,15 @@ ul { list-style: none; }
   }
   .nav-links.is-open { display: flex; }
   .nav-link { justify-content: center; padding: 12px; }
+
+  .nav-links-cta { display: block; margin-top: 2px; }
+  .nav-link-cta {
+    background: var(--navy);
+    color: #fff;
+    font-weight: 600;
+  }
+  .nav-link-cta svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .nav-link-cta:hover, .nav-link-cta.is-active { background: #06182b; color: #fff; }
 
   .subhead { margin-left: auto; margin-right: auto; }
 
