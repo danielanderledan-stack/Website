@@ -575,12 +575,12 @@ ul { list-style: none; }
    =========================================================== */
 .relax {
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 100px 24px;
+  padding: 80px 24px 60px;
   background: linear-gradient(180deg, var(--paper) 0%, #fff 100%);
 }
 .relax-inner { width: min(900px, 100%); }
@@ -712,6 +712,42 @@ ul { list-style: none; }
   color: var(--navy);
 }
 
+/* Scroll hint inside the pinned awd panel */
+.awd-scroll-hint {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  opacity: 0.45;
+  pointer-events: none;
+}
+.awd-scroll-line {
+  width: 1.5px;
+  height: 36px;
+  background: var(--navy);
+  border-radius: 1px;
+  animation: scrollPulse 1.6s ease-in-out infinite;
+  transform-origin: top center;
+}
+.awd-scroll-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.3; transform: scaleY(0.6); }
+  50% { opacity: 1; transform: scaleY(1); }
+}
+
+/* "Book now" CTA at the bottom of the leads section */
+.leads-cta { margin-top: 36px; }
+
 /* light eyebrow used on dark backgrounds */
 .eyebrow.light {
   background: rgba(72, 202, 228, 0.16);
@@ -719,16 +755,8 @@ ul { list-style: none; }
   color: var(--theme-soft);
 }
 
-/* inline "approach" link under the rotator block */
+/* "Our process" button under the rotator block */
 .relax-link { margin-top: 28px; }
-.relax-link a {
-  font-weight: 600;
-  color: var(--theme-deep);
-  border-bottom: 1px solid rgba(0, 168, 207, 0.4);
-  padding-bottom: 1px;
-  transition: color 0.2s, border-color 0.2s;
-}
-.relax-link a:hover { color: var(--navy); border-color: var(--navy); }
 
 /* ===========================================================
    Plain text blocks: Instant quotes + Leads
@@ -1075,6 +1103,17 @@ ul { list-style: none; }
   .tool-art { width: 84px; }
   .tool[data-tool="roller"] { --rest-right: 2%; }
   .tool[data-tool="wood"] { --rest-left: 2%; }
+
+  /* Centre conveyor items: span the full content width, text centred.
+     The JS translateX drift still works — active item (x=0) is centred,
+     off-screen items shift left as usual. */
+  .awd-item {
+    left: 24px;
+    right: 24px;
+    white-space: normal;
+    text-align: center;
+    font-size: clamp(1.55rem, 7.5vw, 2.4rem);
+  }
 }
 
 /* ===========================================================
