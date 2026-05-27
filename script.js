@@ -35,8 +35,8 @@ const screen = document.querySelector(".phone-screen");
 let innerMax = 0;          // how far the inner site can scroll (in screen px)
 let frameScale = 1;        // inner site is rendered at a reference width then scaled
 let lastScrolled = -1;     // memo: skip rewriting the iframe transform when unchanged
-const FRAME_REF_W = 238;   // logical width of the inner site (desktop screen inner width)
-const FALLBACK_MAX = 1400; // used if the iframe height can't be read
+const FRAME_REF_W = 390;   // render the inner site at a real phone viewport width, then scale to fit the screen
+const FALLBACK_MAX = 4600; // used if the iframe height can't be read (e.g. a cross-origin site that doesn't post its height)
 
 function readContentHeight() {
   try {
