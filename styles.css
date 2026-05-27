@@ -1204,36 +1204,10 @@ ul { list-style: none; }
   border: 1px solid var(--line);
   box-shadow: var(--shadow-sm);
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
-  padding: 16px;
+  display: block;
+  padding: 0;
 }
-.merch-item {
-  background: #fff;
-  border-radius: 10px;
-  border: 1px solid var(--line);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
-  font-size: 0.7rem;
-  color: var(--ink-faint);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.merch-magnet {
-  background: linear-gradient(135deg, var(--theme-soft), var(--theme));
-  color: var(--navy);
-  border-color: transparent;
-}
-.merch-shirt {
-  background: linear-gradient(135deg, #ffb703, #fb8500);
-  color: #fff;
-  border-color: transparent;
-}
+.merch-svg { width: 100%; height: 100%; display: block; }
 
 /* ===========================================================
    Contact form
