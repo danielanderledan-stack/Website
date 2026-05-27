@@ -513,16 +513,6 @@ ul { list-style: none; }
   50% { translate: 0 -12px; }
 }
 
-.phone-notch {
-  position: absolute;
-  top: 13px; left: 50%;
-  transform: translateX(-50%);
-  width: 110px; height: 26px;
-  background: #06182b;
-  border-radius: 0 0 16px 16px;
-  z-index: 3;
-}
-
 .phone-screen {
   position: relative;
   width: 100%; height: 100%;

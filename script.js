@@ -22,27 +22,37 @@ if (burger && links) {
 }
 
 /* ===========================================================
-   Phone showcase — two modes, chosen automatically:
-   • Pinned scroll-through (the premium effect): while the hero pins,
-     page scroll drives the inner site upward 1:1, then the page carries
-     on. Needs the inner site's height, which is readable only for a
-     same-origin site or one that posts its height (see message handler).
-   • Interactive (fallback): the site fills the screen and you scroll it
-     inside the phone like a real device. Used when the height can't be
-     known (e.g. a cross-origin site that doesn't report it), so the whole
-     site is always reachable.
-   The inner site is always rendered at a real phone viewport width and
-   scaled to fit, so it shows its proper mobile layout, never squished.
+   Phone showcase — pinned scroll-through
+   The phone pins centred in the viewport; page scroll then drives the
+   inner site upward, so it scrolls through the whole site, then the page
+   carries on. The inner site is rendered at a real phone viewport width
+   and scaled to fit, so it shows its proper mobile layout (never squished).
+
+   To do that we need the inner site's content height. We get it from,
+   in order: a same-origin read; a {type:"phoneSiteHeight"} postMessage;
+   or, for the current cross-origin demo (whose height the browser won't
+   let us read), a measured constant below. If none is available it falls
+   back to an interactive scroll-inside-the-frame so the site is still
+   reachable.
    =========================================================== */
 const track = document.querySelector(".hero-track");
 const frame = document.querySelector(".phone-frame");
 const screen = document.querySelector(".phone-screen");
 const FRAME_REF_W = 390;   // render the inner site at a real phone viewport width
+// Measured content height (px) of the embedded site at FRAME_REF_W width.
+// Browsers block reading a cross-origin iframe's height, so this is captured
+// out-of-band (headless browser). Update it if you swap the phone's src, or
+// have that site post {type:"phoneSiteHeight"} to override it live.
+const EMBEDDED_SITE_HEIGHT = 9768;
+// Cap how much page-scroll the pin consumes, so a tall site doesn't pin
+// forever — the inner site just scrolls faster within this distance.
+const MAX_PIN_VH = 2.6;
 
 let frameScale = 1;
-let innerMax = 0;          // pinned: visual px the inner site can travel
-let pinHeight = 0;         // pinned: inner site content height at the reference width
-let lastScrolled = -1;     // pinned: memo to skip redundant transform writes
+let innerMax = 0;          // visual px the inner site can travel inside the screen
+let pinTravel = 0;         // page-scroll px the pin consumes (drives innerMax)
+let pinHeight = 0;         // inner site content height at the reference width
+let lastScrolled = -1;     // memo to skip redundant transform writes
 let pinned = false;
 
 function readContentHeight() {
@@ -59,13 +69,13 @@ function readContentHeight() {
   }
 }
 
-// Interactive: lay the site out at a real phone width, scale to fit, and let
-// it scroll inside the frame on its own.
+// Interactive last resort: site fills the screen and scrolls inside the frame.
 function fitInteractive() {
   const screenW = screen.clientWidth, screenH = screen.clientHeight;
   frameScale = screenW / FRAME_REF_W;
   frame.style.width = FRAME_REF_W + "px";
   frame.style.height = screenH / frameScale + "px";
+  frame.classList.remove("is-pinned");
   frame.style.transform = "scale(" + frameScale + ")";
 }
 
@@ -77,29 +87,27 @@ function enablePinned(contentH) {
   const screenW = screen.clientWidth, screenH = screen.clientHeight;
   frameScale = screenW / FRAME_REF_W;
   frame.style.width = FRAME_REF_W + "px";
-  frame.style.height = contentH + "px";
+  // +2px guard so the cross-origin iframe never overflows -> no inner scrollbar.
+  frame.style.height = (contentH + 2) + "px";
   frame.classList.add("is-pinned");
   innerMax = Math.max(Math.round(contentH * frameScale - screenH), 0);
-  track.style.height = window.innerHeight + innerMax + "px";
+  pinTravel = Math.min(innerMax, Math.round(window.innerHeight * MAX_PIN_VH));
+  track.style.height = window.innerHeight + pinTravel + "px";
   lastScrolled = -1;
   updatePhone();
 }
 
 function measurePhone() {
   if (!frame || !screen) return;
-  if (pinned) {
-    enablePinned(pinHeight);          // recompute scale / innerMax (e.g. on resize)
-  } else {
-    fitInteractive();
-    const h = readContentHeight();    // same-origin sites upgrade to pinned
-    if (h > 0) enablePinned(h);
-  }
+  if (pinned) { enablePinned(pinHeight); return; } // recompute on resize
+  fitInteractive();                                // placeholder; the load event decides
 }
 
 function updatePhone() {
-  if (!pinned || !track || !frame) return;
+  if (!pinned || !track || !frame || pinTravel <= 0) return;
   const top = track.getBoundingClientRect().top;
-  const scrolled = Math.min(Math.max(-top, 0), innerMax);
+  const p = Math.min(Math.max(-top, 0), pinTravel) / pinTravel; // 0..1 through the pin
+  const scrolled = Math.round(p * innerMax);
   if (scrolled === lastScrolled) return;
   lastScrolled = scrolled;
   frame.style.transform = "translateY(" + -scrolled + "px) scale(" + frameScale + ")";
@@ -236,11 +244,14 @@ function onScroll() {
 }
 
 if (frame) {
+  // The load event is authoritative: only here is the real content committed.
+  // Same-origin gives a readable height; a cross-origin read throws (0), so we
+  // use the measured constant. Re-decided on every load (ignores any transient
+  // about:blank that some browsers surface before the real navigation).
   frame.addEventListener("load", () => {
-    measurePhone();
-    // Re-check after web fonts / async layout (and SPA render) settle.
-    setTimeout(measurePhone, 300);
-    setTimeout(measurePhone, 1200);
+    const h = readContentHeight();
+    enablePinned(h > 0 ? h : EMBEDDED_SITE_HEIGHT);
+    setTimeout(measurePhone, 400);
   });
 }
 
