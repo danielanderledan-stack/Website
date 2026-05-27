@@ -154,9 +154,49 @@ function updateAwd() {
   if (awdConveyor) awdConveyor.style.opacity = fade;
 }
 
+/* ===========================================================
+   "We play the system" — pinned horizontal scroll
+   6 tiles, each 100vw; the rail translates left as you scroll.
+   On mobile (≤900px) the pin is disabled; scroll-snap handles it.
+   =========================================================== */
+const tacticsTrack = document.querySelector(".tactics-track");
+const tacticsRail = document.querySelector(".tactics-rail");
+const tacticsDots = Array.prototype.slice.call(document.querySelectorAll(".tactics-dot"));
+const isMobileTactics = () => window.innerWidth <= 900;
+
+function measureTactics() {
+  if (!tacticsTrack || !tacticsRail) return;
+  if (isMobileTactics()) {
+    tacticsTrack.style.height = "";
+    return;
+  }
+  const n = document.querySelectorAll(".tactic").length;
+  const scrollDist = window.innerWidth * (n - 1);
+  tacticsTrack.style.height = window.innerHeight + scrollDist + "px";
+  updateTactics();
+}
+
+function updateTactics() {
+  if (!tacticsTrack || !tacticsRail) return;
+  if (isMobileTactics()) {
+    tacticsRail.style.transform = "";
+    return;
+  }
+  const n = document.querySelectorAll(".tactic").length;
+  const scrollDist = window.innerWidth * (n - 1);
+  const top = tacticsTrack.getBoundingClientRect().top;
+  const s = Math.min(Math.max(-top, 0), scrollDist);
+  tacticsRail.style.transform = "translateX(" + -s + "px)";
+  const active = Math.min(Math.round(s / window.innerWidth), n - 1);
+  tacticsDots.forEach(function(dot, i) {
+    dot.classList.toggle("active", i === active);
+  });
+}
+
 function measureAll() {
   measure();
   measureAwd();
+  measureTactics();
 }
 
 let ticking = false;
@@ -166,6 +206,7 @@ function onScroll() {
   requestAnimationFrame(() => {
     update();
     updateAwd();
+    updateTactics();
     ticking = false;
   });
 }
@@ -201,6 +242,28 @@ if (document.fonts && document.fonts.ready) {
   document.fonts.ready.then(measureAll);
 }
 setTimeout(measureAll, 400);
+
+/* ===========================================================
+   Contact form → opens email client with pre-filled body
+   =========================================================== */
+const contactForm = document.getElementById("contactForm");
+if (contactForm) {
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const d = new FormData(contactForm);
+    const body = [
+      "Name: " + (d.get("name") || ""),
+      "Trade: " + (d.get("trade") || ""),
+      "Suburb / area: " + (d.get("suburb") || ""),
+      "",
+      d.get("message") || ""
+    ].join("\n");
+    window.location.href =
+      "mailto:daniel.anderle.dan@gmail.com" +
+      "?subject=" + encodeURIComponent("New enquiry from completedigital.com.au") +
+      "&body=" + encodeURIComponent(body);
+  });
+}
 
 /* ===========================================================
    Scroll reveals

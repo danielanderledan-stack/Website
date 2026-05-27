@@ -9,6 +9,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Complete digital",
+    "description": "Complete digital builds fast, mobile-first websites for tradies — sparkies, chippies, plumbers and builders. SEO, lead generation, instant quotes and branded gear.",
+    "url": "https://completedigital.com.au",
+    "email": "daniel.anderle.dan@gmail.com",
+    "telephone": "+61432839654",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AU"
+    },
+    "areaServed": "Australia",
+    "knowsAbout": ["Web Design", "SEO", "Lead Generation", "Digital Marketing", "Tradie Websites"],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+61432839654",
+      "email": "daniel.anderle.dan@gmail.com",
+      "contactType": "customer service",
+      "availableLanguage": "English"
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Floating bubble navigation -->
@@ -34,7 +58,7 @@
         <li><a href="seo.html" class="nav-link">SEO</a></li>
       </ul>
 
-      <a href="index.html#contact" class="nav-cta">
+      <a href="#contact" class="nav-cta">
         Get a quote
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -271,25 +295,320 @@
       </div>
     </section>
 
-    <!-- Contact — closing -->
+    <!-- We play the system — 6 tactics, pinned horizontal scroll (desktop)
+         or horizontal scroll-snap (mobile) -->
+    <section class="tactics" id="system">
+      <div class="tactics-track">
+        <div class="tactics-pin">
+          <div class="tactics-rail">
+
+            <!-- Tactic 01 -->
+            <div class="tactic">
+              <div class="tactic-inner">
+                <div class="tactic-copy">
+                  <span class="tactic-num">TACTIC 01 / 06</span>
+                  <h2 class="tactic-h">Review site <span class="headline-accent">dominance.</span></h2>
+                  <p class="tactic-sub">Be the first name that comes up when people ask.</p>
+                  <p class="tactic-p">Local directories like Hipages, Airtasker and Google rank for "best electrician near me" searches — and the tradie at the top gets the call. We optimise and maintain your presence across every relevant directory so your name appears first, with the stars to back it up.</p>
+                </div>
+                <div class="tactic-diagram" aria-hidden="true">
+                  <svg viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="10" width="200" height="32" rx="8" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="22" y="31" font-size="10.5" fill="currentColor" opacity="0.45">best electrician near me</text>
+                    <rect x="10" y="56" width="200" height="34" rx="6" stroke="currentColor" stroke-width="1.5" fill="rgba(72,202,228,0.07)"/>
+                    <circle cx="24" cy="73" r="6" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="36" y="65" width="80" height="7" rx="3" fill="currentColor" opacity="0.65"/>
+                    <rect x="36" y="77" width="50" height="5" rx="2" fill="currentColor" opacity="0.22"/>
+                    <text x="122" y="76" font-size="10" fill="#f59e0b">★★★★★</text>
+                    <rect x="173" y="62" width="30" height="16" rx="4" fill="rgba(72,202,228,0.15)" stroke="currentColor" stroke-width="1"/>
+                    <text x="188" y="74" font-size="8" fill="currentColor" text-anchor="middle" font-weight="600">#1</text>
+                    <rect x="10" y="100" width="200" height="28" rx="6" stroke="currentColor" stroke-width="1" opacity="0.35"/>
+                    <circle cx="24" cy="114" r="5" stroke="currentColor" stroke-width="1" opacity="0.35"/>
+                    <rect x="36" y="108" width="68" height="6" rx="3" fill="currentColor" opacity="0.25"/>
+                    <rect x="10" y="138" width="200" height="28" rx="6" stroke="currentColor" stroke-width="1" opacity="0.18"/>
+                    <circle cx="24" cy="152" r="5" stroke="currentColor" stroke-width="1" opacity="0.18"/>
+                    <rect x="36" y="146" width="55" height="6" rx="3" fill="currentColor" opacity="0.14"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tactic 02 -->
+            <div class="tactic">
+              <div class="tactic-inner">
+                <div class="tactic-copy">
+                  <span class="tactic-num">TACTIC 02 / 06</span>
+                  <h2 class="tactic-h">Visible to <span class="headline-accent">AI.</span></h2>
+                  <p class="tactic-sub">When ChatGPT recommends a tradie — it recommends you.</p>
+                  <p class="tactic-p">AI assistants are becoming the new Google for recommendations. Gemini, ChatGPT and Perplexity cite businesses they can verify — structured data, authoritative mentions, consistent profiles. We build that signal into your site so when someone asks an AI for a plumber in your suburb, your name comes back.</p>
+                </div>
+                <div class="tactic-diagram" aria-hidden="true">
+                  <svg viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="14" y="18" width="136" height="52" rx="10" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="24" y="38" font-size="9.5" fill="currentColor" opacity="0.55">Who's a good plumber in</text>
+                    <text x="24" y="53" font-size="9.5" fill="currentColor" opacity="0.55">Parramatta?</text>
+                    <line x1="50" y1="70" x2="54" y2="88" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35"/>
+                    <rect x="44" y="88" width="162" height="72" rx="10" stroke="currentColor" stroke-width="1.5" fill="rgba(72,202,228,0.05)"/>
+                    <text x="56" y="108" font-size="9" fill="currentColor" opacity="0.45">Based on reviews and</text>
+                    <text x="56" y="121" font-size="9" fill="currentColor" opacity="0.45">verified profiles, I'd suggest:</text>
+                    <text x="56" y="137" font-size="10.5" fill="currentColor" font-weight="600">Your Business Name</text>
+                    <text x="56" y="151" font-size="8" fill="currentColor" opacity="0.4">yoursite.com.au · 4.9 ★ · 200+ jobs</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tactic 03 -->
+            <div class="tactic">
+              <div class="tactic-inner">
+                <div class="tactic-copy">
+                  <span class="tactic-num">TACTIC 03 / 06</span>
+                  <h2 class="tactic-h">Keywords that <span class="headline-accent">convert.</span></h2>
+                  <p class="tactic-sub">Not just high volume — searches that end in bookings.</p>
+                  <p class="tactic-p">Volume is vanity. "Electrical wiring" gets searched often, but "emergency electrician Penrith tonight" gets booked. We find the high-intent phrases — job type, urgency, location, cost — and build pages that rank for exactly those terms, so your traffic is made of people ready to hire.</p>
+                </div>
+                <div class="tactic-diagram" aria-hidden="true">
+                  <svg viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text x="43" y="20" font-size="9" fill="currentColor" opacity="0.45" text-anchor="middle">Volume</text>
+                    <text x="154" y="20" font-size="9" fill="currentColor" opacity="0.45" text-anchor="middle">Intent</text>
+                    <line x1="96" y1="12" x2="96" y2="170" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.18"/>
+                    <rect x="6" y="28" width="82" height="19" rx="4" stroke="currentColor" stroke-width="1" opacity="0.28"/>
+                    <text x="47" y="41" font-size="8.5" fill="currentColor" opacity="0.35" text-anchor="middle">electrical wiring</text>
+                    <rect x="6" y="53" width="82" height="19" rx="4" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                    <text x="47" y="66" font-size="8.5" fill="currentColor" opacity="0.25" text-anchor="middle">how to wire a switch</text>
+                    <rect x="6" y="78" width="82" height="19" rx="4" stroke="currentColor" stroke-width="1" opacity="0.14"/>
+                    <text x="47" y="91" font-size="8.5" fill="currentColor" opacity="0.18" text-anchor="middle">electrician tips</text>
+                    <rect x="102" y="28" width="112" height="19" rx="4" fill="rgba(72,202,228,0.1)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="158" y="41" font-size="8" fill="currentColor" font-weight="600" text-anchor="middle">emergency electrician Penrith</text>
+                    <rect x="102" y="53" width="112" height="19" rx="4" fill="rgba(72,202,228,0.1)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="158" y="66" font-size="8" fill="currentColor" font-weight="600" text-anchor="middle">switchboard upgrade cost NSW</text>
+                    <rect x="102" y="78" width="112" height="19" rx="4" fill="rgba(72,202,228,0.1)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="158" y="91" font-size="8" fill="currentColor" font-weight="600" text-anchor="middle">RCD installation quote</text>
+                    <path d="M158 112 L158 128" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+                    <path d="M152 124 L158 132 L164 124" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+                    <rect x="120" y="138" width="76" height="20" rx="6" fill="rgba(72,202,228,0.1)" stroke="currentColor" stroke-width="1"/>
+                    <text x="158" y="152" font-size="8.5" fill="currentColor" text-anchor="middle" font-weight="600">booked</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tactic 04 -->
+            <div class="tactic">
+              <div class="tactic-inner">
+                <div class="tactic-copy">
+                  <span class="tactic-num">TACTIC 04 / 06</span>
+                  <h2 class="tactic-h">The map <span class="headline-accent">pack.</span></h2>
+                  <p class="tactic-sub">Top 3 local results. Right above everything else.</p>
+                  <p class="tactic-p">When someone searches for a tradie near them, the first thing they see is a map with three businesses — not paid ads, not organic links, the map pack. Getting in that box comes down to how well your Google Business Profile is optimised, your review velocity and citation consistency. We handle all of it.</p>
+                </div>
+                <div class="tactic-diagram" aria-hidden="true">
+                  <svg viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="100" y="8" width="112" height="100" rx="8" stroke="currentColor" stroke-width="1.5" opacity="0.18"/>
+                    <line x1="100" y1="38" x2="212" y2="38" stroke="currentColor" stroke-width="1" opacity="0.12"/>
+                    <line x1="100" y1="68" x2="212" y2="68" stroke="currentColor" stroke-width="1" opacity="0.12"/>
+                    <line x1="140" y1="8" x2="140" y2="108" stroke="currentColor" stroke-width="1" opacity="0.12"/>
+                    <line x1="172" y1="8" x2="172" y2="108" stroke="currentColor" stroke-width="1" opacity="0.12"/>
+                    <path d="M156 42 C152 42 148 46 148 50 C148 57 156 64 156 64 C156 64 164 57 164 50 C164 46 160 42 156 42Z" fill="currentColor" opacity="0.6"/>
+                    <circle cx="156" cy="51" r="3" fill="white"/>
+                    <rect x="8" y="8" width="84" height="30" rx="5" fill="rgba(72,202,228,0.1)" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="22" cy="23" r="5" fill="currentColor" opacity="0.45"/>
+                    <rect x="32" y="17" width="52" height="6" rx="2" fill="currentColor" opacity="0.6"/>
+                    <rect x="32" y="27" width="36" height="4" rx="2" fill="currentColor" opacity="0.22"/>
+                    <rect x="8" y="46" width="84" height="26" rx="5" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <circle cx="22" cy="59" r="5" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <rect x="32" y="53" width="44" height="6" rx="2" fill="currentColor" opacity="0.28"/>
+                    <rect x="8" y="80" width="84" height="26" rx="5" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                    <circle cx="22" cy="93" r="5" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                    <rect x="32" y="87" width="38" height="6" rx="2" fill="currentColor" opacity="0.15"/>
+                    <rect x="8" y="118" width="204" height="52" rx="8" stroke="currentColor" stroke-width="1" opacity="0.16"/>
+                    <text x="18" y="140" font-size="8.5" fill="currentColor" opacity="0.45">In the top 3:</text>
+                    <text x="18" y="158" font-size="10" fill="currentColor" font-weight="600" opacity="0.75">more calls. more jobs.</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tactic 05 -->
+            <div class="tactic">
+              <div class="tactic-inner">
+                <div class="tactic-copy">
+                  <span class="tactic-num">TACTIC 05 / 06</span>
+                  <h2 class="tactic-h">Suburb <span class="headline-accent">pages.</span></h2>
+                  <p class="tactic-sub">Rank in every area you service, not just where you're based.</p>
+                  <p class="tactic-p">Google ranks pages, not businesses. If you service ten suburbs but only have one homepage, you rank in one suburb. We build a dedicated page for each area — with the job types, local context and search terms specific to that location. Each page is a new door for customers to walk through.</p>
+                </div>
+                <div class="tactic-diagram" aria-hidden="true">
+                  <svg viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="110" cy="90" r="18" fill="rgba(72,202,228,0.1)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="110" y="87" font-size="7" fill="currentColor" text-anchor="middle">your</text>
+                    <text x="110" y="97" font-size="7" fill="currentColor" text-anchor="middle">site</text>
+                    <circle cx="48" cy="34" r="13" fill="rgba(72,202,228,0.07)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="48" y="38" font-size="6.5" fill="currentColor" text-anchor="middle">Penrith</text>
+                    <line x1="58" y1="42" x2="94" y2="74" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <circle cx="172" cy="34" r="13" fill="rgba(72,202,228,0.07)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="172" y="38" font-size="6.5" fill="currentColor" text-anchor="middle">Parramatta</text>
+                    <line x1="162" y1="42" x2="126" y2="74" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <circle cx="20" cy="100" r="13" fill="rgba(72,202,228,0.07)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="20" y="104" font-size="6.5" fill="currentColor" text-anchor="middle">Liverpool</text>
+                    <line x1="33" y1="100" x2="92" y2="92" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <circle cx="200" cy="100" r="13" fill="rgba(72,202,228,0.07)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="200" y="97" font-size="6" fill="currentColor" text-anchor="middle">Campbell-</text>
+                    <text x="200" y="106" font-size="6" fill="currentColor" text-anchor="middle">town</text>
+                    <line x1="187" y1="100" x2="128" y2="92" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <circle cx="48" cy="156" r="13" fill="rgba(72,202,228,0.07)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="48" y="160" font-size="6.5" fill="currentColor" text-anchor="middle">Blacktown</text>
+                    <line x1="58" y1="148" x2="94" y2="106" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                    <circle cx="172" cy="156" r="13" fill="rgba(72,202,228,0.07)" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="172" y="160" font-size="6.5" fill="currentColor" text-anchor="middle">Windsor</text>
+                    <line x1="162" y1="148" x2="126" y2="106" stroke="currentColor" stroke-width="1" opacity="0.38"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tactic 06 -->
+            <div class="tactic">
+              <div class="tactic-inner">
+                <div class="tactic-copy">
+                  <span class="tactic-num">TACTIC 06 / 06</span>
+                  <h2 class="tactic-h">Schema — <span class="headline-accent">Google's language.</span></h2>
+                  <p class="tactic-sub">Speak to Google directly, not through guesswork.</p>
+                  <p class="tactic-p">Schema markup is structured data embedded in your page — it tells Google and AI systems exactly what your business is, where it operates, what it charges, what reviews it has and how to contact you. It unlocks rich results, AI citations and map pack authority. This very site uses it.</p>
+                </div>
+                <div class="tactic-diagram" aria-hidden="true">
+                  <svg viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="10" width="200" height="122" rx="8" fill="rgba(10,37,64,0.03)" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="10" y="10" width="200" height="24" rx="8" fill="rgba(10,37,64,0.05)" stroke="none"/>
+                    <circle cx="24" cy="22" r="4" fill="currentColor" opacity="0.15"/>
+                    <circle cx="36" cy="22" r="4" fill="currentColor" opacity="0.1"/>
+                    <circle cx="48" cy="22" r="4" fill="currentColor" opacity="0.07"/>
+                    <rect x="20" y="42" width="58" height="5" rx="2" fill="currentColor" opacity="0.28"/>
+                    <rect x="86" y="42" width="40" height="5" rx="2" fill="rgba(72,202,228,0.65)"/>
+                    <rect x="20" y="54" width="38" height="5" rx="2" fill="currentColor" opacity="0.18"/>
+                    <rect x="66" y="54" width="80" height="5" rx="2" fill="currentColor" opacity="0.14"/>
+                    <rect x="20" y="66" width="48" height="5" rx="2" fill="currentColor" opacity="0.28"/>
+                    <rect x="76" y="66" width="60" height="5" rx="2" fill="rgba(72,202,228,0.45)"/>
+                    <rect x="20" y="78" width="42" height="5" rx="2" fill="currentColor" opacity="0.18"/>
+                    <rect x="70" y="78" width="100" height="5" rx="2" fill="rgba(72,202,228,0.35)"/>
+                    <rect x="20" y="90" width="52" height="5" rx="2" fill="currentColor" opacity="0.28"/>
+                    <rect x="80" y="90" width="70" height="5" rx="2" fill="rgba(72,202,228,0.3)"/>
+                    <rect x="20" y="102" width="34" height="5" rx="2" fill="currentColor" opacity="0.18"/>
+                    <rect x="62" y="102" width="50" height="5" rx="2" fill="rgba(72,202,228,0.5)"/>
+                    <rect x="20" y="114" width="38" height="5" rx="2" fill="currentColor" opacity="0.14"/>
+                    <line x1="110" y1="140" x2="110" y2="152" stroke="currentColor" stroke-width="1.5" opacity="0.45"/>
+                    <path d="M104 148 L110 156 L116 148" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+                    <rect x="36" y="158" width="148" height="18" rx="4" fill="rgba(72,202,228,0.08)" stroke="currentColor" stroke-width="1"/>
+                    <text x="110" y="171" font-size="8" fill="currentColor" text-anchor="middle" opacity="0.55">rich results + AI citations</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Progress dots -->
+          <div class="tactics-dots" aria-hidden="true">
+            <span class="tactics-dot active"></span>
+            <span class="tactics-dot"></span>
+            <span class="tactics-dot"></span>
+            <span class="tactics-dot"></span>
+            <span class="tactics-dot"></span>
+            <span class="tactics-dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Branded gear, direct from the source -->
+    <section class="merch" id="merch">
+      <div class="merch-inner">
+        <div class="merch-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> Branded gear</span>
+          <h2 class="block-h">Branded gear, direct<br />from <span class="headline-accent">the source.</span></h2>
+          <p class="block-p">We have direct supplier relationships in China — factories that make the
+            same gear you'd find in Australian trade stores, without the middleman margin. Van
+            magnets, hi-vis shirts, business cards, flyers, site signage and branded tools: all
+            done in one order, shipped direct.</p>
+          <ul class="merch-list">
+            <li>Minimum orders from as low as 20 units</li>
+            <li>Typical lead time: 3–4 weeks door to door</li>
+            <li>We handle the brief, artwork and QC</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">
+            Tell us what you want branded
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="merch-visual reveal" aria-hidden="true">
+          <div class="merch-flatlay">
+            <div class="merch-item merch-card">business cards</div>
+            <div class="merch-item merch-magnet">van magnet</div>
+            <div class="merch-item merch-shirt">hi-vis shirt</div>
+            <div class="merch-item merch-flyer">flyers</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact — closing, with real details + form -->
     <section class="contact" id="contact">
       <div class="contact-inner">
         <span class="eyebrow light reveal"><span class="eyebrow-dot"></span> Let's build it</span>
         <h2 class="contact-h reveal">Ready to get <span class="headline-accent">booked out?</span></h2>
         <p class="contact-lead reveal">Tell us your trade and your area. We'll come back with a
           plan and a fixed price — usually the same day.</p>
-        <div class="contact-actions reveal">
-          <a class="btn btn-primary" href="mailto:hello@completedigital.com.au">
-            Email us
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Dan Smith" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Trade</span>
+              <input type="text" name="trade" placeholder="Electrician" required />
+            </label>
+          </div>
+          <label>
+            <span>Suburb / area</span>
+            <input type="text" name="suburb" placeholder="Penrith, Western Sydney…" required />
+          </label>
+          <label>
+            <span>What do you need?</span>
+            <textarea name="message" rows="4" placeholder="New site, SEO, leads system, branded gear — tell us what you're after." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">
+            Send it
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+
+        <div class="contact-actions reveal">
+          <a class="btn btn-ghost" href="mailto:daniel.anderle.dan@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM2 8l10 7 10-7"/></svg>
+            daniel.anderle.dan@gmail.com
           </a>
-          <a class="btn btn-ghost" href="tel:0400000000">Call 0400 000 000</a>
+          <a class="btn btn-ghost" href="tel:+61432839654">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7A2 2 0 0 1 22 16.9z"/></svg>
+            0432 839 654
+          </a>
         </div>
+
         <p class="contact-links reveal">See how we work — <a href="design.html">our design philosophy</a>
           &amp; <a href="seo.html">our SEO approach</a>.</p>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">Complete digital<span class="brand-ellipsis">…</span></span>
+      <div class="footer-links">
+        <a href="tel:+61432839654">0432 839 654</a>
+        <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>

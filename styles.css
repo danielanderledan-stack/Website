@@ -1062,6 +1062,341 @@ ul { list-style: none; }
 }
 
 /* ===========================================================
+   We play the system — pinned horizontal scroll (desktop)
+   or scroll-snap (mobile)
+   =========================================================== */
+.tactics { position: relative; }
+.tactics-track { position: relative; } /* height set by JS */
+.tactics-pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.tactics-rail {
+  display: flex;
+  height: 100vh;
+  will-change: transform;
+}
+.tactic {
+  flex: 0 0 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px clamp(24px, 8vw, 100px) 60px;
+  background: linear-gradient(180deg, #fff 0%, var(--paper) 100%);
+}
+.tactic-inner {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: clamp(32px, 6vw, 80px);
+}
+.tactic-copy { flex: 1; min-width: 0; }
+.tactic-num {
+  display: block;
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.77rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--theme-deep);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.tactic-h {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 5.5vw, 3.5rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+.tactic-sub {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  font-weight: 600;
+  color: var(--navy-soft);
+  margin-bottom: 18px;
+  max-width: 32em;
+}
+.tactic-p {
+  font-size: clamp(1rem, 1.35vw, 1.08rem);
+  line-height: 1.65;
+  color: var(--navy-soft);
+  max-width: 30em;
+}
+.tactic-diagram {
+  flex: 0 0 clamp(150px, 28%, 250px);
+  color: var(--navy);
+  opacity: 0.72;
+}
+.tactic-diagram svg { width: 100%; height: auto; display: block; }
+
+.tactics-dots {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+  pointer-events: none;
+}
+.tactics-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: rgba(10, 37, 64, 0.15);
+  transition: background 0.3s, transform 0.3s;
+}
+.tactics-dot.active {
+  background: var(--theme-deep);
+  transform: scale(1.5);
+}
+
+/* ===========================================================
+   Branded gear section
+   =========================================================== */
+.merch {
+  padding: clamp(80px, 12vh, 130px) clamp(24px, 6vw, 80px);
+  background: var(--paper);
+}
+.merch-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: clamp(40px, 8vw, 100px);
+}
+.merch-copy { flex: 1; min-width: 0; }
+.merch-copy .eyebrow { margin-bottom: 16px; }
+.merch-copy .block-h { margin-bottom: 16px; }
+.merch-copy .block-p { margin-bottom: 20px; }
+.merch-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 30px;
+}
+.merch-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.97rem;
+  color: var(--navy-soft);
+}
+.merch-list li::before {
+  content: "";
+  flex: 0 0 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--theme-deep);
+}
+.merch-visual {
+  flex: 0 0 clamp(260px, 40%, 440px);
+}
+.merch-flatlay {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, #e2f4fa 0%, #cce8f4 100%);
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 16px;
+}
+.merch-item {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.merch-magnet {
+  background: linear-gradient(135deg, var(--theme-soft), var(--theme));
+  color: var(--navy);
+  border-color: transparent;
+}
+.merch-shirt {
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* ===========================================================
+   Contact form
+   =========================================================== */
+.contact-form {
+  width: min(560px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 8px 0 10px;
+  text-align: left;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.contact-form label span {
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+.contact-form input,
+.contact-form textarea {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #fff;
+  transition: border-color 0.2s, background 0.2s;
+  resize: none;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--theme);
+  background: rgba(255, 255, 255, 0.12);
+}
+.contact-form .btn-primary { align-self: flex-start; margin-top: 4px; }
+
+/* Direct contact links below the form */
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 4px;
+}
+.contact .btn-ghost {
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.82);
+  border-color: rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+  padding: 11px 18px;
+}
+.contact .btn-ghost svg {
+  width: 15px; height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+.contact .btn-ghost:hover { border-color: var(--theme); color: #fff; }
+
+/* ===========================================================
+   Site footer
+   =========================================================== */
+.site-footer {
+  background: #060f1c;
+  padding: 26px clamp(24px, 6vw, 80px);
+}
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.footer-brand {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.45);
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--theme-soft); }
+
+/* Responsive overrides for tactics + merch */
+@media (max-width: 900px) {
+  /* Tactics: turn the pinned rail into a horizontal scroll-snap */
+  .tactics-track { height: auto !important; }
+  .tactics-pin {
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    height: auto;
+  }
+  .tactics-rail {
+    width: max-content;
+    height: auto;
+    transform: none !important;
+  }
+  .tactic {
+    flex: 0 0 100vw;
+    height: auto;
+    min-height: 100svh;
+    scroll-snap-align: start;
+    padding: 100px 24px 60px;
+  }
+  .tactic-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    max-width: 100%;
+  }
+  .tactic-diagram {
+    flex: 0 0 auto;
+    width: min(190px, 56vw);
+    align-self: flex-end;
+  }
+  .tactics-dots { display: none; }
+
+  /* Merch: stack vertically */
+  .merch-inner { flex-direction: column; }
+  .merch-visual { flex: 0 0 auto; width: 100%; max-width: 420px; }
+}
+
+@media (max-width: 560px) {
+  .form-row { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .tactic-h { font-size: clamp(1.7rem, 8vw, 2.4rem); }
+}
+
+/* ===========================================================
    Reduced motion
    =========================================================== */
 @media (prefers-reduced-motion: reduce) {
