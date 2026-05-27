@@ -34,6 +34,7 @@ const screen = document.querySelector(".phone-screen");
 
 let innerMax = 0;          // how far the inner site can scroll (in screen px)
 let frameScale = 1;        // inner site is rendered at a reference width then scaled
+let lastScrolled = -1;     // memo: skip rewriting the iframe transform when unchanged
 const FRAME_REF_W = 238;   // logical width of the inner site (desktop screen inner width)
 const FALLBACK_MAX = 1400; // used if the iframe height can't be read
 
@@ -79,6 +80,7 @@ function measure() {
   innerMax = Math.max(Math.round(contentH * frameScale - screenH), 0);
   // Track = one viewport (the pinned portion) + the inner scroll distance.
   track.style.height = window.innerHeight + innerMax + "px";
+  lastScrolled = -1; // scale/height may have changed — force the next write
   update();
 }
 
@@ -86,6 +88,11 @@ function update() {
   if (!track || !frame) return;
   const top = track.getBoundingClientRect().top;
   const scrolled = Math.min(Math.max(-top, 0), innerMax);
+  // Once the phone is fully scrolled (or not yet reached) `scrolled` is pinned
+  // to a constant; skip re-applying the transform so we don't keep
+  // recompositing the scaled iframe (a full secondary document) every frame.
+  if (scrolled === lastScrolled) return;
+  lastScrolled = scrolled;
   frame.style.transform = "translateY(" + -scrolled + "px) scale(" + frameScale + ")";
 }
 
@@ -103,7 +110,7 @@ const awdHead = document.querySelector(".awd-head");
 const awdConveyor = document.querySelector(".awd-conveyor");
 const awdItems = Array.prototype.slice.call(document.querySelectorAll(".awd-item"));
 const awdOutro = document.querySelector(".awd-outro");
-const awd = { coverDist: 0, convDist: 0, outroDist: 0, total: 0, spacing: 0 };
+const awd = { coverDist: 0, convDist: 0, outroDist: 0, total: 0, spacing: 0, lastS: -1 };
 
 function measureAwd() {
   if (!awdTrack || !awdPin) return;
@@ -114,12 +121,18 @@ function measureAwd() {
   awd.total = awd.coverDist + awd.convDist + awd.outroDist;
   awd.spacing = Math.max((awdConveyor ? awdConveyor.clientHeight : vh) * 0.24, 62);
   awdTrack.style.height = vh + awd.total + "px";
+  awd.lastS = -1; // dimensions changed — force the next write
   updateAwd();
 }
 function updateAwd() {
   if (!awdTrack) return;
   const top = awdTrack.getBoundingClientRect().top;
   const s = Math.min(Math.max(-top, 0), awd.total);
+  // Off-section (above or fully past) `s` is pinned to a constant; skip the
+  // whole per-item loop so we aren't recomputing 13 transforms every frame
+  // while the user is actually scrolling some other section.
+  if (s === awd.lastS) return;
+  awd.lastS = s;
 
   // Phase A: white panel rises to cover the previous section
   const coverP = clamp01(s / awd.coverDist);
@@ -163,6 +176,7 @@ const tacticsTrack = document.querySelector(".tactics-track");
 const tacticsRail = document.querySelector(".tactics-rail");
 const tacticsDots = Array.prototype.slice.call(document.querySelectorAll(".tactics-dot"));
 const isMobileTactics = () => window.innerWidth <= 900;
+let tacticsLastS = -1; // memo: skip rewriting the rail transform when unchanged
 
 function measureTactics() {
   if (!tacticsTrack || !tacticsRail) return;
@@ -173,6 +187,7 @@ function measureTactics() {
   const n = document.querySelectorAll(".tactic").length;
   const scrollDist = window.innerWidth * (n - 1);
   tacticsTrack.style.height = window.innerHeight + scrollDist + "px";
+  tacticsLastS = -1; // dimensions changed — force the next write
   updateTactics();
 }
 
@@ -186,6 +201,8 @@ function updateTactics() {
   const scrollDist = window.innerWidth * (n - 1);
   const top = tacticsTrack.getBoundingClientRect().top;
   const s = Math.min(Math.max(-top, 0), scrollDist);
+  if (s === tacticsLastS) return;
+  tacticsLastS = s;
   tacticsRail.style.transform = "translateX(" + -s + "px)";
   const active = Math.min(Math.round(s / window.innerWidth), n - 1);
   tacticsDots.forEach(function(dot, i) {
@@ -229,6 +246,7 @@ window.addEventListener("message", (e) => {
     frame.style.height = data.height + "px";
     innerMax = Math.max(Math.round(data.height * frameScale - screenH), 0);
     track.style.height = window.innerHeight + innerMax + "px";
+    lastScrolled = -1; // innerMax changed — force the next write
     update();
   }
 });
