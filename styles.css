@@ -533,24 +533,19 @@ ul { list-style: none; }
   flex-direction: column;
 }
 
-/* Swappable inner website. JS sets its height to the full content height
-   and drives a translateY based on scroll, so it scrolls inside the screen
-   while the hero is pinned. */
+/* Swappable inner website. JS renders it at a real phone viewport width and
+   scales it to fit the screen; the site scrolls inside the frame on its own. */
 .phone-frame {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;             /* JS sets a fixed reference width and scales to fill */
-  height: 100%;            /* JS overrides to full content height */
+  width: 100%;             /* JS sets a fixed reference width and scales to fit */
+  height: 100%;            /* JS overrides to the screen-filling height */
   transform-origin: top left;
   border: 0;
   display: block;
   background: #fff;
-  will-change: transform;
   opacity: 0;
-  /* It's a showcase, not interactive — let touches scroll the page through
-     it instead of being trapped by the iframe (caused scroll "teleporting"). */
-  pointer-events: none;
 }
 .stage.revealed .phone-frame { animation: glowIn 0.7s ease 0.55s forwards; }
 
@@ -1433,9 +1428,11 @@ ul { list-style: none; }
    =========================================================== */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
-  .nav-bubble, .hero-copy > *, .phone-glow, .phone-shadow, .phone-frame,
+  .nav-bubble, .hero-copy > *, .phone-glow, .phone-shadow,
   .reveal, .stage-tag { opacity: 1 !important; transform: none !important; }
   .phone { transform: none !important; opacity: 1 !important; }
+  /* keep the scale-to-fit transform; just skip the reveal fade */
+  .phone-frame { opacity: 1 !important; }
   .tool { opacity: 1 !important; transform: translate(0, 0) rotate(0) !important; }
   .headline-accent::after { transform: scaleX(1) !important; }
   .warmth-line { stroke-dashoffset: 0 !important; }

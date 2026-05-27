@@ -22,78 +22,26 @@ if (burger && links) {
 }
 
 /* ===========================================================
-   Pinned phone-scroll
-   While the hero is pinned (sticky), scrolling through the tall
-   `.hero-track` drives the inner site (loaded in an iframe) upward
-   1:1 — so the page appears to "stop" and the phone's website scrolls
-   until it reaches the bottom, after which the page continues.
+   Phone showcase
+   The phone is a real, interactive mini-browser. The inner site is
+   rendered at a true phone viewport width then scaled to fit the screen,
+   so it shows its proper mobile layout — and you scroll the site inside
+   the phone like a real device (works for cross-origin sites too).
    =========================================================== */
-const track = document.querySelector(".hero-track");
 const frame = document.querySelector(".phone-frame");
 const screen = document.querySelector(".phone-screen");
+const FRAME_REF_W = 390;   // render the inner site at a real phone viewport width
 
-let innerMax = 0;          // how far the inner site can scroll (in screen px)
-let frameScale = 1;        // inner site is rendered at a reference width then scaled
-let lastScrolled = -1;     // memo: skip rewriting the iframe transform when unchanged
-const FRAME_REF_W = 390;   // render the inner site at a real phone viewport width, then scale to fit the screen
-const FALLBACK_MAX = 4600; // used if the iframe height can't be read (e.g. a cross-origin site that doesn't post its height)
-
-function readContentHeight() {
-  try {
-    const doc = frame.contentDocument || frame.contentWindow.document;
-    if (!doc) return 0;
-    const b = doc.body;
-    const d = doc.documentElement;
-    return Math.max(
-      b ? b.scrollHeight : 0,
-      b ? b.offsetHeight : 0,
-      d ? d.scrollHeight : 0,
-      d ? d.offsetHeight : 0
-    );
-  } catch (e) {
-    return 0; // cross-origin / not ready
-  }
-}
-
-function measure() {
-  if (!track || !frame || !screen) return;
-
-  const screenH = screen.clientHeight;
+function fitPhone() {
+  if (!frame || !screen) return;
   const screenW = screen.clientWidth;
-  // Render the inner site at a fixed reference width and scale it to fill the
-  // screen, so the UI scales with the phone rather than reflowing. On desktop
-  // the screen is ~238px wide, so the scale is 1 and nothing changes.
-  frameScale = screenW / FRAME_REF_W;
+  const screenH = screen.clientHeight;
+  const scale = screenW / FRAME_REF_W;
+  // Lay the site out at a real phone width and a screen-filling height, then
+  // scale down to fit. The site scrolls inside the frame on its own.
   frame.style.width = FRAME_REF_W + "px";
-
-  let contentH = readContentHeight(); // measured at the reference width
-
-  if (contentH > 0) {
-    frame.style.height = contentH + "px";
-  } else {
-    // Couldn't read the iframe; fall back to a generous span.
-    contentH = screenH / frameScale + FALLBACK_MAX;
-    frame.style.height = contentH + "px";
-  }
-
-  // Visual (post-scale) distance the inner site can travel inside the screen.
-  innerMax = Math.max(Math.round(contentH * frameScale - screenH), 0);
-  // Track = one viewport (the pinned portion) + the inner scroll distance.
-  track.style.height = window.innerHeight + innerMax + "px";
-  lastScrolled = -1; // scale/height may have changed — force the next write
-  update();
-}
-
-function update() {
-  if (!track || !frame) return;
-  const top = track.getBoundingClientRect().top;
-  const scrolled = Math.min(Math.max(-top, 0), innerMax);
-  // Once the phone is fully scrolled (or not yet reached) `scrolled` is pinned
-  // to a constant; skip re-applying the transform so we don't keep
-  // recompositing the scaled iframe (a full secondary document) every frame.
-  if (scrolled === lastScrolled) return;
-  lastScrolled = scrolled;
-  frame.style.transform = "translateY(" + -scrolled + "px) scale(" + frameScale + ")";
+  frame.style.height = screenH / scale + "px";
+  frame.style.transform = "scale(" + scale + ")";
 }
 
 function clamp01(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
@@ -209,7 +157,7 @@ function updateTactics() {
 }
 
 function measureAll() {
-  measure();
+  fitPhone();
   measureAwd();
   measureTactics();
 }
@@ -219,7 +167,6 @@ function onScroll() {
   if (ticking) return;
   ticking = true;
   requestAnimationFrame(() => {
-    update();
     updateAwd();
     updateTactics();
     ticking = false;
@@ -227,27 +174,8 @@ function onScroll() {
 }
 
 if (frame) {
-  frame.addEventListener("load", () => {
-    measure();
-    // Re-measure after web fonts / async layout settle.
-    setTimeout(measure, 300);
-    setTimeout(measure, 1200);
-  });
+  frame.addEventListener("load", fitPhone);
 }
-
-// The inner site can also report its own height (works even cross-origin,
-// and lets a swapped-in site opt in).
-window.addEventListener("message", (e) => {
-  const data = e && e.data;
-  if (data && data.type === "phoneSiteHeight" && typeof data.height === "number") {
-    const screenH = screen ? screen.clientHeight : 0;
-    frame.style.height = data.height + "px";
-    innerMax = Math.max(Math.round(data.height * frameScale - screenH), 0);
-    track.style.height = window.innerHeight + innerMax + "px";
-    lastScrolled = -1; // innerMax changed — force the next write
-    update();
-  }
-});
 
 window.addEventListener("scroll", onScroll, { passive: true });
 
