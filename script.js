@@ -262,25 +262,86 @@ if (document.fonts && document.fonts.ready) {
 setTimeout(measureAll, 400);
 
 /* ===========================================================
-   Contact form → opens email client with pre-filled body
+   Contact form → POST the enquiry to the n8n webhook as JSON
    =========================================================== */
+const WEBHOOK_URL = "http://localhost:5678/webhook-test/a9535112-5d90-4ecc-a74a-7a9c8bcbdc81";
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
-  contactForm.addEventListener("submit", function(e) {
+  const statusEl = contactForm.querySelector(".form-status");
+  const submitBtn = contactForm.querySelector("button[type=submit]");
+  const setStatus = (msg, cls) => {
+    if (!statusEl) return;
+    statusEl.textContent = msg;
+    statusEl.className = "form-status" + (cls ? " " + cls : "");
+  };
+
+  contactForm.addEventListener("submit", async function(e) {
     e.preventDefault();
     const d = new FormData(contactForm);
-    const body = [
-      "Name: " + (d.get("name") || ""),
-      "Trade: " + (d.get("trade") || ""),
-      "Suburb / area: " + (d.get("suburb") || ""),
-      "",
-      d.get("message") || ""
-    ].join("\n");
-    window.location.href =
-      "mailto:daniel.anderle.dan@gmail.com" +
-      "?subject=" + encodeURIComponent("New enquiry from completedigital.com.au") +
-      "&body=" + encodeURIComponent(body);
+    // n8n expects an array with one object, using these exact field names.
+    const payload = [{
+      "name": (d.get("name") || "").trim(),
+      "number": (d.get("number") || "").trim(),
+      "email": (d.get("email") || "").trim(),
+      "Trade": (d.get("trade") || "").trim(),
+      "Suburb/area": (d.get("suburb") || "").trim(),
+      "Message": (d.get("message") || "").trim()
+    }];
+
+    if (submitBtn) submitBtn.disabled = true;
+    setStatus("Sending…", "");
+    try {
+      const res = await fetch(WEBHOOK_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      contactForm.reset();
+      setStatus("Thanks — we'll be in touch shortly.", "ok");
+    } catch (err) {
+      setStatus("Couldn't send just now — email us at daniel.anderle.dan@gmail.com", "err");
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
   });
+}
+
+/* ===========================================================
+   Tactics carousel — auto-advance on mobile (no pin there).
+   Plays only while the section is on screen; stops once the
+   visitor takes over by swiping.
+   =========================================================== */
+const tacticsSection = document.querySelector(".tactics");
+const tacticsPin = document.querySelector(".tactics-pin");
+let tacticsTimer = null;
+let tacticsUserTook = false;
+
+function tacticsStep() {
+  if (!tacticsPin || !isMobileTactics() || tacticsUserTook) return;
+  const tileW = tacticsPin.clientWidth;
+  const max = tacticsPin.scrollWidth - tileW - 2;
+  let next = tacticsPin.scrollLeft + tileW;
+  if (next > max) next = 0;
+  tacticsPin.scrollTo({ left: next, behavior: "smooth" });
+}
+function startTacticsAuto() {
+  if (tacticsTimer || tacticsUserTook || !isMobileTactics()) return;
+  tacticsTimer = setInterval(tacticsStep, 3500);
+}
+function stopTacticsAuto() {
+  if (tacticsTimer) { clearInterval(tacticsTimer); tacticsTimer = null; }
+}
+if (tacticsPin) {
+  ["touchstart", "pointerdown", "wheel"].forEach((ev) =>
+    tacticsPin.addEventListener(ev, () => { tacticsUserTook = true; stopTacticsAuto(); }, { passive: true })
+  );
+}
+if (tacticsSection && "IntersectionObserver" in window) {
+  const tio = new IntersectionObserver((entries) => {
+    entries.forEach((en) => { en.isIntersecting ? startTacticsAuto() : stopTacticsAuto(); });
+  }, { threshold: 0.35 });
+  tio.observe(tacticsSection);
 }
 
 /* ===========================================================

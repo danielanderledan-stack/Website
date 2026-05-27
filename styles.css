@@ -1286,6 +1286,22 @@ ul { list-style: none; }
   background: rgba(255, 255, 255, 0.12);
 }
 .contact-form .btn-primary { align-self: flex-start; margin-top: 4px; }
+.contact-form .btn-primary[disabled] { opacity: 0.6; pointer-events: none; }
+
+.form-status {
+  min-height: 1.2em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-status.ok { color: #6ee7b7; }
+.form-status.err { color: #fca5a5; }
+
+/* Dedicated contact page — fill the viewport, clear the floating nav */
+.contact-page { min-height: 100vh; padding-top: 150px; }
+
+/* Active state for the Get-a-quote CTA on the contact page */
+.nav-cta.is-active { background: #06182b; }
 
 /* Direct contact links below the form */
 .contact-actions {
@@ -1381,7 +1397,7 @@ ul { list-style: none; }
   .tactic-diagram {
     flex: 0 0 auto;
     width: min(190px, 56vw);
-    align-self: flex-end;
+    align-self: center;
   }
   .tactics-dots { display: none; }
 

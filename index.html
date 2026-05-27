@@ -58,7 +58,7 @@
         <li><a href="seo.html" class="nav-link">SEO</a></li>
       </ul>
 
-      <a href="#contact" class="nav-cta">
+      <a href="contact.html" class="nav-cta">
         Get a quote
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -558,11 +558,21 @@
         <p class="contact-lead reveal">Tell us your trade and your area. We'll come back with a
           plan and a fixed price — usually the same day.</p>
 
-        <form class="contact-form reveal" id="contactForm" novalidate>
+        <form class="contact-form reveal" id="contactForm">
           <div class="form-row">
             <label>
               <span>Your name</span>
-              <input type="text" name="name" placeholder="Dan Smith" autocomplete="name" required />
+              <input type="text" name="name" placeholder="Josh Wade" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Phone</span>
+              <input type="tel" name="number" placeholder="0432 839 654" autocomplete="tel" required />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required />
             </label>
             <label>
               <span>Trade</span>
@@ -571,7 +581,7 @@
           </div>
           <label>
             <span>Suburb / area</span>
-            <input type="text" name="suburb" placeholder="Penrith, Western Sydney…" required />
+            <input type="text" name="suburb" placeholder="Frankston, 3196…" required />
           </label>
           <label>
             <span>What do you need?</span>
@@ -581,6 +591,7 @@
             Send it
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </button>
+          <p class="form-status" role="status" aria-live="polite"></p>
         </form>
 
         <div class="contact-actions reveal">
