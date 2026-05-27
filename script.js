@@ -22,26 +22,87 @@ if (burger && links) {
 }
 
 /* ===========================================================
-   Phone showcase
-   The phone is a real, interactive mini-browser. The inner site is
-   rendered at a true phone viewport width then scaled to fit the screen,
-   so it shows its proper mobile layout — and you scroll the site inside
-   the phone like a real device (works for cross-origin sites too).
+   Phone showcase — two modes, chosen automatically:
+   • Pinned scroll-through (the premium effect): while the hero pins,
+     page scroll drives the inner site upward 1:1, then the page carries
+     on. Needs the inner site's height, which is readable only for a
+     same-origin site or one that posts its height (see message handler).
+   • Interactive (fallback): the site fills the screen and you scroll it
+     inside the phone like a real device. Used when the height can't be
+     known (e.g. a cross-origin site that doesn't report it), so the whole
+     site is always reachable.
+   The inner site is always rendered at a real phone viewport width and
+   scaled to fit, so it shows its proper mobile layout, never squished.
    =========================================================== */
+const track = document.querySelector(".hero-track");
 const frame = document.querySelector(".phone-frame");
 const screen = document.querySelector(".phone-screen");
 const FRAME_REF_W = 390;   // render the inner site at a real phone viewport width
 
-function fitPhone() {
-  if (!frame || !screen) return;
-  const screenW = screen.clientWidth;
-  const screenH = screen.clientHeight;
-  const scale = screenW / FRAME_REF_W;
-  // Lay the site out at a real phone width and a screen-filling height, then
-  // scale down to fit. The site scrolls inside the frame on its own.
+let frameScale = 1;
+let innerMax = 0;          // pinned: visual px the inner site can travel
+let pinHeight = 0;         // pinned: inner site content height at the reference width
+let lastScrolled = -1;     // pinned: memo to skip redundant transform writes
+let pinned = false;
+
+function readContentHeight() {
+  try {
+    const doc = frame.contentDocument || frame.contentWindow.document;
+    if (!doc) return 0;
+    const b = doc.body, d = doc.documentElement;
+    return Math.max(
+      b ? b.scrollHeight : 0, b ? b.offsetHeight : 0,
+      d ? d.scrollHeight : 0, d ? d.offsetHeight : 0
+    );
+  } catch (e) {
+    return 0; // cross-origin / not ready
+  }
+}
+
+// Interactive: lay the site out at a real phone width, scale to fit, and let
+// it scroll inside the frame on its own.
+function fitInteractive() {
+  const screenW = screen.clientWidth, screenH = screen.clientHeight;
+  frameScale = screenW / FRAME_REF_W;
   frame.style.width = FRAME_REF_W + "px";
-  frame.style.height = screenH / scale + "px";
-  frame.style.transform = "scale(" + scale + ")";
+  frame.style.height = screenH / frameScale + "px";
+  frame.style.transform = "scale(" + frameScale + ")";
+}
+
+// Pinned: size the iframe to the full content height; page scroll drives it.
+function enablePinned(contentH) {
+  if (!track || !(contentH > 0)) return;
+  pinned = true;
+  pinHeight = contentH;
+  const screenW = screen.clientWidth, screenH = screen.clientHeight;
+  frameScale = screenW / FRAME_REF_W;
+  frame.style.width = FRAME_REF_W + "px";
+  frame.style.height = contentH + "px";
+  frame.classList.add("is-pinned");
+  innerMax = Math.max(Math.round(contentH * frameScale - screenH), 0);
+  track.style.height = window.innerHeight + innerMax + "px";
+  lastScrolled = -1;
+  updatePhone();
+}
+
+function measurePhone() {
+  if (!frame || !screen) return;
+  if (pinned) {
+    enablePinned(pinHeight);          // recompute scale / innerMax (e.g. on resize)
+  } else {
+    fitInteractive();
+    const h = readContentHeight();    // same-origin sites upgrade to pinned
+    if (h > 0) enablePinned(h);
+  }
+}
+
+function updatePhone() {
+  if (!pinned || !track || !frame) return;
+  const top = track.getBoundingClientRect().top;
+  const scrolled = Math.min(Math.max(-top, 0), innerMax);
+  if (scrolled === lastScrolled) return;
+  lastScrolled = scrolled;
+  frame.style.transform = "translateY(" + -scrolled + "px) scale(" + frameScale + ")";
 }
 
 function clamp01(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
@@ -157,7 +218,7 @@ function updateTactics() {
 }
 
 function measureAll() {
-  fitPhone();
+  measurePhone();
   measureAwd();
   measureTactics();
 }
@@ -167,6 +228,7 @@ function onScroll() {
   if (ticking) return;
   ticking = true;
   requestAnimationFrame(() => {
+    updatePhone();
     updateAwd();
     updateTactics();
     ticking = false;
@@ -174,8 +236,22 @@ function onScroll() {
 }
 
 if (frame) {
-  frame.addEventListener("load", fitPhone);
+  frame.addEventListener("load", () => {
+    measurePhone();
+    // Re-check after web fonts / async layout (and SPA render) settle.
+    setTimeout(measurePhone, 300);
+    setTimeout(measurePhone, 1200);
+  });
 }
+
+// A same-origin site, or any site that opts in, can report its own height —
+// which upgrades the showcase from interactive to the pinned scroll-through.
+window.addEventListener("message", (e) => {
+  const data = e && e.data;
+  if (data && data.type === "phoneSiteHeight" && typeof data.height === "number") {
+    enablePinned(data.height);
+  }
+});
 
 window.addEventListener("scroll", onScroll, { passive: true });
 

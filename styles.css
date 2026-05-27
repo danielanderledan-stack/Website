@@ -534,19 +534,23 @@ ul { list-style: none; }
 }
 
 /* Swappable inner website. JS renders it at a real phone viewport width and
-   scales it to fit the screen; the site scrolls inside the frame on its own. */
+   scales it to fit. Interactive by default (you scroll it inside the frame);
+   when JS can read/receive its height it adds .is-pinned and drives the
+   page-scroll-through effect instead. */
 .phone-frame {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;             /* JS sets a fixed reference width and scales to fit */
-  height: 100%;            /* JS overrides to the screen-filling height */
+  height: 100%;            /* JS overrides to the screen-filling / content height */
   transform-origin: top left;
   border: 0;
   display: block;
   background: #fff;
   opacity: 0;
 }
+/* Pinned mode is page-driven, so the iframe shouldn't capture scroll/touch. */
+.phone-frame.is-pinned { pointer-events: none; will-change: transform; }
 .stage.revealed .phone-frame { animation: glowIn 0.7s ease 0.55s forwards; }
 
 .phone-shadow {
