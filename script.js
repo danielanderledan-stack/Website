@@ -169,23 +169,24 @@ function updateAwd() {
 
 /* ===========================================================
    "We play the system" — pinned horizontal scroll
-   6 tiles, each 100vw; the rail translates left as you scroll.
-   On mobile (≤900px) the pin is disabled; scroll-snap handles it.
+   6 tiles, each 100vw; the rail translates left as you scroll
+   down. Runs on every screen size (incl. mobile).
    =========================================================== */
 const tacticsTrack = document.querySelector(".tactics-track");
 const tacticsRail = document.querySelector(".tactics-rail");
 const tacticsDots = Array.prototype.slice.call(document.querySelectorAll(".tactics-dot"));
-const isMobileTactics = () => window.innerWidth <= 900;
 let tacticsLastS = -1; // memo: skip rewriting the rail transform when unchanged
+
+function tacticTileWidth() {
+  // Use the real tile width so the rail can't drift from the layout.
+  const first = tacticsRail && tacticsRail.firstElementChild;
+  return first ? first.getBoundingClientRect().width : window.innerWidth;
+}
 
 function measureTactics() {
   if (!tacticsTrack || !tacticsRail) return;
-  if (isMobileTactics()) {
-    tacticsTrack.style.height = "";
-    return;
-  }
   const n = document.querySelectorAll(".tactic").length;
-  const scrollDist = window.innerWidth * (n - 1);
+  const scrollDist = tacticTileWidth() * (n - 1);
   tacticsTrack.style.height = window.innerHeight + scrollDist + "px";
   tacticsLastS = -1; // dimensions changed — force the next write
   updateTactics();
@@ -193,18 +194,15 @@ function measureTactics() {
 
 function updateTactics() {
   if (!tacticsTrack || !tacticsRail) return;
-  if (isMobileTactics()) {
-    tacticsRail.style.transform = "";
-    return;
-  }
+  const tileW = tacticTileWidth();
   const n = document.querySelectorAll(".tactic").length;
-  const scrollDist = window.innerWidth * (n - 1);
+  const scrollDist = tileW * (n - 1);
   const top = tacticsTrack.getBoundingClientRect().top;
   const s = Math.min(Math.max(-top, 0), scrollDist);
   if (s === tacticsLastS) return;
   tacticsLastS = s;
   tacticsRail.style.transform = "translateX(" + -s + "px)";
-  const active = Math.min(Math.round(s / window.innerWidth), n - 1);
+  const active = Math.min(Math.round(s / tileW), n - 1);
   tacticsDots.forEach(function(dot, i) {
     dot.classList.toggle("active", i === active);
   });
@@ -252,7 +250,19 @@ window.addEventListener("message", (e) => {
 });
 
 window.addEventListener("scroll", onScroll, { passive: true });
-window.addEventListener("resize", measureAll);
+
+// On mobile the URL bar showing/hiding fires `resize` with a new height on
+// almost every scroll. Re-measuring then changes the vh-based pin track
+// heights mid-scroll, which makes the page jump ("teleport"). Only re-measure
+// when the WIDTH actually changes (rotation / real resize).
+let lastWidth = window.innerWidth;
+window.addEventListener("resize", () => {
+  if (window.innerWidth === lastWidth) return;
+  lastWidth = window.innerWidth;
+  measureAll();
+});
+window.addEventListener("orientationchange", measureAll);
+
 measureAll();
 
 // Card widths depend on fonts; re-measure once they settle.
@@ -305,43 +315,6 @@ if (contactForm) {
       if (submitBtn) submitBtn.disabled = false;
     }
   });
-}
-
-/* ===========================================================
-   Tactics carousel — auto-advance on mobile (no pin there).
-   Plays only while the section is on screen; stops once the
-   visitor takes over by swiping.
-   =========================================================== */
-const tacticsSection = document.querySelector(".tactics");
-const tacticsPin = document.querySelector(".tactics-pin");
-let tacticsTimer = null;
-let tacticsUserTook = false;
-
-function tacticsStep() {
-  if (!tacticsPin || !isMobileTactics() || tacticsUserTook) return;
-  const tileW = tacticsPin.clientWidth;
-  const max = tacticsPin.scrollWidth - tileW - 2;
-  let next = tacticsPin.scrollLeft + tileW;
-  if (next > max) next = 0;
-  tacticsPin.scrollTo({ left: next, behavior: "smooth" });
-}
-function startTacticsAuto() {
-  if (tacticsTimer || tacticsUserTook || !isMobileTactics()) return;
-  tacticsTimer = setInterval(tacticsStep, 3500);
-}
-function stopTacticsAuto() {
-  if (tacticsTimer) { clearInterval(tacticsTimer); tacticsTimer = null; }
-}
-if (tacticsPin) {
-  ["touchstart", "pointerdown", "wheel"].forEach((ev) =>
-    tacticsPin.addEventListener(ev, () => { tacticsUserTook = true; stopTacticsAuto(); }, { passive: true })
-  );
-}
-if (tacticsSection && "IntersectionObserver" in window) {
-  const tio = new IntersectionObserver((entries) => {
-    entries.forEach((en) => { en.isIntersecting ? startTacticsAuto() : stopTacticsAuto(); });
-  }, { threshold: 0.35 });
-  tio.observe(tacticsSection);
 }
 
 /* ===========================================================

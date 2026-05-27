@@ -544,6 +544,9 @@ ul { list-style: none; }
   background: #fff;
   will-change: transform;
   opacity: 0;
+  /* It's a showcase, not interactive — let touches scroll the page through
+     it instead of being trapped by the iframe (caused scroll "teleporting"). */
+  pointer-events: none;
 }
 .stage.revealed .phone-frame { animation: glowIn 0.7s ease 0.55s forwards; }
 
@@ -1340,40 +1343,24 @@ ul { list-style: none; }
 
 /* Responsive overrides for tactics + merch */
 @media (max-width: 900px) {
-  /* Tactics: turn the pinned rail into a horizontal scroll-snap */
-  .tactics-track { height: auto !important; }
-  .tactics-pin {
-    position: relative;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    height: auto;
-  }
-  .tactics-rail {
-    width: max-content;
-    height: auto;
-    transform: none !important;
-  }
-  .tactic {
-    flex: 0 0 100vw;
-    height: auto;
-    min-height: 100svh;
-    scroll-snap-align: start;
-    padding: 100px 24px 60px;
-  }
+  /* Keep the pinned horizontal scroll on mobile too: scrolling DOWN slides
+     the rail LEFT, one tile per ~screen-width of scroll. Stack each tile's
+     copy + diagram vertically and keep it inside one screen height. */
+  .tactic { padding: 88px 22px 26px; }
   .tactic-inner {
     flex-direction: column;
     align-items: flex-start;
-    gap: 28px;
+    justify-content: center;
+    gap: 16px;
     max-width: 100%;
   }
+  .tactic-sub { margin-bottom: 0; }
   .tactic-diagram {
     flex: 0 0 auto;
-    width: min(190px, 56vw);
+    width: min(150px, 40vw);
     align-self: center;
   }
-  .tactics-dots { display: none; }
+  .tactics-dots { bottom: 16px; }
 
   /* Merch: stack vertically */
   .merch-inner { flex-direction: column; }
@@ -1383,7 +1370,10 @@ ul { list-style: none; }
 @media (max-width: 560px) {
   .form-row { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
-  .tactic-h { font-size: clamp(1.7rem, 8vw, 2.4rem); }
+  .tactic-h { font-size: clamp(1.6rem, 7.5vw, 2.2rem); }
+  .tactic-p { font-size: 0.96rem; line-height: 1.55; }
+  .tactic-inner { gap: 13px; }
+  .tactic-diagram { width: min(132px, 36vw); }
 }
 
 /* ===========================================================
