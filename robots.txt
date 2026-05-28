@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /draft/
+Disallow: /*?*
+
+Sitemap: https://completedigital.com.au/sitemap.xml

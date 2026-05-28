@@ -1381,6 +1381,29 @@ ul { list-style: none; }
   transition: color 0.2s;
 }
 .footer-links a:hover { color: var(--theme-soft); }
+.footer-address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.footer-address span {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.28);
+}
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-nav a {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-nav a:hover { color: var(--theme-soft); }
 
 /* Responsive overrides for tactics + merch */
 @media (max-width: 900px) {

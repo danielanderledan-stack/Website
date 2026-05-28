@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-AU">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Get a quote — Complete digital…</title>
-  <meta name="description" content="Tell us your trade and your area — Complete digital comes back with a plan and a fixed price, usually the same day." />
+  <title>Contact Complete Digital | Melbourne Web Design</title>
+  <meta name="description" content="Get in touch with Complete Digital. Free discovery call. Based in Bayside Melbourne, serving clients across Melbourne and Australia." />
+  <link rel="canonical" href="https://completedigital.com.au/contact.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://completedigital.com.au/contact.html" />
+  <meta property="og:title" content="Contact Complete Digital | Melbourne Web Design" />
+  <meta property="og:description" content="Get in touch with Complete Digital. Free discovery call. Based in Bayside Melbourne, serving clients across Melbourne and Australia." />
+  <meta property="og:image" content="https://completedigital.com.au/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -12,16 +20,24 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": "Get a quote — Complete digital",
-    "url": "https://completedigital.com.au/contact.html",
-    "mainEntity": {
-      "@type": "LocalBusiness",
-      "name": "Complete digital",
-      "email": "daniel.anderle.dan@gmail.com",
-      "telephone": "+61432839654",
-      "areaServed": "Australia"
-    }
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://completedigital.com.au/contact.html",
+        "url": "https://completedigital.com.au/contact.html",
+        "name": "Contact Complete Digital | Melbourne Web Design",
+        "description": "Get in touch with Complete Digital. Free discovery call. Based in Bayside Melbourne.",
+        "isPartOf": { "@id": "https://completedigital.com.au/#website" },
+        "mainEntity": { "@id": "https://completedigital.com.au/#business" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://completedigital.com.au/" },
+          { "@type": "ListItem", "position": 2, "name": "Get a Quote", "item": "https://completedigital.com.au/contact.html" }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -129,11 +145,21 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <span class="footer-brand">Complete digital<span class="brand-ellipsis">…</span></span>
-      <div class="footer-links">
-        <a href="tel:+61432839654">0432 839 654</a>
-        <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a>
-      </div>
+      <address class="footer-address">
+        <strong class="footer-brand">Complete Digital</strong>
+        <span>Web design agency — Bayside Melbourne</span>
+        <span>Black Rock VIC 3193</span>
+        <div class="footer-links">
+          <a href="tel:+61432839654">0432 839 654</a>
+          <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a>
+        </div>
+      </address>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="design.html">Design</a>
+        <a href="seo.html">SEO</a>
+        <a href="contact.html">Get a quote</a>
+      </nav>
     </div>
   </footer>
 
