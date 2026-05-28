@@ -10,7 +10,7 @@ export const BRAND = {
   logo: "https://completedigital.com.au/logo.png",
   description: "Melbourne web design agency building fast, conversion-focused websites for Australian businesses. Based in Bayside.",
   founder: "Daniel Anderle",
-  foundingDate: "",                         // TODO: Dan — add founding date (YYYY-MM-DD)
+  foundingDate: "2025-03-28",
   address: {
     streetAddress: "",                      // TODO: Dan — add street address or leave blank for suburb-only
     addressLocality: "Black Rock",
@@ -23,7 +23,7 @@ export const BRAND = {
     longitude: 145.0203
   },
   telephone: "+61432839654",
-  email: "daniel.anderle.dan@gmail.com",   // TODO: Dan — switch to hello@completedigital.com.au when ready
+  email: "daniel.anderle.dan@gmail.com",
   priceRange: "$$",
   sameAs: [
     // TODO: Dan — populate after socials are live:
@@ -65,6 +65,12 @@ export const PAGES = {
     title: "Our SEO Approach | Complete Digital Melbourne",
     description: "How Complete Digital gets tradies found on Google: keyword research, on-page, local SEO, content, authority building, and monitoring.",
     canonical: "https://completedigital.com.au/seo.html"
+  },
+  about: {
+    path: "/about.html",
+    title: "About Complete Digital | Melbourne Web Design Agency",
+    description: "Meet Complete Digital — the Bayside Melbourne web design agency building fast, conversion-focused websites. Founder-led, results-driven.",
+    canonical: "https://completedigital.com.au/about.html"
   },
   contact: {
     path: "/contact.html",
