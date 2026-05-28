@@ -266,3 +266,41 @@ Steps 4.3 (press page), service pages, and work pages require content from Dan b
 ---
 
 *End of audit. Review before proceeding to Step 1.*
+
+---
+
+# Step 6 — Technical SEO Hardening (status)
+
+**Completed in code:**
+
+| Item | Status | Notes |
+|---|---|---|
+| 6.1 Sitemap with `<lastmod>` | ✅ Done | `/sitemap.xml` lists all 15 indexable routes; `/admin/`, `/api/`, `/draft/` and `?` URLs excluded |
+| 6.2 robots.txt | ✅ Done | Exact spec format, sitemap declared |
+| 6.3 `font-display: swap` | ✅ Done | Google Fonts URL uses `&display=swap`; `preconnect` to fonts domains present |
+| 6.3 Defer non-critical JS | ✅ Done | `<script src="/script.js" defer>` on every page |
+| 6.4 No `../../` deep paths | ✅ Done | None existed; all internal links now root-relative (`/path`) |
+| 6.4 Zero 404s on internal links | ✅ Verified | Automated link check passes across all 15 pages |
+| 6.4 No mixed HTTP/HTTPS content | ✅ Verified | Only `http://` strings are SVG `xmlns` namespaces (not fetched) |
+| 6.5 Canonical self-reference | ✅ Done | Every indexable page has a self-referencing canonical |
+| 6.5 No `rel="nofollow"` internal | ✅ Verified | None present |
+| 6.5 noindex on non-content pages | ✅ Done | `phone-site.html` (orphaned demo) set to `noindex, follow` |
+
+**Not applicable (no raster images on the site):**
+- 6.3 WebP `<picture>` fallback — all imagery is inline SVG / CSS
+- 6.3 `width`/`height` on `<img>` — no `<img>` tags exist
+- 6.3 Lazy-load below-the-fold images — none to lazy-load
+- 6.3 Preload hero image — hero is CSS/SVG, no raster LCP image
+- *(These rules apply from day one if/when real photography is added.)*
+
+**Requires host / server config — TODO: Dan (cannot be set in static files):**
+- 6.4 **HSTS header** — set `Strict-Transport-Security` at the host (e.g. Netlify `_headers`, Vercel `headers`, or Cloudflare).
+- 6.4 **301 (not 302) redirects** — ensure any redirects use 301.
+- 6.4 **Trailing-slash consistency** — pick one canonical form and 301 the other. Current internal scheme: root pages use `/page.html`, location pages use `/suburb/`. Configure the host so `/suburb` 301s to `/suburb/`.
+- 6.3 **Inline critical CSS** — optional; deferred. Single `styles.css` with `preconnect` is adequate for a site this size; revisit only if PageSpeed flags render-blocking CSS.
+- 6.1 **Submit `sitemap.xml` to Google Search Console.**
+
+**Acceptance checks (run on production — TODO: Dan):**
+- PageSpeed Insights mobile ≥ 90 on homepage + top pages
+- Lighthouse SEO = 100 on every page
+- Search Console Coverage ≥ 95% of submitted URLs indexed within 30 days
