@@ -1454,3 +1454,103 @@ ul { list-style: none; }
   .headline-accent::after { transform: scaleX(1) !important; }
   .warmth-line { stroke-dashoffset: 0 !important; }
 }
+
+/* ===========================================================
+   Location pages
+   =========================================================== */
+.loc-body {
+  margin: 40px 0 0;
+}
+.loc-body p {
+  font-size: clamp(1rem, 1.6vw, 1.12rem);
+  line-height: 1.72;
+  color: var(--navy-soft);
+  max-width: 40em;
+  margin: 0 0 22px;
+}
+.loc-body h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.3rem, 2.4vw, 1.65rem);
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin: 44px 0 14px;
+}
+.loc-body h2:first-child { margin-top: 0; }
+.loc-faq {
+  margin: 56px 0 0;
+}
+.loc-faq > h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.3rem, 2.4vw, 1.65rem);
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin: 0 0 20px;
+}
+.faq-list {
+  border-top: 1px solid var(--line);
+}
+.faq-item {
+  border-bottom: 1px solid var(--line);
+}
+.faq-item summary {
+  list-style: none;
+  padding: 18px 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--navy);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+";
+  font-size: 1.4rem;
+  font-weight: 300;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
+  transition: transform 0.2s;
+}
+.faq-item[open] summary::after { transform: rotate(45deg); }
+.faq-a {
+  font-size: 0.97rem;
+  line-height: 1.68;
+  color: var(--navy-soft);
+  padding: 0 0 18px;
+  max-width: 36em;
+}
+.loc-nearby {
+  margin: 44px 0 0;
+  padding: 24px 28px;
+  background: var(--paper);
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+.loc-nearby h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 12px;
+}
+.loc-nearby-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.loc-nearby-links a {
+  font-size: 0.9rem;
+  color: var(--theme-deep);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.loc-nearby-links a:hover { color: var(--navy); }
