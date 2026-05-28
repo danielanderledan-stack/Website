@@ -523,25 +523,70 @@ ul { list-style: none; }
   flex-direction: column;
 }
 
-/* Swappable inner website. JS renders it at a real phone viewport width and
-   scales it to fit. Interactive by default (you scroll it inside the frame);
-   when JS can read/receive its height it adds .is-pinned and drives the
-   page-scroll-through effect instead. */
+/* Iframe renders the example site, then a frosted-glass overlay sits on top
+   so we don't have to load the site interactively — the CTA opens the full
+   example in a new tab. */
 .phone-frame {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;             /* JS sets a fixed reference width and scales to fit */
-  height: 100%;            /* JS overrides to the screen-filling / content height */
-  transform-origin: top left;
+  width: 100%;
+  height: 100%;
   border: 0;
   display: block;
   background: #fff;
+  pointer-events: none;
   opacity: 0;
 }
-/* Pinned mode is page-driven, so the iframe shouldn't capture scroll/touch. */
-.phone-frame.is-pinned { pointer-events: none; will-change: transform; }
 .stage.revealed .phone-frame { animation: glowIn 0.7s ease 0.55s forwards; }
+
+.phone-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.32), rgba(72, 202, 228, 0.18));
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border-radius: 30px;
+  pointer-events: none;
+}
+
+.phone-cta {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 20px;
+  background: var(--navy);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: -0.005em;
+  border-radius: 999px;
+  box-shadow:
+    0 18px 38px -14px rgba(10, 37, 64, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.18) inset;
+  transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+  z-index: 2;
+}
+.phone-cta:hover,
+.phone-cta:focus-visible {
+  transform: translate(-50%, calc(-50% - 2px));
+  box-shadow:
+    0 22px 42px -14px rgba(10, 37, 64, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.22) inset;
+}
+.phone-cta svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
 .phone-shadow {
   position: absolute;

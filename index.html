@@ -220,18 +220,22 @@
       </div>
     </section>
 
-    <!-- Phone showcase: the stage pins with the phone centred & fully in
-         view; only once pinned does the inner site begin to scroll. -->
+    <!-- Phone showcase: a live site shown behind frosted glass; the CTA
+         opens the full example in a new tab. -->
     <div class="hero-track" id="work">
       <section class="stage">
-        <p class="stage-tag">A live site we built — scroll to explore it</p>
+        <p class="stage-tag">A live site we built — tap through for a closer look</p>
         <div class="phone-stage">
           <div class="phone-glow" aria-hidden="true"></div>
           <div class="phone">
             <div class="phone-screen">
-              <!-- Swappable: drop a different site at this src later. -->
               <iframe class="phone-frame" src="https://site-display3.vercel.app/"
-                      title="Sample tradie website" loading="eager"></iframe>
+                      title="Sample tradie website" loading="lazy" aria-hidden="true" tabindex="-1"></iframe>
+              <div class="phone-overlay" aria-hidden="true"></div>
+              <a class="phone-cta" href="https://site-display3.vercel.app/" target="_blank" rel="noopener">
+                See example
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
             </div>
           </div>
           <div class="phone-shadow" aria-hidden="true"></div>
