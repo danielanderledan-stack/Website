@@ -94,7 +94,7 @@ function enablePinned(contentH) {
   pinTravel = Math.min(innerMax, Math.round(window.innerHeight * MAX_PIN_VH));
   track.style.height = window.innerHeight + pinTravel + "px";
   lastScrolled = -1;
-  updatePhone();
+  requestAnimationFrame(updatePhone);
 }
 
 function measurePhone() {
@@ -103,14 +103,16 @@ function measurePhone() {
   fitInteractive();                                // placeholder; the load event decides
 }
 
-function updatePhone() {
+function _applyPhone(top) {
   if (!pinned || !track || !frame || pinTravel <= 0) return;
-  const top = track.getBoundingClientRect().top;
   const p = Math.min(Math.max(-top, 0), pinTravel) / pinTravel; // 0..1 through the pin
   const scrolled = Math.round(p * innerMax);
   if (scrolled === lastScrolled) return;
   lastScrolled = scrolled;
   frame.style.transform = "translateY(" + -scrolled + "px) scale(" + frameScale + ")";
+}
+function updatePhone() {
+  if (pinned && track) _applyPhone(track.getBoundingClientRect().top);
 }
 
 function clamp01(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
@@ -138,12 +140,11 @@ function measureAwd() {
   awd.total = awd.coverDist + awd.convDist + awd.outroDist;
   awd.spacing = Math.max((awdConveyor ? awdConveyor.clientHeight : vh) * 0.24, 62);
   awdTrack.style.height = vh + awd.total + "px";
-  awd.lastS = -1; // dimensions changed — force the next write
-  updateAwd();
+  awd.lastS = -1;
+  requestAnimationFrame(updateAwd);
 }
-function updateAwd() {
+function _applyAwd(top) {
   if (!awdTrack) return;
-  const top = awdTrack.getBoundingClientRect().top;
   const s = Math.min(Math.max(-top, 0), awd.total);
   // Off-section (above or fully past) `s` is pinned to a constant; skip the
   // whole per-item loop so we aren't recomputing 13 transforms every frame
@@ -183,6 +184,9 @@ function updateAwd() {
   if (awdHead) awdHead.style.opacity = fade;
   if (awdConveyor) awdConveyor.style.opacity = fade;
 }
+function updateAwd() {
+  if (awdTrack) _applyAwd(awdTrack.getBoundingClientRect().top);
+}
 
 /* ===========================================================
    "We play the system" — pinned horizontal scroll
@@ -193,6 +197,8 @@ const tacticsTrack = document.querySelector(".tactics-track");
 const tacticsRail = document.querySelector(".tactics-rail");
 const tacticsDots = Array.prototype.slice.call(document.querySelectorAll(".tactics-dot"));
 let tacticsLastS = -1; // memo: skip rewriting the rail transform when unchanged
+let tacticCount = 0;   // cached at measure time; avoids querySelectorAll on every scroll
+let cachedTileWidth = 0;
 
 function tacticTileWidth() {
   // Use the real tile width so the rail can't drift from the layout.
@@ -202,19 +208,20 @@ function tacticTileWidth() {
 
 function measureTactics() {
   if (!tacticsTrack || !tacticsRail) return;
-  const n = document.querySelectorAll(".tactic").length;
-  const scrollDist = tacticTileWidth() * (n - 1);
+  // Read before write — avoids forced reflow when updateTactics runs
+  tacticCount = tacticsRail.querySelectorAll(".tactic").length;
+  cachedTileWidth = tacticTileWidth();
+  const scrollDist = cachedTileWidth * (tacticCount - 1);
   tacticsTrack.style.height = window.innerHeight + scrollDist + "px";
-  tacticsLastS = -1; // dimensions changed — force the next write
-  updateTactics();
+  tacticsLastS = -1;
+  requestAnimationFrame(updateTactics);
 }
 
-function updateTactics() {
-  if (!tacticsTrack || !tacticsRail) return;
-  const tileW = tacticTileWidth();
-  const n = document.querySelectorAll(".tactic").length;
+function _applyTactics(top) {
+  if (!tacticsTrack || !tacticsRail || !tacticCount) return;
+  const tileW = cachedTileWidth || tacticTileWidth();
+  const n = tacticCount;
   const scrollDist = tileW * (n - 1);
-  const top = tacticsTrack.getBoundingClientRect().top;
   const s = Math.min(Math.max(-top, 0), scrollDist);
   if (s === tacticsLastS) return;
   tacticsLastS = s;
@@ -223,6 +230,9 @@ function updateTactics() {
   tacticsDots.forEach(function(dot, i) {
     dot.classList.toggle("active", i === active);
   });
+}
+function updateTactics() {
+  if (tacticsTrack && tacticCount) _applyTactics(tacticsTrack.getBoundingClientRect().top);
 }
 
 function measureAll() {
@@ -236,9 +246,13 @@ function onScroll() {
   if (ticking) return;
   ticking = true;
   requestAnimationFrame(() => {
-    updatePhone();
-    updateAwd();
-    updateTactics();
+    // Read all layout values first, then write — prevents interleaved forced reflows.
+    const phoneTop  = (pinned && track)  ? track.getBoundingClientRect().top        : 0;
+    const awdTop    = awdTrack           ? awdTrack.getBoundingClientRect().top      : 0;
+    const tacTop    = tacticsTrack       ? tacticsTrack.getBoundingClientRect().top  : 0;
+    _applyPhone(phoneTop);
+    _applyAwd(awdTop);
+    _applyTactics(tacTop);
     ticking = false;
   });
 }
