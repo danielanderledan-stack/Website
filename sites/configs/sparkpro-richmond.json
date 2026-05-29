@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#FFB800",
+  "primaryColorRgb": "255, 184, 0",
+  "primaryColorHover": "#E5A500",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "SparkPro",
+  "logoCircleLetter": "S",
+  "logoTagline": "Electrical Services",
+  "trade": "Electrician",
+  "suburb": "Richmond",
+  "phone": "03 9876 5432",
+  "email": "info@sparkproelectrical.com.au",
+  "address": "42 High Street, Richmond VIC 3121",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Call Now",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1600&q=80",
+      "title": "Melbourne's Trusted Electricians",
+      "sub": "Licensed, insured and ready to power your home or business"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1600&q=80",
+      "title": "Emergency Electrical Services",
+      "sub": "Available 24/7 for urgent electrical issues across Richmond and surrounds"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80",
+      "title": "Switchboard Upgrades & Safety",
+      "sub": "Modern switchboard installations to keep your property safe and compliant"
+    }
+  ],
+  "heroCtaLabel": "Get a Free Quote",
+  "splitCtaLines": [
+    "Need an",
+    "Electrician",
+    "Today?"
+  ],
+  "splitCtaSubtext": "Servicing Richmond and surrounding Melbourne suburbs with fast, reliable electrical solutions",
+  "splitCtaImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Licensed electrician working on a residential project"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "alt": "Modern switchboard installation in progress"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "LED downlight installation in Melbourne home"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=80",
+      "alt": "Commercial electrical fit-out completed"
+    }
+  ],
+  "aboutHeadingStart": "Your Local",
+  "aboutHeadingHighlight": "Electrical",
+  "aboutHeadingEnd": "Experts in Richmond",
+  "aboutSubheading": "Proudly serving Melbourne's inner east for over 15 years",
+  "aboutText": "SparkPro Electrical has been servicing Richmond and surrounding Melbourne suburbs for over 15 years, delivering reliable electrical solutions for homes and businesses. With a 4.9-star Google rating from 187 reviews, we're trusted by locals for quality workmanship, honest pricing and friendly service. Our licensed A-Grade electricians handle everything from simple power point repairs to complex commercial fit-outs and solar installations.",
+  "aboutStatLabel": "Years Experience",
+  "aboutStatValue": 15,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "SparkPro electrician working on a residential project"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Professional electrical tools and equipment"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80",
+      "alt": "Completed lighting installation in Melbourne home"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80",
+  "fullWidthImageAlt": "Modern electrical panel upgrade in Melbourne",
+  "servicesHeadingStart": "Our Professional",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "Complete electrical solutions for residential and commercial properties across Melbourne",
+  "servicesText": "From simple power point installations to complete home rewiring, our licensed electricians deliver quality workmanship every time. We service all of Melbourne's inner east including Richmond, Hawthorn, Abbotsford and Collingwood with transparent pricing and reliable scheduling.",
+  "services": [
+    {
+      "icon": "bolt",
+      "title": "Switchboard Upgrades",
+      "desc": "Modern switchboard installations and upgrades to keep your home safe and compliant with current Australian electrical standards."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Lighting Installation",
+      "desc": "LED downlights, feature lighting, outdoor lighting and smart lighting solutions for homes and businesses across Melbourne."
+    },
+    {
+      "icon": "plug",
+      "title": "Power Point Installation",
+      "desc": "Additional power points, USB outlets and dedicated circuits for appliances, entertainment systems and home offices."
+    },
+    {
+      "icon": "shield",
+      "title": "Safety Inspections",
+      "desc": "Comprehensive electrical safety inspections and compliance certificates for landlords, property managers and homeowners."
+    },
+    {
+      "icon": "zap",
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical services for power outages, tripped circuits, burning smells and urgent electrical faults."
+    },
+    {
+      "icon": "sun",
+      "title": "Solar Panel Systems",
+      "desc": "Residential and commercial solar panel installation, battery storage solutions and ongoing maintenance across Melbourne."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Richmond?",
+  "bannerSubheading": "We offer same-day service for most electrical jobs across Melbourne's inner east — call us today",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=1200&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Customers",
+  "testimonialsHeadingEnd": "Say",
+  "testimonialsSubheading": "Don't just take our word for it — hear from our happy customers across Melbourne",
+  "testimonialsImage": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
+  "testimonials": [
+    {
+      "text": "Called SparkPro when our switchboard kept tripping. They came out same day, diagnosed the issue quickly and had it fixed within a couple of hours. Fair price and great communication throughout. Highly recommend to anyone in the Richmond area!",
+      "name": "Dave Thompson",
+      "role": "Homeowner, Richmond",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We've used SparkPro for all the electrical work at our café fit-out and ongoing maintenance. They're always professional, on time and their work is absolutely top notch. Best sparkies in the inner east without a doubt.",
+      "name": "Sarah Mitchell",
+      "role": "Business Owner, Collingwood",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "Had the team install LED downlights throughout our whole house. The difference is amazing — looks so much better and our power bill has noticeably dropped. The lads were tidy and very respectful of our home.",
+      "name": "Mark O'Brien",
+      "role": "Homeowner, Hawthorn",
+      "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Modern LED lighting installation in Melbourne home"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Switchboard upgrade completed by SparkPro electricians"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "alt": "Commercial electrical fit-out in Collingwood"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=80",
+      "alt": "Solar panel installation on Melbourne roof"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80",
+      "alt": "Electrical safety inspection in progress"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=1600&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Switchboard Upgrade",
+      "base": 1200
+    },
+    {
+      "label": "Power Point Installation",
+      "base": 180
+    },
+    {
+      "label": "LED Downlight Install",
+      "base": 85
+    },
+    {
+      "label": "Safety Inspection",
+      "base": 280
+    },
+    {
+      "label": "Solar Panel Installation",
+      "base": 4500
+    }
+  ],
+  "priceListHeadingLine1": "Transparent",
+  "priceListHeadingLine2": "Pricing",
+  "priceListSubheading": "No hidden fees — just honest, upfront pricing for all our electrical services in Melbourne",
+  "priceList": [
+    {
+      "name": "Standard Callout Fee",
+      "price": "$99"
+    },
+    {
+      "name": "After Hours Surcharge",
+      "price": "$75/hr"
+    },
+    {
+      "name": "Smoke Alarm Replacement",
+      "price": "From $150"
+    },
+    {
+      "name": "Ceiling Fan Installation",
+      "price": "From $250"
+    }
+  ],
+  "urgencyBadgeText": "Same Day Service Available",
+  "professionalText": "All work completed by licensed A-Grade electricians",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Request a Free Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "Electrical",
+  "blogHeadingEnd": "Tips & News",
+  "blogSubheading": "Expert advice from our licensed electricians to keep your home safe and energy-efficient",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "date": "15 May 2024",
+      "title": "5 Signs Your Switchboard Needs Upgrading",
+      "excerpt": "Old switchboards can be a serious safety hazard. Learn the warning signs that it's time for an upgrade to protect your family and property from electrical fires."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "date": "28 April 2024",
+      "title": "Why LED Lighting Saves You Money",
+      "excerpt": "Switching to LED downlights can reduce your lighting energy costs by up to 80%. Here's everything you need to know about making the switch in your Melbourne home."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "date": "10 April 2024",
+      "title": "Electrical Safety Tips for Landlords",
+      "excerpt": "As a landlord in Victoria, you have specific electrical safety obligations under new legislation. Our guide covers what you need to know to stay compliant and keep tenants safe."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=80",
+      "date": "22 March 2024",
+      "title": "Is Solar Worth It in Melbourne?",
+      "excerpt": "With rising energy costs across Victoria, solar panels are becoming more popular than ever. We break down the real costs, savings and payback period for Melbourne homeowners."
+    }
+  ],
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "Ready to book an electrician? Give us a bell or fill out the form below for a free, no-obligation quote.",
+  "contactCtaLabel": "Send Message",
+  "footerCopyright": "© 2024 SparkPro Electrical. All rights reserved. Licensed A-Grade Electrician VIC #28451",
+  "footerNewsletterNote": "* Service reminders and updates",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "Switchboard Upgrades",
+        "Lighting Installation",
+        "Power Points",
+        "Safety Inspections",
+        "Emergency Repairs",
+        "Solar Panels"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
