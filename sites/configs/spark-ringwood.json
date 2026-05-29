@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#F5A623",
+  "primaryColorRgb": "245, 166, 35",
+  "primaryColorHover": "#D4911F",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Spark",
+  "logoCircleLetter": "S",
+  "logoTagline": "Licensed & Insured Electricians",
+  "trade": "Electrician",
+  "suburb": "Ringwood",
+  "phone": "03 9876 5432",
+  "email": "info@sparkrightelectrical.com.au",
+  "address": "42 Main Street, Ringwood VIC 3134",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Call Now",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1400&q=80",
+      "title": "Reliable Electricians in Ringwood",
+      "sub": "Fast, affordable electrical services for homes and businesses across Melbourne's Eastern Suburbs."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1400&q=80",
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "Power outage at midnight? We've got you covered — call us any time, day or night."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1400&q=80",
+      "title": "Switchboard Upgrades & Safety Checks",
+      "sub": "Keep your family safe with a full electrical safety inspection from our licensed team."
+    }
+  ],
+  "heroCtaLabel": "Get a Free Quote",
+  "splitCtaLines": [
+    "Available 24/7",
+    "For Emergencies",
+    "Call Now"
+  ],
+  "splitCtaSubtext": "Fully licensed and insured electricians ready to help, no matter the time.",
+  "splitCtaImage": "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?w=800&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Electrician working on switchboard"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Residential electrical wiring"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80",
+      "alt": "Modern lighting installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80",
+      "alt": "Commercial electrical fitout"
+    }
+  ],
+  "aboutHeadingStart": "Trusted",
+  "aboutHeadingHighlight": "Local",
+  "aboutHeadingEnd": "Electricians",
+  "aboutSubheading": "Serving Ringwood and Melbourne's Eastern Suburbs for over 15 years",
+  "aboutText": "SparkRight Electrical has been proudly servicing Ringwood, Croydon, Ringwood East and the greater Eastern Suburbs for more than 15 years. Our team of fully licensed and insured electricians brings honest, reliable workmanship to every job — from simple power point installs to full home rewires. With a 4.9-star Google rating from over 187 reviews, our customers trust us to get it done right the first time.",
+  "aboutStatLabel": "Happy Customers",
+  "aboutStatValue": 187,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Electrician inspecting wiring"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "SparkRight Electrical team at work"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80",
+      "alt": "Completed lighting project in Ringwood home"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=1400&q=80",
+  "fullWidthImageAlt": "Electrician working on a commercial electrical panel",
+  "servicesHeadingStart": "Our",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "Complete electrical solutions for homes and businesses across Melbourne's east",
+  "servicesText": "From minor repairs to major installations, our licensed electricians handle it all with precision and care. Every job comes with our workmanship guarantee.",
+  "services": [
+    {
+      "icon": "bolt",
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your old switchboard to a modern, safety-compliant unit with RCD protection to keep your family and property safe."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Lighting Installation",
+      "desc": "LED downlights, feature lighting, outdoor security lights — we design and install lighting that transforms your space."
+    },
+    {
+      "icon": "shield",
+      "title": "Electrical Safety Inspections",
+      "desc": "Comprehensive safety audits for homes and rentals. We test every circuit and issue a detailed compliance report."
+    },
+    {
+      "icon": "plug",
+      "title": "Power Point & Wiring",
+      "desc": "Need extra outlets or new wiring? We install additional power points, USB outlets, and handle all rewiring needs."
+    },
+    {
+      "icon": "zap",
+      "title": "Emergency Repairs",
+      "desc": "Power outages, tripped circuits, burning smells — our 24/7 emergency team is just a phone call away."
+    },
+    {
+      "icon": "sun",
+      "title": "Solar & Energy Solutions",
+      "desc": "Reduce your energy bills with solar panel installation, battery storage systems, and energy-efficient upgrades."
+    }
+  ],
+  "bannerHeading": "Need an Electrician Today?",
+  "bannerSubheading": "We offer same-day appointments and 24/7 emergency callouts across Ringwood and surrounding suburbs.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1400&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Customers",
+  "testimonialsHeadingEnd": "Say",
+  "testimonialsSubheading": "Don't just take our word for it — hear from the Ringwood locals who trust SparkRight with their homes.",
+  "testimonialsImage": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80",
+  "testimonials": [
+    {
+      "text": "Had a full switchboard upgrade done at our place in Croydon. The boys were on time, tidy, and explained everything clearly. Couldn't recommend them enough — absolute legends!",
+      "name": "Brad Johnston",
+      "role": "Homeowner, Croydon",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We run a café on Maroondah Highway and SparkRight sorted out all our lighting and extra power points. Professional, fairly priced, and they worked around our trading hours. Top-notch service.",
+      "name": "Sarah Mitchell",
+      "role": "Business Owner, Ringwood",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "Lost power late on a Friday night with two young kids at home. Called SparkRight and they had someone out within 40 minutes. Found a fault in the main circuit and fixed it on the spot. Absolute lifesavers!",
+      "name": "Dave Paterson",
+      "role": "Homeowner, Ringwood East",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Switchboard upgrade completed in Ringwood"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80",
+      "alt": "LED downlight installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Residential wiring project"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80",
+      "alt": "Commercial electrical fitout"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?w=600&q=80",
+      "alt": "Outdoor security light installation"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1400&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Power Point Installation",
+      "base": 165
+    },
+    {
+      "label": "Switchboard Upgrade",
+      "base": 1200
+    },
+    {
+      "label": "LED Downlight Install (per light)",
+      "base": 85
+    },
+    {
+      "label": "Electrical Safety Inspection",
+      "base": 295
+    },
+    {
+      "label": "Ceiling Fan Installation",
+      "base": 250
+    }
+  ],
+  "priceListHeadingLine1": "Transparent",
+  "priceListHeadingLine2": "Pricing",
+  "priceListSubheading": "No hidden fees. Here's what you can expect for common jobs.",
+  "priceList": [
+    {
+      "name": "General Service Callout (first hour)",
+      "price": "$165"
+    },
+    {
+      "name": "Smoke Alarm Installation (each)",
+      "price": "$120"
+    },
+    {
+      "name": "Oven/Cooktop Connection",
+      "price": "$280"
+    },
+    {
+      "name": "Full Home Safety Inspection & Report",
+      "price": "$295"
+    }
+  ],
+  "urgencyBadgeText": "Same-day service available",
+  "professionalText": "All prices include GST. Final pricing may vary based on job complexity and materials required.",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Request a Detailed Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "Electrical",
+  "blogHeadingEnd": "News",
+  "blogSubheading": "Tips, advice and updates from your local Ringwood electricians",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "date": "15 June 2025",
+      "title": "Why You Should Upgrade Your Old Switchboard This Winter",
+      "excerpt": "Old switchboards weren't designed for modern electrical loads. Learn the warning signs and why an upgrade could save your home from a serious fault."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80",
+      "date": "28 May 2025",
+      "title": "5 Benefits of Switching to LED Downlights",
+      "excerpt": "LED downlights use up to 80% less energy than halogens. Here's why making the switch is a no-brainer for Ringwood homeowners."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "date": "10 May 2025",
+      "title": "Electrical Safety Tips for Landlords in Victoria",
+      "excerpt": "Victorian rental laws require regular electrical safety checks. Here's what you need to know to stay compliant and keep your tenants safe."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80",
+      "date": "22 April 2025",
+      "title": "How to Tell If Your Home Needs Rewiring",
+      "excerpt": "Flickering lights, burning smells, and tripping circuits could mean your wiring is past its use-by date. Here's how to spot the signs early."
+    }
+  ],
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "Ready to book an electrician? Give us a call or send through your details and we'll get back to you within the hour.",
+  "contactCtaLabel": "Send Enquiry",
+  "footerCopyright": "© 2025 SparkRight Electrical. All rights reserved. Licensed Electrician — LIC #28457.",
+  "footerNewsletterNote": "* Service reminders and seasonal electrical tips",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "Switchboard Upgrades",
+        "Lighting Installation",
+        "Safety Inspections",
+        "Power Point Install",
+        "Emergency Repairs",
+        "Solar Solutions"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
