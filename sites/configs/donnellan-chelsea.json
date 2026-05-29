@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#1E6BB8",
+  "primaryColorRgb": "30, 107, 184",
+  "primaryColorHover": "#175A9E",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Donnellan",
+  "logoCircleLetter": "D",
+  "logoTagline": "Building Your Vision",
+  "trade": "Builder",
+  "suburb": "Chelsea",
+  "phone": "(03) 9772 7708",
+  "email": "enquiries@donnellanconstructions.com.au",
+  "address": "12 Barnes Grove, Chelsea VIC 3196",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Quote",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80",
+      "title": "Quality Craftsmanship You Can Trust",
+      "sub": "Donnellan Constructions delivers premium building solutions across Chelsea and Melbourne's bayside suburbs."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80",
+      "title": "New Home Builds & Extensions",
+      "sub": "From concept to completion, we bring your dream home to life with precision and care."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80",
+      "title": "Renovations That Transform",
+      "sub": "Breathing new life into existing homes across Melbourne's south-east."
+    }
+  ],
+  "heroCtaLabel": "Get a Free Quote",
+  "splitCtaLines": [
+    "Your Home.",
+    "Our Craft.",
+    "Built to Last."
+  ],
+  "splitCtaSubtext": "Contact us today for a free consultation and discover how Donnellan Constructions can bring your vision to life.",
+  "splitCtaImage": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "alt": "New home build in Chelsea"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600573472591-ee6b68d14e47?w=600&q=80",
+      "alt": "Bathroom renovation by Donnellan Constructions"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=80",
+      "alt": "Modern kitchen renovation in Melbourne"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600596542815-ead7cddc0534?w=600&q=80",
+      "alt": "Home extension project in Chelsea"
+    }
+  ],
+  "aboutHeadingStart": "Trusted Local",
+  "aboutHeadingHighlight": "Builders",
+  "aboutHeadingEnd": "in Chelsea",
+  "aboutSubheading": "Quality construction services for Melbourne's bayside communities",
+  "aboutText": "With over 15 years of building experience across Melbourne's south-east, Donnellan Constructions has been proudly serving Chelsea and the surrounding bayside suburbs including Mentone, Parkdale, and Mordialloc. Our skilled team delivers quality craftsmanship on every project, from new home builds and extensions to complete renovations and outdoor living spaces.",
+  "aboutStatLabel": "Years Experience",
+  "aboutStatValue": 15,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80",
+      "alt": "Donnellan Constructions team on site"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1562280023-3e4604be21a2?w=600&q=80",
+      "alt": "Quality building work in progress"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?w=600&q=80",
+      "alt": "Completed home build in Chelsea"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80",
+  "fullWidthImageAlt": "Beautifully constructed modern home by Donnellan Constructions",
+  "servicesHeadingStart": "Our Professional",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "Comprehensive building solutions tailored to your needs",
+  "servicesText": "From new home builds to renovations and extensions, we offer a full range of construction services across Chelsea, Mentone, Parkdale, and the broader Melbourne bayside area.",
+  "services": [
+    {
+      "icon": "hammer",
+      "title": "New Home Builds",
+      "desc": "Custom-designed homes built to the highest standards, tailored to your lifestyle and budget across Melbourne's south-east."
+    },
+    {
+      "icon": "tool",
+      "title": "Home Extensions",
+      "desc": "Expand your living space with seamless extensions that blend perfectly with your existing home's character and style."
+    },
+    {
+      "icon": "wrench",
+      "title": "Renovations",
+      "desc": "Transform your home with expert renovations including open-plan conversions, modern upgrades, and full interior makeovers."
+    },
+    {
+      "icon": "droplet",
+      "title": "Kitchen & Bathroom",
+      "desc": "Specialist kitchen and bathroom renovations with quality fixtures, finishes, and attention to every detail."
+    },
+    {
+      "icon": "shield",
+      "title": "Insurance Repairs",
+      "desc": "Fast, reliable building repairs covered by insurance claims. We work directly with insurers to restore your home quickly."
+    },
+    {
+      "icon": "gear",
+      "title": "Commercial Fit-Outs",
+      "desc": "Professional office and retail fit-outs for local Chelsea businesses, delivered on time and within budget."
+    }
+  ],
+  "bannerHeading": "Ready to Build Your Dream?",
+  "bannerSubheading": "Contact us today for a free consultation and quote. We service Chelsea, Mentone, Parkdale, Mordialloc, and all surrounding suburbs.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Clients",
+  "testimonialsHeadingEnd": "Say",
+  "testimonialsSubheading": "Hear from homeowners across Melbourne's bayside who trust Donnellan Constructions",
+  "testimonialsImage": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+  "testimonials": [
+    {
+      "text": "Donnellan Constructions did a brilliant job on our home extension in Chelsea. Brad and his team were professional from start to finish, kept the site tidy, and finished ahead of schedule. Couldn't be happier with the result.",
+      "name": "Brad Mitchell",
+      "role": "Homeowner, Chelsea",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We had our kitchen and living area completely renovated and the transformation is incredible. The team understood exactly what we wanted and the craftsmanship is top-notch. Highly recommend to anyone in the bayside area.",
+      "name": "Sarah Nguyen",
+      "role": "Homeowner, Mentone",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "From the initial quote through to the final walkthrough, the crew were honest, reliable, and delivered exceptional quality. Our new deck and outdoor entertaining area has become the heart of our home.",
+      "name": "Tom Crawford",
+      "role": "Homeowner, Parkdale",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "alt": "New home construction"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600573472591-ee6b68d14e47?w=600&q=80",
+      "alt": "Bathroom renovation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=80",
+      "alt": "Modern kitchen build"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600596542815-ead7cddc0534?w=600&q=80",
+      "alt": "Home extension project"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?w=600&q=80",
+      "alt": "Completed home build"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "New Home Build",
+      "base": 25000
+    },
+    {
+      "label": "Home Extension",
+      "base": 15000
+    },
+    {
+      "label": "Kitchen Renovation",
+      "base": 12000
+    },
+    {
+      "label": "Bathroom Renovation",
+      "base": 8500
+    },
+    {
+      "label": "Deck or Pergola",
+      "base": 5000
+    }
+  ],
+  "priceListHeadingLine1": "Transparent & Fair",
+  "priceListHeadingLine2": "Pricing",
+  "priceListSubheading": "Clear pricing with no hidden costs. All prices in AUD.",
+  "priceList": [
+    {
+      "name": "Free On-Site Consultation",
+      "price": "Free"
+    },
+    {
+      "name": "Drafting & Architectural Design",
+      "price": "From $3,500"
+    },
+    {
+      "name": "Building Permits & Approvals",
+      "price": "From $1,200"
+    },
+    {
+      "name": "Project Management Fee",
+      "price": "10% of build cost"
+    }
+  ],
+  "urgencyBadgeText": "Fast-Track Builds Available",
+  "professionalText": "All work is fully insured, council compliant, and backed by our quality guarantee.",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Request a Detailed Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "Building",
+  "blogHeadingEnd": "News",
+  "blogSubheading": "Tips, advice, and insights from your trusted Chelsea builders",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "date": "15 March 2025",
+      "title": "How to Plan a Home Extension in Chelsea",
+      "excerpt": "Thinking about extending your home? Here's everything you need to know about planning, permits, and budgeting for a successful home extension in Melbourne's south-east."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=80",
+      "date": "28 February 2025",
+      "title": "Top Kitchen Renovation Trends for 2025",
+      "excerpt": "From stone benchtops to open-plan layouts, discover the hottest kitchen renovation trends that Chelsea homeowners are embracing this year."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600596542815-ead7cddc0534?w=600&q=80",
+      "date": "10 February 2025",
+      "title": "Building Permits in Victoria: What You Need to Know",
+      "excerpt": "Confused about building permits? Our guide breaks down the Victorian permit process so you can start your project with confidence."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80",
+      "date": "25 January 2025",
+      "title": "5 Signs Your Home Needs a Renovation",
+      "excerpt": "Is your home due for an upgrade? Here are five telltale signs that it might be time to call in the builders for a renovation."
+    }
+  ],
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "Ready to start your next building project? Contact Donnellan Constructions today for a free consultation and quote.",
+  "contactCtaLabel": "Send Enquiry",
+  "footerCopyright": "© 2025 Donnellan Constructions. All rights reserved. Registered Builder — Chelsea, VIC 3196.",
+  "footerNewsletterNote": "* Service reminders and updates",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "New Home Builds",
+        "Home Extensions",
+        "Renovations",
+        "Kitchen & Bathroom",
+        "Insurance Repairs",
+        "Commercial Fit-Outs"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
