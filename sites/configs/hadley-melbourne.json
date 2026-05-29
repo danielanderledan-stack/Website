@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#F5A623",
+  "primaryColorRgb": "245, 166, 35",
+  "primaryColorHover": "#D9901D",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Hadley",
+  "logoCircleLetter": "H",
+  "logoTagline": "Electrical",
+  "trade": "Electrician",
+  "suburb": "Melbourne",
+  "phone": "(03) 9123 4567",
+  "email": "info@hadleyelectrical.com.au",
+  "address": "47 Sparks Lane, Melbourne VIC 3000",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Free Quote",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1400&q=80",
+      "title": "Trusted Melbourne Electricians",
+      "sub": "Residential, commercial and industrial electrical solutions — done right the first time."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1400&q=80",
+      "title": "24/7 Emergency Service",
+      "sub": "Power outage or electrical fault? We're on call around the clock to keep you safe."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1400&q=80",
+      "title": "Licensed & Fully Insured",
+      "sub": "Over 15 years of experience delivering quality workmanship across Greater Melbourne."
+    }
+  ],
+  "heroCtaLabel": "Book an Electrician",
+  "splitCtaLines": [
+    "Need an",
+    "Electrician",
+    "Today?"
+  ],
+  "splitCtaSubtext": "From switchboard upgrades to full fit-outs, Hadley Electrical has Melbourne covered. Call now for a free, no-obligation quote.",
+  "splitCtaImage": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1000&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=600&q=80",
+      "alt": "Electrician working on a switchboard"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+      "alt": "Commercial lighting installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Residential power point installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+      "alt": "Industrial electrical panel"
+    }
+  ],
+  "aboutHeadingStart": "Melbourne's",
+  "aboutHeadingHighlight": "Reliable",
+  "aboutHeadingEnd": "Electricians",
+  "aboutSubheading": "Delivering safe, quality electrical work since 2008",
+  "aboutText": "Hadley Electrical has been proudly serving Melbourne and its surrounding suburbs for over 15 years, providing safe and reliable electrical solutions to homes, businesses and industrial sites. Our team of fully licensed electricians is committed to honest pricing, punctual service, and workmanship that meets the highest Australian standards. Whether it's a simple power point install or a complex commercial fit-out, we treat every job with the same level of care and professionalism.",
+  "aboutStatLabel": "Years of Experience",
+  "aboutStatValue": 15,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1581092160538-781920439846?w=600&q=80",
+      "alt": "Hadley Electrical team at work"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=80",
+      "alt": "Electrician inspecting wiring"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1544724107-6d5c4caaff30?w=600&q=80",
+      "alt": "Modern electrical installation"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=1400&q=80",
+  "fullWidthImageAlt": "Melbourne cityscape at dusk",
+  "servicesHeadingStart": "Our",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "Complete electrical solutions for every property type",
+  "servicesText": "From minor repairs to major installations, Hadley Electrical delivers a full range of electrical services across Melbourne. Every job is completed by a licensed professional who puts safety and quality first.",
+  "services": [
+    {
+      "icon": "bolt",
+      "title": "Residential Electrical",
+      "desc": "Complete home electrical services including rewiring, switchboard upgrades, power points, smoke alarms and safety inspections for Melbourne households."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Commercial Electrical",
+      "desc": "Fit-outs, data cabling, lighting design, emergency exit signage and ongoing maintenance contracts for shops, offices and hospitality venues across Melbourne."
+    },
+    {
+      "icon": "gear",
+      "title": "Industrial Electrical",
+      "desc": "Heavy-duty electrical solutions for warehouses, factories and manufacturing plants including 3-phase power, machinery wiring and compliance testing."
+    },
+    {
+      "icon": "zap",
+      "title": "24/7 Emergency Service",
+      "desc": "Electrical emergencies don't wait and neither do we. Our on-call team is available around the clock for urgent faults, outages and safety hazards."
+    },
+    {
+      "icon": "plug",
+      "title": "Switchboard Upgrades",
+      "desc": "Outdated switchboards are a serious safety risk. We upgrade old fuse boxes to modern circuit-breaker panels with RCD protection to keep your property compliant."
+    },
+    {
+      "icon": "sun",
+      "title": "LED Lighting & Energy Saving",
+      "desc": "Slash your energy bills with LED downlights, sensor lights and smart lighting solutions installed by our experienced team."
+    }
+  ],
+  "bannerHeading": "Need an Electrician You Can Trust?",
+  "bannerSubheading": "Hadley Electrical has been Melbourne's go-to sparky for over 15 years. No job too big or small.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1621905252472-e0de1f3f60f0?w=1200&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Clients",
+  "testimonialsHeadingEnd": "Say",
+  "testimonialsSubheading": "Don't just take our word for it — hear from Melbourne locals who trust Hadley Electrical",
+  "testimonialsImage": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&q=80",
+  "testimonials": [
+    {
+      "text": "Hadley Electrical upgraded our old switchboard and installed extra power points throughout our home in Fitzroy. The boys turned up on time, tidied up after themselves and the price was exactly what they quoted. Couldn't be happier — highly recommend!",
+      "name": "Sarah Mitchell",
+      "role": "Homeowner, Fitzroy",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "We've used Hadley Electrical for our café fit-out and ongoing maintenance in South Yarra. They're reliable, professional and always go the extra mile. Great to have a local sparky we can count on.",
+      "name": "David Thornton",
+      "role": "Café Owner, South Yarra",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "Had a power outage at 2am on a Saturday night and Hadley Electrical had someone at our door within the hour. Turned out to be a faulty circuit on our switchboard. Fast, friendly and fair pricing even for an emergency call-out.",
+      "name": "Emma Richards",
+      "role": "Property Manager, Richmond",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "alt": "Switchboard upgrade in progress"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Commercial lighting installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Residential power point install"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80",
+      "alt": "Industrial control panel wiring"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "alt": "Electrician's tools and equipment"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1400&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Power Point Installation",
+      "base": 185
+    },
+    {
+      "label": "Switchboard Upgrade",
+      "base": 950
+    },
+    {
+      "label": "Ceiling Fan Installation",
+      "base": 250
+    },
+    {
+      "label": "Smoke Alarm Install / Replace",
+      "base": 165
+    },
+    {
+      "label": "LED Downlight Installation",
+      "base": 75
+    }
+  ],
+  "priceListHeadingLine1": "Transparent",
+  "priceListHeadingLine2": "Pricing",
+  "priceListSubheading": "No hidden fees. No surprises. Just honest, upfront pricing for all common electrical jobs.",
+  "priceList": [
+    {
+      "name": "Standard Call-Out Fee",
+      "price": "$145"
+    },
+    {
+      "name": "Hourly Rate (After First Hour)",
+      "price": "$95/hr"
+    },
+    {
+      "name": "Electrical Safety Inspection",
+      "price": "$295"
+    },
+    {
+      "name": "Emergency After-Hours Surcharge",
+      "price": "$120"
+    }
+  ],
+  "urgencyBadgeText": "24/7 Emergency Service Available",
+  "professionalText": "All work completed by licensed A-Grade electricians. Fully insured and compliant with Australian Standards AS/NZS 3000.",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Request a Free Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "Electrical",
+  "blogHeadingEnd": "News",
+  "blogSubheading": "Tips, advice and industry insights from your local Melbourne electrician",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "date": "12 March 2025",
+      "title": "5 Signs Your Switchboard Needs an Upgrade",
+      "excerpt": "Old ceramic fuses, flickering lights and tripping circuits are all warning signs. Learn when it's time to upgrade your switchboard and why it matters for safety."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "date": "28 February 2025",
+      "title": "How to Cut Your Energy Bills with LED Lighting",
+      "excerpt": "Switching to LED lighting can reduce your energy consumption by up to 80%. Here's everything Melbourne homeowners need to know about making the switch."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1621905252472-e0de1f3f60f0?w=600&q=80",
+      "date": "15 February 2025",
+      "title": "Why You Should Always Use a Licensed Electrician",
+      "excerpt": "DIY electrical work is not only illegal in Australia — it's dangerous. Here's why hiring a licensed electrician protects your family, your property and your wallet."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "date": "2 February 2025",
+      "title": "Preparing Your Home for Storm Season in Melbourne",
+      "excerpt": "Melbourne's storm season can wreak havoc on your electrical system. Follow these essential tips to keep your home safe and powered up when the wild weather hits."
+    }
+  ],
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "Ready to book an electrician or have a question? Give us a call or fill out the form and we'll get back to you within the hour.",
+  "contactCtaLabel": "Send Message",
+  "footerCopyright": "© 2025 Hadley Electrical. All rights reserved. Licensed A-Grade Electrician — Melbourne, VIC.",
+  "footerNewsletterNote": "* Service reminders and updates",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "Residential Electrical",
+        "Commercial Electrical",
+        "Industrial Electrical",
+        "Switchboard Upgrades",
+        "LED Lighting",
+        "24/7 Emergency"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
