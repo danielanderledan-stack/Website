@@ -1,6 +1,6 @@
 {
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/sites/(.*)", "dest": "/sites/index.html" }
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/sites/:path*", "destination": "/sites/index.html" }
   ]
 }
