@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#FFB800",
+  "primaryColorRgb": "255, 184, 0",
+  "primaryColorHover": "#E5A500",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Core",
+  "logoCircleLetter": "C",
+  "logoTagline": "Electrical & Automation",
+  "trade": "Electrician",
+  "suburb": "Melbourne",
+  "phone": "(03) 9123 4567",
+  "email": "info@coreelectrical.com.au",
+  "address": "Melbourne, VIC 3000",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Quote",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1600&q=80",
+      "title": "Expert Electrical Solutions for Melbourne",
+      "sub": "Licensed electricians delivering safe, reliable work for homes and businesses across the city."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=1600&q=80",
+      "title": "Smart Home Automation & Integration",
+      "sub": "Transform your living space with cutting-edge automation, voice control and connected technology."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1600&q=80",
+      "title": "Professional Lighting Design & Installation",
+      "sub": "Beautiful, energy-efficient lighting solutions tailored to your home or commercial space."
+    }
+  ],
+  "heroCtaLabel": "Book a Free Quote",
+  "splitCtaLines": [
+    "Licensed Melbourne Electricians",
+    "Trusted for Over 15 Years",
+    "Book Your Free Quote Today"
+  ],
+  "splitCtaSubtext": "Serving homes and businesses across Melbourne with reliable, professional electrical services you can count on.",
+  "splitCtaImage": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+      "alt": "Switchboard upgrade in Melbourne home"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80",
+      "alt": "Smart home automation panel installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80",
+      "alt": "Modern electrical technology and wiring"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1545251836-8a0f27b090d0?w=600&q=80",
+      "alt": "Professional electrical tools laid out"
+    }
+  ],
+  "aboutHeadingStart": "Your Trusted",
+  "aboutHeadingHighlight": "Melbourne",
+  "aboutHeadingEnd": "Electricians",
+  "aboutSubheading": "Reliable electrical solutions for homes and businesses since 2009",
+  "aboutText": "With over 15 years of experience serving Melbourne and its surrounding suburbs, Core Electrical & Automation Pty Ltd has built a reputation for reliable, high-quality electrical work you can trust. Our licensed team specialises in everything from residential rewiring and switchboard upgrades to cutting-edge home automation and commercial fit-outs — all completed to the highest Australian standards.",
+  "aboutStatLabel": "Years of Experience",
+  "aboutStatValue": 15,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80",
+      "alt": "Core Electrical technician working on wiring"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+      "alt": "Completed switchboard installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+      "alt": "Our Melbourne office and workshop"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80",
+  "fullWidthImageAlt": "Modern Melbourne home with professional electrical work",
+  "servicesHeadingStart": "Our Professional",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "Comprehensive electrical services for every property and budget",
+  "servicesText": "From simple power point installations to complete home automation systems, Core Electrical & Automation covers the full spectrum of electrical services across Melbourne.",
+  "services": [
+    {
+      "icon": "bolt",
+      "title": "Residential Electrical",
+      "desc": "Switchboard upgrades, full house rewiring, lighting installation and general electrical repairs for homes across Melbourne."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Home Automation",
+      "desc": "Smart lighting, automated blinds, voice-controlled systems and integrated home technology to modernise your living space."
+    },
+    {
+      "icon": "shield",
+      "title": "Home Security",
+      "desc": "Professionally installed CCTV cameras, alarm systems, motion sensors and access control to keep your property safe."
+    },
+    {
+      "icon": "plug",
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical fit-outs, data cabling, lighting and maintenance for offices, retail spaces and warehouses."
+    },
+    {
+      "icon": "zap",
+      "title": "Electrical Wiring",
+      "desc": "Complete wiring solutions for new builds, renovations and extensions — all installed to current Australian standards."
+    },
+    {
+      "icon": "wrench",
+      "title": "Maintenance & Repairs",
+      "desc": "Fast, affordable electrical maintenance, fault-finding and safety inspections for homes and businesses."
+    }
+  ],
+  "bannerHeading": "Need a Reliable Electrician in Melbourne?",
+  "bannerSubheading": "From simple repairs to full automation systems, our licensed team has you covered — day or night.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1200&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Clients",
+  "testimonialsHeadingEnd": "Say",
+  "testimonialsSubheading": "Real feedback from Melbourne homeowners and businesses we've worked with",
+  "testimonialsImage": "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=1200&q=80",
+  "testimonials": [
+    {
+      "text": "Core Electrical upgraded our entire switchboard and installed new LED downlights throughout the house. The team was punctual, tidy and explained everything clearly. Couldn't recommend them more highly for anyone in the Brunswick area.",
+      "name": "Sarah Mitchell",
+      "role": "Homeowner, Brunswick",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "We had Core Electrical fit out our new café in South Yarra — full commercial wiring, data cabling and security cameras. They handled the lot with zero hassle and finished ahead of schedule. Outstanding service.",
+      "name": "David Chen",
+      "role": "Business Owner, South Yarra",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We wanted a full smart home setup — automated lighting, motorised blinds, intercom and CCTV. Core Electrical designed and installed the whole system and it works flawlessly. Best investment we've made in our Richmond home.",
+      "name": "Tom Williams",
+      "role": "Homeowner, Richmond",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      "alt": "Electrical wiring installation in progress"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+      "alt": "Switchboard upgrade completed"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+      "alt": "Modern pendant lighting installation"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+      "alt": "Licensed electrician at work"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80",
+      "alt": "Smart home technology and automation"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1600&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Power Point Installation",
+      "base": 180
+    },
+    {
+      "label": "Switchboard Upgrade",
+      "base": 850
+    },
+    {
+      "label": "Home Automation Setup",
+      "base": 1200
+    },
+    {
+      "label": "Security System Installation",
+      "base": 950
+    },
+    {
+      "label": "Full House Rewiring",
+      "base": 3500
+    }
+  ],
+  "priceListHeadingLine1": "Transparent",
+  "priceListHeadingLine2": "Pricing",
+  "priceListSubheading": "Honest, upfront pricing on our most common electrical services — no hidden fees, no surprises.",
+  "priceList": [
+    {
+      "name": "Call-out Fee (Standard Hours)",
+      "price": "$95"
+    },
+    {
+      "name": "Standard Power Point Install",
+      "price": "$155"
+    },
+    {
+      "name": "LED Downlight Installation (per light)",
+      "price": "$45"
+    },
+    {
+      "name": "Smoke Alarm Install & Test",
+      "price": "$85"
+    }
+  ],
+  "urgencyBadgeText": "24/7 Emergency Electrical Service",
+  "professionalText": "Licensed & Insured Electricians",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Get Your Free Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "Electrical",
+  "blogHeadingEnd": "News",
+  "blogSubheading": "Expert tips, safety advice and the latest in electrical technology for Melbourne homes and businesses",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+      "date": "15 May 2025",
+      "title": "5 Signs Your Switchboard Needs an Upgrade",
+      "excerpt": "Older switchboards can be a serious safety risk. Here are five warning signs Melbourne homeowners should look out for before it's too late."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80",
+      "date": "28 April 2025",
+      "title": "Smart Home Automation: What Melbourne Homeowners Need to Know",
+      "excerpt": "Thinking about automating your home? We break down the best smart systems available and what to consider before you commit."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+      "date": "12 March 2025",
+      "title": "How to Cut Your Energy Bills with LED Lighting",
+      "excerpt": "LED lighting uses up to 75% less energy than halogens. Here's how a simple lighting upgrade can save you hundreds each year."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+      "date": "25 February 2025",
+      "title": "Why Regular Electrical Maintenance Matters",
+      "excerpt": "Routine electrical inspections catch faults early, prevent fires and keep your insurance valid. Here's why every Melbourne property needs regular checks."
+    }
+  ],
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "Ready to book an electrician or have a question? Give us a call or send us a message — we'd love to help.",
+  "contactCtaLabel": "Send Enquiry",
+  "footerCopyright": "© 2025 Core Electrical & Automation Pty Ltd. All rights reserved. Licensed Electrical Contractor — Melbourne, VIC.",
+  "footerNewsletterNote": "* Service reminders and seasonal safety updates",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "Residential Electrical",
+        "Home Automation",
+        "Home Security",
+        "Commercial Electrical",
+        "Electrical Wiring",
+        "Maintenance & Repairs"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
