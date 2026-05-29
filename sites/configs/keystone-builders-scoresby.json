@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#0b7ad1",
+  "primaryColorRgb": "11, 122, 209",
+  "primaryColorHover": "#095a9c",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Keystone Builders",
+  "logoCircleLetter": "K",
+  "logoTagline": "Built to live. Built to work. Built to inspire.",
+  "trade": "Builder",
+  "suburb": "Scoresby",
+  "phone": "0425 748 966",
+  "email": "jason@keystonebuilders.com.au",
+  "address": "Suite 515, 44 Lakeview Drive, Scoresby, VIC, 3179, Australia",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Quote",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80",
+      "title": "Crafting Melbourne's Skyline & Suburbs",
+      "sub": "Premium residential and commercial construction across Scoresby and beyond."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80",
+      "title": "Built Around Your Lifestyle",
+      "sub": "Custom homes, extensions, and renovations delivered on time and on budget."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1920&q=80",
+      "title": "Commercial Spaces That Work Harder",
+      "sub": "Office, retail, medical and industrial fitouts designed for productivity."
+    }
+  ],
+  "heroCtaLabel": "Request a Free Quote",
+  "splitCtaLines": [
+    "Built to live",
+    "Built to work",
+    "Built to inspire"
+  ],
+  "splitCtaSubtext": "From Scoresby to Hawthorn, we bring vision, precision and quality to every brick laid and every wall raised.",
+  "splitCtaImage": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1629778281367-ELZNZE42YA76PW3APSI2/Hawthorn1.jpg",
+      "alt": "Residential renovation Hawthorn"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/0a52b5b1-87b4-42f6-a68f-49138d58015a/Keystone+Builders+Melbourne+4_View_Street_Hawthorn_018A.jpg",
+      "alt": "Keystone Builders Hawthorn project exterior"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1805c851-3b87-4110-a16b-fa4700e4c9f4/Hawthorn4.jpg",
+      "alt": "Modern home build interior Hawthorn"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1629864340003-9YV2LC43ETMTP8X5UVER/Hawthorn3.jpg",
+      "alt": "Keystone Builders craftsmanship detail"
+    }
+  ],
+  "aboutHeadingStart": "Builders Who",
+  "aboutHeadingHighlight": "Listen",
+  "aboutHeadingEnd": "& Deliver",
+  "aboutSubheading": "Melbourne's trusted construction partner",
+  "aboutText": "Keystone Builders brings over 15 years of hands-on experience to residential and commercial projects throughout Scoresby and greater Melbourne. We combine old-school craftsmanship with modern project management to deliver spaces that are functional, compliant, and built to last. Whether it's a bespoke family home or a complex medical fitout, we treat every job with the same focus on quality and clear communication.",
+  "aboutStatLabel": "Years Experience",
+  "aboutStatValue": 15,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1629778281367-ELZNZE42YA76PW3APSI2/Hawthorn1.jpg",
+      "alt": "Hawthorn residential project"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/0a52b5b1-87b4-42f6-a68f-49138d58015a/Keystone+Builders+Melbourne+4_View_Street_Hawthorn_018A.jpg",
+      "alt": "Keystone Builders exterior construction"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1629864340003-9YV2LC43ETMTP8X5UVER/Hawthorn3.jpg",
+      "alt": "Quality building finishes Hawthorn"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80",
+  "fullWidthImageAlt": "Commercial construction framework Melbourne",
+  "servicesHeadingStart": "Expert",
+  "servicesHeadingHighlight": "Services",
+  "servicesHeadingEnd": "We Offer",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From the first survey to the final coat of paint, Keystone Builders manages every stage of your project. We specialise in residential new builds, home extensions, and tailored commercial fitouts across offices, retail, medical, and industrial sectors.",
+  "services": [
+    {
+      "icon": "hammer",
+      "title": "Residential New Builds",
+      "desc": "Custom-designed homes built to suit your block, your lifestyle, and your budget. We handle everything from slab to handover across Melbourne's eastern suburbs."
+    },
+    {
+      "icon": "wrench",
+      "title": "Extensions & Renovations",
+      "desc": "Expand your living space without compromising character. Seamless additions, second-storeys, and modern upgrades tailored to existing architecture."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Office & Retail Fitouts",
+      "desc": "Smart, stylish commercial interiors that reflect your brand and maximise workflow. From boutique stores to corporate offices in Scoresby and surrounding areas."
+    },
+    {
+      "icon": "gear",
+      "title": "Industrial & Factory Fitouts",
+      "desc": "Heavy-duty solutions designed for safety, efficiency, and compliance. Warehouses, production floors, and logistics hubs built to perform."
+    },
+    {
+      "icon": "shield",
+      "title": "Medical & Aged Care Fitouts",
+      "desc": "Specialist environments meeting strict hygiene and accessibility standards. Dental clinics, sports medicine centres, and aged care facilities delivered with care."
+    },
+    {
+      "icon": "tool",
+      "title": "Project Management",
+      "desc": "End-to-end oversight of timelines, trades, and compliance. We coordinate councils, engineers, and certifiers so you don't have to."
+    }
+  ],
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote for your residential or commercial project.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Clients",
+  "testimonialsHeadingEnd": "Say",
+  "testimonialsSubheading": "Trusted across Melbourne's east",
+  "testimonialsImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
+  "testimonials": [
+    {
+      "text": "Keystone Builders knocked it out of the park with our dental clinic fitout in Hawthorn. They understood the compliance requirements from day one and delivered a week ahead of schedule. Couldn't recommend them enough.",
+      "name": "Dr. Liam Patterson",
+      "role": "Dental Practice Owner",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We engaged Keystone for a major extension on our Scoresby family home. Jason and the crew were punctual, tidy, and kept us in the loop the whole way through. The finish is spot-on.",
+      "name": "Sarah Nguyen",
+      "role": "Homeowner",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "The team managed our factory fitout with zero downtime. Professional, safety-conscious, and genuinely easy to deal with. They've set the benchmark for our future projects.",
+      "name": "Mark Thompson",
+      "role": "Operations Manager",
+      "avatar": "https://randomuser.me/api/portraits/men/85.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1629778281367-ELZNZE42YA76PW3APSI2/Hawthorn1.jpg",
+      "alt": "Hawthorn living room renovation"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1805c851-3b87-4110-a16b-fa4700e4c9f4/Hawthorn4.jpg",
+      "alt": "Keystone Builders kitchen detail Hawthorn"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "alt": "Modern kitchen renovation Melbourne"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+      "alt": "Commercial office fitout interior"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/60fccaf51b59950e64f366d8/1629864340003-9YV2LC43ETMTP8X5UVER/Hawthorn3.jpg",
+      "alt": "Builder craftsmanship detail"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Residential New Build Estimate",
+      "base": 350
+    },
+    {
+      "label": "Home Extension & Renovation Quote",
+      "base": 280
+    },
+    {
+      "label": "Commercial Office Fitout",
+      "base": 520
+    },
+    {
+      "label": "Industrial / Factory Fitout",
+      "base": 680
+    },
+    {
+      "label": "Medical / Aged Care Fitout",
+      "base": 590
+    }
+  ],
+  "priceListHeadingLine1": "Standard",
+  "priceListHeadingLine2": "Rates",
+  "priceListSubheading": "Transparent pricing for Scoresby and surrounding suburbs",
+  "priceList": [
+    {
+      "name": "Initial Site Consultation",
+      "price": "$175"
+    },
+    {
+      "name": "Residential Build (per m²)",
+      "price": "$2,400"
+    },
+    {
+      "name": "Commercial Fitout (per m²)",
+      "price": "$1,850"
+    },
+    {
+      "name": "Project Management Fee",
+      "price": "$2,650"
+    }
+  ],
+  "urgencyBadgeText": "Urgent Booking",
+  "professionalText": "Licensed & Insured Builders",
+  "finalPriceLabel": "Final Price",
+  "quoteCtaLabel": "Request a Detailed Quote",
+  "blogHeading": "Latest",
+  "blogHeadingHighlight": "Building",
+  "blogHeadingEnd": "News",
+  "blogSubheading": "Tips, trends, and insights from Melbourne's building industry",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "date": "14 Aug 2024",
+      "title": "5 Smart Design Choices for Your Scoresby Home Extension",
+      "excerpt": "Maximise natural light, improve airflow, and future-proof your renovation with these expert tips from our lead builders."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80",
+      "date": "29 Jul 2024",
+      "title": "Navigating Commercial Fitout Compliance in Victoria",
+      "excerpt": "From fire ratings to accessibility standards, we break down the key compliance steps every business owner should know."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
+      "date": "12 Jul 2024",
+      "title": "Steel vs Timber Framing: What Melbourne Builders Recommend",
+      "excerpt": "Weighing up durability, cost, and sustainability for your next project? Here's how to choose the right frame for the Victorian climate."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+      "date": "05 Jun 2024",
+      "title": "Designing Efficient Medical & Dental Clinics",
+      "excerpt": "Patient flow, sterilisation zones, and comfort-led design are critical. Learn how we plan specialist healthcare spaces from the ground up."
+    }
+  ],
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "Whether you're in Scoresby or South Yarra, we'd love to hear your plans.",
+  "contactCtaLabel": "Send Message",
+  "footerCopyright": "© 2024 Keystone Builders. All rights reserved.",
+  "footerNewsletterNote": "* Service reminders and updates",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "Residential New Builds",
+        "Home Extensions",
+        "Commercial Fitouts",
+        "Industrial Fitouts",
+        "Medical & Aged Care"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
