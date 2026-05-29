@@ -1,0 +1,312 @@
+{
+  "primaryColor": "#D97706",
+  "primaryColorRgb": "217, 119, 6",
+  "primaryColorHover": "#B45309",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "BuildSpace",
+  "logoCircleLetter": "B",
+  "logoTagline": "Constructions",
+  "trade": "Builder",
+  "suburb": "Brighton",
+  "phone": "0438 113 345",
+  "email": "info@buildspaceconstructions.com.au",
+  "address": "42 Bay Street, Brighton VIC 3186",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Free Quote",
+  "heroSlides": [
+    {
+      "img": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80",
+      "title": "Custom Homes Built Your Way",
+      "sub": "No templates. No compromises. Just the home you've always envisioned, crafted by Melbourne's trusted custom builder."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80",
+      "title": "Sick of Volume Builders?",
+      "sub": "We don't push standard builds. Every project is tailored to your lifestyle, your block, and your budget."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80",
+      "title": "Your Dream. Our Expertise.",
+      "sub": "Over 15 years of building bespoke homes across Melbourne's inner and bayside suburbs."
+    }
+  ],
+  "heroCtaLabel": "Start Your Build Journey",
+  "splitCtaLines": [
+    "Tired of cookie-cutter",
+    "volume builds?",
+    "Let's create something uniquely yours."
+  ],
+  "splitCtaSubtext": "At BuildSpace Constructions, we specialise in custom-designed homes that reflect your personality — not someone else's catalogue. Every detail, from foundation to finish, is built around you.",
+  "splitCtaImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+  "photoRowImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "alt": "Modern custom home exterior in Brighton Melbourne"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "alt": "Open plan living area in a newly built home"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?w=800&q=80",
+      "alt": "Custom kitchen renovation with stone benchtops"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "alt": "New build home with landscaped front garden"
+    }
+  ],
+  "aboutHeadingStart": "Melbourne's Trusted",
+  "aboutHeadingHighlight": "Custom Builder",
+  "aboutHeadingEnd": "Since 2009",
+  "aboutSubheading": "We don't do standard. We do yours.",
+  "aboutText": "BuildSpace Constructions has been designing and building bespoke homes across Melbourne's bayside and inner-eastern suburbs for over 15 years. Founded by head builder Mark De Silva, our team brings a hands-on, personal approach to every project — whether it's a knockdown rebuild in Brighton or a architect-designed new home in Toorak. We believe your home should be as unique as you are.",
+  "aboutStatLabel": "Custom Homes Completed",
+  "aboutStatValue": 210,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&q=80",
+      "alt": "Builder on site reviewing building plans"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=800&q=80",
+      "alt": "Custom home under construction in Melbourne"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "alt": "Finished luxury home with modern architecture"
+    }
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1600&q=80",
+  "fullWidthImageAlt": "Aerial view of custom built homes in Melbourne suburb",
+  "servicesHeadingStart": "Our",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "From concept to completion, we handle every stage of your custom build.",
+  "servicesText": "Whether you're dreaming of a brand-new custom home, extending your current place, or starting fresh with a knockdown rebuild — BuildSpace Constructions has the experience and dedication to bring your vision to life. Every project gets our full attention, no shortcuts.",
+  "services": [
+    {
+      "icon": "hammer",
+      "title": "Custom Home Design & Build",
+      "desc": "Work directly with our team to design and construct a one-of-a-kind home tailored to your lifestyle, block, and budget. No catalogues, no compromises."
+    },
+    {
+      "icon": "wrench",
+      "title": "Home Extensions & Additions",
+      "desc": "Need more space? We design and build seamless extensions — from extra bedrooms and second storeys to outdoor entertaining areas that flow perfectly from your existing home."
+    },
+    {
+      "icon": "lightbulb",
+      "title": "Expert Builder Consultation",
+      "desc": "Not sure where to start? Book a one-on-one consultation with our head builder to map out your project, discuss feasibility, and get honest advice before you commit."
+    },
+    {
+      "icon": "shield",
+      "title": "Knockdown & Rebuild",
+      "desc": "Love your location but not your house? We'll demolish and rebuild a stunning custom home on your existing block — maximising every square metre."
+    },
+    {
+      "icon": "gear",
+      "title": "Full Home Renovations",
+      "desc": "Transform tired spaces into modern masterpieces. We handle complete interior and exterior renovations, including structural changes, kitchens, bathrooms, and more."
+    },
+    {
+      "icon": "tool",
+      "title": "Project Management",
+      "desc": "From council permits to handover, we manage every trade, every timeline, and every detail so your build runs smoothly and stress-free from start to finish."
+    }
+  ],
+  "bannerHeading": "Your Home Shouldn't Look Like Everyone Else's",
+  "bannerSubheading": "Every BuildSpace home is designed from scratch — because your family, your lifestyle, and your block are one of a kind.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1600&q=80",
+  "testimonialsHeadingStart": "What Our",
+  "testimonialsHeadingHighlight": "Clients Say",
+  "testimonialsHeadingEnd": "",
+  "testimonialsSubheading": "Real stories from real homeowners across Melbourne who trusted BuildSpace with their dream build.",
+  "testimonialsImage": "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80",
+  "testimonials": [
+    {
+      "text": "We spoke to half a dozen volume builders before finding BuildSpace. The difference was night and day. Mark actually listened to what we wanted and designed a home that works perfectly for our family. Couldn't be happier with the result in our new Mentone place.",
+      "name": "Sarah Mitchell",
+      "role": "Homeowner, Mentone",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "As a developer, I've worked with plenty of builders. BuildSpace stands out because they genuinely care about quality and communication. They delivered our boutique townhouse project in Hampton on time and under budget. Already planning the next one with them.",
+      "name": "Dave Thompson",
+      "role": "Property Developer, Hampton",
+      "avatar": "https://randomuser.me/api/portraits/men/52.jpg"
+    },
+    {
+      "text": "We did a knockdown rebuild on our old block in Brighton East and the whole process was so much smoother than we expected. The team kept us updated every step of the way, and the finished home is absolutely everything we dreamed of. Highly recommend!",
+      "name": "Emma & Josh Carter",
+      "role": "Homeowners, Brighton East",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?w=800&q=80",
+      "alt": "Custom built modern home with timber cladding"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80",
+      "alt": "Spacious open plan kitchen and dining area"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600573472556-e636c2acda9e?w=800&q=80",
+      "alt": "Luxury bathroom with freestanding bathtub"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+      "alt": "Outdoor entertaining area with pool at new build"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?w=800&q=80",
+      "alt": "Modern facade of completed custom home project"
+    }
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=1600&q=80",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job size",
+  "calculatorTypes": [
+    "Standard",
+    "Large / Complex"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Custom Home Design & Build",
+      "base": 350000
+    },
+    {
+      "label": "Home Extension",
+      "base": 85000
+    },
+    {
+      "label": "Full Home Renovation",
+      "base": 120000
+    },
+    {
+      "label": "Knockdown & Rebuild",
+      "base": 400000
+    },
+    {
+      "label": "Builder Consultation",
+      "base": 350
+    }
+  ],
+  "priceListHeadingLine1": "Transparent Pricing,",
+  "priceListHeadingLine2": "No Hidden Surprises",
+  "priceListSubheading": "We believe in honest, upfront pricing. Here's a guide to our common service costs — final quotes depend on your specific project scope.",
+  "priceList": [
+    {
+      "name": "Initial On-Site Consultation (up to 90 min)",
+      "price": "$350"
+    },
+    {
+      "name": "Full Site & Feasibility Assessment",
+      "price": "$1,200"
+    },
+    {
+      "name": "Architectural Drafting & Plans (per project)",
+      "price": "$8,500 – $15,000"
+    },
+    {
+      "name": "Council Permit Applications & Management",
+      "price": "$2,800 – $4,500"
+    }
+  ],
+  "urgencyBadgeText": "Priority Scheduling Available",
+  "professionalText": "All projects include a dedicated project manager, council compliance, and a 7-year structural warranty.",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Request a Detailed Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "Builder's",
+  "blogHeadingEnd": "News",
+  "blogSubheading": "Tips, insights, and advice from Melbourne's custom building experts.",
+  "blogPosts": [
+    {
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "date": "12 March 2025",
+      "title": "5 Things to Know Before Starting a Custom Home Build in Melbourne",
+      "excerpt": "Building a custom home is exciting — but there's a lot to consider before you break ground. From council overlays to soil tests, here are five essential things every Melbourne homeowner should know before starting their build journey."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "date": "28 February 2025",
+      "title": "Volume Builder vs Custom Builder: Which Is Right for You?",
+      "excerpt": "Volume builders offer speed and lower upfront costs, but at what price? We break down the real differences between volume and custom building — and why more Melbourne families are choosing bespoke."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "date": "15 February 2025",
+      "title": "Understanding Building Permits in Victoria: A Homeowner's Guide",
+      "excerpt": "Navigating Victoria's building permit system can be overwhelming. We walk you through the key steps, common pitfalls, and how working with an experienced builder makes the process painless."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "date": "30 January 2025",
+      "title": "How to Budget for Your Dream Home Without Blowing the Bank",
+      "excerpt": "Setting a realistic budget is the foundation of any successful build. Here's our practical guide to cost planning — including where to splurge, where to save, and what catches most people off guard."
+    }
+  ],
+  "contactHeading": "Ready to Build Something Amazing?",
+  "contactSubheading": "Get in touch today for a free, no-obligation chat about your project. We service all of Melbourne's bayside, inner-east, and south-east suburbs.",
+  "contactCtaLabel": "Send Us a Message",
+  "footerCopyright": "© 2025 BuildSpace Constructions. All rights reserved. Licensed Builder — Reg. DB-U 49271.",
+  "footerNewsletterNote": "* Project updates and building tips — no spam, ever.",
+  "footerColumns": [
+    {
+      "heading": "Main Services",
+      "links": [
+        "Custom Home Design & Build",
+        "Home Extensions & Additions",
+        "Knockdown & Rebuild",
+        "Full Home Renovations",
+        "Builder Consultation",
+        "Project Management"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Privacy & Policies",
+      "links": [
+        "User Choice",
+        "Transparency",
+        "Policy Updates",
+        "Data Retention",
+        "Full Precautions",
+        "Information"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
