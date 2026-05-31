@@ -1,0 +1,149 @@
+{
+  "businessName": "Real Good Wood",
+  "trade": "Timber supplier",
+  "address": "456 Forest Drive, Richmond VIC 3121",
+  "suburb": "Richmond",
+  "phone": "+61 (0)3 9687 1676",
+  "email": "info@realgoodwood.com.au",
+  "tagline": "Honest from Forest to Home",
+  "logoTagline": "Honest from Forest to Home",
+  "colors": {
+    "primaryColor": "#C17817",
+    "primaryColorRgb": "193, 120, 23",
+    "primaryColorHover": "#A66415",
+    "secondaryColor": "#1a1a1a"
+  },
+  "heroImage": "https://loremflickr.com/1200/800/timber?lock=1",
+  "aboutText": "With over 20 years of experience in the timber industry, Real Good Wood has been a cornerstone of the Richmond community, providing premium hardwood and expert craftsmanship. Our sawmilling and custom manufacturing services are renowned for their reliability and precision, ensuring every project is completed to the highest standards. We are committed to sustainable sourcing and transparent practices, making us your trusted partner from forest to home.",
+  "aboutSubheading": "Your Trusted Timber Partner",
+  "aboutStatValue": 20,
+  "aboutStatLabel": "Years of Experience",
+  "servicesText": "At Real Good Wood, we provide a full spectrum of timber services designed to cater to builders, carpenters, and homeowners alike. Our expertise in hardwood supply, sawmilling, and custom manufacturing means we can handle projects of any scale, always with a focus on quality and sustainability.",
+  "servicesSubheading": "Expert Timber Solutions",
+  "services": [
+    {
+      "name": "Hardwood Supply",
+      "icon": "tool",
+      "desc": "We offer a diverse range of sustainably sourced hardwood, ideal for flooring, furniture, and construction projects across Melbourne.",
+      "image": "https://loremflickr.com/600/400/hardwood?lock=10"
+    },
+    {
+      "name": "Sawmilling",
+      "icon": "wrench",
+      "desc": "Our advanced sawmilling facilities efficiently convert raw logs into precise timber cuts, tailored to your specific requirements.",
+      "image": "https://loremflickr.com/600/400/sawmill?lock=11"
+    },
+    {
+      "name": "Custom Timber Manufacturing",
+      "icon": "hammer",
+      "desc": "From structural beams to intricate joinery, we craft custom timber components with meticulous attention to detail and quality.",
+      "image": "https://loremflickr.com/600/400/carpentry?lock=12"
+    },
+    {
+      "name": "Charcoal Production",
+      "icon": "flame",
+      "desc": "We produce high-grade charcoal from timber offcuts, suitable for barbecues, artistic use, and various industrial applications.",
+      "image": "https://loremflickr.com/600/400/charcoal?lock=13"
+    },
+    {
+      "name": "Log Trading",
+      "icon": "car",
+      "desc": "Engage with our log trading service for buying or selling raw timber logs, supported by our extensive industry network.",
+      "image": "https://loremflickr.com/600/400/logs?lock=14"
+    },
+    {
+      "name": "Sustainable Timber Consulting",
+      "icon": "lightbulb",
+      "desc": "Our experts provide guidance on eco-friendly timber selection, helping you make informed and sustainable choices for projects.",
+      "image": "https://loremflickr.com/600/400/consulting?lock=15"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Tom Henderson",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "text": "Real Good Wood supplied the hardwood for our home renovation in Richmond, and the quality was outstanding. The team was professional from start to finish, delivering on time and within budget. We couldn't be happier with the results and will definitely use them again."
+    },
+    {
+      "name": "Sarah Mitchell",
+      "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+      "text": "We used their sawmilling service for a custom furniture project, and the precision was incredible. The timber was perfectly cut, making our job much easier. Highly recommend their expertise for any detailed woodworking needs."
+    },
+    {
+      "name": "David Chen",
+      "avatar": "https://randomuser.me/api/portraits/men/28.jpg",
+      "text": "The charcoal production from Real Good Wood is top-notch. We've been using it for our restaurant's barbecue, and it burns consistently with great flavour. Their sustainable approach and reliable supply make them a preferred choice."
+    }
+  ],
+  "blog": [
+    {
+      "title": "Choosing the Right Hardwood for Your Flooring",
+      "excerpt": "Choosing the right hardwood is crucial for flooring longevity. In this post, we explore top species like Spotted Gum and Blackbutt that handle wear and tear beautifully in Australian conditions.",
+      "date": "April 2026",
+      "image": "https://loremflickr.com/600/400/flooring?lock=20"
+    },
+    {
+      "title": "Benefits of Sustainable Timber Sourcing",
+      "excerpt": "Discover how sustainable timber sourcing supports environmental conservation and local forestry economies. We discuss key certifications and practices for responsible procurement in Victoria.",
+      "date": "March 2026",
+      "image": "https://loremflickr.com/600/400/sustainability?lock=21"
+    },
+    {
+      "title": "Tips for Maintaining Timber Furniture",
+      "excerpt": "Simple care routines can keep your timber furniture looking new for years. Learn about cleaning methods, protective finishes, and avoiding common damage in Australian climates.",
+      "date": "February 2026",
+      "image": "https://loremflickr.com/600/400/furniture?lock=22"
+    },
+    {
+      "title": "Understanding Sawmilling Processes",
+      "excerpt": "An overview of how logs are transformed into usable timber, covering cutting techniques, drying methods, and quality control for optimal results in manufacturing.",
+      "date": "January 2026",
+      "image": "https://loremflickr.com/600/400/sawmill?lock=23"
+    }
+  ],
+  "pricing": {
+    "calculatorServices": [
+      {
+        "label": "Hardwood Flooring per sqm",
+        "basePrice": 85
+      },
+      {
+        "label": "Custom Timber Beam per metre",
+        "basePrice": 120
+      },
+      {
+        "label": "Sawmilling Service per hour",
+        "basePrice": 150
+      },
+      {
+        "label": "Charcoal Production per tonne",
+        "basePrice": 300
+      },
+      {
+        "label": "Log Delivery per km",
+        "basePrice": 5
+      }
+    ],
+    "priceListItems": [
+      {
+        "name": "Hardwood Plank (Standard)",
+        "price": "$60"
+      },
+      {
+        "name": "Custom Cut Timber Piece",
+        "price": "$90"
+      },
+      {
+        "name": "Sawmilling Fee",
+        "price": "$100"
+      },
+      {
+        "name": "Charcoal Bag (20kg)",
+        "price": "$40"
+      }
+    ]
+  },
+  "currency": "$",
+  "distanceUnit": "km",
+  "bannerSubheading": "Premium Timber for Every Project"
+}
