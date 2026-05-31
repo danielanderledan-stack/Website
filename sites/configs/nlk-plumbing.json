@@ -1,0 +1,151 @@
+{
+  "businessName": "NLK Plumbing",
+  "tagline": "Trusted Plumber Footscray",
+  "logoTagline": "Trusted Plumber Footscray",
+  "primaryColor": "#2196F3",
+  "primaryColorRgb": "33, 150, 243",
+  "primaryColorHover": "#1976D2",
+  "secondaryColor": "#1a1a1a",
+  "contact": {
+    "phone": "0404 803 333",
+    "email": "info@nlkplumbing.com.au",
+    "address": "123 Barkly Street, Footscray VIC 3011",
+    "suburb": "Footscray"
+  },
+  "images": {
+    "hero": "https://source.unsplash.com/1200x800/?plumbing",
+    "about": "https://source.unsplash.com/600x400/?plumber",
+    "service1": "https://source.unsplash.com/600x400/?hot-water",
+    "service2": "https://source.unsplash.com/600x400/?drain",
+    "service3": "https://source.unsplash.com/600x400/?emergency",
+    "service4": "https://source.unsplash.com/600x400/?gas-repair",
+    "service5": "https://source.unsplash.com/600x400/?roof",
+    "service6": "https://source.unsplash.com/600x400/?commercial"
+  },
+  "bannerSubheading": "Reliable Plumbing Solutions in Footscray",
+  "aboutSubheading": "Your Local Footscray Plumber",
+  "aboutText": "NLK Plumbing has been serving the Footscray community for over 15 years, providing reliable and professional plumbing services. Our team of licensed plumbers understands the local area and is committed to delivering prompt solutions for all your plumbing needs. From emergency repairs to routine maintenance, we are trusted by residents and businesses across Footscray for our quality workmanship and customer service.",
+  "aboutStatValue": 15,
+  "aboutStatLabel": "Years of Experience",
+  "servicesSubheading": "Comprehensive Plumbing Services",
+  "servicesText": "At NLK Plumbing, we provide a full suite of plumbing services to the Footscray area, including hot water repair, drain clearing, and emergency callouts. Our skilled team uses the latest tools and techniques to deliver efficient and lasting solutions for all plumbing issues.",
+  "services": [
+    {
+      "name": "Hot Water Repair",
+      "desc": "We specialise in diagnosing and fixing hot water system issues, ensuring you have reliable hot water throughout the year in Footscray.",
+      "icon": "droplet"
+    },
+    {
+      "name": "Blocked Drains",
+      "desc": "Our team uses advanced equipment to quickly clear blocked drains, preventing further damage and restoring proper flow to your plumbing system.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Emergency Plumbing",
+      "desc": "For urgent plumbing emergencies in Footscray, we offer 24/7 callout services to address issues like burst pipes or severe leaks promptly.",
+      "icon": "shield"
+    },
+    {
+      "name": "Gas Repairs",
+      "desc": "We are certified to handle gas repair services, ensuring safe and efficient solutions for gas leaks, installations, and maintenance in your home or business.",
+      "icon": "flame"
+    },
+    {
+      "name": "Roof Plumbing",
+      "desc": "Our roof plumbing services include repairs and installations to prevent leaks and water damage, protecting your property from the elements.",
+      "icon": "hammer"
+    },
+    {
+      "name": "Commercial Plumbing",
+      "desc": "We provide specialised commercial plumbing services for businesses in Footscray, handling large-scale installations, maintenance, and compliance requirements.",
+      "icon": "gear"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "text": "NLK Plumbing fixed our hot water system within hours of calling. Their plumber was professional and explained everything clearly. We've used them for blocked drains too, and they always deliver excellent service.",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "James Cooper",
+      "text": "When we had a gas leak emergency, NLK Plumbing responded immediately. Their team was courteous and resolved the issue safely. Highly recommend their gas repair services to anyone in Footscray.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "name": "Emily Brown",
+      "text": "We engaged NLK Plumbing for our commercial property maintenance. They handle our roof plumbing and drain services efficiently. Their reliability has made them our go-to plumber in Footscray.",
+      "avatar": "https://randomuser.me/api/portraits/women/67.jpg"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "How to Prevent Blocked Drains in Your Footscray Home",
+      "excerpt": "Learn simple tips to keep your drains clear and avoid costly blockages. Regular maintenance can save you from emergency plumbing calls.",
+      "date": "March 2026",
+      "image": "https://source.unsplash.com/600x400/?drain-cleaning"
+    },
+    {
+      "title": "Signs Your Hot Water System Needs Repair",
+      "excerpt": "Watch for lukewarm water or strange noises from your hot water system. Early detection can prevent complete failure and ensure comfort.",
+      "date": "February 2026",
+      "image": "https://source.unsplash.com/600x400/?water-heater"
+    },
+    {
+      "title": "Emergency Plumbing: What to Do Before the Plumber Arrives",
+      "excerpt": "In case of a burst pipe or major leak, know these steps to minimise damage until professional help arrives in Footscray.",
+      "date": "January 2026",
+      "image": "https://source.unsplash.com/600x400/?emergency-plumbing"
+    },
+    {
+      "title": "The Importance of Regular Gas Safety Checks",
+      "excerpt": "Gas leaks can be dangerous. Schedule annual checks with a certified plumber to ensure your home or business is safe.",
+      "date": "December 2025",
+      "image": "https://source.unsplash.com/600x400/?gas-safety"
+    }
+  ],
+  "pricing": {
+    "calculator": [
+      {
+        "label": "Hot Water System Repair",
+        "basePrice": 150
+      },
+      {
+        "label": "Blocked Drain Clearing",
+        "basePrice": 120
+      },
+      {
+        "label": "Emergency Callout",
+        "basePrice": 200
+      },
+      {
+        "label": "Gas Leak Detection",
+        "basePrice": 180
+      },
+      {
+        "label": "Roof Plumbing Inspection",
+        "basePrice": 160
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Hot Water System Installation",
+        "price": "$800"
+      },
+      {
+        "name": "Pipe Relining",
+        "price": "$500"
+      },
+      {
+        "name": "Toilet Repair",
+        "price": "$150"
+      },
+      {
+        "name": "Tap Replacement",
+        "price": "$100"
+      }
+    ]
+  },
+  "currency": "$",
+  "distanceUnit": "km"
+}
