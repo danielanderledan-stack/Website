@@ -1,0 +1,191 @@
+{
+  "businessName": "ASCOT VALE LOCKSMITHS SMART LOCKING SOLUTIONS PTY LTD",
+  "trade": "Locksmith",
+  "address": "123 Union Road, Ascot Vale VIC 3032",
+  "suburb": "Ascot Vale",
+  "phone": "1800 824 451",
+  "email": "sales@smartlockingsolutions.com.au",
+  "tagline": "Your trusted local locksmiths in Ascot Vale",
+  "logoTagline": "Trusted Locksmiths in Ascot Vale",
+  "colors": {
+    "primaryColor": "#1E3A8A",
+    "primaryColorRgb": "30, 58, 138",
+    "primaryColorHover": "#1A2F75",
+    "secondaryColor": "#1a1a1a"
+  },
+  "images": {
+    "hero": "https://source.unsplash.com/1200x800/?locksmith,security",
+    "about": "https://source.unsplash.com/1200x800/?door,lock",
+    "services": [
+      "https://source.unsplash.com/600x400/?security,home",
+      "https://source.unsplash.com/600x400/?lock,installation",
+      "https://source.unsplash.com/600x400/?key,rekeying",
+      "https://source.unsplash.com/600x400/?car,automotive",
+      "https://source.unsplash.com/600x400/?repair,tool",
+      "https://source.unsplash.com/600x400/?spare,key"
+    ]
+  },
+  "bannerSubheading": "Fast & Reliable Locksmith Services in Ascot Vale",
+  "aboutSubheading": "Your Local Security Experts",
+  "servicesSubheading": "Comprehensive Locksmith Solutions for Every Need",
+  "aboutText": "With over 15 years of dedicated service in Ascot Vale, Ascot Vale Locksmiths Smart Locking Solutions Pty Ltd has built a reputation for reliability and expertise. Our team of licensed professionals is committed to providing prompt and effective locksmith services tailored to the local community. We use the latest technology and high-quality materials to ensure your security needs are met with precision and care.",
+  "servicesText": "We offer a full range of locksmith services to keep your home, business, and vehicle secure. From emergency lockouts to advanced lock installations, our skilled technicians are available 24/7 to assist you with prompt and professional solutions in Ascot Vale and surrounding areas.",
+  "services": [
+    {
+      "id": 1,
+      "title": "Emergency Locksmith Services",
+      "icon": "shield",
+      "desc": "We provide rapid response for lockouts and security emergencies, ensuring you regain access quickly and safely.",
+      "image": "https://source.unsplash.com/600x400/?emergency,locksmith"
+    },
+    {
+      "id": 2,
+      "title": "Lock Installation",
+      "icon": "wrench",
+      "desc": "Our experts install high-security locks and smart locking systems to enhance the protection of your property.",
+      "image": "https://source.unsplash.com/600x400/?lock,install"
+    },
+    {
+      "id": 3,
+      "title": "Lock Rekeying",
+      "icon": "gear",
+      "desc": "We rekey existing locks to provide new key access without replacing the entire lock, saving you time and money.",
+      "image": "https://source.unsplash.com/600x400/?rekey,lock"
+    },
+    {
+      "id": 4,
+      "title": "Automotive Locksmith Services",
+      "icon": "car",
+      "desc": "Specializing in car door unlocking and spare key cutting, we help you get back on the road without delay.",
+      "image": "https://source.unsplash.com/600x400/?car,lock"
+    },
+    {
+      "id": 5,
+      "title": "Lock Repair",
+      "icon": "tool",
+      "desc": "We repair damaged or malfunctioning locks to restore their functionality and security.",
+      "image": "https://source.unsplash.com/600x400/?lock,repair"
+    },
+    {
+      "id": 6,
+      "title": "Spare Key Cutting",
+      "icon": "bolt",
+      "desc": "We cut precision spare keys for homes, businesses, and vehicles, ensuring you always have a backup.",
+      "image": "https://source.unsplash.com/600x400/?key,cut"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "text": "I locked myself out of my house in Ascot Vale, and they arrived within 20 minutes. The locksmith was professional and had the door open quickly. Highly recommend their emergency service!"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "text": "Had my locks rekeyed after moving into a new home. The team was efficient and provided new keys on the spot. Great value and excellent service from local professionals."
+    },
+    {
+      "id": 3,
+      "name": "Mike Williams",
+      "avatar": "https://randomuser.me/api/portraits/men/55.jpg",
+      "text": "They made a spare car key for me when I lost mine. The process was quick, and the key worked perfectly. Saved me from expensive dealership costs."
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "How to Choose the Right Lock for Your Home Security",
+      "excerpt": "Discover the best lock types for residential properties in Ascot Vale, from deadbolts to smart locks, to enhance your home security.",
+      "date": "March 2026",
+      "image": "https://source.unsplash.com/600x400/?home,security"
+    },
+    {
+      "id": 2,
+      "title": "What to Do When You're Locked Out of Your Car",
+      "excerpt": "Simple steps to take when you find yourself locked out of your vehicle, and why calling a professional automotive locksmith is the safest option.",
+      "date": "February 2026",
+      "image": "https://source.unsplash.com/600x400/?car,lockout"
+    },
+    {
+      "id": 3,
+      "title": "Signs Your Lock Needs Repair or Replacement",
+      "excerpt": "Learn the common indicators that your locks are failing and when to seek professional repair or replacement services in Melbourne.",
+      "date": "January 2026",
+      "image": "https://source.unsplash.com/600x400/?lock,repair"
+    },
+    {
+      "id": 4,
+      "title": "Benefits of Rekeying Your Locks After Moving",
+      "excerpt": "Why rekeying locks is a cost-effective security measure for new homeowners in Ascot Vale and how it works.",
+      "date": "December 2025",
+      "image": "https://source.unsplash.com/600x400/?rekey,home"
+    }
+  ],
+  "pricing": {
+    "calculator": [
+      {
+        "label": "Emergency Lockout Service",
+        "basePrice": 120
+      },
+      {
+        "label": "Lock Rekeying",
+        "basePrice": 80
+      },
+      {
+        "label": "New Lock Installation",
+        "basePrice": 150
+      },
+      {
+        "label": "Car Door Unlocking",
+        "basePrice": 100
+      },
+      {
+        "label": "Spare Key Cutting",
+        "basePrice": 30
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Standard Lock Repair",
+        "price": "$90"
+      },
+      {
+        "name": "Smart Lock Installation",
+        "price": "$200"
+      },
+      {
+        "name": "Commercial Lock Rekeying",
+        "price": "$110"
+      },
+      {
+        "name": "Emergency After-Hours Callout",
+        "price": "$180"
+      }
+    ]
+  },
+  "aboutStats": [
+    {
+      "value": 15,
+      "label": "Years Experience"
+    },
+    {
+      "value": 5000,
+      "label": "Jobs Completed"
+    },
+    {
+      "value": 98,
+      "label": "Customer Satisfaction"
+    }
+  ],
+  "contact": {
+    "phone": "1800 824 451",
+    "email": "sales@smartlockingsolutions.com.au",
+    "address": "123 Union Road, Ascot Vale VIC 3032",
+    "suburb": "Ascot Vale",
+    "state": "VIC",
+    "postcode": "3032"
+  }
+}
