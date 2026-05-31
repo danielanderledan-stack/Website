@@ -1,0 +1,310 @@
+{
+  "primaryColor": "#7B4B2A",
+  "primaryColorRgb": "123, 75, 42",
+  "primaryColorHover": "#6A3E22",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Highrise Carpentry",
+  "logoTagline": "Commercial Carpentry Experts",
+  "trade": "Carpentry",
+  "suburb": "Flemington",
+  "phone": "03 9376 6333",
+  "email": "info@highrisecarpentry.com.au",
+  "address": "8/27 Ascot Vale Road, Flemington VIC 3031",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Quote",
+  "heroSlides": [
+    {
+      "img": "https://loremflickr.com/1200/800/carpentry,construction/all?lock=1",
+      "title": "Melbourne's Trusted Commercial Carpenters",
+      "sub": "Delivering precision craftsmanship on large-scale projects across Flemington and beyond."
+    },
+    {
+      "img": "https://loremflickr.com/1200/800/timber,framing/all?lock=2",
+      "title": "Quality Assured Every Build",
+      "sub": "From structural framing to custom fit-outs, we get the job done right."
+    },
+    {
+      "img": "https://loremflickr.com/1200/800/carpenter,worksite/all?lock=3",
+      "title": "Project Workforce Provisioning",
+      "sub": "Skilled, reliable teams ready for any commercial carpentry challenge."
+    }
+  ],
+  "heroCtaLabel": "Book Now",
+  "splitCtaLines": [
+    "Don't wait!",
+    "Get in touch today and let us",
+    "get the job done — fast and guaranteed."
+  ],
+  "splitCtaSubtext": "Job Done Right",
+  "splitCtaImage": "https://loremflickr.com/900/700/carpentry,teamwork/all?lock=4",
+  "photoRowImages": [
+    {
+      "src": "https://loremflickr.com/600/400/carpentry,workshop/all?lock=5",
+      "alt": "Highrise Carpentry workshop in Flemington"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/timber,framing/all?lock=6",
+      "alt": "Structural timber framing on a commercial site"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/carpenter,safety/all?lock=7",
+      "alt": "Carpenter working on a high-rise construction project"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/building,construction/all?lock=8",
+      "alt": "Completed commercial carpentry project in Melbourne"
+    }
+  ],
+  "aboutHeadingStart": "Building Melbourne's",
+  "aboutHeadingHighlight": "Finest Structures",
+  "aboutHeadingEnd": "Since 2009",
+  "aboutSubheading": "Your Local Experts in Flemington",
+  "aboutText": "With over 15 years of experience in commercial carpentry, Highrise Carpentry has been the trusted partner for builders and developers across Flemington and greater Melbourne. Our team delivers precision craftsmanship on large-scale construction projects, backed by rigorous quality assurance standards. We take pride in reliable workforce provisioning and building lasting relationships with every client we serve.",
+  "aboutStatLabel": "Projects Completed",
+  "aboutStatValue": 340,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://loremflickr.com/600/400/carpentry,team/all?lock=9",
+      "alt": "The Highrise Carpentry team on site"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/construction,commercial/all?lock=10",
+      "alt": "Commercial construction project in Flemington"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/carpenter,precision/all?lock=11",
+      "alt": "Precision carpentry work on structural framing"
+    }
+  ],
+  "fullWidthImage": "https://loremflickr.com/1200/800/carpentry,skyline/all?lock=12",
+  "fullWidthImageAlt": "Melbourne skyline featuring commercial buildings constructed with Highrise Carpentry",
+  "servicesHeadingStart": "Expert Commercial",
+  "servicesHeadingHighlight": "Carpentry",
+  "servicesHeadingEnd": "Solutions",
+  "servicesSubheading": "What We Offer",
+  "servicesText": "Highrise Carpentry delivers end-to-end commercial carpentry solutions tailored to large-scale construction projects across Melbourne. From structural framing to custom fit-outs, our skilled team ensures every build meets the highest standards of quality and precision.",
+  "services": [
+    {
+      "icon": "hammer",
+      "title": "Commercial Carpentry",
+      "desc": "Full-scale commercial carpentry services for office buildings, retail spaces, and multi-storey developments across Melbourne."
+    },
+    {
+      "icon": "gear",
+      "title": "Large-Scale Construction",
+      "desc": "We specialise in complex, multi-level construction projects requiring expert timber framing and structural carpentry skills."
+    },
+    {
+      "icon": "tool",
+      "title": "Project Workforce Provisioning",
+      "desc": "Access our pool of skilled, insured carpenters ready to join your project team on short or long-term engagements."
+    },
+    {
+      "icon": "shield",
+      "title": "Quality Assurance",
+      "desc": "Every project undergoes rigorous quality checks at each stage, ensuring compliance with Australian building standards."
+    },
+    {
+      "icon": "wrench",
+      "title": "Structural Framing",
+      "desc": "Expert load-bearing and non-load-bearing framing solutions for commercial buildings of all sizes and complexities."
+    },
+    {
+      "icon": "bolt",
+      "title": "Commercial Fit-Outs",
+      "desc": "Interior carpentry fit-outs including partitioning, ceiling systems, and custom joinery for commercial tenancies."
+    }
+  ],
+  "bannerHeading": "Need Expert Carpenters?",
+  "bannerSubheading": "We deliver large-scale commercial carpentry with precision and reliability across Melbourne.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://loremflickr.com/1200/800/carpentry,highrise/all?lock=13",
+  "testimonialsHeadingStart": "Proven",
+  "testimonialsHeadingHighlight": "Results",
+  "testimonialsHeadingEnd": "Every Time",
+  "testimonialsSubheading": "Honest Work, Fair Prices",
+  "testimonialsImage": "https://loremflickr.com/700/500/carpentry,satisfaction/all?lock=14",
+  "testimonials": [
+    {
+      "text": "Highrise Carpentry handled the full structural framing for our Flemington apartment complex and delivered on time and on budget. Their workforce provisioning meant we never had a gap in labour throughout the project.",
+      "name": "Craig Thompson",
+      "role": "Project Manager",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We engaged Highrise for a commercial fit-out across three floors and the quality was outstanding. Their attention to detail and communication made the whole process smooth and stress-free.",
+      "name": "Sarah Mitchell",
+      "role": "Property Developer",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "Reliable, professional, and genuinely great tradies. The team at Highrise Carpentry completed our retail tenancy fit-out in Flemington ahead of schedule with excellent craftsmanship throughout.",
+      "name": "James O'Brien",
+      "role": "Building Manager",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://loremflickr.com/600/400/carpentry,framing/all?lock=15",
+      "alt": "Timber framing on a commercial building project"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/carpenter,measuring/all?lock=16",
+      "alt": "Carpenter measuring structural timber on site"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/construction,commercial/all?lock=17",
+      "alt": "Commercial construction project nearing completion"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/joinery,interior/all?lock=18",
+      "alt": "Custom joinery installed in a commercial tenancy"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/building,team/all?lock=19",
+      "alt": "Highrise Carpentry team completing a large-scale build"
+    }
+  ],
+  "pricingBgImage": "https://loremflickr.com/1200/800/carpentry,tools/all?lock=20",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service You Need",
+  "calculatorDistanceLabel": "Distance From Flemington",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job Type",
+  "calculatorTypes": [
+    "Standard",
+    "Large"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "Structural Framing",
+      "base": 450
+    },
+    {
+      "label": "Commercial Fit-Out",
+      "base": 800
+    },
+    {
+      "label": "Formwork Construction",
+      "base": 600
+    },
+    {
+      "label": "Timber Decking",
+      "base": 350
+    },
+    {
+      "label": "Custom Joinery",
+      "base": 950
+    }
+  ],
+  "priceListHeadingLine1": "Competitive Pricing &",
+  "priceListHeadingLine2": "Service Packages",
+  "priceListSubheading": "Fair & Transparent",
+  "priceList": [
+    {
+      "name": "Structural Framing",
+      "price": "$450"
+    },
+    {
+      "name": "Commercial Fit-Out",
+      "price": "$800"
+    },
+    {
+      "name": "Formwork Construction",
+      "price": "$600"
+    },
+    {
+      "name": "Timber Decking",
+      "price": "$350"
+    }
+  ],
+  "urgencyBadgeText": "Same Day Service",
+  "professionalText": "Certified Trade",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Get a Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "News",
+  "blogHeadingEnd": "& Updates",
+  "blogSubheading": "Tips, Advice & Industry Updates",
+  "blogPosts": [
+    {
+      "img": "https://loremflickr.com/600/400/timber,framing/all?lock=21",
+      "date": "March 2026",
+      "title": "Choosing the Right Structural Timber for Melbourne Builds",
+      "excerpt": "Selecting the correct timber species and grade is critical for structural integrity. We break down the best options for commercial framing in Melbourne's variable climate."
+    },
+    {
+      "img": "https://loremflickr.com/600/400/carpentry,safety/all?lock=22",
+      "date": "February 2026",
+      "title": "Workplace Safety Standards for Commercial Carpentry Sites",
+      "excerpt": "Staying compliant with Victorian WHS regulations is non-negotiable on large-scale sites. Here are the key safety protocols every carpentry team should follow."
+    },
+    {
+      "img": "https://loremflickr.com/600/400/construction,guide/all?lock=23",
+      "date": "January 2026",
+      "title": "Planning a Large-Scale Construction Project in 2026",
+      "excerpt": "From workforce provisioning to material scheduling, proper planning is the foundation of any successful commercial build. We share our top tips for project managers."
+    },
+    {
+      "img": "https://loremflickr.com/600/400/carpenter,workshop/all?lock=24",
+      "date": "December 2025",
+      "title": "End-of-Year Maintenance Tips for Commercial Buildings",
+      "excerpt": "Before the new year kicks off, it is worth inspecting timber structures for weather damage. A few preventative checks now can save costly repairs down the track."
+    }
+  ],
+  "contactHeading": "Get in Touch Now!",
+  "contactSubheading": "We're Here to Help",
+  "contactCtaLabel": "Get a Quote",
+  "footerCopyright": "Highrise Carpentry — Flemington",
+  "footerNewsletterNote": "* Updates and seasonal tips",
+  "footerColumns": [
+    {
+      "heading": "Our Services",
+      "links": [
+        "Commercial Carpentry",
+        "Large-Scale Construction",
+        "Workforce Provisioning",
+        "Quality Assurance",
+        "Structural Framing",
+        "Commercial Fit-Outs"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Company",
+      "links": [
+        "About Us",
+        "Services",
+        "Pricing",
+        "Contact"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
