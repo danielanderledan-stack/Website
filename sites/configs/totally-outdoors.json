@@ -1,0 +1,146 @@
+{
+  "businessName": "Totally Outdoors",
+  "trade": "Pergola Builder",
+  "address": "52 Star Crescent, Hallam VIC 3803",
+  "suburb": "Hallam",
+  "phone": "(03) 9704 4900",
+  "email": "sales@totallyoutdoors.com.au",
+  "tagline": "Crafting Quality Outdoor Spaces",
+  "logoTagline": "Your Outdoor Living Experts",
+  "primaryColor": "#E67E22",
+  "primaryColorRgb": "230, 126, 34",
+  "primaryColorHover": "#D35400",
+  "secondaryColor": "#1a1a1a",
+  "heroImage": "https://source.unsplash.com/1200x800/?pergola",
+  "bannerSubheading": "Transform Your Backyard in Hallam",
+  "aboutText": "With over 15 years of experience serving the Hallam community, Totally Outdoors has built a reputation for reliable and high-quality pergola and outdoor structures. Our team is dedicated to transforming your outdoor space with durable and stylish designs tailored to your needs. We pride ourselves on timely completion and exceptional customer service, making us the trusted choice for homeowners across Melbourne's southeast.",
+  "aboutSubheading": "Building Dreams in Hallam",
+  "aboutStatValue": 15,
+  "aboutStatLabel": "Years Experience",
+  "aboutImage": "https://source.unsplash.com/600x400/?carpentry",
+  "servicesText": "At Totally Outdoors, we offer a comprehensive range of outdoor solutions, from pergolas to full outdoor rooms. Our services are designed to maximise your space and provide year-round enjoyment. Each project is completed with attention to detail and using premium materials.",
+  "servicesSubheading": "Our Outdoor Solutions",
+  "services": [
+    {
+      "name": "Pergolas & Carports",
+      "icon": "hammer",
+      "desc": "We design and build custom pergolas and carports to protect your vehicles and enhance your outdoor aesthetic, using durable materials suited for Australian conditions.",
+      "image": "https://source.unsplash.com/600x400/?pergola,carport"
+    },
+    {
+      "name": "Verandahs & Patios",
+      "icon": "sun",
+      "desc": "Create a comfortable outdoor entertaining area with our verandah and patio installations, perfect for relaxing in Hallam's backyard settings.",
+      "image": "https://source.unsplash.com/600x400/?verandah,patio"
+    },
+    {
+      "name": "Roofing Systems",
+      "icon": "shield",
+      "desc": "Install advanced louvre and insulated roof systems to provide shade and weather protection, ensuring year-round comfort in your outdoor space.",
+      "image": "https://source.unsplash.com/600x400/?roofing,insulation"
+    },
+    {
+      "name": "Outdoor Rooms & Decking",
+      "icon": "tool",
+      "desc": "Expand your living area with fully enclosed outdoor rooms and stylish decking, designed for versatility and durability in Melbourne's climate.",
+      "image": "https://source.unsplash.com/600x400/?decking,outdoor"
+    },
+    {
+      "name": "Blinds, Shutters & Screens",
+      "icon": "bolt",
+      "desc": "Add privacy and control light with our range of blinds, shutters, and screens, custom-fitted for pergolas and outdoor structures.",
+      "image": "https://source.unsplash.com/600x400/?blinds,shutters"
+    },
+    {
+      "name": "Custom & Commercial Projects",
+      "icon": "gear",
+      "desc": "From DIY assistance to large-scale commercial outdoor projects, we provide tailored solutions to meet diverse client needs in Hallam and beyond.",
+      "image": "https://source.unsplash.com/600x400/?commercial,construction"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "text": "Totally Outdoors transformed our backyard with a beautiful pergola and decking. The team was professional and completed the project on time. We highly recommend their services to anyone in Hallam looking for quality outdoor work."
+    },
+    {
+      "name": "James Thompson",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "text": "We had a verandah and patio installed by Totally Outdoors, and the result exceeded our expectations. The craftsmanship is excellent, and they were very accommodating throughout the process."
+    },
+    {
+      "name": "Linda Chen",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+      "text": "The outdoor room and decking project was handled expertly by Totally Outdoors. They listened to our ideas and delivered a stunning space that we now use every day. Great value for money."
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Choosing the Perfect Pergola Material for Australian Weather",
+      "date": "March 2026",
+      "excerpt": "When selecting a pergola, consider materials like treated pine or aluminum to withstand Hallam's variable climate and ensure longevity.",
+      "image": "https://source.unsplash.com/600x400/?pergola,material"
+    },
+    {
+      "title": "Tips for Maximising Small Outdoor Spaces",
+      "date": "February 2026",
+      "excerpt": "Even compact backyards in Hallam can be transformed with smart pergola designs and multi-functional outdoor furniture.",
+      "image": "https://source.unsplash.com/600x400/?small,garden"
+    },
+    {
+      "title": "The Benefits of Insulated Roof Systems for Patios",
+      "date": "January 2026",
+      "excerpt": "Insulated roofs provide superior temperature control, making your patio comfortable year-round in Melbourne's hot summers and cool winters.",
+      "image": "https://source.unsplash.com/600x400/?insulation,roof"
+    },
+    {
+      "title": "DIY vs Professional Installation: What Hallam Homeowners Should Know",
+      "date": "December 2025",
+      "excerpt": "While DIY projects can be rewarding, professional pergola builders ensure compliance with local regulations and quality finishes.",
+      "image": "https://source.unsplash.com/600x400/?diy,construction"
+    }
+  ],
+  "pricingCalculator": [
+    {
+      "label": "Pergola Installation",
+      "basePrice": 5000
+    },
+    {
+      "label": "Decking per Square Meter",
+      "basePrice": 200
+    },
+    {
+      "label": "Verandah Construction",
+      "basePrice": 8000
+    },
+    {
+      "label": "Roof System Upgrade",
+      "basePrice": 3000
+    },
+    {
+      "label": "Outdoor Room Build",
+      "basePrice": 12000
+    }
+  ],
+  "priceList": [
+    {
+      "name": "Initial Consultation",
+      "price": "$150"
+    },
+    {
+      "name": "Pergola Design Fee",
+      "price": "$500"
+    },
+    {
+      "name": "Decking Installation per sqm",
+      "price": "$220"
+    },
+    {
+      "name": "Blinds and Shutters per unit",
+      "price": "$300"
+    }
+  ],
+  "currency": "$",
+  "distanceUnit": "km"
+}
