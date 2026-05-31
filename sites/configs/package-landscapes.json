@@ -1,0 +1,143 @@
+{
+  "businessName": "Package Landscapes",
+  "trade": "Landscape Design and Construction",
+  "address": "111 Hobsons Road, Kensington VIC 3031",
+  "suburb": "Kensington",
+  "phone": "1300 791 914",
+  "email": "info@packagelandscapes.com.au",
+  "tagline": "Imagination to Creation",
+  "brandColors": {
+    "primaryColor": "#43A047",
+    "primaryColorRgb": "67, 160, 71",
+    "primaryColorHover": "#388E3C",
+    "secondaryColor": "#1a1a1a"
+  },
+  "bannerImage": "https://source.unsplash.com/1200x800/?landscape,garden",
+  "bannerSubheading": "Transforming Kensington's Outdoor Spaces",
+  "aboutText": "With over 15 years of experience in landscape design and construction, Package Landscapes has been transforming outdoor spaces in Kensington and surrounding areas. Our team is dedicated to bringing imagination to creation, ensuring every project reflects the unique vision of our clients. We take pride in our reliable service, using high-quality materials and innovative techniques to deliver stunning results that stand the test of time. From residential gardens to commercial projects, we are committed to excellence and customer satisfaction.",
+  "aboutImage": "https://source.unsplash.com/600x400/?team,workshop",
+  "aboutSubheading": "Your Trusted Local Landscaping Experts",
+  "aboutStatValue": 15,
+  "aboutStatLabel": "Years of Experience",
+  "servicesText": "At Package Landscapes, we offer a comprehensive range of services tailored to both residential and commercial needs. Our expertise spans from initial design concepts to full construction, ensuring seamless execution and stunning outcomes. We specialise in creating functional and beautiful outdoor environments that enhance lifestyle and property value.",
+  "servicesImage": "https://source.unsplash.com/1200x800/?construction,tools",
+  "servicesSubheading": "Comprehensive Landscape Solutions",
+  "serviceCategories": [
+    {
+      "name": "Landscape Design",
+      "icon": "lightbulb",
+      "desc": "Our landscape design service transforms your vision into detailed plans, incorporating sustainable elements and aesthetic appeal for your outdoor space."
+    },
+    {
+      "name": "Landscape Construction",
+      "icon": "hammer",
+      "desc": "We handle all aspects of landscape construction, from site preparation to planting, ensuring durable and beautiful results for your property."
+    },
+    {
+      "name": "Playground & Nature Play Design",
+      "icon": "sun",
+      "desc": "Specialising in playground and nature play areas, we create safe, engaging, and natural environments for children to explore and enjoy."
+    },
+    {
+      "name": "Commercial Projects",
+      "icon": "shield",
+      "desc": "For businesses and institutions, we deliver large-scale landscaping projects that enhance curb appeal and functionality for commercial properties."
+    },
+    {
+      "name": "Childcare & Early Learning Spaces",
+      "icon": "droplet",
+      "desc": "We design and build childcare outdoor areas that promote learning and play, with a focus on safety, accessibility, and natural elements."
+    },
+    {
+      "name": "School Grounds & Local Government Projects",
+      "icon": "gear",
+      "desc": "Our team works with schools and local government to develop functional and inspiring outdoor spaces that serve the community effectively."
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Package Landscapes did an incredible job on our backyard renovation in Kensington. The team was professional, and the result exceeded our expectations. Highly recommend their services for any landscaping project.",
+      "name": "Sarah Mitchell",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "We hired Package Landscapes for our school playground design, and they delivered a fantastic space that the children love. Their attention to detail and commitment to safety were impressive.",
+      "name": "David Thompson",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "text": "The commercial project they completed for our office complex was outstanding. From design to construction, the process was smooth, and the outdoor area now enhances our workplace environment.",
+      "name": "Emily Chen",
+      "avatar": "https://randomuser.me/api/portraits/women/67.jpg"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "5 Tips for Designing a Low-Maintenance Garden in Kensington",
+      "excerpt": "Discover how to create a beautiful garden that requires minimal upkeep, perfect for busy homeowners in Kensington. Learn about native plants and smart design choices.",
+      "date": "March 2026",
+      "image": "https://source.unsplash.com/600x400/?garden,design"
+    },
+    {
+      "title": "Incorporating Nature Play into Your Childcare Outdoor Space",
+      "excerpt": "Explore the benefits of nature play areas for early learning and how to design them safely and effectively for childcare centres.",
+      "date": "February 2026",
+      "image": "https://source.unsplash.com/600x400/?playground,nature"
+    },
+    {
+      "title": "Commercial Landscaping: Enhancing Your Business Curb Appeal",
+      "excerpt": "Learn how professional landscaping can boost your business image and create inviting outdoor spaces for customers and employees.",
+      "date": "January 2026",
+      "image": "https://source.unsplash.com/600x400/?commercial,landscape"
+    },
+    {
+      "title": "The Importance of Sustainable Practices in Landscape Construction",
+      "excerpt": "Find out why sustainability matters in landscaping and how we integrate eco-friendly methods into our construction projects.",
+      "date": "December 2025",
+      "image": "https://source.unsplash.com/600x400/?sustainable,construction"
+    }
+  ],
+  "pricing": {
+    "calculatorServices": [
+      {
+        "label": "Landscape Design Consultation",
+        "basePrice": 150
+      },
+      {
+        "label": "Small Garden Construction",
+        "basePrice": 5000
+      },
+      {
+        "label": "Playground Installation",
+        "basePrice": 15000
+      },
+      {
+        "label": "Commercial Project Estimate",
+        "basePrice": 20000
+      },
+      {
+        "label": "Nature Play Area Design",
+        "basePrice": 3000
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Garden Design per Hour",
+        "price": "$120"
+      },
+      {
+        "name": "Turf Installation per m²",
+        "price": "$25"
+      },
+      {
+        "name": "Playground Safety Surfacing per m²",
+        "price": "$80"
+      },
+      {
+        "name": "Consultation Fee",
+        "price": "$150"
+      }
+    ]
+  },
+  "logoTagline": "Imagination to Creation"
+}
