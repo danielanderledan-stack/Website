@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;600;700;800&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/sites/assets/index-CH4BAh75n4.js"></script>
+    <script type="module" crossorigin src="/sites/assets/index-CH4BAh75n5.js"></script>
     <link rel="stylesheet" crossorigin href="/sites/assets/index-DzTfnYAy.css">
   <!-- cd-style-start -->
 <style>.btn-yellow{padding-top:9px!important;padding-bottom:9px!important}</style>
@@ -45,5 +45,24 @@
 })();
 </script>
 <!-- cd-popup-end -->
+<!-- cd-imgfb-start -->
+<script>
+(function(){
+  function fb(img){
+    if(img.getAttribute("data-fb")==="2")return;
+    var w=600,h=400,m=(img.src||"").match(/w=(\d+)&h=(\d+)/);
+    if(m){w=m[1];h=m[2];}else{w=img.naturalWidth||img.width||600;h=img.naturalHeight||img.height||400;}
+    if(img.getAttribute("data-fb")!=="1"){
+      img.setAttribute("data-fb","1");
+      img.src="https://picsum.photos/seed/"+encodeURIComponent(((img.alt||"img")+w+h).slice(0,24))+"/"+w+"/"+h;
+    }else{
+      img.setAttribute("data-fb","2");
+      img.src="data:image/svg+xml;utf8,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'"><rect width="100%" height="100%" fill="#dfe3e8"/></svg>');
+    }
+  }
+  document.addEventListener("error",function(e){var t=e.target;if(t&&t.tagName==="IMG")fb(t);},true);
+})();
+</script>
+<!-- cd-imgfb-end -->
 </body>
 </html>
