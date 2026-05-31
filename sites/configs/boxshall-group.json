@@ -1,0 +1,142 @@
+{
+  "businessName": "Boxshall Group",
+  "trade": "Electrical, Hydraulic & Mechanical (HVAC) Services",
+  "address": "1 Crown St Footscray VIC 3011",
+  "suburb": "Footscray",
+  "phone": "03 9639 1428",
+  "email": "info@boxshall.com.au",
+  "services": [
+    {
+      "name": "Electrical Services",
+      "desc": "Our expert electricians provide comprehensive electrical installations, repairs, and maintenance for commercial and industrial facilities in Footscray and surrounding areas.",
+      "icon": "zap"
+    },
+    {
+      "name": "Hydraulic Services",
+      "desc": "We design, install, and service hydraulic systems, ensuring optimal fluid power solutions for machinery and infrastructure projects.",
+      "icon": "droplet"
+    },
+    {
+      "name": "Mechanical Services (HVAC)",
+      "desc": "Specialising in heating, ventilation, and air conditioning, we deliver efficient climate control systems for comfortable and productive environments.",
+      "icon": "gear"
+    },
+    {
+      "name": "Lighting Solutions",
+      "desc": "Through our Lumenall division, we offer innovative lighting design and installation that enhances energy efficiency and aesthetic appeal.",
+      "icon": "lightbulb"
+    },
+    {
+      "name": "Automation Systems",
+      "desc": "We implement advanced automation solutions including PLC, SCADA, HMI, and UPS systems to streamline operations and improve reliability.",
+      "icon": "usb"
+    },
+    {
+      "name": "Sustainability Consulting",
+      "desc": "Our consultants help businesses adopt sustainable practices, from energy audits to eco-friendly system upgrades, reducing carbon footprints.",
+      "icon": "shield"
+    }
+  ],
+  "tagline": "Sustainably Innovative",
+  "colors": {
+    "primaryColor": "#FF9500",
+    "primaryColorRgb": "255, 149, 0",
+    "primaryColorHover": "#E68A00",
+    "secondaryColor": "#1a1a1a"
+  },
+  "images": {
+    "hero": "https://source.unsplash.com/1200x800/?industrial,construction",
+    "about": "https://source.unsplash.com/600x400/?professional,team",
+    "services": "https://source.unsplash.com/1200x800/?electrical,workshop"
+  },
+  "aboutText": "With over 20 years of experience serving the Footscray community, Boxshall Group has established itself as a trusted provider of electrical, hydraulic, and mechanical services. Our team of licensed professionals is committed to delivering reliable and innovative solutions tailored to the unique needs of industrial and commercial clients. We pride ourselves on our attention to detail, prompt service, and sustainable practices that ensure long-term value for our customers.",
+  "aboutSubheading": "About Boxshall Group",
+  "servicesText": "Boxshall Group offers a comprehensive range of trade services designed to meet all your electrical, hydraulic, and HVAC needs. From initial design and construct projects to ongoing maintenance, our skilled team ensures efficient and high-quality workmanship. We specialise in sustainable solutions that enhance performance while reducing environmental impact.",
+  "servicesSubheading": "Our Services",
+  "bannerSubheading": "Sustainably Innovative Trade Services",
+  "testimonials": [
+    {
+      "name": "John Smith",
+      "text": "Boxshall Group handled the complete electrical fit-out for our Footscray warehouse. Their attention to detail and commitment to safety were outstanding, completing the project on time and within budget.",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "name": "Sarah Johnson",
+      "text": "We engaged Boxshall for HVAC maintenance at our Melbourne office. Their team was professional, knowledgeable, and provided quick solutions that improved our system efficiency significantly.",
+      "avatar": "https://randomuser.me/api/portraits/women/62.jpg"
+    },
+    {
+      "name": "Mike O'Brien",
+      "text": "For our hydraulic system upgrade, Boxshall Group delivered excellent design and construct services. Their expertise in sustainability helped us achieve long-term cost savings.",
+      "avatar": "https://randomuser.me/api/portraits/men/78.jpg"
+    }
+  ],
+  "blog": [
+    {
+      "title": "5 Tips for Energy-Efficient Lighting in Commercial Spaces",
+      "excerpt": "Upgrading to LED lighting can reduce energy costs by up to 75%. Learn how to choose the right fixtures and optimise lighting design for your Footscray business.",
+      "date": "March 2026"
+    },
+    {
+      "title": "Maintaining Your HVAC System: A Seasonal Guide",
+      "excerpt": "Regular maintenance ensures your HVAC system runs efficiently. Discover key steps to prepare your heating and cooling units for the Australian summer.",
+      "date": "February 2026"
+    },
+    {
+      "title": "The Benefits of Automation in Industrial Settings",
+      "excerpt": "Implementing PLC and SCADA systems can streamline operations and improve safety. Explore how automation transforms modern manufacturing facilities.",
+      "date": "January 2026"
+    },
+    {
+      "title": "Sustainable Electrical Practices for Businesses",
+      "excerpt": "Reducing your carbon footprint starts with smart electrical choices. From solar integration to energy audits, find out how to make your business greener.",
+      "date": "December 2025"
+    }
+  ],
+  "pricing": {
+    "calculator": [
+      {
+        "label": "Electrical Installation",
+        "basePrice": 1500
+      },
+      {
+        "label": "HVAC System Installation",
+        "basePrice": 3500
+      },
+      {
+        "label": "Hydraulic System Repair",
+        "basePrice": 800
+      },
+      {
+        "label": "Lighting Upgrade",
+        "basePrice": 500
+      },
+      {
+        "label": "Automation System Setup",
+        "basePrice": 5000
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Electrical Inspection",
+        "price": "$120"
+      },
+      {
+        "name": "HVAC Maintenance",
+        "price": "$200"
+      },
+      {
+        "name": "Hydraulic Pump Service",
+        "price": "$180"
+      },
+      {
+        "name": "Sustainability Audit",
+        "price": "$300"
+      }
+    ]
+  },
+  "aboutStatValue": 20,
+  "aboutStatLabel": "Years Experience",
+  "currency": "$",
+  "distanceUnit": "km"
+}
