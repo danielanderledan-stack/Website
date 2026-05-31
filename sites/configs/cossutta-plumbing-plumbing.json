@@ -1,0 +1,309 @@
+{
+  "primaryColor": "#0056b3",
+  "primaryColorRgb": "0, 86, 179",
+  "primaryColorHover": "#004494",
+  "secondaryColor": "#1a1a1a",
+  "logoPrefix": "Cossutta Plumbing",
+  "logoTagline": "Quality Trade Services",
+  "trade": "Plumbing",
+  "suburb": "Port Melbourne",
+  "phone": "0418 107 808 / 03 9646 1537",
+  "email": "walter@cossuttaplumbing.com.au",
+  "address": "5 Edwards Avenue, Port Melbourne VIC 3207",
+  "navLinks": [
+    "Home",
+    "About Us",
+    "Services",
+    "Prices",
+    "Blog",
+    "Contact"
+  ],
+  "navCtaLabel": "Get a Quote",
+  "heroSlides": [
+    {
+      "img": "https://loremflickr.com/1200/800/plumber,pipe/all?lock=1",
+      "title": "Expert Plumbing Services",
+      "sub": "Reliable solutions for homes and businesses in Port Melbourne"
+    },
+    {
+      "img": "https://loremflickr.com/1200/800/fire,protection/all?lock=2",
+      "title": "Commercial Fire Protection",
+      "sub": "Comprehensive systems to keep your property safe"
+    },
+    {
+      "img": "https://loremflickr.com/1200/800/industrial,plumbing/all?lock=3",
+      "title": "Industrial Fire Services",
+      "sub": "Specialised protection for large-scale operations"
+    }
+  ],
+  "heroCtaLabel": "Book Now",
+  "splitCtaLines": [
+    "Don't wait!",
+    "Get in touch today and let us",
+    "get the job done — fast and guaranteed."
+  ],
+  "splitCtaSubtext": "Job Done Right",
+  "splitCtaImage": "https://loremflickr.com/900/700/plumber,work/all?lock=4",
+  "photoRowImages": [
+    {
+      "src": "https://loremflickr.com/600/400/plumbing,tools/all?lock=5",
+      "alt": "Plumbing tools and equipment"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/fire,extinguisher/all?lock=6",
+      "alt": "Fire protection systems"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/pipe,repair/all?lock=7",
+      "alt": "Pipe repair work"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/commercial,building/all?lock=8",
+      "alt": "Commercial plumbing services"
+    }
+  ],
+  "aboutHeadingStart": "Do you need a",
+  "aboutHeadingHighlight": "Plumber?",
+  "aboutHeadingEnd": "Look no further!",
+  "aboutSubheading": "Trusted in Port Melbourne",
+  "aboutText": "Cossutta Plumbing has been serving Port Melbourne and surrounding areas for over 15 years, providing high-quality commercial and industrial fire protection and plumbing services. Our team is dedicated to reliable, efficient, and professional solutions tailored to your needs. We pride ourselves on exceptional workmanship and customer satisfaction, making us the go-to choice for all trade requirements.",
+  "aboutStatLabel": "Repeat Customers",
+  "aboutStatValue": 87,
+  "aboutCtaLabel": "Read More",
+  "aboutImages": [
+    {
+      "src": "https://loremflickr.com/600/400/plumber,team/all?lock=9",
+      "alt": "Our expert plumbing team"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/fire,system/all?lock=10",
+      "alt": "Fire protection installation"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/commercial,project/all?lock=11",
+      "alt": "Commercial plumbing project"
+    }
+  ],
+  "fullWidthImage": "https://loremflickr.com/1200/800/plumbing,commercial/all?lock=12",
+  "fullWidthImageAlt": "Commercial plumbing project in progress",
+  "servicesHeadingStart": "Our Professional",
+  "servicesHeadingHighlight": "Services",
+  "servicesSubheading": "What We Offer",
+  "servicesText": "At Cossutta Plumbing, we offer a wide range of services including hydraulic fire protection and general plumbing. Our expert team ensures top-quality workmanship and timely completion for all projects in Port Melbourne and beyond.",
+  "services": [
+    {
+      "icon": "wrench",
+      "title": "General Plumbing",
+      "desc": "We handle all types of plumbing repairs and installations, from leaky taps to complete system overhauls."
+    },
+    {
+      "icon": "shield",
+      "title": "Fire Protection Systems",
+      "desc": "Our comprehensive fire protection solutions include installation, maintenance, and inspection for commercial properties."
+    },
+    {
+      "icon": "droplet",
+      "title": "Hydraulic Fire Services",
+      "desc": "Specialised in hydraulic fire service systems, ensuring optimal performance and compliance with safety standards."
+    },
+    {
+      "icon": "flame",
+      "title": "Commercial Fire Safety",
+      "desc": "We design and implement fire safety systems tailored for businesses, protecting assets and personnel."
+    },
+    {
+      "icon": "gear",
+      "title": "Industrial Fire Protection",
+      "desc": "Our industrial fire protection services cater to large facilities, offering robust and reliable solutions."
+    },
+    {
+      "icon": "zap",
+      "title": "Emergency Plumbing",
+      "desc": "Available 24/7 for urgent plumbing emergencies, we respond quickly to minimise damage and restore functionality."
+    }
+  ],
+  "bannerHeading": "Do you need a Plumber?",
+  "bannerSubheading": "Look no further — our team is here to help with reliable plumbing and fire protection services.",
+  "bannerCtaLabel": "View All Services",
+  "bannerImage": "https://loremflickr.com/1200/800/plumber,service/all?lock=13",
+  "testimonialsHeadingStart": "We Deliver",
+  "testimonialsHeadingHighlight": "Quality",
+  "testimonialsHeadingEnd": "Results",
+  "testimonialsSubheading": "Honest Work, Fair Prices",
+  "testimonialsImage": "https://loremflickr.com/700/500/customer,satisfaction/all?lock=14",
+  "testimonials": [
+    {
+      "text": "Cossutta Plumbing fixed our burst pipe quickly and professionally. Their team was courteous and the work was top-notch. Highly recommended for any plumbing needs.",
+      "name": "John Smith",
+      "role": "Homeowner",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "text": "We hired Cossutta for our cafe's fire protection system. They installed a reliable setup and provided excellent after-service support. A trustworthy business partner.",
+      "name": "Sarah Wilson",
+      "role": "Cafe Owner",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "text": "As a property manager, I rely on Cossutta Plumbing for regular maintenance. Their expertise in commercial fire safety has been invaluable. Always punctual and efficient.",
+      "name": "Michael Brown",
+      "role": "Property Manager",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "src": "https://loremflickr.com/600/400/plumbing,work/all?lock=15",
+      "alt": "Plumbing work in progress"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/fire,alarm/all?lock=16",
+      "alt": "Fire alarm installation"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/pipe,fittings/all?lock=17",
+      "alt": "Pipe fittings and components"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/commercial,kitchen/all?lock=18",
+      "alt": "Commercial kitchen plumbing"
+    },
+    {
+      "src": "https://loremflickr.com/600/400/industrial,facility/all?lock=19",
+      "alt": "Industrial fire protection setup"
+    }
+  ],
+  "pricingBgImage": "https://loremflickr.com/1200/800/pricing,plumbing/all?lock=20",
+  "calculatorTitle": "Price Estimator",
+  "calculatorServicesLabel": "Service you need",
+  "calculatorDistanceLabel": "Distance from us",
+  "calculatorUrgencyLabel": "Urgent Job?",
+  "calculatorTypeLabel": "Job type",
+  "calculatorTypes": [
+    "Standard",
+    "Large"
+  ],
+  "calculatorSelectDefault": "Select Option",
+  "calculatorUrgencyYes": "Yes",
+  "calculatorUrgencyNo": "No",
+  "distanceUnit": "km",
+  "currency": "$",
+  "calculatorServices": [
+    {
+      "label": "General Plumbing Repair",
+      "base": 120
+    },
+    {
+      "label": "Fire Protection Installation",
+      "base": 450
+    },
+    {
+      "label": "Emergency Call-Out",
+      "base": 200
+    },
+    {
+      "label": "Hydraulic Service",
+      "base": 350
+    },
+    {
+      "label": "Commercial System Check",
+      "base": 300
+    }
+  ],
+  "priceListHeadingLine1": "Competitive Pricing &",
+  "priceListHeadingLine2": "Service Packages",
+  "priceListSubheading": "Fair & Transparent",
+  "priceList": [
+    {
+      "name": "Basic Plumbing Service",
+      "price": "$120"
+    },
+    {
+      "name": "Fire Safety Audit",
+      "price": "$250"
+    },
+    {
+      "name": "Pipe Replacement",
+      "price": "$400"
+    },
+    {
+      "name": "Annual Maintenance Plan",
+      "price": "$600"
+    }
+  ],
+  "urgencyBadgeText": "Same Day Service",
+  "professionalText": "Certified Trade",
+  "finalPriceLabel": "Estimated Price",
+  "quoteCtaLabel": "Get a Quote",
+  "blogHeadingStart": "Latest",
+  "blogHeadingHighlight": "News",
+  "blogHeadingEnd": "& Updates",
+  "blogSubheading": "Tips, Advice & Industry Updates",
+  "blogPosts": [
+    {
+      "img": "https://loremflickr.com/600/400/blog,plumbing/all?lock=21",
+      "date": "March 2026",
+      "title": "How to Prevent Common Plumbing Issues",
+      "excerpt": "Learn simple tips to avoid costly plumbing repairs and keep your system running smoothly."
+    },
+    {
+      "img": "https://loremflickr.com/600/400/fire,safety/all?lock=22",
+      "date": "February 2026",
+      "title": "The Importance of Regular Fire Protection Inspections",
+      "excerpt": "Discover why scheduled inspections are crucial for maintaining effective fire safety in commercial buildings."
+    },
+    {
+      "img": "https://loremflickr.com/600/400/winter,plumbing/all?lock=23",
+      "date": "January 2026",
+      "title": "Preparing Your Plumbing for Winter",
+      "excerpt": "Essential steps to protect your pipes from freezing and bursting during cold months."
+    },
+    {
+      "img": "https://loremflickr.com/600/400/compliance,standards/all?lock=24",
+      "date": "December 2025",
+      "title": "Understanding Fire Safety Regulations in Victoria",
+      "excerpt": "A guide to the latest compliance requirements for fire protection systems in Australia."
+    }
+  ],
+  "contactHeading": "Get in Touch Now!",
+  "contactSubheading": "We're Here to Help",
+  "contactCtaLabel": "Get a Quote",
+  "footerCopyright": "Cossutta Plumbing — Port Melbourne",
+  "footerNewsletterNote": "* Updates and seasonal tips",
+  "footerColumns": [
+    {
+      "heading": "Our Services",
+      "links": [
+        "General Plumbing",
+        "Fire Protection Systems",
+        "Hydraulic Fire Services",
+        "Commercial Fire Safety",
+        "Industrial Fire Protection",
+        "Emergency Plumbing"
+      ]
+    },
+    {
+      "heading": "Useful Links",
+      "links": [
+        "Sitemap",
+        "Legal Note",
+        "Privacy & Policy",
+        "Cookie Info"
+      ]
+    },
+    {
+      "heading": "Company",
+      "links": [
+        "About Us",
+        "Services",
+        "Pricing",
+        "Contact"
+      ]
+    }
+  ],
+  "footerBottomLinks": [
+    "Home",
+    "About Us",
+    "Services"
+  ]
+}
