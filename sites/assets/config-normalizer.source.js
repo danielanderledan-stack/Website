@@ -1,4 +1,4 @@
-// SOURCE of the config normalizer prepended into index-CH4BAh75n.js at build time.
+// SOURCE of the config normalizer prepended into the deployed bundle at build time.
 // Maps legacy/old-schema site configs (nested colors/images/pricing, services[].name,
 // pricing.calculator[].basePrice, blog[]) to the full 80-field schema (sample-config.json),
 // filling presentational defaults so EVERY uploaded JSON renders. Edit here, then re-inject.
@@ -18,6 +18,8 @@ function __normalizeSiteConfig(c){
   var biz = c.businessName || c.logoPrefix || c.trade || "Our Business";
   var trade = c.trade || "Services";
   var suburb = c.suburb || "";
+  var words = String(biz).trim().split(/\s+/).filter(Boolean);
+  var firstWord = words[0] || String(biz);
 
   var imgServices = images.services;
   var imgArr = Array.isArray(imgServices) ? imgServices : (imgServices ? [imgServices] : []);
@@ -77,9 +79,9 @@ function __normalizeSiteConfig(c){
     primaryColorRgb: c.primaryColorRgb || colors.primaryColorRgb || "30, 58, 138",
     primaryColorHover: c.primaryColorHover || colors.primaryColorHover || "#1A2F75",
     secondaryColor: c.secondaryColor || colors.secondaryColor || "#1a1a1a",
-    logoPrefix: c.logoPrefix || String(biz).toUpperCase(),
-    logoCircleLetter: c.logoCircleLetter || (String(biz).charAt(0).toUpperCase() || "A"),
-    logoTagline: c.logoTagline || c.tagline || trade,
+    logoPrefix: c.logoPrefix || firstWord.toUpperCase(),
+    logoCircleLetter: c.logoCircleLetter || (firstWord.charAt(0).toUpperCase() || "A"),
+    logoTagline: c.logoTagline || c.tagline || (words.length > 1 ? words.slice(1).join(" ").toUpperCase() : trade),
     trade: trade,
     suburb: suburb,
     phone: c.phone || "",
@@ -89,7 +91,7 @@ function __normalizeSiteConfig(c){
     navCtaLabel: def("navCtaLabel", "Get a Quote"),
     heroSlides: heroSlides,
     heroCtaLabel: def("heroCtaLabel", "Get a Quote"),
-    splitCtaLines: def("splitCtaLines", ["Don't wait!", "Contact " + biz + " today and let us", "get the job done — fast and guaranteed."]),
+    splitCtaLines: def("splitCtaLines", ["Don't wait!", "Get in touch today and let us", "get the job done — fast and guaranteed."]),
     splitCtaSubtext: def("splitCtaSubtext", "Job Done Right"),
     splitCtaImage: c.splitCtaImage || aboutImg,
     photoRowImages: present("photoRowImages") ? c.photoRowImages : imgObjs(4, trade),
