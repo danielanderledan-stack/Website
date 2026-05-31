@@ -98,6 +98,12 @@ function __expandSiteConfig(c){
   var suburb = c.suburb || "";
   var where = suburb ? (" in " + suburb) : "";
 
+  // headings come from the AI (old-site branding); split last word as the highlight
+  function sh(str){ if(!str) return null; var w=String(str).trim().split(/\s+/); if(w.length<2) return {s:"",h:String(str),e:""}; return {s:w.slice(0,-1).join(" ")+" ",h:w[w.length-1],e:""}; }
+  var AH=sh(c.aboutHeading), SVH=sh(c.servicesHeading), TH=sh(c.testimonialsHeading), BH=sh(c.blogHeading);
+  var aiHero = Array.isArray(c.heroSlides) ? c.heroSlides : [];
+  function hero(i,dt,ds){ var h=aiHero[i]||{}; return { img:U(P(i),1600,900), title:h.title||h.heading||dt, sub:h.sub||h.subtitle||ds }; }
+
   // AI services (title + desc); icons + images preset by slot
   var aiServices = Array.isArray(c.services) ? c.services : [];
   var services = [];
@@ -129,10 +135,10 @@ function __expandSiteConfig(c){
   function imgObjs(idxs, alt){ return idxs.map(function(i){ return { src: U(P(i), 600, 400), alt: alt }; }); }
 
   return {
-    primaryColor: pack.color[0],
-    primaryColorRgb: pack.color[1],
-    primaryColorHover: pack.color[2],
-    secondaryColor: "#1a1a1a",
+    primaryColor: c.primaryColor || pack.color[0],
+    primaryColorRgb: c.primaryColorRgb || pack.color[1],
+    primaryColorHover: c.primaryColorHover || pack.color[2],
+    secondaryColor: c.secondaryColor || "#1a1a1a",
     logoPrefix: c.logoPrefix || biz,
     logoCircleLetter: "",
     logoTagline: c.tagline || c.logoTagline || (pack.name + (suburb ? (" • " + suburb) : "")),
@@ -144,19 +150,19 @@ function __expandSiteConfig(c){
     navLinks: ["Home", "About Us", "Services", "Prices", "Blog", "Contact"],
     navCtaLabel: "Get a Quote",
     heroSlides: [
-      { img: U(P(0), 1600, 900), title: c.tagline || ("Trusted " + pack.name + where), sub: "Quality workmanship, every time" },
-      { img: U(P(1), 1600, 900), title: "Reliable & Professional", sub: suburb ? ("Proudly serving " + suburb) : "Fully licensed & insured" },
-      { img: U(P(2), 1600, 900), title: "Get the Job Done Right", sub: "Free quotes — no obligation" }
+      hero(0, c.tagline || ("Trusted " + pack.name + where), "Quality workmanship, every time"),
+      hero(1, "Reliable & Professional", suburb ? ("Proudly serving " + suburb) : "Fully licensed & insured"),
+      hero(2, "Get the Job Done Right", "Free quotes — no obligation")
     ],
     heroCtaLabel: "Book Now",
     splitCtaLines: ["Don't wait!", "Get in touch today and", "let us get the job done.", "— fast and guaranteed."],
     splitCtaSubtext: "",
     splitCtaImage: U(P(2), 900, 700),
     photoRowImages: imgObjs([1, 2, 3, 0], pack.name),
-    aboutHeadingStart: "Do you need a",
-    aboutHeadingHighlight: pack.name + "?",
-    aboutHeadingEnd: "Look no further!",
-    aboutSubheading: "Your Local Experts" + where,
+    aboutHeadingStart: AH ? AH.s : "Do you need a",
+    aboutHeadingHighlight: AH ? AH.h : (pack.name + "?"),
+    aboutHeadingEnd: AH ? AH.e : "Look no further!",
+    aboutSubheading: c.aboutSubheading || ("Your Local Experts" + where),
     aboutText: c.aboutText || ("With years of hands-on experience" + where + ", our licensed team delivers reliable, high-quality " + pack.name.toLowerCase() + " work. We pride ourselves on honest advice, fair pricing and turning up on time, every time."),
     aboutStatLabel: "Happy Customers",
     aboutStatValue: 90,
@@ -164,19 +170,19 @@ function __expandSiteConfig(c){
     aboutImages: imgObjs([3, 0, 1], pack.name),
     fullWidthImage: U(P(0), 1920, 700),
     fullWidthImageAlt: pack.name + " at work",
-    servicesHeadingStart: "Our Professional",
-    servicesHeadingHighlight: "Services",
-    servicesSubheading: "What We Offer",
+    servicesHeadingStart: SVH ? SVH.s : "Our Professional",
+    servicesHeadingHighlight: SVH ? SVH.h : "Services",
+    servicesSubheading: c.servicesSubheading || "What We Offer",
     servicesText: c.servicesText || ("From small jobs to major projects, we offer a full range of " + pack.name.toLowerCase() + " services" + where + ". Quality materials, expert workmanship and a satisfaction guarantee on every job."),
     services: services,
-    bannerHeading: "Do you need a " + pack.name + "?",
-    bannerSubheading: "Look no further — our team is here to help.",
+    bannerHeading: c.bannerHeading || ("Do you need a " + pack.name + "?"),
+    bannerSubheading: c.bannerSubheading || "Look no further — our team is here to help.",
     bannerCtaLabel: "View All Services",
     bannerImage: U(P(1), 700, 900),
-    testimonialsHeadingStart: "We Deliver",
-    testimonialsHeadingHighlight: "Quality",
-    testimonialsHeadingEnd: "Results",
-    testimonialsSubheading: "Honest Work, Fair Prices",
+    testimonialsHeadingStart: TH ? TH.s : "We Deliver",
+    testimonialsHeadingHighlight: TH ? TH.h : "Quality",
+    testimonialsHeadingEnd: TH ? TH.e : "Results",
+    testimonialsSubheading: c.testimonialsSubheading || "Honest Work, Fair Prices",
     testimonialsImage: U(P(2), 700, 500),
     testimonials: testimonials,
     galleryImages: imgObjs([0, 1, 2, 3, 0], pack.name),
@@ -201,13 +207,13 @@ function __expandSiteConfig(c){
     professionalText: "Licensed " + pack.name,
     finalPriceLabel: "Estimated Price",
     quoteCtaLabel: "Get a Quote",
-    blogHeadingStart: "Latest",
-    blogHeadingHighlight: "News",
-    blogHeadingEnd: "& Tips",
-    blogSubheading: "Advice & Industry Updates",
+    blogHeadingStart: BH ? BH.s : "Latest",
+    blogHeadingHighlight: BH ? BH.h : "News",
+    blogHeadingEnd: BH ? BH.e : "& Tips",
+    blogSubheading: c.blogSubheading || "Advice & Industry Updates",
     blogPosts: blogPosts,
-    contactHeading: "Get in Touch Now!",
-    contactSubheading: "We're Here to Help" + where,
+    contactHeading: c.contactHeading || "Get in Touch Now!",
+    contactSubheading: c.contactSubheading || ("We're Here to Help" + where),
     contactCtaLabel: "Get a Quote",
     footerCopyright: biz + (suburb ? (" — " + suburb) : ""),
     footerNewsletterNote: "* Seasonal tips and special offers",
