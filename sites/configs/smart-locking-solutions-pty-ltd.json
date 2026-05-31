@@ -1,0 +1,145 @@
+{
+  "businessName": "Smart Locking Solutions Pty Ltd",
+  "trade": "Locksmith",
+  "tagline": "Your Local Locksmiths in Ascot Vale You Can Trust",
+  "logoTagline": "Trusted Locksmiths in Ascot Vale",
+  "address": "45 Lockwood Street",
+  "suburb": "Ascot Vale",
+  "phone": "03 9321 4567",
+  "email": "sales@smartlockingsolutions.com.au",
+  "aboutText": "Established over 15 years ago, Smart Locking Solutions Pty Ltd has been providing trusted locksmith services to Ascot Vale and the greater Melbourne area. Our experienced team is dedicated to delivering prompt and reliable solutions for all your security needs. Whether it's a lockout emergency or a security upgrade, we ensure professional workmanship and peace of mind for our customers.",
+  "aboutSubheading": "Your Trusted Local Locksmiths",
+  "aboutStatValue": 97,
+  "aboutStatLabel": "Customer Satisfaction",
+  "servicesText": "Smart Locking Solutions provides a wide array of locksmith services tailored to your needs in Ascot Vale. Our professional team handles everything from gaining entry during lockouts to installing advanced security systems. We are committed to using high-quality materials and providing fast, efficient service for both residential and commercial clients.",
+  "servicesSubheading": "Comprehensive Locksmith Services",
+  "bannerSubheading": "Fast and Reliable Locksmith Services",
+  "services": [
+    {
+      "name": "Gain Entry",
+      "desc": "We provide swift and damage-free entry to your home or office, ensuring minimal disruption when you're locked out.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Rekey Locks",
+      "desc": "Enhance your security by rekeying existing locks to work with new keys, perfect after a move or lost key incident.",
+      "icon": "gear"
+    },
+    {
+      "name": "Car Door Opening",
+      "desc": "Professional car door unlocking services to get you back on the road quickly and safely, any time of day.",
+      "icon": "car"
+    },
+    {
+      "name": "Install New Locks",
+      "desc": "Upgrade your security with expert installation of new locks and deadbolts for ultimate peace of mind at home.",
+      "icon": "shield"
+    },
+    {
+      "name": "Repair Locks",
+      "desc": "We repair damaged or malfunctioning locks to restore functionality and security to your property efficiently.",
+      "icon": "hammer"
+    },
+    {
+      "name": "Spare Car Key",
+      "desc": "Get duplicate car keys made quickly and accurately, including transponder keys and remotes for all models.",
+      "icon": "tool"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "John Smith",
+      "text": "Smart Locking Solutions was a lifesaver when I was locked out of my house late at night. They arrived within 20 minutes and got me back inside without any damage to the door. Highly recommend their professional and efficient service!",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "Sarah Johnson",
+      "text": "I needed my car door unlocked after losing my keys in Ascot Vale. The technician was friendly and had me sorted in no time. Great value and quick response for such an emergency situation.",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Mike Williams",
+      "text": "We had all our locks rekeyed after buying a new home in Ascot Vale. The team was thorough and explained everything clearly. Very satisfied with their work and the improved security.",
+      "avatar": "https://randomuser.me/api/portraits/men/56.jpg"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Tips to Improve Your Home Security",
+      "excerpt": "Learn simple steps to enhance your home security, from upgrading locks to installing deadbolts. Protect your family and valuables today.",
+      "date": "March 2026",
+      "image": "https://loremflickr.com/600/400/security?lock=11"
+    },
+    {
+      "title": "What to Do If You're Locked Out of Your Car",
+      "excerpt": "Locked out of your vehicle? Here's what to do first, including when to call a professional locksmith for quick assistance.",
+      "date": "February 2026",
+      "image": "https://loremflickr.com/600/400/car-key?lock=22"
+    },
+    {
+      "title": "Signs It's Time to Rekey Your Locks",
+      "excerpt": "Discover common signs that indicate you should rekey your locks, such as after a break-in or losing keys.",
+      "date": "January 2026",
+      "image": "https://loremflickr.com/600/400/lock?lock=33"
+    },
+    {
+      "title": "Choosing the Right Lock for Your Business",
+      "excerpt": "Selecting appropriate commercial locks is crucial for security. We guide you through options like deadbolts and smart locks.",
+      "date": "December 2025",
+      "image": "https://loremflickr.com/600/400/commercial-lock?lock=44"
+    }
+  ],
+  "pricingCalculator": [
+    {
+      "label": "Emergency Lockout",
+      "basePrice": 99
+    },
+    {
+      "label": "Rekey Lock",
+      "basePrice": 75
+    },
+    {
+      "label": "Install Deadbolt",
+      "basePrice": 120
+    },
+    {
+      "label": "Car Door Unlock",
+      "basePrice": 89
+    },
+    {
+      "label": "Spare Car Key",
+      "basePrice": 150
+    }
+  ],
+  "priceList": [
+    {
+      "name": "Standard Key Cutting",
+      "price": "$15"
+    },
+    {
+      "name": "Transponder Key Duplication",
+      "price": "$99"
+    },
+    {
+      "name": "Lock Replacement",
+      "price": "$120"
+    },
+    {
+      "name": "Security Consultation",
+      "price": "$50"
+    }
+  ],
+  "colors": {
+    "primaryColor": "#1E3A5F",
+    "primaryColorRgb": "30, 58, 95",
+    "primaryColorHover": "#162D4A",
+    "secondaryColor": "#1a1a1a"
+  },
+  "images": {
+    "hero": "https://loremflickr.com/1200/800/locksmith?lock=55",
+    "about": "https://loremflickr.com/600/400/security-door?lock=66",
+    "services": "https://loremflickr.com/600/400/lock?lock=77"
+  },
+  "distanceUnit": "km",
+  "currency": "$"
+}
