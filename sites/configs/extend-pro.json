@@ -1,0 +1,142 @@
+{
+  "businessName": "Extend Pro",
+  "trade": "Builder",
+  "address": "2 Finlay Street, Yarraville, VIC 3013",
+  "suburb": "Yarraville",
+  "phone": "0418 433 330",
+  "email": "info@extendpro.com.au",
+  "tagline": "Crafting Quality Homes in Yarraville",
+  "brandColors": {
+    "primaryColor": "#E67E22",
+    "primaryColorRgb": "230, 126, 34",
+    "primaryColorHover": "#D35400",
+    "secondaryColor": "#1a1a1a"
+  },
+  "heroImage": "https://source.unsplash.com/1200x800/?construction",
+  "bannerSubheading": "Your Trusted Local Builders",
+  "aboutText": "With more than 15 years of experience in the construction industry, Extend Pro has established itself as a leading builder in Yarraville and surrounding areas. Our team is dedicated to transforming your vision into reality, whether it's a stylish home extension, a complete renovation, or a brand-new build. We combine skilled craftsmanship with modern design to create spaces that are both functional and beautiful, earning the trust of countless homeowners through our reliable and professional approach.",
+  "aboutSubheading": "About Extend Pro",
+  "servicesText": "At Extend Pro, we offer a comprehensive range of building services tailored to meet your specific needs. From initial design concepts to final construction, our expertise covers everything from small renovations to large-scale new home projects. We are committed to delivering excellence in every aspect of our work, ensuring your complete satisfaction.",
+  "servicesSubheading": "Our Services",
+  "services": [
+    {
+      "name": "Home Renovations",
+      "desc": "We breathe new life into existing homes with expert renovations that enhance functionality and aesthetic appeal, tailored to your lifestyle.",
+      "icon": "hammer"
+    },
+    {
+      "name": "New Home Construction",
+      "desc": "Building your dream home from the ground up with meticulous attention to detail and high-quality materials for lasting results.",
+      "icon": "tool"
+    },
+    {
+      "name": "Home Extensions",
+      "desc": "Expand your living space seamlessly with custom-designed extensions that blend perfectly with your existing home structure.",
+      "icon": "bolt"
+    },
+    {
+      "name": "Design and Planning",
+      "desc": "Our design team collaborates with you to create practical and innovative plans that maximize space and meet all building regulations.",
+      "icon": "lightbulb"
+    },
+    {
+      "name": "Custom Builds",
+      "desc": "Specializing in unique, custom-built homes that reflect your personal style and requirements, built to the highest standards.",
+      "icon": "gear"
+    },
+    {
+      "name": "Project Management",
+      "desc": "We handle every aspect of the building process from start to finish, ensuring projects are completed on time and within budget.",
+      "icon": "shield"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Thompson",
+      "text": "Extend Pro did an amazing job on our home renovation in Yarraville. The team was professional, on time, and the quality of work exceeded our expectations. We highly recommend them for any building project.",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Michael Brown",
+      "text": "We hired Extend Pro for our new home build and couldn't be happier. Their attention to detail and communication throughout the process was outstanding. The finished home is exactly what we envisioned.",
+      "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "name": "Emily Davis",
+      "text": "The extension project handled by Extend Pro was completed smoothly and efficiently. They transformed our cramped space into a beautiful open-plan area that our family loves. Excellent service from start to finish.",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Tips for Planning a Home Extension",
+      "excerpt": "Before starting a home extension in Yarraville, consider these essential tips to ensure your project stays on track and within budget.",
+      "date": "March 2026",
+      "image": "https://source.unsplash.com/600x400/?extension"
+    },
+    {
+      "title": "How to Choose the Right Builder for Your Renovation",
+      "excerpt": "Selecting the right builder is crucial for a successful renovation. Here's what to look for when hiring a professional in Melbourne.",
+      "date": "February 2026",
+      "image": "https://source.unsplash.com/600x400/?builder"
+    },
+    {
+      "title": "Benefits of Modern Home Design",
+      "excerpt": "Explore how contemporary design principles can enhance your living space with improved functionality and style.",
+      "date": "January 2026",
+      "image": "https://source.unsplash.com/600x400/?design"
+    },
+    {
+      "title": "Maintaining Your Home After Construction",
+      "excerpt": "Learn simple maintenance tips to keep your newly built or renovated home in top condition for years to come.",
+      "date": "December 2025",
+      "image": "https://source.unsplash.com/600x400/?maintenance"
+    }
+  ],
+  "pricing": {
+    "calculator": [
+      {
+        "label": "Home Renovation",
+        "basePrice": 15000
+      },
+      {
+        "label": "New Home Build",
+        "basePrice": 250000
+      },
+      {
+        "label": "Home Extension",
+        "basePrice": 50000
+      },
+      {
+        "label": "Design Consultation",
+        "basePrice": 500
+      },
+      {
+        "label": "Project Management",
+        "basePrice": 10000
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Consultation Fee",
+        "price": "$150"
+      },
+      {
+        "name": "Basic Renovation per sqm",
+        "price": "$350"
+      },
+      {
+        "name": "Extension per sqm",
+        "price": "$400"
+      },
+      {
+        "name": "New Build per sqm",
+        "price": "$1800"
+      }
+    ]
+  },
+  "aboutStatValue": 15,
+  "aboutStatLabel": "Years Experience",
+  "currency": "$",
+  "distanceUnit": "km"
+}
