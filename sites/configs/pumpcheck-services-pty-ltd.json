@@ -1,0 +1,143 @@
+{
+  "businessName": "Pumpcheck Services Pty Ltd",
+  "address": "3 Moylan Lane, Kensington",
+  "suburb": "Kensington",
+  "phone": "0431 563 618",
+  "email": "info@pumpcheckservices.com.au",
+  "tagline": "Over 40 Years Combined Experience",
+  "logoTagline": "Over 40 Years Combined Experience",
+  "bannerSubheading": "Trusted Pump Experts in Kensington",
+  "aboutText": "Pumpcheck Services Pty Ltd brings over 40 years of combined expertise to pump services in Kensington and surrounding areas. We specialize in both residential and commercial pump maintenance, ensuring your systems run smoothly year-round. Our commitment to quality workmanship and timely service sets us apart as a trusted partner in the community, delivering reliable solutions for all pump-related needs.",
+  "aboutSubheading": "About Pumpcheck Services",
+  "aboutStatValue": 40,
+  "aboutStatLabel": "Years Experience",
+  "servicesText": "Pumpcheck Services offers a wide range of pump solutions tailored to your needs. From routine maintenance to emergency repairs, our team ensures optimal performance for all pump types. Serving Kensington and beyond with professional and dependable service, we keep your water systems flowing efficiently.",
+  "servicesSubheading": "Our Pump Services",
+  "services": [
+    {
+      "name": "Pump Maintenance & Repairs",
+      "desc": "Our comprehensive maintenance programs include regular inspections, lubrication, and part replacements to ensure your pumps operate efficiently and avoid unexpected failures.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Commercial Pump Services",
+      "desc": "We provide end-to-end pump services for commercial establishments, from system design and installation to ongoing maintenance and swift repairs for uninterrupted operations.",
+      "icon": "gear"
+    },
+    {
+      "name": "Domestic Pump Solutions",
+      "desc": "For homeowners in Kensington, we offer reliable pump services including installation, troubleshooting, and repairs for all household water and sewage systems to maintain comfort.",
+      "icon": "droplet"
+    },
+    {
+      "name": "Rural & Agricultural Pumps",
+      "desc": "Supporting the agricultural community with robust pump solutions for irrigation, livestock watering, and drainage, tailored to withstand harsh rural conditions and seasons.",
+      "icon": "shield"
+    },
+    {
+      "name": "Irrigation System Services",
+      "desc": "We design and maintain efficient irrigation pump systems that optimize water usage and ensure healthy landscapes for homes, farms, and commercial properties in the area.",
+      "icon": "sun"
+    },
+    {
+      "name": "Emergency Pump Repairs",
+      "desc": "Our emergency repair team is available around the clock to address pump failures promptly, reducing risks of water damage and minimizing service interruptions for you.",
+      "icon": "zap"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "John Smith",
+      "text": "Pumpcheck Services handled our farm's irrigation pump repair with utmost professionalism. They diagnosed the issue quickly and implemented a lasting solution, ensuring our water supply remained uninterrupted during the critical growing season in the region.",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "name": "Sarah Jones",
+      "text": "Living in Kensington, I trust Pumpcheck Services for all my domestic pump needs. Their team conducts regular maintenance with attention to detail, and their customer service is always friendly, making them a reliable choice for homeowners.",
+      "avatar": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "name": "Mike Brown",
+      "text": "When our commercial pump system broke down, Pumpcheck's emergency team arrived within hours. They efficiently repaired the pump, minimizing our business disruption and demonstrating their commitment to client satisfaction with prompt action.",
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Signs Your Pump Needs Maintenance",
+      "excerpt": "Identifying early signs of pump wear can prevent major failures. This article covers unusual noises, reduced pressure, and other symptoms that indicate it's time for a professional check-up.",
+      "date": "March 2026",
+      "image": "https://source.unsplash.com/600x400/?pump,maintenance"
+    },
+    {
+      "title": "Choosing the Right Pump for Your Home",
+      "excerpt": "Selecting the appropriate pump for your household is crucial for efficiency. We discuss factors like flow rate, head pressure, and durability to help you make an informed choice.",
+      "date": "February 2026",
+      "image": "https://source.unsplash.com/600x400/?water,pump"
+    },
+    {
+      "title": "Irrigation Efficiency Tips for Farmers",
+      "excerpt": "Efficient irrigation is key to agricultural success. Learn how to maintain your pump system for optimal water distribution, reducing waste and enhancing plant health across rural areas.",
+      "date": "January 2026",
+      "image": "https://source.unsplash.com/600x400/?irrigation,farm"
+    },
+    {
+      "title": "Emergency Pump Repairs: What to Do",
+      "excerpt": "Pump emergencies can be stressful. Here's a step-by-step guide on immediate actions to take, from shutting off power to calling for expert assistance in Kensington and nearby suburbs.",
+      "date": "December 2025",
+      "image": "https://source.unsplash.com/600x400/?emergency,repair"
+    }
+  ],
+  "pricing": {
+    "calculator": [
+      {
+        "label": "Pump Inspection",
+        "basePrice": 80
+      },
+      {
+        "label": "Pump Repair",
+        "basePrice": 200
+      },
+      {
+        "label": "Pump Installation",
+        "basePrice": 500
+      },
+      {
+        "label": "Emergency Callout",
+        "basePrice": 150
+      },
+      {
+        "label": "Annual Maintenance Contract",
+        "basePrice": 400
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Standard Service Call",
+        "price": "$120"
+      },
+      {
+        "name": "Pump Replacement",
+        "price": "$800"
+      },
+      {
+        "name": "Irrigation System Setup",
+        "price": "$1200"
+      },
+      {
+        "name": "Commercial Pump Audit",
+        "price": "$300"
+      }
+    ]
+  },
+  "colors": {
+    "primaryColor": "#0066cc",
+    "primaryColorRgb": "0, 102, 204",
+    "primaryColorHover": "#0052a3",
+    "secondaryColor": "#1a1a1a"
+  },
+  "images": {
+    "heroImage": "https://source.unsplash.com/1200x800/?pump,water",
+    "aboutImage": "https://source.unsplash.com/1200x800/?plumbing,repair"
+  }
+}
