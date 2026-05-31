@@ -19,7 +19,6 @@
   <!-- cd-popup-start -->
 <script>
 (function(){
-  var WEBHOOK="https://n8n-production-d02c.up.railway.app/webhook/4040499f-40d1-4b76-8af7-4a6df6dfbe6b";
   function show(){
     if(document.getElementById("cd-cb-popup"))return;
     var primary=(getComputedStyle(document.documentElement).getPropertyValue("--color-primary")||"").trim()||"#1E3A8A";
@@ -36,7 +35,7 @@
     function close(){w.style.opacity="0";w.style.transform="translateY(12px)";setTimeout(function(){if(w.parentNode)w.parentNode.removeChild(w)},300)}
     document.getElementById("cd-cb-x").onclick=close;
     document.getElementById("cd-cb-yes").onclick=function(){
-      try{fetch(WEBHOOK,{method:"POST",mode:"no-cors",keepalive:true,body:JSON.stringify({website:location.href,url:location.href,ts:new Date().toISOString()})})}catch(e){}
+      try{window.__cdTrack&&window.__cdTrack("callback_request",{answer:"yes please"})}catch(e){}
       w.innerHTML='<div style="font-size:16px;font-weight:700;padding:6px 0">Thanks! &#128075;</div><div style="font-size:13px;color:#777;margin-top:6px">We&#39;ll be in touch shortly.</div>';
       setTimeout(close,2200);
     };
@@ -88,5 +87,22 @@
 })();
 </script>
 <!-- cd-fyi-end -->
+<!-- cd-track-start -->
+<script>
+(function(){
+  var WEBHOOK="https://n8n-production-d02c.up.railway.app/webhook/2f49e19f-cf37-4bb8-a09d-8d7799b9fec4";
+  window.__cdTrack=function(event,extra){
+    try{
+      var d={event:event,url:location.href,path:location.pathname,slug:(location.pathname.split("/").filter(Boolean)[1]||""),referrer:document.referrer||"",userAgent:navigator.userAgent,language:navigator.language||"",screen:(screen.width+"x"+screen.height),viewport:(window.innerWidth+"x"+window.innerHeight),title:document.title,ts:new Date().toISOString()};
+      if(extra){for(var k in extra){d[k]=extra[k];}}
+      var body=JSON.stringify(d),sent=false;
+      if(navigator.sendBeacon){try{sent=navigator.sendBeacon(WEBHOOK,new Blob([body],{type:"application/json"}));}catch(e){}}
+      if(!sent){fetch(WEBHOOK,{method:"POST",mode:"no-cors",keepalive:true,headers:{"Content-Type":"application/json"},body:body});}
+    }catch(e){}
+  };
+  window.__cdTrack("pageview");
+})();
+</script>
+<!-- cd-track-end -->
 </body>
 </html>
