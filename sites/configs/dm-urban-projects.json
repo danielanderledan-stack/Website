@@ -1,0 +1,168 @@
+{
+  "businessName": "DM Urban Projects",
+  "trade": "Builder",
+  "address": "Unit 34, 131 Hyde Street, Yarraville, VIC, 3013 Australia",
+  "suburb": "Yarraville",
+  "phone": "0422 185 363",
+  "email": "doug@dmurbanprojects.com.au",
+  "tagline": "Crafting Elegance",
+  "logoTagline": "Crafting Elegance",
+  "bannerSubheading": "Premium Building Solutions in Yarraville",
+  "aboutSubheading": "Building Excellence, Crafted with Care",
+  "servicesSubheading": "Comprehensive Building Services",
+  "aboutText": "With over 15 years of hands-on experience in the building industry, DM Urban Projects has earned a trusted reputation across Yarraville and Melbourne's western suburbs. Our skilled team blends expert craftsmanship with thoughtful architectural vision to deliver projects that truly stand the test of time. We are committed to transparent communication, meticulous attention to detail, and genuine care for every client's goals. From initial concept through to final handover, we treat every project as if it were our own home.",
+  "servicesText": "At DM Urban Projects, we deliver a complete range of building services for residential and commercial clients throughout Yarraville and greater Melbourne. Whether you are planning a brand-new build, a stunning renovation, or need expert architectural guidance, our experienced team brings quality results delivered on time and within budget.",
+  "primaryColor": "#3D5A80",
+  "primaryColorRgb": "61, 90, 128",
+  "primaryColorHover": "#2E4560",
+  "secondaryColor": "#1a1a1a",
+  "currency": "$",
+  "distanceUnit": "km",
+  "heroImage": "https://source.unsplash.com/1200x800/?construction,building",
+  "aboutImage": "https://source.unsplash.com/1200x800/?architect,blueprint",
+  "aboutStatValue": 15,
+  "aboutStatLabel": "Years of Experience",
+  "services": [
+    {
+      "id": "1",
+      "name": "New Home Construction",
+      "icon": "hammer",
+      "desc": "From foundation to finishing touches, we build custom homes that reflect your lifestyle and stand proudly in Yarraville's unique streetscape.",
+      "image": "https://source.unsplash.com/600x400/?home,construction"
+    },
+    {
+      "id": "2",
+      "name": "Home Renovations",
+      "icon": "wrench",
+      "desc": "Transform your existing space with expertly managed renovations, from kitchen and bathroom upgrades to full-scale home makeovers across Melbourne.",
+      "image": "https://source.unsplash.com/600x400/?renovation,interior"
+    },
+    {
+      "id": "3",
+      "name": "Architectural Design",
+      "icon": "lightbulb",
+      "desc": "Our design team creates thoughtful, functional plans that maximise every square metre and complement the character of your neighbourhood.",
+      "image": "https://source.unsplash.com/600x400/?architecture,drafting"
+    },
+    {
+      "id": "4",
+      "name": "Project Consulting",
+      "icon": "gear",
+      "desc": "Get expert guidance on budgets, timelines, council approvals, and material selections before you commit to your next building project.",
+      "image": "https://source.unsplash.com/600x400/?consulting,planning"
+    },
+    {
+      "id": "5",
+      "name": "Commercial Fit-Outs",
+      "icon": "tool",
+      "desc": "We deliver professional commercial fit-outs for retail, hospitality, and office spaces throughout Melbourne's western suburbs.",
+      "image": "https://source.unsplash.com/600x400/?commercial,fitout"
+    },
+    {
+      "id": "6",
+      "name": "Heritage Restorations",
+      "icon": "shield",
+      "desc": "Specialising in the careful restoration of heritage-listed properties, preserving original character while meeting modern building standards.",
+      "image": "https://source.unsplash.com/600x400/?heritage,restoration"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Craig Mitchell",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "text": "Doug and his team built our dream home in Yarraville from the ground up. The attention to detail was outstanding at every stage, and they kept us informed throughout the entire process. We couldn't be happier with the finished result.",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "name": "Sarah Thompson",
+      "avatar": "https://randomuser.me/api/portraits/women/28.jpg",
+      "text": "DM Urban Projects renovated our kitchen and living area, and the transformation is absolutely incredible. They were professional, tidy, and finished right on schedule. The quality of workmanship really exceeded our expectations.",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "name": "James O'Brien",
+      "avatar": "https://randomuser.me/api/portraits/men/62.jpg",
+      "text": "We hired DM Urban Projects for architectural consulting on our rear extension. Their design ideas were creative yet practical, and they navigated the council approval process without a hitch. I would highly recommend their services to anyone.",
+      "rating": 5
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "title": "5 Essential Tips for Planning Your Home Renovation in Melbourne",
+      "excerpt": "Renovating your home in Yarraville? Here are five practical tips to help you plan effectively, avoid common pitfalls, and keep your project running smoothly from start to finish.",
+      "date": "March 2026",
+      "author": "Doug Martin",
+      "image": "https://source.unsplash.com/600x400/?renovation,planning"
+    },
+    {
+      "id": "2",
+      "title": "Understanding Building Permits in Victoria: What Homeowners Need to Know",
+      "excerpt": "Navigating council permits can be confusing for homeowners. We break down the key requirements for construction and renovation projects across Melbourne's western suburbs.",
+      "date": "February 2026",
+      "author": "Doug Martin",
+      "image": "https://source.unsplash.com/600x400/?building,documents"
+    },
+    {
+      "id": "3",
+      "title": "Sustainable Building Practices for Modern Melbourne Homes",
+      "excerpt": "Discover how energy-efficient materials and thoughtful sustainable design can reduce your environmental footprint while lowering long-term running costs in your new home.",
+      "date": "January 2026",
+      "author": "Doug Martin",
+      "image": "https://source.unsplash.com/600x400/?sustainable,construction"
+    },
+    {
+      "id": "4",
+      "title": "Restoring Heritage Homes in Yarraville: A Practical Guide",
+      "excerpt": "Yarraville is full of character homes waiting to be restored. Learn how to balance preserving original features with modern comfort and current compliance requirements.",
+      "date": "December 2025",
+      "author": "Doug Martin",
+      "image": "https://source.unsplash.com/600x400/?heritage,house"
+    }
+  ],
+  "pricing": {
+    "calculator": [
+      {
+        "label": "New Home Construction",
+        "basePrice": 350000
+      },
+      {
+        "label": "Kitchen Renovation",
+        "basePrice": 35000
+      },
+      {
+        "label": "Bathroom Renovation",
+        "basePrice": 25000
+      },
+      {
+        "label": "Room Extension",
+        "basePrice": 45000
+      },
+      {
+        "label": "Architectural Design Package",
+        "basePrice": 8000
+      }
+    ],
+    "priceList": [
+      {
+        "name": "Initial Consultation",
+        "price": "$250"
+      },
+      {
+        "name": "Site Inspection & Assessment",
+        "price": "$350"
+      },
+      {
+        "name": "Building Plans & Drawings",
+        "price": "$2,500"
+      },
+      {
+        "name": "Full Project Management",
+        "price": "$3,500"
+      }
+    ]
+  }
+}
