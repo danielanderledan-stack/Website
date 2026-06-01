@@ -89,7 +89,15 @@ function __expandSiteConfig(c){
     news:[["Choosing a Local Tradie","What to look for to make sure you hire a reliable, qualified professional.","March 2026"],["Getting an Accurate Quote","How to compare quotes properly and avoid surprise costs.","February 2026"],["Maintenance Saves Money","Why regular upkeep beats expensive emergency repairs every time.","January 2026"],["Questions to Ask First","The key things to confirm before any tradesperson starts work.","December 2025"]] };
 
   var st = String(c.siteType || c.trade || "").toLowerCase().replace(/[^a-z]/g, "");
-  var pack = PACKS[st] || GENERIC_PACK;
+  var pack = PACKS[st];
+  if (!pack){
+    // fuzzy-resolve from siteType / businessName / trade / tagline so a wrong
+    // siteType (e.g. "trade") still lands on the right pack via keywords
+    var hint = (String(c.siteType||"")+" "+String(c.businessName||"")+" "+String(c.trade||"")+" "+String(c.tagline||"")).toLowerCase();
+    var AL = {electric:"electrician",plumb:"plumber",roof:"roofer",concret:"concreter",cement:"concreter",tiling:"tiler",tiler:"tiler",carpen:"carpenter",joiner:"carpenter",cabinet:"carpenter",decking:"carpenter",landscap:"landscaper",garden:"landscaper",paving:"landscaper",hvac:"hvac",aircon:"hvac",conditioning:"hvac",heating:"hvac",cooling:"hvac",refriger:"hvac",builder:"builder",building:"builder",construct:"builder",renovat:"builder"};
+    for (var ky in AL){ if (hint.indexOf(ky) !== -1){ pack = PACKS[AL[ky]]; break; } }
+  }
+  pack = pack || GENERIC_PACK;
   var pool = pack.imgs.concat(GENERIC);
   function P(i){ return pool[i % pool.length]; }
 
@@ -155,7 +163,9 @@ function __expandSiteConfig(c){
       hero(2, "Get the Job Done Right", "Free quotes — no obligation")
     ],
     heroCtaLabel: "Book Now",
-    splitCtaLines: ["Don't wait!", "Get in touch today and", "let us get the job done.", "— fast and guaranteed."],
+    splitCtaLines: c.ctaHeading ? (Array.isArray(c.ctaHeading) ? c.ctaHeading : [c.ctaHeading])
+                 : (Array.isArray(c.splitCtaLines) ? c.splitCtaLines
+                 : ["Don't wait —", (suburb ? (suburb + "'s trusted ") : "your trusted ") + pack.name.toLowerCase() + "s", "are ready to help.", "Get your free quote today."]),
     splitCtaSubtext: "",
     splitCtaImage: U(P(2), 900, 700),
     photoRowImages: imgObjs([1, 2, 3, 0], pack.name),
