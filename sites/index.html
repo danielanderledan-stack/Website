@@ -63,30 +63,6 @@
 })();
 </script>
 <!-- cd-imgfb-end -->
-<!-- cd-fyi-start -->
-<script>
-(function(){
-  function show(){
-    if(document.getElementById("cd-fyi"))return;
-    var ov=document.createElement("div");ov.id="cd-fyi";
-    ov.style.cssText="position:fixed;inset:0;z-index:100000;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;padding:20px;font-family:Roboto,system-ui,sans-serif;opacity:0;transition:opacity .25s ease";
-    ov.innerHTML='<div role="dialog" aria-label="FYI" style="position:relative;background:#fff;border-radius:22px;max-width:460px;width:100%;padding:42px 32px 32px;box-shadow:0 20px 60px rgba(0,0,0,.35);text-align:center;transform:scale(.94);transition:transform .25s ease">'
-      +'<button id="cd-fyi-x" aria-label="Close" style="position:absolute;top:12px;right:16px;border:none;background:none;font-size:26px;line-height:1;cursor:pointer;color:#999;padding:4px">&times;</button>'
-      +'<div style="font-size:46px;font-weight:800;letter-spacing:1px;color:#111;margin-bottom:14px;font-family:Roboto Slab,serif">FYI</div>'
-      +'<p style="font-size:15px;line-height:1.6;color:#444;margin:0 0 24px">These images are stock. We use custom images with your own logos once you come on board. Website content can be changed on request, and is auto-improved whenever we see fit.</p>'
-      +'<button id="cd-fyi-go" style="border:none;border-radius:10px;padding:13px 24px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;background:#111;color:#fff;width:100%">See a finished version</button>'
-      +'</div>';
-    document.body.appendChild(ov);
-    requestAnimationFrame(function(){ov.style.opacity="1";ov.firstChild.style.transform="scale(1)";});
-    function close(){ov.style.opacity="0";setTimeout(function(){if(ov.parentNode)ov.parentNode.removeChild(ov);},250);}
-    document.getElementById("cd-fyi-x").onclick=close;
-    ov.addEventListener("click",function(e){if(e.target===ov)close();});
-    document.getElementById("cd-fyi-go").onclick=function(){/* TODO: link to a finished demo site */};
-  }
-  if(document.body){show();}else{document.addEventListener("DOMContentLoaded",show);}
-})();
-</script>
-<!-- cd-fyi-end -->
 <!-- cd-track-start -->
 <script>
 (function(){
@@ -104,5 +80,46 @@
 })();
 </script>
 <!-- cd-track-end -->
+<!-- cd-fyi-start -->
+<script>
+(function(){
+  var NAVY="#0a2540", CYAN="#48cae4";
+  var LINKS=[{t:"Home",h:"https://www.completedigital.org"},{t:"Example website",h:"#"},{t:"How this works",h:"https://www.completedigital.org"}];
+  function showBurger(){
+    if(document.getElementById("cd-burger"))return;
+    var wrap=document.createElement("div");wrap.id="cd-burger";
+    wrap.style.cssText="position:fixed;top:18px;right:18px;z-index:100000;font-family:Roboto,system-ui,sans-serif";
+    var btn=document.createElement("button");btn.setAttribute("aria-label","Menu");
+    btn.style.cssText="width:46px;height:46px;border-radius:12px;border:none;cursor:pointer;background:"+NAVY+";color:#fff;box-shadow:0 6px 20px rgba(10,37,64,.35);display:flex;align-items:center;justify-content:center;font-size:20px;line-height:1";
+    btn.innerHTML="&#9776;";
+    var menu=document.createElement("div");
+    menu.style.cssText="position:absolute;top:54px;right:0;min-width:196px;background:#fff;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.22);overflow:hidden;display:none;border-top:3px solid "+CYAN;
+    menu.innerHTML=LINKS.map(function(l,i){var ext=l.h.indexOf("http")===0;return '<a href="'+l.h+'" '+(ext?'target="_blank" rel="noopener"':'')+' style="display:block;padding:13px 18px;color:'+NAVY+';text-decoration:none;font-size:14px;font-weight:600;'+(i<LINKS.length-1?"border-bottom:1px solid #eef2f6":"")+'">'+l.t+'</a>';}).join("");
+    wrap.appendChild(btn);wrap.appendChild(menu);document.body.appendChild(wrap);
+    var open=false;
+    btn.onclick=function(e){e.stopPropagation();open=!open;menu.style.display=open?"block":"none";};
+    document.addEventListener("click",function(){if(open){open=false;menu.style.display="none";}});
+  }
+  function showFYI(){
+    if(document.getElementById("cd-fyi")||document.getElementById("cd-burger"))return;
+    var ov=document.createElement("div");ov.id="cd-fyi";
+    ov.style.cssText="position:fixed;inset:0;z-index:100001;background:rgba(6,24,43,.6);display:flex;align-items:center;justify-content:center;padding:20px;font-family:Roboto,system-ui,sans-serif;opacity:0;transition:opacity .25s ease";
+    ov.innerHTML='<div role="dialog" aria-label="FYI" style="position:relative;background:#fff;border-radius:22px;max-width:460px;width:100%;padding:42px 32px 32px;box-shadow:0 20px 60px rgba(0,0,0,.35);text-align:center;transform:scale(.94);transition:transform .25s ease;border-top:5px solid '+CYAN+'">'
+      +'<button id="cd-fyi-x" aria-label="Close" style="position:absolute;top:12px;right:16px;border:none;background:none;font-size:26px;line-height:1;cursor:pointer;color:'+NAVY+';padding:4px">&times;</button>'
+      +'<div style="font-size:46px;font-weight:800;letter-spacing:1px;color:'+NAVY+';margin-bottom:14px;font-family:Roboto Slab,serif">FYI</div>'
+      +'<p style="font-size:15px;line-height:1.6;color:#444;margin:0 0 24px">These images are stock. We use custom images with your own logos once you come on board. Website content can be changed on request, and is auto-improved whenever we see fit.</p>'
+      +'<button id="cd-fyi-go" style="border:none;border-radius:10px;padding:13px 24px;font-family:inherit;font-size:14px;font-weight:700;cursor:pointer;background:'+NAVY+';color:#fff;width:100%">See a finished version</button>'
+      +'</div>';
+    document.body.appendChild(ov);
+    requestAnimationFrame(function(){ov.style.opacity="1";ov.firstChild.style.transform="scale(1)";});
+    function dismiss(){ov.style.opacity="0";setTimeout(function(){if(ov.parentNode)ov.parentNode.removeChild(ov);showBurger();},250);}
+    document.getElementById("cd-fyi-x").onclick=dismiss;
+    ov.addEventListener("click",function(e){if(e.target===ov)dismiss();});
+    document.getElementById("cd-fyi-go").onclick=function(){/* TODO: link to a finished demo site */};
+  }
+  if(document.body){showFYI();}else{document.addEventListener("DOMContentLoaded",showFYI);}
+})();
+</script>
+<!-- cd-fyi-end -->
 </body>
 </html>
