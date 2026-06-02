@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electrician Melbourne",
+  "suburb": "Melbourne",
+  "phone": "+61431416657",
+  "email": "info@sphereelectrical.com.au",
+  "address": "456 Queen St, Melbourne VIC 3000",
+  "tagline": "Melbourne's Domestic Electrical Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Home Electrical Specialists",
+      "sub": "Protecting families with expert inspections"
+    },
+    {
+      "title": "Commercial & Industrial Electricians",
+      "sub": "Serving businesses across Melbourne"
+    },
+    {
+      "title": "Emergency 24hr Electrical Services",
+      "sub": "Always ready to help in Melbourne"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Melbourne? Call Now!",
+  "aboutHeading": "Trusted Electricians in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "At Electrician Melbourne, we are domestic electricians focused on all your electrical needs in Melbourne. Our qualified staff inspect and diagnose potential risks to protect your family before they arise. We provide comprehensive home safety inspections to ensure your peace of mind. With years of experience serving Melbourne, we are committed to reliable and safe electrical services.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for all needs",
+  "servicesText": "From home electrical work to commercial installations, we offer a wide range of services in Melbourne. Our team is equipped to handle emergency situations 24/7, ensuring your safety and comfort.",
+  "services": [
+    {
+      "title": "Home Electrical Services",
+      "desc": "We handle all domestic electrical installations, repairs, and maintenance to keep your Melbourne home safe and functional."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Specialised electrical solutions for Melbourne businesses, including wiring, lighting, and system upgrades."
+    },
+    {
+      "title": "Industrial Electrical Services",
+      "desc": "Expert electrical support for Melbourne's industrial facilities, focusing on safety and efficiency."
+    },
+    {
+      "title": "Emergency 24hr Services",
+      "desc": "Round-the-clock emergency electrical assistance across Melbourne for urgent issues and outages."
+    },
+    {
+      "title": "Home Safety Inspections",
+      "desc": "Thorough inspections to identify and mitigate electrical risks in Melbourne homes, protecting your family."
+    },
+    {
+      "title": "General Electrical Maintenance",
+      "desc": "Regular maintenance and servicing to ensure optimal performance of electrical systems in Melbourne properties."
+    }
+  ],
+  "bannerHeading": "Electrician Services in Melbourne",
+  "bannerSubheading": "Comprehensive electrical solutions for homes and businesses",
+  "testimonialsHeading": "What Melbourne Customers Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from our Melbourne team",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Electrician Melbourne did a fantastic job with our home safety inspection in Melbourne CBD. Their team was professional and thorough, ensuring everything was up to standard.",
+      "name": "James Wilson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "As a local business owner in Carlton, I rely on their commercial electrical services for my shop. They are always reliable and efficient, handling all our wiring needs promptly.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The emergency 24hr service was a lifesaver when our factory in Port Melbourne had a power outage. They arrived promptly and fixed the issue minimising downtime for our operations.",
+      "name": "Michael Chen",
+      "role": "Industrial Manager"
+    }
+  ]
+}
