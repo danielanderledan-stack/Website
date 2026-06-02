@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Licensed Melbourne Electrician",
+  "suburb": "Melbourne",
+  "phone": "03 1234 5678",
+  "email": "user@domain.com",
+  "address": "Melbourne, VIC 3000",
+  "tagline": "Melbourne's Licensed Electricians",
+  "primaryColor": "#eff3f4",
+  "primaryColorRgb": "239, 243, 244",
+  "primaryColorHover": "#c0c5c6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Switchboard Upgrades in Melbourne",
+      "sub": "Safety and compliance for your home"
+    },
+    {
+      "title": "Split System Installations",
+      "sub": "Efficient cooling and heating for Melbourne properties"
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "sub": "Trusted by businesses across Melbourne"
+    }
+  ],
+  "ctaHeading": "Need a Licensed Electrician in Melbourne?",
+  "aboutHeading": "Melbourne's Licensed Electricians",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "Licensed Melbourne Electrician is your trusted local electrical service provider in Melbourne. With a commitment to up-front pricing and no hidden costs, we handle everything from switchboard upgrades to split system installations. Our team of licensed electricians serves Melbourne and surrounding areas, ensuring quality workmanship and reliable service for residential and commercial needs.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for Melbourne",
+  "servicesText": "From residential switchboard repairs to large-scale commercial installations, our team offers comprehensive electrical services in Melbourne. We comply with all Australian standards, ensuring safety and satisfaction. Whether it's lighting, appliances, or general electrical work, we've got you covered.",
+  "services": [
+    {
+      "title": "Switchboard Services",
+      "desc": "Upgrade, repair, and maintain switchboards to ensure safety and compliance for Melbourne homes and businesses."
+    },
+    {
+      "title": "Split System Installations",
+      "desc": "Professional installation and servicing of split system air conditioners for efficient heating and cooling in Melbourne."
+    },
+    {
+      "title": "Lighting Solutions",
+      "desc": "From LED upgrades to custom lighting designs, we provide expert lighting services for residential and commercial properties."
+    },
+    {
+      "title": "Appliance Installations",
+      "desc": "Safe and reliable installation of electrical appliances, ensuring they meet Australian standards and operate efficiently."
+    },
+    {
+      "title": "Commercial Electrical Work",
+      "desc": "Comprehensive electrical services for businesses, including fit-outs, maintenance, and emergency repairs across Melbourne."
+    },
+    {
+      "title": "General Electrician Services",
+      "desc": "All-round electrical repairs, fault finding, and installations for homes and businesses in Melbourne."
+    }
+  ],
+  "bannerHeading": "Need a Licensed Electrician in Melbourne?",
+  "bannerSubheading": "Up front pricing. No hidden costs.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "From the Licensed Melbourne Electrician team",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "The team at Licensed Melbourne Electrician did a fantastic job upgrading our switchboard in our Melbourne home. Their pricing was transparent with no hidden costs, and the work was completed efficiently and safely. I highly recommend their services.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired Licensed Melbourne Electrician for our office lighting installation in Melbourne CBD. They were professional, on time, and the results were excellent. Great local electricians who understand commercial needs.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Licensed Melbourne Electrician for multiple split system installations across Melbourne properties. Their reliability and quality work make them my go-to choice for all electrical maintenance.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
