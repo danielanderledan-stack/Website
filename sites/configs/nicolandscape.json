@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "NICOlandscape",
+  "suburb": "Richmond",
+  "phone": "0433 420 217",
+  "email": "micah@micahrich.com",
+  "address": "123 Landscape Ave, Richmond VIC 3121",
+  "tagline": "Richmond's Landscape Design Specialists",
+  "primaryColor": "#ab9d95",
+  "primaryColorRgb": "171, 157, 149",
+  "primaryColorHover": "#9a8c84",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Expert Landscape Designers",
+      "sub": "Transforming outdoor spaces with creativity"
+    },
+    {
+      "title": "NICOlandscape – Your Local Landscapers",
+      "sub": "Serving Richmond and surrounding areas"
+    },
+    {
+      "title": "Beautiful Gardens, Practical Solutions",
+      "sub": "Tailored to your personal style"
+    }
+  ],
+  "ctaHeading": "Need a Landscaper in Richmond? Let's Talk!",
+  "aboutHeading": "Landscaping Excellence in Richmond",
+  "aboutSubheading": "Creative, Functional & Personalised",
+  "aboutText": "At NICOlandscape, we have been transforming gardens in Richmond for over 10 years. Our mission is to create stunning landscapes that reflect your personal style, combining creativity with functionality. We ensure every garden is beautiful and practical, serving the local community with dedication to detail and sustainability.",
+  "servicesHeading": "Our Landscape Services",
+  "servicesSubheading": "Tailored to Your Outdoor Needs",
+  "servicesText": "From initial design to final implementation, NICOlandscape offers comprehensive landscaping services in Richmond. We specialise in creating personalised outdoor spaces that are both aesthetically pleasing and functional, using sustainable practices.",
+  "services": [
+    {
+      "title": "Landscape Design",
+      "desc": "We create custom landscape designs that reflect your style and needs, ensuring a harmonious outdoor environment."
+    },
+    {
+      "title": "Landscape Detail Documentation",
+      "desc": "Our detailed documentation ensures precise execution of your landscape project, from plans to specifications."
+    },
+    {
+      "title": "Irrigation Design",
+      "desc": "Efficient irrigation systems designed to keep your garden healthy while conserving water."
+    },
+    {
+      "title": "Garden Renovation",
+      "desc": "Revamp your existing garden with modern designs and plant selections for a fresh look."
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Design and build functional outdoor areas for relaxation and entertainment in your backyard."
+    },
+    {
+      "title": "Sustainable Landscaping",
+      "desc": "Eco-friendly solutions that promote biodiversity and reduce environmental impact in your garden."
+    }
+  ],
+  "bannerHeading": "Ready to Transform Your Richmond Garden?",
+  "bannerSubheading": "NICOlandscape is here to help with all your landscaping needs.",
+  "testimonialsHeading": "What Richmond Locals Say About Us",
+  "testimonialsSubheading": "Real feedback from our community",
+  "blogHeading": "Landscaping Insights & Tips",
+  "blogSubheading": "Expert advice from NICOlandscape",
+  "contactHeading": "Get a Free Consultation Today",
+  "contactSubheading": "Contact us for personalised landscape solutions",
+  "reviews": [
+    {
+      "text": "NICOlandscape designed our entire backyard in Richmond, creating a beautiful and functional space. Their attention to detail and creativity exceeded our expectations.",
+      "name": "Sarah Mitchell",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "NICOlandscape designed and installed an irrigation system for our commercial property in Richmond. Their expertise ensured optimal water usage and plant health, proving invaluable for our maintenance needs.",
+      "name": "James Cooper",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "NICOlandscape transformed our rental property's garden in Richmond with a complete renovation. The new design is both attractive and easy to maintain, pleasing our tenants and increasing property value.",
+      "name": "Emma Taylor",
+      "role": "Property Manager"
+    }
+  ]
+}
