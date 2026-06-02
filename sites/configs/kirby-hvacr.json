@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Kirby HVACR",
+  "suburb": "Melbourne",
+  "phone": "03 9876 5432",
+  "email": "info@kirbyhvacr.com.au",
+  "address": "456 Trade Park, Melbourne VIC 3000",
+  "tagline": "Melbourne's HVAC & Refrigeration Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's HVACR Specialists",
+      "sub": "25+ Years of Expertise"
+    },
+    {
+      "title": "Refrigeration & HVAC Solutions",
+      "sub": "From Equipment to Efficiency"
+    },
+    {
+      "title": "Quality Parts & Accessories",
+      "sub": "All Brands, All Needs"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote for Your HVAC Project",
+  "aboutHeading": "25 Years Serving Melbourne's HVAC Needs",
+  "aboutSubheading": "Local, Reliable & Efficient",
+  "aboutText": "Kirby HVACR has been providing top-notch HVAC and refrigeration services to Melbourne and surrounding areas for over 25 years. Our team of licensed experts specialises in equipment supply, installation, and maintenance, ensuring your systems run efficiently and sustainably. We pride ourselves on tailored solutions for businesses and homeowners across the region.",
+  "servicesHeading": "Our Comprehensive Services",
+  "servicesSubheading": "Expert HVACR Solutions",
+  "servicesText": "We offer a full range of HVAC and refrigeration services, from equipment sales to efficiency consulting, tailored to meet the needs of businesses and homeowners across Melbourne. Our expertise covers installation, maintenance, and supply with a focus on quality and sustainability.",
+  "services": [
+    {
+      "title": "Refrigeration Equipment",
+      "desc": "Supply and installation of high-quality refrigeration systems for commercial and industrial use."
+    },
+    {
+      "title": "HVAC Equipment",
+      "desc": "Heating, ventilation, and air conditioning solutions to keep your space comfortable year-round."
+    },
+    {
+      "title": "Refrigerants Supply",
+      "desc": "Wide range of refrigerants available for purchase, including R32 and other modern options."
+    },
+    {
+      "title": "Gases & Oils",
+      "desc": "Essential gases and oils for maintaining and operating HVAC systems efficiently."
+    },
+    {
+      "title": "Parts & Accessories",
+      "desc": "Genuine parts and accessories from leading brands to ensure system longevity."
+    },
+    {
+      "title": "Efficiency & Sustainability",
+      "desc": "Consulting and solutions to improve energy efficiency and reduce environmental impact."
+    }
+  ],
+  "bannerHeading": "Need HVAC Services in Melbourne?",
+  "bannerSubheading": "We're here to help with all your heating and cooling needs.",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Trusted by businesses and homeowners",
+  "blogHeading": "HVAC Tips & Updates",
+  "blogSubheading": "Stay informed with our latest articles",
+  "contactHeading": "Contact Us Today",
+  "contactSubheading": "Fast responses and free quotes",
+  "reviews": [
+    {
+      "text": "Kirby HVACR supplied and installed a new refrigeration system for our Melbourne café. Their service was professional and efficient, ensuring minimal disruption to our business operations.",
+      "name": "John Smith",
+      "role": "Café Owner, Melbourne"
+    },
+    {
+      "text": "We've been using their parts and accessories for years. Always reliable and competitively priced, perfect for our maintenance needs across multiple properties.",
+      "name": "Sarah Jones",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Their efficiency consulting helped us reduce energy costs significantly. Highly recommend for any HVAC project in Melbourne, with quick turnaround and expert advice.",
+      "name": "Mike Brown",
+      "role": "Local Business Owner"
+    }
+  ]
+}
