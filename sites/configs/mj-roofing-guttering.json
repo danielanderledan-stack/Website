@@ -1,0 +1,85 @@
+{
+  "siteType": "roofer",
+  "businessName": "M&J Roofing & Guttering",
+  "suburb": "Melbourne",
+  "phone": "0450 995 442",
+  "email": "bootstrap@5.0.2",
+  "address": "123 Example Street, Melbourne VIC 3000",
+  "tagline": "Melbourne's Roofing & Guttering Experts",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#b32828",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Expert Roof Repairs in Melbourne",
+      "sub": "Proven track record of excellence"
+    },
+    {
+      "title": "Gutter Installation & Maintenance",
+      "sub": "Protecting your home from water damage"
+    },
+    {
+      "title": "Free Estimates & Quality Service",
+      "sub": "Committed to customer satisfaction"
+    }
+  ],
+  "ctaHeading": "Get Your Free Roofing Quote in Melbourne",
+  "aboutHeading": "Melbourne's Roofing Experts at M&J",
+  "aboutSubheading": "Local & Licensed",
+  "aboutText": "At M&J Roofing & Guttering, we are proud of our proven track record of excellence in roof repairs across Melbourne. Our team is dedicated to delivering exceptional service and customer satisfaction on every project. With years of experience, we ensure high-quality results that protect your home and enhance its value.",
+  "servicesHeading": "Our Roofing & Guttering Services",
+  "servicesSubheading": "Comprehensive solutions for your home",
+  "servicesText": "From roof repairs to gutter installation, M&J Roofing & Guttering offers a full range of services to keep your property in top condition. We use quality materials and skilled workmanship for lasting results.",
+  "services": [
+    {
+      "title": "Roof Repairs",
+      "desc": "Expert fixes for leaks, damage, and wear to keep your roof in top condition."
+    },
+    {
+      "title": "Gutter Installation",
+      "desc": "Professional installation of durable gutters to protect your property from water runoff."
+    },
+    {
+      "title": "Roof Painting",
+      "desc": "Enhance your home's appearance and protection with our quality roof painting services."
+    },
+    {
+      "title": "Roof Inspection",
+      "desc": "Thorough assessments to identify issues early and recommend the best solutions."
+    },
+    {
+      "title": "Gutter Cleaning",
+      "desc": "Regular maintenance to prevent blockages and ensure optimal gutter performance."
+    },
+    {
+      "title": "Roof Replacement",
+      "desc": "Complete roof replacements using high-quality materials for long-lasting results."
+    }
+  ],
+  "bannerHeading": "Need Roof Repairs in Melbourne?",
+  "bannerSubheading": "M&J Roofing & Guttering is here to help.",
+  "testimonialsHeading": "What Melbourne Customers Say",
+  "testimonialsSubheading": "Satisfaction guaranteed",
+  "blogHeading": "Roofing Tips & Updates",
+  "blogSubheading": "From the M&J Team",
+  "contactHeading": "Contact M&J Roofing & Guttering",
+  "contactSubheading": "For a free estimate today",
+  "reviews": [
+    {
+      "text": "M&J Roofing & Guttering did an excellent job on our roof repairs in Melbourne. The team was professional and finished quickly. Highly recommend their services!",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We had our gutters installed by M&J, and the quality is outstanding. They provided a free estimate and completed the work on time. Great local business!",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on M&J for regular gutter cleaning and roof inspections across Melbourne properties. Their service is always reliable and thorough.",
+      "name": "Mike Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
