@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Lovell Plumbing",
+  "suburb": "Melbourne",
+  "phone": "0438 845 901",
+  "email": "user@domain.com",
+  "address": "123 Collins St, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Plumbers",
+  "primaryColor": "#202020",
+  "primaryColorRgb": "32, 32, 32",
+  "primaryColorHover": "#1e1e1e",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lovell Plumbing in Melbourne",
+      "sub": "Your local plumbing experts"
+    },
+    {
+      "title": "Emergency Plumbing 24/7",
+      "sub": "Fast response across Melbourne"
+    },
+    {
+      "title": "Quality Plumbing Services",
+      "sub": "Maintenance, repairs & installations"
+    }
+  ],
+  "ctaHeading": "Melbourne plumbers are ready — let's fix your plumbing issue.",
+  "aboutHeading": "Lovell Plumbing in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Established in Melbourne, Lovell Plumbing brings over a decade of experience to every job. We specialise in quick fixes and long-term solutions, using the latest tools. Our team is committed to reliable service, making us a trusted name in the community. With a focus on customer satisfaction, we offer transparent pricing and no hidden fees.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "What we do",
+  "servicesText": "At Lovell Plumbing, we offer a comprehensive range of services including emergency repairs, drain clearing, and fixture installations. Our skilled team handles both residential and commercial jobs, ensuring efficient and durable solutions. We use high-quality materials to guarantee lasting results.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "We provide 24/7 emergency plumbing services across Melbourne, ensuring quick response to urgent issues like burst pipes or severe leaks."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Our team uses advanced techniques to clear blocked drains, preventing further damage and restoring proper flow to your plumbing system."
+    },
+    {
+      "title": "Pipe Repair",
+      "desc": "From minor leaks to major pipe replacements, we offer reliable repair services to keep your plumbing in top condition."
+    },
+    {
+      "title": "Fixture Installation",
+      "desc": "We install and replace taps, showers, toilets, and other fixtures with precision, enhancing the functionality of your space."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Our licensed gas fitters handle installations and repairs for gas appliances, ensuring safety and compliance with regulations."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "We install, repair, and maintain hot water systems, providing efficient solutions for consistent hot water supply in your home."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Melbourne?",
+  "bannerSubheading": "Fast and reliable plumbing solutions for your home or business.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Insights from Lovell Plumbing",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond promptly to all inquiries",
+  "reviews": [
+    {
+      "text": "Lovell Plumbing fixed our hot water system quickly when it broke down. They were professional and the pricing was fair. Highly recommend for anyone in Melbourne.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We had a blocked drain at our cafe, and Lovell Plumbing cleared it in no time. Their emergency service saved us from closing early. Great work!",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Lovell Plumbing for all maintenance issues. They handle multiple properties efficiently and keep tenants happy.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
