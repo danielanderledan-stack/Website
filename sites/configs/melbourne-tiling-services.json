@@ -1,0 +1,85 @@
+{
+  "siteType": "tiler",
+  "businessName": "Melbourne Tiling Services",
+  "suburb": "Highett",
+  "phone": "1300661658",
+  "email": "sales@melbournetilingservices.com.au",
+  "address": "19/1 Commercial Rd, Highett, VIC 3190",
+  "tagline": "Highett's Tiling & Renovation Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Highett's Bathroom Renovation Specialists",
+      "sub": "Affordable quality solutions for your home"
+    },
+    {
+      "title": "Expert Tiling for Walls & Floors",
+      "sub": "Melbourne-wide service from Highett"
+    },
+    {
+      "title": "Waterproofing & Grouting Done Right",
+      "sub": "Reliable tradespeople you can trust"
+    }
+  ],
+  "ctaHeading": "Ready for Your Dream Bathroom? Let's Talk.",
+  "aboutHeading": "About Melbourne Tiling Services in Highett",
+  "aboutSubheading": "Your local tiling and renovation experts",
+  "aboutText": "Melbourne Tiling Services has been providing high-end quality bathroom renovations and tiling solutions to Highett and surrounding suburbs for over a decade. Specialising in wall and floor tiling, waterproofing, and complete bathroom makeovers, we pride ourselves on attention to detail and customer satisfaction. Our team is fully licensed and committed to delivering affordable yet superior results for every project.",
+  "servicesHeading": "Our Tiling & Renovation Services",
+  "servicesSubheading": "Comprehensive solutions for your bathroom",
+  "servicesText": "From initial design to final touches, we offer a full range of services including tiling, waterproofing, and shower screen installation. Serving Highett and Melbourne, we ensure every job is completed to the highest standard with minimal disruption to your home.",
+  "services": [
+    {
+      "title": "Wall & Floor Tiling",
+      "desc": "Professional installation of ceramic, porcelain, and natural stone tiles for walls and floors, ensuring a flawless finish every time."
+    },
+    {
+      "title": "Waterproofing",
+      "desc": "Certified waterproofing services for bathrooms and wet areas, protecting your home from moisture damage and meeting Australian standards."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete bathroom redesign and renovation, from demolition to final fixtures, tailored to your style and budget in Highett."
+    },
+    {
+      "title": "Shower Screen Installation",
+      "desc": "Expert fitting of frameless and semi-frameless shower screens, enhancing the look and functionality of your bathroom."
+    },
+    {
+      "title": "Grouting & Caulking",
+      "desc": "Precision grouting and caulking to seal tiles and prevent water ingress, maintaining the beauty and durability of your surfaces."
+    },
+    {
+      "title": "Bathroom Demolition & Design",
+      "desc": "Safe removal of old fixtures and layout planning, working with you to create the perfect bathroom space."
+    }
+  ],
+  "bannerHeading": "Need a Tiler in Highett?",
+  "bannerSubheading": "Get a free quote for your bathroom project today.",
+  "testimonialsHeading": "What Highett Locals Say",
+  "testimonialsSubheading": "Real reviews from our customers",
+  "blogHeading": "Tiling Tips & Bathroom Ideas",
+  "blogSubheading": "Inspiration from Melbourne Tiling Services",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Melbourne Tiling Services did an amazing job renovating our bathroom in Highett. The tiling work was precise, and they finished on time. Highly recommend for any tiling needs.",
+      "name": "Sarah Mitchell",
+      "role": "Highett Homeowner"
+    },
+    {
+      "text": "We hired them for waterproofing and grouting in our commercial property. The team was professional and the results were top-notch. Great service from start to finish.",
+      "name": "James Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "From design to installation, they handled our shower screen and tiling project with expertise. The quality of work exceeded our expectations in Melbourne.",
+      "name": "Emily Watson",
+      "role": "Property Manager"
+    }
+  ]
+}
