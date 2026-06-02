@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Rokk Carpentry",
+  "suburb": "Melbourne",
+  "phone": "0416376361",
+  "email": "craigspain101@yahoo.ie",
+  "address": "45 Craft Avenue, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Carpenter",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#cc5400",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Go-To Carpenters",
+      "sub": "20+ years of quality craftsmanship"
+    },
+    {
+      "title": "Kitchens, Shelving & Custom Woodwork",
+      "sub": "Specialising in IKEA and custom installations"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Melbourne and surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Carpenter in Melbourne? Let's Build Something Great.",
+  "aboutHeading": "20 Years Carpentry in Melbourne",
+  "aboutSubheading": "Qualified, Insured & Detail-Oriented",
+  "aboutText": "With over 20 years of hands-on carpentry experience, Craig at Rokk Carpentry delivers high-quality workmanship across Melbourne. Specialising in kitchen installations, custom cabinetry, floating shelves, and hardwood cladding, we ensure every project is completed with meticulous attention to detail. Fully insured and police-checked, our services are tailored to meet your unique needs.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Craftsmanship You Can Trust",
+  "servicesText": "Rokk Carpentry provides a full suite of carpentry services in Melbourne, including kitchen installations, custom cabinetry, floating shelves, hardwood cladding, laundry setups, and decking. With 20+ years of experience, we ensure precision and quality in every job.",
+  "services": [
+    {
+      "title": "Kitchen Installation",
+      "desc": "Expert installation of IKEA and custom kitchens, ensuring perfect fit and finish for your Melbourne home."
+    },
+    {
+      "title": "Custom Cabinetry",
+      "desc": "Bespoke cabinetry solutions designed and built to your specifications, adding functionality and style."
+    },
+    {
+      "title": "Floating Shelves",
+      "desc": "Professional installation of solid timber floating shelves, perfect for display and storage in any room."
+    },
+    {
+      "title": "Hardwood Cladding & Feature Walls",
+      "desc": "Transform your space with stunning hardwood cladding and feature walls, crafted with precision."
+    },
+    {
+      "title": "Laundry Installation",
+      "desc": "Efficient laundry setup including cupboards and bench tops, tailored to your space and needs."
+    },
+    {
+      "title": "Decking & Bench Seating",
+      "desc": "Beautiful outdoor decking and bench seating installations, ideal for Melbourne's climate and lifestyle."
+    }
+  ],
+  "bannerHeading": "Carpentry Services in Melbourne",
+  "bannerSubheading": "From kitchens to decks, we do it all with expertise.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Real reviews from satisfied customers",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Advice from the Melbourne experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Craig did an amazing job installing my custom cabinetry in Melbourne. He is meticulous and skilled, with a work ethic that is exceptional. I will definitely hire him again!",
+      "name": "Eve Mizzi",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "Craig helped me with my IKEA kitchen door installation, doing an excellent job with high standards. He was polite, professional, and left no mess behind.",
+      "name": "Michelle J.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Craig was brilliant in installing our laundry cupboards and bench top. His attention to detail is second to none, and he dealt with challenges professionally.",
+      "name": "Cameron King",
+      "role": "Property Manager"
+    }
+  ]
+}
