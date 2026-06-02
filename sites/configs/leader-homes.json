@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Leader Homes",
+  "suburb": "Melbourne",
+  "phone": "0402 653 090",
+  "email": "info@leaderhomes.com.au",
+  "address": "Melbourne, VIC, Australia",
+  "tagline": "Melbourne's Premier Home Builders",
+  "primaryColor": "#555d66",
+  "primaryColorRgb": "85, 93, 102",
+  "primaryColorHover": "#4a5259",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Leader Homes in Melbourne",
+      "sub": "Building dreams across Victoria"
+    },
+    {
+      "title": "Custom Homes & Townhouses",
+      "sub": "Design and construction tailored to you"
+    },
+    {
+      "title": "Knockdown Rebuild Specialists",
+      "sub": "Transforming Melbourne properties"
+    }
+  ],
+  "ctaHeading": "Ready to Build Your Dream Home in Melbourne?",
+  "aboutHeading": "Leader Homes: Melbourne's Home Builders",
+  "aboutSubheading": "Quality homes for Melbourne lifestyles",
+  "aboutText": "At Leader Homes, we specialise in building homes that suit the busy lifestyles of Melbourne residents. Our services include custom design, townhouse development, and new home construction, all with a seven-year warranty for peace of mind. Whether you're on a budget or looking for premium quality, we deliver innovative designs that stand the test of time. Proudly serving Melbourne and Victoria.",
+  "servicesHeading": "Our Home Building Services",
+  "servicesSubheading": "Crafted for Melbourne living",
+  "servicesText": "We offer a comprehensive range of home building services in Melbourne, from custom designs to knockdown rebuilds. Each project is tailored to meet your needs, ensuring quality and functionality at every step. Our team handles everything from new homes to townhouse developments.",
+  "services": [
+    {
+      "title": "New Homes",
+      "desc": "Building brand-new homes in Melbourne with modern designs and quality craftsmanship."
+    },
+    {
+      "title": "Custom Design",
+      "desc": "Tailoring home designs to match your vision and the Melbourne lifestyle."
+    },
+    {
+      "title": "Home and Land Packages",
+      "desc": "Combining land and construction for a seamless home building experience in Melbourne."
+    },
+    {
+      "title": "Townhouse Development",
+      "desc": "Developing stylish townhouses suitable for urban living in Melbourne."
+    },
+    {
+      "title": "Knockdown Rebuild",
+      "desc": "Transforming existing properties by demolishing and rebuilding new homes in Melbourne."
+    },
+    {
+      "title": "Renovations & Extensions",
+      "desc": "Enhancing your current home with expert renovations and extensions in Melbourne."
+    }
+  ],
+  "bannerHeading": "Building Your Dream Home in Melbourne",
+  "bannerSubheading": "Expert builders with a seven-year warranty",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Quality homes, satisfied customers",
+  "blogHeading": "Home Building Insights",
+  "blogSubheading": "Tips from Melbourne's builders",
+  "contactHeading": "Get in Touch with Leader Homes",
+  "contactSubheading": "Free consultations for Melbourne projects",
+  "reviews": [
+    {
+      "text": "Leader Homes built our custom home in Melbourne with exceptional attention to detail. The seven-year warranty gives us confidence in their work.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired Leader Homes for a knockdown rebuild in our Melbourne suburb, and the result was beyond our expectations. Highly recommend their services.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've worked with Leader Homes on townhouse developments in Melbourne. Their professionalism and quality are outstanding.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
