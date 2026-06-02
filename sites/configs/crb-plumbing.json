@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "CRB Plumbing",
+  "suburb": "Melbourne",
+  "phone": "03 3555 0110",
+  "email": "hello@crbplumbing.com",
+  "address": "South Eastern Melbourne, VIC 3000",
+  "tagline": "Melbourne's South Eastern Plumbing Experts",
+  "primaryColor": "#003366",
+  "primaryColorRgb": "0, 51, 102",
+  "primaryColorHover": "#00264d",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's South Eastern Plumbers",
+      "sub": "Over 10 years of trusted service"
+    },
+    {
+      "title": "Expert Gas Fitting & Plumbing",
+      "sub": "Residential & commercial in Melbourne"
+    },
+    {
+      "title": "24/7 Emergency Plumbing",
+      "sub": "Fast response across Melbourne's south east"
+    }
+  ],
+  "ctaHeading": "Melbourne's plumbing experts are ready to help.",
+  "aboutHeading": "Over 10 Years Plumbing in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over ten years experience, CRB Plumbing is the go-to plumbing and gas fitter service in the south eastern suburbs of Melbourne. We specialise in everything from emergency repairs to gas installations, providing reliable and professional solutions for homes and businesses. Our team is committed to quality workmanship and customer satisfaction across Melbourne.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive plumbing solutions",
+  "servicesText": "We offer a wide range of plumbing services including gas fitting, emergency repairs, and bathroom renovations. Our team serves the south eastern suburbs of Melbourne with expertise and efficiency, ensuring all jobs are done right the first time.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 rapid response for burst pipes, leaks, and urgent repairs in Melbourne."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitter for installations, repairs, and safety checks in homes."
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Advanced unblocking solutions for sinks, toilets, and stormwater drains."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation and repair of gas, electric, and solar hot water systems."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete plumbing fit-outs for bathroom remodels and upgrades."
+    },
+    {
+      "title": "Commercial Plumbing",
+      "desc": "Reliable plumbing services for businesses, restaurants, and offices."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Melbourne?",
+  "bannerSubheading": "We service all south eastern suburbs with prompt, professional care.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "CRB Plumbing came out quickly for a burst pipe emergency in Melbourne's south east. Their service was prompt and professional, fixing the issue in no time. Highly recommend for any plumbing needs.",
+      "name": "Dave Thompson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "Had CRB install a new gas hot water system at our property. Excellent work and fair pricing. They are our go-to gas fitters in the south eastern suburbs for quality service.",
+      "name": "Sarah Mitchell",
+      "role": "Property Manager"
+    },
+    {
+      "text": "They cleared a stubborn blocked drain at our cafe in Melbourne. Fast and efficient service with minimal disruption. We'll definitely use CRB Plumbing again for all our commercial needs.",
+      "name": "John Wilson",
+      "role": "Local Business Owner"
+    }
+  ]
+}
