@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Pro Connect Electrical",
+  "suburb": "Melbourne",
+  "phone": "0407 454 455",
+  "email": "admin@proconnectelectrical.com.au",
+  "address": "123 Electric Avenue, Melbourne VIC 3000",
+  "tagline": "Melbourne's Electrical & Air Conditioning Experts",
+  "primaryColor": "#cc1f1f",
+  "primaryColorRgb": "204, 31, 31",
+  "primaryColorHover": "#b01c1b",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Trusted Electricians",
+      "sub": "Licensed & certified since 2013"
+    },
+    {
+      "title": "Daikin & Mitsubishi Air Conditioning",
+      "sub": "Specialists for homes & businesses"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Melbourne & suburbs"
+    }
+  ],
+  "ctaHeading": "Need a reliable electrician in Melbourne?",
+  "aboutHeading": "12+ Years Electrical Experience in Melbourne",
+  "aboutSubheading": "Local, licensed & certified",
+  "aboutText": "Pro Connect Electrical has served Melbourne and its suburbs since 2013, with over 12 years of hands-on experience. We specialise in residential electrical installations, commercial fit-outs, and air conditioning for homes and businesses. Our licensed team is certified for all work, providing free quotes with upfront pricing. We are Daikin and Mitsubishi Electric specialists, ensuring quality and reliability for every project.",
+  "servicesHeading": "Our Electrical & AC Services",
+  "servicesSubheading": "Quality workmanship, every time",
+  "servicesText": "We specialise in electrical installations on new residential developments and air conditioning for homes and businesses across Melbourne. Our certified team handles everything from switchboards to ducted systems.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete wiring, safety checks, and upgrades for homes across Melbourne's suburbs."
+    },
+    {
+      "title": "Air Conditioning",
+      "desc": "Expert installation and servicing of ducted and split-system units from leading brands."
+    },
+    {
+      "title": "Switchboards",
+      "desc": "Modern switchboard upgrades and replacements for enhanced safety and compliance."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical solutions for offices, retail, and industrial businesses in Melbourne."
+    },
+    {
+      "title": "Lighting Installations",
+      "desc": "From luxury kitchen lighting to energy-efficient solutions for any space."
+    },
+    {
+      "title": "AC Ducted Systems",
+      "desc": "Specialist Daikin and Mitsubishi Electric ducted air conditioning for whole-home comfort."
+    }
+  ],
+  "bannerHeading": "Licensed Electricians in Melbourne",
+  "bannerSubheading": "All work certified, free quotes upfront.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical & AC Tips",
+  "blogSubheading": "Advice from Melbourne's experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Pro Connect Electrical installed our new ducted air conditioning in our South Melbourne home. The team was professional, tidy, and the system works perfectly. Highly recommend their service.",
+      "name": "Sarah Chen",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We needed a complete switchboard upgrade for our Collingwood cafe. The electricians were efficient, explained everything clearly, and ensured minimal disruption to our business.",
+      "name": "David Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managed a full electrical fit-out for a new apartment block in Docklands. Pro Connect delivered quality work on time and within budget. Their certification and warranty gave us total peace of mind.",
+      "name": "James O'Connell",
+      "role": "Property Manager"
+    }
+  ]
+}
