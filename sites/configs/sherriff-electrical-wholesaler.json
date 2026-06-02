@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Sherriff Electrical Wholesaler",
+  "suburb": "Adelaide",
+  "phone": "08 8100 1234",
+  "email": "aos@2.3.1",
+  "address": "45 Supply Chain Dr, Adelaide SA 5000",
+  "tagline": "Adelaide's Electrical Wholesale Experts",
+  "primaryColor": "#4285f4",
+  "primaryColorRgb": "66, 133, 244",
+  "primaryColorHover": "#357ae8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Adelaide's Go-To Electrical Wholesaler",
+      "sub": "Supplying tradies since 1995"
+    },
+    {
+      "title": "Switches, Sockets & Complete Wiring",
+      "sub": "Residential, commercial & industrial"
+    },
+    {
+      "title": "Fast Delivery Across South Australia",
+      "sub": "Order online or visit our showroom"
+    }
+  ],
+  "ctaHeading": "Need electrical supplies in Adelaide? Let's power your project.",
+  "aboutHeading": "28 Years Serving Adelaide's Trade",
+  "aboutSubheading": "Expert wholesale since 1995",
+  "aboutText": "Sherriff Electrical Wholesaler has been Adelaide's trusted supplier for over 28 years, offering an extensive range of electrical products from top brands like Clipsal, Schneider, and Hager. Our experienced team provides tailored advice to electricians, contractors, and businesses, ensuring you find everything from everyday fittings to specialized industrial components. We pride ourselves on reliable service and deep local knowledge across South Australia.",
+  "servicesHeading": "Our Electrical Product Range",
+  "servicesSubheading": "Wholesale solutions for every job",
+  "servicesText": "We stock a comprehensive selection of electrical supplies, including switches, sockets, lighting, cable, and industrial gear. Our inventory covers domestic, commercial, and industrial needs, with products from leading manufacturers to guarantee quality and performance.",
+  "services": [
+    {
+      "title": "Switches & Sockets",
+      "desc": "Wide variety of powerpoints, dimmers, and smart switches for residential and commercial installations."
+    },
+    {
+      "title": "Lighting Solutions",
+      "desc": "Downlights, batten fittings, emergency lights, and outdoor lighting to suit any space or project."
+    },
+    {
+      "title": "Cable & Wiring",
+      "desc": "Building wire, data cable, solar cable, and specialty wires for automotive and industrial applications."
+    },
+    {
+      "title": "Industrial Equipment",
+      "desc": "Robust switchgear, motor control, enclosures, and safety components for heavy-duty use."
+    },
+    {
+      "title": "Air Conditioning Supplies",
+      "desc": "Ducting, insulation, controllers, and accessories for split systems and ducted air conditioning."
+    },
+    {
+      "title": "Safety & Automation",
+      "desc": "Smoke alarms, home automation, test equipment, and compliance gear for modern electrical work."
+    }
+  ],
+  "bannerHeading": "Electrical Wholesaler in Adelaide & SA",
+  "bannerSubheading": "Your local source for quality electrical products",
+  "testimonialsHeading": "What Adelaide Tradies Say",
+  "testimonialsSubheading": "Trusted by the trade community",
+  "blogHeading": "Electrical Tips & Industry News",
+  "blogSubheading": "Insights from our wholesale experts",
+  "contactHeading": "Contact Us for Expert Advice",
+  "contactSubheading": "We're here to support your projects",
+  "reviews": [
+    {
+      "text": "Sherriff Electrical in Adelaide has been my go-to wholesaler for years. Their range of Clipsal Iconic switches is fantastic, and the staff always help me find the right product quickly for my jobs.",
+      "name": "Mark Thompson",
+      "role": "Adelaide Electrician"
+    },
+    {
+      "text": "As a property manager, I rely on Sherriff for consistent supply of lighting and safety gear across our Adelaide portfolios. Their fast delivery keeps our maintenance projects on schedule.",
+      "name": "Sarah Jenkins",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Fitting out our new workshop in Adelaide, Sherriff's industrial equipment range was perfect. Expert advice on switchgear and great prices made the process smooth and cost-effective.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    }
+  ]
+}
