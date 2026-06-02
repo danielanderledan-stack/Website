@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Dynamic Carpentry Services",
+  "suburb": "Parramatta",
+  "phone": "0431 320 311",
+  "email": "info@dynamiccarpentry.com.au",
+  "address": "Parramatta, NSW 2150",
+  "tagline": "Parramatta's Carpentry Professionals",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0d5ad4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Parramatta's Trusted Carpenters",
+      "sub": "Lockup, cladding & fixing done right"
+    },
+    {
+      "title": "Residential & Commercial Carpentry",
+      "sub": "Quality craftsmanship across Western Sydney"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes throughout Parramatta & surrounds"
+    }
+  ],
+  "ctaHeading": "Need a carpenter in Parramatta? Let's get started.",
+  "aboutHeading": "Dynamic Carpentry Services — Parramatta",
+  "aboutSubheading": "Professional carpentry, built on experience",
+  "aboutText": "Dynamic Carpentry Services is a trusted carpentry business based in Parramatta, delivering expert lockup, cladding and fixing work across Western Sydney. Our skilled team brings years of hands-on experience to every build, from residential framing projects to large-scale commercial fit-outs. We take pride in precise workmanship, clear communication and reliable timelines. Whether you are a builder, project manager or homeowner in Parramatta, Dynamic Carpentry Services is the team you can count on.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Expert trades across every stage",
+  "servicesText": "Dynamic Carpentry Services covers the full spectrum of carpentry needs across Parramatta and Western Sydney. From initial framing through to final finishes, our experienced team delivers reliable, high-quality workmanship on every project.",
+  "services": [
+    {
+      "title": "Lockup Carpentry",
+      "desc": "Complete lockup stage carpentry including framing, roof trusses and sheathing to get your build weather-tight and on schedule."
+    },
+    {
+      "title": "External Cladding",
+      "desc": "Professional installation of fibre cement, timber and composite cladding systems for a clean, durable exterior finish on any building."
+    },
+    {
+      "title": "Fixing & Finishes",
+      "desc": "Expert fixing work including doors, windows, architraves, skirting boards and internal linings to complete your project to the highest standard."
+    },
+    {
+      "title": "Framing & Structural",
+      "desc": "Accurate wall framing, bearers and joists installed to spec by our experienced team, ensuring a solid foundation for any residential or commercial build."
+    },
+    {
+      "title": "Door & Window Installation",
+      "desc": "Supply and professional installation of internal and external doors, window frames and hardware throughout Parramatta and surrounding suburbs."
+    },
+    {
+      "title": "Custom Carpentry Solutions",
+      "desc": "Bespoke carpentry tasks including shelving, cabinetry support, temporary structures and specialist fit-outs tailored to your project requirements."
+    }
+  ],
+  "bannerHeading": "Looking for a Carpenter in Parramatta?",
+  "bannerSubheading": "Dynamic Carpentry Services — call today for a free, no-obligation quote.",
+  "testimonialsHeading": "What Parramatta Locals Say",
+  "testimonialsSubheading": "Quality work, reliable service",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Insights from the Dynamic team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond fast — drop us a line",
+  "reviews": [
+    {
+      "text": "Dynamic Carpentry Services handled the full lockup on our new build in Parramatta and the work was spot-on. The framing was precise, the roof trusses went up on time and the whole stage ran smoothly. Highly recommend them to any builder in the area.",
+      "name": "Darren Mitchell",
+      "role": "Parramatta Homeowner"
+    },
+    {
+      "text": "We engaged Dynamic Carpentry Services for external cladding on our commercial property in Parramatta. The finish was excellent and the team was professional from start to finish. They turned it around ahead of schedule which kept our project on track.",
+      "name": "Sarah Nguyen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage several properties across Western Sydney and Dynamic Carpentry Services is my go-to for all fixing and finishing work. Doors, skirting, architraves — everything is installed cleanly and to a high standard every time.",
+      "name": "Craig Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
