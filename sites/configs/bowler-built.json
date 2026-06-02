@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Bowler Built",
+  "suburb": "Bayside",
+  "phone": "0400 501 808",
+  "email": "user@domain.com",
+  "address": "Bayside, Melbourne VIC",
+  "tagline": "Bayside's Builder for Modern Aussie Families",
+  "primaryColor": "#2E7D32",
+  "primaryColorRgb": "46, 125, 50",
+  "primaryColorHover": "#1B5E20",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Building Bayside Homes to Love",
+      "sub": "Meticulous craftsmanship for modern living"
+    },
+    {
+      "title": "Custom Builds & Renovations",
+      "sub": "Tailored to your family's needs"
+    },
+    {
+      "title": "Bowler Built: Proud, Precise, Personal",
+      "sub": "Serving Bayside homeowners with pride"
+    }
+  ],
+  "ctaHeading": "Let Bowler Built craft your Bayside dream home.",
+  "aboutHeading": "Building in Bayside with Pride",
+  "aboutSubheading": "Meticulous by nature",
+  "aboutText": "At Bowler Built, we understand the needs of the modern Aussie family right here in Bayside. We are meticulous by nature and extremely proud of our work, but most importantly, we are proud of the experience we leave with each client. With a focus on quality and client satisfaction, we build homes to live and love across Melbourne's south-eastern suburbs.",
+  "servicesHeading": "What We Build & Deliver",
+  "servicesSubheading": "Crafting Bayside's finest homes",
+  "servicesText": "From concept to completion, Bowler Built provides comprehensive building services tailored to the Bayside lifestyle. We handle everything with precision, ensuring a seamless experience for every homeowner.",
+  "services": [
+    {
+      "title": "Custom Home Builds",
+      "desc": "Fully bespoke new homes designed and constructed to your exact specifications and lifestyle."
+    },
+    {
+      "title": "Knockdown & Rebuild",
+      "desc": "Transform your existing block with a brand-new, modern family home built to last."
+    },
+    {
+      "title": "Home Renovations",
+      "desc": "Expertly update and expand your current Bayside home to better suit your growing family."
+    },
+    {
+      "title": "Extensions & Additions",
+      "desc": "Add space and value with seamless second-storey or ground-floor extensions."
+    },
+    {
+      "title": "Project Management",
+      "desc": "We oversee every trade and detail, providing a single point of contact for your build."
+    },
+    {
+      "title": "Interior Fit-Outs",
+      "desc": "Complete kitchens, bathrooms, and living spaces with high-quality finishes and fixtures."
+    }
+  ],
+  "bannerHeading": "Ready to Build in Bayside?",
+  "bannerSubheading": "Your local, licensed builder is here to help.",
+  "testimonialsHeading": "What Bayside Families Say",
+  "testimonialsSubheading": "Proud of every home we complete",
+  "blogHeading": "Building Insights & Inspiration",
+  "blogSubheading": "Tips from Bayside's builder",
+  "contactHeading": "Start Your Bayside Build Journey",
+  "contactSubheading": "Discuss your project with our team",
+  "reviews": [
+    {
+      "text": "Bowler Built transformed our Bayside property with a stunning extension. Their attention to detail was incredible, and the project was managed flawlessly from start to finish.",
+      "name": "Mark & Sarah T.",
+      "role": "Bayside Homeowner"
+    },
+    {
+      "text": "We hired Bowler Built for a full kitchen and bathroom renovation. They were meticulous, on time, and the final result exceeded our expectations. Highly recommended.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable builders. Bowler Built delivered a high-quality renovation on schedule and within budget, making the process stress-free.",
+      "name": "Angela Rossi",
+      "role": "Property Manager"
+    }
+  ]
+}
