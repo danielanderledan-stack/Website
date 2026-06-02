@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Inarc Architects",
+  "suburb": "Melbourne",
+  "phone": "0386260700",
+  "email": "info@inarc.com.au",
+  "address": "Melbourne, VIC, Australia",
+  "tagline": "Melbourne's Architecture Experts",
+  "primaryColor": "#32373c",
+  "primaryColorRgb": "50, 55, 60",
+  "primaryColorHover": "#2a2e32",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Leading Architects",
+      "sub": "Innovative design for every project"
+    },
+    {
+      "title": "Residential & Commercial Architecture",
+      "sub": "From concept to completion in Melbourne"
+    },
+    {
+      "title": "Sustainable Design in Melbourne",
+      "sub": "Eco-friendly architecture solutions"
+    }
+  ],
+  "ctaHeading": "Melbourne's architects are ready — let's design your dream.",
+  "aboutHeading": "Architecture in Melbourne Since 2008",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With more than 15 years of experience, Inarc Architects has established itself as a trusted name in Melbourne's architectural scene. Our portfolio includes everything from modern homes in South Yarra to commercial developments in the CBD. We collaborate closely with clients to bring their visions to life, ensuring every project meets the highest standards of design and sustainability.",
+  "servicesHeading": "Our Architectural Services",
+  "servicesSubheading": "Design that inspires",
+  "servicesText": "At Inarc Architects, we offer a comprehensive range of architectural services tailored to Melbourne's diverse needs. From initial concept design to final construction documentation, we ensure every detail is meticulously planned and executed.",
+  "services": [
+    {
+      "title": "Architectural Design",
+      "desc": "Creating innovative and functional designs for residential and commercial projects in Melbourne."
+    },
+    {
+      "title": "Interior Design",
+      "desc": "Crafting beautiful interior spaces that reflect your style and enhance livability."
+    },
+    {
+      "title": "Project Management",
+      "desc": "Overseeing your project from start to finish, ensuring timely and on-budget delivery."
+    },
+    {
+      "title": "Building Documentation",
+      "desc": "Preparing detailed plans and specifications for smooth construction in Melbourne."
+    },
+    {
+      "title": "Feasibility Studies",
+      "desc": "Assessing project viability and potential challenges before design begins."
+    },
+    {
+      "title": "Sustainable Design",
+      "desc": "Incorporating eco-friendly solutions for energy-efficient and sustainable buildings."
+    }
+  ],
+  "bannerHeading": "Need an Architect in Melbourne?",
+  "bannerSubheading": "Let's bring your vision to life with expert design.",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Architecture Insights & Trends",
+  "blogSubheading": "Advice from our Melbourne team",
+  "contactHeading": "Start Your Project Today",
+  "contactSubheading": "Get in touch for a free consultation",
+  "reviews": [
+    {
+      "text": "Inarc Architects designed our dream home in Melbourne's CBD, and the result was beyond our expectations. Their attention to detail and creative approach made the process enjoyable from start to finish.",
+      "name": "Sarah Thompson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired Inarc for our office renovation in Fitzroy, and they delivered a modern, functional space that significantly boosted our team's productivity. Their design insights were invaluable.",
+      "name": "James Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've worked with Inarc on multiple projects across Melbourne, from residential blocks to commercial spaces. Their professionalism and quality of work are consistently top-notch.",
+      "name": "Emily Clarke",
+      "role": "Property Manager"
+    }
+  ]
+}
