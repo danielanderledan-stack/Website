@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "ESDA Studio",
+  "suburb": "Fitzroy",
+  "phone": "0473 438 963",
+  "email": "user@domain.com",
+  "address": "123 Smith St, Fitzroy VIC 3065",
+  "tagline": "Fitzroy's Architecture & Landscape Studio",
+  "primaryColor": "#2E7D32",
+  "primaryColorRgb": "46, 125, 50",
+  "primaryColorHover": "#1B5E20",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fitzroy's Landscape & Architecture Studio",
+      "sub": "Designing efficient, durable spaces"
+    },
+    {
+      "title": "Integrated Design for Modern Living",
+      "sub": "Environmental responsiveness at its core"
+    },
+    {
+      "title": "From Concept to Completion",
+      "sub": "Personalised service in Fitzroy"
+    }
+  ],
+  "ctaHeading": "Let's Design Your Perfect Space in Fitzroy",
+  "aboutHeading": "Architecture & Landscape, United",
+  "aboutSubheading": "Designed for efficiency and durability",
+  "aboutText": "Located in Fitzroy, ESDA Studio specialises in creating integrated architecture and landscape designs that are efficient, durable, and environmentally responsive. Our approach ensures every project is tailored to the local environment and client needs. With a focus on sustainability, we blend form and function to create spaces that stand the test of time.",
+  "servicesHeading": "Our Design Services",
+  "servicesSubheading": "Comprehensive solutions for your space",
+  "servicesText": "At ESDA Studio, we offer comprehensive design services that merge architecture with landscape. Our expertise covers everything from initial concept to final implementation, ensuring spaces that are both functional and beautiful. We work closely with clients to bring their vision to life.",
+  "services": [
+    {
+      "title": "Landscape Design",
+      "desc": "Creating harmonious outdoor environments that integrate with architectural elements for aesthetic and functional appeal."
+    },
+    {
+      "title": "Architectural Design",
+      "desc": "Developing building concepts that are sustainable, efficient, and in harmony with the surrounding landscape."
+    },
+    {
+      "title": "Sustainable Design Solutions",
+      "desc": "Incorporating eco-friendly materials and practices to reduce environmental impact and enhance longevity."
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Designing patios, gardens, and outdoor areas that extend living spaces and promote relaxation."
+    },
+    {
+      "title": "Garden Planning",
+      "desc": "Strategic layout and plant selection to create low-maintenance, beautiful gardens suited to local conditions."
+    },
+    {
+      "title": "Environmental Consulting",
+      "desc": "Advising on sustainable practices and regulatory compliance for landscape and architecture projects."
+    }
+  ],
+  "bannerHeading": "Need a Landscape Designer in Fitzroy?",
+  "bannerSubheading": "Get a free consultation for your project",
+  "testimonialsHeading": "What Fitzroy Locals Say",
+  "testimonialsSubheading": "Innovative designs, client-focused",
+  "blogHeading": "Design Insights & Trends",
+  "blogSubheading": "From the ESDA Studio team",
+  "contactHeading": "Start Your Project with ESDA Studio",
+  "contactSubheading": "We're here to help with your design needs",
+  "reviews": [
+    {
+      "text": "ESDA Studio transformed our Fitzroy backyard into a stunning integrated space. Their attention to detail and understanding of local climate was impressive. Highly recommend their services.",
+      "name": "Sarah Thompson",
+      "role": "Fitzroy Homeowner"
+    },
+    {
+      "text": "We hired ESDA Studio for our commercial project, and their architectural landscape design was top-notch. They delivered a sustainable and visually appealing result on time.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Professional and creative team. They designed a sustainable garden that perfectly complements our home's architecture. A pleasure to work with from start to finish.",
+      "name": "Emma Williams",
+      "role": "Property Manager"
+    }
+  ]
+}
