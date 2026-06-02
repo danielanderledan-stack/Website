@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Master Builders Victoria",
+  "suburb": "Melbourne",
+  "phone": "9411 4555",
+  "email": "ui@5.0",
+  "address": "100 Exhibition Street, Melbourne VIC 3000",
+  "tagline": "Melbourne's Premier Builders Association",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Master Builders Victoria in Melbourne",
+      "sub": "Supporting the building industry since 1873"
+    },
+    {
+      "title": "Residential, Commercial & Civil Construction",
+      "sub": "Expert resources and advocacy for all sectors"
+    },
+    {
+      "title": "Join Melbourne's Leading Building Network",
+      "sub": "Exclusive events, training, and industry updates"
+    }
+  ],
+  "ctaHeading": "Partner with Master Builders Victoria today.",
+  "aboutHeading": "Decades of Building Excellence in Melbourne",
+  "aboutSubheading": "Your trusted building association",
+  "aboutText": "Established in 1873, Master Builders Victoria is Melbourne's leading association for the building and construction industry. We represent over 3,000 members across residential, commercial, and civil sectors, offering tailored services, training programs, and policy advocacy. Our commitment to excellence ensures members are equipped with the latest industry insights and networking opportunities, from regional awards to national conferences. Join us to build a stronger future in Victoria's vibrant construction market.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Comprehensive building services",
+  "servicesText": "Master Builders Victoria provides a range of services to support builders at every stage. From membership benefits and training to industry events and advocacy, we are dedicated to advancing the construction sector in Melbourne and beyond.",
+  "services": [
+    {
+      "title": "Membership Services",
+      "desc": "Join our association for exclusive benefits, support, and representation in the Victorian building industry."
+    },
+    {
+      "title": "Training & Certification",
+      "desc": "Access professional development programs and certification to enhance your skills and compliance."
+    },
+    {
+      "title": "Industry Events & Awards",
+      "desc": "Participate in regional and state events, including the prestigious MBV Regional Building Awards."
+    },
+    {
+      "title": "Policy & Advocacy",
+      "desc": "Stay informed on building reforms and have your voice heard through our industry collaboration efforts."
+    },
+    {
+      "title": "Resources & Advice",
+      "desc": "Utilise our extensive library of e-docs, guides, and expert advice for construction projects."
+    },
+    {
+      "title": "Networking Opportunities",
+      "desc": "Connect with builders, suppliers, and industry leaders at MBV Connect events across Victoria."
+    }
+  ],
+  "bannerHeading": "Need Building Support in Melbourne?",
+  "bannerSubheading": "Master Builders Victoria is here to help.",
+  "testimonialsHeading": "What Our Members Say",
+  "testimonialsSubheading": "Trusted by builders across Melbourne",
+  "blogHeading": "Industry News & Updates",
+  "blogSubheading": "Latest from Master Builders Victoria",
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "We're ready to assist you",
+  "reviews": [
+    {
+      "text": "As a Melbourne homeowner, working with Master Builders Victoria for my renovation project was seamless. Their membership resources and training workshops helped me find qualified builders and understand the process.",
+      "name": "Sarah Thompson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "Our construction company in Yarrawonga benefited greatly from MBV's advocacy during the recent building reforms. The industry briefing provided crucial insights for our business.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Master Builders Victoria's events in Lardner and Creswick are top-notch. The networking opportunities at the Regional Building Awards have been invaluable for our property management firm.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
