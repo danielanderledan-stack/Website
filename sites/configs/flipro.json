@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Flipro",
+  "suburb": "Beaconsfield",
+  "phone": "1300888552",
+  "email": "Info@flipro.com.au",
+  "address": "Beaconsfield VIC 3807, Australia",
+  "tagline": "30 Years Renovating in Beaconsfield",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55d00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Beaconsfield's Premier Renovation Team",
+      "sub": "30 years of transforming homes"
+    },
+    {
+      "title": "Kitchen, Bathroom & Full Home Renovations",
+      "sub": "Pre-sale renovations with deferred payment"
+    },
+    {
+      "title": "No Upfront Costs, Payment at Settlement",
+      "sub": "Free quotes across Melbourne's southeast"
+    }
+  ],
+  "ctaHeading": "Ready to Renovate in Beaconsfield?",
+  "aboutHeading": "30 Years Renovating in Beaconsfield",
+  "aboutSubheading": "Local, Licensed & Trusted",
+  "aboutText": "With over 30 years of experience, Flipro has completed more than 150 pre-sale renovations in Beaconsfield and across Melbourne. We specialise in kitchen, bathroom, and full home renovations, allowing homeowners to access funding before selling with no upfront costs. Our deferred payment model ensures a winning strategy for your property sale.",
+  "servicesHeading": "Our Renovation Services",
+  "servicesSubheading": "Comprehensive Solutions for Your Home",
+  "servicesText": "From kitchen makeovers to full home transformations, Flipro offers a range of renovation services tailored to Beaconsfield homeowners. We handle everything from design to completion, with deferred payment options to ease the financial burden before your property sale.",
+  "services": [
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Transform your kitchen into a modern, functional space with custom designs and quality finishes."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Upgrade your bathroom with sleek fixtures and efficient layouts, boosting your home's value and appeal."
+    },
+    {
+      "title": "Full Home Renovations",
+      "desc": "Comprehensive renovation services covering every aspect of your home, from initial planning to final project completion."
+    },
+    {
+      "title": "Living Area Renovations",
+      "desc": "Revitalise your living rooms and open-plan areas to create inviting spaces perfect for family life and entertaining."
+    },
+    {
+      "title": "Specialty Conversions",
+      "desc": "Expert conversions for garages, attics, granny flats, and alfresco areas to maximise your property's potential."
+    },
+    {
+      "title": "Exterior & Styling",
+      "desc": "Enhance curb appeal with garden landscaping, roofing updates, and professional staging for sale."
+    }
+  ],
+  "bannerHeading": "Need a Renovation in Beaconsfield?",
+  "bannerSubheading": "Expert advice and free consultations for your next project.",
+  "testimonialsHeading": "What Beaconsfield Clients Say",
+  "testimonialsSubheading": "Real stories from homeowners we've helped",
+  "blogHeading": "Renovation Tips & News",
+  "blogSubheading": "Insights from the Flipro team",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We're here to answer your questions",
+  "reviews": [
+    {
+      "text": "Flipro handled our kitchen renovation in Beaconsfield with professionalism. The deferred payment was a lifesaver, and we saw a 15% increase in our sale price. Highly recommend their services.",
+      "name": "Sarah Mitchell",
+      "role": "Beaconsfield Homeowner"
+    },
+    {
+      "text": "As a property manager, I've collaborated with Flipro on numerous full home renovations in Melbourne. Their meticulous attention to detail and efficient project management ensured a smooth experience for our clients, with deferred payment options.",
+      "name": "James Thompson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Our living room renovation through Flipro was a fantastic experience. The team was punctual, professional, and the quality of work far exceeded our expectations. It truly added value to our home.",
+      "name": "Emily Watson",
+      "role": "Local Business Owner"
+    }
+  ]
+}
