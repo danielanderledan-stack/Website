@@ -1,0 +1,85 @@
+{
+  "siteType": "tiler",
+  "businessName": "High End Tiling",
+  "suburb": "Melbourne",
+  "phone": "0408 704 006",
+  "email": "info@highendtiling.com.au",
+  "address": "12 Tiling Lane, Melbourne VIC 3000",
+  "tagline": "Melbourne's High-End Tiling Specialists",
+  "primaryColor": "#b03cd9",
+  "primaryColorRgb": "176, 60, 217",
+  "primaryColorHover": "#9a32b8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's High-End Tiling Experts",
+      "sub": "Quality installations across Victoria"
+    },
+    {
+      "title": "Bathroom, Kitchen & Floor Tiling",
+      "sub": "Residential & commercial services"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes for Melbourne & surrounds"
+    }
+  ],
+  "ctaHeading": "Ready for Your Tiling Project in Melbourne?",
+  "aboutHeading": "High-End Tiling in Melbourne",
+  "aboutSubheading": "Local, quality tiling services",
+  "aboutText": "At High End Tiling, we specialise in delivering top-quality tiling solutions for homes and businesses across Melbourne. Our dedicated team ensures every project is completed with precision and care. Based in Victoria, we take pride in our craftsmanship and customer satisfaction.",
+  "servicesHeading": "Our Tiling Services",
+  "servicesSubheading": "Expert tiling for every space",
+  "servicesText": "We offer a comprehensive range of tiling services, from bathroom renovations to commercial installations. Our skilled team handles all aspects of tiling, ensuring a flawless finish every time.",
+  "services": [
+    {
+      "title": "Bathroom Tiling",
+      "desc": "Specialising in bathroom renovations, we install wall and floor tiles with waterproofing for a durable finish."
+    },
+    {
+      "title": "Kitchen Tiling",
+      "desc": "From backsplashes to floor tiling, we provide kitchen tiling services that enhance your cooking space."
+    },
+    {
+      "title": "Floor Tiling",
+      "desc": "Expert floor tiling for living areas, hallways, and commercial spaces, using quality materials."
+    },
+    {
+      "title": "Wall Tiling",
+      "desc": "We install wall tiles in various patterns and materials, perfect for feature walls and wet areas."
+    },
+    {
+      "title": "Outdoor Tiling",
+      "desc": "Durable outdoor tiling for patios, alfresco areas, and pool surrounds, built to withstand the elements."
+    },
+    {
+      "title": "Commercial Tiling",
+      "desc": "Reliable tiling services for offices, retail, and hospitality businesses, with minimal disruption."
+    }
+  ],
+  "bannerHeading": "Need a Tiler in Melbourne?",
+  "bannerSubheading": "Supporting Melbourne's tiling needs with excellence.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Tiling Tips & Insights",
+  "blogSubheading": "Advice from our tiling experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for all your tiling needs",
+  "reviews": [
+    {
+      "text": "High End Tiling did an amazing job on our bathroom renovation in Melbourne. The tiles are perfectly laid, and the waterproofing is top-notch. Highly recommend their services.",
+      "name": "Sarah Johnson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired High End Tiling for our café's floor tiling, and they delivered exceptional quality. The team was professional and completed the work on time.",
+      "name": "Michael Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used High End Tiling for multiple units in Melbourne. Their attention to detail and reliability make them my go-to tiling company.",
+      "name": "Emily Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
