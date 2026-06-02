@@ -71,9 +71,9 @@
     try{
       var d={event:event,url:location.href,path:location.pathname,slug:(location.pathname.split("/").filter(Boolean)[1]||""),referrer:document.referrer||"",userAgent:navigator.userAgent,language:navigator.language||"",screen:(screen.width+"x"+screen.height),viewport:(window.innerWidth+"x"+window.innerHeight),title:document.title,ts:new Date().toISOString()};
       if(extra){for(var k in extra){d[k]=extra[k];}}
-      var body=JSON.stringify(d),sent=false;
-      if(navigator.sendBeacon){try{sent=navigator.sendBeacon(WEBHOOK,new Blob([body],{type:"application/json"}));}catch(e){}}
-      if(!sent){fetch(WEBHOOK,{method:"POST",mode:"no-cors",keepalive:true,headers:{"Content-Type":"application/json"},body:body});}
+      var body=JSON.stringify(d);
+      try{fetch(WEBHOOK,{method:"POST",mode:"cors",keepalive:true,headers:{"Content-Type":"application/json"},body:body});}
+      catch(e){try{if(navigator.sendBeacon)navigator.sendBeacon(WEBHOOK,new Blob([body],{type:"application/json"}));}catch(e2){}}
     }catch(e){}
   };
   window.__cdTrack("pageview");
