@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Abba Electrical",
+  "suburb": "Richmond",
+  "phone": "03 9000 1234",
+  "email": "info@abbaelectrical.com.au",
+  "address": "Richmond, VIC 3121",
+  "tagline": "Richmond's Building Maintenance & Electrical Specialists",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0d55cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Trusted Electricians",
+      "sub": "Building maintenance excellence since 2010"
+    },
+    {
+      "title": "Residential & Commercial Electrical Work",
+      "sub": "Switchboards, lighting, rewiring & more"
+    },
+    {
+      "title": "Comprehensive Property Maintenance",
+      "sub": "Your complete electrical solution in Richmond"
+    }
+  ],
+  "ctaHeading": "Ready for expert electrical work in Richmond?",
+  "aboutHeading": "Richmond's Electrical & Maintenance Experts",
+  "aboutSubheading": "Elevating the art of building maintenance since 2010",
+  "aboutText": "Abba Electrical has been serving Richmond and Melbourne's inner east for over 13 years. Our licensed electricians specialise in both residential and commercial electrical services, alongside comprehensive building maintenance solutions. We take pride in elevating the art of property care, where every detail is meticulously managed. From complex switchboard upgrades to routine maintenance, Richmond trusts Abba Electrical for dependable, quality workmanship every time.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert care for every property",
+  "servicesText": "Abba Electrical delivers a full suite of electrical services across Richmond and surrounding suburbs. Our team handles everything from residential installations to large-scale commercial maintenance with precision and care.",
+  "services": [
+    {
+      "title": "Residential Electrical Work",
+      "desc": "Complete home electrical services including installations, repairs, and safety inspections for Richmond homeowners."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tailored electrical solutions for offices, retail spaces, and commercial properties throughout Richmond."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modern switchboard replacements and upgrades to meet current Australian safety standards."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Indoor and outdoor lighting design, installation, and repairs for homes and businesses alike."
+    },
+    {
+      "title": "Power Points & Wiring",
+      "desc": "New power point installations, complete rewiring, and electrical fault finding with meticulous attention."
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "Fast-response emergency callouts available around the clock for urgent electrical issues in Richmond."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Richmond?",
+  "bannerSubheading": "Licensed, reliable and ready to help — get your free quote today.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Expert advice from the Abba team",
+  "contactHeading": "Get a Free Quote in Richmond",
+  "contactSubheading": "We respond fast — let's talk about your project",
+  "reviews": [
+    {
+      "text": "Abba Electrical did a full switchboard upgrade at our Richmond home. The team was punctual, professional, and explained everything clearly. Cannot recommend them highly enough for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "We contracted Abba Electrical for ongoing maintenance across our Richmond retail shops. Their attention to detail and reliability has made them our go-to electrical contractor for all properties.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Abba Electrical handled a complete lighting fitout for our Richmond commercial complex. The quality of workmanship was outstanding and they finished ahead of schedule. Truly professional service.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
