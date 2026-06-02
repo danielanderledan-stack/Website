@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Leo's Beautiful Gardens",
+  "suburb": "Mosman",
+  "phone": "0412 345 678",
+  "email": "intl-segmenter@11.7.10",
+  "address": "45 Garden Ave, Mosman NSW 2088",
+  "tagline": "Mosman's Beautiful Garden Specialists",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0f5bd4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mosman's Premier Garden Services",
+      "sub": "Transforming gardens across the North Shore since 2014"
+    },
+    {
+      "title": "Complete Garden Care & Renovations",
+      "sub": "From maintenance to makeovers in Mosman"
+    },
+    {
+      "title": "Your Local Garden Experts",
+      "sub": "Serving Mosman and surrounding suburbs"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Mosman Garden?",
+  "aboutHeading": "15 Years of Garden Excellence in Mosman",
+  "aboutSubheading": "Passionate about perfect gardens",
+  "aboutText": "Leo's Beautiful Gardens has been dedicated to beautifying gardens in Mosman for over 15 years. Our expert team offers a wide range of services, including regular maintenance, renovations, and specialized care tailored to the local climate. We take pride in creating stunning, sustainable outdoor spaces that enhance your property's value and enjoyment.",
+  "servicesHeading": "Our Comprehensive Garden Services",
+  "servicesSubheading": "Expert care for every garden",
+  "servicesText": "We provide end-to-end garden care services in Mosman, from routine upkeep to complete landscape transformations. Our skilled professionals use quality materials and sustainable practices to deliver outstanding results for residential and commercial clients.",
+  "services": [
+    {
+      "title": "Scheduled Garden Maintenance",
+      "desc": "Regular mowing, pruning, and upkeep to keep your garden in top condition year-round."
+    },
+    {
+      "title": "Garden Renovations",
+      "desc": "Full redesign and renovation services to revitalize your outdoor living space completely."
+    },
+    {
+      "title": "Instant Lawn Installation",
+      "desc": "We supply and install premium turf for a lush, green lawn in no time."
+    },
+    {
+      "title": "Tree & Plant Pruning",
+      "desc": "Expert trimming and pruning to promote healthy growth and enhance garden aesthetics."
+    },
+    {
+      "title": "Specialised Hedge Management",
+      "desc": "Shaping and maintenance for perfect hedges that add structure and privacy to your garden."
+    },
+    {
+      "title": "Soft Landscaping & Makeovers",
+      "desc": "Comprehensive garden makeovers including planting, mulching, and feature installation for total transformation."
+    }
+  ],
+  "bannerHeading": "Need a Garden Expert in Mosman?",
+  "bannerSubheading": "We're here to help with all your gardening needs.",
+  "testimonialsHeading": "What Mosman Locals Say About Us",
+  "testimonialsSubheading": "Real feedback from our valued clients",
+  "blogHeading": "Gardening Insights for Mosman",
+  "blogSubheading": "Tips and trends from our team",
+  "contactHeading": "Let's Create Your Dream Garden",
+  "contactSubheading": "Reach out for a free, no-obligation quote",
+  "reviews": [
+    {
+      "text": "Leo's Beautiful Gardens transformed our neglected backyard in Mosman into a beautiful oasis. Their attention to detail and friendly service made the entire process enjoyable and stress-free.",
+      "name": "David Wilson",
+      "role": "Mosman Homeowner"
+    },
+    {
+      "text": "We've used their maintenance services for our business property for two years. The garden always looks immaculate, and they're incredibly reliable with scheduling and communication.",
+      "name": "Karen O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their soft landscaping and hedge work greatly improved our rental properties' appeal. Highly recommended for quality garden care in the Mosman area.",
+      "name": "Michael Lee",
+      "role": "Property Manager"
+    }
+  ]
+}
