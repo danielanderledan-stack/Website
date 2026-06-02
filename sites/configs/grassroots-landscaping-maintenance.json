@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Grassroots Landscaping & Maintenance",
+  "suburb": "Melbourne",
+  "phone": "0426 585 766",
+  "email": "aos@grassrootlandscaping.com.au",
+  "address": "123 Garden Lane, Melbourne VIC 3000",
+  "tagline": "Melbourne's Garden Maintenance Experts",
+  "primaryColor": "#2a452b",
+  "primaryColorRgb": "42, 69, 43",
+  "primaryColorHover": "#1f3a23",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Landscaping Specialists",
+      "sub": "Expert garden maintenance for residential and commercial"
+    },
+    {
+      "title": "Landscapes & Design in Melbourne",
+      "sub": "Creating beautiful outdoor spaces tailored to you"
+    },
+    {
+      "title": "Transform Your Garden Today",
+      "sub": "Free quotes across Melbourne and surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Melbourne Garden?",
+  "aboutHeading": "Grassroots Landscaping: Melbourne's Trusted Gardeners",
+  "aboutSubheading": "Local, reliable & professional",
+  "aboutText": "Grassroots Landscaping has been providing top-quality garden maintenance services across Melbourne for years. Our team specializes in everything from regular garden upkeep and hedge trimming to complete landscape designs. We cater to both residential and commercial clients, ensuring your outdoor spaces look their best year-round. Trust us for reliable, professional service tailored to your needs.",
+  "servicesHeading": "Our Landscaping Services",
+  "servicesSubheading": "Expert care for your garden",
+  "servicesText": "At Grassroots Landscaping, we offer a comprehensive range of services to keep your garden in pristine condition. From routine maintenance to bespoke design projects, our skilled team handles it all with precision and care.",
+  "services": [
+    {
+      "title": "Residential Garden Maintenance",
+      "desc": "Regular mowing, pruning, fertilising, and weeding to keep your home garden lush and healthy."
+    },
+    {
+      "title": "Commercial Garden Maintenance",
+      "desc": "Professional upkeep for business premises, ensuring a welcoming outdoor environment for clients and staff."
+    },
+    {
+      "title": "Landscapes & Design",
+      "desc": "Custom landscape design and installation to transform your outdoor space into a beautiful, functional area."
+    },
+    {
+      "title": "Poolside Hedge Trimming",
+      "desc": "Expert trimming and shaping of hedges around pools for a tidy, safe, and aesthetically pleasing look."
+    },
+    {
+      "title": "Stepping Stone Path",
+      "desc": "Installation of elegant stepping stone paths to enhance accessibility and charm in your garden."
+    },
+    {
+      "title": "Garden Pathway",
+      "desc": "Design and construction of durable garden pathways that complement your landscape and improve flow."
+    }
+  ],
+  "bannerHeading": "Need Landscaping in Melbourne?",
+  "bannerSubheading": "Get a free quote today for all your garden needs.",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Satisfied customers across the city",
+  "blogHeading": "Landscaping Tips & Insights",
+  "blogSubheading": "Advice from our Melbourne team",
+  "contactHeading": "Contact Grassroots Landscaping",
+  "contactSubheading": "We're here to help with your garden projects",
+  "reviews": [
+    {
+      "text": "Grassroots Landscaping did an amazing job on our residential garden maintenance. Their regular visits keep our lawn and hedges in perfect shape. Highly recommend their reliable service!",
+      "name": "Sarah Thompson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired them for our commercial garden maintenance, and the transformation was incredible. Our office grounds look professional and inviting now. Great team to work with!",
+      "name": "James O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their landscape design service completely revitalised our backyard. From initial consultation to final touches, the team was professional and attentive to detail. A pleasure to deal with!",
+      "name": "Emily Watson",
+      "role": "Property Manager"
+    }
+  ]
+}
