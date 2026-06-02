@@ -1,0 +1,85 @@
+{
+  "siteType": "concreter",
+  "businessName": "Elk Concreting",
+  "suburb": "Melbourne",
+  "phone": "0423 729 827",
+  "email": "info@elkconcreting.com.au",
+  "address": "123 Main Street, Melbourne VIC 3000",
+  "tagline": "Elk Concreting: Melbourne's Concrete Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6a00cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Elk Concreting: Melbourne's Trusted Concreters",
+      "sub": "Specialising in driveways and patios"
+    },
+    {
+      "title": "Quality Concrete Solutions for Melbourne",
+      "sub": "From design to completion"
+    },
+    {
+      "title": "Free Quotes Across Melbourne",
+      "sub": "No obligation, just expert advice"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Melbourne Property?",
+  "aboutHeading": "Years of Expertise Serving Melbourne",
+  "aboutSubheading": "Professional consulting for your vision",
+  "aboutText": "At Elk Concreting, we bring years of hands-on experience to every project across Melbourne. Our professional consulting ensures you get the best options in design, form, and materials tailored to your vision. From plain or coloured concrete driveways to poolside concreting and garden pathways, we make your dream home a reality with minimal hassle.",
+  "servicesHeading": "Our Comprehensive Concreting Services",
+  "servicesSubheading": "Tailored to Melbourne's needs",
+  "servicesText": "We offer a wide range of concreting services for residential and commercial projects in Melbourne. Our expertise covers everything from driveways and patios to exposed aggregate and retaining walls. Each service is delivered with precision and care to meet your specific requirements.",
+  "services": [
+    {
+      "title": "Concrete Driveways",
+      "desc": "Durable and stylish driveways designed to enhance your Melbourne home's curb appeal and functionality."
+    },
+    {
+      "title": "Pool & Patio Concreting",
+      "desc": "Create beautiful and safe pool surroundings and patios perfect for Melbourne's outdoor lifestyle."
+    },
+    {
+      "title": "Exposed Aggregate",
+      "desc": "Decorative exposed aggregate finishes that add texture and visual interest to your concrete surfaces."
+    },
+    {
+      "title": "Retaining Walls & Rock Work",
+      "desc": "Structural retaining walls and rock work to manage slopes and add aesthetic value to Melbourne properties."
+    },
+    {
+      "title": "Coloured & Plain Concrete",
+      "desc": "Versatile concrete options in various colours and plain finishes to match any design preference."
+    },
+    {
+      "title": "Footpaths & Crossovers",
+      "desc": "Functional footpaths and crossovers installed with precision for residential and commercial access."
+    }
+  ],
+  "bannerHeading": "Need a Concreter in Melbourne?",
+  "bannerSubheading": "Elk Concreting is ready to help with your project.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Concreting Tips & News",
+  "blogSubheading": "Insights from Elk Concreting",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Elk Concreting did an outstanding job on our concrete driveway in Melbourne. The team was professional, on-time, and the quality is exceptional. Highly recommended for any concreting needs.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired Elk Concreting for our pool surround project, and the result was fantastic. Their expertise in exposed aggregate and coloured concreting made our backyard look amazing. Great service from start to finish.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've worked with Elk Concreting on multiple footpath and crossover installations across Melbourne. Their reliability and quality workmanship are consistently top-notch. A go-to concreter for any project.",
+      "name": "David Lee",
+      "role": "Property Manager"
+    }
+  ]
+}
