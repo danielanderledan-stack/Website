@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Thy Tran Architecture",
+  "suburb": "Melbourne",
+  "phone": "0411 617 835",
+  "email": "info@thytranarchitecture.com.au",
+  "address": "Melbourne VIC, Australia",
+  "tagline": "Architecture + Interior Design Across Melbourne",
+  "primaryColor": "#2C2C2C",
+  "primaryColorRgb": "44, 44, 44",
+  "primaryColorHover": "#1a1a1a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thy Tran Architecture",
+      "sub": "Thoughtful residential and commercial design"
+    },
+    {
+      "title": "Richmond Townhouse",
+      "sub": "Multi-level urban living reimagined"
+    },
+    {
+      "title": "Blairgowrie Gable Beach House",
+      "sub": "Coastal residential architecture at its finest"
+    }
+  ],
+  "ctaHeading": "Ready to bring your vision to life? Let's design your next project together.",
+  "aboutHeading": "Architecture That Tells a Story",
+  "aboutSubheading": "Design-led studio, Melbourne-based",
+  "aboutText": "Thy Tran Architecture is a Melbourne-based design studio specialising in residential and commercial architecture and interior design. With a portfolio spanning projects from Blairgowrie to Bulleen and Elsternwick to Richmond, we create spaces that are functional, beautiful, and deeply considered. We are not ones to chase trends; instead, we focus on timeless design that suits how you live, work, and grow.",
+  "servicesHeading": "What We Design",
+  "servicesSubheading": "Architecture + Interior Design",
+  "servicesText": "From concept to completion, Thy Tran Architecture delivers residential homes, renovations, aged care facilities, and commercial spaces across Melbourne's inner and outer suburbs.",
+  "services": [
+    {
+      "title": "Residential Architecture",
+      "desc": "New homes and major renovations designed around your lifestyle, from beach houses in Blairgowrie to townhouses in Richmond."
+    },
+    {
+      "title": "Commercial Design",
+      "desc": "Thoughtful commercial spaces that balance function and aesthetic, including mixed-use developments on Rathdowne Street."
+    },
+    {
+      "title": "Interior Design",
+      "desc": "Full interior design services ensuring every detail inside your home reflects the architecture's vision and your personality."
+    },
+    {
+      "title": "Renovations & Extensions",
+      "desc": "Smart renovations that unlock the potential of existing homes, like our Black Rock Renovation and Elsternwick Delight projects."
+    },
+    {
+      "title": "Aged Care Facilities",
+      "desc": "Compassionate design for aged care environments, creating spaces that support dignity, comfort, and community connection."
+    },
+    {
+      "title": "Project Documentation",
+      "desc": "Detailed construction drawings and documentation ensuring your project is built exactly as designed, with precision and care."
+    }
+  ],
+  "bannerHeading": "Need an Architect in Melbourne?",
+  "bannerSubheading": "From Blairgowrie beach houses to Richmond townhouses, we design across Melbourne.",
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Designs that stand the test of time",
+  "blogHeading": "Design Insights",
+  "blogSubheading": "Thoughts on architecture and interiors",
+  "contactHeading": "Start Your Project",
+  "contactSubheading": "We'd love to hear about your vision",
+  "reviews": [
+    {
+      "text": "Thy Tran Architecture designed our beach house in Blairgowrie and the result exceeded every expectation. The gabled form sits perfectly in the coastal landscape and the interior spaces are flooded with natural light. Exceptional attention to detail throughout.",
+      "name": "David Mitchell",
+      "role": "Blairgowrie Homeowner"
+    },
+    {
+      "text": "Working with Thy on our Richmond townhouse project was a fantastic experience. They understood the challenges of a tight urban site and delivered a home that feels spacious, private, and beautifully connected to the streetscape. Highly recommended.",
+      "name": "Sarah Chen",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "We engaged Thy Tran Architecture for our aged care facility at Rushall Park and were impressed by their ability to balance clinical requirements with genuinely warm, homely spaces. The residents and staff love the finished design.",
+      "name": "Michael O'Brien",
+      "role": "Aged Care Facility Manager"
+    }
+  ]
+}
