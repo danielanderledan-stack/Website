@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "All Home & Carpentry Services",
+  "suburb": "Geelong",
+  "phone": "0407 501 574",
+  "email": "info@allhomeandcarpentry.com.au",
+  "address": "123 Moorabool St, Geelong VIC 3220",
+  "tagline": "Geelong's Extension & Carpentry Specialists",
+  "primaryColor": "#da532c",
+  "primaryColorRgb": "218, 83, 44",
+  "primaryColorHover": "#c04825",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Geelong's Carpentry Experts",
+      "sub": "Renovations & extensions across Melbourne & Geelong"
+    },
+    {
+      "title": "Custom Joinery & Builds",
+      "sub": "High quality workmanship for your home"
+    },
+    {
+      "title": "From Repairs to Full Builds",
+      "sub": "Free quotes in Geelong & surrounds"
+    }
+  ],
+  "ctaHeading": "Geelong's carpentry specialists are ready to help.",
+  "aboutHeading": "15 Years of Carpentry in Geelong",
+  "aboutSubheading": "Local, licensed & trusted",
+  "aboutText": "All Home & Carpentry Services specialises in high quality carpentry solutions, renovations and extensions throughout Melbourne & Geelong. With over 15 years of experience, we deliver tailored projects that enhance your home's value and functionality. Our dedicated team ensures exceptional craftsmanship and customer satisfaction.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Tailored to your needs",
+  "servicesText": "We offer a comprehensive range of carpentry services, from minor repairs to major extensions. Our expertise covers everything from custom joinery to full home renovations.",
+  "services": [
+    {
+      "title": "Home Extensions",
+      "desc": "Expand your living space with custom-built extensions designed to blend seamlessly with your existing home."
+    },
+    {
+      "title": "Renovations",
+      "desc": "Transform kitchens, bathrooms, or entire homes with our expert renovation services in Geelong."
+    },
+    {
+      "title": "Custom Joinery",
+      "desc": "Bespoke cabinetry and woodwork crafted to your specifications for a perfect fit and finish."
+    },
+    {
+      "title": "Decking & Outdoor Structures",
+      "desc": "Build beautiful decks, pergolas, and outdoor areas to enhance your property's appeal."
+    },
+    {
+      "title": "Carpentry Repairs",
+      "desc": "Fixing door frames, skirting boards, and other woodwork to restore functionality and aesthetics."
+    },
+    {
+      "title": "Commercial Carpentry",
+      "desc": "Professional carpentry solutions for businesses in Geelong and surrounding areas."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Geelong?",
+  "bannerSubheading": "Get a free quote for your project today.",
+  "testimonialsHeading": "What Geelong Locals Say",
+  "testimonialsSubheading": "Quality work at fair prices",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Insights from our team",
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "We respond quickly",
+  "reviews": [
+    {
+      "text": "All Home & Carpentry Services did a fantastic job on our kitchen renovation in Geelong. The craftsmanship was exceptional, and they completed it on time.",
+      "name": "John Smith",
+      "role": "Geelong Homeowner"
+    },
+    {
+      "text": "We hired them for a home extension in Hoppers Crossing, and the result exceeded our expectations. Highly recommended for quality carpentry.",
+      "name": "Sarah Brown",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Their custom joinery work for our shop in Werribee was top-notch. Professional and reliable service throughout the project.",
+      "name": "Michael Johnson",
+      "role": "Local Business Owner"
+    }
+  ]
+}
