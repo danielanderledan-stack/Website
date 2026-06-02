@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Melburnian Electrical",
+  "suburb": "Melbourne",
+  "phone": "03 9876 5432",
+  "email": "webmaster@melburnianelectrical.com",
+  "address": "456 Circuit Lane, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Electricians",
+  "primaryColor": "#293a4a",
+  "primaryColorRgb": "41, 58, 74",
+  "primaryColorHover": "#1e3040",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Go-To Electricians",
+      "sub": "Over 20 years serving the city"
+    },
+    {
+      "title": "Residential, Commercial & Emergency Electrical",
+      "sub": "From wiring to solar, we do it all"
+    },
+    {
+      "title": "Licensed & Insured for Your Peace of Mind",
+      "sub": "Free quotes across Melbourne"
+    }
+  ],
+  "ctaHeading": "Melbourne's electricians are ready — let's power up your project.",
+  "aboutHeading": "20 Years Electrical Expertise in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over two decades of experience, Melburnian Electrical has been serving Melbourne and its surrounding suburbs. We specialise in all aspects of electrical work, from residential rewiring to commercial installations. Our team is fully licensed and committed to delivering safe, efficient solutions. Whether it's a simple repair or a complex project, we've got Melbourne covered.",
+  "servicesHeading": "What We Power & Install",
+  "servicesSubheading": "Electrical solutions done right",
+  "servicesText": "We offer comprehensive electrical services tailored to Melbourne homes and businesses. Our skilled electricians handle everything from new builds to upgrades, ensuring compliance with Australian standards. Trust us for reliable, high-quality electrical work across the city.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete wiring, repairs, and upgrades for Melbourne homes, ensuring safety and efficiency."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Professional electrical installations and maintenance for businesses across Melbourne's commercial districts."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical services in Melbourne, rapid response to power outages and faults."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for improved safety and to handle increased electrical loads in Melbourne properties."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Energy-efficient lighting solutions for homes and offices, enhancing ambience and reducing costs in Melbourne."
+    },
+    {
+      "title": "Solar Panel Systems",
+      "desc": "Custom solar installations to harness Melbourne's sunshine, lowering energy bills and carbon footprint."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Melbourne?",
+  "bannerSubheading": "We're here to help with all your electrical needs.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Melburnian Electrical did a fantastic job rewiring our entire house in Melbourne. Their team was professional, punctual, and the work was flawless. Highly recommend for any residential electrical needs.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "As a business owner in Melbourne CBD, I rely on Melburnian Electrical for all our commercial electrical needs. They installed our new switchboard and lighting, and the service was top-notch.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We manage several properties in Melbourne and have used Melburnian Electrical for emergency repairs. They respond quickly and fix issues efficiently, minimising downtime for our tenants.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
