@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Trusted Handyman Services in Melbourne",
+  "suburb": "Melbourne",
+  "phone": "0411 724 792",
+  "email": "info@thehandymancan.com.au",
+  "address": "456 Handyman Lane, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Handyman Services",
+  "primaryColor": "#fac902",
+  "primaryColorRgb": "250, 201, 2",
+  "primaryColorHover": "#d4a800",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Go-To Handyman",
+      "sub": "40+ years of reliable service"
+    },
+    {
+      "title": "Expert Repairs & Renovations",
+      "sub": "Painting, plumbing, carpentry & more"
+    },
+    {
+      "title": "Serving Melbourne & Mornington Peninsula",
+      "sub": "Quality workmanship guaranteed"
+    }
+  ],
+  "ctaHeading": "Melbourne's handyman experts are ready to help.",
+  "aboutHeading": "40 Years of Handyman Excellence in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 40 years of experience, Trusted Handyman Services in Melbourne has been delivering top-quality workmanship to homes and businesses across the Mornington Peninsula. We specialise in a wide range of services, including painting, plumbing, carpentry, tiling, and complete office fit-outs. Our team prioritises safety, efficiency, and tailored solutions, ensuring every job meets your unique requirements and exceeds expectations.",
+  "servicesHeading": "Our Wide Range of Services",
+  "servicesSubheading": "From minor fixes to major projects",
+  "servicesText": "From minor repairs to major renovations, our skilled and friendly team handles it all. We use modern tools and technology to provide high-quality results with flexible booking options, ensuring a hassle-free experience for every customer.",
+  "services": [
+    {
+      "title": "Painting & Plastering",
+      "desc": "Professional interior and exterior painting, plastering, and wall repairs for homes and businesses."
+    },
+    {
+      "title": "Plumbing & Electrical",
+      "desc": "Expert plumbing fixes, electrical work, and lighting installations to keep your property running smoothly."
+    },
+    {
+      "title": "Carpentry & Tiling",
+      "desc": "Skilled carpentry for custom builds and tiling services for floors, walls, and backsplashes."
+    },
+    {
+      "title": "Bathroom & Kitchen Renovations",
+      "desc": "Complete renovation services to transform your bathroom or kitchen with modern designs and quality finishes."
+    },
+    {
+      "title": "Office Fit-Outs & Project Management",
+      "desc": "Comprehensive office fit-outs, partitions, shelving, and project management for commercial spaces."
+    },
+    {
+      "title": "Security & Outdoor Structures",
+      "desc": "Installation of security systems, pergolas, access ladders, and signage for enhanced safety and functionality."
+    }
+  ],
+  "bannerHeading": "Need a Handyman in Melbourne?",
+  "bannerSubheading": "We cover all your repair and renovation needs.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Handyman Tips & News",
+  "blogSubheading": "Insights from our experienced team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you within 24 hours",
+  "reviews": [
+    {
+      "text": "They did an excellent job renovating our bathroom. The team was professional and finished on time, with great attention to detail.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "Trusted Handyman Services handled our office fit-out perfectly. Their project management was seamless, and the results exceeded our expectations.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable and efficient. They repaired plumbing and painted several units for us. Highly recommend their services in Melbourne.",
+      "name": "Mike Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
