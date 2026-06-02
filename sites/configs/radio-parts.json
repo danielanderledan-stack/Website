@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Radio Parts",
+  "suburb": "Melbourne",
+  "phone": "03 9321 8300",
+  "email": "jBox@v1.3.2",
+  "address": "Level 2, 456 Lonsdale Street, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Electronics Supplier Since 1935",
+  "primaryColor": "#003767",
+  "primaryColorRgb": "0, 55, 103",
+  "primaryColorHover": "#002a50",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Hi-Fi & Audio Experts",
+      "sub": "Since 1935, trusted quality for home and business"
+    },
+    {
+      "title": "TV, Radio & AV Distribution",
+      "sub": "Full range installation across Melbourne"
+    },
+    {
+      "title": "CCTV, Intercom & Alarm Systems",
+      "sub": "Secure your property with Radio Parts"
+    }
+  ],
+  "ctaHeading": "Melbourne's electronics experts are ready to help.",
+  "aboutHeading": "Melbourne's Electronics Heritage Since 1935",
+  "aboutSubheading": "Local expertise, trusted service",
+  "aboutText": "Radio Parts has been Melbourne's trusted supplier of electronics since 1935. With over 85 years of experience, we offer a wide range of products and services to both trade and retail customers. Our team is dedicated to providing expert advice and quality solutions for all your electronics needs. Visit us in Melbourne for personalised service and comprehensive support.",
+  "servicesHeading": "Our Electronics Services",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "We specialise in hi-fi systems, TV and radio installation, AV distribution, and more. Our services cover professional audio, CCTV, intercom, alarms, and IT networking. From residential to commercial, Radio Parts has the expertise to handle any electronics project in Melbourne.",
+  "services": [
+    {
+      "title": "Hi-Fi & Audio Systems",
+      "desc": "Expert setup and consultation for hi-fi systems, speakers, and audio equipment. Ideal for home and studio use."
+    },
+    {
+      "title": "TV & Radio Installation",
+      "desc": "Professional installation of TVs, radios, antennas, and satellite systems. Enjoy clear reception and optimal performance."
+    },
+    {
+      "title": "AV Distribution & Communication",
+      "desc": "Seamless AV distribution for homes and businesses, plus CB radio and communication devices. Stay connected everywhere."
+    },
+    {
+      "title": "CCTV, Intercom & Alarm Systems",
+      "desc": "Secure your property with our CCTV, intercom, and alarm installations. Tailored security solutions in Melbourne."
+    },
+    {
+      "title": "IT Networking & Data",
+      "desc": "Complete IT network setup including data cabling, components, and testing. Reliable connectivity for all devices."
+    },
+    {
+      "title": "Electrical & Accessories",
+      "desc": "From appliances and lighting to leads, cables, and batteries. All your electrical essentials under one roof."
+    }
+  ],
+  "bannerHeading": "Need Electronics in Melbourne?",
+  "bannerSubheading": "Your local experts since 1935.",
+  "testimonialsHeading": "What Melbourne Customers Say",
+  "testimonialsSubheading": "Trusted by professionals and homeowners",
+  "blogHeading": "Electronics Tips & News",
+  "blogSubheading": "Updates from Radio Parts",
+  "contactHeading": "Contact Radio Parts Melbourne",
+  "contactSubheading": "Get expert advice today",
+  "reviews": [
+    {
+      "text": "Radio Parts helped us set up a complete hi-fi system in our Melbourne home. Their advice was spot-on and the installation was seamless.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "As a business owner in Melbourne, I rely on Radio Parts for our CCTV and alarm systems. Professional service and reliable products every time.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We have used Radio Parts for our IT networking needs for years. Their expertise in Melbourne is unmatched for data and cable solutions.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
