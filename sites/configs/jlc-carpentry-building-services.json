@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "JLC Carpentry & Building Services",
+  "suburb": "Sydney",
+  "phone": "+61481701365",
+  "email": "jlcbuildingservices@gmail.com",
+  "address": "Sydney, NSW, Australia",
+  "tagline": "Sydney's Trusted Carpentry Experts",
+  "primaryColor": "#8B4513",
+  "primaryColorRgb": "139, 69, 19",
+  "primaryColorHover": "#7B3F12",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sydney's Carpentry Specialists",
+      "sub": "Expert building services across the region"
+    },
+    {
+      "title": "Decks, Renovations & More",
+      "sub": "Quality craftsmanship for your home"
+    },
+    {
+      "title": "Get Your Free Quote Today",
+      "sub": "No-obligation quotes for Sydney projects"
+    }
+  ],
+  "ctaHeading": "Ready for Your Carpentry Project in Sydney?",
+  "aboutHeading": "Carpentry Excellence in Sydney",
+  "aboutSubheading": "Local expertise, quality guarantee",
+  "aboutText": "With a strong focus on quality and customer satisfaction, JLC Carpentry & Building Services has been serving Sydney homeowners with expert carpentry and building solutions. From tricky fireplace feature walls to full kitchen and bathroom renovations, James and the team deliver professional results with attention to detail. We pride ourselves on being easy to work with, timely, and skilled in all aspects of carpentry, ensuring every project meets the highest standards.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Tailored to Your Needs",
+  "servicesText": "At JLC Carpentry & Building Services, we offer a comprehensive range of carpentry and building services for Sydney properties. Whether you need new decks, renovations, or structural work, our qualified team ensures quality craftsmanship and reliable results.",
+  "services": [
+    {
+      "title": "Decks & Pergolas",
+      "desc": "Design and construct durable decks and pergolas to enhance your outdoor living space, using quality materials and expert craftsmanship."
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Transform your kitchen with custom cabinetry, countertops, and layouts tailored to your lifestyle, ensuring functionality and style."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Upgrade your bathroom with modern fixtures, tiling, and fittings, delivered with precision and attention to detail."
+    },
+    {
+      "title": "Doors, Windows & Cladding",
+      "desc": "Install and repair doors, windows, and exterior cladding to improve security, insulation, and aesthetic appeal."
+    },
+    {
+      "title": "Structural Modifications",
+      "desc": "Perform safe and compliant structural changes, including wall removals, reinforcements, and extensions for your home."
+    },
+    {
+      "title": "Custom Carpentry",
+      "desc": "Offer bespoke carpentry solutions for unique projects, from built-in furniture to custom woodwork, crafted to your specifications."
+    }
+  ],
+  "bannerHeading": "Carpentry Services in Sydney",
+  "bannerSubheading": "Professional workmanship for every project",
+  "testimonialsHeading": "What Sydney Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly",
+  "reviews": [
+    {
+      "text": "James from JLC Carpentry did an excellent job on our kitchen renovation in Sydney. His attention to detail and timely completion were impressive. Highly recommend their services.",
+      "name": "Tania Evans",
+      "role": "Sydney Homeowner"
+    },
+    {
+      "text": "We hired JLC Carpentry for structural modifications at our business premises. The team was professional and delivered quality work on schedule. Great local expertise.",
+      "name": "Conor Davis",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "JLC Carpentry installed new doors and windows across our rental properties. Efficient service and reliable craftsmanship. A trusted partner for property managers in Sydney.",
+      "name": "Kerry Stanek",
+      "role": "Property Manager"
+    }
+  ]
+}
