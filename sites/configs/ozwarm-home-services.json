@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "OZWARM Home Services",
+  "suburb": "Melbourne",
+  "phone": "1300659656",
+  "email": "info@ozwarm.com.au",
+  "address": "123 Heating Lane, Melbourne VIC 3000",
+  "tagline": "Melbourne's Heating & Cooling Specialists",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "OZWARM Heating in Melbourne",
+      "sub": "Gas ducted heating & repairs"
+    },
+    {
+      "title": "Air-Conditioning Solutions",
+      "sub": "Split systems for Melbourne homes"
+    },
+    {
+      "title": "All Heater Services",
+      "sub": "Maintenance & installations across Melbourne"
+    }
+  ],
+  "ctaHeading": "Melbourne's heating experts are here — let's warm your home.",
+  "aboutHeading": "Professional Heating Services in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable HVAC experts",
+  "aboutText": "Based in Melbourne, OZWARM Home Services has been providing professional heating solutions for years. Our team specializes in repairs, replacements, installations, and maintenance for all types of heaters, including gas ducted heating, gas log fires, wall furnaces, room heaters, and split system air-conditioners. We understand Melbourne's climate and ensure your home stays comfortable year-round with our comprehensive services.",
+  "servicesHeading": "Our Heating & Cooling Services",
+  "servicesSubheading": "Comprehensive HVAC solutions for Melbourne",
+  "servicesText": "OZWARM Home Services offers a full range of heating and air-conditioning services in Melbourne. From installations and repairs to regular maintenance, we handle gas ducted heating, log fires, wall furnaces, room heaters, and split systems. Our team ensures efficient and reliable service for all your HVAC needs.",
+  "services": [
+    {
+      "title": "Gas Ducted Heating",
+      "desc": "Professional installation and repair of gas ducted heating systems for efficient whole-home heating in Melbourne."
+    },
+    {
+      "title": "Gas Log Fires",
+      "desc": "Expert setup and servicing of gas log fires to add warmth and ambiance to your Melbourne home."
+    },
+    {
+      "title": "Wall Furnaces",
+      "desc": "Installation and maintenance of wall furnaces for targeted heating in specific rooms."
+    },
+    {
+      "title": "Room Heaters",
+      "desc": "Supply and service of various room heaters for localized comfort in Melbourne residences."
+    },
+    {
+      "title": "Split System Air-Conditioners",
+      "desc": "Installation and repair of split system air-conditioners for cooling and heating solutions."
+    },
+    {
+      "title": "Heater Maintenance & Repairs",
+      "desc": "Comprehensive maintenance and repair services to keep all your heating systems running efficiently."
+    }
+  ],
+  "bannerHeading": "Need Heating or Cooling in Melbourne?",
+  "bannerSubheading": "Fast and reliable HVAC services from OZWARM",
+  "testimonialsHeading": "What Melbourne Customers Say",
+  "testimonialsSubheading": "Trusted by homeowners across the city",
+  "blogHeading": "Heating Tips & HVAC News",
+  "blogSubheading": "Expert advice from OZWARM team",
+  "contactHeading": "Contact OZWARM for a Free Quote",
+  "contactSubheading": "We're here to help with your heating needs",
+  "reviews": [
+    {
+      "text": "OZWARM installed a new gas ducted heating system in our Melbourne home, and it's been fantastic. The team was professional and the work was done quickly. Highly recommend their services for anyone needing heating solutions.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We had split system air-conditioners installed by OZWARM for our business in Melbourne. The installation was smooth, and the units work perfectly. Great service and fair pricing.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Regular maintenance from OZWARM keeps our heaters in top condition. Their team is reliable and knowledgeable about all types of heating systems. A trusted partner for property managers in Melbourne.",
+      "name": "Mike Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
