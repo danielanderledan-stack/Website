@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Middy's Melbourne",
+  "suburb": "Melbourne",
+  "phone": "03 9328 3233",
+  "email": "melbourne.vic@middys.com.au",
+  "address": "Melbourne, VIC 3000",
+  "tagline": "Melbourne's Electrical Supplies Hub Since 1956",
+  "primaryColor": "#e6007e",
+  "primaryColorRgb": "230, 0, 126",
+  "primaryColorHover": "#c20068",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's One-Stop Electrical Shop",
+      "sub": "Serving trades since 1956"
+    },
+    {
+      "title": "Data, Lighting & Industrial Supplies",
+      "sub": "Comprehensive range for all electricians"
+    },
+    {
+      "title": "Smart Home & Technology Experts",
+      "sub": "From basics to advanced solutions in Melbourne"
+    }
+  ],
+  "ctaHeading": "Need Electrical Supplies in Melbourne?",
+  "aboutHeading": "Over 65 Years in Melbourne",
+  "aboutSubheading": "Local, knowledgeable & fully stocked",
+  "aboutText": "Middy's Melbourne has been the go-to electrical supplier since opening in 1956, offering an extensive range of data, electrical, industrial, lighting, and technology products. As a key branch of Middy's, we support electricians and businesses across Melbourne with quality supplies and expert advice. Our commitment to service and stock ensures you get exactly what you need for any project.",
+  "servicesHeading": "What We Supply",
+  "servicesSubheading": "From cables to smart home tech",
+  "servicesText": "At Middy's Melbourne, we provide a wide selection of electrical supplies, lighting, data communications, industrial equipment, smart home technology, and tools. Our inventory is tailored for electricians, contractors, and DIY enthusiasts throughout Melbourne.",
+  "services": [
+    {
+      "title": "Electrical Supplies",
+      "desc": "We stock cables, circuit protection, and general electrical components to cover all your wiring and installation needs in Melbourne."
+    },
+    {
+      "title": "Lighting Solutions",
+      "desc": "Explore our range of residential, commercial, and industrial lighting products designed to illuminate any space effectively."
+    },
+    {
+      "title": "Data & Communications",
+      "desc": "Find data cabling, networking equipment, and accessories for reliable connectivity in homes and businesses across Melbourne."
+    },
+    {
+      "title": "Industrial Equipment",
+      "desc": "We supply robust industrial-grade tools and equipment suitable for heavy-duty applications in various trade sectors."
+    },
+    {
+      "title": "Smart Home & Technology",
+      "desc": "Discover smart home automation, all-electric home solutions, and energy-efficient devices for modern living in Melbourne."
+    },
+    {
+      "title": "Tools & Heating/Cooling",
+      "desc": "Get quality electrical tools plus heating and cooling products to complete your projects with ease and efficiency."
+    }
+  ],
+  "bannerHeading": "Need a Supplier in Melbourne?",
+  "bannerSubheading": "Fast delivery, expert advice, and a vast range in stock.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by trades since 1956",
+  "blogHeading": "Electrical News & Tips",
+  "blogSubheading": "Updates from Middy's Melbourne",
+  "contactHeading": "Get in Touch with Middy's Melbourne",
+  "contactSubheading": "We're here to help with all your electrical needs",
+  "reviews": [
+    {
+      "text": "Middy's Melbourne has been my go-to for electrical supplies for years. Their range of cables and circuit protection is unmatched, and the staff always know exactly what I need for my wiring projects.",
+      "name": "John Smith",
+      "role": "Melbourne Electrician"
+    },
+    {
+      "text": "As a local business owner, I rely on Middy's for industrial equipment and lighting solutions. They provide quality products at competitive prices, and their delivery to Melbourne is always prompt and reliable.",
+      "name": "Sarah Johnson",
+      "role": "Business Owner"
+    },
+    {
+      "text": "For smart home technology and data communications, Middy's Melbourne is the best. Their expertise helped me set up a complete system for my property, and I highly recommend their services.",
+      "name": "Mike Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
