@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Pulitano Commercial Constructions",
+  "suburb": "West Melbourne",
+  "phone": "03 9326 3220",
+  "email": "admin@pulitanogroup.com.au",
+  "address": "709-711 Spencer Street West Melbourne VIC 3003",
+  "tagline": "West Melbourne's Trusted Builders",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "West Melbourne's Family Builders",
+      "sub": "Since 1973, building with pride"
+    },
+    {
+      "title": "Residential & Commercial Excellence",
+      "sub": "Quality constructions across Melbourne's west"
+    },
+    {
+      "title": "Aged Care to Fitouts",
+      "sub": "Comprehensive services for every need"
+    }
+  ],
+  "ctaHeading": "West Melbourne's builders are ready — let's construct your vision.",
+  "aboutHeading": "Over 50 Years in West Melbourne",
+  "aboutSubheading": "Family-owned since 1973",
+  "aboutText": "Established in 1973, D&A Pulitano has been serving West Melbourne for over 50 years. What began as a domestic construction venture by Domenic & Antonietta Pulitano has evolved into a trusted family business specialising in residential, commercial, and aged care projects. Our local expertise ensures every build meets the highest standards across Melbourne's west.",
+  "servicesHeading": "Our Construction Services",
+  "servicesSubheading": "Tailored solutions for every project",
+  "servicesText": "From residential homes to commercial complexes, we provide comprehensive construction services in West Melbourne. Our team handles aged care, childcare, commercial fitouts, and multi-residential developments, backed by decades of experience and a commitment to quality craftsmanship.",
+  "services": [
+    {
+      "title": "Residential",
+      "desc": "We build and renovate homes in West Melbourne, from new constructions to extensions, ensuring quality for families."
+    },
+    {
+      "title": "Commercial",
+      "desc": "Specialising in commercial projects, we deliver robust builds for businesses, including offices and retail spaces."
+    },
+    {
+      "title": "Age Care",
+      "desc": "Creating safe environments for aged care facilities with designs prioritising accessibility and wellbeing."
+    },
+    {
+      "title": "Childcare",
+      "desc": "Constructing modern childcare centres that meet safety standards and provide nurturing spaces for children."
+    },
+    {
+      "title": "Commercial Fitouts",
+      "desc": "Expert fitout services for commercial interiors, tailoring spaces to enhance functionality and appeal."
+    },
+    {
+      "title": "Multi Residential",
+      "desc": "Developing multi-residential complexes with efficient designs, perfect for developers in West Melbourne."
+    }
+  ],
+  "bannerHeading": "Need a Builder in West Melbourne?",
+  "bannerSubheading": "Expert construction for residential and commercial projects.",
+  "testimonialsHeading": "What West Melbourne Locals Say",
+  "testimonialsSubheading": "Building trust through quality work",
+  "blogHeading": "Construction Insights & Updates",
+  "blogSubheading": "Tips from our experienced team",
+  "contactHeading": "Start Your Project Today",
+  "contactSubheading": "Contact us for a free consultation",
+  "reviews": [
+    {
+      "text": "Pulitano Commercial Constructions built our new home in West Melbourne, and the attention to detail was outstanding. They handled everything smoothly, making the process stress-free and delivering on time.",
+      "name": "Mark Thompson",
+      "role": "West Melbourne Homeowner"
+    },
+    {
+      "text": "As a local business owner, I contracted them for a commercial fitout, and they delivered within budget and on schedule. Their professionalism and quality work are highly recommended.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their work on our aged care facility was exceptional. The team was reliable, and the construction quality exceeded expectations, ensuring a safe environment for residents.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
