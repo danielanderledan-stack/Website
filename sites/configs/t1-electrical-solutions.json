@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "T1 Electrical Solutions",
+  "suburb": "Melbourne",
+  "phone": "0412 578 207",
+  "email": "admin@t1es.com.au",
+  "address": "123 Electrical St, Melbourne VIC 3000",
+  "tagline": "Melbourne's Electrical Experts",
+  "primaryColor": "#ef7724",
+  "primaryColorRgb": "239, 119, 36",
+  "primaryColorHover": "#d66a1f",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "T1 Electrical Solutions in Melbourne",
+      "sub": "Top-tier electrical services for your home or business"
+    },
+    {
+      "title": "Residential & Commercial Electricians",
+      "sub": "Reliable, innovative, and client-focused"
+    },
+    {
+      "title": "Your Local Melbourne Electrician",
+      "sub": "Delivering excellence, safety, and reliability"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Melbourne?",
+  "aboutHeading": "Melbourne's Trusted Electricians",
+  "aboutSubheading": "Licensed, reliable, and ready to help",
+  "aboutText": "T1 Electrical Solutions is a Melbourne-based electrical business dedicated to providing top-tier services for residential and commercial clients. With a commitment to excellence, safety, and reliability, we serve the entire Melbourne area. Our team of licensed electricians ensures every job is done right the first time, using innovative solutions tailored to your needs.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "From residential wiring to commercial installations, T1 Electrical Solutions covers a wide range of electrical services. We focus on innovative solutions and client satisfaction, ensuring your property is safe and efficient. Trust our Melbourne team for quality workmanship every time.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete home electrical services from installations to repairs, ensuring safety and comfort for Melbourne families."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical solutions for businesses, including fit-outs, maintenance, and compliance checks across Melbourne."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical repairs to get your power back on quickly and safely across Melbourne suburbs."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Expert lighting design and installation for homes and businesses, enhancing ambiance and energy efficiency."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety inspections to identify hazards and ensure compliance with Australian standards in Melbourne."
+    },
+    {
+      "title": "Energy Solutions",
+      "desc": "Energy-efficient upgrades and solar panel installations to reduce costs and environmental impact for Melbourne properties."
+    }
+  ],
+  "bannerHeading": "T1 Electrical Solutions — Melbourne's Go-To Electricians",
+  "bannerSubheading": "Get a free quote today for reliable service",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Trusted by locals for quality work",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from T1 Electrical",
+  "contactHeading": "Contact T1 Electrical Solutions",
+  "contactSubheading": "We're here to help with all your electrical needs",
+  "reviews": [
+    {
+      "text": "T1 Electrical Solutions did an excellent job rewiring our home in Melbourne. Their team was professional, punctual, and left everything clean. Highly recommend for any residential electrical work.",
+      "name": "Dave Mitchell",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "As a local business owner in Melbourne, I rely on T1 Electrical for all our commercial electrical needs. They handle our office fit-outs and maintenance efficiently, keeping our operations running smoothly.",
+      "name": "Sarah Jenkins",
+      "role": "Café Owner, Melbourne"
+    },
+    {
+      "text": "We had T1 Electrical install new lighting in our property management portfolio across Melbourne. Their attention to detail and adherence to safety standards is impressive.",
+      "name": "James Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
