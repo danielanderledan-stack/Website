@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Lumer Carpentry",
+  "suburb": "Melbourne",
+  "phone": "0416 179 193",
+  "email": "admin@lumer.au",
+  "address": "Melbourne, VIC 3000",
+  "tagline": "Custom Carpentry & Decking in Melbourne",
+  "primaryColor": "#1f7cec",
+  "primaryColorRgb": "31, 124, 236",
+  "primaryColorHover": "#0d3c74",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Custom Carpentry Experts",
+      "sub": "Crafting decks, pergolas & timber stairs"
+    },
+    {
+      "title": "Quality Decking & Renovations",
+      "sub": "Transforming outdoor spaces across Melbourne"
+    },
+    {
+      "title": "Free Quotes for Melbourne Projects",
+      "sub": "No job too big or small"
+    }
+  ],
+  "ctaHeading": "Ready for Quality Carpentry in Melbourne?",
+  "aboutHeading": "Trusted Carpentry in Melbourne",
+  "aboutSubheading": "Quality craftsmanship for every project",
+  "aboutText": "Lumer Carpentry has been providing exceptional carpentry services in Melbourne for over a decade. Specialising in custom decks, pergolas, and renovations, we take pride in our attention to detail and quality workmanship. Our team works closely with clients to bring their visions to life, using premium materials and meticulous care.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Expertise in timber craftsmanship",
+  "servicesText": "From custom decking to pergolas and full renovations, Lumer Carpentry offers a comprehensive range of services. We specialise in creating functional and beautiful timber structures that enhance your property.",
+  "services": [
+    {
+      "title": "Decking",
+      "desc": "We design and build custom decks using high-quality timber, perfect for outdoor living and entertaining."
+    },
+    {
+      "title": "Pergolas",
+      "desc": "Our pergolas are crafted to provide shade and style, tailored to complement your home's architecture."
+    },
+    {
+      "title": "Framing",
+      "desc": "Expert timber framing services for new builds and extensions, ensuring structural integrity and precision."
+    },
+    {
+      "title": "Renovations",
+      "desc": "Complete carpentry renovations, from kitchens to entire home makeovers, with a focus on quality finishes."
+    },
+    {
+      "title": "Custom Carpentry",
+      "desc": "Bespoke carpentry solutions including built-in furniture, cabinetry, and unique timber features."
+    },
+    {
+      "title": "Timber Stairs",
+      "desc": "Beautifully designed timber stairs that combine safety, functionality, and aesthetic appeal."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Melbourne?",
+  "bannerSubheading": "Get expert carpentry services for your home or business.",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Real reviews from satisfied customers",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Insights from our Melbourne team",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Ali built us a stunning deck that completely transformed our outdoor space. His attention to detail and professionalism were outstanding throughout the project.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "Lumer Carpentry constructed a beautiful pergola for our café, enhancing our outdoor seating area. The quality of workmanship and timely delivery were impressive.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Had our entire home renovated by Lumer Carpentry. The craftsmanship was superb, and they worked efficiently to minimise disruption. Highly recommend their services.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
