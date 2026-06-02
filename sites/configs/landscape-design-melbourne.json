@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Landscape Design Melbourne",
+  "suburb": "Melbourne",
+  "phone": "03 9836 3130",
+  "email": "info@landscape.net.au",
+  "address": "Melbourne VIC 3000",
+  "tagline": "Melbourne's Landscape Design Specialists",
+  "primaryColor": "#007bff",
+  "primaryColorRgb": "0, 123, 255",
+  "primaryColorHover": "#005cbf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Landscape Design Experts",
+      "sub": "Creating unique gardens for your home"
+    },
+    {
+      "title": "From Concept to Creation",
+      "sub": "Expert landscape design in Melbourne"
+    },
+    {
+      "title": "Your Dream Garden Awaits",
+      "sub": "Free consultations across Melbourne"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Melbourne Garden?",
+  "aboutHeading": "Landscape Design in Melbourne",
+  "aboutSubheading": "Local, Creative & Passionate",
+  "aboutText": "At Landscape Design Melbourne, we have been crafting unique and beautiful gardens for Melbourne homes for over 15 years. We believe that your landscape should complement and enhance the architecture it surrounds, creating a space that is as unique as you. Regardless of your space, our team will design a beautiful, functional and timeless garden that you will love waking up to. Let us bring your outdoor vision to life.",
+  "servicesHeading": "What We Design & Build",
+  "servicesSubheading": "Landscaping services tailored to you",
+  "servicesText": "We offer a comprehensive range of landscape design services, from initial concept through to installation and maintenance. Our team specialises in creating functional and aesthetically pleasing outdoor spaces that reflect your personal style and the unique characteristics of your Melbourne property.",
+  "services": [
+    {
+      "title": "Garden Design",
+      "desc": "We create custom garden designs that blend seamlessly with your home's architecture, ensuring a beautiful and cohesive outdoor space."
+    },
+    {
+      "title": "Landscape Architecture",
+      "desc": "Our architectural approach to landscaping ensures that every element is thoughtfully planned for both functionality and visual appeal."
+    },
+    {
+      "title": "Plant Selection & Styling",
+      "desc": "Expert guidance on choosing the right plants for your climate and soil, styled to enhance your garden's overall design."
+    },
+    {
+      "title": "Hardscaping & Paving",
+      "desc": "Professional installation of paths, patios, and retaining walls that add structure and durability to your landscape."
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Regular care and upkeep to keep your garden looking its best, including pruning, mulching, and seasonal updates."
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Design and construction of outdoor areas perfect for entertaining, relaxing, and enjoying Melbourne's beautiful weather."
+    }
+  ],
+  "bannerHeading": "Need a Landscape Designer in Melbourne?",
+  "bannerSubheading": "We bring your garden dreams to life.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Happy clients, beautiful gardens",
+  "blogHeading": "Landscaping Tips & Inspiration",
+  "blogSubheading": "Ideas for your outdoor space",
+  "contactHeading": "Get a Free Consultation Today",
+  "contactSubheading": "Let's discuss your landscape project",
+  "reviews": [
+    {
+      "text": "Landscape Design Melbourne transformed our backyard into a stunning oasis. Their garden design service was exceptional, and they perfectly captured our vision for a low-maintenance yet beautiful space.",
+      "name": "Sarah Mitchell",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired them for hardscaping and paving, and the result exceeded our expectations. The team was professional and the attention to detail was impressive.",
+      "name": "James Thornton",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I needed reliable landscapers for multiple properties. Landscape Design Melbourne has been fantastic with their garden maintenance services.",
+      "name": "Linda Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
