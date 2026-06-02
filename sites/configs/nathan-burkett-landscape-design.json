@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Nathan Burkett Landscape Design",
+  "suburb": "Melbourne",
+  "phone": "03 9095 8344",
+  "email": "info@nathanburkett.com.au",
+  "address": "Melbourne VIC, Australia",
+  "tagline": "Melbourne's Bespoke Landscape Architects",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b876",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Premier Landscape Architects",
+      "sub": "Bespoke designs for your unique lifestyle"
+    },
+    {
+      "title": "Four-Phase Design Excellence",
+      "sub": "From consultation to construction documentation"
+    },
+    {
+      "title": "Your Vision, Our Expertise",
+      "sub": "Personalised landscape solutions across Melbourne"
+    }
+  ],
+  "ctaHeading": "Ready to transform your Melbourne outdoor space?",
+  "aboutHeading": "Melbourne's Bespoke Landscape Architects",
+  "aboutSubheading": "Personalised design for your lifestyle",
+  "aboutText": "At Nathan Burkett Landscape Design, we treat every project as an individual, bespoke creation that carefully considers your site, built form, personality, and lifestyle. With extensive experience across Melbourne, Nathan personally attends the initial consultation to scope your site and offer tailored recommendations. Our landscape design process follows four distinct phases: consultation, concept design, design development, and construction documentation.",
+  "servicesHeading": "Our Landscape Design Services",
+  "servicesSubheading": "Creating exceptional outdoor spaces",
+  "servicesText": "We deliver comprehensive landscape architecture services across Melbourne, guiding projects from initial consultation through to construction documentation with meticulous attention to detail.",
+  "services": [
+    {
+      "title": "Initial Consultation",
+      "desc": "Nathan personally visits your Melbourne site to assess opportunities and understand your vision."
+    },
+    {
+      "title": "Concept Design",
+      "desc": "Creative design concepts capturing your personality and enhancing your unique lifestyle."
+    },
+    {
+      "title": "Design Development",
+      "desc": "Refining chosen concepts with detailed plans, materials, and plant selections for your property."
+    },
+    {
+      "title": "Construction Documentation",
+      "desc": "Comprehensive documentation ensuring seamless execution by your chosen contractor in Melbourne."
+    },
+    {
+      "title": "Bespoke Outdoor Living",
+      "desc": "Tailored gardens and outdoor spaces reflecting your individual style and preferences."
+    },
+    {
+      "title": "Site-Specific Solutions",
+      "desc": "Designs responding to your site's natural features and surrounding built environment."
+    }
+  ],
+  "bannerHeading": "Transform Your Melbourne Property",
+  "bannerSubheading": "Bespoke landscape architecture tailored to your vision",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Bespoke design, exceptional results",
+  "blogHeading": "Landscape Design Insights",
+  "blogSubheading": "Inspiration from Nathan Burkett's Melbourne studio",
+  "contactHeading": "Start Your Landscape Journey",
+  "contactSubheading": "Book your initial consultation today",
+  "reviews": [
+    {
+      "text": "Nathan's initial consultation completely transformed how we viewed our Melbourne property. The concept design captured our personality perfectly and the four-phase process made everything seamless.",
+      "name": "Sarah Mitchell",
+      "role": "South Yarra Homeowner"
+    },
+    {
+      "text": "From concept design through to construction documentation, Nathan's attention to detail and understanding of our vision exceeded expectations. Truly bespoke landscape architecture in Melbourne.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Nathan personally attended every phase of our landscape design project. His recommendations for our Melbourne site were spot-on and the final result is absolutely stunning.",
+      "name": "Emma Richardson",
+      "role": "Property Manager"
+    }
+  ]
+}
