@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Arli Homes",
+  "suburb": "Williamstown",
+  "phone": "1800 955 827",
+  "email": "hello@arli.com.au",
+  "address": "45 Melbourne Road, Williamstown VIC 3016",
+  "tagline": "Williamstown's Award-Winning Home Builders",
+  "primaryColor": "#4ba4b3",
+  "primaryColorRgb": "75, 164, 179",
+  "primaryColorHover": "#3d8e9c",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Williamstown's Premier Home Builders",
+      "sub": "Award-winning designs tailored to you"
+    },
+    {
+      "title": "Architectural Living in Melbourne",
+      "sub": "Heritage meets modern in Williamstown"
+    },
+    {
+      "title": "Visit Our Display Home in Balwyn North",
+      "sub": "Experience Arli quality firsthand"
+    }
+  ],
+  "ctaHeading": "Build Your Dream Home in Williamstown",
+  "aboutHeading": "Arli Homes: Building in Williamstown",
+  "aboutSubheading": "Licensed, Local, and Passionate",
+  "aboutText": "Arli Homes has been crafting exceptional homes in Williamstown and across Melbourne for over two decades. Our team of architects and builders specialise in creating contemporary designs that honour heritage character. We pride ourselves on personalised service, ensuring every home we build reflects your vision and lifestyle. From initial concept to final finish, Arli Homes delivers quality and innovation in every project.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Crafting Homes with Purpose",
+  "servicesText": "At Arli Homes, we offer comprehensive home building services in Williamstown, from custom new builds to renovations and extensions. Our expertise includes contemporary designs, heritage restorations, and sustainable building practices. We work closely with clients to deliver homes that are both beautiful and functional.",
+  "services": [
+    {
+      "title": "Custom Home Building",
+      "desc": "Tailored designs to suit your lifestyle and block in Williamstown."
+    },
+    {
+      "title": "Heritage Restorations",
+      "desc": "Blending modern comfort with historic charm in Melbourne's established homes."
+    },
+    {
+      "title": "Home Renovations",
+      "desc": "Updating and enhancing existing spaces with expert craftsmanship."
+    },
+    {
+      "title": "Extensions & Additions",
+      "desc": "Expanding your home to accommodate growing families or new needs."
+    },
+    {
+      "title": "Display Home Visits",
+      "desc": "Experience our award-winning designs at Balwyn North display home."
+    },
+    {
+      "title": "Design Consultation",
+      "desc": "Personalised advice from our architectural team on your building project."
+    }
+  ],
+  "bannerHeading": "Need a Home Builder in Williamstown?",
+  "bannerSubheading": "Let Arli Homes bring your vision to life.",
+  "testimonialsHeading": "What Williamstown Clients Say",
+  "testimonialsSubheading": "Trusted by Local Families",
+  "blogHeading": "Building Insights & News",
+  "blogSubheading": "Tips from Arli Homes Experts",
+  "contactHeading": "Start Your Building Journey",
+  "contactSubheading": "Get in Touch for a Free Consultation",
+  "reviews": [
+    {
+      "text": "Arli Homes built our dream home in Williamstown, and the attention to detail was outstanding. From design to completion, the process was smooth and professional.",
+      "name": "Sarah Mitchell",
+      "role": "Williamstown Homeowner"
+    },
+    {
+      "text": "We hired Arli for a heritage renovation in Newport, and they perfectly preserved the character while adding modern amenities. Highly recommend their expertise.",
+      "name": "James Thompson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "The display home visit in Balwyn North convinced us to choose Arli Homes for our new build. Their quality and service are top-notch.",
+      "name": "Emily Chen",
+      "role": "Local Business Owner"
+    }
+  ]
+}
