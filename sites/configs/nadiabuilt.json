@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "NadiaBuilt",
+  "suburb": "Melbourne",
+  "phone": "0412 345 678",
+  "email": "user@domain.com",
+  "address": "45 Builder Lane, Melbourne VIC 3000",
+  "tagline": "Melbourne's Specialist Residential Builder",
+  "primaryColor": "#855c3c",
+  "primaryColorRgb": "133, 92, 60",
+  "primaryColorHover": "#735033",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Go-To Builder",
+      "sub": "Specialist residential construction across Melbourne"
+    },
+    {
+      "title": "Custom Homes & Renovations",
+      "sub": "Tailored to Melbourne's unique architectural character"
+    },
+    {
+      "title": "Quality Craftsmanship Guaranteed",
+      "sub": "Free quotes for Melbourne homeowners"
+    }
+  ],
+  "ctaHeading": "Ready to build in Melbourne? Let's talk.",
+  "aboutHeading": "Building Melbourne Homes Since 2010",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "NadiaBuilt is a specialist residential builder based in Melbourne, with over a decade of experience in creating custom homes and renovations. We understand the unique character of Melbourne's suburbs and are dedicated to delivering high-quality craftsmanship tailored to your needs. From initial design to final completion, we handle every aspect of your project with care and precision.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Specialised residential solutions",
+  "servicesText": "NadiaBuilt offers a comprehensive range of residential building services across Melbourne. Whether you're looking to build a new home, renovate an existing property, or add an extension, our team has the expertise to bring your vision to life.",
+  "services": [
+    {
+      "title": "Custom Home Building",
+      "desc": "We design and construct bespoke homes tailored to your lifestyle and Melbourne's architectural standards."
+    },
+    {
+      "title": "Home Renovations",
+      "desc": "Transform your existing home with our expert renovation services, from concept to completion."
+    },
+    {
+      "title": "Extensions & Additions",
+      "desc": "Expand your living space with seamless extensions that integrate perfectly with your current home."
+    },
+    {
+      "title": "Kitchen & Bathroom Remodeling",
+      "desc": "Update your kitchen or bathroom with modern designs and high-quality finishes."
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Create beautiful decks, patios, and outdoor areas to enjoy Melbourne's climate."
+    },
+    {
+      "title": "Project Management",
+      "desc": "We oversee every detail of your build, ensuring timelines and budgets are met."
+    }
+  ],
+  "bannerHeading": "Need a Builder in Melbourne?",
+  "bannerSubheading": "We're here to help with your residential project.",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Trusted by homeowners across the city",
+  "blogHeading": "Building Tips & Insights",
+  "blogSubheading": "From the NadiaBuilt team",
+  "contactHeading": "Get in Touch for a Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "NadiaBuilt did an amazing job on our home renovation in South Melbourne. The attention to detail was outstanding, and they finished on time and within budget.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired NadiaBuilt for our kitchen remodel and couldn't be happier. Their expertise in Melbourne homes made the process smooth and the result beautiful.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've worked with several builders, but NadiaBuilt stands out for their reliability and quality work on our rental property extensions in Fitzroy.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
