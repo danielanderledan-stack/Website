@@ -1,0 +1,85 @@
+{
+  "siteType": "tiler",
+  "businessName": "Once Upon A Tile",
+  "suburb": "Hawthorn",
+  "phone": "0434 021 157",
+  "email": "info@onceuponatile.com.au",
+  "address": "123 Burwood Rd, Hawthorn VIC 3122",
+  "tagline": "Once Upon A Tile – Hawthorn's Tiling Experts",
+  "primaryColor": "#000000",
+  "primaryColorRgb": "0, 0, 0",
+  "primaryColorHover": "#111111",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hawthorn's Premier Tiling Service",
+      "sub": "Crafting beautiful spaces with expert tiles"
+    },
+    {
+      "title": "Once Upon A Tile – Your Local Tilers",
+      "sub": "Serving Hawthorn and surrounds with precision"
+    },
+    {
+      "title": "Bathroom & Kitchen Tiling in Hawthorn",
+      "sub": "Modern designs tailored to your lifestyle"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Space in Hawthorn?",
+  "aboutHeading": "About Once Upon A Tile in Hawthorn",
+  "aboutSubheading": "Local tiling experts you can trust",
+  "aboutText": "Once Upon A Tile is Hawthorn's trusted tiling specialist, delivering exceptional craftsmanship for bathrooms, kitchens, and more. With a focus on quality and customer satisfaction, we transform your ideas into stunning reality. Our team ensures every project, from waterproofing to epoxy grouting, exceeds expectations and enhances your space's aesthetic appeal. We handle all aspects with integrity and skill.",
+  "servicesHeading": "Our Tiling Services",
+  "servicesSubheading": "Comprehensive solutions for your home",
+  "servicesText": "We offer a complete range of tiling services in Hawthorn, including waterproofing, bathroom and kitchen installations, re-grouting, and epoxy grouting. Our team manages every step, from initial consultation to final touches, ensuring a seamless process and stunning results that match your style.",
+  "services": [
+    {
+      "title": "Waterproofing",
+      "desc": "Professional waterproofing solutions to prevent leaks and damage in wet areas like bathrooms and kitchens."
+    },
+    {
+      "title": "Bathroom Tiling",
+      "desc": "Expert installation of tiles for bathroom floors, walls, and showers, creating a stylish and functional space."
+    },
+    {
+      "title": "Kitchen Tiling",
+      "desc": "Custom tiling for kitchen backsplashes, floors, and countertops, tailored to your design preferences."
+    },
+    {
+      "title": "Re-grouting",
+      "desc": "Restoring grout lines to refresh the look of existing tiles, improving hygiene and appearance."
+    },
+    {
+      "title": "Epoxy Grouting",
+      "desc": "Durable and stain-resistant epoxy grout application for long-lasting, easy-to-clean surfaces."
+    },
+    {
+      "title": "Mosaic Tiling",
+      "desc": "Artistic mosaic installations that add unique character and visual interest to any room."
+    }
+  ],
+  "bannerHeading": "Tiling Services in Hawthorn – Get a Free Quote!",
+  "bannerSubheading": "Transform your space with expert tiling solutions.",
+  "testimonialsHeading": "What Hawthorn Locals Say",
+  "testimonialsSubheading": "Real reviews from our clients",
+  "blogHeading": "Tiling Tips & Inspiration",
+  "blogSubheading": "Insights from Once Upon A Tile",
+  "contactHeading": "Contact Us for a Free Consultation",
+  "contactSubheading": "We're here to help with your tiling project.",
+  "reviews": [
+    {
+      "text": "Elia renovated our 2 bathrooms and laundry in Hawthorn. His attention to detail and skills delivered outstanding work. We highly recommend for anyone seeking a great tiler.",
+      "name": "Graham H.",
+      "role": "Hawthorn Homeowner"
+    },
+    {
+      "text": "I am incredibly impressed with the work done by Elia. He tiled our entire bathroom in Warrandyte, from consultation to final grout seal, with utmost professionalism and expertise.",
+      "name": "Jennifer M.",
+      "role": "Warrandyte Homeowner"
+    },
+    {
+      "text": "Efficient and precise! Elia transformed our outdated floors in Elsternwick into a modern marvel. Couldn't be happier with the work ethic and quality.",
+      "name": "Linda & George P.",
+      "role": "Elsternwick Homeowner"
+    }
+  ]
+}
