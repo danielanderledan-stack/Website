@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Unsubscribe – Complete Digital</title>
+  <style>
+    :root { --navy:#0a2540; --cyan:#48cae4; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 24px; background: linear-gradient(160deg,#f4f9fc 0%,#e6f2f8 100%);
+      font-family: -apple-system, "Segoe UI", Roboto, system-ui, sans-serif; color: #1a2733;
+    }
+    .card {
+      background: #fff; width: 100%; max-width: 460px; border-radius: 22px;
+      box-shadow: 0 20px 60px rgba(10,37,64,.18); padding: 44px 36px 36px;
+      text-align: center; border-top: 6px solid var(--cyan);
+    }
+    .brand { font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--cyan); margin-bottom: 18px; }
+    h1 { font-size: 27px; margin: 0 0 14px; color: var(--navy); line-height: 1.25; }
+    p { font-size: 15px; line-height: 1.6; color: #4a5b6b; margin: 0 0 24px; }
+    label { display: block; text-align: left; font-size: 13px; font-weight: 600; color: var(--navy); margin: 0 0 6px; }
+    input[type=email] {
+      width: 100%; padding: 13px 14px; border: 1.5px solid #d4e2ec; border-radius: 10px;
+      font-size: 15px; font-family: inherit; color: #1a2733; outline: none; transition: border-color .15s ease;
+    }
+    input[type=email]:focus { border-color: var(--cyan); }
+    .err { color: #d4351c; font-size: 13px; text-align: left; margin: 8px 2px 0; min-height: 16px; }
+    button {
+      width: 100%; margin-top: 18px; padding: 14px; border: none; border-radius: 11px;
+      background: var(--navy); color: #fff; font-size: 15px; font-weight: 700; font-family: inherit;
+      cursor: pointer; transition: background .15s ease, opacity .15s ease;
+    }
+    button:hover { background: #06182b; }
+    button:disabled { opacity: .6; cursor: default; }
+    .done h1 { color: var(--navy); }
+    .foot { margin-top: 22px; font-size: 12px; color: #8aa0b2; }
+    .foot a { color: var(--navy); }
+  </style>
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="brand">Complete Digital</div>
+    <h1>We're sorry to see you go</h1>
+    <p>If you'd rather not hear from us, pop your email in below and we'll remove you from our list straight away. No hard feelings — and you're always welcome back.</p>
+    <form id="form" novalidate>
+      <label for="email">Your email address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+      <div class="err" id="err"></div>
+      <button type="submit" id="btn">Unsubscribe me</button>
+    </form>
+    <div class="foot">Complete Digital · <a href="https://www.completedigital.org">completedigital.org</a></div>
+  </div>
+
+  <script>
+    (function () {
+      var WEBHOOK = "https://n8n-production-d02c.up.railway.app/webhook/c6fba456-ea41-4873-bdf8-3f1f7273d929";
+      var form = document.getElementById("form");
+      var email = document.getElementById("email");
+      var err = document.getElementById("err");
+      var btn = document.getElementById("btn");
+      var card = document.getElementById("card");
+
+      // prefill from ?email= (unsubscribe links usually carry it)
+      try {
+        var q = new URLSearchParams(location.search).get("email");
+        if (q) email.value = q;
+      } catch (e) {}
+
+      function valid(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+      function done(addr) {
+        card.classList.add("done");
+        card.innerHTML =
+          '<div class="brand">Complete Digital</div>' +
+          '<h1>You\'ve been unsubscribed</h1>' +
+          '<p>' + (addr ? (addr.replace(/[<>&]/g, "")) + " has been removed from our list. " : "") +
+          'We\'re sorry to see you go — take care, and you\'re welcome back any time.</p>' +
+          '<div class="foot">Complete Digital · <a href="https://www.completedigital.org">completedigital.org</a></div>';
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var addr = (email.value || "").trim();
+        if (!valid(addr)) { err.textContent = "Please enter a valid email address."; return; }
+        err.textContent = "";
+        btn.disabled = true; btn.textContent = "Unsubscribing…";
+        var body = JSON.stringify({ event: "unsubscribe", email: addr, source: "unsubscribe-page", url: location.href, ts: new Date().toISOString() });
+        // try proper CORS first (confirmable); fall back to no-cors fire-and-forget
+        fetch(WEBHOOK, { method: "POST", mode: "cors", headers: { "Content-Type": "application/json" }, body: body })
+          .then(function () { done(addr); })
+          .catch(function () {
+            try { fetch(WEBHOOK, { method: "POST", mode: "no-cors", body: body }); } catch (e2) {}
+            done(addr);
+          });
+      });
+    })();
+  </script>
+</body>
+</html>

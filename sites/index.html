@@ -69,7 +69,7 @@
   var WEBHOOK="https://n8n-production-d02c.up.railway.app/webhook/2f49e19f-cf37-4bb8-a09d-8d7799b9fec4";
   window.__cdTrack=function(event,extra){
     try{
-      var d={event:event,url:location.href,path:location.pathname,slug:(location.pathname.split("/").filter(Boolean)[1]||""),referrer:document.referrer||"",userAgent:navigator.userAgent,language:navigator.language||"",screen:(screen.width+"x"+screen.height),viewport:(window.innerWidth+"x"+window.innerHeight),title:document.title,ts:new Date().toISOString()};
+      var d={event:event,url:(location.origin+location.pathname),path:location.pathname,slug:(location.pathname.split("/").filter(Boolean)[1]||""),referrer:document.referrer||"",userAgent:navigator.userAgent,language:navigator.language||"",screen:(screen.width+"x"+screen.height),viewport:(window.innerWidth+"x"+window.innerHeight),title:document.title,ts:new Date().toISOString()};
       if(extra){for(var k in extra){d[k]=extra[k];}}
       var body=JSON.stringify(d);
       try{fetch(WEBHOOK,{method:"POST",mode:"cors",keepalive:true,headers:{"Content-Type":"application/json"},body:body});}
