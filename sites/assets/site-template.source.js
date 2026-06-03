@@ -27,6 +27,7 @@ function __expandSiteConfig(c){
 
     hvac: { name:"HVAC Specialist", color:["#0EA5E9","14, 165, 233","#0c87bd"],
       imgs:["1599696848652-f0ff23bc911f","1581094288338-2314dddb7ece","1621905251189-08b45d6a269e"],
+      images:{heroSlides:["/sites/images/hvac/hero-1-owner-van.jpg","/sites/images/hvac/hero-2-split-install.jpg","/sites/images/hvac/hero-3-rooftop-condenser.jpg"],splitCtaImage:"/sites/images/hvac/splitcta-owner-phone.jpg",photoRowImages:["/sites/images/hvac/photorow-split-install-hands.jpg","/sites/images/hvac/photorow-refrigerant-gauges.jpg","/sites/images/hvac/photorow-ducted-vent.jpg","/sites/images/hvac/photorow-thermostat.jpg"],aboutImages:["/sites/images/hvac/about-owner-portrait.jpg","/sites/images/hvac/about-owner-condenser.jpg","/sites/images/hvac/about-owner-customer.jpg"],fullWidthImage:"/sites/images/hvac/fullwidth-van-home.jpg",bannerImage:"/sites/images/hvac/banner-living-room-split.jpg",testimonialsImage:"/sites/images/hvac/testimonial-ceiling-cassette.jpg",galleryImages:["/sites/images/hvac/gallery-1-outdoor-condenser.jpg","/sites/images/hvac/gallery-2-ceiling-ducts.jpg","/sites/images/hvac/hero-2-split-install.jpg","/sites/images/hvac/gallery-4-ducted-airhandler.jpg","/sites/images/hvac/hero-3-rooftop-condenser.jpg"],pricingBgImage:"/sites/images/hvac/pricingbg-split-dark.jpg",blogPosts:["/sites/images/hvac/blog-1-smart-control.jpg","/sites/images/hvac/blog-2-filter-compare.jpg","/sites/images/hvac/blog-3-bedroom-split.jpg","/sites/images/hvac/blog-4-maintenance.jpg"],services:["/sites/images/hvac/photorow-split-install-hands.jpg","/sites/images/hvac/photorow-refrigerant-gauges.jpg","/sites/images/hvac/photorow-ducted-vent.jpg","/sites/images/hvac/photorow-thermostat.jpg","/sites/images/hvac/gallery-2-ceiling-ducts.jpg","/sites/images/hvac/banner-living-room-split.jpg"]},
       icons:["flame","droplet","gear","shield","tool","plug"],
       calc:[["Split System Install",1400],["Ducted System Service",350],["AC Repair",220],["Heating Tune-Up",180],["Full System Install",4500]],
       list:[["Split System Service","$180"],["Gas Heater Service","$160"],["Ducted Install","from $4,500"],["Diagnostic Call-Out","$120"]],
@@ -110,7 +111,10 @@ function __expandSiteConfig(c){
   function sh(str){ if(!str) return null; var w=String(str).trim().split(/\s+/); if(w.length<2) return {s:"",h:String(str),e:""}; return {s:w.slice(0,-1).join(" ")+" ",h:w[w.length-1],e:""}; }
   var AH=sh(c.aboutHeading), SVH=sh(c.servicesHeading), TH=sh(c.testimonialsHeading), BH=sh(c.blogHeading);
   var aiHero = Array.isArray(c.heroSlides) ? c.heroSlides : [];
-  function hero(i,dt,ds){ var h=aiHero[i]||{}; return { img:U(P(i),1600,900), title:h.title||h.heading||dt, sub:h.sub||h.subtitle||ds }; }
+  var IMG = pack.images || null;
+  function gi(key, idx, w, h){ return (IMG && IMG[key]) ? IMG[key] : U(P(idx), w, h); }
+  function giList(key, idxs, w, h, alt){ if (IMG && Array.isArray(IMG[key])) return IMG[key].map(function(s){ return { src:s, alt:alt }; }); return idxs.map(function(i){ return { src:U(P(i),w,h), alt:alt }; }); }
+  function hero(i,dt,ds){ var h=aiHero[i]||{}; var im=(IMG && IMG.heroSlides && IMG.heroSlides[i])?IMG.heroSlides[i]:U(P(i),1600,900); return { img:im, title:h.title||h.heading||dt, sub:h.sub||h.subtitle||ds }; }
 
   // AI services (title + desc); icons + images preset by slot
   var aiServices = Array.isArray(c.services) ? c.services : [];
@@ -121,7 +125,7 @@ function __expandSiteConfig(c){
       icon: pack.icons[i % pack.icons.length],
       title: s.title || s.name || (pack.name + " Service " + (i + 1)),
       desc: s.desc || s.description || ("Professional " + pack.name.toLowerCase() + " services you can rely on" + where + "."),
-      image: U(P(i + 1), 600, 400)
+      image: (IMG && IMG.services && IMG.services[i]) ? IMG.services[i] : U(P(i + 1), 600, 400)
     });
   }
 
@@ -139,7 +143,7 @@ function __expandSiteConfig(c){
 
   var calculatorServices = pack.calc.map(function(p){ return { label: p[0], base: p[1] }; });
   var priceList = pack.list.map(function(p){ return { name: p[0], price: p[1] }; });
-  var blogPosts = pack.news.map(function(n, i){ return { img: U(P(i + 1), 600, 400), date: n[2], title: n[0], excerpt: n[1] }; });
+  var blogPosts = pack.news.map(function(n, i){ return { img: (IMG && IMG.blogPosts && IMG.blogPosts[i]) ? IMG.blogPosts[i] : U(P(i + 1), 600, 400), date: n[2], title: n[0], excerpt: n[1] }; });
   function imgObjs(idxs, alt){ return idxs.map(function(i){ return { src: U(P(i), 600, 400), alt: alt }; }); }
 
   return {
@@ -167,8 +171,8 @@ function __expandSiteConfig(c){
                  : (Array.isArray(c.splitCtaLines) ? c.splitCtaLines
                  : ["Don't wait —", (suburb ? (suburb + "'s trusted ") : "your trusted ") + pack.name.toLowerCase() + "s", "are ready to help.", "Get your free quote today."]),
     splitCtaSubtext: "",
-    splitCtaImage: U(P(2), 900, 700),
-    photoRowImages: imgObjs([1, 2, 3, 0], pack.name),
+    splitCtaImage: gi('splitCtaImage', 2, 900, 700),
+    photoRowImages: giList('photoRowImages', [1, 2, 3, 0], 600, 400, pack.name),
     aboutHeadingStart: AH ? AH.s : "Do you need a",
     aboutHeadingHighlight: AH ? AH.h : (pack.name + "?"),
     aboutHeadingEnd: AH ? AH.e : "Look no further!",
@@ -177,8 +181,8 @@ function __expandSiteConfig(c){
     aboutStatLabel: "Happy Customers",
     aboutStatValue: 90,
     aboutCtaLabel: "Read More",
-    aboutImages: imgObjs([3, 0, 1], pack.name),
-    fullWidthImage: U(P(0), 1920, 700),
+    aboutImages: giList('aboutImages', [3, 0, 1], 600, 400, pack.name),
+    fullWidthImage: gi('fullWidthImage', 0, 1920, 700),
     fullWidthImageAlt: pack.name + " at work",
     servicesHeadingStart: SVH ? SVH.s : "Our Professional",
     servicesHeadingHighlight: SVH ? SVH.h : "Services",
@@ -188,15 +192,15 @@ function __expandSiteConfig(c){
     bannerHeading: c.bannerHeading || ("Do you need a " + pack.name + "?"),
     bannerSubheading: c.bannerSubheading || "Look no further — our team is here to help.",
     bannerCtaLabel: "View All Services",
-    bannerImage: U(P(1), 700, 900),
+    bannerImage: gi('bannerImage', 1, 700, 900),
     testimonialsHeadingStart: TH ? TH.s : "We Deliver",
     testimonialsHeadingHighlight: TH ? TH.h : "Quality",
     testimonialsHeadingEnd: TH ? TH.e : "Results",
     testimonialsSubheading: c.testimonialsSubheading || "Honest Work, Fair Prices",
-    testimonialsImage: U(P(2), 700, 500),
+    testimonialsImage: gi('testimonialsImage', 2, 700, 500),
     testimonials: testimonials,
-    galleryImages: imgObjs([0, 1, 2, 3, 0], pack.name),
-    pricingBgImage: U(P(0), 1920, 800),
+    galleryImages: giList('galleryImages', [0, 1, 2, 3, 0], 600, 400, pack.name),
+    pricingBgImage: gi('pricingBgImage', 0, 1920, 800),
     calculatorTitle: "Price Estimator",
     calculatorServicesLabel: "Service you need",
     calculatorDistanceLabel: "Distance from us",
