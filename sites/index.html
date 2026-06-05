@@ -13,6 +13,34 @@
   <!-- cd-style-start -->
 <style>.btn-yellow{padding-top:9px!important;padding-bottom:9px!important}</style>
 <!-- cd-style-end -->
+<!-- cd-capture-start -->
+<script>
+/* Screenshot/capture mode: load any /sites/<slug>?capture=1 to render the page
+   fully painted for screen-grabbing — disables lazy image loading and the
+   scroll-reveal animations (so there are no white gaps without scrolling) and
+   hides the sales popups. Real visitors (no ?capture=1) are unaffected. */
+(function(){
+  try{
+    if(!/[?&]capture=1(?:&|$)/.test(location.search)) return;
+    var css =
+      'html .reveal,html .reveal-l,html .reveal-r{opacity:1!important;transform:none!important;transition:none!important}'+
+      '#cd-fyi,#cd-cb-popup,#cd-burger{display:none!important}';
+    var st=document.createElement('style'); st.id='cd-capture'; st.textContent=css;
+    (document.head||document.documentElement).appendChild(st);
+    function eager(img){ if(img&&img.getAttribute&&img.getAttribute('loading')==='lazy') img.setAttribute('loading','eager'); }
+    function sweep(){ try{ var l=document.querySelectorAll('img[loading="lazy"]'); for(var i=0;i<l.length;i++) eager(l[i]); }catch(e){} }
+    new MutationObserver(function(ms){
+      for(var i=0;i<ms.length;i++){ var a=ms[i].addedNodes; for(var j=0;j<a.length;j++){ var n=a[j];
+        if(n.tagName==='IMG') eager(n);
+        else if(n.querySelectorAll){ var im=n.querySelectorAll('img[loading="lazy"]'); for(var k=0;k<im.length;k++) eager(im[k]); }
+      } }
+    }).observe(document.documentElement,{childList:true,subtree:true});
+    document.addEventListener('DOMContentLoaded',sweep);
+    window.addEventListener('load',sweep);
+  }catch(e){}
+})();
+</script>
+<!-- cd-capture-end -->
 </head>
   <body>
     <div id="root"></div>
@@ -76,7 +104,7 @@
       catch(e){try{if(navigator.sendBeacon)navigator.sendBeacon(WEBHOOK,new Blob([body],{type:"application/json"}));}catch(e2){}}
     }catch(e){}
   };
-  window.__cdTrack("pageview");
+  if(!/[?&]capture=1(?:&|$)/.test(location.search)) window.__cdTrack("pageview");
 })();
 </script>
 <!-- cd-track-end -->
