@@ -23,9 +23,9 @@
     --frame-w:1180px;
 
     /* ----- annotation vertical positions (from top of the frame) ----- */
-    --y-name: -145px;               /* "your name is here"  -> navbar name */
-    --y-logo: 1220px;               /* "Your Logo Here"     -> section 2 logo (clipboard guy) */
-    --y-services: 3135px;           /* "Your services here" -> services section */
+    --y-name: -233px;               /* "your name is here"  -> navbar name */
+    --y-logo: 1100px;               /* "Your Logo Here"     -> section 2 logo (clipboard guy) */
+    --y-services: 2990px;           /* "Your services here" -> services section */
   }
   *{ box-sizing:border-box; }
   html,body{ margin:0; padding:0; background:#ffffff; color:var(--navy);
@@ -61,17 +61,17 @@
   .anno .lbl{ font-weight:700; line-height:1.0; white-space:nowrap; }
 
   /* "your name is here" — top-left, curved arrow down-right into the navbar */
-  .anno-name{ top:var(--y-name); left:18px; }
-  .anno-name .lbl{ font-size:64px; margin-left:18px; }
+  .anno-name{ top:var(--y-name); left:53px; }
+  .anno-name .lbl{ font-size:34px; margin-left:14px; }
   .anno-name svg{ display:block; }
 
   /* right-side sideways callouts: [ arrow into frame ][ sideways text ] */
   .anno-side{ right:0; width:500px; display:flex; align-items:center; justify-content:flex-end; gap:4px; }
-  .anno-side .lbl{ writing-mode:vertical-rl; font-size:60px; }
+  .anno-side .lbl{ writing-mode:vertical-rl; font-size:34px; }
   .anno-side svg{ display:block; flex:0 0 auto; }
   .anno-logo{ top:var(--y-logo); }
   .anno-services{ top:var(--y-services); }
-  .anno-services .lbl{ font-size:54px; }
+  .anno-services .lbl{ font-size:30px; }
 
   /* ---------- footer pitch (oversized) ---------- */
   .about{ text-align:center; max-width:920px; margin:72px auto 0; padding:0 24px; }
