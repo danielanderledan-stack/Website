@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=1380">
+<meta name="viewport" content="width=1280">
 <title>Complete Digital — Your Website Preview</title>
 <!--
   /email/{slug} — page SCREENSHOTTED for the outreach email.
@@ -22,7 +22,7 @@
     --sky:#48cae4; --deep:#00a8cf; --line:#e6edf2;
     --mark:#ff5630;
     --frame-w:1180px;
-    --gap:100px;                    /* side padding — smaller = bigger website */
+    --gap:50px;                     /* side padding — just bigger than the text; page = 1180 + 2*gap = 1280 (capture width) */
 
     --y-name: -233px;               /* "your name is here"  -> navbar name */
     --y-logo: 1100px;               /* "Your Logo Here"     -> section 2 logo */
@@ -72,7 +72,7 @@
   .anno-name .lbl{ font-size:34px; margin-left:14px; }
 
   /* side callouts: short arrow pokes into the frame; text sits in the gap */
-  .anno-side{ right:calc(-1 * var(--gap)); display:flex; align-items:center; justify-content:flex-end; gap:4px; }
+  .anno-side{ right:calc(8px - var(--gap)); display:flex; align-items:center; justify-content:flex-end; gap:4px; }
   .anno-side .lbl{ writing-mode:vertical-rl; font-size:34px; }
   .anno-logo{ top:var(--y-logo); }
   .anno-services{ top:var(--y-services); }
