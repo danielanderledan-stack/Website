@@ -1,0 +1,168 @@
+<!doctype html>
+<!--
+  Complete Digital — cold outreach email template.
+  Email-safe: table layout + inline styles (works in Gmail, Apple Mail, Outlook).
+  Logo is styled HTML text (no image needed).
+
+  REPLACE THESE TOKENS (n8n / Brevo merge fields):
+    {{firstName}}      e.g. "Dave"   (fallback: "there")
+    {{businessName}}   e.g. "Cool Breeze Air Conditioning"
+    {{suburb}}         e.g. "Frankston"
+    {{demoUrl}}        e.g. https://www.completedigital.org/sites/cool-breeze-air-conditioning
+    {{screenshotUrl}}  e.g. https://www.completedigital.org/images/cool-breeze-air-conditioning.jpg
+    {{senderName}}     e.g. "Daniel"
+    {{senderTitle}}    e.g. "Founder, Complete Digital"
+    {{unsubscribeUrl}} the unsubscribe link
+-->
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <title>Your free website preview</title>
+  <style>
+    /* Progressive enhancement — core layout works without this. */
+    body { margin:0; padding:0; width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table { border-collapse:collapse; }
+    img { border:0; outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; }
+    a { text-decoration:none; }
+    @media only screen and (max-width:620px) {
+      .container { width:100% !important; }
+      .px { padding-left:24px !important; padding-right:24px !important; }
+      .h1 { font-size:24px !important; line-height:32px !important; }
+      .shot { height:auto !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#eef4f7;">
+  <!-- preheader (hidden preview text) -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#eef4f7; opacity:0;">
+    We built {{businessName}} a free website preview — here’s what your new site could look like.
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#eef4f7;">
+    <tr>
+      <td align="center" style="padding:32px 16px;">
+
+        <!-- ===== Card ===== -->
+        <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#ffffff; border-radius:16px; overflow:hidden; box-shadow:0 12px 40px rgba(10,37,64,0.12);">
+
+          <!-- top accent bar -->
+          <tr><td style="height:5px; line-height:5px; font-size:0; background-color:#48cae4;">&nbsp;</td></tr>
+
+          <!-- logo / wordmark -->
+          <tr>
+            <td align="center" class="px" style="padding:30px 40px 8px 40px;">
+              <span style="font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:25px; font-weight:700; letter-spacing:-0.3px; color:#0a2540;">complete&nbsp;digital</span><span style="font-family:Arial,sans-serif; font-size:25px; font-weight:700; letter-spacing:2px;">&nbsp;<span style="color:#48cae4;">&bull;</span><span style="color:#00a8cf;">&bull;</span><span style="color:#0a2540;">&bull;</span></span>
+            </td>
+          </tr>
+
+          <!-- ===== Body ===== -->
+          <tr>
+            <td class="px" style="padding:18px 44px 4px 44px; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+              <p class="h1" style="margin:0 0 14px 0; font-size:27px; line-height:34px; font-weight:700; color:#0a2540;">
+                We built {{businessName}} a website — for free.
+              </p>
+              <p style="margin:0 0 18px 0; font-size:16px; line-height:26px; color:#41566b;">
+                Hi {{firstName}}, I came across {{businessName}} around {{suburb}} and put together a
+                live website preview for you — no catch, just wanted to show you what’s possible.
+                Here’s a look:
+              </p>
+            </td>
+          </tr>
+
+          <!-- ===== Screenshot in a browser frame (clickable) ===== -->
+          <tr>
+            <td class="px" style="padding:6px 44px 8px 44px;">
+              <a href="{{demoUrl}}" target="_blank" style="text-decoration:none;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #e3eaef; border-radius:12px; overflow:hidden; background-color:#ffffff;">
+                  <!-- fake browser chrome -->
+                  <tr>
+                    <td style="background-color:#f4f7f9; padding:11px 14px; border-bottom:1px solid #e3eaef;">
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tr>
+                          <td width="54" style="font-size:0; line-height:0;">
+                            <span style="font-family:Arial,sans-serif; font-size:14px; letter-spacing:3px; color:#cfd9e0;">&bull;&bull;&bull;</span>
+                          </td>
+                          <td align="center" style="font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:12px; color:#8aa0b2;">
+                            <span style="display:inline-block; background-color:#ffffff; border:1px solid #e3eaef; border-radius:20px; padding:4px 14px; color:#6b7f93;">🔒&nbsp;completedigital.org/your-site</span>
+                          </td>
+                          <td width="54">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- the screenshot -->
+                  <tr>
+                    <td style="font-size:0; line-height:0;">
+                      <img class="shot" src="{{screenshotUrl}}" width="598" alt="Preview of the {{businessName}} website" style="display:block; width:100%; max-width:598px; height:auto; border:0;">
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </td>
+          </tr>
+
+          <!-- ===== CTA button (bulletproof) ===== -->
+          <tr>
+            <td align="center" class="px" style="padding:24px 44px 8px 44px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" bgcolor="#0a2540" style="border-radius:10px;">
+                    <a href="{{demoUrl}}" target="_blank" style="display:inline-block; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:16px; font-weight:700; color:#ffffff; text-decoration:none; padding:15px 38px; border-radius:10px;">
+                      View your live website &nbsp;&rarr;
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:12px 0 0 0; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:13px; line-height:20px; color:#8aa0b2;">
+                It’s a real, working site — click around and explore it.
+              </p>
+            </td>
+          </tr>
+
+          <!-- ===== Value line ===== -->
+          <tr>
+            <td class="px" style="padding:16px 44px 6px 44px; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f6fbfd; border-radius:12px;">
+                <tr>
+                  <td style="padding:18px 22px; font-size:15px; line-height:24px; color:#41566b;">
+                    If you like it, we host it, keep it updated and look after your Google ranking for
+                    <strong style="color:#0a2540;">$25/week</strong>. If it’s not for you, no worries at all —
+                    the preview’s yours to look at either way.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ===== Sign-off ===== -->
+          <tr>
+            <td class="px" style="padding:22px 44px 30px 44px; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+              <p style="margin:0 0 2px 0; font-size:16px; line-height:24px; color:#41566b;">Cheers,</p>
+              <p style="margin:0; font-size:16px; line-height:24px; font-weight:700; color:#0a2540;">{{senderName}}</p>
+              <p style="margin:0; font-size:14px; line-height:22px; color:#8aa0b2;">{{senderTitle}}</p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- ===== /Card ===== -->
+
+        <!-- footer -->
+        <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px;">
+          <tr>
+            <td align="center" style="padding:22px 30px 8px 30px; font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:12px; line-height:20px; color:#9aabb8;">
+              <strong style="color:#6b7f93;">Complete Digital</strong> &nbsp;·&nbsp; Websites &amp; SEO for Australian trades<br>
+              You received this because we built a free preview for {{businessName}}.
+              <a href="{{unsubscribeUrl}}" style="color:#6b7f93; text-decoration:underline;">Unsubscribe</a>.
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

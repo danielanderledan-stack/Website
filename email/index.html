@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1480">
+<title>Complete Digital — Your Website Preview</title>
+<!--
+  /email/{slug} — the page that gets SCREENSHOTTED for the outreach email.
+  It embeds the live demo (/sites/{slug}?capture=1) full-length between a
+  "We Built You A Website" header and a Complete Digital pitch footer.
+  Self-contained static page (no build), matches the old-engine architecture.
+  Vercel rewrite: /email/:path* -> /email/index.html
+-->
+<style>
+  :root{
+    --navy:#0a2540; --navy-soft:#41566b; --ink-faint:#8aa0b2;
+    --sky:#48cae4; --deep:#00a8cf; --line:#e6edf2;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:#ffffff; color:var(--navy);
+    font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+  .wrap{ max-width:1480px; margin:0 auto; padding:0 0 70px; }
+
+  /* ---------- header ---------- */
+  .head{ text-align:center; padding:54px 24px 30px; }
+  .logo{ font-size:30px; font-weight:700; letter-spacing:-.3px; }
+  .logo .dots span{ font-family:Arial,sans-serif; letter-spacing:2px; }
+  .logo .d1{ color:var(--sky); } .logo .d2{ color:var(--deep); } .logo .d3{ color:var(--navy); }
+  .head h1{ margin:26px 0 8px; font-size:46px; line-height:1.08; font-weight:800; letter-spacing:-1px; }
+  .head .sub{ margin:0; font-size:19px; color:var(--ink-faint); font-weight:500; }
+
+  /* ---------- embed row (site + side arrows) ---------- */
+  .embed-row{ display:flex; align-items:flex-start; justify-content:center; gap:0; padding:8px 0 0; }
+  .arrows{ width:150px; flex:0 0 150px; align-self:stretch; padding-top:120px; }
+  .arrows .stack{ position:sticky; top:40px; display:flex; flex-direction:column; align-items:center; gap:10px; }
+  .arrows svg{ display:block; }
+  .arrows .c1{ opacity:1; } .arrows .c2{ opacity:.6; } .arrows .c3{ opacity:.3; }
+  .arrows .scroll-label{ writing-mode:vertical-rl; text-orientation:mixed; margin-top:14px;
+    font-size:12px; letter-spacing:4px; text-transform:uppercase; color:var(--ink-faint); font-weight:700; }
+
+  .frame{ flex:0 1 1180px; max-width:1180px; border:1px solid var(--line);
+    border-radius:16px; overflow:hidden; box-shadow:0 30px 70px -28px rgba(10,37,64,.35); background:#fff; }
+  .chrome{ display:flex; align-items:center; gap:12px; padding:12px 16px;
+    background:#f4f7f9; border-bottom:1px solid var(--line); }
+  .chrome .tl{ font-family:Arial,sans-serif; letter-spacing:3px; color:#cfd9e0; font-size:15px; }
+  .chrome .bar{ flex:1; text-align:center; }
+  .chrome .pill{ display:inline-block; background:#fff; border:1px solid var(--line);
+    border-radius:20px; padding:5px 16px; font-size:13px; color:#6b7f93; }
+  iframe{ display:block; width:100%; border:0; }
+
+  /* ---------- footer pitch ---------- */
+  .about{ text-align:center; max-width:760px; margin:64px auto 0; padding:0 24px; }
+  .about h2{ font-size:38px; font-weight:800; letter-spacing:-.5px; margin:0 0 14px; }
+  .about .price{ font-size:23px; line-height:1.4; color:var(--navy-soft); margin:0 0 22px; }
+  .about .price b{ color:var(--navy); }
+  .nobs{ display:inline-block; font-size:30px; font-weight:800; letter-spacing:1px; color:var(--deep);
+    margin:0 0 30px; padding-bottom:4px; border-bottom:4px solid var(--sky); }
+  .points{ list-style:none; padding:0; margin:0 auto 30px; max-width:430px; }
+  .points li{ display:flex; align-items:center; gap:14px; text-align:left;
+    font-size:19px; font-weight:600; padding:14px 20px; margin:0 0 12px;
+    background:#f6fbfd; border:1px solid var(--line); border-radius:12px; }
+  .points .tick{ flex:0 0 26px; width:26px; height:26px; border-radius:50%;
+    background:var(--sky); color:#fff; display:flex; align-items:center; justify-content:center;
+    font-size:15px; font-weight:800; }
+  .fine{ font-size:16px; color:var(--ink-faint); margin:0 0 34px; }
+  .seemore{ font-size:30px; font-weight:800; letter-spacing:-.3px; }
+  .seemore a{ color:var(--deep); text-decoration:underline; text-underline-offset:4px; text-decoration-thickness:3px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- header -->
+    <header class="head">
+      <div class="logo">complete&nbsp;digital<span class="dots">&nbsp;<span class="d1">&bull;</span><span class="d2">&bull;</span><span class="d3">&bull;</span></span></div>
+      <h1>We Built You A Website</h1>
+      <p class="sub">(with all your business info)</p>
+    </header>
+
+    <!-- site embed with side scroll-arrows -->
+    <div class="embed-row">
+      <div class="arrows" aria-hidden="true">
+        <div class="stack">
+          <svg class="c1" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 2l15 14L32 2" stroke="#0a2540" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="c2" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 2l15 14L32 2" stroke="#00a8cf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="c3" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 2l15 14L32 2" stroke="#48cae4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="scroll-label">scroll</span>
+        </div>
+      </div>
+
+      <div class="frame">
+        <div class="chrome">
+          <span class="tl">&bull;&bull;&bull;</span>
+          <span class="bar"><span class="pill" id="pill">🔒 completedigital.org</span></span>
+          <span style="width:54px"></span>
+        </div>
+        <iframe id="siteframe" title="Your website preview" scrolling="no" src="about:blank"></iframe>
+      </div>
+
+      <div class="arrows" aria-hidden="true">
+        <div class="stack">
+          <svg class="c1" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 2l15 14L32 2" stroke="#0a2540" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="c2" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 2l15 14L32 2" stroke="#00a8cf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="c3" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 2l15 14L32 2" stroke="#48cae4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="scroll-label">scroll</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- pitch footer -->
+    <footer class="about">
+      <h2>We're Complete Digital.</h2>
+      <p class="price">We build high quality tradie websites for just <b>$18 a week</b></p>
+      <div class="nobs">NO BULLSH*T</div>
+      <ul class="points">
+        <li><span class="tick">&#10003;</span> Free edits within 48 HRS</li>
+        <li><span class="tick">&#10003;</span> SEO optimization</li>
+        <li><span class="tick">&#10003;</span> Easy setup</li>
+      </ul>
+      <p class="fine">Cancel anytime. No commitments, no scams.</p>
+      <p class="seemore">Click <a id="seemore" href="https://www.completedigital.org">HERE</a> to see more!</p>
+    </footer>
+
+  </div>
+
+<script>
+(function(){
+  // slug from /email/{slug}
+  var parts = location.pathname.split('/').filter(Boolean);
+  var slug = (parts[0] === 'email' ? parts[1] : '') || '';
+  var f = document.getElementById('siteframe');
+  if (slug){
+    f.src = '/sites/' + slug + '?capture=1';
+    document.getElementById('seemore').href = '/sites/' + slug;
+  }
+
+  // size the iframe to its full content height (same-origin), poll until stable,
+  // then flag the page ready so the screenshot tool knows it's fully painted.
+  function fit(){
+    try{
+      var d = f.contentWindow.document;
+      var h = Math.max(d.body ? d.body.scrollHeight : 0, d.documentElement ? d.documentElement.scrollHeight : 0);
+      if (h > 200) f.style.height = h + 'px';
+    }catch(e){}
+  }
+  function markReady(){ document.body.setAttribute('data-ready','1'); window.__emailReady = true; }
+
+  f.addEventListener('load', function(){
+    fit();
+    var stable = 0, last = 0;
+    var t = setInterval(function(){
+      fit();
+      var h = f.offsetHeight;
+      if (h === last && h > 200){ if (++stable > 6){ clearInterval(t); markReady(); } }
+      else { stable = 0; last = h; }
+    }, 250);
+    // hard fallback so it always flags ready
+    setTimeout(function(){ try{clearInterval(t);}catch(e){} markReady(); }, 15000);
+  });
+  if (!slug) markReady();
+})();
+</script>
+</body>
+</html>

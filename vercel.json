@@ -1,6 +1,7 @@
 {
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/sites/:path*", "destination": "/sites/index.html" }
+    { "source": "/sites/:path*", "destination": "/sites/index.html" },
+    { "source": "/email/:path*", "destination": "/email/index.html" }
   ]
 }
