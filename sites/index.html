@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;600;700;800&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/sites/assets/index-CH4BAh75n10.js"></script>
+    <script type="module" crossorigin src="/sites/assets/index-CH4BAh75n11.js"></script>
     <link rel="stylesheet" crossorigin href="/sites/assets/index-DzTfnYAy.css">
   <!-- cd-style-start -->
 <style>.btn-yellow{padding-top:9px!important;padding-bottom:9px!important}</style>
@@ -28,12 +28,16 @@
     var st=document.createElement('style'); st.id='cd-capture'; st.textContent=css;
     (document.head||document.documentElement).appendChild(st);
     function eager(img){ if(img&&img.getAttribute&&img.getAttribute('loading')==='lazy') img.setAttribute('loading','eager'); }
-    function sweep(){ try{ var l=document.querySelectorAll('img[loading="lazy"]'); for(var i=0;i<l.length;i++) eager(l[i]); }catch(e){} }
+    /* capture-only: pin the 100vh hero to a fixed height so the /email iframe
+       can auto-size it (real visitors keep the full-viewport 100vh hero) */
+    function fixHero(){ try{ var d=document.querySelectorAll('div[style]'); for(var i=0;i<d.length;i++){ if(d[i].style && d[i].style.height==='100vh') d[i].style.height='760px'; } }catch(e){} }
+    function sweep(){ try{ var l=document.querySelectorAll('img[loading="lazy"]'); for(var i=0;i<l.length;i++) eager(l[i]); }catch(e){} fixHero(); }
     new MutationObserver(function(ms){
       for(var i=0;i<ms.length;i++){ var a=ms[i].addedNodes; for(var j=0;j<a.length;j++){ var n=a[j];
         if(n.tagName==='IMG') eager(n);
         else if(n.querySelectorAll){ var im=n.querySelectorAll('img[loading="lazy"]'); for(var k=0;k<im.length;k++) eager(im[k]); }
       } }
+      fixHero();
     }).observe(document.documentElement,{childList:true,subtree:true});
     document.addEventListener('DOMContentLoaded',sweep);
     window.addEventListener('load',sweep);
