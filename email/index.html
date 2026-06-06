@@ -2,35 +2,36 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=1780">
+<meta name="viewport" content="width=1380">
 <title>Complete Digital — Your Website Preview</title>
 <!--
-  /email/{slug} — the page SCREENSHOTTED for the outreach email.
-  Captured at laptop width (~1780) but shown on MOBILE in the email, so all
-  wrapper text is oversized to survive the downscale. The embedded site
-  (/sites/{slug}?capture=1) is left at its real size.
+  /email/{slug} — page SCREENSHOTTED for the outreach email.
+  Captured at laptop width, shown on MOBILE in email, so MAIN wrapper text
+  is oversized. Annotations are anchored to the FRAME (not the page), so
+  changing --gap / --frame-w does NOT move them.
 
-  >>> TWEAK ANNOTATION POSITIONS HERE (one number each) <<<
-  Offsets from the top of the embed frame. The user guides these in
-  "lengths" (multiples of each text's own size).
+  >>> TWEAK HERE <<<
+  --y-name/-logo/-services : vertical offset from top of the frame
+  --gap                    : side padding (smaller = bigger website)
+  side arrow length is the .anno-side <svg> viewBox/width (220)
 -->
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --navy:#0a2540; --navy-soft:#41566b; --ink-faint:#8aa0b2;
     --sky:#48cae4; --deep:#00a8cf; --line:#e6edf2;
-    --mark:#ff5630;                 /* annotation colour */
+    --mark:#ff5630;
     --frame-w:1180px;
+    --gap:100px;                    /* side padding — smaller = bigger website */
 
-    /* ----- annotation vertical positions (from top of the frame) ----- */
     --y-name: -233px;               /* "your name is here"  -> navbar name */
-    --y-logo: 1100px;               /* "Your Logo Here"     -> section 2 logo (clipboard guy) */
+    --y-logo: 1100px;               /* "Your Logo Here"     -> section 2 logo */
     --y-services: 2990px;           /* "Your services here" -> services section */
   }
   *{ box-sizing:border-box; }
   html,body{ margin:0; padding:0; background:#ffffff; color:var(--navy);
     font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif; -webkit-font-smoothing:antialiased; }
-  .wrap{ width:1780px; max-width:1780px; margin:0 auto; padding:0 0 80px; }
+  .wrap{ width:calc(var(--frame-w) + 2*var(--gap)); margin:0 auto; padding:0 0 80px; }
 
   /* ---------- header (oversized for mobile downscale) ---------- */
   .head{ text-align:center; padding:60px 24px 30px; }
@@ -42,11 +43,10 @@
   .head .seeit{ margin:0; font-size:32px; }
   .head .seeit a{ color:var(--deep); text-decoration:underline; text-underline-offset:4px; font-weight:700; }
 
-  /* ---------- embed stage (frame + overlaid annotations) ---------- */
-  .stage{ position:relative; width:100%; }
-  .frame{ width:var(--frame-w); margin:0 auto; border:1px solid var(--line);
-    border-radius:16px; overflow:hidden; box-shadow:0 30px 70px -28px rgba(10,37,64,.35);
-    background:#fff; position:relative; z-index:1; }
+  /* ---------- embed stage = FRAME width, centered (annotations anchor to it) ---------- */
+  .stage{ position:relative; width:var(--frame-w); margin:0 auto; }
+  .frame{ width:100%; border:1px solid var(--line); border-radius:16px; overflow:hidden;
+    box-shadow:0 30px 70px -28px rgba(10,37,64,.35); background:#fff; position:relative; z-index:1; }
   .chrome{ display:flex; align-items:center; gap:12px; padding:12px 16px;
     background:#f4f7f9; border-bottom:1px solid var(--line); }
   .chrome .tl{ font-family:Arial,sans-serif; letter-spacing:3px; color:#cfd9e0; font-size:15px; }
@@ -55,20 +55,25 @@
     border-radius:20px; padding:5px 16px; font-size:13px; color:#6b7f93; }
   iframe{ display:block; width:100%; border:0; }
 
-  /* ---------- annotations (handwritten, oversized) ---------- */
-  .anno{ position:absolute; z-index:5; pointer-events:none;
-    font-family:'Caveat',cursive; color:var(--mark); }
+  /* ---------- scroll cues (in the side gaps, near the top) ---------- */
+  .scroll-cue{ position:absolute; top:210px; display:flex; flex-direction:column; align-items:center; gap:9px; z-index:4; }
+  .scroll-cue.l{ left:calc(-1 * var(--gap)); width:var(--gap); }
+  .scroll-cue.r{ right:calc(-1 * var(--gap)); width:var(--gap); }
+  .scroll-cue .lab{ writing-mode:vertical-rl; margin-top:8px; font-size:13px; letter-spacing:4px;
+    text-transform:uppercase; color:#c2d0da; font-weight:700; }
+  .scroll-cue .c1{opacity:1}.scroll-cue .c2{opacity:.6}.scroll-cue .c3{opacity:.3}
+
+  /* ---------- annotations (anchored to the frame) ---------- */
+  .anno{ position:absolute; z-index:6; pointer-events:none; font-family:'Caveat',cursive; color:var(--mark); }
   .anno .lbl{ font-weight:700; line-height:1.0; white-space:nowrap; }
 
-  /* "your name is here" — top-left, curved arrow down-right into the navbar */
-  .anno-name{ top:var(--y-name); left:53px; }
+  /* name: label above the frame top-left, arrow curls down-right into navbar */
+  .anno-name{ top:var(--y-name); left:-50px; }
   .anno-name .lbl{ font-size:34px; margin-left:14px; }
-  .anno-name svg{ display:block; }
 
-  /* right-side sideways callouts: [ arrow into frame ][ sideways text ] */
-  .anno-side{ right:0; width:500px; display:flex; align-items:center; justify-content:flex-end; gap:4px; }
+  /* side callouts: short arrow pokes into the frame; text sits in the gap */
+  .anno-side{ right:calc(-1 * var(--gap)); display:flex; align-items:center; justify-content:flex-end; gap:4px; }
   .anno-side .lbl{ writing-mode:vertical-rl; font-size:34px; }
-  .anno-side svg{ display:block; flex:0 0 auto; }
   .anno-logo{ top:var(--y-logo); }
   .anno-services{ top:var(--y-services); }
   .anno-services .lbl{ font-size:30px; }
@@ -106,12 +111,26 @@
     <!-- embed + annotations -->
     <div class="stage">
 
+      <!-- scroll cues in the side gaps -->
+      <div class="scroll-cue l" aria-hidden="true">
+        <svg class="c1" width="30" height="18" viewBox="0 0 30 18" fill="none"><path d="M2 2l13 12L28 2" stroke="#0a2540" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="c2" width="30" height="18" viewBox="0 0 30 18" fill="none"><path d="M2 2l13 12L28 2" stroke="#00a8cf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="c3" width="30" height="18" viewBox="0 0 30 18" fill="none"><path d="M2 2l13 12L28 2" stroke="#48cae4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="lab">scroll</span>
+      </div>
+      <div class="scroll-cue r" aria-hidden="true">
+        <svg class="c1" width="30" height="18" viewBox="0 0 30 18" fill="none"><path d="M2 2l13 12L28 2" stroke="#0a2540" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="c2" width="30" height="18" viewBox="0 0 30 18" fill="none"><path d="M2 2l13 12L28 2" stroke="#00a8cf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="c3" width="30" height="18" viewBox="0 0 30 18" fill="none"><path d="M2 2l13 12L28 2" stroke="#48cae4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="lab">scroll</span>
+      </div>
+
       <!-- "your name is here" -> navbar business name -->
       <div class="anno anno-name" aria-hidden="true">
         <div class="lbl">your name<br>is here!</div>
-        <svg width="320" height="150" viewBox="0 0 320 150" fill="none">
-          <path d="M44 40 C 170 18, 280 48, 270 132" stroke="var(--mark)" stroke-width="5" stroke-linecap="round"/>
-          <path d="M248 112 L 272 138 L 296 110" stroke="var(--mark)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <svg width="300" height="140" viewBox="0 0 300 140" fill="none">
+          <path d="M44 38 C 160 18, 262 46, 252 122" stroke="var(--mark)" stroke-width="5" stroke-linecap="round"/>
+          <path d="M230 104 L 254 128 L 278 102" stroke="var(--mark)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </svg>
       </div>
 
@@ -125,20 +144,20 @@
         <iframe id="siteframe" title="Your website preview" scrolling="no" src="about:blank"></iframe>
       </div>
 
-      <!-- "Your Logo Here" -> section-2 logo, arrow ~15% into frame -->
+      <!-- "Your Logo Here" -> section-2 logo (short arrow) -->
       <div class="anno anno-side anno-logo" aria-hidden="true">
-        <svg width="380" height="70" viewBox="0 0 380 70" fill="none">
-          <path d="M372 35 C 250 16, 130 20, 14 34" stroke="var(--mark)" stroke-width="5" stroke-linecap="round"/>
-          <path d="M40 16 L 10 34 L 40 52" stroke="var(--mark)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <svg viewBox="0 0 220 60" width="220" height="60" fill="none" preserveAspectRatio="none">
+          <path d="M212 30 C 150 16, 80 18, 14 30" stroke="var(--mark)" stroke-width="5" stroke-linecap="round"/>
+          <path d="M40 16 L 10 30 L 40 44" stroke="var(--mark)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </svg>
         <span class="lbl">Your Logo Here</span>
       </div>
 
-      <!-- "Your services go here" -> services section -->
+      <!-- "Your services go here" -> services section (short arrow) -->
       <div class="anno anno-side anno-services" aria-hidden="true">
-        <svg width="380" height="70" viewBox="0 0 380 70" fill="none">
-          <path d="M372 35 C 250 16, 130 20, 14 34" stroke="var(--mark)" stroke-width="5" stroke-linecap="round"/>
-          <path d="M40 16 L 10 34 L 40 52" stroke="var(--mark)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <svg viewBox="0 0 220 60" width="220" height="60" fill="none" preserveAspectRatio="none">
+          <path d="M212 30 C 150 16, 80 18, 14 30" stroke="var(--mark)" stroke-width="5" stroke-linecap="round"/>
+          <path d="M40 16 L 10 30 L 40 44" stroke="var(--mark)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </svg>
         <span class="lbl">Your services go here</span>
       </div>
