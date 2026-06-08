@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Greentastic Pty Ltd",
+  "suburb": "West Footscray",
+  "phone": "1300 000 000",
+  "email": "info@greentastic.com.au",
+  "address": "Unit 3/380 Somerville Rd, West Footscray VIC 3012",
+  "tagline": "West Footscray's Climate Control Specialists",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b373",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "West Footscray's HVAC Experts",
+      "sub": "Smart comfort for Melbourne's west"
+    },
+    {
+      "title": "Air Conditioning, Heat Pumps & Solar",
+      "sub": "Energy-efficient solutions for every home"
+    },
+    {
+      "title": "Personalised Climate Control",
+      "sub": "Serving West Footscray & surrounds since day one"
+    }
+  ],
+  "ctaHeading": "Ready for smarter comfort in West Footscray?",
+  "aboutHeading": "Greentastic: Your Local Climate Experts",
+  "aboutSubheading": "Proudly serving Melbourne's west from West Footscray",
+  "aboutText": "Greentastic Pty Ltd is a leading provider of energy-efficient solutions for lighting, hot water, space heating and cooling, and other energy-saving products. Based in West Footscray, we help Melbourne homeowners reduce their carbon footprint while cutting energy bills. Our team delivers personalised climate control solutions across the western suburbs, from split system installs to complete solar panel setups.",
+  "servicesHeading": "Our Climate Solutions",
+  "servicesSubheading": "Efficient comfort, tailored to you",
+  "servicesText": "From air conditioning installation to solar panels and heat pump hot water systems, we maximise your home's energy efficiency while keeping you comfortable year-round.",
+  "services": [
+    {
+      "title": "Air Conditioning Installation",
+      "desc": "Expert installation of split systems and ducted air conditioning for homes and businesses across Melbourne's west."
+    },
+    {
+      "title": "Heat Pump Hot Water",
+      "desc": "Upgrade to an energy-efficient heat pump hot water system and slash your power bills while enjoying reliable hot water."
+    },
+    {
+      "title": "Solar Panel Installation",
+      "desc": "Harness the sun with our professional solar panel installations, designed to maximise your home's energy production."
+    },
+    {
+      "title": "Solar Battery Storage",
+      "desc": "Store your solar energy for when you need it most with our advanced battery storage solutions."
+    },
+    {
+      "title": "Reverse Cycle Heating",
+      "desc": "Stay warm in winter and cool in summer with our reverse cycle heating and cooling system installations."
+    },
+    {
+      "title": "Energy Efficiency Consultations",
+      "desc": "We assess your home's energy needs and recommend the best solutions to reduce consumption and costs."
+    }
+  ],
+  "bannerHeading": "Need HVAC in West Footscray?",
+  "bannerSubheading": "Get a free quote from Melbourne's trusted climate specialists today.",
+  "testimonialsHeading": "What West Footscray Locals Say",
+  "testimonialsSubheading": "Real reviews from real customers",
+  "blogHeading": "Tips & Climate News",
+  "blogSubheading": "Smart energy advice from the Greentastic team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond fast — your comfort can't wait",
+  "reviews": [
+    {
+      "text": "Greentastic installed a multi-head split system in my West Footscray home and the whole process was smooth and professional. Ravi adjusted quotes based on my changing needs and the final result has been excellent. Highly recommend their services.",
+      "name": "Deshike Deshapriya",
+      "role": "West Footscray Homeowner"
+    },
+    {
+      "text": "The team at Greentastic helped us set up a 320L heat pump system and they were very helpful, professional, and friendly from start to finish. Great communication and a quality installation. Will definitely use them again.",
+      "name": "Johana R",
+      "role": "Melbourne West Homeowner"
+    },
+    {
+      "text": "Greentastic gave me competitive pricing with good quality installation work on my air conditioner. I'm very happy with the outcome and would recommend Greentastic to anyone needing climate solutions.",
+      "name": "Cipta",
+      "role": "Melbourne Property Owner"
+    }
+  ]
+}
