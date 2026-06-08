@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Lee Electrix",
+  "suburb": "Spotswood",
+  "phone": "0396874833",
+  "email": "info@leeelectrix.com.au",
+  "address": "132 Hall St, Spotswood VIC 3015",
+  "tagline": "Spotswood's Electricians Since 2004",
+  "primaryColor": "#ef2911",
+  "primaryColorRgb": "239, 41, 17",
+  "primaryColorHover": "#d02410",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Spotswood's Trusted Electricians",
+      "sub": "High-quality electrical work since 2004"
+    },
+    {
+      "title": "From Safety Switches to Solar Power",
+      "sub": "Complete electrical solutions for your home or business"
+    },
+    {
+      "title": "New Builds, Renovations & Automation",
+      "sub": "Serving Spotswood and Melbourne's inner west"
+    }
+  ],
+  "ctaHeading": "Spotswood electricians are ready to power your project.",
+  "aboutHeading": "Spotswood's Electricians Since 2004",
+  "aboutSubheading": "Quality workmanship for your home & business",
+  "aboutText": "Lee Electrix has been providing high-quality electrical work to Spotswood and the surrounding areas since 2004. We are a local, licensed team dedicated to safety, reliability, and excellent customer service. Whether you need a simple repair, a full home automation setup, or electrical work for a new build, our experienced team has you covered with over 20 years of local expertise.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for every property",
+  "servicesText": "Lee Electrix offers a comprehensive range of electrical services for homes and businesses across Spotswood. Our licensed team handles everything from routine maintenance to complex installations with precision and care, ensuring all work meets the highest Australian safety standards.",
+  "services": [
+    {
+      "title": "General Electrical",
+      "desc": "Prompt repairs, switchboard upgrades, and routine maintenance to keep your Spotswood property powered safely."
+    },
+    {
+      "title": "Solar Installations",
+      "desc": "Design and installation of efficient solar panel systems to reduce your energy bills and carbon footprint."
+    },
+    {
+      "title": "Security & Home Automation",
+      "desc": "Smart wiring, automated lighting, and security system installations for modern, convenient living."
+    },
+    {
+      "title": "Domestic Projects",
+      "desc": "Expert electrical fit-outs for new homes, renovations, and extensions across the inner west."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical services for offices, retail, and commercial properties in Spotswood and surrounds."
+    },
+    {
+      "title": "New Builds & Developments",
+      "desc": "Complete electrical rough-in and fit-out for new residential builds, apartments, and unit developments."
+    }
+  ],
+  "bannerHeading": "Need a Spotswood Electrician?",
+  "bannerSubheading": "Fast, reliable service for your home or business.",
+  "testimonialsHeading": "What Spotswood Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from your local Spotswood electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly to your enquiry",
+  "reviews": [
+    {
+      "text": "Lee Electrix did a fantastic job installing a new switchboard and safety switches at our Spotswood home. They were on time, professional, and left the area clean. Highly recommended for any local electrical work.",
+      "name": "Dave & Kylie Morrison",
+      "role": "Spotswood Homeowner"
+    },
+    {
+      "text": "We had Lee Electrix handle all the electrical fit-out for our new café in Spotswood. Their knowledge of commercial requirements and attention to detail was impressive. A reliable team we'll use again.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Used Lee Electrix for solar panel installation across several rental properties. Their communication was clear, the work was tidy, and the system performance has been excellent. A trusted trade partner.",
+      "name": "Michael O'Donnell",
+      "role": "Property Manager"
+    }
+  ]
+}
