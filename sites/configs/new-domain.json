@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "New Domain",
+  "suburb": "Deer Park",
+  "phone": "0412 345 678",
+  "email": "info@newdomain.com.au",
+  "address": "2 Radnor Dr, Deer Park VIC 3023",
+  "tagline": "Deer Park's Trusted Car Mechanics",
+  "primaryColor": "#ff4444",
+  "primaryColorRgb": "255, 68, 68",
+  "primaryColorHover": "#cc3636",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Deer Park's Go-To Mechanics",
+      "sub": "Serving the community with quality repairs"
+    },
+    {
+      "title": "Expert Car Repair & Maintenance",
+      "sub": "From brake jobs to engine overhauls"
+    },
+    {
+      "title": "Book Your Service Today",
+      "sub": "Free assessments in Deer Park"
+    }
+  ],
+  "ctaHeading": "Deer Park's car repair specialists — let's fix your ride.",
+  "aboutHeading": "New Domain Car Repair in Deer Park",
+  "aboutSubheading": "Local mechanics you can trust",
+  "aboutText": "New Domain has been providing top-notch car repair services in Deer Park for over 10 years. Our team of skilled mechanics specializes in everything from routine maintenance to complex engine repairs. We pride ourselves on using high-quality parts and delivering honest, reliable service to the Deer Park community.",
+  "servicesHeading": "What We Repair & Service",
+  "servicesSubheading": "Comprehensive car care",
+  "servicesText": "At New Domain, we offer a full range of automotive repair services to keep your vehicle running smoothly. From diagnostic checks to major overhauls, our experienced team in Deer Park has you covered with transparent pricing and efficient work.",
+  "services": [
+    {
+      "title": "Engine Repair",
+      "desc": "Expert diagnostics and repairs for all engine issues, ensuring optimal performance for your vehicle."
+    },
+    {
+      "title": "Brake Service",
+      "desc": "Complete brake inspections, pad replacements, and rotor resurfacing for safe stopping power."
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Skilled transmission rebuilds and fluid changes to keep your car shifting smoothly."
+    },
+    {
+      "title": "Electrical Systems",
+      "desc": "Troubleshooting and fixing electrical faults, from batteries to wiring and alternators."
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Repair and maintenance for a comfortable and stable ride, handling alignment and shocks."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine services like oil changes, filter replacements, and tune-ups to extend your car's life."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Deer Park?",
+  "bannerSubheading": "Fast, reliable service for all car makes and models.",
+  "testimonialsHeading": "What Deer Park Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Car Care Tips & Updates",
+  "blogSubheading": "Insights from our mechanics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "New Domain did a fantastic job on my car's brake service in Deer Park. They were quick, professional, and the price was fair. Highly recommend for any local car troubles.",
+      "name": "James Mitchell",
+      "role": "Deer Park Homeowner"
+    },
+    {
+      "text": "I took my business van to New Domain for an engine repair, and they had it sorted in no time. Great service and expertise from the team in Deer Park.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on New Domain for maintaining our fleet vehicles. Their general maintenance services in Deer Park are always top-notch and reliable.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
