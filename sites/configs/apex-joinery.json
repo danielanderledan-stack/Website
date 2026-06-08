@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Apex Joinery",
+  "suburb": "Sunshine",
+  "phone": "03 9311 1234",
+  "email": "info@apexjoinery.com.au",
+  "address": "20 Second Ave, Sunshine VIC 3020",
+  "tagline": "Sunshine's Cabinet Making Experts",
+  "primaryColor": "#1877f2",
+  "primaryColorRgb": "24, 119, 242",
+  "primaryColorHover": "#156BDA",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunshine's Joinery Specialists",
+      "sub": "Over 25 years of local experience"
+    },
+    {
+      "title": "Custom Cabinets & Kitchens",
+      "sub": "Designed for your Sunshine home"
+    },
+    {
+      "title": "Quality Timber Craftsmanship",
+      "sub": "Serving Sunshine and surrounds"
+    }
+  ],
+  "ctaHeading": "Ready for Your Sunshine Joinery Project?",
+  "aboutHeading": "25 Years Joinery in Sunshine",
+  "aboutSubheading": "Local, licensed, and trusted",
+  "aboutText": "Apex Joinery has been serving the Sunshine community for over 25 years, specializing in custom cabinetry and timber joinery. Our team crafts high-quality kitchen cabinets, wardrobes, and built-in solutions tailored to your home. We pride ourselves on reliability and craftsmanship, delivering projects on time and to the highest standards. Whether it's a new build or a renovation, we're here to help Sunshine residents create functional and beautiful spaces.",
+  "servicesHeading": "Our Joinery Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From custom cabinetry to complete kitchen fitouts, Apex Joinery offers a comprehensive range of services. We handle both domestic and commercial projects, ensuring precision and durability in every piece we create. Our team works closely with clients to bring their visions to life.",
+  "services": [
+    {
+      "title": "Custom Cabinetry",
+      "desc": "Bespoke cabinets designed and built to fit your space perfectly, using quality materials and finishes."
+    },
+    {
+      "title": "Kitchen Installations",
+      "desc": "Complete kitchen renovations and new installations, from design to final touches, tailored to your style."
+    },
+    {
+      "title": "Wardrobe Systems",
+      "desc": "Custom wardrobes and storage solutions that maximize space and organization in your home."
+    },
+    {
+      "title": "Timber Shelving",
+      "desc": "Sturdy and stylish shelving units for living rooms, offices, and retail spaces in Sunshine."
+    },
+    {
+      "title": "Commercial Fitouts",
+      "desc": "Professional joinery for shops, offices, and restaurants, enhancing functionality and aesthetics."
+    },
+    {
+      "title": "Repairs & Restoration",
+      "desc": "Expert repair and restoration of existing joinery, bringing new life to old furniture and fixtures."
+    }
+  ],
+  "bannerHeading": "Need Joinery in Sunshine?",
+  "bannerSubheading": "Apex Joinery is here to help with all your timber needs.",
+  "testimonialsHeading": "What Sunshine Locals Say",
+  "testimonialsSubheading": "Genuine feedback from our clients",
+  "blogHeading": "Joinery Tips & News",
+  "blogSubheading": "Insights from our Sunshine workshop",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We'll respond promptly to your inquiry",
+  "reviews": [
+    {
+      "text": "Apex Joinery transformed our kitchen with beautiful custom cabinets. The team was professional and the quality is outstanding. Highly recommend for anyone in Sunshine.",
+      "name": "Mark Thompson",
+      "role": "Sunshine Homeowner"
+    },
+    {
+      "text": "We engaged Apex for our shop fitout in Sunshine, and the result exceeded expectations. Their attention to detail and craftsmanship is top-notch.",
+      "name": "Sarah Williams",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Got our wardrobes custom-made by Apex Joinery. Great service, timely delivery, and they really understand the Sunshine area.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
