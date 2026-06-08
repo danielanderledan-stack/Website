@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Tonna Heat & Cool",
+  "suburb": "Sunshine West",
+  "phone": "1300 300 754",
+  "email": "info@tonna.com.au",
+  "address": "18-20 Cook St, Sunshine West VIC 3020",
+  "tagline": "Sunshine West's Trusted HVAC Experts for 40 Years",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e56000",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunshine West's Heating & Cooling Specialists",
+      "sub": "40 years serving Melbourne's western suburbs"
+    },
+    {
+      "title": "Ducted Heaters & Split Systems Installed",
+      "sub": "Quality HVAC solutions for homes and businesses"
+    },
+    {
+      "title": "Free Quotes in Sunshine West Today",
+      "sub": "Expert service you can rely on"
+    }
+  ],
+  "ctaHeading": "Sunshine West HVAC — Let's Get Comfortable!",
+  "aboutHeading": "40 Years HVAC Excellence in Sunshine West",
+  "aboutSubheading": "Local, licensed & reliable service",
+  "aboutText": "With over 40 years of experience, Tonna Heat & Cool has been the trusted HVAC partner for Sunshine West and surrounding areas. We specialise in ducted heaters, evaporative coolers, and refrigerated systems, ensuring your home stays comfortable year-round. Our local team is committed to quality installation, maintenance, and safety checks like carbon monoxide testing.",
+  "servicesHeading": "Our Comprehensive HVAC Services",
+  "servicesSubheading": "Expert solutions for Sunshine West homes",
+  "servicesText": "At Tonna Heat & Cool, we offer a full range of HVAC services including installation, repair, and maintenance. From heating to cooling, our team handles ducted systems, split units, and safety testing. We tailor solutions to Melbourne's climate for efficient and reliable performance.",
+  "services": [
+    {
+      "title": "Carbon Monoxide Testing",
+      "desc": "Essential safety inspections for heating systems to detect and prevent carbon monoxide risks in your home."
+    },
+    {
+      "title": "Ducted Heater Installation",
+      "desc": "Professional setup of efficient ducted heating to provide consistent warmth throughout your property during winter."
+    },
+    {
+      "title": "Evaporative Cooler Solutions",
+      "desc": "Installation and service of evaporative coolers, ideal for Melbourne's dry summers, offering natural air circulation."
+    },
+    {
+      "title": "Refrigerated Air Conditioning",
+      "desc": "Reverse cycle and refrigerated systems for precise temperature control, keeping you cool in summer and warm in winter."
+    },
+    {
+      "title": "Split System Air Conditioning",
+      "desc": "Multi-head split systems for targeted cooling and heating in individual rooms, perfect for varied home layouts."
+    },
+    {
+      "title": "Hydronic Heating Systems",
+      "desc": "Advanced water-based heating solutions for even, silent warmth, suitable for larger homes and energy efficiency."
+    }
+  ],
+  "bannerHeading": "Need HVAC Services in Sunshine West?",
+  "bannerSubheading": "We install, repair, and maintain all heating and cooling systems.",
+  "testimonialsHeading": "What Sunshine West Locals Say",
+  "testimonialsSubheading": "Trusted by the community for honest work",
+  "blogHeading": "HVAC Tips & News for Sunshine West",
+  "blogSubheading": "Insights from Tonna Heat & Cool",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Tonna Heat & Cool installed a new ducted heater in our Sunshine West home last winter. The service was prompt, professional, and the system works perfectly. Highly recommend their expertise for local heating needs.",
+      "name": "John Smith",
+      "role": "Sunshine West Homeowner"
+    },
+    {
+      "text": "We had carbon monoxide testing done by Tonna for our business in the area. Their team was thorough and knowledgeable, ensuring our safety compliance. Excellent local service with attention to detail.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Tonna for evaporative cooler maintenance across multiple properties. They're reliable, affordable, and always provide quality workmanship. A trusted partner in Sunshine West.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
