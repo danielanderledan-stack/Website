@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "HomeRepair",
+  "suburb": "South Melbourne",
+  "phone": "1300836229",
+  "email": "websitecontacts@homerepair.com.au",
+  "address": "1/99 Coventry St, South Melbourne VIC 3205",
+  "tagline": "South Melbourne's Trusted Home Repairs",
+  "primaryColor": "#1badcf",
+  "primaryColorRgb": "27, 171, 207",
+  "primaryColorHover": "#1698b8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "HomeRepair in South Melbourne",
+      "sub": "Expertise built over thousands of homes"
+    },
+    {
+      "title": "Quality Repairs & Renovations",
+      "sub": "Domestic & commercial services"
+    },
+    {
+      "title": "South Melbourne's Repair Experts",
+      "sub": "Free quotes across the area"
+    }
+  ],
+  "ctaHeading": "Need a Home Repair in South Melbourne?",
+  "aboutHeading": "South Melbourne's Home Repair Experts",
+  "aboutSubheading": "Local, reliable & skilled",
+  "aboutText": "HomeRepair brings a wealth of experience to South Melbourne, with our management team and tradespeople having repaired thousands of homes. We specialise in all aspects of home repair, from minor fixes to major renovations. Our knowledge is built one repair at a time, ensuring quality and reliability for every project in the local community.",
+  "servicesHeading": "Our Repair Services",
+  "servicesSubheading": "Comprehensive home solutions",
+  "servicesText": "HomeRepair offers a wide range of services to keep your home in top condition. From emergency repairs to planned renovations, our skilled team handles it all with precision and care.",
+  "services": [
+    {
+      "title": "General Home Repairs",
+      "desc": "From fixing leaks to patching walls, we handle all general repair needs efficiently and effectively."
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Transform your kitchen with expert renovation services tailored to your style and budget requirements."
+    },
+    {
+      "title": "Bathroom Remodelling",
+      "desc": "Upgrade your bathroom with modern designs, quality fixtures, and professional craftsmanship."
+    },
+    {
+      "title": "Outdoor Maintenance",
+      "desc": "Keep your garden and exterior in perfect shape with our reliable maintenance services for homes."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Quick response for urgent repair issues to protect your home and prevent further damage."
+    },
+    {
+      "title": "Custom Carpentry",
+      "desc": "Bespoke wooden fixtures and fittings made to your specifications for a personalised touch."
+    }
+  ],
+  "bannerHeading": "South Melbourne Home Repairs",
+  "bannerSubheading": "We're here to help with all your repair needs.",
+  "testimonialsHeading": "What South Melbourne Clients Say",
+  "testimonialsSubheading": "Trusted by homeowners",
+  "blogHeading": "Home Repair Tips & Insights",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "HomeRepair did an excellent job on our kitchen renovation in South Melbourne. The team was professional and the result is stunning. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "South Melbourne Homeowner"
+    },
+    {
+      "text": "We hired HomeRepair for emergency repairs after a storm, and they responded quickly. Their work was top-notch and saved us from further damage.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on HomeRepair for regular maintenance across my properties. They are reliable and always deliver quality work on time.",
+      "name": "Mike Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
