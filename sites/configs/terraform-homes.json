@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Terraform Homes",
+  "suburb": "Truganina",
+  "phone": "0414491230",
+  "email": "info@terraformhomes.com.au",
+  "address": "7B Amherst Dr, Truganina VIC 3029",
+  "tagline": "Truganina's Renovation Specialists",
+  "primaryColor": "#32373c",
+  "primaryColorRgb": "50, 55, 60",
+  "primaryColorHover": "#2b3035",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Terraform Homes: Truganina's Cabinet Experts",
+      "sub": "Specialising in renovations and remodels since establishment"
+    },
+    {
+      "title": "Quality Renovations in Truganina",
+      "sub": "Melbourne's trusted construction company"
+    },
+    {
+      "title": "Truganina Renovations Done Right",
+      "sub": "Free quotes across Truganina & surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to Renovate in Truganina?",
+  "aboutHeading": "Terraform Homes: Truganina's Renovation Experts",
+  "aboutSubheading": "Trusted in Truganina for years",
+  "aboutText": "Located in Truganina, Terraform Homes is a leading Melbourne construction company with years of experience in renovations and remodeling. We take pride in our high-quality and reliable construction, which has earned us a solid reputation among clients across Truganina and surrounding areas. Our commitment is to meet your demands within budget without compromising on quality, ensuring your space is transformed to your exact specifications.",
+  "servicesHeading": "Our Cabinet Making & Renovation Services",
+  "servicesSubheading": "Crafted for Truganina homes",
+  "servicesText": "At Terraform Homes, we provide expert cabinet making and renovation services in Truganina. Our team specializes in transforming spaces with high-quality craftsmanship, ensuring every project meets your needs and exceeds expectations.",
+  "services": [
+    {
+      "title": "Custom Cabinet Making",
+      "desc": "We design and build bespoke cabinets tailored to your space and style, using premium materials for lasting quality."
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Transform your kitchen with modern layouts and functional cabinetry, perfect for Truganina homes."
+    },
+    {
+      "title": "Bathroom Remodelling",
+      "desc": "Revamp your bathroom with custom storage solutions and elegant designs, enhancing both beauty and utility."
+    },
+    {
+      "title": "Built-in Wardrobes",
+      "desc": "Maximize space with custom-fitted wardrobes, designed to seamlessly integrate into your Truganina bedroom."
+    },
+    {
+      "title": "Home Office Solutions",
+      "desc": "Create a productive workspace with tailored desks and shelving, ideal for remote work in your local area."
+    },
+    {
+      "title": "General Carpentry & Repairs",
+      "desc": "From minor fixes to major installations, our skilled carpenters handle all your Truganina home needs."
+    }
+  ],
+  "bannerHeading": "Need a Cabinet Maker in Truganina?",
+  "bannerSubheading": "Free consultations for Truganina residents",
+  "testimonialsHeading": "What Truganina Clients Say",
+  "testimonialsSubheading": "Quality work, fair prices",
+  "blogHeading": "Renovation Tips & News",
+  "blogSubheading": "Advice from Terraform Homes",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Terraform Homes did an amazing job on our kitchen renovation in Truganina. The custom cabinets they installed are high-quality and fit perfectly. Highly recommend their services.",
+      "name": "Sarah Thompson",
+      "role": "Truganina Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed reliable cabinet making for my shop fitout. Terraform Homes delivered exceptional results on time and within budget. Great team to work with.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing properties in Truganina, I've used Terraform Homes for multiple bathroom remodelling projects. Their craftsmanship is outstanding, and they always ensure client satisfaction.",
+      "name": "Lisa O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
