@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "b",
+  "suburb": "Flemington",
+  "phone": "0435 142 775",
+  "email": "user@domain.com",
+  "address": "155 Mt Alexander Rd, Flemington VIC 3031",
+  "tagline": "Flemington's Carpentry Experts",
+  "primaryColor": "#FFD700",
+  "primaryColorRgb": "255, 215, 0",
+  "primaryColorHover": "#E5C300",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Flemington's Trusted Carpenters",
+      "sub": "Serving Melbourne's inner north with expertise"
+    },
+    {
+      "title": "Custom Carpentry & Maintenance",
+      "sub": "From decks to furniture, we do it all"
+    },
+    {
+      "title": "Skilled Craftsmanship for Your Home",
+      "sub": "Free quotes across Flemington & surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to start your carpentry project in Flemington?",
+  "aboutHeading": "Expert Carpentry in Flemington",
+  "aboutSubheading": "Local craftsmanship, reliable service",
+  "aboutText": "At b, we are Flemington's go-to carpentry experts with over a decade of experience serving Melbourne. Our team includes handymen, electricians, and carpenters, but our passion lies in precision carpentry work. Whether it's a new deck, cabinetry repair, or structural framing, we deliver tailored solutions for homes and businesses across Flemington and the inner north. We pride ourselves on honest quotes and timely completion, ensuring your project is in safe hands.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Craftsmanship you can trust",
+  "servicesText": "Our Flemington-based carpentry team provides everything from simple maintenance to complex custom builds. We work with both residential and commercial clients, ensuring high-quality results every time. With expertise in timber work, we bring your visions to life efficiently and affordably.",
+  "services": [
+    {
+      "title": "Timber Decking",
+      "desc": "We design and build durable timber decks perfect for Flemington homes, using quality materials to ensure longevity and aesthetic appeal."
+    },
+    {
+      "title": "Custom Cabinetry",
+      "desc": "From kitchen cabinets to storage solutions, our custom carpentry adds functional beauty to your living spaces with meticulous craftsmanship."
+    },
+    {
+      "title": "Structural Framing",
+      "desc": "Our experienced carpenters handle framing for renovations and new builds, providing solid foundations and precise construction throughout Melbourne."
+    },
+    {
+      "title": "Door & Window Installations",
+      "desc": "We install and repair doors and windows, enhancing security and energy efficiency for properties in Flemington and nearby areas."
+    },
+    {
+      "title": "Furniture Repair & Restoration",
+      "desc": "Bring new life to old furniture with our expert repair services, focusing on preserving the character and functionality of each piece."
+    },
+    {
+      "title": "Property Maintenance",
+      "desc": "Comprehensive carpentry maintenance services for commercial and private properties, ensuring your spaces remain safe and well-maintained."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Flemington?",
+  "bannerSubheading": "We're here to help with all your carpentry needs.",
+  "testimonialsHeading": "What Flemington Clients Say",
+  "testimonialsSubheading": "Trusted by locals for quality work",
+  "blogHeading": "Carpentry Tips & Insights",
+  "blogSubheading": "Advice from our Flemington team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Reach out for prompt service",
+  "reviews": [
+    {
+      "text": "The team at b did an excellent job on our new timber deck in Flemington. Their attention to detail and professionalism made the process smooth, and the result exceeded our expectations. Highly recommend for any carpentry work.",
+      "name": "John Smith",
+      "role": "Flemington Homeowner"
+    },
+    {
+      "text": "We hired b for custom cabinetry in our Flemington café, and the craftsmanship was outstanding. They understood our vision and delivered on time, adding real value to our business space. Their team was professional and the results are perfect.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used b for multiple maintenance projects across Flemington. Their reliability and quality work make them my go-to for carpentry needs. Always fair and efficient.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
