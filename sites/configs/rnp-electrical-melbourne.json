@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "RNP Electrical Melbourne",
+  "suburb": "Brooklyn",
+  "phone": "0402 132 759",
+  "email": "rami@rnpelectrical.com",
+  "address": "24 Buchanan Rd, Brooklyn VIC 3012",
+  "tagline": "Brooklyn's 24/7 Emergency Electrician",
+  "primaryColor": "#3366ff",
+  "primaryColorRgb": "51, 102, 255",
+  "primaryColorHover": "#2952cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brooklyn's Go-To Emergency Electrician",
+      "sub": "Fast, reliable service day and night"
+    },
+    {
+      "title": "Expert Electrical Services in Melbourne",
+      "sub": "Maintenance, lighting, and safety solutions"
+    },
+    {
+      "title": "RNP Electrical: Your Local Specialist",
+      "sub": "Free quotes across Brooklyn and surrounds"
+    }
+  ],
+  "ctaHeading": "Brooklyn's electricians are ready — let's power your project.",
+  "aboutHeading": "Expert Electrical Services in Brooklyn",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "RNP Electrical Melbourne has been providing expert electrical services to Brooklyn and the greater Melbourne area for years. We specialise in 24/7 emergency repairs, safety inspections, and modern lighting solutions to keep your property safe and compliant. Our team is committed to quality workmanship and competitive pricing for both homes and businesses.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for all your needs",
+  "servicesText": "From emergency electrical work to lighting installations and switchboard upgrades, RNP Electrical Melbourne delivers comprehensive services. We handle residential and commercial projects with a focus on safety, efficiency, and customer satisfaction.",
+  "services": [
+    {
+      "title": "24/7 Emergency Electrician",
+      "desc": "Fast, reliable emergency response for urgent electrical issues in Melbourne, available day and night."
+    },
+    {
+      "title": "Electrical Maintenance & Safety",
+      "desc": "Professional maintenance and safety checks to ensure your property remains compliant and hazard-free."
+    },
+    {
+      "title": "Lighting Upgrades",
+      "desc": "Energy-efficient LED lighting installation including downlights, outdoor, and commercial lighting solutions."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modern switchboard installations with safety switches and RCBO protection for enhanced safety."
+    },
+    {
+      "title": "Commercial Fitouts",
+      "desc": "Complete electrical shop and office fit-outs with lighting, power distribution, and data cabling."
+    },
+    {
+      "title": "Network & CCTV Systems",
+      "desc": "Professional installation of CCTV cameras, data cabling, and network systems for homes and businesses."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Brooklyn?",
+  "bannerSubheading": "24/7 emergency and scheduled services available.",
+  "testimonialsHeading": "What Brooklyn Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from our expert team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for fast assistance",
+  "reviews": [
+    {
+      "text": "RNP Electrical did a fantastic job upgrading our switchboard in Brooklyn. The team was professional, completed the work quickly, and ensured everything was safe. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Brooklyn Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on RNP for all our lighting upgrades and maintenance. Their 24/7 availability has been a lifesaver for unexpected electrical issues.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent service for our rental property inspection in Melbourne. They provided a thorough safety check and detailed report, ensuring compliance with Victorian regulations.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
