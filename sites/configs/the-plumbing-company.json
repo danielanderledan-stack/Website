@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "The Plumbing Company",
+  "suburb": "Laverton",
+  "phone": "9360 0466",
+  "email": "tricia@theplumbingcompany.com.au",
+  "address": "5 Oakdene Grove, Laverton VIC 3028",
+  "tagline": "Laverton's Trusted Plumbers",
+  "primaryColor": "#3db7e4",
+  "primaryColorRgb": "61, 183, 228",
+  "primaryColorHover": "#2a9cc2",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Laverton's Trusted Plumbers",
+      "sub": "Residential & Commercial Services"
+    },
+    {
+      "title": "Emergency Plumbing 24/7",
+      "sub": "Fast response in Laverton & surrounds"
+    },
+    {
+      "title": "Roof Repairs & Gas Leaks",
+      "sub": "Expert solutions for every issue"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Laverton? Call Now.",
+  "aboutHeading": "Laverton's Plumbing Specialists Since 1974",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "For more than four decades, The Plumbing Company has been serving the Laverton community with reliable plumbing solutions. Our experienced team handles residential, commercial, and emergency plumbing with a focus on quality workmanship. From hot water system installations to complex pipe repairs, we are committed to keeping your plumbing running smoothly.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We provide a full range of plumbing services for homes and businesses in Laverton. From routine maintenance to urgent repairs, our skilled plumbers are equipped to handle any job efficiently and professionally.",
+  "services": [
+    {
+      "title": "Residential Plumbing",
+      "desc": "From leaky taps to complete renovations, we keep your home's plumbing in top shape."
+    },
+    {
+      "title": "Commercial Plumbing",
+      "desc": "Trusted since 1974 for large-scale commercial plumbing projects and maintenance."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 fast response for burst pipes, blocked drains, and other urgent issues."
+    },
+    {
+      "title": "Roof Repairs",
+      "desc": "Expert repair services for roof leaks and guttering problems in Laverton."
+    },
+    {
+      "title": "Gas & Pipe Leaks",
+      "desc": "Safe detection and repair of gas leaks and pipe issues across Laverton."
+    },
+    {
+      "title": "Hot Water Service",
+      "desc": "Installation, repair, and maintenance of hot water systems for all needs."
+    }
+  ],
+  "bannerHeading": "Laverton's Plumbing Experts Are Here",
+  "bannerSubheading": "Contact us for a free quote today",
+  "testimonialsHeading": "What Laverton Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get in Touch with Us",
+  "contactSubheading": "We're ready to help with all your plumbing needs",
+  "reviews": [
+    {
+      "text": "The Plumbing Company did an excellent job fixing our hot water system in Laverton. They were prompt, professional, and the price was fair. Highly recommend!",
+      "name": "Sarah Mitchell",
+      "role": "Laverton Homeowner"
+    },
+    {
+      "text": "We've used their commercial plumbing services for our café in Laverton for years. Reliable and always available when needed. Great team to work with.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Emergency call for a burst pipe at 2 am, and they were here within the hour. Saved our property from major damage. Fantastic service!",
+      "name": "Emma Roberts",
+      "role": "Property Manager"
+    }
+  ]
+}
