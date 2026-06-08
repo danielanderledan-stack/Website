@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Marlec Electrical",
+  "suburb": "Williamstown North",
+  "phone": "0431 792 239",
+  "email": "info@marlecelectrical.com.au",
+  "address": "21 Orange St, Williamstown North VIC 3016",
+  "tagline": "Williamstown North's Commercial Electrical Specialists",
+  "primaryColor": "#2d2d2e",
+  "primaryColorRgb": "45, 45, 46",
+  "primaryColorHover": "#1e1e1f",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Williamstown North's Commercial Electricians",
+      "sub": "Specialised in Melbourne's construction and fit-out projects"
+    },
+    {
+      "title": "Electrical Construction & Fit-Out Experts",
+      "sub": "Supporting builders and developers across Melbourne"
+    },
+    {
+      "title": "24/7 Commercial Electrical Support",
+      "sub": "Dependable delivery for every stage of the build"
+    }
+  ],
+  "ctaHeading": "Williamstown North's electricians are ready — let's power your project.",
+  "aboutHeading": "Experienced Commercial Electricians in Williamstown North",
+  "aboutSubheading": "Local, licensed & dependable",
+  "aboutText": "Marlec Electrical is a Melbourne-based commercial electrical contracting team based in Williamstown North. With years of experience in the industry, we specialise in construction and fit-out projects across Melbourne. Our team is built for structure, communication, and dependable delivery, supporting every stage of the build from start to finish. We work alongside builders, developers, and commercial partners to deliver tailored electrical outcomes.",
+  "servicesHeading": "Our Commercial Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for Melbourne's commercial sector",
+  "servicesText": "We offer a full range of commercial electrical services tailored to construction and fit-out projects. From initial consultation to final installation, our team ensures quality workmanship and compliance with Australian standards. We support builders and developers throughout Melbourne with reliable electrical outcomes.",
+  "services": [
+    {
+      "title": "Commercial Electrical Support",
+      "desc": "Ongoing electrical maintenance and support for commercial properties in Williamstown North and across Melbourne."
+    },
+    {
+      "title": "Electrical Construction & Fit-Out",
+      "desc": "Specialised electrical installation for new construction and fit-out projects, ensuring seamless integration with builders."
+    },
+    {
+      "title": "Commercial Electrical Maintenance",
+      "desc": "Regular maintenance services to keep your commercial electrical systems safe and efficient."
+    },
+    {
+      "title": "Electrical Project Management",
+      "desc": "Expert project management for large-scale electrical installations, coordinating with developers and contractors."
+    },
+    {
+      "title": "Energy Efficiency Solutions",
+      "desc": "Consulting and implementation of energy-efficient electrical systems to reduce operational costs."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 emergency response for critical electrical issues in commercial settings across Melbourne."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Williamstown North?",
+  "bannerSubheading": "24/7 commercial electrical support for Melbourne businesses.",
+  "testimonialsHeading": "What Williamstown North Locals Say",
+  "testimonialsSubheading": "Trusted by builders and businesses in the area",
+  "blogHeading": "Commercial Electrical Insights",
+  "blogSubheading": "Tips and news from Marlec Electrical",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We're available 24 hours for all your electrical needs",
+  "reviews": [
+    {
+      "text": "Marlec Electrical did a fantastic job on the fit-out for our office in Williamstown North. Their team was professional, on time, and the quality of work was outstanding. Highly recommend for any commercial project.",
+      "name": "Tom Mitchell",
+      "role": "Williamstown North Business Owner"
+    },
+    {
+      "text": "We hired Marlec Electrical for our warehouse electrical construction in Dandenong. They handled everything from start to finish with clear communication and reliable delivery. A great partner for builders.",
+      "name": "Sarah Collins",
+      "role": "Property Manager"
+    },
+    {
+      "text": "The emergency electrical service from Marlec Electrical was quick and efficient. They resolved our issue at the Flinders Lane office promptly, minimising downtime. Excellent commercial electricians.",
+      "name": "James Wilson",
+      "role": "Local Business Owner"
+    }
+  ]
+}
