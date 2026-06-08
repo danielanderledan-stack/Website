@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Quintero's Painting",
+  "suburb": "Brooklyn",
+  "phone": "0420 680 409",
+  "email": "hello@quinterospainting.com.au",
+  "address": "10 Moonah Circuit, Brooklyn VIC 3012",
+  "tagline": "Brooklyn's Painting Professionals",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e05d00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brooklyn's Trusted Painters",
+      "sub": "Quintero's Painting with family values"
+    },
+    {
+      "title": "Interior & Exterior Excellence",
+      "sub": "Traditional painting, line marking, and more"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes for Brooklyn and surrounds"
+    }
+  ],
+  "ctaHeading": "Transform Your Brooklyn Space with Quintero's Painting",
+  "aboutHeading": "Quintero's Painting in Brooklyn",
+  "aboutSubheading": "Local, reliable, and skilled",
+  "aboutText": "Based in Brooklyn, Quintero's Painting has been delivering high-quality painting services for over 10 years. Our team, led by Daniel, prides itself on family values, attention to detail, and exceptional results. From interior repaints to exterior cleaning, we treat every project with care. Contact us for a free quote and see why Brooklyn locals trust us.",
+  "servicesHeading": "Our Painting Services",
+  "servicesSubheading": "Quality work for every surface",
+  "servicesText": "At Quintero's Painting, we offer a comprehensive range of painting and maintenance services tailored for Brooklyn homes and businesses. Our expertise includes traditional painting, interior and exterior coatings, line marking, and exterior cleaning. We use premium materials and meticulous techniques to ensure lasting beauty and protection.",
+  "services": [
+    {
+      "title": "Traditional Painting",
+      "desc": "Expert application of classic paint finishes for walls, ceilings, and trim, ensuring a smooth and even look."
+    },
+    {
+      "title": "Interior Painting",
+      "desc": "Revitalise your indoor spaces with fresh colours and professional techniques for a clean, modern feel."
+    },
+    {
+      "title": "Exterior Painting",
+      "desc": "Protect and beautify your home's exterior with durable paints and careful preparation against the elements."
+    },
+    {
+      "title": "Line Marking",
+      "desc": "Precise line marking for safety and aesthetics in car parks, driveways, and commercial areas."
+    },
+    {
+      "title": "Exterior Cleaning",
+      "desc": "Thorough cleaning of surfaces like walls and roofs to remove dirt, mould, and grime before painting."
+    },
+    {
+      "title": "Commercial Painting",
+      "desc": "Specialised painting services for businesses, offices, and retail spaces, minimising disruption and ensuring quality."
+    }
+  ],
+  "bannerHeading": "Need a Painter in Brooklyn?",
+  "bannerSubheading": "Quintero's Painting is here to help with all your painting needs.",
+  "testimonialsHeading": "What Brooklyn Clients Say",
+  "testimonialsSubheading": "Reviews from happy customers",
+  "blogHeading": "Painting Tips & News",
+  "blogSubheading": "Insights from Quintero's team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call us or send an email – we respond fast",
+  "reviews": [
+    {
+      "text": "Alex and the team at Quintero's did an absolutely fabulous job painting our house in Brooklyn. Our 80-year-old home looks beautiful again, and they were lovely to have around. Highly recommend for any painting work.",
+      "name": "Jill and Paul",
+      "role": "Brooklyn Homeowner"
+    },
+    {
+      "text": "Quintero's Painting painted all the walls around our pool area with quality work and accommodated a tight timeframe. They came back for touch-ups the next day and were very friendly. Excellent result.",
+      "name": "Lidia Harvey",
+      "role": "Property Manager"
+    },
+    {
+      "text": "From the first consultation to the final brushstroke, Daniel and his team provided professional and tidy service. They painted our entire house perfectly, and we couldn't be happier. A lifelong customer.",
+      "name": "Frank Spagnolo",
+      "role": "Brooklyn Local"
+    }
+  ]
+}
