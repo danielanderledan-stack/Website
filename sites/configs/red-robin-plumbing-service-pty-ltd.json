@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "RED ROBIN PLUMBING SERVICE PTY LTD",
+  "suburb": "Footscray",
+  "phone": "0407 344 959",
+  "email": "info@redrobinplumbing.com.au",
+  "address": "23 Suffolk St, West Footscray VIC 3012",
+  "tagline": "Footscray's Trusted Plumbing Service",
+  "primaryColor": "#000000",
+  "primaryColorRgb": "0, 0, 0",
+  "primaryColorHover": "#000000",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Footscray's Plumbing Specialists",
+      "sub": "Over 40 years of trusted service"
+    },
+    {
+      "title": "Backflow Testing & Drain Clearing",
+      "sub": "Expert solutions for all plumbing issues"
+    },
+    {
+      "title": "Hot Water & Gas Fittings",
+      "sub": "Professional installations in Footscray"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Footscray? We're Ready to Help.",
+  "aboutHeading": "40 Years Plumbing in Footscray",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 40 years of experience, RED ROBIN PLUMBING SERVICE PTY LTD has been serving the Footscray community with top-quality plumbing services. Our team of experts specialises in backflow testing, blocked drains, and hot water installations, ensuring your property's plumbing is in safe hands. We pride ourselves on delivering prompt and reliable solutions for both residential and commercial clients in Footscray and surrounding areas.",
+  "servicesHeading": "Our Comprehensive Plumbing Services",
+  "servicesSubheading": "Solutions for every plumbing need",
+  "servicesText": "We provide a full range of plumbing services to keep your system running smoothly. From emergency repairs to scheduled maintenance, our skilled plumbers in Footscray handle it all with professionalism and care.",
+  "services": [
+    {
+      "title": "Backflow Testing",
+      "desc": "We conduct thorough backflow testing to ensure your water supply is safe and compliant with regulations in Footscray."
+    },
+    {
+      "title": "Blocked Drains & Sewers",
+      "desc": "Our team quickly clears blocked drains and sewers, preventing further damage and restoring proper flow."
+    },
+    {
+      "title": "Carbon Monoxide Testing",
+      "desc": "Essential for safety, we perform carbon monoxide testing to detect any leaks in your plumbing system."
+    },
+    {
+      "title": "Hot Water Service Installations",
+      "desc": "We install and repair hot water systems efficiently, ensuring you have reliable hot water year-round."
+    },
+    {
+      "title": "Plumbing Gas Fittings",
+      "desc": "Our certified plumbers handle all gas fitting needs, from installations to repairs, safely and professionally."
+    },
+    {
+      "title": "Roofing Repairs & Guttering",
+      "desc": "We offer roofing repairs and guttering services to protect your property from water damage and leaks."
+    }
+  ],
+  "bannerHeading": "Plumbing Problems in Footscray? Call Red Robin Now.",
+  "bannerSubheading": "Fast response and expert solutions.",
+  "testimonialsHeading": "What Footscray Locals Say About Us",
+  "testimonialsSubheading": "Trusted plumbing services in the community",
+  "blogHeading": "Plumbing Tips for Footscray Residents",
+  "blogSubheading": "Insights from our plumbing experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you promptly",
+  "reviews": [
+    {
+      "text": "Red Robin Plumbing handled our backflow testing in Footscray with professionalism. Quick and efficient service.",
+      "name": "John Smith",
+      "role": "Footscray Homeowner"
+    },
+    {
+      "text": "They cleared our blocked drain promptly and at a reasonable cost. Highly recommend for any plumbing needs.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our hot water installation, Red Robin's 40 years of experience was evident. Excellent workmanship and reliable.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
