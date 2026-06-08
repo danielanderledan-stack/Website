@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Mr Mekanix",
+  "suburb": "Hoppers Crossing",
+  "phone": "0430 449 393",
+  "email": "mrmekanix@gmail.com",
+  "address": "15/29 Richards Rd, Hoppers Crossing VIC 3029",
+  "tagline": "Hoppers Crossing Mechanic Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hoppers Crossing Logbook Service",
+      "sub": "Expert car servicing to maintain warranty"
+    },
+    {
+      "title": "Brake & Engine Repairs",
+      "sub": "Trusted by local drivers"
+    },
+    {
+      "title": "Free Quotes for Melbourne's West",
+      "sub": "No job too big or small"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Hoppers Crossing?",
+  "aboutHeading": "Trusted Mechanic in Hoppers Crossing",
+  "aboutSubheading": "Quality car service and repair",
+  "aboutText": "Mr Mekanix provides expert car servicing and repairs in Hoppers Crossing, Melbourne. With a focus on logbook services, general car maintenance, and diagnostics, we ensure your vehicle runs smoothly. Our team is dedicated to delivering prompt and reliable service to local drivers. Visit us at 15/29 Richards Rd, Hoppers Crossing, for all your automotive needs.",
+  "servicesHeading": "Our Automotive Services",
+  "servicesSubheading": "Comprehensive car care",
+  "servicesText": "We offer a wide range of automotive services in Hoppers Crossing, including logbook servicing to maintain your warranty, general car repairs for routine maintenance, and specialist diagnostics to identify issues quickly. Our team ensures efficient and reliable service for all vehicle makes and models.",
+  "services": [
+    {
+      "title": "Logbook Service",
+      "desc": "Maintain your vehicle's warranty with our authorised logbook servicing, performed to manufacturer specifications in Hoppers Crossing."
+    },
+    {
+      "title": "General Car Service",
+      "desc": "Comprehensive car servicing including oil changes, filter replacements, and fluid checks to keep your car running smoothly."
+    },
+    {
+      "title": "Brake Repair",
+      "desc": "Expert brake inspections, pad replacements, and rotor resurfacing for safe and reliable stopping power."
+    },
+    {
+      "title": "Battery Replacement",
+      "desc": "Fast battery testing and replacement services to ensure your car starts every time, with quality batteries installed."
+    },
+    {
+      "title": "Suspension Repair",
+      "desc": "Diagnosis and repair of suspension components for improved ride comfort and handling on Melbourne roads."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to identify engine faults quickly, with accurate repairs to restore performance."
+    }
+  ],
+  "bannerHeading": "Hoppers Crossing Mechanic Services",
+  "bannerSubheading": "Expert repairs and maintenance for your vehicle",
+  "testimonialsHeading": "What Our Customers Say",
+  "testimonialsSubheading": "Trusted by local drivers",
+  "blogHeading": "Auto Care Tips & News",
+  "blogSubheading": "From the Mr Mekanix team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for all your car servicing needs",
+  "reviews": [
+    {
+      "text": "Mr Mekanix did a fantastic job on my logbook service. The team was prompt and professional, ensuring my car was serviced correctly. Highly recommend for anyone in Hoppers Crossing.",
+      "name": "James Wilson",
+      "role": "Hoppers Crossing Homeowner"
+    },
+    {
+      "text": "I took my car for brake repair and was impressed with the quick turnaround and fair pricing. Excellent work by the mechanics.",
+      "name": "Emma Brown",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Great experience with engine diagnostics at Mr Mekanix. They identified the issue quickly and had my car running smoothly again. Trusted service in Melbourne's west.",
+      "name": "David Lee",
+      "role": "Property Manager"
+    }
+  ]
+}
