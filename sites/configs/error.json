@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Error",
+  "suburb": "Albion",
+  "phone": "03 9321 6543",
+  "email": "info@errorlandscaping.com.au",
+  "address": "Ballarat Rd, Albion VIC 3020",
+  "tagline": "Albion's Gardening Specialists",
+  "primaryColor": "#3b5998",
+  "primaryColorRgb": "59, 89, 152",
+  "primaryColorHover": "#2f477a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Albion's Premier Landscapers",
+      "sub": "Serving the community for years"
+    },
+    {
+      "title": "Lawn Mowing & Garden Maintenance",
+      "sub": "Expert care for your outdoor space"
+    },
+    {
+      "title": "Transform Your Garden in Albion",
+      "sub": "Free quotes and consultations"
+    }
+  ],
+  "ctaHeading": "Albion's Garden Experts Are Here",
+  "aboutHeading": "Professional Gardening Services in Albion",
+  "aboutSubheading": "Local, Reliable & Passionate",
+  "aboutText": "With over 10 years of experience in Albion, Error Landscaping has been transforming gardens across the area. Our team is dedicated to providing high-quality lawn care, garden maintenance, and landscaping design tailored to the local climate and soil. We pride ourselves on reliable service and attention to detail, ensuring your outdoor space looks its best all year round.",
+  "servicesHeading": "Our Gardening Services",
+  "servicesSubheading": "Expert care for every garden",
+  "servicesText": "From routine lawn mowing to complete garden makeovers, we handle it all. Our services are designed to keep your property beautiful and healthy, using sustainable practices suitable for Albion's environment.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Regular mowing services to keep your lawn neat and tidy, ideal for residential and commercial properties in Albion."
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Comprehensive care including pruning, weeding, and fertilising to maintain a vibrant garden throughout the seasons."
+    },
+    {
+      "title": "Landscaping Design",
+      "desc": "Custom design and installation of garden features, plants, and hardscapes to enhance your outdoor living area."
+    },
+    {
+      "title": "Planting & Mulching",
+      "desc": "Professional planting of trees, shrubs, and flowers, along with mulching to improve soil health and moisture retention."
+    },
+    {
+      "title": "Hedge Trimming",
+      "desc": "Precise trimming and shaping of hedges and bushes to define boundaries and add aesthetic appeal to your property."
+    },
+    {
+      "title": "Weed & Pest Control",
+      "desc": "Effective management of weeds and pests using eco-friendly methods to protect your plants and lawn."
+    }
+  ],
+  "bannerHeading": "Get a Free Quote for Gardening in Albion",
+  "bannerSubheading": "We respond quickly to all inquiries",
+  "testimonialsHeading": "What Albion Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Gardening Tips & Advice",
+  "blogSubheading": "From our team to you",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're here to help with your gardening needs",
+  "reviews": [
+    {
+      "text": "Error Landscaping did an excellent job with our lawn mowing and garden cleanup in Albion. They were punctual and left the yard looking fantastic. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Albion Homeowner"
+    },
+    {
+      "text": "We hired Error Landscaping for a complete garden redesign, and they transformed our outdoor space beautifully. Their attention to detail and local knowledge made all the difference.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Albion, I rely on Error Landscaping for regular maintenance of multiple properties. Their reliable service and fair pricing keep me coming back.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
