@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Black Bull Electrical",
+  "suburb": "Yarraville",
+  "phone": "1300761024",
+  "email": "user@domain.com",
+  "address": "Unit 30/10 Cawley Rd, Yarraville VIC 3013",
+  "tagline": "Yarraville's Trusted Electrical & Air Conditioning Experts",
+  "primaryColor": "#1e88e5",
+  "primaryColorRgb": "30, 136, 229",
+  "primaryColorHover": "#1565c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Yarraville's Electrical & HVAC Specialists",
+      "sub": "24/7 reliable services across Melbourne's west"
+    },
+    {
+      "title": "Solar, Air Conditioning & Property Care",
+      "sub": "Comprehensive solutions for homes and businesses"
+    },
+    {
+      "title": "Trusted by Local Families Since Day One",
+      "sub": "Free quotes in Yarraville and surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician or HVAC in Yarraville?",
+  "aboutHeading": "Your Local Electrical & HVAC Experts",
+  "aboutSubheading": "Serving Yarraville with Pride",
+  "aboutText": "Black Bull Electrical has been serving Yarraville and the surrounding suburbs for over a decade, specialising in electrical, solar, and air conditioning services. Our team is dedicated to providing reliable and efficient solutions for both residential and commercial properties. We believe in giving back to the local community, ensuring every job is done with care and professionalism. With 24/7 availability, we are always ready to assist with any property maintenance needs.",
+  "servicesHeading": "Our Range of Services",
+  "servicesSubheading": "Expert Solutions for Every Need",
+  "servicesText": "From electrical installations to solar panel systems and air conditioning repairs, Black Bull Electrical covers it all. We offer comprehensive property maintenance to keep your home or business running smoothly. Our specialised team ensures high-quality workmanship across all services.",
+  "services": [
+    {
+      "title": "Electrical Services",
+      "desc": "Complete electrical solutions for homes and businesses, including wiring, repairs, and upgrades in Yarraville."
+    },
+    {
+      "title": "Solar Installation",
+      "desc": "Efficient solar panel systems to reduce energy costs and carbon footprint for local properties."
+    },
+    {
+      "title": "Air Conditioning",
+      "desc": "Expert installation, repair, and maintenance of air conditioning systems for year-round comfort."
+    },
+    {
+      "title": "Property Maintenance",
+      "desc": "General upkeep and repair services to keep your property in top condition across Melbourne's west."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Safe and certified installation of electric vehicle chargers for convenient home charging solutions."
+    },
+    {
+      "title": "Emergency Electrical",
+      "desc": "24/7 emergency call-out for urgent electrical issues in Yarraville and nearby suburbs."
+    }
+  ],
+  "bannerHeading": "Need Reliable HVAC or Electrical Help?",
+  "bannerSubheading": "Fast, affordable service with no hidden costs.",
+  "testimonialsHeading": "What Yarraville Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Tips & News from Black Bull Electrical",
+  "blogSubheading": "Stay informed about electrical and HVAC trends",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within the hour",
+  "reviews": [
+    {
+      "text": "Black Bull Electrical installed our solar panels in Yarraville, and the team was professional and efficient. Our energy bills have dropped significantly since then. Highly recommend their services to any homeowner.",
+      "name": "Mike Johnson",
+      "role": "Yarraville Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Black Bull for all my air conditioning maintenance. Their 24/7 availability means I never have to worry about downtime. Excellent service and fair pricing.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The property maintenance team from Black Bull has been maintaining our rental properties for years. They are reliable and do quality work every time. A trusted partner for property managers.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
