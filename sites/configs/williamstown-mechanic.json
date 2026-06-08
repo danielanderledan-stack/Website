@@ -1,0 +1,85 @@
+{
+  "siteType": "concreter",
+  "businessName": "Williamstown Mechanic",
+  "suburb": "Williamstown North",
+  "phone": "0424982934",
+  "email": "support@webador.com",
+  "address": "Unit 3/12 Macaulay St, Williamstown North VIC 3016",
+  "tagline": "Williamstown North's Go-To Mechanics",
+  "primaryColor": "#4caac9",
+  "primaryColorRgb": "76, 170, 201",
+  "primaryColorHover": "#439ab9",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Williamstown North's Go-To Mechanics",
+      "sub": "18 years of trusted automotive service"
+    },
+    {
+      "title": "Car Tune-Ups, Brake Repairs & Engine Diagnostics",
+      "sub": "Specialised services for all makes and models"
+    },
+    {
+      "title": "Affordable & Reliable Car Care",
+      "sub": "Free quotes in Williamstown North & surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Williamstown North?",
+  "aboutHeading": "18 Years Mechanic Excellence in Williamstown North",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "With 18 years of experience serving Williamstown North and the greater Melbourne area, Williamstown Mechanic has built a reputation for trusted, affordable automotive care. Our team specialises in everything from routine tune-ups to complex engine diagnostics, ensuring your vehicle runs smoothly. We are committed to customer satisfaction, making us the preferred choice for local car owners.",
+  "servicesHeading": "What We Specialise In",
+  "servicesSubheading": "Comprehensive car care for Williamstown North",
+  "servicesText": "At Williamstown Mechanic, we offer a full range of automotive services to keep your vehicle in top condition. From basic maintenance to advanced diagnostics, our skilled mechanics use the latest tools and techniques. We serve Williamstown North and surrounding suburbs with reliable, affordable solutions.",
+  "services": [
+    {
+      "title": "Car Tune-Up",
+      "desc": "We perform comprehensive tune-ups to optimise your engine's performance, fuel efficiency, and overall reliability for all vehicle makes."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Our brake repair services include inspection, pad replacement, and rotor resurfacing to ensure your safety on the road."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Using advanced diagnostic tools, we accurately identify and fix engine issues to prevent further damage and costly repairs."
+    },
+    {
+      "title": "Oil Change & Service",
+      "desc": "Regular oil changes with high-quality oils to keep your engine lubricated and running smoothly between major services."
+    },
+    {
+      "title": "Transmission Service",
+      "desc": "We provide transmission flushes, repairs, and maintenance to ensure smooth gear shifts and prolong your vehicle's life."
+    },
+    {
+      "title": "Battery & Electrical",
+      "desc": "From battery testing to alternator repairs, we handle all electrical system issues to keep your car starting reliably."
+    }
+  ],
+  "bannerHeading": "Williamstown North's Mechanic Experts",
+  "bannerSubheading": "Fast, affordable car care for your vehicle",
+  "testimonialsHeading": "What Williamstown Locals Say",
+  "testimonialsSubheading": "Trusted by car owners across the area",
+  "blogHeading": "Car Maintenance Tips & News",
+  "blogSubheading": "Expert advice from our mechanics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly to your enquiry",
+  "reviews": [
+    {
+      "text": "I've been taking my car to Williamstown Mechanic for years, and their brake repairs are always top-notch. The team is professional and honest, making them my go-to in Williamstown North.",
+      "name": "John Smith",
+      "role": "Williamstown North Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on timely vehicle maintenance. Williamstown Mechanic's engine diagnostics saved my van from a major breakdown, and their service was quick and affordable.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The transmission service I received at Williamstown Mechanic was excellent. They explained everything clearly, and my car runs like new. Highly recommend for anyone in the Melbourne west area.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
