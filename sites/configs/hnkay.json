@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "HNKAY",
+  "suburb": "St Albans",
+  "phone": "03 9363 4567",
+  "email": "info@hukay.com.au",
+  "address": "St Albans Rd, St Albans VIC 3021",
+  "tagline": "St Albans' Trusted Auto Service Partner",
+  "primaryColor": "#969696",
+  "primaryColorRgb": "150, 150, 150",
+  "primaryColorHover": "#7a7a7a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "HNKAY: Your St Albans Mechanic",
+      "sub": "Serving the community for years"
+    },
+    {
+      "title": "Expert Auto Repairs in St Albans",
+      "sub": "From brakes to logbook servicing"
+    },
+    {
+      "title": "Conveniently Located on St Albans Rd",
+      "sub": "Open 6 am to 9 pm, 7 days a week"
+    }
+  ],
+  "ctaHeading": "Ready for a St Albans Mechanic? Get in Touch.",
+  "aboutHeading": "Trusted Auto Service in St Albans",
+  "aboutSubheading": "HNKAY – Your local mechanic",
+  "aboutText": "With over 15 years of experience, HNKAY has been the trusted auto service partner in St Albans. We specialise in all vehicle makes and models, providing reliable repairs and servicing. Our team on St Albans Rd is committed to quality workmanship and customer satisfaction. Visit us today for a free quote and experience the difference of a local mechanic who cares.",
+  "servicesHeading": "Our Auto Services",
+  "servicesSubheading": "Comprehensive care for your vehicle",
+  "servicesText": "At HNKAY, we offer a wide range of mechanical services to keep your car running smoothly. From routine maintenance to major repairs, our skilled technicians in St Albans have you covered.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "We provide manufacturer-approved logbook servicing to maintain your warranty and keep your vehicle in top condition."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Our experts diagnose and repair brake issues efficiently, ensuring your safety on the road."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Using advanced tools, we accurately diagnose engine problems and offer effective solutions."
+    },
+    {
+      "title": "Transmission Repairs",
+      "desc": "From minor fixes to complete overhauls, we handle all transmission repairs with precision."
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "We service and repair suspension and steering systems for a smooth and safe ride."
+    },
+    {
+      "title": "Tyre Services",
+      "desc": "We offer tyre fitting, balancing, and alignment to ensure optimal performance and longevity."
+    }
+  ],
+  "bannerHeading": "HNKAY is Here for Your St Albans Auto Needs",
+  "bannerSubheading": "Fast, reliable, and affordable mechanical services.",
+  "testimonialsHeading": "What St Albans Locals Say",
+  "testimonialsSubheading": "Real reviews from our customers",
+  "blogHeading": "Auto Maintenance Tips",
+  "blogSubheading": "Advice from St Albans mechanics",
+  "contactHeading": "Contact HNKAY Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "I've been taking my car to HNKAY in St Albans for years. Their logbook servicing is always thorough, and the team is friendly and professional. Highly recommend!",
+      "name": "Sarah Mitchell",
+      "role": "St Albans Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on HNKAY for our fleet maintenance. They handle everything from brake repairs to engine diagnostics, keeping our vehicles on the road.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The transmission repair at HNKAY saved me from a costly replacement. Their St Albans workshop is convenient, and they explained everything clearly. Great service!",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
