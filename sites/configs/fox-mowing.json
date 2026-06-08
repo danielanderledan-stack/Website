@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Fox Mowing",
+  "suburb": "West Footscray",
+  "phone": "1800 369 669",
+  "email": "fox@foxmowing.com.au",
+  "address": "19, Industry Park Drive, Brooklyn, Melbourne, Victoria, 3012, Australia",
+  "tagline": "West Footscray's Lawn Mowing Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00c074",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fox Mowing in West Footscray",
+      "sub": "Decades of lawn care experience"
+    },
+    {
+      "title": "Mowing, Pruning & Garden Maintenance",
+      "sub": "Expertise across Melbourne's west"
+    },
+    {
+      "title": "Your Local West Footscray Gardeners",
+      "sub": "Free quotes for all services"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote from West Footscray's Mowing Experts",
+  "aboutHeading": "About Fox Mowing in West Footscray",
+  "aboutSubheading": "Local operators, decades of experience",
+  "aboutText": "Fox Mowing comprises passionate lawn and garden maintenance professionals with decades of experience. Based in West Footscray, we locally operate and know the area well. Our team services areas like Footscray, Seddon, Brooklyn, and more, offering everything from regular mowing to expert pruning and landscaping. With Fox Mowing, you're dealing with dedicated local operators who love keeping your garden in top shape.",
+  "servicesHeading": "Our Lawn & Garden Services",
+  "servicesSubheading": "Comprehensive care for your outdoor space",
+  "servicesText": "We offer a full range of lawn care services, from weekly mowing to seasonal pruning. Our team handles block maintenance, slashing, and complete landscaping projects. Whether it's a small garden or a large property, Fox Mowing has you covered.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Regular mowing services to keep your lawn neat and healthy. We mow, edge, and tidy up for a perfect finish."
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Comprehensive gardening tasks including weeding, mulching, and general upkeep to maintain your garden's beauty."
+    },
+    {
+      "title": "Expert Pruning",
+      "desc": "Professional pruning for trees, shrubs, and hedges to promote growth and enhance your garden's appearance."
+    },
+    {
+      "title": "Block Maintenance",
+      "desc": "Maintenance for larger blocks of land, including clearing, trimming, and general upkeep for vacant or developed areas."
+    },
+    {
+      "title": "Slashing Services",
+      "desc": "Heavy-duty slashing for overgrown grass and weeds on properties, ensuring clear and safe outdoor spaces."
+    },
+    {
+      "title": "Landscaping",
+      "desc": "Complete landscaping solutions from design to installation, creating stunning outdoor environments tailored to your needs."
+    }
+  ],
+  "bannerHeading": "Need Mowing in West Footscray?",
+  "bannerSubheading": "We're here to help with all your lawn care needs.",
+  "testimonialsHeading": "What West Footscray Locals Say",
+  "testimonialsSubheading": "Real reviews from our customers",
+  "blogHeading": "Lawn Care Tips & News",
+  "blogSubheading": "Advice from Fox Mowing",
+  "contactHeading": "Contact Fox Mowing Today",
+  "contactSubheading": "Get a free quote or ask us anything",
+  "reviews": [
+    {
+      "text": "Fox Mowing did an excellent job mowing my lawn in West Footscray. They were on time, efficient, and the yard looks fantastic. Highly recommend their services!",
+      "name": "Mark Thompson",
+      "role": "West Footscray Homeowner"
+    },
+    {
+      "text": "I hired Fox for garden maintenance and pruning. The team was professional and transformed my backyard. Their attention to detail is impressive.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Fox Mowing for regular lawn care at multiple sites. They are reliable, affordable, and always deliver quality work.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
