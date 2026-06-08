@@ -148,7 +148,7 @@
       +'</div>';
     document.body.appendChild(ov);
     requestAnimationFrame(function(){ov.style.opacity="1";ov.firstChild.style.transform="scale(1)";});
-    function dismiss(){ov.style.opacity="0";setTimeout(function(){if(ov.parentNode)ov.parentNode.removeChild(ov);showBurger();},250);}
+    function dismiss(){ov.style.opacity="0";setTimeout(function(){if(ov.parentNode)ov.parentNode.removeChild(ov);},250);}
     document.getElementById("cd-fyi-x").onclick=dismiss;
     ov.addEventListener("click",function(e){if(e.target===ov)dismiss();});
     document.getElementById("cd-fyi-go").onclick=function(){try{window.__cdTrack&&window.__cdTrack("fyi_see_website")}catch(e){}dismiss();};
