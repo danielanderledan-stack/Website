@@ -1,0 +1,85 @@
+{
+  "siteType": "concreter",
+  "businessName": "Melbourne Concrete Co.",
+  "suburb": "Melbourne",
+  "phone": "03 9000 1234",
+  "email": "info@melbconcreteco.com.au",
+  "address": "Forty South Road, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Concreters",
+  "primaryColor": "#111111",
+  "primaryColorRgb": "17, 17, 17",
+  "primaryColorHover": "#0e0e0e",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Concrete Experts",
+      "sub": "Serving the city and suburbs"
+    },
+    {
+      "title": "Driveways, Slabs & Exposed Aggregate",
+      "sub": "Domestic & commercial projects"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Melbourne"
+    }
+  ],
+  "ctaHeading": "Get a Quote from Melbourne's Concreters",
+  "aboutHeading": "Over 10 Years Concreting in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 10 years of experience, we have been providing top-quality concreting services to Melbourne and its surrounding areas. Our team is dedicated to delivering reliable and durable concrete solutions for both residential and commercial projects. We take pride in our craftsmanship and customer satisfaction, ensuring every job is done right the first time.",
+  "servicesHeading": "Our Concrete Services",
+  "servicesSubheading": "Expert solutions for every project",
+  "servicesText": "We offer a comprehensive range of concreting services tailored to Melbourne's needs. From small residential repairs to large commercial installations, our team has the skills and equipment to handle it all. We use high-quality materials to ensure long-lasting results.",
+  "services": [
+    {
+      "title": "Concrete Driveways",
+      "desc": "We install durable and attractive concrete driveways for homes and businesses across Melbourne."
+    },
+    {
+      "title": "Concrete Slabs",
+      "desc": "Our expert team lays solid concrete slabs for foundations, flooring, and other structures."
+    },
+    {
+      "title": "Exposed Aggregate",
+      "desc": "Get a stylish finish with our exposed aggregate concrete, perfect for paths and patios."
+    },
+    {
+      "title": "Stamped Concrete",
+      "desc": "Transform your space with stamped concrete that mimics brick, stone, or tile patterns."
+    },
+    {
+      "title": "Concrete Repair",
+      "desc": "We fix cracks, holes, and damage to restore the look and strength of your concrete surfaces."
+    },
+    {
+      "title": "Foundations",
+      "desc": "We provide reliable foundation concreting for new builds and extensions in Melbourne."
+    }
+  ],
+  "bannerHeading": "Need a Concreter in Melbourne?",
+  "bannerSubheading": "We're here to help with all your concreting projects.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Quality work at fair prices",
+  "blogHeading": "Concreting News & Tips",
+  "blogSubheading": "Updates from our Melbourne team",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "Quick response guaranteed",
+  "reviews": [
+    {
+      "text": "We had our driveway done by Melbourne Concrete Co. and it looks fantastic. They were professional and completed the job on time. Highly recommend for anyone in Melbourne.",
+      "name": "John Smith",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed a reliable concreter for my shop front. The team did an excellent job with the exposed aggregate, and it's held up well over time.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managed a property in Melbourne and used these guys for concrete repairs. They were efficient and the quality was top-notch. Will use again for future projects.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
