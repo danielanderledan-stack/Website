@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Business Directory",
+  "suburb": "Albanvale",
+  "phone": "0412 345 678",
+  "email": "info@businessdirectory.com.au",
+  "address": "Enfield St, Albanvale VIC 3021",
+  "tagline": "Albanvale's Trusted Plumbing Experts",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#005599",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Albanvale's Go-To Plumbers",
+      "sub": "Serving Albanvale and surrounding suburbs for over a decade"
+    },
+    {
+      "title": "24/7 Emergency Plumbing Repairs",
+      "sub": "Always open, always ready to help"
+    },
+    {
+      "title": "Expert Plumbing Installations & Maintenance",
+      "sub": "From hot water systems to drain solutions"
+    }
+  ],
+  "ctaHeading": "Albanvale's plumbers are here to help you now.",
+  "aboutHeading": "Reliable Plumbing in Albanvale",
+  "aboutSubheading": "Your local licensed experts",
+  "aboutText": "Business Directory has been the trusted plumber in Albanvale for over 12 years, offering prompt and professional services to homes and businesses. We specialise in everything from emergency repairs to routine maintenance, ensuring your plumbing needs are met with quality workmanship. Our team is committed to serving the Albanvale community with honesty and reliability.",
+  "servicesHeading": "What We Do as Plumbers",
+  "servicesSubheading": "Tailored solutions for Albanvale",
+  "servicesText": "We provide a full range of plumbing services to Albanvale residents and commercial clients. Our experienced team handles all jobs with precision, using local knowledge to deliver efficient outcomes.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Immediate response for burst pipes, overflows, and urgent leaks in Albanvale."
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Clearing and repair of blocked drains to restore flow quickly."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, servicing, and repairs for all hot water unit types."
+    },
+    {
+      "title": "Leak Detection",
+      "desc": "Advanced methods to find and fix hidden leaks accurately."
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless solutions for damaged pipes without excavation."
+    },
+    {
+      "title": "General Plumbing",
+      "desc": "Repairs, installations, and maintenance for taps, toilets, and more."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Albanvale?",
+  "bannerSubheading": "Fast, affordable service for your home or business.",
+  "testimonialsHeading": "What Albanvale Locals Say",
+  "testimonialsSubheading": "Honest work, great results",
+  "blogHeading": "Plumbing Advice & Updates",
+  "blogSubheading": "Tips from our Albanvale team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within the hour",
+  "reviews": [
+    {
+      "text": "Business Directory fixed our leaking tap in Albanvale within hours. Their quick response and clear communication made the process stress-free. Highly recommended for any plumbing issue.",
+      "name": "David Chen",
+      "role": "Albanvale Homeowner"
+    },
+    {
+      "text": "As a café owner in Albanvale, I depend on their emergency plumbing for our kitchen. They handle blockages and installations professionally, keeping our business running smoothly.",
+      "name": "Emma O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing rental properties across Albanvale, I use their services for all maintenance. They are reliable, fairly priced, and always deliver quality work on time.",
+      "name": "James Mitchell",
+      "role": "Property Manager"
+    }
+  ]
+}
