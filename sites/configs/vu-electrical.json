@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "VU ELECTRICAL",
+  "suburb": "Sunshine North",
+  "phone": "0480 030 290",
+  "email": "bootstrap@5.3.2",
+  "address": "51A Knight Ave, Sunshine North VIC 3020",
+  "tagline": "Sunshine North's 24/7 Emergency Electricians",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6500b8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunshine North's 24/7 Electrical Experts",
+      "sub": "Emergency repairs when you need them most"
+    },
+    {
+      "title": "Safety Switch & Fire Protection Services",
+      "sub": "Keeping Sunshine North homes and businesses safe"
+    },
+    {
+      "title": "Generator Installations & Energy Upgrades",
+      "sub": "Reliable solutions across Melbourne's west"
+    }
+  ],
+  "ctaHeading": "Sunshine North's electricians are ready — call now.",
+  "aboutHeading": "VU Electrical in Sunshine North",
+  "aboutSubheading": "Licensed, available 24/7",
+  "aboutText": "VU Electrical has been serving Sunshine North and surrounding suburbs with dedicated emergency electrical services for over a decade. Our skilled electricians specialize in installing safety switches, repairing faults, and providing fire protection systems. We understand the importance of quick response times, especially in emergencies, which is why we offer round-the-clock availability to address your electrical needs promptly and professionally.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for all needs",
+  "servicesText": "At VU Electrical, we offer a comprehensive range of electrical services including emergency call-outs, routine repairs, and system installations. Our team is equipped to handle everything from generator setups to energy-efficient upgrades, ensuring optimal performance and safety for your property.",
+  "services": [
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "Available 24/7 for urgent electrical issues in Sunshine North and Melbourne. We respond quickly to restore safety and power."
+    },
+    {
+      "title": "Electrical Repairs",
+      "desc": "Expert diagnosis and repair of electrical faults, ensuring your systems function efficiently and safely for long-term reliability."
+    },
+    {
+      "title": "Fire Protection Systems",
+      "desc": "Installation and maintenance of fire protection services to safeguard your property against electrical hazards in Sunshine North."
+    },
+    {
+      "title": "Generator Installations",
+      "desc": "Setup of home standby generators to provide backup power during outages, tailored to your specific needs and usage."
+    },
+    {
+      "title": "Safety Switch Installation",
+      "desc": "Protect your family and appliances with RCD safety switches that detect and prevent electric shocks within 0.03 seconds."
+    },
+    {
+      "title": "Energy-Efficient Upgrades",
+      "desc": "Upgrade your lighting and systems to energy-efficient solutions, reducing costs and environmental impact for your property."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Sunshine North?",
+  "bannerSubheading": "We're just a call away for any electrical issue.",
+  "testimonialsHeading": "What Sunshine North Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "From the VU Electrical team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond fast to all enquiries",
+  "reviews": [
+    {
+      "text": "VU Electrical responded to our emergency in Sunshine North within 30 minutes. Their electrician fixed the fault quickly and explained everything clearly. Highly recommend their 24/7 service!",
+      "name": "David Thompson",
+      "role": "Sunshine North Homeowner"
+    },
+    {
+      "text": "We had VU Electrical install a standby generator at our business in Sunshine North. The installation was smooth, and the team was professional. Great service for commercial needs.",
+      "name": "Emma Clarke",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Melbourne, I rely on VU Electrical for regular electrical safety checks and repairs. Their prompt response and professional work have made them our trusted partner for maintaining tenant safety.",
+      "name": "Chris O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
