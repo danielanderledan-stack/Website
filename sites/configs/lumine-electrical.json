@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Lumine Electrical",
+  "suburb": "Moonee Ponds",
+  "phone": "0481199089",
+  "email": "admin@lumineelectrical.com.au",
+  "address": "Dean Street, Moonee Ponds, Melbourne, Victoria, 3039, Australia",
+  "tagline": "Moonee Ponds' Trusted Electricians",
+  "primaryColor": "#009ef4",
+  "primaryColorRgb": "0, 158, 244",
+  "primaryColorHover": "#008cd4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Moonee Ponds' Go-To Electricians",
+      "sub": "24/7 service across Melbourne"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "From rewiring to new installations"
+    },
+    {
+      "title": "Trusted by Moonee Ponds Since Day One",
+      "sub": "Free quotes for locals and surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Moonee Ponds? Contact Us Today.",
+  "aboutHeading": "Lumine Electrical: Moonee Ponds' Experts",
+  "aboutSubheading": "Licensed and Reliable",
+  "aboutText": "Lumine Electrical has been serving the Moonee Ponds community with top-notch electrical services. Our team of licensed electricians is dedicated to providing reliable and efficient solutions for all your electrical needs. From residential repairs to commercial installations, we ensure safety and quality in every project.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions",
+  "servicesText": "Lumine Electrical offers a comprehensive range of electrical services in Moonee Ponds. Whether it's residential, commercial, or emergency work, our qualified electricians are ready to help. We ensure all work meets Australian standards and is completed efficiently.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Expert wiring, repairs, and installations for homes in Moonee Ponds and Melbourne."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical solutions for businesses, including fit-outs and maintenance."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency service for urgent electrical issues across Moonee Ponds."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modern switchboard installations to enhance safety and efficiency in properties."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional lighting setup for indoor and outdoor spaces, improving ambiance and functionality."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety checks to ensure compliance and prevent hazards."
+    }
+  ],
+  "bannerHeading": "Trusted Electricians in Moonee Ponds",
+  "bannerSubheading": "Quality workmanship and fair pricing",
+  "testimonialsHeading": "What Moonee Ponds Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from the Lumine team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Lumine Electrical did a fantastic job rewiring our home in Moonee Ponds. Their team was professional and completed the work on time. Highly recommend for any electrical needs.",
+      "name": "John Smith",
+      "role": "Moonee Ponds Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Lumine Electrical for all our commercial electrical maintenance. They are always reliable and provide excellent service.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We had Lumine Electrical install new lighting in our property. The quality of work was outstanding, and they were very knowledgeable and efficient.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
