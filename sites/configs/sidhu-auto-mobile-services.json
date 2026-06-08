@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Sidhu Auto Mobile Services",
+  "suburb": "Sunshine West",
+  "phone": "+61424740275",
+  "email": "sidhuautomobiles.2016@gmail.com",
+  "address": "94 Proximity Dr, Sunshine West VIC 3020",
+  "tagline": "Sunshine West's Truck Repair Experts",
+  "primaryColor": "#0073aa",
+  "primaryColorRgb": "0, 115, 170",
+  "primaryColorHover": "#005a88",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunshine West's Trusted Mechanics",
+      "sub": "Over 14 years servicing Melbourne"
+    },
+    {
+      "title": "Truck & Auto Repair Specialists",
+      "sub": "All makes, all models, all the time"
+    },
+    {
+      "title": "24/7 Service in Sunshine West",
+      "sub": "Open around the clock for your needs"
+    }
+  ],
+  "ctaHeading": "Need Auto Repair in Sunshine West?",
+  "aboutHeading": "14 Years Auto Repair in Sunshine West",
+  "aboutSubheading": "Family-owned & 24/7",
+  "aboutText": "Sidhu Auto Mobile Services has been serving Sunshine West and Melbourne since 2010. With over 14 years of experience, our family-owned shop provides comprehensive auto repair for all vehicles, including trucks and trailers. Our expert technicians handle everything from routine maintenance to complex engine rebuilds, ensuring your vehicle runs like new. We pride ourselves on affordable rates and trustworthy service.",
+  "servicesHeading": "What We Repair",
+  "servicesSubheading": "Comprehensive Auto Care",
+  "servicesText": "We specialise in truck and auto repair, offering everything from general maintenance to major overhauls. Our services cover all makes and models, ensuring top-quality work at reasonable rates.",
+  "services": [
+    {
+      "title": "General Auto Repair",
+      "desc": "From brake fixes to suspension work, we handle all general auto repairs efficiently for your car or truck."
+    },
+    {
+      "title": "Truck & Trailer Service",
+      "desc": "Specialised in HR, MC, and all trailer repairs for commercial and private vehicles in Melbourne."
+    },
+    {
+      "title": "Engine Rebuilding",
+      "desc": "Expert engine rebuilding services to restore power and performance to your vehicle when needed."
+    },
+    {
+      "title": "Transmission Services",
+      "desc": "Transmission flushes and repairs to keep your vehicle shifting smoothly and avoid breakdowns."
+    },
+    {
+      "title": "Routine Maintenance",
+      "desc": "Oil changes, filters, and scheduled maintenance to prevent costly repairs and extend vehicle life."
+    },
+    {
+      "title": "Electrical Diagnostics",
+      "desc": "Complex electrical work and diagnostics for all automotive systems, from wiring to software."
+    }
+  ],
+  "bannerHeading": "Sunshine West's 24-Hour Auto Repair",
+  "bannerSubheading": "We're here when you need us, day or night",
+  "testimonialsHeading": "What Sunshine West Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Auto Repair Tips & News",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Sidhu Auto Mobile Services fixed my truck's transmission last week in Sunshine West. Quick, reliable, and affordable – I highly recommend them for any vehicle issues.",
+      "name": "John Smith",
+      "role": "Sunshine West Homeowner"
+    },
+    {
+      "text": "As a business owner, I rely on Sidhu for our fleet maintenance. Their expertise with HR and MC trucks is unmatched, and they always deliver on time.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I had a complex electrical issue with my car, and the team at Sidhu diagnosed and fixed it promptly. Great service and reasonable rates in Melbourne.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
