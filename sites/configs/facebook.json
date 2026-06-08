@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Facebook",
+  "suburb": "Tarneit",
+  "phone": "0412 345 678",
+  "email": "info@facebooklandscaping.com.au",
+  "address": "1000 Leakes Rd, Tarneit VIC 3029",
+  "tagline": "Tarneit's Landscape Design Experts",
+  "primaryColor": "#1877f2",
+  "primaryColorRgb": "24, 119, 242",
+  "primaryColorHover": "#2851a3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Tarneit's Landscape Design Experts",
+      "sub": "Creating beautiful outdoor spaces in Melbourne's west"
+    },
+    {
+      "title": "Gardens, Pavers & Outdoor Living",
+      "sub": "Residential and commercial landscaping"
+    },
+    {
+      "title": "Tailored Designs for Every Yard",
+      "sub": "Free consultations in Tarneit and surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Tarneit Garden?",
+  "aboutHeading": "Over 15 Years Landscaping in Tarneit",
+  "aboutSubheading": "Local expertise with a personal touch",
+  "aboutText": "With over 15 years of experience in landscape design, we have been transforming outdoor spaces across Tarneit and Melbourne's western suburbs. Our team specialises in creating functional and aesthetically pleasing gardens, using high-quality materials and sustainable practices. From initial consultation to final installation, we work closely with clients to bring their vision to life.",
+  "servicesHeading": "Our Landscaping Services",
+  "servicesSubheading": "Comprehensive outdoor solutions",
+  "servicesText": "We offer a wide range of landscaping services tailored to your needs, including garden design, hardscaping, and ongoing maintenance. Our solutions are designed to enhance the beauty and functionality of your outdoor space.",
+  "services": [
+    {
+      "title": "Garden Design",
+      "desc": "Custom garden plans designed to suit your lifestyle and property in Tarneit."
+    },
+    {
+      "title": "Landscaping Installation",
+      "desc": "Expert installation of plants, trees, and garden features for lasting beauty."
+    },
+    {
+      "title": "Paving & Hardscaping",
+      "desc": "Durable and stylish paving solutions for paths, driveways, and patios."
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Creation of functional outdoor areas for entertaining and relaxation."
+    },
+    {
+      "title": "Lawn Care & Maintenance",
+      "desc": "Regular lawn care services to keep your garden looking its best."
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "Efficient irrigation setup to maintain healthy gardens with minimal effort."
+    }
+  ],
+  "bannerHeading": "Need a Landscape Designer in Tarneit?",
+  "bannerSubheading": "Get a free quote for your outdoor project.",
+  "testimonialsHeading": "What Tarneit Clients Say",
+  "testimonialsSubheading": "Quality workmanship and friendly service",
+  "blogHeading": "Landscaping Tips for Tarneit Homes",
+  "blogSubheading": "Insights from our design team",
+  "contactHeading": "Contact Us for a Free Consultation",
+  "contactSubheading": "We're here to help with your landscaping needs.",
+  "reviews": [
+    {
+      "text": "The team at Facebook Landscaping did an amazing job redesigning our backyard in Tarneit. The new garden layout and paving have completely transformed our outdoor living space.",
+      "name": "Sarah Mitchell",
+      "role": "Tarneit Homeowner"
+    },
+    {
+      "text": "Professional and reliable service for our commercial property landscaping. They delivered on time and within budget, exceeding our expectations.",
+      "name": "James Carter",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent attention to detail in the garden installation. Our tenants love the new outdoor area, which has increased the property's appeal.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
