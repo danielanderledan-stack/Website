@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Coolwire",
+  "suburb": "Keilor East",
+  "phone": "03 7064 5599",
+  "email": "info@coolwire.com.au",
+  "address": "3 Cain Ave, Keilor East VIC 3033",
+  "tagline": "Keilor East's HVAC & Electrical Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Keilor East's Go-To HVAC Experts",
+      "sub": "Professional electrical & air-con services"
+    },
+    {
+      "title": "VEU Rebates & Energy Upgrades",
+      "sub": "Save with Victorian Energy Upgrades"
+    },
+    {
+      "title": "Eco-Friendly Comfort Solutions",
+      "sub": "Heating, cooling & electrical for homes"
+    }
+  ],
+  "ctaHeading": "Keilor East, ready for comfort?",
+  "aboutHeading": "Keilor East's Trusted HVAC & Electrical Team",
+  "aboutSubheading": "Local expertise, reliable service",
+  "aboutText": "Operating from Keilor East, Coolwire specialises in end-to-end HVAC and electrical solutions, ensuring your home stays comfortable year-round. Our licensed professionals offer installation, maintenance, repairs, and energy-efficient upgrades through the Victorian Energy Upgrades program. We take pride in our eco-friendly approach, serving Keilor East and surrounding suburbs with trusted expertise.",
+  "servicesHeading": "Our HVAC & Electrical Services",
+  "servicesSubheading": "Complete comfort solutions",
+  "servicesText": "Coolwire delivers a full range of HVAC and electrical services, from system installations and regular maintenance to emergency repairs and energy efficiency upgrades. We are VBA licensed and ARTICK certified, ensuring quality and compliance for every job in Keilor East.",
+  "services": [
+    {
+      "title": "HVAC Installation & Maintenance",
+      "desc": "From new installations to ongoing maintenance, we keep your heating and cooling systems running smoothly in Keilor East."
+    },
+    {
+      "title": "Electrical Services",
+      "desc": "Complete electrical services including repairs, outlet installations, metering upgrades, and more for Keilor East homes."
+    },
+    {
+      "title": "VEU Rebates & Energy Efficiency",
+      "desc": "We help you claim VEU rebates and implement energy-efficient upgrades to reduce costs and environmental impact."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your switchboard to meet current safety standards and handle increased electrical loads efficiently."
+    },
+    {
+      "title": "Planning & Design",
+      "desc": "Customised planning and design for HVAC and electrical systems tailored to your home's specific needs."
+    },
+    {
+      "title": "Inspection & Testing",
+      "desc": "Comprehensive inspection and testing services to ensure your systems are compliant and performing at their best."
+    }
+  ],
+  "bannerHeading": "Need HVAC Help in Keilor East?",
+  "bannerSubheading": "We're here to keep you comfortable.",
+  "testimonialsHeading": "What Keilor East Residents Say",
+  "testimonialsSubheading": "Trusted by locals for quality service",
+  "blogHeading": "HVAC Tips & News",
+  "blogSubheading": "Expert advice from Coolwire",
+  "contactHeading": "Get in Touch with Coolwire",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Coolwire did a fantastic job installing our new air conditioning system in Keilor East. The team was professional, on time, and left everything clean. Highly recommend their HVAC services.",
+      "name": "Mark Thompson",
+      "role": "Keilor East Homeowner"
+    },
+    {
+      "text": "We used Coolwire for switchboard upgrades at our business in St Albans. Their electrical expertise and attention to detail were impressive. They made sure everything was safe and up to code.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Thanks to Coolwire, we claimed VEU rebates for energy-efficient upgrades at our rental property. The process was smooth, and we've already seen savings on our energy bills. Great service!",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
