@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "InstallX",
+  "suburb": "Altona",
+  "phone": "0497 486 143",
+  "email": "user@domain.com",
+  "address": "19 Railway Street North, Altona VIC 3018",
+  "tagline": "Altona's Joinery Specialists",
+  "primaryColor": "#f39ca4",
+  "primaryColorRgb": "243, 156, 164",
+  "primaryColorHover": "#db8c94",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Altona's Architectural Joinery",
+      "sub": "Precision crafted for Melbourne's west"
+    },
+    {
+      "title": "Custom Joinery & Labour Hire",
+      "sub": "Residential and commercial services"
+    },
+    {
+      "title": "Your Vision, Our Mission",
+      "sub": "Free quotes in Altona and surrounds"
+    }
+  ],
+  "ctaHeading": "Ready for expert joinery in Altona?",
+  "aboutHeading": "Architectural Joinery Experts in Altona",
+  "aboutSubheading": "Serving Melbourne and Victoria",
+  "aboutText": "InstallX is Altona's specialist in architectural joinery, dedicated to crafting exceptional spaces with precision and care. Our team brings years of expertise to every project, serving both residential and commercial clients across Melbourne and Victoria. We focus on quality workmanship and reliable service to bring your vision to life.",
+  "servicesHeading": "Our Joinery Services",
+  "servicesSubheading": "Crafted with precision",
+  "servicesText": "We offer a comprehensive range of joinery services from custom cabinetry to full architectural installations. Our team combines skilled craftsmanship with efficient labour hire to deliver projects on time and to the highest standards.",
+  "services": [
+    {
+      "title": "Architectural Joinery",
+      "desc": "Specialising in custom architectural joinery, we design and install precision woodwork for homes and businesses across Altona."
+    },
+    {
+      "title": "Custom Cabinetry",
+      "desc": "From kitchen cabinets to storage units, our custom cabinetry is crafted with attention to detail and quality materials."
+    },
+    {
+      "title": "Kitchen Installations",
+      "desc": "We provide complete kitchen installation services, including cabinetry, countertops, and fittings, for a seamless finish."
+    },
+    {
+      "title": "Built-in Wardrobes",
+      "desc": "We design and install built-in wardrobes that optimise storage space, using high-quality materials and precise joinery techniques."
+    },
+    {
+      "title": "Commercial Joinery",
+      "desc": "For commercial clients, we deliver robust joinery solutions for offices, shops, and public spaces, on time and within budget."
+    },
+    {
+      "title": "Labour Hire Services",
+      "desc": "Our skilled labour hire team provides experienced joiners for your projects, ensuring efficient work and professional results."
+    }
+  ],
+  "bannerHeading": "Need Joinery in Altona?",
+  "bannerSubheading": "We're here to help with your project.",
+  "testimonialsHeading": "What Altona Locals Say",
+  "testimonialsSubheading": "Quality joinery, friendly service",
+  "blogHeading": "Joinery Insights & News",
+  "blogSubheading": "Tips from our team",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "We engaged InstallX for our kitchen renovation in Altona, and the result exceeded expectations. Their custom cabinetry work was precise and beautifully finished, making our kitchen truly special.",
+      "name": "John Smith",
+      "role": "Altona Homeowner"
+    },
+    {
+      "text": "InstallX provided exceptional commercial joinery services for our Melbourne office. The team was professional, the workmanship was excellent, and they completed the project within the tight deadline. We're very satisfied.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "InstallX assisted us with a large wardrobe installation project. Their labour hire service was reliable, and the joiners were skilled and courteous. The job was done efficiently and to a high standard.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
