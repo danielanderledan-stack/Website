@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electrical Commercial Services",
+  "suburb": "Sunshine West",
+  "phone": "03 9315 0000",
+  "email": "info@ecs.com.au",
+  "address": "14 E Circuit, Sunshine West VIC 3020",
+  "tagline": "Sunshine West's Electrical Experts",
+  "primaryColor": "#222222",
+  "primaryColorRgb": "34, 34, 34",
+  "primaryColorHover": "#1e1e1e",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "30 Years Electrical Excellence in Sunshine West",
+      "sub": "Trusted commercial services since day one"
+    },
+    {
+      "title": "Smarter, Safer LED Lighting Solutions",
+      "sub": "Energy-efficient installations for all spaces"
+    },
+    {
+      "title": "From Etihad Stadium to Your Business",
+      "sub": "Expert project management and electrical works"
+    }
+  ],
+  "ctaHeading": "Sunshine West electricians are ready — let's power your project.",
+  "aboutHeading": "30 Years Electrical Services in Sunshine West",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Electrical Commercial Services has been operating in Sunshine West for 30 years, specialising in commercial and industrial electrical solutions. Our team has extensive experience with LED installations, including the energy-efficient systems at Etihad Stadium that significantly reduce costs and adhere to green standards. We combine in-depth technical knowledge with project management excellence to deliver brighter, safer, and smarter spaces for our clients across Melbourne's west.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Electrical services done right",
+  "servicesText": "From LED lighting upgrades to full electrical maintenance, we offer comprehensive services tailored to Sunshine West businesses. Our solutions focus on energy efficiency, safety, and reliability, backed by decades of hands-on experience in the field.",
+  "services": [
+    {
+      "title": "LED Lighting Installations",
+      "desc": "Specialising in energy-efficient LED systems for commercial spaces, including underground parking and stadiums, reducing costs and environmental impact."
+    },
+    {
+      "title": "Electrical Maintenance & Repairs",
+      "desc": "Providing regular maintenance and prompt repair services to keep your electrical systems safe, efficient, and compliant with Australian standards."
+    },
+    {
+      "title": "Energy Audits & Efficiency Solutions",
+      "desc": "Conducting thorough energy audits to identify savings opportunities and implementing tailored solutions for reduced consumption and lower bills."
+    },
+    {
+      "title": "Commercial Fit-outs & Wiring",
+      "desc": "Handling complete electrical fit-outs for new offices, retail spaces, and industrial facilities, ensuring optimal functionality and safety."
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Performing detailed safety inspections to ensure your electrical installations meet all regulatory requirements and industry best practices."
+    },
+    {
+      "title": "Project Management for Electrical Works",
+      "desc": "Overseeing electrical projects from planning to completion, with a focus on timelines, budgets, and quality outcomes for large-scale installations."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Sunshine West?",
+  "bannerSubheading": "Supporting callout for commercial electrical needs.",
+  "testimonialsHeading": "What Sunshine West Clients Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from our Sunshine West team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly to your enquiry",
+  "reviews": [
+    {
+      "text": "Electrical Commercial Services installed new LED lighting in our warehouse in Sunshine West, resulting in huge energy savings. Their project management was excellent, and the team was professional throughout.",
+      "name": "John Smith",
+      "role": "Sunshine West Business Owner"
+    },
+    {
+      "text": "We've relied on their electrical maintenance services for our commercial properties for years. They're always responsive, and their compliance inspections give us peace of mind.",
+      "name": "Sarah Johnson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "As a homeowner in Sunshine West, I appreciate their attention to detail and fair pricing. The safety inspection they conducted was thorough and helpful.",
+      "name": "Michael Brown",
+      "role": "Homeowner"
+    }
+  ]
+}
