@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "MCF Electrical Services Pty Ltd",
+  "suburb": "Hoppers Crossing",
+  "phone": "0418 563 933",
+  "email": "michael@mcfelectrical.com.au",
+  "address": "5 Redwood Dr, Hoppers Crossing VIC 3029",
+  "tagline": "Hoppers Crossing's Trusted Electricians Since 1997",
+  "primaryColor": "#ff6105",
+  "primaryColorRgb": "255, 97, 5",
+  "primaryColorHover": "#e65700",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "25 Years of Electrical Excellence in Hoppers Crossing",
+      "sub": "From one sparky to a team of 10, servicing all of Victoria"
+    },
+    {
+      "title": "Compliance, Installs & Emergency Callouts",
+      "sub": "Your local experts for every electrical need"
+    },
+    {
+      "title": "MCF Electrical: Powering Hoppers Crossing & Beyond",
+      "sub": "Trusted service from a team trained to the highest standard"
+    }
+  ],
+  "ctaHeading": "Need a reliable electrician in Hoppers Crossing?",
+  "aboutHeading": "25 Years Powering Hoppers Crossing",
+  "aboutSubheading": "From one sparky to a full team",
+  "aboutText": "Established in 1997 by Director Michael in Hoppers Crossing, MCF Electrical Services has grown from a sole operator to a team of 10 qualified electricians and apprentices. We've spent 25 years delivering trusted, high-standard electrical services to homes and businesses across Victoria, with our local roots firmly in the western suburbs.",
+  "servicesHeading": "Our Electrical Expertise",
+  "servicesSubheading": "Comprehensive solutions across Victoria",
+  "servicesText": "From critical compliance testing to complete system installations, we provide a full suite of electrical services. Our team is equipped to handle residential, commercial, and emergency work with precision and professionalism.",
+  "services": [
+    {
+      "title": "Split System Supply & Installation",
+      "desc": "Expert installation and supply of split system air conditioners to keep your home comfortable year-round."
+    },
+    {
+      "title": "Pre-purchase Compliance Testing",
+      "desc": "Thorough electrical safety and compliance inspections for property purchases across Victoria."
+    },
+    {
+      "title": "Test & Tag Compliance Solutions",
+      "desc": "Mandatory safety testing and tagging of portable electrical appliances for businesses and workplaces."
+    },
+    {
+      "title": "Thermal Imaging Surveys",
+      "desc": "Advanced thermal imaging to detect hotspots, electrical faults, and potential failures before they occur."
+    },
+    {
+      "title": "General Electrical Maintenance",
+      "desc": "Skilled fault-finding, repairs, and upgrades for all domestic and commercial electrical systems."
+    },
+    {
+      "title": "24/7 Emergency Electrical Callouts",
+      "desc": "Fast, reliable emergency response for urgent electrical failures, available across Melbourne's west."
+    }
+  ],
+  "bannerHeading": "Trusted Hoppers Crossing Electricians",
+  "bannerSubheading": "25 years of serving our local community and all of Victoria.",
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses across the west",
+  "blogHeading": "Electrical Insights & News",
+  "blogSubheading": "Tips from the MCF team",
+  "contactHeading": "Contact MCF Electrical Today",
+  "contactSubheading": "We're here to help with all your electrical needs",
+  "reviews": [
+    {
+      "text": "MCF Electrical handled the complete switchboard upgrade at our Hoppers Crossing home. Michael's team was professional, tidy, and explained everything clearly. Fantastic local service we highly recommend.",
+      "name": "Sarah T.",
+      "role": "Hoppers Crossing Homeowner"
+    },
+    {
+      "text": "We've used MCF for all our Test & Tag compliance across our Melbourne workshops for years. Their service is always reliable, scheduled efficiently, and keeps us fully compliant. A trusted partner.",
+      "name": "David Chen",
+      "role": "Local Workshop Owner"
+    },
+    {
+      "text": "Called MCF for an urgent after-hours emergency at one of our managed properties. They responded quickly, solved the fault, and provided a detailed report. Excellent emergency service.",
+      "name": "Linda M.",
+      "role": "Property Manager"
+    }
+  ]
+}
