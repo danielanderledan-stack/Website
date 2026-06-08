@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Knights Automotive",
+  "suburb": "Brooklyn",
+  "phone": "0411278084",
+  "email": "info@knightsautomotive.com.au",
+  "address": "Unit 1/449 Somerville Rd, Brooklyn VIC 3012",
+  "tagline": "Brooklyn's Trusted Auto Repair Experts",
+  "primaryColor": "#7ce0fb",
+  "primaryColorRgb": "124, 224, 251",
+  "primaryColorHover": "#6dcffb",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brooklyn's Auto Repair Specialists",
+      "sub": "30 years of trusted service in your area"
+    },
+    {
+      "title": "Air Conditioning Experts in Brooklyn",
+      "sub": "Keeping your vehicle cool and comfortable"
+    },
+    {
+      "title": "Comprehensive Auto Repairs",
+      "sub": "From diagnostics to full servicing for all makes"
+    }
+  ],
+  "ctaHeading": "Ready for Auto Repairs in Brooklyn?",
+  "aboutHeading": "30 Years of Auto Excellence in Brooklyn",
+  "aboutSubheading": "Local, licensed, and reliable",
+  "aboutText": "With over 30 years of experience, Knights Automotive has been proudly serving the Brooklyn community with top-notch auto repair services. Our team specialises in air conditioning repairs and a wide range of automotive solutions, ensuring your vehicle runs smoothly. Located in the heart of Brooklyn, we are committed to providing efficient and personalised service to every customer.",
+  "servicesHeading": "Our Auto Repair Services",
+  "servicesSubheading": "Expert care for your vehicle",
+  "servicesText": "At Knights Automotive, we offer a comprehensive suite of auto repair services tailored to your needs. From air conditioning fixes to general maintenance, our skilled technicians in Brooklyn ensure quality workmanship every time.",
+  "services": [
+    {
+      "title": "Air Conditioning Repair",
+      "desc": "Specialised diagnostics and repair for vehicle air conditioning systems to keep you comfortable on the road."
+    },
+    {
+      "title": "General Auto Servicing",
+      "desc": "Full vehicle servicing including oil changes, filter replacements, and performance checks for all makes."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to identify and fix engine issues efficiently, minimising downtime."
+    },
+    {
+      "title": "Brake and Suspension",
+      "desc": "Expert repair and maintenance for brakes, suspension, and steering components to ensure safety."
+    },
+    {
+      "title": "Electrical Systems",
+      "desc": "Comprehensive electrical diagnostics and repairs for all vehicle electrical issues in Brooklyn."
+    },
+    {
+      "title": "Exhaust and Emissions",
+      "desc": "Ensure your vehicle meets emissions standards with our exhaust system services and repairs."
+    }
+  ],
+  "bannerHeading": "Need Auto Repairs in Brooklyn?",
+  "bannerSubheading": "Knights Automotive is here to help with all your vehicle needs.",
+  "testimonialsHeading": "What Brooklyn Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Auto Repair Tips & News",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly to your enquiry",
+  "reviews": [
+    {
+      "text": "Knights Automotive did a fantastic job fixing my car's air conditioning in Brooklyn. The service was quick and professional, and I couldn't be happier with the results.",
+      "name": "Dave Thompson",
+      "role": "Brooklyn Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Knights Automotive for all my fleet repairs. Their expertise and reliability have been invaluable for keeping our vehicles on the road.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team at Knights Automotive provided excellent service for my property management needs. They handled multiple vehicle repairs efficiently, and all tenants were satisfied.",
+      "name": "James Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
