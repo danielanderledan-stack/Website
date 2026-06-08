@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "A One Auto Care",
+  "suburb": "Hoppers Crossing",
+  "phone": "03 9748 1234",
+  "email": "info@aoneautocare.com.au",
+  "address": "29/29 Richards Rd, Hoppers Crossing VIC 3029",
+  "tagline": "Hoppers Crossing's Trusted Mechanics",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hoppers Crossing's Go-To Mechanics",
+      "sub": "Expert car repair services for all makes"
+    },
+    {
+      "title": "Comprehensive Mechanical Repairs",
+      "sub": "From log books to major overhauls"
+    },
+    {
+      "title": "Trusted by the Local Community",
+      "sub": "Serving Hoppers Crossing and surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Hoppers Crossing?",
+  "aboutHeading": "Expert Car Repair in Hoppers Crossing",
+  "aboutSubheading": "Local mechanics you can trust",
+  "aboutText": "A One Auto Care has been proudly serving Hoppers Crossing and the surrounding areas for over a decade. We specialise in all aspects of car repair, from log book servicing to major mechanical work. Our team is dedicated to providing reliable and efficient service for all makes and models. Visit us at 29/29 Richards Rd, Hoppers Crossing for top-quality auto care.",
+  "servicesHeading": "Our Car Repair Services",
+  "servicesSubheading": "Comprehensive auto solutions",
+  "servicesText": "From brake and clutch repairs to cooling systems and electrical issues, we handle it all. Our mechanics are experts in both domestic and European cars, ensuring your vehicle is in safe hands.",
+  "services": [
+    {
+      "title": "General Car Servicing",
+      "desc": "Log book servicing and major or minor maintenance to keep your vehicle running smoothly."
+    },
+    {
+      "title": "Engine & Mechanical Repairs",
+      "desc": "Expert mechanical and electrical repairs for all engine issues and component failures."
+    },
+    {
+      "title": "Brakes & Clutch Repairs",
+      "desc": "Comprehensive brake and clutch inspections, repairs, and replacements for optimal safety."
+    },
+    {
+      "title": "Cooling & Electrical Systems",
+      "desc": "Radiator repairs, cooling system flushes, and electrical diagnostics to prevent overheating."
+    },
+    {
+      "title": "Tyres, Wheels & Alignment",
+      "desc": "Tyre replacements, wheel balancing, and precision alignment for better handling and fuel efficiency."
+    },
+    {
+      "title": "European & Japanese Car Specialists",
+      "desc": "Specialised servicing and repairs for BMW, Mercedes, Toyota, Nissan, and other imported vehicles."
+    }
+  ],
+  "bannerHeading": "Car Repair Experts in Hoppers Crossing",
+  "bannerSubheading": "Fast and reliable service for all vehicles",
+  "testimonialsHeading": "What Hoppers Crossing Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Car Maintenance Tips & News",
+  "blogSubheading": "Advice from A One Auto Care",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you quickly",
+  "reviews": [
+    {
+      "text": "A One Auto Care did a fantastic job on my BMW's log book service in Hoppers Crossing. They were thorough and the pricing was very fair. Highly recommend for any car repairs.",
+      "name": "Mike Johnson",
+      "role": "Hoppers Crossing Homeowner"
+    },
+    {
+      "text": "Had my Toyota's brakes replaced here, and the work was excellent. The team was friendly and completed it on time. Great service for local businesses in the area.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable mechanics for our fleet. A One Auto Care handles all our vehicle maintenance efficiently. They are always professional and trustworthy.",
+      "name": "David Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
