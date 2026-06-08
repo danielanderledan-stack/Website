@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Western Plumbing",
+  "suburb": "Kings Park",
+  "phone": "0412 345 678",
+  "email": "wpm@outlook.com.au",
+  "address": "Alan St, Kings Park VIC 3021",
+  "tagline": "Kings Park's Trusted Plumbers",
+  "primaryColor": "#32373c",
+  "primaryColorRgb": "50, 55, 60",
+  "primaryColorHover": "#2a2f33",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kings Park's Reliable Plumbers",
+      "sub": "24/7 Emergency Plumbing in Western Suburbs"
+    },
+    {
+      "title": "Fixed Pricing, No Call Out Fees",
+      "sub": "Upfront and honest plumbing services"
+    },
+    {
+      "title": "Master Plumbers Member",
+      "sub": "Fully Registered & Insured for Your Peace of Mind"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Kings Park? We're Ready.",
+  "aboutHeading": "Kings Park Plumbing Experts",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Kings Park, Western Plumbing has been serving the Western Suburbs of Melbourne with reliable plumbing solutions. Our team is fully registered, insured, and a proud member of Master Plumbers, ensuring top-quality workmanship. We specialise in 24/7 emergency services, fixed pricing with no call out fees, and quick response times for all your plumbing needs.",
+  "servicesHeading": "What We Fix & Maintain",
+  "servicesSubheading": "Plumbing done right",
+  "servicesText": "We offer comprehensive plumbing services including emergency repairs, drain clearing, and general maintenance. Our fixed pricing and no call out fees ensure transparency and affordability for all Western Suburbs Melbourne residents.",
+  "services": [
+    {
+      "title": "24/7 Emergency Plumbing",
+      "desc": "Immediate response for urgent plumbing issues in Kings Park and surrounding areas, day or night."
+    },
+    {
+      "title": "Drain Clearing and CCTV",
+      "desc": "Advanced techniques to unblock drains and inspect pipes with state-of-the-art CCTV technology."
+    },
+    {
+      "title": "Pipe Repairs and Installation",
+      "desc": "Expert repair and installation of pipes for residential and commercial properties, using quality materials."
+    },
+    {
+      "title": "Hot Water System Services",
+      "desc": "Installation, repair, and maintenance of hot water systems to ensure reliable hot water supply."
+    },
+    {
+      "title": "General Plumbing Maintenance",
+      "desc": "Regular maintenance checks and minor repairs to prevent major plumbing problems in your home."
+    },
+    {
+      "title": "Gas Fitting Services",
+      "desc": "Safe and efficient gas fitting for appliances, cooking systems, and heating in Western Suburbs Melbourne."
+    }
+  ],
+  "bannerHeading": "Plumbing Problems in Kings Park? We Can Help.",
+  "bannerSubheading": "Trusted plumbing solutions for Western Suburbs Melbourne.",
+  "testimonialsHeading": "What Kings Park Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Jason from Western Plumbing fixed our leaking toilet promptly and even cleaned the gutters. Friendly, efficient, and clean work. Highly recommend for plumbing in Kings Park.",
+      "name": "Gerda Batzmarowsky",
+      "role": "Kings Park Homeowner"
+    },
+    {
+      "text": "Steve and Rhys from Western Plumbing were professional and polite. Excellent workmanship on our plumbing job. Will call again for future needs.",
+      "name": "Alex Romero",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Western Plumbing provided CCTV footage of our storm water pipe seamlessly. On time, affordable, and professional. Definitely recommend this plumbing business in Western Suburbs Melbourne.",
+      "name": "Karan Bhatia",
+      "role": "Property Manager"
+    }
+  ]
+}
