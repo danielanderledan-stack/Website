@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Starter Auto Electrical",
+  "suburb": "Werribee",
+  "phone": "+61412598895",
+  "email": "starterautoelectrical@yahoo.com.au",
+  "address": "11 Oriole Dr, Werribee VIC 3030",
+  "tagline": "Werribee's Auto Electrical Specialists",
+  "primaryColor": "#009ef4",
+  "primaryColorRgb": "0, 158, 244",
+  "primaryColorHover": "#007bc0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Werribee's Trusted Auto Electrician",
+      "sub": "28 Years of Specialist Service"
+    },
+    {
+      "title": "Expert in Electrical Fault Diagnosis",
+      "sub": "From Batteries to Complex Systems"
+    },
+    {
+      "title": "Serving Werribee & Western Suburbs",
+      "sub": "Free Quotes, Honest Repairs"
+    }
+  ],
+  "ctaHeading": "Need an Auto Electrician in Werribee?",
+  "aboutHeading": "28 Years Auto Electrical in Werribee",
+  "aboutSubheading": "Founded by John La Ferlita",
+  "aboutText": "Starter Auto Electrical has been the western suburbs' trusted auto electrician since 1998. With 28 years of experience, we specialise in diagnosing and fixing electrical faults that others can't. From batteries and starter motors to dual battery systems, we ensure reliable performance. Serving Werribee, Hoppers Crossing, Point Cook, and more, our work speaks for itself.",
+  "servicesHeading": "Our Auto Electrical Services",
+  "servicesSubheading": "Specialist in All Makes & Models",
+  "servicesText": "We provide comprehensive auto electrical services including battery replacements, starter motor repairs, and advanced fault diagnostics. Our expertise covers everything from simple fixes to complex electrical issues. Locals trust us for accurate, first-time solutions.",
+  "services": [
+    {
+      "title": "Battery Services",
+      "desc": "Testing, replacement, and maintenance of car batteries to ensure reliable starting power for your vehicle."
+    },
+    {
+      "title": "Starter Motor Repairs",
+      "desc": "Expert diagnosis and repair of starter motors for all types of vehicles, ensuring smooth engine starts."
+    },
+    {
+      "title": "Dual Battery Systems",
+      "desc": "Installation and servicing of dual battery setups ideal for 4WDs, caravans, and off-road vehicles."
+    },
+    {
+      "title": "Electric Brake Controllers",
+      "desc": "Professional installation of brake controllers for trailers and caravans, enhancing towing safety."
+    },
+    {
+      "title": "Electrical Fault Diagnostics",
+      "desc": "Using advanced tools to identify and fix intermittent electrical faults that stump other mechanics."
+    },
+    {
+      "title": "General Auto Electrical",
+      "desc": "Comprehensive electrical repairs and maintenance for all vehicle systems, from lighting to wiring."
+    }
+  ],
+  "bannerHeading": "Werribee's Auto Electrical Specialist",
+  "bannerSubheading": "Trusted Locals for Nearly Three Decades",
+  "testimonialsHeading": "What Werribee Locals Say",
+  "testimonialsSubheading": "Honest Work, Fair Prices",
+  "blogHeading": "Auto Electrical Tips & News",
+  "blogSubheading": "Insights from Starter Auto Electrical",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll Respond Quickly",
+  "reviews": [
+    {
+      "text": "Starter Auto Electrical fixed my car's electrical fault quickly and professionally. John in Werribee knows his stuff and saved me from costly repairs.",
+      "name": "Mark Thompson",
+      "role": "Werribee Homeowner"
+    },
+    {
+      "text": "We had dual battery systems installed for our 4WD. Excellent service and fair pricing. Highly recommend for anyone in the western suburbs.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable auto electrical services for our fleet vehicles. Always on time and thorough. A trusted partner for our business in Point Cook.",
+      "name": "James O'Brien",
+      "role": "Fleet Manager"
+    }
+  ]
+}
