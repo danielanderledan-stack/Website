@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Altona North Plastering",
+  "suburb": "Altona North",
+  "phone": "03 9391 2847",
+  "email": "info@example.com",
+  "address": "Unit 14/15/17 Chambers Rd, Altona North VIC 3025",
+  "tagline": "Altona North's Plastering Experts",
+  "primaryColor": "#673de6",
+  "primaryColorRgb": "103, 61, 230",
+  "primaryColorHover": "#5025d1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Altona North's Trusted Plasterers",
+      "sub": "15+ years serving Melbourne's west"
+    },
+    {
+      "title": "Internal Plastering & Rendering",
+      "sub": "Residential, commercial & industrial finish"
+    },
+    {
+      "title": "Flawless Walls, Every Time",
+      "sub": "Free quotes across Altona North & surrounds"
+    }
+  ],
+  "ctaHeading": "Altona North's plasterers are ready — let's finish your walls.",
+  "aboutHeading": "15 Years Plastering in Altona North",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 15 years of experience delivering high-quality plastering across Melbourne's western suburbs, our Altona North-based team specialises in internal plastering, external rendering, and Gyprock installation. We pride ourselves on a neat, professional finish every time — whether it's a new build, renovation, or repair job. Altona North homeowners and builders trust us for reliable service and honest pricing across every project.",
+  "servicesHeading": "What We Plaster & Render",
+  "servicesSubheading": "Precision finishing for every surface",
+  "servicesText": "From new builds to renovations, our Altona North plastering team delivers clean, durable finishes. We handle internal plastering, external rendering, Gyprock installation, and repair work across residential and commercial properties.",
+  "services": [
+    {
+      "title": "Internal Plastering",
+      "desc": "Smooth, seamless plaster finishes for new builds and renovations throughout Altona North homes."
+    },
+    {
+      "title": "External Rendering",
+      "desc": "Durable render application for exterior walls, improving insulation and kerb appeal."
+    },
+    {
+      "title": "Gyprock Installation",
+      "desc": "Professional plasterboard setup for walls and ceilings in homes and commercial spaces."
+    },
+    {
+      "title": "Ceiling & Cornice Work",
+      "desc": "Expert cornice installation and ceiling finishing to add character and polish."
+    },
+    {
+      "title": "Plaster Repairs",
+      "desc": "Crack filling, patching and water damage repair to restore walls to perfect condition."
+    },
+    {
+      "title": "Decorative Plastering",
+      "desc": "Feature walls, archways and custom plaster details for standout interior design."
+    }
+  ],
+  "bannerHeading": "Need a Plasterer in Altona North?",
+  "bannerSubheading": "We serve Altona North, Newport, Williamstown and surrounding western suburbs.",
+  "testimonialsHeading": "What Altona North Locals Say",
+  "testimonialsSubheading": "Neat work, fair prices, every time",
+  "blogHeading": "Plastering Tips & News",
+  "blogSubheading": "Advice from the Altona North team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "The team at Altona North Plastering did an outstanding job on our new extension's internal plastering. Every wall is perfectly smooth and the cornices look fantastic. Couldn't be happier with the result.",
+      "name": "Dave Mitchell",
+      "role": "Altona North Homeowner"
+    },
+    {
+      "text": "We've used Altona North Plastering for three commercial fitouts now. Their external rendering work is always top-quality, delivered on time and within budget. Highly recommend for any builder in Melbourne's west.",
+      "name": "Karen Sullivan",
+      "role": "Local Builder"
+    },
+    {
+      "text": "Great plaster repair work on our rental property in Newport. They patched the water damage and matched the existing finish perfectly. Fair pricing and really easy to deal with as a property manager.",
+      "name": "Michael Tran",
+      "role": "Property Manager"
+    }
+  ]
+}
