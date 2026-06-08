@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Multi",
+  "suburb": "Kealba",
+  "phone": "1300 476 037",
+  "email": "info@multibuilding.com.au",
+  "address": "7 Nebula Ct, Kealba VIC 3021",
+  "tagline": "Building Kealba for 20 Years",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kealba's Go-To Builders",
+      "sub": "20+ years in the building industry"
+    },
+    {
+      "title": "Building, Repairs & Restoration",
+      "sub": "Services for Victoria's Metro & Regional Areas"
+    },
+    {
+      "title": "Mould Remediation & Emergency Response",
+      "sub": "Expert solutions when you need them"
+    }
+  ],
+  "ctaHeading": "Kealba's Builders Await Your Call",
+  "aboutHeading": "20 Years of Building in Kealba",
+  "aboutSubheading": "Local, Licensed & Experienced",
+  "aboutText": "Based in Kealba, Multi has been a cornerstone of the building industry for over 20 years. Our team specialises in comprehensive services, from estimating and reporting to complete restoration and mould remediation. We are proudly Australian owned, delivering quality workmanship across Victoria's Metro and Regional areas.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Comprehensive Solutions for Every Project",
+  "servicesText": "At Multi, we offer a full range of building services tailored to your needs. From new constructions and insurance repairs to expert estimating and emergency responses, our team in Kealba is equipped to handle it all with precision and care.",
+  "services": [
+    {
+      "title": "Residential & Commercial Building",
+      "desc": "We construct and renovate homes and businesses across Kealba and Victoria, ensuring high-quality results tailored to your specifications."
+    },
+    {
+      "title": "Insurance Repairs",
+      "desc": "Our experts handle insurance claims and repairs, restoring properties efficiently after damage or disasters with minimal disruption."
+    },
+    {
+      "title": "Estimating & Assessing",
+      "desc": "Accurate cost estimating and property assessments to guide your building projects from initial planning to final execution."
+    },
+    {
+      "title": "Property Restoration",
+      "desc": "Specialised in restoring damaged properties to their former glory with meticulous attention to detail and craftsmanship."
+    },
+    {
+      "title": "Mould Remediation",
+      "desc": "Safe and effective mould removal and prevention services to ensure healthier indoor environments for your family or business."
+    },
+    {
+      "title": "Emergency Response",
+      "desc": "24/7 emergency building services to address urgent issues like storm damage or structural failures, minimising further risks."
+    }
+  ],
+  "bannerHeading": "Need a Builder in Kealba?",
+  "bannerSubheading": "We're here to help with all your building needs, from start to finish.",
+  "testimonialsHeading": "What Kealba Locals Say About Multi",
+  "testimonialsSubheading": "Honest work from experienced builders",
+  "blogHeading": "Building Insights & Updates",
+  "blogSubheading": "Tips from the Multi team",
+  "contactHeading": "Get a Free Quote in Kealba",
+  "contactSubheading": "Contact us today for a no-obligation estimate",
+  "reviews": [
+    {
+      "text": "Multi did an excellent job on our home extension in Kealba. Their estimating was spot-on, and the build was completed on time and within budget, making the process stress-free.",
+      "name": "Dave Thompson",
+      "role": "Kealba Homeowner"
+    },
+    {
+      "text": "After storm damage, Multi handled our insurance repairs swiftly and professionally. Their restoration work in Melbourne's west was top-notch, and they kept us informed throughout.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our property management needs, Multi's mould remediation service was thorough and effective. They ensured our Kealba properties were safe, compliant, and healthy for tenants.",
+      "name": "Michael Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
