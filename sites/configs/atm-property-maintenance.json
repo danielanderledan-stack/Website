@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "ATM Property Maintenance",
+  "suburb": "Altona",
+  "phone": "1300 665 594",
+  "email": "user@domain.com",
+  "address": "48 Brook Drive, Altona VIC 3018",
+  "tagline": "Altona's Electrical & Carpentry Experts",
+  "primaryColor": "#003366",
+  "primaryColorRgb": "0, 51, 102",
+  "primaryColorHover": "#002244",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Altona's Multi-Trade Experts",
+      "sub": "Electrical, Carpentry & Maintenance Services"
+    },
+    {
+      "title": "Reliable & Skilled in Melbourne's West",
+      "sub": "From safety checks to property upgrades"
+    },
+    {
+      "title": "ATM Property Maintenance",
+      "sub": "Formerly Alpha Tango Mike – All Things Maintenance"
+    }
+  ],
+  "ctaHeading": "Altona's trade services are ready — let's get it done.",
+  "aboutHeading": "Altona's Electrical & Carpentry Specialists",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Altona, ATM Property Maintenance has been serving Melbourne's western suburbs with expert electrical, carpentry, and maintenance services. Our team is skilled, reliable, and ready to handle everything from safety compliance checks to property upgrades for sales or long-term care. We pride ourselves on quality workmanship and affordable excellence for residential, commercial, and real estate clients.",
+  "servicesHeading": "Our Trade Services",
+  "servicesSubheading": "Electrical, Carpentry & More",
+  "servicesText": "We offer a comprehensive range of trade services including electrical work, carpentry, safety and compliance checks, heating and cooling installations, and builder partnerships. Our multi-trade team ensures quality assurance and timely delivery across Melbourne.",
+  "services": [
+    {
+      "title": "Electrical Services",
+      "desc": "Expert electrical work for homes and businesses, including repairs, installations, and safety inspections to meet Australian standards."
+    },
+    {
+      "title": "Carpentry & Cabinetry",
+      "desc": "Skilled carpentry services from custom cabinetry to fencing, ensuring precision and durability for all your property needs."
+    },
+    {
+      "title": "Safety & Compliance Checks",
+      "desc": "Comprehensive safety and compliance inspections for properties, helping you meet legal requirements and maintain value."
+    },
+    {
+      "title": "Heating & Cooling",
+      "desc": "Professional installation and maintenance of heating and cooling systems to keep your property comfortable year-round."
+    },
+    {
+      "title": "Maintenance & Repairs",
+      "desc": "Reliable maintenance and repair services for all property types, addressing issues promptly to prevent costly damage."
+    },
+    {
+      "title": "Builder Partnerships",
+      "desc": "Collaborating with builders for subcontracting work, providing quality trade services to support construction projects."
+    }
+  ],
+  "bannerHeading": "Altona's Multi-Trade Experts Are Here",
+  "bannerSubheading": "Get a free quote for electrical, carpentry, or maintenance services.",
+  "testimonialsHeading": "What Altona Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Electrical & Carpentry Advice",
+  "blogSubheading": "Insights from ATM Property Maintenance",
+  "contactHeading": "Get in Touch with Altona's Tradespeople",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "ATM Property Maintenance did an excellent job on our home's electrical rewiring and safety check. They were professional, timely, and Altona-based, which was a bonus.",
+      "name": "David Thompson",
+      "role": "Altona Homeowner"
+    },
+    {
+      "text": "We hired them for carpentry work on our shop fit-out in Altona. The craftsmanship was top-notch, and they handled everything from cabinetry to door installations.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on ATM for regular maintenance and compliance checks across our Altona properties. Their reliability and skill make them my go-to trade team.",
+      "name": "James Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
