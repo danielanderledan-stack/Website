@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "New Image",
+  "suburb": "Caroline Springs",
+  "phone": "1300159254",
+  "email": "your.email@example.com",
+  "address": "173 Caroline Springs Blvd, Caroline Springs VIC 3023",
+  "tagline": "Caroline Springs' Evaporative Cooling Experts",
+  "primaryColor": "#c72026",
+  "primaryColorRgb": "199, 32, 38",
+  "primaryColorHover": "#a31a1f",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Caroline Springs' Climate Experts",
+      "sub": "Evaporative cooling specialists you can trust"
+    },
+    {
+      "title": "Honest Advice, No Pressure Service",
+      "sub": "Fast, friendly and reliable support"
+    },
+    {
+      "title": "Call Now 1300159254",
+      "sub": "Free quotes across Melbourne's west"
+    }
+  ],
+  "ctaHeading": "Get your free quote in Caroline Springs today.",
+  "aboutHeading": "Caroline Springs' Evaporative Cooling Specialists",
+  "aboutSubheading": "Local, trusted and focused on evap systems",
+  "aboutText": "Based in Caroline Springs, New Image Heating & Cooling has been Melbourne's trusted evaporative cooling specialist for over a decade. Our exclusive focus on evap systems means we understand the unique climate needs of homes across Melbourne's west. From installation to maintenance, we provide honest advice and reliable service to ensure your system runs efficiently all year round.",
+  "servicesHeading": "Our Heating & Cooling Services",
+  "servicesSubheading": "Expert solutions for your home",
+  "servicesText": "We specialise in evaporative cooling, ducted heating, split systems, and comprehensive air conditioning solutions. Our team ensures optimal performance and longevity for your climate control systems, tailored to Melbourne's variable weather.",
+  "services": [
+    {
+      "title": "Evaporative Cooling",
+      "desc": "Installation, repair and maintenance of evaporative cooling systems for efficient and eco-friendly home cooling in Caroline Springs."
+    },
+    {
+      "title": "Ducted Heating",
+      "desc": "Complete ducted heating solutions to keep your home warm and comfortable during Melbourne's colder months with energy efficiency."
+    },
+    {
+      "title": "Split System Air Conditioning",
+      "desc": "Flexible split system installations for precise temperature control in individual rooms or zones across your property."
+    },
+    {
+      "title": "Ducted Air Conditioning",
+      "desc": "Centralised ducted air conditioning for whole-home climate management with minimal noise and optimal comfort."
+    },
+    {
+      "title": "Heating Systems",
+      "desc": "Expert advice and service for various heating systems, ensuring optimal warmth and reliability for your Melbourne home."
+    },
+    {
+      "title": "Climate Consultation",
+      "desc": "Honest, no-pressure consultations to assess and recommend the best climate solutions tailored to your specific needs."
+    }
+  ],
+  "bannerHeading": "Need HVAC service in Caroline Springs?",
+  "bannerSubheading": "24/7 support for all your heating and cooling needs.",
+  "testimonialsHeading": "What Caroline Springs Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "HVAC Tips & News",
+  "blogSubheading": "Advice from the experts",
+  "contactHeading": "Get in Touch with New Image",
+  "contactSubheading": "We're here to help 24/7",
+  "reviews": [
+    {
+      "text": "New Image did an excellent job installing our evaporative cooler in Caroline Springs. The team was professional, efficient and provided great advice, keeping our home cool all summer.",
+      "name": "John Smith",
+      "role": "Caroline Springs Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed reliable heating for my office. New Image's ducted heating system was installed flawlessly, and their service was top-notch with no pressure.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing properties in Melbourne's west, I trust New Image for all HVAC needs. Their split system installations are always done right, with excellent follow-up and friendly service.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
