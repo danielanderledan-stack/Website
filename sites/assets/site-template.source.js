@@ -112,7 +112,21 @@ function __expandSiteConfig(c){
   function sh(str){ if(!str) return null; var w=String(str).trim().split(/\s+/); if(w.length<2) return {s:"",h:String(str),e:""}; return {s:w.slice(0,-1).join(" ")+" ",h:w[w.length-1],e:""}; }
   var AH=sh(c.aboutHeading), SVH=sh(c.servicesHeading), TH=sh(c.testimonialsHeading), BH=sh(c.blogHeading);
   var aiHero = Array.isArray(c.heroSlides) ? c.heroSlides : [];
-  var IMG = pack.images || null;
+  var H='/sites/images/hvac/';
+  var SHARED_IMAGES={
+    heroSlides:[H+'hero-1-owner-van.jpg',H+'hero-2-split-install.jpg',H+'hero-3-rooftop-condenser.jpg'],
+    splitCtaImage:H+'splitcta-owner-phone.jpg',
+    photoRowImages:[H+'photorow-split-install-hands.jpg',H+'photorow-refrigerant-gauges.jpg',H+'photorow-ducted-vent.jpg',H+'photorow-thermostat.jpg'],
+    aboutImages:[H+'about-owner-portrait.jpg',H+'about-owner-condenser.jpg',H+'about-owner-customer.jpg'],
+    fullWidthImage:H+'fullwidth-van-home.jpg',
+    bannerImage:H+'banner-living-room-split.jpg',
+    testimonialsImage:H+'testimonial-ceiling-cassette.jpg',
+    galleryImages:[H+'gallery-1-outdoor-condenser.jpg',H+'gallery-2-ceiling-ducts.jpg',H+'hero-2-split-install.jpg',H+'gallery-4-ducted-airhandler.jpg',H+'hero-3-rooftop-condenser.jpg'],
+    pricingBgImage:H+'pricingbg-split-dark.jpg',
+    blogPosts:[H+'blog-1-smart-control.jpg',H+'blog-2-filter-compare.jpg',H+'blog-3-bedroom-split.jpg',H+'blog-4-maintenance.jpg'],
+    services:[H+'photorow-split-install-hands.jpg',H+'photorow-refrigerant-gauges.jpg',H+'photorow-ducted-vent.jpg',H+'photorow-thermostat.jpg',H+'gallery-2-ceiling-ducts.jpg',H+'banner-living-room-split.jpg']
+  };
+  var IMG = SHARED_IMAGES;
   function gi(key, idx, w, h){ return (IMG && IMG[key]) ? IMG[key] : U(P(idx), w, h); }
   function giList(key, idxs, w, h, alt){ if (IMG && Array.isArray(IMG[key])) return IMG[key].map(function(s){ return { src:s, alt:alt }; }); return idxs.map(function(i){ return { src:U(P(i),w,h), alt:alt }; }); }
   function hero(i,dt,ds){ var h=aiHero[i]||{}; var im=(IMG && IMG.heroSlides && IMG.heroSlides[i])?IMG.heroSlides[i]:U(P(i),1600,900); return { img:im, title:h.title||h.heading||dt, sub:h.sub||h.subtitle||ds }; }
