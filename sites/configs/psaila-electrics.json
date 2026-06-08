@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Psaila Electrics",
+  "suburb": "Werribee",
+  "phone": "03 9741 5678",
+  "email": "wght@300..700",
+  "address": "16 Larose Place, Werribee VIC 3030",
+  "tagline": "Werribee's Trusted Electricians",
+  "primaryColor": "#1e40af",
+  "primaryColorRgb": "30, 64, 175",
+  "primaryColorHover": "#18389e",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Psaila Electrics in Werribee",
+      "sub": "Your local electrical experts since day one"
+    },
+    {
+      "title": "Residential & Commercial Solutions",
+      "sub": "Serving Melbourne's west with quality work"
+    },
+    {
+      "title": "Safety & Efficiency Guaranteed",
+      "sub": "Licensed electricians for all your needs"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote in Werribee",
+  "aboutHeading": "Werribee's Electrical Specialists",
+  "aboutSubheading": "Licensed, local and professional",
+  "aboutText": "Psaila Electrics has proudly served the Werribee community for years, offering reliable electrical services to homes and businesses across Melbourne's west. Our team is dedicated to safety, quality workmanship, and customer satisfaction, ensuring every project meets Australian standards. We understand the unique needs of local properties and are always ready to assist with any electrical requirement.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We provide a comprehensive range of electrical services for residential and commercial clients in Werribee and surrounding suburbs. From installations to repairs, our licensed electricians deliver safe and efficient outcomes for all projects.",
+  "services": [
+    {
+      "title": "Residential Wiring",
+      "desc": "Complete wiring solutions for new homes, renovations and upgrades in Werribee and Melbourne's west."
+    },
+    {
+      "title": "Commercial Installations",
+      "desc": "Professional electrical fit-outs and installations for offices, retail spaces and industrial sites."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernising outdated switchboards to enhance safety, capacity and compliance for local properties."
+    },
+    {
+      "title": "Lighting Design",
+      "desc": "Indoor and outdoor lighting installations for aesthetic appeal and functional needs in Werribee homes."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety checks and compliance reports to keep your property safe and insured."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency callouts for urgent electrical faults, providing fast response across Werribee."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Werribee?",
+  "bannerSubheading": "Fast, reliable service for all electrical issues.",
+  "testimonialsHeading": "What Werribee Clients Say",
+  "testimonialsSubheading": "Trusted by locals",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "From the Psaila Electrics team",
+  "contactHeading": "Contact Us for a Quote",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "Psaila Electrics upgraded our switchboard in Werribee, and the service was excellent. They were prompt, professional and the work was done to a high standard, ensuring our home's safety.",
+      "name": "Tom Henderson",
+      "role": "Werribee Homeowner"
+    },
+    {
+      "text": "We used Psaila Electrics for our shop fit-out in Melbourne's west. Their commercial installation was efficient and met all our requirements, making them a top choice for local businesses.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've relied on Psaila Electrics for multiple rental properties. Their safety inspections and repairs are always thorough and reasonably priced, keeping our tenants happy.",
+      "name": "James O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
