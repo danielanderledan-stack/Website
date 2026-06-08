@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "JR Dixon Electrical",
+  "suburb": "Truganina",
+  "phone": "0448 995 379",
+  "email": "info@jrdixonelectrical.com.au",
+  "address": "550 Dohertys Road, Truganina VIC 3029",
+  "tagline": "Truganina's Electrical Specialists",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6800c4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Truganina's Trusted Electricians",
+      "sub": "Serving Melbourne & Geelong for years"
+    },
+    {
+      "title": "Residential, Commercial & Industrial",
+      "sub": "Hundreds of projects completed across the west"
+    },
+    {
+      "title": "Professional Electrical Solutions",
+      "sub": "Free quotes across Truganina & surrounds"
+    }
+  ],
+  "ctaHeading": "Truganina's electrical team is ready — let's power your project.",
+  "aboutHeading": "Truganina's Electrical Specialists",
+  "aboutSubheading": "Professional solutions across Melbourne & Geelong",
+  "aboutText": "JR Dixon Electrical is a Truganina-based electrical specialist offering a professional, solution-focused approach to bring ideas to life. Our team works across residential, commercial, and industrial projects, completing hundreds of jobs throughout Melbourne and Geelong. We pride ourselves on quality workmanship and reliable service that Truganina locals can count on.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Complete solutions for every property",
+  "servicesText": "From Truganina homes to Melbourne commercial sites, we deliver safe, compliant electrical work. Our licensed team handles projects of all sizes across residential, commercial, and industrial settings.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete home electrical services for Truganina residents including wiring, rewiring, and safety checks for houses of all sizes."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Office fit-outs, retail electrical systems, and commercial switchboard upgrades for businesses across Melbourne's west."
+    },
+    {
+      "title": "Industrial Electrical",
+      "desc": "Heavy-duty electrical installations and maintenance for factories, warehouses, and industrial facilities in Truganina and surrounds."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade outdated switchboards to meet current Australian safety standards, protecting your home or business from electrical hazards."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Interior and exterior lighting solutions including energy-efficient LED upgrades for homes, shops, and commercial spaces."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Scheduled maintenance and emergency repairs to keep your electrical systems running safely and efficiently year-round."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Truganina?",
+  "bannerSubheading": "Your local specialist for residential, commercial and industrial electrical work.",
+  "testimonialsHeading": "What Truganina Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses across Melbourne's west",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Expert advice from JR Dixon Electrical",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "JR Dixon Electrical did a full switchboard upgrade at our Truganina home. The team was professional, explained everything clearly, and finished on time. Highly recommend for any electrical work in the area.",
+      "name": "Travis McAllister",
+      "role": "Truganina Homeowner"
+    },
+    {
+      "text": "We used JR Dixon for our shop fit-out in Melbourne's west. They handled the entire electrical installation efficiently and to a high standard. Great communication throughout the project.",
+      "name": "Sarah Cundell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "JR Dixon Electrical manages electrical maintenance across several of our properties. They are reliable, reasonably priced, and always deliver quality work. A trusted team for any job.",
+      "name": "David Nguyen",
+      "role": "Property Manager"
+    }
+  ]
+}
