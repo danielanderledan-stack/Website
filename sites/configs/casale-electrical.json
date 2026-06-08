@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Casale Electrical",
+  "suburb": "Kensington",
+  "phone": "+61403212429",
+  "email": "intl-segmenter@11.7.10",
+  "address": "Graham St, Kensington VIC 3031",
+  "tagline": "Kensington's Trusted Electricians",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0f5bc0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kensington's Go-To Electricians",
+      "sub": "Serving residential and commercial needs"
+    },
+    {
+      "title": "Residential & Commercial Electrical Services",
+      "sub": "From repairs to installations"
+    },
+    {
+      "title": "No Job Too Big or Small in Kensington",
+      "sub": "Expert solutions for every project"
+    }
+  ],
+  "ctaHeading": "Kensington Electricians Ready to Help",
+  "aboutHeading": "Kensington's Electrical Specialists",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Kensington, Casale Electrical offers a comprehensive range of electrical services for homes and businesses. From small repairs to large-scale rewiring, we handle it all with expertise. Our team is dedicated to providing reliable and efficient solutions across Melbourne's west. With years of experience, we ensure every job is done right the first time.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all your electrical needs",
+  "servicesText": "We specialize in everything from residential wiring to commercial installations. Our services are tailored to meet the specific needs of Kensington properties. No task is too complex for our skilled team.",
+  "services": [
+    {
+      "title": "Residential Electrical Repairs",
+      "desc": "We fix faults, replace switches, and handle all minor electrical issues in Kensington homes efficiently."
+    },
+    {
+      "title": "Commercial Electrical Installations",
+      "desc": "Professional wiring and setup for offices, shops, and industrial buildings in the area."
+    },
+    {
+      "title": "Factory & Industrial Rewiring",
+      "desc": "Complete rewiring services for factories and large facilities to ensure safety and efficiency."
+    },
+    {
+      "title": "Data & Network Points",
+      "desc": "Installation of data points and network cabling for home and business connectivity needs."
+    },
+    {
+      "title": "Power Point Installations",
+      "desc": "Adding or relocating power points to meet your specific requirements in Kensington."
+    },
+    {
+      "title": "Lighting Solutions",
+      "desc": "A wide range of lighting options from indoor fixtures to outdoor security lighting."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Kensington?",
+  "bannerSubheading": "24/7 emergency services available for urgent issues.",
+  "testimonialsHeading": "What Kensington Locals Say",
+  "testimonialsSubheading": "Trusted by the community for quality work",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Casale Electrical",
+  "contactHeading": "Get in Touch with Us",
+  "contactSubheading": "Free quotes for all electrical services",
+  "reviews": [
+    {
+      "text": "Casale Electrical did a fantastic job rewiring our kitchen in Kensington. The team was professional, and the work was completed on time. Highly recommend for any electrical needs.",
+      "name": "John Smith",
+      "role": "Kensington Homeowner"
+    },
+    {
+      "text": "We hired them for our shop's electrical upgrade, and the service was top-notch. They handled everything from data points to lighting installations with ease.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Casale Electrical for all maintenance. Their prompt response and quality work make them my go-to electrician in Melbourne's west.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
