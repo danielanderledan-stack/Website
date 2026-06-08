@@ -1,0 +1,85 @@
+{
+  "siteType": "concreter",
+  "businessName": "Concrete CC",
+  "suburb": "Truganina",
+  "phone": "03 8380 0416",
+  "email": "info@concretecc.com.au",
+  "address": "Unit 112/150 Palmers Rd, Truganina VIC 3029",
+  "tagline": "Truganina's Concrete Specialists",
+  "primaryColor": "#b20000",
+  "primaryColorRgb": "178, 0, 0",
+  "primaryColorHover": "#990000",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Truganina's Go-To Concreters",
+      "sub": "Serving Melbourne's West with Expert Concrete Solutions"
+    },
+    {
+      "title": "Floor Repair, Paving & Concreting",
+      "sub": "Industrial, Commercial & Residential Services"
+    },
+    {
+      "title": "Get a Free Quote Today",
+      "sub": "Quality Work on Time, Every Time"
+    }
+  ],
+  "ctaHeading": "Truganina's Concrete Experts Are Ready",
+  "aboutHeading": "Experienced Concreting in Truganina",
+  "aboutSubheading": "Professional & Reliable Concrete Contractors",
+  "aboutText": "Concrete CC has been serving Truganina and the greater Melbourne area for over a decade, providing top-notch floor repair, paving, and concreting services. Our team of professionals is dedicated to delivering high-quality results with a focus on customer satisfaction. We specialise in industrial floor upgrading and refurbishments, ensuring durable and aesthetically pleasing solutions for all your flooring needs.",
+  "servicesHeading": "Our Concrete Services",
+  "servicesSubheading": "Tailored to Your Needs",
+  "servicesText": "From floor repairs and paving to asphalt and concreting, Concrete CC offers a comprehensive range of services for both residential and commercial clients. We pride ourselves on using the latest techniques and materials to ensure long-lasting results.",
+  "services": [
+    {
+      "title": "Floor Repair & Refurbishments",
+      "desc": "We restore damaged floors to their original glory with expert repair and refurbishment services, ensuring a smooth and durable finish."
+    },
+    {
+      "title": "Floor Paving",
+      "desc": "Durable and eco-friendly paving solutions for driveways, pathways, and outdoor areas, perfect for homes and businesses."
+    },
+    {
+      "title": "Asphalt Services",
+      "desc": "Professional asphalt installation and repair for roads, car parks, and surfaces, providing a robust and weather-resistant option."
+    },
+    {
+      "title": "Concreting",
+      "desc": "High-quality concreting for slabs, foundations, and structures, tailored to meet your specific project requirements."
+    },
+    {
+      "title": "Industrial Floor Upgrading",
+      "desc": "Specialised in upgrading and refurbishing industrial floors to enhance durability and functionality for heavy use."
+    },
+    {
+      "title": "Concrete Driveways",
+      "desc": "Custom concrete driveway solutions that combine aesthetics with longevity, adding value to your property."
+    }
+  ],
+  "bannerHeading": "Need Concrete Work in Truganina?",
+  "bannerSubheading": "We're here to help with all your flooring needs.",
+  "testimonialsHeading": "What Truganina Clients Say",
+  "testimonialsSubheading": "Trusted by Locals for Quality Work",
+  "blogHeading": "Concrete Tips & Updates",
+  "blogSubheading": "Insights from Concrete CC",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "Quick Response Guaranteed",
+  "reviews": [
+    {
+      "text": "Concrete CC did an excellent job refurbishing our factory floor in Truganina. The team was professional and completed the work on time, with great attention to detail.",
+      "name": "Mark Thompson",
+      "role": "Truganina Business Owner"
+    },
+    {
+      "text": "We hired them for our driveway paving and couldn't be happier. The concrete work is flawless, and it's added real curb appeal to our home.",
+      "name": "Sarah Jenkins",
+      "role": "Truganina Homeowner"
+    },
+    {
+      "text": "As a property manager, I've used Concrete CC for multiple floor repair projects across Melbourne's west. They consistently deliver high-quality results and reliable service.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
