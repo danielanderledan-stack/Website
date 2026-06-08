@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Industrial Builders",
+  "suburb": "West Footscray",
+  "phone": "03 9315 3200",
+  "email": "info@industrialbuilders.com.au",
+  "address": "11-13 Tottenham Parade, West Footscray VIC 3012",
+  "tagline": "West Footscray's Trusted Builders",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#cc5500",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "West Footscray's Industrial Builders",
+      "sub": "Commercial & Civil Construction Experts"
+    },
+    {
+      "title": "Building Maintenance & Civil Services",
+      "sub": "Serving West Footscray and surrounds"
+    },
+    {
+      "title": "Quality Construction Since 1990",
+      "sub": "Free quotes for your project"
+    }
+  ],
+  "ctaHeading": "Ready to Build in West Footscray?",
+  "aboutHeading": "25 Years Building in West Footscray",
+  "aboutSubheading": "Local, licensed & committed",
+  "aboutText": "With over 25 years of experience in West Footscray, Industrial Builders is a proud member of the Master Builders of Victoria and the Australian Institute of Building. We are committed to delivering the highest standard of building services to the local community. Our expertise covers commercial maintenance, civil construction, and concrete repair, ensuring quality and reliability for every project.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Expertise in every project",
+  "servicesText": "Industrial Builders offers a comprehensive range of building services tailored to commercial and civil needs. From maintenance to large-scale construction, our team in West Footscray delivers quality workmanship on time and within budget.",
+  "services": [
+    {
+      "title": "Commercial Building Maintenance",
+      "desc": "We provide scheduled maintenance and emergency repairs for all types of commercial buildings in West Footscray."
+    },
+    {
+      "title": "Commercial Building Services",
+      "desc": "Our commercial services include fit-outs, renovations, and new construction tailored to your business requirements."
+    },
+    {
+      "title": "Civil Construction",
+      "desc": "Infrastructure projects including roads, bridges, and site preparation for civil engineering needs in the area."
+    },
+    {
+      "title": "Civil Engineering",
+      "desc": "Expert planning and execution of complex civil engineering works across Melbourne's western suburbs."
+    },
+    {
+      "title": "Concrete Repair Services",
+      "desc": "Specialised repair and restoration of concrete structures to ensure durability and safety for your property."
+    },
+    {
+      "title": "General Building Services",
+      "desc": "A full range of building solutions for residential and commercial clients, from start to finish."
+    }
+  ],
+  "bannerHeading": "Need a Builder in West Footscray?",
+  "bannerSubheading": "Get in touch for a free consultation.",
+  "testimonialsHeading": "What West Footscray Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Building Tips & News from West Footscray",
+  "blogSubheading": "Insights from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Industrial Builders did an excellent job on our commercial building maintenance in West Footscray. Their team was professional and the work was completed on time.",
+      "name": "John Smith",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We hired them for civil construction on our property, and they delivered high-quality results. Highly recommended for anyone in the area.",
+      "name": "Sarah Johnson",
+      "role": "West Footscray Homeowner"
+    },
+    {
+      "text": "As a property manager, I've used Industrial Builders for concrete repair services multiple times. They are reliable and their workmanship is top-notch.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
