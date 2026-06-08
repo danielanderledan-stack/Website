@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Yarraville Plumbing Experts",
+  "suburb": "Yarraville",
+  "phone": "03 9315 5678",
+  "email": "info@yarravilleplumbing.com.au",
+  "address": "31 Severn Street, Yarraville VIC 3013",
+  "tagline": "Yarraville's Trusted Plumbers",
+  "primaryColor": "#2E86C1",
+  "primaryColorRgb": "46, 134, 193",
+  "primaryColorHover": "#1F6F9E",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Yarraville's Go-To Plumbers",
+      "sub": "Serving Melbourne's west for over 15 years"
+    },
+    {
+      "title": "24/7 Emergency Plumbing Services",
+      "sub": "Fast response for burst pipes and overflows"
+    },
+    {
+      "title": "Residential & Commercial Solutions",
+      "sub": "From hot water systems to blocked drains"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Yarraville?",
+  "aboutHeading": "15 Years Plumbing in Yarraville",
+  "aboutSubheading": "Local, licensed & fast",
+  "aboutText": "With over 15 years of dedicated service, we've been Yarraville's go-to plumbing experts in Melbourne's west. Our licensed team handles everything from emergency repairs to installations with a focus on reliability and efficiency. We pride ourselves on quality workmanship and building lasting relationships with local homeowners and businesses.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert solutions for every issue",
+  "servicesText": "We offer a full range of plumbing services including emergency callouts, drain clearing, and gas fitting. Our skilled plumbers use the latest techniques to ensure quick, effective fixes for both homes and businesses in Yarraville.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 urgent repairs for burst pipes, leaks, and flooding to minimise damage in Yarraville homes."
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Advanced CCTV inspection and clearing of blocked sewers, sinks, and stormwater drains for efficient flow."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of gas, electric, and solar hot water units for consistent supply."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas work for stoves, heaters, and appliances, ensuring safety and compliance with Australian standards."
+    },
+    {
+      "title": "Roof Plumbing",
+      "desc": "Repairs and installations for roof leaks, gutters, and downpipes to protect your property from water damage."
+    },
+    {
+      "title": "Bathroom Plumbing",
+      "desc": "Complete plumbing for renovations, including taps, showers, and drainage to upgrade your bathroom space."
+    }
+  ],
+  "bannerHeading": "Yarraville Plumbing Experts Are Here",
+  "bannerSubheading": "Fast, reliable service for all your plumbing needs.",
+  "testimonialsHeading": "What Yarraville Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Plumbing Tips & Updates",
+  "blogSubheading": "Stay informed with our latest advice",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "The team at Yarraville Plumbing Experts cleared our blocked drain quickly using CCTV, and the service was friendly and professional. Highly recommend for anyone in Yarraville facing plumbing issues.",
+      "name": "Sarah Mitchell",
+      "role": "Yarraville Homeowner"
+    },
+    {
+      "text": "We had an emergency gas leak at our café, and they responded within the hour. Their licensed gas fitting was thorough, and the work was done to high safety standards. Great local business.",
+      "name": "James O'Connell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our property's bathroom renovation, they handled all the plumbing with precision, from hot water installation to drain updates. Reliable and skilled plumbers who get the job done right.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
