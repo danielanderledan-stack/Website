@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Pumpcheck Services Pty Ltd",
+  "suburb": "Kensington",
+  "phone": "0431 563 618",
+  "email": "info@pumpcheckservices.com.au",
+  "address": "3 Moylan Lane, Kensington VIC 3031",
+  "tagline": "Kensington's Pump Specialists",
+  "primaryColor": "#0066CC",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0052A3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kensington's Pump Specialists",
+      "sub": "Expert pump services for your home or business"
+    },
+    {
+      "title": "Fast Diagnostics & Repairs",
+      "sub": "We keep your water flowing smoothly"
+    },
+    {
+      "title": "Trusted Plumbers in Kensington",
+      "sub": "Licensed, reliable and ready to help"
+    }
+  ],
+  "ctaHeading": "Need a plumber in Kensington? Let's sort it out.",
+  "aboutHeading": "Your Local Kensington Pump Experts",
+  "aboutSubheading": "Specialised in pumps, dedicated to Kensington",
+  "aboutText": "Based right here in Kensington, Pumpcheck Services provides specialised pump and plumbing solutions for the local community. We understand the specific needs of properties across the suburb and surrounding areas. With a focus on reliable diagnostics and effective repairs, we are the trusted team Kensington residents call for pump emergencies and maintenance.",
+  "servicesHeading": "Our Pump & Plumbing Services",
+  "servicesSubheading": "Comprehensive water solutions",
+  "servicesText": "Pumpcheck Services offers a full range of pump-focused plumbing services for Kensington homes and businesses. From emergency breakdowns to routine maintenance, our specialised team has you covered.",
+  "services": [
+    {
+      "title": "Pump Repairs & Diagnostics",
+      "desc": "We quickly diagnose and repair faults in all types of household and commercial pumps."
+    },
+    {
+      "title": "Hot Water System Services",
+      "desc": "Installation, repair and maintenance for your hot water pump system to keep it running efficiently."
+    },
+    {
+      "title": "Blocked Drain Clearing",
+      "desc": "Effective clearing of blocked drains and pipes to restore proper flow to your property."
+    },
+    {
+      "title": "Leak Detection & Repair",
+      "desc": "We locate and fix leaks in your plumbing system to prevent water damage and waste."
+    },
+    {
+      "title": "Sump Pump Installation",
+      "desc": "Professional installation of sump pumps to protect your basement or property from flooding."
+    },
+    {
+      "title": "General Plumbing Maintenance",
+      "desc": "Routine checks and preventative maintenance to ensure your entire plumbing system is healthy."
+    }
+  ],
+  "bannerHeading": "Reliable Plumbing Help for Kensington",
+  "bannerSubheading": "Prompt service for all your pump and pipe problems.",
+  "testimonialsHeading": "What Kensington Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Pump & Plumbing Tips",
+  "blogSubheading": "Advice from our Kensington team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "The team from Pumpcheck Services were fantastic when our hot water pump failed. They were at our Kensington home quickly, explained the issue clearly and had it fixed the same day. Highly recommend their specialised service.",
+      "name": "Sarah Mitchell",
+      "role": "Kensington Homeowner"
+    },
+    {
+      "text": "We had a persistent blocked drain at our shop in Kensington. Pumpcheck arrived promptly, used proper equipment to clear it, and gave us advice to prevent future issues. Very professional and thorough.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Pumpcheck Services has been our go-to plumber for several Kensington rental properties. Their pump repairs are always reliable and their communication is excellent. A trustworthy team for any property manager.",
+      "name": "Michael O'Connell",
+      "role": "Property Manager"
+    }
+  ]
+}
