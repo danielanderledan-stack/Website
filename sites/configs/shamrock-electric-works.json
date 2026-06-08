@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Shamrock Electric Works",
+  "suburb": "Montgomery",
+  "phone": "(334) 603-2424",
+  "email": "kharvey@shamrockelectricworks.com",
+  "address": "1088 Whitehall Parkway, Highpoint Estates, Montgomery, AL 36109",
+  "tagline": "Montgomery's 30-Year Electrical Experts",
+  "primaryColor": "#7c8240",
+  "primaryColorRgb": "124, 130, 64",
+  "primaryColorHover": "#6b7338",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "30 Years Electrifying Montgomery",
+      "sub": "Trusted residential and commercial electricians"
+    },
+    {
+      "title": "Panel Upgrades, EV Chargers & More",
+      "sub": "Full-service electrical solutions for your property"
+    },
+    {
+      "title": "Emergency Repairs When You Need Them",
+      "sub": "Available 6 AM–10 PM across Montgomery County"
+    }
+  ],
+  "ctaHeading": "Need a reliable electrician in Montgomery? Shamrock Electric Works has you covered.",
+  "aboutHeading": "30 Years of Electrical Excellence in Montgomery",
+  "aboutSubheading": "Your trusted local electrician since 1994",
+  "aboutText": "For 30 years, Shamrock Electric Works has been Montgomery's go-to electrical contractor. Based in Montgomery, AL, our licensed electricians deliver safe, precise workmanship for homes and businesses across Wetumpka, Millbrook, Prattville, and surrounds. From panel upgrades to smart home wiring, we handle every job with the care and expertise that has built our reputation.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for every property",
+  "servicesText": "Shamrock Electric Works provides a complete range of residential and commercial electrical services across Montgomery and surrounding areas. Our skilled team handles everything from emergency repairs to full new-build wiring with safety and precision.",
+  "services": [
+    {
+      "title": "Panel Services & Upgrades",
+      "desc": "Expert electrical panel installations, upgrades, and whole-home rewiring to keep your property safe and compliant."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Professional EV charger setup for homes and businesses, future-proofing your property for electric vehicles."
+    },
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Ceiling fans, smart home automation, exhaust fans, and all your household electrical needs in Montgomery."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tenant build-outs, commercial renovations, and ongoing electrical maintenance for Montgomery businesses."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Indoor lighting, outdoor landscape lighting, and security motion sensor lighting for enhanced property safety."
+    },
+    {
+      "title": "New Construction & Remodeling",
+      "desc": "Complete electrical wiring for new builds, remodels, troubleshooting, and 24-hour emergency electrical repairs."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Montgomery?",
+  "bannerSubheading": "30 years of safe, reliable electrical work — call Shamrock Electric Works today.",
+  "testimonialsHeading": "What Montgomery Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices, 30 years strong",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Expert advice from Montgomery's electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond fast — call or message us now",
+  "reviews": [
+    {
+      "text": "Shamrock Electric Works upgraded our entire electrical panel at our Prattville home. The team was professional, on time, and left everything spotless. Highly recommend their panel services.",
+      "name": "Sarah Mitchell",
+      "role": "Prattville Homeowner"
+    },
+    {
+      "text": "We needed EV chargers installed at our Montgomery business. Shamrock Electric handled the whole job quickly and explained everything clearly. Excellent commercial electrical work.",
+      "name": "James Crawford",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Shamrock Electric rewired our rental property in Wetumpka during a full remodel. Their troubleshooting skills saved us money, and the work was completed on schedule. Reliable electricians.",
+      "name": "Karen Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
