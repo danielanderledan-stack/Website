@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "All Spark Electrics",
+  "suburb": "Ravenhall",
+  "phone": "03 9390 3938",
+  "email": "info@allspkelectrics.com.au",
+  "address": "Factory 10/47 Orbis Dr, Ravenhall VIC 3023",
+  "tagline": "Ravenhall's Reliable Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e05c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ravenhall's Expert Electricians",
+      "sub": "Reliable services for homes and workplaces"
+    },
+    {
+      "title": "Downlights, Wiring & More",
+      "sub": "Comprehensive electrical solutions in Ravenhall"
+    },
+    {
+      "title": "Let's Talk About Your Project",
+      "sub": "Free quotes for Ravenhall & surrounds"
+    }
+  ],
+  "ctaHeading": "Ravenhall's Electricians Are Ready to Help.",
+  "aboutHeading": "Your Ravenhall Electrical Experts",
+  "aboutSubheading": "Licensed, experienced & friendly",
+  "aboutText": "All Spark Electrics has been serving the Ravenhall community with expert electrical solutions for homes and businesses. Our licensed professionals handle everything from new installations and repairs to switchboard upgrades and fault finding. We pride ourselves on honest service, integrity, and lasting relationships with our customers, ensuring every job is completed to the highest standard.",
+  "servicesHeading": "Electrical Services We Offer",
+  "servicesSubheading": "Quality work, every time",
+  "servicesText": "At All Spark Electrics, we provide a full range of electrical services tailored to Ravenhall residents. From new home wiring to emergency repairs, our experienced team ensures safe and efficient solutions for all your needs.",
+  "services": [
+    {
+      "title": "New Home Wiring",
+      "desc": "Expert wiring for new builds and extensions in Ravenhall, ensuring safety and compliance."
+    },
+    {
+      "title": "Downlights Installation",
+      "desc": "Professional installation of LED downlights to enhance lighting in your home or office."
+    },
+    {
+      "title": "Power Points & Switches",
+      "desc": "Installation of additional light switches and power points for convenience and functionality."
+    },
+    {
+      "title": "Rewiring & Upgrades",
+      "desc": "Complete rewiring for older homes and switchboard upgrades to meet modern standards."
+    },
+    {
+      "title": "Fault Finding & Repairs",
+      "desc": "Efficient diagnosis and repair of electrical faults to restore safety and performance."
+    },
+    {
+      "title": "Smoke Alarms & Security",
+      "desc": "Installation and testing of smoke alarm systems and security systems for peace of mind."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Ravenhall?",
+  "bannerSubheading": "We're here to help with all your electrical needs.",
+  "testimonialsHeading": "What Ravenhall Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from All Spark Electrics",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "Free quotes and advice",
+  "reviews": [
+    {
+      "text": "All Spark Electrics did a fantastic job installing downlights in our Ravenhall home. Their service was professional, tidy, and they finished on time. Highly recommend!",
+      "name": "Tom Wilson",
+      "role": "Ravenhall Homeowner"
+    },
+    {
+      "text": "We hired All Spark Electrics for switchboard upgrades at our business. They were knowledgeable, efficient, and provided honest advice. Great local electricians!",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used All Spark Electrics for multiple repairs and installations. They're reliable, friendly, and always deliver quality work across Melbourne's west.",
+      "name": "James Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
