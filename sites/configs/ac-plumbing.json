@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "A&C Plumbing",
+  "suburb": "Yarraville",
+  "phone": "0418 395 950",
+  "email": "office@aandcplumbing.com",
+  "address": "8 Taylor St, Yarraville VIC 3013",
+  "tagline": "Yarraville's 50-Year Plumbing & Gas Experts",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#b82828",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "50 Years Plumbing Yarraville & Beyond",
+      "sub": "Trusted gas fitters and plumbers since 1974"
+    },
+    {
+      "title": "Emergency Plumbing 24 Hours, 7 Days",
+      "sub": "Rapid response across Yarraville and Melbourne's west"
+    },
+    {
+      "title": "Gas Fitting, Drains & Hot Water Systems",
+      "sub": "No job too big or too small for A&C Plumbing"
+    }
+  ],
+  "ctaHeading": "Yarraville's plumbers are on call 24/7.",
+  "aboutHeading": "50 Years Plumbing Yarraville",
+  "aboutSubheading": "Family-owned, locally trusted",
+  "aboutText": "A & C Plumbing has been Yarraville's trusted plumbing and gas service provider for over 50 years. Our experienced plumbers handle any job, big or small, from routine maintenance and blocked drains to full gas fitting and hot water system installations. Locally owned and operated from Taylor Street, we proudly service Yarraville and the wider western suburbs of Melbourne. Call us for a no-obligation estimate anytime.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Complete plumbing & gas solutions",
+  "servicesText": "From emergency leaks to gas appliance installations, A&C Plumbing covers all residential and commercial plumbing needs across Yarraville and Melbourne's west. Open 24 hours for your convenience.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Available 24 hours a day, 7 days a week for urgent burst pipes, overflows and emergency leaks across Yarraville."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitters for new installations, repairs, leak detection and compliance certificates in Yarraville and surrounds."
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Fast, effective unblocking of sinks, toilets and stormwater drains using professional CCTV inspection and jetting equipment."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair and replacement of gas and electric hot water systems from all major brands for Yarraville homes."
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless pipe relining solutions to repair damaged pipes without digging up your Yarraville property or garden."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine plumbing maintenance, tap washer replacements, toilet repairs and general upkeep for Yarraville properties."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Yarraville?",
+  "bannerSubheading": "50 years of experience — we will get it fixed right the first time.",
+  "testimonialsHeading": "What Yarraville Locals Say",
+  "testimonialsSubheading": "50 years of trusted service",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Expert advice from A&C Plumbing",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond fast — call or email anytime",
+  "reviews": [
+    {
+      "text": "A&C Plumbing came out same-day when our hot water system packed it in on a cold Yarraville winter night. The plumber was on time, explained everything clearly and had us back in hot water by morning. Could not recommend them more highly.",
+      "name": "Shane Mitchell",
+      "role": "Yarraville Homeowner"
+    },
+    {
+      "text": "We have used A&C Plumbing for our Yarraville cafe's gas fitting and regular maintenance for the past three years. Always reliable, always professional and their 50 years of experience really shows. They are our go-to for anything plumbing or gas.",
+      "name": "Karen O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple rental properties in Yarraville, I need a plumber I can trust to get things done quickly. A&C Plumbing handles everything from blocked drains to emergency callouts across my portfolio. Their response time and workmanship are second to none.",
+      "name": "David Nguyen",
+      "role": "Property Manager"
+    }
+  ]
+}
