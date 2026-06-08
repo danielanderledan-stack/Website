@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Jim's Mowing St Albans",
+  "suburb": "St Albans",
+  "phone": "0397809998",
+  "email": "info@jimsmowingstalbans.com.au",
+  "address": "17 Beaver Street, St Albans VIC 3021",
+  "tagline": "St Albans' Mowing & Gardening Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00a86b",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "St Albans' Premier Lawn Mowing",
+      "sub": "Serving the local community with quality gardening"
+    },
+    {
+      "title": "Hedge Trimming & Garden Care",
+      "sub": "Professional services for homes and businesses in St Albans"
+    },
+    {
+      "title": "Free Quotes Across St Albans",
+      "sub": "Call us today for a no-obligation quote on your gardening needs"
+    }
+  ],
+  "ctaHeading": "Get Your Free Quote in St Albans",
+  "aboutHeading": "30 Years of Mowing in St Albans",
+  "aboutSubheading": "Local & Trusted Gardening Services",
+  "aboutText": "Jim's Mowing St Albans has been proudly serving the St Albans community for over 30 years, offering reliable lawn mowing, hedge trimming, and comprehensive gardening services. Our dedicated team specialises in both residential and commercial properties, ensuring your outdoor spaces remain immaculate year-round. With a commitment to quality workmanship and customer satisfaction, we are your trusted local experts for all gardening needs.",
+  "servicesHeading": "Our Gardening Services in St Albans",
+  "servicesSubheading": "From Mowing to Landscaping",
+  "servicesText": "Jim's Mowing St Albans provides a full range of gardening services, from routine lawn care to complete garden makeovers. We cater to both residential and commercial clients, using professional equipment to deliver exceptional results every time. Let us handle the hard work so you can enjoy a beautiful outdoor space.",
+  "services": [
+    {
+      "title": "Lawn Mowing & Care",
+      "desc": "Expert lawn mowing, grass slashing, dethatching, and aeration to keep your turf healthy and vibrant across St Albans properties."
+    },
+    {
+      "title": "Hedge Trimming & Pruning",
+      "desc": "Precise hedge trimming and pruning services to maintain neat, attractive boundaries and enhance your garden's overall look."
+    },
+    {
+      "title": "Rubbish Removal",
+      "desc": "Efficient garden rubbish removal to clear green waste, branches, and debris, leaving your outdoor area tidy and clutter-free."
+    },
+    {
+      "title": "Commercial & Contract Gardening",
+      "desc": "Tailored gardening contracts for businesses and properties in St Albans, ensuring regular maintenance and professional presentation."
+    },
+    {
+      "title": "Garden Landscaping",
+      "desc": "Creative garden landscaping solutions to transform your outdoor space, from design to implementation with local expertise."
+    },
+    {
+      "title": "Gutter Cleaning",
+      "desc": "Thorough gutter cleaning services to prevent blockages and water damage, safeguarding your property's roof and drainage systems."
+    }
+  ],
+  "bannerHeading": "Need a Gardener in St Albans?",
+  "bannerSubheading": "Jim's Mowing is here to help with all your outdoor maintenance needs.",
+  "testimonialsHeading": "What St Albans Residents Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Gardening Tips from Jim's Mowing",
+  "blogSubheading": "Keep your garden looking great",
+  "contactHeading": "Contact Jim's Mowing St Albans",
+  "contactSubheading": "Ready for a free quote? Get in touch today.",
+  "reviews": [
+    {
+      "text": "Jim's Mowing St Albans did an fantastic job with our lawn mowing and hedge trimming last week. The team was punctual, professional, and left our garden looking immaculate. Highly recommend their services to anyone in St Albans.",
+      "name": "John Smith",
+      "role": "St Albans Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Jim's for our commercial gardening contract. They consistently deliver high-quality maintenance, keeping our property looking welcoming. Their rubbish removal service is also top-notch and efficient.",
+      "name": "Sarah Brown",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage several properties in St Albans and have used Jim's Mowing for garden landscaping and routine care. Their attention to detail and reliability make them a go-to choice. The gutter cleaning service was particularly thorough and saved us from potential issues.",
+      "name": "Michael Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
