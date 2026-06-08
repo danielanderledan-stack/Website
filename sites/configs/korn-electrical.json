@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Korn Electrical",
+  "suburb": "Tarneit",
+  "phone": "0456054321",
+  "email": "info@kornelectrical.com.au",
+  "address": "5 Darragan Rd, Tarneit VIC 3029",
+  "tagline": "Tarneit's Trusted Electricians",
+  "primaryColor": "#0056ab",
+  "primaryColorRgb": "0, 86, 171",
+  "primaryColorHover": "#00468c",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Tarneit's Go-To Electricians",
+      "sub": "Korn Electrical – serving local homes and businesses"
+    },
+    {
+      "title": "Expert Electrical Solutions",
+      "sub": "From installations to repairs, we do it all"
+    },
+    {
+      "title": "Work Guaranteed – Call Today",
+      "sub": "Licensed and insured for your peace of mind"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Tarneit?",
+  "aboutHeading": "Korn Electrical – Tarneit's Local Electrician",
+  "aboutSubheading": "Licensed, reliable & ready to help",
+  "aboutText": "At Korn Electrical, led by Korn Kongsunthornkitkul, we've been serving Tarneit and surrounding areas with top-quality electrical services for years. Our team is dedicated to providing safe, efficient solutions for all your electrical needs, from residential to commercial projects. We pride ourselves on reliability and customer satisfaction, making us the go-to electrician in the region.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "What we can do for you",
+  "servicesText": "At Korn Electrical, we provide a full range of electrical services tailored to meet the needs of Tarneit residents and businesses. Our skilled electricians are equipped to handle installations, upgrades, repairs, and more, ensuring your property is safe and fully functional with minimal disruption.",
+  "services": [
+    {
+      "title": "Residential Electrical Work",
+      "desc": "From new builds to renovations, we handle all residential wiring needs in Tarneit with precision and care."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "We provide comprehensive electrical solutions for businesses across Tarneit, ensuring minimal downtime and maximum efficiency."
+    },
+    {
+      "title": "Emergency Call-Outs",
+      "desc": "Available 24 hours, our team responds quickly to electrical emergencies in Tarneit and surrounding areas."
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Enhance your space with expert lighting installations, from indoor fixtures to outdoor security lighting."
+    },
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "Keep your property safe with thorough safety checks and compliance audits for Tarneit homes and businesses."
+    },
+    {
+      "title": "Switchboard & Panel Upgrades",
+      "desc": "Upgrade your electrical system with modern switchboards to handle increased demand and improve safety."
+    }
+  ],
+  "bannerHeading": "Tarneit's Electricians – Ready to Help",
+  "bannerSubheading": "Get a free quote for your electrical project today.",
+  "testimonialsHeading": "What Tarneit Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Stay informed with Korn Electrical",
+  "contactHeading": "Contact Korn Electrical",
+  "contactSubheading": "We're here to answer your questions",
+  "reviews": [
+    {
+      "text": "Korn Electrical did a fantastic job rewiring our home in Tarneit. The work was done quickly and to a high standard. We highly recommend them for any electrical needs.",
+      "name": "John Smith",
+      "role": "Tarneit Homeowner"
+    },
+    {
+      "text": "As a business owner in Tarneit, I relied on Korn Electrical for our shop fit-out. Their team was professional and efficient, ensuring everything was up to code. Great service!",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We've used Korn Electrical for multiple properties as property managers. Their reliability and quality work make them our go-to electrician in the area.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
