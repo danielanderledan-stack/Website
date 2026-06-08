@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "McLean Water Works",
+  "suburb": "Point Cook",
+  "phone": "0403 123 456",
+  "email": "info@mcleanwaterworks.com.au",
+  "address": "21 Wallace Ave, Point Cook VIC 3030",
+  "tagline": "Point Cook's Trusted Plumbing Experts",
+  "primaryColor": "#111111",
+  "primaryColorRgb": "17, 17, 17",
+  "primaryColorHover": "#0d0d0d",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Point Cook's Go-To Plumbers",
+      "sub": "Over 15 years serving the local community"
+    },
+    {
+      "title": "Emergency Plumbing & Repairs",
+      "sub": "Fast response across Point Cook"
+    },
+    {
+      "title": "Specialised Plumbing Solutions",
+      "sub": "From drain cleaning to gas fitting"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Point Cook? Call McLean Water Works.",
+  "aboutHeading": "McLean Water Works: Point Cook's Plumbers",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "McLean Water Works has been the trusted plumbing service for Point Cook and surrounding suburbs for over 15 years. Our skilled team handles all plumbing needs, from routine maintenance to complex installations. We are committed to providing prompt, professional service at competitive rates. Contact us today for a free consultation.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Quality workmanship guaranteed",
+  "servicesText": "At McLean Water Works, we offer a comprehensive range of plumbing services tailored to Point Cook residents and businesses. From emergency callouts to planned renovations, our licensed plumbers ensure efficient and lasting solutions. We use the latest tools and techniques to deliver exceptional results.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "We provide immediate plumbing assistance for emergencies like burst pipes and flooding, available 24/7 in Point Cook."
+    },
+    {
+      "title": "Drain Cleaning",
+      "desc": "Our team uses advanced techniques to clear blocked drains efficiently, preventing future issues and ensuring hygiene."
+    },
+    {
+      "title": "Pipe Repairs",
+      "desc": "Expert repair and replacement of damaged or corroded pipes throughout your property to restore functionality."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems for consistent supply in Point Cook homes."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete plumbing services for bathroom remodels, including fixture installation and pipe work."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Certified gas fitting services for installations, repairs, and safety inspections in Point Cook."
+    }
+  ],
+  "bannerHeading": "Plumbing Services in Point Cook",
+  "bannerSubheading": "Reliable solutions for your home or business",
+  "testimonialsHeading": "What Our Point Cook Clients Say",
+  "testimonialsSubheading": "Honest feedback from satisfied customers",
+  "blogHeading": "Plumbing Advice from McLean Water Works",
+  "blogSubheading": "Tips to maintain your plumbing systems",
+  "contactHeading": "Contact McLean Water Works",
+  "contactSubheading": "Get a free quote today – we're here to help",
+  "reviews": [
+    {
+      "text": "McLean Water Works repaired our hot water system in Point Cook swiftly. The plumber was courteous and the work was top-notch. We've used them multiple times and always receive excellent service.",
+      "name": "Steve Thompson",
+      "role": "Point Cook Homeowner"
+    },
+    {
+      "text": "As a local café owner, I rely on McLean Water Works for regular maintenance. They've kept our plumbing in perfect order for years, with no disruptions to our business.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "McLean Water Works has been managing the plumbing for our properties in Point Cook for over 5 years. Their reliable service and expert advice have saved us time and money repeatedly.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
