@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Wishart Auto Tech",
+  "suburb": "Kensington",
+  "phone": "03 9376 5555",
+  "email": "info@wishartautotech.com.au",
+  "address": "83 Bakehouse Rd, Kensington VIC 3031",
+  "tagline": "Kensington's Trusted Auto Technicians",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6b00c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kensington's Trusted Auto Technicians",
+      "sub": "Expert car repair and servicing for all makes"
+    },
+    {
+      "title": "Genuine Parts Without Dealership Prices",
+      "sub": "Original equipment and quality aftermarket brands"
+    },
+    {
+      "title": "Specialists in Aluminium & Plastic Welding",
+      "sub": "Affordable repairs for your vehicle"
+    }
+  ],
+  "ctaHeading": "Need Auto Repair in Kensington? We're Here to Help.",
+  "aboutHeading": "Wishart Auto Tech in Kensington",
+  "aboutSubheading": "Local, reliable auto service",
+  "aboutText": "At Wishart Auto Tech in Kensington, we are committed to providing the best possible service to our customers. With years of experience in car repair, we offer a range of options to suit every need and budget. From genuine original equipment from top brands like Denso and Valeo to cost-effective aftermarket solutions, we ensure your vehicle receives the care it deserves. Our specialisation in aluminium and plastic welding sets us apart for affordable and reliable repairs.",
+  "servicesHeading": "Our Auto Repair Services",
+  "servicesSubheading": "Quality car care in Kensington",
+  "servicesText": "We offer a comprehensive range of car repair services tailored to your vehicle's needs. From routine servicing to specialised welding repairs, our skilled technicians ensure high-quality workmanship using both genuine and aftermarket parts.",
+  "services": [
+    {
+      "title": "General Car Servicing",
+      "desc": "Routine maintenance and comprehensive checks for all vehicle makes and models."
+    },
+    {
+      "title": "Original Equipment Parts",
+      "desc": "Genuine parts from brands like Denso and Valeo without the dealership price tag."
+    },
+    {
+      "title": "Aftermarket Parts Supply",
+      "desc": "Cost-effective alternatives from trusted brands such as Koyo and Nissens."
+    },
+    {
+      "title": "Aluminium Welding",
+      "desc": "Specialised repair for aluminium vehicle components and bodywork."
+    },
+    {
+      "title": "Plastic Welding",
+      "desc": "Expert fixes for plastic bumpers, panels, and other parts."
+    },
+    {
+      "title": "Diagnostic Services",
+      "desc": "Advanced diagnostics to identify and resolve vehicle issues efficiently."
+    }
+  ],
+  "bannerHeading": "Car Repair Experts in Kensington",
+  "bannerSubheading": "Fast, reliable service for your vehicle",
+  "testimonialsHeading": "What Kensington Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Auto Tips & News",
+  "blogSubheading": "Insights from Wishart Auto Tech",
+  "contactHeading": "Contact Us for a Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Wishart Auto Tech did a fantastic job on my car's aluminium welding after a minor accident. They were quick, affordable, and based right here in Kensington.",
+      "name": "Mark Thompson",
+      "role": "Kensington Homeowner"
+    },
+    {
+      "text": "I've been taking my business vehicles to Wishart Auto Tech for years. Their use of genuine parts and professional service keeps our fleet running smoothly.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable car repairs for my tenants. Wishart Auto Tech in Kensington provides excellent service and transparent pricing.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
