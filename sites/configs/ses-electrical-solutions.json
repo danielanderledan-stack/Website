@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "SES Electrical Solutions",
+  "suburb": "Altona",
+  "phone": "1300 838 083",
+  "email": "seselec@outlook.com.au",
+  "address": "91-99 Ajax Road, Altona VIC 3018",
+  "tagline": "Altona's Trusted Electricians, 24 Hours a Day",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Altona's 24-Hour Emergency Electricians",
+      "sub": "Certified experts at your door any time"
+    },
+    {
+      "title": "Residential & Commercial Electrical Services",
+      "sub": "Lighting, switchboards, rewiring and more"
+    },
+    {
+      "title": "Trusted Electricians in Melbourne's West",
+      "sub": "Affordable pricing with no hidden surprises"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Altona? Call Us Now.",
+  "aboutHeading": "Altona's Local Electrical Experts",
+  "aboutSubheading": "Certified, experienced and always available",
+  "aboutText": "SES Electrical Solutions is a locally owned electrical business based in Altona, proudly serving Melbourne's western suburbs. Our certified electricians deliver reliable residential and commercial electrical services with transparent, upfront pricing. Whether you need emergency repairs at midnight or a full switchboard upgrade, our skilled team is available 24 hours a day. We are the trusted choice for homeowners and businesses across Altona, Newport, Williamstown and surrounding areas.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Skilled electricians for every job",
+  "servicesText": "From emergency callouts to complete rewiring projects, our Altona-based electricians handle all electrical work across Melbourne's west with professionalism and care.",
+  "services": [
+    {
+      "title": "24-Hour Emergency Electrical Services",
+      "desc": "Faults, outages and electrical hazards attended to urgently, any time of day or night across Altona and surrounding suburbs."
+    },
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Complete home electrical solutions including power points, wiring, ceiling fans and full electrical fitouts for Altona homeowners."
+    },
+    {
+      "title": "Switchboard & Safety Switch Upgrades",
+      "desc": "Old or unsafe switchboards replaced with modern RCD-protected units to keep your Altona home compliant and protected."
+    },
+    {
+      "title": "Smoke Alarm Installation",
+      "desc": "Supply and install compliant photoelectric smoke alarms throughout your property, meeting current Victorian legislation requirements."
+    },
+    {
+      "title": "Light Installation & Repairs",
+      "desc": "Indoor and outdoor lighting installed, repaired or upgraded to brighten your Altona home or commercial space."
+    },
+    {
+      "title": "Commercial Electrical Maintenance",
+      "desc": "Ongoing electrical maintenance, testing and compliance inspections for businesses and commercial properties across Melbourne's west."
+    }
+  ],
+  "bannerHeading": "Altona's Electricians Are On Call 24/7",
+  "bannerSubheading": "Fast response times across Melbourne's western suburbs.",
+  "testimonialsHeading": "What Altona Locals Say",
+  "testimonialsSubheading": "Real feedback from our customers",
+  "blogHeading": "Electrical Tips & Advice",
+  "blogSubheading": "Helpful insights from our Altona team",
+  "contactHeading": "Get a Free Electrical Quote",
+  "contactSubheading": "We respond quickly to every enquiry",
+  "reviews": [
+    {
+      "text": "SES Electrical Solutions installed new smoke alarms throughout our Altona home and replaced the old switchboard the same day. The team was professional, tidy and the pricing was very transparent. Highly recommend to anyone in the area.",
+      "name": "Sarah Mitchell",
+      "role": "Altona Homeowner"
+    },
+    {
+      "text": "We called SES Electrical Solutions for an urgent electrical fault at our shop in Newport and they arrived within the hour. They diagnosed the issue quickly and had everything running again the same afternoon. Fantastic commercial service.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "SES Electrical Solutions has handled several maintenance inspections across our rental properties in Melbourne's west. Their electricians are always punctual, courteous and thorough. They keep our properties safe and compliant.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
