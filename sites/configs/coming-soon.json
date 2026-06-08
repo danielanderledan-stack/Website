@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Coming Soon...",
+  "suburb": "Maribyrnong",
+  "phone": "0412 345 678",
+  "email": "info@comingsoon.com.au",
+  "address": "15 Ibis Pl, Maribyrnong VIC 3032",
+  "tagline": "Maribyrnong's Expert Electricians",
+  "primaryColor": "#0055a5",
+  "primaryColorRgb": "0, 85, 165",
+  "primaryColorHover": "#004d95",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Maribyrnong's Go-To Electricians",
+      "sub": "Serving the local community with expertise"
+    },
+    {
+      "title": "Residential & Commercial Electrical Services",
+      "sub": "From wiring to repairs in Maribyrnong"
+    },
+    {
+      "title": "Reliable Electricians You Can Trust",
+      "sub": "Free quotes for Maribyrnong and surrounds"
+    }
+  ],
+  "ctaHeading": "Maribyrnong electricians are here to help.",
+  "aboutHeading": "Experienced Electricians in Maribyrnong",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 15 years of experience serving Maribyrnong and the surrounding areas, our team of licensed electricians is dedicated to providing top-quality electrical services. We understand the unique needs of homes and businesses in Maribyrnong, ensuring safe and efficient solutions. From new installations to emergency repairs, we are committed to excellence in every project.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert electrical solutions",
+  "servicesText": "We offer a comprehensive range of electrical services tailored to residential and commercial clients in Maribyrnong. Our skilled electricians handle everything from installations to maintenance with precision and care.",
+  "services": [
+    {
+      "title": "Residential Wiring",
+      "desc": "Complete wiring solutions for homes in Maribyrnong, ensuring safety and compliance with local standards."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Electrical services for businesses, including lighting and power systems to keep operations running smoothly."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical repair services to restore power quickly in Maribyrnong and nearby suburbs."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrading old switchboards to meet modern safety standards for enhanced protection in your property."
+    },
+    {
+      "title": "Lighting Installations",
+      "desc": "Professional installation of indoor and outdoor lighting to improve aesthetics and functionality."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety inspections for homes and businesses to prevent hazards and ensure compliance."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Maribyrnong?",
+  "bannerSubheading": "We're ready to assist with all your electrical needs.",
+  "testimonialsHeading": "What Maribyrnong Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "The electricians did a fantastic job wiring our new extension in Maribyrnong. Professional, timely, and the work was impeccable. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Maribyrnong Homeowner"
+    },
+    {
+      "text": "We had our office rewired by this team, and they were excellent. Minimal disruption and great communication throughout the project in Melbourne's west.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Prompt and efficient service for our switchboard upgrade. They explained everything clearly and ensured our property met all safety standards.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
