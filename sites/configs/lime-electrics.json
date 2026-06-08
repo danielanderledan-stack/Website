@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Lime Electrics",
+  "suburb": "West Footscray",
+  "phone": "0411376156",
+  "email": "info@limeelectrics.com.au",
+  "address": "11/46 Graingers Rd, West Footscray VIC 3012",
+  "tagline": "West Footscray's Electrical Experts",
+  "primaryColor": "#f0f0f0",
+  "primaryColorRgb": "240, 240, 240",
+  "primaryColorHover": "#e0e0e0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lime Electrics: Your Local Electricians",
+      "sub": "Serving West Footscray with pride"
+    },
+    {
+      "title": "Residential & Commercial Electrical Services",
+      "sub": "From wiring to maintenance across Melbourne's west"
+    },
+    {
+      "title": "Emergency Electrical Repairs 24/7",
+      "sub": "Prompt assistance when you need it most"
+    }
+  ],
+  "ctaHeading": "West Footscray's electricians are ready to help.",
+  "aboutHeading": "Trusted Electricians in West Footscray",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "At Lime Electrics, we are dedicated to providing exceptional electrical services to the West Footscray community. Whether you need quotes, installations, maintenance, or emergency repairs, our friendly and local electricians are available promptly to assist you. With a commitment to quality and customer satisfaction, we ensure your electrical needs are met with expertise and care.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Electrical services done right",
+  "servicesText": "From residential wiring to commercial fit-outs, Lime Electrics offers comprehensive electrical solutions. Our team is equipped to handle installations, repairs, and maintenance across West Footscray and beyond.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Complete home electrical solutions, including wiring, lighting, and safety switches for West Footscray homes."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Professional electrical installations and maintenance for businesses in West Footscray and surrounding areas."
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "24/7 emergency response for electrical faults, ensuring safety and minimal downtime for your property."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Regular maintenance checks to prevent issues and keep your electrical systems running smoothly."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Expert installation of indoor and outdoor lighting to enhance your property's ambiance and safety."
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Thorough electrical inspections to meet Australian standards and ensure your peace of mind."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in West Footscray?",
+  "bannerSubheading": "We're here for all your electrical needs.",
+  "testimonialsHeading": "What West Footscray Locals Say",
+  "testimonialsSubheading": "Reliable service, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from Lime Electrics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Lime Electrics did a fantastic job on our home rewiring in West Footscray. Their electricians were punctual and professional, and the work was completed to a high standard.",
+      "name": "John Smith",
+      "role": "West Footscray Homeowner"
+    },
+    {
+      "text": "We've used Lime Electrics for our shop's electrical maintenance for years. They always provide reliable service and quick responses to any issues.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Lime Electrics for all electrical repairs across our West Footscray properties. Their emergency service is top-notch.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
