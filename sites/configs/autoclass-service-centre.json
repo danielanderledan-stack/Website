@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Autoclass Service Centre",
+  "suburb": "Braybrook",
+  "phone": "(03) 9317 0000",
+  "email": "autoclass@optusnet.com.au",
+  "address": "18 Cranwell St, Braybrook VIC 3019",
+  "tagline": "Braybrook's First-Class Auto Repairs Since 2002",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6500b0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Braybrook's Trusted Mechanics",
+      "sub": "22+ years servicing Melbourne's west"
+    },
+    {
+      "title": "All Makes & Models Welcome",
+      "sub": "Honest, reliable and affordable repairs"
+    },
+    {
+      "title": "First Class Automotive Repairs",
+      "sub": "Now at 18 Cranwell St, Braybrook"
+    }
+  ],
+  "ctaHeading": "Braybrook's mechanics are ready — book your service today.",
+  "aboutHeading": "22 Years in Braybrook",
+  "aboutSubheading": "Honest, reliable and affordable",
+  "aboutText": "Since opening our doors in Footscray in 2002, we at Autoclass have quickly made a name for ourselves with honest, reliable and affordable repairs. Now based at 18 Cranwell St in Braybrook, we service all makes and models of vehicles, giving our customers the peace of mind that comes with professional workmanship and friendly customer service at a competitive price.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Complete automotive care",
+  "servicesText": "From routine servicing to complex engine repairs, Autoclass Service Centre provides the full spectrum of mechanical work for all makes and models across Braybrook and Melbourne's west.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Manufacturer-specified servicing that keeps your warranty intact and your vehicle running at its best."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Complete brake inspections, pad replacements and rotor resurfacing for safe and reliable stopping power."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced computer diagnostics to accurately pinpoint issues and get your engine running smoothly again."
+    },
+    {
+      "title": "Transmission Servicing",
+      "desc": "Automatic and manual transmission repairs, fluid changes and clutch replacements by experienced mechanics."
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Shock absorber replacements, wheel alignments and steering component repairs for a comfortable, safe ride."
+    },
+    {
+      "title": "Cooling System Repairs",
+      "desc": "Radiator replacements, coolant flushes and hose repairs to prevent overheating and costly engine damage."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Braybrook?",
+  "bannerSubheading": "First-class repairs at competitive prices — get a free quote today.",
+  "testimonialsHeading": "What Braybrook Locals Say",
+  "testimonialsSubheading": "Real feedback from real customers",
+  "blogHeading": "Auto Tips & News",
+  "blogSubheading": "Helpful advice from the Autoclass team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We will get back to you fast",
+  "reviews": [
+    {
+      "text": "Been taking my car to Autoclass in Braybrook for years. They do all my logbook servicing and always explain exactly what needs doing without pushing unnecessary work. Genuinely honest mechanics.",
+      "name": "Dave Mitchell",
+      "role": "Braybrook Homeowner"
+    },
+    {
+      "text": "They diagnosed a tricky engine misfire that two other shops missed. Fair pricing and the team at Autoclass in Cranwell St were really friendly and professional throughout the whole process.",
+      "name": "Sarah Nguyen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We use Autoclass for our entire fleet of delivery vehicles. Their brake repairs and regular servicing keep everything on the road. Reliable, quick turnaround and always great value.",
+      "name": "James O'Connell",
+      "role": "Property Manager"
+    }
+  ]
+}
