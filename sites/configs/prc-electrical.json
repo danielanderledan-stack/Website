@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "PRC Electrical",
+  "suburb": "Laverton North",
+  "phone": "0419 544 086",
+  "email": "info@prcelectrical.com.au",
+  "address": "9/4 Weddel Ct, Laverton North VIC 3026",
+  "tagline": "Laverton North's Licensed Electricians",
+  "primaryColor": "#a5cccb",
+  "primaryColorRgb": "165, 204, 203",
+  "primaryColorHover": "#8fbba8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Laverton North's Electrical Experts",
+      "sub": "Industrial, commercial & residential services"
+    },
+    {
+      "title": "Test & Tag Compliance Specialists",
+      "sub": "Keeping your business safe & compliant"
+    },
+    {
+      "title": "Emergency Breakdown Repairs",
+      "sub": "Fast response across greater Melbourne"
+    }
+  ],
+  "ctaHeading": "Laverton North's electricians are ready — let's power your project.",
+  "aboutHeading": "Licensed & Experienced in Laverton North",
+  "aboutSubheading": "Local, reliable & compliant",
+  "aboutText": "PRC Electrical, licensed under REC No: 13541, provides expert electrical services to Laverton North and the greater Melbourne area. Our experienced electricians handle everything from emergency breakdowns to planned installations, specialising in industrial and commercial sectors including packaging, food processing, and mining. We ensure compliance with test and tag standards and safety systems, delivering reliable solutions for businesses of all sizes.",
+  "servicesHeading": "What We Power & Install",
+  "servicesSubheading": "Electrical solutions for every need",
+  "servicesText": "Our team offers a full range of electrical services tailored to Laverton North businesses. From industrial maintenance to commercial fit-outs, we prioritise safety, efficiency, and compliance with Australian standards.",
+  "services": [
+    {
+      "title": "Industrial Electrical Services",
+      "desc": "Comprehensive electrical maintenance and installation for factories, plants, and industrial facilities across Melbourne's west."
+    },
+    {
+      "title": "Commercial Electrical Solutions",
+      "desc": "Expert wiring, lighting, and power systems for offices, retail spaces, and commercial properties in Laverton North."
+    },
+    {
+      "title": "Test & Tag Compliance",
+      "desc": "Regular testing and tagging of electrical equipment to ensure workplace safety and compliance with regulations."
+    },
+    {
+      "title": "Safety System Installations",
+      "desc": "Installation and maintenance of safety switches, surge protection, and emergency systems for industrial and commercial use."
+    },
+    {
+      "title": "PLC Programming & Motor Control",
+      "desc": "Specialised programming and control solutions for automation and motor systems in manufacturing environments."
+    },
+    {
+      "title": "Emergency Breakdown Repairs",
+      "desc": "Prompt response to electrical emergencies, minimising downtime for businesses throughout Laverton North and surrounds."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Laverton North?",
+  "bannerSubheading": "24/7 emergency services available",
+  "testimonialsHeading": "What Laverton North Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "From the PRC Electrical team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "PRC Electrical did an excellent job on our factory's test and tag compliance. Their team was professional and ensured all equipment met safety standards.",
+      "name": "Bruce Thompson",
+      "role": "Laverton North Factory Owner"
+    },
+    {
+      "text": "We called PRC for an emergency breakdown at our warehouse, and they responded quickly. Their electricians fixed the issue efficiently, getting us back to business.",
+      "name": "Kylie Roberts",
+      "role": "Property Manager"
+    },
+    {
+      "text": "For our new commercial fit-out, PRC handled all electrical installations flawlessly. Their expertise in industrial systems was evident, and they delivered on time.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    }
+  ]
+}
