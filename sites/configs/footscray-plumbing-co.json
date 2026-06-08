@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Footscray Plumbing Co.",
+  "suburb": "Footscray",
+  "phone": "0412 345 678",
+  "email": "info@footscrayplumbing.com.au",
+  "address": "18 Albert Footscray Plaza, Footscray VIC 3011",
+  "tagline": "Footscray's Trusted Plumbers",
+  "primaryColor": "#1E90FF",
+  "primaryColorRgb": "30, 144, 255",
+  "primaryColorHover": "#1873CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Footscray's Emergency Plumbing Experts",
+      "sub": "24/7 service for urgent fixes"
+    },
+    {
+      "title": "Blocked Drains? We've Got You Covered",
+      "sub": "Fast and efficient solutions in Footscray"
+    },
+    {
+      "title": "Hot Water Systems Installed & Repaired",
+      "sub": "Serving Melbourne's western suburbs"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Footscray? We're Here to Help.",
+  "aboutHeading": "20 Years Serving Footscray",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Footscray, our team has been providing top-notch plumbing services to the local community for over 20 years. We specialise in everything from emergency repairs to bathroom renovations, ensuring quality workmanship every time. Our licensed plumbers are committed to serving Melbourne's west with reliable and affordable solutions.",
+  "servicesHeading": "What We Fix & Install",
+  "servicesSubheading": "Plumbing services tailored for Footscray",
+  "servicesText": "From blocked drains to hot water system installations, we handle all plumbing needs in Footscray and surrounding areas. Our experienced team uses the latest techniques to deliver efficient and lasting results.",
+  "services": [
+    {
+      "title": "Blocked Drains",
+      "desc": "We use advanced equipment to quickly clear blocked drains in Footscray homes and businesses."
+    },
+    {
+      "title": "Pipe Repair & Replacement",
+      "desc": "Expert repair and replacement of damaged pipes to prevent leaks and water damage."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems for consistent supply."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete bathroom plumbing for renovations, from fixtures to full installations."
+    },
+    {
+      "title": "Leak Detection",
+      "desc": "State-of-the-art leak detection to find and fix hidden water leaks efficiently."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency services for urgent plumbing issues in Footscray and nearby areas."
+    }
+  ],
+  "bannerHeading": "Plumbing Problems in Footscray? Call Us Now.",
+  "bannerSubheading": "Fast response times and guaranteed work.",
+  "testimonialsHeading": "What Footscray Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Plumbing Tips & Updates",
+  "blogSubheading": "Helpful advice from Footscray plumbers",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We respond within the hour",
+  "reviews": [
+    {
+      "text": "The team from Footscray Plumbing Co. fixed our blocked drain quickly and professionally. Highly recommend their services to anyone in the area.",
+      "name": "John Smith",
+      "role": "Footscray Homeowner"
+    },
+    {
+      "text": "We had a hot water system installed by these plumbers, and the service was excellent. They were on time and the work was top quality.",
+      "name": "Sarah Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on fast plumbing repairs. This team has handled multiple issues for our Footscray properties with great results.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
