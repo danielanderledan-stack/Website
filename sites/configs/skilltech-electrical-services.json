@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Skilltech Electrical Services",
+  "suburb": "Aberfeldie",
+  "phone": "03 9312 4567",
+  "email": "info@skilltechelectrical.com.au",
+  "address": "Jean St, Aberfeldie VIC 3040",
+  "tagline": "Aberfeldie's Trusted Electricians",
+  "primaryColor": "#1877f2",
+  "primaryColorRgb": "24, 119, 242",
+  "primaryColorHover": "#1a6ed4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Aberfeldie's Go-To Electricians",
+      "sub": "Serving homes and businesses since 2010"
+    },
+    {
+      "title": "Residential & Commercial Experts",
+      "sub": "Licensed, insured, and local to Aberfeldie"
+    },
+    {
+      "title": "Powering Aberfeldie Safely",
+      "sub": "From switchboards to lighting solutions"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Aberfeldie? Let's Talk.",
+  "aboutHeading": "Electrical Experts in Aberfeldie",
+  "aboutSubheading": "Local, reliable, and specialised",
+  "aboutText": "Skilltech Electrical Services has been providing top-notch electrical solutions in Aberfeldie and surrounding areas for over a decade. Our team specialises in residential, commercial, and emergency electrical work, ensuring safety and efficiency for every project. From switchboard upgrades to lighting installations, we are committed to delivering reliable service to the Aberfeldie community.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Tailored for Aberfeldie",
+  "servicesText": "We offer a full suite of electrical services designed for the unique needs of Aberfeldie properties. Whether it's upgrading your switchboard or installing energy-efficient lighting, our experts deliver quality workmanship every time.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete home electrical services, from rewiring to appliance installations, ensuring your Aberfeldie home is safe and modern."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Expert electrical solutions for Aberfeldie businesses, including fit-outs, maintenance, and energy management systems."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency callouts for electrical faults in Aberfeldie, providing quick and reliable fixes to restore power."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrading outdated switchboards in Aberfeldie homes to meet current safety regulations and handle modern loads."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional lighting design and installation for Aberfeldie properties, enhancing aesthetics and functionality."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety inspections for Aberfeldie homes and businesses, identifying and rectifying potential hazards."
+    }
+  ],
+  "bannerHeading": "Trusted Electricians in Aberfeldie",
+  "bannerSubheading": "Prompt service and competitive rates",
+  "testimonialsHeading": "What Aberfeldie Locals Say",
+  "testimonialsSubheading": "Real feedback from our community",
+  "blogHeading": "Electrical Insights & Tips",
+  "blogSubheading": "Stay informed with Skilltech",
+  "contactHeading": "Contact Skilltech Electrical",
+  "contactSubheading": "We respond within the hour",
+  "reviews": [
+    {
+      "text": "Skilltech upgraded our switchboard in Aberfeldie, and the work was done efficiently and professionally. Highly recommend their services for any electrical needs.",
+      "name": "Tom Wilson",
+      "role": "Aberfeldie Homeowner"
+    },
+    {
+      "text": "As a local café owner in Aberfeldie, I rely on Skilltech for all our electrical maintenance. Their team is always prompt and knowledgeable, keeping our business running smoothly.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage several properties in Aberfeldie, and Skilltech is my go-to for electrical inspections and repairs. Their attention to detail and reliability are unmatched.",
+      "name": "Mike O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
