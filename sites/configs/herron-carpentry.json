@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Herron Carpentry",
+  "suburb": "Caroline Springs",
+  "phone": "0413116124",
+  "email": "info@herroncarpentry.com.au",
+  "address": "82 Chisholm Dr, Caroline Springs VIC 3023",
+  "tagline": "Caroline Springs Carpentry Specialists",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0e5acc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Caroline Springs Trusted Carpenter",
+      "sub": "Years of hands-on experience in Melbourne's west"
+    },
+    {
+      "title": "Decking, Cladding & Feature Walls",
+      "sub": "Custom timber work for homes and businesses"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Caroline Springs and surrounds"
+    }
+  ],
+  "ctaHeading": "Caroline Springs carpenters are ready to build your project.",
+  "aboutHeading": "Caroline Springs Carpentry Experts",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With years of hands-on carpentry experience, Herron Carpentry is proud to serve Caroline Springs and Melbourne's western suburbs. We specialise in custom cabinetry, framing, decking, cladding, and full renovation fit-outs. From new builds to alfresco upgrades, we deliver quality craftsmanship with transparent quotes and no hidden costs. We work with homeowners, builders, property managers, and real estate agents across Melbourne.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Skilled craftsmanship for every project",
+  "servicesText": "From custom cabinetry and new build framing to decks, pergolas, cladding, and full renovation fit-outs, Herron Carpentry delivers quality timber work across Caroline Springs and Melbourne's west.",
+  "services": [
+    {
+      "title": "Custom Cabinetry & Storage",
+      "desc": "Bespoke cabinetry, built-in wardrobes, and smart storage solutions tailored to your home."
+    },
+    {
+      "title": "New Build Framing",
+      "desc": "Timber and steel framing for walls, floors, roofs, and structural extensions."
+    },
+    {
+      "title": "Renovations & Fit-Outs",
+      "desc": "End-to-end renovation support from planning and design through to the finishing touches."
+    },
+    {
+      "title": "Decks & Pergolas",
+      "desc": "Outdoor timber decks and pergolas built to last and designed for the Australian lifestyle."
+    },
+    {
+      "title": "Cladding & Feature Walls",
+      "desc": "Timber cladding, feature walls, and screening for privacy and visual appeal."
+    },
+    {
+      "title": "Doors, Windows & Screening",
+      "desc": "Professional door and window installations plus timber screening for style and privacy."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Caroline Springs?",
+  "bannerSubheading": "Fully qualified and insured. Free site visit and quote.",
+  "testimonialsHeading": "What Caroline Springs Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Carpentry Tips & Projects",
+  "blogSubheading": "Insights from the Herron team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond fast",
+  "reviews": [
+    {
+      "text": "Herron Carpentry built a stunning deck and pergola at our Caroline Springs home. The team was punctual, tidy, and the finished result is absolutely brilliant. Highly recommend them to anyone in the area.",
+      "name": "Jake Mitchell",
+      "role": "Caroline Springs Homeowner"
+    },
+    {
+      "text": "We needed additional framing labour for a new build in Melbourne's west and Herron Carpentry delivered outstanding work. Their experience showed on every stage of the project. Would use again without hesitation.",
+      "name": "Brad Collins",
+      "role": "Local Builder"
+    },
+    {
+      "text": "As a property manager I rely on Herron Carpentry for ongoing maintenance and renovation jobs. They're always professional, the quotes are transparent, and the workmanship is consistently top-notch.",
+      "name": "Rachel Donovan",
+      "role": "Property Manager"
+    }
+  ]
+}
