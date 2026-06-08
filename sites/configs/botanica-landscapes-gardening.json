@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Botanica Landscapes & Gardening",
+  "suburb": "Essendon",
+  "phone": "0499612555",
+  "email": "botanica.admin@gmail.com",
+  "address": "49A, Bradshaw Street, Essendon, Melbourne, Victoria, 3040, Australia",
+  "tagline": "Essendon's Gardening Experts at Botanica",
+  "primaryColor": "#3CB371",
+  "primaryColorRgb": "60, 179, 113",
+  "primaryColorHover": "#2E8B57",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Essendon's Go-To Landscapers",
+      "sub": "Expert gardening services in Melbourne's north"
+    },
+    {
+      "title": "Landscaping, Planting & Irrigation",
+      "sub": "Tailored to your Essendon garden needs"
+    },
+    {
+      "title": "No Garden Too Big or Small",
+      "sub": "Free quotes across Essendon & surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Essendon Garden?",
+  "aboutHeading": "Essendon's Trusted Landscapers",
+  "aboutSubheading": "Local expertise, beautiful results",
+  "aboutText": "At Botanica Landscapes & Gardening, we specialise in creating and maintaining stunning gardens across Essendon. With a focus on quality planting, mulching, and irrigation, we ensure every project reflects our commitment to excellence. Serving the Essendon community, we bring years of gardening expertise to every job.",
+  "servicesHeading": "Our Core Services",
+  "servicesSubheading": "Expert care for your garden",
+  "servicesText": "We provide a full range of gardening services in Essendon, including planting, mulching, irrigation, and lawn installation. Our team is skilled in creating sustainable and beautiful outdoor spaces tailored to your preferences.",
+  "services": [
+    {
+      "title": "Planting & Garden Design",
+      "desc": "We create custom garden layouts with a variety of plants to suit Essendon's climate and your style."
+    },
+    {
+      "title": "Mulching Services",
+      "desc": "Professional mulching to retain moisture, suppress weeds, and enhance garden health in your Essendon garden."
+    },
+    {
+      "title": "Irrigation Installation",
+      "desc": "Efficient irrigation systems to keep your garden lush and water-wise, perfect for Melbourne conditions."
+    },
+    {
+      "title": "Lawn Installation",
+      "desc": "From seed to turf, we install and establish healthy lawns that become the centrepiece of your outdoor area."
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Regular upkeep including pruning, weeding, and fertilising to maintain your garden's beauty throughout the seasons."
+    },
+    {
+      "title": "Landscaping Consultation",
+      "desc": "Expert advice and planning to transform your garden into a functional and aesthetically pleasing space."
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Essendon?",
+  "bannerSubheading": "Botanica Landscapes is here to help.",
+  "testimonialsHeading": "What Essendon Locals Say",
+  "testimonialsSubheading": "Real reviews from our community",
+  "blogHeading": "Gardening Tips & Updates",
+  "blogSubheading": "Insights from Botanica Landscapes",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for Essendon garden services",
+  "reviews": [
+    {
+      "text": "Botanica transformed our backyard in Essendon with a beautiful new lawn and garden beds. Their attention to detail was impressive, and the team was professional from start to finish.",
+      "name": "John Smith",
+      "role": "Essendon Homeowner"
+    },
+    {
+      "text": "As a local café owner, I needed regular garden maintenance. Botanica keeps our outdoor area pristine, attracting more customers with their impeccable service.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties, I rely on Botanica for irrigation and planting. They've consistently delivered quality work across Essendon, making my life easier.",
+      "name": "Mike Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
