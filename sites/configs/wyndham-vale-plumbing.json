@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Wyndham Vale Plumbing",
+  "suburb": "Wyndham Vale",
+  "phone": "+61412323148",
+  "email": "info@wynplumb.com.au",
+  "address": "31 Loop Rd, Werribee VIC 3030",
+  "tagline": "Wyndham Vale Plumbing Experts",
+  "primaryColor": "#007bff",
+  "primaryColorRgb": "0, 123, 255",
+  "primaryColorHover": "#0056b3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Wyndham Vale's Trusted Plumbers",
+      "sub": "Over 25 years of licensed service"
+    },
+    {
+      "title": "Backflow Prevention & Hot Water Experts",
+      "sub": "Domestic and commercial plumbing solutions"
+    },
+    {
+      "title": "25+ Years in Wyndham Vale & Surrounds",
+      "sub": "Serving Hoppers Crossing, Tarneit & Truganina"
+    }
+  ],
+  "ctaHeading": "Wyndham Vale's plumbers are ready to help.",
+  "aboutHeading": "25 Years Plumbing in Wyndham Vale",
+  "aboutSubheading": "Licensed, Accredited & Local",
+  "aboutText": "Wyndham Vale Plumbing has been a member of the Master Plumbers' and Mechanical Services Association of Australia for over 25 years. Registered and licensed with the Plumbing Industry Commission in all plumbing classes, we specialise in backflow prevention, hot water systems, and general domestic plumbing. Serving Wyndham Vale, Hoppers Crossing, Tarneit, and Truganina with reliable, expert service.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive Solutions for All Needs",
+  "servicesText": "From backflow prevention to hot water installations, we cover all plumbing classes. Our licensed team provides domestic and commercial services, including excavator hire, jet washing, and CCTV camera inspections.",
+  "services": [
+    {
+      "title": "Backflow Prevention",
+      "desc": "Certified installation and testing of backflow prevention devices to ensure water safety compliance."
+    },
+    {
+      "title": "Domestic Plumbing",
+      "desc": "General plumbing repairs, maintenance, and installations for homes in Wyndham Vale and surrounds."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and servicing of hot water systems for reliable hot water supply."
+    },
+    {
+      "title": "Excavator Hire",
+      "desc": "Excavator hire services for plumbing excavation needs, available for various project sizes."
+    },
+    {
+      "title": "Jet Washing",
+      "desc": "High-pressure jet washing to clear drains and clean surfaces effectively."
+    },
+    {
+      "title": "CCTV Camera Inspections",
+      "desc": "Advanced CCTV camera inspections to diagnose plumbing issues accurately."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Wyndham Vale?",
+  "bannerSubheading": "Fast, reliable service for all your plumbing needs.",
+  "testimonialsHeading": "What Wyndham Vale Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Expert advice from Wyndham Vale Plumbing",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Wyndham Vale Plumbing installed a new backflow prevention system at our property. Their work was professional and they ensured everything met local regulations. Highly recommend for any plumbing needs in Wyndham Vale.",
+      "name": "John Smith",
+      "role": "Wyndham Vale Homeowner"
+    },
+    {
+      "text": "We had issues with our hot water system and they fixed it promptly. The service was efficient and reasonably priced. Great local plumbers for Hoppers Crossing and Tarneit.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Used their excavator hire and jet washing services for a drainage project. The team was reliable and completed the work on time. Excellent for property managers in the area.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
