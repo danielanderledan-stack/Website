@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Ravenhall Car Mechanics",
+  "suburb": "Ravenhall",
+  "phone": "0383617779",
+  "email": "service@ravenhallautomotive.com.au",
+  "address": "2/34 Westwood Dr, Ravenhall VIC 3023",
+  "tagline": "Ravenhall's Trusted Mechanics",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#a52525",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ravenhall's Go-To Mechanics",
+      "sub": "Personalised car servicing"
+    },
+    {
+      "title": "Logbook Servicing & 4WD Repairs",
+      "sub": "All mechanical repairs covered"
+    },
+    {
+      "title": "Conveniently Located in Ravenhall",
+      "sub": "Open 8:30am to 5pm weekdays"
+    }
+  ],
+  "ctaHeading": "Get Your Car Serviced in Ravenhall Today",
+  "aboutHeading": "Expert Mechanics in Ravenhall",
+  "aboutSubheading": "VACC A Grade Member",
+  "aboutText": "Ravenhall Car Mechanics offers dedicated and personalised service for all types of vehicles in Ravenhall. With industry experience and strict quality control standards, we ensure complete confidence in our servicing and repairs. As a VACC A Grade Member, we prioritise quality advice and service, providing logbook servicing, auto electrical work, and roadworthy certificate assistance.",
+  "servicesHeading": "Our Mechanical Services",
+  "servicesSubheading": "Quality care for your vehicle",
+  "servicesText": "At Ravenhall Car Mechanics, we offer comprehensive mechanical services including logbook servicing, 4WD repairs, auto electrical diagnostics, tyre services, and roadworthy certificates. Our team is committed to delivering quality workmanship and reliable solutions for every vehicle.",
+  "services": [
+    {
+      "title": "Mechanical Repairs",
+      "desc": "We handle all types of mechanical repairs, from engine diagnostics to transmission work, ensuring your vehicle is in top condition."
+    },
+    {
+      "title": "Logbook Servicing",
+      "desc": "Our logbook servicing follows manufacturer specifications, preserving your warranty and providing detailed service records for peace of mind."
+    },
+    {
+      "title": "4WD Repairs",
+      "desc": "Specialising in 4WD repairs, we service suspension, brakes, and drivetrain components for reliable off-road and on-road performance."
+    },
+    {
+      "title": "Auto Electrical",
+      "desc": "Our auto electrical experts diagnose and fix issues with alternators, starters, batteries, and complex wiring systems efficiently."
+    },
+    {
+      "title": "Tyre Service",
+      "desc": "We offer tyre sales, fitting, balancing, and alignment services to ensure safe handling and optimal fuel efficiency."
+    },
+    {
+      "title": "Roadworthy Certificate",
+      "desc": "We provide comprehensive roadworthy inspections and certificates for vehicle registration, ensuring compliance with Victorian standards."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Ravenhall?",
+  "bannerSubheading": "We're here to help with all your auto needs.",
+  "testimonialsHeading": "What Ravenhall Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Auto Tips & News",
+  "blogSubheading": "From our expert mechanics",
+  "contactHeading": "Contact Us for a Quote",
+  "contactSubheading": "Fast response guaranteed",
+  "reviews": [
+    {
+      "text": "I took my car to Ravenhall Car Mechanics for logbook servicing and was impressed by their attention to detail. The team was friendly and the service was top-notch. Highly recommend for anyone in Ravenhall.",
+      "name": "Jake Thompson",
+      "role": "Ravenhall Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my 4WD for work. Ravenhall Automotive provided excellent 4WD repairs, getting me back on the road quickly. Their expertise is unmatched.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Needed a roadworthy certificate for a vehicle transfer. Ravenhall Car Mechanics made the process smooth and hassle-free. Their professional service saved me time and money.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
