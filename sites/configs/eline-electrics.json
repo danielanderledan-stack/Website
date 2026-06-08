@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Eline Electrics",
+  "suburb": "Sunshine West",
+  "phone": "0412 345 678",
+  "email": "info@elineelectrics.com.au",
+  "address": "34 Mark St, Sunshine West VIC 3020",
+  "tagline": "Sunshine West's Solar & Electrical Experts",
+  "primaryColor": "#0f1f4d",
+  "primaryColorRgb": "15, 31, 77",
+  "primaryColorHover": "#0c193e",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunshine West's Go-To Electricians",
+      "sub": "24/7 solar, battery, EV & electrical services"
+    },
+    {
+      "title": "Powering Melbourne's West",
+      "sub": "Licensed electricians for home and business"
+    },
+    {
+      "title": "Eline Electrics: Your Local Experts",
+      "sub": "Trusted in Sunshine West for years"
+    }
+  ],
+  "ctaHeading": "Need an electrician in Sunshine West? Let's talk.",
+  "aboutHeading": "Trusted Electrical Services in Sunshine West",
+  "aboutSubheading": "Local, licensed & available 24/7",
+  "aboutText": "Eline Electrics is Sunshine West's premier electrical contractor, specialising in solar, battery, EV, and general electrical solutions. With a team of skilled electricians, we serve Melbourne's west with 24-hour availability. Our expertise covers residential and commercial projects, ensuring safe and efficient installations. Contact us for a free quote today.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for your needs",
+  "servicesText": "At Eline Electrics, we provide a full range of electrical services tailored to Sunshine West residents and businesses. From solar panel installations to EV charger setups and battery storage systems, our licensed electricians ensure top-quality work. We also handle general electrical repairs and upgrades, available 24/7 for your convenience.",
+  "services": [
+    {
+      "title": "Solar Panel Installation",
+      "desc": "We design and install solar systems for homes and businesses in Sunshine West, maximising energy efficiency and savings."
+    },
+    {
+      "title": "Battery Storage Solutions",
+      "desc": "Power your home with our advanced battery storage systems, ensuring reliable backup power during outages."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "We install fast and safe EV charging stations for electric vehicles, perfect for Melbourne's growing EV community."
+    },
+    {
+      "title": "General Electrical Services",
+      "desc": "From wiring and lighting to safety inspections, our licensed electricians handle all general electrical needs in Sunshine West."
+    },
+    {
+      "title": "Commercial Electrical Work",
+      "desc": "We provide tailored electrical solutions for businesses, including fit-outs, maintenance, and energy audits in the local area."
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "Available 24/7, we respond quickly to electrical emergencies in Sunshine West, ensuring safety and minimal disruption."
+    }
+  ],
+  "bannerHeading": "Ready for solar in Sunshine West?",
+  "bannerSubheading": "Get a free consultation and quote today.",
+  "testimonialsHeading": "What Sunshine West Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "From the Eline Electrics team",
+  "contactHeading": "Contact Eline Electrics",
+  "contactSubheading": "We're here to help 24/7",
+  "reviews": [
+    {
+      "text": "Eline Electrics installed solar panels on our Sunshine West home last month. The team was professional and the system is working perfectly, saving us on energy bills.",
+      "name": "John Smith",
+      "role": "Sunshine West Homeowner"
+    },
+    {
+      "text": "As a business owner in Sunshine West, I needed reliable EV charger installation. Eline Electrics delivered a top-notch solution quickly and at a fair price.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We manage multiple properties and always use Eline Electrics for battery storage and electrical maintenance. Their 24-hour service is a lifesaver in emergencies.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
