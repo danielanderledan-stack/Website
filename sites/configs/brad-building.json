@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Brad Building",
+  "suburb": "Hoppers Crossing",
+  "phone": "0434500837",
+  "email": "brad@bradbuilding.com.au",
+  "address": "16 Dunlop Rd, Hoppers Crossing VIC 3029",
+  "tagline": "Hoppers Crossing's Building Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6800c5",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hoppers Crossing's Premier Builders",
+      "sub": "15 years of excellence in construction"
+    },
+    {
+      "title": "Custom Homes & Commercial Projects",
+      "sub": "Tailored to your vision and budget"
+    },
+    {
+      "title": "Renovations & Restorations Done Right",
+      "sub": "Quality craftsmanship for Hoppers Crossing"
+    }
+  ],
+  "ctaHeading": "Hoppers Crossing Builders Ready for Your Project",
+  "aboutHeading": "15 Years Building in Hoppers Crossing",
+  "aboutSubheading": "Local, licensed & dedicated",
+  "aboutText": "With 15 years of experience in Hoppers Crossing, Brad Building strives to exceed client expectations through a personalised 1-on-1 approach. We deliver exceptional quality, executing projects on time, on budget, and to the exacting standards of our clients' vision. Our team celebrates outstanding craftsmanship and unparalleled attention to detail, forming long-lasting relationships with satisfied clients.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Comprehensive construction solutions",
+  "servicesText": "With 15 years of experience, Brad Building offers a full suite of building services in Hoppers Crossing. From custom homes and commercial builds to renovations and restorations, we handle every aspect with expertise and care.",
+  "services": [
+    {
+      "title": "Custom Homes",
+      "desc": "Design and construct custom homes in Hoppers Crossing, tailored to your exact specifications and vision."
+    },
+    {
+      "title": "Commercial Construction",
+      "desc": "Provide specialised commercial construction for businesses in Hoppers Crossing, ensuring projects are completed efficiently and to high standards."
+    },
+    {
+      "title": "Renovations & Extensions",
+      "desc": "Deliver expert renovations and extensions for homes in Hoppers Crossing, improving functionality and aesthetics while maintaining integrity."
+    },
+    {
+      "title": "Change of Use Projects",
+      "desc": "Handle change of use projects in Hoppers Crossing, converting properties for new purposes with full compliance and attention to detail."
+    },
+    {
+      "title": "Building Restoration",
+      "desc": "Specialise in building restoration in Hoppers Crossing, preserving the heritage and beauty of historical structures with meticulous care."
+    },
+    {
+      "title": "Project Management",
+      "desc": "Offer comprehensive project management, guiding you from initial consultation and planning through construction to the final handover."
+    }
+  ],
+  "bannerHeading": "Need a Builder in Hoppers Crossing?",
+  "bannerSubheading": "Let's discuss your next construction project.",
+  "testimonialsHeading": "What Hoppers Crossing Clients Say",
+  "testimonialsSubheading": "Quality builds, lasting relationships",
+  "blogHeading": "Building Insights & News",
+  "blogSubheading": "Tips from Hoppers Crossing experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly to your enquiry",
+  "reviews": [
+    {
+      "text": "Brad Building delivered a stunning custom home in Hoppers Crossing, showcasing outstanding craftsmanship and attention to detail. Their 1-on-1 approach made the process seamless, and we highly recommend them for any building project.",
+      "name": "Mark Thompson",
+      "role": "Hoppers Crossing Homeowner"
+    },
+    {
+      "text": "We hired Brad Building for our commercial renovation in Hoppers Crossing, and they delivered on time and on budget. Their professionalism and quality work exceeded expectations, making them a reliable choice.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've worked with Brad Building on multiple extension projects. Their project management ensures smooth execution from start to finish, and the results are always impressive and durable.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
