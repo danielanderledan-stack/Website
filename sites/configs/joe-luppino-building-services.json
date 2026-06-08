@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Joe Luppino Building Services",
+  "suburb": "Hoppers Crossing",
+  "phone": "03 9749 2345",
+  "email": "impallari@gmail.com",
+  "address": "9 Alabama Cl, Hoppers Crossing VIC 3029",
+  "tagline": "Hoppers Crossing Painting Experts",
+  "primaryColor": "#d4caba",
+  "primaryColorRgb": "212, 202, 186",
+  "primaryColorHover": "#b8b0a2",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hoppers Crossing Painting Specialists",
+      "sub": "Over 15 years of local experience"
+    },
+    {
+      "title": "Joe Luppino Building Services",
+      "sub": "Residential & Commercial Painting"
+    },
+    {
+      "title": "Quality Finishes for Every Project",
+      "sub": "Free quotes across Hoppers Crossing"
+    }
+  ],
+  "ctaHeading": "Get Your Free Painting Quote in Hoppers Crossing",
+  "aboutHeading": "Painting Experts in Hoppers Crossing",
+  "aboutSubheading": "Local, Licensed & Professional",
+  "aboutText": "Joe Luppino Building Services is a trusted painting contractor in Hoppers Crossing, serving the community for over 15 years. We offer a full range of painting services for homes and businesses, using high-quality materials and skilled craftsmanship. Our commitment to excellence ensures that every project is completed to the highest standards.",
+  "servicesHeading": "Our Painting Services",
+  "servicesSubheading": "Comprehensive Solutions for All Your Painting Needs",
+  "servicesText": "We provide expert painting services tailored to your requirements. From interior makeovers to exterior protection, our team delivers exceptional results every time.",
+  "services": [
+    {
+      "title": "Interior Painting",
+      "desc": "Transform your living spaces with fresh, vibrant colours. We handle walls, ceilings, and trim with precision."
+    },
+    {
+      "title": "Exterior Painting",
+      "desc": "Protect and enhance your property's exterior with durable paints suited for Australian weather."
+    },
+    {
+      "title": "Roof Painting",
+      "desc": "Extend the life of your roof with professional painting that prevents leaks and improves appearance."
+    },
+    {
+      "title": "Deck & Fence Painting",
+      "desc": "Restore and protect outdoor wooden structures with our expert staining and painting services."
+    },
+    {
+      "title": "Commercial Painting",
+      "desc": "Minimise disruption to your business with efficient and high-quality commercial painting solutions."
+    },
+    {
+      "title": "Residential Painting",
+      "desc": "Refresh your home's look with our detailed residential painting, tailored to your style and budget."
+    }
+  ],
+  "bannerHeading": "Need Painting in Hoppers Crossing?",
+  "bannerSubheading": "Joe Luppino Building Services is here to help.",
+  "testimonialsHeading": "What Hoppers Crossing Locals Say",
+  "testimonialsSubheading": "Trusted by the Community",
+  "blogHeading": "Painting Tips & Insights",
+  "blogSubheading": "Advice from Hoppers Crossing Experts",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "Joe Luppino Building Services did an excellent job painting our house in Hoppers Crossing. The team was professional, and the finish was flawless. Highly recommend their services.",
+      "name": "Mark Thompson",
+      "role": "Hoppers Crossing Homeowner"
+    },
+    {
+      "text": "We hired them for our shopfront painting, and they delivered outstanding results with minimal downtime. Their attention to detail was impressive.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Joe Luppino for all my painting needs in the area. They always provide reliable and high-quality work.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
