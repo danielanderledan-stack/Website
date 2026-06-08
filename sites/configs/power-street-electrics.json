@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Power Street Electrics",
+  "suburb": "Williamstown",
+  "phone": "0477 299 914",
+  "email": "ivanzadel@powerstreetelectrics.com.au",
+  "address": "119 Power St, Williamstown VIC 3016",
+  "tagline": "Williamstown's Trusted Electricians",
+  "primaryColor": "#0056b3",
+  "primaryColorRgb": "0, 86, 179",
+  "primaryColorHover": "#004494",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Williamstown's Electrical Specialists",
+      "sub": "Melbourne-based experts in all electrical services"
+    },
+    {
+      "title": "Installations, Maintenance & More",
+      "sub": "From fit outs to floodlighting across Williamstown"
+    },
+    {
+      "title": "Emergency Lighting & Test Tagging",
+      "sub": "Reliable services for homes and businesses"
+    }
+  ],
+  "ctaHeading": "Need an electrician in Williamstown?",
+  "aboutHeading": "Power Street Electrics in Williamstown",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Power Street Electrics has been serving Williamstown and the wider Melbourne area for years, providing comprehensive electrical solutions. Our team specialises in installations, maintenance, breakdowns, fit outs, emergency lighting, test and tagging, and specialised floodlighting. We are committed to delivering reliable, high-quality work for both residential and commercial clients. With a focus on safety and efficiency, we handle all electrical needs from routine maintenance to complex fit outs. Our experienced electricians are fully licensed and insured, ensuring peace of mind for every project in Williamstown and surrounds.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "At Power Street Electrics, we offer a full range of electrical services tailored to Williamstown homes and businesses. From installations and maintenance to emergency repairs and specialised lighting, our skilled team delivers prompt and professional results every time. Our services include electrical installations, routine maintenance, urgent breakdown repairs, custom fit outs, emergency lighting systems, comprehensive test and tagging, and specialised floodlighting projects.",
+  "services": [
+    {
+      "title": "Electrical Installations",
+      "desc": "We handle all types of electrical installations, from new builds to upgrades, ensuring safe and efficient setups for homes and businesses in Williamstown."
+    },
+    {
+      "title": "Maintenance & Breakdowns",
+      "desc": "Our team provides regular maintenance and swift breakdown repairs to keep your electrical systems running smoothly and prevent costly downtime."
+    },
+    {
+      "title": "Fit Outs",
+      "desc": "We specialise in electrical fit outs for commercial spaces, offices, and retail, customising solutions to meet your specific requirements."
+    },
+    {
+      "title": "Emergency Lighting",
+      "desc": "Install and maintain emergency lighting systems to comply with safety regulations and ensure preparedness in case of power outages."
+    },
+    {
+      "title": "Test & Tagging",
+      "desc": "Comprehensive test and tagging services to verify electrical safety and meet Australian standards for all workplaces and rental properties."
+    },
+    {
+      "title": "Specialised Floodlighting",
+      "desc": "Design and install specialised floodlighting for sports facilities, outdoor areas, and security, enhancing visibility and safety."
+    }
+  ],
+  "bannerHeading": "Williamstown's electricians at your service",
+  "bannerSubheading": "Proudly serving Williamstown and Melbourne's west.",
+  "testimonialsHeading": "What Williamstown locals say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Power Street Electrics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Power Street Electrics did an excellent job installing new lighting in our Williamstown home. Their team was professional, punctual, and left everything clean. Highly recommend for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Williamstown Homeowner"
+    },
+    {
+      "text": "We needed emergency breakdown repairs for our shop in Williamstown, and they responded quickly with efficient solutions. Their maintenance service has kept our systems running smoothly ever since.",
+      "name": "James Carter",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Power Street Electrics for test and tagging across multiple sites. Their thorough work ensures compliance and safety for all tenants.",
+      "name": "Emily Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
