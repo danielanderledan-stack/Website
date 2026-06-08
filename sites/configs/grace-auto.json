@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Grace Auto",
+  "suburb": "Ravenhall",
+  "phone": "(03) 8382 2336",
+  "email": "service@grace-auto.com.au",
+  "address": "114c Eucumbene Dr, Ravenhall VIC 3023",
+  "tagline": "Ravenhall's Local & Friendly Mechanic",
+  "primaryColor": "#555d66",
+  "primaryColorRgb": "85, 93, 102",
+  "primaryColorHover": "#4b535c",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ravenhall's Trusted Mechanics",
+      "sub": "10 years of expert auto service"
+    },
+    {
+      "title": "Auto Electrical & Logbook Servicing",
+      "sub": "Specialised care for all vehicles in Ravenhall"
+    },
+    {
+      "title": "Your Local Mechanic in Ravenhall",
+      "sub": "Friendly service, every time"
+    }
+  ],
+  "ctaHeading": "Ravenhall's mechanics are ready to help your vehicle.",
+  "aboutHeading": "10 Years Serving Ravenhall",
+  "aboutSubheading": "Local, friendly & reliable",
+  "aboutText": "Grace Auto has been Ravenhall's trusted mechanic for over 10 years, providing comprehensive auto services. From logbook servicing to auto electrical repairs, we specialise in keeping your vehicle running smoothly. Our friendly team is dedicated to honest, quality workmanship in Ravenhall and surrounding areas.",
+  "servicesHeading": "What We Service",
+  "servicesSubheading": "Expert auto care",
+  "servicesText": "At Grace Auto, we specialise in a wide array of automotive services to keep your vehicle in top condition. Our offerings include everything from logbook servicing to DPF cleaning, ensuring your car performs at its best.",
+  "services": [
+    {
+      "title": "Auto Electrical & Battery Services",
+      "desc": "We handle all auto electrical repairs and battery replacements to keep your vehicle's systems running smoothly with advanced diagnostics."
+    },
+    {
+      "title": "DPF Cleaning & Vehicle Diagnostics",
+      "desc": "Our DPF cleaning and full vehicle diagnosis services ensure optimal engine performance and longevity for your car."
+    },
+    {
+      "title": "Logbook Servicing",
+      "desc": "We provide manufacturer-standard logbook servicing to maintain your warranty and keep your vehicle in prime condition."
+    },
+    {
+      "title": "Suspension, Brakes & 4X4 Lift Kits",
+      "desc": "Expert suspension and brake repairs, plus professional 4X4 lift kit installation for enhanced off-road capability."
+    },
+    {
+      "title": "Transmission Service",
+      "desc": "Comprehensive transmission servicing to ensure smooth gear shifts and reliable performance for all vehicle types."
+    },
+    {
+      "title": "Tyre & Windscreen Services",
+      "desc": "From tyre replacements to windscreen repairs, we offer essential services to keep you safe on the road."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Ravenhall?",
+  "bannerSubheading": "Fast, friendly service for all your auto needs.",
+  "testimonialsHeading": "What Ravenhall Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Auto Tips & News",
+  "blogSubheading": "Advice from Grace Auto",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Grace Auto did an excellent job on my car's logbook servicing in Ravenhall. The team was friendly and professional, explaining everything clearly. Highly recommend their services!",
+      "name": "John Smith",
+      "role": "Ravenhall Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Grace Auto for my fleet's maintenance. Their auto electrical services are top-notch, and they always complete work on time.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I had my 4WD's suspension checked by Grace Auto, and they provided a thorough and affordable service. Their expertise in vehicle diagnostics is impressive for Ravenhall residents.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
