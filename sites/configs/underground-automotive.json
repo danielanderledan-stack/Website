@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Underground Automotive",
+  "suburb": "Williamstown",
+  "phone": "0390005715",
+  "email": "undergroundautogroup@gmail.com",
+  "address": "Unit 1/8 Albemarle St, Williamstown North VIC 3016",
+  "tagline": "Williamstown's Trusted Auto Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e56000",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Underground Automotive in Williamstown",
+      "sub": "15 years of expert car servicing"
+    },
+    {
+      "title": "Logbook Servicing & Engine Builds",
+      "sub": "Keeping your vehicle running smoothly"
+    },
+    {
+      "title": "Roadworthy Certificates & Fast Repairs",
+      "sub": "Your trusted auto electricians in Williamstown"
+    }
+  ],
+  "ctaHeading": "Book Your Williamstown Auto Service Today",
+  "aboutHeading": "15 Years Auto Care in Williamstown",
+  "aboutSubheading": "Local mechanics you can trust",
+  "aboutText": "With over 15 years of experience, Underground Automotive has been the go-to auto service provider in Williamstown. Our skilled mechanics offer everything from logbook servicing to complex engine builds and electrical repairs. We pride ourselves on clear communication and fast response, ensuring your vehicle is always in top condition. Trust us for reliable car care in Williamstown North.",
+  "servicesHeading": "Our Auto Services",
+  "servicesSubheading": "Comprehensive solutions for your vehicle",
+  "servicesText": "From logbook servicing to performance upgrades, we cover all aspects of auto care. Our team uses quality parts and the latest techniques to keep your car running at its best. Whether you need routine maintenance or major repairs, we are here to help in Williamstown.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Expert logbook servicing to maintain your vehicle's warranty and performance, using manufacturer specifications."
+    },
+    {
+      "title": "Performance & Engine Builds",
+      "desc": "Specialised engine builds and reconditioning for enhanced performance and reliability on the road."
+    },
+    {
+      "title": "Wheels & Tyres",
+      "desc": "Professional wheel alignment, balancing, and tyre replacement to ensure safety and optimal handling."
+    },
+    {
+      "title": "Repairs & Maintenance",
+      "desc": "Comprehensive repairs and regular maintenance to keep your car in peak condition."
+    },
+    {
+      "title": "Roadworthy Certificates",
+      "desc": "Fast and efficient roadworthy inspections and certifications for vehicle registration."
+    },
+    {
+      "title": "Warranty Servicing",
+      "desc": "Compliance with warranty requirements through detailed servicing and genuine parts."
+    }
+  ],
+  "bannerHeading": "Need Auto Help in Williamstown?",
+  "bannerSubheading": "Contact Underground Automotive for fast, reliable service.",
+  "testimonialsHeading": "Williamstown Customers Recommend Us",
+  "testimonialsSubheading": "Real feedback from the community",
+  "blogHeading": "Auto Tips from Williamstown",
+  "blogSubheading": "Stay informed with our expert advice",
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Underground Automotive did an excellent logbook service on my Toyota Camry in Williamstown. The mechanics were clear and efficient, and my car runs like new. Highly recommend their expertise.",
+      "name": "Tom Wilson",
+      "role": "Williamstown Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Underground Automotive for quick repairs and maintenance on my work vehicles. Their fast response and quality parts make them a trusted partner in Williamstown.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage several properties and use Underground Automotive for roadworthy certificates on all my rentals in Williamstown North. They are professional and always meet deadlines.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
