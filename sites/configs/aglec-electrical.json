@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Aglec Electrical",
+  "suburb": "Melbourne",
+  "phone": "0458 281 196",
+  "email": "intl-segmenter@11.7.10",
+  "address": "Forty South Road, Melbourne, Victoria, Australia",
+  "tagline": "Melbourne's Trusted Electricians",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0f2ccf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Aglec Electrical – Melbourne's Finest",
+      "sub": "Expert electrical services for homes and businesses"
+    },
+    {
+      "title": "Residential & Commercial Electricians",
+      "sub": "From wiring to switchboard upgrades in Melbourne"
+    },
+    {
+      "title": "Emergency Repairs Available 24/7",
+      "sub": "Fast, reliable service across Melbourne suburbs"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Melbourne? Call Aglec Electrical",
+  "aboutHeading": "About Aglec Electrical in Melbourne",
+  "aboutSubheading": "Your Local Electrical Specialists",
+  "aboutText": "Aglec Electrical has been providing top-notch electrical services to Melbourne and surrounding areas for over a decade. Our team of licensed electricians specialises in residential, commercial, and emergency repairs, ensuring all work meets Australian standards. We pride ourselves on quality workmanship, timely service, and competitive pricing, making us the go-to electrician for Melbourne residents and businesses alike.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all your needs",
+  "servicesText": "Aglec Electrical offers a wide range of electrical services tailored to Melbourne homes and businesses. From simple repairs to complex installations, our skilled team ensures safe and efficient outcomes. Contact us for expert advice and free quotes.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete home wiring, power point installations, and safety checks for Melbourne households."
+    },
+    {
+      "title": "Commercial Installations",
+      "desc": "Office fit-outs, lighting design, and electrical systems for Melbourne businesses."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical services to quickly resolve faults and hazards in Melbourne."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard to meet current safety standards, essential for Melbourne properties."
+    },
+    {
+      "title": "Lighting Solutions",
+      "desc": "Energy-efficient lighting upgrades and installations for residential and commercial spaces."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety audits to ensure compliance and prevent risks in Melbourne homes."
+    }
+  ],
+  "bannerHeading": "Electrical Issues in Melbourne? We Can Help.",
+  "bannerSubheading": "Get in touch with Aglec Electrical for prompt service.",
+  "testimonialsHeading": "What Melbourne Clients Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Advice from the Aglec Electrical team",
+  "contactHeading": "Contact Aglec Electrical Today",
+  "contactSubheading": "Free quotes and expert consultations",
+  "reviews": [
+    {
+      "text": "Aglec Electrical did a fantastic job rewiring our old house in Melbourne. Their team was professional, punctual, and left everything clean. Highly recommend for any residential electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We hired Aglec for our office fit-out in Melbourne CBD. They delivered on time and within budget, with excellent attention to detail. Their commercial services are top-notch.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Quick response from Aglec Electrical when our switchboard failed. They upgraded it to modern standards, ensuring our safety. Great service for Melbourne property managers.",
+      "name": "David Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
