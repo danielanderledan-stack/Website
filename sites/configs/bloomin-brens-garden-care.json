@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Bloomin' Bren's Garden Care",
+  "suburb": "Kingsville",
+  "phone": "0423 105 510",
+  "email": "example@example.com",
+  "address": "Chirnside St, Kingsville VIC 3012",
+  "tagline": "Kingsville's Trusted Garden Care",
+  "primaryColor": "#2299dd",
+  "primaryColorRgb": "34, 153, 221",
+  "primaryColorHover": "#1a80cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kingsville's Garden Care Experts",
+      "sub": "Bloomin' Bren's – Your Local Gardener"
+    },
+    {
+      "title": "Professional Gardening Services",
+      "sub": "Serving Kingsville and surrounds"
+    },
+    {
+      "title": "No Job Too Small or Too Large",
+      "sub": "From mowing to full garden transformations"
+    }
+  ],
+  "ctaHeading": "Ready to Bloom in Kingsville?",
+  "aboutHeading": "Bloomin' Bren's – Kingsville's Garden Specialists",
+  "aboutSubheading": "Local, reliable & passionate about gardens",
+  "aboutText": "With more than a decade of experience in Kingsville, Bloomin' Bren's Garden Care understands the local climate and soil conditions. We offer comprehensive garden services, including regular maintenance, seasonal clean-ups, and custom landscaping designs. Our commitment to quality and customer satisfaction has made us a trusted name in the community.",
+  "servicesHeading": "Our Garden Services",
+  "servicesSubheading": "Tailored to your outdoor needs",
+  "servicesText": "At Bloomin' Bren's, we provide a wide range of gardening services to keep your outdoor areas in top condition. From routine lawn mowing to intricate garden designs, our skilled team handles it all. We use eco-friendly practices and high-quality tools for the best results.",
+  "services": [
+    {
+      "title": "Lawn Mowing & Maintenance",
+      "desc": "Professional lawn mowing and edging services to keep your lawn neat and healthy. We offer regular schedules to suit your needs."
+    },
+    {
+      "title": "Garden Clean-ups",
+      "desc": "Thorough garden clean-ups to remove debris and overgrowth, revitalising your outdoor space for a fresh look."
+    },
+    {
+      "title": "Planting & Landscaping",
+      "desc": "Expert planting and landscaping services to enhance your garden with beautiful plants and functional designs."
+    },
+    {
+      "title": "Pruning & Hedging",
+      "desc": "Skilled pruning and hedging to maintain plant health and shape, ensuring your garden looks its best year-round."
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "Installation and maintenance of efficient irrigation systems to keep your garden watered and thriving."
+    },
+    {
+      "title": "Garden Design Consultations",
+      "desc": "Personalised garden design consultations to create a tailored plan for your outdoor space, based on your preferences."
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Kingsville?",
+  "bannerSubheading": "Bloomin' Bren's is here to help with all your garden care needs.",
+  "testimonialsHeading": "What Kingsville Residents Say",
+  "testimonialsSubheading": "Quality garden care you can trust",
+  "blogHeading": "Garden Tips & Updates",
+  "blogSubheading": "From the Bloomin' Bren's team",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "Free quotes and friendly advice",
+  "reviews": [
+    {
+      "text": "Bloomin' Bren's did an amazing job on our lawn in Kingsville. Their regular mowing service keeps our yard looking perfect all year round. Highly recommend for anyone needing reliable garden care.",
+      "name": "Sarah Thompson",
+      "role": "Kingsville Homeowner"
+    },
+    {
+      "text": "We hired Bloomin' Bren's for a full garden clean-up and they transformed our outdoor space. The team was professional and efficient, and the results were fantastic. Great value for money.",
+      "name": "Michael O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Kingsville, I rely on Bloomin' Bren's for maintaining multiple gardens. Their attention to detail and consistent quality make them my go-to choice for all gardening needs.",
+      "name": "Jessica Lee",
+      "role": "Property Manager"
+    }
+  ]
+}
