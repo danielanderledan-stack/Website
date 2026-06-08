@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Heating, Cooling Electrical, Hot Water, Solar",
+  "suburb": "Point Cook",
+  "phone": "03 9012 3456",
+  "email": "info@pointcookhvac.com.au",
+  "address": "4/22-30 Wallace Ave, Point Cook VIC 3030",
+  "tagline": "Point Cook's Heating & Cooling Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65a00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Point Cook's Heating & Cooling Experts",
+      "sub": "Reliable HVAC services for your home"
+    },
+    {
+      "title": "Electrical, Hot Water & Solar in Point Cook",
+      "sub": "Comprehensive solutions for all your needs"
+    },
+    {
+      "title": "Local HVAC Pros Serving Point Cook",
+      "sub": "Free quotes and expert advice"
+    }
+  ],
+  "ctaHeading": "Need Heating or Cooling in Point Cook? Let's Talk.",
+  "aboutHeading": "10+ Years HVAC in Point Cook",
+  "aboutSubheading": "Local, Licensed & Professional",
+  "aboutText": "Based in Point Cook, we have been providing top-quality heating, cooling, electrical, hot water, and solar services for over 10 years. Our team specialises in HVAC solutions tailored to the local climate, ensuring your home or business stays comfortable year-round. With a focus on energy efficiency and customer satisfaction, we handle everything from installations to repairs. Trust our local team for all your HVAC needs in Point Cook and surrounding areas.",
+  "servicesHeading": "Our HVAC Services",
+  "servicesSubheading": "Complete Solutions for Point Cook Homes",
+  "servicesText": "From heating and cooling to electrical and solar, we offer a full range of services to keep your property running smoothly. Our Point Cook team is equipped to handle residential and commercial projects with precision.",
+  "services": [
+    {
+      "title": "Heating Systems",
+      "desc": "Installation and repair of heating systems to keep your Point Cook home warm in winter."
+    },
+    {
+      "title": "Cooling Solutions",
+      "desc": "Air conditioning and cooling services for comfortable summers in Point Cook."
+    },
+    {
+      "title": "Electrical Services",
+      "desc": "General electrical work and maintenance for safety and efficiency."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation and servicing of hot water systems for reliable supply."
+    },
+    {
+      "title": "Solar Installation",
+      "desc": "Solar panel setup to reduce energy costs and go green in Point Cook."
+    },
+    {
+      "title": "HVAC Maintenance",
+      "desc": "Regular maintenance and repairs to ensure optimal performance of your systems."
+    }
+  ],
+  "bannerHeading": "Need HVAC in Point Cook?",
+  "bannerSubheading": "We're here to help with all your heating and cooling needs.",
+  "testimonialsHeading": "What Point Cook Locals Say",
+  "testimonialsSubheading": "Trusted by the Community",
+  "blogHeading": "HVAC Tips for Point Cook",
+  "blogSubheading": "Stay Informed with Our Latest Advice",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact Us for Expert HVAC Services",
+  "reviews": [
+    {
+      "text": "The team installed a new heating system in our Point Cook home, and it works perfectly. Professional and efficient service.",
+      "name": "Mark Thompson",
+      "role": "Point Cook Homeowner"
+    },
+    {
+      "text": "We had solar panels installed by them, and the savings are already noticeable. Great job for our business in Point Cook.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on their hot water system maintenance for multiple units. Always reliable and prompt.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
