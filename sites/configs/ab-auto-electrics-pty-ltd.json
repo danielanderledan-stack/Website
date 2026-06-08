@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "AB Auto Electrics Pty Ltd",
+  "suburb": "Sunshine West",
+  "phone": "03 9312 7222",
+  "email": "intl-segmenter@11.7.10",
+  "address": "541 Somerville Rd, Sunshine West VIC 3020",
+  "tagline": "Sunshine West's Auto Electrical Experts",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#105fcc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunshine West's Trusted Auto Electricians",
+      "sub": "Serving Melbourne's west since 1994"
+    },
+    {
+      "title": "Complete Auto Electrical Solutions",
+      "sub": "Domestic, commercial & fleet services"
+    },
+    {
+      "title": "Over 30 Years of Expertise",
+      "sub": "Qualified electricians for all vehicle needs"
+    }
+  ],
+  "ctaHeading": "Get your auto electrics fixed in Sunshine West today.",
+  "aboutHeading": "30 Years of Auto Electrical Excellence",
+  "aboutSubheading": "Professional service since 1994",
+  "aboutText": "AB Auto Electrics was established in 1994 in Footscray and has grown to serve Sunshine West and Melbourne's western suburbs. With a large team of qualified automotive electricians, we cater to all auto electrical needs, from diagnostics to installations. Our honest and professional approach has built a reputation for reliable service across the community.",
+  "servicesHeading": "Auto Electrical Services We Offer",
+  "servicesSubheading": "Expert solutions for your vehicle",
+  "servicesText": "From battery replacements to complex wiring repairs, we provide comprehensive auto electrical services. Our qualified team uses the latest technology to diagnose and fix issues efficiently. We serve both domestic and commercial clients across Melbourne's west.",
+  "services": [
+    {
+      "title": "Battery Services",
+      "desc": "Testing, replacement and maintenance for all vehicle batteries to keep you on the road reliably."
+    },
+    {
+      "title": "Alternator Repairs",
+      "desc": "Expert repair and replacement of alternators to ensure your vehicle's electrical system charges properly."
+    },
+    {
+      "title": "Starter Motor Services",
+      "desc": "Diagnosis and repair of starter motor issues for reliable and quick engine starting every time."
+    },
+    {
+      "title": "Wiring and Diagnostics",
+      "desc": "Comprehensive electrical diagnostics and wiring repairs using advanced diagnostic tools for accuracy."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Installation and repair of headlights, tail lights and interior lighting for safety and visibility on the road."
+    },
+    {
+      "title": "Accessory Fitting",
+      "desc": "Professional installation of aftermarket accessories like audio systems, alarms and custom electrical upgrades."
+    }
+  ],
+  "bannerHeading": "Need an auto electrician in Sunshine West?",
+  "bannerSubheading": "We're here to help with all your vehicle's electrical needs.",
+  "testimonialsHeading": "What Sunshine West Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Auto Electrical Tips & News",
+  "blogSubheading": "Insights from our experts",
+  "contactHeading": "Contact us for a free quote",
+  "contactSubheading": "We'll respond promptly to your enquiry",
+  "reviews": [
+    {
+      "text": "AB Auto Electrics did a fantastic job on my car's alternator in Sunshine West. Their team was professional, efficient and got it fixed quickly. Highly recommend for any auto electrical issues!",
+      "name": "John Smith",
+      "role": "Sunshine West Homeowner"
+    },
+    {
+      "text": "We've used AB Auto Electrics for our fleet vehicles and they provide excellent service. Their diagnostics are spot-on and they always deliver reliable repairs on time.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Prompt and reliable service for our property's fleet maintenance. They handle all our auto electrical needs efficiently, from lighting to wiring, keeping our vehicles operational.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
