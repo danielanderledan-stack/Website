@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Denki Electrical",
+  "suburb": "West Footscray",
+  "phone": "0431 102 661",
+  "email": "info@denkielectrical.com.au",
+  "address": "91 Essex St, West Footscray VIC 3012",
+  "tagline": "West Footscray's Trusted Electricians",
+  "primaryColor": "#0057b8",
+  "primaryColorRgb": "0, 87, 184",
+  "primaryColorHover": "#004690",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "15 Years Powering West Footscray",
+      "sub": "Complete rewires, upgrades & lighting"
+    },
+    {
+      "title": "Mains Upgrades & Switchboard Experts",
+      "sub": "Safe, compliant & modern solutions"
+    },
+    {
+      "title": "Your Home & Lighting Specialists",
+      "sub": "Friendly advice & quality installations"
+    }
+  ],
+  "ctaHeading": "West Footscray's electricians are a call away.",
+  "aboutHeading": "15 Years of Electrical Excellence in West Footscray",
+  "aboutSubheading": "Local, licensed & committed",
+  "aboutText": "With 15 years of dedicated electrical experience, Denki Electrical proudly serves West Footscray and Melbourne's western suburbs. We specialise in comprehensive rewires, mains upgrades, and smart lighting solutions for homes and businesses. Our friendly, communicative team ensures your project is on time, on budget, and tailored to your needs. From your initial quote to final testing, we keep you informed every step of the way.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Safe, reliable power for your property",
+  "servicesText": "Denki Electrical provides a full range of residential and commercial electrical services across West Footscray and surrounding suburbs. From urgent repairs to full installations, our licensed team delivers safe, high-quality workmanship every time.",
+  "services": [
+    {
+      "title": "Complete Rewires",
+      "desc": "Full house rewiring for safety and reliability in older West Footscray homes and renovations."
+    },
+    {
+      "title": "Mains & Switchboard Upgrades",
+      "desc": "Upgrade your electrical mains and switchboard to meet current safety standards and demand."
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Expert advice and installation for indoor, outdoor, and smart lighting systems to enhance your space."
+    },
+    {
+      "title": "Power Point & Circuit Installations",
+      "desc": "Additional power points, dedicated circuits, and safe solutions for appliances and home offices."
+    },
+    {
+      "title": "Smoke Alarm Installation",
+      "desc": "Compliant hard-wired smoke alarm installation and testing for complete home safety."
+    },
+    {
+      "title": "Fault Finding & Repairs",
+      "desc": "Prompt diagnosis and repair of electrical faults, outages, and safety hazards in your property."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in West Footscray?",
+  "bannerSubheading": "Get a competitive quote for your next electrical project.",
+  "testimonialsHeading": "What West Footscray Locals Say",
+  "testimonialsSubheading": "Real reviews from our community",
+  "blogHeading": "Electrical Insights & Tips",
+  "blogSubheading": "From the Denki team",
+  "contactHeading": "Get Your Free Quote",
+  "contactSubheading": "We respond fast to all enquiries",
+  "reviews": [
+    {
+      "text": "Denki Electrical rewired our entire 1940s bungalow in West Footscray. Anthony's price was competitive and his friendly approach made the whole process stress-free. The team kept us informed and delivered on time, even with extra requests.",
+      "name": "Mark Henderson",
+      "role": "West Footscray Homeowner"
+    },
+    {
+      "text": "We had Denki upgrade our cafe's switchboard and install new kitchen lighting. Their advice was fantastic, and the work was done neatly with minimal disruption to our business. Highly recommend their professional service.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties, I need reliable tradies. Denki Electrical handles all our electrical maintenance and upgrade jobs across the western suburbs. They're communicative, fairly priced, and always do a top-quality job.",
+      "name": "David O'Neil",
+      "role": "Property Manager"
+    }
+  ]
+}
