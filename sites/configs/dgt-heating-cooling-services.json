@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "DGT Heating & Cooling Services",
+  "suburb": "Burnside Heights",
+  "phone": "0412 345 678",
+  "email": "user@domain.com",
+  "address": "16 Redbox Cres, Burnside Heights VIC 3023",
+  "tagline": "Burnside Heights Heating & Cooling Experts",
+  "primaryColor": "#2196F3",
+  "primaryColorRgb": "33, 150, 243",
+  "primaryColorHover": "#1976D2",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "DGT Heating & Cooling in Burnside Heights",
+      "sub": "18 years keeping homes comfortable"
+    },
+    {
+      "title": "Expert Air Conditioning Installation",
+      "sub": "Split systems, ducted units & more"
+    },
+    {
+      "title": "Reliable Heating Repairs",
+      "sub": "Prompt service across Burnside Heights"
+    }
+  ],
+  "ctaHeading": "Need Heating or Cooling in Burnside Heights?",
+  "aboutHeading": "18 Years in Burnside Heights",
+  "aboutSubheading": "Your comfort, our passion",
+  "aboutText": "With over 18 years of experience, DGT Heating & Cooling Services has been providing top-notch HVAC solutions in Burnside Heights. We listen to your needs and offer professional advice to ensure your home or business stays comfortable year-round. Our driving force, 'Your comfort, is our passion,' means we put you first and deliver results of the highest standard. We aim to build generational relationships with our clients through quality workmanship and integrity.",
+  "servicesHeading": "Our HVAC Services",
+  "servicesSubheading": "Comprehensive heating and cooling solutions",
+  "servicesText": "DGT Heating & Cooling Services offers a wide range of HVAC services tailored to your needs. From installation and repairs to maintenance, we ensure your systems operate efficiently and reliably. Our experienced team handles all types of heating and cooling equipment for both residential and commercial properties.",
+  "services": [
+    {
+      "title": "Heating Installation",
+      "desc": "Professional installation of heaters, heat pumps, and furnace systems for homes and businesses in Burnside Heights."
+    },
+    {
+      "title": "Cooling Installation",
+      "desc": "Expert setup of air conditioners, split systems, and ducted cooling to keep your space cool during hot months."
+    },
+    {
+      "title": "Heating Repairs",
+      "desc": "Quick and efficient repair services for all heating systems to restore warmth and comfort promptly."
+    },
+    {
+      "title": "Cooling Repairs",
+      "desc": "Diagnosis and fixing of air conditioning issues to ensure optimal performance and energy efficiency."
+    },
+    {
+      "title": "Maintenance Services",
+      "desc": "Regular maintenance plans to prolong the lifespan of your HVAC systems and prevent unexpected breakdowns."
+    },
+    {
+      "title": "Commercial HVAC Solutions",
+      "desc": "Tailored heating and cooling services for commercial properties, ensuring a comfortable environment for staff and customers."
+    }
+  ],
+  "bannerHeading": "Burnside Heights HVAC Experts",
+  "bannerSubheading": "Quality service you can trust",
+  "testimonialsHeading": "What Burnside Heights Locals Say",
+  "testimonialsSubheading": "Real feedback from real customers",
+  "blogHeading": "HVAC Tips & News",
+  "blogSubheading": "Insights from DGT Heating & Cooling",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "DGT Heating & Cooling Services installed a new ducted air conditioning system in my Burnside Heights home. Their team was professional, efficient, and the work was completed to a high standard. Highly recommend for anyone in the area.",
+      "name": "John Smith",
+      "role": "Burnside Heights Homeowner"
+    },
+    {
+      "text": "We had DGT handle the heating system for our shop in Burnside Heights. They provided expert advice and fixed the issue quickly, ensuring minimal disruption to our business. Excellent service.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've used DGT for multiple properties in Burnside Heights. Their maintenance services keep our HVAC systems running smoothly year-round. Trustworthy and always on time.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
