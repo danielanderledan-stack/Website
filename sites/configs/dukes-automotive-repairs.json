@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Duke's Automotive Repairs",
+  "suburb": "Kensington",
+  "phone": "+61393761188",
+  "email": "contact@dukesauto.com.au",
+  "address": "70-74 Smith St, Kensington VIC 3031",
+  "tagline": "Kensington's Automotive Electricians",
+  "primaryColor": "#cccccc",
+  "primaryColorRgb": "204, 204, 204",
+  "primaryColorHover": "#b3b3b3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kensington's Trusted Auto Electricians",
+      "sub": "Over 20 years serving Melbourne since 1993"
+    },
+    {
+      "title": "Logbook Servicing & Air Conditioning",
+      "sub": "All makes and models, from utes to European cars"
+    },
+    {
+      "title": "Quality Repairs, Right Advice",
+      "sub": "Professional workmanship in Kensington"
+    }
+  ],
+  "ctaHeading": "Kensington's auto experts are ready to help",
+  "aboutHeading": "20+ Years in Kensington",
+  "aboutSubheading": "Local, Reliable, Professional",
+  "aboutText": "Duke's Automotive Repairs has been serving Kensington with quality automotive maintenance and repairs since 1993. With over 20 years of experience, we handle all makes and models, from commercial utes to high-performance European vehicles. Our team prides itself on professional workmanship, genuine service, and providing the right advice at the right price. We're trusted by locals who are glad to have found a good mechanic.",
+  "servicesHeading": "Our Automotive Services",
+  "servicesSubheading": "Expert Repairs in Kensington",
+  "servicesText": "We offer a comprehensive range of automotive services including logbook servicing, air conditioning repairs, and general maintenance. Our Kensington team is equipped to handle all vehicle types, ensuring reliable and efficient service.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "We provide full logbook servicing for all vehicle makes, maintaining your warranty with genuine parts and expert care in Kensington."
+    },
+    {
+      "title": "Air Conditioning Service",
+      "desc": "From regas to full repairs, we keep your car's air conditioning running efficiently in all seasons, serving Kensington drivers."
+    },
+    {
+      "title": "General Automotive Repairs",
+      "desc": "Whether it's brakes, suspension, or engine work, our Kensington team delivers reliable repairs for everyday driving needs."
+    },
+    {
+      "title": "European Vehicle Specialist",
+      "desc": "Specialising in high-performance European models, we offer tailored maintenance and repair services for Kensington car owners."
+    },
+    {
+      "title": "Commercial Vehicle Maintenance",
+      "desc": "Keeping your fleet on the road with scheduled maintenance and urgent repairs for utes, vans, and commercial vehicles in Kensington."
+    },
+    {
+      "title": "Diagnostic Services",
+      "desc": "Advanced diagnostic tools to quickly identify and fix issues, saving you time and money with our Kensington-based expertise."
+    }
+  ],
+  "bannerHeading": "Need Auto Repairs in Kensington?",
+  "bannerSubheading": "We're here to help with all your automotive needs",
+  "testimonialsHeading": "What Kensington Locals Say",
+  "testimonialsSubheading": "Trusted by Drivers Since 1993",
+  "blogHeading": "Auto Repair Tips & News",
+  "blogSubheading": "From the Duke's Team",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "Free Quotes and Bookings",
+  "reviews": [
+    {
+      "text": "Duke's Automotive Repairs did an excellent job on my logbook servicing in Kensington. The team was professional, and I'm glad to have found a reliable mechanic for my family car.",
+      "name": "John Smith",
+      "role": "Kensington Homeowner"
+    },
+    {
+      "text": "As a business owner with a fleet of vans, Duke's keeps our vehicles running smoothly with their commercial maintenance services. Highly recommend their expertise.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've used Duke's for air conditioning repairs on several properties in Kensington. Their service is prompt, and the advice is always honest and helpful.",
+      "name": "Mike Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
