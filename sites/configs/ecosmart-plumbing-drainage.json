@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Ecosmart Plumbing & Drainage",
+  "suburb": "Laverton",
+  "phone": "03 9369 1234",
+  "email": "info@ecosmartgroup.com.au",
+  "address": "85 Triholm Ave, Laverton VIC 3028",
+  "tagline": "Laverton's Plumbing Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b472",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Laverton's Trusted Plumbers",
+      "sub": "Serving Victoria with excellence"
+    },
+    {
+      "title": "Ecosmart Drainage Solutions",
+      "sub": "Commercial & residential expertise"
+    },
+    {
+      "title": "Emergency Plumbing in Laverton",
+      "sub": "Fast response when you need it"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Laverton? Call Us Today.",
+  "aboutHeading": "Expert Plumbing in Laverton",
+  "aboutSubheading": "Local, licensed & dedicated",
+  "aboutText": "Based in Laverton, Ecosmart Plumbing & Drainage has been providing high-quality plumbing services to homes and businesses across Victoria for over a decade. Our team of skilled professionals combines local knowledge with a commitment to excellence, ensuring every project in Laverton and greater Melbourne is completed to the highest standard. We pride ourselves on reliability and customer satisfaction, making us the preferred choice for plumbing needs in the area.",
+  "servicesHeading": "Plumbing Services We Offer",
+  "servicesSubheading": "Quality solutions for every need",
+  "servicesText": "From routine maintenance to complex installations, Ecosmart Plumbing covers all plumbing requirements in Laverton and Melbourne. Our experienced team handles both residential and commercial jobs with efficiency and professionalism, ensuring lasting results.",
+  "services": [
+    {
+      "title": "Drain Clearing & Unblocking",
+      "desc": "Efficient drain cleaning in Laverton to prevent blockages and keep your pipes flowing smoothly."
+    },
+    {
+      "title": "Leak Detection & Repair",
+      "desc": "Expert leak repair services in Laverton, minimising water damage and saving you costs."
+    },
+    {
+      "title": "Hot Water System Services",
+      "desc": "Installation and repair of hot water systems in Laverton for reliable hot water supply."
+    },
+    {
+      "title": "Pipe Relining & Repair",
+      "desc": "Advanced pipe relining in Laverton to fix damaged pipes without extensive excavation."
+    },
+    {
+      "title": "Bathroom & Kitchen Plumbing",
+      "desc": "Renovation plumbing for Laverton homes, from fixture replacements to full fit-outs."
+    },
+    {
+      "title": "Emergency Plumbing Assistance",
+      "desc": "24/7 emergency plumbing in Laverton for urgent issues like bursts or overflows."
+    }
+  ],
+  "bannerHeading": "Plumbing Issues in Laverton? We Can Help.",
+  "bannerSubheading": "Prompt and professional service.",
+  "testimonialsHeading": "What Laverton Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Insights from Ecosmart",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to Laverton enquiries",
+  "reviews": [
+    {
+      "text": "Ecosmart Plumbing fixed a major leak at our Laverton home quickly and professionally. Their team was courteous, and the repair was flawless. Highly recommend for any local plumbing needs!",
+      "name": "Mike Thompson",
+      "role": "Laverton Homeowner"
+    },
+    {
+      "text": "We've used Ecosmart for our café's plumbing in Melbourne's west. Their commercial services are top-notch, reliable, and always delivered on time. A great partner for business owners.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I recommend Ecosmart for plumbing issues in Laverton properties. They handle emergencies and routine maintenance efficiently, ensuring tenant satisfaction.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
