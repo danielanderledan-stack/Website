@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "BPC Plumbing",
+  "suburb": "Werribee",
+  "phone": "0458 037 508",
+  "email": "info@bpcplumbing.com.au",
+  "address": "Factory 5/65 Russell St, Werribee VIC 3030",
+  "tagline": "Werribee's Trusted Plumbers",
+  "primaryColor": "#0077be",
+  "primaryColorRgb": "0, 119, 190",
+  "primaryColorHover": "#0066a3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Werribee's Go-To Plumbers",
+      "sub": "20+ years serving Melbourne's west"
+    },
+    {
+      "title": "Residential & Commercial Plumbing",
+      "sub": "From home builders to businesses"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Werribee & surrounds"
+    }
+  ],
+  "ctaHeading": "Werribee's plumbers are ready — let's fix your plumbing.",
+  "aboutHeading": "20 Years Plumbing in Werribee",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "For over 20 years, BPC Plumbing has been a trusted name in Werribee and Melbourne, serving some of Australia's largest residential home builders. We specialise in comprehensive plumbing services, from emergency repairs to complete installations. Our experienced team ensures high-quality workmanship and customer satisfaction on every job.",
+  "servicesHeading": "What We Fix & Install",
+  "servicesSubheading": "Plumbing done right",
+  "servicesText": "BPC Plumbing offers a full range of plumbing services tailored to both residential and commercial needs in Werribee. Our skilled plumbers handle everything from routine maintenance to complex installations with professionalism and care.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Fast response for urgent plumbing issues in Werribee, available 24/7."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Professional unblocking of drains and sewers to prevent water damage."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water units for homes."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Expert plumbing for bathroom upgrades and renovations in Melbourne."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitting services for stoves, heaters, and appliances."
+    },
+    {
+      "title": "Leak Detection",
+      "desc": "Advanced techniques to find and fix leaks quickly and efficiently."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Werribee?",
+  "bannerSubheading": "We're here to help with all your plumbing needs.",
+  "testimonialsHeading": "What Werribee Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "BPC Plumbing did a fantastic job fixing our hot water system in Werribee. They were prompt, professional, and the price was fair. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Werribee Homeowner"
+    },
+    {
+      "text": "We've used BPC for our business plumbing needs for years. Their reliability and quality workmanship are unmatched in Melbourne's west.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on BPC Plumbing for all maintenance issues. They always respond quickly and do a great job.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
