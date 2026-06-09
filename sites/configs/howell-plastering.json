@@ -1,0 +1,299 @@
+{
+  "siteType": "builder",
+  "businessName": "Howell Plastering",
+  "suburb": "Bristol",
+  "phone": "07866787154",
+  "email": "ben@howellplastering.com",
+  "address": "8, Station Road, Montpelier, Bristol, City of Bristol, West of England, England, BS6 5EE, United Kingdom",
+  "tagline": "Bristol's Plastering & Building Experts",
+  "primaryColor": "#a0a0ff",
+  "primaryColorRgb": "160, 160, 255",
+  "primaryColorHover": "#8c8cdd",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bristol's Trusted Plasterers Since 2007",
+      "sub": "17+ years of quality building services"
+    },
+    {
+      "title": "Plastering, Repairs & Maintenance",
+      "sub": "Domestic, commercial & industrial solutions"
+    },
+    {
+      "title": "Free Quotes Across Bristol",
+      "sub": "No obligation, upfront pricing"
+    }
+  ],
+  "ctaHeading": "Bristol's plasterers are ready — let's start your project.",
+  "aboutHeading": "Building & Plastering in Bristol Since 2007",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Established in 2007, Howell Plastering and Building Services has been serving Bristol with top-quality plastering, building, and maintenance solutions. We pride ourselves on affordable pricing and reliable service for both residential and commercial clients across the city. Our experienced team delivers exceptional workmanship on every project, from small repairs to large-scale renovations.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Expert plastering and building services",
+  "servicesText": "From professional plastering to full building repairs, we offer a comprehensive range of services in Bristol. Our skilled tradespeople ensure high standards and customer satisfaction on every job, using quality materials and proven techniques.",
+  "services": [
+    {
+      "title": "Plastering",
+      "desc": "Professional plastering for walls and ceilings in Bristol homes and businesses.",
+      "longDesc": "Expert plastering services in Bristol, including skimming, dry lining, and decorative finishes. We ensure smooth, durable surfaces that enhance your property's value and appearance.",
+      "points": [
+        "Smooth, flawless finishes",
+        "All plaster types",
+        "Quick drying times"
+      ]
+    },
+    {
+      "title": "Building Repairs",
+      "desc": "Reliable building repair services to fix structural and cosmetic issues.",
+      "longDesc": "Comprehensive building repair solutions in Bristol, from minor fixes to major restorations. We address cracks, damp, and wear to maintain your property's integrity and safety.",
+      "points": [
+        "Structural assessments",
+        "Cost-effective fixes",
+        "Quality materials"
+      ]
+    },
+    {
+      "title": "Maintenance Services",
+      "desc": "Regular maintenance to keep your property in top condition.",
+      "longDesc": "Tailored maintenance packages for Bristol properties, including inspections, cleaning, and preventative care. Our services help avoid costly repairs and ensure long-term durability.",
+      "points": [
+        "Scheduled inspections",
+        "Preventative care",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Painting & Decorating",
+      "desc": "Professional painting to refresh and protect your spaces.",
+      "longDesc": "High-quality painting and decorating services in Bristol, using premium paints and finishes. We deliver neat, vibrant results for interiors and exteriors, enhancing curb appeal.",
+      "points": [
+        "Interior & exterior",
+        "Colour consultations",
+        "Neat, professional finish"
+      ]
+    },
+    {
+      "title": "Rendering",
+      "desc": "Durable rendering for weatherproofing and aesthetic appeal.",
+      "longDesc": "Expert rendering services in Bristol, including pebble dash, smooth, and textured finishes. We improve insulation and protect buildings from the UK climate with reliable application.",
+      "points": [
+        "Weatherproofing",
+        "Thermal insulation",
+        "Various textures"
+      ]
+    },
+    {
+      "title": "Drywall Installation",
+      "desc": "Efficient drywall setup for new builds and renovations.",
+      "longDesc": "Professional drywall installation and repair in Bristol, ensuring sturdy, well-finished walls and partitions. Ideal for home extensions, office fit-outs, and refurbishment projects.",
+      "points": [
+        "Quick installation",
+        "Seamless joints",
+        "Fire-resistant options"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plasterer in Bristol?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "testimonialsHeading": "What Bristol Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Plastering Guides & Advice",
+  "blogSubheading": "Tips from the Bristol team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly",
+  "reviews": [
+    {
+      "text": "Howell Plastering did an excellent job plastering our living room in Bristol. The team was punctual, neat, and the finish was flawless. Highly recommend for any home renovation project!",
+      "name": "Sarah Mitchell",
+      "role": "Bristol Homeowner"
+    },
+    {
+      "text": "We used Howell for building repairs on our shop in Montpelier. Their maintenance services kept our property in top shape, and they were very professional. Great value for money.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Howell Plastering for all our Bristol properties. Their reliable service and quality work on plastering and painting make them a trusted partner.",
+      "name": "Emma Clarke",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Bristol",
+    "Clifton",
+    "Redland",
+    "Cotham",
+    "Bishopston",
+    "Montpelier",
+    "Ashley Down"
+  ],
+  "about": {
+    "intro": "Howell Plastering and Building Services has been a cornerstone in Bristol since 2007, delivering expert plastering and building solutions with a focus on quality and affordability.",
+    "story": [
+      "Founded in 2007 by Ben Howell, our company started with a simple mission: to provide Bristol with reliable, high-quality plastering and building services. Over 17 years, we've grown from a small team to a trusted name across the city, handling everything from minor repairs to major renovations.",
+      "We specialise in both residential and commercial projects, ensuring every job meets Australian standards of workmanship while adapting to the UK's unique building requirements. Our commitment to customer satisfaction has earned us a reputation for honest, dependable service in Bristol and surrounding areas."
+    ],
+    "mission": "To deliver exceptional plastering and building services in Bristol with integrity, skill, and affordability.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our plasterers are licensed and trained to the highest UK building standards."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule and complete projects efficiently without delays."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden fees – we provide clear quotes before any work begins."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "17+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "800+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Howell Plastering, we offer transparent pricing for all Bristol clients – no lock-in contracts, just fair rates for quality work.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "Free",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed written quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Plastering Job",
+        "price": "from £500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional plastering",
+          "All materials included",
+          "Clean finish",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Building Project",
+        "price": "from £3,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Multi-trade coordination",
+          "Premium finishes"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to start your plastering or building project in Bristol? Contact us today for a free, no-obligation quote – we're here to help!"
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Plastering Cost in Bristol? A Complete Guide for 2026",
+      "date": "March 2026",
+      "excerpt": "Discover the average plastering costs in Bristol, including factors like room size, plaster type, and labour rates, to budget your project accurately.",
+      "body": [
+        "Plastering costs in Bristol can vary widely based on several key factors, making it essential for homeowners and businesses to understand what influences pricing. As a trusted plasterer in Bristol since 2007, we've seen how room dimensions, the condition of existing surfaces, and the type of plaster required – such as skimming, dry lining, or decorative finishes – all play a role. For instance, a standard living room in Bristol might cost between £500 to £800 for full plastering, while larger commercial spaces could run into thousands. It's crucial to get a professional assessment to avoid hidden issues like damp or structural problems that could increase costs.",
+        "In Bristol's climate, where moisture and temperature fluctuations are common, the choice of plaster materials affects both durability and expense. Using high-quality gypsum or lime plaster might have a higher upfront cost but offers better longevity and resistance to the UK's damp weather. Labour rates for plasterers in Bristol typically range from £20 to £30 per hour, depending on experience and the complexity of the job. At Howell Plastering, we always provide transparent quotes that break down material and labour costs, ensuring no surprises. For homeowners in suburbs like Clifton or Montpelier, investing in quality plastering can enhance property value and prevent future repairs.",
+        "Another factor is the scope of the project – whether it's a small repair or a full room re-plaster. Minor plaster repairs in Bristol homes might cost as little as £100 to £200, while complete renovations involving multiple rooms or specialized finishes like textured rendering can escalate quickly. Seasonal timing also matters; scheduling plastering during Bristol's milder months in spring or autumn can sometimes lead to better availability and pricing. We recommend getting multiple quotes but prioritizing experience and reviews over the cheapest option, as poor plastering can lead to cracks and further expenses down the line.",
+        "For those considering DIY plastering in Bristol, it's important to factor in tool rental and the steep learning curve, which often results in subpar finishes that require professional correction. Our advice is to consult with a local expert like Howell Plastering to assess your needs accurately. We offer free consultations across Bristol, from Bishopston to Redland, to provide tailored advice and quotes. Understanding the cost breakdown helps you plan effectively – for example, allocating extra budget for any necessary wall preparation or insulation upgrades, which are common in older Bristol properties.",
+        "In 2026, with rising material costs due to global supply chains, plastering in Bristol may see price increases of 5-10%. However, by choosing a reputable plasterer who uses bulk purchasing and efficient methods, you can mitigate some of these expenses. At Howell Plastering, we've maintained competitive pricing by building long-term supplier relationships in the UK. Our long-form guides like this one aim to empower Bristol residents with knowledge, ensuring you make informed decisions for your plastering projects, whether it's a quick fix or a major overhaul.",
+        "Ultimately, the best way to get an accurate cost for plastering in Bristol is to contact a professional for a site visit. We at Howell Plastering provide no-obligation quotes that consider all variables, from the current state of your walls to the desired finish. By investing in quality plastering, you not only improve your property's aesthetics but also its energy efficiency and structural integrity, which is vital in Bristol's variable weather. Reach out to us today to discuss your project and receive a personalized estimate tailored to your Bristol home or business."
+      ]
+    },
+    {
+      "title": "The Best Time for Plastering in Bristol: Seasonal Tips for Perfect Results",
+      "date": "February 2026",
+      "excerpt": "Learn how Bristol's seasonal weather impacts plastering projects and why timing is key to achieving smooth, durable finishes year-round.",
+      "body": [
+        "Timing is everything when it comes to plastering in Bristol, where the UK's maritime climate brings humidity, rain, and temperature shifts that can affect drying and curing. As experienced plasterers serving Bristol since 2007, we've found that the best months for plastering are typically from April to October, when temperatures are milder and humidity is lower. During Bristol's wetter winter months, from November to March, indoor plastering can still be done with proper ventilation and heating, but external work like rendering may need to be postponed to avoid frost damage or poor adhesion.",
+        "Bristol's location in the West of England means it experiences relatively mild winters but frequent rainfall, which can slow down plaster drying times. For example, in a typical Bristol home, plaster might take 1-2 days to dry in summer versus up to a week in winter, impacting project timelines and costs. At Howell Plastering, we schedule most internal plastering jobs during spring and autumn to optimize drying conditions and ensure high-quality finishes. Homeowners in suburbs like Ashley Down or Cotham should plan ahead to book slots during these peak seasons.",
+        "Humidity is another critical factor; Bristol's average humidity hovers around 80%, which can cause plaster to dry unevenly if not managed properly. Using dehumidifiers or ensuring good airflow in rooms can help, but it adds to the overall expense. For external rendering, which is popular in Bristol for weatherproofing older properties, dry and calm weather is essential. We recommend avoiding plastering during Bristol's rainy spells, which can delay projects and compromise the plaster's integrity. Our team monitors local weather forecasts to plan work efficiently.",
+        "Seasonal pricing also plays a role – demand for plasterers in Bristol peaks in spring, so rates might be slightly higher, while winter offers more availability and potentially lower costs for indoor projects. However, cutting corners by plastering in unsuitable conditions can lead to cracks, mould, or the need for costly rework. At Howell Plastering, we advise clients to consider the long-term benefits of timing their projects right, especially for high-traffic areas like kitchens or bathrooms in Bristol homes.",
+        "For new builds or major renovations in Bristol, coordinating plastering with other trades is key to avoiding delays. The mild autumn months are ideal for such projects, as they allow for sequential work without weather disruptions. We've helped many Bristol businesses, like shops in Montpelier, schedule plastering during off-peak hours to minimize downtime. Understanding these seasonal nuances helps you plan a smoother, more cost-effective plastering project in Bristol.",
+        "In summary, while plastering can be done year-round in Bristol with precautions, the optimal time is during the drier, warmer months. At Howell Plastering, we leverage our 17+ years of local experience to guide you on the best timing for your specific needs, ensuring durable and aesthetically pleasing results. Contact us to discuss scheduling your Bristol plastering project for maximum efficiency and quality."
+      ]
+    },
+    {
+      "title": "Common Plastering Problems in Bristol Homes and How to Fix Them",
+      "date": "January 2026",
+      "excerpt": "Identify frequent plastering issues in Bristol properties, from cracks to damp, and learn effective solutions from our expert plasterers.",
+      "body": [
+        "Bristol homes, especially those in historic suburbs like Clifton or Redland, often face unique plastering challenges due to age, weather, and building materials. As a plasterer with over 17 years in Bristol, Howell Plastering has encountered and resolved numerous issues, starting with common problems like hairline cracks. These are often caused by normal settling of buildings or temperature fluctuations in Bristol's variable climate. Minor cracks can be filled with flexible filler, but larger ones may indicate structural movement, requiring professional assessment to prevent further damage.",
+        "Damp is another prevalent issue in Bristol, thanks to the high humidity and frequent rain. Plaster can become discoloured, bubbled, or mouldy when moisture seeps through walls, often due to poor ventilation or failed damp-proof courses. In Bristol's terraced houses, this is common in ground-floor rooms. Effective fixes include improving airflow with vents, using breathable plasters like lime, or applying damp-proof membranes. At Howell Plastering, we start with a thorough inspection to identify the moisture source before recommending plastering solutions tailored to Bristol's conditions.",
+        "Blistering or peeling plaster typically occurs when new plaster is applied over old, unstable surfaces or in areas with high condensation, such as bathrooms in Bristol homes. To fix this, the affected area must be stripped back to a solid base, treated for any underlying issues, and re-plastered with appropriate materials. For Bristol residents in areas like Bishopston, where older properties are common, using bonding agents or mist coats can improve adhesion and longevity. Our long-form guides like this one help locals understand these fixes to avoid recurring problems.",
+        "Poor workmanship from previous jobs can lead to uneven surfaces, visible joins, or weak plaster that crumbles easily. In Bristol, where many DIY attempts go awry, this is a frequent call-out for us. Repairing such issues involves skimming over the flawed plaster or completely removing and re-applying it. We emphasize using quality materials suited to Bristol's climate, such as moisture-resistant plasters, to ensure lasting results. Homeowners should always hire licensed plasterers like our team to prevent these problems from the start.",
+        "Another common problem is thermal bridging, where cold spots in Bristol homes cause condensation and plaster deterioration. This is often seen in uninsulated walls or around windows. Solutions include adding insulation before re-plastering or using thermal plaster products. In Bristol's energy-conscious era, we've helped many clients upgrade their plastering to improve home efficiency, combining aesthetic fixes with practical benefits. Regular maintenance, like repainting with breathable paints, can also mitigate these issues in Bristol properties.",
+        "In conclusion, while plastering problems in Bristol are common, they are fixable with the right knowledge and professional help. At Howell Plastering, we offer diagnostics and repairs that address the root causes, ensuring your Bristol home's plaster remains smooth and durable. Whether it's cracks, damp, or other issues, our local expertise provides reliable solutions to keep your property in top condition."
+      ]
+    },
+    {
+      "title": "Why Choose Lime Plastering for Your Bristol Property? Benefits and Costs Explained",
+      "date": "December 2025",
+      "excerpt": "Explore the advantages of lime plastering for Bristol's historic homes, including breathability, durability, and how it compares in cost to modern alternatives.",
+      "body": [
+        "Lime plastering is a traditional technique gaining popularity in Bristol for its compatibility with historic buildings and superior performance in the UK's damp climate. As a plasterer serving Bristol since 2007, Howell Plastering recommends lime plaster for properties in suburbs like Montpelier or Cotham, where older structures benefit from its breathable nature. Unlike cement-based plasters, lime allows moisture to evaporate, reducing the risk of damp and mould – a common issue in Bristol's wet weather. This makes it ideal for preserving the character of Victorian or Georgian homes while providing a durable finish.",
+        "The benefits of lime plaster extend beyond breathability; it's flexible, so it accommodates minor structural movements without cracking, which is valuable in Bristol's variable temperatures. It also has natural antifungal properties, improving indoor air quality in Bristol homes prone to humidity. However, lime plaster requires skilled application and longer drying times – up to several weeks in winter – which can impact project timelines. At Howell Plastering, we use traditional methods combined with modern knowledge to ensure optimal results for Bristol clients.",
+        "Cost-wise, lime plastering in Bristol is typically 20-30% more expensive than modern gypsum plaster due to material costs and labour-intensive application. For example, a room might cost from £600 with gypsum versus £800 with lime, but the long-term savings in maintenance and energy efficiency often justify the investment. In Bristol's conservation areas, lime plaster is sometimes required by planning authorities to maintain historical integrity. We provide detailed quotes that outline these costs, helping homeowners make informed decisions.",
+        "Application of lime plaster involves multiple coats, each needing time to carbonite and harden, which depends on Bristol's weather. In summer, drying is faster, while winter applications may require heated environments. Our team at Howell Plastering is experienced in lime techniques, ensuring proper mixing and application to avoid issues like shrinkage or poor adhesion. For Bristol residents, this means a plaster finish that ages beautifully and withstands the local climate for decades.",
+        "When comparing lime to other plasters, such as acrylic or clay, lime offers the best balance of sustainability and performance for Bristol properties. It's made from natural materials, reducing environmental impact, and can be recycled or reused. In Bristol's growing eco-conscious market, we've seen increased demand for lime plastering in both restorations and new builds. Our long-form guides like this one educate clients on these choices, emphasizing the importance of local expertise.",
+        "In summary, lime plastering is an excellent choice for many Bristol properties, offering breathability, durability, and aesthetic appeal. While it comes at a higher upfront cost, the benefits in moisture management and longevity make it a wise investment. At Howell Plastering, we specialize in lime plastering services in Bristol, from consultations to application, ensuring your heritage property is preserved with the best materials and methods."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Howell Plastering | Plasterer in Bristol | Building & Repairs",
+      "description": "Howell Plastering offers expert plastering, building repairs, and maintenance in Bristol. Established since 2007, with free quotes and quality workmanship. Call today!"
+    },
+    "about": {
+      "title": "About Howell Plastering | Bristol's Trusted Plasterers Since 2007",
+      "description": "Learn about Howell Plastering's 17+ years of experience providing plastering and building services in Bristol. Local, licensed, and dedicated to quality."
+    },
+    "services": {
+      "title": "Plastering Services in Bristol | Plastering, Repairs & Rendering",
+      "description": "Comprehensive plastering services in Bristol including skimming, dry lining, building repairs, and rendering. Expert tradespeople for home and business projects."
+    },
+    "pricing": {
+      "title": "Plastering Costs in Bristol | Transparent Pricing | Howell Plastering",
+      "description": "Transparent pricing for plastering in Bristol – from consultations to major projects. No hidden fees, free quotes, and competitive rates for quality work."
+    },
+    "contact": {
+      "title": "Contact Howell Plastering | Free Bristol Plastering Quotes",
+      "description": "Get in touch with Howell Plastering for free plastering quotes in Bristol. Quick response, no obligation, and expert advice for your project."
+    },
+    "blog": {
+      "title": "Plastering Blog Bristol | Local Tips, Guides & Cost Advice",
+      "description": "Read the latest plastering guides for Bristol homes: cost breakdowns, seasonal tips, and repair advice from experienced local plasterers."
+    }
+  }
+}
