@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Dynamic Trade Solutions",
+  "suburb": "North Geelong",
+  "phone": "1300 734 652",
+  "email": "motion-ui@1.2.3",
+  "address": "3/33 Rodney Rd, North Geelong VIC 3215",
+  "tagline": "Dynamic Trade Solutions — Electricians in North Geelong",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "North Geelong's Trusted Electricians",
+      "sub": "From Dynamic Trade Solutions"
+    },
+    {
+      "title": "Expert Electrical & Plumbing Installations",
+      "sub": "Tailored to your requirements"
+    },
+    {
+      "title": "Licensed & Insured Professionals",
+      "sub": "Serving North Geelong and surrounds"
+    }
+  ],
+  "ctaHeading": "North Geelong's electricians are ready — let's power your project.",
+  "aboutHeading": "20 Years Electrical Service in North Geelong",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "At Dynamic Trade Solutions, based in North Geelong, we have over 20 years of experience providing top-notch electrical and plumbing installations. Our expert team works closely with clients from initial consultation to project completion, ensuring all requirements are met with innovative, tailored solutions. We pride ourselves on delivering state-of-the-art services that keep your home or business safe and efficient.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Electrical done right",
+  "servicesText": "From residential wiring to commercial fit-outs, Dynamic Trade Solutions offers comprehensive electrical services across North Geelong and surrounding suburbs. Our licensed electricians handle everything with precision and care.",
+  "services": [
+    {
+      "title": "Residential Electrical Work",
+      "desc": "Complete home electrical installations and upgrades.",
+      "longDesc": "Expert residential electrical services in North Geelong, including rewiring, switchboard upgrades, and lighting design for homes.",
+      "points": [
+        "Safe installations",
+        "Energy-efficient solutions",
+        "Code compliant work"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tailored electrical solutions for businesses and offices.",
+      "longDesc": "Reliable commercial electrical services in North Geelong, covering fit-outs, maintenance, and emergency repairs for local businesses.",
+      "points": [
+        "Minimize downtime",
+        "Compliance focus",
+        "Custom solutions"
+      ]
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Regular maintenance to keep systems running smoothly.",
+      "longDesc": "Scheduled electrical maintenance for North Geelong properties, preventing issues and ensuring optimal performance.",
+      "points": [
+        "Preventive care",
+        "Extended system life",
+        "Cost-effective"
+      ]
+    },
+    {
+      "title": "Safety Switches & Upgrades",
+      "desc": "Installation and testing of safety devices.",
+      "longDesc": "Upgrade your safety switches in North Geelong to meet current Australian standards, protecting against electrical faults.",
+      "points": [
+        "Enhanced safety",
+        "Standards compliance",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Lighting Installations",
+      "desc": "Interior and exterior lighting design and installation.",
+      "longDesc": "Professional lighting installations for homes and businesses in North Geelong, enhancing aesthetics and functionality.",
+      "points": [
+        "Modern designs",
+        "Energy-saving options",
+        "Professional finish"
+      ]
+    },
+    {
+      "title": "Emergency Call-Outs",
+      "desc": "24/7 emergency electrical services when you need it.",
+      "longDesc": "Prompt emergency electrical assistance in North Geelong, available around the clock for urgent issues.",
+      "points": [
+        "Rapid response",
+        "Day or night service",
+        "Trusted team"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in North Geelong?",
+  "bannerSubheading": "Licensed professionals ready to help.",
+  "testimonialsHeading": "What North Geelong Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "North Geelong Electrical Guides & Advice",
+  "blogSubheading": "Tips from the experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Dynamic Trade Solutions did an excellent job on our home rewire in North Geelong. The team was professional and the work was completed on time to a high standard.",
+      "name": "James Mitchell",
+      "role": "North Geelong Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Dynamic Trade Solutions for all our electrical needs. Their service is always reliable and they understand our specific requirements.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties in North Geelong, I've found Dynamic Trade Solutions trustworthy and efficient. Their maintenance services keep everything running smoothly.",
+      "name": "David Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "North Geelong",
+    "Geelong",
+    "South Geelong",
+    "East Geelong",
+    "Belmont",
+    "Highton",
+    "Lara"
+  ],
+  "about": {
+    "intro": "Discover North Geelong's trusted electrical and plumbing experts at Dynamic Trade Solutions.",
+    "story": [
+      "With over two decades of service in North Geelong, Dynamic Trade Solutions has built a reputation for excellence in electrical and plumbing installations. Our journey began with a commitment to providing innovative solutions tailored to each client's unique needs.",
+      "From residential homes to large commercial projects, our team of licensed professionals works from conception to completion, ensuring every aspect of the job is handled with expertise. We use the latest technology and adhere to strict Australian standards."
+    ],
+    "mission": "To deliver state-of-the-art electrical and plumbing services to North Geelong and surrounding areas with integrity and precision.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "Our team holds all necessary licenses for electrical and plumbing work in Victoria."
+      },
+      {
+        "title": "Tailored Solutions",
+        "text": "We customise our services to meet your specific project requirements."
+      },
+      {
+        "title": "Quality Assurance",
+        "text": "Every job is completed to the highest standards with a workmanship guarantee."
+      },
+      {
+        "title": "Local Knowledge",
+        "text": "Deep understanding of North Geelong's building codes and climate considerations."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Dynamic Trade Solutions, we offer transparent pricing for all electrical and plumbing services in North Geelong. No hidden fees, just upfront quotes.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$99",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $200",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality materials",
+          "Compliance guarantee",
+          "Workmanship warranty"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Project management",
+          "Multi-trade coordination",
+          "Flexible scheduling"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to discuss your electrical or plumbing project? Contact Dynamic Trade Solutions in North Geelong for a free, no-obligation quote."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Electrical Work Cost in North Geelong in 2026?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting electrical service costs in North Geelong, from call-out fees to major installations, with expert advice from Dynamic Trade Solutions.",
+      "body": [
+        "When it comes to electrical work in North Geelong, costs can vary significantly based on the type of job, materials required, and complexity. At Dynamic Trade Solutions, we provide transparent pricing to help you budget effectively. Whether it's a simple repair or a full rewiring project, understanding the cost factors is essential for homeowners and businesses alike.",
+        "For minor electrical repairs in North Geelong, such as fixing a faulty power point or replacing a light fixture, costs typically range from $100 to $300, including call-out fees. These issues are often straightforward but require licensed electricians to ensure safety. Our team at Dynamic Trade Solutions offers competitive rates without compromising on quality.",
+        "Major electrical installations, like switchboard upgrades or complete home rewiring, can cost between $1,500 and $5,000 or more in North Geelong. Factors include the age of the property, accessibility, and compliance with current Australian standards. We conduct thorough assessments to provide accurate quotes, avoiding surprises down the line.",
+        "Commercial electrical services in North Geelong might involve higher costs due to scale and complexity. Fit-outs for offices or retail spaces can range from $5,000 to $20,000, depending on the scope. Dynamic Trade Solutions works with local businesses to deliver solutions that meet budget and operational needs.",
+        "It's crucial to consider ongoing maintenance costs to prevent major issues. Annual electrical safety inspections in North Geelong are recommended, costing around $150 to $300. This proactive approach can save money in the long run by identifying problems early.",
+        "When choosing an electrician in North Geelong, always ensure they are licensed and insured. Dynamic Trade Solutions provides free, detailed quotes with no hidden charges, so you can make informed decisions. Our expertise in local building codes ensures all work is compliant and safe."
+      ]
+    },
+    {
+      "title": "Signs You Need Electrical Upgrades in Your North Geelong Home",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators that your North Geelong home may require electrical upgrades, from flickering lights to outdated wiring, with tips from Dynamic Trade Solutions.",
+      "body": [
+        "Living in North Geelong, your home's electrical system plays a vital role in safety and comfort. Over time, wear and tear or outdated components can signal the need for upgrades. Recognising these signs early can prevent hazards and improve efficiency.",
+        "Flickering or dimming lights are common red flags, often indicating loose wiring or overloaded circuits. In North Geelong homes, especially older properties, this might be due to aging infrastructure. Dynamic Trade Solutions can assess and upgrade your system to handle modern demands.",
+        "Frequent circuit breaker trips suggest your electrical panel is struggling with load. This is common in North Geelong households with increasing appliance use. Upgrading to a larger switchboard or adding circuits can resolve this issue and enhance safety.",
+        "Outdated wiring, such as knob-and-tube or aluminium wiring, poses significant fire risks. Many North Geelong homes built before the 1990s may have these systems. Our electricians can replace them with safer, modern alternatives compliant with Australian standards.",
+        "Power outlets that are warm to touch or show burn marks require immediate attention. This could indicate faulty wiring, a serious concern in North Geelong's varied climate. Dynamic Trade Solutions offers prompt inspections and upgrades to mitigate risks.",
+        "If you're planning renovations in your North Geelong home, electrical upgrades should be part of the plan. Ensuring your system can support new lighting, appliances, or smart home tech is essential. We provide tailored solutions to integrate seamlessly with your lifestyle."
+      ]
+    },
+    {
+      "title": "Energy-Efficient Lighting Solutions for North Geelong Businesses",
+      "date": "January 2026",
+      "excerpt": "Discover how North Geelong businesses can reduce energy costs with efficient lighting solutions, from LED upgrades to smart controls, by Dynamic Trade Solutions.",
+      "body": [
+        "For businesses in North Geelong, energy-efficient lighting is not just eco-friendly but also cost-effective. Upgrading to modern solutions can significantly reduce electricity bills while enhancing workplace environments. Dynamic Trade Solutions specialises in helping local businesses make the switch.",
+        "LED lighting is a top choice for North Geelong commercial spaces, offering longevity and low energy consumption. LEDs can last up to 25 times longer than traditional bulbs, reducing maintenance costs. Our team installs high-quality LED systems tailored to your business needs.",
+        "Smart lighting controls, such as motion sensors and timers, optimise energy use in North Geelong offices and retail stores. These systems ensure lights are only on when needed, cutting waste. We integrate these technologies seamlessly into your existing setup.",
+        "Proper lighting design can boost employee productivity and customer appeal in North Geelong businesses. We consider factors like natural light, task requirements, and aesthetic goals to create effective lighting plans that enhance your space.",
+        "Government incentives and rebates for energy-efficient upgrades are available in Victoria, including North Geelong. Dynamic Trade Solutions can help you navigate these programs to offset costs, making upgrades more affordable.",
+        "Regular maintenance of lighting systems ensures continued efficiency in North Geelong's dynamic environment. We offer scheduled services to keep your lighting performing optimally, preventing downtime and extending system life."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services: What to Do in a Power Outage in North Geelong",
+      "date": "December 2025",
+      "excerpt": "Get practical steps to handle a power outage in North Geelong safely, and learn when to call Dynamic Trade Solutions for emergency electrical assistance.",
+      "body": [
+        "Power outages in North Geelong can occur due to storms, grid faults, or internal issues, disrupting daily life and business operations. Knowing how to respond quickly and safely is crucial. Dynamic Trade Solutions provides 24/7 emergency services to help you restore power efficiently.",
+        "First, check if the outage is widespread by looking at neighbours or contacting your energy provider. If it's isolated to your property, inspect your switchboard for tripped breakers or blown fuses. In North Geelong, weather-related outages are common during winter storms.",
+        "Ensure safety by unplugging sensitive appliances to prevent damage from power surges when electricity returns. Use flashlights instead of candles to avoid fire risks. Our North Geelong team recommends having an emergency kit ready for such situations.",
+        "If you cannot resolve the issue yourself, it's time to call a licensed electrician. Dynamic Trade Solutions offers rapid response in North Geelong, diagnosing problems like faulty wiring or damaged connections that cause outages.",
+        "For businesses, power outages can lead to significant losses. Having an emergency plan and contact with a reliable electrician like Dynamic Trade Solutions minimises downtime. We prioritise commercial clients in North Geelong to restore operations quickly.",
+        "Preventative measures, such as regular electrical inspections, can reduce the likelihood of emergencies in North Geelong homes and businesses. Our team identifies potential issues before they cause outages, ensuring reliability and safety."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Dynamic Trade Solutions | Electrician in North Geelong | Electrical Services",
+      "description": "North Geelong's trusted electricians offering residential and commercial electrical installations, maintenance, and emergency services. Licensed and insured."
+    },
+    "about": {
+      "title": "About Dynamic Trade Solutions | North Geelong Electrical Experts",
+      "description": "Learn about our 20+ years of electrical and plumbing service in North Geelong, committed to quality and customer satisfaction."
+    },
+    "services": {
+      "title": "Electrical Services in North Geelong | Dynamic Trade Solutions",
+      "description": "Comprehensive electrical services in North Geelong including installations, maintenance, safety upgrades, and more. Get a free quote today."
+    },
+    "pricing": {
+      "title": "Electrical Costs in North Geelong | Transparent Pricing from Dynamic Trade Solutions",
+      "description": "Understand electrical service costs in North Geelong with upfront pricing and no hidden fees. Free quotes available."
+    },
+    "contact": {
+      "title": "Contact Dynamic Trade Solutions | Free Electrical Quotes in North Geelong",
+      "description": "Get in touch with North Geelong's electrical experts for free quotes on all electrical and plumbing projects."
+    },
+    "blog": {
+      "title": "North Geelong Electrical Blog | Tips, Guides & Advice",
+      "description": "Read expert advice on electrical services, costs, and maintenance in North Geelong from Dynamic Trade Solutions."
+    }
+  }
+}
