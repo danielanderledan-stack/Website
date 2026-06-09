@@ -1,0 +1,300 @@
+{
+  "siteType": "plumber",
+  "businessName": "Grade A Plumbing Services",
+  "suburb": "Richmond",
+  "phone": "(215) 343-6900",
+  "email": "gsap@3.12.2",
+  "address": "111 Gipps St, Richmond VIC 3121",
+  "tagline": "Richmond's Trusted Plumbers",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e05f00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Go-To Plumbers",
+      "sub": "50+ years of plumbing expertise"
+    },
+    {
+      "title": "Fast, Friendly Plumbing Service",
+      "sub": "From repairs to renovations in Richmond"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Richmond & surrounds"
+    }
+  ],
+  "ctaHeading": "Richmond's plumbers are ready — let's fix your plumbing today.",
+  "aboutHeading": "50 Years Plumbing in Richmond",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Grade A Plumbing Services brings over 50 years of combined experience to Richmond, VIC. We specialise in residential and commercial plumbing, offering fast, friendly, and personalised service. Our licensed plumbers handle everything from simple repairs to complex installations, ensuring your satisfaction every time.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert solutions for all your needs",
+  "servicesText": "From emergency repairs to scheduled maintenance, Grade A Plumbing provides comprehensive plumbing services in Richmond. Our team uses the latest tools and techniques to deliver reliable, efficient solutions for homes and businesses.",
+  "services": [
+    {
+      "title": "Plumbing Repairs",
+      "desc": "Quick and reliable fixes for all plumbing issues in Richmond homes and businesses.",
+      "longDesc": "Our Richmond plumbing repair service covers leaky taps, running toilets, and burst pipes. We use quality parts to ensure long-lasting solutions for your property.",
+      "points": [
+        "Fast response times",
+        "Quality parts used",
+        "Guaranteed work"
+      ]
+    },
+    {
+      "title": "Drain Cleaning",
+      "desc": "Professional drain unblocking to prevent clogs and backups in Richmond.",
+      "longDesc": "We offer thorough drain cleaning services in Richmond, using advanced equipment to clear blockages and maintain your plumbing system.",
+      "points": [
+        "Advanced equipment",
+        "Preventative maintenance",
+        "Local Richmond service"
+      ]
+    },
+    {
+      "title": "Leak Detection & Repair",
+      "desc": "Accurate leak detection and efficient repair to save water and prevent damage.",
+      "longDesc": "Our leak detection service in Richmond uses modern technology to find hidden leaks, followed by expert repair to protect your property.",
+      "points": [
+        "Non-invasive detection",
+        "Water-saving solutions",
+        "Expert repair team"
+      ]
+    },
+    {
+      "title": "Gas Line Services",
+      "desc": "Safe gas line repair, installation, and maintenance by licensed professionals.",
+      "longDesc": "Grade A Plumbing provides certified gas line services in Richmond, ensuring safety and compliance for residential and commercial properties.",
+      "points": [
+        "Licensed gas fitters",
+        "Safety guaranteed",
+        "Compliance assured"
+      ]
+    },
+    {
+      "title": "Bathroom Remodeling",
+      "desc": "Complete bathroom renovation services tailored to your style and needs.",
+      "longDesc": "Transform your Richmond bathroom with our remodeling services, from design to installation, using quality materials and expert craftsmanship.",
+      "points": [
+        "Custom designs",
+        "Quality materials",
+        "Full project management"
+      ]
+    },
+    {
+      "title": "Commercial Plumbing",
+      "desc": "Reliable plumbing solutions for businesses in Richmond, minimising downtime.",
+      "longDesc": "We cater to commercial clients in Richmond, offering maintenance, repairs, and installations to keep your business running smoothly.",
+      "points": [
+        "Minimise business disruption",
+        "Scheduled maintenance",
+        "Commercial-grade solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Richmond?",
+  "bannerSubheading": "Professional plumbing services at your doorstep.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Plumbing Guides & Advice",
+  "blogSubheading": "Tips from Richmond's plumbing experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly",
+  "reviews": [
+    {
+      "text": "Grade A Plumbing fixed our leaky shower in Richmond quickly and professionally. Their service was top-notch, and the plumber was friendly and efficient.",
+      "name": "Sarah Thompson",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "We used Grade A Plumbing for bathroom remodeling in our Richmond cafe. The work was done on time, and the results were excellent. Highly recommended.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Grade A Plumbing for regular maintenance across Richmond properties. They're reliable, affordable, and always deliver quality work.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Richmond",
+    "East Richmond",
+    "Cremorne",
+    "Hawthorn",
+    "Kew",
+    "Burnley",
+    "Camberwell"
+  ],
+  "about": {
+    "intro": "Grade A Plumbing Services is a family-owned business with over 50 years of experience serving Richmond, VIC.",
+    "story": [
+      "Founded in the heart of Richmond, our plumbing business has grown from a small local service to a trusted name across Melbourne's eastern suburbs. We started with a commitment to honest, reliable work, and that principle remains at the core of everything we do.",
+      "With more than 50 years of combined experience, our team of licensed plumbers in Richmond tackles everything from emergency repairs to full bathroom renovations. We understand the unique plumbing needs of Richmond's older homes and modern buildings, ensuring tailored solutions for every client."
+    ],
+    "mission": "To provide Richmond with fast, friendly, and expert plumbing services that exceed expectations every time.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "All our plumbers are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "We offer round-the-clock emergency plumbing services in Richmond."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees — upfront quotes before any work begins."
+      },
+      {
+        "title": "Quality Guarantee",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "50+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee",
+      "24/7 emergency service"
+    ]
+  },
+  "pricing": {
+    "intro": "At Grade A Plumbing in Richmond, we offer transparent pricing with no lock-in contracts. Get a free quote for any plumbing service.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Repair",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Diagnostic fee included",
+          "Quality parts used",
+          "Workmanship guarantee",
+          "Same-day service available"
+        ]
+      },
+      {
+        "name": "Major Renovation",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom design consultation",
+          "Full project management",
+          "Compliance with Australian standards"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to fix your plumbing in Richmond? Contact Grade A Plumbing for a free, no-obligation quote today."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in Richmond, VIC?",
+      "date": "March 2026",
+      "excerpt": "Discover the typical costs for emergency plumbing services in Richmond, including call-out fees and common repairs.",
+      "body": [
+        "Emergency plumbing in Richmond can vary in cost, but understanding the factors helps homeowners budget effectively. In Richmond, VIC, plumbers often charge a call-out fee ranging from $100 to $200, which covers travel and initial assessment. This fee may be waived if you proceed with the repair, but it's crucial to confirm upfront. The cost of parts and labour adds to the total, with hourly rates between $80 and $150 depending on the complexity. For Richmond's older homes, emergencies like burst pipes or gas leaks might incur higher costs due to accessibility issues or required permits.",
+        "When calling an emergency plumber in Richmond, always ask for a detailed quote over the phone or on-site. Common emergencies include blocked drains, overflowing toilets, and hot water system failures. In Richmond, where properties range from heritage houses to modern apartments, the location and type of building can affect pricing. For instance, a blocked drain in a ground-floor Richmond home might cost $200 to fix, while a more complex issue in a multi-storey building could exceed $500. It's wise to have a trusted local plumber like Grade A Plumbing on speed dial to avoid inflated emergency rates.",
+        "To save on emergency plumbing costs in Richmond, regular maintenance is key. Simple tasks like checking for leaks, cleaning drains, and servicing hot water systems can prevent costly emergencies. Richmond's climate, with its cold winters, often leads to frozen pipes, so insulating exposed plumbing is a smart investment. Additionally, knowing your home's plumbing layout helps plumbers diagnose issues faster, reducing labour time. Grade A Plumbing offers maintenance packages tailored to Richmond residents, ensuring your system remains in top condition year-round.",
+        "In Richmond, emergency plumbing services are available 24/7, but after-hours call-outs typically incur higher fees, sometimes double the standard rate. For example, a weekend emergency might cost $300 or more for the call-out alone. To mitigate this, consider signing up with a local plumbing service that offers priority support. Grade A Plumbing provides Richmond clients with a membership program that includes discounted emergency rates and regular check-ups. This not only saves money but also gives peace of mind knowing help is always available.",
+        "The cost of emergency plumbing in Richmond also depends on the materials used. Australian standards require high-quality, durable components, which may be pricier but last longer. For instance, replacing a burst pipe with copper might cost more upfront than PVC, but it's more reliable in Richmond's variable weather. Always ensure your plumber uses compliant materials to avoid future issues. Grade A Plumbing sources locally in Richmond, supporting the community while ensuring quick access to parts.",
+        "In conclusion, emergency plumbing costs in Richmond are influenced by time of day, complexity, and materials. By choosing a reputable local plumber like Grade A Plumbing, you ensure transparent pricing and quality work. We recommend getting multiple quotes and checking reviews specific to Richmond to find the best value. Remember, investing in prevention can save you from the stress and expense of emergencies in your Richmond home."
+      ]
+    },
+    {
+      "title": "Signs You Need a Bathroom Remodel in Your Richmond Home",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators that it's time for a bathroom renovation in Richmond, from outdated fixtures to space issues.",
+      "body": [
+        "Bathrooms in Richmond homes often reflect the suburb's mix of historic and modern architecture, and knowing when to remodel can enhance both functionality and value. Key signs include outdated fixtures like leaking taps or cracked tiles, which not only look unappealing but can lead to water damage. In Richmond, where many properties are older, plumbing systems may be inefficient, causing high water bills. A remodel can upgrade to water-efficient models, saving you money and aligning with Australian sustainability standards.",
+        "Space constraints are another common reason for bathroom remodels in Richmond. Compact bathrooms in heritage homes might feel cramped, especially for growing families. Remodeling can reconfigure layouts to maximise space, adding storage or improving flow. For example, installing a corner shower or wall-hung vanity can free up floor area. Richmond's inner-city location means property values are high, so a modern, spacious bathroom can significantly boost your home's market appeal when selling.",
+        "Safety issues in Richmond bathrooms, such as slippery tiles or poor lighting, necessitate a remodel. Wet areas should comply with Australian building codes, including non-slip flooring and adequate ventilation to prevent mould. In Richmond's humid summers, a well-ventilated bathroom reduces health risks. Upgrading to features like grab bars or walk-in showers ensures accessibility for all ages, future-proofing your home. Grade A Plumbing specialises in safety-focused remodels for Richmond residents.",
+        "Aesthetic wear and tear is obvious, but functional problems like slow drainage or inconsistent hot water signal deeper issues. In Richmond, hard water can cause mineral buildup in pipes, leading to clogs and reduced efficiency. A remodel allows for pipe inspection and replacement, ensuring optimal performance. Additionally, if your bathroom hasn't been updated in over a decade, modern designs with energy-efficient lighting and fixtures can transform the space, making daily routines more enjoyable.",
+        "Cost savings are a compelling factor for Richmond homeowners. Old toilets and showerheads waste water, inflating bills. Remodeling with WaterMark-certified products reduces usage by up to 50%, which is significant in Melbourne's water-conscious environment. Furthermore, a renovated bathroom increases property value—Richmond real estate data shows that updated bathrooms can add 5-10% to a home's worth. It's an investment that pays off in both comfort and resale potential.",
+        "In summary, signs like outdated fixtures, space issues, safety concerns, and high bills indicate it's time for a bathroom remodel in Richmond. Consulting with local experts like Grade A Plumbing ensures the project meets Richmond's building regulations and your personal needs. We recommend starting with a free assessment to identify priorities and budget accordingly."
+      ]
+    },
+    {
+      "title": "Preventing Drain Blockages in Richmond's Older Homes",
+      "date": "January 2026",
+      "excerpt": "Expert advice on maintaining drains in Richmond's heritage properties to avoid costly blockages.",
+      "body": [
+        "Richmond's charming older homes often come with plumbing challenges, particularly drain blockages due to aging pipes. Common causes include tree roots infiltrating clay pipes, a frequent issue in Richmond's leafy streets. To prevent this, regular inspections every 12-18 months are recommended. Using a CCTV camera, plumbers can identify root intrusion early, saving you from major repairs. Grade A Plumbing offers affordable drain surveys tailored to Richmond's heritage properties.",
+        "Another prevention tip is mindful waste disposal. Richmond residents should avoid flushing fats, oils, and greases down the sink, as these solidify in pipes and cause blockages. Installing grease traps in kitchen drains can help, especially in older Richmond homes with narrow plumbing. Additionally, using drain strainers catches hair and debris, common culprits in bathroom drains. Simple habits like these reduce the frequency of professional drain cleaning.",
+        "Seasonal maintenance is crucial in Richmond, where autumn leaves can clog outdoor drains. Clearing gutters and downspouts regularly prevents overflow and water damage to foundations. For indoor drains, occasional flushing with hot water and baking soda dissolves buildup. However, avoid chemical drain cleaners, as they can corrode old pipes prevalent in Richmond homes. Instead, opt for mechanical methods like plungers or drain snakes for minor clogs.",
+        "Hard water in Melbourne, including Richmond, contributes to limescale buildup in drains, narrowing pipes over time. Installing a water softener or using vinegar regularly can mitigate this. In Richmond's older bathrooms, shower drains are particularly vulnerable. Regular cleaning with a baking soda and vinegar mixture, followed by hot water, maintains flow. For persistent issues, professional descaling by a Richmond plumber ensures thorough removal without damaging pipes.",
+        "Landscaping choices impact drain health in Richmond. Planting trees away from sewer lines prevents root damage, a common cause of blockages in the suburb. If you have mature trees, consider root barriers or choosing root-resistant species. Grade A Plumbing can advise on Richmond-specific gardening tips to protect your plumbing. Additionally, ensuring proper drainage around your home's foundation prevents water pooling, which can exacerbate pipe issues.",
+        "In conclusion, preventing drain blockages in Richmond's older homes involves regular maintenance, mindful habits, and professional inspections. By partnering with a local plumber like Grade A Plumbing, you can customise a prevention plan that addresses Richmond's unique challenges, from hard water to tree roots. This proactive approach saves money and preserves the character of your heritage home."
+      ]
+    },
+    {
+      "title": "Gas Line Safety Checks for Richmond Businesses",
+      "date": "December 2025",
+      "excerpt": "Why regular gas line inspections are crucial for commercial properties in Richmond to ensure safety and compliance.",
+      "body": [
+        "For businesses in Richmond, gas line safety is non-negotiable, with strict Australian regulations requiring regular checks. Commercial properties, from restaurants to offices, rely on gas for heating, cooking, and hot water. Faulty lines can lead to leaks, posing fire and health risks. In Richmond, where buildings range from historic warehouses to modern complexes, inspections must account for varied plumbing systems. Annual checks by licensed professionals like Grade A Plumbing ensure compliance and protect employees and customers.",
+        "Key indicators of gas line issues include hissing smells, dead vegetation near pipes, or sudden increases in gas bills. Richmond businesses should train staff to recognise these signs and have an emergency response plan. During a safety check, plumbers test for leaks using advanced detectors, inspect connections, and verify venting systems. In Richmond's bustling commercial areas, quick detection prevents disruptions and maintains reputation. Grade A Plumbing offers tailored inspection schedules for Richmond businesses.",
+        "Australian standards, such as AS/NZS 5601, mandate gas work to be performed by certified fitters. In Richmond, commercial properties must adhere to these to avoid fines and ensure insurance coverage. Regular inspections also extend the lifespan of gas appliances, improving efficiency. For example, a well-maintained gas hot water system in a Richmond café reduces energy costs and downtime. Investing in routine checks is cost-effective compared to emergency repairs.",
+        "Richmond's climate affects gas line performance. Cold winters can cause pipe contraction, increasing leak risks. Conversely, summer heat may lead to expansion, stressing connections. A seasonal inspection schedule addresses these variations, with pre-winter checks being particularly important. Businesses should also consider backflow prevention devices to protect Richmond's water supply from gas contamination. Grade A Plumbing installs and maintains these systems for local commercial clients.",
+        "Documentation is critical for Richmond businesses during gas safety checks. Plumbers provide certificates of compliance, which are required for council inspections and insurance claims. Maintaining records of regular checks demonstrates due diligence, especially in high-risk industries like hospitality. In Richmond, where competition is fierce, a safety record enhances customer trust. We recommend keeping digital copies for easy access.",
+        "In summary, regular gas line safety checks are essential for Richmond businesses to comply with Australian standards, ensure safety, and maintain operational efficiency. Partnering with a local expert like Grade A Plumbing, who understands Richmond's commercial landscape, provides peace of mind and reliable service. Schedule your annual inspection today to safeguard your business."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Grade A Plumbing Services | Plumber in Richmond VIC",
+      "description": "Expert plumber in Richmond, VIC offering 50+ years experience. Plumbing repairs, drain cleaning, bathroom remodeling. Free quotes."
+    },
+    "about": {
+      "title": "About Grade A Plumbing | Richmond's Trusted Plumbers",
+      "description": "Learn about Grade A Plumbing Services in Richmond, with over 50 years of combined experience in residential and commercial plumbing."
+    },
+    "services": {
+      "title": "Plumbing Services in Richmond | Repairs, Drains & Gas",
+      "description": "Comprehensive plumbing services in Richmond, VIC. From leak detection to bathroom remodeling, licensed plumbers ready to help."
+    },
+    "pricing": {
+      "title": "Plumbing Costs in Richmond | Transparent Quotes from Grade A",
+      "description": "Fair and transparent plumbing pricing in Richmond. No hidden fees, upfront quotes for all services. Call for a free estimate."
+    },
+    "contact": {
+      "title": "Contact Grade A Plumbing | Free Richmond Plumber Quotes",
+      "description": "Get in touch with Grade A Plumbing in Richmond for fast, reliable plumbing services. Free quotes and 24/7 emergency availability."
+    },
+    "blog": {
+      "title": "Richmond Plumbing Blog | Tips, Costs & Advice",
+      "description": "Stay informed with the latest plumbing advice for Richmond homeowners and businesses. Expert tips on maintenance and repairs."
+    }
+  }
+}
