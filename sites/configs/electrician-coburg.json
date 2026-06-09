@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electrician Coburg",
+  "suburb": "Coburg",
+  "phone": "0422 660 061",
+  "email": "info@electricalcoburg.com.au",
+  "address": "48 Shackell Street, Coburg VIC 3058",
+  "tagline": "Coburg's Licensed A Grade Electricians",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#b82727",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coburg's Expert Electricians",
+      "sub": "10 years of trusted service"
+    },
+    {
+      "title": "Modern & Period Building Specialists",
+      "sub": "Skilled in Coburg's unique electrical needs"
+    },
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "Always available for Coburg residents"
+    }
+  ],
+  "ctaHeading": "Get a Quote from Coburg's Electricians",
+  "aboutHeading": "10 Years Electrician Experience in Coburg",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "With over 10 years of dedicated service, Electrician Coburg is your trusted licensed A grade electrician in the Coburg area. Our team excels in both modern and period buildings, providing high-quality workmanship tailored to the local community. We live and work in Coburg, understanding the specific electrical needs of homes and businesses here. From installations to repairs, we ensure reliable and professional service 24 hours a day.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From residential wiring to commercial installations, our team offers a comprehensive range of electrical services. We specialise in upgrades, lighting, and emergency repairs, ensuring your property is safe and efficient. Serving Coburg and surrounding areas with professionalism and care.",
+  "services": [
+    {
+      "title": "Residential Wiring & Rewiring",
+      "desc": "Safe and efficient wiring for homes, including period properties in Coburg."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernising switchboards to meet current safety standards and handle increased loads."
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Expert lighting solutions for ambiance and functionality in any space."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 urgent electrical repairs to keep your home or business safe."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tailored electrical solutions for businesses, from offices to retail in Coburg."
+    },
+    {
+      "title": "Energy Efficiency Audits",
+      "desc": "Reducing power bills with efficient upgrades and smart electrical advice."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Coburg?",
+  "bannerSubheading": "We're here to help with all your electrical needs 24/7.",
+  "testimonialsHeading": "What Coburg Locals Say",
+  "testimonialsSubheading": "Trusted by the community for quality work",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Stay informed with advice from Coburg's electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call us or visit our website — we respond promptly",
+  "reviews": [
+    {
+      "text": "Electrician Coburg handled our switchboard upgrade efficiently and professionally. The team was punctual and explained everything clearly. Highly recommend their services for any Coburg homeowner.",
+      "name": "Mike Thompson",
+      "role": "Coburg Homeowner"
+    },
+    {
+      "text": "We needed emergency lighting repairs at our café, and they arrived within the hour. The work was top-notch, and they ensured minimal disruption to our business. A reliable choice for local businesses.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our rental property in Coburg, they provided a thorough electrical safety check and rewiring. Their knowledge of period buildings was impressive, and the pricing was fair.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
