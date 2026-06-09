@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Kovele Plumbing",
+  "suburb": "Bundoora",
+  "phone": "0412 345 678",
+  "email": "info@koveleplumbing.com.au",
+  "address": "8 Greenstone Pl, Bundoora VIC 3083",
+  "tagline": "Bundoora's Reliable Plumbers",
+  "primaryColor": "#3d9be9",
+  "primaryColorRgb": "61, 155, 233",
+  "primaryColorHover": "#2c8ae8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bundoora's Go-To Plumbers",
+      "sub": "24/7 Emergency Plumbing Services"
+    },
+    {
+      "title": "Expert Drain Clearing & Repairs",
+      "sub": "Serving Bundoora & Surrounds"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free Quotes for Bundoora Residents"
+    }
+  ],
+  "ctaHeading": "Bundoora's Plumbers Are Ready to Help",
+  "aboutHeading": "Bundoora's Trusted Plumbing Experts",
+  "aboutSubheading": "Licensed & Available 24/7",
+  "aboutText": "Kovele Plumbing has been serving the Bundoora community for over 15 years, providing reliable and professional plumbing services. Our team of licensed plumbers is dedicated to delivering high-quality workmanship for all residential and commercial needs. Based in Bundoora, we understand the local area and are committed to quick response times for emergencies.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive Solutions",
+  "servicesText": "At Kovele Plumbing, we offer a wide range of plumbing services to meet your needs. From emergency repairs to routine maintenance, our skilled team ensures efficient and lasting solutions for homes and businesses in Bundoora.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "We provide 24/7 emergency plumbing services in Bundoora to address urgent issues like burst pipes and severe leaks."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Our experts clear blocked drains quickly using advanced techniques to restore proper flow in Bundoora homes."
+    },
+    {
+      "title": "Tap and Toilet Repairs",
+      "desc": "We fix leaky taps and faulty toilets efficiently, saving water and preventing damage in Bundoora properties."
+    },
+    {
+      "title": "Hot Water System Installation",
+      "desc": "Kovele Plumbing installs and repairs hot water systems, ensuring reliable hot water supply for Bundoora residents."
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "We use trenchless pipe relining in Bundoora to repair damaged pipes without disruptive excavation work."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Our licensed gas fitters handle gas leak detection, appliance installation, and safety checks in Bundoora."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Bundoora?",
+  "bannerSubheading": "Fast, reliable service when you need it most.",
+  "testimonialsHeading": "What Bundoora Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from Kovele Plumbing",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly",
+  "reviews": [
+    {
+      "text": "Kovele Plumbing fixed our hot water system in Bundoora quickly and efficiently. Their service was professional and the price was fair. Highly recommend to other Bundoora residents.",
+      "name": "John Smith",
+      "role": "Bundoora Homeowner"
+    },
+    {
+      "text": "We had a major drain blockage at our cafe, and Kovele Plumbing cleared it without hassle. They are reliable and always available when needed for any plumbing issue.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Kovele Plumbing for all maintenance issues in Bundoora. They are responsive and do quality work every time on multiple properties.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
