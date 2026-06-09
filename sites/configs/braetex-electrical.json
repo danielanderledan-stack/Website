@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Braetex Electrical",
+  "suburb": "Brunswick East",
+  "phone": "1300184683",
+  "email": "info@braetex.com.au",
+  "address": "14 Victoria St, Brunswick East VIC 3057",
+  "tagline": "Brunswick East's Electrical Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6b00c2",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick East's Trusted Electricians",
+      "sub": "Over 40 years combined experience"
+    },
+    {
+      "title": "EV Installations & Solar Solutions",
+      "sub": "Specialised services for homes and businesses"
+    },
+    {
+      "title": "Quality Electrical Work Guaranteed",
+      "sub": "Licensed professionals in Brunswick East"
+    }
+  ],
+  "ctaHeading": "Brunswick East Electricians Ready to Help",
+  "aboutHeading": "40+ Years Electrical Excellence in Brunswick East",
+  "aboutSubheading": "Licensed, reliable, and local",
+  "aboutText": "Braetex Electrical has been serving Brunswick East and surrounding areas with over 40 years of combined experience in the electrical industry. Our team of licensed electricians specialise in commercial projects, EV installations, and solar systems, ensuring all work meets Australian safety standards. We pride ourselves on being upfront about timelines, processes, and costs to deliver projects efficiently and with exceptional customer service.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "We offer a wide range of electrical services tailored to both residential and commercial clients in Brunswick East. Our expertise includes EV installations, solar and battery systems, smart metering, and ongoing maintenance, all delivered with a commitment to safety and excellence.",
+  "services": [
+    {
+      "title": "EV Installations",
+      "desc": "Safe and compliant installation of electric vehicle chargers for homes and businesses, with tailored solutions in Brunswick East."
+    },
+    {
+      "title": "Electrical Inspections",
+      "desc": "Thorough inspections to ensure your electrical systems meet all Australian standards and are safe for use."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Regular maintenance services to keep your electrical systems running efficiently and prevent issues."
+    },
+    {
+      "title": "Solar and Battery Installations",
+      "desc": "Expert installation of solar panels and battery storage for energy savings and sustainability."
+    },
+    {
+      "title": "Smart Meter Electrical Metering",
+      "desc": "Advanced smart meter installations for accurate energy monitoring and control in residential and commercial settings."
+    },
+    {
+      "title": "Residential and Commercial Work",
+      "desc": "Comprehensive electrical services for homes, offices, and large-scale projects, from complex builds to infrastructure."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Brunswick East?",
+  "bannerSubheading": "Get a free quote today for reliable service.",
+  "testimonialsHeading": "What Brunswick East Clients Say",
+  "testimonialsSubheading": "Trusted by locals for quality work",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from our team",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Braetex Electrical did an excellent job with our electrical maintenance in Brunswick East. The work was neat, professional, and at a very competitive price. Their customer service was outstanding, and I highly recommend them for any electrical needs.",
+      "name": "Evelyn Merino",
+      "role": "Brunswick East Homeowner"
+    },
+    {
+      "text": "The solar installation by Braetex Electrical was outstanding from start to finish. Adrian and his team were knowledgeable, professional, and delivered a tailored solution that perfectly suits my home. The system is working great, and I'm already seeing benefits.",
+      "name": "Nathan Jarvis",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I recently had an EV charger installed by Braetex Electrical, and the service was exceptional. Adrian and his team were amazing, showing great professionalism and care. I highly recommend them for any EV installation requirements in the area.",
+      "name": "Corrine Chalmers",
+      "role": "Brunswick East Resident"
+    }
+  ]
+}
