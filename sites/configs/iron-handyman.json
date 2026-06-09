@@ -1,0 +1,300 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Iron Handyman",
+  "suburb": "Burwood",
+  "phone": "0484 111 112",
+  "email": "info@ironhandyman.au",
+  "address": "163 Highbury Road, Burwood VIC 3125",
+  "tagline": "Burwood's Trusted Handyman",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55d00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Burwood's Trusted Handyman",
+      "sub": "Iron Handyman – Quality Services"
+    },
+    {
+      "title": "From Electrical to Plumbing, We Do It All",
+      "sub": "Serving Burwood & Surrounds"
+    },
+    {
+      "title": "No Job Too Small – Free Quotes",
+      "sub": "Call 0484 111 112 Today"
+    }
+  ],
+  "ctaHeading": "Need a Handyman in Burwood? Contact Us for Free Quotes.",
+  "aboutHeading": "Iron Handyman – Your Burwood Handyman Experts",
+  "aboutSubheading": "Experienced, Licensed, and Local",
+  "aboutText": "At Iron Handyman, we bring over a decade of hands-on experience to every job in Burwood and beyond. From exterior paint touch-ups and carpet installation to electrical, plumbing, and tile work, our team is equipped to handle all your handyman needs with precision and care. We pride ourselves on reliability, quality craftsmanship, and customer satisfaction, making us the go-to choice for homeowners and property managers in Burwood.",
+  "servicesHeading": "Our Comprehensive Handyman Services",
+  "servicesSubheading": "Professional Solutions for Every Need",
+  "servicesText": "From minor repairs to major installations, Iron Handyman offers a wide range of services in Burwood, including maintenance, electrical, plumbing, and more.",
+  "services": [
+    {
+      "title": "Exterior Maintenance & Paint",
+      "desc": "Expert exterior maintenance including paint touch-ups and surface repairs for homes in Burwood.",
+      "longDesc": "Maintaining your property's exterior in Burwood's climate requires regular care. Our team handles everything from paint touch-ups to gutter cleaning, ensuring your home stays protected and looks great year-round.",
+      "points": [
+        "Weather-resistant finishes",
+        "Boost curb appeal",
+        "Preventative maintenance"
+      ]
+    },
+    {
+      "title": "Carpet Installation",
+      "desc": "Professional carpet installation services tailored to Burwood homes and offices.",
+      "longDesc": "Choose from a wide range of carpets for your Burwood property. We ensure proper fitting, seamless joins, and durable installation for comfort and style that lasts.",
+      "points": [
+        "Wide carpet selection",
+        "Expert fitting",
+        "Stain-resistant options"
+      ]
+    },
+    {
+      "title": "Electrical Services",
+      "desc": "Licensed electrical work including wiring, lighting, and safety checks in Burwood.",
+      "longDesc": "Our licensed electricians handle all electrical needs in Burwood, from new wiring and light installations to safety inspections, ensuring compliance with Australian standards.",
+      "points": [
+        "Licensed & insured",
+        "Safety compliant",
+        "Energy-efficient solutions"
+      ]
+    },
+    {
+      "title": "Plumbing Services",
+      "desc": "Reliable plumbing repairs and installations for Burwood properties.",
+      "longDesc": "From leaky taps to full plumbing installations, our team provides prompt and effective solutions in Burwood, using quality materials for lasting results.",
+      "points": [
+        "Fast response times",
+        "No hidden fees",
+        "Quality parts used"
+      ]
+    },
+    {
+      "title": "Tile Work & Repairs",
+      "desc": "Tile installation and repair services for kitchens, bathrooms, and more in Burwood.",
+      "longDesc": "Enhance your Burwood home with professional tile work. We handle floor and wall tiles, grout repairs, and waterproofing for a flawless finish.",
+      "points": [
+        "Precise tile cutting",
+        "Waterproof solutions",
+        "Modern designs"
+      ]
+    },
+    {
+      "title": "General Handyman Repairs",
+      "desc": "Comprehensive handyman services for all your repair and maintenance needs in Burwood.",
+      "longDesc": "No job is too small for Iron Handyman in Burwood. We tackle everything from furniture assembly to door fixes, providing efficient and affordable solutions.",
+      "points": [
+        "Versatile skills",
+        "Affordable rates",
+        "Same-day availability"
+      ]
+    }
+  ],
+  "bannerHeading": "Reliable Handyman Services in Burwood",
+  "bannerSubheading": "From repairs to installations, we've got you covered.",
+  "testimonialsHeading": "What Burwood Residents Say",
+  "testimonialsSubheading": "Trusted by Your Neighbours",
+  "blogHeading": "Handyman Tips & Guides for Burwood",
+  "blogSubheading": "Expert Advice from Local Professionals",
+  "contactHeading": "Get in Touch with Iron Handyman",
+  "contactSubheading": "Free Quotes for Burwood & Surrounds",
+  "reviews": [
+    {
+      "text": "Iron Handyman did an excellent job painting our exterior in Burwood. The team was professional, tidy, and the results exceeded our expectations. Highly recommended for any handyman work.",
+      "name": "Steve Mitchell",
+      "role": "Burwood Homeowner"
+    },
+    {
+      "text": "We hired Iron Handyman for electrical repairs at our Burwood shop. They arrived on time, fixed the issues quickly, and the pricing was fair. Great service!",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Burwood, I rely on Iron Handyman for all maintenance tasks. Their tile work and plumbing fixes are always top-notch and reliable.",
+      "name": "David Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Burwood",
+    "Box Hill",
+    "Glen Waverley",
+    "Blackburn",
+    "Nunawading",
+    "Mount Waverley",
+    "Clayton"
+  ],
+  "about": {
+    "intro": "Iron Handyman has been a trusted name in Burwood for over 10 years, providing professional handyman services to homes and businesses.",
+    "story": [
+      "Founded in Burwood, Iron Handyman started with a commitment to quality craftsmanship and customer service. Over the years, we've expanded our services to cover everything from electrical work to plumbing, always prioritizing reliability and excellence.",
+      "Our team of experienced professionals is dedicated to meeting the unique needs of Burwood residents. Whether it's a simple repair or a complex installation, we approach every job with attention to detail and a focus on long-term results."
+    ],
+    "mission": "To deliver exceptional handyman services in Burwood with integrity, skill, and a personal touch.",
+    "whyUs": [
+      {
+        "title": "Licensed Professionals",
+        "text": "All our tradespeople are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "Prompt Service",
+        "text": "We value your time and strive to complete jobs efficiently without cutting corners."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Get upfront quotes with no hidden costs, so you know exactly what to expect."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Iron Handyman, we offer competitive pricing for all handyman services in Burwood. No lock-in contracts – just honest, upfront quotes.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed quote provided",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Handyman Job",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Most common repairs",
+          "Materials included",
+          "Workmanship guarantee",
+          "Upfront pricing"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complex installations",
+          "Multi-trade projects",
+          "Detailed planning",
+          "Fixed-price agreement"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact Iron Handyman today for a free, no-obligation quote on any handyman service in Burwood."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Handyman Cost in Burwood?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of handyman services in Burwood, including factors that influence pricing and tips to get the best value.",
+      "body": [
+        "When it comes to hiring a handyman in Burwood, understanding the cost is crucial for budgeting. Handyman rates can vary based on the complexity of the job, materials required, and the professional's experience. In Burwood, typical hourly rates range from $60 to $100, with call-out fees often between $80 and $120. For example, simple tasks like fixing a leaky tap might cost $100-$150, while more involved projects such as carpet installation could be $300-$600. Always request a detailed quote to avoid surprises.",
+        "Several factors influence handyman costs in Burwood. The type of service is key – electrical or plumbing work may require licensed tradespeople, increasing the price. Material quality also plays a role; premium paints or durable tiles will cost more but offer better longevity. Additionally, the urgency of the job can affect pricing, with after-hours services often commanding a premium. By understanding these variables, Burwood homeowners can make informed decisions and plan their budgets effectively.",
+        "To get the best value for handyman services in Burwood, start by obtaining multiple quotes from local providers. Compare not just the price, but also the scope of work, materials included, and guarantees offered. Look for professionals like Iron Handyman who provide transparent, upfront pricing. It's also wise to check reviews and ask for references to ensure quality workmanship. Remember, the cheapest option isn't always the best – investing in a reliable handyman can save money in the long run by avoiding rework.",
+        "Specific services in Burwood have their own cost considerations. For exterior maintenance, such as paint touch-ups, costs depend on the area size and paint quality, typically $200-$400 for a standard job. Carpet installation ranges from $20 to $40 per square meter, plus labor. Electrical work like installing new lights might cost $150-$300, while plumbing repairs for leaks could be $100-$250. Tile work varies widely, from $50 per square meter for basic tiles to $100 or more for designer options. Always discuss details with your handyman.",
+        "In Burwood, the climate can impact handyman costs, especially for exterior work. Melbourne's variable weather means that paint jobs might require specific weather-resistant materials, adding to the cost. Similarly, moisture-related issues in plumbing or tiling need durable solutions. Hiring a local handyman familiar with Burwood's conditions ensures appropriate recommendations and cost-effective outcomes. Iron Handyman, with over a decade of experience in the area, understands these nuances and provides tailored solutions.",
+        "Ultimately, the cost of a handyman in Burwood is an investment in maintaining your property's value and comfort. By choosing a licensed, insured professional with a proven track record, you ensure quality work that stands the test of time. For Burwood residents, Iron Handyman offers competitive pricing, free quotes, and a satisfaction guarantee. Contact us today to discuss your project and get an accurate estimate tailored to your needs."
+      ]
+    },
+    {
+      "title": "Signs You Need a Handyman for Your Burwood Home",
+      "date": "February 2026",
+      "excerpt": "Learn the common signs that indicate your Burwood home needs professional handyman attention to prevent small issues from becoming big problems.",
+      "body": [
+        "Owning a home in Burwood comes with regular maintenance tasks. Over time, issues can arise that require professional attention. Knowing the signs that indicate you need a handyman can save you time and money by addressing problems early.",
+        "One common sign is visible wear and tear, such as peeling paint, loose tiles, or squeaky floors. In Burwood's climate, these issues can worsen quickly if not addressed. A handyman can perform timely repairs to prevent further damage and maintain your home's aesthetic appeal.",
+        "Another indicator is recurring problems like leaky faucets or drafty windows. These often suggest underlying issues that need expert diagnosis. In Burwood, where weather can be unpredictable, fixing them promptly is essential for energy efficiency and comfort.",
+        "If you're planning renovations or upgrades, a handyman can be invaluable. From installing new fixtures to updating flooring, their skills cover a broad range of tasks, making them a versatile choice for Burwood homeowners looking to enhance their property.",
+        "Safety concerns, such as faulty wiring or loose handrails, should never be ignored. Licensed handymans in Burwood can address these hazards, ensuring your home remains safe for family and visitors while complying with Australian building codes.",
+        "Finally, if your to-do list is growing and you lack the time or tools, it's time to call a professional. Iron Handyman in Burwood offers reliable services to keep your home in top condition, with free quotes and flexible scheduling to fit your busy life."
+      ]
+    },
+    {
+      "title": "Top 5 Handyman Services Every Burwood Property Needs",
+      "date": "January 2026",
+      "excerpt": "Explore the essential handyman services that Burwood homeowners and property managers should prioritize for maintenance and upgrades.",
+      "body": [
+        "Maintaining a property in Burwood requires regular attention to various aspects of home care. From seasonal upkeep to emergency repairs, certain handyman services are essential for preserving value and functionality.",
+        "Exterior maintenance, including paint touch-ups and gutter cleaning, is crucial in Burwood's variable climate. Protecting your home from weather damage prevents costly repairs and keeps it looking attractive.",
+        "Electrical and plumbing services are vital for safety and efficiency. Licensed handymans can handle everything from installing new lights to fixing leaks, ensuring your Burwood property meets all regulatory standards.",
+        "Carpet installation and tile work enhance comfort and style. Whether you're updating flooring in a Burwood home or office, professional fitting ensures durability and a polished finish.",
+        "General handyman repairs, such as fixing doors, assembling furniture, or patching walls, keep daily living smooth. These services are particularly valuable for Burwood residents with busy schedules.",
+        "Choosing a trusted provider like Iron Handyman in Burwood ensures all these services are handled with expertise. With comprehensive offerings, they become a one-stop solution for maintaining and improving your property."
+      ]
+    },
+    {
+      "title": "How to Prepare Your Burwood Home for Seasonal Changes",
+      "date": "December 2025",
+      "excerpt": "Get tips on preparing your Burwood home for Melbourne's seasonal weather with handyman maintenance checks and repairs.",
+      "body": [
+        "Burwood experiences Melbourne's typical seasonal shifts, from hot summers to cool, wet winters. Preparing your home for these changes can prevent damage and improve energy efficiency.",
+        "Start with an exterior inspection. Check for paint cracks, loose siding, or damaged gutters. In Burwood, autumn leaves and winter rains can cause blockages and water damage if not addressed.",
+        "Interior checks are equally important. Inspect windows and doors for drafts, and consider weatherstripping. In Burwood's cooler months, proper insulation can reduce heating costs significantly.",
+        "Plumbing maintenance is key before winter. Insulate pipes to prevent freezing, although Burwood rarely experiences extreme cold. Check for leaks in taps and toilets to avoid water waste.",
+        "Electrical systems should be reviewed for safety. Test smoke alarms, check wiring for wear, and consider energy-efficient lighting upgrades. Burwood homes can benefit from LED installations to lower bills.",
+        "Finally, schedule a professional handyman visit. Iron Handyman in Burwood offers seasonal maintenance packages that cover all these areas, ensuring your home is ready for any weather. Their local expertise makes them ideal for Burwood-specific needs."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Iron Handyman | Handyman in Burwood | Expert Services",
+      "description": "Iron Handyman offers professional handyman services in Burwood, including electrical, plumbing, paint, and more. Free quotes, licensed team. Call 0484 111 112."
+    },
+    "about": {
+      "title": "About Us | Burwood's Trusted Handyman Team | Iron Handyman",
+      "description": "Learn about Iron Handyman's experience, services, and commitment to quality handyman work in Burwood and surrounding areas."
+    },
+    "services": {
+      "title": "Handyman Services in Burwood | Electrical, Plumbing & More",
+      "description": "Comprehensive handyman services in Burwood: exterior maintenance, carpet installation, electrical, plumbing, tile work, and general repairs."
+    },
+    "pricing": {
+      "title": "Handyman Costs & Prices in Burwood | Iron Handyman",
+      "description": "Transparent pricing for handyman services in Burwood. Get upfront quotes for call-outs, standard jobs, and major projects."
+    },
+    "contact": {
+      "title": "Contact Iron Handyman | Free Handyman Quotes in Burwood",
+      "description": "Get in touch with Iron Handyman for free, no-obligation quotes on handyman services in Burwood. Call 0484 111 112."
+    },
+    "blog": {
+      "title": "Burwood Handyman Blog | Local Tips & Advice",
+      "description": "Read expert handyman advice, cost guides, and maintenance tips tailored for Burwood homeowners from Iron Handyman."
+    }
+  }
+}
