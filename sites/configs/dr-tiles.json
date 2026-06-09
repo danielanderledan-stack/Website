@@ -1,0 +1,299 @@
+{
+  "siteType": "tiler",
+  "businessName": "Dr Tiles",
+  "suburb": "Clayton",
+  "phone": "0497 067 290",
+  "email": "info@drtiles.com.au",
+  "address": "34 Beddoe Ave, Clayton VIC 3168",
+  "tagline": "Clayton's Tiling Specialists",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Clayton's Trusted Tiling Experts",
+      "sub": "10+ years serving Clayton & surrounds"
+    },
+    {
+      "title": "Bathroom & Kitchen Tiling Specialists",
+      "sub": "Professional installation & renovations"
+    },
+    {
+      "title": "Free Quotes Across Clayton",
+      "sub": "No job too big or small"
+    }
+  ],
+  "ctaHeading": "Clayton's tilers are ready — let's tile your project.",
+  "aboutHeading": "10 Years Tiling in Clayton",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Dr Tiles is Clayton's go-to tiling specialist with over a decade of experience in the local area. From bathroom makeovers to kitchen backsplashes, we handle all types of tile installations with precision and care. Our licensed team uses premium materials to ensure longevity and style, making us the preferred choice for homeowners and businesses in Clayton seeking reliable tiling solutions.",
+  "servicesHeading": "What We Tile & Repair",
+  "servicesSubheading": "Tiling done right",
+  "servicesText": "At Dr Tiles in Clayton, we offer comprehensive tiling services including installation, repair, and maintenance. Our expertise covers floor, wall, and waterproofing projects, ensuring every job meets Australian standards for quality and durability.",
+  "services": [
+    {
+      "title": "Bathroom Tiling",
+      "desc": "Complete bathroom tiling installation and renovations in Clayton.",
+      "longDesc": "We specialise in bathroom tiling for Clayton homes, using waterproof membranes and precision cuts to create stunning, leak-free finishes. Our services include shower recesses, floor tiling, and wall tiling to Australian Building Code standards.",
+      "points": [
+        "Waterproof membranes",
+        "Australian standards",
+        "Custom designs"
+      ]
+    },
+    {
+      "title": "Kitchen Tiling",
+      "desc": "Expert kitchen tiling for splashbacks and floors in Clayton.",
+      "longDesc": "Transform your Clayton kitchen with our professional tiling services, including splashbacks, floor tiles, and countertop edges. We use durable, heat-resistant tiles that are easy to clean and maintain.",
+      "points": [
+        "Heat-resistant tiles",
+        "Easy maintenance",
+        "Custom splashbacks"
+      ]
+    },
+    {
+      "title": "Floor Tiling",
+      "desc": "Durable floor tiling solutions for residential and commercial spaces in Clayton.",
+      "longDesc": "Our Clayton floor tiling services cover everything from ceramic and porcelain to natural stone tiles. We ensure perfect levelling and grouting for a smooth, long-lasting finish suitable for high-traffic areas.",
+      "points": [
+        "Perfect levelling",
+        "Multiple tile options",
+        "High-traffic durability"
+      ]
+    },
+    {
+      "title": "Waterproofing",
+      "desc": "Professional waterproofing for wet areas in Clayton properties.",
+      "longDesc": "We provide certified waterproofing in Clayton for bathrooms, laundries, and balconies, complying with Australian Standard AS 3740. This prevents water damage and extends the life of your tiling.",
+      "points": [
+        "AS 3740 compliant",
+        "Prevents water damage",
+        "Certified application"
+      ]
+    },
+    {
+      "title": "Grouting & Caulking",
+      "desc": "Re-grouting and caulking services to refresh and seal tiled areas in Clayton.",
+      "longDesc": "Over time, grout and caulk can deteriorate. Our Clayton team offers re-grouting and caulking to improve hygiene, appearance, and water resistance of your tiles, using mould-resistant products.",
+      "points": [
+        "Mould-resistant products",
+        "Improves hygiene",
+        "Enhances appearance"
+      ]
+    },
+    {
+      "title": "Tile Repair",
+      "desc": "Quick tile repair services for cracked or loose tiles in Clayton.",
+      "longDesc": "We handle tile repair in Clayton, fixing cracked, chipped, or loose tiles efficiently. Our experts match existing tiles and ensure seamless repairs that maintain the integrity of your tiling.",
+      "points": [
+        "Efficient repairs",
+        "Tile matching",
+        "Seamless finish"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Tiler in Clayton?",
+  "bannerSubheading": "From bathroom renovations to floor tiling, we've got Clayton covered.",
+  "testimonialsHeading": "What Clayton Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Tiling Guides & Advice",
+  "blogSubheading": "Deep-dives from the Clayton team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Dr Tiles did an excellent job tiling my bathroom in Clayton. The work was neat, professional, and completed on time. I highly recommend their services for any tiling project.",
+      "name": "William S.",
+      "role": "Clayton Homeowner"
+    },
+    {
+      "text": "He was helpful and neat! Great work on our kitchen splashback in Clayton. The tiles look fantastic and were installed with great attention to detail.",
+      "name": "Sheva D.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "If you're looking for a reliable tiler in Clayton, Dr Tiles is the one. Clean work, sharp finishes, and a no-BS attitude. Definitely recommend for quality tiling.",
+      "name": "Ritesh G.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Clayton",
+    "Oakleigh",
+    "Glen Waverley",
+    "Mulgrave",
+    "Springvale",
+    "Notting Hill"
+  ],
+  "about": {
+    "intro": "Dr Tiles is a trusted tiling contractor based in Clayton, VIC, with over 10 years of experience serving the local community.",
+    "story": [
+      "Founded in Clayton, Dr Tiles started as a small tiling business and has grown to become a leading name in bathroom renovations and tile installations across Melbourne's southeast. Our team takes pride in delivering precision work that stands the test of time, using only high-quality materials sourced from Australian suppliers.",
+      "We believe in transparent communication and fair pricing, ensuring every Clayton customer understands the scope and cost of their project upfront. From initial consultation to final cleanup, we handle every step with professionalism and care, building lasting relationships with homeowners and businesses alike."
+    ],
+    "mission": "To provide Clayton with exceptional tiling services that combine craftsmanship, durability, and value.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our tiling work is performed by licensed professionals adhering to Australian standards."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your time and complete every project within the agreed timeframe."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden costs – we provide fixed quotes before starting any work in Clayton."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our tiling with a workmanship guarantee for your peace of mind."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "Our tiling services in Clayton are priced competitively with no lock-in contracts. Get a free, no-obligation quote tailored to your specific project needs.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Tiling Job",
+        "price": "from $800",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Up to 10 sqm tiling",
+          "Premium materials",
+          "Professional installation",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Renovation",
+        "price": "from $3,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete bathroom makeover",
+          "Design consultation",
+          "All materials included",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the exact cost before we begin."
+  },
+  "contact": {
+    "intro": "Ready to start your tiling project in Clayton? Contact Dr Tiles today for a free quote and let's bring your vision to life."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Bathroom Tiling Cost in Clayton?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting bathroom tiling costs in Clayton, including materials, labour, and project size for accurate budgeting.",
+      "body": [
+        "Bathroom tiling costs in Clayton can vary based on several factors, but understanding these helps homeowners budget effectively. The primary drivers include the size of the area, type of tiles chosen, and complexity of the layout. For instance, large-format tiles may reduce labour time but cost more per square metre, while intricate mosaic designs increase both material and installation expenses. On average, Clayton residents can expect to pay between $40 and $80 per square metre for standard ceramic tiles, with porcelain or natural stone pushing prices higher. Labour costs typically range from $50 to $70 per hour in Melbourne, so a standard bathroom renovation might total $2,000 to $5,000 depending on scope.",
+        "Location within Clayton also plays a role, as accessibility and site conditions can affect timelines and costs. Older homes may require additional prep work, such as removing existing tiles or repairing substrates, which adds to the overall expense. It's crucial to get a detailed quote from a licensed tiler like Dr Tiles, who can assess your specific needs and provide a fixed price. We always recommend investing in quality waterproofing and materials to avoid future repairs, which can be more costly in the long run. For Clayton's climate, using moisture-resistant adhesives and grouts is essential to prevent mould and deterioration.",
+        "Australian standards, such as AS 3958.1 for ceramic tile installation, must be followed to ensure durability and safety. In Clayton, where humidity can fluctuate, proper waterproofing under tiles in wet areas is non-negotiable. This adds to the cost but protects your property from water damage. When budgeting, consider additional features like heated floors or niche installations, which can enhance functionality but increase costs. Always ask for itemised quotes to see where your money is going. Dr Tiles provides transparent pricing in Clayton, so there are no surprises.",
+        "To save on costs without compromising quality, consider mixing high-end tiles with budget-friendly options. For example, use statement tiles on feature walls and simpler tiles elsewhere. Timing your project during off-peak seasons can also yield discounts, as tilers may have more availability. In Clayton, spring and autumn are ideal times for tiling projects, avoiding the extreme heat of summer or cold of winter which can affect adhesives. We always advise getting multiple quotes, but ensure they are comparable in scope. A cheap quote might cut corners, leading to issues later.",
+        "Real examples from Clayton homes show that a typical ensuite renovation costs around $3,000, including materials and labour. For larger bathrooms or custom designs, costs can exceed $6,000. It's important to factor in ongoing maintenance costs, such as re-grouting every few years, which is minimal compared to initial installation. Dr Tiles offers maintenance packages for Clayton customers to keep tiles in top condition. Ultimately, investing in professional tiling adds value to your property and ensures a beautiful, long-lasting finish tailored to Clayton homes.",
+        "In conclusion, bathroom tiling costs in Clayton are influenced by materials, labour, and project complexity. By choosing a reputable tiler and planning carefully, you can achieve stunning results within your budget. Contact Dr Tiles for a free consultation and accurate quote specific to your Clayton project."
+      ]
+    },
+    {
+      "title": "Choosing the Right Tiles for Clayton's Weather Conditions",
+      "date": "February 2026",
+      "excerpt": "Learn which tiles withstand Clayton's temperature fluctuations and humidity, ensuring lasting beauty and durability in your home.",
+      "body": [
+        "Clayton's temperate climate, with hot summers and cool winters, demands tiles that can handle temperature shifts and occasional humidity. For outdoor or semi-outdoor areas like balconies, frost-proof and slip-resistant tiles are essential to prevent cracking and ensure safety. Porcelain tiles are a popular choice in Clayton due to their low water absorption rate, making them ideal for wet areas like bathrooms and laundries. They resist mould growth and are easy to maintain, which is crucial in Clayton's variable weather. When selecting tiles, consider their coefficient of friction to avoid slippery surfaces when wet, especially for floor installations.",
+        "In Clayton, indoor tiles must also cope with underfloor heating systems, which are common in modern homes. Tiles with high thermal conductivity, such as ceramic or natural stone, efficiently transfer heat, improving energy efficiency. However, natural stone may require sealing to protect against moisture, which is a consideration in Clayton's occasionally damp conditions. For kitchen splashbacks, heat-resistant glass tiles offer both aesthetic appeal and practicality, withstanding cooking splashes and temperature changes. Always consult with a tiler like Dr Tiles to ensure tile suitability for Clayton's specific climate challenges.",
+        "Local building codes in Clayton may influence tile choices, particularly for waterproofing and slip resistance in commercial spaces. Australian Standard AS 4586 outlines slip resistance classifications, and for areas prone to wetness, tiles should meet at least P3 rating. In Clayton's humid months, proper ventilation combined with moisture-resistant tiles prevents condensation and damage. It's also wise to choose grout and adhesives designed for local conditions; epoxy grout, for example, is more resistant to staining and moisture, ideal for Clayton kitchens and bathrooms.",
+        "Budget is another factor, as Clayton homeowners seek durable tiles without overspending. Ceramic tiles offer affordability and variety, suitable for low-traffic areas, while porcelain provides longevity for high-use zones. For Clayton's heritage homes, reclaimed or vintage-style tiles can add character but may require additional maintenance. Always factor in long-term costs; investing in higher-quality tiles now can save on replacements later. Dr Tiles recommends viewing tile samples in Clayton's natural light to ensure colours and textures suit your home's ambiance.",
+        "Maintenance tips for Clayton tile owners include regular cleaning with pH-neutral products to avoid damaging finishes, and periodic sealing for natural stone. In outdoor areas, sweeping and occasional pressure washing can prevent dirt buildup, which is common in Clayton's leafy suburbs. For wet areas, ensure grout lines are sealed to prevent water ingress, a common issue in Clayton's older properties. By choosing the right tiles and maintaining them properly, Clayton homeowners can enjoy beautiful, functional spaces for years.",
+        "Ultimately, selecting tiles for Clayton's weather involves balancing durability, aesthetics, and cost. Consult with experts like Dr Tiles to navigate options and ensure compliance with local standards. Whether renovating a bathroom or tiling a patio, the right choice enhances your Clayton property's value and resilience."
+      ]
+    },
+    {
+      "title": "Tile Maintenance Tips for Clayton Homeowners",
+      "date": "January 2026",
+      "excerpt": "Keep your tiles in top condition with our expert maintenance advice tailored for Clayton properties.",
+      "body": [
+        "Proper tile maintenance is key to preserving the beauty and longevity of your Clayton home's surfaces. Start with regular cleaning: sweep or vacuum floors to remove grit that can scratch tiles, and mop with a mild detergent solution. Avoid harsh chemicals like bleach or acidic cleaners, as they can degrade grout and finishes. In Clayton, where dust and pollen are common, especially during spring, frequent cleaning prevents buildup. For wall tiles in bathrooms or kitchens, wipe down after use to prevent soap scum, which can stain grout over time.",
+        "Grout maintenance is particularly important in Clayton's humid climate, as moisture can lead to mould and mildew. Inspect grout lines annually for cracks or discolouration, and reapply sealant as needed. In Clayton homes, using a grout pen can refresh lines without full re-grouting, a cost-effective solution. For floor tiles, place doormats at entrances to reduce dirt tracked in, and use furniture pads to prevent scratches. In high-traffic Clayton areas like hallways, consider area rugs to protect tiles while adding style.",
+        "Special care is needed for natural stone tiles, which are popular in Clayton for their aesthetic appeal. Stone requires periodic sealing, typically every 1-2 years, to prevent staining from spills. Test for sealant effectiveness by sprinkling water on the surface; if it absorbs, it's time to reseal. In Clayton's kitchens, clean spills immediately, especially acidic substances like vinegar or lemon juice, which can etch stone. For outdoor tiles on Clayton patios, ensure proper drainage to avoid water pooling, which can cause frost damage in winter.",
+        "Addressing repairs promptly prevents minor issues from escalating. In Clayton, temperature fluctuations can cause tiles to crack or loosen; replace damaged tiles promptly to avoid safety hazards. Keep spare tiles from your original installation for matching repairs. For loose tiles, remove, clean the substrate, and re-adhere with appropriate adhesive, ensuring it's compatible with Clayton's climate conditions. Professional services like Dr Tiles can handle complex repairs, ensuring compliance with Australian standards.",
+        "Seasonal maintenance in Clayton involves preparing tiles for weather changes. In autumn, clear leaves from outdoor tile areas to prevent staining and moisture retention. During winter, use salt sparingly on outdoor tiles to avoid damage, and in summer, provide shade where possible to reduce heat expansion. Indoor tiles benefit from consistent humidity levels; use dehumidifiers in Clayton's damp months to protect grout. Regular maintenance not only keeps tiles looking new but also enhances your home's value in Clayton's competitive property market.",
+        "By following these tips, Clayton homeowners can maintain their tiles efficiently. For professional advice or services, contact Dr Tiles, your local tiling expert, to ensure your tiles remain in pristine condition year-round."
+      ]
+    },
+    {
+      "title": "Signs You Need Grout Repair in Clayton Kitchens",
+      "date": "December 2025",
+      "excerpt": "Recognise when your kitchen grout needs repair to prevent damage and maintain hygiene in Clayton homes.",
+      "body": [
+        "Grout in Clayton kitchens endures daily wear from cooking, spills, and cleaning, making it prone to damage over time. One of the first signs you need repair is discolouration: if grout lines turn yellow or brown despite cleaning, it may indicate staining or mould growth. In Clayton's humid climate, this can happen quickly, especially around sinks and splashbacks. Check for efflorescence, a white powdery residue caused by moisture migration, which signals inadequate sealing or water issues. Addressing these early prevents further deterioration and maintains hygiene in your Clayton kitchen.",
+        "Cracked or crumbling grout is another red flag, common in Clayton homes where temperature fluctuations cause expansion and contraction. Small cracks can allow water to seep behind tiles, leading to substrate damage or mould. Run your finger along grout lines; if pieces come loose, it's time for repair. Loose tiles often accompany grout failure, so inspect for any movement. In Clayton, where kitchens are high-traffic areas, prompt repair avoids costly renovations. Dr Tiles recommends annual inspections to catch these issues early.",
+        "Water damage symptoms, such as musty smells or soft spots near tiled areas, indicate grout failure in Clayton kitchens. This is critical in wet zones like around dishwashers or fridges. If you notice peeling paint or warped cabinetry adjacent to tiles, water ingress through grout gaps may be the cause. In Clayton's older homes, where plumbing may be outdated, this can exacerbate problems. Professional assessment by a tiler can identify hidden damage and prevent structural issues.",
+        "Functional problems, like tiles sounding hollow when tapped, suggest grout adhesion issues. This is common in Clayton kitchens with underfloor heating, where thermal movement weakens bonds. Grout that doesn't match its original colour after cleaning may be worn, reducing aesthetic appeal. In Clayton, where home values are high, maintaining tile appearance is important. Consider re-grouting if more than 20% of lines are affected, as partial repairs can look uneven.",
+        "Preventive maintenance in Clayton involves using quality grout and sealants designed for kitchen use. Epoxy grout is recommended for its durability and stain resistance, suitable for Clayton's cooking environments. Seal grout annually to protect against spills and moisture. In Clayton, where families gather in kitchens, ensuring grout integrity promotes a healthy home. Regular cleaning with gentle methods extends grout life, avoiding harsh abrasives.",
+        "If you spot these signs in your Clayton kitchen, consult Dr Tiles for efficient grout repair services. We use Australian-standard materials and techniques to restore your tiles, ensuring a clean, functional kitchen tailored to Clayton living."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Dr Tiles | Tiler in Clayton | Bathroom & Floor Tiling",
+      "description": "Dr Tiles offers expert tiling services in Clayton, VIC. Specialising in bathroom renovations, floor tiling, and waterproofing. Free quotes!"
+    },
+    "about": {
+      "title": "About Dr Tiles | Clayton's Trusted Tiling Contractor",
+      "description": "Learn about Dr Tiles, a local tiling business in Clayton with 10+ years of experience. Licensed, insured, and committed to quality."
+    },
+    "services": {
+      "title": "Tiling Services in Clayton | Bathroom, Kitchen & Floor Tiling",
+      "description": "Explore our comprehensive tiling services in Clayton, including installation, repair, and waterproofing. Professional and reliable."
+    },
+    "pricing": {
+      "title": "Tiling Costs in Clayton | Transparent Pricing from Dr Tiles",
+      "description": "Get clear pricing for tiling projects in Clayton. No hidden fees, fixed quotes, and competitive rates for all job sizes."
+    },
+    "contact": {
+      "title": "Contact Dr Tiles | Free Tiling Quotes in Clayton",
+      "description": "Get in touch with Dr Tiles for a free tiling quote in Clayton. Quick response, professional service, and expert advice."
+    },
+    "blog": {
+      "title": "Clayton Tiling Blog | Tips, Costs & Guides from Dr Tiles",
+      "description": "Read our blog for tiling advice specific to Clayton, including cost guides, maintenance tips, and local insights."
+    }
+  }
+}
