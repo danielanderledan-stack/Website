@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Techno Motors",
+  "suburb": "Coolaroo",
+  "phone": "03 9308 5501",
+  "email": "info@technomotors.com.au",
+  "address": "5 West Ct, Coolaroo VIC 3048",
+  "tagline": "Coolaroo's Trusted Mechanics",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#a82828",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coolaroo's Expert Mechanics",
+      "sub": "Quality automotive care since years"
+    },
+    {
+      "title": "Techno Motors Service Centre",
+      "sub": "All makes and models serviced"
+    },
+    {
+      "title": "Automotive Repairs in Coolaroo",
+      "sub": "From diagnostics to general repairs"
+    }
+  ],
+  "ctaHeading": "Coolaroo Mechanics at Your Service",
+  "aboutHeading": "Coolaroo's Mechanic Experts",
+  "aboutSubheading": "Quality Service with Integrity",
+  "aboutText": "Techno Motors has been proudly serving Coolaroo with top-quality mechanic services. Our owner and skilled staff are dedicated to perfection, ensuring every job is done right. We provide upfront costing so you can make informed decisions without surprises. From routine servicing to complex repairs, we handle all automotive needs with care and expertise. Based in Coolaroo, we've built a reputation for reliability and customer satisfaction in the community.",
+  "servicesHeading": "Our Mechanic Services",
+  "servicesSubheading": "Comprehensive Automotive Care",
+  "servicesText": "At Techno Motors, we offer a wide range of services to keep your vehicle in peak condition. From regular maintenance to major repairs, our team uses the latest techniques and equipment. We are committed to quality workmanship and transparent pricing for all Coolaroo residents.",
+  "services": [
+    {
+      "title": "Vehicle Servicing",
+      "desc": "Regular servicing including oil changes, filter replacements, and inspections to maintain your vehicle's performance."
+    },
+    {
+      "title": "Brake & Clutch Repair",
+      "desc": "Expert repair and replacement of brake pads, discs, and clutch systems for safe driving."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to accurately identify and fix engine issues efficiently."
+    },
+    {
+      "title": "Transmission Service",
+      "desc": "Comprehensive transmission repairs and servicing to ensure smooth gear operation."
+    },
+    {
+      "title": "General Repairs",
+      "desc": "All-inclusive repairs for any vehicle make or model, from minor fixes to major overhauls."
+    },
+    {
+      "title": "Pre-Purchase Inspections",
+      "desc": "Thorough inspections before buying a used car to give you peace of mind."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Coolaroo?",
+  "bannerSubheading": "Expert repairs at competitive prices. Call today!",
+  "testimonialsHeading": "What Coolaroo Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Automotive Tips & News",
+  "blogSubheading": "Insights from Techno Motors",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Techno Motors did a fantastic job on my car's engine diagnostics. The team was friendly and explained everything clearly. I highly recommend them for any mechanic work in Coolaroo.",
+      "name": "Sarah Thompson",
+      "role": "Coolaroo Homeowner"
+    },
+    {
+      "text": "I've been taking my business vehicles to Techno Motors for years. Their brake repair service is top-notch, and they always provide upfront costs. A trusted mechanic in the area.",
+      "name": "Mike Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable mechanics for my fleet. Techno Motors in Coolaroo offers excellent general servicing and has never let us down. Highly professional.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
