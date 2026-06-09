@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Best Choice Plumbing",
+  "suburb": "Craigieburn",
+  "phone": "03 9000 1234",
+  "email": "info@bestchoiceplumbing.com.au",
+  "address": "31A Yellowbox Drive, Craigieburn VIC 3064",
+  "tagline": "Craigieburn's Trusted Plumbers",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Craigieburn's Go-To Plumbers",
+      "sub": "Nearly 20 years of plumbing expertise"
+    },
+    {
+      "title": "Emergency Plumbing & Hot Water",
+      "sub": "Fast response in Craigieburn & surrounds"
+    },
+    {
+      "title": "Quality Workmanship for Your Home",
+      "sub": "Affordable and reliable solutions"
+    }
+  ],
+  "ctaHeading": "Craigieburn's plumbers are ready — let's fix your plumbing.",
+  "aboutHeading": "Nearly 20 Years Plumbing in Craigieburn",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Best Choice Plumbing has been serving Craigieburn and Melbourne's north for nearly two decades. Our mission is to provide exceptional plumbing service while building lasting relationships with our customers. We pride ourselves on 5-star service and exceptional customer care, as reflected in our testimonials. With extensive industry knowledge, we work with your budget and requirements to deliver the best outcomes for your plumbing needs.",
+  "servicesHeading": "Comprehensive Plumbing Services",
+  "servicesSubheading": "Done right the first time",
+  "servicesText": "From emergency repairs to routine maintenance, Best Choice Plumbing offers a full range of plumbing services in Craigieburn. Our team is experienced in all aspects of residential and commercial plumbing, ensuring quality workmanship and affordable solutions for every job.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency plumbing services for urgent issues like burst pipes and severe leaks in Craigieburn."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Expert drain unblocking and cleaning to prevent clogs and maintain smooth water flow in your home."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems for reliable year-round supply."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitting services for safe installation and repair of gas appliances and systems."
+    },
+    {
+      "title": "Roof Plumbing",
+      "desc": "Comprehensive roof plumbing solutions, including guttering, stormwater drains, and leak repairs."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine plumbing maintenance checks to identify and prevent potential problems early."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Craigieburn?",
+  "bannerSubheading": "Fast, reliable service for all your plumbing needs.",
+  "testimonialsHeading": "What Craigieburn Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Plumbing Tips & Insights",
+  "blogSubheading": "Expert advice from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly",
+  "reviews": [
+    {
+      "text": "Best Choice Plumbing fixed our hot water system in Craigieburn quickly and professionally. The service was affordable and the workmanship top-notch.",
+      "name": "Tom Henderson",
+      "role": "Craigieburn Homeowner"
+    },
+    {
+      "text": "We had a major drain issue at our business in Craigieburn, and they cleared it efficiently. Their expertise and quality work saved us from further problems.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on prompt plumbing services. Best Choice Plumbing consistently delivers excellent emergency plumbing in Craigieburn.",
+      "name": "James O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
