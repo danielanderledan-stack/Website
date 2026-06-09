@@ -1,0 +1,301 @@
+{
+  "siteType": "hvac",
+  "businessName": "Rapid Tune Keysborough",
+  "suburb": "Keysborough",
+  "phone": "03 9701 8655",
+  "email": "keysborough@rapidtune.com.au",
+  "address": "216 Cheltenham Rd, Keysborough VIC 3173",
+  "tagline": "Keysborough's Trusted Mechanics",
+  "primaryColor": "#398ffc",
+  "primaryColorRgb": "57, 143, 252",
+  "primaryColorHover": "#2d6bbf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Keysborough's Go-To Mechanics",
+      "sub": "Expert care since 2010"
+    },
+    {
+      "title": "Log Book Servicing & Repairs",
+      "sub": "All makes and models covered"
+    },
+    {
+      "title": "Licensed Roadworthy Testing",
+      "sub": "Compliant and affordable"
+    }
+  ],
+  "ctaHeading": "Rapid Tune Keysborough is ready — let's service your vehicle today.",
+  "aboutHeading": "14+ Years Mechanical Expertise in Keysborough",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Rapid Tune Keysborough has been a proud member of the local community since 2010. Our expert team of mechanics offers trusted automotive care backed by over 14 years of hands-on experience. With a reputation built on quality workmanship, honest advice, and exceptional customer service, our Keysborough store continues to be renowned. This reputation sees us attract vehicle owners seeking reliable maintenance and repairs, all at an affordable cost.",
+  "servicesHeading": "What We Service & Repair",
+  "servicesSubheading": "Comprehensive auto care in Keysborough",
+  "servicesText": "From general servicing to complex diagnostics, Rapid Tune Keysborough handles all mechanical needs for every make and model. Our licensed team ensures your vehicle runs smoothly, efficiently, and safely on Melbourne's roads.",
+  "services": [
+    {
+      "title": "General & Log Book Servicing",
+      "desc": "Routine maintenance to keep your car running at its best, adhering to manufacturer standards.",
+      "longDesc": "Our general and log book servicing in Keysborough follows strict manufacturer guidelines, ensuring your warranty stays valid. We use quality parts and provide detailed inspections for peace of mind.",
+      "points": [
+        "Manufacturer-approved",
+        "Detailed inspections",
+        "Warranty-safe"
+      ]
+    },
+    {
+      "title": "Tyres & Wheel Alignment",
+      "desc": "Professional tyre fitting, balancing, and precision alignment for optimal handling and safety.",
+      "longDesc": "Get expert tyre services in Keysborough, including rotations, replacements, and computerised wheel alignments. Proper alignment improves fuel efficiency and prevents uneven wear on Victorian roads.",
+      "points": [
+        "Improved safety",
+        "Better fuel economy",
+        "Even tyre wear"
+      ]
+    },
+    {
+      "title": "Licensed Roadworthy Testing & Mechanical Repairs",
+      "desc": "Comprehensive roadworthy inspections and repairs to get your vehicle certified and compliant.",
+      "longDesc": "As licensed roadworthy testers in Keysborough, we conduct thorough inspections and handle all necessary repairs. Our mechanical services cover brakes, clutches, and more to meet VicRoads standards.",
+      "points": [
+        "Licensed inspections",
+        "VicRoads compliant",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Air Conditioning & Diagnostics",
+      "desc": "Licensed air conditioning servicing and advanced diagnostics to pinpoint and fix issues accurately.",
+      "longDesc": "Rapid Tune Keysborough offers licensed air conditioning repairs to keep you cool in Melbourne summers. Our EFI diagnostics use the latest technology to diagnose and resolve engine problems efficiently.",
+      "points": [
+        "Cooling system care",
+        "Advanced diagnostics",
+        "Accurate fixes"
+      ]
+    },
+    {
+      "title": "Suspension, Chassis & Steering",
+      "desc": "Expert repairs for suspension, chassis, and steering systems to ensure a smooth, stable ride.",
+      "longDesc": "We service suspension, chassis, and steering components in Keysborough to handle bumpy roads and heavy loads. Our repairs enhance vehicle stability and driver comfort for daily commutes.",
+      "points": [
+        "Smoother ride",
+        "Enhanced stability",
+        "Load handling"
+      ]
+    },
+    {
+      "title": "Electric Vehicle & Transmission Services",
+      "desc": "Specialised repairs for electric vehicles, clutches, and transmissions to keep you moving forward.",
+      "longDesc": "Rapid Tune Keysborough provides cutting-edge electric vehicle services alongside clutch and transmission repairs. We cater to modern cars, ensuring efficient performance and longevity.",
+      "points": [
+        "EV-ready expertise",
+        "Transmission care",
+        "Future-proof solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Keysborough?",
+  "bannerSubheading": "From log book servicing to complex repairs, we've got you covered.",
+  "testimonialsHeading": "What Keysborough Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Keysborough Auto Tips & Guides",
+  "blogSubheading": "Deep-dives from our expert mechanics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "I took my car to Rapid Tune Keysborough for log book servicing, and the service was outstanding. They were transparent about costs and completed the work quickly, keeping my vehicle running smoothly.",
+      "name": "Emma Wilson",
+      "role": "Keysborough Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Rapid Tune Keysborough for all our fleet vehicles. Their tyre and wheel alignment services have reduced downtime and saved us money on fuel.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team at Rapid Tune Keysborough handled my car's air conditioning repair perfectly. They were friendly, professional, and the pricing was fair—highly recommend for anyone in the area.",
+      "name": "Sophie Miller",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Keysborough",
+    "Dingley Village",
+    "Noble Park",
+    "Springvale",
+    "Clarinda",
+    "Clayton",
+    "Moorabbin"
+  ],
+  "about": {
+    "intro": "Rapid Tune Keysborough has been servicing the local community since 2010, offering expert automotive care backed by years of hands-on experience.",
+    "story": [
+      "Since 2010, Rapid Tune Keysborough has built a reputation for quality workmanship and honest advice. Our team of skilled mechanics uses the latest tools and techniques to handle everything from routine log book servicing to complex diagnostics, ensuring every vehicle meets Australian safety standards.",
+      "Located on Cheltenham Road, we pride ourselves on being a trusted part of Keysborough's community. We understand the local driving conditions and tailor our services to keep your car performing reliably, whether for daily commutes or long journeys across Victoria."
+    ],
+    "mission": "To provide Keysborough drivers with trusted, affordable automotive care that keeps them safe on the road.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "Fully licensed mechanics with certified training in all vehicle makes and models."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Upfront quotes with no hidden fees, so you know exactly what you're paying."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use high-quality, warranty-safe parts for reliable and lasting repairs."
+      },
+      {
+        "title": "Customer Focus",
+        "text": "Exceptional service tailored to your needs, with a focus on building long-term trust."
+      }
+    ],
+    "stats": [
+      {
+        "value": "14+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Free no-obligation quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Rapid Tune Keysborough, we offer transparent, no-lock-in pricing for all our services. Get a free quote tailored to your vehicle's needs.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Top up fluids"
+        ]
+      },
+      {
+        "name": "Log Book Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Manufacturer-approved schedule",
+          "Detailed report",
+          "Warranty maintenance",
+          "Quality parts"
+        ]
+      },
+      {
+        "name": "Major Repair Package",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive diagnostics",
+          "Full repair quote",
+          "Licensed workmanship",
+          "Post-repair testing"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises—your final price matches the initial estimate."
+  },
+  "contact": {
+    "intro": "Contact Rapid Tune Keysborough for a free, no-obligation quote on any automotive service or repair. We're here to help keep your vehicle in top condition."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should You Service Your Car in Keysborough? A Local Guide",
+      "date": "March 2026",
+      "excerpt": "Discover the ideal car servicing intervals for Keysborough drivers, considering local driving conditions and manufacturer guidelines to keep your vehicle safe and efficient.",
+      "body": [
+        "In Keysborough, regular car servicing is essential due to the mix of urban and suburban driving. The area's traffic on Cheltenham Road and proximity to major highways means your engine faces stop-start conditions that can accelerate wear. Experts recommend servicing every 10,000 kilometers or six months, whichever comes first. This schedule helps catch issues early, preventing costly repairs down the line and ensuring compliance with log book requirements for warranty validity.",
+        "Melbourne's variable climate, with hot summers and cool winters, affects your car's fluids and components. In Keysborough, where temperatures can soar above 35°C, checking air conditioning and coolant systems during service is crucial. A standard service at Rapid Tune Keysborough includes a thorough inspection of brakes, tyres, and battery health. This proactive approach is particularly important for families commuting to nearby suburbs like Dingley Village or Noble Park, where reliable transport is a must.",
+        "Understanding log book servicing is key for Keysborough vehicle owners. Adhering to your manufacturer's schedule not only maintains warranty but also preserves resale value. For example, a Toyota Corolla might require specific filters and fluids at set intervals. Our mechanics use OEM-approved parts to match these standards. Many locals in Keysborough opt for combined log book and general services to save time and money, ensuring all bases are covered in one visit.",
+        "Driving in Keysborough presents unique challenges, such as navigating residential streets and school zones. This can lead to uneven tyre wear and brake strain. During a service, we check wheel alignment and brake pads to address these issues. For electric vehicles, which are becoming more common in the area, servicing intervals may differ due to fewer moving parts. We advise Keysborough EV owners to follow manufacturer guidelines, typically every 20,000 kilometers.",
+        "Cost is a factor for many Keysborough drivers, but skipping services can lead to bigger expenses. A basic service starts from $120 at Rapid Tune Keysborough, covering essential checks. Comparatively, a major repair like an engine overhaul can cost thousands. Regular maintenance helps avoid such scenarios. We also offer reminders and digital records to help Keysborough residents stay on track with their servicing schedule.",
+        "In summary, servicing your car regularly in Keysborough is vital for safety, performance, and longevity. Whether you drive a sedan for daily commutes or a 4WD for weekend trips, tailored servicing ensures reliability. At Rapid Tune Keysborough, we're here to provide expert advice and services that fit your lifestyle. Contact us today to schedule your next service and keep your vehicle in peak condition for Victorian roads."
+      ]
+    },
+    {
+      "title": "Signs Your Brakes Need Replacing in Melbourne's South-East",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs of worn brakes for Keysborough drivers, including squealing noises and longer stopping distances, to maintain safety on local roads.",
+      "body": [
+        "Brakes are your vehicle's most critical safety feature, especially in Keysborough where busy roads like Cheltenham Road demand quick stops. Common signs of wear include squealing or grinding noises when braking, which indicate pad wear. If your car pulls to one side during stops, it could signal uneven brake wear or caliper issues. Ignoring these signs can compromise safety, particularly in heavy traffic or near schools in the area.",
+        "Another indicator is a longer stopping distance, which is hazardous on Melbourne's variable roads. In Keysborough, where wet conditions are common in winter, responsive brakes are essential. A vibrating brake pedal or a dashboard warning light are further clues that inspection is needed. At Rapid Tune Keysborough, we recommend having brakes checked every 20,000 kilometers or if you notice any unusual behavior.",
+        "The cost of brake replacement varies based on vehicle type and parts. For standard cars in Keysborough, pad replacement might start from $150 per axle, while rotor resurfacing adds more. We use quality materials to ensure durability, considering local driving patterns. Keysborough residents often combine brake checks with log book services for convenience, addressing multiple needs in one visit.",
+        "Australian safety standards require brakes to be in top condition for roadworthy certification. In Keysborough, this is crucial for annual inspections or when selling a vehicle. Our licensed testers at Rapid Tune Keysborough perform detailed brake assessments as part of roadworthy checks. We also educate drivers on brake maintenance, such as avoiding heavy braking from high speeds to prolong component life.",
+        "Factors like frequent towing or hilly terrain near Keysborough can accelerate brake wear. If you often drive to nearby suburbs like Clayton or Springvale, where traffic varies, brakes endure more stress. Regular inspections help catch issues early. For electric vehicles, brake wear may be slower due to regenerative braking, but monitoring is still necessary. We advise Keysborough EV owners to follow specific guidelines.",
+        "In conclusion, recognizing brake issues early is vital for Keysborough drivers. Squealing, vibrations, or reduced responsiveness are calls to action. At Rapid Tune Keysborough, we offer comprehensive brake services to keep you safe. Don't wait for a warning sign—schedule an inspection today and drive with confidence on Victorian roads."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Log Book Servicing in Keysborough",
+      "date": "January 2026",
+      "excerpt": "Everything Keysborough car owners need to know about log book servicing, from warranty benefits to what's included, ensuring your vehicle stays in top shape.",
+      "body": [
+        "Log book servicing is a structured maintenance program that follows your vehicle manufacturer's recommendations. In Keysborough, this is essential for preserving warranty and resale value. At Rapid Tune Keysborough, we adhere strictly to these schedules, using OEM parts and documented procedures. This service includes oil changes, filter replacements, and comprehensive checks tailored to your car's make and model, such as a Honda Civic or Ford Ranger.",
+        "For Keysborough drivers, log book servicing addresses local conditions like dusty roads in nearby Noble Park or highway runs to Melbourne CBD. Each service interval, often every 10,000 kilometers, covers specific items. For instance, the first service might focus on engine oil and safety checks, while later services include brake fluid and coolant. Our mechanics provide a detailed report, so you know exactly what's done and why.",
+        "The cost of log book servicing in Keysborough starts from $250 at Rapid Tune Keysborough, depending on the vehicle. This investment prevents larger issues; for example, skipping an oil change can lead to engine damage costing thousands. We offer transparent pricing with no hidden fees, and all work is guaranteed. Many Keysborough locals opt for digital reminders to stay on schedule, integrating servicing into their routine.",
+        "Compared to generic servicing, log book maintenance is more comprehensive and warranty-safe. In Australia, failing to follow the log book can void your warranty, which is a risk Keysborough vehicle owners shouldn't take. Our licensed team ensures compliance with manufacturer standards, and we stamp your log book upon completion. This is particularly important for new cars under warranty or for those planning to sell.",
+        "Climate factors in Keysborough, with cold winters and hot summers, affect fluids and components. Log book servicing includes checks for these, such as battery health in winter and air conditioning in summer. We also consider driving habits; if you frequently tow or carry heavy loads, additional items may need attention. Our service adapts to your needs, ensuring reliability across Victoria's diverse terrains.",
+        "In summary, log book servicing is a smart choice for Keysborough car owners seeking to protect their investment and ensure safety. At Rapid Tune Keysborough, we make the process easy with expert care and clear communication. Schedule your log book service with us to keep your vehicle running smoothly for years to come."
+      ]
+    },
+    {
+      "title": "Why Electric Vehicle Servicing is Growing in Keysborough",
+      "date": "December 2025",
+      "excerpt": "Explore the rise of electric vehicles in Keysborough and how specialised servicing ensures optimal performance, efficiency, and longevity for your EV.",
+      "body": [
+        "Electric vehicles (EVs) are becoming increasingly popular in Keysborough, driven by environmental awareness and incentives in Victoria. Unlike traditional cars, EVs have fewer moving parts, which changes maintenance needs. At Rapid Tune Keysborough, we offer specialised EV servicing to address battery health, software updates, and brake systems. This ensures your vehicle runs efficiently on local roads and beyond.",
+        "The key benefit of EV servicing in Keysborough is focus on battery longevity. Batteries degrade over time, and factors like temperature extremes can accelerate this. Melbourne's climate, with hot summers, makes cooling system checks crucial. Our technicians use diagnostic tools to monitor battery capacity and suggest optimal charging practices. This helps Keysborough EV owners maximize range and avoid unexpected issues.",
+        "Costs for EV servicing vary, but they are often lower than traditional vehicles due to fewer parts. However, specialized expertise is required. At Rapid Tune Keysborough, our EV packages start from $200, covering software diagnostics, brake inspection, and fluid checks. We recommend servicing every 20,000 kilometers or annually, aligning with manufacturer guidelines to maintain warranty.",
+        "In Keysborough, EV owners face unique challenges, such as limited charging infrastructure in some areas. We advise on efficient charging habits and home setups to reduce strain on the vehicle. Driving conditions, like hilly routes near Clayton, can affect battery usage. Our servicing includes tips to optimize performance, such as using regenerative braking to conserve energy.",
+        "Australian standards for EVs include strict safety and emissions regulations. In Keysborough, this means ensuring your EV meets VicRoads requirements for registration and roadworthiness. Our licensed team performs these checks, providing certification that your vehicle is compliant. This is essential for resale value and peace of mind, especially as EV adoption grows locally.",
+        "As EV technology evolves, staying updated is key for Keysborough drivers. We keep abreast of advancements and offer services like firmware updates and high-voltage system checks. This future-proofing helps your EV adapt to new features and maintain efficiency. At Rapid Tune Keysborough, we're committed to supporting the transition to electric vehicles in the community.",
+        "In conclusion, EV servicing in Keysborough is essential for maintaining performance and safety. From battery checks to software updates, our specialized care ensures your investment pays off. Contact Rapid Tune Keysborough to learn more about our EV services and keep your vehicle in peak condition."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Rapid Tune Keysborough | Mechanic in Keysborough | Car Servicing",
+      "description": "Expert mechanic services in Keysborough, VIC. Log book servicing, brakes, tyres & more. Trusted since 2010. Get a free quote today!"
+    },
+    "about": {
+      "title": "About Us | Keysborough's Trusted Mechanics | Rapid Tune",
+      "description": "Learn about Rapid Tune Keysborough's 14+ years of expert automotive care. Licensed, insured, and committed to quality service in Keysborough."
+    },
+    "services": {
+      "title": "Mechanical Services in Keysborough | Repairs & Servicing",
+      "description": "Comprehensive mechanical services in Keysborough: log book servicing, brakes, air conditioning & diagnostics. Serving all makes and models."
+    },
+    "pricing": {
+      "title": "Mechanic Costs & Prices Keysborough | Rapid Tune",
+      "description": "Transparent pricing for car servicing in Keysborough. From basic services to major repairs, get upfront quotes with no lock-in."
+    },
+    "contact": {
+      "title": "Contact Rapid Tune Keysborough | Free Mechanic Quotes",
+      "description": "Get in touch with Rapid Tune Keysborough for free quotes on car servicing, repairs, and roadworthy tests. Located in Keysborough, VIC."
+    },
+    "blog": {
+      "title": "Keysborough Mechanic Blog | Auto Tips & Local Advice",
+      "description": "Expert auto advice from Keysborough mechanics. Guides on servicing, brakes, EVs, and more to keep your vehicle safe on Melbourne roads."
+    }
+  }
+}
