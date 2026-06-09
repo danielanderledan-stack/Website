@@ -1,0 +1,295 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Semken Landscaping",
+  "suburb": "Ringwood",
+  "phone": "03 9876 5432",
+  "email": "info@semken.com.au",
+  "address": "42 Molan St, Ringwood VIC 3134",
+  "tagline": "Ringwood's Landscaping Experts",
+  "primaryColor": "#ff4500",
+  "primaryColorRgb": "255, 69, 0",
+  "primaryColorHover": "#e64300",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ringwood's Go-To Landscapers",
+      "sub": "Over 10 years creating stunning gardens"
+    },
+    {
+      "title": "Garden Design & Landscape Construction",
+      "sub": "Residential & commercial projects across Melbourne"
+    },
+    {
+      "title": "Award-Winning Garden Creations",
+      "sub": "Free consultations in Ringwood & surrounds"
+    }
+  ],
+  "ctaHeading": "Ringwood's landscapers are ready — let's design your garden.",
+  "aboutHeading": "Over a Decade of Landscaping in Ringwood",
+  "aboutSubheading": "Local, creative & reliable",
+  "aboutText": "For over 12 years, Semken Landscaping has been transforming outdoor spaces in Ringwood and across Melbourne. We collaborate with top garden designers to create award-winning gardens that thrive in the local climate. Our team is dedicated to delivering stunning, sustainable landscapes tailored to your vision.",
+  "servicesHeading": "What We Create",
+  "servicesSubheading": "Landscaping done right",
+  "servicesText": "From initial design to final construction, we offer comprehensive landscaping services in Ringwood. Our expertise includes garden design, hardscaping, and ongoing maintenance to keep your garden pristine.",
+  "services": [
+    {
+      "title": "Garden Design & Planning",
+      "desc": "Custom garden designs tailored to Ringwood's climate and your lifestyle needs.",
+      "longDesc": "Our garden design service in Ringwood starts with a thorough site analysis to create plans that suit your space and preferences. We incorporate local plant species and sustainable practices to ensure a beautiful, low-maintenance garden.",
+      "points": [
+        "Personalised design concepts",
+        "Sustainable plant selection",
+        "3D visualisations"
+      ]
+    },
+    {
+      "title": "Landscape Construction",
+      "desc": "Expert construction of gardens, paths, and outdoor features in Ringwood.",
+      "longDesc": "From concept to completion, we build stunning landscapes using quality materials and skilled craftsmanship. Whether it's a new patio or garden beds, our Ringwood team delivers exceptional results that enhance property value.",
+      "points": [
+        "High-quality materials",
+        "Skilled tradespeople",
+        "On-time delivery"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Regular care to keep your Ringwood garden healthy and vibrant year-round.",
+      "longDesc": "Our maintenance packages include pruning, fertilising, and pest control tailored to Ringwood's seasonal changes. We help your garden thrive with minimal effort on your part, ensuring long-term beauty.",
+      "points": [
+        "Seasonal care plans",
+        "Expert horticulturists",
+        "Flexible scheduling"
+      ]
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "Efficient irrigation solutions to water your Ringwood garden smartly.",
+      "longDesc": "We design and install automated irrigation systems that conserve water and keep your plants hydrated in Ringwood's variable weather. Save time and money with a tailored setup that promotes healthy growth.",
+      "points": [
+        "Water-efficient designs",
+        "Automated controls",
+        "Easy maintenance"
+      ]
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Create functional outdoor areas for relaxation and entertainment in Ringwood.",
+      "longDesc": "Enhance your Ringwood home with patios, pergolas, and seating areas designed for comfort and style. We integrate lighting and greenery to make your space inviting for family and friends throughout the year.",
+      "points": [
+        "Custom-built structures",
+        "Integrated landscaping",
+        "Year-round usability"
+      ]
+    },
+    {
+      "title": "Commercial Landscaping",
+      "desc": "Professional landscaping services for businesses and public spaces in Ringwood.",
+      "longDesc": "Elevate your commercial property in Ringwood with attractive, sustainable landscapes that impress clients and employees. We handle projects of all scales with precision, focusing on durability and aesthetic appeal.",
+      "points": [
+        "Business-focused designs",
+        "Low-maintenance solutions",
+        "Compliance with standards"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Landscaper in Ringwood?",
+  "bannerSubheading": "Get a free design consultation today.",
+  "testimonialsHeading": "What Ringwood Locals Say",
+  "testimonialsSubheading": "Real gardens, real reviews",
+  "blogHeading": "Ringwood Landscaping Guides & Tips",
+  "blogSubheading": "Expert advice from your local team",
+  "contactHeading": "Get a Free Landscaping Quote",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Semken Landscaping transformed our backyard in Ringwood with a beautiful new garden design. Their attention to detail and professionalism were outstanding, and the result is a stunning outdoor space we love.",
+      "name": "Jake Thompson",
+      "role": "Ringwood Homeowner"
+    },
+    {
+      "text": "As a local business owner in Ringwood, I hired Semken for our office landscaping. They delivered a stunning, low-maintenance garden that impresses clients daily, showing their expertise in commercial projects.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team at Semken Landscaping did a fantastic job on our rental property's garden in Ringwood. Quick, reliable, and the results exceeded expectations, making it a hassle-free experience for property management.",
+      "name": "Michael O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Ringwood",
+    "Croydon",
+    "Maroondah",
+    "Lilydale",
+    "Box Hill",
+    "Doncaster"
+  ],
+  "about": {
+    "intro": "Semken Landscaping has been a trusted name in Ringwood for over a decade, specialising in creating beautiful, functional outdoor spaces.",
+    "story": [
+      "Founded by passionate landscapers, Semken Landscaping started in Ringwood with a vision to bring world-class garden design to local homeowners. We've since grown to work on projects across Melbourne, but our roots remain firmly in the Ringwood community, where we understand the unique soil and climate conditions.",
+      "Our journey includes collaborating with leading designers and winning multiple awards at garden shows in Australia and overseas. This experience allows us to blend creativity with practicality, ensuring every garden we build is both stunning and sustainable for the Australian lifestyle."
+    ],
+    "mission": "To create exceptional landscapes that enhance the beauty and value of properties in Ringwood and beyond.",
+    "whyUs": [
+      {
+        "title": "Creative Designs",
+        "text": "Tailored garden plans that reflect your personal style and the local Ringwood environment."
+      },
+      {
+        "title": "Quality Construction",
+        "text": "Using durable materials and expert techniques for long-lasting, beautiful results."
+      },
+      {
+        "title": "Reliable Service",
+        "text": "On-time project completion with clear communication throughout the Ringwood area."
+      },
+      {
+        "title": "Ongoing Support",
+        "text": "Maintenance packages to keep your garden looking its best year-round in Ringwood."
+      }
+    ],
+    "stats": [
+      {
+        "value": "12+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Gardens Created"
+      },
+      {
+        "value": "100%",
+        "label": "Client Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Public liability insured",
+      "Free consultations",
+      "Award-winning designs"
+    ]
+  },
+  "pricing": {
+    "intro": "At Semken Landscaping, we offer transparent pricing for all landscaping projects in Ringwood. No hidden fees — just honest quotes tailored to your needs.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site garden assessment",
+          "Design concept discussion",
+          "Detailed proposal"
+        ]
+      },
+      {
+        "name": "Standard Garden Upgrade",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full design and planning",
+          "Quality plant selection",
+          "Professional installation",
+          "One-year maintenance"
+        ]
+      },
+      {
+        "name": "Major Landscape Project",
+        "price": "from $15,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete design service",
+          "Hardscaping and softscaping",
+          "Irrigation integration",
+          "Two-year warranty"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins in Ringwood."
+  },
+  "contact": {
+    "intro": "Ready to transform your garden in Ringwood? Contact Semken Landscaping today for a free, no-obligation quote. We're here to help bring your outdoor vision to life."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Garden Makeover Cost in Ringwood?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting garden makeover costs in Ringwood, from design complexity to plant selection, and get budgeting tips for your project.",
+      "body": [
+        "A garden makeover in Ringwood involves several cost factors, starting with the size of your outdoor space and the scope of the project. Ringwood's climate, with its mix of temperate weather and occasional dry spells, influences plant choices and irrigation needs, which can affect overall expenses. For a basic garden refresh, costs might start from $2,000 to $5,000, covering new mulch, plants, and minor tweaks, while a full redesign with hardscaping can range from $10,000 to $20,000 or more. Local soil conditions in Ringwood, often clay-based, may require amendments to ensure healthy plant growth, adding to the budget but essential for long-term success.",
+        "When planning your garden makeover in Ringwood, consider the value of investing in quality materials and professional design. Hiring a local landscaper like Semken Landscaping can provide tailored advice on cost-effective solutions that suit Ringwood's suburban lifestyle. For instance, using native Australian plants can reduce water bills and maintenance costs, as they are adapted to the local environment. Hardscaping elements like patios or retaining walls typically range from $50 to $150 per square metre, depending on materials such as concrete or natural stone, which are popular in Ringwood for their durability against Melbourne's variable weather.",
+        "Budgeting for a Ringwood garden makeover should also include ongoing maintenance costs to keep your new space thriving. Regular upkeep, such as pruning, fertilising, and lawn care, might add $100 to $300 per month, depending on the garden's complexity. In Ringwood, seasonal changes require specific care routines—for example, preparing gardens for hot summers with mulch and drought-resistant plants, or protecting against winter frosts. By planning ahead and working with experts, you can spread costs over time and ensure your investment enhances your property's value and enjoyment for years to come.",
+        "To get an accurate cost estimate for your garden makeover in Ringwood, it's best to start with a professional consultation. Semken Landscaping offers free initial assessments to discuss your vision, assess your site, and provide a detailed quote. Factors like accessibility, existing structures, and any necessary permits can influence the final price, but transparent pricing ensures no surprises. Ringwood homeowners often find that a well-planned makeover not only beautifies their space but also improves energy efficiency by adding shade or windbreaks, making it a smart financial decision in the long run.",
+        "In summary, the cost of a garden makeover in Ringwood varies based on your goals and the level of detail you want. By focusing on local expertise and sustainable choices, you can achieve a stunning outdoor area without breaking the bank. Whether you're looking for a simple refresh or a complete transformation, Semken Landscaping is here to help Ringwood residents create gardens that are both beautiful and budget-friendly, with every step of the process tailored to your needs."
+      ]
+    },
+    {
+      "title": "Best Plants for Ringwood Gardens: A Local Guide",
+      "date": "February 2026",
+      "excerpt": "Learn which plants thrive in Ringwood's climate and soil conditions, including native species and low-maintenance options for your garden.",
+      "body": [
+        "Choosing the best plants for your Ringwood garden starts with understanding the local climate and soil. Ringwood, located in Melbourne's eastern suburbs, experiences a temperate climate with warm summers and cool winters, which supports a wide range of plant species. The soil is often clay-heavy, so selecting plants that tolerate these conditions is key to a low-maintenance, thriving garden. Native Australian plants like Kangaroo Paw, Bottlebrush, and Lomandra are excellent choices, as they are adapted to Ringwood's weather patterns and require minimal water once established.",
+        "For shady areas in Ringwood gardens, consider plants like Ferns, Hostas, or native Violets, which flourish under tree canopies or on south-facing sides of houses. Ringwood's suburban layout often includes mature trees, making shade-tolerant plants essential for a balanced garden. In sunny spots, flowering plants such as Lavender, Rosemary, or Grevilleas add colour and attract local wildlife, enhancing the biodiversity of your outdoor space. These plants are not only beautiful but also drought-resistant, helping to reduce water usage during Ringwood's dry spells.",
+        "Low-maintenance options are ideal for busy Ringwood homeowners who want a beautiful garden without constant upkeep. Groundcovers like Myoporum or Ajuga spread quickly to suppress weeds, while succulents and grasses such as Liriope thrive with infrequent watering. Incorporating these plants into your Ringwood garden design can save time and resources, as they are hardy and adaptable to the local environment. Additionally, using mulch around plants helps retain moisture and regulate soil temperature, which is particularly beneficial in Ringwood's variable weather conditions.",
+        "When selecting plants for Ringwood gardens, it's also important to consider seasonal interest and year-round appeal. Deciduous trees like Japanese Maple provide stunning autumn foliage, while evergreen shrubs like Pittosporum offer structure and privacy throughout the year. In Ringwood, where outdoor living is cherished, plants that attract birds and butterflies, such as Grevillea or Callistemon, can create a lively and inviting atmosphere. By choosing a mix of species that bloom at different times, you ensure your garden remains vibrant and engaging across all seasons.",
+        "To get started, visit a local nursery in Ringwood or consult with a landscaper like Semken Landscaping to select plants suited to your specific site conditions. They can provide advice on soil preparation, planting techniques, and ongoing care tailored to Ringwood's unique environment. With the right plant choices, your garden will not only look fantastic but also support local ecology, making it a sustainable and enjoyable part of your Ringwood home for years to come."
+      ]
+    },
+    {
+      "title": "Outdoor Living Space Ideas for Ringwood Homes",
+      "date": "January 2026",
+      "excerpt": "Explore inspiring outdoor living designs tailored for Ringwood properties, from patios to pergolas, enhancing your lifestyle and home value.",
+      "body": [
+        "Creating an outdoor living space in Ringwood is a fantastic way to extend your home and enjoy Melbourne's pleasant weather. Ringwood's suburban setting, with its mix of residential properties and green spaces, offers the perfect backdrop for designing functional and stylish outdoor areas. Popular ideas include patios, decks, and pergolas, which provide sheltered spots for relaxation and entertainment. By incorporating elements like comfortable seating, outdoor kitchens, and lighting, you can transform your backyard into a year-round retreat that suits the Ringwood lifestyle.",
+        "For Ringwood homes with limited space, vertical gardens and compact dining areas are smart solutions. Using walls or fences to grow climbing plants or hanging baskets adds greenery without taking up floor space, ideal for smaller Ringwood blocks. Materials like timber or composite decking are durable and blend well with the natural surroundings, while concrete or stone pavers offer a low-maintenance option for high-traffic areas. In Ringwood, where summers can be hot, adding shade structures like sails or umbrellas ensures your outdoor space remains comfortable during peak temperatures.",
+        "Incorporating water features or fire pits can enhance the ambiance of your Ringwood outdoor living area. A small pond or fountain adds a soothing sound and attracts birds, creating a tranquil environment, while a fire pit extends the use of your space into cooler evenings. Ringwood's climate allows for outdoor gatherings most of the year, so designing with versatility in mind is key. For example, using movable furniture and adaptable layouts lets you easily switch between casual family meals and larger social events, making the most of your Ringwood property.",
+        "When planning your outdoor living space, consider the integration of smart technology for convenience and efficiency. Automated irrigation systems, outdoor speakers, and LED lighting can be controlled via smartphones, adding a modern touch to your Ringwood home. These features not only improve functionality but also increase energy savings, which is important in Ringwood's variable climate. By working with local experts like Semken Landscaping, you can ensure that every element is tailored to your needs and complements the existing architecture of your Ringwood property.",
+        "Finally, remember that a well-designed outdoor living space in Ringwood can boost your property's value and appeal. Potential buyers often prioritise functional outdoor areas, making it a wise investment. Whether you're creating a cosy nook for reading or a spacious deck for entertaining, focus on quality craftsmanship and materials that withstand Ringwood's weather conditions. With thoughtful planning and local expertise, your outdoor space will become a cherished part of your home, perfect for making memories with family and friends in Ringwood."
+      ]
+    },
+    {
+      "title": "Maintaining Your Garden in Melbourne's Variable Weather",
+      "date": "December 2025",
+      "excerpt": "Tips for keeping your Ringwood garden healthy through Melbourne's unpredictable weather, including seasonal care and drought-resistant strategies.",
+      "body": [
+        "Maintaining a garden in Ringwood requires adapting to Melbourne's notoriously variable weather, which can shift from hot, dry spells to cool, wet periods within weeks. In Ringwood, located in the eastern suburbs, the climate is temperate but unpredictable, so garden care routines must be flexible. Start by focusing on soil health—amending Ringwood's clay soil with compost improves drainage and nutrient retention, helping plants withstand weather extremes. Regular mulching, at least twice a year, conserves moisture during dry summers and insulates roots in winter, a key practice for Ringwood gardeners.",
+        "During Ringwood's hot summers, typically from December to February, watering efficiently is crucial. Use drip irrigation or soaker hoses to deliver water directly to roots, reducing evaporation and water bills. Water early in the morning to minimise loss from heat and wind, and consider grouping plants with similar water needs together. Drought-resistant species like native grasses or succulents are ideal for Ringwood gardens, as they thrive with minimal irrigation and add resilience against dry conditions. This approach not only saves water but also ensures your garden stays vibrant throughout Ringwood's summer months.",
+        "In winter, from June to August, Ringwood gardens face challenges like frost and increased rainfall. Protect sensitive plants by covering them with frost cloths or moving potted plants to sheltered spots. Prune deciduous trees and shrubs during this dormant period to promote healthy growth in spring, and clear fallen leaves to prevent fungal diseases, which can spread in Ringwood's damp conditions. Additionally, check drainage systems to avoid waterlogging, as Ringwood's soil can become compacted and slow to drain, potentially damaging plant roots during wet spells.",
+        "Seasonal maintenance in Ringwood also involves monitoring for pests and diseases, which can flare up with weather changes. In humid conditions, watch for aphids or powdery mildew, and use organic treatments like neem oil or soapy water sprays to keep issues at bay. Encouraging beneficial insects, such as ladybirds, by planting daisies or marigolds can provide natural pest control. For Ringwood gardeners, staying vigilant and responding quickly to signs of trouble ensures that minor problems don't escalate, keeping the garden healthy and attractive year-round.",
+        "Finally, consider long-term strategies like building raised beds or using shade cloth to mitigate Ringwood's weather variability. Raised beds improve soil control and drainage, making gardening easier, while shade cloth protects plants from intense summer sun. By combining these practices with regular care, you can maintain a resilient and beautiful garden in Ringwood, despite Melbourne's unpredictable climate. Semken Landscaping offers tailored maintenance plans to help Ringwood residents keep their gardens thriving with expert advice and hands-on support."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Semken Landscaping | Landscaper in Ringwood | Garden Design & Construction",
+      "description": "Semken Landscaping offers expert garden design, landscape construction, and maintenance in Ringwood, VIC. Transform your outdoor space with our award-winning team today."
+    },
+    "about": {
+      "title": "About Semken Landscaping | Ringwood's Trusted Landscapers",
+      "description": "Learn about Semken Landscaping's 12+ years of experience creating stunning gardens in Ringwood and Melbourne. Discover our story, mission, and local expertise."
+    },
+    "services": {
+      "title": "Landscaping Services in Ringwood | Design, Construction & Maintenance",
+      "description": "Explore comprehensive landscaping services in Ringwood, including garden design, hardscaping, irrigation, and ongoing maintenance by Semken Landscaping."
+    },
+    "pricing": {
+      "title": "Landscaping Costs & Packages in Ringwood | Semken Landscaping",
+      "description": "Transparent pricing for landscaping projects in Ringwood. Get free quotes for garden makeovers, design consultations, and major projects with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Semken Landscaping | Free Ringwood Landscaping Quotes",
+      "description": "Get in touch with Semken Landscaping for a free quote on landscaping services in Ringwood. We respond within 24 hours to start your garden transformation."
+    },
+    "blog": {
+      "title": "Ringwood Landscaping Blog | Tips, Ideas & Local Advice",
+      "description": "Stay updated with expert landscaping tips, garden ideas, and local advice from Semken Landscaping in Ringwood, Melbourne. Read guides on costs, plants, and more."
+    }
+  }
+}
