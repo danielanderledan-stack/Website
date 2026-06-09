@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Demo Mate",
+  "suburb": "Fawkner",
+  "phone": "03 0000 0000",
+  "email": "demomateau@gmail.com",
+  "address": "17 Major Rd, Fawkner VIC 3060",
+  "tagline": "Fawkner's Demolition & Landscaping Experts",
+  "primaryColor": "#5a6b4f",
+  "primaryColorRgb": "90, 107, 79",
+  "primaryColorHover": "#4d5c44",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fawkner's Trusted Demolition Crew",
+      "sub": "Expert demolition across Melbourne's north"
+    },
+    {
+      "title": "Demolition & Landscaping Made Easy",
+      "sub": "Professional, efficient and safety-first"
+    },
+    {
+      "title": "Clear the Way for New Beginnings",
+      "sub": "Trusted by Fawkner homeowners and businesses"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Fawkner Property?",
+  "aboutHeading": "Melbourne's Demolition Experts",
+  "aboutSubheading": "Your property's potential starts here",
+  "aboutText": "At Demo Mate, we specialise in expert demolition and landscaping services across Melbourne, Victoria, with Fawkner as our home base. Our skilled team ensures precise and efficient project execution, prioritising safety and sustainability on every job. Whether you're transforming your space or clearing the way for new beginnings, trust us to deliver exceptional results every time.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Demolition and landscaping, done right",
+  "servicesText": "From full-scale demolition to stunning landscape transformations, Demo Mate delivers seamless results for residential and commercial projects across Fawkner and greater Melbourne.",
+  "services": [
+    {
+      "title": "Residential Demolition",
+      "desc": "Safe and efficient removal of houses, garages, sheds and outbuildings across Melbourne's northern suburbs."
+    },
+    {
+      "title": "Commercial Demolition",
+      "desc": "Full commercial strip-outs and building demolition handled with precision and strict safety protocols."
+    },
+    {
+      "title": "Site Clearing & Preparation",
+      "desc": "Thorough site clearing to prepare your Fawkner property for construction or landscaping."
+    },
+    {
+      "title": "Landscape Design & Installation",
+      "desc": "Stunning landscaping solutions tailored to elevate your property's look and value."
+    },
+    {
+      "title": "Garden Makeovers",
+      "desc": "Complete garden transformations from overgrown yards to beautiful outdoor spaces."
+    },
+    {
+      "title": "Waste Removal & Recycling",
+      "desc": "Responsible disposal and recycling of all demolition and site materials."
+    }
+  ],
+  "bannerHeading": "Need Demolition or Landscaping in Fawkner?",
+  "bannerSubheading": "Free quotes for Melbourne's north and surrounds",
+  "testimonialsHeading": "What Fawkner Locals Say",
+  "testimonialsSubheading": "Real results, real reviews",
+  "blogHeading": "Demolition & Landscaping Tips",
+  "blogSubheading": "Advice from the Demo Mate team",
+  "contactHeading": "Get in Touch with Us",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Demo Mate transformed our backyard with expert demolition and stunning landscaping. Their team was professional, efficient, and attentive to our vision. Highly recommend for anyone in Fawkner seeking top-notch service.",
+      "name": "Sarah Mitchell",
+      "role": "Fawkner Homeowner"
+    },
+    {
+      "text": "Demo Mate exceeded our expectations with their seamless demolition and landscaping services. The team's professionalism and attention to detail made the process stress-free. Our property now looks amazing.",
+      "name": "James Crawford",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Demo Mate delivered exceptional service with our home project. Their skilled team managed both demolition and landscaping seamlessly. We couldn't be happier with the results and recommend them to anyone in Melbourne.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
