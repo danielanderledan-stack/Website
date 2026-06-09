@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "CPG Plumbers",
+  "suburb": "Preston",
+  "phone": "1300 274 669",
+  "email": "info@cpgplumbers.com.au",
+  "address": "84 Hotham St, Preston VIC 3072",
+  "tagline": "Preston's Plumbing Experts",
+  "primaryColor": "#abb8c3",
+  "primaryColorRgb": "171, 184, 195",
+  "primaryColorHover": "#8a97a8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Preston's Go-To Plumbers",
+      "sub": "CPG Plumbers – Reliable & Professional"
+    },
+    {
+      "title": "Gas Fitting & Hot Water Installations",
+      "sub": "Serving Preston & surrounding suburbs"
+    },
+    {
+      "title": "Blocked Drains & Emergency Repairs",
+      "sub": "Available 24 hours a day"
+    }
+  ],
+  "ctaHeading": "CPG Plumbers: Your Preston Plumbing Solution",
+  "aboutHeading": "Trusted Plumbing in Preston",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "At CPG Plumbers in Preston, we go beyond the ordinary to ensure your complete satisfaction. Our team of qualified and experienced plumbers is dedicated to handling all your plumbing needs, from emergencies to regular maintenance. Serving Metropolitan Melbourne with pride, we are committed to delivering outstanding service every time.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Expert Solutions for Every Plumbing Need",
+  "servicesText": "From gas fitting and hot water installations to blocked drain repairs and excavation work, CPG Plumbers covers all aspects of plumbing. Our services are tailored for both residential and commercial clients in Preston and across Melbourne.",
+  "services": [
+    {
+      "title": "Gas Fitting & Heating",
+      "desc": "Our certified gas fitters handle all gas appliance installations, repairs, and safety inspections for heating and hot water systems in Preston."
+    },
+    {
+      "title": "Water Services",
+      "desc": "Expert water supply solutions including burst pipe repairs, rainwater tank installations, and complete plumbing refurbishments for homes and businesses."
+    },
+    {
+      "title": "Drainage Solutions",
+      "desc": "Specialists in clearing blocked drains, stormwater systems, and sewerage repairs to keep properties in Preston flowing smoothly."
+    },
+    {
+      "title": "Excavation & New Developments",
+      "desc": "Comprehensive excavation services for new construction projects, site preparation, and underground plumbing installations across Melbourne."
+    },
+    {
+      "title": "Maintenance & Roofing",
+      "desc": "Routine plumbing maintenance, roof leak repairs, guttering services, and general upkeep to prevent future issues for Preston residents."
+    },
+    {
+      "title": "Residential & Commercial Plumbing",
+      "desc": "Tailored plumbing solutions for homes and businesses, including bathroom renovations, strata services, and full refurbishments in Preston."
+    }
+  ],
+  "bannerHeading": "Reliable Plumbing in Preston",
+  "bannerSubheading": "Fast, professional service when you need it most",
+  "testimonialsHeading": "What Preston Locals Say",
+  "testimonialsSubheading": "Trusted by Our Community",
+  "blogHeading": "Plumbing Tips & Updates",
+  "blogSubheading": "Insights from CPG Plumbers",
+  "contactHeading": "Get in Touch with CPG Plumbers",
+  "contactSubheading": "We're here to help with all your plumbing needs",
+  "reviews": [
+    {
+      "text": "I called CPG Plumbers for an emergency burst pipe repair at my Preston home. They arrived within the hour and fixed the issue efficiently. The plumber was courteous and left the area clean. Excellent service!",
+      "name": "John Smith",
+      "role": "Preston Homeowner"
+    },
+    {
+      "text": "CPG Plumbers handled our commercial bathroom renovation in Preston with professionalism. They coordinated with other trades and completed the work on time. The quality of plumbing fixtures and installation was outstanding.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For regular maintenance on our rental properties in Preston, CPG Plumbers are our go-to. They provide detailed reports and fair pricing. Their reliability has saved us from major plumbing issues.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
