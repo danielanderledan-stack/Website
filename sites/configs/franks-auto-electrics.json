@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Frank's Auto Electrics",
+  "suburb": "North Geelong",
+  "phone": "03 5278 6279",
+  "email": "info@franksautoelectrics.com.au",
+  "address": "26 Roseneath St, North Geelong VIC 3215",
+  "tagline": "North Geelong's Auto Electricians",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00c8e0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "North Geelong's Auto Electrical Experts",
+      "sub": "Over 20 years of trusted service"
+    },
+    {
+      "title": "Reliable Repairs for All Makes & Models",
+      "sub": "From batteries to complex diagnostics"
+    },
+    {
+      "title": "No Job Too Small in Geelong",
+      "sub": "Fast, friendly, and professional"
+    }
+  ],
+  "ctaHeading": "Need an auto electrician in North Geelong? We're here to help.",
+  "aboutHeading": "20+ Years Auto Electrical Excellence in North Geelong",
+  "aboutSubheading": "Local, licensed & dedicated",
+  "aboutText": "With over 20 years of experience, Frank's Auto Electrics has been providing top-notch auto electrical repairs in North Geelong and surrounding areas. Our skilled team services all makes and models, ensuring your vehicle runs smoothly. We pride ourselves on friendly customer service and quality workmanship, making us the trusted choice for locals.",
+  "servicesHeading": "Our Auto Electrical Services",
+  "servicesSubheading": "Expert solutions for every vehicle",
+  "servicesText": "From routine maintenance to complex repairs, Frank's Auto Electrics in North Geelong offers comprehensive auto electrical services. We use the latest diagnostics and quality parts to get you back on the road safely.",
+  "services": [
+    {
+      "title": "Battery Replacement & Testing",
+      "desc": "Fast battery checks, replacements, and charging system diagnostics.",
+      "longDesc": "Ensure your vehicle starts reliably with our professional battery testing and replacement services in North Geelong. We handle all battery types and brands, providing quick installation and disposal.",
+      "points": [
+        "Quick testing",
+        "All battery types",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "Alternator & Starter Repairs",
+      "desc": "Expert repair or replacement of alternators and starter motors.",
+      "longDesc": "If your car is struggling to start or has electrical issues, our North Geelong mechanics diagnose and repair alternators and starters efficiently. We use high-quality parts for lasting performance.",
+      "points": [
+        "Expert diagnostics",
+        "Quality parts",
+        "Same-day service"
+      ]
+    },
+    {
+      "title": "Wiring & Diagnostics",
+      "desc": "Advanced electrical fault finding and wiring repairs.",
+      "longDesc": "Complex electrical problems require expert attention. Our North Geelong team uses state-of-the-art tools to trace and fix wiring issues, ensuring your vehicle's electrical system functions perfectly.",
+      "points": [
+        "Advanced tools",
+        "Accurate diagnosis",
+        "Full system checks"
+      ]
+    },
+    {
+      "title": "Lighting & Accessories",
+      "desc": "Repair and installation of headlights, tail lights, and accessories.",
+      "longDesc": "From LED upgrades to fixing faulty lights, we enhance visibility and safety for your vehicle in North Geelong. Our services include custom installations and compliance checks.",
+      "points": [
+        "LED upgrades",
+        "Safety compliance",
+        "Custom installs"
+      ]
+    },
+    {
+      "title": "Engine Management Systems",
+      "desc": "Diagnosis and repair of engine electronics and sensors.",
+      "longDesc": "Modern engines rely on complex electronics. Our North Geelong experts diagnose and repair engine management systems, optimising performance and fuel efficiency.",
+      "points": [
+        "Sensor repairs",
+        "Performance tuning",
+        "Fuel efficiency"
+      ]
+    },
+    {
+      "title": "Commercial Vehicle Services",
+      "desc": "Specialised auto electrical repairs for trucks and fleet vehicles.",
+      "longDesc": "We cater to commercial vehicles in North Geelong, offering tailored electrical repairs to minimise downtime. Our team handles large-scale diagnostics and maintenance for fleets.",
+      "points": [
+        "Fleet maintenance",
+        "Minimised downtime",
+        "Tailored solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Trusted Auto Electricians in North Geelong",
+  "bannerSubheading": "Serving the Geelong community since 2003",
+  "testimonialsHeading": "What North Geelong Locals Say",
+  "testimonialsSubheading": "Honest work, guaranteed satisfaction",
+  "blogHeading": "Auto Electrical Tips & News for Geelong",
+  "blogSubheading": "Expert advice from North Geelong specialists",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Frank's Auto Electrics in North Geelong did a fantastic job replacing my car's alternator. They were fast, professional, and the price was fair. Highly recommend for any auto electrical issues!",
+      "name": "John Smith",
+      "role": "North Geelong Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my fleet. Frank's team serviced all our vehicles efficiently, ensuring no downtime. Their expertise in commercial auto electrics is unmatched in Geelong.",
+      "name": "Sarah Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I had a tricky wiring problem in my old ute. The team at Frank's Auto Electrics diagnosed it quickly and fixed it on the spot. Great service from true professionals in North Geelong.",
+      "name": "Mike Johnson",
+      "role": "Fleet Manager"
+    }
+  ],
+  "serviceAreas": [
+    "North Geelong",
+    "Geelong",
+    "Belmont",
+    "Hamlyn Heights",
+    "Bell Park",
+    "Herne Hill"
+  ],
+  "about": {
+    "intro": "Frank's Auto Electrics is North Geelong's trusted auto electrical specialist, with over 20 years of dedicated service to the Geelong community.",
+    "story": [
+      "Established over two decades ago, Frank's Auto Electrics started in North Geelong with a simple goal: to provide reliable auto electrical repairs with a personal touch. Our founder, Frank, built the business on word-of-mouth from satisfied customers, and that tradition continues today.",
+      "From our humble beginnings, we've grown to serve a wide range of clients across Geelong, from individual car owners to commercial fleets. Our commitment to using quality parts and staying updated with the latest automotive technology ensures we deliver top-tier service every time."
+    ],
+    "mission": "To deliver exceptional auto electrical solutions with honesty and expertise, keeping North Geelong on the move.",
+    "whyUs": [
+      {
+        "title": "Over 20 Years Experience",
+        "text": "Proven track record in auto electrical repairs since 2003."
+      },
+      {
+        "title": "All Makes & Models",
+        "text": "Expertise in servicing a wide variety of vehicles and systems."
+      },
+      {
+        "title": "Customer-Focused",
+        "text": "Friendly service and clear communication throughout."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We stand by our work with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years in Business"
+      },
+      {
+        "value": "5,000+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed auto electricians",
+      "Comprehensive insurance",
+      "Free diagnostic quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Frank's Auto Electrics in North Geelong, we offer transparent pricing with no hidden fees. Get a fixed quote upfront for your auto electrical needs.",
+    "packages": [
+      {
+        "name": "Diagnostic Visit",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site diagnostic",
+          "Detailed report",
+          "No-obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Repair",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Common repairs",
+          "Quality parts",
+          "12-month warranty",
+          "Free follow-up"
+        ]
+      },
+      {
+        "name": "Major Overhaul",
+        "price": "from $800",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complex systems",
+          "Engine management",
+          "Commercial vehicles"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided before any work begins, ensuring no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get your vehicle's electrical system checked? Contact Frank's Auto Electrics in North Geelong for a free, no-obligation quote. We're here to help with all your auto electrical needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Auto Electrical Repair Cost in North Geelong?",
+      "date": "March 2026",
+      "excerpt": "Discover typical costs for auto electrical services in North Geelong, including battery, alternator, and wiring repairs, to budget effectively.",
+      "body": [
+        "If you're in North Geelong and facing auto electrical issues, understanding the costs can help you plan. At Frank's Auto Electrics, we provide transparent pricing for all services, from simple battery replacements to complex diagnostics. The cost varies based on the problem's severity, vehicle type, and parts required. For instance, a basic battery test and replacement might start from $150, while alternator repairs could range from $300 to $600, depending on parts and labour. In North Geelong, we source quality parts locally to keep costs reasonable and support the community.",
+        "Factors influencing the cost include the vehicle's make and model, as luxury or imported cars often require specialised parts. Labour rates in the Geelong area are competitive, but always ensure you're getting a fixed quote upfront. Our diagnostic visit fee is $120, which is deducted from the total repair cost if you proceed with us, making it a cost-effective first step. Additionally, coastal conditions in North Geelong can accelerate wear on electrical components, so regular maintenance can prevent higher long-term costs.",
+        "Common auto electrical repairs in North Geelong involve wiring issues, especially in older vehicles exposed to salt air from Corio Bay. This corrosion can lead to faults, and addressing them early prevents more expensive damage. We recommend regular electrical check-ups, particularly before Geelong's winter, to avoid unexpected breakdowns. Our team uses advanced tools like multimeters and oscilloscopes to pinpoint issues accurately, saving you time and money compared to guesswork repairs.",
+        "For commercial vehicles in Geelong, costs can be higher due to complexity and scale. Fleet maintenance packages are available, offering reduced rates for multiple vehicles. We understand the importance of minimising downtime for businesses, so we provide efficient services. Always ask for a detailed quote that includes parts, labour, and any additional fees. Our goal is to deliver value without compromising on quality, ensuring your fleet remains operational on Geelong's roads.",
+        "To get an accurate estimate for your specific issue, visit us at 26 Roseneath St, North Geelong, or call 03 5278 6279. We'll assess your vehicle and provide a fixed price quote. Remember, investing in timely auto electrical repairs can prevent costly breakdowns and ensure your safety on Australian roads, especially during peak travel times. Trust North Geelong's experts at Frank's Auto Electrics for reliable service backed by over two decades of experience.",
+        "In summary, auto electrical repair costs in North Geelong depend on various factors, but with a trusted local provider like Frank's Auto Electrics, you can expect fair pricing and expert workmanship. Don't hesitate to reach out for a free consultation and keep your vehicle in top condition. We're committed to serving the Geelong community with honesty and professionalism."
+      ]
+    },
+    {
+      "title": "Signs Your Car Alternator Needs Replacement in Geelong",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators of alternator failure in Geelong vehicles and when to seek professional help from North Geelong auto electricians.",
+      "body": [
+        "The alternator is crucial for charging your car's battery and powering electrical systems while driving. In Geelong, where vehicles endure varied weather conditions from sunny summers to wet winters, alternator issues can arise. At Frank's Auto Electrics in North Geelong, we often see signs like dimming headlights, a battery warning light on the dashboard, or unusual whining noises. If you notice these, it's time for a professional check-up to avoid being stranded on Geelong's busy streets or highways.",
+        "One common sign is difficulty starting the engine, especially after the car has been off for a while. This indicates the alternator isn't charging the battery properly. In North Geelong, our mechanics test alternator output using specialised equipment to confirm the issue. Ignoring this can lead to a dead battery and costly towing services. Regular maintenance every 12 months can catch problems early, saving you from major repairs and ensuring reliability for your daily commute across Geelong.",
+        "Another indicator is flickering dashboard lights or electrical accessories malfunctioning, such as power windows or radio. Modern cars have complex electronics, and a failing alternator can cause voltage drops that affect these systems. In Geelong's coastal environment, salt air can exacerbate electrical faults by corroding connections. We recommend inspecting the alternator every 50,000 km or if symptoms appear. Our team uses OEM parts for replacements to ensure compatibility and longevity, adhering to Australian automotive standards.",
+        "Strange whining or grinding noises from the engine bay often signal alternator bearing wear. In North Geelong, we diagnose this quickly with visual and sound tests during our diagnostic visit. If not addressed, it can damage other components like the serpentine belt or pulleys. The cost of alternator replacement in Geelong ranges from $300 to $700, including parts and labour. Always get a fixed quote from a licensed auto electrician like us to avoid overpaying and ensure transparent service.",
+        "For Geelong drivers, especially those commuting on the M1 Princes Freeway or around the CBD, a reliable alternator is essential for safety and convenience. At Frank's Auto Electrics, we offer same-day service for alternator replacements to minimise inconvenience. We also check the entire charging system, including the battery and voltage regulator, to rule out related issues. This comprehensive approach ensures your vehicle remains dependable in all Geelong conditions, from urban traffic to coastal drives.",
+        "If you suspect alternator problems, don't delay. Visit Frank's Auto Electrics at 26 Roseneath St, North Geelong, or call 03 5278 6279 for advice. Early intervention can prevent more severe electrical damage and keep your car running smoothly. Trust North Geelong's experts for honest, efficient service tailored to Geelong's unique needs. We're here to support the local community with quality auto electrical care."
+      ]
+    },
+    {
+      "title": "How to Maintain Your Car's Electrical System in North Geelong Winters",
+      "date": "January 2026",
+      "excerpt": "Practical tips for maintaining your vehicle's electrical system during Geelong's cold, wet winters to prevent failures and ensure reliability.",
+      "body": [
+        "North Geelong winters bring cold, damp conditions that can stress your car's electrical system. At Frank's Auto Electrics, we advise proactive maintenance to avoid issues like weak batteries or faulty lights during the cooler months. Starting with a battery test is wise, as cold weather reduces battery capacity by up to 50%. In Geelong, temperatures can drop, making it harder for older batteries to hold a charge. We recommend testing before winter sets in to prevent unexpected failures on chilly mornings.",
+        "Regular inspection of lights and indicators is crucial for safety on Geelong's rainy roads, where visibility is often reduced. Ensure all headlights, brake lights, and turn signals are functioning correctly. Corrosion from moisture can affect connections, so we clean and protect terminals during services. Our North Geelong workshop uses dielectric grease to prevent rust, extending the life of your electrical components in coastal areas. This simple step can save you from roadside emergencies during winter storms.",
+        "The alternator and starter motor should also be checked, as they work harder in cold starts. In North Geelong, we see increased starter motor failures during winter due to the higher load from cold engines. A quick diagnostic can identify wear before it leads to breakdowns. Budgeting for a seasonal check-up, around $120, can save you from expensive repairs later. We offer winter maintenance packages for Geelong residents, including comprehensive electrical system inspections.",
+        "Wiring harnesses can become brittle in cold weather, leading to cracks and electrical shorts. In older vehicles common in Geelong, this is a frequent issue that can cause fires or system failures. Our team inspects wiring for damage and applies protective coatings to withstand temperature changes. For commercial fleets in Geelong, we recommend scheduled maintenance to ensure all vehicles are winter-ready, reducing downtime and maintaining efficiency during the colder months.",
+        "Using quality fuel and additives can also help maintain electrical health by reducing carbon build-up that affects sensors. In North Geelong, we source reputable products to recommend for optimal performance. Additionally, avoid overloading the electrical system with aftermarket accessories, as this can strain the alternator and battery. We advise consulting a professional before installing new gadgets to ensure compatibility with your vehicle's system, especially in Geelong's variable climate.",
+        "In conclusion, maintaining your car's electrical system in North Geelong winters involves regular checks and preventive measures. Frank's Auto Electrics in North Geelong is here to assist with all your auto electrical needs, ensuring your vehicle remains reliable throughout the season. Contact us for a winter inspection and drive with confidence on Geelong's roads, knowing your system is prepared for any weather."
+      ]
+    },
+    {
+      "title": "Why Regular Auto Electrical Checks Are Essential in Geelong",
+      "date": "December 2025",
+      "excerpt": "Discover the benefits of routine auto electrical maintenance for Geelong drivers, enhancing safety and preventing costly repairs.",
+      "body": [
+        "In Geelong, where vehicles face diverse driving conditions from city streets to coastal roads and rural areas, regular auto electrical checks are vital for safety and performance. At Frank's Auto Electrics in North Geelong, we emphasize preventive maintenance to avoid unexpected failures. Electrical issues, if ignored, can lead to safety hazards like brake light failures or breakdowns on busy roads. A routine check-up every 12 months or 20,000 km helps identify problems early, saving you time and money.",
+        "One key benefit is enhanced safety on Geelong's roads. Faulty lights, signals, or wiring can reduce visibility and increase accident risks, especially during foggy or rainy conditions. Our North Geelong team inspects all electrical components to ensure compliance with Australian Design Rules (ADR) and safety standards. This includes checking battery health, alternator output, and sensor functions. Investing in regular checks can protect you and your passengers, making every drive safer.",
+        "Another advantage is prolonged vehicle life. Electrical systems interact with mechanical parts, so a fault in one area can cause domino effects. In Geelong's humid coastal climate, corrosion accelerates, making maintenance even more critical. We use anti-corrosion treatments and high-quality parts to protect your investment. Regular servicing also maintains your car's resale value, important for Geelong's vibrant used car market where buyers prioritise well-maintained vehicles.",
+        "Cost savings are significant with preventive care. Small issues, like a loose connection or corroded terminal, can escalate into major repairs if not addressed. In North Geelong, our diagnostic fees are deducted from repair costs, encouraging early visits. For example, a simple battery test can prevent alternator damage, which might cost over $500 to fix. We provide detailed reports to keep you informed, ensuring transparency and value for every Geelong customer.",
+        "For commercial operators in Geelong, regular checks minimise fleet downtime and maintain productivity. We offer tailored maintenance plans for businesses, ensuring all vehicles remain roadworthy and efficient. This reliability supports operations and customer satisfaction in sectors like transport, agriculture, and tourism. Our North Geelong workshop is equipped to handle multiple vehicles efficiently, reducing wait times and keeping your fleet on the move.",
+        "In summary, regular auto electrical checks are essential for Geelong drivers to ensure safety, efficiency, and cost-effectiveness. Frank's Auto Electrics in North Geelong is your trusted partner for comprehensive services. Schedule your check-up today and experience the difference of proactive care. We're committed to supporting the Geelong community with expert auto electrical solutions that stand the test of time."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Frank's Auto Electrics | Auto Electrician in North Geelong | Repairs",
+      "description": "Trusted auto electrical repairs in North Geelong with 20+ years experience. Battery, alternator, wiring services for all vehicles. Free quotes!"
+    },
+    "about": {
+      "title": "About Us | North Geelong's Auto Electrical Experts | Frank's",
+      "description": "Learn about Frank's Auto Electrics, North Geelong's leading auto electrical service since 2003. Quality repairs, friendly team, and local expertise."
+    },
+    "services": {
+      "title": "Auto Electrical Services in North Geelong | Frank's Auto Electrics",
+      "description": "Comprehensive auto electrical services in North Geelong: battery replacement, alternator repair, diagnostics, and more. Serving Geelong community."
+    },
+    "pricing": {
+      "title": "Auto Electrical Costs & Pricing North Geelong | Frank's",
+      "description": "Transparent pricing for auto electrical repairs in North Geelong. Fixed quotes, no hidden fees. From diagnostics to major overhauls."
+    },
+    "contact": {
+      "title": "Contact Frank's Auto Electrics | Free North Geelong Quotes",
+      "description": "Get in touch for a free auto electrical quote in North Geelong. Quick response, expert advice. Call 03 5278 6279 or visit us."
+    },
+    "blog": {
+      "title": "Auto Electrical Tips & Blog | North Geelong | Frank's",
+      "description": "Expert auto electrical advice for Geelong drivers. Tips on maintenance, repairs, and costs. Stay informed with North Geelong specialists."
+    }
+  }
+}
