@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Christos the Carpenter",
+  "suburb": "Brunswick",
+  "phone": "0430106939",
+  "email": "example@example.com",
+  "address": "1 Luscombe Street, Brunswick, Melbourne, Victoria, 3056, Australia",
+  "tagline": "Brunswick's Heritage Carpenter",
+  "primaryColor": "#2299dd",
+  "primaryColorRgb": "34, 153, 221",
+  "primaryColorHover": "#1a7cb8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick's Heritage Carpenter",
+      "sub": "15+ years in residential carpentry"
+    },
+    {
+      "title": "Custom Decks & Restorations",
+      "sub": "Specialising in traditional craftsmanship"
+    },
+    {
+      "title": "Detail-Driven Carpentry",
+      "sub": "From finish work to larger builds"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote from Christos",
+  "aboutHeading": "15 Years Carpentry in Brunswick",
+  "aboutSubheading": "Local, detail-driven carpenter",
+  "aboutText": "With over 15 years of hands-on experience in Brunswick's residential carpentry, Christos specialises in traditional and heritage-informed craftsmanship. His approach is detail-driven, ensuring every project—from decks to extensions—performs well over time, both structurally and visually. Christos is involved throughout the process, with a keen focus on material behaviour, longevity, and impeccably executed details.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Crafted with Precision",
+  "servicesText": "Christos offers a range of carpentry services in Brunswick and surrounding areas, including custom deck builds, heritage restorations, and detailed finish work. Each project is tailored to meet specific needs, with a focus on quality materials and traditional techniques that ensure durability and aesthetic appeal.",
+  "services": [
+    {
+      "title": "Custom Deck Construction",
+      "desc": "Specialising in Silvertop Ash and Millboard decks with custom features for durability and style."
+    },
+    {
+      "title": "Heritage Restoration",
+      "desc": "Expert restoration of heritage structures like theatre mezzanines, preserving traditional craftsmanship."
+    },
+    {
+      "title": "Porch & Entryway Decks",
+      "desc": "Building functional and attractive porch decks with attention to detail and material quality."
+    },
+    {
+      "title": "Courtyard & Outdoor Carpentry",
+      "desc": "Creating courtyard decks with landings, staircases, and integrated screens for outdoor living."
+    },
+    {
+      "title": "Residential Extensions",
+      "desc": "Managing and building extensions with a focus on seamless integration and structural integrity."
+    },
+    {
+      "title": "Custom Bench Seats & Screens",
+      "desc": "Designing and crafting custom seating and screens to complement existing structures."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Brunswick?",
+  "bannerSubheading": "Free quotes for all carpentry projects.",
+  "testimonialsHeading": "What Brunswick Locals Say",
+  "testimonialsSubheading": "Quality work, transparent pricing",
+  "blogHeading": "Carpentry Insights & Updates",
+  "blogSubheading": "Advice from Christos",
+  "contactHeading": "Get a Free Quote",
+  "contactSubheading": "We respond promptly to all inquiries",
+  "reviews": [
+    {
+      "text": "Christos built our new Silvertop Ash deck in Thornbury, and the attention to detail was outstanding. The custom bench seats and screen were perfectly crafted, enhancing our outdoor space beautifully.",
+      "name": "James Mitchell",
+      "role": "Thornbury Homeowner"
+    },
+    {
+      "text": "For the restoration of our mezzanine at the Northcote Theatre, Christos brought traditional carpentry skills that truly preserved the heritage character. His hands-on approach and commitment to quality were evident throughout.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We hired Christos for a courtyard deck in Brunswick, and he delivered a stunning result with a landing and staircase. His focus on longevity and clean execution made the project worthwhile.",
+      "name": "Michael Brown",
+      "role": "Brunswick Property Manager"
+    }
+  ]
+}
