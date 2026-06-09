@@ -1,0 +1,299 @@
+{
+  "siteType": "builder",
+  "businessName": "Vermont Painters",
+  "suburb": "Vermont",
+  "phone": "0412 345 678",
+  "email": "info@vermontpainters.com.au",
+  "address": "Karwitha St, Vermont VIC 3133",
+  "tagline": "Vermont's Painting Specialists",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Vermont's Go-To Painters",
+      "sub": "15+ years painting Melbourne's east"
+    },
+    {
+      "title": "Interior, Exterior & Roof Painting",
+      "sub": "Residential & commercial services"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Vermont & surrounds"
+    }
+  ],
+  "ctaHeading": "Vermont's painters are ready — let's colour your world.",
+  "aboutHeading": "15 Years Painting in Vermont",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Vermont Painters has been transforming homes and businesses in Vermont, VIC 3133 for over 15 years. Specializing in interior and exterior painting, we deliver quality finishes with meticulous attention to detail. Our team is fully licensed and insured, ensuring every project in Vermont meets Australian standards and exceeds customer expectations.",
+  "servicesHeading": "What We Paint & Finish",
+  "servicesSubheading": "Painting done right",
+  "servicesText": "From residential touch-ups to large commercial projects, Vermont Painters offers comprehensive painting services across Vermont and nearby suburbs. We use premium paints and materials for lasting results, tailored to withstand Melbourne's variable climate.",
+  "services": [
+    {
+      "title": "Interior Painting",
+      "desc": "Transform your living spaces with fresh, vibrant colours.",
+      "longDesc": "Our interior painting services in Vermont include walls, ceilings, and trim, using low-VOC paints for healthier indoor air. We ensure a clean, professional finish that enhances your home's appeal and value in the local market.",
+      "points": [
+        "Premium low-VOC paints",
+        "Detailed prep work",
+        "Clean finishes"
+      ]
+    },
+    {
+      "title": "Exterior Painting",
+      "desc": "Protect and beautify your home's exterior surfaces.",
+      "longDesc": "Exterior painting in Vermont withstands harsh Australian weather, including UV exposure and rain. We use durable, weather-resistant coatings to prevent peeling and fading, keeping your property looking great for years.",
+      "points": [
+        "UV-resistant paints",
+        "Thorough surface prep",
+        "Long-lasting protection"
+      ]
+    },
+    {
+      "title": "Roof Painting",
+      "desc": "Extend the life of your roof with expert coatings.",
+      "longDesc": "Roof painting in Vermont involves specialised heat-reflective coatings to reduce cooling costs and prevent leaks. Our service includes thorough cleaning and application for optimal results in Melbourne's eastern suburbs.",
+      "points": [
+        "Heat-reflective options",
+        "Leak prevention",
+        "Enhanced curb appeal"
+      ]
+    },
+    {
+      "title": "Deck & Fence Staining",
+      "desc": "Revitalise outdoor timber structures with quality stains.",
+      "longDesc": "Deck and fence staining in Vermont protects timber from UV damage and moisture, common in the local climate. We apply stains that enhance natural grain while providing durable protection against the elements.",
+      "points": [
+        "UV and moisture protection",
+        "Natural wood enhancement",
+        "Durable finishes"
+      ]
+    },
+    {
+      "title": "Commercial Painting",
+      "desc": "Professional painting for businesses and retail spaces.",
+      "longDesc": "Commercial painting in Vermont is tailored to minimise disruption to your operations. We work after hours or weekends to ensure your business looks its best with minimal downtime, serving local enterprises efficiently.",
+      "points": [
+        "Flexible scheduling",
+        "Business-friendly approach",
+        "High-quality finishes"
+      ]
+    },
+    {
+      "title": "Colour Consultation",
+      "desc": "Expert advice on colour selection for your project.",
+      "longDesc": "Our colour consultation service in Vermont helps you choose perfect shades based on lighting, style, and trends. We consider Melbourne's natural light to create a cohesive look for your home or business.",
+      "points": [
+        "Personalised advice",
+        "Climate-aware selections",
+        "Complimentary with projects"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Painter in Vermont?",
+  "bannerSubheading": "Get a free quote for your painting project today.",
+  "testimonialsHeading": "What Vermont Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Painting Guides & Advice",
+  "blogSubheading": "Deep-dives from the Vermont team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Vermont Painters did an amazing job on our interior repaint in Vermont. The team was punctual and the finish is flawless, using premium paints that have lasted years. Highly recommend for anyone in the area.",
+      "name": "Sarah Mitchell",
+      "role": "Vermont Homeowner"
+    },
+    {
+      "text": "As a business owner in Vermont, I needed quick and professional painting. Vermont Painters delivered on time and within budget, transforming our shopfront with durable exterior paint. Their attention to detail is top-notch.",
+      "name": "James Carter",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage several properties in Vermont and always use Vermont Painters. They handle everything from small touch-ups to full repaints with consistent quality, ensuring tenant satisfaction and property value.",
+      "name": "Linda Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Vermont",
+    "Ringwood",
+    "Croydon",
+    "Mitcham",
+    "Blackburn",
+    "Box Hill"
+  ],
+  "about": {
+    "intro": "Vermont Painters is your local painting expert in Vermont, VIC 3133, offering over 15 years of experience in residential and commercial projects across Melbourne's eastern suburbs.",
+    "story": [
+      "Founded in 2009, Vermont Painters has grown from a small family operation to a trusted name in the local painting industry. We take pride in our meticulous attention to detail and commitment to customer satisfaction, serving the Vermont community for over a decade with reliable, high-quality work.",
+      "Our team consists of fully licensed and insured painters who are passionate about delivering exceptional results. We use only the highest quality materials and techniques, adapted to Melbourne's climate, to ensure every project in Vermont meets Australian standards and enhances property value."
+    ],
+    "mission": "To provide Vermont residents and businesses with reliable, high-quality painting services that enhance the beauty and value of their properties.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our painters are fully licensed and certified for your peace of mind in Vermont."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule and always complete projects on time, every time."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden costs — you get a detailed, fixed quote before we start painting."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand by our work with a satisfaction guarantee on all painting projects."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "800+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Satisfaction guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Vermont Painters, we offer transparent pricing with no lock-in contracts. Get a free, no-obligation quote tailored to your specific painting needs in Vermont and surrounding areas.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Colour consultation",
+          "Detailed written quote"
+        ]
+      },
+      {
+        "name": "Standard Paint Job",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Prep and clean-up",
+          "Premium paint included",
+          "2-year warranty",
+          "Licensed painters"
+        ]
+      },
+      {
+        "name": "Full Property Makeover",
+        "price": "from $8,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete interior/exterior",
+          "Colour scheme design",
+          "Project management",
+          "Premium finishes"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the cost before we begin painting."
+  },
+  "contact": {
+    "intro": "Ready to transform your Vermont property? Contact Vermont Painters today for a free, no-obligation quote. We're here to help with all your painting needs across Vermont and nearby suburbs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Interior Painting Cost in Vermont?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of interior painting in Vermont, including factors like room size, paint quality, and prep work for Melbourne homes.",
+      "body": [
+        "Interior painting costs in Vermont can vary widely depending on several factors. The size of the room is a primary consideration, with larger spaces requiring more paint and labour. On average, expect to pay between $40 and $80 per square metre for professional painting in Vermont, which includes preparation, painting, and clean-up. This estimate is based on standard wall conditions; additional costs may apply for extensive prep work such as filling cracks or sanding surfaces.",
+        "The type of paint you choose also influences the total cost. Premium paints, such as low-VOC or eco-friendly options, typically cost more but offer better coverage and durability. In Vermont's climate, where humidity can be high, using quality interior paints helps prevent mould and peeling. Always ask your painter about the paint brands they use and ensure they are suitable for Australian conditions, especially in Melbourne's eastern suburbs.",
+        "Preparation work is crucial for a long-lasting finish. This includes cleaning walls, repairing imperfections, and priming surfaces. In older Vermont homes, which may have lead-based paint, proper safety measures and removal are essential and can add to the cost. A reputable painter like Vermont Painters will include all prep work in their quote, ensuring a smooth and professional result that stands up to local weather.",
+        "Labour costs are another significant component. Professional painters in Vermont charge hourly rates typically between $35 and $60 per hour. This covers not just painting but also setup, masking, and cleanup. The complexity of the job, such as high ceilings or intricate trim work, can increase labour time and thus the overall cost. Always get a detailed breakdown in your quote to understand all expenses.",
+        "When budgeting for interior painting in Vermont, consider the number of coats required. Most jobs need at least two coats for full coverage, especially when changing colours dramatically. Additional coats for dark to light transitions may increase paint and labour costs. Discuss the colour scheme with your painter to get an accurate estimate tailored to your Vermont property.",
+        "Finally, timing can affect costs. Booking during off-peak seasons, such as autumn or winter, may lead to better rates as painters have more availability. Vermont Painters offers competitive pricing year-round, but scheduling ahead can ensure your project is completed within your desired timeframe. Always insist on a fixed quote to avoid surprises and plan for Melbourne's variable weather."
+      ]
+    },
+    {
+      "title": "Best Time to Paint Your House Exterior in Melbourne's East",
+      "date": "February 2026",
+      "excerpt": "Learn the ideal seasons and conditions for exterior painting in Vermont and surrounding areas to ensure a durable, long-lasting finish.",
+      "body": [
+        "Timing is critical for exterior painting projects in Vermont, where Melbourne's east experiences distinct seasonal changes. The best time to paint is during the dry, mild months of autumn (March to May) or spring (September to November). These periods offer stable temperatures between 10°C and 30°C, which is optimal for paint application and drying in the local climate.",
+        "Avoid painting during the hot summer months, as high temperatures can cause paint to dry too quickly, leading to poor adhesion and cracking. Similarly, painting in winter is not recommended due to cold temperatures and increased humidity, which can prevent proper curing. Vermont's proximity to the Dandenong Ranges can bring sudden weather changes, so always check the forecast before starting.",
+        "Surface preparation is key to a long-lasting exterior paint job. Before painting, thoroughly clean the surfaces to remove dirt, mould, and loose paint. In Vermont, where homes are exposed to rain and wind, ensuring surfaces are dry and clean is essential. Power washing may be necessary for heavily soiled areas to achieve the best adhesion.",
+        "The type of paint used for exteriors should be formulated for Australian conditions. Look for paints with UV protection and waterproofing properties to withstand Vermont's climate. Acrylic paints are often recommended for their flexibility and durability. Always consult with your painter about the best products for your specific home in Melbourne's east.",
+        "Temperature and humidity levels affect paint application. Ideally, paint when humidity is below 70% and temperatures are consistent. Morning or late afternoon starts can avoid the heat of midday. Professional painters like Vermont Painters monitor conditions closely to ensure optimal results and prevent issues like bubbling or streaking.",
+        "Finally, consider the scope of your project. Larger exterior jobs may take several days, so plan for consecutive dry weather. Scheduling in advance with a reputable painter ensures availability and allows for proper planning. Vermont Painters offers free quotes and consultations to help you time your project perfectly for Vermont's conditions."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Paint Colours for Your Vermont Home",
+      "date": "January 2026",
+      "excerpt": "A guide to selecting paint colours that complement Vermont's architecture and climate, enhancing your home's appeal in Melbourne's east.",
+      "body": [
+        "Choosing the right paint colours for your Vermont home involves considering both aesthetics and practicality. Vermont's residential architecture ranges from classic federation homes to modern builds, each requiring different colour palettes. Start by assessing your home's style and the surrounding environment to create a cohesive look that suits the local area.",
+        "Consider the orientation of your home. North-facing rooms in Vermont receive ample sunlight, making them ideal for warmer tones like yellows or oranges. South-facing rooms, which are cooler, benefit from light, neutral colours to brighten the space. East and west-facing rooms may have changing light, so test samples at different times of day to see how they look in Melbourne's natural light.",
+        "Exterior colours should harmonise with the local landscape. Vermont is known for its leafy streets and green spaces, so earthy tones like greens, browns, or greys often blend well. Ensure the colours complement your roof and neighbouring properties to maintain community appeal and avoid clashing with the natural surroundings.",
+        "Interior colour choices can affect mood and perceived space. Light colours like whites or pastels can make small rooms feel larger, while dark colours add cosiness. In Vermont's variable climate, consider using low-VOC paints for better indoor air quality, especially in bedrooms and living areas where families spend time.",
+        "Always test paint colours before committing. Paint swatches on your walls and observe them over a few days in different lighting. Professional painters like Vermont Painters offer colour consultation services to help you make informed decisions based on your preferences and your home's characteristics in Vermont.",
+        "Finally, think about long-term trends versus timeless choices. While bold colours may be fashionable, neutral tones often have lasting appeal. For a balanced approach, use neutral base colours with accent walls or decor for pops of colour. Vermont Painters can guide you through the selection process to achieve your desired outcome for your Vermont property."
+      ]
+    },
+    {
+      "title": "Signs You Need to Repaint Your Vermont Property",
+      "date": "December 2025",
+      "excerpt": "Identify common indicators that it's time for a repaint, from fading colours to peeling paint, and protect your Vermont home.",
+      "body": [
+        "Knowing when to repaint your Vermont property can save you from more extensive damage and costly repairs. One of the first signs is fading colours, especially on sun-exposed exterior walls. In Melbourne's east, UV exposure can break down paint pigments over time, leading to a washed-out appearance that diminishes curb appeal and value.",
+        "Peeling or blistering paint is a clear indication that a repaint is needed. This often results from moisture infiltration, which is common in Vermont's humid climate. Peeling paint not only looks unsightly but can also expose underlying materials to water damage, rot, or mould growth, which can be expensive to fix.",
+        "Cracks and chips in the paintwork are another warning sign. These can occur due to settling of the building or temperature fluctuations. In Vermont, where temperatures can vary, regular inspections can help catch issues early. Addressing minor cracks promptly prevents them from worsening and affecting the paint's integrity.",
+        "Interior signs include discolouration or staining, which may be due to smoke, moisture, or general wear. High-traffic areas like hallways and kitchens often show signs of wear first. Repainting these spaces refreshes the look and protects the walls from further deterioration, maintaining your home's interior quality.",
+        "If your home is preparing for sale, a fresh coat of paint can significantly enhance its value and appeal to potential buyers. In competitive markets like Vermont, first impressions matter. A well-maintained exterior and interior can make a substantial difference in the selling price and attract more interest.",
+        "Regular maintenance, including repainting every 5-10 years for exteriors and every 7-14 years for interiors, is advisable. Vermont Painters offers free assessments to determine if your property needs a repaint. Scheduling regular checks ensures your Vermont home remains in top condition against local environmental factors."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Vermont Painters | Painting in Vermont VIC 3133",
+      "description": "Vermont Painters offers professional interior, exterior, and roof painting services in Vermont, VIC. Get a free quote for your home today."
+    },
+    "about": {
+      "title": "About Vermont Painters | Local Painting Experts",
+      "description": "Discover Vermont Painters, your trusted local painting team in Vermont with over 15 years of experience. Learn about our story and services."
+    },
+    "services": {
+      "title": "Painting Services in Vermont | Interior, Exterior & More",
+      "description": "Explore our comprehensive painting services in Vermont, including interior, exterior, roof, and commercial painting. Quality guaranteed for Melbourne homes."
+    },
+    "pricing": {
+      "title": "Painting Costs in Vermont | Transparent Pricing",
+      "description": "Get transparent pricing for painting services in Vermont. No hidden fees, free quotes, and detailed estimates for all projects in VIC 3133."
+    },
+    "contact": {
+      "title": "Contact Vermont Painters | Free Quotes & Advice",
+      "description": "Contact Vermont Painters for free quotes and expert advice on painting projects in Vermont, VIC. We respond within 24 hours to enquiries."
+    },
+    "blog": {
+      "title": "Vermont Painting Blog | Tips, Costs & Guides",
+      "description": "Read the latest painting tips, cost guides, and advice for Vermont homeowners. Stay informed with our local blog posts on Melbourne's east."
+    }
+  }
+}
