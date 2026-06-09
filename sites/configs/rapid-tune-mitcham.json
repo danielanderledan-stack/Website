@@ -1,0 +1,298 @@
+{
+  "siteType": "builder",
+  "businessName": "Rapid Tune Mitcham",
+  "suburb": "Mitcham",
+  "phone": "0398 737 200",
+  "email": "mitcham@rapidtune.com.au",
+  "address": "662A Whitehorse Rd, Mitcham VIC 3132",
+  "tagline": "Mitcham's Trusted Automotive Experts",
+  "primaryColor": "#398ffc",
+  "primaryColorRgb": "57, 143, 252",
+  "primaryColorHover": "#2A7FEC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mitcham's Go-To Mechanics",
+      "sub": "Over 15 years serving local drivers"
+    },
+    {
+      "title": "Log Book Servicing & Mechanical Repairs",
+      "sub": "All makes and models guaranteed"
+    },
+    {
+      "title": "Licensed Roadworthy Tester in Mitcham",
+      "sub": "Fast, certified inspections"
+    }
+  ],
+  "ctaHeading": "Mitcham's mechanics are ready — book your service today.",
+  "aboutHeading": "Over 15 Years in Mitcham",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Rapid Tune Mitcham has been proudly serving the local community since 2007. With over 17 years of combined experience, our dedicated team delivers exceptional vehicle care. We combine expert workmanship with friendly, honest service that keeps Mitcham drivers coming back.",
+  "servicesHeading": "Our Automotive Services",
+  "servicesSubheading": "Expert care for all vehicles",
+  "servicesText": "At Rapid Tune Mitcham, we offer comprehensive servicing from log book maintenance to complex diagnostics. Our licensed technicians handle all makes and models with precision and care.",
+  "services": [
+    {
+      "title": "General & Log Book Servicing",
+      "desc": "Scheduled maintenance to keep your vehicle running smoothly.",
+      "longDesc": "Our log book servicing follows manufacturer guidelines, preserving your warranty. We use quality parts and provide detailed reports for Mitcham vehicle owners.",
+      "points": [
+        "Warranty Preserved",
+        "Quality Parts Used",
+        "Detailed Service Reports"
+      ]
+    },
+    {
+      "title": "Tyres & Wheel Alignment",
+      "desc": "Expert tyre fitting, rotation, and precision wheel alignment services.",
+      "longDesc": "Proper tyre care enhances safety and fuel efficiency. We offer competitive prices on tyres and state-of-the-art alignment in Mitcham.",
+      "points": [
+        "Improved Fuel Efficiency",
+        "Enhanced Safety",
+        "Competitive Tyre Prices"
+      ]
+    },
+    {
+      "title": "Licensed Roadworthy Testing",
+      "desc": "Official RWC inspections for vehicle registration in Victoria.",
+      "longDesc": "As licensed testers, we provide thorough roadworthy certificates. Quick turnaround to get your vehicle compliant and on Mitcham roads.",
+      "points": [
+        "Licensed Inspectors",
+        "Fast Turnaround",
+        "Compliance Guaranteed"
+      ]
+    },
+    {
+      "title": "Mechanical & Brake Repairs",
+      "desc": "Comprehensive repairs for engines, brakes, and all mechanical systems.",
+      "longDesc": "From brake pads to engine overhauls, our skilled mechanics diagnose and fix issues efficiently. Trust Mitcham's experts for reliable repairs.",
+      "points": [
+        "Expert Diagnostics",
+        "Efficient Repairs",
+        "All Systems Covered"
+      ]
+    },
+    {
+      "title": "Auto-Electrical & Diagnostics",
+      "desc": "Advanced diagnostics and repairs for electrical and EFI systems.",
+      "longDesc": "Modern vehicles need specialised electrical care. We use latest tools to diagnose and repair auto-electrical issues in Mitcham.",
+      "points": [
+        "Advanced Diagnostics",
+        "EFI Specialists",
+        "Electrical Expertise"
+      ]
+    },
+    {
+      "title": "Electric Vehicle & Transmission",
+      "desc": "Servicing for EVs, clutches, and transmission systems.",
+      "longDesc": "As automotive technology evolves, we adapt. From electric vehicle repairs to transmission servicing, Mitcham drivers can rely on us.",
+      "points": [
+        "EV Ready Services",
+        "Transmission Experts",
+        "Future-Proof Care"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Mitcham?",
+  "bannerSubheading": "Professional automotive services with no fuss.",
+  "testimonialsHeading": "What Mitcham Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Mitcham Auto Guides & Tips",
+  "blogSubheading": "Helping you maintain your vehicle",
+  "contactHeading": "Book Your Service Today",
+  "contactSubheading": "Call or email for a free quote",
+  "reviews": [
+    {
+      "text": "Rapid Tune Mitcham handled my log book service perfectly. They were honest about what needed doing and the price was fair. Highly recommend for anyone in Mitcham needing a reliable mechanic.",
+      "name": "Dave Thompson",
+      "role": "Mitcham Homeowner"
+    },
+    {
+      "text": "I've taken my car here for years. The roadworthy test was quick and thorough. As a local business owner, I appreciate their efficiency and professionalism.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Great service for my fleet vehicles. They keep everything running smoothly and provide detailed reports. A trusted mechanic for property managers in the area.",
+      "name": "Michael O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Mitcham",
+    "Ringwood",
+    "Blackburn",
+    "Doncaster",
+    "Templestowe",
+    "Box Hill"
+  ],
+  "about": {
+    "intro": "Rapid Tune Mitcham has been a cornerstone of the local community since 2007, providing trusted automotive services.",
+    "story": [
+      "Since 2007, Rapid Tune Mitcham has built a reputation for honest, reliable mechanic services in the suburb. Our team of experienced technicians understands the unique needs of Mitcham drivers, from daily commutes to family vehicles.",
+      "We invest in the latest diagnostic equipment and training to service all makes and models, including electric vehicles. Our commitment is to keep you safe on the road with work that stands the test of time."
+    ],
+    "mission": "To deliver exceptional automotive care to Mitcham with integrity and expertise.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All technicians are qualified and licensed for your peace of mind."
+      },
+      {
+        "title": "Honest Service",
+        "text": "We provide upfront quotes with no hidden fees or surprises."
+      },
+      {
+        "title": "Local Experts",
+        "text": "Serving Mitcham since 2007 with community-focused care."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "All repairs come with a workmanship guarantee for your assurance."
+      }
+    ],
+    "stats": [
+      {
+        "value": "17+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Free initial quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Rapid Tune Mitcham, we offer transparent pricing with no lock-in contracts. Get a fixed quote before any work begins.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$150",
+        "unit": "per service",
+        "highlight": false,
+        "features": [
+          "Oil & filter change",
+          "Multi-point inspection",
+          "Top up fluids"
+        ]
+      },
+      {
+        "name": "Log Book Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Manufacturer specifications",
+          "Warranty preserved",
+          "Detailed report",
+          "Quality parts"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive diagnosis",
+          "Competitive parts pricing",
+          "Fixed quote provided"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront so you know the cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to book your vehicle in? Contact Rapid Tune Mitcham for a free quote or to schedule a service."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should You Service Your Car in Mitcham?",
+      "date": "March 2026",
+      "excerpt": "Regular servicing keeps your vehicle reliable. Learn the recommended intervals for Mitcham drivers based on local driving conditions.",
+      "body": [
+        "In Mitcham, where traffic congestion on Whitehorse Road and suburban streets can wear down vehicles faster, adhering to regular servicing intervals is crucial. Most manufacturers recommend every 10,000 to 15,000 kilometres or every 6 to 12 months, whichever comes first. For Mitcham drivers, considering local factors like stop-start traffic and occasional long trips on the Eastern Freeway, erring on the side of more frequent checks can prevent breakdowns. At Rapid Tune Mitcham, we tailor service schedules based on your driving habits and vehicle type, ensuring optimal performance.",
+        "Log book servicing is essential for maintaining your vehicle's warranty and resale value. By following the manufacturer's guidelines, you preserve critical components and avoid costly future repairs. In Mitcham's variable weather, from hot summers to cool winters, regular oil changes and filter replacements help engines run efficiently. Our technicians use high-quality parts that meet or exceed OEM standards, giving you peace of mind. We provide detailed service records, so you have documentation for warranty claims or when selling your car in the local market.",
+        "Knowing when your car needs immediate attention can save you from bigger problems. Warning signs like unusual noises, poor fuel economy, or dashboard lights in Mitcham traffic should prompt a visit. For instance, if your brakes feel spongy on the steep hills around Mitcham, it's time for an inspection. Our team at Rapid Tune Mitcham uses advanced diagnostics to pinpoint issues quickly. Regular checks not only enhance safety but also improve fuel efficiency, which is valuable given current petrol prices in Melbourne's east.",
+        "Preventive maintenance is especially important for Mitcham's roads, which can be rough in some residential areas. Services like tyre rotations and wheel alignments ensure even wear and extend tyre life. Given the suburb's proximity to busy roads, alignment checks after hitting potholes are wise. We also inspect suspension components to handle the wear from daily commutes. By investing in regular care, Mitcham vehicle owners can avoid unexpected breakdowns and keep their cars running smoothly for years.",
+        "Cost savings from regular servicing are significant. For example, timely oil changes can prevent engine damage that might cost thousands to repair. In Mitcham, where living costs are rising, proactive maintenance helps budget-conscious drivers. We offer competitive pricing for log book services, ensuring value for money. Our transparency means no surprises, and we explain what each service includes. Many local customers find that consistent care reduces long-term expenses by minimising major repairs.",
+        "Rapid Tune Mitcham provides tailored servicing plans based on your vehicle's needs and your lifestyle. Whether you're a daily commuter or occasional driver, we recommend intervals that suit Mitcham conditions. We use the latest equipment to service all makes, from European cars to Japanese models. Contact us to discuss a schedule that keeps your car in top shape. Our goal is to help Mitcham drivers enjoy reliable, safe vehicles without the hassle of unexpected issues."
+      ]
+    },
+    {
+      "title": "What Does a Roadworthy Inspection Involve in Victoria?",
+      "date": "February 2026",
+      "excerpt": "Understanding the RWC process for Mitcham vehicles, including key checks and common issues to pass smoothly.",
+      "body": [
+        "In Victoria, a Roadworthy Certificate (RWC) is mandatory for vehicle registration transfers or re-registration. For Mitcham residents, this process ensures your car meets safety standards for local roads. At Rapid Tune Mitcham, as licensed testers, we conduct thorough inspections covering brakes, tyres, lights, and more. The RWC is not a mechanical check but focuses on critical safety components. Understanding what's involved helps Mitcham drivers prepare and avoid delays.",
+        "Key areas checked during an RWC include the braking system, steering and suspension, tyres, lights, and body condition. In Mitcham, where vehicles face varying road conditions, worn tyres or faulty brakes are common issues. We inspect for even tread depth, proper brake pad thickness, and functional lights, including indicators. The body must be free from major rust or damage that could compromise safety. Our testers use detailed checklists to ensure nothing is missed.",
+        "Common reasons for RWC failures in Mitcham vehicles include worn tyres, especially if drivers frequent rough suburban streets, and faulty suspension from potholes. Brake problems often arise from lack of regular servicing. To prepare, Mitcham car owners should address known issues beforehand, like replacing bald tyres or fixing broken lights. We recommend a pre-inspection check at Rapid Tune Mitcham to identify and resolve potential problems, increasing the chance of a first-time pass.",
+        "The RWC process typically takes 1 to 2 hours, depending on the vehicle's condition. For Mitcham residents, we offer quick turnaround times to minimise inconvenience. If your car fails, we provide a detailed report outlining required repairs and can often fix issues on-site. In Victoria, the RWC is valid for 30 days, so timing is important for registration. We advise Mitcham drivers to schedule inspections well before renewal dates to avoid rush fees.",
+        "Choosing a licensed tester in Mitcham ensures compliance and reliability. At Rapid Tune Mitcham, our testers are fully qualified and use authorised procedures. We provide certificates that are accepted by VicRoads, making the registration process seamless. For local businesses with fleet vehicles, we offer bulk inspection services to keep all cars roadworthy. Our reputation in Mitcham is built on accuracy and honesty, so you can trust the results.",
+        "Maintaining your vehicle regularly can simplify RWC inspections. For Mitcham drivers, this means keeping up with services to prevent issues like brake wear or tyre damage. We offer comprehensive servicing that addresses RWC requirements proactively. If you're planning to sell your car in Mitcham, a valid RWC can enhance its marketability. Contact us to book an inspection or discuss how to keep your vehicle in top condition for the long term."
+      ]
+    },
+    {
+      "title": "Tyre Maintenance Tips for Melbourne's East",
+      "date": "January 2026",
+      "excerpt": "Keep your tyres in top condition with advice specific to Mitcham and surrounding suburbs for safety and efficiency.",
+      "body": [
+        "In Melbourne's eastern suburbs like Mitcham, proper tyre maintenance is vital due to diverse road conditions, from busy arterials to hilly residential areas. Tyres are your car's only contact with the road, so regular checks prevent accidents and improve fuel economy. At Rapid Tune Mitcham, we recommend inspecting tyres monthly for tread depth, pressure, and damage. Given Mitcham's climate, with hot summers that can affect tyre pressure, staying vigilant ensures optimal performance.",
+        "Tread depth is a critical safety factor; in Victoria, the legal minimum is 1.6mm. For Mitcham drivers, especially those commuting on the Eastern Freeway, deeper tread provides better grip in wet conditions. We suggest using the '20-cent coin test'—if tread doesn't cover the coin's outer rim, it's time for replacement. Worn tyres increase stopping distances, which is risky in Mitcham's school zones or busy intersections. Regular rotations every 10,000 km help even out wear.",
+        "Tyre pressure should match the manufacturer's specifications, found in the door jamb or manual. In Mitcham, temperature fluctuations can cause pressure changes; under-inflation leads to poor fuel efficiency and uneven wear. We use digital gauges for accurate checks. For electric vehicles becoming common in Mitcham, proper inflation is even more critical due to heavier batteries. Over-inflation reduces traction, so balance is key for handling Mitcham's winding roads.",
+        "Punctures and damage are frequent issues in Mitcham, where roads may have debris or potholes. Regular visual inspections can catch cuts, bulges, or embedded objects early. If you hit a kerb in Mitcham's tight parking areas, get an alignment check to prevent tyre damage. We offer mobile services for Mitcham residents, providing convenience for busy schedules. Promptly addressing minor issues avoids blowouts, especially on high-speed roads like the freeway.",
+        "Wheel alignment and balancing are essential for tyre longevity. Misalignment causes uneven wear, often seen on the inner or outer edges. In Mitcham, where road surfaces vary, alignment checks after any impact are wise. We use computerised systems for precision, ensuring even tread wear. Balanced wheels reduce vibration, enhancing comfort on Mitcham's longer commutes. This maintenance not only extends tyre life but also improves vehicle handling and safety.",
+        "Choosing the right tyres for Mitcham conditions involves considering all-season or performance tyres based on driving habits. For daily commuting in wet or dry weather, quality tyres from reputable brands are a worthwhile investment. We stock tyres suitable for Mitcham's needs and offer competitive pricing. Regular maintenance, including cleaning to prevent corrosion, keeps tyres in top shape. Contact Rapid Tune Mitcham for a tyre assessment to ensure your vehicle is safe and efficient on local roads."
+      ]
+    },
+    {
+      "title": "Electric Vehicle Servicing: What Mitcham Owners Need to Know",
+      "date": "December 2025",
+      "excerpt": "As EVs become common, learn how Rapid Tune Mitcham services electric vehicles with specialized care.",
+      "body": [
+        "Electric vehicles (EVs) are gaining popularity in Mitcham, thanks to their efficiency and environmental benefits. However, servicing EVs differs from traditional cars, requiring specialized knowledge. At Rapid Tune Mitcham, we've invested in training and equipment to handle EV maintenance. For Mitcham owners, understanding EV-specific needs ensures longevity and performance. From battery checks to brake systems, our services cover all aspects of electric vehicle care.",
+        "Battery health is paramount for EVs in Mitcham, where daily commutes and climate affect performance. We use advanced diagnostics to monitor battery capacity and charging cycles. In Melbourne's variable weather, from hot summers to cool winters, battery efficiency can fluctuate. Regular checks help prevent range anxiety, a common concern for Mitcham drivers. We recommend annual battery inspections to identify degradation early and optimize usage for local driving patterns.",
+        "Regenerative braking systems in EVs reduce wear on brake pads, but they still need inspection. In Mitcham's hilly terrain, where drivers frequently use brakes, this system is crucial for efficiency. Our technicians check brake fluid, pads, and discs to ensure everything functions correctly. EV tyres also wear differently due to instant torque; rotation schedules are adjusted for Mitcham usage. We provide tailored plans to keep all components in sync.",
+        "EV servicing includes checking electrical systems, cooling units, and software updates. Mitcham's tech-savvy drivers benefit from our ability to handle over-the-air updates and onboard diagnostics. With more EVs on Mitcham roads, staying current with manufacturer recommendations is essential. We use OEM tools to service brands like Tesla, Nissan, and Hyundai, ensuring compatibility. Our workshop is equipped with high-voltage safety gear for secure operations.",
+        "Cost considerations for EV servicing in Mitcham are often lower than for petrol cars due to fewer moving parts. However, specialized parts and labour can be expensive if issues arise. We offer transparent pricing for EV services, helping Mitcham owners budget effectively. Insurance and warranty coverage for EVs is also important; our services comply with all requirements to maintain validity. We advise Mitcham drivers to review their policies for EV-specific terms.",
+        "The future of automotive care in Mitcham includes more EVs, and Rapid Tune Mitcham is prepared. We stay updated on emerging technologies to serve our community. Whether you're considering an EV or already own one, our team provides expert advice. From charging solutions to routine maintenance, we support Mitcham's transition to sustainable transport. Contact us to learn how we can keep your electric vehicle running smoothly for years to come."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Rapid Tune Mitcham | Mechanic in Mitcham | Log Book Servicing",
+      "description": "Mitcham's trusted mechanic since 2007. Log book servicing, roadworthy tests & repairs for all makes. Call 0398 737 200."
+    },
+    "about": {
+      "title": "About Rapid Tune Mitcham | Local Mechanic Since 2007",
+      "description": "Learn about Rapid Tune Mitcham, your local automotive experts with over 15 years of experience in servicing the community."
+    },
+    "services": {
+      "title": "Automotive Services in Mitcham | Mechanic & Repairs",
+      "description": "Comprehensive mechanic services in Mitcham: log book servicing, tyres, roadworthy tests, and more. All makes and models."
+    },
+    "pricing": {
+      "title": "Mechanic Costs in Mitcham | Transparent Pricing",
+      "description": "Fixed-price mechanic services in Mitcham. No hidden fees. Get a quote for log book servicing, repairs, and inspections."
+    },
+    "contact": {
+      "title": "Contact Rapid Tune Mitcham | Book a Mechanic",
+      "description": "Contact Mitcham's mechanic for free quotes. Call 0398 737 200 or email mitcham@rapidtune.com.au."
+    },
+    "blog": {
+      "title": "Mitcham Mechanic Blog | Car Care Tips & Advice",
+      "description": "Expert automotive advice from Rapid Tune Mitcham. Tips on servicing, tyres, EVs, and more for local drivers."
+    }
+  }
+}
