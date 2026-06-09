@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "APlus Plumbing & Gas Fitting",
+  "suburb": "Brunswick",
+  "phone": "0461329657",
+  "email": "aplusplumb1@gmail.com",
+  "address": "25 Talbot St, Brunswick VIC 3056",
+  "tagline": "Brunswick's Trusted Plumbers",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick's Go-To Plumbers",
+      "sub": "Zero call-out fees & fast response"
+    },
+    {
+      "title": "24/7 Emergency Plumbing",
+      "sub": "Available any time in Brunswick"
+    },
+    {
+      "title": "Gas Fitting & Maintenance",
+      "sub": "Licensed experts in your suburb"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Brunswick? Call Us Now!",
+  "aboutHeading": "Brunswick Plumbing Specialists",
+  "aboutSubheading": "Local Service You Can Trust",
+  "aboutText": "Based in Brunswick, APlus Plumbing & Gas has been serving the local community with pride. We focus on transparent pricing, with zero call-out fees and quotes provided over the phone whenever possible. Our goal is to deliver fast, prompt plumbing solutions while ensuring you receive the highest level of care and attention.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert Solutions for Every Need",
+  "servicesText": "From blocked drains to gas fitting, we offer a comprehensive range of plumbing services in Brunswick. With zero call-out fees and transparent pricing, we handle everything from minor repairs to major installations.",
+  "services": [
+    {
+      "title": "Drain Clearing",
+      "desc": "Fast and effective unblocking of drains using specialised equipment to restore flow and prevent backups."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitting services for installations, repairs, and safety checks in residential and commercial properties."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency response for burst pipes, leaks, and urgent plumbing issues to minimise damage quickly."
+    },
+    {
+      "title": "Pipe Repairs",
+      "desc": "Expert repair and replacement of damaged pipes to stop leaks and ensure reliable water flow throughout your property."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems for consistent and efficient hot water supply."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine plumbing maintenance to keep your system running smoothly and avoid costly future problems."
+    }
+  ],
+  "bannerHeading": "Plumbing Help in Brunswick?",
+  "bannerSubheading": "Fast, reliable service with no call-out fees.",
+  "testimonialsHeading": "What Brunswick Locals Say",
+  "testimonialsSubheading": "Trusted by Hundreds of Customers",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "From the APlus Team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within the hour",
+  "reviews": [
+    {
+      "text": "APlus Plumbing cleared my blocked drain in Brunswick quickly and efficiently. Zero call-out fee and transparent quote – highly recommend their prompt service.",
+      "name": "James Mitchell",
+      "role": "Brunswick Homeowner"
+    },
+    {
+      "text": "They installed a new gas fitting in my kitchen with no fuss. Professional and reliable, APlus is the go-to plumber in the area.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Emergency plumbing service was fast when I had a burst pipe. Their team arrived within minutes and fixed it promptly. Great work!",
+      "name": "Michael Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
