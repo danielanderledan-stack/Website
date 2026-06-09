@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electrician Bundoora",
+  "suburb": "Bundoora",
+  "phone": "03 9923 2030",
+  "email": "admin@fluroelectrics.com.au",
+  "address": "62 Wallara Crescent, Bundoora VIC 3083",
+  "tagline": "Bundoora's Trusted Electricians",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6a00cf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bundoora's Expert Electricians",
+      "sub": "Comprehensive services for homes & businesses"
+    },
+    {
+      "title": "Home Automation & Renewable Energy",
+      "sub": "Specialists in CBus and solar solutions"
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "sub": "Reliable help when you need it most"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Bundoora? Let's Get Started.",
+  "aboutHeading": "Bundoora's Electrical Experts",
+  "aboutSubheading": "Licensed, reliable & local",
+  "aboutText": "At Fluro Electrics, we are Bundoora's go-to electricians for both residential and commercial needs. Our experienced team provides a full spectrum of services, including emergency electrical work, wiring and power installations, data cabling, home rewiring, and smart home automation. We adhere to strict Australian safety standards and offer reliable, professional service. Contact us today for a free quote.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for Bundoora",
+  "servicesText": "Whether you need emergency repairs, new installations, or upgrades, our skilled electricians are here to help. We offer comprehensive services for homes and businesses, including power and wiring, data cabling, and renewable energy solutions. Trust us for reliable and efficient electrical work in Bundoora.",
+  "services": [
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "Quick response for power outages, blown fuses, and electrical faults. Available during business hours for Bundoora residents and businesses."
+    },
+    {
+      "title": "Wiring and Power",
+      "desc": "Expert installation and repair of power points, lighting, ovens, air conditioners, and more. All work meets Australian safety standards."
+    },
+    {
+      "title": "Data Cabling and TV",
+      "desc": "Professional setup for NBN, data points, phone outlets, TV antennas, and intercom systems. Licensed cabling technicians."
+    },
+    {
+      "title": "Home Rewiring and Switchboard Upgrades",
+      "desc": "Safe rewiring for older homes and switchboard upgrades to handle modern power demands. Minimise interruptions with our seamless process."
+    },
+    {
+      "title": "Home Automation Services",
+      "desc": "CBus installation, upgrades, and programming for smart homes. Enhance convenience and energy efficiency with automated systems."
+    },
+    {
+      "title": "Renewable Energy Solutions",
+      "desc": "Solar panel installation and integration for sustainable energy. Reduce your carbon footprint and save on electricity bills."
+    }
+  ],
+  "bannerHeading": "Bundoora's Electrical Experts Are Here to Help",
+  "bannerSubheading": "Fast, reliable service for all your electrical needs",
+  "testimonialsHeading": "What Bundoora Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from our Bundoora team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Fluro Electrics did an excellent job rewiring my old Bundoora home. The team was professional, and the work was completed to a high standard. Highly recommend for any electrical needs.",
+      "name": "John Smith",
+      "role": "Bundoora Homeowner"
+    },
+    {
+      "text": "We use Fluro Electrics for all our commercial electrical maintenance. Their response time is great, and they always deliver quality work. A reliable partner for our business.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Had Fluro Electrics install new data cabling in our Bundoora office. Efficient, tidy, and the system works perfectly. They are my go-to electricians in the area.",
+      "name": "Mike Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
