@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Millar Electrics",
+  "suburb": "Nunawading",
+  "phone": "0421 237 773",
+  "email": "david@millarelectrics.com.au",
+  "address": "31/37 Norcal Rd, Nunawading VIC 3131",
+  "tagline": "Nunawading's Licensed Electricians Since 2016",
+  "primaryColor": "#00D4FF",
+  "primaryColorRgb": "0, 212, 255",
+  "primaryColorHover": "#00B8D4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Nunawading's Licensed Electricians",
+      "sub": "Family-owned since 2016"
+    },
+    {
+      "title": "Powering Nunawading's Homes & Businesses",
+      "sub": "EV chargers, rewiring, smart homes & more"
+    },
+    {
+      "title": "Emergency Electrician Across Melbourne's East",
+      "sub": "Fast response 7 days a week"
+    }
+  ],
+  "ctaHeading": "Nunawading's electricians are ready — let's power up your project.",
+  "aboutHeading": "Nunawading's Electricians Since 2016",
+  "aboutSubheading": "Less faults, more volts",
+  "aboutText": "Home & Commercial Electricians Melbourne is a family-owned electrical business based in Nunawading, proudly serving Melbourne's eastern suburbs since 2016. From EV charger installations in Box Hill to complete home rewiring in Doncaster and smart home automation in Nunawading itself, we deliver reliable, licensed electrical work with no subcontractors. Our trusted crew handles every job from start to finish across the eastern suburbs, backed by a lifetime workmanship guarantee and genuine local knowledge.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Residential & commercial across the east",
+  "servicesText": "We cover every electrical need across Melbourne's eastern suburbs — from EV charger installations in Nunawading to thermographic inspections in Box Hill and smart home automation in Doncaster. Our licensed crew delivers reliable, certified work with no subcontractors and no hidden costs.",
+  "services": [
+    {
+      "title": "EV Charger Installation",
+      "desc": "Home and business EV charger installation across Nunawading and Melbourne's eastern suburbs. Tesla, Zappi and all major brands.",
+      "longDesc": "Licensed EV charger installation across Nunawading, Box Hill and Melbourne's eastern suburbs. We install Tesla, Zappi and all major charger brands with full certification and switchboard assessment included.",
+      "points": [
+        "Same-day installation available",
+        "All charger brands supported",
+        "Fully certified & guaranteed"
+      ]
+    },
+    {
+      "title": "Home Rewiring",
+      "desc": "Complete home rewiring for older Nunawading and eastern suburbs properties. We upgrade wiring, switchboards and ensure full safety compliance.",
+      "longDesc": "Complete home rewiring services for Nunawading and eastern suburbs properties. We replace outdated wiring, upgrade switchboards and ensure full AS/NZS 3000 compliance for your family's safety.",
+      "points": [
+        "Complete switchboard upgrades",
+        "AS/NZS 3000 compliant",
+        "Lifetime workmanship guarantee"
+      ]
+    },
+    {
+      "title": "Smart Home Automation",
+      "desc": "Professional smart home design and installation for Nunawading and Melbourne's eastern suburbs. Lighting, climate, security and audio integrated.",
+      "longDesc": "Professional smart home automation design and installation for Nunawading and Melbourne's eastern suburbs homes. From automated lighting and climate control to whole-home audio and security, we build reliable integrated systems.",
+      "points": [
+        "Custom system design",
+        "Seamless device integration",
+        "Ongoing support included"
+      ]
+    },
+    {
+      "title": "Thermographic Inspection",
+      "desc": "Infrared thermographic inspections to detect hidden electrical faults. Protecting Nunawading homes and businesses from fire risk.",
+      "longDesc": "Advanced thermographic electrical inspections using infrared imaging to detect hidden faults across Nunawading, Box Hill and Melbourne's eastern suburbs. Prevent fires and costly damage with our detailed thermal reports and same-day remediation.",
+      "points": [
+        "Infrared fault detection",
+        "Detailed thermal reports",
+        "Same-day remediation available"
+      ]
+    },
+    {
+      "title": "Office & Retail Fit-Outs",
+      "desc": "Electrical fit-outs for offices and retail spaces across Melbourne's eastern suburbs. Compliant, efficient and on time.",
+      "longDesc": "Complete electrical fit-outs for offices and retail spaces across Melbourne's eastern suburbs. From Nunawading shops to Box Hill offices, we deliver compliant, efficient electrical systems on time and on budget.",
+      "points": [
+        "Minimise business downtime",
+        "Full compliance documentation",
+        "Tailored electrical design"
+      ]
+    },
+    {
+      "title": "Commercial Emergency Response",
+      "desc": "24/7 commercial emergency electrical response across Nunawading and the eastern suburbs. Fast, reliable and fully equipped.",
+      "longDesc": "Fast commercial emergency electrical response across Nunawading and Melbourne's eastern suburbs. Available 7 days a week, our licensed electricians restore power and safety to your business with minimal downtime.",
+      "points": [
+        "Available 7 days a week",
+        "Rapid eastern suburbs response",
+        "Fully equipped service vehicles"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Nunawading?",
+  "bannerSubheading": "Licensed, insured and available 7 days a week.",
+  "testimonialsHeading": "What Eastern Suburbs Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners & businesses",
+  "blogHeading": "Electrical Tips & Guides — Melbourne's East",
+  "blogSubheading": "Expert advice from your local Nunawading electricians",
+  "contactHeading": "Get a Free Electrical Quote",
+  "contactSubheading": "Fast response across Nunawading & surrounds",
+  "reviews": [
+    {
+      "text": "Had our home in Doncaster completely rewired by Millar Electrics. The crew were punctual, professional and left the place spotless. The written quote was spot-on with no surprises at all. Would absolutely recommend them to anyone in the eastern suburbs.",
+      "name": "Sarah Mitchell",
+      "role": "Doncaster Homeowner"
+    },
+    {
+      "text": "We needed EV chargers installed at our Box Hill office and Millar Electrics had it sorted within a day. Great communication, fair pricing and the work was fully certified. We will definitely use them again for future electrical work.",
+      "name": "James Thornton",
+      "role": "Box Hill Business Owner"
+    },
+    {
+      "text": "Called Millar Electrics for a thermographic inspection on our Nunawading warehouse. They found issues we had no idea about and fixed everything on the spot. Brilliant service from start to finish — highly recommended for commercial properties.",
+      "name": "Karen Docherty",
+      "role": "Nunawading Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Nunawading",
+    "Box Hill",
+    "Doncaster",
+    "Blackburn",
+    "Ringwood",
+    "Templestowe",
+    "Balwyn",
+    "Mitcham"
+  ],
+  "about": {
+    "intro": "Home & Commercial Electricians Melbourne has been the trusted choice for licensed electrical services across Nunawading and Melbourne's eastern suburbs since 2016.",
+    "story": [
+      "Founded in 2016 and based in Nunawading, Millar Electrics started with a simple idea: honest electrical work without the runaround. As a family-owned business, we've grown to cover Box Hill, Doncaster, Blackburn, Ringwood and surrounds across Melbourne's eastern suburbs. We've never lost the personal touch that our clients value, and every job is completed by the same crew that quoted it.",
+      "We don't use estimators or subcontractors you've never met. When you call Millar Electrics, the same family crew that gives you the quote is the one that turns up to do the work. That consistency means better communication, better quality, and electrical systems that are built to last across Nunawading and Melbourne's eastern suburbs."
+    ],
+    "mission": "To deliver reliable, licensed electrical services to Nunawading and Melbourne's eastern suburbs with honesty, precision and zero shortcuts.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed & Insured",
+        "text": "Every electrician on our team holds current A-Grade licensing and full public liability insurance coverage."
+      },
+      {
+        "title": "No Subcontractors",
+        "text": "The same family crew quotes your job and completes it — no strangers on site and no miscommunication."
+      },
+      {
+        "title": "Written Quotes Upfront",
+        "text": "We provide fixed written quotes before any work begins so there are never any nasty surprises."
+      },
+      {
+        "title": "Lifetime Guarantee",
+        "text": "Every job we complete comes with our lifetime workmanship guarantee for total peace of mind."
+      }
+    ],
+    "stats": [
+      {
+        "value": "8+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "A-Grade Licensed Electricians",
+      "Fully Insured",
+      "Free Written Quotes",
+      "Lifetime Workmanship Guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "We provide fixed, upfront pricing for all electrical work across Nunawading and Melbourne's eastern suburbs. No lock-in contracts, no hidden fees — just honest quotes for honest work.",
+    "packages": [
+      {
+        "name": "Call-Out & Inspection",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site electrical assessment",
+          "Upfront fixed quote provided",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Residential Job",
+        "price": "from $450",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician on site",
+          "Full safety certification",
+          "Written warranty included",
+          "Lifetime workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Commercial Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Tailored scoping and planning",
+          "Dedicated project manager",
+          "Full compliance documentation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and upfront — the price we quote is the price you pay, guaranteed."
+  },
+  "contact": {
+    "intro": "Need a licensed electrician in Nunawading or Melbourne's eastern suburbs? Give us a call or send us a message and we'll get back to you with a free, no-obligation quote."
+  },
+  "blogPosts": [
+    {
+      "title": "EV Charger Installation Cost in Nunawading & Melbourne's East (2026 Guide)",
+      "date": "March 2026",
+      "excerpt": "A complete guide to EV charger installation costs in Nunawading and Melbourne's eastern suburbs. Learn about charger types, labour, switchboard requirements and government rebates in 2026.",
+      "body": [
+        "Installing an EV charger at your Nunawading home is one of the smartest investments you can make in 2026, but understanding the true cost before you commit is essential. In Melbourne's eastern suburbs, the total price for a home EV charger installation typically ranges from $1,200 to $3,500 depending on your electrical setup, charger type and installation complexity. At Millar Electrics, we've completed hundreds of EV charger installations across Nunawading, Box Hill, Doncaster and surrounds since 2020. This guide breaks down every cost factor so you can budget with confidence and avoid overpaying for your home charging setup.",
+        "The first cost factor is your choice of charger unit. A single-phase 7kW home charger suitable for most Nunawading residences costs between $800 and $1,500 for the unit itself, while a faster three-phase 22kW unit runs $1,800 to $3,000. Tesla Wall Connectors, Zappi chargers and OCPP-compatible units are popular choices across Melbourne's eastern suburbs. If your home has solar panels, a smart charger with load management like the Myenergi Zappi can maximise your solar self-consumption — a significant advantage given Melbourne's rising electricity rates in 2026.",
+        "Installation labour in the Nunawading area typically adds $400 to $1,200 to your total cost. This covers the licensed electrician's time for mounting the unit, running the circuit from your switchboard, installing any required safety switches and completing the final testing and certification. Homes in older Box Hill or Doncaster properties may require a switchboard upgrade first, which adds $600 to $1,000 but is critical for safety and compliance with Australian Standard AS/NZS 3000. At Millar Electrics, we always provide a fixed written quote before commencing any EV charger work.",
+        "One factor many Nunawading homeowners overlook is the distance between your switchboard and the charger location. If your garage is on the opposite side of the house, additional cabling costs of $200 to $500 may apply. Underground conduit runs through driveways or garden beds also add complexity and expense. Our team at Millar Electrics always conducts a thorough on-site assessment before quoting, so there are no surprises on installation day. We service homes across Nunawading, Blackburn, Ringwood, Templestowe and surrounding eastern suburbs with the same careful approach.",
+        "Victoria's rebate landscape for EV chargers has evolved significantly in recent years. The Victorian Government's Zero Emissions Vehicle subsidy and the federal EV Discount may reduce your upfront costs. As of early 2026, eligible Nunawading residents can access up to $2,000 in combined incentives when purchasing a new EV and installing a home charger. Millar Electrics stays across all current rebate programs and can guide you through the application process as part of our end-to-end EV charger installation service across Melbourne's eastern suburbs.",
+        "If you're considering an EV charger installation in Nunawading, Box Hill, Doncaster or anywhere in Melbourne's eastern suburbs, the team at Millar Electrics is ready to help. We provide free on-site assessments, fixed written quotes and a lifetime workmanship guarantee on every installation. Our licensed electricians handle everything from switchboard upgrades to final certification, ensuring your setup meets all Australian safety standards. Call us on 0421 237 773 or email david@millarelectrics.com.au to book your free EV charger consultation today."
+      ]
+    },
+    {
+      "title": "Home Rewiring in Melbourne's Eastern Suburbs: When, Why & How Much It Costs",
+      "date": "February 2026",
+      "excerpt": "Is your Nunawading or eastern suburbs home overdue for a rewire? Discover the warning signs, costs, process and Australian safety standards for home rewiring.",
+      "body": [
+        "If you live in an older home across Nunawading, Box Hill, Doncaster or Melbourne's eastern suburbs, there is a good chance your wiring is overdue for a safety check. Many homes in the area were built between the 1960s and 1980s with aluminium wiring or undersized circuits that simply weren't designed for modern power demands. A full home rewiring by a licensed electrician in Melbourne's east typically costs between $4,000 and $15,000 depending on home size, access and the extent of the work required. Understanding when and why to rewire can protect your family and your property.",
+        "The most common reason Nunawading homeowners contact Millar Electrics for a rewire is safety concerns. Outdated wiring is one of the leading causes of house fires in Victoria each year. Symptoms like flickering lights, buzzing outlets, frequently tripping breakers or discoloured power points are red flags that your wiring may be deteriorating dangerously. We conduct thermographic inspections alongside visual assessments to pinpoint hidden faults behind walls and ceilings — something a standard inspection simply cannot detect. Catching these issues early can save thousands in emergency repairs and potentially save lives.",
+        "During a full home rewire, our licensed electricians replace all internal wiring from the switchboard to every power point, light fitting and hardwired appliance throughout your property. In Nunawading homes, this typically takes three to five days depending on the property size and access. We install new TPS thermoplastic sheathed cable to current Australian standards, upgrade your switchboard with modern safety switches known as RCDs on every circuit, and ensure full compliance with AS/NZS 3000 Wiring Rules. Our team carefully minimises disruption to your household throughout the entire process.",
+        "The cost of a home rewire in Melbourne's eastern suburbs varies based on several key factors. A standard three-bedroom Nunawading home with accessible roof and subfloor spaces will cost less than a double-storey Blackburn property with limited access. Additional costs may include switchboard upgrades ranging from $600 to $1,000, plaster repairs if wall channels are required at $200 to $500 per room, and any additional circuits for new appliances or renovations. At Millar Electrics, we provide itemised written quotes so you know exactly what you are paying for before we start any work.",
+        "Many homeowners in Box Hill and Doncaster are also choosing to rewire as part of a larger renovation or sale preparation strategy. A certified rewire adds significant value to your property and provides buyers with documented proof that the electrical system meets current Australian standards. Our team at Millar Electrics works closely with builders and real estate agents across the eastern suburbs to schedule rewiring at the right stage of a project. We also provide a full compliance certificate upon completion, giving you complete documentation for insurance or sale purposes.",
+        "If your Nunawading or eastern suburbs home hasn't had its wiring checked in over 20 years, it is time to book an assessment with Millar Electrics. Our licensed electricians will inspect your complete electrical system using thermographic technology and provide a detailed report with honest recommendations. We never recommend unnecessary work — just straightforward advice based on safety and compliance requirements. Call 0421 237 773 or email david@millarelectrics.com.au to schedule your home wiring inspection across Melbourne's eastern suburbs today."
+      ]
+    },
+    {
+      "title": "Smart Home Automation for Nunawading Homes: A Complete 2026 Guide",
+      "date": "January 2026",
+      "excerpt": "Explore the benefits of smart home automation for Nunawading and Melbourne's eastern suburbs homes. Learn what a professional setup costs and involves in 2026.",
+      "body": [
+        "Smart home technology has evolved from a luxury novelty to an everyday essential, and Nunawading homeowners are embracing it faster than ever before. From automated lighting and climate control to integrated security systems and voice-activated assistants, smart home automation offers genuine convenience, energy savings and security improvements for Melbourne's eastern suburbs families. At Millar Electrics, we have designed and installed smart home systems across Nunawading, Box Hill, Doncaster and surrounds since 2018, and we have seen first-hand how the right setup can transform daily living in the eastern suburbs.",
+        "The foundation of any reliable smart home in Nunawading is a properly designed electrical infrastructure. Unlike consumer-grade plug-and-play gadgets, a truly integrated smart home requires dedicated circuits, structured cabling and a robust Wi-Fi backbone that can handle dozens of connected devices simultaneously. Many Melbourne eastern suburbs homes built before 2010 simply weren't wired with this level of connectivity in mind. Our team at Millar Electrics begins every smart home project with a thorough assessment of your existing electrical system to identify any upgrades needed for reliable, long-term performance.",
+        "The most popular smart home features we install across Nunawading and Melbourne's eastern suburbs include automated lighting systems using platforms like Lutron or Philips Hue, smart climate control with zoned heating and cooling, integrated security cameras and smart locks, and whole-home audio systems. Voice control through Amazon Alexa, Google Home or Apple HomeKit ties everything together into one seamless experience. What sets a professionally installed system apart from DIY alternatives is reliability — our smart homes work consistently without the dropouts, lag and frustration that plague cheap off-the-shelf solutions.",
+        "Energy efficiency is one of the biggest drivers for smart home adoption across Nunawading. With Melbourne electricity prices continuing to rise year on year, automated lighting schedules, smart power monitoring and integrated solar management can reduce your household energy bills by 20 to 40 percent annually. When paired with an EV charger, a properly configured smart home can intelligently manage when your vehicle charges based on solar production and off-peak tariff windows. Millar Electrics designs these integrated energy systems for homes across Box Hill, Doncaster, Blackburn and the broader eastern suburbs.",
+        "Cost is always a key consideration for Nunawading homeowners exploring smart home automation options. A basic smart lighting and climate system for a three-bedroom home starts from approximately $3,000 to $5,000 including professional installation and programming. A comprehensive whole-home system with security, audio, automated blinds and integrated energy management typically ranges from $8,000 to $20,000 depending on complexity and equipment choices. At Millar Electrics, we offer staged installation options so you can build your smart home incrementally across Melbourne's eastern suburbs without a massive upfront investment.",
+        "Ready to explore smart home automation for your Nunawading property? The team at Millar Electrics will design a system that fits your lifestyle, budget and existing electrical infrastructure perfectly. We handle everything from the initial consultation and design through to installation, programming and ongoing support across the eastern suburbs. Every smart home we install comes with our lifetime workmanship guarantee and full compliance documentation. Contact us on 0421 237 773 or email david@millarelectrics.com.au for a free smart home consultation across Melbourne's eastern suburbs."
+      ]
+    },
+    {
+      "title": "Thermographic Electrical Inspections: Preventing Fires in Melbourne's East",
+      "date": "December 2025",
+      "excerpt": "Thermographic electrical inspections use infrared imaging to detect hidden faults before they cause fires. Learn why Nunawading homeowners and businesses need thermal inspections.",
+      "body": [
+        "Electrical fires are one of the most preventable causes of property damage in Victoria, yet many homeowners across Nunawading, Box Hill and Doncaster have never had their electrical system professionally inspected using modern technology. Thermographic inspection uses advanced infrared imaging to detect hotspots, overloaded circuits and failing connections that are completely invisible to the naked eye. At Millar Electrics, we have been conducting thermographic electrical inspections across Melbourne's eastern suburbs since 2017, identifying potentially dangerous faults before they escalate into costly emergencies or devastating house fires.",
+        "A thermographic inspection works by capturing detailed infrared images of your entire electrical system while it is under normal operating load conditions. Excessive heat at any connection point, circuit breaker or cable junction indicates a problem that could lead to arcing, insulation failure or fire ignition. In older Nunawading homes where wiring may date back several decades, these hidden faults are surprisingly common and genuinely dangerous. Unlike a basic visual inspection, thermography reveals what is happening behind switchboard covers, inside wall cavities and at hard-to-reach junction boxes throughout your property.",
+        "The Victorian Building Authority recommends thermographic inspections for residential properties over 15 years old, and many insurance companies now require documented electrical inspections for policies on older Melbourne eastern suburbs homes. In Nunawading and surrounding suburbs, homes built between the 1960s and 1990s are particularly at risk due to aging wiring insulation, outdated switchboards and circuits that have been modified over decades without proper certification. A thermographic inspection costs between $300 and $600 for a standard Nunawading home and can potentially prevent catastrophic damage.",
+        "Our thermographic inspection process at Millar Electrics is thorough and completely non-invasive. We inspect your main switchboard, all sub-boards, every power and lighting circuit, hard-wired appliances like ovens and air conditioning units, and any external electrical installations around your property. The inspection takes two to three hours for a standard Nunawading home and produces a comprehensive report with thermal images, temperature readings and prioritised recommendations. We provide the same detailed service for commercial properties across Box Hill, Doncaster, Ringwood and the broader Melbourne eastern suburbs.",
+        "Common faults we discover during thermographic inspections across the eastern suburbs include loose neutral connections that cause voltage fluctuations and safety risks, overloaded power circuits running at dangerously high temperatures, deteriorating cable insulation hidden inside wall cavities, and aging switchboard components that no longer meet current Australian safety standards. Each of these conditions carries a genuine fire risk if left unaddressed for any length of time. The good news is that most thermographic findings can be resolved quickly and cost-effectively by our licensed electricians, often on the same day as the inspection.",
+        "Whether you are a Nunawading homeowner wanting peace of mind or a commercial property manager needing to meet compliance obligations, a thermographic inspection from Millar Electrics is the smartest investment you can make in electrical safety. We service residential and commercial properties across Nunawading, Blackburn, Balwyn, Camberwell, Templestowe and all Melbourne eastern suburbs. Every inspection includes a detailed thermal report with images and prioritised remediation recommendations. Call 0421 237 773 or email david@millarelectrics.com.au to book your thermographic electrical inspection and take the first step toward a safer property today."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Millar Electrics — Electrician in Nunawading VIC",
+      "description": "Licensed electricians in Nunawading since 2016. EV chargers, rewiring, smart homes & commercial emergency response across Melbourne's eastern suburbs. Free quotes."
+    },
+    "about": {
+      "title": "About Millar Electrics | Nunawading Electricians Since 2016",
+      "description": "Meet the Millar Electrics team — Nunawading's family-owned electricians since 2016. Licensed, insured and trusted across Melbourne's eastern suburbs."
+    },
+    "services": {
+      "title": "Electrical Services in Nunawading | EV Chargers & Rewiring",
+      "description": "Professional electrical services in Nunawading — EV charger installation, home rewiring, smart home automation & thermographic inspections. Free quotes."
+    },
+    "pricing": {
+      "title": "Electrician Costs Nunawading | Millar Electrics",
+      "description": "Electrical service costs in Nunawading — transparent pricing for EV chargers, rewiring, smart homes & commercial fit-outs. No hidden fees. Free quotes."
+    },
+    "contact": {
+      "title": "Contact Millar Electrics | Nunawading Electrical Quotes",
+      "description": "Contact Millar Electrics for a free electrical quote in Nunawading. Licensed electricians serving Box Hill, Doncaster & Melbourne's eastern suburbs."
+    },
+    "blog": {
+      "title": "Nunawading Electrician Blog | Tips & Guides Melbourne East",
+      "description": "Expert electrical advice from Nunawading's local electricians. Guides on EV chargers, rewiring, smart homes & thermographic inspections across Melbourne."
+    }
+  }
+}
