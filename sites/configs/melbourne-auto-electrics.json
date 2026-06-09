@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Melbourne Auto Electrics",
+  "suburb": "Fawkner",
+  "phone": "03 9350 1234",
+  "email": "sam@melbourneautoelectrics.com.au",
+  "address": "1230 Sydney Rd, Fawkner VIC 3060",
+  "tagline": "Fawkner's Auto Electrical Experts",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#005599",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fawkner's Trusted Auto Electricians",
+      "sub": "Expert services for all vehicle makes and models"
+    },
+    {
+      "title": "Comprehensive Auto Electrical Solutions",
+      "sub": "From diagnostics to installations in Fawkner"
+    },
+    {
+      "title": "Customer Satisfaction Guaranteed",
+      "sub": "Referrals from happy clients drive our business"
+    }
+  ],
+  "ctaHeading": "Need an Auto Electrician in Fawkner? Let's Talk.",
+  "aboutHeading": "About Melbourne Auto Electrics in Fawkner",
+  "aboutSubheading": "Local expertise, reliable service",
+  "aboutText": "Melbourne Auto Electrics has been providing top-notch auto electrical services in Fawkner and across Melbourne. Our dedicated team is always ready to assist with any queries about our specialised services. We pride ourselves on maintaining high customer satisfaction, which is why many of our new customers come through referrals from our previous clients. With years of experience, we ensure quality workmanship every time.",
+  "servicesHeading": "Our Auto Electrical Services",
+  "servicesSubheading": "Expert solutions for your vehicle",
+  "servicesText": "From battery replacements to complex wiring diagnostics, we cover all aspects of auto electrical work. Our skilled technicians use the latest tools to ensure your vehicle runs smoothly. We serve Fawkner and surrounding areas with pride.",
+  "services": [
+    {
+      "title": "Car Battery Replacement",
+      "desc": "We provide fast and efficient battery replacement services for all types of vehicles in Fawkner."
+    },
+    {
+      "title": "Electrical Diagnostics",
+      "desc": "Our advanced diagnostic tools identify electrical issues accurately, ensuring timely repairs."
+    },
+    {
+      "title": "Wiring Repairs and Upgrades",
+      "desc": "We specialise in repairing and upgrading vehicle wiring systems to enhance performance and safety."
+    },
+    {
+      "title": "Alternator and Starter Motor Services",
+      "desc": "Expert repair and replacement of alternators and starter motors to keep your car starting reliably."
+    },
+    {
+      "title": "Lighting System Installations",
+      "desc": "Install and upgrade headlights, taillights, and interior lighting for better visibility and style."
+    },
+    {
+      "title": "Vehicle Security Systems",
+      "desc": "Professional installation of alarms, immobilisers, and tracking systems to protect your vehicle."
+    }
+  ],
+  "bannerHeading": "Auto Electrical Services in Fawkner",
+  "bannerSubheading": "Reliable and professional service for your peace of mind",
+  "testimonialsHeading": "What Fawkner Locals Say",
+  "testimonialsSubheading": "Honest feedback from our community",
+  "blogHeading": "Auto Electrical Tips and News",
+  "blogSubheading": "Insights from Melbourne Auto Electrics",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We're here to help with all your auto electrical needs",
+  "reviews": [
+    {
+      "text": "Melbourne Auto Electrics did a fantastic job on my car's wiring repair in Fawkner. The service was quick and professional, and the price was fair. Highly recommend to anyone in the area.",
+      "name": "John Smith",
+      "role": "Fawkner Homeowner"
+    },
+    {
+      "text": "We've used their services for our fleet vehicles, and they always deliver high-quality auto electrical work. Their attention to detail and reliability make them our go-to choice.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable trades. Melbourne Auto Electrics handled the lighting upgrades for my properties in Fawkner efficiently and with great attention to detail. A trusted partner.",
+      "name": "Mike Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
