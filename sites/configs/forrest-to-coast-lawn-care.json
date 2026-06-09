@@ -1,0 +1,306 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Forrest to Coast Lawn Care",
+  "suburb": "Alvie",
+  "phone": "0412 834 567",
+  "email": "info@forresttocoast.com.au",
+  "address": "Osheas Road, Alvie VIC 3249, Australia",
+  "tagline": "Alvie's Lawn Care — From Forrest to Coast",
+  "primaryColor": "#77a7ff",
+  "primaryColorRgb": "119, 167, 255",
+  "primaryColorHover": "#5f94f0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Alvie's Trusted Lawn Care Experts",
+      "sub": "Professional mowing, hedging & garden care across the Otways"
+    },
+    {
+      "title": "From Forrest to Coast — We Keep It Green",
+      "sub": "Servicing Alvie, Colac, Birregurra & surrounds"
+    },
+    {
+      "title": "Reliable, Affordable & On Time",
+      "sub": "7 am–5 pm, six days a week across the Colac Otway Shire"
+    }
+  ],
+  "ctaHeading": "Alvie's lawn care experts are ready — let's get started.",
+  "aboutHeading": "Alvie's Local Lawn Care Specialists",
+  "aboutSubheading": "From Forrest to the Coast",
+  "aboutText": "Forrest to Coast Lawn Care is Alvie's go-to team for professional lawn mowing, garden maintenance, and property upkeep across the Colac Otway Shire. Based on Osheas Road in Alvie, we service properties from the Otway Ranges through to the Great Ocean Road coastline. Our team understands the unique cool-temperate climate of western Victoria and delivers reliable, high-quality lawn care that keeps your property looking its best all year round.",
+  "servicesHeading": "Our Lawn & Garden Services",
+  "servicesSubheading": "Complete property care for Alvie & surrounds",
+  "servicesText": "From regular lawn mowing to full garden makeovers, Forrest to Coast Lawn Care provides comprehensive outdoor maintenance for residential, rural, and commercial properties across Alvie and the greater Colac Otway Shire. Whether you need a weekly mow, hedge trimming, or a complete garden renovation, our experienced team delivers reliable, professional results tailored to your property's needs and your budget.",
+  "services": [
+    {
+      "title": "Lawn Mowing & Edging",
+      "desc": "Regular and one-off lawn mowing with clean, precise edging for residential and rural Alvie properties.",
+      "longDesc": "Our professional lawn mowing service keeps your Alvie property looking immaculate week after week. We handle properties of all sizes across the Colac Otway Shire, from compact town blocks to sprawling rural homesteads, with commercial-grade equipment that delivers a clean, even finish every time.",
+      "points": [
+        "Commercial-grade equipment",
+        "Clean edges every time",
+        "Flexible scheduling"
+      ]
+    },
+    {
+      "title": "Garden Cleanups",
+      "desc": "Thorough garden tidy-ups, green waste removal, and seasonal property preparation for Alvie homeowners.",
+      "longDesc": "Overgrown gardens are no match for our Alvie garden cleanup team. We clear fallen branches, remove green waste, trim overgrown beds, and restore your outdoor space to its best. Perfect for seasonal refreshes or preparing your Colac Otway property for sale or rental.",
+      "points": [
+        "Full green waste removal",
+        "Seasonal tidy-ups",
+        "Sale-ready presentation"
+      ]
+    },
+    {
+      "title": "Hedge Trimming & Shaping",
+      "desc": "Expert hedge trimming and topiary shaping to keep your Alvie garden looking structured and tidy.",
+      "longDesc": "Well-maintained hedges add structure, privacy, and kerb appeal to any Alvie property. Our hedge trimming service covers everything from regular shape-ups to heavy reduction cuts on established native and exotic hedging throughout the Otway region. We work with all hedge varieties common to western Victoria's cool climate.",
+      "points": [
+        "All hedge varieties",
+        "Precision shaping",
+        "Privacy-focused cuts"
+      ]
+    },
+    {
+      "title": "Weed Control & Fertilising",
+      "desc": "Targeted weed treatment and lawn fertilising programs tailored to Alvie's cool-temperate soils.",
+      "longDesc": "Alvie's high-rainfall, cool-temperate environment creates ideal conditions for weeds to thrive alongside your lawn. Our targeted weed control and fertilising programs are designed specifically for Colac Otway soils, using the right products at the right time to give your grass the competitive edge it needs.",
+      "points": [
+        "Climate-specific treatments",
+        "Seasonal programs",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Turf Installation & Lawn Renovation",
+      "desc": "New lawn installation and full lawn renovation services for Alvie properties needing a fresh start.",
+      "longDesc": "Whether you are establishing a brand-new lawn at your Alvie home or renovating tired, patchy turf, we supply and install premium grass varieties suited to the Otway region's cool winters and mild summers. Our lawn renovation service includes soil preparation, aeration, topdressing, and oversowing for a thick, healthy lawn.",
+      "points": [
+        "Otway-suited grass varieties",
+        "Full soil preparation",
+        "Aeration & topdressing"
+      ]
+    },
+    {
+      "title": "Rural & Commercial Grounds",
+      "desc": "Ongoing grounds maintenance for farms, businesses, and community spaces across the Colac Otway Shire.",
+      "longDesc": "Forrest to Coast Lawn Care provides reliable, scheduled grounds maintenance for rural properties, commercial premises, and community spaces throughout the Colac Otway Shire. From Alvie's dairy farms to Colac's shopfronts, we keep your outdoor areas professional, tidy, and welcoming all year.",
+      "points": [
+        "Flexible contracts",
+        "Farm & property experts",
+        "Shire-wide coverage"
+      ]
+    }
+  ],
+  "bannerHeading": "Need Lawn Care in Alvie?",
+  "bannerSubheading": "From routine mowing to full garden makeovers — we do it all across the Colac Otway Shire.",
+  "testimonialsHeading": "What Alvie Locals Say",
+  "testimonialsSubheading": "Trusted by property owners from Forrest to the coast",
+  "blogHeading": "Lawn Care Tips for the Otway Region",
+  "blogSubheading": "Expert advice from your local Alvie team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you within 24 hours",
+  "reviews": [
+    {
+      "text": "Forrest to Coast Lawn Care has been mowing our Alvie property every fortnight for the past year and it always looks fantastic. They are punctual, professional, and leave the place spotless. Best lawn service in the Colac Otway area by far.",
+      "name": "Sarah Mitchell",
+      "role": "Alvie Homeowner"
+    },
+    {
+      "text": "We hired Forrest to Coast for a full garden cleanup at our Birregurra farm and couldn't be happier with the result. They cleared months of overgrowth, removed all the green waste, and the place looks incredible. Really reasonable pricing too.",
+      "name": "James Crawford",
+      "role": "Local Property Owner"
+    },
+    {
+      "text": "Our hedges along the front of the Colac shop had gotten completely out of hand. The team from Forrest to Coast came out, shaped them perfectly, and tidied up the whole garden bed. Fantastic attention to detail and great value for money.",
+      "name": "Karen O'Brien",
+      "role": "Small Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Alvie",
+    "Colac",
+    "Birregurra",
+    "Winchelsea",
+    "Apollo Bay",
+    "Barwon Downs",
+    "Forrest",
+    "Colac East"
+  ],
+  "about": {
+    "intro": "Forrest to Coast Lawn Care is a local, family-run lawn and garden maintenance business based in Alvie, Victoria, serving properties from the Otway Ranges to the Great Ocean Road coast.",
+    "story": [
+      "Operating from Osheas Road in Alvie, Forrest to Coast Lawn Care has built a reputation for dependable, high-quality lawn and garden services across the Colac Otway Shire. We understand that every property is different, which is why we tailor our approach to suit your specific needs, whether you own a quarter-acre block in Alvie, a dairy farm in Birregurra, or a coastal holiday home near Apollo Bay.",
+      "The cool-temperate climate of western Victoria brings its own set of challenges for lawn and garden care. Our team knows the local soils, the seasonal growth patterns, and the best grass varieties for this region. From the wet winters that keep the Otways lush to the drier summer months that demand careful watering and fertilising, we keep your outdoor spaces in top condition year-round.",
+      "Our mission is simple: to provide Alvie and surrounding communities with honest, reliable, and affordable lawn care that takes the stress out of property maintenance. Whether you need a weekly mow, a one-off garden cleanup, or a complete lawn renovation, Forrest to Coast is the team to call."
+    ],
+    "mission": "To keep Alvie and the Otway region's properties looking their best with honest, reliable, and affordable lawn care.",
+    "whyUs": [
+      {
+        "title": "Locally Owned",
+        "text": "We live and work in the Colac Otway Shire and know the local climate inside out."
+      },
+      {
+        "title": "Flexible Scheduling",
+        "text": "Weekly, fortnightly, or one-off visits arranged to suit your property and lifestyle."
+      },
+      {
+        "title": "Fair Honest Pricing",
+        "text": "No hidden fees or lock-in contracts — just straightforward quotes for quality work."
+      },
+      {
+        "title": "Fully Equipped",
+        "text": "We bring professional commercial-grade equipment to every job for an excellent finish."
+      }
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "Locally Operated"
+      },
+      {
+        "value": "500+",
+        "label": "Properties Serviced"
+      },
+      {
+        "value": "5★",
+        "label": "Google Reviews"
+      }
+    ],
+    "credentials": [
+      "Fully insured",
+      "Free no-obligation quotes",
+      "Flexible scheduling",
+      "All equipment supplied"
+    ]
+  },
+  "pricing": {
+    "intro": "Every property in Alvie is different, so we provide tailored quotes with no lock-in contracts and no surprises. Get in touch for a free, no-obligation estimate.",
+    "packages": [
+      {
+        "name": "Regular Mow & Edge",
+        "price": "from $55",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Lawn mowing to your preferred height",
+          "Clean edging along paths and driveways",
+          "Grass clippings mulched or collected"
+        ]
+      },
+      {
+        "name": "Full Garden Service",
+        "price": "from $120",
+        "unit": "per visit",
+        "highlight": true,
+        "features": [
+          "Lawn mowing, edging & blowing",
+          "Hedge trimming & shaping",
+          "Garden bed weeding & tidying",
+          "Green waste removal included"
+        ]
+      },
+      {
+        "name": "Property Transformation",
+        "price": "from $350",
+        "unit": "one-off",
+        "highlight": false,
+        "features": [
+          "Full garden cleanup & overgrowth removal",
+          "Lawn renovation & aeration",
+          "Complete green waste removal",
+          "Tailored maintenance plan"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden charges — you know exactly what you are paying before we start."
+  },
+  "contact": {
+    "intro": "Ready to get your Alvie property looking its best? Contact Forrest to Coast Lawn Care today for a free, no-obligation quote and we will respond within 24 hours."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Regular Lawn Mowing Cost in Alvie, Victoria?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of professional lawn mowing in Alvie and the Colac Otway Shire, including what affects pricing and how often to mow.",
+      "body": [
+        "If you live in Alvie or anywhere across the Colac Otway Shire, you know how quickly the cool, wet winters and mild springs can turn your lawn into a jungle. Professional lawn mowing is one of the most popular services we provide at Forrest to Coast Lawn Care, and the question we hear most often is: how much does it actually cost? The answer depends on several factors unique to your Alvie property, including block size, terrain, grass type, and how often you want the service. In this guide, we break down the typical costs for lawn mowing across Alvie, Colac, Birregurra, and the wider Otway region so you can budget with confidence.",
+        "Property size is the single biggest factor in determining your lawn mowing cost in Alvie. A standard quarter-acre residential block with a manageable front and back yard will typically cost between $55 and $80 per visit for a professional mow and edge. Larger rural properties, common in the Colac Otway Shire, may range from $100 to $200 or more depending on the total grassed area and access. If your Alvie property has steep slopes, uneven terrain, or obstacles like garden beds, fences, and trees, expect a modest additional charge as these factors increase the time and effort required to achieve a clean, professional finish.",
+        "Frequency of service also plays a major role in overall cost. During spring and early summer, when Alvie's high rainfall fuels rapid grass growth, a weekly mow may be necessary to keep your lawn looking tidy. In the cooler months from late autumn through winter, growth slows considerably and a fortnightly or even monthly service may suffice. Many of our Alvie and Colac clients opt for a fortnightly schedule, which strikes the right balance between keeping the lawn maintained and managing costs. At Forrest to Coast, we tailor our visit frequency to match your property's specific growth patterns and your budget.",
+        "It is worth considering what is included in a professional lawn mowing service versus a DIY approach. When you hire Forrest to Coast Lawn Care for your Alvie property, you are getting more than just a quick cut. Our service includes mowing to your preferred height, clean edging along driveways, paths, and garden beds, and either mulching clippings back into the lawn for natural fertilisation or collecting and removing them. We also blow down hard surfaces to leave your property looking immaculate. Commercial-grade equipment, fuel, maintenance, and insurance are all covered — costs that quickly add up if you are running your own ride-on or push mower.",
+        "For Alvie homeowners considering the long-term value of professional lawn care, regular mowing is one of the most cost-effective investments you can make in your property. A well-mowered lawn prevents weeds from establishing, reduces the risk of pest infestations, and dramatically improves kerb appeal. In the Colac Otway real estate market, a tidy, well-maintained front yard can make a meaningful difference to first impressions and property value. For renters and investors in Alvie, keeping the grounds in good order also helps meet lease obligations and avoid end-of-lease disputes.",
+        "Choosing the right lawn mowing provider in Alvie comes down to reliability, quality, and local knowledge. A contractor who understands the cool-temperate climate of western Victoria, the specific grass varieties that thrive in Colac Otway soils, and the seasonal challenges of the Otway region will always deliver a better result than a generic, one-size-fits-all service. At Forrest to Coast Lawn Care, we are Alvie locals who know this area inside out. We show up on time, we bring professional equipment, and we leave your property looking its absolute best.",
+        "If you are in Alvie, Colac, Birregurra, Winchelsea, or anywhere in the Colac Otway Shire and want a free, no-obligation quote for regular lawn mowing, get in touch with Forrest to Coast Lawn Care today. We offer flexible scheduling, fair pricing with no lock-in contracts, and a genuine commitment to keeping your property looking fantastic all year round."
+      ]
+    },
+    {
+      "title": "Best Grass Types for Alvie's Cool Otway Climate — Complete Guide",
+      "date": "February 2026",
+      "excerpt": "A detailed guide to the best lawn grass varieties for Alvie and the Otway region, including cool-season options suited to Victorian soils.",
+      "body": [
+        "Choosing the right grass type is one of the most important decisions Alvie homeowners can make for their lawn. The Colac Otway Shire sits in a cool-temperate climate zone with reliable rainfall, cold winters, and mild summers — conditions that significantly influence which grass varieties will thrive and which will struggle. At Forrest to Coast Lawn Care, we work with Alvie properties every day and have seen firsthand which grasses perform best in the local soils and weather patterns. In this comprehensive guide, we walk you through the top grass types for Alvie and the wider Otway region, helping you make an informed choice for a lush, healthy lawn.",
+        "Perennial ryegrass is one of the most popular choices for Alvie lawns and for good reason. This cool-season grass thrives in the moderate temperatures and consistent rainfall that characterise the Otway region. It establishes quickly from seed, handles regular foot traffic well, and maintains a vibrant green colour for much of the year. For Alvie properties with kids, pets, or regular outdoor use, perennial ryegrass is an excellent option. The main consideration is that it does require adequate moisture during the hotter summer months, so pairing it with a suitable irrigation setup is recommended for Alvie's drier January and February periods.",
+        "Tall fescue is another outstanding performer in the Alvie climate. This deep-rooted grass is remarkably drought-tolerant once established, making it a smart choice for Alvie properties where summer watering may be limited. Tall fescue also handles shade better than many other cool-season varieties, which is ideal for properties with large native trees or structures that create partial shade across the lawn. Its deep root system helps it access moisture from lower soil profiles, giving it an edge during Alvie's occasional dry spells. For a low-maintenance, resilient lawn, tall fescue is hard to beat in the Colac Otway region.",
+        "For Alvie homeowners looking for a lawn that stays green right through the cooler months, a blend of perennial ryegrass and Kentucky bluegrass can deliver outstanding results. Kentucky bluegrass forms a dense, self-repairing turf with a fine texture and deep green colour that looks incredible when well maintained. It spreads via underground rhizomes, meaning it fills in bare patches naturally — a significant advantage in the Otway region where wet winters and heavy foot traffic can sometimes cause bare spots. The combination of these two grasses creates a lawn that is both visually appealing and structurally robust, perfectly suited to Alvie's climate.",
+        "While cool-season grasses dominate in Alvie, some homeowners ask about warm-season options like couch grass or kikuyu. These grasses are more commonly found in northern and western Victoria where summers are hotter and drier. In Alvie's cooler climate, warm-season grasses tend to struggle during the long, cold winters, often turning brown and going dormant from May through September. Unless your Alvie property has excellent drainage, full sun exposure, and you are comfortable with a brown winter lawn, we generally recommend sticking with cool-season varieties that stay green for more of the year in the Colac Otway region.",
+        "Soil preparation is critical when establishing a new lawn in Alvie. The Colac Otway Shire features a mix of volcanic and alluvial soils, many of which are rich but can become waterlogged during the wetter months. Before laying turf or sowing seed, it is essential to test your soil's drainage, amend it with organic matter if necessary, and ensure a level, well-prepared seedbed. At Forrest to Coast Lawn Care, our turf installation service for Alvie properties includes thorough soil testing, proper preparation, and expert laying of your chosen grass variety to give your new lawn the best possible start.",
+        "Ultimately, the best grass type for your Alvie lawn depends on your property's specific conditions — sunlight, soil type, intended use, and how much maintenance you are willing to undertake. If you are unsure which variety is right for your Alvie or Colac Otway property, the team at Forrest to Coast Lawn Care is happy to provide a free on-site assessment. We will evaluate your lawn's conditions and recommend the ideal grass type to give you a beautiful, thriving lawn all year round."
+      ]
+    },
+    {
+      "title": "How to Keep Your Alvie Lawn Green Through Victorian Summers",
+      "date": "January 2026",
+      "excerpt": "Practical summer lawn care tips for Alvie and Colac Otway homeowners, covering watering, mowing, and seasonal maintenance strategies.",
+      "body": [
+        "Summer in Alvie and the Colac Otway Shire brings longer days, warmer temperatures, and the annual challenge of keeping your lawn green and healthy through the drier months. While western Victoria's cool-temperate climate is generally more forgiving than the state's northern regions, Alvie homeowners still need to adjust their lawn care routine to account for reduced rainfall, higher evaporation rates, and increased sun exposure. At Forrest to Coast Lawn Care, we help Alvie properties through every season, and in this guide we share our best strategies for maintaining a lush, green lawn throughout the Victorian summer.",
+        "Watering is the most critical factor in summer lawn care for Alvie properties. Cool-season grasses like perennial ryegrass and tall fescue, which dominate lawns in the Otway region, need approximately 25 millimetres of water per week during summer to stay green and healthy. The key is to water deeply and infrequently rather than giving the lawn a light sprinkle every day. Deep watering encourages roots to grow down into the soil profile, building drought resilience that helps your Alvie lawn survive the occasional hot spell. Early morning watering between 6 am and 10 am is ideal, as it minimises evaporation and reduces the risk of fungal disease.",
+        "Mowing height is another important adjustment for Alvie summers. During the cooler months, many homeowners keep their lawns cut short for a neat appearance. However, during summer, raising your mower height by an extra one to two centimetres allows the grass to retain more moisture, shade the soil surface, and develop deeper roots. Taller grass also competes more effectively with weeds, which tend to germinate aggressively in Alvie's warm summer soils. At Forrest to Coast Lawn Care, we adjust our mowing practices seasonally to ensure your Alvie lawn gets the care it needs at the right time of year.",
+        "Fertilising in summer requires a careful approach for Alvie lawns. While a feed in early spring helps kickstart growth, applying heavy nitrogen-based fertilisers during the heat of summer can actually stress your lawn and increase water requirements. A slow-release, low-nitrogen fertiliser applied in late spring or very early summer is the best strategy for Alvie's cool-season grasses. This provides a steady supply of nutrients without the surge of growth that demands extra water. For Alvie properties, a second light application in early autumn can help the lawn recover from summer stress and prepare for the cooler months ahead.",
+        "Weed management becomes especially important during summer in Alvie. The warm soil temperatures and occasional summer rains create ideal germination conditions for common lawn weeds like clover, bindii, and crabgrass. Regular mowing at the correct height is your first line of defence, as a thick, healthy lawn naturally suppresses weed growth. For persistent weed problems on Alvie properties, a targeted pre-emergent herbicide applied in early spring can prevent summer weed seeds from establishing. At Forrest to Coast, our weed control service is tailored to the specific weed pressures common in the Colac Otway region.",
+        "Summer is also the time to watch for signs of lawn stress on your Alvie property. Telltale signs include a blue-grey tinge to the grass, footprints remaining visible after walking across the lawn, and patches that do not recover overnight. These are all indicators that your Alvie lawn needs more water. Conversely, if you notice yellowing or spongy growth, you may be overwatering, which can lead to root rot and fungal infections. Striking the right balance is essential, and the local knowledge that Forrest to Coast Lawn Care brings to every Alvie property means we can spot and address these issues before they become serious problems.",
+        "Preparing your Alvie lawn for summer does not need to be complicated. By adjusting your watering, mowing height, and fertilising schedule, you can keep your grass green, healthy, and resilient throughout the warmest months. If you would like professional help preparing your Alvie or Colac Otway property for summer, contact Forrest to Coast Lawn Care for a free assessment and tailored seasonal maintenance plan."
+      ]
+    },
+    {
+      "title": "Autumn Lawn Care in the Colac Otway Shire: A Complete Guide",
+      "date": "December 2025",
+      "excerpt": "Everything Alvie homeowners need to know about autumn lawn care, from leaf removal and aeration to winter preparation and fertilising.",
+      "body": [
+        "Autumn is one of the most important seasons for lawn care in Alvie and the broader Colac Otway Shire. As the intense growth of spring slows and cooler temperatures settle in, the work you do on your Alvie lawn during March, April, and May sets the foundation for a healthy, green yard through winter and into the following spring. At Forrest to Coast Lawn Care, we see firsthand how Alvie properties that receive proper autumn maintenance look dramatically better come springtime. In this guide, we cover everything you need to know about autumn lawn care in the Otway region, from leaf management to final fertilising.",
+        "Leaf and debris removal is the first priority for Alvie homeowners in autumn. The Otway region's mix of native eucalypts, deciduous exotic trees, and established garden plantings means that fallen leaves can quickly accumulate and smother your lawn. A thick layer of leaves blocks sunlight, traps moisture against the grass, and creates ideal conditions for fungal diseases like dollar spot and brown patch — both common in the Colac Otway's damp autumn conditions. Regular sweeping, raking, or mulch-mowing during autumn prevents these problems and keeps your Alvie lawn breathing.",
+        "Autumn is the ideal time for lawn aeration in Alvie. Over the course of a busy growing season, the soil beneath your lawn becomes compacted from foot traffic, mowing equipment, and natural settling. Compacted soil restricts root growth, limits water infiltration, and reduces the availability of oxygen to the grass plant. Core aeration — removing small plugs of soil from the lawn — alleviates compaction and allows your Alvie lawn's roots to access the nutrients and moisture they need to stay healthy through winter. For best results in the Colac Otway region, schedule aeration in early to mid-autumn when soil temperatures are still warm enough for recovery.",
+        "Overseeding is another valuable autumn lawn care practice for Alvie properties. If your lawn has thin or bare patches from summer stress, pet damage, or heavy use, autumn provides the perfect window to repair them. Cool-season grasses like perennial ryegrass germinate best in the mild autumn temperatures typical of the Colac Otway Shire, and the increased rainfall reduces the need for manual watering. Overseeding in autumn fills in bare spots before winter, resulting in a thicker, more weed-resistant lawn when spring arrives. At Forrest to Coast, our lawn renovation service for Alvie properties includes professional overseeding as part of a comprehensive autumn care program.",
+        "Fertilising in autumn gives your Alvie lawn the nutrients it needs to build strong roots before winter dormancy. A high-phosphorus fertiliser applied in early autumn encourages root development, which is critical for the cold months ahead when top growth slows but the root system continues to establish. For Alvie lawns, a second light application of a balanced fertiliser in late autumn can provide an additional boost. Avoid high-nitrogen fertilisers late in the season, as these promote soft, leafy growth that is vulnerable to frost damage. Our team at Forrest to Coast recommends fertiliser types and application rates suited specifically to Colac Otway soils and grass varieties.",
+        "Weed control in autumn is essential for Alvie lawns. Many annual weeds that germinated in spring and summer set seed during autumn, scattering thousands of new seeds into your lawn for the following year. Targeting these weeds before they go to seed is one of the most effective long-term weed management strategies for any Alvie property. Hand removal of visible weeds, combined with a selective herbicide application for broader infestations, can dramatically reduce your weed burden heading into winter. The Colac Otway Shire's damp autumn conditions also favour moss growth in shaded or compacted areas — addressing the underlying cause through aeration and drainage improvement is far more effective than treating the symptom.",
+        "Finally, autumn is a good time to assess your Alvie lawn's overall health and plan for the year ahead. Look for signs of pest damage, disease, soil compaction, or drainage issues that need attention before winter. A professional lawn assessment from Forrest to Coast Lawn Care can identify problems that may not be visible to the untrained eye and give you a clear plan for keeping your Alvie property in peak condition. Contact us today for a free autumn lawn assessment across Alvie, Colac, Birregurra, and the wider Colac Otway Shire."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Forrest to Coast Lawn Care | Lawn Mowing in Alvie, VIC",
+      "description": "Professional lawn mowing, garden maintenance & hedge trimming in Alvie & the Colac Otway Shire. Reliable, affordable lawn care from Forrest to Coast."
+    },
+    "about": {
+      "title": "About Us | Alvie's Local Lawn Care Team | Forrest to Coast",
+      "description": "Learn about Forrest to Coast Lawn Care, Alvie's trusted lawn and garden maintenance provider serving the Colac Otway Shire with reliable, affordable service."
+    },
+    "services": {
+      "title": "Lawn & Garden Services in Alvie | Forrest to Coast",
+      "description": "Lawn mowing, hedge trimming, garden cleanups, weed control & turf installation in Alvie, Colac & the Otway region. Free no-obligation quotes available."
+    },
+    "pricing": {
+      "title": "Lawn Mowing Prices Alvie | Cost Guide & Free Quotes",
+      "description": "How much does lawn mowing cost in Alvie, VIC? View our pricing for regular mowing, garden services & property transformations in the Colac Otway Shire."
+    },
+    "contact": {
+      "title": "Contact Forrest to Coast Lawn Care | Free Alvie Quotes",
+      "description": "Get a free, no-obligation quote from Forrest to Coast Lawn Care in Alvie. Professional lawn & garden services across the Colac Otway Shire. Call today."
+    },
+    "blog": {
+      "title": "Alvie Lawn Care Blog | Tips, Guides & Seasonal Advice",
+      "description": "Expert lawn care tips for Alvie & the Colac Otway Shire. Seasonal guides, grass variety advice, cost breakdowns & property maintenance insights."
+    }
+  }
+}
