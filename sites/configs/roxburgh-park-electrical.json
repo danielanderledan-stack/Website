@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Roxburgh Park Electrical",
+  "suburb": "Roxburgh Park",
+  "phone": "0412 345 678",
+  "email": "info@roxparkelectrical.com.au",
+  "address": "16 Redcliffs Crescent, Roxburgh Park VIC 3064",
+  "tagline": "Roxburgh Park's Trusted Electricians",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0052a3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Roxburgh Park's Expert Electricians",
+      "sub": "Serving Melbourne's north with pride"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "Safe, reliable solutions for all needs"
+    },
+    {
+      "title": "No Job Too Small or Complex",
+      "sub": "Free quotes in Roxburgh Park & surrounds"
+    }
+  ],
+  "ctaHeading": "Roxburgh Park electricians at your service.",
+  "aboutHeading": "15 Years Electrical Excellence in Roxburgh Park",
+  "aboutSubheading": "Licensed, local & reliable",
+  "aboutText": "With over 15 years of experience, we have been the go-to electricians for homes and businesses in Roxburgh Park. Our team is fully licensed and committed to providing safe, high-quality electrical services. From routine maintenance to complex installations, we handle it all with professionalism and care. Trust us to keep your property powered and protected.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We offer a comprehensive range of electrical services tailored to Roxburgh Park residents and businesses. Our skilled electricians ensure all work meets Australian standards, delivering reliability and safety every time.",
+  "services": [
+    {
+      "title": "Residential Wiring",
+      "desc": "Complete wiring solutions for new homes and renovations in Roxburgh Park, ensuring safety and compliance."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your electrical switchboard to handle increased load and improve safety in your property."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "From indoor lighting to outdoor security lights, we install efficient and stylish solutions across Roxburgh Park."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety checks for homes and businesses, identifying and fixing potential hazards."
+    },
+    {
+      "title": "Solar Panel Systems",
+      "desc": "Professional installation of solar panels to help you save on energy bills in Melbourne's climate."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical repair services to quickly resolve issues and restore power in Roxburgh Park."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Roxburgh Park?",
+  "bannerSubheading": "Fast, reliable service for all electrical issues.",
+  "testimonialsHeading": "What Roxburgh Park Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from our experienced team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "The team at Roxburgh Park Electrical did a fantastic job upgrading our switchboard. They were punctual, professional, and the work was completed to a high standard. Highly recommended for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Roxburgh Park Homeowner"
+    },
+    {
+      "text": "We hired them for lighting installation in our shop, and the results were excellent. They understood our needs and delivered a solution that enhanced our workspace. Great local electricians.",
+      "name": "James Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable and efficient service for our rental properties. They handled safety inspections and repairs promptly, ensuring everything was up to code. A trustworthy choice for property managers.",
+      "name": "Emma Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
