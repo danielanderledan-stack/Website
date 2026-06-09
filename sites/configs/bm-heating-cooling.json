@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "BM Heating & Cooling",
+  "suburb": "Reservoir",
+  "phone": "0487 395 496",
+  "email": "admin@bmheatingandcooling.com",
+  "address": "17 Newlands Rd, Reservoir VIC 3073",
+  "tagline": "Reservoir's Heating & Cooling Experts",
+  "primaryColor": "#029fdb",
+  "primaryColorRgb": "2, 159, 219",
+  "primaryColorHover": "#0289bc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Reservoir's Trusted HVAC Team",
+      "sub": "12 years keeping Melbourne comfortable"
+    },
+    {
+      "title": "Ducted Heating & Evaporative Cooling",
+      "sub": "Expert installation and repair services"
+    },
+    {
+      "title": "Free Quotes in Reservoir & Surrounds",
+      "sub": "Your satisfaction guaranteed"
+    }
+  ],
+  "ctaHeading": "Reservoir's HVAC experts are ready to help you.",
+  "aboutHeading": "12 Years Heating & Cooling in Reservoir",
+  "aboutSubheading": "Local, reliable & highly skilled",
+  "aboutText": "BM Heating & Cooling has been providing expert heating and cooling services in Reservoir for over 12 years. Our highly skilled and trustworthy team delivers efficient, timely solutions to ensure your satisfaction. We offer competitive pricing and free on-site quotations, working with you to keep you cool in summer and warm in winter.",
+  "servicesHeading": "Our Heating & Cooling Services",
+  "servicesSubheading": "Expert solutions for your comfort",
+  "servicesText": "We specialise in a range of HVAC services including ducted heating, evaporative cooling, split systems, and hot water solutions. Our team in Reservoir provides professional installation, repair, and maintenance to keep your home comfortable through Melbourne's extreme seasons.",
+  "services": [
+    {
+      "title": "Ducted Heating",
+      "desc": "Professional installation and repair of ducted heating systems to keep your Reservoir home warm and cosy during winter."
+    },
+    {
+      "title": "Evaporative Cooling",
+      "desc": "Efficient evaporative cooling solutions perfect for Melbourne's dry summers, installed by our expert team."
+    },
+    {
+      "title": "Split Systems",
+      "desc": "We install and service split system air conditioners for year-round comfort in your home or office."
+    },
+    {
+      "title": "Hot Water Services",
+      "desc": "Reliable hot water system installations, repairs, and maintenance to ensure you never run out of hot water."
+    },
+    {
+      "title": "Heating Repairs",
+      "desc": "Fast and affordable heating repairs to fix any issues with your system, minimising downtime in cold weather."
+    },
+    {
+      "title": "Cooling Maintenance",
+      "desc": "Regular maintenance services to keep your cooling systems running efficiently and extend their lifespan."
+    }
+  ],
+  "bannerHeading": "Need HVAC Help in Reservoir?",
+  "bannerSubheading": "We're just a call away for all your heating and cooling needs.",
+  "testimonialsHeading": "What Reservoir Locals Say About Us",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Heating & Cooling Tips",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "BM Heating & Cooling installed a ducted heating system in our Reservoir home last winter. The team was professional, efficient, and the price was fair. Highly recommend their services!",
+      "name": "John Smith",
+      "role": "Reservoir Homeowner"
+    },
+    {
+      "text": "We had split systems installed at our café in Reservoir by BM Heating & Cooling. The work was done quickly with minimal disruption, and the cooling works perfectly during hot days.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used BM Heating & Cooling for evaporative cooling maintenance across multiple Reservoir properties. They're always reliable and provide great value for money.",
+      "name": "David Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
