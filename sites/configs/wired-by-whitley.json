@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Wired By Whitley",
+  "suburb": "Queenscliff",
+  "phone": "0455 556 36",
+  "email": "user@domain.com",
+  "address": "19 Edgewater Cl, Queenscliff VIC 3225",
+  "tagline": "Queenscliff's Trusted Electricians",
+  "primaryColor": "#fd0437",
+  "primaryColorRgb": "253, 4, 55",
+  "primaryColorHover": "#e00332",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Queenscliff's Expert Electricians",
+      "sub": "Residential & Commercial Electrical Services"
+    },
+    {
+      "title": "24/7 Emergency Electrical Help",
+      "sub": "Always Open in Queenscliff"
+    },
+    {
+      "title": "Licensed, Insured & Local",
+      "sub": "Serving Queenscliff & Bellarine Peninsula"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Queenscliff? Let's Get Started.",
+  "aboutHeading": "Fully Licensed Electricians in Queenscliff",
+  "aboutSubheading": "Your Local Electrical Experts",
+  "aboutText": "Wired By Whitley is a team of fully licensed residential and commercial electricians based in Queenscliff, Victoria. With years of experience serving the local community, we provide reliable, high-quality electrical solutions for homes and businesses. Our commitment to safety and customer satisfaction makes us the trusted choice for all electrical needs in Queenscliff and surrounding areas.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert Solutions for Every Need",
+  "servicesText": "From routine installations to complex rewiring, we offer a comprehensive range of electrical services. Whether you're upgrading your switchboard or need emergency repairs, our skilled electricians in Queenscliff are here to help.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete electrical solutions for Queenscliff homes, from new builds to upgrades.",
+      "longDesc": "We provide tailored residential electrical services in Queenscliff, including wiring, lighting, and safety inspections. Our team ensures your home meets Australian standards for safety and efficiency.",
+      "points": [
+        "Safe & Reliable",
+        "Licensed Experts",
+        "Free Quotes"
+      ]
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Professional electrical services for businesses and commercial properties in Queenscliff.",
+      "longDesc": "For Queenscliff businesses, we handle all commercial electrical needs, such as office fit-outs, data cabling, and energy-efficient solutions. Minimise downtime with our prompt, professional service.",
+      "points": [
+        "Business-Focused",
+        "Minimal Disruption",
+        "Compliant Solutions"
+      ]
+    },
+    {
+      "title": "Emergency Services",
+      "desc": "24/7 emergency electrician available in Queenscliff for urgent electrical issues.",
+      "longDesc": "Electrical emergencies can happen anytime. Our 24-hour emergency service in Queenscliff ensures rapid response to power outages, faults, or safety hazards, keeping you safe.",
+      "points": [
+        "Available 24/7",
+        "Fast Response",
+        "Safety First"
+      ]
+    },
+    {
+      "title": "Rewiring & Upgrades",
+      "desc": "Full house rewiring and switchboard upgrades for older Queenscliff properties.",
+      "longDesc": "Upgrading outdated electrical systems in Queenscliff homes improves safety and capacity. We specialise in rewiring, switchboard upgrades, and compliance with current regulations.",
+      "points": [
+        "Modernised Systems",
+        "Increased Safety",
+        "Energy Efficiency"
+      ]
+    },
+    {
+      "title": "Lighting Installations",
+      "desc": "Indoor and outdoor lighting design and installation across Queenscliff.",
+      "longDesc": "Enhance your Queenscliff property with custom lighting solutions. From energy-efficient LEDs to landscape lighting, we design and install systems that suit your needs.",
+      "points": [
+        "Custom Designs",
+        "Energy Saving",
+        "Professional Finish"
+      ]
+    },
+    {
+      "title": "Electrical Inspections",
+      "desc": "Comprehensive safety inspections and compliance reports for Queenscliff properties.",
+      "longDesc": "Ensure your electrical system is safe and compliant with our detailed inspection services. We provide reports for homes, businesses, and rental properties in Queenscliff.",
+      "points": [
+        "Thorough Checks",
+        "Compliance Reports",
+        "Peace of Mind"
+      ]
+    }
+  ],
+  "bannerHeading": "Queenscliff's Go-To Electricians",
+  "bannerSubheading": "Reliable Electrical Services for Your Home or Business",
+  "testimonialsHeading": "What Queenscliff Locals Say",
+  "testimonialsSubheading": "Trusted by the Community",
+  "blogHeading": "Electrical Guides & Tips for Queenscliff",
+  "blogSubheading": "Expert Advice from Your Local Electricians",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We Respond Quickly to All Enquiries",
+  "reviews": [
+    {
+      "text": "Wired By Whitley did an excellent job rewiring our old Queenscliff home. The team was professional, tidy, and completed the work on time. Highly recommend for any electrical upgrades.",
+      "name": "James Smith",
+      "role": "Queenscliff Homeowner"
+    },
+    {
+      "text": "As a business owner in Queenscliff, I rely on timely electrical services. Wired By Whitley installed our new switchboard and lighting with minimal disruption. Great local electricians.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We had an emergency power outage at our rental property in Queenscliff. Wired By Whitley responded within an hour and fixed the issue promptly. Reliable and professional service.",
+      "name": "Mike Williams",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Queenscliff",
+    "Ocean Grove",
+    "Point Lonsdale",
+    "Drysdale",
+    "Portarlington",
+    "Anglesea"
+  ],
+  "about": {
+    "intro": "Wired By Whitley is a dedicated electrical service provider based in Queenscliff, Victoria, offering expert solutions for residential and commercial clients.",
+    "story": [
+      "Founded with a passion for quality electrical work, Wired By Whitley has been serving Queenscliff and the Bellarine Peninsula for years. Our team of licensed electricians is committed to delivering safe, reliable, and efficient electrical services tailored to the local community's needs.",
+      "We understand the unique challenges of electrical work in coastal areas like Queenscliff, where weather conditions can affect installations. Our expertise ensures that all work is compliant with Australian standards and built to last."
+    ],
+    "mission": "To provide Queenscliff with top-tier electrical services that prioritise safety, quality, and customer satisfaction.",
+    "whyUs": [
+      {
+        "title": "Licensed & Insured",
+        "text": "All our electricians are fully licensed and insured for your protection and peace of mind."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "We know Queenscliff and its specific electrical requirements, offering tailored solutions."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We provide upfront quotes with no hidden costs, so you know exactly what to expect."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "Our emergency services are available around the clock for urgent electrical issues in Queenscliff."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Wired By Whitley, we offer competitive pricing for all electrical services in Queenscliff. No lock-in contracts, just honest, upfront quotes.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Job",
+        "price": "from $500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality materials",
+          "Compliance guaranteed",
+          "Workmanship warranty"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $3,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Project management",
+          "Custom solutions",
+          "Full compliance"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins."
+  },
+  "contact": {
+    "intro": "Contact Wired By Whitley today for a free, no-obligation quote on any electrical project in Queenscliff. We're here to help with all your electrical needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a House Rewire Cost in Queenscliff?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting house rewiring costs in Queenscliff, from property size to wiring complexity, and get expert advice on budgeting for your upgrade.",
+      "body": [
+        "Rewiring a house in Queenscliff is a significant investment that ensures safety and modernises your electrical system. The cost depends on several factors, including the age of the property, the size of the house, and the complexity of the wiring. Older Queenscliff homes, especially those with aluminium wiring or outdated switchboards, may require more extensive work, which can influence the overall price.",
+        "On average, a full house rewire in Queenscliff can range from $8,000 to $15,000, but this varies based on specific needs. For instance, a smaller cottage might be on the lower end, while a larger family home could be higher. It's essential to get a detailed quote from a licensed electrician like Wired By Whitley to understand the exact costs for your property.",
+        "When budgeting for rewiring, consider additional costs such as upgrading the switchboard, installing new outlets, or adding lighting fixtures. In Queenscliff, where coastal conditions can affect electrical components, using durable, weather-resistant materials might add to the cost but ensures longevity. Our team provides transparent quotes that break down all expenses.",
+        "The best time to rewire in Queenscliff is during dry months to avoid weather disruptions, though our electricians work year-round. We adhere to Australian electrical standards (AS/NZS 3000) to guarantee safety and compliance. Our experience in Queenscliff means we understand local building regulations and can navigate any required permits smoothly.",
+        "To keep costs manageable, plan the rewire as part of a larger renovation. This can reduce labour costs and minimise disruption. Wired By Whitley offers flexible scheduling to accommodate your plans, ensuring the work is completed efficiently with minimal impact on your daily life in Queenscliff.",
+        "Ultimately, investing in a house rewire in Queenscliff enhances property value, improves safety, and provides peace of mind. Contact us for a free assessment and tailored quote. Our local expertise ensures that your rewiring project is handled professionally, from start to finish."
+      ]
+    },
+    {
+      "title": "Emergency Electrician in Queenscliff: What to Do When the Power Fails",
+      "date": "February 2026",
+      "excerpt": "Learn the steps to take during a power outage in Queenscliff, when to call an emergency electrician, and how to stay safe until help arrives.",
+      "body": [
+        "A power failure in Queenscliff can be stressful, especially during extreme weather or at night. The first step is to check if the outage is local or widespread by contacting your energy provider. If it's isolated to your property, it might be an electrical fault that requires immediate attention from a qualified electrician.",
+        "For emergencies like sparking outlets, burning smells, or exposed wires, do not attempt to fix it yourself. Turn off the main switch if safe to do so and call Wired By Whitley immediately. We offer 24/7 emergency electrician services in Queenscliff, with rapid response times to address urgent issues and restore safety.",
+        "Common causes of power outages in Queenscliff homes include overloaded circuits, faulty wiring, or storm damage. Our electricians are experienced in diagnosing and repairing these issues quickly. We carry essential parts on hand to minimise downtime, ensuring your Queenscliff property is back to normal as soon as possible.",
+        "While waiting for the electrician, ensure safety by using flashlights instead of candles, avoiding water contact with electrical appliances, and unplugging sensitive devices to prevent surge damage. If the outage affects refrigeration, keep doors closed to preserve food. Our team provides guidance over the phone while we en route to your Queenscliff location.",
+        "After the issue is resolved, we recommend a full electrical inspection to prevent future emergencies. In Queenscliff, where salt air can corrode components, regular maintenance is crucial. Wired By Whitley can set up a schedule to keep your electrical system in top condition, reducing the risk of unexpected failures.",
+        "Remember, electrical emergencies are serious and should be handled by professionals. Trust Wired By Whitley for reliable emergency electrician services in Queenscliff. Save our number for quick access, and rest assured that help is just a call away, day or night."
+      ]
+    },
+    {
+      "title": "Upgrading Your Switchboard in Queenscliff: A Complete Guide",
+      "date": "January 2026",
+      "excerpt": "Find out why upgrading your switchboard is essential for safety in Queenscliff homes, the benefits of modern switchboards, and what the process involves.",
+      "body": [
+        "An outdated switchboard in your Queenscliff home can pose serious safety risks, including electrical fires and shocks. Modern switchboards are designed with safety features like circuit breakers and safety switches that protect your property and family. Upgrading is a wise investment for any older home in the area.",
+        "In Queenscliff, many heritage homes have switchboards that no longer meet current Australian standards. Replacing them ensures compliance and improves capacity for modern electrical loads, such as air conditioners and solar systems. Wired By Whitley specialises in switchboard upgrades, tailored to Queenscliff's unique housing stock.",
+        "The upgrade process typically involves assessing your current electrical load, removing the old switchboard, and installing a new one with appropriate circuit breakers and safety switches. In Queenscliff, we consider factors like coastal weather to choose durable, corrosion-resistant materials that withstand the local environment.",
+        "Costs for a switchboard upgrade in Queenscliff can range from $1,500 to $4,000, depending on the complexity and capacity needed. We provide detailed quotes that outline all expenses, so there are no surprises. Investing in this upgrade can lower insurance premiums and enhance property value in Queenscliff's competitive market.",
+        "During the upgrade, we ensure minimal disruption to your daily life. Our electricians work efficiently and clean up after themselves, leaving your Queenscliff property tidy. We also offer advice on energy-saving practices to help reduce your electricity bills after the switchboard is upgraded.",
+        "Don't wait for a safety issue to upgrade your switchboard. Contact Wired By Whitley in Queenscliff for a professional assessment and upgrade service. We guarantee work that meets all Australian standards, giving you peace of mind and a safer home."
+      ]
+    },
+    {
+      "title": "Electrical Safety Tips for Queenscliff Homes This Summer",
+      "date": "December 2025",
+      "excerpt": "Stay safe this summer in Queenscliff with essential electrical safety tips, from managing high loads to protecting against storm damage.",
+      "body": [
+        "Summer in Queenscliff brings increased electrical loads from air conditioners, fans, and holiday lighting. To prevent overloads, avoid plugging multiple high-wattage devices into one outlet. Spread the load across different circuits and consider upgrading your switchboard if frequent trips occur.",
+        "Coastal storms in Queenscliff can cause power surges and outages. Use surge protectors for sensitive electronics and ensure your home is equipped with a surge protection device at the main switchboard. Wired By Whitley can install these to safeguard your Queenscliff property during the storm season.",
+        "Outdoor electrical safety is crucial during summer. Check that outdoor lighting and extension cords are rated for outdoor use and keep them away from water sources. In Queenscliff's humid climate, inspect cords for wear and tear regularly to avoid hazards.",
+        "Teach your family about electrical safety, especially children. Keep appliances away from water, don't touch switches with wet hands, and report any flickering lights or unusual sounds immediately. In Queenscliff, our electricians are available for safety inspections to identify potential risks.",
+        "If you're planning a summer renovation in Queenscliff, include electrical upgrades in your plans. Adding extra outlets for outdoor entertaining or upgrading lighting can enhance convenience and safety. Our team provides expert advice and installation services tailored to Queenscliff homes.",
+        "Regular maintenance by a licensed electrician is key to electrical safety. Schedule an annual check-up with Wired By Whitley to ensure your Queenscliff home's electrical system is in top condition. We help you stay safe and compliant all year round."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Wired By Whitley | Electrician in Queenscliff | Residential & Commercial",
+      "description": "Licensed electrician in Queenscliff, VIC. Wired By Whitley offers residential, commercial & emergency electrical services. 24/7 availability. Call now for a free quote."
+    },
+    "about": {
+      "title": "About Wired By Whitley | Queenscliff's Trusted Electricians",
+      "description": "Learn about Wired By Whitley, your local electricians in Queenscliff. Fully licensed, insured, and committed to quality electrical services for homes and businesses."
+    },
+    "services": {
+      "title": "Electrical Services in Queenscliff | Wired By Whitley",
+      "description": "Comprehensive electrical services in Queenscliff including rewiring, switchboard upgrades, lighting installations & emergency repairs. Expert local electricians."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Costs in Queenscliff | Wired By Whitley",
+      "description": "Transparent pricing for electrical services in Queenscliff. Get upfront quotes for call-outs, standard jobs, and major projects. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Wired By Whitley | Free Electrical Quotes in Queenscliff",
+      "description": "Get in touch with Wired By Whitley in Queenscliff for free electrical quotes. Phone, email, or visit us. We respond quickly to all enquiries."
+    },
+    "blog": {
+      "title": "Queenscliff Electrical Blog | Tips, Guides & Advice | Wired By Whitley",
+      "description": "Read expert electrical advice tailored for Queenscliff homeowners. Guides on costs, safety, upgrades, and emergency tips from your local electricians."
+    }
+  }
+}
