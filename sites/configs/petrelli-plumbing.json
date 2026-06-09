@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Petrelli Plumbing",
+  "suburb": "Coburg North",
+  "phone": "1800 738 735",
+  "email": "user@domain.com",
+  "address": "Unit 15/120 Newlands Rd, Coburg North VIC 3058",
+  "tagline": "Coburg North's Trusted Plumbers",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0055aa",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coburg North's Plumbing Experts",
+      "sub": "10 years serving Melbourne's Northern Suburbs"
+    },
+    {
+      "title": "Residential & Commercial Solutions",
+      "sub": "From blocked drains to gas fitting"
+    },
+    {
+      "title": "Free Quotes Available",
+      "sub": "Trusted by locals since 2014"
+    }
+  ],
+  "ctaHeading": "Get Your Free Plumbing Quote Today",
+  "aboutHeading": "10 Years Plumbing in Coburg North",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "For a decade, Petrelli Plumbing has been the trusted choice for plumbing services in Coburg North and across Melbourne's Northern Suburbs. Our experienced team handles everything from blocked drains and gas fitting to hot water system installations and commercial plumbing projects. We are committed to providing fast, reliable service with no hidden fees, ensuring your home or business stays leak-free.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive Solutions for All Needs",
+  "servicesText": "At Petrelli Plumbing, we offer a full range of plumbing services tailored to both residential and commercial clients in Coburg North. From emergency repairs to scheduled maintenance, our skilled plumbers use the latest techniques to deliver efficient and lasting solutions.",
+  "services": [
+    {
+      "title": "Blocked Drains & Drain Cleaning",
+      "desc": "Expert unblocking and cleaning services to keep your drains flowing freely, using advanced equipment for quick results."
+    },
+    {
+      "title": "Gas Fitting & Hot Water Systems",
+      "desc": "Certified gas fitting for installations, repairs, and maintenance, including hot water system servicing and replacements."
+    },
+    {
+      "title": "Pipe Relining & Burst Pipe Repairs",
+      "desc": "Non-invasive pipe relining solutions and fast repairs for burst pipes to minimize damage and downtime."
+    },
+    {
+      "title": "General Plumbing Maintenance",
+      "desc": "Routine inspections and maintenance for homes and businesses to prevent issues and ensure system longevity."
+    },
+    {
+      "title": "Commercial Plumbing Services",
+      "desc": "Specialized plumbing for businesses, including body corp, restaurant fitouts, and preventative maintenance plans."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency response for urgent plumbing issues like leaks, overflows, and gas leaks in Coburg North."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Coburg North?",
+  "bannerSubheading": "Fast, reliable service for your home or business",
+  "testimonialsHeading": "What Coburg North Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Expert advice from Petrelli Plumbing",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're here to help with all plumbing issues",
+  "reviews": [
+    {
+      "text": "Petrelli Plumbing fixed our blocked drain in Coburg North quickly and professionally. Their team was friendly, and the price was fair. Highly recommend for any plumbing emergencies.",
+      "name": "John Smith",
+      "role": "Coburg North Homeowner"
+    },
+    {
+      "text": "We used Petrelli Plumbing for our restaurant's gas fitting in Melbourne's Northern Suburbs. They did an excellent job, ensuring everything was safe and up to code. Great service!",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Petrelli Plumbing for regular maintenance across multiple properties in Coburg North. They are always punctual and deliver quality work every time.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
