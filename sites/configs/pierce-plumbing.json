@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Pierce Plumbing",
+  "suburb": "Tullamarine",
+  "phone": "0418395297",
+  "email": "info@pierceplumbing.com.au",
+  "address": "24-26 Carrick Dr, Tullamarine VIC 3043",
+  "tagline": "Tullamarine's 24/7 Plumbing Experts",
+  "primaryColor": "#ffffff",
+  "primaryColorRgb": "255, 255, 255",
+  "primaryColorHover": "#f0f0f0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Tullamarine's Trusted Plumbers",
+      "sub": "24/7 service across Metro Melbourne"
+    },
+    {
+      "title": "Specialised Plumbing Services",
+      "sub": "Backflow prevention & facility management"
+    },
+    {
+      "title": "Licensed for All Areas",
+      "sub": "Domestic & commercial plumbing solutions"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Tullamarine? Call Us Now!",
+  "aboutHeading": "Licensed Plumbers Serving Tullamarine",
+  "aboutSubheading": "Metro Melbourne & All Areas",
+  "aboutText": "Pierce Plumbing is a licensed plumbing service based in Tullamarine, VIC, providing comprehensive plumbing solutions across Metro Melbourne. With expertise in backflow prevention, thermostatic mixing valves, and facility management, we cater to both domestic and commercial needs. Our team is available 24 hours a day, ensuring reliable and efficient service whenever you need it. Committed to quality workmanship, we handle everything from routine maintenance to emergency repairs with precision and care.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert Solutions for Every Need",
+  "servicesText": "From domestic plumbing to specialised facility management, Pierce Plumbing offers a wide range of services to keep your systems running smoothly. Our licensed team handles everything from backflow testing to thermostat valve installation, ensuring compliance and safety for all our clients in Tullamarine and beyond.",
+  "services": [
+    {
+      "title": "Domestic Plumbing",
+      "desc": "Expert installation, repair, and maintenance for homes across Tullamarine and Metro Melbourne."
+    },
+    {
+      "title": "Backflow Prevention & Testing",
+      "desc": "Comprehensive testing and certification of backflow prevention devices to meet regulatory standards."
+    },
+    {
+      "title": "Thermostatic Mixing Valves",
+      "desc": "Installation and servicing of thermostatic mixing valves for safe water temperature control."
+    },
+    {
+      "title": "Facility Management",
+      "desc": "Customised plumbing management solutions for commercial facilities and property managers."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency response for urgent plumbing issues, minimising damage and downtime."
+    },
+    {
+      "title": "Licensed General Plumbing",
+      "desc": "All aspects of general plumbing work, licensed and insured for peace of mind."
+    }
+  ],
+  "bannerHeading": "Plumbing Emergencies? We're Here 24/7 in Tullamarine",
+  "bannerSubheading": "Quick response times and reliable fixes for all plumbing problems.",
+  "testimonialsHeading": "What Our Tullamarine Clients Say",
+  "testimonialsSubheading": "Trusted by locals for honest, professional service",
+  "blogHeading": "Plumbing Tips & Updates",
+  "blogSubheading": "Helpful advice from Pierce Plumbing",
+  "contactHeading": "Contact Pierce Plumbing Today",
+  "contactSubheading": "Get a free quote or book a service",
+  "reviews": [
+    {
+      "text": "Pierce Plumbing fixed a major backflow issue at our Tullamarine home. Their team was professional, punctual, and the work was done to a high standard. Highly recommended for any plumbing needs.",
+      "name": "Dave Thompson",
+      "role": "Tullamarine Homeowner"
+    },
+    {
+      "text": "We've used Pierce Plumbing for facility management at our local business in Melbourne. Their ongoing service has been reliable, and they handle everything from routine checks to emergency repairs efficiently.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Pierce Plumbing for all our properties in the north-west. Their 24-hour availability and expertise in thermostatic mixing valves have been invaluable.",
+      "name": "James Carter",
+      "role": "Property Manager"
+    }
+  ]
+}
