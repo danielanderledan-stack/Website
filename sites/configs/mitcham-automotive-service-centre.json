@@ -1,0 +1,300 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Mitcham Automotive Service Centre",
+  "suburb": "Mitcham",
+  "phone": "0398748129",
+  "email": "mitcham.auto@optusnet.com.au",
+  "address": "476 Maroondah Hwy, Mitcham VIC 3132",
+  "tagline": "Mitcham's Trusted Auto Mechanics",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mitcham's Go-To Auto Mechanics",
+      "sub": "Servicing all makes and models locally"
+    },
+    {
+      "title": "Car Repairs & Servicing in Mitcham",
+      "sub": "Expert mechanics for every vehicle"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Mitcham & surrounds"
+    }
+  ],
+  "ctaHeading": "Mitcham Automotive Service Centre is ready to keep your car running perfectly.",
+  "aboutHeading": "About Mitcham Automotive Service Centre",
+  "aboutSubheading": "Local, reliable and trusted in Mitcham",
+  "aboutText": "At Mitcham Automotive Service Centre, we proudly serve the Mitcham community with top-quality car servicing and repairs. Our experienced team can handle all makes and models, using the latest technology to ensure your vehicle performs as the manufacturer intended. Whether it's a routine service or complex repair, we're here to help with honest advice and reliable workmanship.",
+  "servicesHeading": "Our Auto Services in Mitcham",
+  "servicesSubheading": "Comprehensive car care for Mitcham drivers",
+  "servicesText": "From regular logbook servicing to major engine repairs, Mitcham Automotive Service Centre offers a full range of auto services. We use state-of-the-art equipment to diagnose and fix issues efficiently, ensuring your car stays safe and reliable on Mitcham roads.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Keep your warranty valid with manufacturer-standard servicing in Mitcham.",
+      "longDesc": "Our logbook servicing in Mitcham follows all manufacturer specifications, using genuine parts where applicable. We ensure your vehicle remains compliant and performs optimally for Mitcham driving conditions, extending its lifespan.",
+      "points": [
+        "Warranty maintained",
+        "Genuine parts used",
+        "Thorough inspections"
+      ]
+    },
+    {
+      "title": "Engine Repairs",
+      "desc": "Expert diagnostics and repairs for all engine types in Mitcham.",
+      "longDesc": "For engine troubles in Mitcham, our skilled mechanics use advanced diagnostic tools to identify and fix issues promptly. From minor fixes to major rebuilds, we keep your engine running smoothly and efficiently.",
+      "points": [
+        "Advanced diagnostics",
+        "Skilled technicians",
+        "Efficient repairs"
+      ]
+    },
+    {
+      "title": "Brake Services",
+      "desc": "Ensure safe stopping with our brake inspections and repairs in Mitcham.",
+      "longDesc": "In Mitcham, where road safety is paramount, our brake services include pad replacements, rotor resurfacing, and fluid checks. We guarantee reliable braking performance for all vehicle makes and models.",
+      "points": [
+        "Safety guaranteed",
+        "Complete brake checks",
+        "Quality parts"
+      ]
+    },
+    {
+      "title": "Electrical Repairs",
+      "desc": "Fix any electrical issue with our specialised auto electricians in Mitcham.",
+      "longDesc": "Our auto electricians in Mitcham handle everything from battery issues to complex wiring problems. We use the latest tools to ensure your car's electrical system functions perfectly for dependable driving.",
+      "points": [
+        "Specialised electricians",
+        "Comprehensive diagnostics",
+        "Reliable solutions"
+      ]
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Smooth gear changes with our transmission services in Mitcham.",
+      "longDesc": "Transmission problems in Mitcham? Our experts provide repair, servicing, and rebuilds for manual and automatic transmissions. We ensure seamless performance for your driving comfort and vehicle longevity.",
+      "points": [
+        "Expert transmission care",
+        "Manual & automatic",
+        "Performance restored"
+      ]
+    },
+    {
+      "title": "Tyre Services",
+      "desc": "From rotations to replacements, we handle all tyre needs in Mitcham.",
+      "longDesc": "In Mitcham, with varying road conditions, our tyre services include balancing, alignment, and replacements. We stock a wide range of tyres to suit all vehicles and budgets for optimal safety and performance.",
+      "points": [
+        "Tyre alignment experts",
+        "Wide tyre selection",
+        "Budget-friendly options"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Auto Mechanic in Mitcham?",
+  "bannerSubheading": "Trust Mitcham Automotive Service Centre for all your car care needs.",
+  "testimonialsHeading": "What Mitcham Locals Say",
+  "testimonialsSubheading": "Honest service, fair prices",
+  "blogHeading": "Mitcham Auto Care Tips & Guides",
+  "blogSubheading": "Expert advice from local mechanics",
+  "contactHeading": "Get in Touch with Us",
+  "contactSubheading": "Free quotes and friendly service in Mitcham",
+  "reviews": [
+    {
+      "text": "Mitcham Automotive Service Centre did a fantastic job on my car's logbook service. They were thorough and explained everything clearly. Highly recommend for anyone in Mitcham needing reliable auto repairs.",
+      "name": "Sarah Thompson",
+      "role": "Mitcham Homeowner"
+    },
+    {
+      "text": "As a local business owner, I trust Mitcham Automotive with our fleet vehicles. Their quick turnaround and expert brake services keep us on the road safely. A true Mitcham asset.",
+      "name": "James Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've been taking my car to Mitcham Automotive for years. Their transmission repair saved me a lot of money compared to the dealership. Great service and honest advice in Mitcham.",
+      "name": "Emma Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Mitcham",
+    "Ringwood",
+    "Box Hill",
+    "Blackburn",
+    "Nunawading",
+    "Forest Hill",
+    "Vermont"
+  ],
+  "about": {
+    "intro": "Mitcham Automotive Service Centre has been serving the Mitcham community with expert car care for years, building a reputation for reliability and quality.",
+    "story": [
+      "Our journey in Mitcham started with a simple mission: to provide honest and reliable auto repairs to local residents. Over the years, we've grown by investing in the latest technology and training our mechanics to handle all vehicle makes and models with precision.",
+      "Located conveniently on Maroondah Highway, Mitcham Automotive Service Centre is easily accessible for all your car care needs. We pride ourselves on transparent communication, ensuring Mitcham drivers understand every aspect of their vehicle's service or repair."
+    ],
+    "mission": "To deliver exceptional auto servicing and repairs to the Mitcham community with integrity and expertise.",
+    "whyUs": [
+      {
+        "title": "Experienced Mechanics",
+        "text": "Our team has years of experience working with all vehicle makes and models in Mitcham."
+      },
+      {
+        "title": "Modern Equipment",
+        "text": "We use the latest diagnostic tools and technology for accurate and efficient repairs."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We provide upfront quotes with no hidden fees, ensuring you know the cost before we start."
+      },
+      {
+        "title": "Customer Focused",
+        "text": "Your satisfaction is our priority, and we strive to exceed expectations with every service."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years in Mitcham"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Free diagnostic checks",
+      "Genuine parts guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Mitcham Automotive Service Centre, we offer competitive pricing with no lock-in contracts. Get a free quote today for any auto service in Mitcham.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "from $120",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Fluid top-up"
+        ]
+      },
+      {
+        "name": "Full Logbook Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Manufacturer-standard servicing",
+          "Genuine parts used",
+          "Comprehensive report",
+          "Warranty maintained"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Engine diagnostics",
+          "Transmission repair",
+          "Electrical fixes",
+          "Fixed-price quote"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so there are no surprises on your final bill."
+  },
+  "contact": {
+    "intro": "Ready to book your car service? Contact Mitcham Automotive Service Centre for a free quote. We're here to help with all your auto repair needs in Mitcham."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Full Car Service Cost in Mitcham?",
+      "date": "March 2026",
+      "excerpt": "Discover the typical costs for a full logbook service in Mitcham, including factors that affect pricing and how to save money on maintenance.",
+      "body": [
+        "When it comes to maintaining your vehicle in Mitcham, understanding the cost of a full car service is essential. A full logbook service typically includes oil and filter changes, brake inspections, fluid checks, and a comprehensive vehicle assessment. In Mitcham, prices can vary based on your car's make, model, and age, but local mechanics like Mitcham Automotive Service Centre offer competitive rates to keep your vehicle running smoothly without breaking the bank.",
+        "The factors influencing service costs in Mitcham include the complexity of your car's engine, the type of parts required—whether genuine or aftermarket—and the labour time involved. For instance, European vehicles may cost more due to specialised parts, while older cars might need additional attention for wear and tear. At Mitcham Automotive, we provide transparent quotes upfront, so Mitcham residents know exactly what to expect before any work begins.",
+        "Compared to dealership services, local Mitcham mechanics often offer more affordable pricing without compromising quality. Dealerships may charge premium rates for brand-specific expertise, but independent centres like ours use the same advanced diagnostic tools and genuine parts where necessary. This means you get dealership-level care in Mitcham at a fraction of the cost, with personalised service from mechanics who know the local community.",
+        "To save money on your car service in Mitcham, consider bundling services like tyre rotations or brake checks with your logbook service. Regular maintenance can prevent costly repairs down the line, especially in Mitcham's varying climate, where temperature changes can affect vehicle performance. We recommend scheduling services every 10,000 kilometres or as per your manufacturer's guidelines to keep your car in top condition.",
+        "Mitcham Automotive Service Centre also offers seasonal promotions and discounts for local residents, making it even more affordable to keep your vehicle maintained. Whether you're a daily commuter on Maroondah Highway or a weekend driver, our team is here to ensure your car remains safe and efficient. We pride ourselves on serving Mitcham with honesty and expertise, building long-term relationships with our customers.",
+        "In conclusion, the cost of a full car service in Mitcham is an investment in your vehicle's longevity and safety. By choosing a trusted local mechanic, you not only save money but also support the community. Contact Mitcham Automotive Service Centre today for a free quote and experience the difference in auto care that Mitcham drivers rely on."
+      ]
+    },
+    {
+      "title": "Signs Your Car Needs Brake Repair in Mitcham VIC",
+      "date": "February 2026",
+      "excerpt": "Learn the key warning signs that indicate your brakes need attention in Mitcham, and why timely repairs are crucial for road safety.",
+      "body": [
+        "Driving in Mitcham requires reliable brakes, especially with busy roads like Maroondah Highway and local traffic. Recognising the signs of brake wear early can prevent accidents and costly repairs. Common indicators include squeaking or grinding noises, a spongy brake pedal, or your car pulling to one side when braking. If you notice any of these in Mitcham, it's time to visit a mechanic.",
+        "Squeaking brakes often mean the brake pads are worn down and need replacement. In Mitcham, where road conditions can be harsh due to weather and potholes, pads may wear faster. Grinding sounds are more serious, suggesting metal-on-metal contact, which can damage rotors. Mitcham Automotive Service Centre recommends regular brake inspections to catch these issues early for Mitcham drivers.",
+        "A spongy or soft brake pedal could indicate air in the brake lines or a fluid leak, both common in Mitcham's variable climate. This reduces braking efficiency and is a safety hazard. Additionally, if your vehicle pulls to the left or right when braking, it may signal uneven pad wear or caliper problems. Our mechanics in Mitcham use advanced diagnostics to pinpoint the exact cause.",
+        "Ignoring brake issues in Mitcham can lead to reduced stopping power, increasing the risk of accidents on local roads. Timely repairs ensure your vehicle remains safe and compliant with Australian safety standards. At Mitcham Automotive, we offer comprehensive brake services, including pad replacements, rotor resurfacing, and fluid checks, tailored to Mitcham's driving conditions.",
+        "To maintain optimal brake performance in Mitcham, we advise having your brakes inspected every 20,000 kilometres or if you experience any warning signs. Local factors like frequent stop-start traffic or hilly terrain in surrounding suburbs can accelerate wear. Our team provides honest assessments and upfront pricing so Mitcham residents can make informed decisions about their brake repairs.",
+        "In summary, staying vigilant about brake signs in Mitcham is essential for your safety and vehicle longevity. If you suspect any issues, don't delay—contact Mitcham Automotive Service Centre for a thorough brake inspection and reliable repairs. We're here to keep Mitcham drivers safe on the road."
+      ]
+    },
+    {
+      "title": "Why Choose a Local Mitcham Mechanic Over Dealerships?",
+      "date": "January 2026",
+      "excerpt": "Explore the benefits of selecting a local mechanic in Mitcham for your car repairs, including personalised service and cost savings.",
+      "body": [
+        "In Mitcham, choosing between a local mechanic and a dealership can significantly impact your car care experience. Local mechanics like Mitcham Automotive Service Centre offer personalised service, understanding the specific needs of Mitcham drivers. Unlike dealerships, which may prioritise volume, local shops build relationships, providing tailored advice for your vehicle's maintenance.",
+        "Cost is a major factor—dealerships often charge higher labour rates and may push for unnecessary services. In Mitcham, local mechanics offer competitive pricing without hidden fees, using quality parts that meet Australian standards. This transparency ensures Mitcham residents get value for money, especially for services like logbook servicing or brake repairs.",
+        "Convenience is another advantage. Located on Maroondah Highway, Mitcham Automotive is easily accessible for drop-offs and pick-ups, saving you time compared to travelling to distant dealerships. We also offer flexible scheduling and quicker turnaround times, minimising disruption to your daily routine in Mitcham.",
+        "Expertise at local mechanics is often underrated. Our team in Mitcham is trained to handle all vehicle makes and models, using the same advanced diagnostic tools as dealerships. This means you receive dealership-quality care with the added benefit of local knowledge, such as understanding how Mitcham's climate affects your car's performance.",
+        "Supporting a local Mitcham mechanic contributes to the community economy. By choosing us, you're investing in local jobs and businesses that reinvest in Mitcham. We pride ourselves on being part of the fabric, offering services that cater to the unique driving conditions in suburbs like Ringwood and Box Hill.",
+        "Ultimately, the choice between a local mechanic and a dealership in Mitcham comes down to trust, value, and community connection. At Mitcham Automotive Service Centre, we strive to exceed expectations with honest, reliable service. Experience the difference for yourself—contact us today for all your auto repair needs in Mitcham."
+      ]
+    },
+    {
+      "title": "Essential Car Maintenance Tips for Mitcham Winters",
+      "date": "December 2025",
+      "excerpt": "Prepare your vehicle for Mitcham's cold winters with these maintenance tips to ensure reliability and safety on the roads.",
+      "body": [
+        "Winter in Mitcham brings cooler temperatures and sometimes wet conditions, making car maintenance crucial for safety. Starting with your battery, cold weather can reduce its efficiency, so have it tested at Mitcham Automotive Service Centre to avoid breakdowns. Local mechanics recommend checking battery health before winter sets in for Mitcham drivers.",
+        "Tyres are vital for traction on slippery Mitcham roads. Ensure they have adequate tread depth—Australian standards require at least 1.5mm—and consider switching to winter tyres if you frequently drive in frosty conditions. In Mitcham, where hills and residential streets can be challenging, proper tyres prevent skidding and improve control.",
+        "Fluid levels need attention in winter. Use a coolant mixture suitable for Mitcham's temperatures to prevent engine freezing, and check windscreen washer fluid for visibility in rain. Mitcham Automotive Service Centre offers fluid checks and top-ups as part of our winter service packages, ensuring your car is prepared.",
+        "Brakes are equally important, as wet conditions increase stopping distances. Have your brakes inspected for wear, especially if you notice any squeaking. In Mitcham, where traffic on roads like Blackburn Road can be heavy, reliable brakes are essential for avoiding accidents during winter commutes.",
+        "Visibility is key—clean your windscreen inside and out, and replace worn wiper blades. In Mitcham, fog and rain are common, so defrosters and heaters should be in top working order. Our mechanics can test these systems to keep you comfortable and safe on Mitcham roads.",
+        "Regular servicing is the best way to winter-proof your car. Schedule a check-up at Mitcham Automotive Service Centre to address any issues before they escalate. We provide comprehensive winter inspections tailored to Mitcham's climate, helping you drive with confidence throughout the colder months."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Mitcham Automotive Service Centre | Car Repairs in Mitcham VIC",
+      "description": "Expert car servicing and repairs in Mitcham. From logbook servicing to engine fixes, trust Mitcham Automotive for all your auto needs. Call 0398748129."
+    },
+    "about": {
+      "title": "About Mitcham Automotive | Local Mechanics in Mitcham",
+      "description": "Learn about Mitcham Automotive Service Centre's commitment to quality auto repairs and servicing in Mitcham, VIC. Your trusted local mechanic."
+    },
+    "services": {
+      "title": "Auto Services in Mitcham | Car Repairs & Maintenance",
+      "description": "Comprehensive auto services in Mitcham including logbook servicing, brake repairs, and engine diagnostics. Mitcham Automotive Service Centre."
+    },
+    "pricing": {
+      "title": "Car Service Costs in Mitcham | Mitcham Automotive",
+      "description": "Competitive pricing for car services in Mitcham. Get transparent quotes for logbook servicing, repairs, and more at Mitcham Automotive Service Centre."
+    },
+    "contact": {
+      "title": "Contact Mitcham Automotive | Free Quotes in Mitcham",
+      "description": "Get in touch with Mitcham Automotive Service Centre for free quotes on car repairs and servicing in Mitcham, VIC. Call 0398748129 today."
+    },
+    "blog": {
+      "title": "Mitcham Auto Care Blog | Tips & Advice from Local Mechanics",
+      "description": "Read the latest auto care tips and maintenance advice from Mitcham Automotive Service Centre. Stay informed for Mitcham driving conditions."
+    }
+  }
+}
