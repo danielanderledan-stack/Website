@@ -1,0 +1,247 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Vic Painting Group",
+  "suburb": "Croydon",
+  "phone": "+61452063739",
+  "email": "micah@micahrich.com",
+  "address": "21 Surrey Rd W, Croydon VIC 3136",
+  "tagline": "Croydon's Finest Painting & Artistic Finishes",
+  "primaryColor": "#9999ff",
+  "primaryColorRgb": "153, 153, 255",
+  "primaryColorHover": "#7a7aff",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Croydon's Premier Painting Service",
+      "sub": "Bringing artistic vision to life since 2005"
+    },
+    {
+      "title": "Interior, Exterior & Artistic Finishes",
+      "sub": "Quality workmanship for Croydon homes and businesses"
+    },
+    {
+      "title": "Vic Painting Group — Croydon's Choice",
+      "sub": "Free quotes across Croydon & the Yarra Ranges"
+    }
+  ],
+  "ctaHeading": "Ready to transform your Croydon property with exceptional paintwork?",
+  "aboutHeading": "20 Years Painting in Croydon",
+  "aboutSubheading": "Local expertise, artistic results",
+  "aboutText": "At Vic Painting Group, we've been enhancing homes and businesses across Croydon and the Eastern suburbs for over two decades. Our mission is to bring your vision to life through exceptional painting services, blending meticulous preparation with premium finishes. We understand Croydon's unique architectural styles and local climate, ensuring every project not only looks stunning but withstands the Australian elements for years to come.",
+  "servicesHeading": "Our Painting & Finishing Services",
+  "servicesSubheading": "Professional colour & craft",
+  "servicesText": "From meticulous surface preparation to applying the perfect final coat, we deliver flawless results. Our services cover everything from interior room transformations and full exterior repaints to specialised artistic finishes and detailed restoration work for Croydon properties.",
+  "bannerHeading": "Need a Painter in Croydon?",
+  "bannerSubheading": "Vic Painting Group delivers quality and detail for every project.",
+  "testimonialsHeading": "What Croydon Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Croydon Painting Tips & Trends",
+  "blogSubheading": "Local advice for lasting beauty",
+  "contactHeading": "Get a Free Painting Quote Today",
+  "contactSubheading": "Let's discuss your Croydon project",
+  "reviews": [
+    {
+      "text": "The Vic Painting Group team transformed our tired Croydon home. Their attention to detail during the exterior repaint was fantastic, and the new colour scheme has completely modernised the property. Highly recommended!",
+      "name": "Sarah Mitchell",
+      "role": "Croydon Homeowner"
+    },
+    {
+      "text": "We hired them for a complex commercial interior fit-out in Ringwood. Their professionalism, clean work, and ability to match our brand colours perfectly were outstanding. A reliable team for any business.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Our body corporate engaged Vic Painting Group for a full corridor and stairwell repaint in our Croydon apartment block. The work was efficient, tidy, and the results have refreshed the entire building. Great value.",
+      "name": "Anita Patel",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Croydon",
+    "Ringwood",
+    "Lilydale",
+    "Boronia",
+    "Kilsyth",
+    "Mount Evelyn",
+    "Mooroolbark",
+    "Chirnside Park"
+  ],
+  "about": {
+    "intro": "Vic Painting Group is Croydon's trusted painting specialist, delivering exceptional quality for residential, commercial, and artistic projects across Melbourne's eastern suburbs.",
+    "story": [
+      "Founded in Croydon over 20 years ago, Vic Painting Group began with a simple promise: meticulous workmanship and genuine care for every client's property. Our founder, Micah, built the business on local relationships, understanding that Croydon homeowners value reliability and a tidy job site as much as a beautiful finish.",
+      "From our Croydon base, we've grown to become the go-to painters for projects ranging from single-room refreshes to full heritage restorations and large-scale commercial fit-outs. We've painted countless homes across the Yarra Ranges, always applying the same rigorous preparation standards that ensure our finishes last through harsh Melbourne summers and damp winters."
+    ],
+    "mission": "To bring every Croydon client's unique vision to life through flawless painting, combining skilled craftsmanship with unmatched customer care.",
+    "whyUs": [
+      {
+        "title": "Croydon Specialists",
+        "text": "We know local homes, styles, and what works in the Melbourne climate."
+      },
+      {
+        "title": "Meticulous Preparation",
+        "text": "Proper sanding, filling, and priming are the secrets to a lasting finish."
+      },
+      {
+        "title": "Artistic Colour Advice",
+        "text": "We help you choose perfect palettes that transform your space beautifully."
+      },
+      {
+        "title": "Tidy & Professional",
+        "text": "We respect your property, clean up daily, and finish on schedule."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,000+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed painter",
+      "Full public liability insurance",
+      "Free detailed quotes",
+      "Workmanship guarantee",
+      "Eco-friendly paint options"
+    ]
+  },
+  "pricing": {
+    "intro": "For every Croydon painting project, we provide a clear, no-obligation quote with a fixed price. No surprises, just honest pricing for exceptional work.",
+    "packages": [
+      {
+        "name": "Interior Feature Wall",
+        "price": "from $400",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Single wall preparation & paint",
+          "Premium low-VOC paint included",
+          "Furniture protection",
+          "Tidy finish guarantee"
+        ]
+      },
+      {
+        "name": "Full Interior Room",
+        "price": "from $1,500",
+        "unit": "per room",
+        "highlight": true,
+        "features": [
+          "Complete preparation & 2 coats",
+          "Ceiling, walls & trim included",
+          "Premium paint brands",
+          "Full site cleanup"
+        ]
+      },
+      {
+        "name": "Exterior House Paint",
+        "price": "from $8,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full pressure wash & prep",
+          "All walls, eaves & trim",
+          "High-quality exterior paint",
+          "Scaffolding included if needed"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and include GST — the price we quote is the price you pay."
+  },
+  "contact": {
+    "intro": "Ready to refresh your Croydon property? Contact Micah and the team at Vic Painting Group today for a free, no-obligation quote. We'll visit your site, discuss your vision, and provide expert advice on colours and finishes."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does It Cost to Paint a House in Croydon in 2026?",
+      "date": "March 2026",
+      "excerpt": "We break down the average costs for interior and exterior painting in Croydon, considering house size, paint quality, and preparation needs.",
+      "body": [
+        "Painting your Croydon home is one of the most cost-effective ways to boost its curb appeal and protect it from the Australian climate. In 2026, the cost can vary widely, but understanding the key factors helps you budget accurately. For a typical three-bedroom house in Croydon, an exterior repaint might start around $8,000, while a full interior paint job for the same home could range from $10,000 to $18,000, depending on the scope and finishes chosen.",
+        "The primary driver of cost is preparation. Croydon homes, especially older ones in areas like Mount Dandenong Road, often require extensive scraping, filling, and sanding to create a sound surface. Skimping here is a false economy, as new paint will peel within years. A professional painter like Vic Painting Group will allocate significant time to this crucial stage, which is reflected in the quote but ensures a finish that lasts a decade or more.",
+        "Paint quality is the next major factor. We exclusively use premium 100% acrylic paints from brands like Dulux and Taubmans. While the upfront cost is higher than budget lines, these paints offer superior colour retention, flexibility to handle temperature swings, and better resistance to mould and mildew, which is essential in Croydon's sometimes damp climate.",
+        "The complexity of the job also impacts price. High ceilings, intricate cornices, or detailed fretwork on heritage homes common in Croydon add time and skill requirements. Similarly, working around garden beds, fencing, or steep blocks requires careful protection and may need specialised equipment. Every quote from Vic Painting Group is a detailed, fixed-price breakdown so you know exactly what you're paying for.",
+        "A common question we hear is whether to use an airless sprayer or brushes and rollers. In Croydon, we typically recommend a combination: spraying for large, flat areas like weatherboards for efficiency, followed by careful back-brushing or rolling to work the paint into the surface for better adhesion and longevity.",
+        "Ultimately, the best way to determine the cost for your specific Croydon property is with a free on-site assessment. We can identify any hidden issues like lead-based paint (common in pre-1970s homes) and provide a tailored recommendation that suits your budget and long-term goals. Investing in a professional paint job from a trusted Croydon local protects your home and enhances its value for years to come."
+      ]
+    },
+    {
+      "title": "The Best Time of Year to Paint Your Croydon Home",
+      "date": "February 2026",
+      "excerpt": "Melbourne's weather is famously changeable. Learn the optimal seasons and conditions for painting in the Yarra Ranges to ensure a perfect, lasting finish.",
+      "body": [
+        "Choosing the right time to paint in Croydon isn't just about picking a sunny week. Melbourne's four-seasons-in-one-day reputation means you need to consider temperature, humidity, and dew point to ensure your paint cures correctly. At Vic Painting Group, we monitor conditions closely and advise our Croydon clients on the ideal windows for their projects.",
+        "Spring (September to November) is often considered the prime painting season in Croydon. Temperatures are moderate, usually between 10°C and 25°C, and humidity is generally lower than in autumn. This provides a stable environment for paint to dry and cure properly. It's an excellent time to tackle exterior projects before the summer heat or interior projects before the busy holiday season.",
+        "Autumn (March to May) can also be a good window, particularly earlier in the season. The key advantage is less intense UV than summer, which can sometimes cause paint to dry too quickly on external surfaces, leading to poor adhesion. However, you must be wary of increasing rainfall and dew, which can cause issues if paint is applied to damp surfaces.",
+        "Summer (December to February) in Croydon can be challenging for painting. While it's dry, extreme heat (often over 35°C) can cause paint to skin over before it's properly worked into the surface, leading to a weaker film. Early morning starts are essential. Conversely, the intense sun can also cause shadows to move quickly across a surface, making it hard to maintain a wet edge and avoid lap marks.",
+        "Winter (June to August) is generally not recommended for exterior painting in Croydon. Cold temperatures, especially overnight, and high humidity prevent paint from curing. However, it's an ideal time for interior projects, as you can control the environment with heating and ventilation. This is perfect for major renovations or new builds in the Yarra Ranges.",
+        "Ultimately, the 'best time' also depends on your specific home. A north-facing wall in Croydon will have different drying conditions than a shaded southern aspect. A professional painter will assess these micro-climates and schedule work accordingly. At Vic Painting Group, we prioritise optimal conditions over speed to guarantee a finish that protects your investment.",
+        "Preparation is also weather-dependent. Pressure washing and scraping must be done in dry conditions, and you need to allow ample drying time for the substrate before any paint is applied. Rushing this stage due to a tight schedule is the most common cause of paint failure in our local climate.",
+        "Our advice? Book your Croydon painting project well in advance, especially for spring. This gives you flexibility to schedule the work during the perfect weather window, ensuring your new paint job looks stunning for many years to come."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Paint Colours for Your Croydon Home",
+      "date": "January 2026",
+      "excerpt": "Colour choice can make or break a renovation. Get expert advice on selecting palettes that complement Croydon's architectural styles and natural surroundings.",
+      "body": [
+        "Selecting paint colours for your Croydon home is an exciting but daunting task. The colour you choose will define the character of your property for years. At Vic Painting Group, we see ourselves as colour consultants as much as painters, helping our Croydon clients navigate the thousands of options to find their perfect palette.",
+        "Start by considering your home's architectural style. Croydon has a diverse housing stock, from classic 1950s weatherboard cottages to modern rendered homes. For a traditional weatherboard, heritage-inspired colour schemes with contrasting trims often work beautifully. For contemporary homes, monochromatic schemes with a single accent can create a sleek, sophisticated look that stands out in a modern estate.",
+        "The surrounding environment is a crucial guide. Look at the colours of your roof, brickwork, driveway, and natural features like gum trees or garden beds. A house in a leafy, green part of Croydon might be complemented by earthy tones, while a home with a dark charcoal roof might pair well with lighter, contrasting wall colours. We always recommend viewing large paint samples on different walls at various times of day.",
+        "Don't forget the impact of natural light. A colour in a north-facing Croydon living room will look different than in a south-facing bedroom. The light changes throughout the day and across seasons. We encourage clients to paint large test patches and observe them over a few days. What looks perfect in a small swatch on a shop card can feel overwhelming on a whole wall.",
+        "When it comes to finishes, we generally recommend a low-sheen or matt finish for interior walls as it's forgiving and hides minor imperfections. For trims, doors, and windows, a semi-gloss or gloss finish is more durable and easier to clean. Exteriors benefit from low-sheen or satin finishes that resist dirt and fading better in the harsh Australian sun.",
+        "A popular trend we're seeing in Croydon is the use of accent colours to highlight architectural features. Painting a front door, window frames, or a gable in a bold colour can add personality and kerb appeal without a full repaint. It's a cost-effective way to make a statement.",
+        "Remember, colour is deeply personal. While trends come and go, the most important thing is that you love the colour in your own home. Our team at Vic Painting Group is here to provide objective, expert advice based on our experience with countless homes across the Yarra Ranges.",
+        "We can bring colour boards to your Croydon home and show you how different options will look in your specific light and context. Let us help you make a confident choice that you'll be happy with every time you pull into your driveway."
+      ]
+    },
+    {
+      "title": "Common Painting Mistakes & How Croydon Homeowners Can Avoid Them",
+      "date": "December 2025",
+      "excerpt": "DIY paint jobs can go wrong. Learn the top errors we see in Croydon properties and how proper professional technique prevents costly do-overs.",
+      "body": [
+        "We've all seen it: paint peeling on a relatively new exterior, or an interior wall covered in visible roller marks and lap lines. At Vic Painting Group, we often get called to fix botched DIY jobs or poor-quality paint work across Croydon. Understanding the most common mistakes can help you appreciate the value of professional workmanship.",
+        "The number one mistake is inadequate surface preparation. In Croydon's variable climate, painting over dirty, chalking, or damp surfaces is a recipe for failure. Surfaces must be thoroughly cleaned, scraped loose paint, sanded smooth, and fully dry. Using a high-quality primer on new plaster, patched areas, or glossy surfaces is non-negotiable for proper adhesion.",
+        "Another frequent error is using the wrong type of paint. Interior paints are not formulated to withstand UV rays or rain, and using them outside will lead to rapid fading and peeling. Similarly, using a cheap, builder's-grade paint on your beautiful Croydon home will mean you'll be repainting much sooner. Investing in premium, application-specific paints from the start saves money long-term.",
+        "Applying paint in adverse weather is a critical mistake. Painting in direct, hot sun causes the paint to dry too fast, leading to a poor film formation. Painting when humidity is high or the temperature is dropping can prevent proper curing, resulting in a soft, tacky finish that attracts dirt. Professional painters monitor conditions and know when it's safe to proceed.",
+        "Rushing the job is a guarantee of poor results. This includes applying a second coat before the first is properly dry, or not allowing adequate time for caulk and filler to cure. Painting in a hurry also leads to cutting corners on protection – failing to properly mask off fixtures, flooring, and furniture, which results in drips, splatters, and damage.",
+        "Choosing the wrong tools or technique can ruin the finish. Using a low-quality brush will leave bristle marks and won't hold enough paint. An overloaded roller leads to drips and an uneven texture. Achieving a smooth, consistent finish requires the right tools and the skill to use them efficiently, maintaining a wet edge to avoid lap marks.",
+        "Overlooking the details is the final pitfall. Not properly cutting in around edges, fittings, and trim results in messy, unprofessional-looking work. Taping is not a substitute for a steady hand and proper technique. These finishing touches are what separate a truly professional job from an amateur one.",
+        "The best way to avoid all these mistakes is to engage a reputable, local painting professional. Vic Painting Group has spent over 20 years painting in Croydon, and we have the expertise, equipment, and knowledge of local conditions to deliver a flawless, long-lasting finish the first time. We save you the time, stress, and potential cost of having to redo the work."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Vic Painting Group | Painter in Croydon | Expert Finishes",
+      "description": "Croydon's trusted painting specialist for 20+ years. Interior, exterior & artistic finishes for homes & businesses. Free quotes. Vic Painting Group."
+    },
+    "about": {
+      "title": "About Vic Painting Group | Croydon's Painting Experts Since 2005",
+      "description": "Learn about Vic Painting Group, Croydon's premier painting service. 20+ years of quality craftsmanship, local expertise, and exceptional customer care."
+    },
+    "services": {
+      "title": "Painting Services in Croydon | Interior, Exterior & Specialty",
+      "description": "Professional painting services in Croydon. Interior repaints, exterior weatherproofing, feature walls, and artistic finishes. Quality guaranteed."
+    },
+    "pricing": {
+      "title": "Croydon Painting Costs & Quotes | Vic Painting Group",
+      "description": "Transparent pricing for painting projects in Croydon. Get a free, no-obligation quote for interior or exterior work. Fixed-price, no surprises."
+    },
+    "contact": {
+      "title": "Contact Vic Painting Group | Free Croydon Painting Quotes",
+      "description": "Contact Vic Painting Group for a free painting quote in Croydon. Call Micah or visit our Surrey Rd W office. Serving the Eastern suburbs."
+    },
+    "blog": {
+      "title": "Croydon Painting Blog | Tips, Costs & Colour Advice",
+      "description": "Expert painting advice for Croydon homeowners. Learn about costs, best seasons to paint, colour tips, and how to avoid common mistakes."
+    }
+  }
+}
