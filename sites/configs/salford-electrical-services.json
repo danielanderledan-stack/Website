@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Salford Electrical Services",
+  "suburb": "Port Melbourne",
+  "phone": "0400 067 649",
+  "email": "admin@salfordservices.com",
+  "address": "17/1 Graham St, Port Melbourne VIC 3207",
+  "tagline": "13 Years Powering Port Melbourne",
+  "primaryColor": "#00AEEF",
+  "primaryColorRgb": "0, 174, 239",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Port Melbourne's Trusted Electricians",
+      "sub": "13 years of expert service"
+    },
+    {
+      "title": "Commercial, Industrial & Marine Electrical",
+      "sub": "From maintenance to large-scale installations"
+    },
+    {
+      "title": "24/7 Emergency Electrical Support",
+      "sub": "Reliable solutions for Port Melbourne"
+    }
+  ],
+  "ctaHeading": "Port Melbourne's electricians are ready — power up your project.",
+  "aboutHeading": "13 Years Electrical Excellence in Port Melbourne",
+  "aboutSubheading": "Local, licensed & innovative",
+  "aboutText": "Salford Electrical Services, based in Port Melbourne, brings over 13 years of electrical expertise to commercial, industrial, and marine projects. Founded by Liam, we focus on precision, safety, and cutting-edge technology to deliver reliable solutions for all your electrical needs in Port Melbourne and surrounds.",
+  "servicesHeading": "Expert Electrical Services in Port Melbourne",
+  "servicesSubheading": "Solutions for every need",
+  "servicesText": "From routine maintenance to complex installations, Salford Electrical Services provides comprehensive electrical solutions tailored for Port Melbourne businesses. We specialise in commercial, industrial, and marine sectors, ensuring safety and efficiency with every project.",
+  "services": [
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Comprehensive electrical solutions for businesses in Port Melbourne.",
+      "longDesc": "We offer tailored electrical services for offices, retail, and commercial spaces in Port Melbourne, ensuring minimal downtime and maximum efficiency.",
+      "points": [
+        "Business electrical upgrades",
+        "Energy-efficient solutions",
+        "Code compliance guaranteed"
+      ]
+    },
+    {
+      "title": "Industrial Electrical Solutions",
+      "desc": "Robust electrical systems for factories and warehouses in Port Melbourne.",
+      "longDesc": "Our industrial electrical work in Port Melbourne covers installations, repairs, and maintenance for heavy-duty operations, adhering to strict Australian safety standards.",
+      "points": [
+        "High-voltage installations",
+        "Preventative maintenance plans",
+        "Minimal production disruption"
+      ]
+    },
+    {
+      "title": "Marine Electrical Work",
+      "desc": "Specialised electrical services for boats and marine facilities.",
+      "longDesc": "Port Melbourne's marine electrical experts, we handle wiring, repairs, and upgrades for vessels and docks, ensuring reliability in harsh coastal conditions.",
+      "points": [
+        "Marine-grade materials",
+        "Waterproof installations",
+        "Safety inspections"
+      ]
+    },
+    {
+      "title": "Electrical Maintenance & Repairs",
+      "desc": "Prompt repair and upkeep for all electrical systems.",
+      "longDesc": "Keep your Port Melbourne property safe with our routine maintenance and emergency repair services, designed to prevent faults and extend system life.",
+      "points": [
+        "24/7 emergency response",
+        "Scheduled maintenance",
+        "Fault diagnosis"
+      ]
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Ensure your electrical systems meet Australian standards.",
+      "longDesc": "We conduct thorough safety audits and compliance checks for Port Melbourne properties, helping you avoid hazards and meet regulatory requirements.",
+      "points": [
+        "Certified safety reports",
+        "Risk assessment",
+        "Upgrade recommendations"
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "Immediate assistance for urgent electrical issues.",
+      "longDesc": "Available 24/7 in Port Melbourne, our emergency electricians respond quickly to outages, faults, or hazards, restoring safety and power fast.",
+      "points": [
+        "Rapid response team",
+        "After-hours availability",
+        "Temporary solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Port Melbourne?",
+  "bannerSubheading": "Licensed, insured & available 24/7",
+  "testimonialsHeading": "What Port Melbourne Clients Say",
+  "testimonialsSubheading": "Honest work, reliable results",
+  "blogHeading": "Port Melbourne Electrical Insights & Tips",
+  "blogSubheading": "Expert advice from local electricians",
+  "contactHeading": "Get a Free Electrical Quote in Port Melbourne",
+  "contactSubheading": "We respond fast — call or email today",
+  "reviews": [
+    {
+      "text": "Salford Electrical Services handled our office fit-out in Port Melbourne with professionalism and efficiency. Their attention to detail and safety standards were impressive.",
+      "name": "John Mitchell",
+      "role": "Port Melbourne Business Owner"
+    },
+    {
+      "text": "We called for an emergency electrical issue at our warehouse, and they arrived promptly. Excellent service and fair pricing for industrial work.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The marine electrical installation on our boat was done perfectly. Highly recommend their expertise in Port Melbourne.",
+      "name": "Mike O'Connor",
+      "role": "Marine Industry Client"
+    }
+  ],
+  "serviceAreas": [
+    "Port Melbourne",
+    "South Melbourne",
+    "Docklands",
+    "Williamstown",
+    "Altona",
+    "Newport",
+    "Footscray"
+  ],
+  "about": {
+    "intro": "Salford Electrical Services is Port Melbourne's premier electrical contractor, offering expert solutions for commercial, industrial, and marine sectors.",
+    "story": [
+      "Founded in 2022, Salford Electrical Services was born from founder Liam's 13 years in the electrical industry. Recognising a gap for customer-focused, reliable service in Port Melbourne, he established SES to deliver innovative and safe electrical solutions.",
+      "We specialise in complex electrical projects, from large-scale installations to routine maintenance, ensuring every job meets the highest standards. Our commitment to technology and best practices keeps us at the forefront of the industry in Port Melbourne."
+    ],
+    "mission": "To provide Port Melbourne with safe, efficient, and cutting-edge electrical services that build long-term trust.",
+    "whyUs": [
+      {
+        "title": "13+ Years Experience",
+        "text": "Over a decade of proven expertise in electrical solutions for Port Melbourne."
+      },
+      {
+        "title": "Customer Focused",
+        "text": "We prioritise your needs, ensuring transparent communication and tailored services."
+      },
+      {
+        "title": "Cutting-Edge Tech",
+        "text": "Utilising the latest technology for efficient and reliable electrical work."
+      },
+      {
+        "title": "Safety First",
+        "text": "Committed to the highest safety standards on every project in Port Melbourne."
+      }
+    ],
+    "stats": [
+      {
+        "value": "13+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed electrician",
+      "Public liability insured",
+      "Free on-site quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "Transparent pricing for all electrical services in Port Melbourne — no hidden fees, just honest quotes.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site electrical assessment",
+          "Detailed fixed quote",
+          "No-obligation advice"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional installation or repair",
+          "Quality materials used",
+          "Safety compliance",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive project management",
+          "Commercial or industrial scale",
+          "Ongoing support and maintenance"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises — we stand by our pricing in Port Melbourne."
+  },
+  "contact": {
+    "intro": "Ready to discuss your electrical needs in Port Melbourne? Contact us for a free, no-obligation quote. We're available 24/7 for emergencies."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Commercial Electrical Work Cost in Port Melbourne?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors influencing commercial electrical costs in Port Melbourne, from building age to project scope, with local pricing insights.",
+      "body": [
+        "Port Melbourne's commercial landscape, from bustling retail strips to industrial warehouses, demands reliable electrical systems, and understanding costs is crucial for business owners. Factors like the age of your property, existing wiring condition, and the complexity of installations significantly impact pricing. For instance, older buildings in Port Melbourne may require rewiring to meet current Australian Standards, adding to the overall expense, while new constructions can integrate modern, energy-efficient solutions from the start.",
+        "Typical commercial electrical work in Port Melbourne ranges from minor repairs, costing $200-$500, to major fit-outs or upgrades, which can exceed $10,000. The cost of materials, labour rates for licensed electricians, and any necessary council permits all play a role. It's essential to get multiple quotes from local professionals like Salford Electrical Services to ensure competitive and transparent pricing tailored to your specific needs.",
+        "Hiring a licensed electrician in Port Melbourne is non-negotiable for safety and compliance. Australian regulations, including AS/NZS 3000, dictate strict standards for electrical installations, and non-compliance can lead to fines or insurance issues. Local electricians understand Port Melbourne's unique building codes and environmental factors, such as coastal humidity affecting marine electrical work, ensuring all jobs are done right the first time.",
+        "Energy efficiency is another consideration that can affect long-term costs. Upgrading to LED lighting, installing smart power systems, or implementing solar solutions in Port Melbourne can reduce operational expenses, though initial outlays may be higher. Many businesses opt for phased upgrades to spread costs, and local electricians can advise on government rebates or incentives available in Victoria for energy-efficient improvements.",
+        "Emergency electrical services in Port Melbourne often carry premium rates, especially after-hours, so having a maintenance plan can prevent costly breakdowns. Routine inspections, typically costing $150-$300 per visit, can identify issues early and extend the lifespan of your electrical systems. Investing in preventative maintenance is a smart move for Port Melbourne businesses to avoid downtime and unexpected expenses.",
+        "In summary, commercial electrical costs in Port Melbourne vary based on multiple factors, but working with experienced local electricians ensures you receive accurate, upfront quotes and high-quality work. Salford Electrical Services offers free consultations to assess your needs and provide detailed pricing, helping you budget effectively for all your electrical projects in the area."
+      ]
+    },
+    {
+      "title": "Marine Electrical Safety: A Guide for Port Melbourne Boat Owners",
+      "date": "February 2026",
+      "excerpt": "Essential tips for maintaining marine electrical systems in Port Melbourne, addressing local challenges like saltwater corrosion and weather exposure.",
+      "body": [
+        "Port Melbourne's vibrant marina and coastal waters make it a hub for boating enthusiasts, but marine electrical systems face unique challenges from saltwater exposure, humidity, and constant vibration. Ensuring safety on the water starts with proper electrical maintenance, as faulty wiring can lead to fires or equipment failure. Australian marine electrical standards, such as AS/NZS 3004, provide guidelines for installations, but local conditions in Port Melbourne require specialised knowledge.",
+        "Saltwater corrosion is a major concern for electrical components in Port Melbourne. Using marine-grade materials like tinned copper wiring and waterproof connectors is essential to prevent degradation. Regular inspections, ideally every six months, can identify early signs of corrosion or wear, especially in connectors, batteries, and through-hull fittings. Local electricians familiar with Port Melbourne's maritime environment can recommend protective coatings and best practices.",
+        "Common marine electrical issues in Port Melbourne include faulty navigation lights, bilge pump failures, and battery drainage. These problems often stem from poor installation or inadequate maintenance. For example, navigation lights must comply with maritime regulations, and any electrical work on boats should be done by certified marine electricians to ensure seaworthiness. Port Melbourne's variable weather, from sunny days to storms, can exacerbate electrical faults, making proactive care vital.",
+        "Upgrading marine electrical systems in Port Melbourne can enhance safety and performance. Modern solutions like lithium batteries, shore power converters, and integrated monitoring systems offer reliability but require professional installation. The cost of marine electrical work varies based on vessel size and complexity, with minor repairs starting from $300 and full refits costing thousands. Getting quotes from local experts ensures compatibility with Port Melbourne's specific boating needs.",
+        "Emergency marine electrical services are critical in Port Melbourne, where immediate assistance can prevent accidents or sinking. Having a trusted electrician on call for issues like power loss at sea is a wise precaution. Many local firms, including Salford Electrical Services, offer 24/7 support for Port Melbourne's boating community, providing peace of mind on the water.",
+        "In conclusion, marine electrical safety in Port Melbourne hinges on regular maintenance, using quality materials, and adhering to Australian standards. By partnering with experienced local electricians, boat owners can ensure their vessels remain safe and reliable, ready to enjoy Port Melbourne's beautiful waterways."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Repairs: What Port Melbourne Businesses Must Know",
+      "date": "January 2026",
+      "excerpt": "A guide to handling electrical emergencies in Port Melbourne, from immediate steps to finding reliable local electricians for swift resolution.",
+      "body": [
+        "Electrical emergencies can disrupt Port Melbourne businesses, leading to downtime, safety hazards, and financial losses. Common issues like power outages, sparking outlets, or tripped circuits require immediate attention to prevent further damage. Knowing how to respond effectively is crucial for any business owner in the area.",
+        "The first step in an electrical emergency in Port Melbourne is to ensure safety: switch off the main power if possible, avoid water contact, and evacuate if there's a fire risk. Contact a licensed emergency electrician promptly, as DIY fixes can be dangerous and violate Australian regulations. Port Melbourne businesses should have emergency contact details handy, such as Salford Electrical Services, for quick response.",
+        "Response times for emergency electrical repairs in Port Melbourne vary, but local electricians typically aim to arrive within 1-2 hours. Factors like traffic, time of day, and the severity of the issue affect arrival. Having a maintenance contract with a local firm can prioritise your call, reducing downtime. Costs for emergency services in Port Melbourne may start from $200 for call-out fees, with additional charges for parts and labour.",
+        "Preventative measures can reduce the risk of electrical emergencies in Port Melbourne. Regular inspections, surge protector installations, and upgrading outdated wiring are proactive steps. Businesses in older Port Melbourne buildings, in particular, should invest in rewiring to meet current safety standards, as ageing systems are prone to faults. Energy audits can also identify inefficiencies and potential hazards.",
+        "Choosing a reliable emergency electrician in Port Melbourne involves checking credentials, reading reviews, and ensuring they offer 24/7 availability. Licensed professionals should have public liability insurance and experience with commercial or industrial systems. Salford Electrical Services, for example, specialises in rapid response for Port Melbourne businesses, with a track record of minimising disruptions.",
+        "In summary, Port Melbourne businesses must be prepared for electrical emergencies by having a plan, knowing safety protocols, and partnering with trusted local electricians. This approach ensures swift, safe resolutions and maintains operational continuity in the face of unexpected electrical issues."
+      ]
+    },
+    {
+      "title": "Energy Efficiency Upgrades for Industrial Facilities in Port Melbourne",
+      "date": "December 2025",
+      "excerpt": "How Port Melbourne industrial facilities can reduce energy costs through smart electrical upgrades, with insights on local incentives and ROI.",
+      "body": [
+        "Port Melbourne's industrial sector, with its warehouses, factories, and logistics centres, consumes significant energy, making efficiency upgrades a smart investment. Rising electricity costs in Victoria and environmental commitments drive the need for solutions that cut consumption without sacrificing productivity. Electrical upgrades tailored to industrial settings can yield substantial savings.",
+        "Key energy efficiency upgrades for Port Melbourne industrial facilities include LED lighting retrofits, high-efficiency motor installations, and power factor correction. LED lighting, for instance, reduces electricity use by up to 75% and lasts longer, lowering maintenance costs. In Port Melbourne's industrial areas, where operations run 24/7, such upgrades can dramatically improve bottom lines.",
+        "The cost of energy efficiency upgrades in Port Melbourne varies based on facility size and complexity. A lighting retrofit might start from $5,000, while full electrical system overhauls can exceed $50,000. However, the return on investment is often quick, with payback periods of 2-5 years through reduced energy bills. Local electricians can conduct audits to prioritise cost-effective improvements.",
+        "Australian standards, such as AS/NZS 2676, guide efficient electrical installations, ensuring safety and performance. Port Melbourne businesses must comply with these regulations, and upgrades can enhance compliance while improving efficiency. Additionally, government incentives, like Victorian Energy Upgrades (VEU) program rebates, can offset costs, making upgrades more affordable for Port Melbourne industrial facilities.",
+        "Smart technology integration is another avenue for energy efficiency in Port Melbourne. Installing automated controls, monitoring systems, and IoT devices allows for real-time energy management, identifying waste and optimising usage. For example, in a Port Melbourne warehouse, automated lighting and HVAC systems based on occupancy can save 20-30% on energy costs, enhancing sustainability.",
+        "Partnering with experienced local electricians is essential for successful energy efficiency upgrades in Port Melbourne. Firms like Salford Electrical Services understand the unique needs of industrial facilities in the area, from marine electrical work to heavy machinery installations. They can recommend upgrades that align with your operations, ensuring minimal disruption during implementation.",
+        "In conclusion, energy efficiency upgrades offer Port Melbourne industrial facilities a pathway to lower costs, reduced environmental impact, and enhanced competitiveness. By investing in modern electrical solutions and leveraging local expertise, businesses can achieve long-term sustainability and profitability."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Salford Electrical Services | Electrician in Port Melbourne | Commercial & Industrial",
+      "description": "Port Melbourne's trusted electrician for commercial, industrial, and marine electrical work. 13+ years experience. Free quotes. Call 0400 067 649."
+    },
+    "about": {
+      "title": "About Us | Port Melbourne Electricians | Salford Electrical Services",
+      "description": "Learn about Salford Electrical Services, Port Melbourne's reliable electrical contractor with 13 years expertise in commercial, industrial, and marine sectors."
+    },
+    "services": {
+      "title": "Electrical Services in Port Melbourne | Commercial, Industrial & Marine",
+      "description": "Comprehensive electrical services in Port Melbourne. From maintenance to installations, we handle all commercial, industrial, and marine electrical needs."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Costs Port Melbourne | Transparent Quotes",
+      "description": "Affordable electrical services in Port Melbourne. Get upfront pricing for commercial, industrial, and residential electrical work. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Salford Electrical Services | Port Melbourne Electrician",
+      "description": "Get a free electrical quote in Port Melbourne. Call 0400 067 649 or email admin@salfordservices.com. 24/7 emergency service available."
+    },
+    "blog": {
+      "title": "Port Melbourne Electrical Blog | Tips, Guides & News",
+      "description": "Expert electrical advice for Port Melbourne. Stay updated with local tips, safety guides, and industry news from Salford Electrical Services."
+    }
+  }
+}
