@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Fluro Electrics",
+  "suburb": "Heidelberg",
+  "phone": "03 9923 2030",
+  "email": "admin@fluroelectrics.com.au",
+  "address": "78 Rosanna Road, Heidelberg VIC 3084, Australia",
+  "tagline": "Heidelberg's Trusted Electricians",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6a00c5",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Heidelberg's Electrical Experts",
+      "sub": "Domestic, commercial & emergency services"
+    },
+    {
+      "title": "Home Automation & Renewable Energy",
+      "sub": "Smart solutions for modern living"
+    },
+    {
+      "title": "24/7 Emergency Electrical Help",
+      "sub": "Reliable support across Heidelberg"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Heidelberg?",
+  "aboutHeading": "Fluro Electrics in Heidelberg",
+  "aboutSubheading": "Licensed & Professional",
+  "aboutText": "Fluro Electrics provides comprehensive electrical services for homes and businesses in Heidelberg. Our experienced team offers everything from wiring and power installations to home automation and renewable energy solutions. We are committed to quality workmanship and customer satisfaction, ensuring all work meets Australian safety standards.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We offer a full spectrum of electrical services, including domestic and commercial installations, data cabling, and home automation. Our team is equipped to handle projects of any size, ensuring high-quality results every time.",
+  "services": [
+    {
+      "title": "Domestic Electrical Services",
+      "desc": "Comprehensive home electrical solutions, including lighting, wiring, and safety upgrades for Heidelberg residents."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tailored electrical services for businesses, from office fit-outs to industrial maintenance and compliance."
+    },
+    {
+      "title": "Home Automation",
+      "desc": "Expert installation and programming of smart home systems, enhancing convenience and efficiency in Heidelberg homes."
+    },
+    {
+      "title": "Renewable Energy Solutions",
+      "desc": "Design and installation of solar panels and energy systems to reduce costs and environmental impact."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "Prompt response to electrical emergencies during business hours, ensuring safety and minimal disruption."
+    },
+    {
+      "title": "Data Cabling & TV",
+      "desc": "Professional installation of data, phone, and TV outlets, meeting Australian standards for homes and offices."
+    }
+  ],
+  "bannerHeading": "Electrical Services in Heidelberg",
+  "bannerSubheading": "Professional, reliable & available 24/7",
+  "testimonialsHeading": "What Heidelberg Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "From the Fluro Electrics team",
+  "contactHeading": "Contact Fluro Electrics",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Fluro Electrics did an excellent job rewiring my Heidelberg home. The team was professional and completed the work efficiently. Highly recommend their services!",
+      "name": "John Smith",
+      "role": "Heidelberg Homeowner"
+    },
+    {
+      "text": "We hired Fluro Electrics for our office data cabling. They were punctual and delivered high-quality work. Great local business!",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The emergency electrical service from Fluro Electrics was quick and reliable. They fixed the issue at our rental property promptly.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
