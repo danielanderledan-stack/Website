@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "ABS Auto Brunswick",
+  "suburb": "Brunswick West",
+  "phone": "03 9380 1234",
+  "email": "sales@brunswick.absauto.com.au",
+  "address": "378 Moreland Rd, Brunswick West VIC 3055",
+  "tagline": "Brunswick West Auto Specialists",
+  "primaryColor": "#e62b2e",
+  "primaryColorRgb": "230, 43, 46",
+  "primaryColorHover": "#c22025",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "ABS Auto Brunswick Experts",
+      "sub": "Trusted car service in Brunswick West"
+    },
+    {
+      "title": "Brake & Suspension Specialists",
+      "sub": "Keeping you safe on the road"
+    },
+    {
+      "title": "4.2 Star Rated Mechanics",
+      "sub": "Based on 158 Google reviews"
+    }
+  ],
+  "ctaHeading": "Brunswick West Auto Experts Are Ready – Book Your Service Today.",
+  "aboutHeading": "Your Local Brunswick West Mechanics",
+  "aboutSubheading": "Professional Auto Care",
+  "aboutText": "ABS Auto Brunswick has been providing top-quality automotive services in Brunswick West for many years. Our team of skilled mechanics specialises in car servicing, brake repair, and suspension work. With a 4.2-star Google rating from over 150 reviews, we pride ourselves on honest, efficient service that keeps our customers coming back.",
+  "servicesHeading": "Comprehensive Automotive Services",
+  "servicesSubheading": "Expert care for your vehicle",
+  "servicesText": "We offer a wide range of automotive services including logbook servicing, brake repairs, suspension work, and general maintenance. Our team uses the latest diagnostic tools to ensure accurate and efficient service for all makes and models.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Manufacturer-approved servicing to maintain your warranty and keep your car running smoothly."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Expert diagnosis and repair of brake pads, rotors, and fluid to ensure safe stopping."
+    },
+    {
+      "title": "Suspension Services",
+      "desc": "Comprehensive suspension checks and repairs for a comfortable and stable ride."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine oil changes, filter replacements, and inspections to prevent major issues."
+    },
+    {
+      "title": "Diagnostic Scans",
+      "desc": "Advanced diagnostic tools to accurately identify and fix warning lights and performance problems."
+    },
+    {
+      "title": "Air Conditioning Service",
+      "desc": "Professional AC checks and re-gas to keep you cool in all seasons."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Brunswick West?",
+  "bannerSubheading": "Fast, reliable auto service for your vehicle.",
+  "testimonialsHeading": "What Brunswick West Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Auto Care Tips & News",
+  "blogSubheading": "Advice from our mechanics",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We'll respond promptly",
+  "reviews": [
+    {
+      "text": "Josh had a brake light out and ABS Auto Brunswick replaced it quickly without hassle. Professional and efficient service that saved him time.",
+      "name": "Josh Peters",
+      "role": "Brunswick West Local"
+    },
+    {
+      "text": "Long-term customer praising the honesty and care from Bill and his team at ABS Brunswick for ongoing car maintenance and repairs.",
+      "name": "Cassandra M.",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Ben brought his old car for AC repair and was impressed by the cost-effective and honest solution provided by the skilled mechanics.",
+      "name": "Ben Chang",
+      "role": "Local Business Owner"
+    }
+  ]
+}
