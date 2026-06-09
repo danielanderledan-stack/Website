@@ -1,0 +1,300 @@
+{
+  "siteType": "plumber",
+  "businessName": "Blue Plumbing",
+  "suburb": "Mentone",
+  "phone": "0412 345 678",
+  "email": "info@blueplumbing.com.au",
+  "address": "1/78 Voltri St, Mentone VIC 3194",
+  "tagline": "Mentone's Commercial Plumbing Experts",
+  "primaryColor": "#19a8d8",
+  "primaryColorRgb": "25, 168, 216",
+  "primaryColorHover": "#1282ad",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mentone's Commercial Plumbing Specialists",
+      "sub": "Keeping businesses and facilities flowing"
+    },
+    {
+      "title": "Emergency Repairs & Planned Maintenance",
+      "sub": "24/7 service for commercial & industrial sites"
+    },
+    {
+      "title": "Mentone's Trusted Plumbing Partner",
+      "sub": "Local expertise for all commercial plumbing needs"
+    }
+  ],
+  "ctaHeading": "Need a reliable plumber in Mentone? Let's get your facility running smoothly.",
+  "aboutHeading": "Commercial Plumbing in Mentone",
+  "aboutSubheading": "Keeping your business operational",
+  "aboutText": "Blue Plumbing specialises in commercial plumbing services across Mentone and Melbourne's south-east. We understand that downtime costs your business money, which is why we focus on efficient repairs, expert new builds, and proactive maintenance to keep your facility running at all times.",
+  "servicesHeading": "Our Commercial Plumbing Services",
+  "servicesSubheading": "Expert solutions for businesses",
+  "servicesText": "From emergency repairs to preventative maintenance, Blue Plumbing provides a complete range of commercial and industrial plumbing services to keep your Mentone facility compliant and operational.",
+  "services": [
+    {
+      "title": "Commercial & Industrial Projects",
+      "desc": "Expert plumbing for new builds, fit-outs, and large-scale commercial facilities.",
+      "longDesc": "We manage complete commercial plumbing installations for new builds and renovations across Mentone, ensuring compliance with Australian standards and project timelines.",
+      "points": [
+        "New build installations",
+        "Project management expertise",
+        "Compliance guaranteed"
+      ]
+    },
+    {
+      "title": "Drain Cleaning & Jetting",
+      "desc": "High-pressure jetting to clear severe blockages and maintain commercial drainage systems.",
+      "longDesc": "Our high-pressure drain jetting service clears tough blockages and performs preventative maintenance for Mentone businesses, preventing costly backups and flooding.",
+      "points": [
+        "High-pressure clearing",
+        "Preventative maintenance",
+        "Emergency response"
+      ]
+    },
+    {
+      "title": "CCTV Drain Camera Inspections",
+      "desc": "Non-invasive camera inspections to diagnose pipe issues accurately and efficiently.",
+      "longDesc": "We use advanced CCTV cameras to inspect pipe conditions in Mentone properties, providing accurate diagnoses for cracks, blockages, or root intrusion without excavation.",
+      "points": [
+        "Accurate diagnostics",
+        "Non-invasive technology",
+        "Detailed reporting"
+      ]
+    },
+    {
+      "title": "Backflow Prevention & TMV",
+      "desc": "Installation, testing, and certification of backflow devices and thermostatic mixing valves.",
+      "longDesc": "We install, test, and certify backflow prevention devices and thermostatic mixing valves for Mentone businesses to ensure compliance with Victorian health regulations.",
+      "points": [
+        "Annual testing & compliance",
+        "Device installation",
+        "Certificate provision"
+      ]
+    },
+    {
+      "title": "Fire Services & Maintenance",
+      "desc": "Certified installation and ongoing maintenance of commercial fire services systems.",
+      "longDesc": "Blue Plumbing provides certified fire services installation, inspection, and maintenance for Mentone commercial properties, ensuring full compliance and operational readiness.",
+      "points": [
+        "Certified installation",
+        "Routine inspections",
+        "Emergency repairs"
+      ]
+    },
+    {
+      "title": "Leak Detection & Locating",
+      "desc": "Advanced electronic equipment to locate hidden leaks with pinpoint accuracy.",
+      "longDesc": "We use advanced electronic listening devices and thermal imaging to locate hidden water leaks in Mentone buildings, minimising disruption and water damage.",
+      "points": [
+        "Pinpoint accuracy",
+        "Minimally invasive",
+        "Prevent water damage"
+      ]
+    }
+  ],
+  "bannerHeading": "Commercial Plumbing Emergency in Mentone?",
+  "bannerSubheading": "Fast, reliable response for businesses.",
+  "testimonialsHeading": "What Mentone Businesses Say",
+  "testimonialsSubheading": "Trusted for critical commercial work",
+  "blogHeading": "Mentone Commercial Plumbing Insights",
+  "blogSubheading": "Expert advice for facility managers",
+  "contactHeading": "Get Your Commercial Plumbing Quote",
+  "contactSubheading": "Fast response for Mentone businesses",
+  "reviews": [
+    {
+      "text": "Blue Plumbing handled a major drainage issue at our Mentone warehouse quickly and professionally. Their drain jetting service prevented a costly shutdown. Highly recommended for any commercial job.",
+      "name": "Sarah Mitchell",
+      "role": "Mentone Warehouse Manager"
+    },
+    {
+      "text": "We rely on Blue Plumbing for all our annual backflow testing and fire service maintenance at our Mentone medical centre. They are always on time, thorough, and ensure we stay fully compliant.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "When a pipe burst after hours, Blue Plumbing responded rapidly to our Mentone retail park. Their emergency leak detection saved significant stock damage. Fantastic commercial plumber.",
+      "name": "James O'Neill",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Mentone",
+    "Cheltenham",
+    "Moorabbin",
+    "Highett",
+    "Hampton",
+    "Brighton",
+    "Bentleigh",
+    "Aspendale"
+  ],
+  "about": {
+    "intro": "Blue Plumbing is Mentone's dedicated commercial plumbing partner, specialising in keeping businesses and facilities operational.",
+    "story": [
+      "Blue Plumbing was founded with a clear focus: to provide the businesses and facilities of Mentone with reliable, expert commercial plumbing services. We understand that in a commercial setting, a plumbing issue isn't just an inconvenience—it can halt operations and impact your bottom line. That's why our entire service model is built around rapid response, minimal disruption, and durable solutions.",
+      "Our team of licensed plumbers are specifically trained and equipped for complex commercial and industrial work. From routine maintenance to large-scale project installations, we bring local knowledge of Mentone's infrastructure and a commitment to compliance with all Australian building and safety standards. We're your partner in ensuring your facility's plumbing is always a strength, never a weakness."
+    ],
+    "mission": "To keep Mentone's businesses running smoothly with expert, responsive commercial plumbing solutions.",
+    "whyUs": [
+      {
+        "title": "Commercial Focused",
+        "text": "We specialise solely in commercial and industrial plumbing solutions."
+      },
+      {
+        "title": "24/7 Emergency Response",
+        "text": "Fast response times to minimise business disruption in emergencies."
+      },
+      {
+        "title": "Compliance Experts",
+        "text": "We ensure all work meets Victorian commercial plumbing codes."
+      },
+      {
+        "title": "Preventative Plans",
+        "text": "Proactive maintenance to avoid costly unexpected downtime."
+      }
+    ],
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "Emergency Service"
+      },
+      {
+        "value": "100%",
+        "label": "Commercial Focus"
+      },
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      }
+    ],
+    "credentials": [
+      "Fully licensed commercial plumbers",
+      "Comprehensive public liability insurance",
+      "Specialist commercial training",
+      "Detailed compliance reporting"
+    ]
+  },
+  "pricing": {
+    "intro": "Blue Plumbing provides transparent, upfront pricing for all commercial plumbing services in Mentone. No hidden fees, just honest quotes for quality work.",
+    "packages": [
+      {
+        "name": "Diagnostic & Quote",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site diagnosis",
+          "Upfront fixed quote",
+          "No-obligation assessment"
+        ]
+      },
+      {
+        "name": "Preventative Maintenance Plan",
+        "price": "from $450",
+        "unit": "per quarter",
+        "highlight": true,
+        "features": [
+          "Scheduled inspections",
+          "Priority emergency response",
+          "Annual compliance reporting",
+          "Discounted call-outs"
+        ]
+      },
+      {
+        "name": "Major Project Install",
+        "price": "Quote Based",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Compliance documentation",
+          "Phased installation options"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins on your Mentone property."
+  },
+  "contact": {
+    "intro": "Contact Blue Plumbing for a free consultation or to schedule service for your Mentone business. We respond quickly to all commercial plumbing enquiries."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should a Mentone Business Test Backflow Prevention Devices?",
+      "date": "March 2026",
+      "excerpt": "Discover the mandatory testing schedule for backflow prevention devices in Mentone commercial properties to ensure compliance and avoid penalties.",
+      "body": [
+        "In Victoria, the testing of backflow prevention devices is not optional—it's a legal requirement under the Australian Drinking Water Guidelines and local council regulations. For businesses in Mentone, understanding this schedule is critical to maintaining compliance and avoiding potential fines. These devices are essential for protecting the public water supply from contamination, and their proper function must be verified regularly by a licensed plumber.",
+        "The general rule mandates that all backflow prevention devices be tested annually by a certified professional. However, the exact frequency can depend on the device's certification category and the specific requirements set by your local water authority, in this case, South East Water. High-risk installations, such as those in medical centres, laboratories, or industrial facilities with chemical use, may require more frequent testing—sometimes every six months.",
+        "For a Mentone business, non-compliance is a serious risk. Failure to have current test certificates can lead to council fines, increased liability, and in extreme cases, disconnection of your water supply. It also places your business's reputation and the health of your staff and customers at risk. A proactive approach is essential for proper risk management in any commercial setting.",
+        "A typical backflow compliance visit from a plumber like Blue Plumbing involves more than just a test. The technician will inspect the device for physical damage, check it is correctly installed and accessible, perform the required field test using specialised equipment, and then issue a compliance certificate if it passes. Any issues found, such as a failing valve or debris, are reported with a quote for repair.",
+        "Integrating backflow testing into your overall facility maintenance plan is the most efficient approach for Mentone businesses. Rather than remembering isolated dates, schedule it alongside other regular services like fire safety inspections or HVAC maintenance. This ensures nothing is missed and keeps all your compliance documentation organised in one place, simplifying audits.",
+        "The cost of an annual backflow test in Melbourne is a modest business expense compared to the potential consequences of neglect. It's an investment in legal compliance, operational security, and community safety. Don't wait for a notification from the water authority—contact a licensed commercial plumber in Mentone today to confirm your device is up to date and schedule your next test."
+      ]
+    },
+    {
+      "title": "Signs Your Mentone Commercial Property Needs Drain Jetting",
+      "date": "February 2026",
+      "excerpt": "Learn the key warning signs that indicate your Mentone business requires professional high-pressure drain jetting to prevent major blockages.",
+      "body": [
+        "Commercial drainage systems in Mentone face unique challenges. From grease in restaurant kitchens to scale buildup in hard water areas and tree root intrusion in older buildings, blockages can develop slowly. Recognising the early warning signs is crucial for Mentone business owners to avoid a complete blockage that could force a temporary shutdown, leading to lost revenue and expensive emergency repairs.",
+        "The most obvious sign is slow-draining sinks, toilets, or floor drains throughout your property. While a single slow drain might indicate a local clog, multiple affected drains often signal a problem in the main sewer line. Gurgling sounds from drains or toilets when other fixtures are used also point to air being trapped by a partial blockage, a common precursor to a full stoppage in the line.",
+        "Foul, persistent odours emanating from drains are a clear red flag. This smell is often caused by decomposing waste stuck in the pipes or by sewer gases being forced back into the building due to a blockage. For businesses in hospitality, healthcare, or retail in Mentone, this odour can drive away customers and create an unpleasant working environment for staff, directly impacting your reputation.",
+        "In more severe cases, water backing up into the building from floor drains is an urgent issue. This can indicate a major blockage in the main line and presents a health hazard, potentially spreading contaminants. If you notice any water pooling around drains or backing up after flushing, you need to call for emergency commercial drain clearing immediately to prevent property damage and contamination.",
+        "Proactive drain jetting is far more cost-effective than reactive emergency clearing. For Mentone businesses, scheduling preventative jetting annually or biannually keeps pipes clear, eliminates buildup before it causes a blockage, and allows the plumber to perform a CCTV inspection at the same time to check the condition of the pipes. This is a smart maintenance investment for any commercial facility.",
+        "Ignoring these signs in a Mentone commercial property is a significant risk. A severe blockage can lead to flooding, extensive water damage, business interruption, and potential health code violations. If you observe any of these symptoms, contacting a commercial plumbing specialist for professional drain jetting is the safest and most economical course of action."
+      ]
+    },
+    {
+      "title": "What Is the Cost of Commercial Fire Service Maintenance in Mentone?",
+      "date": "January 2026",
+      "excerpt": "Understand the factors that determine the cost of fire services maintenance for your Mentone commercial property and how to budget effectively.",
+      "body": [
+        "For any commercial property owner or facility manager in Mentone, fire services maintenance is a non-negotiable legal and safety obligation. The cost of this essential service, however, can vary significantly. It's not a one-size-fits-all expense; it's influenced by the complexity of your system, the size of your building, and the specific requirements of the Victorian Building Authority (VBA) and local councils.",
+        "The primary factor is the type and number of assets in your fire system. A simple system in a small Mentone retail shop might include only a few portable fire extinguishers and a basic fire hose reel. In contrast, a large industrial warehouse or multi-storey office block in Mentone could have a complex network of sprinkler systems, multiple hydrant systems, smoke alarms, and emergency lighting. More assets mean more inspection points and higher labour costs.",
+        "Another key cost determinant is the required testing frequency. Legislation mandates different inspection intervals. While some items need an annual check, critical components like fire extinguishers require professional servicing and certification every six months. Your service agreement with a plumber like Blue Plumbing will outline these scheduled visits, which should be planned into your annual operational budget.",
+        "The condition and accessibility of your equipment also play a role. If fire hydrants are buried under stored inventory or sprinkler heads are obstructed, it takes more time for technicians to safely access and test them, potentially increasing the service duration. Keeping clear access in your Mentone facility not only ensures compliance but can also help keep maintenance costs more predictable and efficient.",
+        "A reputable commercial plumber in Mentone will provide a detailed, itemised quote before commencing any fire service work. This quote should break down the costs for labour, parts (like replacement seals or tags), and any required certification fees. Be wary of vague, lump-sum quotes. A transparent quote demonstrates professionalism and allows for accurate financial planning on your part.",
+        "Ultimately, the cost of fire service maintenance in Mentone should be viewed as a critical investment in asset protection and legal compliance. The penalties for non-compliance, and the catastrophic financial and human cost of a fire event, vastly outweigh the annual expense of professional maintenance. Budgeting for this ensures your business is protected and avoids costly surprises."
+      ]
+    },
+    {
+      "title": "How to Choose a Commercial Plumber for Your Mentone Business",
+      "date": "December 2025",
+      "excerpt": "A guide for Mentone business owners on selecting the right commercial plumber, including key qualifications, questions to ask, and what to look for.",
+      "body": [
+        "Choosing a commercial plumber for your Mentone business is a critical decision that impacts your operations, compliance, and bottom line. Unlike residential plumbing, commercial work involves complex systems, higher stakes, and stringent regulations. You need a partner, not just a tradesperson. The first and most non-negotiable factor is ensuring they are fully licensed for commercial work and carry comprehensive public liability insurance appropriate for the scale of your project.",
+        "Experience specifically in the commercial and industrial sector is paramount. Ask potential plumbers in Mentone about their portfolio. Do they have verifiable experience with properties similar to yours—whether it's a medical centre, a warehouse, a restaurant, or an office block? A commercial specialist will understand the unique pressures, like minimising downtime and navigating after-hours work schedules to avoid disrupting your business or customers.",
+        "Inquire about their understanding of relevant Australian Standards and local council regulations, particularly those enforced by the City of Kingston and South East Water. A competent commercial plumber will be well-versed in plumbing code AS/NZS 3500, backflow prevention standards, and fire services compliance. They should be able to provide guidance on how to keep your Mentone property compliant during any project.",
+        "Discuss their availability for emergencies and their planned maintenance offerings. A reliable commercial partner for your Mentone business should offer a 24/7 emergency line and be able to outline a preventative maintenance plan tailored to your facility's needs. This proactive approach helps avoid catastrophic failures and extends the life of your plumbing infrastructure, offering better long-term value.",
+        "Always request detailed, itemised quotes from at least two or three commercial plumbing companies in the Mentone area. A professional quote should break down the scope of work, labour, materials, and any potential additional costs. This transparency allows you to compare not just price, but the value and detail of the proposed service. The cheapest quote is rarely the best value for critical commercial infrastructure.",
+        "Finally, check for reviews and ask for references from other local businesses. A proven track record in the Mentone community is a strong indicator of reliability and quality workmanship. The right commercial plumber will become a trusted extension of your business operations, ensuring your facility runs smoothly, safely, and in full compliance with all Victorian requirements."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Blue Plumbing | Commercial Plumber in Mentone | Drainage & Maintenance",
+      "description": "Blue Plumbing provides expert commercial plumbing services in Mentone VIC. Specialists in drain cleaning, fire services, backflow testing & maintenance. Call 0412 345 678."
+    },
+    "about": {
+      "title": "About Blue Plumbing | Mentone's Commercial Plumbing Specialists",
+      "description": "Learn about Blue Plumbing, Mentone's dedicated commercial plumbing experts specialising in drainage, compliance, and 24/7 emergency services for local businesses."
+    },
+    "services": {
+      "title": "Commercial Plumbing Services in Mentone | Blue Plumbing",
+      "description": "Comprehensive commercial plumbing services in Mentone: drain jetting, CCTV inspections, backflow prevention, fire services, leak detection & more. Licensed experts."
+    },
+    "pricing": {
+      "title": "Commercial Plumbing Costs & Packages | Mentone | Blue Plumbing",
+      "description": "Transparent pricing for Mentone commercial plumbing. Upfront quotes for maintenance plans, emergency call-outs, and major projects. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Blue Plumbing | Free Commercial Plumbing Quotes | Mentone VIC",
+      "description": "Need a commercial plumber in Mentone? Contact Blue Plumbing for a free quote. 24/7 emergency response for businesses & facilities. Call 0412 345 678."
+    },
+    "blog": {
+      "title": "Commercial Plumbing Blog | Tips & Advice for Mentone Businesses",
+      "description": "Expert commercial plumbing advice for Mentone business owners. Guides on backflow testing, drain maintenance, fire services compliance, and more from Blue Plumbing."
+    }
+  }
+}
