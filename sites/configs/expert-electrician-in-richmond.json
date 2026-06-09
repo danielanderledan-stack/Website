@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Expert Electrician in Richmond",
+  "suburb": "Richmond",
+  "phone": "0409 422 009",
+  "email": "jonpinhorn.typedesign@gmail.com",
+  "address": "191 Brighton St, Richmond VIC 3121",
+  "tagline": "Richmond's Expert Electricians",
+  "primaryColor": "#FFD700",
+  "primaryColorRgb": "255, 215, 0",
+  "primaryColorHover": "#E6C200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Go-To Electricians",
+      "sub": "25 years serving Melbourne's east"
+    },
+    {
+      "title": "Commercial & Domestic Electrical Experts",
+      "sub": "Power, lighting & automation in Richmond"
+    },
+    {
+      "title": "No Job Too Small or Complex",
+      "sub": "Free quotes across Richmond & surrounds"
+    }
+  ],
+  "ctaHeading": "Richmond's electricians are ready — let's power up your project.",
+  "aboutHeading": "25 Years Electrifying Richmond",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With 25 years of experience, Expert Electrician in Richmond provides comprehensive electrical services to homes and businesses across Richmond, VIC. From new power setups to smart lighting control, we deliver reliable, efficient solutions tailored to your needs. Our team is fully licensed, insured, and committed to quality workmanship in every project.",
+  "servicesHeading": "What We Wire & Install",
+  "servicesSubheading": "Electrical done right",
+  "servicesText": "Expert Electrician in Richmond offers a full range of electrical services, including installations, upgrades, and maintenance for both residential and commercial properties. We specialise in energy-efficient solutions and smart home technology to keep your property safe and modern.",
+  "services": [
+    {
+      "title": "Commercial & Domestic Installations",
+      "desc": "Professional electrical installations for homes and businesses.",
+      "longDesc": "From new builds to renovations, we handle all electrical installations in Richmond, ensuring compliance with Australian standards.",
+      "points": [
+        "Tailored to your needs",
+        "Licensed electricians",
+        "Quality components"
+      ]
+    },
+    {
+      "title": "Power Supply & Fitouts",
+      "desc": "Setup of new power supplies and electrical fitouts.",
+      "longDesc": "We design and install new power supplies, including 3-phase systems, for residential and commercial properties in Richmond.",
+      "points": [
+        "Efficient power solutions",
+        "Future-proof design",
+        "Safe installations"
+      ]
+    },
+    {
+      "title": "Rewiring & System Upgrades",
+      "desc": "Electrical rewiring and system upgrades for safety and efficiency.",
+      "longDesc": "Upgrade your old wiring or enhance your electrical system with our expert rewiring services in Richmond, improving safety and performance.",
+      "points": [
+        "Enhanced safety",
+        "Modern standards",
+        "Energy efficiency"
+      ]
+    },
+    {
+      "title": "Lighting Design & Control",
+      "desc": "Custom lighting design and smart lighting control systems.",
+      "longDesc": "Transform your space with bespoke lighting designs and smart control systems, including C-Bus automation, for Richmond properties.",
+      "points": [
+        "Aesthetic appeal",
+        "Smart automation",
+        "Energy savings"
+      ]
+    },
+    {
+      "title": "Home Automation & Data Cabling",
+      "desc": "C-Bus home automation and structured data cabling solutions.",
+      "longDesc": "Integrate smart home technology with C-Bus automation and reliable data cabling for seamless connectivity in Richmond homes.",
+      "points": [
+        "Seamless integration",
+        "Expert programming",
+        "Reliable performance"
+      ]
+    },
+    {
+      "title": "Emergency & Maintenance Services",
+      "desc": "24-hour emergency call-outs and electrical maintenance contracts.",
+      "longDesc": "Count on us for urgent electrical repairs and ongoing maintenance contracts to keep your Richmond property running smoothly.",
+      "points": [
+        "24/7 availability",
+        "Prompt response",
+        "Preventive maintenance"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Richmond?",
+  "bannerSubheading": "Expert help for all your electrical needs.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Electrical Guides & Advice",
+  "blogSubheading": "Deep-dives from the Richmond team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Expert Electrician in Richmond did an excellent job rewiring our old home in Richmond. The team was professional, efficient, and left everything tidy. Highly recommend their services for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "We hired Expert Electrician for our office fitout in Richmond, and they delivered outstanding work. Their knowledge of commercial electrical systems is top-notch, and they completed the project on time.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Expert Electrician for maintenance across our Richmond properties. They are reliable, provide detailed reports, and handle everything from fault finding to smoke alarm compliance.",
+      "name": "Michael Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Richmond",
+    "Hawthorn",
+    "Cremorne",
+    "East Melbourne",
+    "Fitzroy",
+    "Collingwood",
+    "Brunswick"
+  ],
+  "about": {
+    "intro": "Expert Electrician in Richmond has been serving the local community for over 25 years, providing trusted electrical solutions.",
+    "story": [
+      "Founded 25 years ago, Expert Electrician in Richmond has grown from a small operation to a leading electrical service provider in Melbourne's east. Our journey began with a commitment to quality and customer satisfaction, which remains at the core of everything we do.",
+      "Over the years, we've expanded our services to include smart home automation, energy-efficient upgrades, and comprehensive maintenance contracts, always adapting to the evolving needs of Richmond residents and businesses."
+    ],
+    "mission": "To deliver safe, efficient, and innovative electrical services to Richmond and surrounding suburbs.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "Local Experts",
+        "text": "Deep knowledge of Richmond's electrical requirements and building standards."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden costs; we provide clear quotes before starting any work."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand by our workmanship with guarantees on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,200+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed electrician",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Expert Electrician in Richmond, we offer transparent pricing with no lock-in contracts. Get a free quote tailored to your specific electrical needs.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Job",
+        "price": "from $200",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Expert electrical work",
+          "Quality materials",
+          "Compliance guarantee",
+          "Clean finish"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Customised solutions",
+          "Ongoing support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your electrical project in Richmond? Contact us for a free, no-obligation quote and let our experts handle the rest."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Full House Rewiring Cost in Richmond?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors influencing rewiring costs in Richmond, including house size, age, and electrical complexity.",
+      "body": [
+        "Rewiring a house in Richmond is a significant investment that enhances safety and property value. The cost varies based on several factors, such as the size of your home, its age, and the complexity of the existing electrical system. In Melbourne's eastern suburbs like Richmond, older homes often have outdated wiring that doesn't meet current Australian standards, which can increase the cost due to additional work required for compliance. Expect to pay between $4,000 and $15,000 for a full rewire, with larger or more complex properties at the higher end of this range.",
+        "When obtaining quotes from electricians in Richmond, it's essential to consider the scope of work. A thorough inspection will determine if additional tasks, like switchboard upgrades or circuit additions, are necessary. Local electricians familiar with Richmond's building stock can provide accurate assessments. For instance, Victorian-era homes may have intricate layouts that require careful planning to minimise disruption. Always ask for a detailed quote that includes materials, labour, and any permits required by local councils.",
+        "The timing of rewiring can also impact costs in Richmond. Melbourne's variable weather means scheduling work during drier months can prevent delays. Electricians may charge more for urgent jobs or during peak seasons. Planning ahead allows for competitive pricing and ensures the project aligns with your schedule. Additionally, energy-efficient rewiring, such as installing LED lighting or smart controls, can offset initial costs through long-term savings on electricity bills.",
+        "Compliance with Australian electrical standards is non-negotiable. In Richmond, all rewiring work must adhere to AS/NZS 3000, and permits may be needed from local authorities. Licensed electricians ensure this compliance, avoiding potential fines or safety hazards. It's crucial to choose a reputable local electrician who understands Richmond's specific regulations and has experience with similar projects.",
+        "Beyond the basic cost, consider the long-term benefits of rewiring in Richmond. Updated wiring reduces fire risks, improves appliance performance, and can increase your property's appeal to buyers. Many Richmond homeowners opt for rewiring as part of renovation projects to future-proof their homes. Consult with your electrician about integrating smart home features or solar readiness during the rewire.",
+        "In summary, the cost of rewiring in Richmond depends on multiple variables, but investing in quality workmanship pays off. Get multiple quotes from local electricians, verify their credentials, and plan for a smooth process. With 25 years of experience, Expert Electrician in Richmond can provide transparent pricing and expert advice tailored to your home's needs."
+      ]
+    },
+    {
+      "title": "The Benefits of Smart Home Automation for Richmond Properties",
+      "date": "February 2026",
+      "excerpt": "Explore how C-Bus home automation can enhance convenience, security, and energy efficiency in your Richmond home.",
+      "body": [
+        "Smart home automation is revolutionising how Richmond residents interact with their properties. Systems like C-Bus allow centralized control of lighting, security, and climate, offering unparalleled convenience. For homeowners in Richmond, where heritage homes meet modern living, automation can blend seamlessly without compromising aesthetics. Imagine adjusting lights, blinds, and entertainment systems from a single app or voice command, tailored to your daily routines.",
+        "Energy efficiency is a key benefit of smart automation in Richmond. Melbourne's climate, with hot summers and cool winters, means heating and cooling costs can be high. Automated systems optimize energy use by learning your habits and adjusting accordingly. For example, smart thermostats can reduce electricity bills by up to 20%, a significant saving for Richmond households. Additionally, automated lighting ensures lights are only on when needed, further cutting energy consumption.",
+        "Security enhancements make smart home automation particularly valuable in Richmond. Integrated systems can include CCTV, motion sensors, and automated locks, providing peace of mind. For busy families or frequent travellers, remote monitoring via smartphones allows real-time oversight of your property. Richmond's urban setting benefits from such features, deterring potential intruders and ensuring safety.",
+        "The installation process for C-Bus and other systems in Richmond requires professional expertise. Local electricians like Expert Electrician understand the intricacies of retrofitting automation into existing homes, especially older properties common in Richmond. A tailored approach ensures minimal disruption and optimal performance. It's essential to choose certified installers who can guarantee system reliability and compliance with Australian standards.",
+        "Future-proofing your Richmond property is another advantage. Smart home technology adds value to your home, appealing to tech-savvy buyers. As technology evolves, systems can be updated or expanded, ensuring long-term relevance. In Richmond's competitive real estate market, this can be a deciding factor. Consider starting with core features like lighting control and expanding as needed.",
+        "In conclusion, smart home automation offers Richmond homeowners convenience, savings, and security. With professional installation and tailored solutions, you can transform your property into a modern, efficient living space. Contact Expert Electrician in Richmond to explore your options and begin your automation journey."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services in Richmond: What to Do When Lights Go Out",
+      "date": "January 2026",
+      "excerpt": "Learn about immediate steps for electrical emergencies in Richmond and why 24-hour call-outs are essential.",
+      "body": [
+        "Electrical emergencies in Richmond can happen unexpectedly, from power outages to faulty wiring. Knowing what to do first is crucial for safety. If you experience a sudden loss of power, check if it's a widespread outage by contacting your energy provider. However, if it's isolated to your property, it could indicate a serious issue like a circuit fault or damaged wiring. In such cases, avoid using electrical appliances and contact a local emergency electrician immediately.",
+        "Richmond's older housing stock increases the risk of electrical problems. Many homes have aging infrastructure that may not handle modern electrical loads. Signs of trouble include flickering lights, buzzing sounds, or burning smells. If you notice these, turn off the mains power and call for help. Emergency electricians in Richmond, like Expert Electrician, offer 24-hour call-outs to address urgent issues promptly, preventing further damage or hazards.",
+        "When an emergency electrician arrives in Richmond, they will conduct a rapid assessment to identify the problem. Common emergencies include power surges, short circuits, and storm damage. With Melbourne's unpredictable weather, storms can cause outages or damage to external wiring. A local electrician familiar with Richmond's infrastructure can quickly restore power and ensure all repairs meet Australian safety standards.",
+        "Preventative measures can reduce the likelihood of emergencies. Regular electrical inspections by a Richmond-based electrician can catch issues early. This is especially important for older homes or commercial properties with high electrical demands. Upgrading switchboards, installing safety switches, and routine maintenance are proactive steps that save time and money in the long run.",
+        "Choosing the right emergency electrician in Richmond involves checking credentials, availability, and response times. Opt for a fully licensed and insured service with proven local experience. Reading reviews from other Richmond residents can provide insights into reliability. Expert Electrician in Richmond prides itself on swift response times and transparent pricing, even for after-hours call-outs.",
+        "In summary, electrical emergencies require immediate action and professional help. Richmond residents should have a trusted emergency electrician on call to ensure safety and minimal disruption. With 25 years of service, Expert Electrician in Richmond is equipped to handle any electrical crisis efficiently."
+      ]
+    },
+    {
+      "title": "Upgrading Your Switchboard for Safety in Richmond Homes",
+      "date": "December 2025",
+      "excerpt": "Find out why switchboard upgrades are crucial for Richmond properties and how to ensure compliance with safety standards.",
+      "body": [
+        "Upgrading your switchboard is a critical safety measure for Richmond homes, especially those built before the 1990s. Old switchboards often lack modern safety features like circuit breakers and safety switches, increasing the risk of electrical fires or shocks. In Richmond, where many properties are heritage-listed or older, this upgrade is not just recommended but essential for compliance with current Australian standards.",
+        "The process of upgrading a switchboard in Richmond involves replacing outdated fuse boxes with new units that include residual current devices (RCDs) and miniature circuit breakers (MCBs). These components automatically shut off power in case of faults, protecting your home and family. A local electrician will assess your current setup and recommend the best solution based on your property's electrical load and usage patterns.",
+        "Richmond's climate and lifestyle can impact switchboard performance. High humidity in summer or increased electrical usage during winter can strain old systems. Upgrading ensures your switchboard can handle modern demands, from air conditioners to smart home devices. Additionally, new switchboards are more energy-efficient, potentially lowering your electricity bills.",
+        "Compliance with local regulations is vital. In Richmond, all electrical work must be performed by a licensed electrician and may require permits from local councils. Expert Electrician in Richmond ensures that all upgrades meet AS/NZS 3000 standards and provides documentation for insurance purposes. This attention to detail prevents future legal or insurance issues.",
+        "The benefits of a switchboard upgrade extend beyond safety. It can increase your property's value and appeal to buyers, as modern electrical systems are a key selling point in Richmond's real estate market. Many homeowners also combine switchboard upgrades with other electrical improvements, like rewiring or solar installations, for a comprehensive overhaul.",
+        "Cost considerations for switchboard upgrades in Richmond vary based on the complexity of the job. Typically, prices range from $800 to $2,500, depending on the size of your home and the features included. It's advisable to get multiple quotes from local electricians to ensure competitive pricing and quality workmanship.",
+        "In conclusion, upgrading your switchboard is a necessary investment for Richmond homeowners prioritising safety and efficiency. With professional guidance from a local electrician, you can modernise your home's electrical system with minimal hassle. Contact Expert Electrician in Richmond to schedule an assessment and upgrade your switchboard today."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Expert Electrician Richmond | Electrical Services VIC",
+      "description": "Trusted electrician in Richmond with 25 years experience. Commercial & domestic electrical services, rewiring, smart lighting. Call 0409 422 009."
+    },
+    "about": {
+      "title": "About Us | Expert Electrician in Richmond | 25 Years",
+      "description": "Learn about our 25-year history providing electrical solutions to Richmond. Fully licensed, insured, and local experts."
+    },
+    "services": {
+      "title": "Electrical Services Richmond | Installations & Upgrades",
+      "description": "Comprehensive electrical services in Richmond including rewiring, lighting, home automation. Get a free quote today."
+    },
+    "pricing": {
+      "title": "Electrical Costs Richmond | Expert Electrician",
+      "description": "Transparent pricing for electrical work in Richmond. From call-outs to major projects, no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Expert Electrician | Free Quotes Richmond",
+      "description": "Get in touch for free electrical quotes in Richmond. Phone 0409 422 009 or email for quick response."
+    },
+    "blog": {
+      "title": "Richmond Electrical Blog | Tips & Local Advice",
+      "description": "Expert advice on electrical maintenance, upgrades, and safety for Richmond residents and businesses."
+    }
+  }
+}
