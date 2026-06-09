@@ -1,0 +1,298 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Always There Automotive",
+  "suburb": "Grovedale",
+  "phone": "03 5263 1302",
+  "email": "info@alwaysthereautomotive.com.au",
+  "address": "164 Marshalltown Rd, Grovedale VIC 3216",
+  "tagline": "Grovedale's Trusted Mechanics",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55d00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Always There Automotive in Grovedale",
+      "sub": "Your local mechanic for all car needs"
+    },
+    {
+      "title": "Car Servicing & Roadworthy Certificates",
+      "sub": "Expert care for your vehicle"
+    },
+    {
+      "title": "Trusted Pre-Purchase Inspections",
+      "sub": "Peace of mind before you buy"
+    }
+  ],
+  "ctaHeading": "Grovedale's mechanics are ready to assist with your vehicle.",
+  "aboutHeading": "Always There Automotive in Grovedale",
+  "aboutSubheading": "Your trusted local mechanic",
+  "aboutText": "With over 10 years of experience in Grovedale, Always There Automotive provides top-quality car servicing, roadworthy certificates, and pre-purchase inspections. Located in the heart of Grovedale, Geelong, we are committed to keeping your vehicle in peak condition with reliable and efficient service.",
+  "servicesHeading": "Our Comprehensive Automotive Services",
+  "servicesSubheading": "Quality car care in Grovedale",
+  "servicesText": "From routine car servicing to complex engine diagnostics, Always There Automotive in Grovedale offers a full range of automotive services to keep your vehicle running smoothly.",
+  "services": [
+    {
+      "title": "Car Servicing",
+      "desc": "Regular maintenance to keep your car in top condition.",
+      "longDesc": "Our comprehensive car servicing in Grovedale includes oil changes, filter replacements, and multi-point inspections to ensure your vehicle's longevity and performance.",
+      "points": [
+        "Prolongs vehicle life",
+        "Improves fuel efficiency",
+        "Ensures safety on road"
+      ]
+    },
+    {
+      "title": "Roadworthy Certificates",
+      "desc": "Official inspections for vehicle registration.",
+      "longDesc": "Always There Automotive provides certified roadworthy inspections in Grovedale, ensuring your vehicle meets all safety standards for registration and sale.",
+      "points": [
+        "Licensed inspectors",
+        "Quick turnaround",
+        "Guaranteed compliance"
+      ]
+    },
+    {
+      "title": "Pre-Purchase Inspections",
+      "desc": "Thorough checks before buying a used car.",
+      "longDesc": "Get peace of mind with our detailed pre-purchase inspections in Grovedale, covering engine, transmission, brakes, and more to avoid hidden issues.",
+      "points": [
+        "Comprehensive report",
+        "Expert advice",
+        "Saves money long-term"
+      ]
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Expert brake system servicing and repairs.",
+      "longDesc": "Our Grovedale mechanics specialize in brake repairs, from pad replacements to complete system overhauls, ensuring optimal stopping power and safety.",
+      "points": [
+        "Enhanced safety",
+        "Professional diagnosis",
+        "Quality parts used"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostics for engine issues.",
+      "longDesc": "Utilising state-of-the-art equipment, we offer precise engine diagnostics in Grovedale to identify and fix problems efficiently, keeping your car reliable.",
+      "points": [
+        "Accurate fault detection",
+        "Prevents major repairs",
+        "Boosts performance"
+      ]
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "All-round care for your vehicle's health.",
+      "longDesc": "From battery checks to tyre rotations, our general maintenance services in Grovedale cover all aspects of vehicle upkeep for optimal performance.",
+      "points": [
+        "Extends vehicle lifespan",
+        "Cost-effective care",
+        "Convenient scheduling"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Grovedale?",
+  "bannerSubheading": "Always There Automotive is here to help with all your automotive needs.",
+  "testimonialsHeading": "What Grovedale Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Grovedale Automotive Tips & Advice",
+  "blogSubheading": "Insights from local mechanics",
+  "contactHeading": "Contact Always There Automotive",
+  "contactSubheading": "Get a free quote for your vehicle service",
+  "reviews": [
+    {
+      "text": "Always There Automotive in Grovedale did an excellent job on my car's roadworthy certificate. Quick, professional, and hassle-free. Highly recommend to anyone in the area.",
+      "name": "Dave Thompson",
+      "role": "Grovedale Homeowner"
+    },
+    {
+      "text": "I took my car for pre-purchase inspection at Always There Automotive. The detailed report saved me from buying a lemon. Great service in Grovedale.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The mechanics at Always There Automotive are reliable and honest. They fixed my brake issues promptly, and I feel safe driving again. Top service in Grovedale.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Grovedale",
+    "Waurn Ponds",
+    "Highton",
+    "Belmont",
+    "South Barwon",
+    "Leopold"
+  ],
+  "about": {
+    "intro": "Always There Automotive has been serving the Grovedale community for over 10 years, providing trusted automotive solutions.",
+    "story": [
+      "Founded in Grovedale, Always There Automotive started with a simple goal: to offer reliable and transparent car servicing to locals. Over the years, we have grown to include a wide range of services, all delivered with the same commitment to quality and customer care.",
+      "Our team of experienced mechanics understands the unique needs of Grovedale drivers, from daily commutes to family vehicles. We pride ourselves on using the latest tools and techniques to ensure every job is done right the first time."
+    ],
+    "mission": "To keep Grovedale's vehicles safe and reliable through honest, expert automotive care.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Grovedale's driving conditions and vehicle needs."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees, upfront quotes for all services."
+      },
+      {
+        "title": "Quality Workmanship",
+        "text": "Guaranteed repairs with high-quality parts."
+      },
+      {
+        "title": "Customer Focus",
+        "text": "Personalised service tailored to each vehicle."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,500+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Free quotes available",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Always There Automotive in Grovedale, we offer competitive pricing with no lock-in contracts. Get a free quote tailored to your vehicle's needs.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Tyre pressure check"
+        ]
+      },
+      {
+        "name": "Comprehensive Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full engine diagnostic",
+          "Brake inspection",
+          "Fluid top-ups",
+          "3-month warranty"
+        ]
+      },
+      {
+        "name": "Major Repair Package",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Engine overhaul",
+          "Transmission service",
+          "Detailed report"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the cost before we start any work."
+  },
+  "contact": {
+    "intro": "Ready to service your car? Contact Always There Automotive in Grovedale for a free, no-obligation quote. We're just a call or form submission away."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Car Service Cost in Grovedale?",
+      "date": "March 2026",
+      "excerpt": "Understanding the factors that affect car servicing costs in Grovedale, from basic checks to comprehensive maintenance.",
+      "body": [
+        "When considering the cost of a car service in Grovedale, it's essential to look at several key factors that influence pricing. The make and model of your vehicle play a significant role, as older cars or those with specialised engines may require more time and parts. In Grovedale, where daily commutes on the Surf Coast Highway are common, regular servicing helps prevent breakdowns and ensures safety. A basic oil and filter change typically starts around $120, but additional checks like brake inspections or fluid top-ups can increase the total. Always There Automotive provides transparent quotes, so Grovedale residents know exactly what they're paying for upfront.",
+        "Another factor affecting car service costs in Grovedale is the service provider's expertise and location. Mechanics in the heart of Grovedale, like Always There Automotive, often offer competitive rates due to local knowledge and efficiency. For instance, servicing vehicles exposed to Geelong's coastal climate may involve extra steps to combat salt air corrosion, adding minor costs but extending vehicle life. Comprehensive services, which include engine diagnostics and tyre rotations, can range from $250 to $400, depending on the scope. Grovedale drivers benefit from choosing licensed mechanics who use quality parts, ensuring long-term reliability and avoiding costly repairs down the track.",
+        "The frequency of servicing also impacts overall costs for Grovedale car owners. Most manufacturers recommend servicing every 10,000 to 15,000 kilometres, but local conditions like dusty roads or frequent short trips may necessitate more frequent checks. In Grovedale, where family vehicles and trade cars are prevalent, adhering to a schedule prevents major issues. A standard service every six months might cost $120 each time, but it's a small investment compared to the expense of engine or brake repairs from neglect. Always There Automotive advises Grovedale residents to keep a service log, helping them budget and maintain their vehicle's warranty.",
+        "Additionally, the type of service package chosen significantly affects the cost in Grovedale. Basic packages focus on essentials like oil changes, while comprehensive options include multi-point inspections and fluid replacements, often priced from $250. For Grovedale's diverse vehicles—from utes used in local trades to family SUVs—tailored packages ensure all needs are met. Specialised services, such as roadworthy certificates for registration, add about $150 to $200 but are crucial for legal compliance. By offering tiered pricing, Always There Automotive allows Grovedale customers to select services that fit their budget without compromising on quality.",
+        "Local economic factors in Grovedale and the greater Geelong area also influence car servicing costs. With a growing population, demand for reliable mechanics has increased, but competition helps keep prices fair. Grovedale residents often save by choosing local shops like Always There Automotive, which avoid the overheads of city-centre garages. For example, a major repair package might start at $500, but includes detailed diagnostics and high-quality parts, providing value for money. Understanding these dynamics helps Grovedale drivers make informed decisions, ensuring their vehicles remain roadworthy and safe for everyday use.",
+        "In conclusion, the cost of a car service in Grovedale varies based on vehicle type, service frequency, and provider choice, but prioritising regular maintenance offers long-term savings. Always There Automotive emphasises transparent pricing, with basic services from $120 and comprehensive options from $250, tailored to Grovedale's needs. By investing in professional care, Grovedale drivers can avoid unexpected breakdowns and extend their vehicle's lifespan. For accurate quotes, contact Always There Automotive, your trusted local mechanic, and keep your car performing at its best on Grovedale's roads."
+      ]
+    },
+    {
+      "title": "Why Roadworthy Certificates are Essential in Grovedale",
+      "date": "February 2026",
+      "excerpt": "The importance of roadworthy certificates for vehicle safety and compliance in Grovedale, and how to get one efficiently.",
+      "body": [
+        "In Grovedale, obtaining a roadworthy certificate is a legal requirement for registering or selling a vehicle, ensuring it meets safety standards for Victorian roads. This certificate, often called an RWC, is crucial for Grovedale residents who frequently drive on busy routes like the Surf Coast Highway or local streets. It involves a thorough inspection of brakes, tyres, lights, and other components to prevent accidents. Always There Automotive, located in Grovedale, provides certified inspections that help drivers comply with regulations and maintain vehicle safety. Without an RWC, Grovedale car owners risk fines and cannot legally transfer ownership.",
+        "The process of getting a roadworthy certificate in Grovedale typically takes about an hour, with costs ranging from $150 to $200, depending on the vehicle's condition. Grovedale mechanics at Always There Automotive use detailed checklists to assess critical areas like suspension and steering, which are vital for handling Geelong's variable weather conditions. For instance, coastal salt air can accelerate corrosion, making regular RWC checks even more important. By addressing issues promptly, Grovedale drivers avoid minor faults becoming major repairs, saving money and ensuring their cars are safe for daily commutes and family trips.",
+        "Roadworthy certificates also play a key role in Grovedale's automotive market, especially for used car sales. Buyers in Grovedale often request an RWC to verify a vehicle's condition, building trust between parties. Always There Automotive assists sellers by providing quick inspections and certificates, facilitating smoother transactions. In a community like Grovedale, where local trade vehicles and personal cars are common, having an up-to-date RWC can enhance resale value and appeal. This practice not only complies with laws but also promotes responsible vehicle ownership across the suburb.",
+        "Maintaining a roadworthy certificate in Grovedale involves understanding its validity period, usually 30 days from the inspection date. Grovedale residents should plan ahead when selling or re-registering vehicles to avoid delays. For ongoing compliance, regular servicing at Always There Automotive helps keep vehicles in RWC-ready condition. This proactive approach is especially beneficial in Grovedale, where environmental factors like dust from nearby construction or moisture from the Barwon River can affect vehicle components. By integrating RWC checks into their routine, Grovedale drivers ensure continuous safety and legal adherence.",
+        "The benefits of roadworthy certificates extend beyond compliance for Grovedale drivers, contributing to overall road safety in the community. With more vehicles on Grovedale's streets, from school runs to work commutes, ensuring each car is roadworthy reduces accident risks. Always There Automotive educates customers on how RWC inspections identify potential hazards, such as worn brake pads or faulty lights, before they cause issues. This local focus enhances Grovedale's reputation as a safe driving area, encouraging responsible habits among residents and visitors alike.",
+        "In summary, roadworthy certificates are essential in Grovedale for legal compliance, vehicle safety, and smooth transactions. Always There Automotive offers efficient inspections from $150, tailored to Grovedale's conditions. By prioritising RWCs, Grovedale car owners protect themselves and others on the road, while supporting a culture of maintenance and care. For reliable service, contact Always There Automotive to schedule your inspection and stay compliant with Victorian regulations."
+      ]
+    },
+    {
+      "title": "Top Tips for Pre-Purchase Car Inspections in Geelong",
+      "date": "January 2026",
+      "excerpt": "Essential advice for Grovedale buyers on pre-purchase inspections to avoid costly mistakes when buying used cars.",
+      "body": [
+        "For Grovedale buyers considering a used car, a pre-purchase inspection is a critical step to avoid hidden problems and make an informed decision. In Geelong's competitive market, where vehicles from coastal areas may have salt-related wear, inspections help assess true condition. Always There Automotive in Grovedale offers detailed checks covering engine, transmission, brakes, and bodywork, providing peace of mind. This service is especially valuable for Grovedale residents who often commute to Geelong or the Surf Coast, ensuring their new car is reliable from day one.",
+        "One top tip for pre-purchase inspections in Geelong is to choose a trusted, local mechanic like Always There Automotive in Grovedale. Local expertise means understanding regional issues, such as how Geelong's humidity affects electrical systems or how gravel roads impact suspension. During the inspection, Grovedale buyers should focus on critical areas like tyre tread and brake wear, which are legally required for roadworthiness. A comprehensive report from Always There Automotive details findings and suggests repairs, helping Grovedale buyers negotiate prices or walk away from problematic deals.",
+        "Timing is another important factor for pre-purchase inspections in Geelong. Grovedale buyers should schedule inspections before finalising any purchase, ideally within 24-48 hours of agreement. This allows time for further checks or negotiations, especially in Grovedale where weekend markets or online sales might involve quick decisions. Always There Automotive prioritises Grovedale clients, offering swift appointments to keep the process smooth. By acting promptly, buyers avoid missing out on good vehicles or being stuck with faulty ones, saving both time and money.",
+        "During a pre-purchase inspection, paying attention to service history can reveal a lot about a car's maintenance in Geelong. Grovedale buyers should request records, as regular servicing indicates responsible ownership. Always There Automotive cross-references history with current condition, noting discrepancies that might signal issues. For example, a car with frequent oil changes but worn brakes could indicate neglected safety checks. This thorough approach helps Grovedale residents make choices that align with their needs, whether for family use or daily commutes.",
+        "Cost is a consideration, but investing in a pre-purchase inspection in Geelong can prevent expensive repairs later. In Grovedale, where vehicle longevity is prized, spending around $150 on an inspection from Always There Automotive is worthwhile. The report highlights immediate fixes and long-term concerns, such as rust from coastal exposure, which is common in Geelong. Grovedale buyers can use this information to budget for future maintenance, ensuring the car remains reliable and safe for years to come.",
+        "In conclusion, pre-purchase car inspections in Geelong are essential for Grovedale buyers to secure reliable vehicles. Always There Automotive provides expert services with a focus on local conditions, starting from $150. By following these tips—choosing local mechanics, timing inspections carefully, and reviewing history—Grovedale residents can avoid pitfalls and drive away with confidence. Contact Always There Automotive for your next pre-purchase inspection in Geelong."
+      ]
+    },
+    {
+      "title": "Maintaining Your Car in Grovedale's Climate: A Local Guide",
+      "date": "December 2025",
+      "excerpt": "How Grovedale's coastal and seasonal conditions affect your vehicle and tips to keep it running smoothly year-round.",
+      "body": [
+        "Grovedale's climate, with its coastal proximity and variable seasons, presents unique challenges for car maintenance, making local knowledge essential. Situated near Geelong and the Surf Coast, Grovedale experiences salt air, humidity, and occasional dust storms, which can accelerate wear on vehicles. Always There Automotive, based in Grovedale, advises residents to prioritise regular inspections to combat these effects. For example, salt corrosion can affect undercarriages, so rinsing your car frequently helps prevent rust. By understanding Grovedale's climate, drivers can adopt habits that extend their vehicle's life and ensure safety.",
+        "One key tip for maintaining your car in Grovedale's climate is to focus on rust prevention, especially during wetter months. From May to October, increased rainfall and coastal moisture heighten corrosion risks for Grovedale cars. Always There Automotive recommends undercarriage washes and protective coatings, which are part of our general maintenance services. Grovedale residents who park outdoors should use car covers or garages when possible, reducing exposure. Regular checks at our Grovedale workshop identify early rust spots, allowing for timely repairs that avoid costly structural damage.",
+        "Heat during Grovedale's summer months, from December to February, also impacts vehicle performance, particularly on engine and cooling systems. High temperatures can lead to overheating or battery failure, so Grovedale drivers should check coolant levels and battery health regularly. Always There Automotive offers engine diagnostics to ensure systems are functioning optimally for Geelong's warm spells. Additionally, tyre pressure adjustments are crucial, as heat causes expansion, potentially leading to blowouts on busy roads like the Surf Coast Highway. Staying proactive with these measures keeps Grovedale cars reliable throughout summer.",
+        "Dust from local construction or dry periods in Grovedale can clog filters and affect air quality inside your vehicle. Grovedale mechanics at Always There Automotive suggest regular filter replacements, especially after driving on unpaved roads common in the area. For families in Grovedale, this ensures a healthier cabin environment and maintains engine efficiency. Incorporating this into routine servicing, such as during a basic package from $120, helps Grovedale residents manage climate-related issues without hassle.",
+        "Seasonal changes in Grovedale also demand attention to brakes and tyres, as wet conditions reduce traction. During winter, brake inspections become vital to handle slippery roads near the Barwon River. Always There Automotive's brake repair services in Grovedale focus on ensuring optimal performance, with quality parts that withstand moisture. Grovedale drivers should monitor tyre tread depth, as Victorian laws require a minimum of 1.5mm, but for safety, 3mm or more is recommended. This localised advice helps Grovedale car owners navigate seasonal risks effectively.",
+        "In summary, maintaining your car in Grovedale's climate requires awareness of coastal and seasonal factors, with practical steps to protect your vehicle. Always There Automotive provides tailored services in Grovedale, from rust prevention to heat management, ensuring year-round reliability. By following these local tips, Grovedale residents can enjoy safe and efficient driving, regardless of weather conditions. Contact Always There Automotive for personalised maintenance advice and services."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Always There Automotive | Mechanic in Grovedale | Car Servicing",
+      "description": "Trusted mechanic in Grovedale for car servicing, roadworthy certificates, and pre-purchase inspections. Always There Automotive keeps your vehicle safe."
+    },
+    "about": {
+      "title": "About Always There Automotive | Grovedale's Local Mechanic",
+      "description": "Learn about Always There Automotive, serving Grovedale with expert car servicing and repairs for over 10 years."
+    },
+    "services": {
+      "title": "Automotive Services in Grovedale | Always There Automotive",
+      "description": "Explore our full range of car services in Grovedale, including servicing, roadworthy certificates, and diagnostics."
+    },
+    "pricing": {
+      "title": "Car Service Costs in Grovedale | Always There Automotive",
+      "description": "Transparent pricing for car servicing in Grovedale. Get upfront quotes with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Always There Automotive | Free Quotes in Grovedale",
+      "description": "Get in touch for free quotes on car servicing and repairs in Grovedale, VIC."
+    },
+    "blog": {
+      "title": "Grovedale Mechanic Blog | Tips and Advice from Always There",
+      "description": "Stay informed with automotive tips and local advice from Grovedale's trusted mechanics."
+    }
+  }
+}
