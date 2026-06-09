@@ -1,0 +1,289 @@
+{
+  "siteType": "builder",
+  "businessName": "Trusted Mechanics",
+  "suburb": "Mordialloc",
+  "phone": "95873000",
+  "email": "info@trustedmechanics.com.au",
+  "address": "51 Governor Rd, Mordialloc VIC 3195",
+  "tagline": "Mordialloc's Trusted Mechanics for Over a Decade",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mordialloc's Go-To Mechanics",
+      "sub": "Serving the bayside community for years"
+    },
+    {
+      "title": "Log Book & Fleet Servicing Specialists",
+      "sub": "Keeping Mordialloc's cars on the road"
+    },
+    {
+      "title": "Brakes, Clutch & Roadworthy Experts",
+      "sub": "Quality repairs at honest prices"
+    }
+  ],
+  "ctaHeading": "Mordialloc's trusted mechanics are ready — book your service today.",
+  "aboutHeading": "Over a Decade of Expert Car Care in Mordialloc",
+  "aboutSubheading": "Local, reliable & fully qualified",
+  "aboutText": "Trusted Mechanics has been the backbone of Mordialloc's automotive care for over 12 years. Operating from our Governor Road workshop, we specialise in everything from routine log book servicing to complex brake and clutch repairs for local families, tradies, and fleet operators. We pride ourselves on clear communication and getting the job done right the first time, every time.",
+  "servicesHeading": "Our Mordialloc Auto Services",
+  "servicesSubheading": "Comprehensive care for your vehicle",
+  "servicesText": "From your daily driver to your work ute, Trusted Mechanics in Mordialloc offers a full suite of mechanical services. We use quality parts and modern diagnostics to ensure your vehicle performs safely and efficiently on Melbourne's roads.",
+  "services": [
+    {
+      "title": "Roadworthy Certificates",
+      "desc": "Fast, accurate VECs for vehicle sales and rego transfers in Mordialloc.",
+      "longDesc": "Get a comprehensive Roadworthy Certificate from our Mordialloc garage. We meticulously inspect all safety-critical components to ensure your vehicle meets VicRoads standards for a smooth sale or transfer.",
+      "points": [
+        "VicRoads approved",
+        "Thorough inspection",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Log Book Servicing",
+      "desc": "Manufacturer-specified servicing to protect your new car warranty.",
+      "longDesc": "Protect your investment with precise log book servicing at Trusted Mechanics. We follow every step of your vehicle's manufacturer schedule, using correct fluids and filters to maintain warranty validity.",
+      "points": [
+        "Warranty preserved",
+        "Correct specifications",
+        "Service stamp provided"
+      ]
+    },
+    {
+      "title": "Car Servicing & Fleet Care",
+      "desc": "Reliable general servicing and tailored fleet management for Mordialloc businesses.",
+      "longDesc": "Keep your personal or business fleet running at peak efficiency with our comprehensive car servicing. We offer tailored maintenance plans and priority scheduling for local commercial clients.",
+      "points": [
+        "Personal & fleet plans",
+        "Minimal downtime",
+        "Transparent reporting"
+      ]
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Expert brake pad, rotor, and fluid services for safe Mordialloc driving.",
+      "longDesc": "Ensure your vehicle stops safely with our expert brake repair service. From grinding noises to pulsating pedals, our Mordialloc mechanics diagnose and fix all brake system issues promptly.",
+      "points": [
+        "Safety first",
+        "Quality parts used",
+        "Full system check"
+      ]
+    },
+    {
+      "title": "Clutch Repairs",
+      "desc": "Diagnosis and repair of slipping, shuddering, or noisy clutch systems.",
+      "longDesc": "Don't ignore clutch problems. Our Mordialloc workshop provides detailed diagnosis and reliable clutch repairs or replacements for manual transmissions, restoring smooth, quiet gear changes.",
+      "points": [
+        "Accurate diagnosis",
+        "Smooth operation restored",
+        "Quality components"
+      ]
+    },
+    {
+      "title": "General Auto Repairs",
+      "desc": "Electrical, exhaust, battery, and air-conditioning repairs in Mordialloc.",
+      "longDesc": "Beyond major services, we handle all general auto repairs. From faulty alternators and dead batteries to exhaust leaks and A/C regas, we're your one-stop Mordialloc mechanic for all issues.",
+      "points": [
+        "All makes & models",
+        "Diagnostic expertise",
+        "One-stop shop"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Mordialloc?",
+  "bannerSubheading": "No job too small, no problem too complex.",
+  "testimonialsHeading": "What Mordialloc Drivers Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Mordialloc Car Care Tips",
+  "blogSubheading": "Local advice from your local mechanic",
+  "contactHeading": "Book Your Service in Mordialloc",
+  "contactSubheading": "Get a quote or book online today",
+  "reviews": [
+    {
+      "text": "Had my log book service done at Trusted Mechanics in Mordialloc. The team was upfront about costs, finished on time, and the car runs beautifully. Best mechanic on the bayside!",
+      "name": "Sarah K.",
+      "role": "Mordialloc Homeowner"
+    },
+    {
+      "text": "We use Trusted Mechanics for our entire work fleet based here in Mordialloc. Reliable, efficient, and they understand our need to minimise downtime. Highly recommended for any business.",
+      "name": "Mark T.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Got a very thorough roadworthy certificate for my car sale. They pointed out a couple of minor issues upfront, which saved me headaches later. Honest and professional service right here in Mordialloc.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Mordialloc",
+    "Parkdale",
+    "Mentone",
+    "Aspendale",
+    "Edithvale",
+    "Chelsea",
+    "Bonbeach",
+    "Braeside"
+  ],
+  "about": {
+    "intro": "Trusted Mechanics is Mordialloc's established, family-run automotive workshop, delivering honest mechanical services to the bayside community.",
+    "story": [
+      "Founded over a decade ago, Trusted Mechanics was built on a simple promise: to provide Mordialloc vehicle owners with transparent, high-quality mechanical work without the jargon. Our Governor Road workshop has become a fixture in the community, servicing everything from family sedans and performance cars to local business fleets.",
+      "We invest in ongoing training and the latest diagnostic equipment to service all makes and models, European or domestic. Our strength lies in our experienced, local team who understand the specific needs of cars driven in Melbourne's coastal conditions, ensuring reliable and safe performance year-round."
+    ],
+    "mission": "To be Mordialloc's most trusted automotive partner, keeping our community's vehicles safe, reliable, and on the road.",
+    "whyUs": [
+      {
+        "title": "Honest, Clear Quotes",
+        "text": "We explain all work required and provide fixed-price quotes before starting any job in Mordialloc."
+      },
+      {
+        "title": "Quality Parts & Warranty",
+        "text": "We use reputable parts and offer a solid warranty on all our workmanship for your peace of mind."
+      },
+      {
+        "title": "Local & Experienced",
+        "text": "Our Mordialloc-based mechanics have decades of combined experience with all vehicle types."
+      },
+      {
+        "title": "Convenient & Reliable",
+        "text": "We respect your time with efficient service and can arrange loan cars for longer repairs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "12+",
+        "label": "Years in Mordialloc"
+      },
+      {
+        "value": "4,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed Mechanics"
+      }
+    ],
+    "credentials": [
+      "VicRoads Approved",
+      "Fully Licensed Mechanics",
+      "Workmanship Guarantee",
+      "All Makes & Models"
+    ]
+  },
+  "pricing": {
+    "intro": "At Trusted Mechanics in Mordialloc, we believe in fair, transparent pricing. All quotes are fixed and provided upfront, so you know exactly what you're paying before we begin.",
+    "packages": [
+      {
+        "name": "Log Book Service",
+        "price": "from $180",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Manufacturer specs",
+          "Fluid top-ups",
+          "Safety inspection",
+          "Service stamp"
+        ]
+      },
+      {
+        "name": "Roadworthy Certificate",
+        "price": "$220",
+        "unit": "per inspection",
+        "highlight": true,
+        "features": [
+          "Comprehensive 47-point check",
+          "VicRoads approved",
+          "Fast turnaround",
+          "Clear report provided"
+        ]
+      },
+      {
+        "name": "Major Brake Service",
+        "price": "from $350",
+        "unit": "per axle",
+        "highlight": false,
+        "features": [
+          "Quality pads & rotors",
+          "Brake fluid flush",
+          "Full system inspection"
+        ]
+      }
+    ],
+    "note": "All prices for Mordialloc customers are fixed quotes, with no hidden fees or surprises."
+  },
+  "contact": {
+    "intro": "Ready to book your car in with Mordialloc's trusted mechanics? Call us on 9587 3000 or visit our workshop at 51 Governor Road for a chat and a quote."
+  },
+  "blogPosts": [
+    {
+      "title": "The Ultimate Guide to Log Book Servicing in Mordialloc: Protect Your Warranty",
+      "date": "March 2026",
+      "excerpt": "Wondering about log book servicing near Mordialloc? Learn why it's crucial for your warranty, what it involves, and local costs.",
+      "body": [
+        "For new car owners in Mordialloc and across Melbourne's bayside, understanding log book servicing is essential to maintaining your vehicle's warranty and resale value. A log book service isn't just a basic oil change; it's a comprehensive, manufacturer-specified procedure that ensures every critical component of your vehicle is inspected and serviced according to strict guidelines. Skipping these services or having them done by a non-authorised workshop can sometimes void your warranty, leading to costly future repairs. At Trusted Mechanics in Mordialloc, we perform precise log book servicing for all makes and models, providing the official stamps to keep your warranty intact.",
+        "The process begins with a detailed check of your vehicle's service history and specific requirements. Our Mordialloc mechanics then methodically work through the checklist, which typically includes changing engine oil and filter with manufacturer-recommended grades, inspecting brake pads and discs, checking all fluid levels and top-ups (coolant, power steering, brake fluid), examining tyre condition and pressures, testing battery health, and ensuring all lights and electrical systems function correctly. We also look for any early signs of wear on belts, hoses, and suspension components, providing you with a full picture of your car's health.",
+        "A common question from Mordialloc drivers is about the cost. While prices vary based on your vehicle's make, model, and engine size, a typical log book service at our workshop starts from around $180. This price covers the labour, quality oils, and filters specified by your manufacturer. We always provide a fixed, upfront quote after assessing your specific vehicle, so there are no surprises. Investing in regular log book servicing at a reputable Mordialloc garage like Trusted Mechanics can prevent much more expensive breakdowns down the track and keep your car running smoothly for years to come."
+      ]
+    },
+    {
+      "title": "Signs Your Brakes Need Attention: A Mordialloc Driver's Checklist",
+      "date": "February 2026",
+      "excerpt": "Hearing squeals or feeling a soft pedal? Don't ignore these warning signs. Learn when to visit your Mordialloc brake specialist.",
+      "body": [
+        "Your vehicle's brakes are its most critical safety system, and for drivers navigating the busy streets of Mordialloc and coastal roads, they're under constant demand. Recognising the early warning signs of brake wear can prevent more serious damage and ensure your safety. The most common indicator is noise. A high-pitched squeal or grinding sound when you apply the brakes usually means your brake pads are worn down to their wear indicators, which are designed to create this sound as a warning. Ignoring this can lead to metal-on-metal contact, damaging the brake rotors and significantly increasing repair costs.",
+        "Another telltale sign is a change in the brake pedal feel. If your pedal feels 'spongy' or sinks further than usual towards the floor, this could indicate air in the brake lines or a fluid leak, both of which reduce braking effectiveness. Conversely, a very hard pedal that requires excessive force might point to a problem with the brake booster. You should also be alert if your vehicle pulls to one side when braking, or if the steering wheel vibrates during deceleration. These symptoms often suggest unevenly worn pads, warped rotors, or issues with the brake calipers, requiring immediate inspection by a Mordialloc mechanic.",
+        "At Trusted Mechanics in Mordialloc, we recommend a brake inspection at the first sign of any of these issues, or as part of your regular service. Our comprehensive brake check includes measuring pad and rotor thickness, inspecting calipers and hardware, checking brake lines for leaks or damage, and testing brake fluid condition. Catching problems early not only ensures your safety on the road but also saves you money by allowing for simple pad replacements instead of more complex rotor or caliper repairs. Don't wait until your next service—if you notice these signs, book a brake inspection at our Governor Road workshop today."
+      ]
+    },
+    {
+      "title": "Preparing Your Car for a Victorian Roadworthy Certificate in Mordialloc",
+      "date": "January 2026",
+      "excerpt": "Selling your car in Mordialloc? Understand the VicRoads roadworthy requirements and how to pass smoothly.",
+      "body": [
+        "Selling a registered vehicle in Victoria requires a valid Roadworthy Certificate (RWC), and for Mordialloc residents, getting your car prepared is a straightforward process with the right guidance. A roadworthy inspection is a systematic check of the vehicle's safety-related components, not a full mechanical appraisal. The inspector will examine the condition and operation of tyres, wheels, brakes, steering, suspension, body condition (including rust or damage that affects safety), lights, windscreen (checking for chips and cracks), and seatbelts. The goal is to ensure the vehicle is safe for use on public roads.",
+        "To improve your chances of passing on the first attempt and avoid re-inspection fees, you can perform some basic pre-checks at your Mordialloc home. Ensure all lights and indicators work, including brake lights and hazard lights. Check your tyres for adequate tread depth (minimum 1.5mm) and ensure they are free from significant damage or bulges. Make sure your windscreen is free from large chips or cracks directly in the driver's line of sight. Address any obvious issues like broken seatbelts or a missing mirror. A clean car also makes a good impression and allows the mechanic to inspect components more easily.",
+        "Once you're confident, book your inspection at a licensed garage like Trusted Mechanics in Mordialloc. During the inspection, our VEC will meticulously go through the VicRoads checklist. If your vehicle passes, you'll receive the certificate valid for 30 days. If it fails, you'll receive a detailed report outlining the defects. These must be repaired, and the vehicle must be re-inspected at the same garage. We can provide a quote for any necessary repairs to get your car roadworthy. For Mordialloc sellers, having a current RWC ready can make the sales process much smoother and give buyers confidence."
+      ]
+    },
+    {
+      "title": "Why Your Car's Air-Conditioning Needs a Regas: A Mordialloc Summer Essential",
+      "date": "December 2025",
+      "excerpt": "Is your car A/C blowing warm air? Discover why a regas is crucial for Melbourne summers and Mordialloc coastal drives.",
+      "body": [
+        "As summer temperatures rise in Melbourne, a functioning car air-conditioning system becomes essential for comfort, especially for Mordialloc drivers dealing with the combination of urban heat and coastal humidity. Over time, it's normal for the refrigerant gas (like R134a) in your A/C system to slowly permeate through hoses and seals, reducing cooling efficiency. This gradual loss means the system has to work harder, putting strain on the compressor and other components. If you notice your A/C isn't blowing as cold as it used to, or takes a long time to cool the cabin, it's likely time for a regas at your local Mordialloc mechanic.",
+        "A professional A/C regas service at Trusted Mechanics is more than just topping up gas. The process begins with a thorough system diagnostic to identify any leaks. We then extract the old, contaminated gas and oil, and perform a deep vacuum on the system to remove all moisture and air—which can cause corrosion and damage. New, high-quality refrigerant oil is added to lubricate the compressor, followed by the precise weight of new refrigerant gas as specified for your vehicle. Finally, we test the system's performance, checking vent temperatures and pressures to ensure optimal cooling output for Mordialloc's hot days.",
+        "Ignoring a failing A/C system can lead to more serious and expensive problems. Running a compressor with insufficient gas causes it to overheat and fail, a repair that costs significantly more than a simple regas. Additionally, a neglected system can develop internal corrosion from moisture, leading to blocked components and total system failure. For Mordialloc residents, investing in an annual A/C check and regas as needed ensures you have reliable cooling when you need it most. It also helps demist windows more effectively in cooler, damp weather, improving safety and visibility."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Trusted Mechanics | Mechanic in Mordialloc | Servicing & Repairs",
+      "description": "Trusted Mechanics in Mordialloc offers log book servicing, brake repairs, roadworthy certs & fleet care. Your local, reliable mechanic on Governor Road. Call 9587 3000."
+    },
+    "about": {
+      "title": "About Us | Mordialloc's Trusted Mechanics | Trusted Mechanics",
+      "description": "Learn about Trusted Mechanics, Mordialloc's experienced, family-run automotive workshop serving the bayside community for over 12 years with honest, quality service."
+    },
+    "services": {
+      "title": "Car Servicing & Repairs in Mordialloc | Trusted Mechanics",
+      "description": "Full auto services in Mordialloc: log book servicing, brake & clutch repairs, roadworthy certificates, fleet maintenance & A/C regas. Quality parts, expert mechanics."
+    },
+    "pricing": {
+      "title": "Car Service Costs & Prices in Mordialloc | Trusted Mechanics",
+      "description": "Transparent pricing for Mordialloc mechanics. Get fixed quotes for log book services, roadworthy certificates, brake repairs & more. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Us | Book Your Car Service in Mordialloc | Trusted Mechanics",
+      "description": "Book your vehicle in at Trusted Mechanics, Mordialloc. Visit our workshop at 51 Governor Rd or call 9587 3000 for a quote or appointment."
+    },
+    "blog": {
+      "title": "Mordialloc Car Care Blog | Mechanic Tips & Advice | Trusted Mechanics",
+      "description": "Expert car maintenance tips from your local Mordialloc mechanic. Advice on log books, brakes, roadworthy certificates, A/C regas & more for Melbourne drivers."
+    }
+  }
+}
