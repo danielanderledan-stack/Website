@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Bone Electrical",
+  "suburb": "Ivanhoe",
+  "phone": "0413997082",
+  "email": "user@domain.com",
+  "address": "87 Ivanhoe Parade, Ivanhoe VIC 3079",
+  "tagline": "Ivanhoe's Reliable Electricians",
+  "primaryColor": "#1E90FF",
+  "primaryColorRgb": "30, 144, 255",
+  "primaryColorHover": "#1873CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ivanhoe's Trusted Electrical Experts",
+      "sub": "Over 25 years of family-run service"
+    },
+    {
+      "title": "Residential & Commercial Electrical Solutions",
+      "sub": "Quality workmanship for every project"
+    },
+    {
+      "title": "Emergency Repairs & Safety Inspections",
+      "sub": "Available when you need us most"
+    }
+  ],
+  "ctaHeading": "Ivanhoe electricians are ready — let's power your project.",
+  "aboutHeading": "25 Years of Electrical Excellence in Ivanhoe",
+  "aboutSubheading": "Family-run, licensed & committed to quality",
+  "aboutText": "Established in 1995, Bone Electrical has been Ivanhoe's go-to electrical service provider for nearly three decades. As a family-run business owned by Peter and Damien Bone, we take pride in our reliability, expertise, and commitment to quality. Our team of accredited Master Electricians ensures all work complies with Australian standards, delivering safe and efficient solutions for homes and businesses.",
+  "servicesHeading": "Our Comprehensive Electrical Services",
+  "servicesSubheading": "Expert solutions tailored to your needs",
+  "servicesText": "Bone Electrical offers a wide range of electrical services to meet the demands of Ivanhoe residents and businesses. From installations and repairs to safety checks and upgrades, our skilled team provides reliable and efficient solutions. We are dedicated to delivering high-quality workmanship and ensuring customer satisfaction on every project.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Complete electrical solutions for homes, including wiring, outlet installations, and safety upgrades to keep your family safe and comfortable."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Reliable electrical systems for businesses, from office fit-outs to maintenance contracts, ensuring minimal downtime and optimal performance."
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "Fast response for urgent electrical issues in Ivanhoe, available 24/7 to restore power and ensure safety."
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Enhance your space with professional lighting solutions, including LED upgrades, outdoor lighting, and custom designs for residential and commercial properties."
+    },
+    {
+      "title": "Switchboard Upgrades & Safety Checks",
+      "desc": "Upgrade outdated switchboards and conduct thorough safety inspections to meet current Australian electrical standards and prevent hazards."
+    },
+    {
+      "title": "Electrical Inspections & Compliance",
+      "desc": "Comprehensive inspections for renovations, new builds, or compliance requirements, with detailed reports and recommendations."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Ivanhoe?",
+  "bannerSubheading": "We provide prompt, professional service for all electrical emergencies.",
+  "testimonialsHeading": "What Ivanhoe Locals Say",
+  "testimonialsSubheading": "Trusted by the community for reliable electrical work",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Stay informed with advice from Bone Electrical",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for fast and friendly service",
+  "reviews": [
+    {
+      "text": "Bone Electrical rewired our entire Ivanhoe home during renovations. Their team was professional, efficient, and left the site clean. Highly recommend their residential services.",
+      "name": "John Smith",
+      "role": "Ivanhoe Homeowner"
+    },
+    {
+      "text": "We've used Bone Electrical for our business's switchboard upgrades and regular maintenance. Their expertise and reliability have been outstanding for our commercial needs.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Bone Electrical for quick emergency repairs across multiple Ivanhoe properties. Their response time and quality of work are top-notch.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
