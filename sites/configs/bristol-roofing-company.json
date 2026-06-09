@@ -1,0 +1,299 @@
+{
+  "siteType": "roofer",
+  "businessName": "Bristol Roofing Company",
+  "suburb": "Bristol",
+  "phone": "0117 456 7890",
+  "email": "info@bristolroofingcompany.co.uk",
+  "address": "Hamilton House, 80 Stokes Croft, St Paul's, Bristol BS1 3QY",
+  "tagline": "Bristol's Roofing Experts",
+  "primaryColor": "#00b3ff",
+  "primaryColorRgb": "0, 179, 255",
+  "primaryColorHover": "#0099cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bristol's Trusted Roofing Company",
+      "sub": "Expert roof repair and installation"
+    },
+    {
+      "title": "Pitched Roofs, Tiles & More",
+      "sub": "Quality materials for lasting protection"
+    },
+    {
+      "title": "Free Quotes Across Bristol",
+      "sub": "No obligation, honest advice"
+    }
+  ],
+  "ctaHeading": "Bristol's roofing specialists are ready — let's protect your home.",
+  "aboutHeading": "Decades of Roofing Excellence in Bristol",
+  "aboutSubheading": "Craftsmanship and innovation since 1990",
+  "aboutText": "Bristol Roofing Company has been serving the Bristol community for over 25 years, providing top-quality roof repair, pitched roofs, and roof tiles. Our team of skilled professionals combines traditional craftsmanship with modern techniques to deliver durable and aesthetically pleasing roofing solutions. Based in St Paul's, we understand the unique architectural heritage of Bristol and tailor our services to meet the highest standards.",
+  "servicesHeading": "Our Roofing Services",
+  "servicesSubheading": "Comprehensive solutions for every roof",
+  "servicesText": "From initial inspection to final installation, Bristol Roofing Company offers a full range of roofing services including repair, maintenance, and new installations. We specialise in various materials and styles to suit Bristol's diverse properties.",
+  "services": [
+    {
+      "title": "Roof Installation",
+      "desc": "Complete new roof installations for residential and commercial properties.",
+      "longDesc": "Bristol Roofing Company provides expert new roof installation services, ensuring high-quality materials and workmanship for long-lasting protection against Bristol's weather.",
+      "points": [
+        "Professional installation",
+        "Durable materials",
+        "Warranty included"
+      ]
+    },
+    {
+      "title": "Roof Repair",
+      "desc": "Prompt and reliable repair services for all roof types.",
+      "longDesc": "From minor leaks to major damage, our Bristol roof repair team delivers efficient solutions to restore your roof's integrity and prevent further issues.",
+      "points": [
+        "Fast response",
+        "Quality repairs",
+        "Free assessment"
+      ]
+    },
+    {
+      "title": "Roof Inspection",
+      "desc": "Thorough roof inspections to identify potential problems.",
+      "longDesc": "Our detailed roof inspections in Bristol help detect early signs of wear, ensuring timely maintenance and avoiding costly repairs down the line.",
+      "points": [
+        "Comprehensive check",
+        "Expert advice",
+        "Report provided"
+      ]
+    },
+    {
+      "title": "Material Consultation",
+      "desc": "Expert guidance on choosing the right roofing materials.",
+      "longDesc": "We offer personalised consultations in Bristol to help you select from asphalt, metal, slate, or tiles based on durability, aesthetics, and budget.",
+      "points": [
+        "Tailored options",
+        "Cost-effective choices",
+        "Local expertise"
+      ]
+    },
+    {
+      "title": "Eco-Friendly Roofing",
+      "desc": "Sustainable roofing solutions for environmentally conscious clients.",
+      "longDesc": "Bristol Roofing Company promotes green roofing options like solar panels and recycled materials to reduce environmental impact and energy costs.",
+      "points": [
+        "Sustainable materials",
+        "Energy efficiency",
+        "Long-term savings"
+      ]
+    },
+    {
+      "title": "Heritage Roofing",
+      "desc": "Specialist services for Bristol's historic and listed buildings.",
+      "longDesc": "We preserve the character of Bristol's heritage properties with traditional roofing techniques and materials, complying with conservation standards.",
+      "points": [
+        "Authentic restoration",
+        "Compliance guaranteed",
+        "Skilled craftsmen"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Roofer in Bristol?",
+  "bannerSubheading": "Trusted by homeowners and businesses alike.",
+  "testimonialsHeading": "What Bristol Locals Say",
+  "testimonialsSubheading": "Real feedback from our community",
+  "blogHeading": "Roofing Insights & Guides",
+  "blogSubheading": "Expert advice from Bristol's roofers",
+  "contactHeading": "Get Your Free Quote Today",
+  "contactSubheading": "We're here to help with all your roofing needs.",
+  "reviews": [
+    {
+      "text": "Bristol Roofing Company did an excellent job repairing our pitched roof after storm damage. Their team was professional and completed the work quickly, leaving no mess behind.",
+      "name": "James Wilson",
+      "role": "Bristol Homeowner"
+    },
+    {
+      "text": "We hired them for a full roof inspection and were impressed by their thoroughness. They provided a detailed report and fair quote for necessary repairs.",
+      "name": "Emma Taylor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Bristol, I rely on Bristol Roofing Company for regular maintenance. Their expertise in heritage roofing is unmatched, and they always deliver on time.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Clifton",
+    "Redland",
+    "Bedminster",
+    "Stokes Croft",
+    "Southville",
+    "Easton"
+  ],
+  "about": {
+    "intro": "Bristol Roofing Company is a leading roofing service provider in Bristol, specialising in roof repair, installation, and maintenance.",
+    "story": [
+      "With roots dating back to the 1990s, Bristol Roofing Company has grown from a small family business to a trusted name in the roofing industry across Bristol. Our commitment to quality and customer satisfaction has earned us a reputation for reliability and excellence in every project we undertake.",
+      "We take pride in our deep understanding of Bristol's architectural landscape, from modern homes to historic buildings. Our team uses time-tested techniques combined with innovative solutions to ensure every roof we work on stands the test of time and weather."
+    ],
+    "mission": "To provide Bristol with superior roofing services that blend functionality, aesthetics, and sustainability.",
+    "whyUs": [
+      {
+        "title": "Expert Craftsmen",
+        "text": "Our skilled roofers bring years of experience to every project in Bristol."
+      },
+      {
+        "title": "Quality Materials",
+        "text": "We use only the finest materials sourced from trusted suppliers for lasting results."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden costs; we provide detailed quotes upfront for all Bristol jobs."
+      },
+      {
+        "title": "Customer Focus",
+        "text": "Your satisfaction is our priority, with tailored solutions for each Bristol client."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Bristol Roofing Company, we offer competitive and transparent pricing for all roofing services in Bristol. No lock-in contracts, just honest quotes tailored to your needs.",
+    "packages": [
+      {
+        "name": "Basic Inspection",
+        "price": "£80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Visual roof assessment",
+          "Detailed report",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Roof Repair",
+        "price": "from £500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Minor repairs included",
+          "Quality materials",
+          "12-month warranty",
+          "Bristol-wide service"
+        ]
+      },
+      {
+        "name": "Full Roof Installation",
+        "price": "from £5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete removal and installation",
+          "Premium materials",
+          "Custom design options",
+          "25-year guarantee"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront, with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to discuss your roofing project in Bristol? Contact Bristol Roofing Company today for a free, no-obligation quote. We're available 8 am–10 pm to assist you."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a New Roof Cost in Bristol in 2026?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting new roof costs in Bristol, including materials, labour, and local market rates for a comprehensive overview.",
+      "body": [
+        "When considering a new roof in Bristol, the cost can vary significantly based on several key factors. The choice of roofing material plays a major role, with options like asphalt shingles being more affordable, while slate or metal roofing can increase the price due to their durability and aesthetic appeal. In Bristol, where weather conditions can be harsh, investing in quality materials is often recommended to ensure longevity.",
+        "Labour costs in Bristol are influenced by the complexity of the roof design, including pitch, size, and any unique architectural features. Roofing companies in the area may charge based on square footage, with additional fees for removing old roofing or dealing with structural issues. It's advisable to obtain multiple quotes from local roofers to compare pricing and services.",
+        "The local market conditions in Bristol, such as demand for roofing services and availability of materials, can also impact costs. Seasonal variations might affect pricing, with potential discounts during off-peak times. Bristol Roofing Company offers transparent pricing and can provide detailed breakdowns to help you budget effectively.",
+        "Another aspect to consider is the cost of permits and inspections required by Bristol's building regulations. Ensuring compliance with local standards can add to the overall expense but is essential for avoiding future legal issues. Our team assists with all necessary paperwork to streamline the process.",
+        "Long-term savings should be factored in, as investing in higher-quality roofing materials can reduce maintenance and repair costs over time. For example, metal roofs might have a higher upfront cost but offer superior lifespan and energy efficiency, which can lower utility bills in Bristol's climate.",
+        "To get an accurate estimate for your new roof in Bristol, we recommend scheduling a free consultation with Bristol Roofing Company. Our experts will assess your property, discuss your options, and provide a no-obligation quote tailored to your specific needs and budget."
+      ]
+    },
+    {
+      "title": "The Best Roofing Materials for Bristol's Climate",
+      "date": "February 2026",
+      "excerpt": "Explore which roofing materials perform best in Bristol's weather conditions, from slate to metal, for optimal protection and durability.",
+      "body": [
+        "Bristol's maritime climate, with its frequent rain, wind, and occasional frost, demands roofing materials that can withstand these elements. Slate roofing is a popular choice due to its natural durability and ability to repel water, making it ideal for Bristol's wet conditions. It also adds a classic aesthetic to both modern and heritage properties.",
+        "Metal roofing, particularly zinc or aluminium, offers excellent longevity and resistance to corrosion, which is beneficial in Bristol's salty air near the coast. These materials are lightweight and can be installed quickly, reducing labour costs. Additionally, metal roofs are eco-friendly and can be recycled at the end of their lifespan.",
+        "Clay tiles are another option that performs well in Bristol's climate, providing good insulation and resistance to colour fading. They are often used in traditional and Mediterranean-style homes, blending seamlessly with Bristol's architectural diversity. However, they can be heavier and may require additional structural support.",
+        "For those seeking sustainable options, green roofing systems are gaining popularity in Bristol. These involve planting vegetation on roofs, which helps with insulation, rainwater management, and biodiversity. Solar roofing panels are also an eco-conscious choice, harnessing renewable energy to power homes and reduce carbon footprint.",
+        "Asphalt shingles remain a cost-effective and versatile option, suitable for various roof pitches and designs. They are easy to install and repair, making them a practical choice for Bristol homeowners on a budget. However, they may have a shorter lifespan compared to slate or metal in harsh weather.",
+        "When selecting roofing materials for your Bristol property, consider factors like durability, maintenance requirements, and aesthetic appeal. Bristol Roofing Company can guide you through the selection process, ensuring you choose materials that suit Bristol's climate and your personal preferences."
+      ]
+    },
+    {
+      "title": "Signs Your Bristol Roof Needs Repair: A Homeowner's Guide",
+      "date": "January 2026",
+      "excerpt": "Learn to spot early warning signs of roof damage in Bristol homes to prevent costly repairs and maintain structural integrity.",
+      "body": [
+        "In Bristol, where weather can be unpredictable, it's crucial to regularly inspect your roof for signs of damage. One common indicator is missing or damaged shingles, which can expose the underlayment to water infiltration. This often occurs after storms or high winds, so checking your roof after severe weather is advisable.",
+        "Leaks or water stains on ceilings and walls are clear signs that your roof may need repair. In Bristol's damp climate, even small leaks can lead to mould growth and structural damage if not addressed promptly. Bristol Roofing Company recommends scheduling inspections at the first sign of moisture intrusion.",
+        "Sagging or uneven roof lines can indicate underlying structural issues, such as weakened decking or support beams. This is particularly concerning in older Bristol homes, where materials may have deteriorated over time. Professional assessment is essential to determine the extent of the problem and necessary repairs.",
+        "Granules from asphalt shingles accumulating in gutters suggest wear and tear, reducing the roof's effectiveness against water. In Bristol, where leaves and debris can clog gutters, regular cleaning is important to prevent additional strain on the roofing system. Our team can help with gutter maintenance as part of our services.",
+        "Daylight visible through roof boards is a severe warning sign that immediate repair is needed. This indicates gaps that can allow water, pests, and cold air into your home. In Bristol's variable temperatures, such issues can significantly impact energy efficiency and comfort.",
+        "To ensure your roof remains in top condition, Bristol Roofing Company offers comprehensive inspections and repair services. We can identify hidden issues and provide solutions tailored to Bristol's specific challenges, helping you avoid expensive replacements down the line."
+      ]
+    },
+    {
+      "title": "Heritage Roofing in Bristol: Preserving History with Modern Techniques",
+      "date": "December 2025",
+      "excerpt": "How Bristol Roofing Company maintains historic roofs using traditional methods and quality materials for lasting authenticity.",
+      "body": [
+        "Bristol is renowned for its rich architectural heritage, with many buildings dating back centuries. Heritage roofing requires a delicate balance between preserving historical accuracy and incorporating modern durability. Bristol Roofing Company specialises in this area, using traditional materials like natural slate, clay tiles, and thatched roofing to maintain authenticity.",
+        "One challenge in heritage roofing is sourcing materials that match the original specifications. For instance, Georgian roofs often feature slate with specific sizes and colours, while Victorian roofs may include intricate patterns. Our team works with specialist suppliers to procure authentic materials, ensuring repairs blend seamlessly with the existing structure.",
+        "Leadwork is another crucial aspect of heritage roofing in Bristol, commonly used in flashings, gutters, and decorative elements. Proper leadwork prevents water ingress and adds to the aesthetic appeal. Our craftsmen are skilled in traditional lead techniques, complying with conservation guidelines for listed buildings.",
+        "Dormers and roof windows are frequent features in Bristol's historic homes, requiring careful integration during repairs. We ensure that any modifications enhance functionality without compromising the roof's original character. This includes using period-appropriate designs and materials for a cohesive look.",
+        "Chimneys and roofing accessories often need attention in heritage properties, as they are exposed to the elements and can deteriorate. Bristol Roofing Company provides repair and restoration services for chimneys, including repointing and cap installation, to preserve the overall integrity of the roof.",
+        "When undertaking heritage roofing projects in Bristol, it's essential to comply with local planning regulations and conservation standards. Our team handles all necessary permits and consultations with heritage authorities, ensuring that every repair respects the building's historical significance while providing modern performance."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Bristol Roofing Company | Roof Repair & Installation in Bristol",
+      "description": "Trusted roofers in Bristol for repair, pitched roofs, and tiles. Get a free quote today from Bristol Roofing Company."
+    },
+    "about": {
+      "title": "About Bristol Roofing Company | Local Roofing Experts",
+      "description": "Learn about Bristol Roofing Company's 25+ years of service in Bristol, specialising in roof repair and installation."
+    },
+    "services": {
+      "title": "Roofing Services in Bristol | Repair, Installation & More",
+      "description": "Comprehensive roofing services in Bristol including roof repair, installation, inspection, and eco-friendly options."
+    },
+    "pricing": {
+      "title": "Roofing Costs in Bristol | Transparent Pricing | Bristol Roofing",
+      "description": "Affordable roofing prices in Bristol with no hidden fees. Get upfront quotes for repairs and installations."
+    },
+    "contact": {
+      "title": "Contact Bristol Roofing Company | Free Bristol Roof Quotes",
+      "description": "Get in touch with Bristol Roofing Company for free quotes on roof repair and installation in Bristol."
+    },
+    "blog": {
+      "title": "Bristol Roofing Blog | Tips, Guides & Local Insights",
+      "description": "Expert roofing advice for Bristol homeowners, covering costs, materials, and maintenance tips."
+    }
+  }
+}
