@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Pickards Automotive",
+  "suburb": "Alphington",
+  "phone": "03 9428 9655",
+  "email": "service@pickardsautomotive.com.au",
+  "address": "180 Grange Rd, Alphington VIC 3078",
+  "tagline": "Alphington's British & European Car Specialists",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Trusted European Car Care in Alphington",
+      "sub": "Serving Fairfield, Thornbury & Northcote"
+    },
+    {
+      "title": "Advanced Diagnostics for Quick Repairs",
+      "sub": "Pinpointing issues fast so you are back on the road"
+    },
+    {
+      "title": "Comfortable Pickup & Drop Service",
+      "sub": "We come to you across Alphington and surrounds"
+    }
+  ],
+  "ctaHeading": "Book your European car service with Alphington's trusted mechanics.",
+  "aboutHeading": "Alphington's European Car Specialists",
+  "aboutSubheading": "British & European vehicles, expertly serviced",
+  "aboutText": "Based on Grange Road in Alphington, Pickards Automotive provides specialist British and European car servicing across Fairfield, Thornbury and Northcote. Our team is dedicated to precise vehicle servicing that keeps you reliably on the road. From advanced diagnostics to routine logbook servicing, we treat every vehicle with the care it deserves. We pride ourselves on outstanding customer service, budget-friendly pricing, and making car maintenance simple and transparent.",
+  "servicesHeading": "Our Core Services",
+  "servicesSubheading": "Skilled mechanics for every make",
+  "servicesText": "From complex diagnostics to routine maintenance, Pickards Automotive covers all your British and European vehicle needs in Alphington and the inner north.",
+  "services": [
+    {
+      "title": "Diagnostic Service",
+      "desc": "Advanced computer diagnostics to quickly identify faults and get your European car running smoothly again."
+    },
+    {
+      "title": "Mechanical Repairs",
+      "desc": "Comprehensive mechanical repairs for British and European vehicles, handled by experienced Alphington technicians."
+    },
+    {
+      "title": "Logbook Service",
+      "desc": "Manufacturer-standard logbook servicing that protects your warranty and keeps your service history up to date."
+    },
+    {
+      "title": "Brake Service",
+      "desc": "Thorough brake inspections, pad replacements, and rotor machining for safe, reliable stopping power."
+    },
+    {
+      "title": "Electrical Repairs",
+      "desc": "Expert electrical diagnostics and repairs for complex European wiring systems, sensors, and components."
+    },
+    {
+      "title": "Classic Car Service",
+      "desc": "Specialist care for classic British and European vehicles, preserving their performance and character."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Alphington?",
+  "bannerSubheading": "We service British and European cars across the inner north — book today.",
+  "testimonialsHeading": "What Alphington Locals Say",
+  "testimonialsSubheading": "Trusted by Fairfield, Thornbury & Northcote drivers",
+  "blogHeading": "Car Care Tips & News",
+  "blogSubheading": "Advice from the Pickards team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We will get back to you fast",
+  "reviews": [
+    {
+      "text": "Pickards Automotive in Alphington looked after my BMW 3 Series with a full logbook service. The team was upfront about costs and had it ready the same day. Really glad I found a reliable European car specialist so close to home.",
+      "name": "James Mitchell",
+      "role": "Alphington Homeowner"
+    },
+    {
+      "text": "Our cafe van kept stalling and no one could figure out why. The guys at Pickards ran a full diagnostic and found a wiring fault within a couple of hours. Honest pricing and brilliant service — highly recommend them to anyone in the inner north.",
+      "name": "Sarah Coleman",
+      "role": "Fairfield Business Owner"
+    },
+    {
+      "text": "I manage a small fleet of Land Rovers and Pickards Automotive handles all our servicing from their Alphington workshop. Their brake service and mechanical repairs are always thorough, and the pickup and drop service saves us so much time. Wouldn't go anywhere else.",
+      "name": "David Nguyen",
+      "role": "Thornbury Property Manager"
+    }
+  ]
+}
