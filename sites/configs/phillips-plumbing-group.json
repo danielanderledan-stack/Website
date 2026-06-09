@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Phillips Plumbing Group",
+  "suburb": "Macleod",
+  "phone": "0452 045 112",
+  "email": "steve@phillipsplumbinggroup.com.au",
+  "address": "10, Terrace Way, Macleod, Melbourne, Victoria, 3085, Australia",
+  "tagline": "Macleod's Trusted Plumbing Professionals",
+  "primaryColor": "#555d66",
+  "primaryColorRgb": "85, 93, 102",
+  "primaryColorHover": "#40464d",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Macleod's Trusted Plumbing Professionals",
+      "sub": "Over 15 years' experience in Melbourne"
+    },
+    {
+      "title": "Residential & Commercial Plumbing Experts",
+      "sub": "Serving Macleod and surrounding areas"
+    },
+    {
+      "title": "24/7 Emergency Plumbing Services",
+      "sub": "Always here when you need us"
+    }
+  ],
+  "ctaHeading": "Macleod's plumbing experts are ready to help — call us today.",
+  "aboutHeading": "15 Years Plumbing in Macleod",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Phillips Plumbing Group has been providing trusted plumbing services to Macleod and Melbourne for over 15 years. Our experienced team delivers residential, commercial, and civil plumbing solutions with a focus on quality and reliability. As a fully licensed contractor, we ensure all work meets the highest standards of compliance and professionalism.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Comprehensive Plumbing Solutions",
+  "servicesText": "From residential repairs to large-scale civil projects, Phillips Plumbing Group covers all your plumbing needs. Our services include maintenance, roof plumbing, and emergency solutions, ensuring your property is always in safe hands.",
+  "services": [
+    {
+      "title": "Residential Plumbing",
+      "desc": "Expert plumbing solutions for homes across Macleod and Melbourne."
+    },
+    {
+      "title": "Commercial Plumbing",
+      "desc": "Reliable plumbing services for businesses and commercial properties."
+    },
+    {
+      "title": "Civil Plumbing",
+      "desc": "Specialized civil plumbing for infrastructure projects in Melbourne."
+    },
+    {
+      "title": "Plumbing Maintenance",
+      "desc": "Regular maintenance to keep your plumbing system in top condition."
+    },
+    {
+      "title": "Roof Plumbing",
+      "desc": "Professional roof plumbing repairs and installations."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency plumbing services for urgent issues."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Macleod?",
+  "bannerSubheading": "Get fast, reliable service from local experts.",
+  "testimonialsHeading": "What Macleod Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Insights from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Phillips Plumbing Group fixed our leaky tap and installed a new hot water system in Macleod. Their service was prompt and professional, and the price was fair. Highly recommended for any plumbing work.",
+      "name": "John Smith",
+      "role": "Macleod Homeowner"
+    },
+    {
+      "text": "We hired Phillips for commercial plumbing maintenance at our office in Melbourne. They were thorough and efficient, with no disruption to our business. Great team to work with.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Phillips Plumbing for all our rental properties. Their roof plumbing repairs were excellent, and they always respond quickly to emergencies.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
