@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Triple M Electrical",
+  "suburb": "Fitzroy North",
+  "phone": "0402 749 820",
+  "email": "info@triplemelec.com.au",
+  "address": "14 Liverpool Street, Fitzroy North VIC 3068",
+  "tagline": "Fitzroy North's Electrical & Air Conditioning Experts",
+  "primaryColor": "#ffcb05",
+  "primaryColorRgb": "255, 203, 5",
+  "primaryColorHover": "#e0b400",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fitzroy North's Electrical & Air Con Specialists",
+      "sub": "Emergency breakdowns & new installations"
+    },
+    {
+      "title": "C-Bus, Lighting & Switchboards",
+      "sub": "Complete solutions for homes & businesses"
+    },
+    {
+      "title": "Call Triple M Today!",
+      "sub": "Mob: 0402 749 820"
+    }
+  ],
+  "ctaHeading": "Need a Reliable Electrician in Fitzroy North?",
+  "aboutHeading": "Fitzroy North's Trusted Electricians",
+  "aboutSubheading": "Licensed, insured & on call for emergencies",
+  "aboutText": "Triple M Electrical and Air Conditioning is a Fitzroy North-based business providing the best electrical and air conditioning solutions across Melbourne. We understand that emergency breakdowns and new installations have urgency, which is why our team is ready to respond quickly. With an extensive portfolio working with dentists, medical centres, cafés, and factories, there is nothing too big or too small for our skilled electricians.",
+  "servicesHeading": "Our Electrical & Air Conditioning Services",
+  "servicesSubheading": "Comprehensive solutions for your property",
+  "servicesText": "From emergency breakdowns and preventative maintenance to new installations and energy-saving upgrades, our licensed team handles all electrical and air conditioning needs for residential, commercial, and industrial properties.",
+  "services": [
+    {
+      "title": "Emergency Breakdowns & Fault Finding",
+      "desc": "We respond urgently to restore power outages, address electrical hazards, and perform general fault finding to get your property back online safely."
+    },
+    {
+      "title": "Indoor & Outdoor Lighting",
+      "desc": "Specialists in all types of lighting, including LED upgrades, exit & emergency lighting, and automated sensor systems for enhanced security and efficiency."
+    },
+    {
+      "title": "Switchboards & Cabling",
+      "desc": "Installation and upgrades of basic and major switchboards, 415V three-phase cabling, and mains cabling for safe, reliable power distribution."
+    },
+    {
+      "title": "C-Bus & Home Automation",
+      "desc": "Expert installation of C-Bus systems and smart home automation to give you convenient control over your lighting, security, and climate."
+    },
+    {
+      "title": "Air Conditioning Solutions",
+      "desc": "Professional installation, servicing, and repairs for heating and cooling systems to maintain perfect comfort in your home or business all year round."
+    },
+    {
+      "title": "Preventative Maintenance",
+      "desc": "Scheduled site maintenance, wiring checks, and energy-saving assessments designed to prevent costly breakdowns and improve your property's safety."
+    }
+  ],
+  "bannerHeading": "Fitzroy North Electricians — Call Now!",
+  "bannerSubheading": "24/7 emergency service available for urgent electrical issues.",
+  "testimonialsHeading": "What Our Fitzroy North Clients Say",
+  "testimonialsSubheading": "Trusted by local homes and businesses",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from the Triple M team",
+  "contactHeading": "Get in Touch with Triple M Electrical",
+  "contactSubheading": "We're ready to help with your electrical or air conditioning project",
+  "reviews": [
+    {
+      "text": "Triple M Electrical saved us during a major power outage at our Fitzroy North clinic. Their emergency response was fast and professional, getting us fully operational again with minimal disruption.",
+      "name": "David Chen",
+      "role": "Fitzroy North Business Owner"
+    },
+    {
+      "text": "We had them install a new C-Bus system and LED lighting throughout our home. The team from Triple M was knowledgeable and tidy, and the results look fantastic. Highly recommend their automation work.",
+      "name": "Sarah Mitchell",
+      "role": "Fitzroy North Homeowner"
+    },
+    {
+      "text": "Triple M handles all the electrical maintenance for our portfolio of rental properties. Their reliability and fair pricing make them our go-to electrician for everything from switchboard upgrades to lighting repairs.",
+      "name": "James Worthington",
+      "role": "Melbourne Property Manager"
+    }
+  ]
+}
