@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Feature Joinery",
+  "suburb": "Tullamarine",
+  "phone": "03 9338 1234",
+  "email": "admin@featurejoinery.com",
+  "address": "Unit 6/1 Trade Park Dr, Tullamarine VIC 3043",
+  "tagline": "Tullamarine's Joinery Experts",
+  "primaryColor": "#1caee5",
+  "primaryColorRgb": "28, 174, 229",
+  "primaryColorHover": "#17a0d0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Tullamarine's Premier Joinery",
+      "sub": "Crafting quality timber solutions for Melbourne"
+    },
+    {
+      "title": "Shopfitting & Commercial Fitouts",
+      "sub": "Tailored to your business needs in Tullamarine"
+    },
+    {
+      "title": "Branded Timber Elements & More",
+      "sub": "From design to expert installation across Melbourne"
+    }
+  ],
+  "ctaHeading": "Ready for Expert Joinery in Tullamarine?",
+  "aboutHeading": "Joinery Excellence in Tullamarine",
+  "aboutSubheading": "Quality craftsmanship for every project",
+  "aboutText": "Feature Joinery, based in Tullamarine, takes pride in building cabinets and timber elements that stand the test of time. With a commitment to transparent communication and uncompromising standards, we guide projects from initial designs through to expert installation. Our team specialises in both residential and commercial joinery, serving the Melbourne area with dedication.",
+  "servicesHeading": "Our Joinery Services",
+  "servicesSubheading": "Expert timber solutions for every need",
+  "servicesText": "From residential kitchens to commercial fitouts, Feature Joinery offers a comprehensive range of joinery services. We handle everything from design to installation, ensuring quality and precision in every project across Tullamarine and surrounds.",
+  "services": [
+    {
+      "title": "Residential Joinery",
+      "desc": "We design and build custom cabinets and timber features that add character to homes in Tullamarine and surrounding suburbs."
+    },
+    {
+      "title": "Commercial Fitouts",
+      "desc": "Complete fitout solutions for offices, retail spaces, and commercial properties with attention to detail and functionality."
+    },
+    {
+      "title": "Shopfitting",
+      "desc": "Specialised joinery for shops and retail environments to enhance customer experience and brand identity."
+    },
+    {
+      "title": "Branded Timber Elements",
+      "desc": "Unique timber installations that reflect your brand identity and values for a distinctive look."
+    },
+    {
+      "title": "Kitchen Cabinetry",
+      "desc": "Expertly crafted kitchens designed for functionality and aesthetic appeal in Tullamarine homes."
+    },
+    {
+      "title": "Custom Timber Projects",
+      "desc": "Bespoke timber pieces tailored to your specific requirements and vision for any space."
+    }
+  ],
+  "bannerHeading": "Need Joinery in Tullamarine?",
+  "bannerSubheading": "We're here to help with all your timber needs.",
+  "testimonialsHeading": "Tullamarine Clients Love Our Work",
+  "testimonialsSubheading": "See what our customers have to say",
+  "blogHeading": "Joinery Insights & News",
+  "blogSubheading": "Tips from the Feature Joinery team",
+  "contactHeading": "Get in Touch for a Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Feature Joinery did an outstanding job on our kitchen renovation in Tullamarine. The craftsmanship was top-notch, and they were transparent throughout the process. Highly recommend their residential joinery services.",
+      "name": "Sarah Mitchell",
+      "role": "Tullamarine Homeowner"
+    },
+    {
+      "text": "We hired Feature Joinery for our shop fitout in Melbourne, and the result was exceptional. Their attention to detail and branded timber elements perfectly captured our business identity. A professional team from start to finish.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've worked with Feature Joinery on multiple commercial fitouts. Their reliability and quality workmanship make them my go-to joiners for all projects in the area.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
