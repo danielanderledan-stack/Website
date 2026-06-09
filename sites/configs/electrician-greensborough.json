@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electrician Greensborough",
+  "suburb": "Greensborough",
+  "phone": "+61451013337",
+  "email": "info@electriciangreensborough.com.au",
+  "address": "7 Billabong Ct, Greensborough VIC 3088",
+  "tagline": "Greensborough's Trusted Electrical Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#cc5400",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Greensborough's Go-To Electrician",
+      "sub": "Residential & Commercial Services in Melbourne"
+    },
+    {
+      "title": "Expert Electrical Repairs & Installations",
+      "sub": "Serving North Melbourne and Surrounds"
+    },
+    {
+      "title": "24/7 Emergency Electrician in Greensborough",
+      "sub": "Fast, Reliable, and Always Available"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Greensborough?",
+  "aboutHeading": "Experienced Electrician in Greensborough",
+  "aboutSubheading": "Local, Licensed & Available 24/7",
+  "aboutText": "Electrician Greensborough has been providing top-quality electrical services in Greensborough and surrounding suburbs for years. Our team specialises in residential and commercial electrical work, including switchboard upgrades, lighting installations, and EV charger setups. We pride ourselves on reliability, safety compliance, and exceptional customer service, as seen in our numerous positive reviews. Available 24 hours, we're here to meet all your electrical needs.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions for All Your Needs",
+  "servicesText": "From residential wiring to commercial fit-outs, we cover it all. Our services include repairs, maintenance, security systems, and smart home integration. We serve Greensborough and Melbourne-wide, ensuring every job is done to the highest standard with competitive pricing.",
+  "services": [
+    {
+      "title": "Residential Electrician",
+      "desc": "Offering comprehensive residential electrical services in Greensborough, from new builds to renovations and safety inspections."
+    },
+    {
+      "title": "Commercial Electrician",
+      "desc": "Providing reliable electrical services for businesses, including office fit-outs, maintenance, and compliance checks in Melbourne."
+    },
+    {
+      "title": "Repairs and Maintenance",
+      "desc": "Quick and efficient repair services for all electrical issues, available 24/7 to minimise downtime and ensure safety."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Expert installation of electric vehicle chargers for homes and businesses, supporting sustainable transport in Melbourne."
+    },
+    {
+      "title": "Security Systems",
+      "desc": "Installation and maintenance of security cameras and alarm systems to protect your property and enhance safety."
+    },
+    {
+      "title": "Smart Home Integration",
+      "desc": "Modernise your home with smart lighting, thermostats, and automated systems for convenience and energy efficiency."
+    }
+  ],
+  "bannerHeading": "Emergency Electrician in Greensborough",
+  "bannerSubheading": "We're Available 24/7 for Urgent Electrical Needs",
+  "testimonialsHeading": "What Greensborough Locals Say",
+  "testimonialsSubheading": "Trusted by Homeowners and Businesses Alike",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Advice from Your Local Electrician",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "Quick Response Guaranteed",
+  "reviews": [
+    {
+      "text": "Jacinta praised Mark for exceptional emergency service when her power went out overnight. He arrived quickly, restored power safely, and ensured no risk of electrical fire, highly recommending his dedication and quality work.",
+      "name": "Jacinta Stamkovski",
+      "role": "Greensborough Homeowner"
+    },
+    {
+      "text": "Kristian recommends MRK Electrical Contracting for their affordability and efficiency in electrical services. He highlights Mark's friendly approach and reliable work, making them a top choice for businesses in Melbourne.",
+      "name": "Kristian Ilic",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Alex was impressed with Marko's work on a complete electrical upgrade at his property, including power points, light switches, and switchboard. The work passed compliance checks promptly, showcasing professionalism.",
+      "name": "Alex T",
+      "role": "Property Manager"
+    }
+  ]
+}
