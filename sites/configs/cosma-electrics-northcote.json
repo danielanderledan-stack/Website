@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Cosma Electrics Northcote",
+  "suburb": "Northcote",
+  "phone": "0401 079 332",
+  "email": "nick@cosmaelectrics.com.au",
+  "address": "26 Veronica St, Northcote VIC 3070",
+  "tagline": "Northcote's 24/7 Electricians",
+  "primaryColor": "#5bbad5",
+  "primaryColorRgb": "91, 186, 213",
+  "primaryColorHover": "#4fa4b6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Northcote's Expert Electricians",
+      "sub": "24/7 service for home and business"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "Trusted by Northcote locals since day one"
+    },
+    {
+      "title": "Quality Workmanship Guaranteed",
+      "sub": "Free quotes across Northcote & surrounds"
+    }
+  ],
+  "ctaHeading": "Northcote's electricians are ready — let's power your project.",
+  "aboutHeading": "Cosma Electrics in Northcote",
+  "aboutSubheading": "Local, licensed & available 24/7",
+  "aboutText": "Cosma Electrics are experts in the field, providing comprehensive electrical services to Northcote homes and businesses. With years of experience, we handle any electrical work you need, from installations to repairs. Our team is available 24 hours a day, 7 days a week to ensure your safety and satisfaction.",
+  "servicesHeading": "Our Electrical Services in Northcote",
+  "servicesSubheading": "Comprehensive solutions for all your needs",
+  "servicesText": "From residential wiring to commercial fit-outs, Cosma Electrics offers a full range of electrical services in Northcote. We specialise in safety, efficiency, and timely completion of all projects.",
+  "services": [
+    {
+      "title": "Residential Electrical Work",
+      "desc": "Expert wiring, rewiring, and electrical installations for Northcote homes, ensuring safety and compliance."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tailored electrical solutions for Northcote businesses, including fit-outs, maintenance, and energy efficiency upgrades."
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "24/7 rapid response for urgent electrical faults in Northcote, minimising downtime and hazards."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional installation and repair of indoor and outdoor lighting systems across Northcote properties."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrading outdated switchboards in Northcote to meet modern safety standards and increase capacity."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Comprehensive electrical safety checks and compliance reports for Northcote homes and businesses."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Northcote?",
+  "bannerSubheading": "Fast, reliable service when you need it most",
+  "testimonialsHeading": "What Northcote Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from the Cosma Electrics team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Cosma Electrics did a fantastic job rewiring our Northcote home. Their team was professional, on time, and left everything tidy. Highly recommended for any electrical work.",
+      "name": "John Smith",
+      "role": "Northcote Homeowner"
+    },
+    {
+      "text": "We called Cosma Electrics for an emergency repair at our shop in Northcote. They arrived quickly and fixed the issue efficiently, preventing further problems. Great local service!",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Cosma Electrics for multiple electrical installations across Northcote. They are reliable, provide quality work, and always meet deadlines.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
