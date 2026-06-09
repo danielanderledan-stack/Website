@@ -1,0 +1,85 @@
+{
+  "siteType": "tiler",
+  "businessName": "The Good Tiler",
+  "suburb": "Lalor",
+  "phone": "0406 543 421",
+  "email": "info@thegoodtiler.com.au",
+  "address": "Unit 1/6 Mackey St, Lalor VIC 3075",
+  "tagline": "Lalor's Trusted Tiling Experts",
+  "primaryColor": "#2988cc",
+  "primaryColorRgb": "41, 136, 204",
+  "primaryColorHover": "#1e75b0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lalor's Premium Tiling Services",
+      "sub": "25 years of craftsmanship in your home"
+    },
+    {
+      "title": "Bathroom Renovations & Wall Cladding",
+      "sub": "Expert tiling for residential and commercial spaces"
+    },
+    {
+      "title": "Free Quotes Across Lalor",
+      "sub": "No job too big or small for your tiling needs"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Space in Lalor?",
+  "aboutHeading": "25 Years Tiling Excellence in Lalor",
+  "aboutSubheading": "Local expertise you can trust",
+  "aboutText": "The Good Tiler brings over 25 years of luxury tiling craftsmanship to Lalor and surrounding areas. Specialised in residential and commercial tile installation, we ensure every project, from bathroom renovations to rock wall cladding, meets the highest standards. Our team uses top-quality materials and delivers results tailored to your design and budget, with a deep understanding of the Australian climate.",
+  "servicesHeading": "Our Tiling Services",
+  "servicesSubheading": "Crafted with precision",
+  "servicesText": "We offer a comprehensive range of tiling services for homes and businesses in Lalor. Whether it's a small repair or a full renovation, we provide tailored solutions using the finest materials to meet your specific needs.",
+  "services": [
+    {
+      "title": "Rock Wall Cladding",
+      "desc": "Enhance your property's exterior with durable and stylish rock wall cladding, perfect for the harsh Australian climate."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete bathroom tiling from design to installation, ensuring a smooth renovation process to your budget."
+    },
+    {
+      "title": "Wall Tiling",
+      "desc": "Protect and beautify walls in kitchens, bathrooms, and living areas with expert wall tiling services."
+    },
+    {
+      "title": "Floor Tiling",
+      "desc": "Install hard-wearing and attractive tile flooring, including ceramic and porcelain options, for any space."
+    },
+    {
+      "title": "Kitchen Tiling",
+      "desc": "Add a functional and decorative backsplash or full kitchen tiling to complete your kitchen makeover."
+    },
+    {
+      "title": "General Tiling Services",
+      "desc": "Professional tiling for all needs, from small repairs to large-scale projects, tailored to your budget and design."
+    }
+  ],
+  "bannerHeading": "Need a Tiler in Lalor?",
+  "bannerSubheading": "Get expert tiling services for your home or business today.",
+  "testimonialsHeading": "What Lalor Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Tiling Tips & Insights",
+  "blogSubheading": "From The Good Tiler team",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're here to help with your tiling projects.",
+  "reviews": [
+    {
+      "text": "The Good Tiler transformed our bathroom in Lalor with stunning wall tiling. The team was professional, polite, and cleaned up after themselves, delivering a brilliant job.",
+      "name": "Connor Ardill",
+      "role": "Lalor Homeowner"
+    },
+    {
+      "text": "We are so happy with our new kitchen layout and finish by The Good Tiler. They provided top-class results on a budget, and we have already recommended them to friends.",
+      "name": "Linda Collins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Our bathroom renovation by The Good Tiler was exceptional, turning our old space into a modern retreat. Their attention to detail and quality materials are impressive.",
+      "name": "Aaron Lynas",
+      "role": "Property Manager"
+    }
+  ]
+}
