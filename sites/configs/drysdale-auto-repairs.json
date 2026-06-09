@@ -1,0 +1,299 @@
+{
+  "siteType": "builder",
+  "businessName": "Drysdale Auto Repairs",
+  "suburb": "Drysdale",
+  "phone": "03 5251 4567",
+  "email": "info@drysdaleautorepairs.com.au",
+  "address": "4/35-39 Murradoc Rd, Drysdale VIC 3222",
+  "tagline": "Drysdale's Trusted Auto Mechanics",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#CC5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Drysdale's Go-To Auto Mechanics",
+      "sub": "Serving Drysdale & the Bellarine Peninsula for over 10 years"
+    },
+    {
+      "title": "Expert Car Repairs & Servicing",
+      "sub": "All makes, models & fleet vehicles"
+    },
+    {
+      "title": "Reliable & Affordable Service",
+      "sub": "Free quotes across Drysdale and surrounds"
+    }
+  ],
+  "ctaHeading": "Drysdale's mechanics are ready — let's get your car back on the road.",
+  "aboutHeading": "10 Years Serving Drysdale's Drivers",
+  "aboutSubheading": "Local expertise you can trust",
+  "aboutText": "Drysdale Auto Repairs has been providing top-notch mechanic services in Drysdale for over a decade. Our team of licensed technicians specializes in everything from routine car servicing to complex engine diagnostics, ensuring your vehicle runs smoothly on the Bellarine Peninsula roads. We pride ourselves on honest, reliable service tailored to the local community's needs.",
+  "servicesHeading": "Our Mechanic Services",
+  "servicesSubheading": "Comprehensive auto care for Drysdale",
+  "servicesText": "From quick brake checks to full engine overhauls, Drysdale Auto Repairs covers all your vehicle maintenance and repair needs. We use the latest diagnostic tools and genuine parts to deliver high-quality service for cars, utes, and light commercial vehicles across Drysdale and nearby suburbs.",
+  "services": [
+    {
+      "title": "Car Servicing",
+      "desc": "Routine maintenance to keep your vehicle in top condition.",
+      "longDesc": "Our comprehensive car servicing in Drysdale includes oil changes, filter replacements, fluid checks, and multi-point inspections. We follow manufacturer guidelines to maintain your warranty and ensure optimal performance on local roads.",
+      "points": [
+        "Preventative maintenance",
+        "Warranty compliant",
+        "All makes and models"
+      ]
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Expert brake inspection, repair, and replacement services.",
+      "longDesc": "Brake safety is critical for driving on Drysdale's hilly terrain. We offer brake pad replacements, rotor machining, and fluid flushes to keep your stopping power reliable and efficient.",
+      "points": [
+        "Safe stopping power",
+        "Quality parts used",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to pinpoint engine issues accurately.",
+      "longDesc": "Using state-of-the-art diagnostic equipment, we identify engine problems quickly for accurate repairs. Whether it's a check engine light or performance issue, our Drysdale mechanics have the expertise.",
+      "points": [
+        "Precision diagnostics",
+        "Experienced technicians",
+        "Clear explanations"
+      ]
+    },
+    {
+      "title": "Transmission Repairs",
+      "desc": "Manual and automatic transmission servicing and rebuilds.",
+      "longDesc": "Transmission issues can be complex, but our skilled mechanics in Drysdale handle everything from fluid changes to complete rebuilds, ensuring smooth gear shifts and longevity.",
+      "points": [
+        "Expert rebuilds",
+        "Smooth performance",
+        "Trusted solutions"
+      ]
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Repair and upgrade services for a comfortable, safe ride.",
+      "longDesc": "Drysdale's roads can be tough on suspension systems. We repair shocks, struts, and steering components to restore handling and comfort for your daily commute.",
+      "points": [
+        "Improved ride comfort",
+        "Enhanced safety",
+        "Local road expertise"
+      ]
+    },
+    {
+      "title": "Auto Electrics",
+      "desc": "Electrical fault finding, repairs, and battery services.",
+      "longDesc": "From battery testing to complex wiring issues, our auto electricians in Drysdale provide reliable solutions for all vehicle electrical systems, including lights, starters, and alternators.",
+      "points": [
+        "Accurate fault finding",
+        "Quality electrical work",
+        "All vehicle types"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Drysdale?",
+  "bannerSubheading": "Fast, reliable auto repairs for all vehicles.",
+  "testimonialsHeading": "What Drysdale Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Auto Care Tips & Drysdale Driving Advice",
+  "blogSubheading": "Expert insights from your local mechanic",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Quick response for all repair enquiries",
+  "reviews": [
+    {
+      "text": "Drysdale Auto Repairs did a fantastic job on my car's major service. They explained everything clearly and had it ready on time. Highly recommend for anyone in Drysdale needing reliable mechanics.",
+      "name": "Sarah Mitchell",
+      "role": "Drysdale Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my delivery van. The team at Drysdale Auto Repairs provides efficient brake repairs and servicing to keep my fleet moving without downtime.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've taken my properties' vehicles here for years. Their auto diagnostics are top-notch, and they always offer honest advice. A trusted mechanic in the Drysdale area.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Drysdale",
+    "Clifton Springs",
+    "Curlewis",
+    "Marcus Hill",
+    "Wallington",
+    "Point Lonsdale"
+  ],
+  "about": {
+    "intro": "Drysdale Auto Repairs is your local mechanic in Drysdale, VIC, dedicated to keeping vehicles safe and reliable on the road.",
+    "story": [
+      "Founded over 10 years ago, Drysdale Auto Repairs started with a simple goal: to provide honest, high-quality mechanic services to the Drysdale community. Our founders saw a need for a trustworthy auto shop that understood local driving conditions and vehicle needs.",
+      "Today, we have grown to serve the entire Bellarine Peninsula, with a team of experienced technicians who use the latest technology. From routine servicing to complex repairs, we treat every car as if it's our own, ensuring satisfaction for every Drysdale customer."
+    ],
+    "mission": "To deliver exceptional mechanic services that keep Drysdale's vehicles running smoothly and safely.",
+    "whyUs": [
+      {
+        "title": "Licensed Mechanics",
+        "text": "All our technicians are fully licensed and undergo regular training to stay updated."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We provide upfront quotes with no hidden costs, giving Drysdale drivers peace of mind."
+      },
+      {
+        "title": "Genuine Parts",
+        "text": "We use high-quality, genuine parts to ensure your vehicle's durability and performance."
+      },
+      {
+        "title": "Community Focused",
+        "text": "Proudly serving Drysdale and surrounding suburbs with personalised, local care."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Drysdale Auto Repairs, we offer transparent pricing with no lock-in contracts. Get a free quote tailored to your vehicle's needs in Drysdale and the Bellarine Peninsula.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$150",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Fluid top-up",
+          "Multi-point inspection",
+          "Service report provided"
+        ]
+      },
+      {
+        "name": "Major Service",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Comprehensive vehicle check",
+          "Brake and suspension inspection",
+          "Engine diagnostics",
+          "Service log updated"
+        ]
+      },
+      {
+        "name": "Diagnostic Scan",
+        "price": "$90",
+        "unit": "per scan",
+        "highlight": false,
+        "features": [
+          "Advanced fault code reading",
+          "Accurate issue identification",
+          "Clear repair advice"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what you'll pay before any work begins in Drysdale."
+  },
+  "contact": {
+    "intro": "Ready to book your vehicle in for a service or repair? Contact Drysdale Auto Repairs today for a free, no-obligation quote. We're here to help with all your auto needs in Drysdale."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Car Service Cost in Drysdale in 2026?",
+      "date": "March 2026",
+      "excerpt": "Discover the average costs for car servicing in Drysdale, including factors that affect pricing and tips for saving money on vehicle maintenance.",
+      "body": [
+        "In Drysdale, the cost of a car service can vary based on your vehicle's make, model, and age. On average, a basic service starts from $150, while a major service may cost from $350. Local mechanics like Drysdale Auto Repairs offer competitive pricing tailored to the Bellarine Peninsula community, considering factors like part availability and labour rates specific to the area. Understanding these variables helps Drysdale drivers budget effectively for routine upkeep.",
+        "One key factor influencing service costs in Drysdale is the type of vehicle. European cars or newer models with advanced technology may require specialised diagnostics, increasing the price. For instance, a basic service for a Toyota Corolla might be cheaper than for a BMW, but Drysdale Auto Repairs provides transparent quotes upfront. Additionally, the frequency of servicing—recommended every 10,000 km or 6 months—can affect long-term costs, making preventative maintenance a smart investment for local drivers.",
+        "Drysdale's climate and road conditions also play a role. The Bellarine Peninsula's coastal environment means vehicles may experience more corrosion or wear from salt air, necessitating thorough inspections. Mechanics in Drysdale often include checks for rust or suspension damage caused by local hilly terrain. By choosing a reputable local mechanic, you ensure that service addresses these regional challenges, potentially avoiding costly repairs down the line.",
+        "When budgeting for car servicing in Drysdale, consider additional costs like registration or insurance checks, which are often included in comprehensive packages. Drysdale Auto Repairs offers tiered services, from basic oil changes to full engine diagnostics, allowing you to select what fits your needs. Comparing quotes from multiple mechanics in the Drysdale area can reveal price differences, but always prioritise quality and expertise over the cheapest option.",
+        "Saving money on car servicing in Drysdale is possible through regular maintenance. Skipping services might save upfront but can lead to major issues like engine failure, which is far more expensive. Local tips include using genuine parts from suppliers in Geelong to avoid markup, and asking about discounts for seniors or fleet vehicles. Drysdale Auto Repairs often runs promotions for first-time customers, making professional care more accessible.",
+        "Finally, understanding the breakdown of service costs in Drysdale empowers you as a vehicle owner. Labour typically accounts for 50-70% of the bill, with parts making up the rest. By discussing your vehicle's history with your mechanic, you can tailor services to avoid unnecessary work. In Drysdale, building a relationship with a trusted mechanic ensures consistent pricing and peace of mind, contributing to safer roads for the entire community."
+      ]
+    },
+    {
+      "title": "Best Time for a Vehicle Inspection in Geelong Region – Drysdale Tips",
+      "date": "February 2026",
+      "excerpt": "Learn the optimal times for vehicle inspections in Drysdale and the Geelong region, considering weather, traffic, and local driving patterns.",
+      "body": [
+        "Timing a vehicle inspection in Drysdale is crucial for ensuring your car is safe and roadworthy, especially in the Geelong region's variable conditions. The best times are during milder months like spring (September to November) or autumn (March to May), when Drysdale's weather is stable, making it easier for mechanics to conduct thorough checks without rain or extreme heat interfering. Drysdale Auto Repairs recommends scheduling inspections early in the week to avoid weekend rushes.",
+        "In Drysdale, the coastal climate means winter inspections can be challenging due to frequent rain, potentially masking issues like water leaks or corrosion. Conversely, summer inspections are ideal for checking cooling systems, as Drysdale's temperatures can rise, straining engines. Planning inspections during off-peak times, such as mid-morning on weekdays, allows mechanics to spend more time on detailed assessments, benefiting drivers who rely on their vehicles for commutes across the Bellarine Peninsula.",
+        "Local driving patterns also influence the best inspection timing. Drysdale residents often use vehicles for daily trips to Geelong or along the Bellarine Highway, where road wear from heavy traffic can affect tyres and brakes. Scheduling inspections before major holidays like Christmas or Easter ensures your car is ready for increased travel. Drysdale Auto Repairs suggests booking at least two weeks in advance during these periods to secure a convenient slot.",
+        "Another factor is vehicle age and usage. Newer cars in Drysdale may only need annual inspections, but older models or those used for towing should be checked more frequently. The Geelong region's hilly terrain puts extra stress on suspension and brakes, so inspections during Drysdale's calmer seasons allow for accurate diagnostics. Mechanics can better identify issues like brake pad wear or alignment problems when conditions are optimal.",
+        "For Drysdale drivers, aligning inspections with registration renewals is a practical approach. Victoria requires annual roadworthy certificates, and scheduling an inspection a month before renewal avoids last-minute rushes. Drysdale Auto Repairs can perform these inspections efficiently, often on the same day, ensuring compliance with local regulations. This proactive timing helps maintain vehicle value and safety in the Drysdale community.",
+        "Finally, consider personal schedules when booking inspections in Drysdale. If you work in Geelong, a morning inspection allows drop-off before commute, with collection later in the day. Drysdale Auto Repairs offers flexible hours from 8 am to 5 pm, accommodating busy lifestyles. By choosing the right time, you maximise inspection quality, keeping your vehicle reliable for Drysdale's roads and beyond."
+      ]
+    },
+    {
+      "title": "How to Choose the Best Mechanic in Drysdale for Your Car",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to selecting a reliable mechanic in Drysdale, including key questions, red flags, and local resources in the Bellarine Peninsula.",
+      "body": [
+        "Choosing the best mechanic in Drysdale involves researching local options and assessing their expertise with vehicles common to the Bellarine Peninsula. Start by seeking recommendations from neighbours or online reviews specific to Drysdale, focusing on mechanics with experience in your car's make. Drysdale Auto Repairs, for example, has built trust over 10 years by specialising in all vehicle types, from family sedans to work utes used by local businesses.",
+        "When evaluating a mechanic in Drysdale, ask about their qualifications and certifications. Licensed mechanics should hold relevant Australian trade certificates, and it's wise to check for affiliations with industry bodies like the Motor Traders' Association. In Drysdale, reputable shops will gladly share this information, ensuring they meet standards for servicing vehicles in the Geelong region's conditions, such as handling coastal corrosion.",
+        "Consider the range of services offered. A good mechanic in Drysdale should provide everything from basic car servicing to advanced diagnostics, using modern equipment. Drysdale Auto Repairs offers comprehensive services including brake repairs and auto electrics, tailored to local needs. Transparency is key—look for mechanics who provide detailed quotes upfront and explain repairs in simple terms, avoiding jargon.",
+        "Location and accessibility matter in Drysdale. Choose a mechanic conveniently located near Murradoc Rd or with easy parking for drop-offs. Drysdale Auto Repairs' central location allows quick access for residents, and their hours from 8 am to 5 pm suit most schedules. Also, inquire about loan vehicles or shuttle services, which can be helpful if you rely on your car for daily activities in the Drysdale area.",
+        "Red flags to avoid include mechanics who pressure you into unnecessary repairs or lack clear communication. In Drysdale, trusted mechanics will prioritize your vehicle's safety and provide itemized invoices. Drysdale Auto Repairs encourages questions and offers free quotes, fostering confidence among local drivers. Checking for warranties on work can also indicate a mechanic's commitment to quality.",
+        "Finally, build a long-term relationship with a mechanic in Drysdale for consistent care. Regular visits allow the mechanic to understand your vehicle's history, leading to better preventative maintenance. Drysdale Auto Repairs focuses on community ties, offering personalised advice for Bellarine Peninsula driving challenges. By choosing wisely, you ensure your car remains reliable for years to come in Drysdale."
+      ]
+    },
+    {
+      "title": "Top 5 Car Maintenance Tips for Drysdale Drivers in Winter",
+      "date": "December 2025",
+      "excerpt": "Essential winter car maintenance advice for Drysdale residents, covering battery checks, tyre pressure, and coping with the Bellarine Peninsula's wet conditions.",
+      "body": [
+        "Winter in Drysdale brings cooler temperatures and increased rainfall, making car maintenance crucial for safety on the Bellarine Peninsula's roads. The top tip for Drysdale drivers is to check your battery, as cold weather can reduce its efficiency. A weak battery might fail on chilly mornings, so visit a local mechanic like Drysdale Auto Repairs for a free test. Ensuring your battery is in good condition prevents breakdowns during Drysdale's winter commutes.",
+        "Tyre maintenance is essential in Drysdale's winter conditions. Check tyre pressure regularly, as cold air can cause it to drop, affecting grip on wet roads. The recommended pressure is usually in your vehicle's manual or door jamb. Drysdale Auto Repairs suggests monthly checks, especially before trips across the hilly terrain near Clifton Springs or Curlewis. Proper tyres enhance safety and fuel efficiency for Drysdale drivers.",
+        "Fluid levels require attention during winter in Drysdale. Top up antifreeze to prevent engine freezing, and use winter-grade oil for smoother starts. Windscreen washer fluid with antifreeze properties is also important for visibility during rainy drives. Drysdale Auto Repairs can advise on the best products for the Bellarine Peninsula's climate, ensuring your vehicle handles wet and cold conditions effectively.",
+        "Brake checks are vital in Drysdale, where wet roads increase stopping distances. Have your brakes inspected by a trusted mechanic to ensure pads and rotors are in good condition. Drysdale Auto Repairs offers comprehensive brake services, identifying issues early. This is particularly important for drivers in Drysdale who frequently travel to Geelong or along coastal routes where sudden stops may be necessary.",
+        "Visibility is another key concern in Drysdale winters. Clean and defog your windows regularly, and check that wipers are not worn. Replace them if they streak, as Drysdale's rain can obscure vision quickly. Drysdale Auto Repairs recommends using high-quality wiper blades to maintain clear sightlines, contributing to safer driving in the Bellarine Peninsula's variable weather.",
+        "Finally, prepare an emergency kit for your car in Drysdale. Include items like a torch, blanket, and jumper cables, which can be lifesavers if you break down in remote areas. Drysdale Auto Repairs encourages local drivers to be proactive, offering winter maintenance packages to keep vehicles roadworthy. By following these tips, Drysdale residents can navigate winter confidently, ensuring their cars perform optimally throughout the season."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Drysdale Auto Repairs | Mechanic in Drysdale | Car Servicing",
+      "description": "Drysdale Auto Repairs provides expert mechanic services in Drysdale, VIC. From car servicing to brake repairs, trust local mechanics for reliable auto care on the Bellarine Peninsula."
+    },
+    "about": {
+      "title": "About Us | Drysdale's Trusted Mechanic Team | Drysdale Auto Repairs",
+      "description": "Learn about Drysdale Auto Repairs, a local mechanic with 10+ years serving Drysdale and the Bellarine Peninsula. Licensed, insured, and committed to quality auto services."
+    },
+    "services": {
+      "title": "Mechanic Services in Drysdale | Car Repairs & Servicing",
+      "description": "Explore our range of mechanic services in Drysdale, including car servicing, engine diagnostics, and brake repairs. Expert care for all vehicles in the Bellarine Peninsula."
+    },
+    "pricing": {
+      "title": "Car Service Costs & Prices in Drysdale | Drysdale Auto Repairs",
+      "description": "Transparent pricing for car servicing in Drysdale. Get free quotes for basic and major services, with no hidden fees. Affordable mechanic rates for local drivers."
+    },
+    "contact": {
+      "title": "Contact Drysdale Auto Repairs | Free Quotes in Drysdale",
+      "description": "Get in touch with Drysdale Auto Repairs for free mechanic quotes in Drysdale, VIC. Quick response for car repairs, servicing, and diagnostics across the Bellarine Peninsula."
+    },
+    "blog": {
+      "title": "Drysdale Mechanic Blog | Auto Care Tips & Local Advice",
+      "description": "Read expert auto care tips and local driving advice from Drysdale Auto Repairs. Guides on car servicing costs, maintenance, and best practices for Drysdale and Geelong region drivers."
+    }
+  }
+}
