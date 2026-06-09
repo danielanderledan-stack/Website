@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Reeves Electrical Services",
+  "suburb": "Warrnambool",
+  "phone": "0412 345 678",
+  "email": "info@reeveselectricalservices.com.au",
+  "address": "8 Fairmont Ave, Warrnambool VIC 3280",
+  "tagline": "Warrnambool's Trusted Electricians",
+  "primaryColor": "#00B4D8",
+  "primaryColorRgb": "0, 180, 216",
+  "primaryColorHover": "#0094BD",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Warrnambool's Expert Electricians",
+      "sub": "Over a decade of reliable service"
+    },
+    {
+      "title": "Residential & Commercial Electrical Solutions",
+      "sub": "Data, communications & power systems"
+    },
+    {
+      "title": "Reliable Service Across Warrnambool",
+      "sub": "Free quotes & competitive pricing"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Warrnambool?",
+  "aboutHeading": "Warrnambool's Electrical Experts",
+  "aboutSubheading": "Licensed & Experienced",
+  "aboutText": "Reeves Electrical Services has been serving Warrnambool for over a decade, providing top-tier electrical, communication, and data solutions. With Luke's extensive experience in data and communications, we ensure every project meets the highest industry standards while offering competitive pricing. Our commitment to efficiency and reliability makes us the go-to electrician in Warrnambool and surrounding areas.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions for Warrnambool",
+  "servicesText": "From residential rewiring to commercial data cabling, Reeves Electrical Services offers a full range of electrical solutions tailored for Warrnambool. We specialise in energy-efficient installations, safety compliance, and advanced communication systems to keep your property connected and secure.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Comprehensive electrical solutions for Warrnambool homes, ensuring safety and efficiency.",
+      "longDesc": "From new builds to renovations, we provide complete residential electrical services in Warrnambool, including wiring, power point installation, and energy audits. Our team ensures compliance with Australian standards for your peace of mind.",
+      "points": [
+        "Safe & compliant",
+        "Energy-efficient solutions",
+        "Experienced local team"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Solutions",
+      "desc": "Tailored electrical services for Warrnambool businesses, minimising downtime.",
+      "longDesc": "We offer custom commercial electrical solutions in Warrnambool, from office fit-outs to industrial maintenance, focusing on reliability and energy efficiency to support your operations.",
+      "points": [
+        "Business-focused expertise",
+        "Minimal disruption",
+        "Cost-effective systems"
+      ]
+    },
+    {
+      "title": "Data & Communications Cabling",
+      "desc": "Expert data cabling and communications for homes and businesses in Warrnambool.",
+      "longDesc": "Luke's specialisation in data and communications means we deliver high-performance cabling solutions in Warrnambool, including structured cabling, network setup, and phone systems for seamless connectivity.",
+      "points": [
+        "Advanced data solutions",
+        "Future-proof installations",
+        "Local specialist knowledge"
+      ]
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Thorough electrical safety checks for Warrnambool properties.",
+      "longDesc": "We conduct detailed safety inspections and compliance audits in Warrnambool, identifying hazards and ensuring your electrical systems meet all Australian regulations and standards.",
+      "points": [
+        "Comprehensive audits",
+        "Peace of mind",
+        "Certified compliance"
+      ]
+    },
+    {
+      "title": "Lighting Installation & Design",
+      "desc": "Creative lighting solutions for Warrnambool homes and commercial spaces.",
+      "longDesc": "Enhance your Warrnambool property with professional lighting installation and design, from energy-efficient LEDs to ambient setups, improving aesthetics and functionality.",
+      "points": [
+        "Energy-efficient lighting",
+        "Custom designs",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades & Repairs",
+      "desc": "Essential switchboard upgrades for Warrnambool properties.",
+      "longDesc": "We provide switchboard upgrades and repairs in Warrnambool to handle modern electrical loads, enhancing safety and preventing overloads in homes and businesses.",
+      "points": [
+        "Increased safety",
+        "Load capacity upgrades",
+        "Reliable repairs"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Warrnambool?",
+  "bannerSubheading": "Fast response for all electrical needs",
+  "testimonialsHeading": "What Warrnambool Locals Say",
+  "testimonialsSubheading": "Trusted by Your Community",
+  "blogHeading": "Warrnambool Electrical Guides & Tips",
+  "blogSubheading": "Expert Advice from Local Electricians",
+  "contactHeading": "Contact Reeves Electrical Services",
+  "contactSubheading": "Get a Free Quote Today",
+  "reviews": [
+    {
+      "text": "Luke and his team from Reeves Electrical rewired our entire Warrnambool home quickly and professionally. The service was excellent, and the price was fair. Highly recommended for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Warrnambool Homeowner"
+    },
+    {
+      "text": "We hired Reeves Electrical for our office data cabling in Warrnambool. They were efficient, knowledgeable, and completed the job on time. Great local electrician.",
+      "name": "John Carter",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reeves Electrical Services installed new lighting in our Warrnambool retail store. The work was done to a high standard, and we're very satisfied with the results.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Warrnambool",
+    "Dennington",
+    "Allansford",
+    "Merrivale",
+    "Sherwood",
+    "Bushfield"
+  ],
+  "about": {
+    "intro": "Discover Reeves Electrical Services, your trusted local electrician in Warrnambool with years of experience in electrical and data solutions.",
+    "story": [
+      "Reeves Electrical Services was established in Warrnambool with a mission to provide reliable electrical services. Luke, with his background in data and communications, saw a need for integrated solutions in the local area, focusing on quality and customer satisfaction.",
+      "Over the years, we have served countless homes and businesses in Warrnambool, building a reputation for quality workmanship and competitive pricing. Our team stays updated with the latest electrical standards and technologies to offer the best service possible."
+    ],
+    "mission": "To deliver top-quality electrical solutions to Warrnambool, ensuring safety and efficiency for every client.",
+    "whyUs": [
+      {
+        "title": "Licensed Electricians",
+        "text": "Fully qualified and insured for all electrical work in Warrnambool."
+      },
+      {
+        "title": "Local Experience",
+        "text": "Many years serving the Warrnambool community with expert electrical services."
+      },
+      {
+        "title": "Competitive Pricing",
+        "text": "High-quality service at affordable rates, with no hidden costs."
+      },
+      {
+        "title": "24/7 Emergency Service",
+        "text": "Available around the clock for urgent electrical issues in Warrnambool."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Reeves Electrical Services in Warrnambool, we offer transparent pricing with no lock-in contracts. Get a free, no-obligation quote for your electrical project.",
+    "packages": [
+      {
+        "name": "Standard Call-Out",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Residential Package",
+        "price": "from $500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Complete home inspection",
+          "Safety compliance check",
+          "Energy efficiency report",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Commercial Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom electrical solutions",
+          "Data and communications setup",
+          "Ongoing maintenance options"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your electrical project in Warrnambool? Contact Reeves Electrical Services today for a free, no-obligation quote. We're here to help with all your electrical needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a House Rewire Cost in Warrnambool?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting house rewiring costs in Warrnambool, including property size, wiring condition, and compliance with Australian standards.",
+      "body": [
+        "When considering a house rewire in Warrnambool, several factors influence the overall cost. The age and size of your property play a significant role, as older homes may require more extensive work to replace outdated wiring. In Warrnambool, where many properties date back several decades, it's common to find original wiring that doesn't meet current Australian electrical standards. A professional assessment by a licensed electrician like Reeves Electrical Services can identify specific needs, such as additional power points or safety upgrades, which affect pricing.",
+        "The condition of your existing wiring is another critical element. If the wiring is damaged, degraded, or poses a safety hazard, the cost increases due to the need for more comprehensive repairs. Warrnambool's coastal climate can accelerate wear on electrical components, making regular inspections essential. Reeves Electrical Services offers thorough safety inspections to pinpoint issues before they become costly problems, ensuring your rewire project is efficient and cost-effective.",
+        "Compliance with Australian Standards is non-negotiable for any electrical work in Warrnambool. The cost must include adherence to regulations set by bodies like Energy Safe Victoria, which mandate specific materials and installation practices. For example, using only approved cables and ensuring proper grounding. Reeves Electrical Services is fully licensed and stays updated on these standards, providing peace of mind that your rewire will pass all necessary inspections without additional expenses.",
+        "Additional features like smart home systems, dedicated circuits for high-demand appliances, or enhanced lighting can add to the cost. In Warrnambool, where modern amenities are increasingly popular, homeowners often opt for these upgrades during a rewire. Luke's expertise in data and communications means Reeves Electrical can integrate these systems seamlessly, offering bundled services that may reduce overall costs compared to separate installations.",
+        "Location-specific factors in Warrnambool, such as access to the property and local supply chain costs, also impact pricing. Remote or hard-to-reach areas may incur higher labour charges. However, as a local electrician, Reeves Electrical Services has established relationships with suppliers in the region, potentially lowering material costs. They provide transparent quotes that break down all expenses, helping Warrnambool residents budget accurately for their rewire project.",
+        "To get an accurate estimate for your house rewire in Warrnambool, contact Reeves Electrical Services for a free on-site assessment. They will evaluate your property's unique needs and provide a detailed, fixed-price quote with no hidden fees. Investing in a quality rewire not only enhances safety but also increases your home's value, making it a wise decision for Warrnambool homeowners looking to modernise their electrical systems."
+      ]
+    },
+    {
+      "title": "Top Energy-Saving Electrical Tips for Warrnambool Homes",
+      "date": "February 2026",
+      "excerpt": "Discover practical electrical tips to reduce energy bills in Warrnambool homes, from efficient appliances to smart wiring solutions.",
+      "body": [
+        "Warrnambool homes can benefit significantly from energy-saving electrical practices, especially given the region's variable climate with cool winters and mild summers. One effective tip is to upgrade to energy-efficient lighting, such as LED bulbs, which use up to 80% less energy than traditional incandescent lights. Reeves Electrical Services can install these throughout your Warrnambool property, reducing electricity consumption while providing brighter, longer-lasting illumination.",
+        "Another key area is the use of programmable thermostats and smart home systems. In Warrnambool, where heating and cooling costs can spike, these devices allow you to optimise energy use based on occupancy and weather conditions. Luke's expertise in data and communications means Reeves Electrical can set up integrated systems that monitor and adjust electrical usage in real-time, maximising efficiency for Warrnambool households.",
+        "Regular maintenance of electrical systems is crucial for energy savings. Faulty wiring, outdated switchboards, or inefficient appliances can lead to energy wastage. Reeves Electrical Services offers comprehensive inspections in Warrnambool to identify and rectify such issues. For instance, upgrading an old switchboard can prevent power surges and improve overall system efficiency, directly lowering your energy bills.",
+        "Investing in high-energy-rated appliances is another smart move for Warrnambool residents. When replacing old appliances, look for models with high Energy Star ratings, which are designed to use less electricity. Reeves Electrical can provide advice on suitable options and ensure proper installation, avoiding common pitfalls that might negate energy savings.",
+        "Proper insulation and sealing of electrical outlets can also prevent heat loss in Warrnambool homes. During winter, drafts around outlets and switches contribute to higher heating costs. Simple solutions like installing foam gaskets can make a noticeable difference. Reeves Electrical Services can incorporate these measures during routine electrical work, enhancing your home's energy efficiency.",
+        "Finally, consider solar panel installation as a long-term energy-saving strategy. Warrnambool receives adequate sunlight, making solar power a viable option. Reeves Electrical Services can guide you through the process, from system sizing to installation, helping you reduce reliance on the grid and lower electricity costs. Contact them today to explore how these tips can be tailored to your Warrnambool property."
+      ]
+    },
+    {
+      "title": "When to Upgrade Your Switchboard in Warrnambool",
+      "date": "January 2026",
+      "excerpt": "Learn the signs that indicate your Warrnambool property needs a switchboard upgrade for safety and compliance.",
+      "body": [
+        "Upgrading your switchboard is a critical electrical safety measure for Warrnambool properties, especially if your home or business has an older system. Signs that an upgrade is needed include frequent circuit breaker trips, flickering lights, or a burning smell from the switchboard. In Warrnambool, where coastal humidity can affect electrical components, these issues are more common and should be addressed promptly by a licensed electrician like Reeves Electrical Services.",
+        "Compliance with current Australian Standards is another reason to upgrade. Older switchboards in Warrnambool may not have safety switches or residual current devices (RCDs), which are now mandatory for new installations. Reeves Electrical Services can assess your switchboard's compliance and perform upgrades to meet Energy Safe Victoria regulations, ensuring your property is legally up to date and protected against electrical faults.",
+        "The capacity of your switchboard is also a consideration. As Warrnambool homes add more electrical devices—such as air conditioners, electric vehicles, or home offices—the demand on the system increases. An outdated switchboard may not handle the load, leading to overheating or failures. Upgrading to a modern switchboard with higher capacity can prevent these issues and accommodate future electrical needs.",
+        "Visual inspection can reveal obvious signs of wear, such as rust, corrosion, or damaged wiring inside the switchboard. Given Warrnambool's proximity to the coast, salt air can accelerate deterioration. Reeves Electrical Services recommends regular inspections to catch these problems early, offering switchboard upgrades that use high-quality materials resistant to environmental factors.",
+        "When upgrading, consider integrating smart technology for better energy management. Modern switchboards can include circuit monitoring and remote control features, which are beneficial for Warrnambool properties aiming to optimise energy use. Luke's experience in data and communications allows Reeves Electrical to install such systems, enhancing both safety and efficiency.",
+        "To determine if your Warrnambool property needs a switchboard upgrade, contact Reeves Electrical Services for a professional evaluation. They will provide a detailed report and a fixed-price quote, ensuring the upgrade is done safely and efficiently. Don't wait for a failure—proactive upgrades can save costs and prevent emergencies."
+      ]
+    },
+    {
+      "title": "Data Cabling Solutions for Warrnambool Businesses",
+      "date": "December 2025",
+      "excerpt": "Explore how data cabling can enhance connectivity and productivity for businesses in Warrnambool.",
+      "body": [
+        "In today's digital age, reliable data cabling is essential for businesses in Warrnambool to maintain smooth operations. Proper data cabling supports high-speed internet, seamless communication, and efficient data transfer, which are critical for productivity. Reeves Electrical Services, with Luke's expertise in data and communications, offers tailored cabling solutions for Warrnambool commercial properties, from small offices to large enterprises.",
+        "The benefits of professional data cabling include reduced downtime and improved network performance. In Warrnambool, where businesses often rely on cloud services and remote work, a robust cabling infrastructure ensures consistent connectivity. Reeves Electrical uses high-quality cables and follows Australian standards to deliver installations that minimise interference and support future technological advancements.",
+        "Common data cabling solutions for Warrnambool businesses include structured cabling systems, which organise network cables for easy management and scalability. This is particularly useful for growing businesses that may need to expand their IT infrastructure. Reeves Electrical can design and install such systems, integrating them with existing electrical setups for a cohesive solution.",
+        "Wireless network complementing is another aspect. While Wi-Fi is convenient, a wired data cabling backbone enhances reliability and speed, especially in environments with multiple users. Warrnambool businesses in sectors like hospitality or retail benefit from this hybrid approach. Reeves Electrical ensures that cabling is strategically placed to optimise wireless coverage and performance.",
+        "Compliance with safety and building regulations is crucial for data cabling installations in Warrnambool. Reeves Electrical Services adheres to all relevant standards, such as those for cable management and fire safety, ensuring your installation is not only efficient but also secure. This compliance is vital for avoiding legal issues and maintaining business insurance.",
+        "For Warrnambool businesses looking to upgrade or install data cabling, Reeves Electrical Services provides comprehensive assessments and quotes. They consider factors like current and future needs, building layout, and budget to recommend the best solutions. Contact them today to enhance your business connectivity with expert data cabling services."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Reeves Electrical Services | Electrician in Warrnambool | Electrical Solutions",
+      "description": "Warrnambool's trusted electricians for residential, commercial, and data solutions. Get a free quote today."
+    },
+    "about": {
+      "title": "About Reeves Electrical | Warrnambool Electrician | Experience & Services",
+      "description": "Learn about Reeves Electrical Services, Warrnambool's local electrician with years of experience in electrical and data solutions."
+    },
+    "services": {
+      "title": "Electrical Services in Warrnambool | Reeves Electrical Services",
+      "description": "Full range of electrical services in Warrnambool: residential, commercial, data cabling, safety checks. Get a free quote."
+    },
+    "pricing": {
+      "title": "Electrical Pricing in Warrnambool | Transparent Quotes | Reeves Electrical",
+      "description": "Affordable electrical services in Warrnambool with upfront pricing. No hidden costs. Contact us for a free estimate."
+    },
+    "contact": {
+      "title": "Contact Reeves Electrical | Warrnambool Electrician | Free Quotes",
+      "description": "Get in touch with Reeves Electrical Services in Warrnambool for all your electrical needs. Quick response guaranteed."
+    },
+    "blog": {
+      "title": "Warrnambool Electrical Blog | Tips, Guides & News | Reeves Electrical",
+      "description": "Read the latest electrical advice for Warrnambool homes and businesses from local experts at Reeves Electrical Services."
+    }
+  }
+}
