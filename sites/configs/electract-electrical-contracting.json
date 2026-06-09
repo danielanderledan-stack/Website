@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electract Electrical Contracting",
+  "suburb": "Fairfield",
+  "phone": "03 9468 5075",
+  "email": "info@electract.com.au",
+  "address": "Unit 23/44 Sparks Ave, Fairfield VIC 3078",
+  "tagline": "Fairfield's Electrical Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6a00cf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fairfield's Trusted Electricians",
+      "sub": "Licensed and professional electrical services"
+    },
+    {
+      "title": "Residential & Commercial Electrical Work",
+      "sub": "Serving Fairfield and Melbourne's north"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes and expert advice"
+    }
+  ],
+  "ctaHeading": "Fairfield electricians are ready — let's power up your project.",
+  "aboutHeading": "Electrical Excellence in Fairfield",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Electract Electrical Contracting has been serving the Fairfield community with exceptional electrical services for years. Our team, led by Leigh, brings expertise in both residential and commercial projects, from lighting installations to complete rewiring. We are known for our responsiveness, professionalism, and attention to detail, as reflected in our customer reviews. Based in Fairfield, we are committed to providing reliable and high-quality electrical solutions across Melbourne.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Comprehensive electrical solutions",
+  "servicesText": "From new builds to renovations, Electract offers a wide range of electrical services tailored to your needs. We handle everything from safety switch installations to data cabling, ensuring your property is safe and efficient. Our team in Fairfield is equipped to tackle any electrical challenge with precision and care.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Complete electrical solutions for your home, including installations, repairs, and safety checks in Fairfield."
+    },
+    {
+      "title": "Commercial Electrical Work",
+      "desc": "Expert electrical services for businesses, from fit-outs to maintenance, tailored to commercial needs."
+    },
+    {
+      "title": "Lighting Installation & Repair",
+      "desc": "Professional lighting setup for homes and offices, including LED upgrades and fixture replacements."
+    },
+    {
+      "title": "Safety Switches & Switchboard Upgrades",
+      "desc": "Ensuring your electrical system is up to date and compliant with safety standards."
+    },
+    {
+      "title": "Data & Communications Cabling",
+      "desc": "Structured cabling solutions for internet, phone, and data networks."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 emergency call-out for urgent electrical issues across Fairfield and Melbourne."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Fairfield?",
+  "bannerSubheading": "Fast, reliable, and professional service.",
+  "testimonialsHeading": "Fairfield's Top Reviews",
+  "testimonialsSubheading": "See what our customers say",
+  "blogHeading": "Electrical Insights",
+  "blogSubheading": "Tips from the experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for all electrical needs",
+  "reviews": [
+    {
+      "text": "Leigh and his team installed new pendant lights in our Fairfield home, and we couldn't be happier with the professional service and attention to detail. Highly recommend for any electrical work!",
+      "name": "Toula",
+      "role": "Fairfield Homeowner"
+    },
+    {
+      "text": "As a local business owner in Fairfield, I've relied on Electract for our commercial electrical needs. Their reliability and fair pricing make them my go-to electricians.",
+      "name": "Damien Caracciolo",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Our property management firm in Fairfield uses Electract for all electrical maintenance. They're always prompt, efficient, and deliver excellent results.",
+      "name": "Luke Villanti",
+      "role": "Property Manager"
+    }
+  ]
+}
