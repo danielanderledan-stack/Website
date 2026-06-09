@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Melbournian Kitchens",
+  "suburb": "Epping",
+  "phone": "088234567899",
+  "email": "info@melbourniankitchens.com.au",
+  "address": "Unit 4/106 Yale Dr, Epping VIC 3076",
+  "tagline": "Epping's Custom Kitchen Specialists",
+  "primaryColor": "#7cc142",
+  "primaryColorRgb": "124, 193, 66",
+  "primaryColorHover": "#6a9e37",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Epping's Kitchen Design Experts",
+      "sub": "Tailored solutions for your home"
+    },
+    {
+      "title": "Custom Kitchens & Renovations",
+      "sub": "Crafted with precision in Epping"
+    },
+    {
+      "title": "Your Dream Kitchen in Epping",
+      "sub": "Quality cabinetry and design"
+    }
+  ],
+  "ctaHeading": "Ready for your Epping kitchen transformation?",
+  "aboutHeading": "Epping's Kitchen Specialists",
+  "aboutSubheading": "Local, custom & quality craftsmanship",
+  "aboutText": "At Melbournian Kitchens in Epping, we specialise in creating beautiful, functional kitchens tailored to your lifestyle. With years of experience serving the local community, our team works closely with you to bring your vision to life, from initial design to final installation. Every detail is carefully considered, ensuring a kitchen that perfectly meets your needs and exceeds expectations.",
+  "servicesHeading": "Our Kitchen Services",
+  "servicesSubheading": "Comprehensive solutions for Epping homes",
+  "servicesText": "We offer a full range of kitchen services including custom design, renovations, and cabinet making. Our team in Epping is dedicated to delivering high-quality craftsmanship and personalised service for every project.",
+  "services": [
+    {
+      "title": "Custom Kitchen Design",
+      "desc": "Personalised layouts and styles to match your vision and space in Epping homes."
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Transform existing kitchens with modern updates and improved functionality."
+    },
+    {
+      "title": "Custom Cabinet Making",
+      "desc": "Handcrafted cabinets built to fit your exact specifications and aesthetic."
+    },
+    {
+      "title": "Kitchen Installations",
+      "desc": "Professional installation of all kitchen components for a seamless finish."
+    },
+    {
+      "title": "Countertop Fabrication",
+      "desc": "Custom countertops made from quality materials to complete your kitchen look."
+    },
+    {
+      "title": "Cabinetry Repairs & Upgrades",
+      "desc": "Restore or enhance existing cabinetry to extend its life and appeal."
+    }
+  ],
+  "bannerHeading": "Need a Kitchen Upgrade in Epping?",
+  "bannerSubheading": "Expert design and renovation services.",
+  "testimonialsHeading": "What Epping Locals Say",
+  "testimonialsSubheading": "Quality kitchens, happy customers",
+  "blogHeading": "Kitchen Tips & Inspiration",
+  "blogSubheading": "From our Epping team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We're here to help with your kitchen project",
+  "reviews": [
+    {
+      "text": "Melbournian Kitchens did an amazing job on our kitchen renovation in Epping. The custom cabinets are beautifully crafted and perfectly fit our space.",
+      "name": "Sarah Thompson",
+      "role": "Epping Homeowner"
+    },
+    {
+      "text": "As a local business owner, I hired them for custom kitchen design for my café. Their attention to detail and professionalism were outstanding.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team handled the installation of new countertops and cabinets efficiently. Highly recommend for anyone in Epping looking for quality kitchen work.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
