@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Montmorency Climate Control",
+  "suburb": "Montmorency",
+  "phone": "03 9000 1234",
+  "email": "info@montmorencyclimate.com.au",
+  "address": "51 Cressy St, Montmorency VIC 3094",
+  "tagline": "Montmorency's Heating & Cooling Experts",
+  "primaryColor": "#0b57d0",
+  "primaryColorRgb": "11, 87, 208",
+  "primaryColorHover": "#0950b8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Montmorency's Trusted HVAC Team",
+      "sub": "Keeping homes comfortable year-round"
+    },
+    {
+      "title": "Heating, Cooling & Ducted Systems",
+      "sub": "Installation, repairs & maintenance"
+    },
+    {
+      "title": "Same-Day Service in Montmorency",
+      "sub": "Call before 9am for priority response"
+    }
+  ],
+  "ctaHeading": "Ready for a warmer Montmorency winter? Let's talk.",
+  "aboutHeading": "Heating Montmorency Homes for Over a Decade",
+  "aboutSubheading": "Local, licensed & always on time",
+  "aboutText": "For more than 10 years, Montmorency Climate Control has been the go-to heating and cooling specialist for homes across Montmorency and the surrounding Diamond Valley area. Our qualified HVAC technicians understand the unique heating needs of homes in Melbourne's north-east, from split systems to fully ducted reverse cycle installations. We pride ourselves on honest advice, upfront pricing and workmanship that keeps your family comfortable through every Melbourne season.",
+  "servicesHeading": "What We Do in Montmorency",
+  "servicesSubheading": "Complete heating and cooling solutions",
+  "servicesText": "From emergency repairs on freezing winter mornings to full system replacements, our Montmorency team handles every aspect of residential and light commercial HVAC across the Diamond Valley region.",
+  "services": [
+    {
+      "title": "Ducted Heating Installation",
+      "desc": "Full ducted gas or reverse cycle heating designed for your Montmorency home's layout and insulation."
+    },
+    {
+      "title": "Split System Repairs",
+      "desc": "Fast diagnostics and repair for all major split system brands, restoring comfort to your living spaces."
+    },
+    {
+      "title": "Evaporative Cooling Service",
+      "desc": "End-of-season servicing and repairs to keep your evaporative cooler running efficiently through summer."
+    },
+    {
+      "title": "Ducted Reverse Cycle",
+      "desc": "Year-round comfort with energy-efficient ducted systems tailored to Montmorency homes."
+    },
+    {
+      "title": "Gas Heating Safety Checks",
+      "desc": "Annual carbon monoxide testing and safety inspections for all types of gas wall furnaces."
+    },
+    {
+      "title": "Air Purification Systems",
+      "desc": "Advanced filtration and purification add-ons to improve indoor air quality for allergy sufferers."
+    }
+  ],
+  "bannerHeading": "Need a Heating Tech in Montmorency?",
+  "bannerSubheading": "Fast, friendly service from your local HVAC specialists.",
+  "testimonialsHeading": "What Montmorency Locals Say",
+  "testimonialsSubheading": "Real feedback from your neighbours",
+  "blogHeading": "HVAC Tips for Melbourne Homes",
+  "blogSubheading": "Stay comfortable all year",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond within two hours during business hours",
+  "reviews": [
+    {
+      "text": "The team from Montmorency Climate Control installed a new ducted heating system just before winter. The quote was accurate, the installers were tidy, and our Montmorency home has never been warmer. Highly recommend.",
+      "name": "Sarah Mitchell",
+      "role": "Montmorency Homeowner"
+    },
+    {
+      "text": "Our split system stopped working mid-January and they had a technician out to our place the same day. Quick diagnosis, fair price and the unit was running like new within an hour. Brilliant service.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We manage several rental properties in the Diamond Valley and always call Montmorency Climate Control for our gas heating safety checks. They're reliable, professional and always provide clear compliance reports.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
