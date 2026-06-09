@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "MG Auto Electrics",
+  "suburb": "Thornbury",
+  "phone": "03 9484 1234",
+  "email": "info@mgautoelec.com.au",
+  "address": "554 High St, Thornbury VIC 3071",
+  "tagline": "Thornbury's Auto Electrical Experts",
+  "primaryColor": "#e0b667",
+  "primaryColorRgb": "224, 182, 103",
+  "primaryColorHover": "#d0a85d",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thornbury's Trusted Auto Electricians",
+      "sub": "Over 45 years serving Melbourne's north"
+    },
+    {
+      "title": "Advanced Diagnostics & Repairs",
+      "sub": "For Australian, Asian & European vehicles"
+    },
+    {
+      "title": "Quality Parts, Expert Service",
+      "sub": "MG Auto Electrics — Thornbury VIC"
+    }
+  ],
+  "ctaHeading": "Thornbury's Auto Electricians Are Ready to Help",
+  "aboutHeading": "45+ Years in Thornbury",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Established in 1975, MG Auto Electrics has been serving Thornbury and surrounding areas for over 45 years. We specialise in Australian, Asian, and European vehicles, offering complete mechanical and auto electrical repairs with advanced diagnostic technology. Our qualified technicians use only quality parts, ensuring your vehicle performs at its best while keeping you informed every step of the way.",
+  "servicesHeading": "Our Auto Electrical & Mechanical Services",
+  "servicesSubheading": "Comprehensive car care in Thornbury",
+  "servicesText": "At MG Auto Electrics, we provide a full range of services from auto electrical repairs to scheduled logbook servicing. Using the latest diagnostics, we ensure accurate fault detection and high-quality repairs for all vehicle types.",
+  "services": [
+    {
+      "title": "Auto Electrical Services",
+      "desc": "Expert repairs for all auto electrical systems, including wiring, batteries, and alternators, ensuring your vehicle's electrical components function perfectly."
+    },
+    {
+      "title": "Scheduled Logbook Service",
+      "desc": "Manufacturer-approved logbook servicing to maintain your warranty, using quality parts and advanced diagnostics for optimal performance."
+    },
+    {
+      "title": "Advanced Fault Detection",
+      "desc": "Utilising the latest diagnostic technology to accurately identify and resolve complex vehicle issues efficiently."
+    },
+    {
+      "title": "Air Conditioning Servicing",
+      "desc": "Comprehensive A/C system checks, regas, and repairs to keep your car's climate control in top condition."
+    },
+    {
+      "title": "Brake and Clutch",
+      "desc": "Professional inspection, repair, and replacement of brake and clutch systems for safe and smooth driving."
+    },
+    {
+      "title": "Complete Mechanical Repairs",
+      "desc": "From engine tuning to transmission repairs, we handle all mechanical aspects with expertise and precision."
+    }
+  ],
+  "bannerHeading": "Need an Auto Electrician in Thornbury?",
+  "bannerSubheading": "Fast, reliable service for all your vehicle needs.",
+  "testimonialsHeading": "What Thornbury Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Auto Electrical Tips & Updates",
+  "blogSubheading": "From the MG Auto Electrics team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "MG Auto Electrics provided excellent auto electrical service for my car in Thornbury. They quickly diagnosed the issue and fixed it with quality parts, keeping me informed throughout.",
+      "name": "David Brown",
+      "role": "Thornbury Homeowner"
+    },
+    {
+      "text": "I've been using their scheduled logbook service for years, and they always deliver top-notch care without dealership prices. Highly recommend their advanced fault detection.",
+      "name": "Emily Taylor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their air conditioning servicing saved me during the hot Melbourne summer. The technicians were professional and efficient, ensuring my car's A/C worked perfectly.",
+      "name": "Michael Green",
+      "role": "Property Manager"
+    }
+  ]
+}
