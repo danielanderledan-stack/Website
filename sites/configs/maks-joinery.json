@@ -1,0 +1,299 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Maks Joinery",
+  "suburb": "Keysborough",
+  "phone": "03 9798 1234",
+  "email": "user@domain.com",
+  "address": "Unit 1/58 Kirkham Rd W, Keysborough VIC 3173",
+  "tagline": "Keysborough's Custom Joinery Experts",
+  "primaryColor": "#FF6B35",
+  "primaryColorRgb": "255, 107, 53",
+  "primaryColorHover": "#E05A2B",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Keysborough's Custom Joinery Specialists",
+      "sub": "Family-owned design & build"
+    },
+    {
+      "title": "Kitchens, Wardrobes & Bathrooms",
+      "sub": "Tailored to your Keysborough home"
+    },
+    {
+      "title": "No Project Too Custom",
+      "sub": "Free consultations in Keysborough"
+    }
+  ],
+  "ctaHeading": "Keysborough's joiners are ready — let's design your perfect space.",
+  "aboutHeading": "Family-Owned Joinery in Keysborough",
+  "aboutSubheading": "Local, skilled & dedicated",
+  "aboutText": "Maks Joinery is a family owned and operated business based in Keysborough, Melbourne, specialising in beautifully detailed custom joinery for homes, offices, and commercial spaces. Our qualified professional team designs and builds innovative kitchens, wardrobes, and bathrooms, priding themselves on quality craftsmanship and contemporary solutions tailored to Keysborough clients.",
+  "servicesHeading": "What We Craft & Build",
+  "servicesSubheading": "Custom joinery done right",
+  "servicesText": "At Maks Joinery in Keysborough, we design and construct bespoke joinery solutions for residential and commercial clients, from custom kitchens to built-in wardrobes, ensuring precision and style in every project.",
+  "services": [
+    {
+      "title": "Custom Kitchen Design",
+      "desc": "Bespoke kitchen joinery designed for Keysborough homes.",
+      "longDesc": "We create custom kitchen designs in Keysborough that blend functionality with aesthetics, using high-quality materials and expert craftsmanship to transform your cooking space.",
+      "points": [
+        "Tailored layouts",
+        "Quality finishes",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Built-in Wardrobes",
+      "desc": "Space-saving wardrobe solutions for Keysborough residents.",
+      "longDesc": "Our built-in wardrobes in Keysborough are designed to maximise storage while complementing your room's decor, with options for sliding doors and custom interiors.",
+      "points": [
+        "Maximised storage",
+        "Custom interiors",
+        "Sleek designs"
+      ]
+    },
+    {
+      "title": "Bathroom Joinery",
+      "desc": "Stylish bathroom vanities and cabinetry for Keysborough.",
+      "longDesc": "Elevate your Keysborough bathroom with our custom vanities and cabinetry, designed for durability and style in wet areas, using moisture-resistant materials.",
+      "points": [
+        "Water-resistant materials",
+        "Modern styles",
+        "Precision fitting"
+      ]
+    },
+    {
+      "title": "Office Fit-outs",
+      "desc": "Professional joinery for Keysborough offices and workspaces.",
+      "longDesc": "We provide office fit-out services in Keysborough, creating functional and aesthetically pleasing joinery for desks, storage, and reception areas to boost productivity.",
+      "points": [
+        "Functional design",
+        "Ergonomic solutions",
+        "Timely delivery"
+      ]
+    },
+    {
+      "title": "Commercial Cabinetry",
+      "desc": "Robust cabinetry for Keysborough businesses and retail spaces.",
+      "longDesc": "Our commercial cabinetry in Keysborough is built to withstand heavy use, ideal for shops, cafes, and offices seeking durable and stylish storage solutions.",
+      "points": [
+        "Heavy-duty construction",
+        "Custom branding",
+        "Quick turnaround"
+      ]
+    },
+    {
+      "title": "Custom Furniture",
+      "desc": "Handcrafted furniture pieces for Keysborough interiors.",
+      "longDesc": "We design and build custom furniture in Keysborough, from bookshelves to entertainment units, tailored to fit your space and style with local craftsmanship.",
+      "points": [
+        "Personalised designs",
+        "Local craftsmanship",
+        "High-quality materials"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Joiner in Keysborough?",
+  "bannerSubheading": "Get expert joinery for your home or business.",
+  "testimonialsHeading": "What Keysborough Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Joinery Guides & Advice",
+  "blogSubheading": "Tips from the Keysborough joinery experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for a no-obligation consultation",
+  "reviews": [
+    {
+      "text": "Maks Joinery transformed our Keysborough kitchen with a stunning custom design. Their attention to detail and professionalism were outstanding, making the entire process seamless.",
+      "name": "David Thompson",
+      "role": "Keysborough Homeowner"
+    },
+    {
+      "text": "We hired Maks Joinery for an office fit-out in Keysborough, and the result was exceptional. The cabinetry is both functional and stylish, perfect for our business needs.",
+      "name": "Emma Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Keysborough, I've used Maks Joinery for multiple rental properties. Their reliable service and quality workmanship always impress tenants.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Keysborough",
+    "Dandenong",
+    "Noble Park",
+    "Springvale",
+    "Clayton",
+    "Mulgrave",
+    "Endeavour Hills"
+  ],
+  "about": {
+    "intro": "Discover Maks Joinery, your local Keysborough experts in custom joinery design and build for residential and commercial projects.",
+    "story": [
+      "Maks Joinery has been serving Keysborough and Melbourne's southeast, specialising in bespoke joinery for homes and businesses. Our family-owned approach ensures personalised service and attention to every detail, from initial design to final installation.",
+      "Based in Keysborough, our team works closely with clients to bring visions to life using quality materials and innovative techniques, creating beautiful kitchens, wardrobes, and bathrooms that enhance living spaces."
+    ],
+    "mission": "To deliver beautifully crafted joinery that enhances Keysborough living spaces with innovation and quality.",
+    "whyUs": [
+      {
+        "title": "Family-Owned",
+        "text": "Personal service with a commitment to Keysborough community values and trust."
+      },
+      {
+        "title": "Custom Designs",
+        "text": "Tailored solutions to fit your unique space and style requirements in Keysborough."
+      },
+      {
+        "title": "Quality Craftsmanship",
+        "text": "Expert joinery built to last, using durable materials and skilled workmanship locally."
+      },
+      {
+        "title": "Local Experts",
+        "text": "Deep knowledge of Keysborough homes and commercial needs for optimal results."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Maks Joinery in Keysborough, we offer transparent pricing with no hidden fees. Every project starts with a detailed quote tailored to your requirements.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit in Keysborough",
+          "Custom design proposal",
+          "No-obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Joinery Package",
+        "price": "from $3,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Design & build",
+          "Quality materials",
+          "Professional installation",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Premium Custom Project",
+        "price": "from $8,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Bespoke design",
+          "Premium finishes",
+          "End-to-end service"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what to expect with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your joinery project in Keysborough? Contact Maks Joinery today for a free consultation and quote tailored to your needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Custom Kitchen Cost in Keysborough?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting kitchen joinery costs in Keysborough, from materials to design complexity, and get budget-friendly tips.",
+      "body": [
+        "When planning a custom kitchen in Keysborough, the cost can vary widely based on several key factors. As a family-owned joinery business, we at Maks Joinery help Keysborough homeowners understand that materials like timber, laminate, or stone play a significant role in pricing. For instance, high-end materials such as natural stone benchtops may increase costs compared to more affordable options like laminate, but they offer durability and aesthetic appeal suited to Keysborough's modern homes.",
+        "Design complexity is another critical aspect. Custom kitchen joinery in Keysborough often involves tailored layouts to fit specific spaces, especially in older homes where dimensions might be non-standard. Our team provides detailed consultations to ensure designs meet your needs, which can influence the final price. Labour costs in Melbourne's southeast, including Keysborough, are competitive, but skilled craftsmanship ensures long-term value.",
+        "Additional features like soft-close drawers, integrated lighting, or custom cabinetry inserts can add to the total cost. For Keysborough residents, considering the local climate is important; materials should withstand humidity and temperature changes. We recommend durable, moisture-resistant options to enhance longevity in Keysborough's environment, which might affect pricing slightly but reduce future maintenance.",
+        "On average, a custom kitchen project in Keysborough can range from $10,000 to $30,000 or more, depending on size and specifications. It's essential to obtain multiple quotes from local joiners like Maks Joinery to compare. We offer free, no-obligation quotes in Keysborough to help you budget accurately, focusing on transparency without hidden fees.",
+        "To optimise costs, consider phased renovations or prioritising essential elements first. In Keysborough, many homeowners opt for semi-custom solutions that balance quality and affordability. Our experience shows that investing in key areas like cabinetry hardware can improve functionality without breaking the bank, making your kitchen both beautiful and practical.",
+        "Finally, factor in long-term benefits. A well-designed kitchen joinery in Keysborough can increase property value and enhance daily living. We advise Keysborough clients to view this as an investment, with our team providing guidance on cost-effective choices that align with local trends and standards, ensuring satisfaction for years to come."
+      ]
+    },
+    {
+      "title": "Best Materials for Built-in Wardrobes in Melbourne's Southeast",
+      "date": "February 2026",
+      "excerpt": "Explore durable and stylish materials for wardrobe joinery suited to Keysborough's climate and lifestyle.",
+      "body": [
+        "Choosing the right materials for built-in wardrobes in Keysborough is crucial for durability and style. Melbourne's southeast, including Keysborough, experiences variable weather, so materials must withstand humidity and temperature fluctuations. At Maks Joinery, we recommend moisture-resistant options like melamine-faced chipboard or solid timber veneers that offer longevity in Keysborough homes.",
+        "Melamine is a popular choice in Keysborough due to its affordability and wide range of colours and finishes. It's easy to clean and maintain, making it ideal for busy households. For a more premium look, timber veneers provide natural beauty and can be stained to match Keysborough's interior designs, though they may require more care to prevent warping in damp conditions.",
+        "Laminates are another excellent option for wardrobe joinery in Keysborough, offering scratch resistance and a variety of textures. They're cost-effective and suit modern Keysborough apartments and houses. Consider high-pressure laminates for high-traffic areas, ensuring they meet Australian standards for safety and durability in local climates.",
+        "For eco-conscious Keysborough residents, sustainable materials like recycled timber or bamboo are gaining popularity. These options not only reduce environmental impact but also add unique character to built-in wardrobes. Our Keysborough team ensures all materials comply with local building codes, providing peace of mind and quality craftsmanship.",
+        "Installation quality matters as much as material choice. In Keysborough, proper fitting prevents gaps and ensures smooth operation of sliding or hinged doors. We advise consulting with local experts like Maks Joinery to select materials that balance aesthetics, budget, and the specific needs of Keysborough's living spaces, from compact units to spacious homes.",
+        "Ultimately, the best material for your Keysborough wardrobe depends on your lifestyle and preferences. Whether you prioritise low maintenance, style, or sustainability, our team offers tailored advice to help you make an informed decision. Investing in quality materials today ensures your built-in wardrobes remain functional and attractive for years in Melbourne's southeast."
+      ]
+    },
+    {
+      "title": "Transforming Small Bathrooms in Keysborough with Custom Joinery",
+      "date": "January 2026",
+      "excerpt": "Learn how custom vanities and storage can maximise space in Keysborough bathrooms, with design ideas and cost insights.",
+      "body": [
+        "Small bathrooms in Keysborough homes can be transformed with smart custom joinery solutions. At Maks Joinery, we specialise in designing vanities and storage that maximise space without compromising style. Keysborough's residential architecture often includes compact bathrooms, so tailoring joinery to fit specific dimensions is key to creating a functional and inviting area.",
+        "Custom vanities are a popular choice in Keysborough, allowing for personalised storage and countertop space. Opt for wall-mounted designs to free up floor space, making the bathroom appear larger. In Keysborough, where property sizes vary, our team ensures vanities are proportioned correctly, using durable materials like moisture-resistant MDF or solid timber to handle daily use.",
+        "Incorporating clever storage solutions, such as recessed shelves or mirrored cabinets, can enhance organisation in Keysborough bathrooms. These features help keep essentials tidy while adding a modern touch. Consider soft-close hinges and drawers for quiet operation, a detail that Keysborough residents appreciate in their homes.",
+        "Material selection is vital for bathroom joinery in Keysborough's humid environment. We recommend waterproof finishes and materials like PVC or high-quality laminates to prevent damage from moisture. This ensures longevity and reduces maintenance, making it a wise investment for Keysborough homeowners looking to upgrade their spaces.",
+        "Cost-wise, custom bathroom joinery in Keysborough can range from $2,000 to $10,000, depending on complexity and materials. Starting with a free consultation from Maks Joinery helps Keysborough clients budget effectively, with options to phase the project if needed. We focus on delivering value by combining aesthetic appeal with practicality.",
+        "In conclusion, transforming a small Keysborough bathroom with custom joinery is achievable and beneficial. It enhances both functionality and property value, tailored to local living standards. Our Keysborough-based expertise ensures every design aligns with your needs, creating a space that feels spacious and stylish for years to come."
+      ]
+    },
+    {
+      "title": "Office Fit-out Trends for Keysborough Businesses in 2026",
+      "date": "December 2025",
+      "excerpt": "Stay updated on the latest joinery trends for office spaces in Keysborough, enhancing productivity and aesthetics.",
+      "body": [
+        "In 2026, office fit-out trends in Keysborough focus on flexibility and sustainability, driven by evolving work habits. As a local joinery business, Maks Joinery observes that Keysborough businesses are increasingly seeking modular joinery solutions that adapt to hybrid work models. Custom desks and storage units that can be reconfigured easily are popular, helping Keysborough offices maximise space efficiency.",
+        "Sustainable materials are a key trend in Keysborough office fit-outs, with businesses opting for recycled wood and low-VOC finishes to reduce environmental impact. This aligns with Australia's green building standards, and Keysborough companies are prioritising eco-friendly designs to enhance their brand image and employee well-being.",
+        "Technology integration is another growing trend in Keysborough offices. Joinery now includes built-in cable management, charging stations, and ergonomic features to support modern gadgets. Our Keysborough team designs office furniture that seamlessly incorporates these elements, improving workflow and aesthetics in local businesses.",
+        "Biophilic design, incorporating natural elements like wood grains and indoor plants, is gaining traction in Keysborough office fit-outs. This trend enhances creativity and reduces stress, making workspaces more appealing. Custom joinery from Maks Joinery can include living walls or timber accents that bring a touch of nature to Keysborough offices.",
+        "For Keysborough businesses, cost-effective solutions are essential. Trends show a move towards durable, multi-functional furniture that offers long-term value. We advise Keysborough clients to invest in quality joinery that withstands daily use, with options for phased upgrades to manage budgets while keeping spaces current.",
+        "In summary, the office fit-out trends for Keysborough in 2026 emphasise adaptability, sustainability, and technology. Partnering with local experts like Maks Joinery ensures your workspace reflects these innovations, tailored to Keysborough's business needs. This approach not only boosts productivity but also creates a distinctive office environment that stands out."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Maks Joinery | Custom Joinery in Keysborough | Kitchens & Wardrobes",
+      "description": "Maks Joinery in Keysborough offers custom joinery for kitchens, wardrobes, and bathrooms. Family-owned, quality craftsmanship. Get a free quote today."
+    },
+    "about": {
+      "title": "About Maks Joinery | Keysborough's Custom Joinery Experts",
+      "description": "Learn about Maks Joinery, a family-owned business in Keysborough specialising in bespoke joinery design and build for homes and offices."
+    },
+    "services": {
+      "title": "Joinery Services in Keysborough | Kitchens, Wardrobes & More",
+      "description": "Explore our joinery services in Keysborough including custom kitchen design, built-in wardrobes, bathroom vanities, and office fit-outs."
+    },
+    "pricing": {
+      "title": "Joinery Costs & Prices in Keysborough | Maks Joinery",
+      "description": "Understand joinery pricing in Keysborough with transparent quotes. From consultations to full projects, we offer competitive rates."
+    },
+    "contact": {
+      "title": "Contact Maks Joinery | Free Quotes in Keysborough",
+      "description": "Get in touch with Maks Joinery in Keysborough for free joinery consultations and quotes. Call or email today for expert advice."
+    },
+    "blog": {
+      "title": "Keysborough Joinery Blog | Tips, Trends & Guides",
+      "description": "Read the latest joinery advice from Keysborough experts. Discover cost guides, design tips, and local insights for your project."
+    }
+  }
+}
