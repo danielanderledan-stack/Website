@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Commercial Electricians",
+  "suburb": "Thornbury",
+  "phone": "1800 752 846",
+  "email": "info@platinumelectricians.com.au",
+  "address": "9/1B Matisi St, Thornbury VIC 3071",
+  "tagline": "Thornbury's Trusted Commercial Electricians",
+  "primaryColor": "#ed1b2e",
+  "primaryColorRgb": "237, 27, 46",
+  "primaryColorHover": "#d61826",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thornbury's Commercial Electrical Experts",
+      "sub": "Asset management and compliance solutions"
+    },
+    {
+      "title": "Reactive Maintenance & Statutory Testing",
+      "sub": "Keeping your business safe and operational"
+    },
+    {
+      "title": "EV Charger Installation Across Melbourne",
+      "sub": "Partnering for energy-efficient futures"
+    }
+  ],
+  "ctaHeading": "Thornbury's electricians are ready — let's power your project.",
+  "aboutHeading": "Commercial Electricians in Thornbury",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Thornbury, Commercial Electricians provide comprehensive electrical services across Melbourne. We specialise in asset management, reactive maintenance, and statutory testing to ensure your compliance and safety. Our trusted partnership delivers peace of mind through integrity and care, supporting businesses with expert electrical solutions.",
+  "servicesHeading": "Our Core Electrical Services",
+  "servicesSubheading": "Expertise you can rely on",
+  "servicesText": "From asset management to solar power, we offer a full range of electrical services tailored to commercial needs. Our national management ensures consistent quality across all sites.",
+  "services": [
+    {
+      "title": "Asset Management",
+      "desc": "We manage your electrical assets to ensure optimal performance and compliance with Australian standards."
+    },
+    {
+      "title": "Reactive Maintenance",
+      "desc": "Prompt response to electrical faults and issues, minimising downtime for your business operations."
+    },
+    {
+      "title": "Statutory Testing",
+      "desc": "Comprehensive testing to meet all legal requirements, keeping your workplace safe and compliant."
+    },
+    {
+      "title": "National Management",
+      "desc": "Centralised oversight for electrical services across multiple locations, ensuring consistency and quality."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Professional installation of commercial and residential EV chargers to support sustainable transport."
+    },
+    {
+      "title": "Solar Power Solutions",
+      "desc": "Design and installation of solar systems to reduce energy costs and environmental impact for businesses."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Thornbury?",
+  "bannerSubheading": "24/7 support for all your electrical needs.",
+  "testimonialsHeading": "What Thornbury Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Commercial Electricians handled our statutory testing in Thornbury efficiently. Their team was professional and ensured everything met regulations without hassle.",
+      "name": "John Mitchell",
+      "role": "Thornbury Homeowner"
+    },
+    {
+      "text": "We used their reactive maintenance service for our shop in Thornbury. Quick response and expert fix — highly recommend for local businesses.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The EV charger installation at our property was seamless. They managed everything from setup to compliance, making it easy for property managers.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
