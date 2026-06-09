@@ -1,0 +1,298 @@
+{
+  "siteType": "builder",
+  "businessName": "SJD Automotive",
+  "suburb": "North Geelong",
+  "phone": "03 5222 1234",
+  "email": "sjd.autotrust@gmail.com",
+  "address": "Unit 1/25 Rodney Rd, North Geelong VIC 3215",
+  "tagline": "North Geelong's Trusted Mechanic",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55C00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "North Geelong's Go-To Mechanics",
+      "sub": "15+ years servicing Geelong drivers"
+    },
+    {
+      "title": "Expert Car Repairs & Servicing",
+      "sub": "All makes and models, North Geelong"
+    },
+    {
+      "title": "No Job Too Small or Large",
+      "sub": "Free quotes across North Geelong & surrounds"
+    }
+  ],
+  "ctaHeading": "North Geelong's mechanics are ready — let's fix your car today.",
+  "aboutHeading": "15 Years Servicing North Geelong",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "SJD Automotive has been the trusted mechanic in North Geelong for over 15 years. We specialise in comprehensive car repair and maintenance services, from general servicing to complex engine diagnostics. Our team is dedicated to keeping your vehicle safe and reliable on Geelong's roads, using the latest technology and quality parts.",
+  "servicesHeading": "Our Car Repair Services",
+  "servicesSubheading": "Expert automotive care",
+  "servicesText": "At SJD Automotive, we offer a full range of mechanical services in North Geelong. From routine maintenance to major repairs, our skilled technicians ensure your vehicle performs at its best, tailored to local driving conditions.",
+  "services": [
+    {
+      "title": "General Servicing",
+      "desc": "Routine maintenance to keep your car running smoothly and efficiently in North Geelong.",
+      "longDesc": "Our comprehensive general servicing includes oil changes, filter replacements, and multi-point inspections. We use high-quality parts to ensure optimal performance and longevity for your vehicle, adhering to Australian automotive standards.",
+      "points": [
+        "Preventative maintenance",
+        "Extends vehicle life",
+        "Ensures safety"
+      ]
+    },
+    {
+      "title": "Brake Repair",
+      "desc": "Professional brake inspections, pad replacements, and rotor resurfacing for safe stopping.",
+      "longDesc": "Brake repair in North Geelong is critical due to coastal conditions and hilly terrain. We diagnose and fix brake issues using OEM-equivalent parts, ensuring reliable stopping power and compliance with safety regulations.",
+      "points": [
+        "Enhanced safety",
+        "Certified technicians",
+        "Quick turnaround"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to identify and resolve engine problems accurately.",
+      "longDesc": "Engine diagnostics in North Geelong use state-of-the-art equipment to pinpoint issues like misfires or sensor faults. Our detailed reports help you understand repair needs, preventing costly breakdowns and ensuring optimal fuel efficiency.",
+      "points": [
+        "Precise fault detection",
+        "Saves money",
+        "Prevents major repairs"
+      ]
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Expert repair and servicing for manual and automatic transmissions.",
+      "longDesc": "Transmission repair in North Geelong addresses wear from stop-start traffic and varied driving conditions. We handle everything from fluid changes to complete rebuilds, using quality components to restore smooth shifting and vehicle performance.",
+      "points": [
+        "Smooth operation",
+        "Expert technicians",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Suspension and steering repairs to ensure a comfortable and stable ride.",
+      "longDesc": "Suspension and steering repairs in North Geelong are essential for handling Geelong's diverse roads, from urban streets to coastal drives. We fix worn components to improve ride comfort, tire wear, and overall vehicle control.",
+      "points": [
+        "Improved ride quality",
+        "Enhanced handling",
+        "Reduced tire wear"
+      ]
+    },
+    {
+      "title": "Air Conditioning Service",
+      "desc": "A/C regas, leak detection, and repairs for year-round comfort.",
+      "longDesc": "Air conditioning service in North Geelong ensures your system handles Geelong's hot summers and mild winters efficiently. We offer regas, diagnostics, and repairs to maintain optimal cooling and prevent system failure.",
+      "points": [
+        "Efficient cooling",
+        "Prevents breakdowns",
+        "Certified service"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in North Geelong?",
+  "bannerSubheading": "Professional car repair services at competitive prices.",
+  "testimonialsHeading": "What North Geelong Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Automotive Guides & Advice",
+  "blogSubheading": "Tips from North Geelong's trusted mechanics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "SJD Automotive did a fantastic job on my brake repair in North Geelong. Fast, professional, and fairly priced — my car stops perfectly now.",
+      "name": "Mark Thompson",
+      "role": "North Geelong Homeowner"
+    },
+    {
+      "text": "I've been bringing my family's cars to SJD for years. Their engine diagnostics are spot-on every time, saving us from major issues in North Geelong.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable mechanics for our fleet. SJD Automotive in North Geelong always delivers quick, trustworthy servicing and repairs.",
+      "name": "James O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "North Geelong",
+    "Geelong",
+    "Breakwater",
+    "Moolap",
+    "Whittington",
+    "Norlane"
+  ],
+  "about": {
+    "intro": "Discover SJD Automotive, North Geelong's trusted mechanic for over 15 years, offering reliable car repair and maintenance services.",
+    "story": [
+      "Founded in North Geelong, SJD Automotive has built a reputation for reliable car repair and maintenance. Our team of qualified mechanics understands the unique needs of local drivers, from coastal conditions to daily commutes, ensuring your vehicle stays roadworthy.",
+      "We invest in the latest diagnostic technology to handle all vehicle makes and models. Whether it's a quick service or a complex repair, we ensure transparency and quality at every step, serving the North Geelong community with pride."
+    ],
+    "mission": "To provide North Geelong with dependable automotive care that keeps you on the road safely.",
+    "whyUs": [
+      {
+        "title": "Experienced Mechanics",
+        "text": "Our team has over 15 years of hands-on experience in car repairs across North Geelong."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We offer upfront quotes with no hidden fees for all services, ensuring trust and clarity."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use only high-quality, OEM-equivalent parts for lasting repairs in North Geelong vehicles."
+      },
+      {
+        "title": "Fast Turnaround",
+        "text": "Most services are completed same-day to minimise your downtime and keep you moving."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Free diagnostic checks",
+      "Workmanship warranty"
+    ]
+  },
+  "pricing": {
+    "intro": "At SJD Automotive, we provide clear pricing for all car repair services in North Geelong. No lock-in contracts, just honest quotes tailored to your vehicle's needs.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil & filter change",
+          "Multi-point inspection",
+          "Fluid top-up"
+        ]
+      },
+      {
+        "name": "Major Service",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full engine diagnostics",
+          "Brake & suspension check",
+          "Comprehensive report",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Complex Repair",
+        "price": "Quote-based",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Tailored to your vehicle",
+          "Detailed cost breakdown",
+          "Quality parts used"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront once we assess your vehicle in North Geelong."
+  },
+  "contact": {
+    "intro": "Ready to book your car service or repair? Contact SJD Automotive in North Geelong for a free, no-obligation quote and expert advice."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Full Car Service Cost in North Geelong?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of a full car service in North Geelong, including what's included and factors affecting price for local drivers.",
+      "body": [
+        "A full car service in North Geelong typically costs between $150 and $300, depending on your vehicle's make, model, and condition. This essential maintenance includes oil changes, filter replacements, fluid checks, and a multi-point inspection to ensure everything is running smoothly. In North Geelong, mechanics like SJD Automotive tailor services to handle coastal air and urban driving, which can accelerate wear on components. Pricing factors include the age of your car, any required additional repairs, and the use of OEM or aftermarket parts, with local garages often offering competitive rates to serve the community.",
+        "When budgeting for a car service in North Geelong, consider the long-term savings from preventing major issues. Regular servicing can catch problems early, such as brake wear or fluid leaks, which are common in Geelong's variable weather. Australian automotive standards recommend servicing every 10,000 km or six months, and North Geelong mechanics are familiar with these guidelines. Costs may increase if your vehicle needs specialised diagnostics or part replacements, but transparent quotes from trusted local garages help you plan ahead.",
+        "In North Geelong, the cost of a full car service can vary based on the service centre's expertise and equipment. SJD Automotive uses state-of-the-art diagnostic tools to provide accurate assessments, ensuring you only pay for necessary work. Factors like the complexity of your engine, the need for wheel alignments, or air conditioning regas can add to the total. Local mechanics often provide package deals for repeat customers, making regular maintenance more affordable for North Geelong residents.",
+        "Choosing a car service in North Geelong involves balancing cost with quality. While some garages may offer lower prices, it's crucial to ensure they use quality parts and have certified mechanics. SJD Automotive stands out with transparent pricing and a focus on longevity, helping North Geelong drivers avoid breakdowns. Additional costs might include roadworthy certificates or emergency repairs, but proactive servicing minimises these expenses over time.",
+        "To get the best value for car servicing in North Geelong, ask for detailed quotes and compare what's included. SJD Automotive provides clear breakdowns, so you know exactly what you're paying for, from labour to parts. Local factors like traffic conditions and seasonal weather can influence service needs, and North Geelong mechanics are adept at addressing these. Investing in regular maintenance not only keeps you safe but also preserves your car's resale value in the Geelong market.",
+        "In summary, a full car service in North Geelong is a worthwhile investment for vehicle health and safety. With costs ranging from $150 to $300, and variations based on specific needs, it's essential to choose a reliable local mechanic like SJD Automotive. Their expertise in North Geelong ensures your car receives tailored care, keeping it running efficiently for years to come."
+      ]
+    },
+    {
+      "title": "Signs Your Car Needs Brake Repair in North Geelong",
+      "date": "February 2026",
+      "excerpt": "Learn the key signs that indicate your car needs brake repair in North Geelong, ensuring safety on local roads and preventing costly damage.",
+      "body": [
+        "In North Geelong, brake repair is critical due to the area's hilly terrain and coastal roads, which can put extra strain on your vehicle's braking system. Key signs include squealing or grinding noises when braking, a soft or spongy brake pedal, and your car pulling to one side during stops. These symptoms indicate worn pads, rotor damage, or fluid leaks, and should be addressed immediately by a trusted North Geelong mechanic to maintain safety.",
+        "Ignoring brake issues in North Geelong can lead to more severe problems, such as reduced stopping power or complete brake failure, especially in wet conditions common near Geelong. Local drivers should watch for vibrations in the steering wheel or dashboard, which often signal uneven rotor wear. SJD Automotive recommends regular brake inspections every 12 months or 20,000 km to catch issues early, using diagnostic tools to assess brake health accurately.",
+        "The cost of brake repair in North Geelong varies depending on the extent of damage, with simple pad replacements starting from $100 per axle, while rotor resurfacing or fluid changes can add more. Factors like driving habits, vehicle weight, and exposure to salt air from Corio Bay can accelerate brake wear. North Geelong mechanics are familiar with these local conditions and can recommend solutions tailored to your driving needs, ensuring optimal performance.",
+        "When seeking brake repair in North Geelong, choose a garage with certified technicians and quality parts, like SJD Automotive, to guarantee longevity. Australian safety standards require brakes to be in top condition, and North Geelong mechanics adhere to these regulations. If you notice warning lights on your dashboard or experience delayed braking response, it's time to book an inspection to avoid accidents on busy local roads.",
+        "Preventative maintenance is key for brakes in North Geelong, where stop-start traffic and varied landscapes demand reliable stopping power. Regular servicing can prevent issues like glazed pads or warped rotors, which are common in Geelong's climate. SJD Automotive offers comprehensive brake checks that include fluid levels and wear measurements, helping North Geelong drivers stay safe and avoid unexpected repair bills.",
+        "In conclusion, recognising the signs of brake repair needs in North Geelong is essential for vehicle safety and cost management. By paying attention to noises, pedal feel, and performance, you can address issues promptly with a local expert. SJD Automotive provides trusted brake services in North Geelong, ensuring your car remains roadworthy and secure for all your journeys."
+      ]
+    },
+    {
+      "title": "Best Time to Service Your Vehicle Before Geelong Winters",
+      "date": "January 2026",
+      "excerpt": "Find out the best time to service your vehicle in North Geelong to prepare for Geelong winters, with tips on essential checks and local advice.",
+      "body": [
+        "In North Geelong, the best time to service your vehicle before winter is typically in early autumn, around March to April. This allows mechanics to address issues before cooler, wetter weather arrives, which can exacerbate problems like battery weakness or fluid leaks. Geelong winters bring increased rainfall and cooler temperatures, making it crucial to ensure your car is prepared for slippery roads and reduced visibility.",
+        "Essential checks for North Geelong winters include battery health, antifreeze levels, tyre tread depth, and wiper blade condition. Local factors like coastal humidity can affect electrical systems, so a thorough diagnostic by a North Geelong mechanic like SJD Automotive is recommended. Servicing in autumn also helps avoid peak demand at garages, ensuring quicker turnaround times and more attention to your vehicle's needs.",
+        "The cost of pre-winter servicing in North Geelong is similar to regular maintenance, starting from $120 for basic checks, but it can prevent expensive repairs later. For example, replacing a failing battery before winter avoids being stranded in cold mornings, while topping up coolant prevents engine overheating. North Geelong mechanics are experienced with Geelong's climate patterns and can advise on specific needs, such as rust prevention from salt-laden air.",
+        "Timing your service in North Geelong to coincide with manufacturer recommendations and local weather forecasts maximises benefits. SJD Automotive suggests booking appointments in February or March to address any summer wear from holiday trips and prepare for winter driving. This proactive approach ensures your vehicle's systems, like heating and defrosters, function properly during Geelong's colder months.",
+        "In North Geelong, winter servicing should include brake inspections, as wet roads increase stopping distances, and tyre checks for adequate grip. Local mechanics understand that Geelong winters can be mild but unpredictable, with sudden temperature drops. By servicing early, you gain peace of mind and can plan for any necessary part replacements without rush fees.",
+        "Overall, the best time for vehicle servicing in North Geelong ahead of winter is during autumn, focusing on key systems that handle cold and wet conditions. SJD Automotive provides tailored advice and services to keep North Geelong drivers safe, leveraging local expertise to address Geelong-specific challenges. Don't wait until winter hits — schedule your service now for optimal performance."
+      ]
+    },
+    {
+      "title": "Understanding Engine Diagnostic Costs in North Geelong",
+      "date": "December 2025",
+      "excerpt": "Explore the factors influencing engine diagnostic costs in North Geelong, including technology used and local mechanic expertise for accurate results.",
+      "body": [
+        "Engine diagnostic costs in North Geelong typically range from $80 to $200, depending on the complexity of the issue and the equipment used. Modern vehicles require advanced diagnostic tools to read error codes and assess performance, and North Geelong mechanics like SJD Automotive invest in up-to-date technology to provide accurate results. Factors such as the car's make, age, and the number of systems to check can influence the final price.",
+        "In North Geelong, engine diagnostics are essential due to local driving conditions, including urban traffic and coastal exposure, which can lead to issues like sensor faults or fuel system problems. A diagnostic session involves connecting a scanner to your vehicle's ECU, analysing data, and providing a detailed report. Costs may be higher for luxury or imported cars due to specialised software needs, but North Geelong garages strive to keep services affordable.",
+        "When budgeting for engine diagnostics in North Geelong, consider that initial scans are often flat-rate, but additional testing for leaks or mechanical faults may incur extra charges. SJD Automotive offers transparent pricing, so you know what to expect before any work begins. Local factors like salt air from Corio Bay can corrode electrical components, making regular diagnostics a wise investment for North Geelong drivers.",
+        "Choosing a North Geelong mechanic for engine diagnostics involves checking their certifications and equipment. Certified technicians can interpret complex data, ensuring issues like intermittent faults are caught early. In Geelong, engine problems can escalate quickly if ignored, so prompt diagnostics save money on major repairs later.",
+        "Engine diagnostic costs in North Geelong are justified by the prevention of breakdowns and improved fuel efficiency. For example, identifying a faulty oxygen sensor can enhance performance and reduce emissions, aligning with Australian environmental standards. Local mechanics are adept at handling Geelong-specific wear, providing recommendations that extend your vehicle's life.",
+        "In summary, engine diagnostic costs in North Geelong are an essential part of vehicle maintenance, offering value through early problem detection. With prices starting from $80, and tailored to your car's needs, services from trusted garages like SJD Automotive ensure accurate, efficient results. North Geelong drivers benefit from local expertise that addresses both general and climate-specific issues, keeping cars running smoothly."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "SJD Automotive | Mechanic in North Geelong | Car Repairs",
+      "description": "Trusted mechanic in North Geelong for car servicing, brake repair, engine diagnostics. Free quotes. Call 03 5222 1234 for expert automotive care."
+    },
+    "about": {
+      "title": "About SJD Automotive | North Geelong's Trusted Mechanic",
+      "description": "Learn about SJD Automotive, North Geelong's reliable car mechanic with 15+ years of experience in servicing and repairs."
+    },
+    "services": {
+      "title": "Car Repair Services in North Geelong | SJD Automotive",
+      "description": "Full range of mechanical services in North Geelong: servicing, brakes, engine diagnostics, and more. Expert care for all vehicles."
+    },
+    "pricing": {
+      "title": "Car Service Costs & Prices North Geelong | SJD Automotive",
+      "description": "Transparent pricing for car services in North Geelong. Basic from $120, major service from $350. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact SJD Automotive | Free North Geelong Mechanic Quotes",
+      "description": "Get a free quote for car repairs in North Geelong. Call or email SJD Automotive today for fast, professional service."
+    },
+    "blog": {
+      "title": "North Geelong Auto Blog | Car Maintenance Tips & Costs",
+      "description": "Expert advice on car maintenance, repair costs, and local automotive tips for North Geelong residents. Stay informed."
+    }
+  }
+}
