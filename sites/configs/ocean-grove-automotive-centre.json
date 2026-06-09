@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Ocean Grove Automotive Centre",
+  "suburb": "Ocean Grove",
+  "phone": "03 5255 1234",
+  "email": "office@ogautocentre.com.au",
+  "address": "8-10 Marine Parade, Ocean Grove VIC 3226",
+  "tagline": "Ocean Grove's Trusted Mechanics",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00c8e0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ocean Grove's Expert Auto Mechanics",
+      "sub": "VACC A Grade certified for over 15 years"
+    },
+    {
+      "title": "Full Mechanical & Electrical Services",
+      "sub": "Specialising in logbook servicing and repairs"
+    },
+    {
+      "title": "Caravan & 4WD Experts in Ocean Grove",
+      "sub": "Specialised repairs for all vehicles on the Bellarine Peninsula"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Ocean Grove? Contact Us Today",
+  "aboutHeading": "Ocean Grove Automotive Centre's History",
+  "aboutSubheading": "Your trusted local mechanics",
+  "aboutText": "With over 15 years of dedicated service in Ocean Grove, our VACC A Grade certified team offers comprehensive mechanical and electrical services. From warranty-valid logbook servicing to specialist caravan and 4WD repairs, we ensure your vehicle is in top condition. Located on Marine Parade, we serve the entire Bellarine Peninsula with pride and expertise.",
+  "servicesHeading": "Our Comprehensive Automotive Services",
+  "servicesSubheading": "Expert care for your vehicle in Ocean Grove",
+  "servicesText": "From routine logbook servicing to complex electrical diagnostics, Ocean Grove Automotive Centre provides a full range of automotive services. Our specialities include caravan and 4WD repairs, ensuring all vehicles on the Bellarine Peninsula receive top-quality care.",
+  "services": [
+    {
+      "title": "Mechanical Repairs",
+      "desc": "Expert engine and transmission repairs for all makes.",
+      "longDesc": "Comprehensive mechanical repairs in Ocean Grove, from engine overhauls to transmission servicing, ensuring your vehicle runs smoothly on local roads.",
+      "points": [
+        "All vehicle makes",
+        "Quality parts",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Electrical Services",
+      "desc": "Full electrical diagnostics and repairs for automotive systems.",
+      "longDesc": "Advanced electrical services in Ocean Grove, including wiring repairs, battery testing, and electronic system diagnostics for optimal performance.",
+      "points": [
+        "Licensed electricians",
+        "Modern diagnostics",
+        "Reliable fixes"
+      ]
+    },
+    {
+      "title": "Logbook Servicing",
+      "desc": "Warranty-valid servicing to manufacturer specifications.",
+      "longDesc": "Authorised logbook servicing in Ocean Grove that maintains your warranty, using genuine parts and following strict service schedules.",
+      "points": [
+        "Warranty maintained",
+        "Genuine parts",
+        "Comprehensive checks"
+      ]
+    },
+    {
+      "title": "Caravan Repairs",
+      "desc": "Specialist repairs for caravans and motorhomes.",
+      "longDesc": "Dedicated caravan repair services in Ocean Grove, addressing electrical, mechanical, and structural issues for safe travels across Australia.",
+      "points": [
+        "Caravan specialists",
+        "On-site options",
+        "Full assessments"
+      ]
+    },
+    {
+      "title": "4WD Repairs",
+      "desc": "Expert 4WD servicing and modifications for off-road adventures.",
+      "longDesc": "Professional 4WD repairs and servicing in Ocean Grove, tailored for off-road performance with suspension, drivetrain, and accessory upgrades.",
+      "points": [
+        "Off-road experts",
+        "Performance upgrades",
+        "Local knowledge"
+      ]
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine maintenance to keep your vehicle in peak condition.",
+      "longDesc": "Reliable general maintenance services in Ocean Grove, including oil changes, brake inspections, and tyre rotations for everyday vehicle health.",
+      "points": [
+        "Scheduled services",
+        "Affordable rates",
+        "Convenient booking"
+      ]
+    }
+  ],
+  "bannerHeading": "Trusted Mechanics in Ocean Grove",
+  "bannerSubheading": "Your vehicle deserves the best care locally",
+  "testimonialsHeading": "What Ocean Grove Locals Say",
+  "testimonialsSubheading": "Honest service, real results",
+  "blogHeading": "Ocean Grove Automotive Tips & Advice",
+  "blogSubheading": "Expert insights from local mechanics",
+  "contactHeading": "Contact Ocean Grove Automotive Centre",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Had my 4WD serviced at Ocean Grove Automotive Centre, and they did an excellent job. The team was knowledgeable and fixed the issue quickly. Highly recommend their specialist 4WD repairs in Ocean Grove.",
+      "name": "Jake Thompson",
+      "role": "Ocean Grove Homeowner"
+    },
+    {
+      "text": "Their logbook servicing kept my warranty intact, and the price was fair. As a local business owner, I trust them with my fleet vehicles. Great mechanical services in Ocean Grove.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The caravan repairs were top-notch; they handled everything from electrical fixes to structural checks. Perfect for our trips around the Bellarine Peninsula. Thank you, Ocean Grove mechanics!",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Barwon Heads",
+    "Point Lonsdale",
+    "Queenscliff",
+    "Torquay",
+    "Anglesea",
+    "Leopold"
+  ],
+  "about": {
+    "intro": "Ocean Grove Automotive Centre is a VACC A Grade certified mechanic providing full automotive services to Ocean Grove and the Bellarine Peninsula.",
+    "story": [
+      "Established over a decade ago, Ocean Grove Automotive Centre has built a reputation for reliability and expertise in mechanical and electrical repairs. Our team of certified mechanics specialises in logbook servicing, ensuring your vehicle's warranty remains valid.",
+      "Located on Marine Parade, we are deeply rooted in the Ocean Grove community, serving locals with everything from routine maintenance to complex caravan and 4WD repairs. Our commitment to quality workmanship and customer service sets us apart."
+    ],
+    "mission": "To provide Ocean Grove with trusted, high-quality automotive care that keeps vehicles safe and performing at their best.",
+    "whyUs": [
+      {
+        "title": "VACC Certified",
+        "text": "A Grade members ensuring top standards in every repair."
+      },
+      {
+        "title": "Expert Team",
+        "text": "Certified mechanics with years of local experience in Ocean Grove."
+      },
+      {
+        "title": "Comprehensive Services",
+        "text": "From logbook servicing to caravan repairs, we do it all."
+      },
+      {
+        "title": "Customer Focus",
+        "text": "Transparent pricing and dedicated service for all Ocean Grove clients."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "100%",
+        "label": "VACC A Grade"
+      },
+      {
+        "value": "500+",
+        "label": "Vehicles Serviced"
+      }
+    ],
+    "credentials": [
+      "VACC A Grade Member",
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Genuine parts warranty"
+    ]
+  },
+  "pricing": {
+    "intro": "At Ocean Grove Automotive Centre, we offer transparent pricing with no hidden fees. Get a free quote for any service in Ocean Grove and surrounding areas.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil change and filter",
+          "Multi-point inspection",
+          "Fluid top-up"
+        ]
+      },
+      {
+        "name": "Logbook Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Manufacturer specifications",
+          "Warranty maintained",
+          "Genuine parts",
+          "Comprehensive report"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Engine or transmission work",
+          "Electrical diagnostics",
+          "Parts and labour included"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no lock-in contracts, ensuring you know the cost before any work begins."
+  },
+  "contact": {
+    "intro": "Contact Ocean Grove Automotive Centre for a free, no-obligation quote. We're here to help with all your mechanical and electrical needs in Ocean Grove."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Logbook Servicing Cost in Ocean Grove?",
+      "date": "March 2026",
+      "excerpt": "Discover the typical cost of logbook servicing in Ocean Grove, including factors that affect pricing and how to maintain your warranty.",
+      "body": [
+        "Logbook servicing is essential for maintaining your vehicle's warranty in Australia, and at Ocean Grove Automotive Centre, we provide authorised services that adhere to manufacturer standards. The cost of logbook servicing in Ocean Grove typically ranges from $200 to $400, depending on your vehicle's make, model, and the service interval. Factors such as the use of genuine parts, labour rates, and any additional inspections for the Bellarine Peninsula's coastal conditions can influence the final price. We ensure transparency by offering fixed quotes upfront, so there are no surprises when you bring your car to our Marine Parade workshop.",
+        "In Ocean Grove, where salt air and varying road conditions can affect vehicle longevity, regular logbook servicing is crucial. Our mechanics follow strict Australian automotive standards, checking everything from engine oil and filters to brake systems and electrical components. The service includes a comprehensive report, highlighting any potential issues that might arise from local driving, such as corrosion from coastal humidity. By choosing Ocean Grove Automotive Centre, you benefit from competitive pricing without compromising on quality, keeping your vehicle in top shape for Ocean Grove's roads.",
+        "When budgeting for logbook servicing in Ocean Grove, consider the long-term savings. Proper maintenance can prevent costly repairs down the line, especially for vehicles frequently used on coastal trips to nearby suburbs like Barwon Heads or Torquay. Our pricing is designed to be affordable for Ocean Grove residents, with packages starting from $250 for standard services. We use genuine parts sourced from reliable suppliers, ensuring compatibility and longevity, which is particularly important for the Australian climate with its UV exposure and temperature fluctuations.",
+        "Ocean Grove Automotive Centre stands out for its commitment to customer education during logbook servicing. We explain each step, from diagnostic scans to fluid replacements, so you understand the value of the service. For Ocean Grove's community, where trust is key, this approach builds long-term relationships. Our workshops are equipped with modern tools to handle everything from compact cars to larger 4WDs, common in the area for beach and off-road adventures. The cost-effectiveness of our services makes us a preferred choice for logbook servicing across the Bellarine Peninsula.",
+        "To get an accurate quote for logbook servicing in Ocean Grove, visit us at 8-10 Marine Parade or call for a quick estimate. We consider factors like your vehicle's age, mileage, and specific service requirements outlined in the logbook. For Ocean Grove locals, we often provide additional tips on seasonal maintenance, such as preparing for winter rains or summer beach trips. Our goal is to make logbook servicing hassle-free and cost-effective, reinforcing our reputation as Ocean Grove's go-to mechanics for warranty-valid care.",
+        "In summary, the cost of logbook servicing in Ocean Grove is an investment in your vehicle's health and warranty. At Ocean Grove Automotive Centre, we combine competitive pricing with expert service, ensuring your car remains reliable for daily commutes or travels around Victoria. By addressing local conditions like salt corrosion and road wear, we help extend your vehicle's lifespan. Contact us today for a personalised quote tailored to your Ocean Grove lifestyle and vehicle needs."
+      ]
+    },
+    {
+      "title": "Best 4WD Repair Tips for Ocean Grove Adventures",
+      "date": "February 2026",
+      "excerpt": "Learn essential 4WD repair and maintenance tips for Ocean Grove, including advice for off-road conditions on the Bellarine Peninsula.",
+      "body": [
+        "Ocean Grove is a hub for 4WD enthusiasts, with easy access to beach tracks and off-road trails across the Bellarine Peninsula, making regular repairs and maintenance vital. At Ocean Grove Automotive Centre, we specialise in 4WD repairs that address common issues like suspension wear from rough terrain and electrical faults from water exposure. Key tips include checking your 4WD's undercarriage for sand and salt corrosion, which is prevalent in Ocean Grove's coastal environment. Starting with a thorough inspection every six months can prevent breakdowns during adventures to nearby Point Lonsdale or Queenscliff.",
+        "For Ocean Grove 4WD owners, investing in quality repairs ensures safety on both on-road and off-road journeys. We recommend using genuine parts for replacements, as they withstand Australian conditions better than generic alternatives. Common repair needs in Ocean Grove include brake pad replacements due to frequent beach driving and battery checks for electronic systems. Our mechanics at Marine Parade are trained in 4WD-specific diagnostics, using tools that detect issues early, saving you time and money in the long run.",
+        "When planning 4WD repairs in Ocean Grove, consider the vehicle's usage patterns. If you often drive to Torquay or Anglesea for surf trips, focus on waterproofing seals and rust prevention. Ocean Grove Automotive Centre offers tailored repair packages that include suspension tuning for load-carrying, essential for family outings. Pricing for 4WD repairs varies based on complexity, but we provide free quotes to Ocean Grove residents, ensuring affordability without hidden costs. Our services adhere to Australian automotive standards, giving you peace of mind.",
+        "Preventive maintenance is another tip for Ocean Grove 4WD enthusiasts. Regularly cleaning your vehicle after beach outings removes salt and sand that can cause damage. We advise scheduling repair checks aligned with logbook servicing to maintain warranty validity. In Ocean Grove, where weather can change quickly, ensuring your 4WD's electrical systems are fault-free is crucial for reliability. Our team uses advanced diagnostics to pinpoint issues, from wiring faults to sensor malfunctions, keeping your vehicle adventure-ready.",
+        "Ocean Grove Automotive Centre also emphasises community knowledge-sharing. We host informal sessions where locals can learn about 4WD care, covering topics like tyre pressure adjustments for beach driving and engine cooling system maintenance. For repairs, our transparent pricing starts from $300 for minor fixes, scaling up for major overhauls. Being VACC A Grade certified, we ensure all work meets high standards, making us a trusted choice for 4WD repairs in Ocean Grove and surrounding suburbs.",
+        "In conclusion, adhering to these 4WD repair tips in Ocean Grove enhances your vehicle's performance and longevity. Whether you're tackling local tracks or long road trips, our expertise at Ocean Grove Automotive Centre keeps your 4WD in prime condition. Contact us on Marine Parade for personalized repair advice and services tailored to Ocean Grove's unique driving challenges."
+      ]
+    },
+    {
+      "title": "Caravan Maintenance Guide for Bellarine Peninsula Travellers",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to caravan maintenance in Ocean Grove, with tips for Bellarine Peninsula travels and local repair services.",
+      "body": [
+        "Travelling with a caravan around the Bellarine Peninsula is a popular pastime for Ocean Grove residents, but regular maintenance is key to ensuring safe and enjoyable trips. At Ocean Grove Automotive Centre, we offer specialised caravan maintenance services that address issues like chassis corrosion from coastal salt air and electrical wiring faults. Start with a pre-trip inspection focusing on brakes, tyres, and lights, especially if you're heading to areas like Torquay or Anglesea. Our mechanics recommend maintenance every 10,000 km or annually, adapting to Ocean Grove's climate.",
+        "For caravan owners in Ocean Grove, understanding common maintenance needs can prevent breakdowns. The Bellarine Peninsula's roads, while scenic, can be rough, leading to wear on suspension and bearings. We advise checking wheel bearings and seals regularly, with repair costs starting from $150 for basic services. Ocean Grove Automotive Centre uses high-quality parts to handle the demands of Australian caravanning, from UV-resistant materials to durable electrical components. Our expertise ensures your caravan remains roadworthy for adventures across Victoria.",
+        "When maintaining your caravan in Ocean Grove, pay attention to the interior systems, such as water pumps and gas lines, which are crucial for comfort on trips. Our maintenance packages include comprehensive checks, pricing from $200 for standard inspections. We highlight the importance of local knowledge—Ocean Grove's humidity can affect seals, so we recommend silicone treatments during servicing. By addressing these specifics, we help caravan owners avoid costly repairs mid-journey.",
+        "Ocean Grove Automotive Centre also focuses on preventive tips, like covering your caravan when not in use to protect against UV damage and debris. For maintenance, scheduling regular appointments at our Marine Parade workshop ensures consistency. We provide detailed reports after each service, outlining any issues relevant to Bellarine Peninsula travels, such as dust ingress from outback trips. Our VACC A Grade certification guarantees that all maintenance meets Australian standards, giving you confidence in our work.",
+        "For Ocean Grove caravan enthusiasts, community support is valuable. We share tips on load distribution for stability on winding roads to Point Lonsdale and electrical system upkeep for camping. Maintenance services include brake adjustments and tyre rotations, essential for safety. Our transparent pricing means no surprises, with quotes provided upfront for all Ocean Grove clients. We also offer emergency repair options for travellers caught out on the peninsula.",
+        "In summary, following this caravan maintenance guide in Ocean Grove ensures your vehicle is ready for Bellarine Peninsula adventures. At Ocean Grove Automotive Centre, we combine local expertise with comprehensive services to keep caravans in top condition. Contact us for personalised maintenance plans tailored to your travel needs and Ocean Grove's unique conditions."
+      ]
+    },
+    {
+      "title": "Signs Your Car Needs Electrical Repairs in Ocean Grove",
+      "date": "December 2025",
+      "excerpt": "Identify common signs that your car requires electrical repairs in Ocean Grove, with advice from local mechanics on the Bellarine Peninsula.",
+      "body": [
+        "Electrical issues are common in vehicles, especially in Ocean Grove where coastal conditions can accelerate wear on wiring and components. At Ocean Grove Automotive Centre, we specialise in diagnosing and repairing electrical faults, with signs including dimming lights, malfunctioning dashboard displays, or difficulty starting the engine. If you notice these symptoms while driving around Ocean Grove or nearby Barwon Heads, it's crucial to seek repairs promptly to avoid breakdowns. Our mechanics use advanced scanners to pinpoint faults accurately.",
+        "For Ocean Grove car owners, another sign of electrical problems is irregular battery drainage, often due to faulty alternators or parasitic drains. This can be exacerbated by the area's humidity, which affects electrical connections. We recommend regular checks every six months, with repair costs starting from $100 for minor fixes. Ocean Grove Automotive Centre ensures all repairs use quality parts, adhering to Australian electrical standards for safety and longevity on local roads.",
+        "When assessing electrical repair needs in Ocean Grove, pay attention to warning lights on your dashboard, such as the battery or check engine indicators. These can signal issues with sensors or wiring harnesses, common in vehicles exposed to salt air. Our repair services include comprehensive diagnostics, pricing from $150, and we provide transparent quotes to Ocean Grove residents. We address root causes, not just symptoms, ensuring lasting solutions for Bellarine Peninsula driving conditions.",
+        "Ocean Grove Automotive Centre also educates customers on preventive measures, like keeping electrical contacts clean and using corrosion-resistant sprays. For repairs, our team handles everything from fuse replacements to full rewiring, tailored to Ocean Grove's climate challenges. We emphasise the importance of timely service, as electrical faults can lead to safety hazards on busy roads to Torquay or Anglesea. Our VACC A Grade certification means high-quality workmanship you can trust.",
+        "In Ocean Grove, where vehicles are often used for beach trips and family outings, electrical reliability is key. Signs like non-responsive power windows or erratic gauge readings should prompt a visit to our Marine Parade workshop. We offer free initial assessments to identify issues quickly, with repair timelines communicated upfront. Our expertise in automotive electrical systems makes us a preferred choice for Ocean Grove locals seeking dependable repairs.",
+        "In conclusion, recognising these signs early for electrical repairs in Ocean Grove can save you time and money. At Ocean Grove Automotive Centre, we provide expert services to keep your vehicle's electrical systems in optimal condition. Contact us for a diagnostic check and personalised repair plan based on your Ocean Grove needs and driving habits."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Ocean Grove Automotive Centre | Mechanic in Ocean Grove VIC",
+      "description": "Trusted VACC A Grade mechanic in Ocean Grove, offering logbook servicing, 4WD repairs, and caravan maintenance. Contact us today for a free quote."
+    },
+    "about": {
+      "title": "About Us | Ocean Grove Automotive Centre | VACC Certified",
+      "description": "Learn about Ocean Grove Automotive Centre, your local VACC A Grade mechanic specialising in mechanical and electrical services on the Bellarine Peninsula."
+    },
+    "services": {
+      "title": "Automotive Services in Ocean Grove | Mechanic & Repairs",
+      "description": "Full mechanical, electrical, and logbook servicing in Ocean Grove. Specialists in caravan and 4WD repairs for the Bellarine Peninsula community."
+    },
+    "pricing": {
+      "title": "Pricing & Costs | Ocean Grove Mechanic Quotes",
+      "description": "Transparent pricing for logbook servicing, repairs, and more in Ocean Grove. Get a free, upfront quote from our certified mechanics today."
+    },
+    "contact": {
+      "title": "Contact Ocean Grove Automotive Centre | Free Quotes",
+      "description": "Get in touch with Ocean Grove Automotive Centre for a free mechanic quote. Located on Marine Parade, serving Ocean Grove and nearby suburbs."
+    },
+    "blog": {
+      "title": "Automotive Tips & Advice | Ocean Grove Mechanic Blog",
+      "description": "Expert automotive advice from Ocean Grove mechanics, including servicing costs, repair tips, and maintenance guides for local vehicles."
+    }
+  }
+}
