@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Jim's Test & Tag",
+  "suburb": "Brunswick",
+  "phone": "0412 345 678",
+  "email": "info@jimstestandtag.com.au",
+  "address": "2 Orient Grove, Brunswick VIC 3056",
+  "tagline": "Brunswick's Trusted Test & Tag Service",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#b52a2a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick's Trusted Test & Tag Service",
+      "sub": "10,000+ five-star reviews"
+    },
+    {
+      "title": "Electrical Safety for Melbourne Businesses",
+      "sub": "Police checked & highly trained"
+    },
+    {
+      "title": "Get a Free Jim's Quote Today",
+      "sub": "Win $1,000 with your quote"
+    }
+  ],
+  "ctaHeading": "Need Test & Tag in Brunswick?",
+  "aboutHeading": "Brunswick's Test & Tag Specialists",
+  "aboutSubheading": "Local, licensed & compliant",
+  "aboutText": "Jim's Test & Tag is Brunswick's go-to provider for test and tag services, helping businesses maintain OHS/WHS compliance. With over 1,000s of jobs completed and 10,000+ five-star reviews, our police-checked team ensures your workplace is safe. Serving Melbourne and regional areas, we specialise in electrical testing, fire safety, and emergency lighting. Request a free quote today to safeguard your business.",
+  "servicesHeading": "Our Test & Tag Services",
+  "servicesSubheading": "Comprehensive safety solutions",
+  "servicesText": "We offer a wide range of testing services to keep your business compliant. From electrical test and tag to fire equipment testing, our team covers all aspects of workplace safety. Trust Jim's Test & Tag for reliable service in Brunswick.",
+  "services": [
+    {
+      "title": "Electrical Test & Tag",
+      "desc": "We test and tag all electrical equipment to ensure compliance with Australian standards, keeping your workplace safe from electrical faults."
+    },
+    {
+      "title": "Fire Equipment Testing",
+      "desc": "Regular testing of fire extinguishers, blankets, and alarms to maintain fire safety compliance and protect your property."
+    },
+    {
+      "title": "Emergency Lighting Testing",
+      "desc": "We inspect and test emergency exit lights and backup systems to ensure they function during power outages or emergencies."
+    },
+    {
+      "title": "Smoke Alarm Testing",
+      "desc": "Comprehensive testing of smoke alarms and detectors to meet legal requirements and provide early warning in case of fire."
+    },
+    {
+      "title": "RCD & Safety Switch Testing",
+      "desc": "Testing and certification of safety switches to prevent electrical shocks and ensure rapid response to faults."
+    },
+    {
+      "title": "First Aid Kit Services",
+      "desc": "Supply and restock workplace first aid kits with essential items, ensuring you're prepared for minor injuries."
+    }
+  ],
+  "bannerHeading": "Need Test & Tag in Brunswick?",
+  "bannerSubheading": "Stay compliant with our expert testing services.",
+  "testimonialsHeading": "What Brunswick Locals Say",
+  "testimonialsSubheading": "Trusted by businesses across Melbourne",
+  "blogHeading": "Test & Tag Tips & News",
+  "blogSubheading": "Updates from Jim's Test & Tag",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Jim's Test & Tag did an excellent job with our electrical test and tag at our Brunswick cafe. The team was professional and ensured we passed our safety audit. Highly recommend their services.",
+      "name": "Sarah Mitchell",
+      "role": "Brunswick Business Owner"
+    },
+    {
+      "text": "We hired Jim's for fire equipment testing at our warehouse in Melbourne. They were thorough, efficient, and explained everything clearly. Great service from start to finish.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Jim's Test & Tag for all our emergency lighting and smoke alarm testing. They keep our properties compliant and safe for tenants.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
