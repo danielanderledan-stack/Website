@@ -1,0 +1,298 @@
+{
+  "siteType": "plumber",
+  "businessName": "AES Auto Electronic Solutions",
+  "suburb": "Braeside",
+  "phone": "03 9018 6362",
+  "email": "user@domain.com",
+  "address": "33 Industrial Dr, Braeside VIC 3195",
+  "tagline": "Braeside's Trusted Plumbing Experts",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Braeside's Go-To Plumbers",
+      "sub": "Trusted plumbing services in Melbourne's south-east"
+    },
+    {
+      "title": "Emergency Repairs & Installations",
+      "sub": "24/7 service for Braeside homes & businesses"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Braeside & surrounds"
+    }
+  ],
+  "ctaHeading": "Braeside's plumbers are ready — let's solve your plumbing problems.",
+  "aboutHeading": "15+ Years Plumbing in Braeside",
+  "aboutSubheading": "Local expertise you can trust",
+  "aboutText": "For over 15 years, AES Auto Electronic Solutions has provided exceptional plumbing services to Braeside and surrounding areas. Our licensed plumbers specialize in emergency repairs, installations, and maintenance, ensuring your property's plumbing is always in top condition. Based in Braeside, we are committed to serving the local community with reliable, affordable, and professional plumbing solutions.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From emergency call-outs to planned installations, AES Auto Electronic Solutions covers all plumbing aspects in Braeside. We offer residential, commercial, and industrial services with a focus on quality and customer satisfaction.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency repairs for burst pipes, leaks, and urgent issues in Braeside.",
+      "longDesc": "Our emergency plumbing service in Braeside ensures rapid response to minimize damage and restore functionality. We handle all urgent plumbing situations with expertise and efficiency.",
+      "points": [
+        "Rapid response time",
+        "Minimize water damage",
+        "Available 24/7"
+      ]
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Professional unblocking and clearing of drains in Braeside homes and businesses.",
+      "longDesc": "Using advanced equipment, we clear blocked drains in Braeside, preventing future issues and ensuring smooth water flow. Our service includes thorough inspection and diagnosis.",
+      "points": [
+        "Advanced clearing technology",
+        "Preventative maintenance",
+        "Licensed technicians"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems for Braeside properties.",
+      "longDesc": "We install and service all types of hot water systems in Braeside, including gas, electric, and solar. Our team ensures efficient operation and longevity of your system.",
+      "points": [
+        "All system types",
+        "Energy-efficient solutions",
+        "Warranty included"
+      ]
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless pipe repair solutions for Braeside properties without excavation.",
+      "longDesc": "Pipe relining in Braeside offers a cost-effective alternative to traditional pipe replacement, reducing disruption and restoring pipe integrity with minimal digging.",
+      "points": [
+        "No excavation needed",
+        "Cost-effective repair",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Certified gas fitting services for appliances, heating, and plumbing in Braeside.",
+      "longDesc": "Our licensed gas fitters in Braeside install and repair gas appliances, ensuring safety and compliance with Australian standards. We handle all gas-related plumbing needs.",
+      "points": [
+        "Certified professionals",
+        "Safety compliant",
+        "Appliance installation"
+      ]
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete bathroom plumbing for renovations and upgrades in Braeside.",
+      "longDesc": "For bathroom renovations in Braeside, we provide expert plumbing services, from fixture installation to full system upgrades, tailored to your design and budget.",
+      "points": [
+        "Custom installations",
+        "Full project support",
+        "Quality craftsmanship"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Braeside?",
+  "bannerSubheading": "We're here to help with all your plumbing needs.",
+  "testimonialsHeading": "What Braeside Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Plumbing Guides & Advice",
+  "blogSubheading": "Insights from the Braeside team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Prompt response guaranteed",
+  "reviews": [
+    {
+      "text": "AES Auto Electronic Solutions fixed our blocked drain in Braeside quickly and efficiently. Highly recommend their emergency plumbing service for any urgent issues!",
+      "name": "Sarah Mitchell",
+      "role": "Braeside Homeowner"
+    },
+    {
+      "text": "Professional gas fitting installation for our café in Braeside. The team was punctual and the work was top-notch. Great local service!",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable pipe relining service saved us from a major repair. Excellent value and expertise for Braeside residents.",
+      "name": "Emily Watson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Braeside",
+    "Dingley Village",
+    "Clayton",
+    "Mulgrave",
+    "Springvale",
+    "Moorabbin"
+  ],
+  "about": {
+    "intro": "AES Auto Electronic Solutions is a leading plumber based in Braeside, offering comprehensive plumbing services to residential and commercial clients across Melbourne's south-east.",
+    "story": [
+      "Founded over 15 years ago, our team has been dedicated to providing top-quality plumbing solutions in Braeside. We started as a small local business and have grown to serve a wide area, always maintaining our commitment to customer satisfaction and reliable workmanship.",
+      "Our plumbers are fully licensed and trained in the latest techniques, ensuring that every job, from minor repairs to major installations, is handled with precision. We pride ourselves on our local knowledge and ability to address the specific plumbing challenges faced by Braeside properties."
+    ],
+    "mission": "To deliver exceptional plumbing services that keep Braeside homes and businesses safe, efficient, and comfortable.",
+    "whyUs": [
+      {
+        "title": "24/7 Availability",
+        "text": "Emergency plumbing services available around the clock for Braeside residents."
+      },
+      {
+        "title": "Licensed Experts",
+        "text": "All our plumbers are fully licensed, insured, and trained to Australian standards."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "Transparent quotes with no hidden fees, so you know the cost upfront."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At AES Auto Electronic Solutions, we offer competitive and transparent pricing for all plumbing services in Braeside. No lock-in contracts, just honest quotes for quality work.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$95",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Expert diagnosis",
+          "Quality repairs",
+          "Guaranteed workmanship",
+          "Follow-up support"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Premium materials",
+          "Timely completion"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprise charges, ensuring you get the best value for your plumbing needs in Braeside."
+  },
+  "contact": {
+    "intro": "Ready to fix your plumbing issues? Contact AES Auto Electronic Solutions in Braeside for a free, no-obligation quote. We're here to help!"
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in Braeside?",
+      "date": "March 2026",
+      "excerpt": "Understanding the costs of emergency plumbing services in Braeside, including factors that influence pricing and tips to save money.",
+      "body": [
+        "Emergency plumbing costs in Braeside can vary based on several factors, but knowing what to expect helps you budget effectively. Common emergencies like burst pipes, severe leaks, or sewer backups require immediate attention, and prices reflect the urgency and complexity of the job. In Braeside, most plumbers charge a call-out fee ranging from $80 to $200, with additional costs for parts and labor. It's essential to get a clear estimate before work begins to avoid surprises.",
+        "Key factors affecting emergency plumbing costs in Braeside include the time of day, severity of the issue, and accessibility of pipes. After-hours or weekend services often incur higher rates, sometimes up to 50% more. The complexity of repairs, such as those involving underground pipes or major fixtures, can also increase costs. Local plumbers like AES Auto Electronic Solutions provide transparent quotes, breaking down all expenses so Braeside residents can make informed decisions.",
+        "On average, simple emergency repairs in Braeside might cost between $200 and $400, while more extensive issues like sewer line repairs can exceed $1,000. It's advisable to compare quotes from multiple licensed plumbers in Braeside to ensure competitive pricing. Always check for hidden fees, such as travel charges or disposal costs, and ask about warranties on parts and labor to protect your investment in the long run.",
+        "To get accurate quotes from Braeside plumbers, start by describing the issue clearly over the phone or online. Provide details like the location of the leak, any water damage, and when the problem started. This helps plumbers prepare and offer more precise estimates. AES Auto Electronic Solutions offers free, no-obligation quotes for Braeside homes and businesses, ensuring you understand the full scope and cost before any work commences.",
+        "Preventing emergencies can save you money in Braeside. Regular maintenance, such as annual pipe inspections and drain cleaning, helps identify issues early. Avoid pouring grease down drains, use drain guards, and insulate pipes during Melbourne's cold winters to prevent bursts. These proactive steps reduce the need for emergency services and keep your plumbing costs manageable in the long term.",
+        "In conclusion, emergency plumbing costs in Braeside are influenced by urgency, complexity, and timing, but with the right approach, you can manage expenses effectively. Choose a local, licensed plumber like AES Auto Electronic Solutions for reliable service and transparent pricing. Contact them today for a free quote and ensure your Braeside property is in expert hands."
+      ]
+    },
+    {
+      "title": "Signs You Need Hot Water System Replacement in Braeside",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators that your hot water system needs replacing in Braeside, and how to choose the right one for your home.",
+      "body": [
+        "Recognizing the signs that your hot water system needs replacement is crucial for Braeside homeowners to avoid unexpected breakdowns. Common indicators include inconsistent water temperature, strange noises from the tank, and visible rust or leaks. In Braeside's climate, where winters are chilly, a reliable hot water system is essential for comfort and hygiene. If your unit is over 10 years old, it may be time to consider an upgrade for better efficiency and performance.",
+        "Inconsistent water temperature is a telltale sign of a failing hot water system in Braeside. If you're experiencing lukewarm water or sudden cold showers, the heating element or thermostat might be faulty. Strange noises like popping or rumbling often indicate sediment buildup in the tank, which reduces efficiency and can lead to corrosion. Visible leaks around the base suggest internal damage, and ignoring them can cause water damage to your Braeside property.",
+        "When choosing a replacement hot water system in Braeside, consider factors like energy efficiency, capacity, and fuel type. Gas systems are popular for their quick heating and lower running costs, while electric units offer easy installation. For eco-conscious Braeside residents, solar hot water systems can provide significant savings over time. Consult with a local plumber to assess your household's needs and recommend the best option for your Braeside home.",
+        "The cost of hot water system replacement in Braeside varies based on the type and size of the unit, installation complexity, and any necessary plumbing modifications. On average, prices range from $1,200 to $3,000 for a new unit and installation. AES Auto Electronic Solutions in Braeside offers competitive quotes and can help you navigate warranties and rebates available in Victoria, making the process smoother and more affordable.",
+        "Regular maintenance can extend the life of your hot water system in Braeside. Schedule annual inspections to check for sediment buildup, pressure relief valve functionality, and anode rod condition. Flushing the tank every few years prevents corrosion and maintains efficiency. For Braeside homes, especially those with hard water, this upkeep is vital to avoid frequent repairs or premature replacement.",
+        "Ultimately, acting on signs of hot water system failure in Braeside ensures continuous comfort and avoids costly emergency repairs. Consult a licensed plumber to evaluate your system and discuss replacement options tailored to your needs. AES Auto Electronic Solutions provides expert advice and installation services for Braeside residents, ensuring you get a reliable, energy-efficient system that stands the test of time."
+      ]
+    },
+    {
+      "title": "Preventing Blocked Drains in Braeside Homes",
+      "date": "January 2026",
+      "excerpt": "Practical tips and preventive measures to keep your drains clear and avoid blockages in Braeside properties.",
+      "body": [
+        "Blocked drains are a common issue in Braeside homes, often caused by everyday habits that can be easily avoided. Grease, food scraps, hair, and non-flushable items like wipes are frequent culprits. In Braeside, where older plumbing systems may be more susceptible, prevention is key to avoiding expensive repairs and water damage. Understanding what goes down your drains helps maintain smooth flow and reduces the risk of backups.",
+        "To prevent blocked drains in Braeside, start by being mindful of what you dispose of in sinks and toilets. Avoid pouring cooking oils or fats down the kitchen sink, as they solidify and cause blockages. Use sink strainers to catch food particles and hair in bathroom drains. Never flush wet wipes, sanitary products, or paper towels, as these do not break down easily and can clog pipes in Braeside homes.",
+        "Regular maintenance is essential for preventing drain blockages in Braeside. Schedule annual professional inspections with a local plumber to identify potential issues before they escalate. Cleaning drains with a mixture of baking soda and vinegar can help dissolve minor buildup, but for thorough clearing, professional hydro jetting services are recommended. AES Auto Electronic Solutions offers drain maintenance packages tailored for Braeside residents.",
+        "Braeside's weather can also impact drain health. During heavy rains, outdoor drains may become clogged with leaves, dirt, and debris. Clear gutters and storm drains regularly to prevent water pooling and flooding in your Braeside property. Installing drain guards can catch debris and minimize blockages, ensuring rainwater flows away from your home effectively.",
+        "If you notice slow drainage, gurgling sounds, or unpleasant odors in your Braeside home, these could be early signs of a blockage. Addressing these promptly by calling a licensed plumber can prevent more serious issues like sewage backups or pipe damage. AES Auto Electronic Solutions provides quick diagnostic and repair services for blocked drains in Braeside, using camera inspections to pinpoint problems accurately.",
+        "In summary, preventing blocked drains in Braeside involves mindful waste disposal, regular maintenance, and addressing early signs promptly. By adopting these practices and working with local plumbing experts, you can keep your drains clear and avoid costly emergencies. Contact AES Auto Electronic Solutions for professional drain services in Braeside and ensure your plumbing system runs smoothly."
+      ]
+    },
+    {
+      "title": "The Best Time for Bathroom Renovations in Melbourne's South-East",
+      "date": "December 2025",
+      "excerpt": "A guide to planning bathroom renovations in Braeside, including seasonal considerations and local regulations.",
+      "body": [
+        "Planning a bathroom renovation in Braeside requires careful timing to maximize value and minimize disruption. In Melbourne's south-east, the best time for renovations is during the drier months from late spring to early autumn, typically between October and April. This period offers stable weather conditions, making it easier to manage plumbing work and material deliveries in Braeside, avoiding delays caused by rain or cold.",
+        "Before starting a bathroom renovation in Braeside, consider your household's needs and budget. Assess the scope of work, including plumbing updates, fixture replacements, and layout changes. Consult with a licensed plumber early in the planning phase to ensure compliance with local building codes and regulations in Braeside. AES Auto Electronic Solutions can help you navigate permits and inspections required for bathroom renovations.",
+        "Cost factors for bathroom renovations in Braeside include the size of the space, quality of materials, and complexity of plumbing work. On average, a full renovation can cost between $10,000 and $25,000, with plumbing constituting a significant portion. Get detailed quotes from local contractors and plumbers to understand all expenses, and allocate a contingency fund for unexpected issues that may arise during the renovation process.",
+        "Choosing the right fixtures and materials is crucial for bathroom renovations in Braeside. Opt for water-efficient taps, showerheads, and toilets to reduce utility bills and comply with Australian standards. Durable materials like porcelain tiles and quality waterproofing are essential for longevity in Braeside's humid conditions. Work with your plumber to select fixtures that fit your design aesthetic and functional requirements.",
+        "During the renovation, minimize disruption to your Braeside home by planning the work timeline carefully. Plumbing work often involves shutting off water supply, so schedule tasks to limit inconvenience. Communicate with your renovation team to ensure all plumbing installations are done correctly and tested before finishing touches. AES Auto Electronic Solutions specializes in seamless plumbing integration for bathroom renovations in Braeside.",
+        "After completing your bathroom renovation in Braeside, regular maintenance will keep it in top condition. Clean tiles and grout to prevent mold, check for leaks around fixtures, and service your plumbing annually. A well-executed renovation not only enhances your home's value but also improves daily comfort. For expert plumbing services during your Braeside bathroom renovation, trust AES Auto Electronic Solutions to deliver quality results."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "AES Auto Electronic Solutions | Plumber in Braeside | Emergency Repairs",
+      "description": "AES Auto Electronic Solutions is Braeside's trusted plumber for emergency repairs, blocked drains, and more. Get a free quote today!"
+    },
+    "about": {
+      "title": "About Us | Braeside's Expert Plumbing Team | AES",
+      "description": "Learn about AES Auto Electronic Solutions, providing 15+ years of reliable plumbing services in Braeside and Melbourne's south-east."
+    },
+    "services": {
+      "title": "Plumbing Services in Braeside | Drains, Hot Water & Gas",
+      "description": "Comprehensive plumbing services in Braeside including emergency repairs, blocked drains, and installations. Licensed and insured."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Prices Braeside | AES Auto Electronic Solutions",
+      "description": "Transparent pricing for plumbing services in Braeside. No hidden fees, free quotes, and competitive rates for all jobs."
+    },
+    "contact": {
+      "title": "Contact AES Auto Electronic Solutions | Free Braeside Plumber Quotes",
+      "description": "Get in touch for a free plumbing quote in Braeside. Fast response, expert advice, and no obligation."
+    },
+    "blog": {
+      "title": "Braeside Plumbing Blog | Local Tips & Cost Guides",
+      "description": "Read our blog for expert plumbing advice, cost guides, and maintenance tips tailored for Braeside properties."
+    }
+  }
+}
