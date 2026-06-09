@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Living Joinery",
+  "suburb": "Reservoir",
+  "phone": "0409 343 460",
+  "email": "info@livingjoinery.com",
+  "address": "86 Newlands Rd, Reservoir VIC 3073",
+  "tagline": "Reservoir's Living Joinery Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#cc5400",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Reservoir's Custom Cabinet Makers",
+      "sub": "Specialising in kitchen and bathroom joinery"
+    },
+    {
+      "title": "Full Home Joinery Packages in Reservoir",
+      "sub": "Tailored solutions for every room"
+    },
+    {
+      "title": "Free Quotes Across Reservoir",
+      "sub": "Quality craftsmanship for homes and businesses"
+    }
+  ],
+  "ctaHeading": "Living Joinery in Reservoir – Let's Build Your Dream",
+  "aboutHeading": "Reservoir's Trusted Cabinet Makers",
+  "aboutSubheading": "Local joinery with a personal touch",
+  "aboutText": "Living Joinery has been crafting custom cabinets and joinery in Reservoir, Victoria, for years, serving the local community with dedication. We specialise in full home joinery packages, kitchen and bathroom cabinets, and more, ensuring every project meets your exact needs. Our team is committed to quality workmanship and customer satisfaction, proudly supporting Reservoir and surrounding areas.",
+  "servicesHeading": "Our Joinery Services",
+  "servicesSubheading": "Crafted for your lifestyle",
+  "servicesText": "From complete home joinery to individual room projects, we offer expert cabinet making services in Reservoir. Our solutions cover kitchens, bathrooms, butler's kitchens, laundries, offices, and more, designed with precision and care.",
+  "services": [
+    {
+      "title": "Full Home Joinery Package",
+      "desc": "Complete joinery solutions for your entire Reservoir home, customised to fit your space and style perfectly."
+    },
+    {
+      "title": "Kitchen Joinery and Cabinets",
+      "desc": "Bespoke kitchen cabinets and joinery to transform your cooking area with high-quality materials and design."
+    },
+    {
+      "title": "Bathroom Joinery & Cabinets",
+      "desc": "Custom bathroom vanities and storage solutions to enhance functionality and aesthetics in your Reservoir home."
+    },
+    {
+      "title": "Butler’s Kitchen Joinery & Cabinetry",
+      "desc": "Specialised butler's kitchen designs for added convenience and elegance in your Reservoir property."
+    },
+    {
+      "title": "Laundry Joinery & Cabinetry",
+      "desc": "Practical and stylish laundry cabinets to optimise space and organisation in your Reservoir residence."
+    },
+    {
+      "title": "Office Joinery & Cabinetry",
+      "desc": "Professional office joinery and storage solutions to create a productive workspace in Reservoir."
+    }
+  ],
+  "bannerHeading": "Need Joinery in Reservoir?",
+  "bannerSubheading": "We're here to help with all your cabinet making needs.",
+  "testimonialsHeading": "What Reservoir Locals Say",
+  "testimonialsSubheading": "Quality joinery, happy customers",
+  "blogHeading": "Joinery Tips & News",
+  "blogSubheading": "Insights from Living Joinery",
+  "contactHeading": "Get a Free Quote from Living Joinery",
+  "contactSubheading": "Contact us today for a consultation",
+  "reviews": [
+    {
+      "text": "Living Joinery did an amazing job on our kitchen renovation in Reservoir. The cabinets were perfectly crafted and installed on time, making our dream kitchen a reality.",
+      "name": "John Smith",
+      "role": "Reservoir Homeowner"
+    },
+    {
+      "text": "We hired Living Joinery for our office fit-out in Reservoir, and the results were outstanding. The custom cabinetry improved our workspace efficiency and looked fantastic.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our bathroom update in Reservoir, Living Joinery provided excellent service and high-quality cabinets. The attention to detail and professionalism were top-notch.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
