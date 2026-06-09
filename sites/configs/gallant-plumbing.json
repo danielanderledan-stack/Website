@@ -1,0 +1,253 @@
+{
+  "siteType": "plumber",
+  "businessName": "Gallant Plumbing",
+  "suburb": "Burwood",
+  "phone": "1300 830 956",
+  "email": "info@gallantplumbing.com.au",
+  "address": "11/125 Highbury Rd, Burwood VIC 3125",
+  "tagline": "Burwood's Commercial Plumbing Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b376",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Burwood's Commercial Plumbing Partner",
+      "sub": "Over 103 years of trusted, ISO-certified experience"
+    },
+    {
+      "title": "24/7 Emergency Plumbing Services",
+      "sub": "Call us anytime for urgent commercial issues"
+    },
+    {
+      "title": "Hydraulic Systems & Maintenance",
+      "sub": "Expert solutions for Burwood businesses"
+    }
+  ],
+  "ctaHeading": "Gallant Plumbing is ready to serve Burwood — get your free quote today.",
+  "aboutHeading": "103+ Years Plumbing in Burwood",
+  "aboutSubheading": "Local, ISO certified & trusted",
+  "aboutText": "Gallant Plumbing has been providing comprehensive, 24/7 commercial plumbing maintenance solutions in Burwood and surrounding areas for over 103 years. As an ISO-certified provider, we ensure the highest standards of safety, quality, and environmental responsibility. Our dedicated team is committed to delivering phenomenal customer experiences, maintaining your plumbing and hydraulic assets with expertise and reliability.",
+  "servicesHeading": "What We Do for Burwood Businesses",
+  "servicesSubheading": "Commercial plumbing done right",
+  "servicesText": "From routine maintenance to emergency repairs, Gallant Plumbing offers a full suite of commercial plumbing services tailored to Burwood's needs. We specialise in hydraulic systems, backflow prevention, and 24/7 callouts to keep your operations running smoothly.",
+  "services": [
+    {
+      "title": "Commercial Plumbing Maintenance",
+      "desc": "Regular upkeep for commercial properties in Burwood.",
+      "longDesc": "Our comprehensive maintenance programs ensure your plumbing systems are always in top condition, preventing costly breakdowns in Burwood businesses.",
+      "points": [
+        "Preventative maintenance",
+        "ISO-certified processes",
+        "Minimise downtime"
+      ]
+    },
+    {
+      "title": "24/7 Emergency Plumbing",
+      "desc": "Immediate response for urgent plumbing issues in Burwood.",
+      "longDesc": "We offer round-the-clock emergency plumbing services to Burwood businesses, ensuring rapid solutions to minimise disruption and damage.",
+      "points": [
+        "Available 24/7",
+        "Rapid response times",
+        "Expert emergency repairs"
+      ]
+    },
+    {
+      "title": "Hydraulic System Services",
+      "desc": "Specialised hydraulic plumbing for commercial buildings.",
+      "longDesc": "Gallant Plumbing provides expert hydraulic system installation, repair, and maintenance, crucial for high-rise and complex Burwood properties.",
+      "points": [
+        "Licensed hydraulic experts",
+        "System optimisation",
+        "Compliance with standards"
+      ]
+    },
+    {
+      "title": "Backflow Prevention & Testing",
+      "desc": "Certified backflow testing and prevention services.",
+      "longDesc": "Ensure compliance with Australian standards with our certified backflow prevention and testing services, essential for Burwood's water safety.",
+      "points": [
+        "Annual testing",
+        "Certified prevention devices",
+        "Regulatory compliance"
+      ]
+    },
+    {
+      "title": "Grease Trap Installation & Maintenance",
+      "desc": "Commercial kitchen grease management solutions.",
+      "longDesc": "For Burwood restaurants and cafes, we install and maintain grease traps to prevent blockages and comply with local health regulations.",
+      "points": [
+        "Professional installation",
+        "Regular maintenance plans",
+        "Avoid costly blockages"
+      ]
+    },
+    {
+      "title": "Sewer and Drainage Solutions",
+      "desc": "Clearing and repair of sewer systems in Burwood.",
+      "longDesc": "Our team handles sewer and drainage issues efficiently, from blockages to full replacements, ensuring Burwood businesses stay operational.",
+      "points": [
+        "CCTV inspections",
+        "Trenchless repairs",
+        "Preventative solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Burwood?",
+  "bannerSubheading": "Gallant Plumbing is here to help 24/7.",
+  "testimonialsHeading": "What Burwood Clients Say",
+  "testimonialsSubheading": "Trusted by local businesses",
+  "blogHeading": "Burwood Plumbing Tips & Guides",
+  "blogSubheading": "Expert advice from your local team",
+  "contactHeading": "Contact Gallant Plumbing in Burwood",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Gallant Plumbing has maintained our commercial property in Burwood for years. Their 24/7 service and ISO certification give us peace of mind with every call-out.",
+      "name": "John Smith",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "When we had an emergency hydraulic issue, Gallant responded immediately in Burwood. Their expertise saved us from significant downtime and costly repairs.",
+      "name": "Sarah Johnson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Reliable and professional commercial plumbers in Burwood. Their maintenance programs are top-notch, always on time, and keep our systems running smoothly.",
+      "name": "Michael Brown",
+      "role": "Burwood Property Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Burwood",
+    "Camberwell",
+    "Glen Waverley",
+    "Box Hill",
+    "Ashburton",
+    "Blackburn",
+    "Mount Waverley"
+  ],
+  "pricing": {
+    "intro": "At Gallant Plumbing, we offer transparent pricing for all commercial plumbing services in Burwood. No lock-in contracts — just honest, upfront quotes.",
+    "packages": [
+      {
+        "name": "Call-Out & Diagnosis",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Commercial Job",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Comprehensive service",
+          "ISO-certified work",
+          "24/7 support included",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project & Installation",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full hydraulic solutions",
+          "Project management",
+          "Compliance certification"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs."
+  },
+  "contact": {
+    "intro": "Ready to discuss your commercial plumbing needs in Burwood? Contact Gallant Plumbing today for a free, no-obligation quote."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Commercial Plumbing Maintenance Cost in Burwood?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting commercial plumbing maintenance costs in Burwood and how to budget effectively for your business.",
+      "body": [
+        "Commercial plumbing maintenance in Burwood involves various costs influenced by property size, system complexity, and service frequency. For Burwood businesses, regular maintenance is crucial to prevent costly emergencies, especially with aging infrastructure in the area. Factors like pipe material, fixture age, and hydraulic system demands play a role. On average, Burwood commercial properties might spend between $500 and $3,000 annually, depending on whether it's a small cafe or a large office complex. Understanding these variables helps in planning budgets that align with local standards and Australian building codes.",
+        "In Burwood, the climate and local regulations also impact maintenance costs. For instance, hard water in some areas can accelerate pipe wear, requiring more frequent checks. Gallant Plumbing, with over 103 years of experience, provides tailored maintenance plans that consider Burwood's specific challenges, such as high-rise drainage systems. Our ISO-certified services ensure compliance with safety and environmental policies, which can influence pricing but offer long-term savings by avoiding fines and breakdowns. Always request detailed quotes from licensed plumbers in Burwood to compare services.",
+        "Choosing the right maintenance package for your Burwood business depends on your operations. For restaurants, grease trap maintenance might add $200 to $500 per quarter, while offices might focus on backflow testing at around $150 annually. Gallant Plumbing recommends starting with a thorough assessment to identify high-priority areas. Local factors like Burwood's proximity to waterways might necessitate additional backflow prevention measures, adding to costs but ensuring regulatory compliance. Our team can help prioritise services based on your budget and risk assessment.",
+        "When budgeting for plumbing maintenance in Burwood, consider the long-term benefits of preventative care. Studies show that businesses in Melbourne's eastern suburbs, including Burwood, can save up to 30% on emergency repairs by investing in regular upkeep. Gallant Plumbing's maintenance plans include detailed reports and recommendations, helping you stay ahead of issues. We also offer flexible scheduling to minimise disruption to your Burwood operations. Remember, cutting corners on maintenance can lead to higher costs down the line, so it's wise to allocate funds accordingly.",
+        "To get accurate cost estimates for commercial plumbing maintenance in Burwood, contact local experts like Gallant Plumbing. We provide free initial consultations to assess your needs and offer transparent pricing. Our services cover everything from routine inspections to complex hydraulic system checks, all tailored to Burwood's commercial landscape. By partnering with a trusted provider, you ensure your business remains operational and compliant, avoiding unexpected expenses. In summary, understanding cost factors and choosing the right partner are key to effective budgeting in Burwood.",
+        "In conclusion, commercial plumbing maintenance costs in Burwood vary but are essential for business continuity. With Gallant Plumbing's expertise, you can navigate these costs confidently. Our commitment to quality and local knowledge makes us the ideal choice for Burwood businesses looking to maintain their plumbing assets efficiently. Always factor in local conditions and regulations when planning your budget, and don't hesitate to seek professional advice to optimise your spending."
+      ]
+    },
+    {
+      "title": "Emergency Plumbing Tips for Burwood Businesses",
+      "date": "February 2026",
+      "excerpt": "What to do when you have a plumbing emergency in your Burwood commercial property to minimise damage and costs.",
+      "body": [
+        "A plumbing emergency in a Burwood business can be stressful, but knowing the right steps can mitigate damage. First, shut off the main water valve to stop flooding, which is crucial in Burwood's commercial buildings where water damage can be extensive. Assess the situation safely without attempting repairs yourself. Contact a licensed emergency plumber like Gallant Plumbing immediately—we offer 24/7 services in Burwood with rapid response times. Document the issue with photos for insurance purposes, and inform tenants or staff to ensure safety.",
+        "In Burwood, common emergencies include burst pipes, sewer backups, and hydraulic system failures. For burst pipes, isolate the affected area by turning off local valves if possible. In cold months, though rare in Melbourne, pipe bursts can occur due to sudden temperature drops. Sewer backups, often from grease or debris, require immediate attention to prevent health hazards. Gallant Plumbing's team is trained to handle these issues efficiently in Burwood, using advanced tools like CCTV inspections to diagnose problems quickly and accurately.",
+        "When dealing with an emergency plumber in Burwood, ensure they are licensed and insured. Ask for a rough cost estimate over the phone to avoid surprises. Gallant Plumbing provides upfront pricing even in emergencies, so you know what to expect. We prioritise Burwood businesses, aiming to arrive within the hour for urgent calls. While waiting, clear the area of valuables and use buckets to contain water. Avoid chemical drain cleaners, as they can worsen problems and are not recommended by Australian standards.",
+        "Preventive measures can reduce emergencies in Burwood. Regular maintenance, such as annual backflow testing and grease trap cleaning, helps avoid sudden failures. Gallant Plumbing offers maintenance packages tailored to Burwood's needs, ensuring systems are checked and optimised. For high-rise buildings in Burwood, hydraulic system checks are essential due to increased pressure and complexity. Investing in these services can save time and money in the long run by preventing costly disruptions to your business operations.",
+        "After an emergency, it's vital to follow up with a full assessment and repairs. Gallant Plumbing provides detailed reports and recommendations for your Burwood property, addressing both immediate fixes and underlying issues. We work with you to schedule repairs at convenient times to minimise business downtime. Our ISO-certified processes ensure all work meets Australian standards for safety and quality. Document all actions taken and keep records for insurance and future reference.",
+        "In summary, handling a plumbing emergency in Burwood involves quick action, professional help, and preventive planning. Gallant Plumbing is your trusted partner for 24/7 emergency services, offering expertise and reliability to Burwood businesses. By following these tips and partnering with a local expert, you can navigate emergencies confidently and keep your operations running smoothly."
+      ]
+    },
+    {
+      "title": "The Importance of Backflow Prevention Testing in Burwood",
+      "date": "January 2026",
+      "excerpt": "Why regular backflow testing is crucial for compliance and safety in Burwood's commercial plumbing systems.",
+      "body": [
+        "Backflow prevention testing is a legal requirement for commercial properties in Burwood, ensuring water safety and compliance with Australian standards. Backflow occurs when contaminated water reverses into the clean supply, posing health risks. In Burwood, with its mix of residential and commercial areas, regular testing is vital to protect the community. Gallant Plumbing, as an ISO-certified provider, offers certified testing services that meet local regulations, helping Burwood businesses avoid fines and maintain safe operations.",
+        "In Burwood, backflow devices are common in buildings with irrigation systems, fire sprinklers, or industrial equipment. The Australian Building Code and local councils mandate annual testing by licensed plumbers. Failure to comply can result in penalties and water supply disruptions. Gallant Plumbing's team is familiar with Burwood's specific requirements and can efficiently test devices like reduced pressure zone assemblies. Our testing includes detailed reports submitted to relevant authorities, ensuring your Burwood property remains compliant.",
+        "The process of backflow testing involves checking devices for leaks, corrosion, and proper function. In Burwood, factors like water pressure fluctuations and aging infrastructure can affect device performance. Gallant Plumbing uses calibrated tools to perform accurate tests, identifying issues early. For example, in Burwood's commercial kitchens, backflow preventers are critical to avoid cross-contamination from sinks and appliances. Regular testing not only ensures compliance but also extends the lifespan of your plumbing systems.",
+        "Burwood businesses should schedule backflow testing during low-traffic periods to minimise disruption. Gallant Plumbing offers flexible appointments to accommodate your schedule. We recommend setting up annual reminders and maintenance contracts to stay on top of requirements. In Burwood, where seasonal changes can impact water systems, testing before summer or winter helps prepare for extreme conditions. Our experts can advise on any additional steps needed based on your property's specific setup.",
+        "The benefits of backflow prevention testing in Burwood extend beyond compliance. It safeguards your business's reputation by ensuring clean water for employees and customers. In industries like hospitality or healthcare, this is particularly important. Gallant Plumbing's testing services include recommendations for upgrades or repairs, helping you invest wisely in your Burwood property's plumbing health. By prioritising backflow prevention, you contribute to community safety and avoid potential legal issues.",
+        "In conclusion, regular backflow prevention testing is essential for Burwood commercial properties to meet Australian standards and ensure safety. Gallant Plumbing provides reliable, certified testing services tailored to Burwood's needs. Partner with us to maintain compliance and protect your business from the risks associated with backflow incidents."
+      ]
+    },
+    {
+      "title": "Grease Trap Maintenance for Burwood Restaurants",
+      "date": "December 2025",
+      "excerpt": "Essential maintenance tips to keep grease traps functioning and avoid blockages in Burwood's commercial kitchens.",
+      "body": [
+        "Grease trap maintenance is critical for Burwood restaurants to prevent blockages and comply with local health regulations. Grease traps capture fats, oils, and grease from kitchen wastewater, but without regular cleaning, they can overflow and cause sewer backups. In Burwood, where the restaurant scene is vibrant, proper maintenance avoids costly repairs and health code violations. Gallant Plumbing offers specialised services for Burwood establishments, ensuring grease traps are efficiently maintained.",
+        "The frequency of grease trap cleaning depends on your restaurant's size and output. For Burwood cafes, monthly cleaning might suffice, while larger restaurants may need quarterly service. Gallant Plumbing assesses your usage and recommends a schedule tailored to Burwood's standards. We use professional pumping equipment to remove accumulated grease, preventing foul odours and pipe corrosion. Regular maintenance also helps in Burwood's older buildings where drainage systems are more prone to issues.",
+        "Signs that your Burwood restaurant's grease trap needs attention include slow drains, gurgling sounds, or foul smells. Ignoring these can lead to severe blockages that disrupt business. Gallant Plumbing's team is available for emergency cleanings in Burwood, but preventive care is more cost-effective. We educate Burwood staff on best practices, like avoiding pouring grease down drains and scraping plates before washing. Simple habits can extend the time between professional services.",
+        "Compliance with Burwood council regulations requires documented grease trap maintenance. Gallant Plumbing provides certificates after each service, which you can present during inspections. In Victoria, including Burwood, non-compliance can result in fines and closure notices. Our ISO-certified processes ensure all work meets environmental standards, protecting Burwood's waterways from pollution. We also offer installation services for new grease traps, selecting the right size for your Burwood kitchen's needs.",
+        "Investing in regular grease trap maintenance for your Burwood restaurant has long-term benefits. It prevents expensive emergency call-outs and extends the life of your plumbing system. Gallant Plumbing uses eco-friendly methods where possible, aligning with Burwood's sustainability goals. By partnering with us, you ensure your restaurant runs smoothly and maintains a good reputation in the local community.",
+        "In summary, grease trap maintenance is a key aspect of running a successful restaurant in Burwood. Gallant Plumbing provides expert services to keep your systems compliant and efficient. Contact us for a customised maintenance plan that suits your Burwood establishment's requirements."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Gallant Plumbing | Plumber in Burwood | Commercial Services",
+      "description": "Gallant Plumbing provides 24/7 commercial plumbing maintenance in Burwood. ISO certified with 103+ years experience. Get a free quote today."
+    },
+    "about": {
+      "title": "About Gallant Plumbing | Burwood's Trusted Commercial Plumbers",
+      "description": "Learn about Gallant Plumbing, Burwood's ISO-certified commercial plumbing experts with over 103 years of local experience."
+    },
+    "services": {
+      "title": "Commercial Plumbing Services in Burwood | Gallant Plumbing",
+      "description": "From emergency repairs to hydraulic systems, Gallant Plumbing offers full commercial plumbing services in Burwood."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Quotes Burwood | Gallant Plumbing",
+      "description": "Transparent pricing for commercial plumbing in Burwood. No lock-in contracts, upfront fixed quotes."
+    },
+    "contact": {
+      "title": "Contact Gallant Plumbing | Free Burwood Plumber Quotes",
+      "description": "Get in touch with Gallant Plumbing in Burwood for free, no-obligation quotes on commercial plumbing services."
+    },
+    "blog": {
+      "title": "Burwood Plumbing Blog | Tips & Guides | Gallant Plumbing",
+      "description": "Expert plumbing advice for Burwood businesses. Tips on maintenance, costs, and emergency solutions."
+    }
+  }
+}
