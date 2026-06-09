@@ -1,0 +1,298 @@
+{
+  "siteType": "carpenter",
+  "businessName": "CSC Building Services",
+  "suburb": "Hampton",
+  "phone": "0425726960",
+  "email": "info@cscbuildingservices.com",
+  "address": "221 Thomas Street, Hampton VIC 3188",
+  "tagline": "Hampton's Home Improvement Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hampton's Home Extension Specialists",
+      "sub": "Seamless expansions tailored to your space"
+    },
+    {
+      "title": "Window & Door Replacements",
+      "sub": "Quality fittings for Hampton homes"
+    },
+    {
+      "title": "Bathroom Renovations Done Right",
+      "sub": "Transform your space with expert craftsmanship"
+    }
+  ],
+  "ctaHeading": "Hampton's carpentry team is ready — let's build your dream home.",
+  "aboutHeading": "Trusted Carpentry in Hampton",
+  "aboutSubheading": "Expert home improvements since 2010",
+  "aboutText": "CSC Building Services has been serving Hampton and the Bayside community with expert carpentry for over a decade. We specialise in home extensions, window and door replacements, and bathroom renovations. Our team delivers durable craftsmanship backed by transparency and customer satisfaction. Let us help you turn your house into the dream home you've always imagined.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Crafted for Hampton homes",
+  "servicesText": "From home extensions to bathroom renovations, CSC Building Services offers a full range of carpentry solutions in Hampton. We use high-quality materials and ensure every project meets Australian standards for lasting results.",
+  "services": [
+    {
+      "title": "Home Extensions in Hampton",
+      "desc": "Expand your living space with seamless home extensions tailored to Hampton homes.",
+      "longDesc": "Our expert team designs and builds home extensions that blend perfectly with your existing structure, adhering to Hampton's building regulations and your personal style.",
+      "points": [
+        "Seamless integration",
+        "Quality materials",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Window Replacements",
+      "desc": "Professional window replacements to enhance energy efficiency and aesthetics.",
+      "longDesc": "We supply and install high-performance windows suited to Melbourne's climate, ensuring improved insulation and style for your Hampton property.",
+      "points": [
+        "Energy-efficient",
+        "Custom fits",
+        "Noise reduction"
+      ]
+    },
+    {
+      "title": "Door Replacements",
+      "desc": "Upgrade your home with new doors for better security and curb appeal.",
+      "longDesc": "Our door replacement services include a wide range of styles and materials, providing Hampton homeowners with durable and attractive options.",
+      "points": [
+        "Enhanced security",
+        "Variety of styles",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Transform your bathroom with modern designs and expert craftsmanship.",
+      "longDesc": "We handle complete bathroom renovations in Hampton, from layout planning to fixture installation, using quality materials for a stunning finish.",
+      "points": [
+        "Custom designs",
+        "Waterproofing",
+        "Timely completion"
+      ]
+    },
+    {
+      "title": "Custom Carpentry",
+      "desc": "Bespoke carpentry solutions for unique home improvement projects.",
+      "longDesc": "From built-in shelving to custom furniture, our skilled carpenters in Hampton create tailored pieces that fit your space and lifestyle perfectly.",
+      "points": [
+        "Personalised designs",
+        "Precision craftsmanship",
+        "Durable finishes"
+      ]
+    },
+    {
+      "title": "Property Maintenance",
+      "desc": "Reliable maintenance services to keep your Hampton property in top condition.",
+      "longDesc": "We offer ongoing carpentry maintenance for homes and businesses in Hampton, including repairs, touch-ups, and preventative care.",
+      "points": [
+        "Regular upkeep",
+        "Prompt repairs",
+        "Cost-effective"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Hampton?",
+  "bannerSubheading": "Get a free quote for your home project today.",
+  "testimonialsHeading": "What Hampton Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Hampton Carpentry Tips & Guides",
+  "blogSubheading": "Expert advice from your local carpenters",
+  "contactHeading": "Contact CSC Building Services",
+  "contactSubheading": "We're here to help with your carpentry needs",
+  "reviews": [
+    {
+      "text": "CSC Building Services did an excellent job on our bathroom renovation in Hampton. The team was professional, and the result is stunning – highly recommend for quality work.",
+      "name": "Sarah Mitchell",
+      "role": "Hampton Homeowner"
+    },
+    {
+      "text": "We had new windows installed by CSC and they were fantastic. Great service, timely completion, and perfect for our Hampton business premises.",
+      "name": "James Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Our home extension was handled smoothly by CSC Building Services. They delivered exactly what we wanted in Hampton, with transparent pricing and expert craftsmanship.",
+      "name": "Emily Watson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Hampton",
+    "Hampton East",
+    "Brighton",
+    "Moorabbin",
+    "Highett",
+    "Sandringham",
+    "Black Rock"
+  ],
+  "about": {
+    "intro": "CSC Building Services is a trusted carpentry business based in Hampton, specialising in home extensions, window and door replacements, and bathroom renovations.",
+    "story": [
+      "Founded in 2010, CSC Building Services has grown to become a leading carpenter in Hampton, driven by a passion for quality craftsmanship and customer satisfaction. Our team of licensed professionals brings decades of combined experience to every project, ensuring durable and stylish results.",
+      "We understand the unique needs of Hampton homeowners, from complying with local building codes to adapting designs for Melbourne's climate. Our commitment to transparency means no hidden costs – just honest advice and upfront quotes for every carpentry job."
+    ],
+    "mission": "To deliver exceptional carpentry services to Hampton homeowners with integrity, precision, and a focus on lasting value.",
+    "whyUs": [
+      {
+        "title": "Expert Craftsmanship",
+        "text": "Our skilled carpenters ensure every project is built to last with attention to detail."
+      },
+      {
+        "title": "Local Knowledge",
+        "text": "We understand Hampton's unique building needs and regulations for seamless projects."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden costs – get upfront fixed quotes for your peace of mind."
+      },
+      {
+        "title": "Customer Focused",
+        "text": "We work closely with you to bring your vision to life, from start to finish."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At CSC Building Services, we offer competitive pricing for all carpentry projects in Hampton. No lock-in contracts – just honest, upfront quotes tailored to your needs.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Job",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Quality materials",
+          "Professional installation",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $10,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom design",
+          "Full project management",
+          "Premium finishes"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your project? Contact CSC Building Services for a free quote on carpentry services in Hampton and surrounding areas."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in Hampton?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting home extension costs in Hampton, including materials, labour, and local regulations for a seamless project.",
+      "body": [
+        "Home extensions are a popular way for Hampton homeowners to add space without moving, but costs can vary widely based on size, design, and materials. In Hampton, typical projects range from $200,000 to $500,000, depending on whether you're adding a room, extending the ground floor, or building upwards. Factors like site access, soil type, and compliance with Hampton's local planning schemes can influence the final price, so it's essential to get a detailed quote from a licensed carpenter like CSC Building Services.",
+        "Materials play a significant role in the cost of home extensions in Hampton. Using high-quality timber, insulation, and finishes not only ensures durability but also affects the overall budget. For example, choosing double-glazed windows can improve energy efficiency, reducing long-term costs in Melbourne's variable climate. Labour costs in the Bayside area are competitive, but skilled carpenters may charge more for their expertise, so balancing quality and affordability is key for Hampton residents.",
+        "Local regulations in Hampton require compliance with the Victorian Building Authority (VBA) standards, which can add to the cost through permits and inspections. Homeowners should factor in fees for council approvals, especially if the extension impacts boundaries or heritage overlays. Working with a local carpenter familiar with Hampton's requirements can streamline this process, avoiding delays and unexpected expenses that could blow out your budget.",
+        "The best time to start a home extension in Hampton is during the drier months, typically from October to April, to avoid weather-related delays. Melbourne's winters can bring rain and cold, which might affect construction timelines and costs. Planning ahead with a professional team ensures that your extension is completed efficiently, with minimal disruption to your daily life in Hampton.",
+        "To save on costs, consider phased construction or simpler designs that maximise existing space. For instance, converting a garage or attic in Hampton can be more affordable than a full extension. Always obtain multiple quotes from reputable carpenters and check references to ensure quality workmanship without overspending.",
+        "In summary, the cost of a home extension in Hampton depends on multiple factors, but with careful planning and a trusted local carpenter, you can achieve your dream space within budget. Contact CSC Building Services for a personalised quote tailored to your Hampton property."
+      ]
+    },
+    {
+      "title": "Best Time for Window Replacements in Melbourne's Bayside",
+      "date": "February 2026",
+      "excerpt": "Learn why timing matters for window replacements in Hampton and how Melbourne's climate affects the process and costs.",
+      "body": [
+        "Window replacements are crucial for Hampton homes to improve energy efficiency and comfort, but timing the project right can make a big difference. In Melbourne's Bayside area, the best time for window replacements is during the milder autumn or spring months, from March to May or September to November. These periods offer stable weather with less rain, allowing for efficient installation without the extremes of summer heat or winter cold.",
+        "Melbourne's climate can cause windows to expand or contract, affecting the seal and installation process. In summer, high temperatures might lead to gaps if not properly fitted, while winter's chill can make materials brittle. For Hampton homeowners, choosing a time when temperatures are moderate ensures that windows like double-glazed units perform optimally, reducing energy bills and enhancing indoor comfort year-round.",
+        "Cost considerations also play into timing, as demand for carpenters in the Bayside area peaks during spring and summer. Booking window replacements in Hampton during off-peak seasons like late autumn can sometimes yield better pricing or faster service. Always factor in local events or holidays that might affect availability, and plan ahead to secure a slot with a reputable service like CSC Building Services.",
+        "Hampton's proximity to the coast means salt air and humidity can impact window materials, so using corrosion-resistant options like aluminum or uPVC is wise. The installation process typically takes a few hours per window, but whole-house replacements might require a day or two. Ensuring that your carpenter follows Australian standards for glazing and insulation will maximise the benefits in Melbourne's variable weather.",
+        "Before starting, check for any Hampton council regulations regarding window sizes or styles, especially in heritage areas. Upgrading to energy-efficient windows not only improves comfort but may qualify for rebates or incentives, offsetting some costs. Consult with local experts to navigate these aspects seamlessly.",
+        "Ultimately, timing your window replacements in Hampton around Melbourne's climate and local factors ensures a smooth project with lasting results. Reach out to CSC Building Services for advice tailored to your Bayside home."
+      ]
+    },
+    {
+      "title": "Bathroom Renovation Ideas for Hampton Homes",
+      "date": "January 2026",
+      "excerpt": "Explore trendy and practical bathroom renovation ideas suited to Hampton's style and Melbourne's building standards.",
+      "body": [
+        "Bathroom renovations are a fantastic way to refresh Hampton homes, combining functionality with modern aesthetics. Popular ideas include minimalist designs with clean lines, neutral colour palettes, and space-saving fixtures that suit the compact spaces often found in Bayside properties. Incorporating natural light through skylights or frosted windows can make small Hampton bathrooms feel larger and more inviting.",
+        "For Hampton homeowners, considering Melbourne's water regulations is essential during renovations. Installing water-efficient fixtures like low-flow toilets and showerheads not only reduces bills but complies with local standards. Materials such as ceramic tiles or waterproof composites are ideal for withstanding humidity and ensuring durability in Hampton's coastal climate.",
+        "Layout optimisation is key in bathroom renovations, especially in older Hampton homes with limited space. Options like floating vanities or walk-in showers can enhance accessibility and style. Working with a skilled carpenter ensures that plumbing and electrical work are handled safely, adhering to Victorian building codes for a hassle-free project.",
+        "Budgeting for a bathroom renovation in Hampton typically ranges from $10,000 to $30,000, depending on the scope. Factors like tile selection, labour, and unexpected issues with old plumbing can affect costs. Getting a detailed quote from a local expert like CSC Building Services helps avoid surprises and keeps your project on track.",
+        "Trends in Hampton bathroom renovations often blend contemporary and classic elements, such as subway tiles with modern taps. For families, adding storage solutions or dual sinks can improve daily use. Always prioritise quality materials to ensure your renovation stands the test of time in Melbourne's variable conditions.",
+        "In conclusion, bathroom renovations in Hampton offer endless possibilities to enhance your home's value and comfort. With careful planning and professional guidance, you can create a space that reflects your style while meeting local standards."
+      ]
+    },
+    {
+      "title": "Why Choose Custom Carpentry for Your Hampton Home?",
+      "date": "December 2025",
+      "excerpt": "Discover the benefits of custom carpentry solutions for Hampton properties, from tailored designs to long-term value.",
+      "body": [
+        "Custom carpentry is an excellent choice for Hampton homeowners seeking unique solutions that off-the-shelf options can't provide. From built-in wardrobes to bespoke shelving, custom pieces are designed to fit your space perfectly, maximising functionality and aesthetic appeal. In Hampton's diverse housing styles, from period homes to modern builds, custom carpentry ensures a seamless integration with your existing decor.",
+        "One of the main advantages is the use of high-quality materials tailored to Melbourne's climate. For example, selecting hardwoods or engineered timber can resist moisture and temperature changes common in the Bayside area, extending the lifespan of your carpentry. A local expert like CSC Building Services understands these nuances, recommending options that balance beauty and durability for Hampton homes.",
+        "The process of custom carpentry involves close collaboration between you and the carpenter, starting with a consultation to understand your needs. In Hampton, where space might be at a premium, custom designs can optimise layouts for better flow and storage. This personalised approach ensures that every piece, from kitchen cabinets to outdoor decking, aligns with your lifestyle and budget.",
+        "Costs for custom carpentry in Hampton vary based on complexity and materials, but investing in quality workmanship pays off in the long run. Unlike mass-produced items, custom pieces often add value to your property, appealing to potential buyers in the competitive Melbourne real estate market. Always seek quotes from licensed carpenters to ensure transparency and avoid hidden fees.",
+        "Hampton's local regulations may influence custom carpentry projects, especially for structural changes or outdoor work. Working with a carpenter familiar with Victorian standards ensures compliance and smooth approvals. This local knowledge is invaluable for projects like deck builds or room dividers that need to meet safety codes.",
+        "In summary, choosing custom carpentry for your Hampton home offers tailored solutions, enhanced durability, and increased property value. With expert guidance from CSC Building Services, you can bring your vision to life with precision and care."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "CSC Building Services | Carpenter in Hampton | Extensions & Renovations",
+      "description": "Expert carpentry in Hampton. Home extensions, window replacements, bathroom renovations. Free quotes – call 0425726960 for quality craftsmanship."
+    },
+    "about": {
+      "title": "About CSC Building Services | Trusted Carpenter in Hampton",
+      "description": "Learn about CSC Building Services, Hampton's reliable carpentry experts with over a decade of local experience and quality results."
+    },
+    "services": {
+      "title": "Carpentry Services in Hampton | Extensions, Windows & Bathrooms",
+      "description": "Full range of carpentry services in Hampton. Home extensions, window replacements, bathroom renovations. Get a free quote today."
+    },
+    "pricing": {
+      "title": "Carpentry Costs in Hampton | CSC Building Services Pricing",
+      "description": "Transparent pricing for carpentry in Hampton. No lock-in quotes – call 0425726960 for upfront costs on extensions and renovations."
+    },
+    "contact": {
+      "title": "Contact CSC Building Services | Free Hampton Carpenter Quotes",
+      "description": "Get in touch with CSC Building Services for a free quote on carpentry projects in Hampton and surrounding Bayside suburbs."
+    },
+    "blog": {
+      "title": "Hampton Carpentry Blog | Local Trade Tips & Cost Guides",
+      "description": "Expert carpentry advice for Hampton homeowners. Guides on extensions, window replacements, and bathroom renovations in Melbourne."
+    }
+  }
+}
