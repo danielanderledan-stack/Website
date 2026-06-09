@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing | Complete Digital</title>
+  <meta name="description" content="Transparent pricing for Melbourne tradies. Build your digital plan — website, domain, AI tools, SMS automation and payments. Weekly billing, no lock-in." />
+  <link rel="canonical" href="https://completedigital.com.au/pricing.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" /></noscript>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    /* ── Pricing page ───────────────────────────────────────────── */
+
+    .pc-hero {
+      position: relative;
+      padding: 160px 24px 72px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .pc-hero .hero-bg { z-index: 0; }
+    .pc-hero-copy {
+      position: relative;
+      z-index: 1;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .pc-hero .headline {
+      font-size: clamp(1.9rem, 6vw, 3rem);
+    }
+
+    /* ── Calculator layout ──────────────────────────────────────── */
+    .pc-section { padding: 0 20px 96px; }
+    .pc-wrap {
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    /* ── Option rows ────────────────────────────────────────────── */
+    .pc-options { border-top: 1px solid var(--line); }
+
+    .pc-row { border-bottom: 1px solid var(--line); }
+
+    .pc-row-main {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 18px 0;
+    }
+
+    .pc-name {
+      flex: 1;
+      font-weight: 600;
+      font-size: 0.97rem;
+      color: var(--navy);
+      transition: opacity 0.2s;
+    }
+
+    .pc-row.is-locked .pc-name { opacity: 0.4; }
+
+    /* ── Help (?) button ────────────────────────────────────────── */
+    .pc-help {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(72,202,228,0.55);
+      background: transparent;
+      color: var(--theme-deep);
+      font-size: 0.72rem;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .pc-help:hover,
+    .pc-row.tip-open .pc-help {
+      background: rgba(72,202,228,0.15);
+      border-color: var(--theme);
+    }
+
+    /* ── Price + toggle ─────────────────────────────────────────── */
+    .pc-row-right {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
+    }
+
+    .pc-price {
+      min-width: 56px;
+      text-align: right;
+      font-weight: 700;
+      font-size: 0.93rem;
+      font-family: 'Outfit', sans-serif;
+      color: var(--navy);
+      transition: color 0.2s;
+    }
+    .pc-price small {
+      font-size: 0.68rem;
+      font-weight: 500;
+      color: var(--ink-faint);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .pc-row:not(.is-active) .pc-price-weekly,
+    .pc-row:not(.is-active) .pc-price-percent {
+      color: var(--ink-faint);
+    }
+    .pc-row:not(.is-active) .pc-price-weekly small,
+    .pc-row:not(.is-active) .pc-price-percent small {
+      color: var(--ink-faint);
+    }
+
+    /* ── Toggle switch ──────────────────────────────────────────── */
+    .toggle-wrap {
+      position: relative;
+      width: 46px;
+      height: 26px;
+      flex-shrink: 0;
+    }
+    .toggle-wrap input[type="checkbox"] {
+      opacity: 0;
+      width: 0; height: 0;
+      position: absolute;
+    }
+    .toggle-slider {
+      position: absolute;
+      inset: 0;
+      border-radius: 999px;
+      background: rgba(10,37,64,0.12);
+      cursor: pointer;
+      transition: background 0.25s var(--ease-out);
+    }
+    .toggle-slider::after {
+      content: '';
+      position: absolute;
+      top: 3px; left: 3px;
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(10,37,64,0.2);
+      transition: transform 0.25s var(--ease-out);
+    }
+    .toggle-wrap input:checked + .toggle-slider { background: var(--theme); }
+    .toggle-wrap input:checked + .toggle-slider::after { transform: translateX(20px); }
+    .toggle-wrap input:disabled + .toggle-slider { opacity: 0.32; cursor: not-allowed; }
+
+    /* ── Requires note ──────────────────────────────────────────── */
+    .pc-req {
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--theme-deep);
+      margin: -8px 0 14px;
+      display: none;
+    }
+    .pc-req.visible { display: block; }
+
+    /* ── Tip panel ──────────────────────────────────────────────── */
+    .pc-tip {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.35s var(--ease-out);
+    }
+    .pc-row.tip-open .pc-tip { max-height: 280px; }
+
+    .pc-tip-inner {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 13px 15px;
+      margin-bottom: 16px;
+      font-size: 0.86rem;
+      line-height: 1.65;
+      color: var(--navy-soft);
+    }
+    .pc-tip-inner strong { color: var(--navy); font-weight: 600; }
+    .pc-tip-inner em { font-style: normal; color: var(--ink-faint); }
+
+    /* ── Enable all ─────────────────────────────────────────────── */
+    .pc-enable-wrap { padding: 22px 0 0; }
+
+    .pc-enable-all {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 13px 18px;
+      border-radius: 12px;
+      border: 1.5px solid rgba(72,202,228,0.42);
+      background: rgba(72,202,228,0.06);
+      color: var(--navy);
+      font-weight: 600;
+      font-size: 0.94rem;
+      font-family: 'Outfit', sans-serif;
+      cursor: pointer;
+      transition: background 0.22s, border-color 0.22s;
+    }
+    .pc-enable-all:hover {
+      background: rgba(72,202,228,0.12);
+      border-color: var(--theme);
+    }
+    .pc-enable-all.active {
+      background: rgba(72,202,228,0.14);
+      border-color: var(--theme-deep);
+    }
+
+    .pc-save-badge {
+      font-size: 0.76rem;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+      background: var(--theme);
+      color: var(--navy);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+    .pc-enable-all.active .pc-save-badge {
+      background: var(--theme-deep);
+      color: #fff;
+    }
+
+    /* ── Free extras ────────────────────────────────────────────── */
+    .pc-free {
+      margin-top: 24px;
+      padding: 20px 0 22px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      animation: pcRise 0.4s var(--ease-out) both;
+    }
+
+    @keyframes pcRise {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .pc-free-head {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.74rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--theme-deep);
+      margin-bottom: 14px;
+    }
+    .pc-free-head svg { width: 13px; height: 13px; flex-shrink: 0; }
+
+    .pc-free-list {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .pc-free-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.89rem;
+      color: var(--navy-soft);
+    }
+    .pc-free-list li::before {
+      content: '';
+      display: block;
+      flex-shrink: 0;
+      width: 16px;
+      height: 16px;
+      margin-top: 1px;
+      border-radius: 50%;
+      border: 1.5px solid var(--theme);
+      background: rgba(72,202,228,0.1)
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 5l2.5 2.5L8 3' stroke='%2300a8cf' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E")
+        center/10px no-repeat;
+    }
+
+    /* ── Total ──────────────────────────────────────────────────── */
+    .pc-total { padding: 24px 0 18px; }
+
+    .pc-total-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .pc-total-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .pc-total-label {
+      font-size: 0.86rem;
+      color: var(--ink-faint);
+      font-weight: 500;
+    }
+
+    .pc-discount-note {
+      font-size: 0.79rem;
+      color: var(--theme-deep);
+      font-weight: 600;
+    }
+
+    .pc-total-amount {
+      font-size: 2.7rem;
+      font-weight: 800;
+      font-family: 'Outfit', sans-serif;
+      color: var(--navy);
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    .pc-total-unit {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--ink-faint);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .pc-payments-note {
+      font-size: 0.81rem;
+      color: var(--navy-soft);
+      margin-top: 6px;
+    }
+
+    /* ── CTA ────────────────────────────────────────────────────── */
+    .pc-cta {
+      padding-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .pc-cta .btn { justify-content: center; }
+    .pc-cta-note {
+      text-align: center;
+      font-size: 0.81rem;
+      color: var(--ink-faint);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav-wrap">
+    <nav class="nav-bubble" aria-label="Primary">
+      <a class="brand" href="/" aria-label="Complete Digital — Melbourne web design agency">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-name">Complete digital<span class="brand-ellipsis">…</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="/" class="nav-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="nav-icon"><path d="M3 11.2 12 4l9 7.2M5.5 9.6V20h13V9.6"/></svg>
+            <span>Home</span>
+          </a>
+        </li>
+        <li><a href="/design.html" class="nav-link">Design</a></li>
+        <li><a href="/seo.html" class="nav-link">SEO</a></li>
+        <li><a href="/about.html" class="nav-link">About</a></li>
+        <li><a href="/pricing.html" class="nav-link is-active">Pricing</a></li>
+        <li class="nav-links-cta">
+          <a href="/contact.html" class="nav-link nav-link-cta">
+            Get a quote
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </li>
+      </ul>
+
+      <a href="/contact.html" class="nav-cta">
+        Get a quote
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="pc-hero">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="grid"></span>
+      </div>
+      <div class="pc-hero-copy">
+        <span class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Transparent pricing
+        </span>
+        <h1 class="headline">
+          Build your plan.<br />
+          <span class="headline-accent">Pay only for what you need.</span>
+        </h1>
+        <p class="subhead">
+          Toggle on the services you want. Weekly billing, no lock-in, cancel any time.
+        </p>
+      </div>
+    </section>
+
+    <!-- Calculator -->
+    <section class="pc-section">
+      <div class="pc-wrap">
+
+        <div class="pc-options">
+
+          <!-- ① Website — always on, free -->
+          <div class="pc-row is-active" data-id="website">
+            <div class="pc-row-main">
+              <span class="pc-name">Website</span>
+              <button class="pc-help" type="button" aria-label="About Website">?</button>
+              <div class="pc-row-right">
+                <span class="pc-price">FREE</span>
+                <div class="toggle-wrap">
+                  <input type="checkbox" id="tog-website" checked disabled aria-label="Website — always included" />
+                  <label for="tog-website" class="toggle-slider"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pc-tip">
+              <div class="pc-tip-inner">
+                A clean, fast, mobile-first website hosted at <strong>tradie.melbourne/your-business-name</strong>. Includes your services, contact info, photos, a call button and a booking form. Built and maintained by us — no page builders, no subscriptions, zero ongoing cost.
+              </div>
+            </div>
+          </div>
+
+          <!-- ② Custom domain -->
+          <div class="pc-row" data-id="domain">
+            <div class="pc-row-main">
+              <span class="pc-name">Custom domain</span>
+              <button class="pc-help" type="button" aria-label="About Custom Domain">?</button>
+              <div class="pc-row-right">
+                <span class="pc-price pc-price-weekly">$5<small>/wk</small></span>
+                <div class="toggle-wrap">
+                  <input type="checkbox" id="tog-domain" aria-label="Enable Custom Domain" />
+                  <label for="tog-domain" class="toggle-slider"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pc-tip">
+              <div class="pc-tip-inner">
+                Your own web address — something like <strong>yourbusiness.com.au</strong> or <strong>yourbusiness.org</strong> instead of tradie.melbourne/yourbusiness. Looks more professional, builds trust with customers, and is required for branded email addresses and the AI spam filter. We handle registration, renewal and DNS — nothing for you to touch.
+              </div>
+            </div>
+          </div>
+
+          <!-- ③ AI spam filter — requires custom domain -->
+          <div class="pc-row is-locked" data-id="spam">
+            <div class="pc-row-main">
+              <span class="pc-name">AI spam filter</span>
+              <button class="pc-help" type="button" aria-label="About AI Spam Filter">?</button>
+              <div class="pc-row-right">
+                <span class="pc-price pc-price-weekly">$9<small>/wk</small></span>
+                <div class="toggle-wrap">
+                  <input type="checkbox" id="tog-spam" disabled aria-label="Enable AI Spam Filter" />
+                  <label for="tog-spam" class="toggle-slider"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pc-req visible" id="req-spam">Requires: Custom domain</div>
+            <div class="pc-tip">
+              <div class="pc-tip-inner">
+                AI reads every incoming message, email and form submission and filters out spam before it reaches you — fake quote requests, bots, cold sellers, junk leads. Only real customers get through. Works across your contact form and any email address on your custom domain. <strong>Requires a custom domain</strong> to attach to.
+              </div>
+            </div>
+          </div>
+
+          <!-- ④ Automatic SMS & email -->
+          <div class="pc-row" data-id="sms">
+            <div class="pc-row-main">
+              <span class="pc-name">Automatic SMS &amp; email</span>
+              <button class="pc-help" type="button" aria-label="About Automatic SMS and Email">?</button>
+              <div class="pc-row-right">
+                <span class="pc-price pc-price-weekly">$18<small>/wk</small></span>
+                <div class="toggle-wrap">
+                  <input type="checkbox" id="tog-sms" aria-label="Enable Automatic SMS and Email" />
+                  <label for="tog-sms" class="toggle-slider"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pc-tip">
+              <div class="pc-tip-inner">
+                Automates the admin that eats your evenings. Chases reviews after every job. Replies to new leads in under 30 seconds. Handles re-booking reminders, cancellation follow-ups and customer inquiries — all in your tone, with your name. Built on our own backend, not stitched together from third-party apps.
+              </div>
+            </div>
+          </div>
+
+          <!-- ⑤ Auto customer quoting -->
+          <div class="pc-row" data-id="quoting">
+            <div class="pc-row-main">
+              <span class="pc-name">Auto customer quoting</span>
+              <button class="pc-help" type="button" aria-label="About Auto Customer Quoting">?</button>
+              <div class="pc-row-right">
+                <span class="pc-price pc-price-weekly">$24<small>/wk</small></span>
+                <div class="toggle-wrap">
+                  <input type="checkbox" id="tog-quoting" aria-label="Enable Auto Customer Quoting" />
+                  <label for="tog-quoting" class="toggle-slider"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pc-tip">
+              <div class="pc-tip-inner">
+                AI builds a quote for each job factoring in the customer's suburb (house value, distance from you), job type, difficulty, material costs and your desired hourly rate. The quote goes out before they ring someone else. You can review and approve each one, adjust the numbers, or let it run fully automatic. No more underselling. No more slow turnaround.
+              </div>
+            </div>
+          </div>
+
+          <!-- ⑥ Digital payments -->
+          <div class="pc-row" data-id="payments">
+            <div class="pc-row-main">
+              <span class="pc-name">Digital payments</span>
+              <button class="pc-help" type="button" aria-label="About Digital Payments">?</button>
+              <div class="pc-row-right">
+                <span class="pc-price pc-price-percent">4%<small>/sale</small></span>
+                <div class="toggle-wrap">
+                  <input type="checkbox" id="tog-payments" aria-label="Enable Digital Payments" />
+                  <label for="tog-payments" class="toggle-slider"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pc-tip">
+              <div class="pc-tip-inner">
+                Accept card, Apple Pay and bank transfer directly through your website or via a payment link you send to customers. The 4% covers all bank and processing fees — you keep 96 cents in every dollar, no hidden charges. Invoices are generated and tracked automatically. No extra apps, no separate merchant account needed.
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /pc-options -->
+
+        <!-- Enable all -->
+        <div class="pc-enable-wrap">
+          <button class="pc-enable-all" id="enableAllBtn" type="button">
+            <span id="enableAllLabel">Enable all</span>
+            <span class="pc-save-badge">Save 10%</span>
+          </button>
+        </div>
+
+        <!-- Free extras (shown when any paid service is active) -->
+        <div class="pc-free" id="freeExtras" style="display:none">
+          <div class="pc-free-head">
+            <svg viewBox="0 0 12 12" aria-hidden="true" fill="currentColor">
+              <path d="M6 0l1.3 3.9H11l-3 2.2 1.1 3.9L6 7.7l-3.1 2.3L4 6.1 1 3.9h3.7z"/>
+            </svg>
+            Also included — for free
+          </div>
+          <ul class="pc-free-list">
+            <li>Importing your products (tools, equipment, parts lists)</li>
+            <li>Importing your branded assets (van signs, uniforms, merch)</li>
+            <li>Tech support from a real human, not a chatbot</li>
+            <li>Unlimited website changes, any time</li>
+            <li>Faster turnaround on all updates</li>
+            <li>Better SEO foundations built into every page</li>
+          </ul>
+        </div>
+
+        <!-- Total -->
+        <div class="pc-total">
+          <div class="pc-total-row">
+            <div class="pc-total-meta">
+              <span class="pc-total-label">Weekly total</span>
+              <span class="pc-discount-note" id="discountNote" style="display:none">10% bundle discount applied</span>
+            </div>
+            <span class="pc-total-amount" id="totalAmount">$0<span class="pc-total-unit">/wk</span></span>
+          </div>
+          <p class="pc-payments-note" id="paymentsNote" style="display:none">+ 4% per transaction (digital payments)</p>
+        </div>
+
+        <!-- CTA -->
+        <div class="pc-cta">
+          <a href="/contact.html" class="btn btn-primary">
+            Get started
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <p class="pc-cta-note">No lock-in contracts · Cancel any time</p>
+        </div>
+
+      </div><!-- /pc-wrap -->
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <address class="footer-address">
+        <strong class="footer-brand">Complete Digital</strong>
+        <span>Web design agency — Bayside Melbourne</span>
+        <span>Black Rock VIC 3193</span>
+        <div class="footer-links">
+          <a href="tel:+61432839654">0432 839 654</a>
+          <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a>
+        </div>
+      </address>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="/design.html">Design</a>
+        <a href="/seo.html">SEO</a>
+        <a href="/about.html">About</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/contact.html">Get a quote</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/script.js" defer></script>
+  <script>
+    (function () {
+      'use strict';
+
+      var PRICES = { domain: 5, spam: 9, sms: 18, quoting: 24 };
+      var PAID_IDS = ['domain', 'spam', 'sms', 'quoting', 'payments'];
+
+      function tog(id) {
+        return document.getElementById('tog-' + id);
+      }
+      function row(id) {
+        return document.querySelector('[data-id="' + id + '"]');
+      }
+
+      /* ── Tip panels ──────────────────────────────────────── */
+      document.querySelectorAll('.pc-help').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var r = btn.closest('.pc-row');
+          var wasOpen = r.classList.contains('tip-open');
+          document.querySelectorAll('.pc-row.tip-open').forEach(function (el) {
+            el.classList.remove('tip-open');
+          });
+          if (!wasOpen) r.classList.add('tip-open');
+        });
+      });
+
+      /* ── Domain → spam dependency ────────────────────────── */
+      function syncSpam() {
+        var domainOn = tog('domain').checked;
+        var spamTog = tog('spam');
+        var spamRow = row('spam');
+        var req = document.getElementById('req-spam');
+        if (domainOn) {
+          spamTog.disabled = false;
+          spamRow.classList.remove('is-locked');
+          req.classList.remove('visible');
+        } else {
+          spamTog.checked = false;
+          spamTog.disabled = true;
+          spamRow.classList.add('is-locked');
+          req.classList.add('visible');
+        }
+      }
+
+      tog('domain').addEventListener('change', function () {
+        syncSpam();
+        recalculate();
+      });
+
+      ['spam', 'sms', 'quoting', 'payments'].forEach(function (id) {
+        tog(id).addEventListener('change', recalculate);
+      });
+
+      /* ── Enable all ──────────────────────────────────────── */
+      document.getElementById('enableAllBtn').addEventListener('click', function () {
+        var allOn = PAID_IDS.every(function (id) { return tog(id).checked; });
+        if (allOn) {
+          PAID_IDS.forEach(function (id) { tog(id).checked = false; });
+          syncSpam();
+        } else {
+          tog('domain').checked = true;
+          syncSpam();
+          PAID_IDS.forEach(function (id) {
+            tog(id).checked = true;
+            tog(id).disabled = false;
+          });
+          document.getElementById('req-spam').classList.remove('visible');
+          row('spam').classList.remove('is-locked');
+        }
+        recalculate();
+      });
+
+      /* ── Recalculate ─────────────────────────────────────── */
+      function recalculate() {
+        var weekly = 0;
+        Object.keys(PRICES).forEach(function (id) {
+          if (tog(id).checked) weekly += PRICES[id];
+        });
+
+        var allOn = PAID_IDS.every(function (id) { return tog(id).checked; });
+
+        if (allOn) weekly = Math.round(weekly * 0.9 * 100) / 100;
+
+        /* Format: no decimals unless needed */
+        var display = (weekly % 1 === 0)
+          ? String(weekly)
+          : weekly.toFixed(2);
+
+        document.getElementById('totalAmount').innerHTML =
+          '$' + display + '<span class="pc-total-unit">/wk</span>';
+
+        document.getElementById('discountNote').style.display = allOn ? 'block' : 'none';
+
+        var paymentsOn = tog('payments').checked;
+        document.getElementById('paymentsNote').style.display = paymentsOn ? 'block' : 'none';
+
+        /* Free extras: visible when any paid service is on */
+        var anyPaid = weekly > 0 || paymentsOn;
+        document.getElementById('freeExtras').style.display = anyPaid ? 'block' : 'none';
+
+        /* Row active states (price colour) */
+        PAID_IDS.forEach(function (id) {
+          var r = row(id);
+          if (!r) return;
+          if (tog(id).checked) r.classList.add('is-active');
+          else r.classList.remove('is-active');
+        });
+
+        /* Enable-all button */
+        var btn = document.getElementById('enableAllBtn');
+        btn.classList.toggle('active', allOn);
+        document.getElementById('enableAllLabel').textContent =
+          allOn ? 'All features active' : 'Enable all';
+      }
+
+      recalculate();
+    }());
+  </script>
+</body>
+</html>
