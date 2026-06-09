@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "WHMAir",
+  "suburb": "Heidelberg West",
+  "phone": "03 9459 6700",
+  "email": "info@whmair.com.au",
+  "address": "36 Dougharty Rd, Heidelberg West VIC 3081",
+  "tagline": "Heidelberg West's HVAC Specialists",
+  "primaryColor": "#000000",
+  "primaryColorRgb": "0, 0, 0",
+  "primaryColorHover": "#333333",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Heidelberg West's Trusted HVAC Experts",
+      "sub": "WHMAir: Serving schools and businesses with reliable climate control"
+    },
+    {
+      "title": "Air Conditioning & Heating Solutions",
+      "sub": "Repairs, maintenance, and installations for all property types"
+    },
+    {
+      "title": "After-Hours Service Available",
+      "sub": "Flexible scheduling to meet your business and school needs"
+    }
+  ],
+  "ctaHeading": "Need HVAC in Heidelberg West? Call WHMAir",
+  "aboutHeading": "Heidelberg West's HVAC Partner",
+  "aboutSubheading": "Reliable service for schools and businesses",
+  "aboutText": "Based in Heidelberg West, WHMAir is your local HVAC contractor with a proven track record in maintaining and repairing climate control systems for schools and commercial properties. We understand that repairs often need to be handled outside normal business hours, which is why we offer flexible scheduling. Wayne and his team are committed to providing reasonable, cheerful service that keeps your mechanical plant running smoothly in Heidelberg West.",
+  "servicesHeading": "Our HVAC Services",
+  "servicesSubheading": "Keeping Heidelberg West comfortable",
+  "servicesText": "WHMAir offers comprehensive air conditioning and heating services for residential, commercial, and industrial clients in Heidelberg West and surrounding areas. From preventative maintenance to emergency breakdowns, we ensure your systems operate efficiently year-round with expert care.",
+  "services": [
+    {
+      "title": "Preventative Maintenance",
+      "desc": "Regular maintenance to keep your HVAC systems running efficiently and prevent costly breakdowns in Heidelberg West properties."
+    },
+    {
+      "title": "Repairs & Breakdowns",
+      "desc": "Prompt and reliable repair services for all HVAC emergencies, available after hours for schools and businesses."
+    },
+    {
+      "title": "Changeovers & Installations",
+      "desc": "Expert installation and changeover of air conditioning and heating systems tailored to your specific needs."
+    },
+    {
+      "title": "Air Conditioning Services",
+      "desc": "Complete air conditioning solutions including installation, repair, and servicing for homes and offices in Heidelberg West."
+    },
+    {
+      "title": "Heating Systems",
+      "desc": "Efficient heating system installation and maintenance to keep your space warm during Melbourne's cooler months."
+    },
+    {
+      "title": "Commercial HVAC",
+      "desc": "Specialised HVAC services for commercial and industrial properties, ensuring optimal climate control and energy efficiency."
+    }
+  ],
+  "bannerHeading": "Heidelberg West HVAC Experts Ready to Help",
+  "bannerSubheading": "Fast, reliable service for all your heating and cooling needs.",
+  "testimonialsHeading": "What Heidelberg West Clients Say",
+  "testimonialsSubheading": "Trusted by local schools and businesses",
+  "blogHeading": "HVAC Tips from WHMAir",
+  "blogSubheading": "Advice for Heidelberg West residents",
+  "contactHeading": "Get in Touch with WHMAir",
+  "contactSubheading": "Free quotes and expert advice",
+  "reviews": [
+    {
+      "text": "WHMAir did a fantastic job installing our new air conditioning system at the school in Heidelberg West. They were professional, on time, and the system works perfectly for our students and staff.",
+      "name": "John Smith",
+      "role": "School Administrator"
+    },
+    {
+      "text": "We've used WHMAir for preventative maintenance on our office HVAC for years. Wayne and his team are always reliable, keeping our costs down and systems running smoothly.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "After a breakdown in the middle of summer, WHMAir came out after hours to fix our heating system. They were quick, efficient, and very reasonable with charges.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
