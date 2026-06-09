@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Rescue Electric",
+  "suburb": "Coburg North",
+  "phone": "0414820820",
+  "email": "info@rescueelectric.com.au",
+  "address": "4a French St, Coburg North VIC 3058",
+  "tagline": "Coburg North's Trusted Master Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coburg North's Trusted Electricians",
+      "sub": "30+ years keeping Melbourne powered"
+    },
+    {
+      "title": "Domestic, Commercial & Switchboards",
+      "sub": "Licensed master electricians across the north"
+    },
+    {
+      "title": "Lifetime Guaranteed Electrical Work",
+      "sub": "Free quotes across Coburg North & surrounds"
+    }
+  ],
+  "ctaHeading": "Coburg North electricians ready to help.",
+  "aboutHeading": "30 Years Electrifying Melbourne's North",
+  "aboutSubheading": "Local, licensed & lifetime guaranteed",
+  "aboutText": "Rescue Electric are licensed and insured master electricians based in Coburg North with over 30 years' experience serving Melbourne's northern suburbs. We specialise in residential, commercial electrical services, and electrical maintenance — delivering prompt, lifetime guaranteed work with the utmost quality and care. Whether it's a switchboard upgrade at your Coburg North home or a full commercial fit-out across Melbourne, our experienced team has you covered.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Expert electrical solutions for every job",
+  "servicesText": "From homes in Coburg North to businesses across Melbourne's north, Rescue Electric delivers reliable electrical solutions. With three decades of experience, we handle everything from domestic repairs to commercial installations and switchboard upgrades — always with safety and quality first.",
+  "services": [
+    {
+      "title": "Domestic Electrical",
+      "desc": "Complete home electrical services for Coburg North residents including rewiring, lighting, power points and appliance installations."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Tailored electrical solutions for Melbourne businesses including fit-outs, data cabling and ongoing maintenance contracts."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modern safety switch installations and switchboard upgrades to meet current Australian standards and regulations."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Scheduled and reactive electrical maintenance programs keeping your property safe, compliant and running smoothly."
+    },
+    {
+      "title": "Emergency Electrical",
+      "desc": "Fast-response emergency electrical callouts across Coburg North and surrounding Melbourne suburbs when you need us most."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Comprehensive electrical safety inspections and testing for homes, rental properties and commercial premises."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Coburg North?",
+  "bannerSubheading": "30 years of trusted electrical service across Melbourne's north",
+  "testimonialsHeading": "What Coburg North Locals Say",
+  "testimonialsSubheading": "Trusted by homes and businesses alike",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Expert advice from Rescue Electric",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Rescue Electric did a complete switchboard upgrade at our Coburg North home. Tony and the team were punctual, professional, and explained everything clearly. The work was finished on time and the lifetime guarantee gives us real peace of mind.",
+      "name": "Sarah Mitchell",
+      "role": "Coburg North Homeowner"
+    },
+    {
+      "text": "We have used Rescue Electric for our warehouse electrical maintenance for over five years now. They understand commercial needs and always respond quickly to any issues. Their 30 years of experience really shows in the quality of their work.",
+      "name": "James Wheeler",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need an electrician I can rely on across multiple properties. Rescue Electric handles everything from tenant repairs to full electrical inspections. They are professional, fairly priced, and always deliver quality workmanship.",
+      "name": "Karen Doyle",
+      "role": "Property Manager"
+    }
+  ]
+}
