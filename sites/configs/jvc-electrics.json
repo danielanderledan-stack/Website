@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "JVC Electrics",
+  "suburb": "Bundoora",
+  "phone": "03 9467 1234",
+  "email": "info@jvcelectrics.com.au",
+  "address": "63 Linacre Dr, Bundoora VIC 3083",
+  "tagline": "Bundoora's Precision Electrical Experts",
+  "primaryColor": "#005099",
+  "primaryColorRgb": "0, 80, 153",
+  "primaryColorHover": "#003f80",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bundoora's Precision Electricians",
+      "sub": "Expert electrical and data solutions"
+    },
+    {
+      "title": "Custom Systems for Your Project",
+      "sub": "Planned and installed to perfection"
+    },
+    {
+      "title": "From Updates to Complete Redesigns",
+      "sub": "Full-service electrical contractor"
+    }
+  ],
+  "ctaHeading": "Bundoora's electricians are ready — let's power your project.",
+  "aboutHeading": "JVC Electrics: Bundoora's Electrical Experts",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "With years of experience serving Bundoora, JVC Electrics specialises in custom-engineered electrical and data systems. We sit down with you to plan, construct, and recommend solutions that suit your specific requirements. Our dedicated team then implements the final system, delivered and installed on time and within budget, no matter the complexity.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all your needs",
+  "servicesText": "JVC Electrics offers comprehensive electrical and data services in Bundoora. From initial planning to final installation, we custom-engineer systems for both residential and commercial clients. Our expertise covers updates, redesigns, and complete constructions, ensuring precision and reliability.",
+  "services": [
+    {
+      "title": "Electrical Wiring",
+      "desc": "Expert wiring services for homes and businesses in Bundoora, ensuring safe and efficient installations."
+    },
+    {
+      "title": "Data Cabling",
+      "desc": "Precision data cabling solutions for network infrastructure, tailored to your connectivity needs."
+    },
+    {
+      "title": "System Design",
+      "desc": "Custom system design and planning to engineer the right electrical solution for your project."
+    },
+    {
+      "title": "Maintenance & Updates",
+      "desc": "Reliable maintenance and updates to keep your electrical systems running smoothly."
+    },
+    {
+      "title": "Redesigns & Construction",
+      "desc": "Complete electrical redesigns and construction services for new builds or renovations."
+    },
+    {
+      "title": "Custom Solutions",
+      "desc": "Tailored electrical solutions engineered to meet specific requirements, from concept to completion."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Bundoora?",
+  "bannerSubheading": "Professional electrical services for residential and commercial clients.",
+  "testimonialsHeading": "What Bundoora Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from JVC Electrics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly",
+  "reviews": [
+    {
+      "text": "JVC Electrics did a fantastic job wiring our new home in Bundoora. The team was professional, and the work was completed on time and within budget. Highly recommend their services to anyone in the area.",
+      "name": "Mark Thompson",
+      "role": "Bundoora Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed reliable data cabling for my office. JVC Electrics provided excellent service, custom-engineering a system that met all our needs. Very satisfied with the outcome.",
+      "name": "Sarah Collins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We hired JVC Electrics for a complete electrical redesign of our property. Their planning and implementation were precise, and they delivered within budget. Great experience for property managers like myself.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
