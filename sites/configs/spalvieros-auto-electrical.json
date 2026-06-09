@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Spalviero's Auto Electrical",
+  "suburb": "Airport West",
+  "phone": "03 9338 4541",
+  "email": "spalvieroautoelec@bigpond.com",
+  "address": "36 Parer Rd, Airport West VIC 3042",
+  "tagline": "Airport West's Auto Electrical Experts Since 1969",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#a02525",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Airport West's Trusted Auto Electricians",
+      "sub": "Nearly 50 years serving Melbourne's west"
+    },
+    {
+      "title": "Auto Electrical Repairs & Diagnostics",
+      "sub": "From batteries to complex wiring issues"
+    },
+    {
+      "title": "John & Robert Spalviero at Your Service",
+      "sub": "30+ years experience in Airport West"
+    }
+  ],
+  "ctaHeading": "Need Auto Electrical Help in Airport West?",
+  "aboutHeading": "50 Years Auto Electrical in Airport West",
+  "aboutSubheading": "Local Family Business You Can Trust",
+  "aboutText": "For nearly 50 years, Spalviero's Auto Electrical has been providing quality auto electrical products and services to drivers in Melbourne's west. Founded by John Spalviero in 1969 in Essendon and later relocating to Airport West, the business now sees John and his son Robert continuing the legacy. With Robert bringing over 30 years of automotive repair experience, they can assist with any auto electrical issue, ensuring your vehicle runs smoothly.",
+  "servicesHeading": "Comprehensive Auto Electrical Services",
+  "servicesSubheading": "Expert Solutions for Your Vehicle",
+  "servicesText": "At Spalviero's Auto Electrical, we specialise in a wide range of auto electrical services, from battery replacements to complex wiring diagnostics. Our experienced team uses the latest tools to diagnose and repair issues efficiently, keeping your vehicle safe and reliable on the road.",
+  "services": [
+    {
+      "title": "Battery Services",
+      "desc": "We test, replace, and maintain all types of vehicle batteries to ensure reliable starts and performance."
+    },
+    {
+      "title": "Alternator Repairs",
+      "desc": "Our experts diagnose and repair alternator issues to keep your vehicle's electrical system charging properly."
+    },
+    {
+      "title": "Starter Motor Fixes",
+      "desc": "We handle starter motor problems, from repairs to replacements, for smooth engine ignition."
+    },
+    {
+      "title": "Lighting Systems",
+      "desc": "From headlights to interior lights, we install, repair, and upgrade all vehicle lighting systems."
+    },
+    {
+      "title": "Wiring Diagnostics",
+      "desc": "Advanced diagnostics to trace and fix electrical wiring faults, preventing potential hazards."
+    },
+    {
+      "title": "Air Conditioning Electrical",
+      "desc": "We service the electrical components of your vehicle's air conditioning system for optimal climate control."
+    }
+  ],
+  "bannerHeading": "Auto Electrical Specialists in Airport West",
+  "bannerSubheading": "Serving Melbourne's West for Decades",
+  "testimonialsHeading": "What Airport West Locals Say",
+  "testimonialsSubheading": "Reliable Service in Our Community",
+  "blogHeading": "Auto Electrical Insights",
+  "blogSubheading": "Tips from Spalviero's Team",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "Quick Response Guaranteed",
+  "reviews": [
+    {
+      "text": "Spalviero's Auto Electrical in Airport West replaced my car's alternator quickly and professionally. The service was efficient, and the price was fair. Highly recommended for anyone in the area needing auto electrical work.",
+      "name": "Mark Thompson",
+      "role": "Airport West Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my fleet vehicles. Spalviero's handles all our auto electrical needs, from battery checks to wiring repairs. Their expertise and reliability keep us on the road.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage several properties and often need vehicle maintenance. Spalviero's provided excellent service for my car's lighting system in Airport West. Their team is knowledgeable and customer-focused.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
