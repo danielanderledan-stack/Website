@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Highland Plumbing",
+  "suburb": "Northcote",
+  "phone": "0416197533",
+  "email": "info@highlandplumbing.com.au",
+  "address": "36 Colbert Rd, Campbellfield VIC 3061",
+  "tagline": "Northcote's Expert Plumbers & HVAC Specialists",
+  "primaryColor": "#de4f25",
+  "primaryColorRgb": "222, 79, 37",
+  "primaryColorHover": "#c54422",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Northcote's Trusted Plumbers",
+      "sub": "25 years serving Melbourne's north"
+    },
+    {
+      "title": "Heating & Cooling Experts",
+      "sub": "Split systems, hot water & more"
+    },
+    {
+      "title": "Commercial & Domestic Plumbing",
+      "sub": "From taps to construction"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Northcote? Let's Talk!",
+  "aboutHeading": "25 Years Plumbing in Northcote",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 25 years of experience, Highland Plumbing has been serving Northcote and Melbourne's northern suburbs since 2007. We specialise in both domestic and commercial plumbing, offering comprehensive solutions from heating and cooling to drainage and gas fitting. Our traditional approach ensures high-quality workmanship and problem-solving capabilities for every job.",
+  "servicesHeading": "Our Plumbing & HVAC Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We provide a wide range of plumbing and HVAC services tailored to Northcote homes and businesses. From routine repairs to complex installations, our skilled team handles it all with precision and care.",
+  "services": [
+    {
+      "title": "Domestic Plumbing",
+      "desc": "Expert repair and installation for homes in Northcote, including taps, toilets, and general maintenance."
+    },
+    {
+      "title": "Commercial Plumbing",
+      "desc": "Reliable plumbing services for businesses, ensuring minimal disruption and efficient solutions."
+    },
+    {
+      "title": "Heating & Cooling Solutions",
+      "desc": "Specialised HVAC services including split system installation and repair for year-round comfort."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation and maintenance of hot water solutions to meet your daily needs."
+    },
+    {
+      "title": "Drainage Services",
+      "desc": "Comprehensive drainage solutions to prevent blockages and ensure proper flow."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Certified gas fitting services for safe and efficient installations and repairs."
+    }
+  ],
+  "bannerHeading": "Plumbing Problems in Northcote? We Can Help!",
+  "bannerSubheading": "Fast, reliable service from your local experts",
+  "testimonialsHeading": "What Northcote Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from Highland Plumbing",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for prompt service",
+  "reviews": [
+    {
+      "text": "Highland Plumbing did an excellent job installing our new split system in Northcote. The team was professional, on time, and the system works perfectly. Highly recommend for any HVAC needs.",
+      "name": "Mark Thompson",
+      "role": "Northcote Homeowner"
+    },
+    {
+      "text": "We had a major drainage issue at our cafe, and they fixed it quickly without disrupting our business. Their commercial plumbing expertise is top-notch.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Highland Plumbing for all our rental properties in the area. They handle everything from hot water repairs to gas fitting efficiently.",
+      "name": "James Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
