@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Ratten & Rowe",
+  "suburb": "Northcote",
+  "phone": "0404 614 776",
+  "email": "user@domain.com",
+  "address": "26 Main Street, Northcote VIC 3070",
+  "tagline": "Northcote's Trusted Lawn Care",
+  "primaryColor": "#4CAF50",
+  "primaryColorRgb": "76, 175, 80",
+  "primaryColorHover": "#388E3C",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Northcote's Go-To Lawn Care",
+      "sub": "10 years serving local homes"
+    },
+    {
+      "title": "Mowing, Gardening & Maintenance",
+      "sub": "Full-service lawn care"
+    },
+    {
+      "title": "Get Your Free Quote Today",
+      "sub": "Call 0404 614 776"
+    }
+  ],
+  "ctaHeading": "Northcote's lawn care experts are here — let's tidy up your garden.",
+  "aboutHeading": "10 Years Lawn Care in Northcote",
+  "aboutSubheading": "Local, reliable & open 24 hours",
+  "aboutText": "Ratten & Rowe has been providing top-quality lawn and garden maintenance services in Northcote for over 10 years. Our team is dedicated to keeping your outdoor spaces looking their best, with services ranging from regular mowing to full garden care. As a local business, we understand the unique needs of Northcote residents and offer flexible, reliable service to meet your schedule.",
+  "servicesHeading": "Our Lawn & Garden Services",
+  "servicesSubheading": "Expert care for your outdoor spaces",
+  "servicesText": "We offer a comprehensive range of lawn care services tailored to Northcote's climate and soil. From weekly mowing to seasonal clean-ups, our experienced team ensures your garden thrives year-round.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Regular mowing to keep your lawn neat and healthy, using professional equipment for a perfect cut."
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Comprehensive care including pruning, weeding, and general upkeep to maintain your garden's beauty."
+    },
+    {
+      "title": "Hedge Trimming",
+      "desc": "Expert shaping and trimming of hedges and shrubs to enhance your property's appearance."
+    },
+    {
+      "title": "Weed Control",
+      "desc": "Effective weed management solutions to prevent overgrowth and keep your garden weed-free."
+    },
+    {
+      "title": "Fertilizing & Soil Care",
+      "desc": "Tailored fertilization and soil treatments to promote healthy plant growth and lush greenery."
+    },
+    {
+      "title": "Seasonal Clean-ups",
+      "desc": "Thorough garden clean-ups in spring and autumn to prepare your outdoor space for the season ahead."
+    }
+  ],
+  "bannerHeading": "Need Lawn Care in Northcote?",
+  "bannerSubheading": "We're open 24 hours to serve you better.",
+  "testimonialsHeading": "What Northcote Residents Say",
+  "testimonialsSubheading": "Trusted by locals for over a decade",
+  "blogHeading": "Lawn Care Tips & Updates",
+  "blogSubheading": "Advice from Ratten & Rowe",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Ratten & Rowe has been maintaining my lawn in Northcote for years. Their regular mowing service keeps my garden looking pristine, and they're always on time. Highly recommend their reliable service.",
+      "name": "John Smith",
+      "role": "Northcote Homeowner"
+    },
+    {
+      "text": "As a local business owner in Northcote, I trust Ratten & Rowe for all my garden maintenance needs. Their hedge trimming and weed control have transformed our outdoor area. Excellent work!",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties in Northcote, I need a dependable lawn care service. Ratten & Rowe provides consistent, high-quality mowing and seasonal clean-ups across all my sites.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
