@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electrician Preston",
+  "suburb": "Preston",
+  "phone": "+61390282850",
+  "email": "info@electricianspreston.com.au",
+  "address": "325 Plenty Road, Preston VIC 3072",
+  "tagline": "Preston's Expert Electricians",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Preston's Lighting Experts",
+      "sub": "Specialising in energy-efficient LED upgrades"
+    },
+    {
+      "title": "Security & Garden Lighting in Preston",
+      "sub": "Tailored solutions for your home"
+    },
+    {
+      "title": "24/7 Electrical Services",
+      "sub": "Open 24 hours for your convenience"
+    }
+  ],
+  "ctaHeading": "Preston's Electricians Are Ready — Let's Power Your Project.",
+  "aboutHeading": "Expert Electricians in Preston",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Electrician Preston has been serving the Preston community with expert lighting and electrical solutions. We specialise in upgrading to energy-efficient LED lights and providing security and garden lighting. Our team tailors each project to meet your specific needs, ensuring high-quality outcomes for both residential and commercial clients. With years of experience in the industry, we are committed to delivering reliable and professional service.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for your home",
+  "servicesText": "We offer a comprehensive range of electrical services, specialising in lighting solutions for homes and businesses. From LED upgrades to security and garden lighting, we have you covered. Our expert team ensures quality workmanship and tailored solutions for every project.",
+  "services": [
+    {
+      "title": "LED Light Upgrades",
+      "desc": "We replace old halogen lights with energy-efficient LED systems, reducing electricity bills and improving lighting quality."
+    },
+    {
+      "title": "Security Lighting",
+      "desc": "Install and maintain security lights to enhance safety around your property, with options for motion sensors and timers."
+    },
+    {
+      "title": "Garden Lighting",
+      "desc": "Transform your outdoor space with beautiful garden lighting solutions, including path lights and ambient illumination."
+    },
+    {
+      "title": "Feature Lighting",
+      "desc": "Add architectural interest with feature lights above garages or for home facades, creating stunning visual effects."
+    },
+    {
+      "title": "Residential Electrical Services",
+      "desc": "From wiring repairs to power point installations, we handle all residential electrical needs with expertise."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "We provide reliable electrical services for businesses, including fit-outs, maintenance, and emergency repairs."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Preston?",
+  "bannerSubheading": "Get a free quote today",
+  "testimonialsHeading": "What Preston Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Electrician Preston did a fantastic job upgrading our halogen lights to LEDs at our home in Preston. The work was efficient and the results are brilliant. Highly recommend their lighting services.",
+      "name": "John Smith",
+      "role": "Preston Homeowner"
+    },
+    {
+      "text": "We hired them for security lighting at our business in Preston. Professional service from start to finish, and the lights have improved our safety significantly.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Electrician Preston for all our electrical needs across Preston properties. Their garden and feature lighting installations are always top-notch.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
