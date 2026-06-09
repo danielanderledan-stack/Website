@@ -1,0 +1,254 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Lilydale Handyman Services",
+  "suburb": "Lilydale",
+  "phone": "0404015882",
+  "email": "info@lilydalehandymanservices.com.au",
+  "address": "29 The Gateway, Lilydale VIC 3140",
+  "tagline": "Lilydale's Go-To Handyman Services",
+  "primaryColor": "#FF6B35",
+  "primaryColorRgb": "255, 107, 53",
+  "primaryColorHover": "#E55C2A",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lilydale's Trusted Handyman",
+      "sub": "Expert home maintenance & repairs"
+    },
+    {
+      "title": "Tiling, Painting & Plastering",
+      "sub": "Quality workmanship for Lilydale homes"
+    },
+    {
+      "title": "No Job Too Small or Complex",
+      "sub": "Free quotes across Lilydale & surrounds"
+    }
+  ],
+  "ctaHeading": "Lilydale's handyman is ready — let's fix up your home.",
+  "aboutHeading": "Trusted Handyman in Lilydale",
+  "aboutSubheading": "Local service, lasting quality",
+  "aboutText": "Lilydale Handyman Services provides comprehensive home maintenance and improvement solutions for residents in Lilydale and the surrounding Yarra Ranges area. With years of hands-on experience, our skilled team tackles everything from minor repairs to complete renovations, ensuring your property is maintained to the highest standard. We pride ourselves on reliable, friendly service tailored to the unique needs of Lilydale homes.",
+  "servicesHeading": "Our Home Maintenance Services",
+  "servicesSubheading": "Complete property care",
+  "servicesText": "From urgent repairs to planned renovations, Lilydale Handyman Services delivers a full spectrum of home improvement solutions. We use quality materials and proven techniques to ensure lasting results for every project across Lilydale.",
+  "services": [
+    {
+      "title": "Home Maintenance & Repairs",
+      "desc": "General upkeep and fix-it services for all Lilydale homes.",
+      "longDesc": "We handle the essential maintenance tasks that keep your Lilydale property in top condition, from leaky taps and squeaky doors to general wear and tear. Our service ensures your home remains safe and functional year-round.",
+      "points": [
+        "Prevents costly future damage",
+        "Quick, reliable response",
+        "All repairs guaranteed"
+      ]
+    },
+    {
+      "title": "Tiling Services",
+      "desc": "Expert floor and wall tiling for kitchens, bathrooms, and laundries.",
+      "longDesc": "Our Lilydale tiling service covers installation, repair, and replacement for all tile types. We ensure perfect, waterproof finishes that enhance the look and value of your home's wet areas.",
+      "points": [
+        "Precision cuts & grouting",
+        "Waterproofing guaranteed",
+        "Wide tile range"
+      ]
+    },
+    {
+      "title": "Painting & Plastering",
+      "desc": "Interior and exterior painting, plus wall and ceiling plastering.",
+      "longDesc": "Revitalise your Lilydale home with our professional painting and plastering services. We prepare surfaces meticulously for a flawless, long-lasting finish that transforms any room or exterior façade.",
+      "points": [
+        "Meticulous surface prep",
+        "Premium, durable paints",
+        "Clean, tidy work"
+      ]
+    },
+    {
+      "title": "Kitchen & Bathroom Fitting",
+      "desc": "Installation and upgrades for cabinets, countertops, and fixtures.",
+      "longDesc": "Upgrade the heart of your Lilydale home with expert kitchen and bathroom fitting. We install cabinetry, benchtops, sinks, and taps with precision, ensuring perfect functionality and a modern aesthetic.",
+      "points": [
+        "Custom installation solutions",
+        "Functional design advice",
+        "Full project management"
+      ]
+    },
+    {
+      "title": "Door Installation & Repairs",
+      "desc": "Fitting, repair, and replacement of all door types for security.",
+      "longDesc": "Secure and improve access to your Lilydale property with our door services. We install, repair, and adjust internal, external, sliding, and security doors to ensure smooth operation and enhanced home security.",
+      "points": [
+        "Enhances home security",
+        "Smooth operation guaranteed",
+        "All door types serviced"
+      ]
+    },
+    {
+      "title": "Wall & Ceiling Repairs",
+      "desc": "Fixing cracks, holes, and water damage in plasterboard walls.",
+      "longDesc": "Restore the structural integrity and appearance of your Lilydale home's interior. Our wall and ceiling repair service expertly fixes cracks, dents, and water damage, creating a perfect canvas for painting.",
+      "points": [
+        "Seamless, invisible repairs",
+        "Structural integrity restored",
+        "Prepares for painting"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Handyman in Lilydale?",
+  "bannerSubheading": "Professional home maintenance for the Yarra Ranges.",
+  "testimonialsHeading": "What Lilydale Locals Say",
+  "testimonialsSubheading": "Reliable service, real results",
+  "blogHeading": "Lilydale Home Care Guides",
+  "blogSubheading": "Expert tips from your local handyman",
+  "contactHeading": "Get a Free Lilydale Handyman Quote",
+  "contactSubheading": "We'll call you back today",
+  "reviews": [
+    {
+      "text": "The team from Lilydale Handyman Services did an amazing job tiling our bathroom floor and splashback. Their attention to detail was fantastic, and the finish is perfect. Highly recommend their tiling work in the area.",
+      "name": "Sarah Jenkins",
+      "role": "Lilydale Homeowner"
+    },
+    {
+      "text": "We used Lilydale Handyman Services for a complete painting job inside our shop. They were professional, finished on time, and the quality was outstanding. A great local business for commercial projects.",
+      "name": "Mark Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable, tidy, and great communication. They repaired several doors and fixed plaster cracks throughout my rental property in Lilydale. A trustworthy handyman service I'll definitely use again.",
+      "name": "David Kowalski",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Lilydale",
+    "Mooroolbark",
+    "Croydon",
+    "Mount Evelyn",
+    "Chirnside Park",
+    "Seville",
+    "Woori Yallock",
+    "Yarra Junction"
+  ],
+  "pricing": {
+    "intro": "At Lilydale Handyman Services, we provide clear, upfront pricing before any work begins. There are no hidden fees or lock-in contracts—just honest rates for quality workmanship in the Lilydale area.",
+    "packages": [
+      {
+        "name": "Call-Out & Assessment",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site inspection & advice",
+          "Detailed written quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Handyman Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Skilled tradesperson",
+          "Quality materials included",
+          "Tidy & professional service",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Renovation Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Project management included",
+          "Trades coordination",
+          "Detailed timeline provided"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront once the scope is agreed, so you know the full cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to get your Lilydale home maintenance sorted? Contact Lilydale Handyman Services today for a free, no-obligation quote. We're here to help with any repair or improvement project."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Bathroom Renovation Cost in Lilydale?",
+      "date": "March 2026",
+      "excerpt": "A detailed guide to bathroom renovation costs in Lilydale, covering tiling, fittings, labour, and key factors affecting your final price.",
+      "body": [
+        "Bathroom renovations are a significant investment for Lilydale homeowners, and understanding the cost factors is crucial for planning. The final price depends on the scope of work, from a simple refresh of tiles and fixtures to a complete layout change. In the Lilydale area, labour rates and the cost of quality materials like waterproofing membranes, tiles, and vanities all play a role. A basic cosmetic update might start from $8,000, while a full renovation with moving plumbing could exceed $25,000.",
+        "Tiling is often the largest single expense in a Lilydale bathroom renovation. The cost varies dramatically between standard ceramic tiles and premium porcelain or natural stone. Labour for laying tiles includes meticulous surface preparation, waterproofing to Australian Standard AS 3740, and precise grouting. For a typical Lilydale bathroom, expect to pay between $50-$80 per square metre for supply and installation of standard tiles, with premium options going much higher.",
+        "Fittings and fixtures represent another major cost centre. This includes your toilet, basin, shower screen, tapware, and cabinetry. Off-the-shelf solutions from Bunnings can keep costs down, while custom vanities and designer tapware from specialised suppliers will increase the budget. Don't forget ancillary items like mirrors, towel rails, and exhaust fans. A good rule of thumb is to allocate 15-20% of your total budget for these essential items.",
+        "Labour costs from your Lilydale handyman or tradespeople are typically charged either hourly or per job. For complex work involving waterproofing, plumbing, and electrical, you'll need licensed trades, which impacts cost. It's wise to get multiple quotes and ensure they are itemised. A detailed quote from Lilydale Handyman Services will break down every element, so you see exactly where your money is going and can make informed choices.",
+        "The Lilydale climate can influence material choices. High humidity areas benefit from well-ventilated spaces and mould-resistant paints and grouts. Ensure any renovation plans include proper ventilation to prevent future issues. Also, consider the long-term value; investing in quality waterproofing and workmanship upfront prevents expensive leaks and repairs down the track, which is particularly important in the Yarra Ranges region.",
+        "To manage costs effectively, decide on your must-haves versus nice-to-haves before starting. Prioritise structural elements like waterproofing and plumbing, then allocate remaining funds to aesthetic choices. Getting a comprehensive, fixed-price quote from a trusted local like Lilydale Handyman Services is the best way to avoid budget surprises and ensure your renovation is completed to a high standard, on time, and within your financial plan."
+      ]
+    },
+    {
+      "title": "Best Time to Paint Your Lilydale Home's Exterior",
+      "date": "February 2026",
+      "excerpt": "Discover the ideal weather conditions for exterior painting in Lilydale, avoiding the risks of the Yarra Ranges' variable climate.",
+      "body": [
+        "Choosing the right time to paint the exterior of your Lilydale home is critical for a finish that lasts. The Yarra Ranges climate, with its cool, damp winters and warm summers, presents specific challenges. Paint requires dry, mild conditions to adhere properly and cure correctly. Attempting to paint during Lilydale's wetter months or in extreme heat can lead to poor adhesion, blistering, and a dramatically shortened lifespan for your paint job.",
+        "The ideal window for exterior painting in Lilydale is during the drier, milder months of late spring (October to November) and autumn (March to April). During these periods, daytime temperatures typically range between 10°C and 25°C, which is the sweet spot for most exterior paints. Low humidity and minimal rainfall ensure surfaces stay dry, allowing the paint to bond and cure effectively over several days.",
+        "Avoid painting during Lilydale's winter months (June to August). The frequent rain, high humidity, and cool temperatures (often below 10°C) prevent proper drying and curing. Paint applied in these conditions may never harden correctly, leading to a tacky finish that can easily peel or wash away. Even a few consecutive dry days in winter are often insufficient due to the lingering dampness in the air.",
+        "Summer painting (December to February) in Lilydale also requires caution. While generally drier, the peak of summer can bring extreme heat (over 35°C) and intense UV rays. Painting in very hot conditions can cause the paint to dry too quickly, leading to visible brush marks, poor adhesion, and an uneven finish. Early morning starts, before the day's peak heat, are advisable if painting during a Lilydale summer.",
+        "Surface preparation is non-negotiable and is most effective in the right weather. Before any painting, Lilydale Handyman Services thoroughly cleans, sands, and repairs surfaces, removing loose paint and filling cracks. This preparation is more difficult in wet or cold conditions. In the Yarra Ranges, we also pay special attention to areas prone to mould or mildew, treating them with specialised solutions before priming.",
+        "Ultimately, the best investment is hiring a local expert who understands Lilydale's micro-climate. Lilydale Handyman Services monitors weather patterns closely and schedules projects for optimal conditions. We use high-quality, 100% acrylic exterior paints designed to withstand Australian conditions, ensuring your Lilydale home's paint job looks fantastic and provides long-lasting protection against the local elements for years to come."
+      ]
+    },
+    {
+      "title": "Fixing Cracked Plaster in Lilydale: Causes & Solutions",
+      "date": "January 2026",
+      "excerpt": "Learn why plaster cracks in Lilydale homes and how professional repairs can restore your walls and ceilings.",
+      "body": [
+        "Cracked plaster is a common issue in Lilydale homes, ranging from minor hairline cracks to more significant structural fissures. Understanding the cause is the first step to a permanent solution. In the Yarra Ranges, where seasonal temperature and humidity fluctuations are common, most cracking is due to the natural expansion and contraction of building materials. This movement creates stress on the rigid plaster surface, resulting in cracks.",
+        "Settlement is another frequent cause, especially in older Lilydale properties or new builds during their first few years. As the house frame settles into the ground, it can pull at the plaster, causing cracks, typically around door frames, windows, and where walls meet ceilings. While minor settlement cracks are cosmetic, wider cracks (over 5mm) or those that appear suddenly could indicate structural movement and should be assessed by a professional.",
+        "Moisture is a silent enemy of plaster in Lilydale's sometimes damp climate. Leaking roofs, poor ventilation in bathrooms, or rising damp can saturate plaster, causing it to bubble, deteriorate, and crack. Identifying and rectifying the moisture source is essential before any plaster repair. Failure to do so will result in the cracks reappearing and potential mould growth, which is a health concern.",
+        "The repair process undertaken by Lilydale Handyman Services begins with a thorough assessment. For hairline cracks, we use a flexible filler that can accommodate slight future movement. For larger cracks, we may need to remove the damaged plaster back to the laths or studs, re-secure the area, and then apply new plaster for a seamless finish. This ensures the repair is not just cosmetic but structurally sound.",
+        "Preparation is key to an invisible repair. The area is cleaned, loose material is removed, and the crack is often 'V-grooved' to allow the filler to key in properly. Multiple layers of filler are applied, with sanding between coats to achieve a perfectly flat surface ready for priming and painting. We match existing textures on walls or ceilings where needed, a skill that separates a professional repair from a DIY patch job.",
+        "To prevent future cracking in your Lilydale home, ensure your property has proper drainage to direct water away from the foundation. Maintain consistent indoor humidity where possible, especially in older homes. Regular inspections for small cracks allow for early, minor repairs before they escalate. Trusting Lilydale Handyman Services for your plaster repairs ensures we address both the symptom and the underlying cause, giving you a flawless, long-lasting result."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Tiles for Your Lilydale Home",
+      "date": "December 2025",
+      "excerpt": "A practical guide to selecting floor and wall tiles that suit Lilydale homes and the local climate.",
+      "body": [
+        "Selecting tiles for your Lilydale home involves more than just picking a colour or pattern. The local climate, with its cool winters and potential for mud and moisture tracked indoors, demands practical choices alongside aesthetic ones. Tiles for high-traffic areas like hallways and kitchens need exceptional durability. Porcelain tiles are an excellent choice for Lilydale homes, as they are incredibly hard-wearing, water-resistant, and easier to maintain than many natural stones.",
+        "For bathrooms, laundry rooms, and other wet areas, slip resistance is a paramount safety consideration. Look for tiles with a high slip-resistance rating (R10 or higher) to prevent falls, especially when the floor is wet. This is particularly important for family bathrooms and accessible showers. Glazed ceramic tiles are a popular and cost-effective choice for walls, offering endless design possibilities and easy cleaning.",
+        "The aesthetic of your tiles should complement the overall style of your Lilydale property. Large-format tiles can make smaller spaces feel more open and reduce grout lines, creating a modern, seamless look. Patterned or textured tiles can add character to a feature wall or a powder room. Consider the grout colour as well; a contrasting grout highlights the tile pattern, while a matching grout creates a more uniform appearance.",
+        "Consider the maintenance implications of your tile choice. Natural stone tiles like marble are beautiful but porous and require regular sealing to prevent staining—a significant consideration in a busy Lilydale household. Ceramic and porcelain tiles are generally lower maintenance, requiring only regular mopping with a suitable cleaner. For outdoor areas like porches or covered patios, use tiles specifically rated for exterior use to withstand the Lilydale weather.",
+        "Climate-specific advice for Lilydale: In cooler months, underfloor heating paired with ceramic or porcelain tiles can transform a chilly bathroom into a cosy retreat. Tiles also help maintain a cool home in summer. Ensure your tiling installation includes a proper waterproofing membrane in wet areas, as required by Australian Standard AS 3740, to prevent water damage to the underlying structure—a critical step in the variable Yarra Ranges climate.",
+        "The best approach is to consult with a tiling expert who understands Lilydale homes. Lilydale Handyman Services can provide samples, advise on the best tile types for specific rooms, and ensure professional installation that accounts for local conditions. We handle everything from substrate preparation to grouting, ensuring your tile investment is beautiful, functional, and built to last in your Lilydale home."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Lilydale Handyman Services | Handyman in Lilydale VIC",
+      "description": "Lilydale's trusted handyman for home maintenance, tiling, painting & repairs. Quality workmanship for all Lilydale properties. Free quotes, call today!"
+    },
+    "about": {
+      "title": "About Us | Lilydale's Local Handyman Experts | Services",
+      "description": "Meet Lilydale Handyman Services, your local home maintenance and repair specialists serving Lilydale and the Yarra Ranges. Licensed, reliable, and ready."
+    },
+    "services": {
+      "title": "Handyman Services in Lilydale | Tiling, Painting, Repairs",
+      "description": "Comprehensive handyman services in Lilydale VIC. Expert tiling, painting, door repairs & home maintenance. Get a free quote from your local professional."
+    },
+    "pricing": {
+      "title": "Handyman Costs & Pricing | Lilydale Handyman Services",
+      "description": "Transparent pricing for Lilydale handyman services. No hidden fees. Get upfront quotes for tiling, painting, repairs, and home maintenance in Lilydale."
+    },
+    "contact": {
+      "title": "Contact Lilydale Handyman Services | Free Handyman Quotes",
+      "description": "Contact Lilydale Handyman Services for a free, no-obligation quote. Your local handyman for all home repairs and improvements in Lilydale VIC."
+    },
+    "blog": {
+      "title": "Lilydale Home Maintenance Blog | Tips & Guides",
+      "description": "Expert tips and guides for Lilydale homeowners. Advice on tiling costs, painting times, plaster repairs, and more from your local handyman experts."
+    }
+  }
+}
