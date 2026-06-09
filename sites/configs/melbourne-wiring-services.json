@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Melbourne Wiring Services",
+  "suburb": "Pascoe Vale",
+  "phone": "1300746979",
+  "email": "will@melbws.com.au",
+  "address": "O'Hea St, Pascoe Vale VIC 3044",
+  "tagline": "Pascoe Vale's Trusted Electrician",
+  "primaryColor": "#91a3a6",
+  "primaryColorRgb": "145, 163, 166",
+  "primaryColorHover": "#829294",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Pascoe Vale's Expert Electrician",
+      "sub": "12 years serving Melbourne's Inner North"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "From maintenance to fitouts"
+    },
+    {
+      "title": "Trusted in Pascoe Vale & Beyond",
+      "sub": "Quality workmanship guaranteed"
+    }
+  ],
+  "ctaHeading": "Ready for Pascoe Vale's Best Electrician?",
+  "aboutHeading": "12 Years Electrical in Pascoe Vale",
+  "aboutSubheading": "Licensed, reliable & local",
+  "aboutText": "With 12 years of experience, Melbourne Wiring Services is Pascoe Vale's go-to electrician. We specialise in residential service and maintenance, as well as commercial fitouts across Melbourne's Inner North West. Our expertise covers electrical, data communications, CCTV, and audio/video installations, ensuring exceptional workmanship and reliability from start to finish.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for your needs",
+  "servicesText": "We offer a wide range of electrical services, from home maintenance to large-scale commercial projects. Our team is skilled in data cabling, security systems, and entertainment setups, providing reliable solutions for Pascoe Vale and surrounding areas.",
+  "services": [
+    {
+      "title": "Residential Maintenance",
+      "desc": "Keeping your home's electrical systems safe and efficient with prompt, professional service in Pascoe Vale."
+    },
+    {
+      "title": "Commercial Fitouts",
+      "desc": "Expert electrical wiring for offices, retail spaces, and commercial properties across Melbourne's Inner North."
+    },
+    {
+      "title": "Data & Communications",
+      "desc": "Installation and maintenance of data cabling, phone systems, and network infrastructure for businesses."
+    },
+    {
+      "title": "CCTV Systems",
+      "desc": "Design and installation of security cameras to protect your property with high-quality surveillance."
+    },
+    {
+      "title": "Audio/Video Installations",
+      "desc": "Home entertainment systems, speakers, and AV setups tailored to your preferences and space."
+    },
+    {
+      "title": "General Electrical Services",
+      "desc": "From lighting upgrades to switchboard replacements, we handle all electrical needs with expertise."
+    }
+  ],
+  "bannerHeading": "Electrician in Pascoe Vale? We're Here to Help",
+  "bannerSubheading": "Fast, reliable service for all your electrical needs",
+  "testimonialsHeading": "What Pascoe Vale Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Melbourne Wiring Services",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for prompt, professional service",
+  "reviews": [
+    {
+      "text": "Melbourne Wiring Services did an excellent job rewiring our home in Pascoe Vale. Their communication was clear from start to finish, and the workmanship was top-notch. Highly recommend for any electrical needs.",
+      "name": "John Smith",
+      "role": "Pascoe Vale Homeowner"
+    },
+    {
+      "text": "We hired them for our office fitout in Coburg, and they delivered beyond expectations. The team was professional and completed the data cabling efficiently. Great local electrician.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Melbourne Wiring Services for all electrical maintenance across our units in Pascoe Vale. They are reliable, affordable, and always do a fantastic job.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
