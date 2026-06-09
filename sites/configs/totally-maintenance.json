@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Totally Maintenance",
+  "suburb": "Bundoora",
+  "phone": "0400 123 456",
+  "email": "info@totallymaintenance.com.au",
+  "address": "9 Japonica St, Bundoora VIC 3083",
+  "tagline": "Bundoora's Carpentry Experts",
+  "primaryColor": "#A0522D",
+  "primaryColorRgb": "160, 82, 45",
+  "primaryColorHover": "#8B4513",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bundoora's Trusted Carpenters",
+      "sub": "Serving Bundoora & surrounding areas"
+    },
+    {
+      "title": "Custom Carpentry & Woodwork",
+      "sub": "From decking to renovations"
+    },
+    {
+      "title": "Quality Craftsmanship in Bundoora",
+      "sub": "Free quotes available"
+    }
+  ],
+  "ctaHeading": "Bundoora's carpenters are ready to work on your project.",
+  "aboutHeading": "Carpentry Excellence in Bundoora",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "With over 10 years of experience, Totally Maintenance has been providing top-quality carpentry services in Bundoora. Our team specialises in custom woodwork, decking, and home renovations. We take pride in our attention to detail and commitment to customer satisfaction. Contact us today for a free consultation in Bundoora and nearby suburbs.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Crafted with care",
+  "servicesText": "Totally Maintenance offers a comprehensive range of carpentry services in Bundoora. From building new decks to renovating interiors, we handle projects of all sizes with precision and professionalism. Our expertise ensures lasting quality for your home or business.",
+  "services": [
+    {
+      "title": "Decking Construction",
+      "desc": "We design and build durable, custom decks using premium materials, perfect for outdoor entertaining in Bundoora."
+    },
+    {
+      "title": "Framing & Structural Work",
+      "desc": "Expert framing for new builds and extensions, ensuring structural integrity and compliance with standards."
+    },
+    {
+      "title": "Home Renovations",
+      "desc": "Transform your Bundoora home with our skilled renovation and refurbishment services, tailored to your needs."
+    },
+    {
+      "title": "Custom Joinery",
+      "desc": "Bespoke cabinets, shelves, and woodwork crafted to enhance functionality and style in your space."
+    },
+    {
+      "title": "Fencing & Gates",
+      "desc": "Secure and attractive fencing solutions for residential and commercial properties in Bundoora and surrounds."
+    },
+    {
+      "title": "Repairs & Maintenance",
+      "desc": "Quick and reliable repairs for all carpentry issues, from minor fixes to major restoration projects."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Bundoora?",
+  "bannerSubheading": "We're just around the corner – free quotes available.",
+  "testimonialsHeading": "What Bundoora Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Advice from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you within 24 hours",
+  "reviews": [
+    {
+      "text": "We engaged Totally Maintenance for a complete deck build in Bundoora, and they exceeded our expectations. The team was punctual, skilled, and left the site clean. Their work has transformed our outdoor area.",
+      "name": "John Smith",
+      "role": "Bundoora Homeowner"
+    },
+    {
+      "text": "We hired them for office renovations and the result was fantastic. Professional team with great attention to detail, delivering high-quality joinery that impressed our clients.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Totally Maintenance for multiple repairs in Bundoora. They're reliable, efficient, and produce quality work every time, making them my go-to for carpentry needs.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
