@@ -1,0 +1,253 @@
+{
+  "siteType": "builder",
+  "businessName": "Roda Glass",
+  "suburb": "Frankston South",
+  "phone": "0401160424",
+  "email": "info@faskagroup.com.au",
+  "address": "2 Kilmiston Ct, Frankston South VIC 3199",
+  "tagline": "Frankston South's Trusted Glaziers",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Frankston South's Precision Glaziers",
+      "sub": "25+ years of quality glasswork across Mornington Peninsula"
+    },
+    {
+      "title": "Balustrading, Pool Fencing & Shower Screens",
+      "sub": "Specialising in frameless glass for homes and businesses"
+    },
+    {
+      "title": "Custom Glass Solutions",
+      "sub": "Free quotes serving Frankston South & surrounds"
+    }
+  ],
+  "ctaHeading": "Frankston South's glaziers are ready — let's discuss your project.",
+  "aboutHeading": "25 Years Glass Excellence in Frankston South",
+  "aboutSubheading": "Local, experienced & reliable",
+  "aboutText": "Roda Glass is your trusted glazier in Frankston South with over 25 years of experience. We specialise in frameless glass projects for homes and businesses across Mornington Peninsula and Melbourne. Our services include balustrading, pool fencing, and shower screens, ensuring quality and durability. Get in touch today for a quote and experience the difference.",
+  "servicesHeading": "Our Glass Services",
+  "servicesSubheading": "Precision in every pane",
+  "servicesText": "At Roda Glass, we offer comprehensive glass services in Frankston South. From balustrading to custom installations, we deliver compliance and style for every project.",
+  "services": [
+    {
+      "title": "Balustrading",
+      "desc": "Expert glass balustrade installation for homes and businesses in Frankston South.",
+      "longDesc": "Our balustrading services provide safe, stylish solutions compliant with Australian standards. We specialise in frameless glass for a modern look in Frankston South properties.",
+      "points": [
+        "Frameless designs",
+        "Australian compliant",
+        "Enhanced safety"
+      ]
+    },
+    {
+      "title": "Pool Fencing",
+      "desc": "Durable glass pool fencing to meet safety regulations in Frankston South.",
+      "longDesc": "We install glass pool fencing that combines aesthetics with compliance, perfect for Mornington Peninsula homes. Our installations ensure peace of mind and visual appeal.",
+      "points": [
+        "Safety certified",
+        "Clear views",
+        "Low maintenance"
+      ]
+    },
+    {
+      "title": "Shower Screen Installation",
+      "desc": "Custom shower screens designed and installed for Frankston South bathrooms.",
+      "longDesc": "Roda Glass creates bespoke shower screens using high-quality glass, tailored to your space. We ensure leak-proof fitting and sleek design for modern bathrooms.",
+      "points": [
+        "Custom sizes",
+        "Waterproof seals",
+        "Modern aesthetics"
+      ]
+    },
+    {
+      "title": "Mirror & Splashback Installation",
+      "desc": "Precision mirrors and splashbacks for kitchens and homes in Frankston South.",
+      "longDesc": "We install mirrors and glass splashbacks that add elegance to Frankston South interiors. Our work features custom cuts and secure mounting for lasting beauty.",
+      "points": [
+        "Reflective quality",
+        "Easy cleaning",
+        "Custom shapes"
+      ]
+    },
+    {
+      "title": "Pool Fencing Compliance & Repairs",
+      "desc": "Ensure your pool fencing meets Frankston South regulations with our expert services.",
+      "longDesc": "We offer compliance checks and repairs for pool fencing in Frankston South, keeping your family safe. Our team handles upgrades and maintenance efficiently.",
+      "points": [
+        "Regulation audits",
+        "Quick repairs",
+        "Safety first"
+      ]
+    },
+    {
+      "title": "Custom Glass",
+      "desc": "Bespoke glass solutions for unique projects in Frankston South and beyond.",
+      "longDesc": "From tabletops to partitions, Roda Glass crafts custom glass pieces for Frankston South homes and businesses. We collaborate on designs that fit your exact needs.",
+      "points": [
+        "Tailored designs",
+        "High durability",
+        "Versatile applications"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Glazier in Frankston South?",
+  "bannerSubheading": "Quality glasswork with a personal touch.",
+  "testimonialsHeading": "What Frankston South Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Local Glass Guides & Advice",
+  "blogSubheading": "Insights from Frankston South's glaziers",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Roda Glass installed our pool fencing in Frankston South, and the quality is outstanding. Their compliance check ensured everything met regulations. Highly recommend their professional service!",
+      "name": "Sarah Mitchell",
+      "role": "Frankston South Homeowner"
+    },
+    {
+      "text": "We used Roda Glass for shower screens at our Mornington business. The team was punctual and delivered beautiful, durable results. A true local expert in glasswork.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our property in Mount Eliza, Roda Glass provided custom glass splashbacks. Excellent workmanship and timely completion. They handled everything from design to installation seamlessly.",
+      "name": "Emma Johnson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Frankston South",
+    "Frankston",
+    "Mount Eliza",
+    "Mornington",
+    "Mount Martha",
+    "Somerville",
+    "Baxter"
+  ],
+  "pricing": {
+    "intro": "In Frankston South, Roda Glass offers transparent pricing with no hidden fees. Get a free, no-obligation quote for your glass project.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Installation",
+        "price": "from $500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional fitting",
+          "Quality materials",
+          "Workmanship guarantee",
+          "Compliance assured"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom design",
+          "Project management",
+          "Timeline adherence"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to discuss your glass needs in Frankston South? Contact Roda Glass today for a free quote and expert advice."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Pool Fencing Cost in Frankston South?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting pool fencing costs in Frankston South, including materials and compliance with Australian standards.",
+      "body": [
+        "Pool fencing is a crucial safety requirement for homes in Frankston South, especially with the growing emphasis on child safety regulations. The cost can vary based on factors such as glass type, height, and installation complexity. In Frankston South, homeowners typically pay between $150 to $400 per metre for glass pool fencing, depending on whether it's frameless or semi-frameless. This pricing includes materials, labour, and any necessary compliance checks with Victorian building codes.",
+        "When budgeting for pool fencing in Frankston South, consider the climate and geography. The coastal location means exposure to salt air, which can affect materials over time. Opting for toughened glass with corrosion-resistant hardware ensures longevity. Additionally, Frankston South properties often have varied terrain, so custom fittings might be needed, adding to the cost. Always get multiple quotes from local glaziers like Roda Glass to compare prices and services.",
+        "Compliance with Australian Standard AS 1926.1 is non-negotiable for pool fencing in Frankston South. This includes specifications for height, gate latches, and gaps between panels. Non-compliance can lead to fines or safety risks. Professional glaziers ensure that your installation meets all legal requirements, which is factored into the overall cost. In Frankston South, where many homes have pools, this expertise is invaluable for avoiding common pitfalls.",
+        "The installation process in Frankston South involves site assessment, custom measurements, and careful fitting to prevent damage to existing structures. Factors like soil type and slope can influence the installation time and cost. For example, properties near the beach might require deeper footings to account for sandy soil. Working with experienced local glaziers who understand Frankston South's specific conditions can help streamline the project and keep costs predictable.",
+        "Maintenance costs should also be considered when installing pool fencing in Frankston South. Glass fencing is relatively low-maintenance but may require periodic cleaning to remove salt residue and dirt. Using high-quality sealants during installation can reduce long-term upkeep. In the long run, investing in durable materials from reputable suppliers ensures that your pool fencing remains safe and visually appealing for years, making it a cost-effective choice for Frankston South homeowners.",
+        "In summary, the cost of pool fencing in Frankston South is influenced by material choices, compliance requirements, and local environmental factors. By consulting with experts like Roda Glass, you can get a tailored quote that addresses your specific needs. Remember to factor in both initial installation and ongoing maintenance to budget effectively for this essential safety feature in your Frankston South property."
+      ]
+    },
+    {
+      "title": "Best Time to Install Shower Screens in Frankston South",
+      "date": "February 2026",
+      "excerpt": "Learn the ideal seasons and considerations for installing shower screens in Frankston South, considering weather and local demand.",
+      "body": [
+        "Installing shower screens in Frankston South requires planning around the local climate and seasonal trends. The best time is often during spring or autumn when temperatures are mild, allowing for better adhesion and curing of seals. In Frankston South, where humidity can vary, avoiding extreme heat or cold ensures a smooth installation process. This timing also aligns with less demand from glaziers, potentially leading to quicker scheduling.",
+        "Frankston South's coastal location means that salt air can affect installation materials if not handled properly. Opting for installation during drier months reduces the risk of moisture interfering with seals or fittings. Professional glaziers recommend checking weather forecasts and scheduling installations when rain is unlikely. This attention to detail prevents delays and ensures the longevity of your shower screen in the humid bathroom environment.",
+        "The demand for shower screen installations in Frankston South peaks during renovation seasons, typically in late winter or early summer. Booking in advance during off-peak times, like mid-autumn, can result in more flexibility and possibly better pricing. Local businesses and homeowners should consider their renovation timelines and coordinate with glaziers to avoid rush jobs that might compromise quality.",
+        "When planning installation in Frankston South, factor in the property's age and existing bathroom layout. Older homes might require custom solutions to accommodate uneven walls or limited space. The installation process involves precise measurements and cutting, which can be influenced by temperature fluctuations. Mild weather in Frankston South ensures that materials expand and contract predictably, leading to a more accurate fit.",
+        "Costs can also vary seasonally in Frankston South due to supply chain and labour availability. During winter, some materials might be more expensive due to lower stock, while summer could see higher demand from other trades. By choosing the optimal time, you can balance cost and quality. It's advisable to consult with local glaziers like Roda Glass for insights on the best installation window based on current market conditions.",
+        "In conclusion, the best time to install shower screens in Frankston South is during mild, dry seasons to ensure quality and durability. Planning ahead and considering local factors like coastal climate and renovation cycles can lead to a smoother process. Always seek professional advice to tailor the installation to your specific bathroom needs in Frankston South."
+      ]
+    },
+    {
+      "title": "Balustrading Regulations in Frankston South: What You Need to Know",
+      "date": "January 2026",
+      "excerpt": "Understand the Australian standards and local regulations for balustrading in Frankston South to ensure compliance and safety.",
+      "body": [
+        "Balustrading in Frankston South must adhere to strict Australian standards, primarily AS 1170.1 for structural loads and AS 1428.1 for accessibility. These regulations specify height, strength, and spacing requirements to ensure safety for residents and visitors. For example, balustrades on balconies or stairs in Frankston South properties must be at least 1 metre high with gaps no larger than 125mm to prevent falls.",
+        "In Frankston South, where many homes feature outdoor living areas, balustrading regulations are crucial for both new constructions and renovations. Local councils may have additional guidelines, so it's essential to check with the Frankston City Council before installation. Professional glaziers like Roda Glass are familiar with these rules and can design balustrades that meet all legal requirements while complementing your home's aesthetics.",
+        "Materials play a significant role in compliance for balustrading in Frankston South. Toughened or laminated glass is often required for its strength and shatter resistance. The choice between frameless and semi-frameless designs affects both cost and adherence to standards. Frameless glass balustrades offer a sleek look but must be precisely engineered to handle wind loads and impact, especially in coastal areas like Frankston South.",
+        "Installation quality is key to ensuring that balustrading in Frankston South remains compliant over time. Poorly fitted systems can lead to structural issues or safety hazards. It's important to use licensed glaziers who follow best practices and provide workmanship guarantees. In Frankston South, where property values are high, investing in proper installation protects your investment and avoids potential legal liabilities.",
+        "Maintenance and inspections are ongoing requirements for balustrading in Frankston South. Regular checks for cracks, loose fittings, or corrosion can prevent accidents. Australian standards recommend periodic assessments, especially for glass balustrades exposed to weather. Local glaziers offer inspection services to identify and address issues early, ensuring your balustrading remains safe and compliant.",
+        "In summary, navigating balustrading regulations in Frankston South involves understanding Australian standards, local council rules, and material specifications. By partnering with experienced glaziers, you can achieve compliance without sacrificing design. Always prioritize safety and legality to enjoy your balustrading features with peace of mind in Frankston South."
+      ]
+    },
+    {
+      "title": "Custom Glass for Frankston South Homes: Ideas and Benefits",
+      "date": "December 2025",
+      "excerpt": "Explore custom glass solutions for Frankston South homes, from splashbacks to partitions, and their advantages in design and functionality.",
+      "body": [
+        "Custom glass offers endless possibilities for enhancing Frankston South homes, combining functionality with modern aesthetics. From kitchen splashbacks to room partitions, tailored glass solutions can transform living spaces. In Frankston South, where homes often blend indoor and outdoor areas, custom glass allows for seamless transitions and abundant natural light, making interiors feel more open and inviting.",
+        "One popular application in Frankston South is glass splashbacks in kitchens. These not only protect walls from stains and heat but also add a splash of colour or pattern to the décor. Using toughened glass ensures durability and easy cleaning, which is practical for busy households. Custom designs can incorporate local themes, like coastal motifs, to reflect Frankston South's seaside environment.",
+        "Partitions made from custom glass are ideal for creating flexible spaces in Frankston South homes. Whether dividing a home office from a living area or adding privacy to a bathroom, glass partitions maintain a sense of openness while providing separation. Frosted or tinted options can enhance privacy without sacrificing light, which is particularly useful in the compact layouts common in suburban Frankston South.",
+        "The benefits of custom glass in Frankston South extend beyond aesthetics. It can improve energy efficiency by using insulated or low-emissivity glass that reduces heat transfer. In the variable Victorian climate, this helps maintain comfortable indoor temperatures year-round. Additionally, custom glass installations can increase property value, as they are seen as premium features in the competitive Frankston South real estate market.",
+        "Working with local glaziers like Roda Glass ensures that custom glass projects in Frankston South are executed with precision. The process involves consultation, design, fabrication, and installation, all tailored to your specific needs. Factors like room dimensions, lighting, and personal style are considered to create pieces that perfectly fit your home. In Frankston South, where unique architecture is common, custom solutions are often the best choice.",
+        "Maintenance of custom glass in Frankston South is straightforward but important for longevity. Regular cleaning with non-abrasive cleaners prevents buildup, and seals should be checked periodically to avoid leaks. With proper care, custom glass features can last for decades, providing lasting beauty and utility. For homeowners in Frankston South, investing in custom glass is a smart way to elevate their living spaces."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Roda Glass | Glazier in Frankston South | Balustrading & Pool Fencing",
+      "description": "Roda Glass provides expert glazing services in Frankston South, including balustrading, pool fencing, and shower screens. 25+ years experience serving Mornington Peninsula."
+    },
+    "about": {
+      "title": "About Roda Glass | Frankston South's Trusted Glazier | 25 Years Experience",
+      "description": "Discover Roda Glass, your local glazier in Frankston South with over 25 years of experience. Specialising in frameless glass for homes and businesses."
+    },
+    "services": {
+      "title": "Glass Services in Frankston South | Balustrading, Pool Fencing & More",
+      "description": "Explore Roda Glass services in Frankston South: balustrading, pool fencing, shower screens, and custom glass. Quality solutions for every project."
+    },
+    "pricing": {
+      "title": "Glass Installation Costs in Frankston South | Roda Glass Quotes",
+      "description": "Get transparent pricing for glass installations in Frankston South from Roda Glass. Free quotes with no hidden fees for all services."
+    },
+    "contact": {
+      "title": "Contact Roda Glass | Free Quotes in Frankston South & Mornington Peninsula",
+      "description": "Reach out to Roda Glass in Frankston South for free quotes on glass services. Serving Mornington Peninsula with 25+ years of expertise."
+    },
+    "blog": {
+      "title": "Frankston South Glass Blog | Tips & Guides from Roda Glass",
+      "description": "Read local guides on glass installation in Frankston South, including costs, regulations, and maintenance advice from experienced glaziers."
+    }
+  }
+}
