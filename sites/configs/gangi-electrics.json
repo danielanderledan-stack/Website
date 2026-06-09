@@ -1,0 +1,295 @@
+{
+  "siteType": "electrician",
+  "businessName": "Gangi Electrics",
+  "suburb": "Port Melbourne",
+  "phone": "03 9676 0000",
+  "email": "info@gangielectrics.com.au",
+  "address": "Unit 8/339 Williamstown Rd, Port Melbourne VIC 3207",
+  "tagline": "Port Melbourne's Trusted Electrical Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e05500",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Port Melbourne's Go-To Electricians",
+      "sub": "Over 45 years of electrical excellence since 1978"
+    },
+    {
+      "title": "Electrical, Data & Security Solutions",
+      "sub": "Residential, commercial & industrial services"
+    },
+    {
+      "title": "Clipsal Preferred Contractor",
+      "sub": "Expert warranty installations & repairs"
+    }
+  ],
+  "ctaHeading": "Port Melbourne's electricians are ready — power up your project.",
+  "aboutHeading": "45 Years Electrifying Port Melbourne",
+  "aboutSubheading": "Local, licensed & reliable since 1978",
+  "aboutText": "Gangi Electrics has been serving Port Melbourne and surrounding areas for over 45 years, providing expert electrical, data, and security solutions. As a Clipsal Preferred Contractor, we ensure high-quality installations and warranty works for both residential and commercial clients.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "From residential rewiring to commercial data cabling, Gangi Electrics offers a full range of electrical services in Port Melbourne and across Melbourne.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete home electrical services for Port Melbourne homes.",
+      "longDesc": "We provide safe, reliable residential electrical installations, upgrades, and repairs in Port Melbourne, ensuring compliance with Australian standards.",
+      "points": [
+        "Home rewiring",
+        "Switchboard upgrades",
+        "Energy-efficient lighting"
+      ]
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Electrical solutions for businesses in Port Melbourne and CBD.",
+      "longDesc": "Gangi Electrics delivers tailored commercial electrical services, from office fit-outs to industrial maintenance, keeping your business powered and secure.",
+      "points": [
+        "Office fit-outs",
+        "Industrial maintenance",
+        "Energy management"
+      ]
+    },
+    {
+      "title": "Data & Networking",
+      "desc": "Structured cabling and network setup for seamless connectivity.",
+      "longDesc": "We design and install data cabling and networking systems in Port Melbourne, supporting high-speed internet and efficient data flow for homes and businesses.",
+      "points": [
+        "Cat6 cabling",
+        "Fibre optic installation",
+        "Network configuration"
+      ]
+    },
+    {
+      "title": "Security Systems",
+      "desc": "Protect your property with advanced security installations.",
+      "longDesc": "Our team installs and maintains security systems, including alarms, CCTV, and access control, enhancing safety for Port Melbourne properties.",
+      "points": [
+        "CCTV cameras",
+        "Alarm systems",
+        "Access control"
+      ]
+    },
+    {
+      "title": "Maintenance & Repairs",
+      "desc": "Prompt electrical maintenance and emergency repairs.",
+      "longDesc": "Gangi Electrics offers fast, reliable maintenance and repair services across Port Melbourne, minimizing downtime and ensuring electrical safety.",
+      "points": [
+        "24/7 emergency service",
+        "Preventative maintenance",
+        "Fault finding"
+      ]
+    },
+    {
+      "title": "Clipsal Warranty Services",
+      "desc": "Preferred contractor for Clipsal product warranty works.",
+      "longDesc": "As a Clipsal Preferred Contractor, we handle all warranty-related electrical works in Port Melbourne, providing peace of mind with certified repairs.",
+      "points": [
+        "Warranty inspections",
+        "Certified replacements",
+        "Clipsal expertise"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Port Melbourne?",
+  "bannerSubheading": "Fast, reliable service for homes and businesses.",
+  "testimonialsHeading": "What Port Melbourne Locals Say",
+  "testimonialsSubheading": "Trusted by our community for over 45 years",
+  "blogHeading": "Port Melbourne Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from local electricians",
+  "contactHeading": "Get a Free Electrical Quote",
+  "contactSubheading": "We'll get back to you within 24 hours",
+  "reviews": [
+    {
+      "text": "Gangi Electrics has been our preferred electrical contractor for over 12 years, delivering excellent service for our head office expansion in Port Melbourne. Their team is reliable, committed, and professional.",
+      "name": "Mark Dunham",
+      "role": "Commercial Client"
+    },
+    {
+      "text": "Thank you for organising the electrical work at Trevor Barker House. The guys were amazing and Robert was fantastic, making a huge impact on the lives of many children and families.",
+      "name": "David Rogers",
+      "role": "CEO - Challenge"
+    },
+    {
+      "text": "I could not be more pleased with the quality of workmanship, punctuality, and safety standard from Gangi Electrics. Tristan and his team were outstanding in every aspect.",
+      "name": "Emma Wilson",
+      "role": "Port Melbourne Homeowner"
+    }
+  ],
+  "serviceAreas": [
+    "Port Melbourne",
+    "South Melbourne",
+    "Fishermans Bend",
+    "Newport",
+    "Williamstown",
+    "Altona",
+    "Footscray"
+  ],
+  "about": {
+    "intro": "Gangi Electrics is Port Melbourne's trusted electrical contractor with over 45 years of experience.",
+    "story": [
+      "From humble beginnings in 1978, Sebastiano Gangi grew a small electrical contracting company into a widely respected Australian organisation. Today, we continue that legacy in Port Melbourne, providing expert electrical solutions for residential, commercial, and industrial clients.",
+      "As a Clipsal Preferred Contractor, we specialise in warranty works and installations, ensuring high-quality service and peace of mind for our clients across Melbourne. Our team is fully equipped and certified to handle any electrical challenge."
+    ],
+    "mission": "To deliver exceptional electrical services to Port Melbourne and beyond with professionalism and integrity.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are fully licensed and registered in Victoria."
+      },
+      {
+        "title": "Clipsal Preferred",
+        "text": "Certified Clipsal contractor for warranty and installations."
+      },
+      {
+        "title": "24/7 Emergency",
+        "text": "Round-the-clock service for urgent electrical issues."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "Transparent quotes with no hidden costs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "45+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1000+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Clipsal Preferred Contractor",
+      "Free quotes"
+    ]
+  },
+  "pricing": {
+    "intro": "At Gangi Electrics, we offer transparent pricing for all electrical services in Port Melbourne. No lock-in contracts, just honest quotes.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality materials",
+          "Workmanship guarantee",
+          "Safety compliance"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Project management",
+          "Custom solutions",
+          "Full documentation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and upfront, so you know the cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact Gangi Electrics for a free electrical quote in Port Melbourne and surrounding areas."
+  },
+  "blogPosts": [
+    {
+      "title": "Cost of Electrical Upgrades for Port Melbourne Homes",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting electrical upgrade costs in Port Melbourne, including switchboard replacements and wiring.",
+      "body": [
+        "Electrical upgrades are essential for ensuring safety and efficiency in Port Melbourne homes, especially in older properties where wiring may be outdated. Factors such as the age of the building, the complexity of the work, and compliance with Australian Standards AS/NZS 3000 can influence costs. For instance, a simple switchboard upgrade in Port Melbourne might range from $800 to $1,500, while full rewiring could cost $5,000 or more depending on the size of the house. It's crucial to hire a licensed electrician who understands local regulations and can provide a detailed quote.",
+        "In Port Melbourne, the climate and coastal environment can impact electrical systems, with humidity and salt air potentially accelerating wear on components. Upgrading to modern, weather-resistant materials can prevent corrosion and extend the lifespan of installations. Energy-efficient upgrades, such as LED lighting or smart home systems, not only reduce electricity bills but also increase property value. Many Port Melbourne homeowners are investing in solar panel integrations, which require careful electrical planning and may qualify for government rebates.",
+        "When budgeting for electrical upgrades, consider the long-term savings and safety benefits. A professional electrician in Port Melbourne will assess your current system, identify any hazards, and recommend cost-effective solutions. For example, replacing old fuses with circuit breakers can prevent electrical fires and is often a requirement for insurance purposes. It's also wise to plan for future needs, such as additional power points for home offices or electric vehicle charging stations.",
+        "To get the best value, obtain multiple quotes from reputable Port Melbourne electricians like Gangi Electrics, who offer transparent pricing and no hidden fees. Check for licenses, insurance, and customer reviews to ensure quality workmanship. Many electrical contractors provide free consultations, allowing you to discuss your needs and get a tailored plan. Remember, while cost is important, cutting corners on electrical work can lead to dangerous outcomes, so always prioritize safety and compliance.",
+        "In summary, electrical upgrades in Port Melbourne are a worthwhile investment for homeowners looking to enhance safety, efficiency, and property value. By understanding the factors that affect costs and working with experienced professionals, you can make informed decisions that meet your budget and requirements. Whether you're renovating an old cottage in Port Melbourne or modernising a new build, quality electrical work will pay off in the long run."
+      ]
+    },
+    {
+      "title": "How to Choose a Licensed Electrician in Port Melbourne",
+      "date": "February 2026",
+      "excerpt": "Tips for selecting a qualified electrician in Port Melbourne, from licensing to reviews and local expertise.",
+      "body": [
+        "Choosing a licensed electrician in Port Melbourne is critical for ensuring safe, compliant electrical work in your home or business. Start by verifying their credentials with Energy Safe Victoria (ESV) to confirm they hold a current electrical licence. A reputable electrician will have no hesitation in providing their licence number and proof of insurance. In Port Melbourne, where building standards are strict, working with a licensed professional avoids fines and ensures work meets Australian Standards.",
+        "Look for electricians with specific experience in Port Melbourne, as they will be familiar with local building codes, common electrical issues in the area, and even the best suppliers for quality materials. Check online reviews on platforms like Google or Hipages, and ask for references from past clients. Port Melbourne has a mix of residential, commercial, and industrial properties, so choose a contractor who has handled similar projects. For example, Gangi Electrics has been serving Port Melbourne for over 45 years, with a proven track record in all sectors.",
+        "When contacting potential electricians, ask detailed questions about their approach to projects in Port Melbourne. Inquire about their knowledge of local regulations, such as requirements for switchboard upgrades or safety switches. A good electrician will conduct a thorough on-site assessment before providing a quote, explaining the scope of work, materials, and timelines. Avoid anyone who offers a quote without inspecting the job, as this can lead to unexpected costs and subpar work.",
+        "Consider the range of services offered by Port Melbourne electricians. Some specialise in residential work, while others focus on commercial or industrial projects. If you need comprehensive services like data cabling, security systems, or Clipsal warranty works, ensure the electrician has the necessary expertise. Port Melbourne's coastal location may require additional considerations for outdoor electrical installations, such as corrosion-resistant fittings.",
+        "Finally, evaluate the communication and professionalism of the electrician. A reliable Port Melbourne electrician will be punctual, clean, and respectful of your property. They should provide clear documentation, including a detailed invoice and warranty for their work. By taking the time to research and choose wisely, you can ensure your electrical project in Port Melbourne is completed safely, efficiently, and to a high standard."
+      ]
+    },
+    {
+      "title": "Energy-Efficient Lighting Solutions for Melbourne Businesses",
+      "date": "January 2026",
+      "excerpt": "Reduce energy costs with LED lighting upgrades for commercial properties in Port Melbourne and across Melbourne.",
+      "body": [
+        "Energy-efficient lighting is a smart investment for businesses in Port Melbourne, offering significant cost savings and environmental benefits. LED lighting, for instance, uses up to 80% less energy than traditional incandescent bulbs and lasts much longer, reducing maintenance costs. In Port Melbourne's commercial precincts, where lighting often runs for extended hours, upgrading to LEDs can lower electricity bills by hundreds or thousands of dollars annually. Additionally, LED lights emit less heat, which can reduce air conditioning loads in summer.",
+        "When planning a lighting upgrade for your Port Melbourne business, start with an energy audit to assess current usage and identify opportunities for improvement. A licensed electrician can evaluate factors like natural light availability, task lighting needs, and occupancy patterns. For example, installing motion sensors or dimmers in offices or warehouses can further optimize energy use. Port Melbourne businesses, such as retail shops or factories, may benefit from tailored solutions that enhance visibility and safety while cutting costs.",
+        "Compliance with Australian Standards, such as AS/NZS 1158 for outdoor lighting, is essential for commercial properties in Port Melbourne. Proper lighting not only improves aesthetics but also ensures safety for employees and customers. Consider smart lighting systems that can be controlled remotely, allowing for scheduling and adjustments based on business hours. These systems are increasingly popular in Port Melbourne's modern offices and co-working spaces, contributing to a sustainable and efficient work environment.",
+        "The installation process should be handled by qualified electricians who understand Port Melbourne's specific requirements. They can recommend high-quality LED products from reputable brands, ensuring durability and performance. Many lighting upgrades qualify for government incentives or rebates, such as the Victorian Energy Upgrades (VEU) program, which can offset installation costs. It's advisable to research available schemes and work with an electrician who can assist with applications.",
+        "In conclusion, energy-efficient lighting solutions are a practical way for Port Melbourne businesses to reduce operational costs, meet sustainability goals, and enhance their premises. By partnering with experienced local electricians, you can achieve a seamless upgrade that delivers long-term benefits. Whether you're retrofitting an existing space or designing a new one, investing in modern lighting is a step towards a brighter, more efficient future."
+      ]
+    },
+    {
+      "title": "Electrical Safety Checks: What Port Melbourne Landlords Need to Know",
+      "date": "December 2025",
+      "excerpt": "Essential electrical safety inspections for rental properties in Port Melbourne to meet regulations and protect tenants.",
+      "body": [
+        "For landlords in Port Melbourne, regular electrical safety checks are not just recommended—they're a legal obligation under Victorian rental laws. The Residential Tenancies Act requires landlords to ensure that rental properties are safe, including maintaining electrical installations in good working order. In Port Melbourne, where many properties are older, risks like faulty wiring or lack of safety switches can pose serious hazards. Conducting annual inspections by a licensed electrician helps prevent accidents and ensures compliance.",
+        "A comprehensive electrical safety check in Port Melbourne involves examining wiring, switchboards, power points, and lighting for signs of wear, damage, or non-compliance. Key elements include testing safety switches (RCDs), which are mandatory in all Victorian rental properties, and checking for adequate circuit protection. Port Melbourne's coastal climate can accelerate corrosion in electrical components, so inspections should also assess outdoor installations. Electricians will provide a detailed report, highlighting any issues that need immediate attention.",
+        "Landlords in Port Melbourne should be aware of the consequences of neglecting electrical safety. Non-compliance can lead to fines from Consumer Affairs Victoria and increased liability in case of tenant injuries or property damage. Moreover, proactive maintenance can enhance tenant satisfaction and reduce vacancy rates. For example, upgrading to modern switchboards or installing energy-efficient lighting can make properties more attractive in Port Melbourne's competitive rental market.",
+        "When scheduling an electrical safety check, choose a licensed electrician with experience in Port Melbourne rental properties. They will understand the specific requirements for older homes and newer developments. It's also wise to maintain records of all inspections and repairs, as this documentation is valuable for insurance purposes and lease agreements. Many electricians offer maintenance packages for landlords, providing regular checks and priority service for repairs.",
+        "In summary, electrical safety checks are a critical responsibility for Port Melbourne landlords, ensuring legal compliance and tenant well-being. By investing in regular inspections and timely repairs, you can protect your property, avoid penalties, and maintain a positive reputation. Partnering with a trusted local electrician like Gangi Electrics can simplify this process, giving you peace of mind and a safer rental environment."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Gangi Electrics | Electrician in Port Melbourne | Electrical Services",
+      "description": "Trusted electrician in Port Melbourne with 45+ years experience. Electrical, data, security services. Clipsal Preferred Contractor. Free quotes."
+    },
+    "about": {
+      "title": "About Gangi Electrics | Port Melbourne's Electrical Experts",
+      "description": "Learn about Gangi Electrics, serving Port Melbourne since 1978. Licensed, insured, and Clipsal Preferred Contractor for all electrical needs."
+    },
+    "services": {
+      "title": "Electrical Services in Port Melbourne | Gangi Electrics",
+      "description": "Comprehensive electrical services in Port Melbourne: residential, commercial, data, security, maintenance. Expert local electricians."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Quotes Port Melbourne | Gangi Electrics",
+      "description": "Transparent electrical pricing in Port Melbourne. Get upfront quotes for all services. No hidden costs."
+    },
+    "contact": {
+      "title": "Contact Gangi Electrics | Free Electrical Quotes Port Melbourne",
+      "description": "Get in touch with Gangi Electrics for free electrical quotes in Port Melbourne. Fast response within 24 hours."
+    },
+    "blog": {
+      "title": "Port Melbourne Electrical Blog | Tips & Guides by Gangi Electrics",
+      "description": "Expert electrical advice for Port Melbourne homes and businesses. Tips on upgrades, safety, and energy efficiency."
+    }
+  }
+}
