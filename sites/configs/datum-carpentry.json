@@ -1,0 +1,300 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Datum Carpentry",
+  "suburb": "Seaford",
+  "phone": "0431 852 974",
+  "email": "info@datumcarpentry.com.au",
+  "address": "23 Henry Cres, Seaford VIC 3198",
+  "tagline": "Seaford's Trusted Carpenters",
+  "primaryColor": "#3b8cff",
+  "primaryColorRgb": "59, 140, 255",
+  "primaryColorHover": "#2f7ae6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Seaford's Trusted Carpenters",
+      "sub": "Over 15 years of quality craftsmanship on the bayside"
+    },
+    {
+      "title": "Decks, Renovations & Custom Joinery",
+      "sub": "Residential and commercial carpentry across Seaford"
+    },
+    {
+      "title": "Built to Last, Priced to Please",
+      "sub": "Free quotes across Seaford and surrounds"
+    }
+  ],
+  "ctaHeading": "Seaford's carpenters are ready — let's build your project.",
+  "aboutHeading": "15+ Years Carpentry in Seaford",
+  "aboutSubheading": "Local, licensed and built to last",
+  "aboutText": "Datum Carpentry has been serving Seaford and Melbourne's bayside suburbs for over 15 years, delivering high-quality residential and commercial carpentry. From custom decking and kitchen renovations to built-in storage and home extensions, we take pride in precise craftsmanship using premium Australian timbers. Every project is backed by full licensing, comprehensive insurance and a workmanship guarantee — so Seaford homeowners can build with confidence.",
+  "servicesHeading": "What We Build",
+  "servicesSubheading": "Quality carpentry for Seaford homes",
+  "servicesText": "From Seaford decks to custom cabinetry, Datum Carpentry handles all residential and commercial woodworking needs. We work with premium Australian timbers, use proven construction methods and deliver finishes that stand up to Melbourne's bayside climate.",
+  "services": [
+    {
+      "title": "Custom Decking & Outdoor Structures",
+      "desc": "Timber decks, pergolas and outdoor living spaces built to withstand Seaford's coastal conditions and Melbourne summers.",
+      "longDesc": "Datum Carpentry designs and builds custom timber decks, pergolas and outdoor structures using hardwoods suited to Seaford's bayside environment. We source durable species like spotted gum and merbau that resist moisture, UV damage and salt air, ensuring your outdoor space looks great for decades.",
+      "points": [
+        "Coastal-grade timbers",
+        "Custom designs",
+        "15+ years experience"
+      ]
+    },
+    {
+      "title": "Kitchen & Bathroom Renovations",
+      "desc": "Full kitchen and bathroom carpentry including benchtops, cabinetry, tiling substrates and fixture installation across Seaford.",
+      "longDesc": "Transform your Seaford home with expert kitchen and bathroom renovation carpentry. Datum Carpentry handles everything from demolition framing and waterproofing substrates to custom benchtops, splashback preparation and fixture mounting, all completed to Australian building standards.",
+      "points": [
+        "End-to-end renovation",
+        "Australian standards",
+        "Premium finishes"
+      ]
+    },
+    {
+      "title": "Custom Cabinetry & Joinery",
+      "desc": "Handcrafted built-in wardrobes, entertainment units, shelving and storage solutions for Seaford homes.",
+      "longDesc": "Datum Carpentry crafts custom cabinetry and joinery tailored to your Seaford home's exact dimensions and style. From built-in wardrobes and entertainment units to kitchen pantries and hallway storage, every piece is manufactured locally using quality materials.",
+      "points": [
+        "Made-to-measure",
+        "Local craftsmanship",
+        "Quality materials"
+      ]
+    },
+    {
+      "title": "Home Extensions & Framing",
+      "desc": "Structural framing, room additions and home extensions for Seaford properties of all sizes.",
+      "longDesc": "Planning a home extension in Seaford? Datum Carpentry provides expert structural framing, load-bearing wall modifications and complete room additions. We work alongside builders and architects to deliver extensions that integrate seamlessly with your existing home.",
+      "points": [
+        "Structural expertise",
+        "Council compliant",
+        "Seamless integration"
+      ]
+    },
+    {
+      "title": "Shelving, Storage & Fit-Outs",
+      "desc": "Custom shelving, walk-in robes, garage storage and commercial fit-out carpentry across Seaford.",
+      "longDesc": "Maximise every centimetre of your Seaford home or business with custom-built shelving, walk-in wardrobes, garage storage systems and commercial fit-outs. Datum Carpentry designs practical storage solutions that suit your lifestyle using quality timber and hardware.",
+      "points": [
+        "Space-maximising designs",
+        "Residential and commercial",
+        "Durable hardware"
+      ]
+    },
+    {
+      "title": "Door & Window Installation",
+      "desc": "Internal and external door hanging, window framing, security screen installation and adjustments.",
+      "longDesc": "Datum Carpentry provides professional door hanging, window framing and security screen installation across Seaford. Whether you need internal doors rehung, external frames repaired or new windows fitted, we ensure smooth operation, proper sealing and a clean finish.",
+      "points": [
+        "Precision fitting",
+        "Weather sealing",
+        "All door types"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Seaford?",
+  "bannerSubheading": "From decking to renovations — we build it right.",
+  "testimonialsHeading": "What Seaford Locals Say",
+  "testimonialsSubheading": "Honest work, quality timber",
+  "blogHeading": "Seaford Carpentry Guides & Advice",
+  "blogSubheading": "Expert tips from our bayside carpenters",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We will get back to you within 24 hours",
+  "reviews": [
+    {
+      "text": "Datum Carpentry built us a stunning spotted gum deck at our Seaford home. The craftsmanship is outstanding and they finished ahead of schedule. Highly recommend for anyone needing quality decking on the bayside.",
+      "name": "Mark Henderson",
+      "role": "Seaford Homeowner"
+    },
+    {
+      "text": "We hired Datum for a full kitchen renovation and could not be happier. The custom cabinetry they designed and installed is absolutely beautiful, a perfect fit and finish throughout our Frankston home.",
+      "name": "Sarah Nguyen",
+      "role": "Frankston Homeowner"
+    },
+    {
+      "text": "Professional, punctual and reasonably priced. Datum Carpentry fitted new internal doors and built custom shelving in our Langwarrin office. Great attention to detail and easy to work with.",
+      "name": "David Mitchell",
+      "role": "Langwarrin Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Seaford",
+    "Frankston",
+    "Langwarrin",
+    "Carrum Downs",
+    "Karingal",
+    "Chelsea",
+    "Cranbourne",
+    "Bonbeach"
+  ],
+  "about": {
+    "intro": "Datum Carpentry is a family-owned carpentry business based in Seaford, specialising in residential and commercial woodworking across Melbourne's bayside and southeastern suburbs.",
+    "story": [
+      "Founded over 15 years ago in Seaford, Datum Carpentry grew from a one-man operation into one of the most trusted carpentry teams on Melbourne's bayside. Our founder started with a simple belief that quality timber work, done properly, speaks for itself. That philosophy still drives every project we take on across Seaford and surrounding suburbs.",
+      "Today our team of experienced carpenters handles everything from custom decking and kitchen renovations to full home extensions and commercial fit-outs. We work exclusively with premium Australian timbers sourced from sustainable suppliers, and every job is completed to current Australian building standards. Whether it is a built-in wardrobe in Frankston or a pergola in Chelsea, we bring the same level of care and precision to every project."
+    ],
+    "mission": "To deliver exceptional carpentry craftsmanship to Seaford homeowners — on time, on budget and built to last.",
+    "whyUs": [
+      {
+        "title": "Licensed and Insured",
+        "text": "Fully licensed carpenters with comprehensive public liability and workers compensation insurance for your peace of mind."
+      },
+      {
+        "title": "Premium Timbers",
+        "text": "We only use high-quality Australian hardwoods and sourced timbers suited to bayside Melbourne conditions."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "Over 15 years building in Seaford, we know the local climate, soil conditions and council requirements."
+      },
+      {
+        "title": "Workmanship Guarantee",
+        "text": "Every project is backed by our written workmanship guarantee so you can invest with complete confidence."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "800+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed and Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free on-site quotes",
+      "Written workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "Datum Carpentry provides transparent upfront pricing for all Seaford carpentry projects. Every quote is detailed and fixed — no hidden costs, no surprise add-ons.",
+    "packages": [
+      {
+        "name": "Consultation and Quote",
+        "price": "Free",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "On-site assessment at your Seaford property",
+          "Detailed written quote",
+          "No obligation whatsoever"
+        ]
+      },
+      {
+        "name": "Standard Carpentry Job",
+        "price": "from $850",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Door hanging, shelving or minor repairs",
+          "Premium materials included",
+          "Typically one to three days on site",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Renovation",
+        "price": "from $8,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Kitchen, deck or extension projects",
+          "Full project management",
+          "Staged payment options available"
+        ]
+      }
+    ]
+  },
+  "note": "All quotes are fixed upfront — the price we quote is the price you pay.",
+  "contact": {
+    "intro": "Ready to start your Seaford carpentry project? Contact Datum Carpentry for a free on-site consultation and detailed quote. We typically respond within 24 hours and can arrange a visit to your Seaford property at a time that suits you."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Timber Deck Cost in Seaford in 2026?",
+      "date": "March 2026",
+      "excerpt": "Planning a new timber deck in Seaford? We break down the real costs, material choices and factors that affect pricing for Melbourne's bayside homes.",
+      "body": [
+        "If you are a Seaford homeowner dreaming of a new timber deck, understanding the true cost is essential before breaking ground. On Melbourne's bayside, decking projects typically range from $200 to $550 per square metre, depending on timber species, deck height and complexity of the build. For a standard 20 square metre deck at ground level, you can expect to pay between $4,000 and $8,000 fully installed by a licensed Seaford carpenter. Larger elevated decks with stairs, balustrades and custom railings can easily reach $15,000 to $25,000. The key cost drivers are timber selection, site access and whether structural footings are required. At Datum Carpentry, we provide fixed-price quotes after inspecting your Seaford property, so you know exactly what you are paying before any work begins.",
+        "The timber you choose has the single biggest impact on your Seaford deck's price and longevity. Budget-friendly treated pine starts at around $80 per linear metre but requires regular oiling and may not hold up well in Seaford's salt-laden coastal air. Mid-range options like merbau, priced between $120 and $180 per linear metre, offer excellent durability and a rich reddish tone that weathers beautifully over time. Premium hardwoods such as spotted gum, ranging from $160 to $240 per linear metre, or blackbutt are the gold standard for bayside Melbourne decks. They resist moisture, termites and UV damage better than any softwood available. At Datum Carpentry, we recommend spotted gum for Seaford properties because it handles the local coastal climate exceptionally well and delivers a stunning natural finish that lasts 25 years or more with basic annual maintenance.",
+        "Beyond timber selection, the design and structure of your Seaford deck will significantly influence the final price. A simple ground-level deck laid on concrete pavers is the most affordable option, requiring minimal excavation and no structural footings. Elevated decks, which are common on Seaford's sloping blocks closer to the coastline, require steel or treated pine posts set into concrete footings, adding $1,500 to $4,000 depending on the height above ground level. Additional features like built-in seating, planter boxes, privacy screens and integrated lighting can add $500 to $3,000 per element. Stairs typically cost between $300 and $800 each depending on width and rise. The shape of the deck also matters, as simple rectangles are quicker to frame and board, while angled or curved designs require more cutting, wastage and labour hours.",
+        "Labour is another major component of your Seaford deck cost. A two-person carpentry team typically charges between $85 and $130 per hour in Melbourne's southeastern suburbs. For a standard 20 square metre ground-level deck, expect two to four days of on-site work, meaning labour alone accounts for $1,400 to $4,200 of your total cost. Elevated or complex builds can extend to five to ten days depending on access and footing requirements. At Datum Carpentry, we provide fixed-price quotes after an on-site inspection at your Seaford property, so you know the full cost before any work begins. This eliminates nasty surprises and lets you budget with confidence. We also handle all waste removal and leave your Seaford property clean and tidy on completion.",
+        "Many Seaford homeowners are surprised to learn that building permits may be required for their deck project. Under Victorian building regulations, a permit is generally needed if your deck is more than one metre above natural ground level, exceeds 10 square metres in area or is attached to an existing structure. Permits in the City of Frankston typically cost between $400 and $1,200, depending on the scope of the proposed work. As your local Seaford carpenter, Datum Carpentry can advise on whether your project requires a permit and assist with the application process. Skipping the permit may seem like a cost saving, but it can create serious problems when selling your home or claiming on insurance. We always recommend following council requirements to the letter.",
+        "One of the smartest investments Seaford homeowners can make is in quality deck maintenance from day one. A well-maintained spotted gum or merbau deck can last 25 to 40 years, while a neglected treated pine deck may need replacing in just 10 to 15. Annual oiling with a quality UV-protective timber oil costs around $150 to $300 for a typical Seaford deck and dramatically extends its lifespan. Factor this long-term maintenance cost into your budget when choosing between timber species. At Datum Carpentry, we finish every Seaford deck with two coats of premium timber oil and provide a written maintenance guide so you can keep your investment looking its best. We also offer annual maintenance visits for Seaford clients who prefer a hands-off approach to deck care."
+      ]
+    },
+    {
+      "title": "Best Timber for Decking in Melbourne's Bayside Climate",
+      "date": "February 2026",
+      "excerpt": "Choosing the right decking timber for Seaford? Compare spotted gum, merbau and treated pine for durability in Melbourne's coastal conditions.",
+      "body": [
+        "Choosing the right timber for your Seaford deck is not just about aesthetics. Melbourne's bayside climate presents specific challenges that will make or break your outdoor living space. Seaford sits just a few kilometres from Port Phillip Bay, meaning your deck faces constant exposure to salt-laden winds, intense UV radiation during summer and damp cool conditions through the cooler months. The occasional freeze-thaw cycles that hit Melbourne's southeast can also cause inferior timbers to crack, split and warp over time. For these reasons, selecting a timber species rated for coastal Australian conditions is absolutely critical. Not all hardwoods are created equal, and choosing the wrong species could mean costly repairs or premature replacement within just a few years of construction.",
+        "Spotted gum is widely regarded as the premier decking timber for Seaford and Melbourne's bayside suburbs, and for good reason. This Australian hardwood scores an exceptionally high Janka hardness rating of 11.0, making it extremely resistant to dents, scratches and daily wear from foot traffic, furniture and dropped items. Its natural oils provide outstanding resistance to moisture, rot and termite attack, which are essential qualities given Seaford's proximity to the bay and the region's termite risk profile. Spotted gum also has excellent fire resistance, meeting BAL-19 bushfire attack level requirements under Australian Standard AS 3959. Available in tones ranging from pale honey to deep chocolate brown, spotted gum decks develop a beautiful silver-grey patina over time if left un-oiled, or maintain their rich natural colour with annual oiling. Prices typically range from $160 to $240 per linear metre for common decking sizes.",
+        "Merbau is another excellent choice for Seaford decking, offering a warmer reddish-brown tone that many homeowners find visually appealing for outdoor living spaces. With a Janka rating of 9.0, it is slightly softer than spotted gum but still highly durable for outdoor use in bayside conditions. Merbau contains natural oils that repel moisture and insects, making it well-suited to Seaford's coastal humidity levels throughout the year. It is also one of the more affordable hardwood decking options, typically priced between $120 and $180 per linear metre. One important consideration is that merbau leaches tannins during its first few months after installation, which can stain adjacent concrete paths, pavers or retaining walls. This is easily managed with a tannin seal and proper installation techniques, and our team at Datum Carpentry handles this as standard practice on all Seaford merbau deck projects.",
+        "Treated pine remains the budget option for Seaford decks, starting from around $80 per linear metre. While it is the most affordable timber available, it comes with significant trade-offs for bayside locations like Seaford. Treated pine is a softwood with a Janka rating of just 5.0, meaning it dents, wears and splinters much faster than hardwood alternatives. In Seaford's salt-air environment, pine decking boards can develop surface mould, warping, cupping and splitting if not maintained religiously with annual oiling or painting. The typical lifespan of a treated pine deck in coastal Melbourne conditions is 10 to 15 years, compared to 25 to 40 years for quality hardwoods. For Seaford homeowners planning to stay in their property long-term, investing in spotted gum or merbau almost always works out cheaper over the total life of the deck when you factor in replacement costs.",
+        "Composite decking has gained popularity in recent years as a low-maintenance alternative to natural timber, but it is not always the best fit for Seaford properties. While composite boards require no oiling or staining, they can become extremely hot underfoot during Melbourne's summer heatwaves, they tend to fade over time under intense UV exposure, and they lack the natural beauty and character that real timber brings to a Seaford outdoor space. Composite boards also tend to flex more than hardwood, which can be problematic on elevated deck structures in bayside winds. For Seaford homeowners who value authenticity and are willing to perform basic annual maintenance, natural hardwood remains the superior choice in almost every scenario. If low maintenance is your absolute priority, consider bamboo composite or capped polymer boards that are specifically rated for Australian UV conditions and coastal exposure.",
+        "Getting the timber selection right is the single most important decision in your Seaford deck project. We always recommend inspecting timber samples in person at your Seaford property, as colours and grain patterns can look very different in a showroom versus under Melbourne's natural light conditions. At Datum Carpentry, we bring a range of timber samples to every Seaford consultation so you can see, touch and compare options in the actual environment where your deck will be built. We also source our timber from certified Australian suppliers who comply with sustainability and environmental standards, so you can feel confident about where your materials originate. Contact us today for a free on-site consultation at your Seaford home to discuss the best timber choice for your budget and lifestyle."
+      ]
+    },
+    {
+      "title": "Seaford Kitchen Renovation: Complete Guide to Costs and Planning",
+      "date": "January 2026",
+      "excerpt": "Everything Seaford homeowners need to know about kitchen renovation costs, timelines, materials and planning for a smooth, stress-free project.",
+      "body": [
+        "A kitchen renovation is one of the most impactful upgrades a Seaford homeowner can make, adding both daily enjoyment and significant resale value to your property. In Melbourne's southeastern suburbs, a quality kitchen renovation typically costs between $15,000 and $50,000 depending on the scope, materials and finishes selected. Seaford homes, many of which were built between the 1970s and 1990s during the suburb's major development periods, often benefit enormously from modernised kitchens that improve workflow, storage capacity and overall liveability. At Datum Carpentry, we specialise in the carpentry and cabinetry aspects of kitchen renovations in Seaford, working alongside tilers, plumbers and electricians to deliver a seamless result. Understanding the costs, timeline and planning involved helps Seaford homeowners make informed decisions from the very start of the process.",
+        "The cabinetry is typically the largest single expense in a Seaford kitchen renovation, accounting for 40 to 50 percent of the total budget. Custom-built cabinetry from a local Seaford carpenter like Datum offers the best fit, finish and longevity compared to flat-pack alternatives. Expect to pay between $5,000 and $15,000 for a full set of custom kitchen cabinets, depending on the number of units, materials and hardware selected. Crown veneer and laminate finishes are the most affordable options, while solid timber or two-pack polyurethane paint finishes sit at the premium end of the scale. Soft-close drawer runners and hinges are now standard in quality Seaford kitchens and add minimal cost to the overall project. The key advantage of custom cabinetry is that every millimetre of available space is used efficiently, which is critical in Seaford's older kitchens where dimensions and layouts may be limited by original building designs.",
+        "Benchtops are the next major cost factor in a Seaford kitchen renovation, ranging from $1,000 for basic laminate to $5,000 or more for engineered stone or natural stone options. Laminate benchtops from Australian suppliers like Laminex remain popular for budget-conscious Seaford renovations, offering clean lines and a huge range of colours and patterns to suit any design preference. Engineered stone brands such as Caesarstone and Silestone have become the most popular choice for mid-range Seaford kitchens, providing excellent stain resistance and a premium appearance at around $200 to $400 per square metre installed. Natural marble and granite sit at the top end but require more ongoing maintenance and sealing. For Seaford families who cook frequently, we recommend quartz-based engineered stone for its durability, stain resistance and minimal maintenance requirements. As your Seaford carpenter, we template and install benchtops with precision to ensure perfect joins and a flawless finish every time.",
+        "The timeline for a Seaford kitchen renovation depends on the complexity of the project, but most complete renovations take between three and eight weeks from demolition to final completion. Demolition and removal of the existing kitchen typically takes two to three days, followed by rough-in work from licensed plumbers and electricians over one to two weeks. Custom cabinetry fabrication usually requires three to six weeks in our workshop, during which time other trades can complete flooring, tiling and painting work. Installation of cabinetry, benchtops and splashbacks takes another three to five days once materials are delivered and ready. At Datum Carpentry, we coordinate the carpentry schedule with all other trades to minimise downtime and keep your Seaford renovation running smoothly on track. We also provide a temporary bench setup where possible, so your household can still prepare basic meals during the renovation period.",
+        "Seaford homeowners should be aware of permit and compliance requirements before starting a kitchen renovation project. If your project involves structural changes such as removing or modifying load-bearing walls, altering plumbing locations significantly, or changing the building's internal layout, a building permit from the City of Frankston is required. All electrical work must be carried out by a licensed electrician and compliance certificates must be provided upon completion. Waterproofing in wet areas must meet Australian Standard AS 3740 for compliance and insurance purposes. At Datum Carpentry, we ensure all our carpentry work on Seaford kitchen renovations meets current Australian building standards and we coordinate with licensed trades for plumbing and electrical compliance documentation. This protects your investment and ensures your renovated kitchen meets all insurance and future resale requirements.",
+        "Planning your Seaford kitchen renovation thoughtfully can save thousands of dollars and avoid frustrating delays during the build. Start by setting a realistic budget that includes a 15 to 20 percent contingency allowance for unexpected costs, because in older Seaford homes, discovering asbestos sheeting, outdated wiring or deteriorated plumbing during demolition is not uncommon. Choose your appliances early in the process, as cabinet dimensions must be planned around specific models and their ventilation requirements. Consider your kitchen's workflow carefully, as the classic triangle between sink, cooktop and fridge remains the most efficient layout for most Seaford families. At Datum Carpentry, we offer free initial consultations at your Seaford property to discuss layout options, material choices and realistic budgets before any work begins. This upfront planning and transparent communication is why our Seaford kitchen renovations run smoothly from start to finish."
+      ]
+    },
+    {
+      "title": "Built-In Wardrobes vs Freestanding: Which Is Best for Seaford Homes?",
+      "date": "December 2025",
+      "excerpt": "We compare custom built-in wardrobes and freestanding options for Seaford bedrooms, covering cost, storage space and long-term value.",
+      "body": [
+        "One of the most common questions Seaford homeowners ask during a bedroom upgrade is whether to invest in custom built-in wardrobes or stick with freestanding furniture options. The answer depends on your budget, available space and how long you plan to remain in your Seaford property. Built-in wardrobes, crafted by a skilled Seaford carpenter like Datum Carpentry, are permanently fixed to the walls and floor, utilising every available centimetre of space from floor to ceiling. Freestanding wardrobes are portable furniture pieces that sit within a room but inevitably waste valuable space above, below and around their frame. For Seaford homes where bedroom space is often at a premium, particularly in the three-bedroom houses built during the suburb's 1970s to 1990s development era, built-ins almost always deliver better value and functionality over the long term.",
+        "The primary advantage of built-in wardrobes for Seaford homes is space efficiency. A custom built-in wardrobe designed by Datum Carpentry is manufactured to fit the exact dimensions of your bedroom wall, including sloped ceilings, alcoves, pillars and awkward corners that freestanding units simply cannot accommodate. This means you can gain up to 30 percent more usable storage compared to a standard freestanding wardrobe of similar external width. For Seaford families in three-bedroom homes, built-in wardrobes can transform cramped bedrooms into organised, clutter-free spaces where everything has its place. Internally, we customise the layout with hanging rails at multiple heights, adjustable shelving, built-in drawers and accessory organisers, all configured to your specific clothing and storage requirements. This level of customisation is impossible to achieve with off-the-shelf freestanding furniture.",
+        "Cost is naturally a key consideration for Seaford homeowners weighing built-ins against freestanding options for their bedrooms. A quality freestanding wardrobe from a furniture retailer typically costs between $400 and $2,000, while custom built-in wardrobes from a Seaford carpenter range from $1,500 to $5,000 or more per unit depending on the size, materials and internal fit-out complexity. While built-ins cost more upfront, they add permanent value to your Seaford property, unlike freestanding units that leave with you when you eventually move out. Real estate agents consistently report that homes with built-in wardrobes sell faster and at higher prices in Melbourne's southeastern suburbs. For Seaford homeowners planning to sell within five to ten years, investing in built-in wardrobes is one of the most cost-effective upgrades you can make to add both functionality and resale appeal to your property.",
+        "The materials and finishes available for built-in wardrobes give Seaford homeowners far more choice than freestanding furniture options. At Datum Carpentry, we offer built-in wardrobes in a range of finishes including melamine, crown veneer, timber veneer and two-pack polyurethane paint in any colour. Doors can be configured as hinged, sliding or mirrored, with sliding doors being particularly popular in Seaford's smaller bedrooms where swing space is limited near beds and other furniture. Mirrored doors serve double duty, creating the illusion of a larger room while eliminating the need for a separate bedroom mirror entirely. Internal components are manufactured from quality board and hardware rated for Australian conditions, ensuring smooth drawer operation and durable hanging systems that will last for decades. Every wardrobe is finished with neat architraves and clean siliconed edges for a seamless integrated look.",
+        "For Seaford homeowners who rent out investment properties or prefer a non-permanent storage solution, freestanding wardrobes do have certain advantages worth considering. They require no professional installation, can be easily moved between rooms or properties, and involve no building work or council permit considerations. However, in Seaford's competitive rental market, properties with built-in wardrobes consistently achieve higher weekly rents and attract more reliable long-term tenants. From a practical standpoint, freestanding wardrobes in Seaford homes with wall-to-wall carpet can trap moisture underneath, contributing to mould growth during Melbourne's damp winter months and potentially damaging flooring over time. Built-in wardrobes with proper ventilation gaps and floor protection eliminate this risk entirely. For Seaford homeowners who want the most practical, hygienic and valuable storage solution for their bedrooms, built-ins are the clear winner for nearly every situation.",
+        "If you are considering built-in wardrobes for your Seaford home, the process begins with an on-site consultation and detailed measurement of your available space. At Datum Carpentry, we visit your Seaford property to assess the bedroom dimensions, discuss your storage requirements and present material and finish options in person. We then provide a detailed written quote with no hidden costs or surprise charges. Once approved, your custom wardrobe is manufactured off-site in our workshop and installed in your Seaford home typically within one to two days, minimising disruption to your household routine. Every built-in wardrobe comes with our written workmanship guarantee, so you can invest with complete confidence in the quality and durability of the finished product. Contact us today to arrange your free Seaford consultation and start planning your dream bedroom storage."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Datum Carpentry — Carpenter in Seaford | Decks and Renovations",
+      "description": "Datum Carpentry is Seaford's trusted carpenter. Custom decks, kitchen renovations, cabinetry and home extensions. Free quotes across Seaford and Melbourne's bayside."
+    },
+    "about": {
+      "title": "About Datum Carpentry | Seaford's Local Carpenter",
+      "description": "Learn about Datum Carpentry, over 15 years of quality carpentry in Seaford, Frankston and Melbourne's bayside. Licensed, insured and built to last."
+    },
+    "services": {
+      "title": "Carpentry Services in Seaford | Decks, Renovations and Joinery",
+      "description": "Expert carpentry services in Seaford, custom decking, kitchen renovations, built-in cabinetry, home extensions and more. Free quotes from Datum Carpentry."
+    },
+    "pricing": {
+      "title": "Carpentry Costs and Prices Seaford | Datum Carpentry",
+      "description": "Transparent carpentry pricing for Seaford homeowners. Deck costs, renovation quotes and cabinetry prices, all fixed upfront with no surprises."
+    },
+    "contact": {
+      "title": "Contact Datum Carpentry | Free Seaford Carpenter Quotes",
+      "description": "Get a free carpentry quote in Seaford. Call Datum Carpentry for decks, renovations, cabinetry and home extensions. We respond within 24 hours."
+    },
+    "blog": {
+      "title": "Seaford Carpentry Blog | Local Trade Tips and Guides",
+      "description": "Expert carpentry advice for Seaford homeowners. Timber decking guides, kitchen renovation tips and custom storage solutions from local tradespeople."
+    }
+  }
+}
