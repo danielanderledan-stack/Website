@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Mickleham Electrical & Solar Solutions",
+  "suburb": "Mickleham",
+  "phone": "5565454117",
+  "email": "amarjitpadda@gmail.com",
+  "address": "28 Newmarket Parade, Mickleham VIC 3064",
+  "tagline": "Mickleham's Solar & Electrical Experts",
+  "primaryColor": "#0077B6",
+  "primaryColorRgb": "0, 119, 182",
+  "primaryColorHover": "#005f8a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mickleham's Solar Energy Leaders",
+      "sub": "Shaping the future of solar in your area"
+    },
+    {
+      "title": "Expert Electrical & Solar Solutions",
+      "sub": "From installation to supply chain management"
+    },
+    {
+      "title": "EV Chargers & Battery Storage",
+      "sub": "Powering Mickleham's green energy transition"
+    }
+  ],
+  "ctaHeading": "Ready for solar in Mickleham? Let's talk.",
+  "aboutHeading": "Mickleham's Solar & Electrical Experts",
+  "aboutSubheading": "Local, licensed & innovative",
+  "aboutText": "Based in Mickleham, we bring extensive PV industry experience to deliver tailored solar and electrical solutions. Our focus is on creating PV material solutions that reduce costs while improving performance for solar energy products. We provide in-depth material sourcing, financing, and supply chain services to support manufacturers and contractors.",
+  "servicesHeading": "Our Solar & Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for your needs",
+  "servicesText": "We offer a full range of solar and electrical services, from installation to material supply, designed to meet the unique needs of homes and businesses in Mickleham and surrounding areas.",
+  "services": [
+    {
+      "title": "Solar Panel Installation",
+      "desc": "Professional installation of solar panels for homes and businesses in Mickleham, ensuring optimal energy efficiency and performance."
+    },
+    {
+      "title": "Battery Storage Systems",
+      "desc": "Expert setup of battery storage solutions to maximise your solar energy usage and provide backup power when needed."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Installation of electric vehicle chargers for convenient home and workplace charging, supporting sustainable transport in Mickleham."
+    },
+    {
+      "title": "Solar Material Supply",
+      "desc": "Supplying high-quality PV materials to manufacturers and contractors across Australia, with a focus on cost reduction and quality."
+    },
+    {
+      "title": "Electrical Contracting",
+      "desc": "Comprehensive electrical services including design, installation, and maintenance for residential and commercial projects."
+    },
+    {
+      "title": "Solar System Design",
+      "desc": "Custom design of solar systems tailored to specific energy needs, incorporating the latest technology and industry best practices."
+    }
+  ],
+  "bannerHeading": "Need Solar in Mickleham?",
+  "bannerSubheading": "We're here to help with all your electrical and solar needs.",
+  "testimonialsHeading": "What Mickleham Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Solar Tips & News",
+  "blogSubheading": "Insights from Mickleham's solar experts",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "Free quotes for Mickleham and surrounds",
+  "reviews": [
+    {
+      "text": "Mickleham Electrical & Solar did an excellent job installing our solar panels. Their team was professional and efficient, and we're already seeing savings on our energy bills. Highly recommend for anyone in Mickleham looking for solar solutions.",
+      "name": "John Smith",
+      "role": "Mickleham Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed reliable electrical contractors. They installed EV chargers at our office and provided top-notch service. Their expertise in solar and electrical work is unmatched in the area.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We hired them for battery storage installation at our property. The process was smooth, and they explained everything clearly. Their knowledge of solar materials and systems is impressive.",
+      "name": "Mike Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
