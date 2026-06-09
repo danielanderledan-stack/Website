@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electra Electrics",
+  "suburb": "Rosanna",
+  "phone": "0433 057 123",
+  "email": "info@electraelectrics.com.au",
+  "address": "3 Berrima Rd, Rosanna VIC 3084",
+  "tagline": "Rosanna's Trusted Electricians",
+  "primaryColor": "#e13a36",
+  "primaryColorRgb": "225, 58, 54",
+  "primaryColorHover": "#c23636",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Rosanna's Go-To Electricians",
+      "sub": "Residential & commercial expertise"
+    },
+    {
+      "title": "Electrical Services for Every Need",
+      "sub": "From wiring to security systems"
+    },
+    {
+      "title": "Serving Rosanna & Surrounds",
+      "sub": "Fast, reliable, and safe electrical work"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Rosanna?",
+  "aboutHeading": "About Electra Electrics in Rosanna",
+  "aboutSubheading": "Your local electrical experts",
+  "aboutText": "Based in Rosanna, Electra Electrics provides comprehensive electrical services for homes and businesses across the area. Our skilled team delivers everything from residential installations to commercial maintenance, ensuring safe and efficient solutions. We pride ourselves on reliability and quality workmanship for the Rosanna community.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Tailored solutions for Rosanna",
+  "servicesText": "At Electra Electrics, we offer a full range of electrical services to meet your specific needs. Our professional team handles residential, commercial, and specialised installations with expertise and care across Rosanna.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Expert installation, repairs, and upgrades for your home's electrical systems in Rosanna."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical services for businesses, ensuring minimal downtime and optimal performance."
+    },
+    {
+      "title": "Data Installation",
+      "desc": "Structured cabling and network setup to provide efficient and robust data connectivity."
+    },
+    {
+      "title": "Security Systems",
+      "desc": "Installation of alarms and surveillance systems to enhance property safety."
+    },
+    {
+      "title": "Garden Lighting",
+      "desc": "Transform your outdoor areas with beautiful and functional lighting designs."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your electrical panel for improved safety and increased capacity."
+    }
+  ],
+  "bannerHeading": "Electrical Solutions in Rosanna",
+  "bannerSubheading": "Professional service you can count on",
+  "testimonialsHeading": "What Rosanna Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Electra Electrics",
+  "contactHeading": "Get a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Electra Electrics installed garden lighting at our Rosanna home, and the result is stunning. The team was punctual, professional, and left everything tidy.",
+      "name": "Sarah Mitchell",
+      "role": "Rosanna Homeowner"
+    },
+    {
+      "text": "We engaged Electra Electrics for data cabling in our office. They completed the job efficiently with no disruption to our operations. Highly recommend.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The switchboard upgrade at my rental property in Rosanna was handled expertly. Electra Electrics provided clear advice and swift service.",
+      "name": "Linda Patel",
+      "role": "Property Manager"
+    }
+  ]
+}
