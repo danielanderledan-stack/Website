@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Starpoint Auto Electrician",
+  "suburb": "Carnegie",
+  "phone": "03 9571 4567",
+  "email": "info@starpointauto.com.au",
+  "address": "16 Woorayl St, Carnegie VIC 3163",
+  "tagline": "Carnegie's 24-Hour Auto Electricians",
+  "primaryColor": "#00AEEF",
+  "primaryColorRgb": "0, 174, 239",
+  "primaryColorHover": "#0096CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Carnegie's Trusted Auto Electricians",
+      "sub": "Starpoint Auto Electrician — 24/7 Service"
+    },
+    {
+      "title": "Expert Auto Electrical Repairs",
+      "sub": "Battery, Alternator & Starter Motor Specialists"
+    },
+    {
+      "title": "Fast & Reliable Service in Carnegie",
+      "sub": "Open 24 Hours for All Your Auto Needs"
+    }
+  ],
+  "ctaHeading": "Need an Auto Electrician in Carnegie? We're Here 24/7.",
+  "aboutHeading": "Trusted Auto Electricians in Carnegie",
+  "aboutSubheading": "Local, licensed & available 24/7",
+  "aboutText": "Starpoint Auto Electrician has been serving Carnegie for over 8 years, providing expert auto electrical services. Our team of licensed electricians specializes in batteries, alternators, and wiring diagnostics. We're open 24 hours to ensure your vehicle is always on the road.",
+  "servicesHeading": "Auto Electrical Services We Offer",
+  "servicesSubheading": "Expert solutions for all vehicles",
+  "servicesText": "From battery replacements to complex wiring repairs, Starpoint Auto Electrician handles all auto electrical needs in Carnegie. We use high-quality parts and advanced diagnostics to keep your vehicle running smoothly.",
+  "services": [
+    {
+      "title": "Battery Replacement",
+      "desc": "Fast and reliable battery testing and replacement for all vehicle makes and models.",
+      "longDesc": "We provide top-quality battery replacement services in Carnegie, ensuring your car starts every time. Our experts test and install the right battery for your vehicle's needs.",
+      "points": [
+        "Quick testing",
+        "Quality batteries",
+        "All vehicles"
+      ]
+    },
+    {
+      "title": "Alternator Repair",
+      "desc": "Professional alternator diagnostics and repair to keep your charging system optimal.",
+      "longDesc": "Starpoint Auto Electrician offers expert alternator repair in Carnegie, preventing battery drain and ensuring electrical components function correctly.",
+      "points": [
+        "Expert diagnostics",
+        "Prevent battery issues",
+        "Guaranteed repair"
+      ]
+    },
+    {
+      "title": "Starter Motor Service",
+      "desc": "Efficient starter motor repair and replacement for reliable vehicle ignition.",
+      "longDesc": "Our team in Carnegie specializes in starter motor services, fixing hard starts and ensuring your vehicle turns over smoothly every time.",
+      "points": [
+        "Reliable ignition",
+        "Fast service",
+        "Durable parts"
+      ]
+    },
+    {
+      "title": "Wiring Diagnostics",
+      "desc": "Comprehensive electrical fault finding and repair for all vehicle wiring systems.",
+      "longDesc": "We use advanced tools to diagnose and repair wiring faults in Carnegie, solving issues like short circuits and electrical failures.",
+      "points": [
+        "Advanced diagnostics",
+        "Complete repairs",
+        "Prevent further damage"
+      ]
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional installation and repair of vehicle lighting, including headlights and indicators.",
+      "longDesc": "Starpoint Auto Electrician installs and repairs all types of vehicle lighting in Carnegie, enhancing safety and visibility on the road.",
+      "points": [
+        "Safety upgrades",
+        "All light types",
+        "Compliance assured"
+      ]
+    },
+    {
+      "title": "24/7 Emergency Service",
+      "desc": "Round-the-clock emergency auto electrical assistance for Carnegie residents.",
+      "longDesc": "We're open 24 hours in Carnegie to provide immediate help for breakdowns and electrical emergencies, getting you back on the road fast.",
+      "points": [
+        "Available anytime",
+        "Quick response",
+        "No extra charges"
+      ]
+    }
+  ],
+  "bannerHeading": "Auto Electrician in Carnegie — Open 24 Hours",
+  "bannerSubheading": "Starpoint Auto Electrician is ready to help with all your vehicle's electrical needs.",
+  "testimonialsHeading": "What Carnegie Locals Say About Us",
+  "testimonialsSubheading": "Trusted by drivers across Carnegie",
+  "blogHeading": "Auto Electrical Tips & Guides for Carnegie",
+  "blogSubheading": "Expert advice from Starpoint Auto Electrician",
+  "contactHeading": "Contact Starpoint Auto Electrician",
+  "contactSubheading": "Get a free quote or emergency service today",
+  "reviews": [
+    {
+      "text": "Starpoint Auto Electrician fixed my car's alternator issue quickly in Carnegie. Their 24-hour service was a lifesaver when my battery died late at night. Highly recommend!",
+      "name": "Tom Mitchell",
+      "role": "Carnegie Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my delivery van. Starpoint Auto Electrician in Carnegie provides reliable battery replacements and keeps our fleet running smoothly.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent service for wiring diagnostics at our rental properties in Carnegie. Professional and always on time. Would recommend to other property managers.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Carnegie",
+    "Glen Huntly",
+    "Ormond",
+    "Murrumbeena",
+    "Caulfield",
+    "Oakleigh",
+    "Hughesdale"
+  ],
+  "about": {
+    "intro": "Starpoint Auto Electrician is Carnegie's premier auto electrical service, offering expert repairs and 24/7 availability.",
+    "story": [
+      "Founded over 8 years ago in Carnegie, Starpoint Auto Electrician started with a mission to provide reliable auto electrical solutions. Our founder, a qualified electrician, saw the need for specialized services in the area.",
+      "Today, we serve Carnegie and surrounding suburbs with a team of licensed professionals. We handle everything from simple battery fixes to complex wiring repairs, ensuring vehicles are safe and dependable on Melbourne's roads."
+    ],
+    "mission": "To deliver top-quality auto electrical services to Carnegie drivers, day or night.",
+    "whyUs": [
+      {
+        "title": "24/7 Availability",
+        "text": "We're open around the clock for emergencies in Carnegie."
+      },
+      {
+        "title": "Licensed Experts",
+        "text": "All our electricians are fully licensed and trained."
+      },
+      {
+        "title": "Fast Response",
+        "text": "Quick service to get you back on the road sooner."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden costs; upfront quotes for all jobs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "8+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,000+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "24-hour service",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Starpoint Auto Electrician in Carnegie, we offer transparent pricing with no lock-in contracts. Get a free quote for any auto electrical service.",
+    "packages": [
+      {
+        "name": "Diagnostic & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Thorough inspection",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Repair",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Battery or alternator service",
+          "Quality parts used",
+          "Workmanship guarantee",
+          "Free follow-up check"
+        ]
+      },
+      {
+        "name": "Major Overhaul",
+        "price": "from $800",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete wiring repair",
+          "Multiple system fixes",
+          "Extended warranty",
+          "Priority scheduling"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprise charges."
+  },
+  "contact": {
+    "intro": "For reliable auto electrical service in Carnegie, contact Starpoint Auto Electrician. We're available 24/7 for emergencies and provide free quotes for all jobs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Car Battery Replacement Cost in Carnegie?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of replacing a car battery in Carnegie, including factors that affect pricing and tips for choosing the right battery.",
+      "body": [
+        "Replacing a car battery in Carnegie is a common service that every vehicle owner may need. The cost can vary based on several factors, including the type of battery, vehicle make and model, and where you get it replaced. On average, for a standard battery replacement in Carnegie, you might expect to pay between $150 and $300, including parts and labour. This range accounts for different battery capacities and brands available in Melbourne.",
+        "When considering the cost, it's important to think about the climate in Carnegie. Melbourne's weather can be tough on batteries, with cold winters draining them faster. A high-quality battery might cost more upfront but can last longer and provide better performance. At Starpoint Auto Electrician, we recommend AGM or EFB batteries for vehicles with start-stop systems, which are common in newer cars.",
+        "The location also plays a role; in Carnegie, with its mix of residential and commercial areas, battery issues can arise from frequent short trips or extreme temperatures. Our team assesses your vehicle's electrical system to ensure the replacement is done correctly. We also check for underlying issues that might be draining the battery, saving you from future problems.",
+        "Labour costs in Carnegie are competitive, with professional electricians charging around $80 to $120 per hour for battery installation. However, at Starpoint Auto Electrician, we offer fixed-price packages to keep costs predictable. Our 24-hour service means you're not stuck waiting for a workshop to open, which is crucial in emergencies.",
+        "To get the best value, compare quotes from local auto electricians in Carnegie. Look for warranties on both parts and workmanship. We provide a 12-month warranty on all batteries installed, giving you peace of mind. Remember, a cheap battery might not last as long, leading to more frequent replacements and higher long-term costs.",
+        "In summary, the cost of car battery replacement in Carnegie depends on your vehicle's needs and the quality of parts. By choosing a trusted local service like Starpoint Auto Electrician, you ensure reliable performance and avoid unexpected breakdowns. Contact us for a free assessment and quote tailored to your car."
+      ]
+    },
+    {
+      "title": "Signs Your Alternator Needs Repair in Melbourne's South-East",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs of alternator failure in Melbourne's south-east suburbs like Carnegie and when to seek professional help.",
+      "body": [
+        "The alternator is a critical component of your vehicle's electrical system, charging the battery and powering accessories while the engine runs. In Melbourne's south-east, including suburbs like Carnegie, alternator issues can be common due to stop-start traffic and variable weather. Recognizing the signs early can prevent breakdowns and costly repairs.",
+        "One of the first signs is dimming headlights, especially when idling at traffic lights in Carnegie's busy intersections. If you notice your lights flickering or losing intensity, it might indicate the alternator isn't charging properly. Another symptom is a battery warning light on the dashboard, which often comes on if the alternator fails.",
+        "Strange noises can also signal problems. A whining or grinding sound from under the hood might mean the alternator bearings are wearing out. In Carnegie, where vehicles often face short trips around local amenities, this can accelerate wear due to frequent cycling.",
+        "Electrical failures are another clue. If your power windows, radio, or air conditioning start malfunctioning, the alternator might not be providing enough power. For drivers in Melbourne's south-east, this can be frustrating during winter when heaters are in use.",
+        "At Starpoint Auto Electrician in Carnegie, we use advanced diagnostic tools to test alternator performance. Our technicians check voltage output and inspect connections to identify issues. Repair costs can range from $300 to $600 depending on the severity, but addressing it early avoids battery drain and stranded vehicles.",
+        "To maintain your alternator, ensure regular servicing and avoid excessive electrical loads. In Carnegie's climate, where temperatures can drop, keeping your battery and alternator in top shape is essential. If you suspect any issues, book a check-up with us for peace of mind and reliable repairs."
+      ]
+    },
+    {
+      "title": "Why Is My Car's Electrical System Failing? Common Issues in Carnegie",
+      "date": "January 2026",
+      "excerpt": "Explore common causes of electrical failures in vehicles in Carnegie and how professional diagnostics can solve them.",
+      "body": [
+        "Electrical system failures in cars can be frustrating, especially in a suburb like Carnegie where daily commutes and family trips rely on vehicle reliability. Common issues range from simple blown fuses to complex wiring faults, and understanding them helps in prevention.",
+        "Blown fuses are often the first culprit. In Carnegie, with its mix of older and newer vehicles, fuses can blow due to overloading from accessories like phone chargers or dash cams. Checking the fuse box is a quick first step, but repeated blows indicate deeper problems.",
+        "Wiring damage is another frequent issue. Rodents in Melbourne's leafy suburbs like Carnegie can chew through wires, causing shorts and malfunctions. Symptoms include erratic behavior of lights, wipers, or gauges. Regular inspections can catch this early.",
+        "Corrosion on battery terminals is common in coastal areas, and while Carnegie isn't directly coastal, Melbourne's humidity can affect connections. Cleaning terminals and applying protective grease can prevent starting issues.",
+        "Alternator or battery problems often manifest as electrical failures. In Carnegie's stop-start traffic, alternators work harder, leading to premature wear. Our team at Starpoint Auto Electrician uses comprehensive diagnostics to pinpoint faults.",
+        "For accurate diagnosis, professional help is key. We recommend annual electrical checks, especially before winter when battery demands increase. In Carnegie, with its vibrant community, staying on top of vehicle maintenance ensures safety and convenience. Contact us for a thorough inspection."
+      ]
+    },
+    {
+      "title": "Best Time for Vehicle Electrical Service in Melbourne's Weather",
+      "date": "December 2025",
+      "excerpt": "Find out the optimal times to service your car's electrical system in Melbourne, considering local weather patterns and driving conditions.",
+      "body": [
+        "In Melbourne, including suburbs like Carnegie, weather plays a significant role in vehicle electrical performance. The best times for service are during milder seasons, like spring and autumn, when temperatures are moderate and less strain is placed on components.",
+        "Winter in Melbourne brings cold snaps that can drain batteries and make starting difficult. For Carnegie residents, scheduling a battery check in early autumn can prevent winter breakdowns. Cold weather thickens oil and increases electrical load, so ensuring your battery is in top condition is crucial.",
+        "Summer heat can also affect electrical systems. High temperatures might cause batteries to overheat or wiring to expand and contract, leading to loose connections. A pre-summer inspection helps identify any vulnerabilities before road trips.",
+        "Rainy periods in Melbourne can lead to moisture-related issues. In Carnegie, with its tree-lined streets, water ingress into electrical connectors can cause corrosion. Dry periods are ideal for thorough checks and repairs.",
+        "Driving conditions in Carnegie, from suburban streets to highway commutes, influence wear. Frequent short trips don't allow batteries to fully recharge, leading to sulfation. Long drives help maintain battery health, so service before long journeys is advisable.",
+        "At Starpoint Auto Electrician, we recommend bi-annual electrical servicing to align with Melbourne's seasons. Our 24-hour availability in Carnegie ensures you can book at convenient times. Proactive maintenance saves money and keeps your vehicle reliable year-round."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Starpoint Auto Electrician | Auto Electrical Service in Carnegie",
+      "description": "24/7 auto electrical service in Carnegie. Battery, alternator & wiring repairs by licensed experts. Starpoint Auto Electrician — open 24 hours for emergencies."
+    },
+    "about": {
+      "title": "About Starpoint Auto Electrician | Carnegie's Auto Electrical Experts",
+      "description": "Learn about Starpoint Auto Electrician, serving Carnegie for over 8 years with licensed, 24/7 auto electrical services. Your trusted local experts."
+    },
+    "services": {
+      "title": "Auto Electrical Services in Carnegie | Batteries & Repairs",
+      "description": "Expert auto electrical services in Carnegie including battery replacement, alternator repair, and wiring diagnostics. Open 24 hours at Starpoint Auto Electrician."
+    },
+    "pricing": {
+      "title": "Auto Electrical Pricing & Costs in Carnegie | Starpoint Auto Electrician",
+      "description": "Transparent pricing for auto electrical services in Carnegie. Get upfront quotes for batteries, repairs, and diagnostics at Starpoint Auto Electrician."
+    },
+    "contact": {
+      "title": "Contact Starpoint Auto Electrician | 24/7 Service in Carnegie",
+      "description": "Contact Starpoint Auto Electrician in Carnegie for free quotes and 24/7 emergency auto electrical service. We're here to help with all vehicle issues."
+    },
+    "blog": {
+      "title": "Auto Electrical Blog | Tips & Guides for Carnegie Drivers",
+      "description": "Read expert tips and guides on auto electrical maintenance, costs, and repairs tailored for Carnegie and Melbourne drivers."
+    }
+  }
+}
