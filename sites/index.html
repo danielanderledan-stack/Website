@@ -52,6 +52,7 @@
 <script>
 (function(){
   function show(){
+    return; // disabled
     if(document.getElementById("cd-cb-popup"))return;
     var primary=(getComputedStyle(document.documentElement).getPropertyValue("--color-primary")||"").trim()||"#1E3A8A";
     var w=document.createElement("div");
