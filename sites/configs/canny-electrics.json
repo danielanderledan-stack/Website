@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Canny Electrics",
+  "suburb": "Brunswick",
+  "phone": "1300522446",
+  "email": "canny@cannyelectrics.com.au",
+  "address": "1/24-26 Merri St, Brunswick VIC 3056",
+  "tagline": "Brunswick's Trusted Electrical Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6a00cf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick's Go-To Electricians",
+      "sub": "Home automation, residential & commercial"
+    },
+    {
+      "title": "Industrial & Safety Specialists",
+      "sub": "Trusted across Melbourne's north"
+    },
+    {
+      "title": "Lighting Experts in Brunswick",
+      "sub": "Free quotes and 24/7 service"
+    }
+  ],
+  "ctaHeading": "Brunswick's electricians are ready — let's power your project.",
+  "aboutHeading": "Brunswick's Electrical Experts",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Canny Electrics has been serving Brunswick and the greater Melbourne area with expert electrical solutions for many years. Our experienced electricians handle everything from home automation systems to complex industrial wiring, always prioritising safety and quality. We take pride in our friendly service and attention to detail, as evidenced by our satisfied customers in Brunswick.",
+  "servicesHeading": "Electrical Services in Brunswick",
+  "servicesSubheading": "Comprehensive solutions for all your needs",
+  "servicesText": "From home automation to safety checks, Canny Electrics offers a full range of electrical services in Brunswick. Our skilled team delivers reliable and efficient solutions for residential, commercial, and industrial projects, ensuring compliance with Victorian standards.",
+  "services": [
+    {
+      "title": "Home Automation",
+      "desc": "Integrate smart home automation systems for your Brunswick property, enhancing convenience, security, and energy efficiency with expert installation."
+    },
+    {
+      "title": "Residential Electrical",
+      "desc": "Full electrical services for Brunswick homes, including installations, repairs, upgrades, and maintenance to keep your property safe."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Tailored electrical solutions for Brunswick businesses, from fit-outs to ongoing maintenance and safety compliance for operations."
+    },
+    {
+      "title": "Industrial Electrical",
+      "desc": "Robust electrical systems for industrial facilities in Brunswick, covering installations, repairs, and upgrades for efficiency."
+    },
+    {
+      "title": "Safety Checks",
+      "desc": "Comprehensive electrical safety inspections and checklists for Victorian homes and businesses to ensure compliance and protection."
+    },
+    {
+      "title": "Lighting",
+      "desc": "LED replacement, installation, and lighting design services for residential and commercial spaces in Brunswick."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Brunswick?",
+  "bannerSubheading": "24/7 emergency service and free quotes available",
+  "testimonialsHeading": "What Brunswick Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Electrical Insights & Tips",
+  "blogSubheading": "Advice from Canny Electrics",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We're here to help with all your electrical needs",
+  "reviews": [
+    {
+      "text": "Canny Electrics installed our CCTV system in Brunswick, and the service was impeccable. Saulo and Johnny were professional, explained everything, and ensured we were satisfied before leaving. Highly recommend for their attention to detail.",
+      "name": "Sarah Mitchell",
+      "role": "Brunswick Homeowner"
+    },
+    {
+      "text": "For our commercial lighting upgrade in Brunswick, Canny Electrics delivered exceptional work. The team was efficient, and the new LED system has reduced our energy bills significantly.",
+      "name": "James Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Canny Electrics for multiple safety checks across Brunswick properties. Their reliability and clear communication make them my go-to electricians.",
+      "name": "Emma Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
