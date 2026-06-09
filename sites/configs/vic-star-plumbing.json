@@ -1,0 +1,300 @@
+{
+  "siteType": "plumber",
+  "businessName": "Vic Star Plumbing",
+  "suburb": "Bulleen",
+  "phone": "03 9042 8744",
+  "email": "admin@vicstarplumbing.com.au",
+  "address": "39 Stanley Street, Bulleen VIC 3105",
+  "tagline": "Bulleen's Licensed Plumbers & Gas Fitters",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bulleen's Expert Plumbers",
+      "sub": "Licensed gas fitting & plumbing services"
+    },
+    {
+      "title": "From Rough-Ins to Repairs",
+      "sub": "Domestic & commercial in Melbourne's north-east"
+    },
+    {
+      "title": "No Plumbing Job Too Small",
+      "sub": "Free quotes across Bulleen & surrounds"
+    }
+  ],
+  "ctaHeading": "Need a plumber in Bulleen? Vic Star is here to help.",
+  "aboutHeading": "20+ Years Plumbing in Bulleen",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over two decades of experience in Bulleen, Vic Star Plumbing has been the go-to for new rough ins, drain cleaning, and repairs. Our team, led by Andrew and Natasha, delivers honest work at fair prices, ensuring attention to detail on every job. We've made plumbing hassle-free for locals, earning trust through consistent quality and customer service.",
+  "servicesHeading": "Our Plumbing & Gas Services",
+  "servicesSubheading": "Comprehensive solutions for Bulleen",
+  "servicesText": "From emergency repairs to planned installations, Vic Star Plumbing offers a full range of services tailored to Bulleen homes and businesses. We specialise in gas fitting, drain unblocking, and hot water systems, ensuring compliance with Australian standards.",
+  "services": [
+    {
+      "title": "Plumbing Repairs",
+      "desc": "Fast, reliable fixes for leaks, bursts, and general plumbing issues.",
+      "longDesc": "Our licensed plumbers in Bulleen quickly diagnose and repair all plumbing problems, from dripping taps to pipe bursts, using quality materials for lasting results.",
+      "points": [
+        "24/7 emergency service",
+        "No hidden fees",
+        "Guaranteed workmanship"
+      ]
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Safe installation and repair of gas appliances and systems.",
+      "longDesc": "Certified gas fitters handle appliance installations, leak detection, and system upgrades in Bulleen, adhering to strict safety regulations.",
+      "points": [
+        "Licensed gas fitters",
+        "Safety inspections",
+        "Compliance guaranteed"
+      ]
+    },
+    {
+      "title": "Drain Cleaning",
+      "desc": "Efficient unblocking of sinks, toilets, and stormwater drains.",
+      "longDesc": "Using CCTV inspection and high-pressure jetting, we clear blocked drains in Bulleen homes and commercial properties, preventing future issues.",
+      "points": [
+        "CCTV diagnostics",
+        "High-pressure jetting",
+        "Preventative advice"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water units.",
+      "longDesc": "We service all types of hot water systems in Bulleen, including gas, electric, and solar, ensuring efficient operation and timely replacements.",
+      "points": [
+        "All brands serviced",
+        "Energy-efficient options",
+        "Same-day repairs"
+      ]
+    },
+    {
+      "title": "Rough-In Plumbing",
+      "desc": "New construction and renovation plumbing for builds in Bulleen.",
+      "longDesc": "For new homes or renovations in Bulleen, our team provides expert rough-in plumbing, ensuring proper layout and compliance with building codes.",
+      "points": [
+        "New builds & renovations",
+        "Code compliant",
+        "Coordinated with builders"
+      ]
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Prompt response for urgent plumbing crises.",
+      "longDesc": "Available 24/7, our Bulleen emergency plumbers arrive quickly to handle burst pipes, floods, and other urgent issues, minimising damage.",
+      "points": [
+        "24/7 availability",
+        "Rapid response",
+        "Fully equipped vans"
+      ]
+    }
+  ],
+  "bannerHeading": "Bulleen's Plumbing Experts Are Just a Call Away",
+  "bannerSubheading": "From maintenance to emergencies, we've got you covered.",
+  "testimonialsHeading": "What Bulleen Locals Say About Us",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Plumbing Tips & Guides for Bulleen",
+  "blogSubheading": "Expert advice from local plumbers",
+  "contactHeading": "Get in Touch with Vic Star Plumbing",
+  "contactSubheading": "Free quotes for Bulleen residents",
+  "reviews": [
+    {
+      "text": "I've used Vic Star for years in Bulleen for everything from drain cleaning to gas fitting. Andrew and his team are always professional, on time, and charge fairly. Highly recommend!",
+      "name": "John Smith",
+      "role": "Bulleen Homeowner"
+    },
+    {
+      "text": "As a property manager in Manningham, I rely on Vic Star for reliable plumbing services. Their quick response and quality work keep my properties in top shape.",
+      "name": "Sarah Johnson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Vic Star installed a new hot water system at our business in Templestowe. Excellent service from start to finish, and they explained everything clearly.",
+      "name": "Michael Brown",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Bulleen",
+    "Doncaster",
+    "Templestowe",
+    "Manningham",
+    "Eltham",
+    "Greensborough",
+    "Box Hill"
+  ],
+  "about": {
+    "intro": "Vic Star Plumbing has been serving Bulleen and surrounding areas for over 20 years, providing expert plumbing and gas fitting services.",
+    "story": [
+      "Founded by Andrew and Natasha, Vic Star Plumbing grew from a small local operation to a trusted name in Bulleen. Our commitment to honest pricing and meticulous workmanship has earned us long-term relationships with clients.",
+      "We handle a wide range of plumbing needs, from new rough-ins in residential builds to emergency drain cleaning for commercial properties. Our team stays updated with the latest techniques and Australian standards to deliver top-notch service."
+    ],
+    "mission": "To be Bulleen's most reliable plumber, delivering quality work and exceptional customer care.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our plumbers are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "On-Time Service",
+        "text": "We value your time and always arrive promptly as scheduled."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No surprises—get upfront quotes with no hidden costs."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Master Plumbers Member",
+      "Gas Fitting Certified",
+      "24/7 Emergency Service",
+      "Free On-Site Quotes"
+    ]
+  },
+  "pricing": {
+    "intro": "At Vic Star Plumbing, we offer upfront pricing for all services in Bulleen. No lock-in contracts—just honest quotes for quality work.",
+    "packages": [
+      {
+        "name": "Call-Out & Diagnosis",
+        "price": "$99",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $180",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed plumber",
+          "Quality parts",
+          "Workmanship guarantee",
+          "Clean-up included"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Detailed planning",
+          "Compliance certified",
+          "Project management",
+          "Extended warranty"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins."
+  },
+  "contact": {
+    "intro": "Contact Vic Star Plumbing today for a free, no-obligation quote in Bulleen. Call us or fill out the form, and we'll respond quickly."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in Bulleen?",
+      "date": "March 2026",
+      "excerpt": "Understanding the costs associated with emergency plumbing services in Bulleen can help you budget for unexpected issues.",
+      "body": [
+        "Emergency plumbing costs in Bulleen can vary based on the time of day, complexity of the issue, and materials required. For after-hours callouts, such as burst pipes or severe leaks, you might expect a call-out fee starting from $150 to $300, plus additional labour and parts. In Melbourne's north-east, factors like proximity to Bulleen, the need for specialised equipment, and compliance with Australian plumbing standards all influence the final price. It's crucial to get an upfront quote from licensed plumbers like Vic Star Plumbing to avoid surprises.",
+        "Common emergency plumbing scenarios in Bulleen include blocked sewers, gas leaks, and hot water system failures. Each of these requires prompt attention to prevent health hazards or property damage. For instance, a gas leak in a Bulleen home needs immediate isolation and repair by certified gas fitters, which may cost more due to safety protocols. Local plumbers familiar with Bulleen's infrastructure can diagnose issues faster, potentially reducing overall costs by minimising diagnostic time.",
+        "When budgeting for emergency plumbing, consider preventive measures like regular drain cleaning and hot water system maintenance, which can reduce the likelihood of crises. In Bulleen, with its mix of older and newer homes, pipe corrosion or tree root intrusion are common culprits for emergencies. Investing in annual inspections can save money long-term. Vic Star Plumbing offers maintenance packages tailored to Bulleen properties, helping residents avoid costly emergency repairs.",
+        "Insurance coverage may offset some emergency plumbing costs, but policies vary. Bulleen homeowners should check their contents or home insurance for plumbing-related claims. Keeping receipts from licensed plumbers ensures compliance for insurance purposes. Additionally, understanding Bulleen's local council regulations for plumbing work can prevent fines or rework, as all installations must meet Victorian Building Authority standards.",
+        "Choosing a local Bulleen plumber for emergencies ensures faster response times and familiarity with the area's plumbing systems. Vic Star Plumbing, with over 20 years in Bulleen, provides 24/7 services with transparent pricing. Their expertise in both residential and commercial emergencies means they can handle everything from minor leaks to major flood damage, using quality materials that last in Melbourne's variable climate.",
+        "In summary, emergency plumbing costs in Bulleen depend on multiple factors, but getting a clear, upfront quote from a trusted local plumber is key. By selecting licensed professionals who understand Bulleen's specific needs, you can ensure reliable service without hidden fees. Regular maintenance and prompt action can also keep costs down, making plumbing emergencies less stressful for Bulleen residents."
+      ]
+    },
+    {
+      "title": "Signs You Need Gas Fitting Repairs in Your Bulleen Home",
+      "date": "February 2026",
+      "excerpt": "Learn the common indicators that your gas appliances or systems in Bulleen require professional attention.",
+      "body": [
+        "In Bulleen homes, gas fitting issues can pose serious safety risks if not addressed promptly. Common signs include the smell of gas, which indicates a leak, and this requires immediate evacuation and professional repair. Other indicators are yellow or orange flames on gas stoves instead of blue, suggesting incomplete combustion. Bulleen residents should also watch for soot around appliances or hissing sounds near gas lines, all of which signal the need for certified gas fitting inspections.",
+        "Gas appliances in Bulleen, like heaters and ovens, may develop faults due to age or improper installation. If your gas heater in Bulleen takes longer to ignite or produces uneven heating, it could be a sign of a faulty component. Similarly, persistent pilot light issues on gas hot water systems in Melbourne's north-east may indicate a need for servicing. Regular maintenance by licensed gas fitters can prevent these problems and ensure compliance with Australian safety standards.",
+        "Bulleen's climate, with cold winters, increases reliance on gas heating, making timely repairs crucial. A sudden spike in gas bills without increased usage often points to leaks or inefficient appliances. Local gas fitters familiar with Bulleen's housing stock can quickly identify issues like deteriorating pipes in older homes. Using advanced diagnostic tools, they can ensure repairs are done safely and effectively, reducing fire hazards.",
+        "When choosing gas fitting repairs in Bulleen, always verify the plumber's credentials. Vic Star Plumbing, for example, employs certified gas fitters who adhere to Victorian regulations. They can handle everything from appliance installations to leak detection, using non-corrosive materials suitable for Bulleen's water and soil conditions. Ensuring repairs are done right the first time avoids recurring issues and enhances home safety.",
+        "Preventive measures, like annual gas safety checks, are vital for Bulleen properties. These inspections can catch early signs of wear, such as connector degradation or valve faults, before they become emergencies. Bulleen homeowners should keep records of gas fitting services for insurance and resale purposes, as a well-maintained system adds value. Local plumbers offer maintenance plans that include these checks, providing peace of mind.",
+        "In conclusion, recognising signs of gas fitting issues in Bulleen homes is essential for safety and efficiency. From unusual odours to performance drops, prompt action by licensed professionals ensures repairs are done correctly. Vic Star Plumbing's expertise in Bulleen makes them a reliable choice, offering swift, compliant services that protect your home and family."
+      ]
+    },
+    {
+      "title": "Maintaining Your Hot Water System in Melbourne's North-East",
+      "date": "January 2026",
+      "excerpt": "Tips for keeping your hot water system efficient and reliable in the Bulleen area, considering local climate.",
+      "body": [
+        "In Bulleen, maintaining your hot water system is crucial due to Melbourne's unpredictable climate, where cold winters demand efficient heating. Regular maintenance, such as flushing the tank to remove sediment buildup, can extend the system's lifespan and improve energy efficiency. Bulleen residents should schedule annual inspections with licensed plumbers to check for leaks, corrosion, or faulty valves, ensuring compliance with Australian standards and avoiding unexpected breakdowns.",
+        "Bulleen homes often use gas, electric, or solar hot water systems, each requiring specific care. For gas systems, check the pilot light and burner for consistent flames. Electric systems need anode rod inspections to prevent tank corrosion, especially in areas with hard water like parts of Bulleen. Solar systems, popular in Melbourne's north-east, require panel cleaning and collector checks to maintain efficiency during shorter winter days.",
+        "Common issues in Bulleen include limescale buildup from hard water, which reduces heating efficiency. Installing a water softener or using descaling agents can mitigate this. Also, inspecting pressure relief valves regularly prevents pressure buildup that could damage the system. Local plumbers like Vic Star Plumbing offer tailored maintenance for Bulleen properties, considering factors like home age and usage patterns.",
+        "Energy efficiency is key in Bulleen, where utility costs can be high. Insulating hot water pipes and tanks reduces heat loss, lowering bills. Upgrading to a modern, energy-efficient model may be cost-effective for older systems in Bulleen homes. Plumbers can advise on options like heat pump hot water systems, which are well-suited to Melbourne's climate and can reduce carbon footprint.",
+        "Safety should never be overlooked—regular gas or electrical checks by certified professionals prevent hazards. In Bulleen, where gas appliances are common, ensuring proper ventilation and combustion is vital. Bulleen plumbers familiar with local codes can perform these checks, addressing issues like flue blockages or electrical faults before they escalate.",
+        "In summary, proactive maintenance of hot water systems in Bulleen ensures reliability, efficiency, and safety. From sediment flushing to professional inspections, local plumbers provide services that cater to Melbourne's north-east conditions. Vic Star Plumbing's expertise in Bulleen makes them an ideal partner for keeping your hot water running smoothly year-round."
+      ]
+    },
+    {
+      "title": "Why Regular Drain Cleaning is Essential for Bulleen Properties",
+      "date": "December 2025",
+      "excerpt": "Discover the benefits of preventative drain cleaning for homes and businesses in Bulleen to avoid blockages.",
+      "body": [
+        "Regular drain cleaning is vital for Bulleen properties to prevent blockages that can cause flooding and damage. In Melbourne's north-east, factors like tree root intrusion, grease buildup, and foreign objects commonly clog drains. Bulleen homes, with mature trees and older pipe systems, are particularly susceptible. Annual or bi-annual cleaning by licensed plumbers ensures drains remain clear, avoiding costly emergency repairs and maintaining hygiene.",
+        "Drain cleaning methods in Bulleen include mechanical rodding, high-pressure water jetting, and CCTV inspections. Jetting is effective for removing grease and sludge, common in commercial kitchens in Bulleen. CCTV cameras identify issues like cracks or root growth without excavation, saving time and money. Local plumbers use these techniques to tailor solutions to Bulleen's specific drainage challenges, such as clay soils that shift pipes.",
+        "Preventative drain cleaning offers long-term savings for Bulleen residents by reducing the risk of severe blockages. Blocked sewers can lead to health hazards and property damage, especially in high-density areas of Bulleen. Regular maintenance also helps comply with local council regulations, which may require proof of drain upkeep for property sales or renovations. Vic Star Plumbing provides drain cleaning packages that include preventive advice for Bulleen clients.",
+        "For Bulleen businesses, drain cleaning is essential to avoid disruptions. Restaurants and shops in Bulleen rely on clear drains to operate efficiently. Grease traps andInterceptor maintenance are part of this, preventing foul odors and backups. Using environmentally friendly cleaning agents suitable for Bulleen's waterways ensures compliance with environmental standards and protects local ecosystems.",
+        "Bulleen's climate, with heavy rainfall at times, can exacerbate drain issues. Stormwater drains need regular clearing to handle runoff from roofs and driveways. Plumbers in Bulleen offer comprehensive drain services, from residential to commercial, ensuring systems are prepared for seasonal changes. This proactive approach minimizes water damage and maintains property value in the area.",
+        "In conclusion, regular drain cleaning is a smart investment for Bulleen properties, preventing emergencies and ensuring longevity. By partnering with local experts like Vic Star Plumbing, residents and businesses can access tailored services that address Bulleen's unique drainage needs, keeping systems functional and efficient."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Vic Star Plumbing | Plumber in Bulleen | Gas Fitting & Repairs",
+      "description": "Licensed plumber and gas fitter in Bulleen, Melbourne. Expert plumbing repairs, drain cleaning, and gas fitting services. Call 03 9042 8744."
+    },
+    "about": {
+      "title": "About Vic Star Plumbing | Bulleen's Trusted Plumbers",
+      "description": "Learn about Vic Star Plumbing, serving Bulleen with over 20 years of experience in plumbing and gas fitting. Local, licensed & reliable."
+    },
+    "services": {
+      "title": "Plumbing Services in Bulleen | Repairs, Gas & Drains",
+      "description": "Comprehensive plumbing services in Bulleen including emergency repairs, gas fitting, drain cleaning, and hot water systems."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Prices in Bulleen | Vic Star Plumbing",
+      "description": "Transparent pricing for plumbing services in Bulleen. Get upfront quotes for call-outs, standard jobs, and major projects."
+    },
+    "contact": {
+      "title": "Contact Vic Star Plumbing | Free Bulleen Plumber Quotes",
+      "description": "Get in touch with Vic Star Plumbing for free quotes on plumbing and gas services in Bulleen. Call or email today."
+    },
+    "blog": {
+      "title": "Bulleen Plumbing Blog | Tips & Local Advice",
+      "description": "Expert plumbing advice for Bulleen residents. Guides on costs, maintenance, and services from local plumbers."
+    }
+  }
+}
