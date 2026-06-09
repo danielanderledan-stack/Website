@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Cuttin' Hedge Gardening",
+  "suburb": "Preston",
+  "phone": "0488725786",
+  "email": "user@domain.com",
+  "address": "Lovelace St, Preston VIC 3072",
+  "tagline": "Preston's Native Garden Specialists",
+  "primaryColor": "#4CAF50",
+  "primaryColorRgb": "76, 175, 80",
+  "primaryColorHover": "#388E3C",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Preston's Gardening Experts",
+      "sub": "Native flora specialists in Preston"
+    },
+    {
+      "title": "Sustainable & Low Maintenance Gardens",
+      "sub": "Family-run with horticultural expertise"
+    },
+    {
+      "title": "Free Quotes for Preston Locals",
+      "sub": "From design to irrigation, we've got you covered"
+    }
+  ],
+  "ctaHeading": "Ready to transform your Preston garden?",
+  "aboutHeading": "Cuttin' Hedge in Preston",
+  "aboutSubheading": "Family-run gardening with native flair",
+  "aboutText": "Cuttin' Hedge Gardening is a small family-run business based in Preston, VIC, with a passion for native flora and sustainable practices. We bring qualified horticultural expertise to create beautiful, low-maintenance gardens that you can enjoy with the whole family. Serving Preston and surrounds, we aim to deliver exceptional gardening services tailored to your needs.",
+  "servicesHeading": "Our Gardening Services",
+  "servicesSubheading": "Expert care for your Preston garden",
+  "servicesText": "We offer a comprehensive range of gardening services, from bespoke garden design to efficient irrigation systems. Specialising in native flora, we create sustainable outdoor spaces that are both beautiful and easy to maintain for Preston homeowners.",
+  "services": [
+    {
+      "title": "Garden Design",
+      "desc": "Tailoring unique garden layouts that incorporate native plants for a sustainable and low-maintenance space in Preston."
+    },
+    {
+      "title": "Native Planting",
+      "desc": "Using indigenous flora to support local biodiversity and create gardens that blend with the Preston landscape."
+    },
+    {
+      "title": "Lawn Maintenance",
+      "desc": "Regular mowing and care to keep your Preston lawn healthy and pristine throughout the seasons."
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "Installing efficient watering solutions that conserve water while keeping your garden lush in Preston's climate."
+    },
+    {
+      "title": "Sustainable Practices",
+      "desc": "Implementing eco-friendly gardening methods that benefit both your garden and the local environment."
+    },
+    {
+      "title": "Garden Overhauls",
+      "desc": "Complete garden transformations from design to implementation, perfect for Preston properties seeking a fresh look."
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Preston?",
+  "bannerSubheading": "Call now for a complimentary quote.",
+  "testimonialsHeading": "What Preston Locals Say",
+  "testimonialsSubheading": "Real reviews from our community",
+  "blogHeading": "Gardening Insights from Preston",
+  "blogSubheading": "Tips to keep your garden thriving",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We're here to help with your garden needs",
+  "reviews": [
+    {
+      "text": "Cuttin' Hedge transformed our backyard in Preston with a beautiful native garden design. Their sustainable approach means it's low maintenance and looks amazing all year round.",
+      "name": "Emily Watson",
+      "role": "Preston Homeowner"
+    },
+    {
+      "text": "As a local café owner in Preston, I needed regular garden maintenance. Cuttin' Hedge provides reliable, eco-friendly services that keep our outdoor area inviting for customers.",
+      "name": "David Chen",
+      "role": "Preston Business Owner"
+    },
+    {
+      "text": "I manage several properties in the area, and Cuttin' Hedge has been excellent for irrigation installation and ongoing care. Their horticultural expertise is top-notch.",
+      "name": "Lisa Taylor",
+      "role": "Property Manager"
+    }
+  ]
+}
