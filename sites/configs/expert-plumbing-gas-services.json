@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Expert Plumbing & Gas Services",
+  "suburb": "Brunswick",
+  "phone": "0394865907",
+  "email": "info@expertplumbing.com.au",
+  "address": "829 Sydney Rd, Brunswick VIC 3056",
+  "tagline": "Brunswick's Plumbing & Gas Experts",
+  "primaryColor": "#00376c",
+  "primaryColorRgb": "0, 55, 108",
+  "primaryColorHover": "#002a53",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick's Go-To Plumbing & Gas Team",
+      "sub": "Reliable service across Melbourne's inner north"
+    },
+    {
+      "title": "Blocked Drains, Hot Water & Gas Fitting",
+      "sub": "From Richmond to Heidelberg, we've got you covered"
+    },
+    {
+      "title": "24/7 Rapid Response",
+      "sub": "Your local Brunswick plumbing experts"
+    }
+  ],
+  "ctaHeading": "Brunswick's plumbing pros are here — let's fix it now.",
+  "aboutHeading": "Brunswick's Trusted Plumbers & Gasfitters",
+  "aboutSubheading": "Local, licensed & ready to help",
+  "aboutText": "Expert Plumbing & Gas Services has been keeping Brunswick homes and businesses running smoothly for years. Based on Sydney Road, we are the trusted local choice for everything from blocked drains and burst pipes to complex gas appliance installations and sustainable hot water systems across Melbourne's inner north.",
+  "servicesHeading": "Our Plumbing & Gas Services",
+  "servicesSubheading": "Comprehensive solutions for your home or business",
+  "servicesText": "We handle all general plumbing, gas fitting, drainage, and hot water system needs. From emergency repairs in Collingwood to planned renovations in Kew, our licensed team delivers expert service tailored to your suburb.",
+  "services": [
+    {
+      "title": "Drain Clearing & Inspections",
+      "desc": "Expert unblocking for drains, toilets & sewers using CCTV inspections across Brunswick, Fitzroy & Northcote."
+    },
+    {
+      "title": "Gas Fitting & Appliances",
+      "desc": "Licensed gas plumbers for installations, repairs & leak detection for cooktops, heaters & more in your local area."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Supply, install & repair all major brands of electric, gas & heat pump hot water systems for Melbourne homes."
+    },
+    {
+      "title": "Burst Pipes & Leak Detection",
+      "desc": "Rapid response to burst pipes and water leaks, using advanced detection to minimise damage in your property."
+    },
+    {
+      "title": "Commercial & Strata Plumbing",
+      "desc": "Reliable plumbing maintenance and installations for businesses, body corporates & property managers across the city."
+    },
+    {
+      "title": "Kitchen & Bathroom Renovations",
+      "desc": "Complete plumbing solutions for new builds and renovations, from roughing-in to final fixture installation."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Brunswick?",
+  "bannerSubheading": "Fast, reliable service from your neighbours on Sydney Road.",
+  "testimonialsHeading": "What Our Local Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne's inner north",
+  "blogHeading": "Plumbing Tips & Updates",
+  "blogSubheading": "Advice from the Expert team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you within the hour",
+  "reviews": [
+    {
+      "text": "The team at Expert Plumbing made replacing our old hot water system in Brunswick seamless. They were on time, tidy, and the new heat pump is running perfectly. Highly recommend their service!",
+      "name": "Sarah Mitchell",
+      "role": "Brunswick Homeowner"
+    },
+    {
+      "text": "We had a nasty blocked drain at our café in Fitzroy. Expert Plumbing cleared it quickly and professionally, minimising disruption to our business. Their rapid response was a lifesaver.",
+      "name": "Tom Henderson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Expert Plumbing handles all our maintenance plumbing for our properties in Northcote and Princes Hill. They are reliable, their pricing is fair, and they understand the specific needs of older buildings.",
+      "name": "Chloe Davies",
+      "role": "Property Manager"
+    }
+  ]
+}
