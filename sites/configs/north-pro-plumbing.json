@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "North Pro Plumbing",
+  "suburb": "Fairfield",
+  "phone": "0000 000 000",
+  "email": "abc@example.com",
+  "address": "35 Grange Rd, Fairfield VIC 3078",
+  "tagline": "Fairfield's Trusted Plumbing Experts",
+  "primaryColor": "#8ed1fc",
+  "primaryColorRgb": "142, 209, 252",
+  "primaryColorHover": "#6eb8e6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fairfield's Go-To Plumbers",
+      "sub": "Expert plumbing solutions for every need"
+    },
+    {
+      "title": "Leaking Taps, Blocked Drains & More",
+      "sub": "24/7 emergency services across Fairfield"
+    },
+    {
+      "title": "Quality Workmanship Guaranteed",
+      "sub": "Your local plumber in Fairfield"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Fairfield? Let's Fix It Now.",
+  "aboutHeading": "Expert Plumbing in Fairfield",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "North Pro Plumbing is dedicated to quality workmanship and customer satisfaction in Fairfield. With over 15 years of experience, we specialise in everything from fixing leaking taps to complex plumbing installations. Our commitment to clear communication and timely service ensures every client in Fairfield receives the highest standards. Whether it's routine maintenance or emergency repairs, we approach each task with expertise and dedication.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive plumbing solutions",
+  "servicesText": "From general plumbing repairs to emergency services, we cover all aspects of plumbing in Fairfield and surrounding areas. Our skilled team handles residential and commercial jobs with precision and care.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency plumbing services for urgent issues like burst pipes and leaks in Fairfield."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Expert unblocking of drains and sewers to prevent backups and flooding for homes and businesses."
+    },
+    {
+      "title": "Tap & Fixture Repairs",
+      "desc": "Repair and replacement of leaking taps, showers, and other fixtures to stop water wastage."
+    },
+    {
+      "title": "Pipe Installation",
+      "desc": "New pipe installation and repairs for water supply and drainage systems across Fairfield."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation and maintenance of hot water systems for reliable and efficient supply."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine plumbing maintenance to keep your system in top condition and avoid future issues."
+    }
+  ],
+  "bannerHeading": "Fairfield's Plumbing Experts Are Here to Help",
+  "bannerSubheading": "Fast, reliable service for all your plumbing needs.",
+  "testimonialsHeading": "What Fairfield Locals Say",
+  "testimonialsSubheading": "Real feedback from our customers",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Helpful advice from North Pro Plumbing",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We're available 24/7 for your convenience",
+  "reviews": [
+    {
+      "text": "North Pro Plumbing fixed our blocked drain in Fairfield quickly and efficiently. Their professionalism and clear communication made the process stress-free. Highly recommend their services to all homeowners.",
+      "name": "John Smith",
+      "role": "Fairfield Homeowner"
+    },
+    {
+      "text": "As a local business owner in Fairfield, I rely on North Pro Plumbing for all our plumbing maintenance. They always deliver quality work on time and at fair prices.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We had an emergency leak at our property in Fairfield, and North Pro Plumbing responded immediately. Their expert team resolved the issue with minimal disruption. Excellent service.",
+      "name": "Mike Taylor",
+      "role": "Property Manager"
+    }
+  ]
+}
