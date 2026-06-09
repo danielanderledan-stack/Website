@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Plumbelec Inspections",
+  "suburb": "Airport West",
+  "phone": "1800800734",
+  "email": "info@peinspections.com",
+  "address": "Unit 6/55-59 Halsey Rd, Airport West VIC 3042",
+  "tagline": "Airport West's Plumbing & Electrical Inspections",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Airport West's Trusted Plumbelec Experts",
+      "sub": "Comprehensive gas and electrical inspections"
+    },
+    {
+      "title": "Smoke Alarm & Rental Compliance",
+      "sub": "Keeping Airport West properties safe and legal"
+    },
+    {
+      "title": "Free Inspections Across Melbourne's West",
+      "sub": "Call 1800 800 PEI for a quote today"
+    }
+  ],
+  "ctaHeading": "Need an inspection in Airport West? Let Plumbelec help.",
+  "aboutHeading": "Airport West's Plumbing & Electrical Inspections",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Plumbelec Inspections has been serving Airport West and surrounding suburbs with expert plumbing, electrical, and smoke alarm inspections for years. Our team, led by George, ensures thorough assessments with clear communication and attention to detail. We are committed to quality service, making us a trusted provider for homeowners and property managers in the area. Contact us today for reliable inspections.",
+  "servicesHeading": "What We Inspect & Service",
+  "servicesSubheading": "Expert checks for safety",
+  "servicesText": "Our inspection services cover gas, electrical, and smoke alarm systems to ensure compliance and safety for properties in Airport West. We cater to rental homes, businesses, and homeowners, providing detailed reports and professional advice. Let Plumbelec handle your inspection needs with care and expertise.",
+  "services": [
+    {
+      "title": "Gas Inspections",
+      "desc": "Thorough checks of gas appliances and systems to ensure safety and compliance in Airport West homes."
+    },
+    {
+      "title": "Electrical Inspections",
+      "desc": "Comprehensive electrical safety assessments for residential and commercial properties across Melbourne's west."
+    },
+    {
+      "title": "Smoke Alarm Servicing",
+      "desc": "Installation, testing, and maintenance of smoke alarms to meet Victorian rental and safety standards."
+    },
+    {
+      "title": "Rental Inspections",
+      "desc": "Full rental compliance inspections covering gas, electrical, and safety requirements for landlords and property managers."
+    },
+    {
+      "title": "Combined Packages",
+      "desc": "Cost-effective gas, electrical, and smoke alarm packages for complete property safety and peace of mind."
+    },
+    {
+      "title": "Other Services",
+      "desc": "Tailored inspection services for unique needs, including plumbing checks and general maintenance."
+    }
+  ],
+  "bannerHeading": "Need an Inspection in Airport West?",
+  "bannerSubheading": "Fast, reliable service from Plumbelec Inspections.",
+  "testimonialsHeading": "What Airport West Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and property managers",
+  "blogHeading": "Inspection Tips & News",
+  "blogSubheading": "Expert advice from Plumbelec",
+  "contactHeading": "Get a Free Inspection Quote",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Plumbelec did a fantastic gas and electrical inspection at our Airport West property. George was professional and explained everything clearly, ensuring we met all rental compliance requirements. Highly recommended for any homeowner.",
+      "name": "John Smith",
+      "role": "Airport West Homeowner"
+    },
+    {
+      "text": "We use Plumbelec for all our property inspections across Melbourne. Their smoke alarm servicing is top-notch, and they're always on time with detailed reports. Great for property managers.",
+      "name": "Sarah Jones",
+      "role": "Property Manager"
+    },
+    {
+      "text": "George from Plumbelec fixed our gas issue quickly during the inspection. Honest and reliable service with great communication throughout the process. A trusted local business in Airport West.",
+      "name": "Mike Brown",
+      "role": "Local Business Owner"
+    }
+  ]
+}
