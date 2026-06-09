@@ -1,0 +1,299 @@
+{
+  "siteType": "hvac",
+  "businessName": "RKH",
+  "suburb": "Eltham",
+  "phone": "03 9437 2466",
+  "email": "service@rkh.com.au",
+  "address": "Factory 2/31 Peel St, Eltham VIC 3095",
+  "tagline": "Eltham's Air Conditioning Experts",
+  "primaryColor": "#ff7c5a",
+  "primaryColorRgb": "255, 124, 90",
+  "primaryColorHover": "#e66a4a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Eltham's Go-To Air Conditioning Team",
+      "sub": "Serving the community for years"
+    },
+    {
+      "title": "Installation, Maintenance & Repair",
+      "sub": "For homes, schools, and aged care facilities"
+    },
+    {
+      "title": "Free Quotes Across Eltham",
+      "sub": "No job too big or small"
+    }
+  ],
+  "ctaHeading": "Eltham's air conditioning specialists are ready to assist you.",
+  "aboutHeading": "25+ Years Air Conditioning in Eltham",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "RKH is Eltham's trusted air conditioning contractor, providing comprehensive solutions for residential, commercial, and institutional needs. With over two decades of experience serving the Wurundjeri lands of the Kulin Nation, we specialise in installation, maintenance, and repair across local government facilities, schools, and aged care centres. Our team is fully licensed and committed to excellence.",
+  "servicesHeading": "Our Air Conditioning Services",
+  "servicesSubheading": "Complete climate solutions for Eltham",
+  "servicesText": "RKH offers end-to-end air conditioning services tailored to Eltham's needs. From new installations in schools to regular maintenance for aged care facilities, we ensure optimal performance and comfort. Our expertise covers all major systems and brands.",
+  "services": [
+    {
+      "title": "Air Conditioning Installation",
+      "desc": "Professional installation for homes and businesses in Eltham.",
+      "longDesc": "We provide expert air conditioning installation services across Eltham, ensuring systems are correctly sized and installed for maximum efficiency. Our team works with all major brands to suit your specific cooling and heating needs.",
+      "points": [
+        "Expert system sizing",
+        "All major brands",
+        "Energy-efficient solutions"
+      ]
+    },
+    {
+      "title": "Preventative Maintenance",
+      "desc": "Regular maintenance to keep your system running smoothly.",
+      "longDesc": "Our preventative maintenance programs in Eltham extend the lifespan of your air conditioning units and prevent costly breakdowns. We service all types of systems for residential and commercial clients.",
+      "points": [
+        "Extend system lifespan",
+        "Prevent breakdowns",
+        "Annual service plans"
+      ]
+    },
+    {
+      "title": "Commercial Air Conditioning",
+      "desc": "Solutions for offices, retail, and public buildings.",
+      "longDesc": "RKH specialises in commercial air conditioning for Eltham's businesses, including local government facilities and schools. We design systems that provide consistent comfort and meet Australian standards.",
+      "points": [
+        "Tailored commercial designs",
+        "Compliant with standards",
+        "Bulk service discounts"
+      ]
+    },
+    {
+      "title": "Aged Care Facility Services",
+      "desc": "Specialised air conditioning for aged care environments.",
+      "longDesc": "We understand the critical need for reliable air conditioning in aged care facilities. Our Eltham team provides installation and maintenance to ensure safe and comfortable environments for residents.",
+      "points": [
+        "Safety-focused installations",
+        "24/7 support available",
+        "Compliance with health regs"
+      ]
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Fast response for urgent air conditioning issues.",
+      "longDesc": "When your air conditioning fails, our Eltham-based emergency repair team is here to help. We offer quick diagnosis and repair services to restore your comfort promptly.",
+      "points": [
+        "Same-day response",
+        "Qualified technicians",
+        "No overtime charges"
+      ]
+    },
+    {
+      "title": "Energy Efficiency Audits",
+      "desc": "Assessments to improve system performance and reduce costs.",
+      "longDesc": "Our energy audits in Eltham help identify inefficiencies in your air conditioning systems, providing actionable recommendations to lower energy bills and enhance performance.",
+      "points": [
+        "Lower energy bills",
+        "Performance optimisation",
+        "Detailed reports"
+      ]
+    }
+  ],
+  "bannerHeading": "Need Air Conditioning Help in Eltham?",
+  "bannerSubheading": "From installation to repair, we've got you covered.",
+  "testimonialsHeading": "What Eltham Customers Say",
+  "testimonialsSubheading": "Trusted by the local community",
+  "blogHeading": "Air Conditioning Tips for Eltham",
+  "blogSubheading": "Expert advice from your local team",
+  "contactHeading": "Get a Free Quote in Eltham",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "RKH installed a new split system in our Eltham home and the service was excellent. They were professional, clean, and the unit works perfectly in our living room.",
+      "name": "Sarah Mitchell",
+      "role": "Eltham Homeowner"
+    },
+    {
+      "text": "As a property manager in Diamond Creek, I rely on RKH for maintenance on multiple units. Their reliability and expertise keep our tenants happy year-round.",
+      "name": "James O'Connor",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Our school in Greensborough needed urgent AC repairs before the summer term. RKH responded quickly and had everything running smoothly within a day.",
+      "name": "Lisa Chen",
+      "role": "Local School Administrator"
+    }
+  ],
+  "serviceAreas": [
+    "Eltham",
+    "Diamond Creek",
+    "Greensborough",
+    "Templestowe",
+    "Lower Plenty",
+    "Research"
+  ],
+  "about": {
+    "intro": "RKH has been providing air conditioning solutions to Eltham and surrounding areas for over 20 years, specialising in installation, maintenance, and repair.",
+    "story": [
+      "Founded in Eltham, our company has grown from a small family business to a trusted contractor serving local government, schools, and aged care facilities across Melbourne's north-east.",
+      "We acknowledge that we live and work on the lands of the Wurundjeri people of the Kulin Nation and are committed to serving this community with respect and integrity."
+    ],
+    "mission": "To deliver reliable, efficient air conditioning services that enhance comfort in Eltham homes and businesses.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "Our technicians are fully licensed and trained to handle all air conditioning systems."
+      },
+      {
+        "title": "Local Knowledge",
+        "text": "We understand Eltham's climate and specific cooling and heating needs."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees; we provide clear quotes before starting any work."
+      },
+      {
+        "title": "Satisfaction Guaranteed",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Systems Installed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "24/7 emergency service"
+    ]
+  },
+  "pricing": {
+    "intro": "At RKH, we offer competitive pricing for air conditioning services in Eltham. All quotes are upfront with no lock-in contracts.",
+    "packages": [
+      {
+        "name": "Basic Service Call",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Diagnostic report",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Maintenance",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Annual service check",
+          "Filter cleaning",
+          "System performance report",
+          "Priority scheduling"
+        ]
+      },
+      {
+        "name": "Full Installation Package",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Free consultation",
+          "Professional installation",
+          "2-year warranty",
+          "Post-install support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what to expect."
+  },
+  "contact": {
+    "intro": "Ready for air conditioning solutions in Eltham? Contact RKH today for a free, no-obligation quote. We're here to help with any query."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Air Conditioning Installation Cost in Eltham?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting AC installation costs in Eltham and get a clear idea of what to budget for your home or business.",
+      "body": [
+        "Installing air conditioning in Eltham involves several cost factors, including the type of system, the size of the space, and installation complexity. For residential homes, split systems are popular, costing between $1,500 and $4,000 installed. Commercial installations for schools or aged care facilities can range from $5,000 to $20,000, depending on the scale and specifications required.",
+        "The Eltham climate, with warm summers and cool winters, means choosing a system that offers both cooling and heating efficiency. Energy ratings are crucial; higher-rated systems may have upfront costs but save on electricity bills in the long run. Local factors like property layout and insulation levels also impact installation costs and system sizing.",
+        "When budgeting for AC installation in Eltham, consider additional expenses such as electrical upgrades or ductwork modifications. It's advisable to get multiple quotes from licensed contractors like RKH to ensure competitive pricing. Always verify that the installer is fully licensed and insured to meet Australian standards and avoid potential issues.",
+        "The best time to install air conditioning in Melbourne is during spring or autumn when contractors are less busy, potentially offering better rates. RKH provides free site assessments in Eltham to give accurate quotes tailored to your specific needs. We work with leading brands to offer a range of options suitable for different budgets.",
+        "For aged care facilities and schools in Eltham, installation must comply with strict health and safety regulations. Our team at RKH ensures all installations meet these standards, providing documentation for peace of mind. Investing in quality installation can prevent future breakdowns and ensure long-term reliability.",
+        "In summary, air conditioning installation costs in Eltham vary widely, but with careful planning and expert advice, you can find a solution that fits your budget. Contact RKH today to discuss your project and receive a detailed, no-obligation quote. We're here to help Eltham residents and businesses stay comfortable year-round."
+      ]
+    },
+    {
+      "title": "Best Air Conditioning Systems for Melbourne Winters in Eltham",
+      "date": "February 2026",
+      "excerpt": "Learn which air conditioning systems are most effective for heating during Melbourne's chilly winters in Eltham homes and businesses.",
+      "body": [
+        "Melbourne winters can be brisk, and in Eltham, choosing the right air conditioning system for heating is essential for comfort. Reverse-cycle split systems are highly recommended as they provide both cooling and heating, making them versatile for year-round use. These systems are energy-efficient and can heat spaces quickly, which is ideal for Eltham's cooler months.",
+        "For larger properties or commercial spaces in Eltham, ducted air conditioning systems offer uniform heating throughout the building. Although they have higher upfront costs, they provide consistent temperature control and can be zoned to heat specific areas, improving energy efficiency. It's important to have these systems professionally designed to suit the layout of your property.",
+        "When selecting a heating system, consider the energy star rating to minimise electricity costs. In Eltham, where winter temperatures can drop, a system with a high COP (Coefficient of Performance) will deliver more heat per unit of electricity used. RKH can advise on the best models available from brands like Daikin, Mitsubishi Electric, and Fujitsu.",
+        "Installation quality is critical for optimal performance. Poorly installed systems can lead to heat loss and higher bills. Our team at RKH ensures that all installations in Eltham are done correctly, with proper insulation and sealing. We also offer maintenance services to keep systems running efficiently throughout the winter.",
+        "For aged care facilities and schools in Eltham, reliable heating is non-negotiable. We recommend systems with backup heating options and advanced controls for easy management. Regular maintenance by qualified technicians can prevent unexpected failures during peak winter demand.",
+        "In conclusion, investing in a quality air conditioning system for heating in Eltham will enhance comfort and potentially reduce energy costs. Contact RKH for a consultation to find the best solution for your needs. We're based in Eltham and understand local requirements intimately."
+      ]
+    },
+    {
+      "title": "Maintaining Air Conditioning in Eltham's Humid Summers",
+      "date": "January 2026",
+      "excerpt": "Tips on how to maintain your air conditioning system during Eltham's humid summer months to ensure efficiency and longevity.",
+      "body": [
+        "Eltham experiences warm and sometimes humid summers, making air conditioning maintenance crucial for optimal performance. Regular maintenance can prevent breakdowns and ensure your system runs efficiently. Key tasks include cleaning or replacing filters, checking refrigerant levels, and inspecting electrical connections.",
+        "Humidity can cause moisture buildup in AC units, leading to mould growth and reduced efficiency. In Eltham, it's advisable to schedule professional maintenance before summer begins. RKH offers comprehensive maintenance packages that include cleaning coils, testing thermostats, and ensuring proper drainage.",
+        "Homeowners in Eltham can also perform simple checks, such as keeping outdoor units clear of debris and ensuring vents are not blocked. However, professional servicing is recommended to address deeper issues. Our technicians are trained to handle all system types and can identify potential problems early.",
+        "For commercial properties like offices or schools in Eltham, maintenance is even more critical due to higher usage. We recommend quarterly checks for systems under heavy load. This proactive approach can extend the lifespan of your air conditioning and maintain air quality standards.",
+        "Energy efficiency is another benefit of regular maintenance. A well-maintained system uses less electricity, reducing your carbon footprint and utility bills. In Eltham, where summers can be long, this can translate to significant savings over time.",
+        "In summary, maintaining your air conditioning in Eltham's humid summers involves a mix of DIY care and professional servicing. Contact RKH to set up a maintenance plan tailored to your system and usage patterns. We're here to help Eltham residents and businesses stay cool and comfortable."
+      ]
+    },
+    {
+      "title": "Air Conditioning Requirements for Aged Care Facilities in Eltham",
+      "date": "December 2025",
+      "excerpt": "Understand the specific air conditioning needs and regulations for aged care facilities in Eltham to ensure resident safety and comfort.",
+      "body": [
+        "Aged care facilities in Eltham have stringent air conditioning requirements to maintain a safe and comfortable environment for residents. Systems must provide consistent temperature control, adequate ventilation, and comply with health and safety standards. Poor air conditioning can lead to health risks, especially for vulnerable individuals.",
+        "Key considerations include system reliability, ease of maintenance, and energy efficiency. Facilities should have backup systems in place to prevent failures during extreme weather. In Eltham, where temperatures can vary, a robust heating and cooling solution is essential to adapt to changing conditions.",
+        "Regulatory compliance is critical. Australian standards such as AS 1668.2 for ventilation and AS/NZS 3000 for electrical installations must be met. RKH has experience working with aged care facilities in Eltham and ensures all installations and maintenance adhere to these regulations, providing documentation for audits.",
+        "Regular maintenance is non-negotiable to prevent system breakdowns. We recommend monthly checks for filters and coils, with professional servicing every six months. Our Eltham-based team offers tailored maintenance plans that include emergency support to address issues promptly.",
+        "Energy management is also important for controlling operational costs. Modern systems with smart controls can optimise usage based on occupancy and time of day, reducing energy consumption without compromising comfort. RKH can advise on upgrades that improve efficiency and meet sustainability goals.",
+        "In conclusion, meeting air conditioning requirements for aged care facilities in Eltham involves careful planning, compliance with standards, and ongoing maintenance. Contact RKH to discuss your facility's needs. We are committed to supporting Eltham's aged care sector with reliable and efficient solutions."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "RKH Air Conditioning | HVAC in Eltham | Installation & Repair",
+      "description": "RKH provides expert air conditioning services in Eltham, VIC. From installation to maintenance, we serve homes, schools, and aged care facilities. Call now!"
+    },
+    "about": {
+      "title": "About RKH | Eltham's Trusted Air Conditioning Team",
+      "description": "Learn about RKH, Eltham's local air conditioning contractor with over 20 years of experience in installation, maintenance, and repair services."
+    },
+    "services": {
+      "title": "Air Conditioning Services in Eltham | RKH HVAC Solutions",
+      "description": "Comprehensive air conditioning services in Eltham including installation, maintenance, and repairs for residential and commercial needs."
+    },
+    "pricing": {
+      "title": "Air Conditioning Costs & Prices in Eltham | RKH",
+      "description": "Transparent pricing for air conditioning services in Eltham. Get free quotes for installation, maintenance, and repairs from RKH."
+    },
+    "contact": {
+      "title": "Contact RKH | Free Air Conditioning Quotes in Eltham",
+      "description": "Get in touch with RKH for free air conditioning quotes in Eltham. We respond within 24 hours for all enquiries."
+    },
+    "blog": {
+      "title": "Air Conditioning Blog | Tips & Guides for Eltham | RKH",
+      "description": "Expert air conditioning advice for Eltham residents and businesses. Read our blog for tips on installation, maintenance, and costs."
+    }
+  }
+}
