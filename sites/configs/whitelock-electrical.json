@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Whitelock Electrical",
+  "suburb": "Cheltenham",
+  "phone": "+61 3 8590 6515",
+  "email": "admin@whitelockelectrical.com",
+  "address": "1/38 Christensen St, Cheltenham VIC 3192",
+  "tagline": "Cheltenham's Trusted Electricians",
+  "primaryColor": "#38bdf8",
+  "primaryColorRgb": "56, 189, 248",
+  "primaryColorHover": "#0ea5e9",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Cheltenham's Trusted Electricians",
+      "sub": "Whitelock Electrical — serving Melbourne's bayside"
+    },
+    {
+      "title": "Switchboards, Split Systems & EV Chargers",
+      "sub": "Licensed, qualified and 100% solutions focused"
+    },
+    {
+      "title": "Lifetime Workmanship Guarantee",
+      "sub": "Free quotes across Cheltenham & surrounds"
+    }
+  ],
+  "ctaHeading": "Cheltenham's electricians are ready — let's power up your project.",
+  "aboutHeading": "Cheltenham's Trusted Electrical Team",
+  "aboutSubheading": "Whitelock Electrical — local, licensed & reliable",
+  "aboutText": "Whitelock Electrical has been delivering trusted residential and commercial electrical services across Cheltenham and Melbourne's bayside suburbs for over a decade. Founded by Nathaniel Whitelock, our team of licensed electricians specialises in switchboard upgrades, split system installations, EV chargers, lighting, smoke alarms and full home electrical solutions. From Armadale to Toorak, we pride ourselves on professional service, transparent pricing and a lifetime workmanship guarantee that gives every Cheltenham customer complete peace of mind.",
+  "servicesHeading": "What We Do for Cheltenham Homes",
+  "servicesSubheading": "Comprehensive bayside electrical services",
+  "servicesText": "At Whitelock Electrical in Cheltenham, we provide comprehensive electrical services tailored to homes and businesses across Melbourne's bayside. From urgent switchboard upgrades to split system air conditioning installations and EV charger setups, our qualified electricians deliver reliable, safety-compliant solutions with lifetime workmanship guarantees.",
+  "services": [
+    {
+      "title": "Switchboard Services",
+      "desc": "Expert switchboard upgrades and replacements for older Cheltenham homes, ensuring safety compliance with current Australian standards.",
+      "longDesc": "Many older homes in Cheltenham and surrounding bayside suburbs still have outdated ceramic fuse boards that pose serious safety risks. Our licensed electricians upgrade your switchboard to modern switchgear with safety switches, protecting your family and appliances from electrical faults.",
+      "points": [
+        "Safety switch protection",
+        "AS/NZS 3000 compliant",
+        "Same-day upgrades available"
+      ]
+    },
+    {
+      "title": "Split System Air Conditioning",
+      "desc": "Professional installation, servicing and repair of split system air conditioning units for Cheltenham homes and businesses.",
+      "longDesc": "Cheltenham's variable Melbourne climate demands reliable heating and cooling year-round. We install, service and clean split system air conditioners from all major brands, ensuring optimal performance through scorching summers and chilly bayside winters with premium maintenance packages.",
+      "points": [
+        "All major brands serviced",
+        "Premium deep-clean service",
+        "Energy-efficient installations"
+      ]
+    },
+    {
+      "title": "PowerPoints & Wiring",
+      "desc": "Installation, relocation and repair of power points, circuits and wiring throughout Cheltenham properties.",
+      "longDesc": "Whether you need additional GPOs for a home office, rewiring for a renovation or fault-finding on an existing circuit, our Cheltenham electricians deliver clean, compliant power solutions. We handle everything from single outlet installs to full property rewiring with minimal disruption.",
+      "points": [
+        "Fault diagnosis and repair",
+        "Clean tidy installation",
+        "No unnecessary wall damage"
+      ]
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Indoor and outdoor lighting solutions including LED downlights, pendant lights and garden lighting for Cheltenham homes.",
+      "longDesc": "Transform your Cheltenham home with professional LED lighting installation. From energy-efficient downlights and statement pendant fixtures to security and garden lighting, our team designs and installs lighting that enhances ambience, reduces energy bills and meets Australian safety standards.",
+      "points": [
+        "Energy-efficient LED solutions",
+        "Indoor and outdoor options",
+        "Custom lighting design"
+      ]
+    },
+    {
+      "title": "Smoke Alarms & Safety",
+      "desc": "Compliant smoke alarm installation, testing and replacement to keep Cheltenham families safe.",
+      "longDesc": "Victorian legislation requires interconnected photoelectric smoke alarms in all homes. Our Cheltenham electricians install, test and replace smoke alarms to ensure full compliance, keeping your family protected with early fire detection throughout every room of your property.",
+      "points": [
+        "Victorian compliance guaranteed",
+        "Interconnected alarm systems",
+        "Annual testing available"
+      ]
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Home and workplace EV charger installation for Cheltenham residents embracing electric vehicle ownership.",
+      "longDesc": "As Melbourne's bayside suburbs lead the charge in electric vehicle adoption, our Cheltenham electricians install dedicated EV charging stations for all vehicle makes. We handle switchboard assessments, dedicated circuit installation and charger setup to get you charging at home safely.",
+      "points": [
+        "All EV charger brands",
+        "Dedicated circuit install",
+        "Switchboard assessment included"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Cheltenham?",
+  "bannerSubheading": "24/7 emergency callouts across Melbourne's bayside",
+  "testimonialsHeading": "What Bayside Locals Say",
+  "testimonialsSubheading": "5.0 Google rating from 390+ reviews",
+  "blogHeading": "Cheltenham Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from your local bayside electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Fast response from the Cheltenham team",
+  "reviews": [
+    {
+      "text": "Sam installed new power circuits at our Cheltenham property and left everything spotless. Professional, efficient and great communication from quote to completion. We would highly recommend Whitelock Electrical to anyone needing electrical work in the bayside area.",
+      "name": "Sharon McNeill",
+      "role": "Cheltenham Homeowner"
+    },
+    {
+      "text": "Tibor was incredibly thorough tracing an elusive fault at our Mentone home. From the initial enquiry through to completion, Whitelock Electrical's service was professional and stress-free. We won't hesitate to call them again for any electrical needs.",
+      "name": "Helena",
+      "role": "Mentone Homeowner"
+    },
+    {
+      "text": "Andrew installed multiple TVs, pendant lights and power outlets at our Brighton place. No mess, no damage, and he found solutions where other companies only saw problems. Outstanding workmanship and genuinely friendly service from the whole Whitelock team.",
+      "name": "John Redhead",
+      "role": "Brighton Homeowner"
+    }
+  ],
+  "serviceAreas": [
+    "Cheltenham",
+    "Beaumaris",
+    "Brighton",
+    "Hampton",
+    "Highett",
+    "Mentone",
+    "Sandringham"
+  ],
+  "about": {
+    "intro": "Whitelock Electrical is Cheltenham's go-to electrical team, delivering professional residential and commercial services across Melbourne's bayside for over a decade.",
+    "story": [
+      "Founded by Nathaniel Whitelock, our business grew from a single electrician serving Cheltenham neighbours to a trusted team of licensed professionals covering suburbs from Armadale to Toorak. We built our reputation one satisfied customer at a time, earning a perfect 5.0 Google rating from over 390 reviews across the bayside community.",
+      "Every job we take on reflects our core values: arrive on time, communicate clearly, work to the highest safety standards and leave every Cheltenham home spotless. From switchboard upgrades to split system installations and EV charger setups, we treat your property like our own and stand behind every installation with a lifetime workmanship guarantee."
+    ],
+    "mission": "To deliver honest, professional electrical solutions that keep Cheltenham homes and businesses safe, comfortable and future-ready.",
+    "whyUs": [
+      {
+        "title": "Lifetime Guarantee",
+        "text": "Every job backed by our lifetime workmanship guarantee for complete peace of mind"
+      },
+      {
+        "title": "5.0 Google Rating",
+        "text": "Perfect rating from over 390 verified reviews across Melbourne's bayside"
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "Round-the-clock service for emergencies and scheduled appointments across Cheltenham"
+      },
+      {
+        "title": "Fully Licensed",
+        "text": "Every electrician on our team holds current Victorian electrical licences and insurances"
+      }
+    ],
+    "stats": [
+      {
+        "value": "390+",
+        "label": "5-Star Reviews"
+      },
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Service"
+      }
+    ],
+    "credentials": [
+      "Licensed and qualified",
+      "Lifetime workmanship guarantee",
+      "100% solutions focused",
+      "Free on-site quotes"
+    ]
+  },
+  "pricing": {
+    "intro": "Whitelock Electrical provides transparent, upfront pricing for all Cheltenham electrical services. No hidden fees, no lock-in contracts — just honest quotes before any work begins.",
+    "packages": [
+      {
+        "name": "Call-Out and Assessment",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Safety-compliant work",
+          "Lifetime workmanship guarantee",
+          "Site cleaned after completion"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full property assessment",
+          "Dedicated project management",
+          "Premium materials and components"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront before work begins — you will never pay more than agreed."
+  },
+  "contact": {
+    "intro": "Ready to book a licensed Cheltenham electrician? Contact Whitelock Electrical today for a free, no-obligation quote. We respond within 2 business hours and offer same-day service across Melbourne's bayside."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Switchboard Upgrade Cost in Cheltenham?",
+      "date": "April 2026",
+      "excerpt": "Discover the real cost of upgrading your switchboard in Cheltenham, including safety switch installation and compliance requirements for bayside Melbourne homes.",
+      "body": [
+        "If you own an older home in Cheltenham, there is a strong chance your switchboard still uses outdated ceramic cartridge fuses rather than modern circuit breakers and safety switches. In Melbourne's bayside suburbs, many homes built before the 1990s have never had their electrical infrastructure upgraded, creating hidden safety hazards that most homeowners are completely unaware of. At Whitelock Electrical, switchboard upgrades are one of our most requested services across Cheltenham and surrounding suburbs like Beaumaris, Hampton and Brighton. A modern switchboard with residual current devices and safety switches protects your family from electrical fires and electrocution, while ensuring compliance with current Australian wiring standards AS/NZS 3000. Understanding the cost factors involved helps Cheltenham homeowners budget for this essential safety upgrade.",
+        "The cost of a switchboard upgrade in Cheltenham typically ranges from $800 to $2,500 depending on several key factors. The complexity of your existing wiring, the number of circuits requiring protection and whether your home needs a partial upgrade or full replacement all influence the final price. For a standard three-bedroom Cheltenham home, a complete switchboard replacement with safety switches on all circuits usually costs between $1,200 and $1,800. Older properties in suburbs like Mentone or Sandringham with more complex wiring layouts may see costs toward the higher end of this range. Whitelock Electrical provides free on-site assessments across Cheltenham, where our licensed electricians inspect your existing board and provide a fixed, transparent quote before any work commences. This ensures there are no surprises on the day.",
+        "Several factors specific to Cheltenham properties can affect switchboard upgrade pricing. Homes in established pockets near Charman Road or the Cheltenham railway station often feature original wiring from the 1960s and 1970s that requires careful assessment and potential remediation. If your home has been extended or renovated over the decades, additional circuits may have been added informally, complicating the upgrade process significantly. The location of your switchboard also matters — boards situated in tight cupboard spaces or difficult-to-access areas of older Cheltenham homes may require additional labour to replace safely. Furthermore, if your meter box is owned by your electricity distributor rather than being privately owned, a separate meter panel upgrade may be necessary, which adds to the overall project scope and timeline.",
+        "Victorian electrical regulations have evolved significantly over the past decade, and current legislation now mandates safety switches on all power and lighting circuits in residential properties. For Cheltenham homeowners, this means that an old switchboard with only one or two safety switches is no longer compliant with modern requirements. When Whitelock Electrical performs a switchboard upgrade, we install individual RCD protection on every circuit, ensuring your home meets the latest Victorian and Australian Standards. This comprehensive approach is particularly important for Cheltenham families with young children or elderly residents, where the risk and consequences of electrical faults are significantly higher. We also ensure all work is certified, documented and filed with relevant authorities for your records and insurance purposes.",
+        "One common question from Cheltenham homeowners is whether a switchboard upgrade requires a power disconnection. In most cases, the power needs to be off for several hours during the replacement process, which is why Whitelock Electrical schedules work at times convenient to you and completes most standard upgrades within a single day. For Cheltenham homes with medical equipment, fish tanks or other critical electrical needs, we can coordinate with your energy distributor or provide guidance on temporary arrangements. Our team always communicates clearly about the timeline before starting, so you know exactly what to expect and can plan accordingly. After completion, we test every circuit individually, label all breakers clearly, and walk you through your new switchboard before tidying up and finishing the job.",
+        "Investing in a switchboard upgrade for your Cheltenham home delivers immediate safety benefits and long-term value. Modern switchboards reduce the risk of electrical fires, protect expensive appliances from fault damage and may even lower your home insurance premiums with certain providers. For Cheltenham property owners considering selling, a compliant switchboard is an attractive feature for prospective buyers and their building inspectors during the conveyancing process. At Whitelock Electrical, we have performed hundreds of switchboard upgrades across Melbourne's bayside suburbs, and we stand behind every installation with our lifetime workmanship guarantee. Contact us today for a free assessment and fixed quote — protecting your Cheltenham home starts with a modern, fully compliant switchboard."
+      ]
+    },
+    {
+      "title": "Split System Installation Costs in Cheltenham: A Complete Guide for 2026",
+      "date": "March 2026",
+      "excerpt": "Everything Cheltenham homeowners need to know about split system air conditioning costs, energy ratings and choosing the right unit for Melbourne's bayside climate.",
+      "body": [
+        "Melbourne's bayside suburbs experience some of the most variable weather in Australia, making a reliable split system air conditioner an essential investment for Cheltenham homeowners. With summer temperatures regularly exceeding 35 degrees and chilly winter mornings dropping below 8 degrees, having efficient heating and cooling at the touch of a button transforms daily comfort. At Whitelock Electrical, split system installation is one of our most popular services across Cheltenham and surrounding suburbs like Brighton, Hampton and Beaumaris. Understanding the costs involved, the best units for Melbourne's maritime climate and the installation requirements helps Cheltenham residents make informed decisions. This guide covers everything from unit pricing to ongoing running costs, giving you a complete picture before your installation.",
+        "The total cost of a split system installation in Cheltenham depends on the unit capacity, brand and complexity of the installation. For a single-bedroom unit, expect to pay between $1,200 and $2,000 fully installed. A medium-sized living area requiring a 7kW system typically costs between $2,200 and $3,500 installed, while larger open-plan spaces or whole-home solutions can range from $4,000 to $8,000 or more. Premium brands like Daikin, Mitsubishi Electric and Fujitsu command higher prices but deliver superior energy efficiency ratings, quieter operation and longer lifespans — all important factors for Cheltenham homes. Whitelock Electrical sources competitive trade pricing on all major brands and passes those savings directly to our Cheltenham customers, ensuring you get the best value without compromising on quality.",
+        "The installation complexity for Cheltenham homes varies significantly depending on your property type and layout. Brick veneer homes, which are common across the bayside suburbs, are generally straightforward for our electricians to install wall-mounted units on. However, older double-brick homes in established areas of Cheltenham near the railway station or Charman Road precinct may require specialised mounting hardware and additional drilling time. Apartments in Cheltenham's newer developments often have specific body corporate requirements for external condenser placement, which our team navigates regularly. The distance between the indoor head unit and outdoor condenser also affects pricing — longer pipe runs and difficult access points like high-rise balconies add to labour costs. During our free Cheltenham assessment, we evaluate all these factors and provide a comprehensive fixed quote.",
+        "Energy efficiency is a critical consideration for Cheltenham homeowners choosing a split system, given Melbourne's extended use of both heating and cooling throughout the year. Systems with high star ratings — typically 3.5 stars or above for both heating and cooling — deliver substantially lower running costs over their lifetime. A well-chosen 7kwi n Cheltenham can cost as little as 20 to 30 cents per hour to run, compared to 60 cents or more for an older, less efficient system. For a typical Cheltenham family using their split system three to four hours daily across the year, this efficiency difference can save $400 to $600 annually on electricity bills. Whitelock Electrical helps Cheltenham customers select units that match their room sizes, usage patterns and budget, ensuring optimal comfort without excessive running costs.",
+        "Cheltenham's proximity to Port Phillip Bay creates unique humidity and salt-air conditions that can affect split system longevity if not properly maintained. The salt-laden coastal air can corrode outdoor condenser coils faster than in suburbs further inland, making regular professional servicing essential for Hampton, Brighton and Beaumaris installations as well. Whitelock Electrical offers premium maintenance packages for Cheltenham split system owners that include a deep internal clean, coil treatment, refrigerant check and filter replacement. This comprehensive service goes far beyond a basic filter clean and extends your system's lifespan by years. We recommend Cheltenham residents schedule professional servicing annually, ideally before the summer cooling season begins, to ensure peak performance when you need it most.",
+        "When planning your Cheltenham split system installation, consider the long-term value alongside the upfront cost. A quality system installed correctly by licensed electricians should last 15 to 20 years with proper maintenance, making it one of the most cost-effective comfort investments for your home. Whitelock Electrical handles every aspect of the installation process for Cheltenham customers — from initial site assessment and unit selection through to professional installation, electrical connection and final testing. Every installation includes a full electrical safety check of your switchboard to ensure it can handle the new circuit load. Contact us today for a free Cheltenham assessment and let our team help you find the perfect split system solution for your home and budget."
+      ]
+    },
+    {
+      "title": "Smoke Alarm Laws in Victoria: What Every Cheltenham Homeowner Must Know",
+      "date": "February 2026",
+      "excerpt": "Understand Victorian smoke alarm legislation and how Cheltenham homeowners can ensure full compliance with interconnected photoelectric alarm requirements.",
+      "body": [
+        "Victorian smoke alarm laws have undergone significant changes in recent years, and every Cheltenham homeowner needs to understand their obligations to keep their family safe and their property compliant. Under current Victorian legislation, all residential properties must be fitted with interconnected photoelectric smoke alarms that meet Australian Standard AS 3786. For Cheltenham's many older homes, this means the days of simple battery-operated ionisation alarms are well and truly over. Non-compliant smoke alarms not only put your family at serious risk in the event of a fire but can also create complications during property sales and insurance claims. At Whitelock Electrical, we help Cheltenham homeowners navigate these requirements with professional installation, testing and ongoing maintenance services.",
+        "The specific requirements for Cheltenham homes depend on when the property was built and whether it is being sold, leased or occupied by the owner. For all new building approvals and renovations requiring a permit in Cheltenham, interconnected photoelectric smoke alarms must be installed in every bedroom, in hallways connecting bedrooms and on each level of the home. Existing owner-occupied homes in Cheltenham are required to have compliant alarms installed by 1 May 2026, while rental properties should already meet these standards. Every alarm must be interconnected so that when one detects smoke, all alarms throughout the Cheltenham property sound simultaneously, giving residents maximum warning time. Our licensed electricians ensure your installation meets every requirement of the Victorian legislation.",
+        "The difference between photoelectric and ionisation smoke alarms is critical for Cheltenham families to understand. Photoelectric alarms are significantly faster at detecting smouldering fires, which are the most common type of residential fire and particularly dangerous because they produce less visible flame but大量 toxic smoke. In Cheltenham's older homes with timber frames, carpet and furnishings, smouldering fires can develop quickly and silently. Interconnected photoelectric alarms provide the earliest possible warning by detecting smoke particles before flames become visible. Whitelock Electrical exclusively installs photoelectric alarms in Cheltenham properties because we believe every family deserves the best available protection. Our alarms are hardwired with battery backup, ensuring they operate even during power outages that often accompany severe Melbourne storms.",
+        "Many Cheltenham homeowners attempt to install smoke alarms themselves, but professional installation by a licensed electrician ensures proper placement, interconnection and compliance. Common mistakes we see in Cheltenham homes include placing alarms too close to kitchens causing false alarms, missing bedrooms or hallways in the interconnected network and using incompatible alarm brands that fail to communicate properly. The interconnected wiring between alarms requires careful routing through ceiling spaces, and in older Cheltenham homes with limited roof access, this work demands experience and proper safety equipment. Whitelock Electrical's Cheltenham team understands the nuances of Victorian smoke alarm legislation and ensures every installation passes compliance requirements first time, giving you documentation you can provide to insurers, real estate agents and council inspectors.",
+        "Beyond installation, Cheltenham homeowners need to maintain their smoke alarms to ensure continued compliance and protection. Victorian law requires smoke alarms to be tested monthly by pressing the test button, cleaned annually to remove dust and insects and have batteries replaced at least every 12 months for battery-powered units. Hardwired photoelectric alarms like those we install across Cheltenham should be professionally tested and serviced every 12 months, with full replacement recommended every 10 years. Whitelock Electrical offers convenient annual smoke alarm servicing for Cheltenham residents that includes alarm testing, battery checks, sensitivity verification and compliance certification. This service is particularly valuable for Cheltenham landlords managing rental properties who need documented evidence of compliance.",
+        "The cost of professional smoke alarm installation in Cheltenham is remarkably affordable when weighed against the protection it provides your family. A full home installation of interconnected photoelectric alarms typically costs between $500 and $1,200 depending on the number of alarms required and the complexity of wiring in your Cheltenham property. Most three-bedroom homes require five to seven alarms for full compliance. Whitelock Electrical provides free assessments for Cheltenham homeowners, visiting your property to determine exactly how many alarms you need, where they should be placed and what wiring is required. We use premium quality alarms from trusted Australian manufacturers and back every installation with our lifetime workmanship guarantee. Contact us today to ensure your Cheltenham home meets all Victorian smoke alarm requirements."
+      ]
+    },
+    {
+      "title": "Home EV Charger Installation in Cheltenham: Costs, Benefits and What to Expect",
+      "date": "January 2026",
+      "excerpt": "A complete guide to installing a home EV charger in Cheltenham, including costs, switchboard requirements and why bayside homeowners are making the switch.",
+      "body": [
+        "Electric vehicle adoption is accelerating rapidly across Melbourne's bayside suburbs, and Cheltenham homeowners are leading the charge. With more EV models available than ever before and the Victorian government offering generous rebates for home charging infrastructure, there has never been a better time to install a dedicated EV charger at your Cheltenham property. Charging your electric vehicle at home overnight costs a fraction of public charging stations and eliminates the inconvenience of finding available chargers during peak times. At Whitelock Electrical, we have seen a significant increase in EV charger installation requests from Cheltenham residents and we are fully equipped to handle everything from initial switchboard assessment through to complete charger installation and commissioning.",
+        "The cost of a home EV charger installation in Cheltenham typically ranges from $1,200 to $3,500 depending on several factors. The charger unit itself costs between $600 and $1,800 for quality Australian-approved models from brands like Tesla, Wallbox, Zappi and OCPP-compatible units. Installation labour in Cheltenham usually costs between $400 and $900, which includes running a dedicated circuit from your switchboard to the charger location, mounting the unit and completing all electrical connections. If your Cheltenham home's switchboard needs upgrading to accommodate the additional load — which is common in older properties — this adds $600 to $1,500 to the total project cost. Whitelock Electrical provides comprehensive quotes that cover every aspect of your Cheltenham EV charger installation, with no hidden extras.",
+        "Your Cheltenham home's switchboard is the critical factor in any EV charger installation. Most home EV chargers require a dedicated 32-amp circuit, which means your existing switchboard needs sufficient capacity and ideally a dedicated RCD-protected circuit breaker for the charger. Many older Cheltenham homes, particularly those built before 2000, have switchboards that are already near capacity with existing circuits for lighting, power, air conditioning and appliances. In these cases, a switchboard upgrade is necessary before the EV charger can be safely installed. Whitelock Electrical always performs a thorough switchboard assessment as part of our Cheltenham EV charger installation service, ensuring your entire electrical system can safely handle the additional load without risk of overloading or nuisance tripping.",
+        "Choosing the right EV charger for your Cheltenham home involves considering your vehicle's charging capability, your daily driving habits and whether you want smart charging features. Single-phase chargers delivering up to 7.4kW are suitable for most Cheltenham homes and can fully charge most EVs overnight. Three-phase chargers offering up to 22kW charge significantly faster but require three-phase power supply, which not all Cheltenham residential properties have. Smart chargers with Wi-Fi connectivity allow you to schedule charging during off-peak electricity hours, monitor energy usage via smartphone apps and some models like the Zappi can integrate with home solar systems to charge your EV using free solar energy. Our Cheltenham team helps you evaluate these options and select the charger that best suits your lifestyle and budget.",
+        "Location and cable routing are important practical considerations for Cheltenham EV charger installations. Most Cheltenham homeowners mount their charger in the garage or carport adjacent to where they park, which keeps the cable run from the switchboard relatively short and minimises installation costs. If your Cheltenham property has the charger mounted on an external wall with the switchboard on the opposite side of the house, the longer cable run adds to both material and labour costs. We route cables neatly through roof spaces, along wall cavities or through conduit depending on your property's construction and aesthetics. For Cheltenham townhouses and units, body corporate approval may be required before installation, and our team can assist with documentation and compliance requirements to streamline the approval process.",
+        "A home EV charger installation adds tangible value to your Cheltenham property while supporting the transition to sustainable transport. As more Melbourne bayside residents switch to electric vehicles, homes with dedicated charging infrastructure become increasingly attractive to prospective buyers. The Victorian government rebate of up to $1,000 for eligible EV charger installations further reduces the upfront cost for Cheltenham homeowners. Whitelock Electrical manages the entire process for you — from initial consultation and switchboard assessment through to charger selection, installation, testing and commissioning. Every installation is completed by our licensed Cheltenham electricians and backed by our lifetime workmanship guarantee. Contact us today for a free assessment and take the first step toward convenient, cost-effective home EV charging."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Whitelock Electrical | Electrician in Cheltenham | Bayside Melbourne",
+      "description": "Whitelock Electrical is Cheltenham's trusted local electrician. Switchboard upgrades, split systems, EV chargers, lighting and smoke alarms. 5.0 Google rating. Free quotes."
+    },
+    "about": {
+      "title": "About Whitelock Electrical | Cheltenham's Trusted Electrical Team",
+      "description": "Learn about Whitelock Electrical, Cheltenham's licensed electricians with 10+ years experience, 390+ five-star reviews and a lifetime workmanship guarantee."
+    },
+    "services": {
+      "title": "Electrical Services in Cheltenham | Switchboards, Air Con, EV Chargers",
+      "description": "Comprehensive electrical services in Cheltenham and Melbourne's bayside. Switchboard upgrades, split system installation, EV chargers, lighting and smoke alarms."
+    },
+    "pricing": {
+      "title": "Electrical Pricing Cheltenham | Upfront Fixed Quotes | Whitelock",
+      "description": "Transparent, upfront pricing for all Cheltenham electrical services. No hidden fees or lock-in contracts. Get a free fixed quote from Whitelock Electrical today."
+    },
+    "contact": {
+      "title": "Contact Whitelock Electrical | Free Cheltenham Electrician Quotes",
+      "description": "Contact Whitelock Electrical in Cheltenham for a free electrical quote. Fast response, 24/7 availability across Melbourne's bayside suburbs. Call +61 3 8590 6515."
+    },
+    "blog": {
+      "title": "Cheltenham Electrical Blog | Local Trade Tips and Guides | Whitelock",
+      "description": "Expert electrical advice for Cheltenham and bayside Melbourne homeowners. Guides on switchboard costs, split systems, smoke alarms and EV charger installation."
+    }
+  }
+}
