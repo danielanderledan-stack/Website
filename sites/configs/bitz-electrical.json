@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Bitz Electrical",
+  "suburb": "Lower Plenty",
+  "phone": "+1300215193",
+  "email": "info@bitzelectrical.com.au",
+  "address": "14 Cheverton Rd, Lower Plenty VIC 3093",
+  "tagline": "Lower Plenty's Licensed Electricians",
+  "primaryColor": "#ff5e1a",
+  "primaryColorRgb": "255, 94, 26",
+  "primaryColorHover": "#e5531a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lower Plenty's Trusted Electricians",
+      "sub": "25 years of reliable service in Melbourne"
+    },
+    {
+      "title": "Lighting, Security & EV Charging",
+      "sub": "Expert solutions for homes and businesses"
+    },
+    {
+      "title": "Open 24 Hours for Emergencies",
+      "sub": "Call anytime for fast, professional help"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote from Bitz Electrical Today",
+  "aboutHeading": "25 Years Electrician in Lower Plenty",
+  "aboutSubheading": "Local, licensed & insured",
+  "aboutText": "Bitz Electrical has been serving Lower Plenty and Melbourne with over 25 years of experience as licensed electricians. We provide reliable electrical services for residential and commercial projects, ensuring safe and professional results. Our team is fully insured and dedicated to quality workmanship in Lower Plenty. Trust us for all your electrical needs across Melbourne.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From lighting installations to EV charger setups, Bitz Electrical handles a wide range of electrical work in Lower Plenty. We specialize in both residential and commercial projects, delivering safety and efficiency.",
+  "services": [
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional indoor and outdoor lighting installation to brighten your Lower Plenty property."
+    },
+    {
+      "title": "Security Systems",
+      "desc": "Expert setup of security systems to protect your home or business in Melbourne."
+    },
+    {
+      "title": "Power & Wiring",
+      "desc": "Comprehensive powerpoint installation, switchboard upgrades, and wiring services for safety."
+    },
+    {
+      "title": "Ceiling Fan Installation",
+      "desc": "Reliable ceiling fan installation and maintenance for comfort in Lower Plenty."
+    },
+    {
+      "title": "New Builds & Renovations",
+      "desc": "Electrical wiring for new construction and renovation projects across Melbourne."
+    },
+    {
+      "title": "Data & EV Charging",
+      "desc": "Installation of data communications and EV charger stations for modern needs."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Lower Plenty?",
+  "bannerSubheading": "We're here to help 24 hours a day.",
+  "testimonialsHeading": "What Lower Plenty Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Bitz Electrical",
+  "contactHeading": "Contact Bitz Electrical",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Bitz Electrical installed new lighting in our Lower Plenty home, and the service was prompt and professional. They left everything clean and tidy.",
+      "name": "John Smith",
+      "role": "Lower Plenty Homeowner"
+    },
+    {
+      "text": "We hired Bitz for a switchboard upgrade at our local café. Their expertise was evident, and the work was completed quickly with no issues.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Bitz Electrical for all electrical maintenance in Melbourne. They're reliable and always deliver quality results.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
