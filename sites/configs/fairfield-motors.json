@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Fairfield Motors",
+  "suburb": "Fairfield",
+  "phone": "03 9481 5678",
+  "email": "info@fairfieldmotors.com.au",
+  "address": "77-79 Station St, Fairfield VIC 3078",
+  "tagline": "Fairfield's Auto Electrical Specialists",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0052a3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fairfield's Go-To Auto Electricians",
+      "sub": "Serving the community for years"
+    },
+    {
+      "title": "Expert Diagnostics & Repairs",
+      "sub": "For all vehicle makes and models"
+    },
+    {
+      "title": "Conveniently Located in Fairfield",
+      "sub": "Near the train station and shops"
+    }
+  ],
+  "ctaHeading": "Need an Auto Electrician in Fairfield?",
+  "aboutHeading": "Fairfield Motors Auto Experts",
+  "aboutSubheading": "Specialised Vehicle Electrical Services",
+  "aboutText": "Based in Fairfield for many years, Fairfield Motors specialises in auto electrical work. Our on-site auto electrician handles everything from general fault finding to complex on-board diagnostic systems. We cover starter motors, alternators, batteries, and more, ensuring your vehicle runs smoothly. We proudly serve Fairfield and surrounding areas with reliable service.",
+  "servicesHeading": "Our Auto Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions for Your Vehicle",
+  "servicesText": "From routine diagnostics to major repairs, we handle all aspects of auto electrical work. Our services are designed for both new and old vehicles, with a focus on quality and reliability. We use advanced tools to ensure accurate and efficient solutions.",
+  "services": [
+    {
+      "title": "Vehicle Diagnostics",
+      "desc": "We use advanced tools to diagnose electrical issues in all vehicle types."
+    },
+    {
+      "title": "Starter Motor Repair",
+      "desc": "Expert repair and replacement of starter motors to get you going again."
+    },
+    {
+      "title": "Alternator Services",
+      "desc": "We test, repair, and replace alternators to maintain your vehicle's charging system."
+    },
+    {
+      "title": "Battery Replacement",
+      "desc": "Fast and efficient battery replacements to ensure reliable starts."
+    },
+    {
+      "title": "Electrical Fault Finding",
+      "desc": "Our specialists trace and fix all electrical faults in your vehicle."
+    },
+    {
+      "title": "On-Board System Diagnostics",
+      "desc": "Comprehensive coverage of on-board diagnostic systems for modern vehicles."
+    }
+  ],
+  "bannerHeading": "Fairfield Auto Electrical Services",
+  "bannerSubheading": "Your trusted local experts for all electrical needs",
+  "testimonialsHeading": "What Fairfield Locals Say",
+  "testimonialsSubheading": "Quality workmanship and honest service",
+  "blogHeading": "Auto Electrical Insights",
+  "blogSubheading": "Tips from Fairfield Motors",
+  "contactHeading": "Get in Touch with Fairfield Motors",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Fairfield Motors did an excellent job diagnosing and fixing my car's electrical problem. Their auto electrician was knowledgeable and efficient, and the service was prompt. Highly recommend to anyone in Fairfield.",
+      "name": "John Smith",
+      "role": "Fairfield Homeowner"
+    },
+    {
+      "text": "I took my business van to Fairfield Motors for starter motor replacement. They were professional, provided a fair quote, and the work was completed on time. Great local service.",
+      "name": "Sarah Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team at Fairfield Motors replaced my car's alternator and battery. They explained everything clearly and ensured my vehicle was running perfectly. A trustworthy auto electrician in the area.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
