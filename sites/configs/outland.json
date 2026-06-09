@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Outland",
+  "suburb": "Coolaroo",
+  "phone": "0419 327 189",
+  "email": "tom@outlandengineering.com.au",
+  "address": "42 Maffra St, Coolaroo VIC 3048",
+  "tagline": "Coolaroo's Welding Experts",
+  "primaryColor": "#FF6B00",
+  "primaryColorRgb": "255, 107, 0",
+  "primaryColorHover": "#E56000",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coolaroo's Trusted Welders",
+      "sub": "Expert metal fabrication & repairs for homes and businesses"
+    },
+    {
+      "title": "Structural Welding Specialists",
+      "sub": "Quality workmanship for residential & commercial projects in Coolaroo"
+    },
+    {
+      "title": "No Job Too Small or Large",
+      "sub": "Free quotes across Coolaroo & Melbourne's northern suburbs"
+    }
+  ],
+  "ctaHeading": "Coolaroo's welders are ready — let's discuss your project.",
+  "aboutHeading": "Welding Excellence in Coolaroo",
+  "aboutSubheading": "Licensed, reliable & local",
+  "aboutText": "Outland Engineering has been providing top-tier welding services in Coolaroo for over a decade. Our team of certified welders handles everything from intricate metalwork to heavy structural welding for both residential and commercial clients. We take pride in our fast response times, competitive pricing, and unwavering commitment to delivering flawless results every time.",
+  "servicesHeading": "What We Weld & Fabricate",
+  "servicesSubheading": "Metalwork done right",
+  "servicesText": "Our comprehensive welding services cover all aspects of metal fabrication and repair. Whether you need structural welding for construction, custom metal pieces for your home, or industrial welding solutions, Outland Engineering has the expertise and equipment to handle it.",
+  "services": [
+    {
+      "title": "Structural Welding",
+      "desc": "Expert welding for building frames, beams, and supports, ensuring structural integrity for homes and commercial properties in Coolaroo."
+    },
+    {
+      "title": "Metal Fabrication",
+      "desc": "Custom creation of metal components, from gates and railings to furniture, tailored to your specific design requirements."
+    },
+    {
+      "title": "Welding Repairs",
+      "desc": "Quick and efficient repair services for broken or damaged metal structures, restoring functionality and safety."
+    },
+    {
+      "title": "Custom Metalwork",
+      "desc": "Unique metal pieces crafted to your vision, including art installations, fixtures, and bespoke items."
+    },
+    {
+      "title": "Industrial Welding",
+      "desc": "Specialised welding for heavy machinery, equipment, and industrial structures, meeting stringent safety standards."
+    },
+    {
+      "title": "Mobile Welding",
+      "desc": "Convenient on-site welding services across Coolaroo and surrounds, ideal for urgent jobs or hard-to-reach locations."
+    }
+  ],
+  "bannerHeading": "Need a Welder in Coolaroo?",
+  "bannerSubheading": "Professional welding services at your doorstep.",
+  "testimonialsHeading": "What Coolaroo Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Welding Tips & News",
+  "blogSubheading": "Insights from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Outland Engineering did an excellent job on our structural welding for a new garage in Coolaroo. The work was precise, on time, and they left the site clean. Highly recommend their services to anyone in the area.",
+      "name": "Dave Thompson",
+      "role": "Coolaroo Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed custom metal fabrication for my shop front. Outland delivered high-quality work quickly and at a fair price. Their expertise in welding is unmatched in Coolaroo.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We hired Outland for industrial welding repairs at our warehouse. Their team was professional and efficient, minimising downtime. A reliable choice for property managers in Melbourne's north.",
+      "name": "James Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
