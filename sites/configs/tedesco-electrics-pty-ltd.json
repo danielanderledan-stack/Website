@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Tedesco Electrics Pty Ltd",
+  "suburb": "Airport West",
+  "phone": "0412 345 678",
+  "email": "eben@eyebytes.com",
+  "address": "Unit 3/34 Marshall Rd, Airport West VIC 3042",
+  "tagline": "Airport West's Advanced Electrical & Security Experts",
+  "primaryColor": "#de101d",
+  "primaryColorRgb": "222, 16, 29",
+  "primaryColorHover": "#b00d18",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Tedesco Electrics in Airport West",
+      "sub": "Advanced security & electrical solutions"
+    },
+    {
+      "title": "CCTV, Alarms & C-Bus Specialists",
+      "sub": "Comprehensive residential & commercial services"
+    },
+    {
+      "title": "Police-Checked Professionals",
+      "sub": "Safety, efficiency & advanced technology"
+    }
+  ],
+  "ctaHeading": "Tedesco Electrics is ready to secure your Airport West property.",
+  "aboutHeading": "Advanced Security Solutions in Airport West",
+  "aboutSubheading": "Comprehensive electrical & security services",
+  "aboutText": "At Tedesco Electrics Pty Ltd, we are a team of police-checked professionals serving Airport West and the greater Melbourne area. Our expertise spans complete electrical services, advanced C-Bus programming, and cutting-edge security installations like CCTV and vape detection. We are dedicated to delivering safe, efficient, and tailored solutions for all your electrical and security needs.",
+  "servicesHeading": "Our Electrical & Security Services",
+  "servicesSubheading": "Full-service solutions for your property",
+  "servicesText": "From routine electrical work to sophisticated integrated security systems, Tedesco Electrics provides a complete suite of services. We specialise in both residential and commercial projects across Airport West.",
+  "services": [
+    {
+      "title": "Complete Electrical Services",
+      "desc": "General electrical maintenance, repairs, and new installations for homes and businesses in Airport West."
+    },
+    {
+      "title": "C-Bus Installation & Programming",
+      "desc": "Expert setup, service, and custom programming for advanced C-Bus automation and control systems."
+    },
+    {
+      "title": "CCTV & Surveillance Systems",
+      "desc": "Professional installation and configuration of high-definition CCTV cameras for security and monitoring."
+    },
+    {
+      "title": "Alarm & Intercom Systems",
+      "desc": "Design and installation of reliable alarm systems and intercoms for enhanced property access and security."
+    },
+    {
+      "title": "Data Communications",
+      "desc": "Structured cabling, network setup, and data point installations for reliable home and office connectivity."
+    },
+    {
+      "title": "Specialist Vape Detection",
+      "desc": "Advanced installation of vape and air quality detection systems for schools, businesses, and public venues."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Airport West?",
+  "bannerSubheading": "We provide prompt, professional service for all electrical and security jobs.",
+  "testimonialsHeading": "What Our Airport West Clients Say",
+  "testimonialsSubheading": "Trusted by locals for advanced security solutions",
+  "blogHeading": "Electrical & Security News",
+  "blogSubheading": "Tips and updates from Tedesco Electrics",
+  "contactHeading": "Contact Us for a Security Assessment",
+  "contactSubheading": "Let's discuss your electrical and security requirements",
+  "reviews": [
+    {
+      "text": "Tedesco Electrics installed a complete CCTV and alarm system at our Airport West home. The team was professional, police-checked, and the system works perfectly. Highly recommend their security expertise.",
+      "name": "Michael P.",
+      "role": "Airport West Homeowner"
+    },
+    {
+      "text": "We had Tedesco Electrics set up our new office's data communications and C-Bus lighting control. Their knowledge of advanced systems is impressive, and the work was completed efficiently.",
+      "name": "Sarah K.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our rental properties, we rely on Tedesco Electrics for all electrical safety checks and alarm maintenance. They are reliable, professional, and always understand the urgency.",
+      "name": "David L.",
+      "role": "Property Manager"
+    }
+  ]
+}
