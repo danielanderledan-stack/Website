@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Forget Me Not Gardening",
+  "suburb": "Craigieburn",
+  "phone": "0383135242",
+  "email": "info@forgetmenotgardening.com.au",
+  "address": "258 Marathon Boulevard, Craigieburn VIC 3064",
+  "tagline": "Craigieburn's Trusted Garden Care",
+  "primaryColor": "#000000",
+  "primaryColorRgb": "0, 0, 0",
+  "primaryColorHover": "#1a1a1a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Craigieburn's Garden Care Experts",
+      "sub": "Personalised services for your outdoor space"
+    },
+    {
+      "title": "Highlands Gardening Specialists",
+      "sub": "From lawn care to full garden maintenance"
+    },
+    {
+      "title": "Love Your Garden in Craigieburn",
+      "sub": "We do the work, you enjoy the results"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Craigieburn Garden?",
+  "aboutHeading": "Gardening Passion in Craigieburn",
+  "aboutSubheading": "Local care for your green spaces",
+  "aboutText": "Forget Me Not Gardening has been serving Craigieburn and Highlands with personalised garden care services for years. Our team loves gardens, so you can too. We specialise in making outdoor spaces beautiful and manageable for homeowners across Melbourne's north, ensuring every garden thrives with attention to detail.",
+  "servicesHeading": "Our Garden Services",
+  "servicesSubheading": "Tailored to your needs",
+  "servicesText": "We offer a range of gardening services designed to keep your garden in top shape. From regular maintenance to seasonal care, our team in Craigieburn ensures your outdoor space thrives year-round with professional and reliable work.",
+  "services": [
+    {
+      "title": "Lawn Mowing & Care",
+      "desc": "Regular mowing and edging to keep your lawn healthy, tidy, and looking its best throughout the year."
+    },
+    {
+      "title": "Garden Bed Maintenance",
+      "desc": "Weeding, mulching, and planting to maintain vibrant garden beds that add colour and life to your property."
+    },
+    {
+      "title": "Pruning & Hedging",
+      "desc": "Expert pruning of shrubs and hedges to promote healthy growth, shape, and overall garden aesthetics."
+    },
+    {
+      "title": "Fertilising & Soil Care",
+      "desc": "Soil testing and fertilising to ensure optimal plant health and robust growth in your Craigieburn garden."
+    },
+    {
+      "title": "Seasonal Clean-Ups",
+      "desc": "Autumn and spring clean-ups to prepare your garden for changing seasons, removing debris and refreshing spaces."
+    },
+    {
+      "title": "Personalised Garden Plans",
+      "desc": "Custom garden care plans based on your specific needs, preferences, and the unique conditions of your Highlands property."
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Craigieburn?",
+  "bannerSubheading": "Get personalised garden care from local experts today.",
+  "testimonialsHeading": "What Craigieburn Locals Say",
+  "testimonialsSubheading": "Real reviews from happy customers",
+  "blogHeading": "Gardening Tips & Updates",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Forget Me Not Gardening transformed my backyard in Craigieburn with their lawn mowing and garden bed services. The team is reliable, passionate, and always delivers quality work that makes my garden shine.",
+      "name": "Sarah Mitchell",
+      "role": "Craigieburn Homeowner"
+    },
+    {
+      "text": "I've been using their personalised garden care for my Highlands property for over a year. The seasonal clean-ups and fertilising have made a huge difference, keeping everything lush and healthy.",
+      "name": "David Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need consistent gardening services across multiple sites in Craigieburn. They deliver excellent work every time, from pruning to lawn care, with attention to detail.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
