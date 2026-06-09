@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electricians Geelong",
+  "suburb": "Geelong",
+  "phone": "0431790018",
+  "email": "info@electriciansgeelong.com.au",
+  "address": "Geelong, VIC 3220",
+  "tagline": "Geelong's Trusted Electricians",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b875",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Geelong's Go-To Electricians",
+      "sub": "Small business, big service for local needs"
+    },
+    {
+      "title": "Security Lighting & CCTV Experts",
+      "sub": "Protecting Geelong businesses and homes"
+    },
+    {
+      "title": "Data & Network Cabling Pros",
+      "sub": "Optimising connectivity across Geelong"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Geelong? Let's Power Up Your Project.",
+  "aboutHeading": "Geelong Electricians You Can Trust",
+  "aboutSubheading": "Local expertise, reliable service",
+  "aboutText": "As a small business based in Geelong, Electricians Geelong understands the unique needs of local enterprises and homes. Our commercial electricians specialise in improving efficiencies and protecting your business with top-tier security lighting installation, including cameras and monitors. We also offer comprehensive data cable installation and telephone and network cabling for optimum connectivity. With years of experience serving the Geelong area, we are committed to delivering safe, efficient, and tailored electrical solutions that keep your property running smoothly.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for Geelong",
+  "servicesText": "From security lighting and CCTV to data cabling and commercial electrical maintenance, Electricians Geelong provides a full range of services. We ensure your home or business in Geelong has safe, efficient, and reliable electrical systems tailored to local requirements.",
+  "services": [
+    {
+      "title": "Security Lighting Installation",
+      "desc": "Professional installation of security lighting systems for Geelong properties.",
+      "longDesc": "Enhance safety with expert security lighting installation in Geelong, tailored to deter intruders and illuminate key areas. We use high-quality fixtures and comply with Australian standards for optimal performance.",
+      "points": [
+        "Deters criminal activity",
+        "Increases property visibility",
+        "Energy-efficient solutions"
+      ]
+    },
+    {
+      "title": "CCTV Cameras & Monitors",
+      "desc": "Installation and setup of CCTV cameras and monitors for surveillance in Geelong.",
+      "longDesc": "Protect your Geelong business or home with advanced CCTV camera systems and monitors. Our installations provide reliable surveillance, helping you monitor premises remotely and ensure security.",
+      "points": [
+        "24/7 monitoring capability",
+        "High-definition footage",
+        "Easy remote access"
+      ]
+    },
+    {
+      "title": "Data Cable Installation",
+      "desc": "Expert data cable installation for reliable network connectivity in Geelong.",
+      "longDesc": "Optimise your Geelong setup with professional data cable installation, supporting high-speed internet and seamless data transfer. We handle structured cabling for homes and offices.",
+      "points": [
+        "Supports fast internet",
+        "Structured cabling design",
+        "Future-proof installation"
+      ]
+    },
+    {
+      "title": "Telephone & Network Cabling",
+      "desc": "Comprehensive telephone and network cabling services for Geelong connectivity.",
+      "longDesc": "Ensure uninterrupted communication in Geelong with our telephone and network cabling services. We install and maintain cabling systems that meet business and residential needs efficiently.",
+      "points": [
+        "Reliable phone lines",
+        "Efficient network setup",
+        "Minimal downtime"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Specialised electrical services for Geelong businesses to improve efficiency.",
+      "longDesc": "Boost your Geelong business operations with our commercial electrical services, including system upgrades, maintenance, and energy-saving solutions designed for local enterprises.",
+      "points": [
+        "Increases energy efficiency",
+        "Reduces operational costs",
+        "Compliant with regulations"
+      ]
+    },
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Trusted residential electrical services for Geelong homes and families.",
+      "longDesc": "From installations to repairs, our residential electrical services cater to Geelong homeowners, ensuring safe, modern, and energy-efficient electrical systems for everyday use.",
+      "points": [
+        "Safe home inspections",
+        "Modern upgrades available",
+        "Family-focused solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Electricians Ready to Serve Geelong",
+  "bannerSubheading": "From security systems to data cabling, we've got you covered.",
+  "testimonialsHeading": "What Geelong Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Geelong Electrical Tips & Guides",
+  "blogSubheading": "Expert advice from local electricians",
+  "contactHeading": "Contact Electricians Geelong",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Electricians Geelong installed our security lighting in Belmont, and the service was fantastic. They were professional, on time, and the system works perfectly for our home's safety.",
+      "name": "John Smith",
+      "role": "Geelong Homeowner"
+    },
+    {
+      "text": "We needed data cabling for our office in Geelong, and Electricians Geelong handled it efficiently. Their expertise ensured minimal disruption and excellent connectivity for our business operations.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Geelong, I rely on Electricians Geelong for all electrical maintenance. Their quick response and transparent pricing make them my go-to for tenant properties.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Geelong",
+    "Belmont",
+    "Waurn Ponds",
+    "Highton",
+    "Newtown",
+    "Hamlyn Heights"
+  ],
+  "about": {
+    "intro": "Electricians Geelong has been serving the Geelong community with professional electrical services for years, building trust through reliable and tailored solutions.",
+    "story": [
+      "Founded in Geelong, our small business started with a commitment to providing quality electrical work for local homes and businesses. We've grown by focusing on customer needs, offering services like security lighting and data cabling that address real challenges in the area.",
+      "Our team of licensed electricians brings hands-on experience to every project in Geelong, from simple repairs to complex installations. We pride ourselves on using durable materials and adhering to Australian standards, ensuring long-lasting results for our clients."
+    ],
+    "mission": "To deliver safe, efficient, and innovative electrical solutions that empower the Geelong community.",
+    "whyUs": [
+      {
+        "title": "Licensed & Insured",
+        "text": "Fully accredited electricians for your peace of mind in Geelong."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Geelong's electrical needs and regulations."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees; upfront quotes for all Geelong projects."
+      },
+      {
+        "title": "Fast Response",
+        "text": "Quick service to minimise downtime for your home or business."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "24/7 emergency service"
+    ]
+  },
+  "pricing": {
+    "intro": "At Electricians Geelong, we offer competitive pricing with no lock-in contracts. Get a free quote for your Geelong property today.",
+    "packages": [
+      {
+        "name": "Electrical Assessment",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site evaluation",
+          "Detailed report",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Installation",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional installation",
+          "Quality materials",
+          "Workmanship guarantee",
+          "Follow-up support"
+        ]
+      },
+      {
+        "name": "Commercial Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Tailored solutions",
+          "Project management",
+          "Compliance assured"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises for Geelong customers."
+  },
+  "contact": {
+    "intro": "Ready to enhance your property's electrical systems? Contact Electricians Geelong for a free, no-obligation quote. We serve all areas around Geelong, including Belmont, Waurn Ponds, and beyond."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Security Lighting Installation Cost in Geelong?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting security lighting costs in Geelong, including system types and installation complexities for homes and businesses.",
+      "body": [
+        "Security lighting is a critical investment for Geelong properties, helping deter crime and enhance safety. In Geelong, costs typically range from $500 to $2,500, depending on factors like the number of lights, type of fixtures, and installation complexity. For example, a basic setup with two floodlights might cost around $600, while a comprehensive system with motion sensors and smart controls could exceed $2,000. Local electricians consider Geelong's coastal climate, where humidity and salt air can affect fixture durability, so they recommend weather-resistant models to ensure longevity.",
+        "When planning security lighting in Geelong, it's essential to assess property layout and key vulnerability points. Areas like driveways, entryways, and blind spots should be prioritised. Geelong's mix of residential and commercial zones means requirements vary; a home in Belmont might need simpler lighting compared to a warehouse in Waurn Ponds. Installation labour costs in Geelong average $80 to $120 per hour, with permits sometimes required for extensive work. Always obtain multiple quotes from licensed electricians to compare pricing and ensure compliance with Australian electrical standards.",
+        "The choice of lighting technology impacts costs in Geelong. LED lights are popular for their energy efficiency and lower long-term expenses, though upfront costs are higher. In Geelong's variable weather, including strong winds and occasional storms, robust fixtures are necessary to withstand elements. Geelong electricians often recommend solar-powered options for sustainability, but these may have higher initial prices around $1,200 for a full system. Additionally, integrating CCTV cameras with lighting can increase costs by 20-30%, but it provides enhanced security coverage for businesses in high-traffic areas like Geelong Central.",
+        "Geelong's building regulations and heritage considerations can influence installation costs. In historic suburbs like Newtown, strict guidelines may require special fixtures or隐蔽 installations, adding to expenses. For commercial properties in Geelong, compliance with WorkSafe Victoria standards is mandatory, potentially requiring professional assessments that cost $200 to $400. Maintenance costs should also be factored in; regular inspections in Geelong's harsh climate might add $100 annually to keep systems optimal. Overall, investing in quality security lighting reduces risks and can lower insurance premiums for Geelong residents.",
+        "To get the best value in Geelong, consider bundled services with your electrician. Packages that include lighting, CCTV, and data cabling might offer discounts, saving 10-15% on total costs. Local businesses in Geelong often benefit from customised plans that address specific needs, like parking lot illumination or after-hours security. Seasonal promotions, common in Geelong during quieter months, can further reduce expenses. Always verify that your electrician is licensed and insured to avoid subpar work that could lead to higher repair costs down the line.",
+        "In summary, security lighting costs in Geelong vary based on property size, technology, and local factors. By working with experienced Geelong electricians, you can achieve a tailored solution that balances cost and effectiveness. Prioritise quotes that include warranties and ongoing support to ensure your investment remains valuable over time. Whether for a home in Highton or a business in the CBD, Geelong offers diverse options to meet security needs without breaking the bank."
+      ]
+    },
+    {
+      "title": "Best Time to Install CCTV Cameras in Geelong: Seasonal Tips",
+      "date": "February 2026",
+      "excerpt": "Learn when to install CCTV cameras in Geelong for optimal performance, considering local weather patterns and business cycles.",
+      "body": [
+        "Geelong's coastal climate presents unique challenges for CCTV camera installation, making timing crucial. The best periods are typically during the drier months, from October to April, when rain and humidity are lower. Installing in Geelong during summer ensures easier outdoor work and reduces weather-related delays. For businesses, this aligns with quieter periods, allowing installations without disrupting operations. In residential areas like Belmont, spring installations can prepare homes for increased security needs during holiday seasons.",
+        "Geelong experiences strong winds and occasional storms, particularly in winter, which can affect camera stability and wiring. Therefore, avoid installations from May to August unless necessary. If you must install during wetter months, use weatherproof enclosures and consult Geelong electricians who understand local conditions. For example, in Waurn Ponds, higher humidity may require corrosion-resistant materials to prevent damage. Planning installations around Geelong's events, like the Royal Geelong Show, can also help avoid peak traffic times for easier access.",
+        "Seasonal pricing in Geelong can influence installation costs. Demand often peaks in spring and summer, leading to higher labour rates, while winter might offer discounts of 10-20% from electricians seeking work. However, compromising on ideal conditions for cost savings could lead to issues like condensation or poor performance. Geelong businesses should consider their operating cycles; a retail store might install cameras before the Christmas rush, while a farm in Hamlyn Heights might opt for post-harvest periods for minimal interference.",
+        "Geelong's geography, with its bayside locations, means salt air can corrode equipment faster. Installing cameras during stable weather allows for proper sealing and maintenance checks. Local electricians recommend UV-resistant mounts for areas exposed to direct sunlight, common in Geelong's open suburbs. For multi-camera systems, like those needed for commercial properties in the CBD, allow 2-4 weeks for planning and installation, factoring in Geelong's permit requirements if altering public spaces.",
+        "Post-installation considerations in Geelong include regular maintenance to combat environmental wear. Scheduling check-ups every six months ensures cameras remain effective, especially after extreme weather events. Geelong's wildlife, such as birds, can also interfere with cameras, so strategic placement is key. For residential users in Newtown, integrating cameras with existing alarm systems during installation can streamline costs and enhance functionality.",
+        "Ultimately, the best time to install CCTV cameras in Geelong balances weather, cost, and convenience. Consulting with local experts early helps align installation with your specific needs, whether for a home in Highton or a business in Geelong West. By choosing optimal timing, you maximise the lifespan and effectiveness of your security system, ensuring peace of mind year-round."
+      ]
+    },
+    {
+      "title": "Data Cable Installation Guide for Geelong Offices",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to data cable installation in Geelong offices, covering types, costs, and local considerations.",
+      "body": [
+        "Data cable installation is essential for modern offices in Geelong, supporting high-speed internet and efficient communication. In Geelong, the process begins with assessing your office layout in suburbs like Belmont or Waurn Ponds to determine cable runs and connectivity points. Common cable types include Cat6 and fibre optic, with Cat6 suitable for most Geelong businesses due to its balance of cost and performance. Installation costs in Geelong range from $100 to $300 per drop, depending on complexity and distance.",
+        "Geelong offices face specific challenges, such as older buildings with limited wiring pathways. In heritage areas like Newtown, installations may require careful planning to preserve aesthetics. Local electricians use conduit and壁挂 systems to minimise disruption. For larger commercial spaces in Geelong CBD, structured cabling with patch panels ensures scalability, allowing future expansions without major overhauls. Compliance with Australian Standards AS/NZS 3000 is mandatory, and Geelong electricians ensure all work meets these requirements.",
+        "When planning data cabling in Geelong, consider the coastal environment. Salt air and humidity can affect cable longevity, so using shielded cables and proper sealing is crucial. Geelong businesses in industrial zones like North Geelong might need heavy-duty cabling to withstand harsh conditions. Costs can increase by 15-25% for outdoor or specialised installations. It's also wise to integrate data cabling with other electrical work, such as lighting upgrades, to save on labour costs in Geelong.",
+        "The installation timeline in Geelong typically takes 1-3 days for a standard office, but larger projects may require weeks. Scheduling during off-hours or weekends reduces downtime for Geelong businesses. Local electricians often provide post-installation support, including testing and certification, which is vital for ensuring network reliability. In Geelong, where businesses rely on tourism and local trade, minimal disruption is key to maintaining operations.",
+        "Maintenance of data cabling in Geelong involves regular inspections to check for wear or damage from pests or environmental factors. Geelong's weather extremes can lead to cable degradation, so annual check-ups are recommended. For offices in high-traffic areas like Geelong Waterfront, using durable materials like plenum-rated cables ensures safety and performance. Upgrading to fibre optic in Geelong can future-proof your setup, though initial costs are higher, around $200 per drop.",
+        "In summary, data cable installation in Geelong requires careful planning to address local conditions and business needs. By partnering with experienced Geelong electricians, you can achieve a robust network foundation that supports growth. Always obtain detailed quotes that include warranties and ongoing maintenance to protect your investment."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Electrician in Geelong for Your Project",
+      "date": "December 2025",
+      "excerpt": "Tips for selecting a reliable electrician in Geelong, including licensing, local experience, and service quality.",
+      "body": [
+        "Choosing the right electrician in Geelong is crucial for ensuring safety and quality in your electrical projects. Start by verifying licensing and insurance—Geelong electricians should hold current Victorian licenses and liability coverage. This protects you from substandard work, especially in areas like Belmont or Waurn Ponds where property values matter. Ask for credentials upfront, and check online reviews from Geelong customers to gauge reliability.",
+        "Local experience in Geelong is invaluable. Electricians familiar with the area understand common issues, such as corrosion from bayside salt air in Ocean Grove or wiring challenges in older homes in Newtown. A Geelong-based electrician can navigate local regulations and permits efficiently, reducing project delays. Look for businesses with a proven track record, like Electricians Geelong, which has served the community for years with services including security lighting and data cabling.",
+        "Service quality in Geelong extends beyond technical skills. Good electricians communicate clearly, provide detailed quotes, and adhere to timelines. For projects in Geelong's commercial hubs, like the CBD, responsiveness is key to minimising business disruptions. Ensure they offer warranties on workmanship, typically 12-24 months, which is standard in Geelong. Comparing multiple quotes helps you find competitive pricing without compromising on quality.",
+        "Consider the specific needs of your Geelong project. For residential work in Highton, an electrician skilled in home automation might be ideal. For commercial jobs in North Geelong, expertise in industrial electrical systems is necessary. Geelong electricians often specialise in areas like renewable energy installations, aligning with local sustainability trends. Always ask for references from similar projects in Geelong to assess their capability.",
+        "Environmental factors in Geelong, such as weather extremes, should influence your choice. Electricians who use durable, weather-resistant materials ensure longevity. In Geelong's growing suburbs like Armstrong Creek, new constructions require electricians adept at modern building standards. Check if they offer comprehensive services, from initial assessment to ongoing maintenance, which can save costs long-term for Geelong properties.",
+        "Finally, trust your instincts. A good electrician in Geelong will be transparent about costs, explain technical details, and prioritise your safety. By selecting a professional who understands Geelong's unique landscape, you invest in reliable electrical systems that enhance your property's value and functionality."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Electricians Geelong | Trusted Electricians in Geelong",
+      "description": "Electricians Geelong provides expert electrical services including security lighting, CCTV, and data cabling. Serving Geelong and surrounding areas. Call now!"
+    },
+    "about": {
+      "title": "About Electricians Geelong | Your Local Electrical Experts",
+      "description": "Learn about Electricians Geelong, a trusted small business dedicated to serving the Geelong community with reliable electrical solutions for homes and businesses."
+    },
+    "services": {
+      "title": "Electrical Services Geelong | Security Lighting, CCTV & More",
+      "description": "Comprehensive electrical services in Geelong: security lighting, CCTV cameras, data cable installation, and commercial electrical work. Expert local solutions."
+    },
+    "pricing": {
+      "title": "Electrical Pricing Geelong | Transparent Quotes",
+      "description": "Affordable electrical services in Geelong with upfront pricing. Get a free quote for your home or business today. No lock-in contracts."
+    },
+    "contact": {
+      "title": "Contact Electricians Geelong | Free Quotes",
+      "description": "Get in touch with Electricians Geelong for a free quote on electrical services. Serving Geelong and surrounds including Belmont and Waurn Ponds."
+    },
+    "blog": {
+      "title": "Geelong Electrical Blog | Tips & Advice",
+      "description": "Expert electrical advice for Geelong residents and businesses. Learn about costs, maintenance, and seasonal tips from local electricians."
+    }
+  }
+}
