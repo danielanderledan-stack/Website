@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "SJ Electrical Contracting",
+  "suburb": "Keilor Park",
+  "phone": "0403 351 578",
+  "email": "info@sjelectricalcontracting.com.au",
+  "address": "22B Terror St, Keilor Park VIC 3042",
+  "tagline": "Keilor Park's Trusted Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "SJ Electrical Contracting in Keilor Park",
+      "sub": "Serving Melbourne's west with expertise"
+    },
+    {
+      "title": "Reliable Electrical Solutions for Your Home",
+      "sub": "From installations to safety checks in Keilor Park"
+    },
+    {
+      "title": "Professional & Affordable Service",
+      "sub": "Get a free quote today for Keilor Park residents"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Keilor Park? Call Now!",
+  "aboutHeading": "SJ Electrical Contracting in Keilor Park",
+  "aboutSubheading": "Professional & Licensed Electrical Services",
+  "aboutText": "At SJ Electrical Contracting, we have been proudly serving Keilor Park and the greater Melbourne area for years. Our experienced team specializes in residential, commercial, and industrial electrical work, ensuring safety and efficiency in every project. From rewiring homes to installing EV chargers, we are committed to excellence and customer satisfaction, as highlighted by our glowing reviews.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert Solutions for Every Need",
+  "servicesText": "We provide comprehensive electrical services to Keilor Park and surrounding suburbs. Our skilled electricians handle installations, repairs, and safety inspections with professionalism and care. Trust us for reliable workmanship on all your electrical projects.",
+  "services": [
+    {
+      "title": "Residential Electrical Work",
+      "desc": "Complete electrical solutions for Keilor Park homes, including rewiring, lighting, and switchboard upgrades."
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Professional wiring, maintenance, and fit-outs for businesses across Melbourne's western suburbs."
+    },
+    {
+      "title": "Industrial Electrical Solutions",
+      "desc": "Expert power distribution, machinery connections, and installations for industrial facilities."
+    },
+    {
+      "title": "Electrical Repairs & Fault Finding",
+      "desc": "Quick diagnosis and repair of faults to ensure safety and minimal disruption in Keilor Park."
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Thorough safety checks and compliance reports for residential and commercial properties."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Specialized installation of electric vehicle chargers for homes and businesses in Keilor Park."
+    }
+  ],
+  "bannerHeading": "Keilor Park Electricians at Your Service",
+  "bannerSubheading": "Fast, reliable, and affordable electrical solutions for your needs.",
+  "testimonialsHeading": "What Keilor Park Locals Say",
+  "testimonialsSubheading": "Trusted Feedback from Our Community",
+  "blogHeading": "Electrical Insights & Tips",
+  "blogSubheading": "Stay Informed with SJ Electrical",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond promptly to all inquiries.",
+  "reviews": [
+    {
+      "text": "SJ Electrical Contracting installed a new switchboard at my Keilor Park home. Their team was punctual, tidy, and the work was excellent. Highly recommend for any electrical needs in the area!",
+      "name": "Brendon Grech",
+      "role": "Keilor Park Homeowner"
+    },
+    {
+      "text": "As a local business owner, I've used SJ Electrical for multiple projects. They handle commercial wiring and repairs with expertise and professionalism. Always on time and within budget for our Melbourne operations.",
+      "name": "Anthony Contatore",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team at SJ Electrical did a fantastic job with the EV charger installation at our property. Their knowledge and customer service are top-notch. Will definitely use them again for future electrical work.",
+      "name": "Andrea Ferridge",
+      "role": "Property Manager"
+    }
+  ]
+}
