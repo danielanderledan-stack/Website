@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Home Fix Group Handyman",
+  "suburb": "Niddrie",
+  "phone": "03 9379 2744",
+  "email": "info@homefixgroup.com.au",
+  "address": "39 Coghlan St, Niddrie VIC 3042",
+  "tagline": "Niddrie's Trusted Handyman Service",
+  "primaryColor": "#712cf9",
+  "primaryColorRgb": "113, 44, 249",
+  "primaryColorHover": "#5d20cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Niddrie's Go-To Handyman",
+      "sub": "Many years of experience across Melbourne's west"
+    },
+    {
+      "title": "Repairs, Maintenance & More",
+      "sub": "Tidy workmanship you can count on"
+    },
+    {
+      "title": "No Job Too Small in Niddrie",
+      "sub": "Call today for a free quote"
+    }
+  ],
+  "ctaHeading": "Need a handyman in Niddrie? Let's get it done.",
+  "aboutHeading": "Niddrie's Reliable Handyman Team",
+  "aboutSubheading": "Skilled, friendly and tidy every time",
+  "aboutText": "Home Fix Group Handyman has been serving Niddrie and Melbourne's western suburbs for many years. Our friendly, skilled workers are experienced professionals who take pride in tidy, quality workmanship. We are known for being knowledgeable, following through on requests, and making sure every job is completed to the highest standard. Contact us today for reliable handyman services.",
+  "servicesHeading": "Our Handyman Services",
+  "servicesSubheading": "Skilled help for every job around the home",
+  "servicesText": "From small repairs to bigger maintenance tasks, Home Fix Group Handyman provides reliable, tidy service across Niddrie and surrounding suburbs. We handle a wide range of home improvement and repair work with many years of experience.",
+  "services": [
+    {
+      "title": "General Home Repairs",
+      "desc": "From minor fixes to more complex repairs, we handle it all around your Niddrie home."
+    },
+    {
+      "title": "Painting & Finishing",
+      "desc": "Interior and exterior painting to freshen up your home with clean, professional results."
+    },
+    {
+      "title": "Furniture & Fixture Assembly",
+      "desc": "Expert assembly of flat-pack furniture, shelving, curtains and household fixtures."
+    },
+    {
+      "title": "Door & Window Repairs",
+      "desc": "Fixing sticky doors, broken locks, windows and frames to keep your home secure."
+    },
+    {
+      "title": "Tiling & Grouting",
+      "desc": "Small tiling repairs and re-grouting to keep kitchens and bathrooms looking great."
+    },
+    {
+      "title": "Outdoor & Garden Maintenance",
+      "desc": "Fence repairs, garden tidy-ups and general outdoor upkeep around your property."
+    }
+  ],
+  "bannerHeading": "Handyman Services in Niddrie",
+  "bannerSubheading": "Experienced, friendly tradespeople you can trust in your home.",
+  "testimonialsHeading": "What Niddrie Locals Say",
+  "testimonialsSubheading": "Quality work, fair prices, every time",
+  "blogHeading": "Handyman Tips & Advice",
+  "blogSubheading": "Helpful hints from the Home Fix Group team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call or email and we will get back to you fast",
+  "reviews": [
+    {
+      "text": "I had Home Fix Group Handyman repair some doors and paint my hallway in Niddrie. The worker was friendly, tidy and really knew his stuff. They followed through on everything they promised. Highly recommend.",
+      "name": "Sarah Mitchell",
+      "role": "Niddrie Homeowner"
+    },
+    {
+      "text": "We needed some maintenance work done at our Kamballa office. The team was professional, safe to have around and completed everything to a high standard. Very happy with their service.",
+      "name": "David Thornton",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Home Fix Group has handled multiple repair jobs across our properties in Niddrie and surrounding areas. They are reliable, experienced and leave the place tidy. They always follow through.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
