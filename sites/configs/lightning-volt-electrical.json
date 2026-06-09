@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Lightning Volt Electrical",
+  "suburb": "Gladstone Park",
+  "phone": "0405 959 692",
+  "email": "info@lightningvolt.com.au",
+  "address": "Gladstone Park VIC 3043",
+  "tagline": "20 Years Electrical in Gladstone Park",
+  "primaryColor": "#ff7302",
+  "primaryColorRgb": "255, 115, 2",
+  "primaryColorHover": "#e66a02",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Gladstone Park's Go-To Electricians",
+      "sub": "20+ years serving domestic & commercial clients"
+    },
+    {
+      "title": "24/7 Emergency Callouts & Expert Solutions",
+      "sub": "Upfront pricing, no surprises"
+    },
+    {
+      "title": "Specialist Skills for All Electrical Needs",
+      "sub": "From safety checks to full installations"
+    }
+  ],
+  "ctaHeading": "Gladstone Park Electricians Ready to Help",
+  "aboutHeading": "20 Years Electrical in Gladstone Park",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 20 years of experience, Lightning Volt Electrical has been providing top-quality electrical services to Gladstone Park and surrounding areas. Our team of licensed electricians specialises in both domestic and commercial projects, ensuring every job is done right the first time. We pride ourselves on upfront pricing, senior discounts, and a satisfaction guarantee that puts our customers first.",
+  "servicesHeading": "Comprehensive Electrical Services",
+  "servicesSubheading": "Domestic & commercial specialists",
+  "servicesText": "From 24-hour emergency callouts to routine maintenance, Lightning Volt Electrical offers a full range of electrical solutions for homes and businesses in Gladstone Park. We focus on quality workmanship, reliable service, and affordable rates to meet all your electrical needs.",
+  "services": [
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "desc": "Immediate response for urgent electrical issues, available around the clock to ensure safety and restore power quickly."
+    },
+    {
+      "title": "Domestic Electrical Installation",
+      "desc": "Expert wiring, lighting, and power point installations for homes, tailored to enhance comfort and efficiency."
+    },
+    {
+      "title": "Commercial Electrical Solutions",
+      "desc": "Comprehensive electrical services for businesses, including fit-outs, upgrades, and ongoing maintenance contracts."
+    },
+    {
+      "title": "Safety Inspections and Compliance",
+      "desc": "Thorough electrical safety checks and compliance reporting to meet Australian standards and protect your property."
+    },
+    {
+      "title": "Lighting and Power Upgrades",
+      "desc": "Modern lighting systems and power upgrades to improve functionality and energy efficiency in any space."
+    },
+    {
+      "title": "Electrical Maintenance and Repairs",
+      "desc": "Regular maintenance and prompt repairs to keep your electrical systems running smoothly and prevent future issues."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Gladstone Park?",
+  "bannerSubheading": "We're here 24/7 for all your electrical emergencies and projects.",
+  "testimonialsHeading": "What Gladstone Park Locals Say",
+  "testimonialsSubheading": "Quality work, honest prices",
+  "blogHeading": "Electrical Tips & Insights",
+  "blogSubheading": "Stay informed with expert advice",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Lightning Volt Electrical handled our home's full rewire with professionalism and care. Their upfront pricing meant no surprises, and the work was completed on time. Highly recommend for anyone in Gladstone Park needing reliable electrical services.",
+      "name": "Dave Thompson",
+      "role": "Gladstone Park Homeowner"
+    },
+    {
+      "text": "As a business owner, I needed quick electrical repairs for my shop. Lightning Volt responded immediately and fixed the issue efficiently. Their 24-hour service is a lifesaver for commercial clients like me.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The safety inspection they conducted on our rental property was thorough and informative. Their attention to detail and compliance knowledge gave us peace of mind. Great service from start to finish.",
+      "name": "Tom Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
