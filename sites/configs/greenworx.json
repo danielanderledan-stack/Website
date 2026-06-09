@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Greenworx",
+  "suburb": "Thomastown",
+  "phone": "1300 476 979",
+  "email": "info@greenworx.com.au",
+  "address": "Unit 8/11 Industrial Ave, Thomastown VIC 3074",
+  "tagline": "Thomastown's Landscape Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b373",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Greenworx in Thomastown",
+      "sub": "Professional landscape and turf management"
+    },
+    {
+      "title": "Commercial & Industrial Landscaping",
+      "sub": "Tailored services for diverse facilities"
+    },
+    {
+      "title": "The Greenworx Way",
+      "sub": "Safety, quality, integrity & sustainability"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote from Greenworx",
+  "aboutHeading": "About Greenworx Landscaping",
+  "aboutSubheading": "Thomastown's Trusted Landscapers",
+  "aboutText": "With years of experience in Thomastown and surrounding areas, Greenworx provides expert landscape and turf management to commercial and industrial properties. We live by 'The Greenworx Way', emphasizing safety, quality, integrity, and sustainability. Our dedicated team continually innovates to deliver top-notch services, supporting our partners and solving challenges. At Greenworx, our purpose is nurturing our staff, valuing our clients, and safeguarding the environment, now and always.",
+  "servicesHeading": "Our Landscape Services",
+  "servicesSubheading": "Professional Turf and Garden Care",
+  "servicesText": "Greenworx offers comprehensive landscape and turf management for commercial and industrial properties. From lawn installation to garden maintenance, we ensure quality and sustainability in every project. Our services are tailored to meet the specific needs of each facility.",
+  "services": [
+    {
+      "title": "Turf Installation and Repair",
+      "desc": "We specialise in installing and repairing high-quality turf for commercial and industrial sites, ensuring lush, durable lawns."
+    },
+    {
+      "title": "Landscape Design and Maintenance",
+      "desc": "Our team designs and maintains beautiful, functional landscapes that enhance property value and aesthetic appeal."
+    },
+    {
+      "title": "Commercial Landscaping",
+      "desc": "Tailored landscaping solutions for businesses, focusing on creating professional and inviting outdoor spaces."
+    },
+    {
+      "title": "Industrial Turf Management",
+      "desc": "Expert care for large-scale turf areas in industrial settings, promoting sustainability and cost-effectiveness."
+    },
+    {
+      "title": "Sustainable Garden Solutions",
+      "desc": "Eco-friendly gardening practices that reduce water usage and support environmental conservation."
+    },
+    {
+      "title": "Lawn Care and Mowing",
+      "desc": "Regular lawn care services including mowing, fertilising, and weed control for pristine grass areas."
+    }
+  ],
+  "bannerHeading": "Need Landscaping in Thomastown?",
+  "bannerSubheading": "Greenworx is here to help with your outdoor needs.",
+  "testimonialsHeading": "Thomastown Clients Speak",
+  "testimonialsSubheading": "Trusted by local businesses and homeowners",
+  "blogHeading": "Landscaping Insights",
+  "blogSubheading": "Tips from Greenworx experts",
+  "contactHeading": "Contact Greenworx Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Greenworx transformed our commercial property's landscape with their turf management services. As a Thomastown business owner, I highly recommend their professional and sustainable approach to outdoor care.",
+      "name": "John Smith",
+      "role": "Thomastown Business Owner"
+    },
+    {
+      "text": "The team at Greenworx provided excellent garden maintenance for our industrial facility. Their attention to detail and commitment to quality is unmatched in Melbourne's north.",
+      "name": "Sarah Jones",
+      "role": "Property Manager"
+    },
+    {
+      "text": "We've used Greenworx for lawn care at our Thomastown office for years. Their reliable service and eco-friendly practices make them a top choice for any landscaping needs.",
+      "name": "Michael Brown",
+      "role": "Local Homeowner"
+    }
+  ]
+}
