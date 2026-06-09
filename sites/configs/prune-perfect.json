@@ -1,0 +1,253 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Prune Perfect",
+  "suburb": "Glen Waverley",
+  "phone": "0490263562",
+  "email": "impallari@gmail.com",
+  "address": "corner blackburn road and, Waverley Rd, Glen Waverley VIC 3149",
+  "tagline": "Glen Waverley's Fruit Tree Experts",
+  "primaryColor": "#60d66a",
+  "primaryColorRgb": "96, 214, 106",
+  "primaryColorHover": "#4aaf5a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Glen Waverley's Fruit Tree Experts",
+      "sub": "Specialised care from Prune Perfect"
+    },
+    {
+      "title": "Pruning, Thinning & Disease Management",
+      "sub": "Expertise in roses and fruit trees"
+    },
+    {
+      "title": "Serving Residential & Commercial Clients",
+      "sub": "Free consultations in Glen Waverley"
+    }
+  ],
+  "ctaHeading": "Need a Gardener in Glen Waverley? Prune Perfect is Here to Help.",
+  "aboutHeading": "Specialised Fruit Tree Management in Glen Waverley",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "Prune Perfect has been serving Glen Waverley and surrounding suburbs for over a decade, specialising in fruit tree management and rose pruning. Our team provides comprehensive services including disease management, pruning, and thinning to enhance the health and longevity of your plants. Whether you are a residential homeowner or a commercial client in Glen Waverley, we offer tailored gardening solutions to meet your needs. Call Craig today for expert advice and a free quote.",
+  "servicesHeading": "Our Gardening Services",
+  "servicesSubheading": "Expert care for your trees and roses",
+  "servicesText": "At Prune Perfect, we offer a range of specialised gardening services in Glen Waverley, from fruit tree pruning to disease management. Our team is dedicated to enhancing the beauty and health of your garden with professional thinning, pruning, and maintenance services.",
+  "services": [
+    {
+      "title": "Fruit Tree Pruning",
+      "desc": "Professional pruning to promote healthy growth and fruit production in your trees.",
+      "longDesc": "Our expert pruning services in Glen Waverley ensure your fruit trees are shaped correctly for optimal sunlight and air circulation, reducing disease risk and improving yield.",
+      "points": [
+        "Enhances fruit yield",
+        "Promotes tree health",
+        "Expert shaping techniques"
+      ]
+    },
+    {
+      "title": "Rose Pruning",
+      "desc": "Specialised pruning to enhance flowering and extend the life of your roses.",
+      "longDesc": "Prune Perfect offers meticulous rose pruning in Glen Waverley, designed to boost bloom quantity and quality while maintaining plant vitality throughout the seasons.",
+      "points": [
+        "Increases flower production",
+        "Extends rose longevity",
+        "Tailored pruning methods"
+      ]
+    },
+    {
+      "title": "Disease Management",
+      "desc": "Effective diagnosis and treatment for plant diseases to keep your garden thriving.",
+      "longDesc": "Our disease management services in Glen Waverley involve identifying common issues and applying targeted treatments to prevent spread and restore plant health.",
+      "points": [
+        "Early disease detection",
+        "Targeted treatment plans",
+        "Prevents future outbreaks"
+      ]
+    },
+    {
+      "title": "Thinning of Fruit",
+      "desc": "Strategic thinning to improve fruit size, quality, and tree health.",
+      "longDesc": "In Glen Waverley, we provide precise thinning of fruit trees to reduce overcrowding, ensuring each fruit develops fully and the tree remains strong and productive.",
+      "points": [
+        "Improves fruit quality",
+        "Reduces tree stress",
+        "Maximises harvest size"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Comprehensive upkeep services for residential and commercial gardens.",
+      "longDesc": "Our garden maintenance in Glen Waverley covers a wide range of tasks including pruning, weeding, and general care to keep your outdoor spaces looking their best year-round.",
+      "points": [
+        "Regular care schedules",
+        "Customised service plans",
+        "Professional garden upkeep"
+      ]
+    },
+    {
+      "title": "Consultation Services",
+      "desc": "Expert advice on garden planning, plant selection, and long-term care.",
+      "longDesc": "Prune Perfect offers in-depth consultations in Glen Waverley, helping you make informed decisions about your garden's design and maintenance for sustainable growth.",
+      "points": [
+        "Personalised garden advice",
+        "Plant selection guidance",
+        "Long-term care planning"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Glen Waverley?",
+  "bannerSubheading": "Expert fruit tree and rose care from Prune Perfect.",
+  "testimonialsHeading": "What Glen Waverley Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Gardening Tips & Advice for Glen Waverley",
+  "blogSubheading": "Insights from your local fruit tree experts",
+  "contactHeading": "Get a Free Consultation Today",
+  "contactSubheading": "We're here to help with all your gardening needs",
+  "reviews": [
+    {
+      "text": "Prune Perfect did an excellent job pruning my fruit trees in Glen Waverley. The team was professional, and my apple trees have never looked better. Highly recommend their services!",
+      "name": "Craig Thompson",
+      "role": "Glen Waverley Homeowner"
+    },
+    {
+      "text": "As a café owner in Glen Waverley, I needed regular garden maintenance. Prune Perfect has been fantastic, keeping our outdoor area neat and inviting for customers.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties, I rely on Prune Perfect for consistent gardening services. Their disease management for roses has saved us time and money.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Glen Waverley",
+    "Wheelers Hill",
+    "Mulgrave",
+    "Clayton",
+    "Oakleigh",
+    "Mount Waverley"
+  ],
+  "pricing": {
+    "intro": "At Prune Perfect in Glen Waverley, we offer transparent pricing with no hidden fees. Get a free quote for any of our gardening services tailored to your needs.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Personalised garden plan",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Pruning Package",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Fruit tree or rose pruning",
+          "Disease inspection",
+          "Expert aftercare advice",
+          "Satisfaction guarantee"
+        ]
+      },
+      {
+        "name": "Full Garden Maintenance",
+        "price": "from $500",
+        "unit": "per month",
+        "highlight": false,
+        "features": [
+          "Regular pruning and care",
+          "Weeding and cleanup",
+          "Seasonal treatments",
+          "Priority scheduling"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no lock-in contracts."
+  },
+  "contact": {
+    "intro": "Ready to transform your garden in Glen Waverley? Contact Prune Perfect today for a free consultation and quote. We look forward to hearing from you."
+  },
+  "blogPosts": [
+    {
+      "title": "Best Time to Prune Fruit Trees in Glen Waverley's Climate",
+      "date": "March 2026",
+      "excerpt": "Discover the optimal months for pruning fruit trees in Glen Waverley, considering local weather patterns and tree varieties.",
+      "body": [
+        "Pruning fruit trees at the right time is crucial for their health and productivity, especially in Glen Waverley's temperate climate. In this region, late winter to early spring, typically July to September, is ideal for most deciduous trees like apples, pears, and stone fruits. This timing allows the tree to heal wounds quickly as new growth begins, reducing the risk of disease and pest infestations. For Glen Waverley gardeners, understanding the local frost patterns is key; pruning too early can expose tender buds to late frosts, while pruning too late can disrupt fruit development. Always use clean, sharp tools to make precise cuts, and consider consulting a local expert like Prune Perfect for tailored advice on specific tree species common in Melbourne's east.",
+        "When planning your pruning schedule in Glen Waverley, it's important to account for the area's average rainfall and humidity, which can influence fungal diseases. For instance, citrus trees, which thrive in Glen Waverley's suburban gardens, benefit from pruning in late spring after the fruit has set, to avoid interfering with flowering. Roses, another popular plant in local gardens, should be pruned in late winter to encourage vigorous spring blooms. Incorporating seasonal mulching and soil care post-pruning can further enhance tree health. Local resources like the Royal Horticultural Society of Victoria offer guidelines, but personalised advice from Prune Perfect ensures your pruning aligns with Glen Waverley's unique microclimates, from the shaded areas near Waverley Road to sunnier spots in residential backyards.",
+        "The benefits of timely pruning extend beyond aesthetics; in Glen Waverley, where space can be limited, well-pruned trees maximise garden usability and light penetration. For fruit trees, proper thinning during pruning helps prevent overbearing, which can lead to branch breakage—a common issue during Melbourne's occasional strong winds. Prune Perfect's services include assessing tree structure to improve stability and fruit access. Additionally, pruning can rejuvenate older trees, a valuable service for Glen Waverley's established properties with mature gardens. By following Australian Standards for horticultural practices, such as AS 4419 for soil management, you ensure that your pruning efforts contribute to long-term garden sustainability.",
+        "For those new to gardening in Glen Waverley, starting with a professional consultation can demystify the pruning process. Factors like soil type, which varies from clay in some areas to loam in others, affect tree growth and pruning needs. Prune Perfect offers on-site assessments to develop a customised pruning plan that considers your garden's specific conditions, including drainage and sunlight exposure. This approach not only optimises fruit production but also aligns with local council regulations on tree maintenance, ensuring compliance. With Glen Waverley's community-focused environment, sharing pruning tips with neighbours can foster a greener suburb, and resources from the Glen Waverley Garden Club provide additional support.",
+        "Incorporating organic practices into pruning can enhance the environmental benefits in Glen Waverley. For example, using pruning waste as mulch or compost enriches the soil, reducing the need for synthetic fertilisers. This method is particularly effective in local gardens where sustainability is a priority. Prune Perfect advocates for integrated pest management during pruning, which involves monitoring for pests like aphids or scale insects common in Melbourne's east. By timing pruning to disrupt pest life cycles, you minimise chemical use, promoting a healthier ecosystem. For Glen Waverley residents, this holistic approach ensures that gardening activities contribute positively to the suburb's biodiversity.",
+        "Finally, maintaining a pruning log for your Glen Waverley garden can track progress and inform future care. Record dates, techniques used, and tree responses to refine your approach over time. Prune Perfect provides clients with seasonal reminders and maintenance plans tailored to Glen Waverley's climate cycles. Whether you're a seasoned gardener or a beginner, leveraging local expertise ensures that your fruit trees and roses flourish, enhancing both the beauty and value of your property in this vibrant Melbourne suburb."
+      ]
+    },
+    {
+      "title": "How to Manage Common Rose Diseases in Glen Waverley",
+      "date": "February 2026",
+      "excerpt": "Learn about prevalent rose diseases in Glen Waverley and practical steps to prevent and treat them effectively.",
+      "body": [
+        "Roses are a staple in many Glen Waverley gardens, but the local climate, with its moderate temperatures and occasional humidity, can foster diseases like black spot and powdery mildew. Black spot, caused by the fungus Diplocarpon rosae, appears as dark spots on leaves and is prevalent during Glen Waverley's wetter months, typically from autumn to spring. To manage this, start by selecting disease-resistant rose varieties suited to Melbourne's east, such as 'Knock Out' or 'Iceberg'. Prune infected branches promptly and dispose of them away from the garden to prevent spread. Prune Perfect recommends regular monitoring and early intervention, as timely action can save your roses from severe damage.",
+        "Powdery mildew is another common issue in Glen Waverley, thriving in conditions of high humidity and poor air circulation. This disease manifests as a white, powdery coating on leaves and stems, stunting growth and reducing bloom quality. To combat it, ensure proper spacing between rose bushes—typically 60-90cm apart—to enhance airflow. Watering at the base of plants, preferably in the morning, minimises leaf wetness, a key factor in mildew development. In Glen Waverley's residential gardens, where space might be constrained, strategic planting and regular pruning can create a more resilient environment. For severe cases, organic treatments like neem oil or baking soda solutions can be applied, following guidelines from Australian organic gardening standards.",
+        "Rust is a fungal disease that affects roses in Glen Waverley, often during cooler, moist periods. It appears as orange-red pustules on the undersides of leaves, leading to defoliation if untreated. Managing rust involves removing affected leaves immediately and applying fungicides as a preventive measure. In Glen Waverley's suburban settings, where gardens are often close together, rust can spread quickly between properties. Prune Perfect suggests coordinating with neighbours on disease management practices to reduce cross-contamination. Additionally, mulching around rose bases helps maintain soil moisture and reduces splash-back of spores during rain, a common occurrence in Melbourne's unpredictable weather.",
+        "For Glen Waverley gardeners, integrated pest management (IPM) offers a holistic approach to rose disease control. This method combines cultural, biological, and chemical strategies tailored to local conditions. For instance, encouraging beneficial insects like ladybirds can naturally control aphids, which weaken roses and make them more susceptible to disease. In Glen Waverley's community gardens, sharing IPM tips through local groups like the Glen Waverley Horticultural Society fosters collective care. Prune Perfect's consultations include IPM plans that consider factors such as soil pH, which should be slightly acidic to neutral (6.0-6.5) for optimal rose health, and the use of compost to boost plant immunity.",
+        "Seasonal care is critical for preventing rose diseases in Glen Waverley. During summer, focus on adequate watering and deadheading to promote new growth and reduce fungal risks. In winter, prune roses hard and apply lime sulphur as a dormant spray to kill overwintering spores. Glen Waverley's proximity to green spaces like Jells Park means that wind-borne spores can travel, making proactive measures essential. Prune Perfect offers seasonal maintenance packages that align with Melbourne's climate calendar, ensuring your roses receive timely care. By adhering to these practices, you can maintain vibrant, healthy roses that enhance Glen Waverley's garden aesthetic year-round.",
+        "Finally, educating yourself on local rose diseases empowers you to take swift action. Resources from the Rose Society of Victoria provide insights into diseases specific to Melbourne's eastern suburbs. Prune Perfect's blog and services are designed to support Glen Waverley residents with practical advice, from selecting the right rose varieties to implementing long-term disease management strategies. By staying informed and proactive, you can enjoy beautiful, disease-free roses that contribute to the charm of Glen Waverley's residential landscapes."
+      ]
+    },
+    {
+      "title": "Thinning Fruit Trees for Better Harvests in Melbourne's East",
+      "date": "January 2026",
+      "excerpt": "A guide to thinning fruit trees in Glen Waverley and surrounding areas to improve fruit size and tree health.",
+      "body": [
+        "Thinning fruit trees is a vital practice for gardeners in Glen Waverley, where the goal is to produce larger, healthier fruit while maintaining tree vigour. In Melbourne's east, including suburbs like Glen Waverley and Wheelers Hill, fruit trees such as apples, pears, and plums often set more fruit than the branches can support, leading to small, misshapen yields and potential branch breakage. Thinning involves selectively removing excess fruit, typically when it is marble-sized, to allow the remaining fruit to access more nutrients and sunlight. This process is best done in early summer, around November or December in Glen Waverley, after the natural fruit drop has occurred. Prune Perfect recommends starting with younger trees to establish good habits, ensuring long-term productivity.",
+        "The benefits of thinning extend beyond fruit quality; in Glen Waverley's variable climate, thinned trees are less susceptible to disease and environmental stress. For instance, overcrowded fruit can trap moisture, creating a breeding ground for fungal infections like brown rot, which is prevalent in humid conditions. By thinning, you improve air circulation and reduce humidity around the fruit, minimising disease risk. Additionally, thinned trees direct energy into fewer fruits, resulting in larger, sweeter produce—a key consideration for Glen Waverley homeowners with limited garden space. Local data from the Department of Agriculture and Water Resources indicates that proper thinning can increase fruit size by up to 50%, making it a cost-effective strategy for home orchards.",
+        "Techniques for thinning vary by fruit type and tree age, and in Glen Waverley, adapting these to local conditions is essential. For apple trees, thin to one fruit per cluster, spaced about 15-20cm apart along branches. For stone fruits like peaches, thin to 10-15cm between fruits to prevent cracking. In Melbourne's east, where late frosts can affect fruit set, thinning after the frost risk has passed—typically mid-spring—ensures better results. Prune Perfect's services include on-site demonstrations for Glen Waverley residents, teaching hands-on methods that consider factors like tree variety, soil health, and microclimates. Using clean tools and making precise cuts minimises wounds, reducing infection risk.",
+        "For established fruit trees in Glen Waverley, annual thinning should be part of a comprehensive care routine that includes pruning and fertilisation. Soil conditions in the area, often clay-based, can affect nutrient uptake, so incorporating compost or organic matter before thinning enhances tree resilience. Glen Waverley's suburban gardens may also face challenges from wildlife, such as birds attracted to unthinned fruit; thinning can reduce losses by making the remaining fruit less conspicuous. Prune Perfect advises using netting or scare devices in conjunction with thinning to protect crops. This integrated approach aligns with sustainable gardening practices promoted by local councils, such as the City of Monash's garden incentive programs.",
+        "The economic and environmental advantages of thinning are significant for Glen Waverley gardeners. By producing higher-quality fruit, you reduce the need for purchased produce, saving costs and lowering your carbon footprint. In Melbourne's east, where water conservation is important, thinned trees are more efficient in water use, as they require less moisture to sustain fewer fruits. Prune Perfect's consultations help Glen Waverley clients develop thinning plans that incorporate water-wise strategies, such as drip irrigation timed with rainfall patterns. This method supports the suburb's efforts towards environmental sustainability, as outlined in local climate action plans.",
+        "Finally, thinning fruit trees fosters a sense of accomplishment and connection to nature in Glen Waverley. Many residents enjoy sharing their harvests with neighbours, strengthening community bonds. Prune Perfect encourages gardeners to document their thinning outcomes, tracking improvements over seasons. For those new to the practice, starting with a small number of trees allows for learning and adjustment. With Glen Waverley's fertile environment and expert support, thinning can transform your garden into a productive oasis, enhancing both personal enjoyment and the suburb's green character."
+      ]
+    },
+    {
+      "title": "Garden Maintenance Tips for Glen Waverley's Residential Properties",
+      "date": "December 2025",
+      "excerpt": "Essential maintenance advice for homeowners in Glen Waverley to keep gardens thriving throughout the year.",
+      "body": [
+        "Garden maintenance in Glen Waverley requires adapting to Melbourne's four-season climate, where hot summers and cool winters demand seasonal adjustments. For residential properties, a year-round plan ensures gardens remain healthy and attractive. In summer, focus on regular watering, preferably in the early morning to reduce evaporation, and mulching to retain soil moisture. Glen Waverley's average temperatures, often exceeding 30°C, make drought tolerance crucial; selecting native plants like bottlebrush or grevillea can minimise water use. Prune Perfect offers tailored maintenance schedules that align with local weather patterns, helping homeowners manage their gardens efficiently. Incorporating shade structures or pergolas can also protect sensitive plants from intense sunlight.",
+        "Autumn in Glen Waverley is ideal for planting and soil preparation, as the cooler temperatures and increased rainfall support root development. This season is perfect for adding compost or organic fertilisers to replenish soil nutrients depleted over summer. For lawns, which are common in suburban gardens, aerating and overseeding with cool-season grasses like ryegrass ensures a lush green cover through winter. Prune Perfect recommends testing soil pH, typically aiming for 6.0-7.0 for most plants, and adjusting with lime or sulphur as needed. Glen Waverley's clay soils may require gypsum to improve drainage, preventing waterlogging during the wetter months.",
+        "Winter maintenance in Glen Waverley involves protecting plants from frost and pruning deciduous trees to encourage spring growth. Frost cloths or mulch around vulnerable plants can shield them from overnight freezes, which are occasional in the area. Pruning roses, fruit trees, and hedges during dormancy shapes plants and removes dead wood, reducing disease risk. For residential gardens, this is also a good time to clean and store tools, plan spring layouts, and repair irrigation systems. Prune Perfect's services include winter check-ups for Glen Waverley properties, ensuring gardens are prepared for the new growing season. Adhering to Australian standards for garden maintenance, such as proper waste disposal, keeps practices eco-friendly.",
+        "Spring brings renewal to Glen Waverley gardens, with vibrant blooms and active growth. This season is prime for planting annuals, dividing perennials, and applying slow-release fertilisers to support flowering. For fruit trees, thinning and pest monitoring become priorities as buds open. Glen Waverley's proximity to green corridors means pests like aphids or caterpillars can migrate, so integrated pest management (IPM) is essential. Prune Perfect encourages using biological controls, such as introducing beneficial insects, to maintain balance without chemicals. Regular weeding and deadheading keep gardens tidy and promote continuous flowering, enhancing curb appeal for Glen Waverley homes.",
+        "Throughout the year, lawn care is a critical aspect of garden maintenance in Glen Waverley. Mowing should be adjusted based on grass growth, with higher cuts in summer to shade roots and lower cuts in spring and autumn for a neat appearance. Aeration in autumn reduces compaction, and topdressing with sand or soil improves soil structure. For Glen Waverley's residential areas, where lawns are often used for recreation, this ensures durability and health. Prune Perfect offers lawn care packages that include fertilisation, weed control, and seasonal treatments tailored to Melbourne's east, using products that comply with Australian environmental regulations.",
+        "Finally, sustainable practices in garden maintenance benefit both Glen Waverley residents and the environment. Composting kitchen scraps and garden waste reduces landfill contribution and provides free fertiliser. Installing rain barrels to collect water aligns with local water conservation efforts, especially during dry spells. Prune Perfect advocates for these methods, helping homeowners create low-maintenance, eco-friendly gardens. By following these tips and seeking professional guidance when needed, Glen Waverley residents can enjoy beautiful, resilient gardens that add value to their properties and contribute to the suburb's green identity."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Prune Perfect | Gardener in Glen Waverley | Fruit Tree Experts",
+      "description": "Prune Perfect offers expert fruit tree pruning, rose care, and garden maintenance in Glen Waverley. Free quotes for residential and commercial clients."
+    },
+    "about": {
+      "title": "About Prune Perfect | Glen Waverley's Fruit Tree Specialists",
+      "description": "Learn about Prune Perfect's specialised gardening services in Glen Waverley, with over a decade of experience in fruit tree management and pruning."
+    },
+    "services": {
+      "title": "Gardening Services in Glen Waverley | Pruning & Maintenance",
+      "description": "Explore Prune Perfect's services including fruit tree pruning, rose care, and disease management tailored for Glen Waverley gardens."
+    },
+    "pricing": {
+      "title": "Gardening Costs & Packages in Glen Waverley | Prune Perfect",
+      "description": "Transparent pricing for gardening services in Glen Waverley. Get free quotes for pruning, maintenance, and consultations from Prune Perfect."
+    },
+    "contact": {
+      "title": "Contact Prune Perfect | Free Glen Waverley Gardening Quotes",
+      "description": "Get in touch with Prune Perfect for expert gardening advice and free quotes in Glen Waverley. Call or email us today."
+    },
+    "blog": {
+      "title": "Gardening Blog | Local Tips for Glen Waverley | Prune Perfect",
+      "description": "Read insightful gardening articles from Prune Perfect, focusing on Glen Waverley's climate and plant care needs."
+    }
+  }
+}
