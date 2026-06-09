@@ -1,0 +1,302 @@
+{
+  "siteType": "plumber",
+  "businessName": "Sambar Plumbing",
+  "suburb": "Seaford",
+  "phone": "03 9782 1234",
+  "email": "info@sambarplumbing.com.au",
+  "address": "18-20 Tova Dr, Carrum Downs VIC 3201",
+  "tagline": "Seaford's Trusted Plumbers",
+  "primaryColor": "#00AEEF",
+  "primaryColorRgb": "0, 174, 239",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Seaford's Go-To Plumbers",
+      "sub": "24/7 Emergency Plumbing Services"
+    },
+    {
+      "title": "Residential & Commercial Plumbing",
+      "sub": "Expertise across Seaford & Mornington Peninsula"
+    },
+    {
+      "title": "No Leak Too Small, No Job Too Big",
+      "sub": "Free quotes for Seaford residents"
+    }
+  ],
+  "ctaHeading": "Seaford's plumbers are ready — let's fix your plumbing issues.",
+  "aboutHeading": "Trusted Plumbing in Seaford Since 2010",
+  "aboutSubheading": "Licensed, reliable, and local",
+  "aboutText": "At Sambar Plumbing, we've been serving Seaford and surrounding areas with top-notch plumbing solutions for over a decade. Our team is fully licensed and insured, ensuring every project meets Australian standards. We specialise in both residential and commercial plumbing, from leak repairs to full installations. With a strict process that eliminates guesswork, we deliver excellence every time.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert solutions for Seaford homes and businesses",
+  "servicesText": "From emergency repairs to routine maintenance, Sambar Plumbing offers comprehensive plumbing services in Seaford. We handle everything from blocked drains and hot water systems to gas fitting and pipe relining, using local expertise to tackle any issue.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Fast response for urgent plumbing issues in Seaford, available 24/7.",
+      "longDesc": "We provide immediate emergency plumbing services in Seaford for burst pipes, severe leaks, and flooding, ensuring quick resolution to prevent property damage.",
+      "points": [
+        "24/7 availability",
+        "Rapid response team",
+        "Damage prevention"
+      ]
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Expert clearing of blocked drains and sewers in Seaford homes.",
+      "longDesc": "Our Seaford plumbers use advanced techniques to clear blocked drains efficiently, preventing backups and ensuring smooth water flow in your property.",
+      "points": [
+        "Advanced jet blading",
+        "CCTV inspection",
+        "Preventative solutions"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems in Seaford.",
+      "longDesc": "We service all hot water system brands in Seaford, offering energy-efficient upgrades and repairs to ensure reliable hot water year-round.",
+      "points": [
+        "All brands serviced",
+        "Energy-efficient options",
+        "Same-day repairs"
+      ]
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Certified gas fitting services for Seaford properties, including appliances.",
+      "longDesc": "Our licensed gas fitters in Seaford handle gas line installations, repairs, and appliance connections safely, complying with Australian safety standards.",
+      "points": [
+        "Licensed gas fitters",
+        "Safety inspections",
+        "Appliance installation"
+      ]
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless pipe relining solutions for Seaford drains and sewers.",
+      "longDesc": "We use innovative pipe relining technology in Seaford to repair cracked pipes without excavation, saving time and minimising disruption to your property.",
+      "points": [
+        "No-dig technology",
+        "Cost-effective repairs",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Residential Plumbing",
+      "desc": "Complete residential plumbing services for Seaford homes and rentals.",
+      "longDesc": "From new builds to renovations, we provide comprehensive residential plumbing in Seaford, including fixture installations, leak detection, and system upgrades.",
+      "points": [
+        "Home renovations",
+        "Leak detection",
+        "System upgrades"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Seaford?",
+  "bannerSubheading": "Fast, reliable service for all plumbing emergencies.",
+  "testimonialsHeading": "What Seaford Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Plumbing Guides & Advice",
+  "blogSubheading": "Tips from Seaford's plumbing experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 2 hours",
+  "reviews": [
+    {
+      "text": "Sambar Plumbing fixed our hot water system in Seaford quickly and professionally. Their team explained everything and provided upfront pricing, making the whole process stress-free.",
+      "name": "Dave Wilson",
+      "role": "Seaford Homeowner"
+    },
+    {
+      "text": "As a local cafe owner in Seaford, I rely on Sambar Plumbing for regular maintenance. Their gas fitting services are top-notch, and they always respond fast to emergencies.",
+      "name": "Emma Brown",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We've used Sambar Plumbing for multiple properties in Seaford. Their blocked drain clearing is efficient, and they guarantee their work, which gives us peace of mind as property managers.",
+      "name": "Chris Taylor",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Seaford",
+    "Frankston",
+    "Langwarrin",
+    "Skye",
+    "Cranbourne",
+    "Chelsea",
+    "Carrum Downs"
+  ],
+  "about": {
+    "intro": "Sambar Plumbing has been providing expert plumbing services to Seaford and the Mornington Peninsula for over a decade, built on strict processes and local knowledge.",
+    "story": [
+      "Founded in Seaford, Sambar Plumbing started with a commitment to excellence and strict processes. Our team of licensed plumbers brings extensive experience across various industries, ensuring every project is executed to the highest standards.",
+      "We understand the unique plumbing challenges in Seaford, from coastal corrosion to seasonal demands. That's why we tailor our services to meet local needs, offering prompt and reliable solutions for both emergencies and planned maintenance."
+    ],
+    "mission": "To provide Seaford with the most reliable plumbing services, backed by integrity and expertise.",
+    "whyUs": [
+      {
+        "title": "24/7 Availability",
+        "text": "Emergency plumbing services available any time in Seaford for your peace of mind."
+      },
+      {
+        "title": "Licensed Experts",
+        "text": "Fully licensed and insured plumbers with years of experience in Seaford."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden fees; get a clear quote before we start any work in Seaford."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "All work comes with a satisfaction guarantee for Seaford clients."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Sambar Plumbing in Seaford, we offer transparent pricing with no lock-in contracts. Get a free quote today to understand the costs upfront.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed upfront quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Expert diagnosis",
+          "Quality parts",
+          "Same-day service",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive planning",
+          "High-quality materials",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the exact cost before we begin any work in Seaford."
+  },
+  "contact": {
+    "intro": "Ready to solve your plumbing issues? Contact Sambar Plumbing in Seaford for a free, no-obligation quote. We're here to help with all your plumbing needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in Seaford?",
+      "date": "March 2026",
+      "excerpt": "A guide to understanding emergency plumbing costs in Seaford, including factors like time of day and job complexity.",
+      "body": [
+        "Emergency plumbing costs in Seaford can vary based on several factors, but understanding them helps homeowners budget effectively. In Seaford, common emergencies like burst pipes or severe leaks often occur during extreme weather, such as summer heatwaves or winter freezes, which can increase service fees due to high demand. Local plumbers typically charge a call-out fee starting from $120, with additional costs for after-hours or weekend services, sometimes up to 50% more. It's crucial to get a clear quote upfront to avoid surprises, and Sambar Plumbing always provides transparent pricing for Seaford residents.",
+        "The complexity of the job is another key factor in Seaford emergency plumbing costs. Simple fixes like a leaking tap might cost around $150 to $200, while more serious issues like sewer blockages or gas leaks could range from $300 to $600, depending on the severity and parts needed. Seaford's coastal location means pipes can corrode faster, potentially leading to higher repair costs if not addressed promptly. Always ask for an itemised quote to see exactly what you're paying for, and consider preventive maintenance to avoid frequent emergencies.",
+        "In Seaford, the time of day significantly impacts emergency plumbing rates. Services during standard business hours (8 am to 5 pm) are usually cheaper, with rates around $90 to $120 per hour. However, evenings, weekends, and public holidays can see rates climb to $150 to $200 per hour, reflecting the inconvenience. Sambar Plumbing offers competitive rates for Seaford emergencies, ensuring you get help when you need it most without breaking the bank.",
+        "To manage costs, Seaford homeowners should consider regular plumbing inspections, which can prevent minor issues from becoming expensive emergencies. Sambar Plumbing recommends annual checks for hot water systems and drains, especially in older Seaford homes where pipes may be outdated. Investing in preventative care can save hundreds in emergency repairs over time, and it's a wise step for maintaining property value in the Seaford market.",
+        "When choosing an emergency plumber in Seaford, look for licensed professionals with positive local reviews. Sambar Plumbing is fully licensed and insured, with a track record of reliable service in Seaford. We provide upfront quotes and guarantee our work, so you can trust that the cost will be fair and the quality high. Avoid unlicensed operators who may offer lower prices but risk poor workmanship and compliance issues.",
+        "In summary, emergency plumbing costs in Seaford are influenced by timing, job complexity, and service provider. By understanding these factors and opting for a reputable local plumber like Sambar Plumbing, you can ensure efficient and cost-effective solutions. Always get multiple quotes if possible, but prioritise experience and reliability to protect your Seaford home from further damage."
+      ]
+    },
+    {
+      "title": "Best Hot Water Systems for Seaford Homes",
+      "date": "February 2026",
+      "excerpt": "Comparing hot water system options suitable for Seaford's climate and water conditions to ensure efficiency and reliability.",
+      "body": [
+        "Choosing the best hot water system for Seaford homes involves considering the local climate, energy efficiency, and household needs. Seaford, located on the Mornington Peninsula, experiences moderate temperatures with cool winters, making reliable hot water essential. Gas and electric systems are common, but heat pump systems are gaining popularity for their energy savings in Seaford's environment.",
+        "Gas hot water systems are a popular choice in Seaford due to their quick recovery times and lower running costs. They are ideal for larger families, providing consistent hot water even during peak usage. Brands like Rinnai and Bosch offer models suited to Seaford's water conditions, which can be hard, requiring systems with good sediment handling. Installation costs typically range from $1,200 to $2,500, depending on capacity and features.",
+        "Electric hot water systems are another option for Seaford homes, especially where gas isn't available. They are cheaper upfront, with costs from $800 to $1,500, but may have higher running costs. In Seaford, off-peak tariffs can reduce expenses, and modern electric systems with timers offer better efficiency. However, recovery times can be slower, so they might suit smaller households or those with lower hot water demand.",
+        "Heat pump hot water systems are ideal for Seaford's eco-conscious homeowners, leveraging ambient air temperature to heat water. They are highly energy-efficient, reducing electricity bills by up to 65%, and perform well in Seaford's climate. Installation costs are higher, from $2,500 to $4,500, but government rebates in Victoria can offset this. For Seaford residents looking to future-proof, heat pumps are a smart investment.",
+        "Solar hot water systems are also viable in Seaford, given the region's sunny days. They use rooftop panels to heat water, significantly cutting energy costs. However, initial installation is expensive, around $3,000 to $6,000, and backup systems may be needed for cloudy days. In Seaford, solar systems can provide up to 70% of annual hot water needs, making them environmentally friendly and cost-effective long-term.",
+        "When selecting a hot water system in Seaford, consider factors like household size, energy sources, and maintenance requirements. Sambar Plumbing in Seaford offers expert advice and installation, ensuring you choose the right system for your home. We can assess your current setup and recommend options that balance upfront costs with long-term savings, tailored to Seaford's specific conditions.",
+        "Maintenance is key to prolonging the life of any hot water system in Seaford. Regular flushing to remove sediment, especially in hard water areas, can prevent efficiency loss and extend system life. Sambar Plumbing provides maintenance services for all hot water system types in Seaford, helping you avoid unexpected breakdowns and costly repairs."
+      ]
+    },
+    {
+      "title": "Signs Your Drains Need Professional Cleaning in Seaford",
+      "date": "January 2026",
+      "excerpt": "Learn the common signs of drain problems and when to call a plumber in Seaford to prevent major issues.",
+      "body": [
+        "Seaford homeowners should watch for signs that indicate drains need professional cleaning to avoid severe plumbing issues. Slow drainage is a common red flag; if water pools in sinks, showers, or tubs, it suggests a blockage forming in Seaford's plumbing systems. Ignoring this can lead to complete backups and potential water damage, so early intervention is crucial.",
+        "Unpleasant odours emanating from drains are another clear sign of problems in Seaford homes. These smells often result from accumulated food particles, grease, or hair decomposing in pipes. In Seaford, where older properties may have outdated drainage, regular cleaning can prevent foul smells and maintain hygiene. If you notice persistent odours, it's time to call a professional.",
+        "Gurgling sounds from drains or toilets in Seaford indicate trapped air due to blockages or venting issues. This can be caused by debris buildup or even tree roots infiltrating pipes, a common issue in leafy Seaford suburbs. Professional cleaning with CCTV inspection can identify the root cause and clear it effectively.",
+        "Frequent clogs, especially in multiple drains, signal systemic problems in Seaford properties. If plunger attempts fail, it suggests deeper blockages that require expert tools like hydro-jetting. Sambar Plumbing in Seaford uses advanced techniques to clear stubborn blockages, ensuring your drains function properly and preventing sewage backups.",
+        "Water backing up in unexpected places, such as toilets when using the sink, is a severe sign of main sewer line issues in Seaford. This can be hazardous and requires immediate professional attention. In Seaford, where soil conditions can affect pipe integrity, regular inspections can catch such problems early.",
+        "For Seaford residents, preventative drain cleaning is advisable, especially for older homes with clay or cast-iron pipes prone to cracking. Sambar Plumbing offers routine maintenance services in Seaford, using non-invasive methods to keep drains clear. This proactive approach can save money on emergency repairs and extend the life of your plumbing system.",
+        "When selecting a drain cleaning service in Seaford, ensure the plumber is licensed and uses modern equipment. Sambar Plumbing provides thorough drain cleaning with CCTV diagnostics, offering solutions tailored to Seaford's unique drainage challenges. We guarantee our work, so you can trust that your drains will be clear and functional."
+      ]
+    },
+    {
+      "title": "Gas Safety Checks for Seaford Properties",
+      "date": "December 2025",
+      "excerpt": "Why regular gas safety inspections are crucial for Seaford homes and businesses to prevent hazards and ensure compliance.",
+      "body": [
+        "Gas safety checks are essential for Seaford properties to prevent dangerous leaks and ensure compliance with Australian standards. In Seaford, where many homes use gas for heating and cooking, regular inspections by licensed professionals like Sambar Plumbing can detect issues early, safeguarding families and businesses.",
+        "A gas safety inspection in Seaford involves checking all gas appliances, lines, and fittings for leaks, corrosion, or damage. This includes stoves, heaters, hot water systems, and outdoor BBQ connections. Using specialised equipment, plumbers can identify invisible leaks that could lead to carbon monoxide poisoning or explosions, which is particularly important in Seaford's coastal environment where salt air can accelerate corrosion.",
+        "The frequency of gas safety checks in Seaford depends on property age and usage. For residential homes, annual inspections are recommended, while commercial properties in Seaford may need bi-annual checks due to higher demand. Sambar Plumbing provides tailored inspection schedules, ensuring that Seaford properties remain safe and compliant with Victorian regulations.",
+        "Signs that indicate a gas leak in Seaford include a sulphur or rotten egg smell, hissing sounds near appliances, or dead vegetation around gas lines. If you notice these, evacuate immediately and contact a licensed gasfitter in Seaford. Sambar Plumbing offers 24/7 emergency gas services to address such hazards promptly.",
+        "Regular gas safety checks in Seaford can also improve energy efficiency. Well-maintained appliances operate better, reducing gas bills and environmental impact. For Seaford homeowners, this means lower running costs and a smaller carbon footprint, aligning with local sustainability goals.",
+        "During a gas safety inspection in Seaford, plumbers will also assess ventilation to ensure gases are properly expelled. Poor ventilation can lead to dangerous accumulations inside homes, so it's a critical aspect of the check. Sambar Plumbing ensures all Seaford properties meet ventilation standards, providing peace of mind.",
+        "Choosing a licensed gasfitter for inspections in Seaford is vital for accurate and safe assessments. Sambar Plumbing is fully licensed and insured, with expertise in gas safety for Seaford's unique conditions. We provide detailed reports and can carry out any necessary repairs, ensuring your property is secure and compliant."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Sambar Plumbing | Plumber in Seaford | Emergency & General Plumbing",
+      "description": "Trusted plumber in Seaford, Victoria. 24/7 emergency plumbing, blocked drains, hot water systems. Free quotes for Seaford residents."
+    },
+    "about": {
+      "title": "About Sambar Plumbing | Your Local Seaford Plumber",
+      "description": "Learn about Sambar Plumbing's commitment to excellence and years of plumbing service in Seaford and surrounds."
+    },
+    "services": {
+      "title": "Plumbing Services in Seaford | Emergency, Gas, Hot Water",
+      "description": "Comprehensive plumbing services in Seaford, including emergency repairs, gas fitting, and hot water system installations."
+    },
+    "pricing": {
+      "title": "Plumbing Prices & Costs in Seaford | Sambar Plumbing",
+      "description": "Transparent pricing for plumbing services in Seaford. Get upfront quotes with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Sambar Plumbing | Free Seaford Plumber Quotes",
+      "description": "Get in touch with Sambar Plumbing in Seaford for fast, reliable plumbing services. Call now for a free quote."
+    },
+    "blog": {
+      "title": "Seaford Plumbing Blog | Tips, Guides & Local Advice",
+      "description": "Expert plumbing advice for Seaford residents. Learn about maintenance, repairs, and local plumbing issues."
+    }
+  }
+}
