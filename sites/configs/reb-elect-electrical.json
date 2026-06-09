@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Reb Elect Electrical",
+  "suburb": "Braeside",
+  "phone": "0439 999 004",
+  "email": "info@rebelect.com.au",
+  "address": "Factory 11/35-37 Canterbury Rd, Braeside VIC 3195",
+  "tagline": "Braeside's 24/7 Electrical Experts",
+  "primaryColor": "#02ff15",
+  "primaryColorRgb": "2, 255, 21",
+  "primaryColorHover": "#01d912",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Braeside's Trusted Electricians",
+      "sub": "30 years keeping your power running"
+    },
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "When you need us, we are there"
+    },
+    {
+      "title": "Residential & Commercial Experts",
+      "sub": "Licensed, insured and family-owned"
+    }
+  ],
+  "ctaHeading": "Braeside's electricians are on call, let's power your project.",
+  "aboutHeading": "30 Years Serving Braeside",
+  "aboutSubheading": "Local, licensed and reliable",
+  "aboutText": "With over 30 years of experience, Reb Elect Electrical has been the trusted family electrician serving Braeside and Melbourne's southeast. We specialise in delivering reliable residential and commercial electrical services, from switchboard upgrades to complete rewiring. Our licensed and insured team takes pride in offering competitive pricing without compromising on quality. Whether you need emergency electrical repairs at 2am or a scheduled safety inspection, we are committed to exceeding your expectations every time.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Electrical done right",
+  "servicesText": "From emergency call-outs to complete electrical fit-outs, Reb Elect Electrical provides comprehensive electrical services across Braeside and surrounding suburbs. Our 30 years of hands-on experience means we tackle everything from simple power point installations to complex commercial switchboard upgrades with precision and care.",
+  "services": [
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 emergency electrical call-outs across Braeside for faults, power outages, tripped breakers and urgent repairs.",
+      "longDesc": "When electrical emergencies strike in Braeside, our rapid-response team is available 24 hours a day, seven days a week. We diagnose and fix faults fast to restore power and safety to your property.",
+      "points": [
+        "24/7 availability",
+        "Rapid response time",
+        "All faults repaired"
+      ]
+    },
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Complete home electrical services for Braeside residents, from new builds to renovations and general maintenance.",
+      "longDesc": "Whether you are building a new home in Braeside or upgrading an existing property, our residential electricians deliver safe, compliant electrical installations. We handle lighting, power points, ceiling fans and full home rewiring.",
+      "points": [
+        "New builds and renovations",
+        "Lighting and power points",
+        "Compliance guaranteed"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Professional electrical services for Braeside businesses, from office fit-outs to warehouse lighting and power distribution.",
+      "longDesc": "Reb Elect Electrical supports Braeside's commercial sector with tailored electrical solutions for offices, factories and retail spaces. We manage everything from initial design through to installation, ensuring your business meets all Australian electrical safety standards.",
+      "points": [
+        "Office and retail fit-outs",
+        "Warehouse power systems",
+        "Energy-efficient solutions"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your outdated switchboard in Braeside to meet current Australian safety standards and handle modern loads.",
+      "longDesc": "Older Braeside homes often have switchboards that cannot handle today's electrical demands. We replace outdated fuse boxes with modern safety switchboards that protect your family and meet current Australian wiring standards.",
+      "points": [
+        "Meet safety standards",
+        "Handle modern loads",
+        "Protect your home"
+      ]
+    },
+    {
+      "title": "Safety Inspections and Testing",
+      "desc": "Comprehensive electrical safety inspections and testing for Braeside homes and businesses to keep you compliant.",
+      "longDesc": "Stay safe and compliant with a thorough electrical inspection from Reb Elect Electrical. We test wiring, switchboards and safety devices across Braeside properties, providing detailed reports and recommendations for any needed upgrades.",
+      "points": [
+        "Comprehensive testing",
+        "Detailed reports",
+        "Compliance certificates"
+      ]
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Expert indoor and outdoor lighting installation for Braeside homes and businesses, including energy-efficient LED upgrades.",
+      "longDesc": "Transform your Braeside property with professional lighting installation from Reb Elect Electrical. We design and install indoor, outdoor and security lighting systems, with energy-efficient LED options that reduce your electricity bills.",
+      "points": [
+        "Indoor and outdoor options",
+        "LED energy savings",
+        "Security lighting"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Braeside?",
+  "bannerSubheading": "Available 24 hours a day, 7 days a week for all your electrical needs.",
+  "testimonialsHeading": "What Braeside Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Electrical Guides and Advice",
+  "blogSubheading": "Deep-dives from the Braeside team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We will get back to you fast",
+  "reviews": [
+    {
+      "text": "When our switchboard blew at our Braeside factory on a Saturday night, Reb Elect Electrical had someone out within the hour. The electrician was professional, identified the fault quickly and had us back up and running. Cannot recommend them enough for emergency electrical work.",
+      "name": "Craig Mitchell",
+      "role": "Braeside Business Owner"
+    },
+    {
+      "text": "We used Reb Elect Electrical for a full lighting upgrade at our home in Aspendale. The team was punctual, tidy and the new LED lighting has transformed our living spaces while cutting our power bill. Their 30 years of experience really shows in the quality of work.",
+      "name": "Sarah Thompson",
+      "role": "Homeowner"
+    },
+    {
+      "text": "As a property manager overseeing several rental properties in Clayton South, I rely on Reb Elect Electrical for all electrical maintenance and safety inspections. They are always responsive, provide clear quotes and complete work to a high standard every time.",
+      "name": "David Nguyen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Braeside",
+    "Aspendale",
+    "Aspendale Gardens",
+    "Mordialloc",
+    "Clayton South",
+    "Parkdale",
+    "Dingley Village",
+    "Mentone"
+  ],
+  "about": {
+    "intro": "Reb Elect Electrical is a family-owned electrician with over 30 years of experience serving Braeside and Melbourne's southeast.",
+    "story": [
+      "Reb Elect Electrical began as a small family operation in Braeside, built on the simple principle that honest electrical work and genuine customer care go hand in hand. Over three decades, we have grown from a one-man van into a trusted team of licensed electricians, serving hundreds of homes and businesses across Melbourne's southeast while maintaining that original family values approach to every job.",
+      "Today, our Braeside-based team continues to uphold the standards that have earned us the loyalty of so many local clients. We invest in ongoing training, the latest diagnostic equipment and industry-leading technologies to deliver electrical solutions that are safe, efficient and built to last. From a simple power point installation to a complete commercial fit-out, every project receives the same dedicated attention to detail."
+    ],
+    "mission": "To keep Braeside safe and powered with reliable, honest electrical service, day or night.",
+    "whyUs": [
+      {
+        "title": "24/7 Emergency",
+        "text": "Available around the clock for urgent electrical emergencies in Braeside and surrounds"
+      },
+      {
+        "title": "Family Owned",
+        "text": "A genuine family business with 30 years of trusted service in the local community"
+      },
+      {
+        "title": "Licensed and Insured",
+        "text": "Fully licensed and insured electricians giving you complete peace of mind on every job"
+      },
+      {
+        "title": "No Surprises",
+        "text": "Clear upfront pricing before we start, so you always know exactly what you are paying"
+      }
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed and Insured"
+      },
+      {
+        "value": "24/7",
+        "label": "Availability"
+      }
+    ],
+    "credentials": [
+      "Licensed electricians",
+      "Fully insured",
+      "24/7 emergency service",
+      "Free quotes"
+    ]
+  },
+  "pricing": {
+    "intro": "At Reb Elect Electrical, we provide honest, upfront pricing for all electrical work in Braeside. No hidden fees, no lock-in contracts, just fair rates for quality electrical service.",
+    "packages": [
+      {
+        "name": "Call-Out and Diagnosis",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site fault diagnosis",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality parts and materials",
+          "Compliance certificate",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Custom electrical design",
+          "Compliance documentation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden charges, you approve the price before any work begins."
+  },
+  "contact": {
+    "intro": "Need a reliable electrician in Braeside? Get in touch with Reb Elect Electrical today for a free, no-obligation quote. Call us on 0439 999 004 or email info@rebelect.com.au and we will get back to you fast."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Switchboard Upgrade Cost in Braeside?",
+      "date": "March 2026",
+      "excerpt": "Find out how much a switchboard upgrade costs in Braeside. We break down pricing factors, Australian safety standards and what to expect from a professional upgrade.",
+      "body": [
+        "If you live in an older home in Braeside, there is a good chance your switchboard is overdue for an upgrade. Many houses in the area were built decades ago with fuse boxes that were never designed to handle the electrical demands of modern living. Air conditioners, induction cooktops, solar systems and multiple charging devices all place significant strain on outdated wiring and switchboards. At Reb Elect Electrical, we have been upgrading switchboards across Braeside for over 30 years, and we have seen firsthand how a modern safety switchboard can transform the safety and reliability of a home's electrical system.",
+        "The cost of a switchboard upgrade in Braeside typically ranges from $800 to $2,500, depending on several key factors. The size of your home, the number of circuits, whether you need additional safety switches and the condition of your existing wiring all influence the final price. A basic upgrade for a small two-bedroom home might sit at the lower end, while a larger family home with multiple air conditioning units, power circuits and a solar system will require a more comprehensive upgrade. At Reb Elect Electrical, we provide a detailed, fixed-price quote before any work begins so there are no surprises.",
+        "Australian standards require that all switchboards in residential properties meet current safety regulations. If your Braeside home still has an original ceramic fuse box or an older style circuit breaker panel without safety switches, it may not comply with modern electrical safety requirements. This is particularly important for property owners looking to sell, as a compliant switchboard is often flagged during pre-purchase electrical inspections. Upgrading your switchboard not only protects your family from electrical faults and fire risks but also adds value to your property and ensures you meet all relevant Australian Wiring Rules.",
+        "When we upgrade a switchboard in Braeside, we start with a thorough assessment of your existing electrical system. Our licensed electricians inspect the condition of your wiring, test all circuits and identify any potential hazards before recommending the right switchboard solution. We use only high-quality, Australian-approved switchboards and components, ensuring your new installation will safely handle your current and future electrical needs. The entire process typically takes between four and eight hours, and in most cases, we can complete the upgrade in a single day with minimal disruption to your household.",
+        "Braeside's climate can also play a role in switchboard performance. The coastal proximity means higher humidity levels, which can accelerate corrosion on older electrical components. Combined with the hot Victorian summers that see heavy air conditioning use, your switchboard is under year-round pressure. A modern, properly rated switchboard installed by Reb Elect Electrical will handle these environmental factors with ease, providing reliable power distribution throughout every season. We also recommend installing surge protection as part of any switchboard upgrade to safeguard your valuable electronics against voltage spikes.",
+        "If you are unsure whether your Braeside switchboard needs upgrading, the team at Reb Elect Electrical offers free assessments. We will come to your property, inspect your current setup and provide honest, obligation-free advice. With 30 years of experience serving the Braeside community, we have the knowledge to recommend the most cost-effective solution for your specific situation. Call us today on 0439 999 004 to book your free switchboard assessment and take the first step toward a safer, more reliable electrical system for your home."
+      ]
+    },
+    {
+      "title": "Signs Your Braeside Home Needs an Electrical Safety Inspection",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that your Braeside home needs an electrical safety inspection. Protect your family from faulty wiring and outdated switchboards with expert advice.",
+      "body": [
+        "Your home's electrical system is one of the most critical yet overlooked components of property maintenance. For homeowners in Braeside, where many properties range from mid-century builds to newer developments, the risk of undetected electrical issues is real. Faulty wiring, overloaded circuits and aging components can pose serious safety hazards including electric shock and fire. Reb Elect Electrical recommends that every Braeside home undergo a professional electrical safety inspection at least once every five years, or more frequently for older properties. Regular inspections catch problems early and keep your family safe.",
+        "There are several telltale signs that your Braeside home may need an urgent electrical safety inspection. Flickering lights, frequently tripping circuit breakers, buzzing sounds from outlets or switchboards, and discoloured or warm power point covers are all red flags that should not be ignored. If you notice a burning smell near electrical fittings or find that your safety switches trip regularly, these are strong indicators of underlying electrical faults. Even if none of these symptoms are present, homes in Braeside that have not been inspected in the last five years should be prioritised for a professional check.",
+        "The area around Braeside presents specific electrical challenges that make regular inspections even more important. Many older homes in the region were wired when household electrical demands were a fraction of what they are today. Original wiring may not be rated for the load of modern appliances, and in some cases, aluminium wiring from the 1970s and 1980s may still be in use. This type of wiring is known to degrade over time and can become a serious fire risk. A thorough safety inspection by Reb Elect Electrical will identify these issues and provide clear recommendations for remediation.",
+        "During an electrical safety inspection at your Braeside property, our licensed electricians conduct a comprehensive assessment of your entire electrical system. We test every circuit, inspect all switchboards and safety devices, check earthing and bonding connections and assess the condition of all visible wiring. We use specialised diagnostic equipment to identify hidden faults that are not visible to the naked eye. Following the inspection, you receive a detailed written report outlining any hazards found, recommended repairs and a prioritised action plan. This report is also valuable for insurance purposes and property transactions.",
+        "For Braeside property investors and landlords, electrical safety inspections are not just recommended, they are essential. Victorian rental legislation requires that all rental properties meet specific electrical safety standards, and failure to comply can result in significant penalties. Reb Elect Electrical works with local property managers and real estate agents throughout Braeside to ensure rental properties are electrically safe and fully compliant. We provide compliance certificates upon completion, giving you the documentation you need to satisfy regulatory requirements and protect your tenants.",
+        "Do not wait for an electrical fault to reveal a hidden problem in your Braeside home. Contact Reb Elect Electrical today to book a comprehensive safety inspection. With 30 years of experience and a commitment to keeping Braeside families safe, we deliver thorough inspections with honest, practical advice. Call 0439 999 004 or email info@rebelect.com.au to schedule your inspection. Early detection is the best protection, and it could save you thousands in potential repair costs while keeping your loved ones safe from electrical hazards."
+      ]
+    },
+    {
+      "title": "Emergency Electrician in Braeside: What to Do When the Power Goes Out",
+      "date": "January 2026",
+      "excerpt": "What should you do when your Braeside home loses power? Our emergency electrician guide covers immediate steps, common causes and when to call a professional.",
+      "body": [
+        "A sudden power outage in your Braeside home can be alarming, especially when it happens late at night or during extreme weather. While some outages are caused by faults in the broader electricity network, many are the result of electrical problems within your property. Knowing what to do when the lights go out can help keep your family safe and ensure you get professional help quickly. Reb Elect Electrical provides 24/7 emergency electrician services across Braeside and surrounding suburbs, so you are never left in the dark for long.",
+        "The first step when your Braeside home loses power is to check whether the outage is limited to your property or affects the wider neighbourhood. Look at your neighbours' lights and check the AusNet Services outage map online or by calling 13 17 99. If nearby properties still have power, the issue is likely within your home's electrical system. Check your switchboard to see if a circuit breaker has tripped or a safety switch has activated. If you can safely identify and reset the affected breaker, power may be restored immediately. However, if the breaker trips again, do not attempt further resets and call a professional.",
+        "There are several common causes of power outages specific to Braeside homes that our emergency electricians encounter regularly. Overloaded circuits are a frequent culprit, particularly during summer when air conditioners, refrigerators and other high-draw appliances run simultaneously. Faulty wiring, especially in older homes, can also cause breakers to trip or safety switches to activate as a protective measure. Moisture ingress into electrical fittings is another issue in Braeside, given the coastal humidity and occasional heavy rainfall. Whatever the cause, Reb Elect Electrical's emergency team is equipped to diagnose and resolve the problem quickly and safely.",
+        "When you call Reb Elect Electrical for an emergency in Braeside, we prioritise your call and aim to have a licensed electrician at your door as quickly as possible. Our emergency response vehicles are fully stocked with common replacement parts, allowing us to resolve most issues in a single visit. Whether it is a tripped safety switch, a power outage affecting part of your home or a complete loss of electricity, our experienced electricians will identify the fault, explain the issue in plain English and carry out the necessary repairs to restore power safely.",
+        "While waiting for your emergency electrician to arrive in Braeside, there are important safety precautions to follow. Never attempt to investigate electrical faults yourself, particularly if you smell burning or see scorch marks around outlets. Keep torches and backup batteries handy for navigating your home safely. Unplug sensitive electronic devices to protect them from potential power surges when electricity is restored. If water has entered any electrical fittings or switchboards, stay well clear and do not touch any switches. These simple steps can prevent injury and additional damage while our team makes its way to your Braeside property.",
+        "Prevention is always better than an emergency call-out. Reb Elect Electrical recommends that Braeside homeowners schedule regular electrical maintenance to identify and address potential issues before they cause outages. Our preventative maintenance service includes testing safety switches, inspecting switchboards, checking wiring condition and ensuring all circuits are properly rated for your household load. With 30 years of emergency electrical experience in Braeside, we have seen it all and can help you avoid the stress and inconvenience of unexpected power failures. Save our number, 0439 999 004, for when you need us most."
+      ]
+    },
+    {
+      "title": "Energy-Efficient LED Lighting for Braeside Homes: A Complete Guide",
+      "date": "December 2025",
+      "excerpt": "Discover how LED lighting can cut your Braeside electricity bills. This guide covers costs, installation benefits and the best LED solutions for Australian homes.",
+      "body": [
+        "Energy costs are a constant concern for homeowners in Braeside, and one of the simplest ways to reduce your electricity bill is by switching to LED lighting. LED technology has advanced dramatically in recent years, offering brilliant illumination at a fraction of the energy cost of traditional halogen and incandescent bulbs. For Braeside families, the savings add up quickly, especially in homes with extensive lighting throughout living areas, kitchens and outdoor spaces. Reb Elect Electrical has helped hundreds of Braeside homes make the switch to LED, and the results speak for themselves, lower bills, better light and longer-lasting globes.",
+        "The benefits of LED lighting for Braeside homes extend far beyond simple energy savings. Modern LED globes use up to 80 percent less electricity than traditional alternatives while producing the same or better light output. They also last significantly longer, quality LED globes can run for 25,000 to 50,000 hours, which means years of use before needing replacement. For Braeside homeowners, this translates to fewer trips to the hardware store and less time spent changing bulbs in hard-to-reach fixtures. LED lights also produce significantly less heat, making them safer for indoor use and reducing the load on your air conditioning during Melbourne's warm months.",
+        "Braeside's mix of residential and commercial properties means there are diverse lighting needs across the community. In residential settings, Reb Elect Electrical can design and install LED lighting schemes that enhance your home's ambiance while maximising energy efficiency. From warm white living room downlights to bright, clear kitchen task lighting and colour temperature-adjustable bedroom fixtures, we tailor every installation to your preferences. For outdoor areas, we install weather-rated LED floodlights, garden lighting and security lights that keep your Braeside property well-lit and safe throughout the night.",
+        "The installation process for LED lighting in your Braeside home is straightforward when handled by a licensed electrician. Reb Elect Electrical begins by assessing your existing lighting setup and discussing your goals, whether that is reducing energy costs, improving brightness or upgrading the look of your interiors. We then recommend the most suitable LED products for each room, considering factors such as colour temperature, beam angle and dimmability. Our electricians handle all wiring, installation and testing, ensuring every fitting is safe, compliant and performing at its best. Many Braeside clients are surprised at how transformative a simple lighting upgrade can be.",
+        "For Braeside homeowners considering solar panels, LED lighting is the perfect complement. Solar energy generated during the day can power highly efficient LED lights throughout the evening, drastically reducing your reliance on grid electricity. This combination is particularly effective in Melbourne's southeast, where Braeside receives good solar exposure throughout much of the year. Reb Elect Electrical can design an integrated lighting and solar solution that maximises your energy independence and minimises running costs. We also offer smart lighting systems that can be controlled via your smartphone, adding convenience and further efficiency to your Braeside home.",
+        "Making the switch to LED lighting is one of the most cost-effective home improvements available to Braeside residents. With Reb Elect Electrical's expertise and 30 years of local experience, we ensure your LED upgrade is done right the first time. We use only high-quality, Australian-approved LED products that deliver consistent performance and genuine energy savings. Whether you are retrofitting a single room or upgrading the lighting throughout your entire Braeside property, our team provides honest advice, competitive pricing and professional installation. Contact us on 0439 999 004 to discuss your LED lighting project today."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Reb Elect Electrical | Electrician in Braeside",
+      "description": "Reb Elect Electrical, your trusted Braeside electrician. 24/7 emergency call-outs, switchboard upgrades, safety inspections and lighting. 30 years experience."
+    },
+    "about": {
+      "title": "About Reb Elect Electrical | Braeside Electrician",
+      "description": "Learn about Reb Elect Electrical, Braeside's family electrician with 30 years experience. Licensed, insured and available 24/7 for all electrical needs."
+    },
+    "services": {
+      "title": "Electrical Services in Braeside | Reb Elect",
+      "description": "Comprehensive electrical services in Braeside by Reb Elect Electrical. Emergency call-outs, switchboard upgrades, lighting, safety inspections and more."
+    },
+    "pricing": {
+      "title": "Electrical Pricing in Braeside | Reb Elect",
+      "description": "Transparent electrical pricing for Braeside homes and businesses. No hidden fees, no lock-in contracts. Get a free, no-obligation quote from our team."
+    },
+    "contact": {
+      "title": "Contact Reb Elect Electrical | Free Quote",
+      "description": "Contact Reb Elect Electrical for a free, no-obligation quote. We are Braeside's trusted 24/7 electrician. Call 0439 999 004 or email info@rebelect.com.au."
+    },
+    "blog": {
+      "title": "Braeside Electrician Blog | Tips and Advice",
+      "description": "Expert electrical advice from Reb Elect Electrical in Braeside. Guides on switchboard upgrades, LED lighting, safety inspections and emergency tips."
+    }
+  }
+}
