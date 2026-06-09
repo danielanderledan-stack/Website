@@ -1,0 +1,238 @@
+{
+  "siteType": "hvac",
+  "businessName": "Mattick Air",
+  "suburb": "Knoxfield",
+  "phone": "(03) 9764 0992",
+  "email": "service@mattickair.com.au",
+  "address": "Unit 4/1 Rushdale St, Knoxfield VIC 3180",
+  "tagline": "Knoxfield's 24/7 Air Conditioning Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Knoxfield's 24/7 HVAC Experts",
+      "sub": "35 years keeping Melbourne cool"
+    },
+    {
+      "title": "Breakdowns, Maintenance & Installs",
+      "sub": "Commercial and industrial air conditioning"
+    },
+    {
+      "title": "Always On, Always Ready",
+      "sub": "Call anytime — we answer 24 hours a day"
+    }
+  ],
+  "ctaHeading": "Knoxfield's air conditioning experts are standing by — call now.",
+  "aboutHeading": "35 Years of HVAC Excellence in Knoxfield",
+  "aboutSubheading": "Local, reliable and always on call",
+  "aboutText": "For over 35 years, Mattick Air has been Knoxfield's trusted air conditioning contractor, delivering expert commercial and industrial HVAC solutions across Melbourne's eastern suburbs. From urgent 24-hour breakdowns to complete system installations, our licensed technicians keep your indoor spaces comfortable and efficient all year round. Based in Knoxfield, we proudly service businesses and facilities throughout Melbourne.",
+  "servicesHeading": "Our Air Conditioning Services",
+  "servicesSubheading": "Expert HVAC solutions for Knoxfield and Melbourne",
+  "servicesText": "Mattick Air provides a complete range of commercial and industrial air conditioning services in Knoxfield, from emergency breakdown repairs to planned maintenance and new system installations. Our experienced team ensures your HVAC systems run efficiently and comply with all Melbourne regulations.",
+  "bannerHeading": "Need an HVAC Contractor in Knoxfield?",
+  "bannerSubheading": "24/7 emergency breakdown service across Melbourne's east",
+  "testimonialsHeading": "What Knoxfield Businesses Say",
+  "testimonialsSubheading": "Trusted by Melbourne's eastern suburbs",
+  "blogHeading": "Knoxfield HVAC Guides and Tips",
+  "blogSubheading": "Expert advice from 35 years in the trade",
+  "contactHeading": "Get a Free HVAC Quote",
+  "contactSubheading": "Knoxfield's 24/7 air conditioning team",
+  "reviews": [
+    {
+      "text": "Mattick Air fixed our office air conditioning breakdown in Knoxfield within an hour of calling. Their technician diagnosed the issue quickly and had us back up and running the same day. Incredible 24-hour service.",
+      "name": "David Thompson",
+      "role": "Knoxfield Business Owner"
+    },
+    {
+      "text": "We have had Mattick Air maintain our warehouse HVAC system in Rowville for three years now. Their scheduled maintenance plans have significantly reduced our energy bills and kept the system running smoothly through Melbourne summers.",
+      "name": "Sarah Mitchell",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Mattick Air designed and installed a new commercial air conditioning system for our Knoxfield facility. The whole process from design to commissioning was professional and on time. Highly recommend their installation team.",
+      "name": "James O'Brien",
+      "role": "Facilities Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Knoxfield",
+    "Rowville",
+    "Ferntree Gully",
+    "Wantirna South",
+    "Boronia",
+    "Mulgrave",
+    "Lysterfield",
+    "Wantirna"
+  ],
+  "about": {
+    "intro": "Mattick Air has been Knoxfield's go-to air conditioning contractor for over 35 years, delivering expert commercial and industrial HVAC services across Melbourne.",
+    "story": [
+      "Founded over 35 years ago in Knoxfield, Mattick Air has grown from a small local operation into one of Melbourne's most trusted commercial air conditioning contractors. Our deep roots in the eastern suburbs mean we understand the unique climate challenges that Knoxfield and surrounding areas face, from scorching summer heatwaves to the demands of large-scale industrial facilities requiring consistent climate control.",
+      "Our team of fully licensed HVAC technicians operates from our Knoxfield base, providing 24-hour breakdown service, planned maintenance programs, and complete system installations to businesses across Melbourne. Every project we undertake reflects our commitment to energy efficiency, regulatory compliance, and lasting comfort for our clients."
+    ],
+    "mission": "To keep Knoxfield and Melbourne's commercial spaces comfortable with reliable, expert air conditioning services around the clock.",
+    "whyUs": [
+      {
+        "title": "24/7 Availability",
+        "text": "Our technicians are on call around the clock, 365 days a year for emergencies."
+      },
+      {
+        "title": "35 Years Experience",
+        "text": "Three and a half decades of proven HVAC expertise in Knoxfield and Melbourne."
+      },
+      {
+        "title": "Full Mechanical Services",
+        "text": "From design through to installation and ongoing maintenance, we handle everything."
+      },
+      {
+        "title": "Energy Efficient",
+        "text": "We focus on systems that reduce running costs and environmental impact."
+      }
+    ],
+    "stats": [
+      {
+        "value": "35+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Service"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed and Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed HVAC contractors",
+      "Comprehensive insurance coverage",
+      "Melbourne regulation compliant",
+      "24/7 emergency availability"
+    ]
+  },
+  "pricing": {
+    "intro": "Mattick Air provides transparent, no-obligation quotes for all air conditioning services in Knoxfield. Every job is quoted upfront with no hidden surprises.",
+    "packages": [
+      {
+        "name": "Emergency Call-Out",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "24/7 availability",
+          "On-site diagnosis",
+          "Upfront fixed quote"
+        ]
+      },
+      {
+        "name": "Maintenance Plan",
+        "price": "from $250",
+        "unit": "per service",
+        "highlight": true,
+        "features": [
+          "Scheduled inspections",
+          "Filter replacement",
+          "Performance reporting",
+          "Priority breakdown support"
+        ]
+      },
+      {
+        "name": "New Installation",
+        "price": "from $4,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom system design",
+          "Professional installation",
+          "Commissioning and handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no lock-in contracts — you only pay for what you approve."
+  },
+  "contact": {
+    "intro": "Ready to get your Knoxfield air conditioning sorted? Call Mattick Air anytime on (03) 9764 0992 or email service@mattickair.com.au for a free, no-obligation quote."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Commercial Air Conditioning Cost in Knoxfield?",
+      "date": "March 2026",
+      "excerpt": "A complete guide to commercial air conditioning costs in Knoxfield, covering installation, maintenance and emergency repairs for Melbourne's eastern suburbs.",
+      "body": [
+        "Understanding the cost of commercial air conditioning in Knoxfield requires consideration of several key factors that directly impact your bottom line. As one of Melbourne's established eastern suburbs, Knoxfield hosts a diverse mix of commercial and industrial facilities, from small retail shops along Burwood Highway to large warehouses in the industrial precinct near Rushdale Street. Each type of space presents different HVAC requirements and cost structures. A small office fit-out will differ vastly from a large-scale warehouse cooling solution, and getting accurate pricing starts with understanding what drives these costs in the Knoxfield area specifically.",
+        "The size of your commercial space is the single biggest factor in determining air conditioning costs in Knoxfield. Measured in kilowatts, the cooling or heating capacity required scales directly with floor area, ceiling height, and insulation quality. A typical Knoxfield retail shop of 100 square metres might require a 10 to 15 kilowatt system, while a warehouse of 1,000 square metres with high ceilings could demand 60 kilowatts or more. Melbourne's variable climate, with summer temperatures regularly exceeding 35 degrees and winter lows near freezing, means systems must be sized to handle both extremes. An undersized system will struggle during peak demand, while an oversized unit wastes energy and money.",
+        "For Knoxfield businesses considering a new air conditioning installation, the equipment itself typically represents 40 to 60 percent of the total project cost. Commercial-grade split systems for individual zones might start from $3,000 to $5,000 per unit installed, while ducted systems for larger spaces range from $15,000 to $50,000 or more depending on complexity. VRF systems, which are increasingly popular in Knoxfield commercial buildings for their energy efficiency and zone control capabilities, generally fall in the $30,000 to $80,000 range for a typical medium-sized commercial installation. These figures include equipment, installation labour, ductwork, and commissioning, but can vary significantly based on the specific brand, system type, and building requirements.",
+        "Ongoing maintenance costs in Knoxfield are an essential consideration that many business owners overlook until a breakdown occurs. A well-maintained commercial air conditioning system in Melbourne typically requires professional servicing two to four times per year, with costs ranging from $200 to $500 per service visit depending on system size and complexity. These regular maintenance visits include filter cleaning and replacement, refrigerant level checks, electrical connection inspections, and performance optimisation. For Knoxfield businesses, investing in a scheduled maintenance plan with Mattick Air can reduce energy consumption by up to 15 percent annually and significantly extend the lifespan of your HVAC equipment, making it one of the smartest investments for your commercial property.",
+        "Emergency breakdown repairs represent an unavoidable cost category for Knoxfield commercial facilities. When your air conditioning fails during a 40-degree Melbourne heatwave, the cost of lost productivity and uncomfortable staff or customers far exceeds the repair bill. Typical emergency call-out fees in the Knoxfield area range from $150 to $300 for the initial visit, with repair costs on top depending on the issue. Common problems include refrigerant leaks, compressor failures, electrical faults, and blocked drain lines. Having a reliable 24-hour HVAC contractor like Mattick Air on your side in Knoxfield means faster response times and often lower repair costs because problems are addressed before they escalate into major system failures.",
+        "Energy efficiency is a critical cost factor for Knoxfield commercial air conditioning that directly impacts your monthly operating expenses. Melbourne's commercial electricity rates mean that an inefficient HVAC system can add thousands of dollars to your annual energy bills. Modern inverter technology, smart thermostats, and proper building insulation can reduce energy consumption by 30 to 50 percent compared to older systems. When budgeting for commercial air conditioning in Knoxfield, it is worth considering the total cost of ownership over 10 to 15 years rather than just the upfront installation price. A more expensive but energy-efficient system will often pay for itself within three to five years through reduced electricity costs, making it the smarter long-term investment for Knoxfield businesses."
+      ]
+    },
+    {
+      "title": "When to Service Your Air Conditioner in Melbourne's Eastern Suburbs",
+      "date": "February 2026",
+      "excerpt": "Learn the best times to service your commercial air conditioner in Knoxfield and Melbourne's eastern suburbs to avoid breakdowns during peak demand.",
+      "body": [
+        "Timing your air conditioning service in Knoxfield and Melbourne's eastern suburbs is crucial for avoiding unexpected breakdowns when you need your system most. Melbourne's notoriously unpredictable climate means your commercial HVAC system faces extreme demands throughout the year, from scorching January and February heatwaves that push temperatures above 40 degrees to cold, damp winter months that test heating capabilities. The smartest Knoxfield business owners schedule their maintenance during the shoulder seasons of March to April and September to October, when HVAC contractors have greater availability and your system is under less immediate pressure.",
+        "Spring servicing in September and October is particularly valuable for Knoxfield commercial facilities because it prepares your system for the demanding Melbourne summer ahead. During a spring service, our Mattick Air technicians thoroughly inspect and clean all components, check refrigerant levels, test electrical connections, and ensure the system can handle the peak cooling loads that Knoxfield summers bring. This proactive approach means your system is ready to perform when temperatures spike in December and January, reducing the risk of a breakdown during the busiest and most critical trading period for most businesses. The cost of a spring service, typically between $200 and $500, is negligible compared to the expense of an emergency repair during a heatwave.",
+        "Autumn servicing in March and April serves a different but equally important purpose for Knoxfield air conditioning systems. As temperatures begin to drop and heating demand increases, an autumn service ensures your system transitions smoothly from cooling to heating mode. This is also the ideal time to address any wear and tear accumulated during the summer, clean or replace filters that have been working overtime, and check that the system's heating components are functioning correctly. For Knoxfield commercial buildings with reverse-cycle systems, this seasonal transition is critical for maintaining consistent indoor comfort and energy efficiency throughout the cooler months that Melbourne's eastern suburbs experience from May through August.",
+        "The frequency of servicing depends on the type and usage of your Knoxfield air conditioning system. Commercial systems in high-traffic environments such as retail shops, medical centres, or hospitality venues should ideally be serviced every three months to maintain optimal performance and indoor air quality. Office environments might require servicing every four to six months, while industrial facilities with larger systems and more demanding conditions should stick to quarterly maintenance schedules. Mattick Air's maintenance plans for Knoxfield businesses are tailored to your specific system type, usage patterns, and the environmental conditions of your facility, ensuring you never fall behind on essential maintenance.",
+        "Ignoring regular servicing in Knoxfield leads to a cascade of increasingly expensive problems that could have been easily prevented. Dirty filters reduce airflow and force the system to work harder, increasing energy costs by up to 15 percent. Low refrigerant levels cause the compressor to overwork and eventually fail, resulting in repair bills that can run into thousands of dollars. Neglected drain lines become blocked and cause water damage to ceilings, walls, and equipment. Electrical connections that are not regularly checked can deteriorate and pose serious safety risks. For Knoxfield businesses, these consequences are not just financial inconveniences but can impact staff productivity, customer comfort, and even workplace safety.",
+        "Mattick Air makes scheduling your Knoxfield air conditioning service simple with flexible maintenance plans designed around your business needs. Our 24-hour availability means we can service your system outside of business hours to minimise disruption, and our experienced technicians carry a comprehensive range of parts and filters to complete most maintenance visits in a single trip. Whether you need a one-off service or a comprehensive annual maintenance plan for your Knoxfield commercial facility, our team delivers reliable, thorough work that keeps your air conditioning system performing at its best throughout every Melbourne season. Call us on (03) 9764 0992 to discuss a maintenance schedule tailored to your Knoxfield property."
+      ]
+    },
+    {
+      "title": "Signs Your Commercial Air Conditioner Needs Replacing in Knoxfield",
+      "date": "January 2026",
+      "excerpt": "Five key signs Knoxfield businesses should look for that indicate it is time to replace your commercial air conditioning system rather than repair it.",
+      "body": [
+        "For Knoxfield business owners, recognising when to replace rather than repair a commercial air conditioning system can save thousands of dollars and prevent costly disruptions. Most commercial HVAC systems in Melbourne have a functional lifespan of 15 to 20 years, but factors such as heavy usage, inadequate maintenance, and Melbourne's extreme temperature variations can shorten this significantly. If your Knoxfield facility's air conditioning system is approaching or has exceeded the 15-year mark, it is worth evaluating whether continued repairs represent good value or whether a new system would deliver better performance, lower energy costs, and greater reliability for your business.",
+        "Frequent breakdowns are the clearest indicator that your Knoxfield commercial air conditioning system is reaching the end of its useful life. If you are calling for repairs more than twice a year, or if the same issues keep recurring despite professional attention, the underlying system is likely deteriorating beyond economical repair. Each emergency call-out in the Knoxfield area typically costs $150 to $300 before parts and labour, so even a few breakdowns per year can quickly add up to a significant portion of the cost of a new system. When repair bills start exceeding 30 to 40 percent of the replacement cost, investing in new equipment becomes the more financially sensible decision for Knoxfield businesses.",
+        "Rising energy bills without a corresponding increase in usage strongly suggest your Knoxfield air conditioning system is losing efficiency. As commercial HVAC systems age, components wear down, refrigerant efficiency decreases, and electrical connections deteriorate, all of which force the system to consume more energy to deliver the same level of comfort. If your Knoxfield business has noticed a steady increase in electricity costs over the past two to three years despite stable usage patterns, an old air conditioning system is likely the culprit. Modern commercial systems with inverter technology and smart controls can reduce energy consumption by 30 to 50 percent compared to systems from even a decade ago, delivering substantial savings for Knoxfield businesses.",
+        "Inconsistent temperatures throughout your Knoxfield facility are a telltale sign that your air conditioning system can no longer maintain proper climate control. Hot and cold spots, rooms that never seem to reach the set temperature, and zones that are uncomfortable despite the system running at full capacity all indicate that the system is struggling to cope with demand. For Knoxfield commercial buildings, this inconsistency not only affects staff productivity and customer comfort but can also impact temperature-sensitive operations such as data storage, food preparation, or manufacturing processes. A new system designed and installed by Mattick Air will restore consistent, reliable climate control throughout your entire Knoxfield facility.",
+        "R-22 refrigerant phase-out is an increasingly urgent concern for Knoxfield businesses with older commercial air conditioning systems. R-22, also known as HCFC-22, was commonly used in commercial HVAC systems manufactured before 2010 and has been progressively phased out in Australia due to its ozone-depleting properties. If your Knoxfield system uses R-22 refrigerant, sourcing replacements is becoming increasingly difficult and expensive, with prices rising dramatically as supply diminishes. Furthermore, regulations around R-22 handling are becoming stricter, adding compliance costs for Knoxfield businesses. Upgrading to a modern system that uses R-410A or R-32 refrigerant eliminates this growing headache and future-proofs your facility's climate control.",
+        "If your Knoxfield commercial air conditioning system is showing any combination of these signs, Mattick Air can help you evaluate your options and make an informed decision about whether to repair or replace. Our experienced technicians will assess your current system, provide honest advice about its remaining lifespan and efficiency, and if replacement is the best option, design a new system tailored to your Knoxfield facility's specific needs and budget. With 35 years of commercial HVAC experience in Melbourne's eastern suburbs, we have the expertise to deliver installation projects that improve comfort, reduce running costs, and provide reliable service for years to come. Contact us on (03) 9764 0992 for a no-obligation assessment of your Knoxfield air conditioning system."
+      ]
+    },
+    {
+      "title": "Choosing the Right Commercial HVAC System for Your Knoxfield Business",
+      "date": "December 2025",
+      "excerpt": "A comprehensive guide to selecting the best commercial air conditioning system for Knoxfield businesses, covering system types, sizing and energy efficiency.",
+      "body": [
+        "Selecting the right commercial HVAC system for your Knoxfield business is one of the most important decisions you will make for your facility's comfort, energy efficiency, and operating costs. With Melbourne's eastern suburbs experiencing temperature extremes from over 40 degrees in summer to near freezing in winter, your air conditioning system must be capable of maintaining consistent indoor comfort year round. The Knoxfield area hosts a wide variety of commercial and industrial operations, each with unique climate control requirements, from open-plan offices and retail showrooms to warehouses and specialised processing facilities. Understanding your options is the first step toward making a smart investment.",
+        "Split systems are the most common type of commercial air conditioning in smaller Knoxfield businesses, offering an affordable entry point with relatively straightforward installation. A split system consists of an indoor unit connected to an outdoor condenser, making it ideal for individual rooms, small offices, or specific zones within a larger Knoxfield facility. Modern commercial split systems with inverter technology offer excellent energy efficiency and precise temperature control, with capacities ranging from 5 to 25 kilowatts. For Knoxfield retail shops, small offices, and medical consulting rooms, a well-sized split system provides reliable comfort without the complexity and cost of larger ducted installations.",
+        "Ducted air conditioning systems are the preferred choice for larger Knoxfield commercial spaces that require consistent climate control across multiple rooms or open-plan areas. A centralised outdoor unit distributes conditioned air through a network of ducts to various zones throughout the building, all controlled from a central point or through individual zone controls. For Knoxfield offices, schools, and medium-sized commercial facilities, ducted systems offer the advantage of uniform temperature distribution, aesthetic discretion with only discreet grilles visible, and the ability to cool or heat large areas from a single system. The installation cost is higher than split systems, typically ranging from $15,000 to $50,000 for a Knoxfield commercial installation, but the whole-building comfort and efficiency advantages often justify the investment.",
+        "Variable Refrigerant Flow systems represent the cutting edge of commercial HVAC technology and are increasingly popular in Knoxfield's larger commercial and industrial facilities. VRF systems use advanced inverter compressors to precisely control the amount of refrigerant flowing to multiple indoor units, allowing simultaneous heating and cooling in different zones of your Knoxfield building. This zone control capability makes VRF particularly valuable for facilities with diverse usage patterns, such as buildings with server rooms that need cooling while office areas require heating during Melbourne winters. While VRF systems carry a higher upfront investment, typically $30,000 to $80,000 for a Knoxfield commercial installation, their exceptional energy efficiency and precise comfort control deliver significant long-term savings.",
+        "Proper system sizing is critical for Knoxfield commercial air conditioning installations and is where professional expertise from Mattick Air makes the difference between a system that performs beautifully and one that underwhelms. An oversized system will cycle on and off frequently, creating uneven temperatures, wasting energy, and putting unnecessary stress on components. An undersized system will run constantly without achieving the desired temperature, driving up energy costs and accelerating wear. Our Knoxfield HVAC engineers calculate the precise cooling and heating load for your facility by assessing floor area, ceiling height, insulation values, window orientation, internal heat gains from equipment and occupants, and Melbourne's specific climate data to ensure your new system is perfectly matched to your building.",
+        "Energy efficiency should be at the forefront of every Knoxfield business owner's mind when choosing a commercial HVAC system, given Melbourne's electricity costs and the long operating hours of commercial equipment. Look for systems with high energy efficiency ratios and inverter technology, which adjusts compressor speed to match demand rather than running at full power all the time. Government rebates and incentives may also be available for Knoxfield businesses that install energy-efficient commercial air conditioning systems, further reducing the upfront cost. Mattick Air can help Knoxfield businesses navigate these options and select systems that deliver the optimal balance of performance, efficiency, and value for their specific facility and budget."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Mattick Air — HVAC in Knoxfield | 24/7 Air Con",
+      "description": "Knoxfield's trusted HVAC contractor with 35 years experience. 24-hour emergency air conditioning, maintenance plans and commercial installations across Melbourne."
+    },
+    "about": {
+      "title": "About Mattick Air | Knoxfield HVAC Experts | 35 Years",
+      "description": "Learn about Mattick Air, Knoxfield's trusted commercial air conditioning contractor with over 35 years of HVAC expertise across Melbourne's eastern suburbs."
+    },
+    "services": {
+      "title": "Air Conditioning Services Knoxfield | Mattick Air",
+      "description": "Expert commercial air conditioning services in Knoxfield: 24-hour breakdowns, maintenance plans, system design and installations across Melbourne's eastern suburbs."
+    },
+    "pricing": {
+      "title": "HVAC Pricing Knoxfield | Mattick Air Air Conditioning",
+      "description": "Transparent pricing for commercial air conditioning in Knoxfield. Emergency call-outs, maintenance plans and new installations with upfront fixed quotes."
+    },
+    "contact": {
+      "title": "Contact Mattick Air | Knoxfield | Free HVAC Quotes",
+      "description": "Get a free quote from Mattick Air in Knoxfield. Call (03) 9764 0992 for 24/7 commercial air conditioning service, maintenance and installations."
+    },
+    "blog": {
+      "title": "Knoxfield HVAC Blog | Mattick Air Tips and Guides",
+      "description": "Expert HVAC advice for Knoxfield businesses. Guides on commercial air conditioning costs, maintenance schedules, system selection and energy efficiency."
+    }
+  }
+}
