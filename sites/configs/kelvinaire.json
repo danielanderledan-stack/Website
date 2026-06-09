@@ -1,0 +1,302 @@
+{
+  "siteType": "hvac",
+  "businessName": "Kelvinaire",
+  "suburb": "Cheltenham",
+  "phone": "0435 466 295",
+  "email": "brock@ilettdigital.com",
+  "address": "231 Charman Road, Cheltenham VIC 3192",
+  "tagline": "Cheltenham's Air Conditioning Experts",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55d00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Cheltenham's Trusted HVAC Specialists",
+      "sub": "1 Year of Local Experience"
+    },
+    {
+      "title": "Expert Air Conditioning Installations",
+      "sub": "Split, Ducted & VRV/VRF Systems"
+    },
+    {
+      "title": "24/7 Emergency Repairs & Service",
+      "sub": "Fast Response Across Cheltenham"
+    }
+  ],
+  "ctaHeading": "Need HVAC Services in Cheltenham? Get a Free Quote Today.",
+  "aboutHeading": "Cheltenham's Local HVAC Experts",
+  "aboutSubheading": "Kelvinaire – Your Trusted Partner",
+  "aboutText": "At Kelvinaire, we've been providing top-tier air conditioning and heating solutions to Cheltenham and surrounding suburbs for over 1 year. Our licensed technicians specialize in installations, repairs, and maintenance for both residential and commercial properties, ensuring optimal comfort year-round with energy-efficient systems tailored to Melbourne's bayside climate.",
+  "servicesHeading": "Our HVAC Services in Cheltenham",
+  "servicesSubheading": "Comprehensive Heating & Cooling Solutions",
+  "servicesText": "From split system installations to emergency repairs, Kelvinaire offers a full range of HVAC services tailored to Cheltenham's needs. We work with leading brands and adhere to Australian standards for quality and efficiency.",
+  "services": [
+    {
+      "title": "Split System AC Installation",
+      "desc": "Professional installation of split system air conditioners for homes and offices in Cheltenham.",
+      "longDesc": "We install energy-efficient split system ACs in Cheltenham, ensuring optimal cooling and heating with minimal energy consumption. Our technicians handle all brands and models, complying with Australian building codes for reliable performance.",
+      "points": [
+        "Expert installation",
+        "Energy-efficient models",
+        "Same-day service"
+      ]
+    },
+    {
+      "title": "Ducted Air Conditioning",
+      "desc": "Full ducted AC systems for whole-home climate control in Cheltenham properties.",
+      "longDesc": "Kelvinaire designs and installs ducted air conditioning in Cheltenham, providing consistent temperature throughout with quiet operation and smart zoning. Ideal for larger homes seeking seamless integration and energy savings.",
+      "points": [
+        "Whole-home solution",
+        "Zoned climate control",
+        "Professional design"
+      ]
+    },
+    {
+      "title": "Air Conditioner Service & Repairs",
+      "desc": "Routine servicing and emergency repairs for all AC brands in Cheltenham.",
+      "longDesc": "Our Cheltenham team offers comprehensive AC servicing and repairs, from filter cleans to compressor fixes, ensuring your system runs efficiently and prolonging its lifespan. We use genuine parts for long-term reliability.",
+      "points": [
+        "Fast diagnostics",
+        "Genuine parts",
+        "Maintenance plans"
+      ]
+    },
+    {
+      "title": "Heating Systems Installation",
+      "desc": "Gas ducted heating and VRV/VRF systems for efficient warmth in Cheltenham homes.",
+      "longDesc": "We install and maintain gas ducted heating and VRV/VRF systems in Cheltenham, tailored to Australian winters for reliable and cost-effective heating. Our solutions enhance comfort while reducing energy bills.",
+      "points": [
+        "Winter-ready systems",
+        "Low running costs",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Ventilation & Indoor Air Quality",
+      "desc": "Improve air quality with ventilation systems, air duct cleaning, and HEPA purifiers in Cheltenham.",
+      "longDesc": "Kelvinaire provides ventilation solutions, air duct cleaning, and HEPA purifiers in Cheltenham, ensuring healthy indoor air quality and compliance with IAQ testing standards for homes and businesses.",
+      "points": [
+        "HEPA filtration",
+        "Air duct cleaning",
+        "IAQ testing"
+      ]
+    },
+    {
+      "title": "Commercial HVAC Solutions",
+      "desc": "Tailored heating, cooling, and ventilation systems for businesses in Cheltenham.",
+      "longDesc": "For Cheltenham businesses, we design and install commercial HVAC systems, including mechanical ventilation and energy-efficient solutions to meet operational needs. Our expertise ensures minimal downtime and optimal performance.",
+      "points": [
+        "Custom designs",
+        "Energy savings",
+        "Reliable systems"
+      ]
+    }
+  ],
+  "bannerHeading": "HVAC Problems in Cheltenham? We've Got You Covered.",
+  "bannerSubheading": "From installations to repairs, call Kelvinaire today for fast solutions.",
+  "testimonialsHeading": "What Cheltenham Residents Say About Kelvinaire",
+  "testimonialsSubheading": "Trusted by locals for quality HVAC services",
+  "blogHeading": "Cheltenham HVAC Tips & Guides",
+  "blogSubheading": "Expert advice from your local air conditioning specialists",
+  "contactHeading": "Contact Kelvinaire for a Free Quote",
+  "contactSubheading": "Serving Cheltenham and surrounding areas",
+  "reviews": [
+    {
+      "text": "Kelvinaire installed a new split system AC in our Cheltenham home last month. The team was professional, quick, and the unit works perfectly in Melbourne's heat. Highly recommend their services!",
+      "name": "Sarah Mitchell",
+      "role": "Cheltenham Homeowner"
+    },
+    {
+      "text": "We called Kelvinaire for an emergency repair on our ducted heating system during a cold snap. They arrived within 30 minutes and fixed it on the spot. Excellent service and fair pricing!",
+      "name": "James Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Kelvinaire for regular AC servicing across multiple Cheltenham properties. Their reliability, expertise, and quick response times are unmatched in the area.",
+      "name": "Emma Collins",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Cheltenham",
+    "Beaumaris",
+    "Brighton",
+    "Hampton",
+    "Sandringham",
+    "Mentone",
+    "Highett"
+  ],
+  "about": {
+    "intro": "Kelvinaire is Cheltenham's premier HVAC contractor, offering comprehensive air conditioning and heating solutions with over 1 year of local experience.",
+    "story": [
+      "Founded in Cheltenham, Kelvinaire has quickly established itself as a trusted name in HVAC services. We understand the unique climate challenges of Melbourne's bayside suburbs, where hot summers and cool winters demand efficient heating and cooling systems tailored to local conditions.",
+      "Our team of licensed technicians is committed to providing exceptional service, from initial consultations to installations and ongoing maintenance. We take pride in our workmanship, using only quality brands and adhering to Australian standards to ensure long-term reliability and customer satisfaction."
+    ],
+    "mission": "To deliver reliable, efficient, and affordable HVAC solutions to Cheltenham homes and businesses.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "Fully licensed and insured HVAC technicians with local expertise."
+      },
+      {
+        "title": "Fast Response",
+        "text": "24/7 emergency service with quick arrival times across Cheltenham."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden fees – get fixed quotes before any work begins."
+      },
+      {
+        "title": "Quality Brands",
+        "text": "We work with leading manufacturers like Daikin and Mitsubishi."
+      }
+    ],
+    "stats": [
+      {
+        "value": "1+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "24/7 availability",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Kelvinaire, we offer transparent pricing for all HVAC services in Cheltenham. No lock-in contracts – just honest, upfront quotes tailored to your needs.",
+    "packages": [
+      {
+        "name": "Service Call & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Fixed quote provided",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard AC Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full system inspection",
+          "Filter replacement",
+          "Performance report",
+          "30-day guarantee"
+        ]
+      },
+      {
+        "name": "Full System Installation",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Free consultation",
+          "Professional installation",
+          "Post-install support",
+          "Warranty included"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprise costs for Cheltenham residents."
+  },
+  "contact": {
+    "intro": "Ready to improve your home's comfort? Contact Kelvinaire today for a free, no-obligation quote on HVAC services in Cheltenham and surrounds."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Air Conditioning Installation Cost in Cheltenham?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting AC installation costs in Cheltenham, including system type, property size, and energy efficiency ratings.",
+      "body": [
+        "Installing air conditioning in Cheltenham homes involves various cost factors that homeowners should consider. The price heavily depends on whether you choose a split system or ducted AC, the number of rooms to be cooled, and the brand selected. In Cheltenham, where summers can be warm and humid, a quality installation ensures comfort and long-term energy savings. Typical costs for a split system start from $2,500, while ducted systems can range from $5,000 to $10,000, depending on complexity. It's essential to get quotes from licensed technicians like Kelvinaire to understand your specific needs and avoid overpaying.",
+        "The size of your property in Cheltenham plays a significant role in overall costs. A larger home may require more powerful units or multiple systems, which increases the initial investment. Additionally, existing infrastructure like ductwork or electrical systems can affect pricing. Our team at Kelvinaire assesses your home thoroughly to provide accurate quotes, considering factors such as insulation levels and window orientation to recommend the most efficient solution.",
+        "Energy efficiency is crucial in Australia due to rising electricity costs. Choosing a high-star-rated system reduces running costs over time, which is especially important in Cheltenham where climate extremes are common. We recommend brands like Daikin or Mitsubishi for their reliability and efficiency, ensuring your system performs well without excessive energy consumption. This focus on efficiency aligns with Australian building standards for sustainable HVAC solutions.",
+        "Installation complexity also impacts cost in Cheltenham properties. For example, installing a ducted system in a two-story home requires more labor and materials, including ceiling space modifications. Our technicians handle all aspects, from design to installation, ensuring compliance with local regulations and minimizing disruption. We also offer smart AC options for tech-savvy homeowners looking to integrate modern controls.",
+        "Don't forget about ongoing maintenance to protect your investment. Regular servicing, which costs around $150-$300 annually, keeps your system running efficiently and prevents costly breakdowns. In Cheltenham's coastal climate, salt air can affect outdoor units, making maintenance even more critical. Kelvinaire offers tailored service plans to keep your AC in top condition year-round.",
+        "At Kelvinaire, we provide detailed quotes that break down all costs transparently. We also offer financing options to make installation more affordable for Cheltenham residents. Contact us today for a free assessment and take the first step towards a more comfortable home."
+      ]
+    },
+    {
+      "title": "The Best Time to Service Your Air Conditioner in Cheltenham",
+      "date": "February 2026",
+      "excerpt": "Learn why autumn is the ideal season for AC servicing in Cheltenham to prepare for summer and winter extremes.",
+      "body": [
+        "Timing your air conditioner servicing in Cheltenham is key to ensuring reliable performance year-round. Autumn, from March to May, is the best season because it allows you to prepare your system for both the impending winter heating demand and the following summer's cooling needs. In Cheltenham, where temperatures can fluctuate, proactive maintenance prevents unexpected breakdowns and keeps energy bills in check.",
+        "During autumn servicing, technicians can inspect and clean components that accumulate dust and debris over summer. This includes filters, coils, and drainage systems, which if neglected, can lead to reduced efficiency and higher electricity costs. For Cheltenham homeowners, this is particularly important as the coastal environment can introduce salt and moisture, accelerating wear and tear.",
+        "Regular servicing also extends the lifespan of your AC unit. In Australia, HVAC systems typically last 10-15 years with proper maintenance. By scheduling service in autumn, you address issues early, avoiding costly repairs during peak seasons when demand for technicians in Cheltenham is high. Kelvinaire recommends bi-annual check-ups for optimal performance.",
+        "For gas ducted heating systems common in Cheltenham homes, autumn servicing ensures safety and efficiency before winter use. This includes checking gas connections, heat exchangers, and controls to prevent carbon monoxide risks. Our team at Kelvinaire provides comprehensive heating servicing alongside AC maintenance for complete peace of mind.",
+        "Choosing a local Cheltenham service provider like Kelvinaire offers advantages such as faster response times and familiarity with regional climate challenges. We use genuine parts and follow Australian standards to ensure your system operates safely and efficiently. Booking in autumn also often means better availability and sometimes discounted rates.",
+        "In summary, autumn is the smart time to service your air conditioner in Cheltenham. It prepares your system for harsh seasons, improves air quality, and saves money in the long run. Contact Kelvinaire to schedule your service and keep your home comfortable."
+      ]
+    },
+    {
+      "title": "Signs Your Gas Ducted Heating Needs Repair in Cheltenham",
+      "date": "January 2026",
+      "excerpt": "Identify common issues with gas ducted heating systems in Cheltenham homes and when to call a professional.",
+      "body": [
+        "Gas ducted heating is popular in Cheltenham homes for its efficiency, but like any system, it can develop issues that require repair. Common signs include uneven heating, where some rooms stay cold while others are warm, indicating duct blockages or distribution problems. In Cheltenham's chilly winters, this can be uncomfortable and lead to higher energy usage as the system works harder.",
+        "Unusual noises such as rattling, banging, or squealing from the heating unit are red flags. These sounds often signal loose components, belt issues, or debris in the system. If ignored, they can escalate into more serious damage. Cheltenham residents should contact a professional at the first sign of strange noises to avoid system failure during peak demand.",
+        "A sudden increase in energy bills without a change in usage patterns suggests your gas ducted heating is losing efficiency. This could be due to dirty filters, faulty thermostats, or wear in the heat exchanger. In Cheltenham, where energy costs are a concern, addressing this promptly can save money and reduce environmental impact.",
+        "Strange odours, especially a rotten egg smell, may indicate a gas leak, which is a serious safety hazard. Carbon monoxide risks are associated with faulty gas systems, so immediate professional inspection is crucial. Kelvinaire in Cheltenham offers 24/7 emergency services to handle such issues swiftly, ensuring your family's safety.",
+        "Visible rust or corrosion on the heating unit or ducts is another warning sign, common in Cheltenham's coastal air. This can lead to leaks and reduced performance. Regular maintenance can prevent corrosion, but if it appears, a technician should assess the extent of damage and recommend repairs or replacements.",
+        "If your gas ducted heating cycles on and off frequently, it may have a faulty ignition system or thermostat. This short cycling wastes energy and strains the unit. For Cheltenham homeowners, timely repairs by licensed professionals like Kelvinaire can restore efficient operation and extend the system's lifespan.",
+        "In conclusion, being vigilant for these signs ensures your gas ducted heating in Cheltenham remains safe and efficient. Don't hesitate to call Kelvinaire for expert diagnostics and repairs to keep your home warm during Melbourne's cold spells."
+      ]
+    },
+    {
+      "title": "How to Improve Indoor Air Quality in Your Cheltenham Home",
+      "date": "December 2025",
+      "excerpt": "Tips on ventilation, air purifiers, and regular maintenance to enhance air quality in Cheltenham properties.",
+      "body": [
+        "Improving indoor air quality in your Cheltenham home is essential for health and comfort, especially given Melbourne's variable climate. Start with proper ventilation by opening windows regularly to allow fresh air circulation, but be mindful of pollen seasons or high pollution days. In Cheltenham, coastal breezes can help, but mechanical ventilation systems are often necessary for consistent air exchange.",
+        "Investing in a high-quality air purifier with HEPA filters is a effective way to remove allergens, dust, and pollutants. For Cheltenham residents, this is particularly beneficial during spring when pollen counts rise. Brands like Daikin offer integrated air purification in their HVAC systems, combining cooling and air cleaning for convenience.",
+        "Regular maintenance of your air conditioning and heating systems plays a huge role. Clean or replace filters every 3-6 months to ensure efficient airflow and reduce indoor pollutants. In Cheltenham's humid conditions, mold growth can be an issue, so professional air duct cleaning by Kelvinaire annually helps maintain air quality.",
+        "House plants can naturally improve air quality by absorbing toxins and releasing oxygen. In Cheltenham homes, low-maintenance plants like snake plants or peace lilies thrive indoors and contribute to a healthier environment. However, they should complement, not replace, mechanical solutions.",
+        "Humidity control is key in Cheltenham, where coastal moisture can lead to dampness and mold. Using dehumidifiers or HVAC systems with humidity settings maintains optimal levels between 30-50%. This prevents respiratory issues and protects your home's structure from moisture damage.",
+        "For comprehensive air quality improvement, consider IAQ testing services. Kelvinaire offers testing in Cheltenham to identify specific issues like radon, carbon dioxide, or volatile organic compounds. Based on results, we recommend tailored solutions such as enhanced ventilation or air purification systems.",
+        "By combining these strategies – ventilation, purifiers, maintenance, plants, humidity control, and professional testing – Cheltenham homeowners can significantly enhance indoor air quality. Contact Kelvinaire for expert advice and services to create a healthier living space."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Kelvinaire – HVAC in Cheltenham | AC Installations & Repairs",
+      "description": "Expert HVAC services in Cheltenham: air conditioning installation, repair, and heating. Licensed technicians with free quotes. Serving Melbourne's bayside."
+    },
+    "about": {
+      "title": "About Kelvinaire | Cheltenham's Trusted HVAC Contractor",
+      "description": "Discover Kelvinaire, Cheltenham's local HVAC experts with over 1 year of experience in air conditioning and heating solutions. Licensed, insured, and dedicated."
+    },
+    "services": {
+      "title": "HVAC Services in Cheltenham | Split, Ducted & Repairs",
+      "description": "Comprehensive air conditioning and heating services in Cheltenham, including installations, repairs, and maintenance. Quality work from licensed professionals."
+    },
+    "pricing": {
+      "title": "HVAC Costs & Quotes in Cheltenham | Kelvinaire Pricing",
+      "description": "Transparent pricing for air conditioning and heating services in Cheltenham. Get upfront quotes for installations, repairs, and maintenance with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Kelvinaire | Free HVAC Quotes in Cheltenham",
+      "description": "Get in touch with Kelvinaire for free quotes on air conditioning and heating services in Cheltenham. Fast response for residential and commercial needs."
+    },
+    "blog": {
+      "title": "Cheltenham HVAC Blog | Air Conditioning Tips & Guides",
+      "description": "Expert advice on air conditioning, heating, and indoor air quality for Cheltenham homes. Local tips from Kelvinaire's HVAC specialists in Melbourne."
+    }
+  }
+}
