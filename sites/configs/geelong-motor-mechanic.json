@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Geelong Motor Mechanic",
+  "suburb": "Corio",
+  "phone": "0352151784",
+  "email": "Geelonggarageptyltd@gmail.com",
+  "address": "5/9-11 Sandra Ave, Corio VIC 3214",
+  "tagline": "Corio's Trusted Motor Mechanics",
+  "primaryColor": "#00ff00",
+  "primaryColorRgb": "0, 255, 0",
+  "primaryColorHover": "#00cc00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Corio's Go-To Motor Mechanics",
+      "sub": "Serving Geelong and surrounds with quality repairs"
+    },
+    {
+      "title": "Expert Car Repair & Servicing",
+      "sub": "From brake jobs to engine overhauls"
+    },
+    {
+      "title": "Trusted by Corio Locals",
+      "sub": "Free quotes and honest advice"
+    }
+  ],
+  "ctaHeading": "Ready for a Mechanic in Corio? Let's Get Your Car Fixed.",
+  "aboutHeading": "Quality Car Repairs in Corio",
+  "aboutSubheading": "Experienced mechanics you can trust",
+  "aboutText": "At Geelong Motor Mechanic, we've been providing top-notch car repair services to Corio and the wider Geelong area for over a decade. Our team uses only high-quality parts and materials, ensuring your vehicle gets the best care possible. We pride ourselves on doing the job right the first time, so you can drive away with confidence.",
+  "servicesHeading": "Our Mechanical Services",
+  "servicesSubheading": "Comprehensive car care",
+  "servicesText": "From routine servicing to complex engine repairs, Geelong Motor Mechanic in Corio offers a full range of automotive services. We specialise in brake repairs, electrical diagnostics, and oil changes, using only quality parts for lasting results.",
+  "services": [
+    {
+      "title": "Brake Repair",
+      "desc": "Professional brake pad replacement and rotor resurfacing for safe stopping in Corio.",
+      "longDesc": "Our Corio mechanics provide thorough brake inspections and repairs using high-quality parts. Ensure your vehicle's safety with our reliable brake services tailored to local driving conditions.",
+      "points": [
+        "Safe stopping power",
+        "Quality parts used",
+        "Quick turnaround"
+      ]
+    },
+    {
+      "title": "Engine Service",
+      "desc": "Comprehensive engine diagnostics and repairs to keep your car running smoothly in Geelong.",
+      "longDesc": "Geelong Motor Mechanic in Corio specialises in engine tune-ups, rebuilds, and fault diagnosis. We use advanced tools to fix issues efficiently, extending your vehicle's lifespan.",
+      "points": [
+        "Advanced diagnostics",
+        "Expert technicians",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Electrical Diagnostics",
+      "desc": "Accurate electrical system checks and fixes for all car makes in the Corio area.",
+      "longDesc": "Our team excels in diagnosing and repairing electrical faults, from battery issues to wiring problems. Trust Geelong Motor Mechanic for precise electrical solutions in Corio.",
+      "points": [
+        "Precise fault finding",
+        "All car models",
+        "Reliable fixes"
+      ]
+    },
+    {
+      "title": "Oil Change",
+      "desc": "Fast and affordable oil changes with premium oils for engines in Corio and Geelong.",
+      "longDesc": "Keep your engine healthy with regular oil changes at Geelong Motor Mechanic. We use top-grade oils and filters to enhance performance and fuel efficiency in local conditions.",
+      "points": [
+        "Premium oils used",
+        "Engine protection",
+        "Affordable service"
+      ]
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Expert transmission servicing and rebuilds for smooth gear shifts in Corio.",
+      "longDesc": "From minor adjustments to full rebuilds, our Corio mechanics handle transmission issues with skill. Ensure seamless driving with our specialised transmission repair services.",
+      "points": [
+        "Smooth gear shifts",
+        "Skilled mechanics",
+        "Comprehensive service"
+      ]
+    },
+    {
+      "title": "General Car Servicing",
+      "desc": "Routine maintenance packages to keep your vehicle in top shape around Geelong.",
+      "longDesc": "Geelong Motor Mechanic offers complete car servicing in Corio, including inspections, fluid top-ups, and part replacements. Stay safe on the road with our tailored packages.",
+      "points": [
+        "Full vehicle check",
+        "Custom packages",
+        "Local expertise"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic Near Corio?",
+  "bannerSubheading": "We service all makes and models in the Geelong region.",
+  "testimonialsHeading": "What Corio Customers Say",
+  "testimonialsSubheading": "Honest work at fair prices",
+  "blogHeading": "Car Repair Tips from Corio",
+  "blogSubheading": "Local advice to keep your car running smoothly",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're here to help with your car repairs",
+  "reviews": [
+    {
+      "text": "Geelong Motor Mechanic in Corio did an excellent job on my brake repair. They used quality parts and the service was quick. Highly recommended for anyone in the Geelong area needing reliable mechanics.",
+      "name": "Sam Thompson",
+      "role": "Corio Homeowner"
+    },
+    {
+      "text": "I've been taking my car to Geelong Motor Mechanic for years. Their electrical diagnostics are spot-on, and they always give honest advice. A trusted local business for all vehicle issues.",
+      "name": "Megan Clarke",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable mechanics for our fleet. Geelong Motor Mechanic in Corio provides consistent, high-quality servicing. Great value and professional every time.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Corio",
+    "Geelong",
+    "Norlane",
+    "North Shore",
+    "Breakwater",
+    "Lara",
+    "Bell Park"
+  ],
+  "about": {
+    "intro": "Geelong Motor Mechanic has been serving the Corio community with reliable car repair services for over 10 years.",
+    "story": [
+      "Founded in Corio, our team of skilled mechanics has built a reputation for quality workmanship and customer care. We understand the needs of local drivers and provide tailored solutions for all vehicle issues.",
+      "Using only high-quality parts from trusted suppliers, we ensure every repair meets the highest standards. Our commitment to doing the job right the first time means you can trust us with your vehicle."
+    ],
+    "mission": "To provide Corio with dependable, affordable car repairs that keep you safe on the road.",
+    "whyUs": [
+      {
+        "title": "Experienced Team",
+        "text": "Our mechanics have years of experience with all car makes and models."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use only top-grade parts for durable and reliable repairs."
+      },
+      {
+        "title": "Honest Pricing",
+        "text": "Transparent quotes with no hidden fees or surprises."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed Mechanics"
+      }
+    ],
+    "credentials": [
+      "Licensed mechanics",
+      "Fully insured",
+      "Free quotes",
+      "Quality parts guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Geelong Motor Mechanic in Corio, we offer competitive pricing for all our services. No lock-in contracts, just honest quotes for the work you need.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil change & filter",
+          "Multi-point inspection",
+          "Top-up fluids"
+        ]
+      },
+      {
+        "name": "Standard Repair",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Brake pad replacement",
+          "Engine diagnostic",
+          "Quality parts used",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Overhaul",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full engine rebuild",
+          "Transmission service",
+          "Comprehensive report"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what you're paying."
+  },
+  "contact": {
+    "intro": "Ready to get your car fixed? Contact Geelong Motor Mechanic in Corio for a free, no-obligation quote. We're happy to help with any vehicle issues in the Geelong region."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Car Service Cost in Corio?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of a car service in Corio, factors affecting pricing, and tips to get the best value from your local mechanic.",
+      "body": [
+        "In Corio, the cost of a standard car service typically ranges from $100 to $200, depending on the vehicle make and service type. Factors like engine size, oil quality, and additional inspections can influence pricing. At Geelong Motor Mechanic, we provide transparent quotes tailored to your car's needs, ensuring no surprises.",
+        "Local mechanics in the Geelong area, including Corio, often offer package deals for routine services. For example, a basic oil change might cost around $80, while a comprehensive service with brake checks could be up to $150. It's essential to compare prices and check for quality parts to avoid future repairs.",
+        "The Australian climate can affect car maintenance; in Corio's coastal environment, salt air may accelerate rust, making regular servicing crucial. Our mechanics use high-grade oils and filters suited for local conditions, which can add to the cost but extend your vehicle's life significantly.",
+        "When budgeting for car service in Corio, consider long-term savings from preventive maintenance. Skipping services can lead to costly engine or brake repairs down the line. We recommend scheduling services every 10,000 kilometres or six months to keep your car in top shape.",
+        "Geelong Motor Mechanic in Corio prides itself on competitive pricing without compromising on quality. Our skilled technicians use advanced diagnostics to identify issues early, saving you money. We also offer loyalty discounts for repeat customers in the Geelong region.",
+        "For those in Corio seeking affordable car service, it's wise to read reviews and ask for itemised quotes. Our team provides detailed breakdowns of costs, so you understand what you're paying for. Trust us to deliver value and reliability for all your automotive needs."
+      ]
+    },
+    {
+      "title": "Signs You Need Brake Repairs in Geelong",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators that your car's brakes need attention in Geelong, from squealing noises to reduced stopping power.",
+      "body": [
+        "Brakes are a critical safety component, and in Geelong's variable traffic conditions, timely repairs are essential. Common signs include squealing or grinding noises when braking, which indicate worn pads or rotors. If you notice these in your Corio vehicle, visit Geelong Motor Mechanic immediately.",
+        "Another sign is a soft or spongy brake pedal, often due to air in the brake lines or fluid leaks. In the Geelong area, where roads can be busy, reliable brakes are vital for preventing accidents. Our mechanics use quality parts to restore braking performance efficiently.",
+        "Reduced stopping power or your car pulling to one side during braking are serious issues. These could stem from uneven pad wear or caliper problems. In Corio, we recommend regular brake inspections every 20,000 kilometres to catch problems early and ensure safe driving.",
+        "The Australian climate, with Geelong's occasional wet weather, can affect brake performance. Moisture can lead to rust on rotors, reducing their effectiveness. Our Corio workshop provides rust-resistant treatments and thorough checks to keep your brakes in optimal condition.",
+        "Ignoring brake signs can lead to more expensive repairs, such as rotor replacement instead of simple pad changes. At Geelong Motor Mechanic, we offer free brake inspections to Corio residents, helping you avoid costly breakdowns and maintain vehicle safety.",
+        "To maintain your brakes in Geelong, choose a trusted local mechanic like Geelong Motor Mechanic in Corio. We use diagnostic tools to assess brake wear accurately and provide honest advice on repairs, ensuring you drive with confidence on local roads."
+      ]
+    },
+    {
+      "title": "When to Get an Engine Diagnostic in Corio",
+      "date": "January 2026",
+      "excerpt": "Understand the best times to seek engine diagnostics in Corio, including warning signs and benefits for your vehicle's health.",
+      "body": [
+        "Engine diagnostics are crucial for identifying issues before they escalate, especially in Corio where driving conditions vary. If your check engine light comes on, it's a clear sign to visit Geelong Motor Mechanic. Ignoring it can lead to severe damage and higher repair costs.",
+        "Other indicators include unusual noises, reduced fuel efficiency, or rough idling. In the Geelong region, these problems can be exacerbated by stop-start traffic or coastal humidity. Our Corio mechanics use advanced scanners to pinpoint faults accurately and recommend timely fixes.",
+        "Regular engine diagnostics, recommended every 12 months or 20,000 kilometres, can prevent breakdowns. In Corio's climate, engine components may wear faster due to temperature fluctuations. We provide thorough checks to ensure all systems, from sensors to belts, are functioning correctly.",
+        "For Geelong drivers, engine diagnostics are particularly important before long trips or after purchasing a used car. Our workshop in Corio offers comprehensive scans that cover emissions, ignition, and fuel systems, helping you avoid roadside emergencies in the busy Geelong area.",
+        "Choosing a local mechanic for engine diagnostics in Corio ensures personalised service. At Geelong Motor Mechanic, we explain diagnostic results in plain English, so you understand the issues and solutions. This transparency builds trust with our Corio and Geelong customers.",
+        "To optimise your vehicle's performance in Corio, schedule regular engine diagnostics with Geelong Motor Mechanic. Our expertise in the local automotive landscape means we address region-specific challenges, such as dust or moisture, keeping your engine running smoothly."
+      ]
+    },
+    {
+      "title": "Choosing the Right Mechanic in Geelong for Your Car",
+      "date": "December 2025",
+      "excerpt": "A guide to selecting a trustworthy mechanic in Geelong, focusing on qualifications, local reputation, and service quality.",
+      "body": [
+        "When choosing a mechanic in Geelong, start by checking qualifications and certifications. Geelong Motor Mechanic in Corio employs licensed professionals with years of experience, ensuring your car receives expert care. Look for mechanics affiliated with Australian automotive associations for added credibility.",
+        "Local reputation is key; ask for recommendations from Corio residents or check online reviews. Our workshop has built a strong following in Geelong due to honest pricing and reliable repairs. We encourage potential customers to visit our Corio location and meet our team.",
+        "Service quality involves the parts used and warranties offered. At Geelong Motor Mechanic, we use high-quality parts and provide workmanship guarantees, which are essential for long-term vehicle health. In the Geelong region, where driving conditions can be tough, this commitment matters.",
+        "Consider the range of services available; a good mechanic should handle everything from routine servicing to complex diagnostics. Our Corio workshop covers all aspects of car repair, using advanced technology suited for modern vehicles in the Geelong area.",
+        "Transparency in communication and pricing is vital. Geelong Motor Mechanic provides detailed quotes and explains repairs without jargon, helping Corio customers make informed decisions. We avoid hidden fees, building trust with the local community.",
+        "Finally, evaluate the mechanic's understanding of local conditions. In Geelong, factors like coastal air or urban traffic can affect car performance. Our Corio-based team tailors services to these challenges, ensuring your vehicle remains reliable and safe on local roads."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Geelong Motor Mechanic | Mechanic in Corio | Car Repairs",
+      "description": "Geelong Motor Mechanic in Corio offers expert car repairs, brake services, and engine diagnostics. Trusted by locals for quality work and fair prices."
+    },
+    "about": {
+      "title": "About Us | Corio's Trusted Car Mechanics | Geelong Motor",
+      "description": "Learn about Geelong Motor Mechanic in Corio, with over 10 years experience in car repairs. Quality parts and honest service for Geelong drivers."
+    },
+    "services": {
+      "title": "Car Repair Services in Corio | Brake, Engine & More",
+      "description": "Comprehensive car repair services in Corio from Geelong Motor Mechanic. Including brake repairs, engine service, and electrical diagnostics."
+    },
+    "pricing": {
+      "title": "Car Repair Costs in Corio | Geelong Motor Mechanic",
+      "description": "Transparent pricing for car repairs in Corio. Get quotes for brake services, engine diagnostics, and more from trusted local mechanics."
+    },
+    "contact": {
+      "title": "Contact Geelong Motor Mechanic | Free Corio Car Quotes",
+      "description": "Get a free quote from Geelong Motor Mechanic in Corio. Expert car repairs and servicing for the Geelong region."
+    },
+    "blog": {
+      "title": "Car Repair Blog | Corio & Geelong Mechanic Tips",
+      "description": "Local car repair advice from Corio mechanics. Tips on brake repairs, engine diagnostics, and vehicle maintenance in Geelong."
+    }
+  }
+}
