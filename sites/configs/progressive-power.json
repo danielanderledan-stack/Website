@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Progressive Power",
+  "suburb": "Airport West",
+  "phone": "0411 576 027",
+  "email": "info@progressivepower.com.au",
+  "address": "Unit 6/21 Moore Rd, Airport West VIC 3042",
+  "tagline": "Airport West's Licensed Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e66000",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Progressive Power: Airport West Electricians",
+      "sub": "Over 10 years of licensed service"
+    },
+    {
+      "title": "Expert Electrical Repairs & Installations",
+      "sub": "From safety checks to full upgrades"
+    },
+    {
+      "title": "24/7 Emergency Electrical Support",
+      "sub": "Fast response across Airport West"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Airport West? Call Now.",
+  "aboutHeading": "10 Years Serving Airport West",
+  "aboutSubheading": "Licensed, Local & Reliable",
+  "aboutText": "With over 10 years of experience, Progressive Power is Airport West's trusted choice for licensed electrical services. We specialise in everything from routine repairs to complex installations, ensuring all work meets the highest safety standards. Our local team is committed to providing prompt, reliable service tailored to the unique needs of Airport West residents and businesses.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "We offer a comprehensive range of electrical services, including installations, repairs, and safety inspections. Our licensed electricians are equipped to handle both residential and commercial projects, ensuring efficient and high-quality outcomes for all your electrical needs.",
+  "services": [
+    {
+      "title": "Electrical Repairs",
+      "desc": "Quick and reliable fixes for all electrical issues, from faulty wiring to outlet repairs in Airport West."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Comprehensive safety checks to ensure your property meets Australian electrical standards."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for improved safety and capacity, tailored to local requirements."
+    },
+    {
+      "title": "Lighting Installations",
+      "desc": "Expert installation of indoor and outdoor lighting solutions for homes and businesses."
+    },
+    {
+      "title": "Emergency Services",
+      "desc": "24/7 emergency callouts for urgent electrical problems across Airport West and surrounds."
+    },
+    {
+      "title": "General Electrical Work",
+      "desc": "All other electrical needs, including renovations, new builds, and compliance upgrades."
+    }
+  ],
+  "bannerHeading": "Airport West's Trusted Electricians",
+  "bannerSubheading": "Licensed professionals for every job.",
+  "testimonialsHeading": "What Airport West Locals Say",
+  "testimonialsSubheading": "Real reviews from satisfied customers",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Advice from Progressive Power",
+  "contactHeading": "Contact Progressive Power",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Progressive Power provided exceptional service when upgrading my switchboard in Airport West. Their electricians were professional, punctual, and completed the work efficiently. Highly recommend for any electrical needs.",
+      "name": "Marzelle Cohen",
+      "role": "Airport West Homeowner"
+    },
+    {
+      "text": "I appreciated the quick response for an emergency repair at my business in Airport West. The team was extremely responsive and fixed the issue same day. Fantastic service and fair pricing.",
+      "name": "Virginia Bacon",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent workmanship and friendly service from Progressive Power. They installed safety circuits and were very thorough. I will definitely use them again for future electrical work.",
+      "name": "Alondra Gataé",
+      "role": "Property Manager"
+    }
+  ]
+}
