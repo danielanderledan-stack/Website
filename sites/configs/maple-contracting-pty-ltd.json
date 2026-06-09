@@ -1,0 +1,300 @@
+{
+  "siteType": "tiler",
+  "businessName": "Maple Contracting Pty Ltd",
+  "suburb": "Blackburn",
+  "phone": "03 9876 5432",
+  "email": "info@maplecontracting.com.au",
+  "address": "37 Maple St, Blackburn VIC 3130",
+  "tagline": "Blackburn's Trusted Bathroom Renovation Experts",
+  "primaryColor": "#00C4FF",
+  "primaryColorRgb": "0, 196, 255",
+  "primaryColorHover": "#00AEEF",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Blackburn's Trusted Tile Installers",
+      "sub": "Over 10 years transforming bathrooms"
+    },
+    {
+      "title": "Bathroom Renovations & Waterproofing",
+      "sub": "Domestic & commercial tiling services"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Blackburn & surrounds"
+    }
+  ],
+  "ctaHeading": "Blackburn's tilers are ready — let's start your project.",
+  "aboutHeading": "10 Years Tiling in Blackburn",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Maple Contracting has been providing expert tiling services in Blackburn for over 10 years. We specialize in bathroom renovations, waterproofing, and floor tiling, using only high-quality Australian materials. Our team is fully licensed and committed to delivering flawless finishes on time and within budget.",
+  "servicesHeading": "What We Tile & Transform",
+  "servicesSubheading": "Tiling done right",
+  "servicesText": "From sleek bathroom floors to durable outdoor tiling, Maple Contracting offers comprehensive tiling solutions in Blackburn. We handle everything from waterproofing to intricate mosaic work, ensuring your space looks stunning and lasts for years.",
+  "services": [
+    {
+      "title": "Bathroom Tiling",
+      "desc": "Expert installation of wall and floor tiles for modern, waterproof bathrooms.",
+      "longDesc": "Our bathroom tiling services in Blackburn cover everything from waterproofing to finishing touches, using Australian-made tiles that resist moisture and wear. We ensure precise alignment and grouting for a seamless look that enhances your home's value.",
+      "points": [
+        "Waterproof guarantee",
+        "Custom designs",
+        "Durable materials"
+      ]
+    },
+    {
+      "title": "Floor Tiling",
+      "desc": "Durable and stylish floor tiling for living areas, kitchens, and commercial spaces.",
+      "longDesc": "For floor tiling in Blackburn, we provide options from ceramic to natural stone, tailored to high-traffic areas. Our professional installation ensures long-lasting results that withstand Melbourne's climate, with minimal maintenance required.",
+      "points": [
+        "Slip-resistant options",
+        "Easy cleaning",
+        "All tile types"
+      ]
+    },
+    {
+      "title": "Waterproofing",
+      "desc": "Essential waterproofing solutions to prevent leaks and structural damage.",
+      "longDesc": "In Blackburn, we use top-grade waterproofing membranes for bathrooms, laundries, and balconies, complying with Australian standards. This critical step protects your property from water ingress, ensuring longevity and peace of mind.",
+      "points": [
+        "Code compliant",
+        "Long-term protection",
+        "Fast application"
+      ]
+    },
+    {
+      "title": "Outdoor Tiling",
+      "desc": "Weather-resistant tiling for patios, driveways, and outdoor entertainment areas.",
+      "longDesc": "Our outdoor tiling services in Blackburn use durable, slip-resistant tiles suited for Melbourne's variable weather. We handle everything from design to installation, creating functional and attractive outdoor spaces for relaxation and gatherings.",
+      "points": [
+        "UV-stable tiles",
+        "Slip safety",
+        "Easy upkeep"
+      ]
+    },
+    {
+      "title": "Mosaic & Decorative Tiling",
+      "desc": "Custom mosaic work and decorative tiles for unique, artistic touches.",
+      "longDesc": "For decorative tiling in Blackburn, we create bespoke mosaic features, splashbacks, and accent walls that add personality to any room. Our skilled tilers handle intricate patterns, ensuring a flawless finish that reflects your style.",
+      "points": [
+        "Personalized designs",
+        "Precision work",
+        "Creative solutions"
+      ]
+    },
+    {
+      "title": "Tile Repairs",
+      "desc": "Quick and reliable repair services for cracked, loose, or damaged tiles.",
+      "longDesc": "In Blackburn, we offer tile repair services to fix issues like cracked tiles or grout damage, preventing further deterioration. Our team efficiently replaces and regrouts tiles, restoring the original look and functionality of your surfaces.",
+      "points": [
+        "Fast turnaround",
+        "Match existing tiles",
+        "Cost-effective"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Tiler in Blackburn?",
+  "bannerSubheading": "Expert advice and free quotes for all tiling projects.",
+  "testimonialsHeading": "What Blackburn Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Tiling Guides & Advice",
+  "blogSubheading": "Deep-dives from the Blackburn team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Maple Contracting did an amazing job tiling our bathroom in Blackburn. The waterproofing was impeccable, and the finish is beautiful, exactly as we envisioned.",
+      "name": "Sarah Thompson",
+      "role": "Blackburn Homeowner"
+    },
+    {
+      "text": "We hired Maple for our café floor tiling in Blackburn. Quick, professional, and the result has impressed all our customers, boosting our ambiance.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Maple Contracting for tiling repairs across Blackburn. They always deliver on time and within budget, with top-quality work.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Blackburn",
+    "Box Hill",
+    "Mitcham",
+    "Doncaster",
+    "Ringwood",
+    "Nunawading"
+  ],
+  "about": {
+    "intro": "Discover Maple Contracting, Blackburn's premier tiling specialists for over a decade.",
+    "story": [
+      "Founded in 2014, Maple Contracting started as a small tiling service in Blackburn and has grown to serve the wider Melbourne area. Our founder, with 15 years of experience, noticed a need for reliable, high-quality tiling in bathroom renovations.",
+      "Today, we are a trusted name in Blackburn, known for our attention to detail and use of top-grade materials. From initial consultation to final touches, we ensure every project meets Australian standards and exceeds expectations."
+    ],
+    "mission": "To transform Blackburn homes with exceptional tiling craftsmanship.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "Fully qualified tilers with years of local experience in Blackburn."
+      },
+      {
+        "title": "Quality Materials",
+        "text": "We use only Australian-made tiles and waterproofing products for durability."
+      },
+      {
+        "title": "On-Time Delivery",
+        "text": "Projects completed efficiently without compromising quality or details."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden costs — get upfront quotes for all tiling work in Blackburn."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Maple Contracting, we offer transparent pricing for all tiling services in Blackburn. No lock-in contracts — just honest quotes tailored to your project.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$100",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed quote",
+          "No obligation",
+          "Expert advice"
+        ]
+      },
+      {
+        "name": "Standard Tiling Job",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Tiles & materials included",
+          "Waterproofing",
+          "Professional finish",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Bathroom Renovation",
+        "price": "from $12,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete tiling service",
+          "Waterproofing & grouting",
+          "Custom design options",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprise charges."
+  },
+  "contact": {
+    "intro": "Ready to transform your space? Contact Maple Contracting in Blackburn for a free, no-obligation quote. We respond within 24 hours."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Bathroom Tiling Cost in Blackburn in 2026?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting bathroom tiling costs in Blackburn, including materials, labor, and size considerations for a 2026 renovation.",
+      "body": [
+        "When planning a bathroom tiling project in Blackburn, understanding the cost factors is crucial for budgeting effectively. In 2026, prices for bathroom tiling in Blackburn typically range from $2,500 to $8,000, depending on the size, tile selection, and complexity of the work. Labor costs in Melbourne's eastern suburbs like Blackburn are influenced by local demand and the expertise of tilers, with hourly rates often between $50 and $80. Material choices, such as ceramic, porcelain, or natural stone, significantly impact the overall expense, with premium options adding 20-30% to the base cost.",
+        "The size of your bathroom is a primary driver of tiling costs in Blackburn. A small ensuite might require fewer tiles and less labor, keeping costs lower, while a large master bathroom with intricate patterns increases both material and time investments. Waterproofing is an essential step that adds to the initial outlay but prevents costly future repairs, especially in Blackburn's variable climate where moisture can be an issue. Australian standards mandate specific waterproofing methods, so ensure your tiler complies with AS 3740 to avoid problems.",
+        "Tile selection plays a pivotal role in determining the final bill for bathroom tiling in Blackburn. Ceramic tiles are cost-effective and widely available, making them a popular choice for budget-conscious renovations. Porcelain tiles, while more expensive, offer superior durability and water resistance, ideal for high-traffic bathrooms. Natural stone tiles like marble or slate add a luxurious touch but require regular maintenance and sealing, which can increase long-term costs. Always factor in grout, adhesive, and sealants when calculating material expenses.",
+        "Labor costs for tiling in Blackburn can vary based on the project's complexity and the tiler's experience. Simple layouts with standard tiles are quicker to install, reducing labor hours and costs. However, custom designs, mosaic work, or curved walls demand skilled craftsmanship and more time, pushing up the price. It's advisable to get multiple quotes from Blackburn-based tilers to compare rates and ensure you're getting value for money. Remember, the cheapest option isn't always the best—quality workmanship saves money in the long run.",
+        "Additional expenses in bathroom tiling projects in Blackburn include removal of old tiles, substrate preparation, and potential plumbing adjustments. Old tile removal can add $500 to $1,000 to the project, depending on the amount and condition. Ensuring the substrate is level and clean is vital for a professional finish, and this prep work might incur extra charges. If your renovation involves moving fixtures or plumbing, coordinate with tradespeople to avoid delays and additional costs.",
+        "To manage bathroom tiling costs in Blackburn effectively, start with a detailed plan and consult professionals early. In 2026, leveraging local tiling services like Maple Contracting can provide accurate, transparent quotes tailored to your specific needs. We recommend setting aside a 10-15% contingency for unexpected issues, such as hidden water damage or material delays. By understanding these cost drivers, Blackburn homeowners can achieve beautiful, long-lasting bathroom renovations without breaking the bank."
+      ]
+    },
+    {
+      "title": "Best Waterproofing Solutions for Blackburn Bathrooms",
+      "date": "February 2026",
+      "excerpt": "Learn about the top waterproofing methods used in Blackburn to prevent leaks and ensure longevity in bathroom renovations.",
+      "body": [
+        "Waterproofing is a critical aspect of bathroom renovations in Blackburn, where Melbourne's unpredictable weather can exacerbate moisture issues. Effective waterproofing prevents water ingress, protecting your home's structure and avoiding costly repairs. In Blackburn, common waterproofing solutions include liquid membranes, sheet membranes, and cementitious coatings, each suited to different areas like showers, floors, and balconies. AS 3740 Australian standards govern waterproofing practices, ensuring compliance and durability.",
+        "Liquid membranes are a popular choice for waterproofing in Blackburn bathrooms due to their ease of application and flexibility. These coatings are painted onto surfaces, forming a seamless, rubber-like barrier that adheres well to tiles and substrates. They are ideal for irregular shapes and corners, providing excellent coverage in shower recesses and around fixtures. In Blackburn's climate, liquid membranes cure quickly, minimizing project downtime, and offer long-term resistance to water damage when applied correctly.",
+        "Sheet membranes, often made from PVC or polyethylene, provide a robust waterproofing solution for high-moisture areas in Blackburn homes. These sheets are laid over surfaces and sealed at the edges, creating a durable, puncture-resistant barrier. They are particularly effective for large floor areas and external balconies, where exposure to the elements is higher. Installation requires precision to avoid gaps, but once in place, sheet membranes offer superior protection against leaks, making them a reliable choice for Blackburn's residential projects.",
+        "Cementitious waterproofing coatings are another option for Blackburn bathrooms, especially in areas prone to standing water. These cement-based mixtures are troweled onto surfaces, forming a hard, impermeable layer that bonds strongly with concrete substrates. They are cost-effective and easy to apply, making them suitable for DIY enthusiasts, though professional installation ensures optimal results. In Blackburn, cementitious coatings are often used in laundries and basements, providing a solid defense against moisture penetration.",
+        "Choosing the right waterproofing solution in Blackburn depends on the specific area and usage. For shower walls and floors, a combination of liquid membranes and sheet membranes might be used to ensure complete coverage. External areas like balconies benefit from UV-stable options that withstand Blackburn's sun and rain. Always engage a licensed tiler familiar with Australian standards to assess your needs and recommend the best approach, preventing future issues like mold or structural decay.",
+        "In Blackburn, investing in quality waterproofing during bathroom renovations pays off in the long term. Recent projects by Maple Contracting highlight how proper waterproofing extends the life of tiles and prevents water damage, saving homeowners thousands in repairs. By 2026, advancements in waterproofing technologies offer more eco-friendly and efficient options, so consult local experts to stay updated. Remember, waterproofing isn't just a step—it's a safeguard for your Blackburn home."
+      ]
+    },
+    {
+      "title": "Choosing the Right Tiles for Blackburn's Climate",
+      "date": "January 2026",
+      "excerpt": "A guide to selecting tiles that withstand Melbourne's variable weather, tailored for Blackburn homes.",
+      "body": [
+        "Selecting tiles for your Blackburn home requires careful consideration of Melbourne's climate, which features hot summers, cool winters, and occasional humidity. The right tiles can enhance durability and comfort, while poor choices may lead to cracking, fading, or moisture issues. In Blackburn, where temperatures can swing, it's essential to pick tiles with appropriate thermal expansion properties and water resistance. Local tiling experts, like Maple Contracting, can guide you towards options that perform well year-round.",
+        "For indoor spaces in Blackburn, ceramic and porcelain tiles are top choices due to their durability and low maintenance. Ceramic tiles are affordable and come in various designs, making them suitable for bathrooms, kitchens, and living areas. Porcelain tiles, denser and more water-resistant, are ideal for high-moisture zones like bathrooms and laundries. Both types handle Blackburn's temperature fluctuations well, but ensure they are rated for floor or wall use as needed to avoid premature wear.",
+        "Outdoor tiling in Blackburn demands materials that can withstand UV exposure, rain, and frost. Natural stone tiles, such as slate or travertine, offer a beautiful aesthetic but require sealing to prevent staining and water absorption. Porcelain tiles with a textured finish provide slip resistance and are less porous, making them safer for wet areas like patios and pool surrounds. In Blackburn's variable weather, these options ensure outdoor spaces remain functional and attractive throughout the year.",
+        "The size and format of tiles impact their performance in Blackburn's climate. Larger tiles have fewer grout lines, reducing potential entry points for moisture and making them easier to clean, which is beneficial in humid conditions. However, they require a perfectly level substrate to prevent lippage. Smaller tiles, like mosaics, offer flexibility for curved surfaces but can be more labor-intensive to install. Consider the room size and usage in Blackburn when deciding on tile dimensions.",
+        "Color and finish also play roles in tile selection for Blackburn homes. Light-colored tiles reflect heat, keeping interiors cooler during summer, while dark tiles absorb warmth, which can be advantageous in cooler months. Matte finishes provide better slip resistance, important for wet areas, whereas glossy tiles add a sleek look but may show water spots. In Blackburn, balancing aesthetics with practicality ensures your tiles complement the local lifestyle and climate.",
+        "Ultimately, choosing the right tiles for Blackburn involves consulting with professionals who understand local conditions. Maple Contracting recommends testing samples in your space to see how they look and feel under Blackburn's light and temperature. By prioritizing durability, maintenance, and climate suitability, you can select tiles that enhance your home's value and withstand the test of time in this Melbourne suburb."
+      ]
+    },
+    {
+      "title": "DIY vs Professional Tiling in Blackburn: What's Best?",
+      "date": "December 2025",
+      "excerpt": "Compare the pros and cons of DIY tiling versus hiring experts in Blackburn for your next project.",
+      "body": [
+        "When considering a tiling project in Blackburn, the decision between DIY and professional services depends on factors like skill, time, and budget. DIY tiling can save money on labor, but it requires careful planning and execution to achieve quality results. In Blackburn, where home values are high, a poorly done tiling job can decrease property appeal and lead to costly fixes. Assess your abilities honestly before embarking on a DIY project.",
+        "DIY tiling in Blackburn offers flexibility and cost savings, especially for small projects like a backsplash or accent wall. With online tutorials and readily available tools, many homeowners can handle basic tasks like laying ceramic tiles. However, challenges arise with complex layouts, waterproofing, or natural stone, where precision is critical. In Blackburn's climate, mistakes in waterproofing can cause leaks, so weigh the risks against the savings.",
+        "Professional tiling services in Blackburn bring expertise, efficiency, and peace of mind. Licensed tilers like Maple Contracting have years of experience handling local projects, ensuring compliance with Australian standards and optimal results. They can manage all aspects, from substrate preparation to finishing touches, reducing the risk of errors. While professional services cost more upfront, they often provide long-term value through durable workmanship and warranties.",
+        "Time commitment is a key consideration for DIY tiling in Blackburn. What might take a professional a few days could take an amateur weeks, disrupting daily life. Professionals complete projects efficiently, minimizing inconvenience, which is valuable for busy Blackburn households. Additionally, experts have access to specialized tools and materials, ensuring a smoother process and higher-quality finish compared to DIY attempts.",
+        "Cost analysis reveals that DIY tiling in Blackburn can be economical for simple jobs, but hidden expenses like tool purchases, material waste, and potential rework can add up. Professional quotes from Blackburn-based tilers include all costs upfront, avoiding surprises. For major projects like bathroom renovations, the investment in professional services often pays off through increased property value and avoided mistakes.",
+        "In Blackburn, the best choice often hinges on the project scope and your confidence. For small, straightforward tasks, DIY might suffice, but for larger or critical areas like bathrooms, professional tiling is recommended. Consult with local experts like Maple Contracting to discuss your needs and make an informed decision that balances cost, quality, and durability for your Blackburn home."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Maple Contracting | Tiler in Blackburn | Bathroom Renovations",
+      "description": "Expert tiling services in Blackburn. Bathroom renovations, waterproofing & floor tiling. Free quotes from Maple Contracting."
+    },
+    "about": {
+      "title": "About Us | Blackburn's Trusted Tiling Team | Maple Contracting",
+      "description": "Learn about Maple Contracting, Blackburn's premier tiling specialists with over 10 years of experience."
+    },
+    "services": {
+      "title": "Tiling Services in Blackburn | Bathroom & Floor Tiling",
+      "description": "Comprehensive tiling solutions in Blackburn. From bathrooms to outdoors, we do it all with quality craftsmanship."
+    },
+    "pricing": {
+      "title": "Tiling Costs & Prices in Blackburn | Maple Contracting",
+      "description": "Transparent pricing for tiling services in Blackburn. Get upfront quotes for bathroom renovations and more."
+    },
+    "contact": {
+      "title": "Contact Maple Contracting | Free Blackburn Tiler Quotes",
+      "description": "Get in touch with Maple Contracting in Blackburn for free quotes on tiling projects. Quick response guaranteed."
+    },
+    "blog": {
+      "title": "Blackburn Tiling Blog | Local Tips & Renovation Advice",
+      "description": "Read our blog for expert tiling advice, cost guides, and renovation tips specific to Blackburn homes."
+    }
+  }
+}
