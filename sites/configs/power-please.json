@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "POWER PLEASE",
+  "suburb": "Thornbury",
+  "phone": "0402449432",
+  "email": "fynn@powerplease.com.au",
+  "address": "10 Tharratt St, Thornbury VIC 3071",
+  "tagline": "Thornbury's Local Sparky",
+  "primaryColor": "#8dc63f",
+  "primaryColorRgb": "141, 198, 63",
+  "primaryColorHover": "#7cb535",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thornbury's Trusted Electrician",
+      "sub": "Fynn, your local sparky, for all residential & industrial jobs"
+    },
+    {
+      "title": "Switchboards, Motors & Renovations",
+      "sub": "Safe, reliable electrical solutions across the inner north"
+    },
+    {
+      "title": "Get a FREE Quote for Thornbury",
+      "sub": "Message us your suburb and job details today"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Thornbury? Let's Talk.",
+  "aboutHeading": "Hi, I'm Fynn — Thornbury's Local Sparky",
+  "aboutSubheading": "Reliable electrical services for your home or business",
+  "aboutText": "Based in Thornbury, Power Please is your go-to local electrician for residential and industrial work. I provide honest, reliable service to homes and businesses across Melbourne's inner north. From switchboard upgrades and three phase outlets to full renovations, I handle jobs of all sizes with care and expertise. Need a free quote? Just message me your suburb and a brief job description.",
+  "servicesHeading": "What We Can Do For You",
+  "servicesSubheading": "Comprehensive electrical solutions",
+  "servicesText": "Power Please offers a full range of electrical services tailored to Thornbury homes and industrial sites. From simple repairs to complex installations, we deliver safe, efficient work every time.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "General wiring, lighting, power points, and safety checks for Thornbury homes and secondary dwellings."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernising outdated switchboards to meet current safety standards and improve your property's electrical capacity."
+    },
+    {
+      "title": "Industrial Workshops & Warehouses",
+      "desc": "Complete electrical fit-outs and maintenance for industrial spaces, workshops, and warehouses across the northern suburbs."
+    },
+    {
+      "title": "Motors & Controls",
+      "desc": "Expert installation, repair, and maintenance of motors and control systems for industrial and commercial equipment."
+    },
+    {
+      "title": "Three Phase Outlets",
+      "desc": "Professional installation of three phase outlets to power heavy machinery and commercial appliances safely."
+    },
+    {
+      "title": "Renovations & Secondary Dwellings",
+      "desc": "Specialised electrical services for home renovations and new secondary dwellings, ensuring compliance and quality."
+    }
+  ],
+  "bannerHeading": "Thornbury's Go-To Electrician",
+  "bannerSubheading": "Fast, reliable & fully licensed",
+  "testimonialsHeading": "What Thornbury Locals Say",
+  "testimonialsSubheading": "Real feedback from our community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from your local sparky",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Message Fynn with your suburb and job details",
+  "reviews": [
+    {
+      "text": "Fynn from Power Please did a fantastic job upgrading our old switchboard at our Thornbury home. He was on time, explained everything clearly, and left the area spotless. Highly recommend!",
+      "name": "Sarah Mitchell",
+      "role": "Thornbury Homeowner"
+    },
+    {
+      "text": "We needed three phase outlets installed quickly for our new workshop in the inner north. Power Please handled it efficiently and professionally. Great local sparky to deal with.",
+      "name": "Mark Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Power Please did all the electrical work for our home renovation, including new lighting and power points. The quality was excellent and the pricing was fair. Will use again for our secondary dwelling project.",
+      "name": "Emily Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
