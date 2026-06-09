@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Briar Hill Plumbing",
+  "suburb": "Greensborough",
+  "phone": "0409 729 969",
+  "email": "john.doe@example.com",
+  "address": "18 Plenty Lane, Greensborough VIC 3088",
+  "tagline": "Greensborough's 24/7 Emergency Plumbers",
+  "primaryColor": "#1976d2",
+  "primaryColorRgb": "25, 118, 210",
+  "primaryColorHover": "#1565c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Greensborough's Emergency Plumbing Experts",
+      "sub": "Fast response for burst pipes and blocked drains"
+    },
+    {
+      "title": "Hot Water Systems & Gas Fitting Pros",
+      "sub": "Licensed plumbers for homes and businesses"
+    },
+    {
+      "title": "Reliable Plumbing Across Melbourne's North",
+      "sub": "Service areas include Greensborough, Nillumbik & Boroondara"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Greensborough? Call Now",
+  "aboutHeading": "Greensborough Plumbing Experts",
+  "aboutSubheading": "Licensed, Insured & Available 24/7",
+  "aboutText": "Briar Hill Plumbing provides 24/7 emergency plumbing services in Greensborough, Melbourne. Our licensed plumbers specialise in fast response for burst pipes, blocked drains, and hot water system failures. With clear advice and upfront quotes, we ensure compliant work that protects your home and restores comfort quickly.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Expert Solutions for Every Plumbing Need",
+  "servicesText": "We offer a comprehensive range of plumbing services in Greensborough, including emergency repairs, drain clearing, and gas fitting. Our team handles both domestic and commercial jobs with professionalism and efficiency.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 rapid response for urgent issues like burst pipes and leaks, ensuring minimal damage to your property."
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Expert clearing of blocked sinks, toilets, and stormwater drains using advanced equipment and techniques."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of all hot water system types, including electric, gas, and solar."
+    },
+    {
+      "title": "Burst Pipe Repairs",
+      "desc": "Fast and reliable repair of burst or damaged pipes to prevent water wastage and structural damage."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitting services for appliances, leak detection, and compliance checks."
+    },
+    {
+      "title": "Plumbing Maintenance",
+      "desc": "Regular maintenance and inspections to prevent future issues and keep your plumbing system in top condition."
+    }
+  ],
+  "bannerHeading": "Emergency Plumber in Greensborough",
+  "bannerSubheading": "Fast, reliable service when you need it most",
+  "testimonialsHeading": "What Greensborough Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Plumbing Tips & Updates",
+  "blogSubheading": "Advice from Greensborough's plumbers",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We're here to help with all your plumbing needs",
+  "reviews": [
+    {
+      "text": "Briar Hill Plumbing fixed our blocked drain in Greensborough quickly and professionally. The plumber explained everything clearly and charged a fair price.",
+      "name": "Sarah Mitchell",
+      "role": "Greensborough Homeowner"
+    },
+    {
+      "text": "We called them for emergency burst pipe repair late at night, and they arrived within the hour. Excellent service and no hidden costs.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their hot water system installation was smooth and efficient. Highly recommend for anyone in the northern suburbs.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
