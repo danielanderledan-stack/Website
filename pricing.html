@@ -341,6 +341,124 @@
       font-size: 0.81rem;
       color: var(--ink-faint);
     }
+
+    /* ── Voluntary donation ──────────────────────────────────────── */
+    .pc-donation {
+      padding: 24px 0 22px;
+      border-top: 1px solid var(--line);
+    }
+    .pc-donation-title {
+      display: block;
+      font-weight: 600;
+      font-size: 0.97rem;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .pc-donation-sub {
+      display: block;
+      font-size: 0.84rem;
+      color: var(--ink-faint);
+      margin-bottom: 18px;
+    }
+    .pc-slider-track {
+      position: relative;
+      padding-bottom: 4px;
+    }
+    input[type="range"].pc-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 4px;
+      border-radius: 999px;
+      background: rgba(10,37,64,0.12);
+      outline: none;
+      cursor: pointer;
+      display: block;
+    }
+    input[type="range"].pc-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--navy);
+      border: 3px solid var(--theme);
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(10,37,64,0.25);
+      transition: transform 0.15s var(--ease-out);
+    }
+    input[type="range"].pc-slider::-webkit-slider-thumb:hover { transform: scale(1.18); }
+    input[type="range"].pc-slider::-moz-range-thumb {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--navy);
+      border: 3px solid var(--theme);
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(10,37,64,0.25);
+    }
+    input[type="range"].pc-slider::-moz-range-progress {
+      background: var(--theme);
+      border-radius: 999px;
+      height: 4px;
+    }
+    .pc-slider-label {
+      text-align: center;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--ink-faint);
+      margin-top: 10px;
+      transition: color 0.2s;
+    }
+    .pc-slider-label.has-value {
+      color: var(--theme-deep);
+      font-weight: 700;
+    }
+
+    /* ── Copy section ────────────────────────────────────────────── */
+    .pc-copy-wrap {
+      padding: 28px 0 4px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 11px;
+    }
+    .pc-copy-note {
+      font-size: 0.82rem;
+      color: var(--ink-faint);
+      text-align: center;
+    }
+    .pc-copy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 24px;
+      border-radius: 999px;
+      border: 1.5px solid var(--line);
+      background: var(--paper);
+      color: var(--navy);
+      font-weight: 600;
+      font-size: 0.92rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s, transform 0.2s var(--ease-out);
+    }
+    .pc-copy-btn svg {
+      width: 15px; height: 15px;
+      fill: none; stroke: currentColor;
+      stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+    .pc-copy-btn:hover {
+      border-color: var(--theme);
+      background: rgba(72,202,228,0.08);
+      transform: translateY(-1px);
+    }
+    .pc-copy-btn.copied {
+      border-color: var(--theme);
+      background: rgba(72,202,228,0.12);
+      color: var(--theme-deep);
+    }
   </style>
 </head>
 <body>
@@ -578,6 +696,18 @@
           <p class="pc-payments-note" id="paymentsNote" style="display:none">+ 4% per transaction (digital payments)</p>
         </div>
 
+        <!-- Voluntary donation -->
+        <div class="pc-donation">
+          <span class="pc-donation-title">Voluntary donation</span>
+          <span class="pc-donation-sub">Choose to pay us per customer</span>
+          <div class="pc-slider-track">
+            <input type="range" class="pc-slider" id="donationSlider"
+                   min="0" max="50" step="1" value="0"
+                   aria-label="Donation amount per customer" />
+          </div>
+          <div class="pc-slider-label" id="donationLabel">$0 per customer</div>
+        </div>
+
         <!-- CTA -->
         <div class="pc-cta">
           <a href="/contact.html" class="btn btn-primary">
@@ -585,6 +715,18 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
           <p class="pc-cta-note">No lock-in contracts · Cancel any time</p>
+        </div>
+
+        <!-- Copy & send -->
+        <div class="pc-copy-wrap">
+          <p class="pc-copy-note">Copy and send to Dan — 0432 839 654</p>
+          <button class="pc-copy-btn" id="copyBtn" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+            <span class="copy-label">Copy plan</span>
+          </button>
         </div>
 
       </div><!-- /pc-wrap -->
@@ -731,6 +873,90 @@
       }
 
       recalculate();
+
+      /* ── Donation slider ─────────────────────────────────── */
+      var donationSlider = document.getElementById('donationSlider');
+      var donationLabel  = document.getElementById('donationLabel');
+
+      function updateDonation() {
+        var val = parseInt(donationSlider.value, 10);
+        var pct = (val / 50) * 100;
+        donationSlider.style.background =
+          'linear-gradient(to right, var(--theme) ' + pct + '%, rgba(10,37,64,0.12) ' + pct + '%)';
+        if (val === 0) {
+          donationLabel.textContent = '$0 per customer';
+          donationLabel.classList.remove('has-value');
+        } else {
+          donationLabel.textContent = '$' + val + ' per customer';
+          donationLabel.classList.add('has-value');
+        }
+      }
+
+      donationSlider.addEventListener('input', updateDonation);
+      updateDonation();
+
+      /* ── Copy plan ───────────────────────────────────────── */
+      var SERVICE_NAMES = {
+        website:  'Website — free',
+        domain:   'Custom domain — $5/wk',
+        spam:     'AI spam filter — $9/wk',
+        sms:      'Automatic SMS & email — $18/wk',
+        quoting:  'Auto customer quoting — $24/wk',
+        payments: 'Digital payments — 4%/sale'
+      };
+
+      document.getElementById('copyBtn').addEventListener('click', function () {
+        var btn = this;
+        var copyLabel = btn.querySelector('.copy-label');
+        var lines = ['My plan — completedigital.com.au/pricing', ''];
+
+        lines.push('✓ ' + SERVICE_NAMES.website);
+        PAID_IDS.forEach(function (id) {
+          lines.push((tog(id).checked ? '✓' : '✗') + ' ' + SERVICE_NAMES[id]);
+        });
+
+        lines.push('');
+
+        var totalText = document.getElementById('totalAmount').textContent;
+        lines.push('Weekly total: ' + totalText);
+
+        if (tog('payments').checked) {
+          lines.push('+ 4% per transaction');
+        }
+
+        var donation = parseInt(donationSlider.value, 10);
+        if (donation > 0) {
+          lines.push('Voluntary: $' + donation + ' per customer');
+        }
+
+        var text = lines.join('\n');
+
+        function onCopied() {
+          btn.classList.add('copied');
+          copyLabel.textContent = 'Copied!';
+          setTimeout(function () {
+            btn.classList.remove('copied');
+            copyLabel.textContent = 'Copy plan';
+          }, 2200);
+        }
+
+        function fallback() {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+          document.body.appendChild(ta);
+          ta.focus();
+          ta.select();
+          try { document.execCommand('copy'); onCopied(); } catch (e) {}
+          document.body.removeChild(ta);
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(onCopied).catch(fallback);
+        } else {
+          fallback();
+        }
+      });
     }());
   </script>
 </body>
