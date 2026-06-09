@@ -1,0 +1,254 @@
+{
+  "siteType": "plumber",
+  "businessName": "Knoxfield Master Plumbers",
+  "suburb": "Knoxfield",
+  "phone": "03 8080 8999",
+  "email": "info@knoxfieldmasterplumbers.com.au",
+  "address": "Unit 1/8 Samantha Ct, Knoxfield VIC 3180",
+  "tagline": "Knoxfield's Fully Licensed Master Plumbers",
+  "primaryColor": "#4A90E2",
+  "primaryColorRgb": "74, 144, 226",
+  "primaryColorHover": "#357ABD",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Knoxfield's Trusted Master Plumbers",
+      "sub": "24/7 emergency & scheduled services"
+    },
+    {
+      "title": "Blocked Drains, Hot Water & Roof Repairs",
+      "sub": "Licensed, vetted & using cutting-edge tech"
+    },
+    {
+      "title": "Call Now for a Knoxfield Plumbing Fix",
+      "sub": "We're here when you need us most"
+    }
+  ],
+  "ctaHeading": "Knoxfield's master plumbers are ready to solve your problem.",
+  "aboutHeading": "Knoxfield's Licensed Master Plumbing Experts",
+  "aboutSubheading": "Reliable, vetted & ready 24/7",
+  "aboutText": "For years, the team at Knoxfield Master Plumbers has been the trusted choice for homeowners and businesses across Knoxfield and Melbourne's eastern suburbs. Our fully licensed master plumbers specialise in everything from urgent blocked drain repairs to comprehensive preventative maintenance and advanced CCTV inspections. We combine cutting-edge technology with old-fashioned reliability to deliver plumbing solutions you can depend on.",
+  "servicesHeading": "Our Core Plumbing Services",
+  "servicesSubheading": "Comprehensive solutions for Knoxfield",
+  "servicesText": "From emergency call-outs to planned installations, our Knoxfield team provides a complete range of plumbing services. We specialise in hot water systems, sewer and stormwater management, and precision drain clearing using the latest CCTV technology.",
+  "services": [
+    {
+      "title": "Blocked Drains & CCTV Inspections",
+      "desc": "Precision clearing and diagnosis of blocked drains using state-of-the-art camera technology.",
+      "longDesc": "Our Knoxfield plumbing team uses high-pressure water jetters and detailed CCTV drain inspections to locate and remove blockages in your sewer and stormwater pipes, preventing future issues.",
+      "points": [
+        "Advanced CCTV diagnosis",
+        "High-pressure clearing",
+        "Preventative solutions"
+      ]
+    },
+    {
+      "title": "Hot Water System Services",
+      "desc": "Expert repair, replacement, and installation for all hot water systems in Knoxfield.",
+      "longDesc": "Ensure your Knoxfield property has reliable hot water with our services for gas, electric, and solar hot water systems, including same-day repairs and energy-efficient upgrades.",
+      "points": [
+        "All system types",
+        "Same-day repairs",
+        "Energy-efficient upgrades"
+      ]
+    },
+    {
+      "title": "Roof Plumbing & Repairs",
+      "desc": "Fixing leaks, repairing gutters, and ensuring effective stormwater drainage from your roof.",
+      "longDesc": "Protect your Knoxfield home from water damage with our expert roof plumbing services, including valley iron replacement, gutter installation, and downpipe repairs to meet Australian standards.",
+      "points": [
+        "Leak detection & repair",
+        "Gutter & downpipe work",
+        "Stormwater management"
+      ]
+    },
+    {
+      "title": "Sanitaryware & Tapware Installation",
+      "desc": "Professional installation of toilets, basins, showers, and kitchen tapware.",
+      "longDesc": "Upgrade your Knoxfield bathroom or kitchen with expert installation of modern sanitaryware and tapware, ensuring proper function and water efficiency for years to come.",
+      "points": [
+        "Bathroom upgrades",
+        "Kitchen fixtures",
+        "Water-saving options"
+      ]
+    },
+    {
+      "title": "Sewer & Stormwater Systems",
+      "desc": "Installation, repair, and maintenance for complete property drainage solutions.",
+      "longDesc": "Our licensed Knoxfield plumbers design and maintain compliant sewer and stormwater systems, including soak wells and drainage pits, to protect your property from flooding and water ingress.",
+      "points": [
+        "Full system installation",
+        "Compliance guaranteed",
+        "Flood prevention"
+      ]
+    },
+    {
+      "title": "Preventative Maintenance",
+      "desc": "Proactive plumbing health checks to avoid costly emergencies and breakdowns.",
+      "longDesc": "Schedule regular preventative maintenance with our Knoxfield team to inspect, service, and optimise your entire plumbing system, extending its lifespan and preventing unexpected failures.",
+      "points": [
+        "Avoid emergency repairs",
+        "Extends system life",
+        "Scheduled inspections"
+      ]
+    }
+  ],
+  "bannerHeading": "Plumbing Emergency in Knoxfield?",
+  "bannerSubheading": "We're available round the clock for urgent call-outs.",
+  "testimonialsHeading": "What Knoxfield Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Knoxfield Plumbing Advice & Guides",
+  "blogSubheading": "Expert tips from your local master plumbers",
+  "contactHeading": "Get a Free Plumbing Quote in Knoxfield",
+  "contactSubheading": "Fast, friendly & no-obligation",
+  "reviews": [
+    {
+      "text": "These guys were fantastic for our blocked stormwater drain in Knoxfield. They arrived promptly, used their CCTV camera to show us the root intrusion, and cleared it completely. Highly recommend their professional service.",
+      "name": "Sarah M.",
+      "role": "Knoxfield Homeowner"
+    },
+    {
+      "text": "We had Knoxfield Master Plumbers replace our old hot water system. The advice was honest, the installation was neat and compliant, and they left the site spotless. A reliable team for any plumbing job.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable trades. This team handles all our plumbing needs across our Knoxfield portfolio, from routine maintenance to urgent repairs. Their consistency and licensed work are invaluable.",
+      "name": "Mark R.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Knoxfield",
+    "Rowville",
+    "Scoresby",
+    "Boronia",
+    "Ferntree Gully",
+    "Wantirna",
+    "Wheelers Hill"
+  ],
+  "pricing": {
+    "intro": "We provide upfront, fixed-price quotes for all plumbing work in Knoxfield before we start. No surprises, no lock-in contracts — just transparent pricing for quality licensed work.",
+    "packages": [
+      {
+        "name": "Emergency Call-Out",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "24/7 availability",
+          "Priority response",
+          "On-site diagnosis"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed plumber attendance",
+          "Repair or installation",
+          "Parts & labour included",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full system design/installation",
+          "Compliance certification",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins."
+  },
+  "contact": {
+    "intro": "Need a licensed plumber in Knoxfield? Contact us today for a free, no-obligation quote. Our team is ready to help with any plumbing issue, big or small."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Blocked Drain Cost to Fix in Knoxfield?",
+      "date": "March 2026",
+      "excerpt": "Understanding the factors that influence the cost of clearing a blocked drain in Knoxfield, from simple fixes to major sewer line repairs.",
+      "body": [
+        "Dealing with a blocked drain in your Knoxfield home can be stressful, and the first question is often about cost. The price to fix a blocked drain in Melbourne's eastern suburbs varies significantly depending on the cause and location of the blockage. A simple basin or sink blockage caused by hair or soap scum might be a straightforward fix for a Knoxfield plumber, while a deep sewer line blockage from tree roots—a common issue in established Knoxfield gardens—requires more complex work and therefore incurs a higher cost.",
+        "For Knoxfield homeowners, the initial call-out fee typically covers the plumber's travel, inspection, and diagnosis. This fee, often around $120-$180, is usually applied towards the total cost if you proceed with the repair. The major cost factor is the method required to clear the blockage. A basic plunger or hand snake for a minor clog is the most affordable. However, most persistent or deep blockages in Knoxfield properties require a high-pressure water jetter to scour the pipe clean, which is more effective but adds to the overall expense.",
+        "A critical component in accurately diagnosing drain problems in Knoxfield is a CCTV drain camera inspection. This technology allows our master plumbers to feed a waterproof camera into your pipes, pinpointing the exact location and cause of the blockage—whether it's a collapsed pipe, invasive tree roots, or a buildup of grease. The cost for a CCTV inspection is an essential investment, as it prevents guesswork and ensures we solve the right problem the first time, avoiding unnecessary excavation on your Knoxfield property.",
+        "In some severe cases, particularly where tree root intrusion has damaged the sewer line, a more extensive repair may be needed. This could involve relining the pipe or excavating and replacing a section. These are major plumbing projects with a higher cost, but they are crucial for preventing recurrent blockages and potential sewage backups into your Knoxfield home. We always provide a detailed, fixed-quote for such work after our CCTV inspection, so you know the full scope before agreeing.",
+        "At Knoxfield Master Plumbers, we believe in transparent pricing. After our initial diagnosis, we will provide you with a clear, written quote outlining all costs. We specialise in efficient, lasting solutions for Knoxfield's unique drainage challenges, from suburban stormwater systems to mature tree root issues. Don't let a blocked drain disrupt your home—call us for a prompt, professional assessment and a straightforward quote.",
+        "Preventative measures can save Knoxfield residents money in the long run. Being mindful of what goes down your drains, scheduling periodic inspections, and using enzyme-based cleaners instead of harsh chemicals can all help maintain clear pipes. For any drainage concerns, from slow sinks to gurgling noises, consulting a licensed Knoxfield plumber early can prevent minor issues from becoming major, costly repairs. Contact us to discuss your drainage health."
+      ]
+    },
+    {
+      "title": "Signs Your Hot Water System Needs Replacing in Knoxfield",
+      "date": "February 2026",
+      "excerpt": "Learn the key warning signs that your Knoxfield home's hot water system is failing and may need professional repair or a full replacement.",
+      "body": [
+        "A reliable hot water system is essential for every Knoxfield household, but like all appliances, it has a finite lifespan. Recognising the early signs of failure can save you from the inconvenience of a cold shower and the potential mess of a system leak or burst. One of the most obvious signs is age; most electric hot water tanks last 10-15 years, while gas systems may last slightly longer. If your unit in Knoxfield is approaching or has exceeded this age, it's wise to have it professionally inspected.",
+        "Visible rust or corrosion on the tank is a serious red flag for Knoxfield homeowners. This often indicates the internal sacrificial anode rod has depleted, allowing the tank itself to corrode. If you see rusty water when you first turn on the hot tap, or corrosion around fittings, the tank could be nearing the end of its life. A leaking tank, even a small drip from the base or fittings, is a critical issue that requires immediate attention to prevent water damage to your property.",
+        "Inconsistent water temperature or a significant drop in hot water output are classic symptoms of a struggling system. If your Knoxfield home is running out of hot water much faster than usual, or if the water never reaches the desired temperature, it could mean the heating element has failed or there's excessive sediment buildup at the bottom of the tank, reducing its efficiency. Strange noises like rumbling, popping, or banging from the unit also point to sediment accumulation or other internal issues.",
+        "Energy efficiency is another consideration for Knoxfield residents. An older, inefficient hot water system can significantly increase your electricity or gas bills. If you've noticed a steady climb in your energy costs without a change in usage habits, your hot water system may be the culprit. Upgrading to a modern, energy-efficient model, such as a heat pump or a high-efficiency gas system, can lead to substantial long-term savings for Knoxfield households.",
+        "When faced with these issues, the first step is a professional assessment from a licensed Knoxfield plumber. We can accurately diagnose whether a repair is viable or if replacement is the more cost-effective option. Sometimes, a simple fix like a new element or a full system flush can extend the life of your unit. However, if the tank is compromised or the system is very old, investing in a new, reliable hot water system ensures comfort and peace of mind for your Knoxfield home.",
+        "Choosing the right replacement system involves considering your household size, energy source availability, and budget. The team at Knoxfield Master Plumbers can guide you through the options, ensuring the new system is correctly sized and installed to meet all Australian standards. We handle everything from safe removal of the old unit to the complete installation and connection of your new hot water system, providing a seamless upgrade service for Knoxfield properties."
+      ]
+    },
+    {
+      "title": "Preventative Plumbing Maintenance Tips for Knoxfield Homes",
+      "date": "January 2026",
+      "excerpt": "Discover essential preventative maintenance steps Knoxfield homeowners can take to avoid expensive plumbing emergencies and keep systems running smoothly.",
+      "body": [
+        "Preventative plumbing maintenance is a smart investment for any Knoxfield homeowner, helping to avoid disruptive and costly emergencies. The philosophy is simple: a small, scheduled check-up can prevent a major, messy breakdown. Start with a visual inspection of exposed pipes under sinks and around toilets in your Knoxfield home. Look for any signs of leaks, drips, or corrosion, and check for mould or mildew growth, which indicates a hidden moisture problem that needs urgent attention.",
+        "Your home's water shut-off valve is a critical component every Knoxfield resident should locate and know how to operate. In the event of a burst pipe, being able to quickly shut off the water supply can prevent extensive flooding and damage. Test the valve periodically to ensure it turns smoothly. Additionally, know the location of your hot water system's isolation valve. These simple steps empower you to take immediate action in a plumbing emergency.",
+        "Drain maintenance is key to preventing blockages. In the kitchen, avoid pouring fats, oils, and grease down the sink, as these solidify and cause stubborn clogs. In bathrooms, use drain guards to catch hair and soap scum. Once a month, consider flushing drains with a mixture of hot water and baking soda followed by vinegar to help break down minor buildup. For Knoxfield homes with mature trees, this is especially important to mitigate root intrusion risks into your sewer line.",
+        "The hot water system requires regular attention. For tank systems, check the temperature is set to a safe 60°C (140°F) to prevent scalding but also to kill harmful bacteria. Annually, inspect the pressure relief valve by lifting the lever; a brief flow of water should discharge and then stop. If it continues to dribble, it may need professional service. Monitoring the area around the base of the tank for moisture is also essential for early leak detection.",
+        "Exterior plumbing elements around your Knoxfield property are often overlooked. Ensure gutters and downpipes are clear of leaves and debris to maintain proper stormwater flow. Check that stormwater grates are unobstructed. Before winter, disconnect and drain outdoor garden hoses to prevent them from freezing and cracking, which can cause damage to outdoor taps. These simple seasonal checks protect your property's exterior drainage system.",
+        "Scheduling an annual professional preventative maintenance inspection with a licensed Knoxfield plumber is the most comprehensive step. Our team will conduct a thorough assessment, including checking all visible and accessible pipes, testing water pressure, inspecting the hot water system, and assessing drainage functionality. We can identify potential issues like minor leaks or early corrosion before they escalate, providing you with a report and a prioritised plan to maintain your Knoxfield home's plumbing health.",
+        "Documentation is a helpful part of maintenance. Keep a record of any plumbing work done, the age of your major fixtures like the hot water system, and any recurring issues. This information is valuable for future repairs or when considering property upgrades. Investing a little time in preventative care preserves the value of your Knoxfield property and ensures the comfort and safety of your household."
+      ]
+    },
+    {
+      "title": "Why You Need a Licensed Plumber for Work in Knoxfield",
+      "date": "December 2025",
+      "excerpt": "Understand the critical importance of hiring a fully licensed master plumber for all work at your Knoxfield property to ensure safety and compliance.",
+      "body": [
+        "When faced with a plumbing issue at your Knoxfield home, the temptation to hire a handyman or attempt a DIY fix can be strong. However, in Australia, plumbing is a licensed trade for very good reasons. Choosing a fully licensed master plumber for all work in Knoxfield is not just a recommendation; it's essential for your safety, your property's integrity, and compliance with local regulations. Licensing ensures the professional has undergone rigorous training, passed comprehensive exams, and carries the necessary insurance.",
+        "One of the primary reasons for licensing is safety, particularly concerning water and gas. Incorrectly installed gas hot water systems or water heaters can lead to deadly carbon monoxide poisoning or gas leaks. Faulty plumbing can cause water contamination or create environments for mould growth. A licensed Knoxfield plumber is trained to adhere to strict Australian safety standards and the Plumbing Code of Australia, ensuring all work is performed without risk to you and your family.",
+        "Compliance with council regulations is another non-negotiable aspect. In Knoxfield, as across Victoria, significant plumbing work requires a compliance certificate issued by a licensed plumber. This certificate is your proof that the work meets legal standards and is safe. Unlicensed work may not meet these requirements, potentially creating major problems when selling your property, as unpermitted work must often be rectified at the owner's expense to satisfy building inspections.",
+        "Licensed plumbers also carry essential insurance, including public liability and professional indemnity. This protects you as the Knoxfield homeowner. If accidental damage occurs during the job, or if the work later fails and causes damage, their insurance provides coverage. An unlicensed individual typically has no such safeguards, leaving you financially exposed for any remediation costs. This protection is a crucial reason to always verify a plumber's license.",
+        "The expertise of a master plumber extends beyond simple repairs. For complex projects in Knoxfield, such as bathroom renovations, new sewer connections, or stormwater system installations, a licensed professional can provide accurate advice on design, materials, and compliance. They can navigate the approval processes with Knoxfield council and ensure the project is executed correctly from the start, avoiding costly mistakes and rework.",
+        "At Knoxfield Master Plumbers, we are fully licensed, insured, and committed to upholding the highest industry standards. We provide compliance certificates for all relevant work, giving you complete peace of mind. Don't compromise on the safety and legality of plumbing work at your Knoxfield property. Always insist on seeing a plumber's license number and verify it, and trust only licensed professionals with your home's plumbing infrastructure."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Knoxfield Master Plumbers | Licensed 24/7 Plumber in Knoxfield VIC",
+      "description": "Knoxfield's trusted licensed master plumbers for blocked drains, hot water repairs, roof plumbing & more. Available 24/7. Call 03 8080 8999 for a free quote."
+    },
+    "about": {
+      "title": "About Knoxfield Master Plumbers | Your Local Licensed Experts",
+      "description": "Meet the fully licensed master plumber team serving Knoxfield and the eastern suburbs. Learn about our commitment to reliable, 24/7 plumbing solutions."
+    },
+    "services": {
+      "title": "Plumbing Services in Knoxfield | Drains, Hot Water & Roof Repairs",
+      "description": "Comprehensive plumbing services in Knoxfield: blocked drain clearing with CCTV, hot water system installation, roof repairs, and preventative maintenance."
+    },
+    "pricing": {
+      "title": "Plumbing Prices & Quotes in Knoxfield | Transparent Costs",
+      "description": "Upfront, fixed-price plumbing quotes in Knoxfield. Understand the cost of emergency call-outs, standard repairs, and major plumbing projects."
+    },
+    "contact": {
+      "title": "Contact Knoxfield Master Plumbers | Get a Free Plumbing Quote",
+      "description": "Need a plumber in Knoxfield? Contact us for a fast, free, no-obligation quote. Available 24/7 for emergencies. Phone: 03 8080 8999."
+    },
+    "blog": {
+      "title": "Knoxfield Plumbing Blog | Local Tips & Expert Advice",
+      "description": "Expert plumbing advice for Knoxfield homeowners: guides on hot water systems, drain maintenance, costs, and choosing a licensed plumber."
+    }
+  }
+}
