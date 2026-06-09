@@ -1,0 +1,300 @@
+{
+  "siteType": "builder",
+  "businessName": "National Parts and Products",
+  "suburb": "Norlane",
+  "phone": "0401 579 600",
+  "email": "sales@natpp.com.au",
+  "address": "26 Station St, Norlane VIC 3214",
+  "tagline": "Norlane's One-Stop Auto Parts Shop",
+  "primaryColor": "#FF6B00",
+  "primaryColorRgb": "255, 107, 0",
+  "primaryColorHover": "#E05F00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Norlane's Auto Parts Experts",
+      "sub": "Quality parts for cars, utes and trucks across Geelong"
+    },
+    {
+      "title": "Brakes, Engines and Everything Between",
+      "sub": "Comprehensive range for all makes and models"
+    },
+    {
+      "title": "Open 9am to 4pm, Monday to Friday",
+      "sub": "Walk-in or call ahead for fast parts sourcing"
+    }
+  ],
+  "ctaHeading": "Need the right part fast? Norlane's auto parts team has you covered.",
+  "aboutHeading": "Norlane's Auto Parts Specialists From Day One",
+  "aboutSubheading": "Local knowledge, extensive range",
+  "aboutText": "National Parts and Products Pty Ltd (NPP) is a locally owned and operated auto parts store based at 26 Station Street in Norlane, VIC 3214. Serving the Geelong region and surrounding suburbs, NPP provides a comprehensive range of quality auto parts for cars, utes, trucks and commercial vehicles. Whether you're a home mechanic or a professional workshop, our knowledgeable team helps you find the right part at the right price every time.",
+  "servicesHeading": "What We Stock and Supply",
+  "servicesSubheading": "Parts for every make and model",
+  "servicesText": "From everyday maintenance parts to hard-to-find components, National Parts and Products in Norlane carries an extensive inventory sourced from trusted Australian and international suppliers. Whether you drive a sedan, ute, 4WD or commercial vehicle, we specialise in fast turnaround and expert parts matching to get you back on the road.",
+  "services": [
+    {
+      "title": "Brake and Suspension Parts",
+      "desc": "Complete brake pads, rotors, calipers and suspension components for all vehicle types from compact sedans to heavy-duty commercial vehicles.",
+      "longDesc": "Keep your vehicle stopping safely with our full range of brake pads, rotors, calipers and suspension parts. National Parts and Products in Norlane stocks quality components for sedans, utes, 4WDs and commercial vehicles across the Geelong region.",
+      "points": [
+        "All vehicle types covered",
+        "Quality brand parts",
+        "Expert fitment advice"
+      ]
+    },
+    {
+      "title": "Engine and Drivetrain Components",
+      "desc": "Engine gaskets, timing belts, clutch kits, filters and transmission components sourced to specification for reliable performance.",
+      "longDesc": "From engine gaskets and timing belts to clutch kits and gearbox components, NPP in Norlane supplies drivetrain parts that keep your vehicle running at peak performance across Geelong's varied terrain and road conditions.",
+      "points": [
+        "Wide brand selection",
+        "OEM-equivalent quality",
+        "Fast availability"
+      ]
+    },
+    {
+      "title": "Electrical and Lighting",
+      "desc": "Car batteries, alternators, starter motors, headlights and wiring looms for modern and classic vehicles of every make.",
+      "longDesc": "Whether you need a new car battery, alternator, starter motor or upgraded LED headlights, our Norlane store carries trusted electrical components for vehicles of every age and make throughout the Geelong region.",
+      "points": [
+        "Classic and modern vehicles",
+        "Top battery brands",
+        "Same-day availability"
+      ]
+    },
+    {
+      "title": "Filters and Maintenance",
+      "desc": "Oil, air, fuel and cabin filters plus premium fluids, lubricants, coolants and complete service kits for DIY and workshops.",
+      "longDesc": "Stay on top of scheduled servicing with our complete range of oil filters, air filters, fuel filters and cabin filters. We also stock premium oils, coolants and lubricants for DIY and workshop servicing in Norlane and Geelong.",
+      "points": [
+        "All major filter brands",
+        "Service kits available",
+        "Bulk order discounts"
+      ]
+    },
+    {
+      "title": "Fleet and Trade Accounts",
+      "desc": "Dedicated trade pricing and priority parts sourcing for Geelong workshops, fleet managers and mobile tradies.",
+      "longDesc": "Local Geelong workshops, fleet operators and tradies can set up a trade account with National Parts and Products for competitive pricing, priority parts sourcing and streamlined invoicing across Norlane and beyond.",
+      "points": [
+        "Competitive trade pricing",
+        "Priority parts sourcing",
+        "Flexible invoicing"
+      ]
+    },
+    {
+      "title": "Special Orders and Sourcing",
+      "desc": "Can't find it on the shelf? We track down hard-to-get parts across our national supplier network.",
+      "longDesc": "If the part you need isn't in stock, our Norlane team taps into an extensive national supplier network to source it quickly. From discontinued components to specialist aftermarket upgrades, we will find it for you.",
+      "points": [
+        "National supplier network",
+        "Fast turnaround times",
+        "No-obligation quotes"
+      ]
+    }
+  ],
+  "bannerHeading": "Your Local Auto Parts Store in Norlane",
+  "bannerSubheading": "Serving Geelong's west with quality parts and expert advice from day one.",
+  "testimonialsHeading": "What Norlane and Geelong Locals Say",
+  "testimonialsSubheading": "Trusted by mechanics and drivers alike",
+  "blogHeading": "Auto Parts Guides and Vehicle Tips",
+  "blogSubheading": "Expert advice from the Norlane team",
+  "contactHeading": "Get in Touch for Parts and Advice",
+  "contactSubheading": "Call, email or visit us at 26 Station St, Norlane",
+  "reviews": [
+    {
+      "text": "I needed a replacement clutch kit for my Hilux and the team at NPP in Norlane had it sorted within two days. Great pricing compared to the bigger chains and really helpful advice on the install.",
+      "name": "Shane Crawford",
+      "role": "Norlane Home Mechanic"
+    },
+    {
+      "text": "We've been running a trade account with National Parts and Products for over a year now. Parts are always competitively priced and they go the extra mile to track down specialist components for our Geelong workshop.",
+      "name": "Mark Delaney",
+      "role": "Geelong Workshop Owner"
+    },
+    {
+      "text": "Best auto parts shop near Corio. I popped in looking for brake rotors for my Commodore and they had exactly what I needed on the shelf. Friendly service and open nine to four suits my schedule perfectly.",
+      "name": "Tanya Russo",
+      "role": "Corio Local"
+    }
+  ],
+  "serviceAreas": [
+    "Norlane",
+    "Corio",
+    "Lara",
+    "Bell Park",
+    "Hamlyn Heights",
+    "Geelong West",
+    "North Geelong",
+    "Grovedale"
+  ],
+  "about": {
+    "intro": "National Parts and Products Pty Ltd (NPP) is a locally owned auto parts store serving Norlane, Geelong and the wider Surf Coast region from our Station Street location.",
+    "story": [
+      "Based in the heart of Norlane at 26 Station Street, National Parts and Products was established to give Geelong's vehicle owners and workshops a genuine local alternative to impersonal chain stores. Our team understands the unique demands placed on vehicles in regional Victoria, from coastal corrosion along the Bellarine to the stop-start traffic on the Princes Freeway between Geelong and Melbourne.",
+      "Whether you're a weekend warrior servicing the family car, a tradie keeping your work ute on the road, or a professional workshop needing reliable supply, NPP stocks the parts you need at competitive prices. We pride ourselves on knowing our customers by name and backing every sale with honest, knowledgeable advice from our Norlane shop floor."
+    ],
+    "mission": "To keep Norlane and Geelong moving with the right parts, the right price and the right advice every single visit.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "Our Norlane team knows Geelong vehicles and the parts they need inside out."
+      },
+      {
+        "title": "Competitive Pricing",
+        "text": "Quality parts at fair prices with genuine trade discounts for workshops and fleets."
+      },
+      {
+        "title": "Fast Sourcing",
+        "text": "If it's not on the shelf we tap our national supplier network to find it fast."
+      },
+      {
+        "title": "Open 9 to 4",
+        "text": "Convenient Station Street location with walk-in access and phone orders available."
+      }
+    ],
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Parts in Stock"
+      },
+      {
+        "value": "100%",
+        "label": "Quality Assured"
+      },
+      {
+        "value": "9-4",
+        "label": "Mon-Fri Trading"
+      }
+    ],
+    "credentials": [
+      "Locally owned and operated",
+      "Trade accounts available",
+      "Comprehensive warranty support",
+      "Open 9am to 4pm weekdays"
+    ]
+  },
+  "pricing": {
+    "intro": "National Parts and Products in Norlane offers transparent, competitive pricing on all auto parts. No surprises, just honest quotes backed by our quality guarantee for every Geelong customer.",
+    "packages": [
+      {
+        "name": "Walk-In Purchase",
+        "price": "At Shelf Price",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Browse our full range in-store",
+          "Expert advice included",
+          "Competitive retail pricing"
+        ]
+      },
+      {
+        "name": "Trade Account",
+        "price": "Discounted Rates",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Competitive trade pricing",
+          "Priority parts sourcing",
+          "Flexible invoicing terms",
+          "Dedicated account support"
+        ]
+      },
+      {
+        "name": "Special Order",
+        "price": "Quote on Request",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Hard-to-find parts sourcing",
+          "National supplier network",
+          "No-obligation quote provided"
+        ]
+      }
+    ],
+    "note": "All prices quoted are GST-inclusive and valid for 30 days. Trade accounts subject to approved application."
+  },
+  "contact": {
+    "intro": "Need a specific part or want to set up a trade account? Call the team at National Parts and Products on 0401 579 600, email sales@natpp.com.au, or visit us at 26 Station Street, Norlane VIC 3214 during trading hours."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Brake Pad Replacement Cost in Norlane?",
+      "date": "March 2026",
+      "excerpt": "Brake pad costs vary depending on your vehicle and pad type. Here is what Norlane and Geelong drivers should expect to pay in 2026.",
+      "body": [
+        "Brake pad replacement is one of the most common maintenance tasks for vehicle owners in Norlane and across the Geelong region, yet many drivers are unsure what it should cost or how to choose the right pads for their vehicle. The price of brake pads varies significantly depending on the material type, your vehicle's make and model, and whether you're replacing just the front pads, rear pads or both axles. At National Parts and Products on Station Street in Norlane, we help Geelong drivers understand their options and find the best value for their specific needs.",
+        "For a standard sedan or hatchback driven primarily around Norlane's suburban streets, organic brake pads typically cost between $45 and $80 per axle when purchased from a local parts store. Semi-metallic pads, which offer better heat dissipation for drivers who regularly use the Princes Freeway or tackle hilly terrain around the Bellarine Peninsula, generally fall in the $70 to $120 range per axle. Premium ceramic pads, engineered for low dust output and quiet operation, can cost between $100 and $180 per axle, though they often outlast cheaper alternatives by a significant margin.",
+        "Several factors influence the total cost of a brake pad replacement beyond just the parts themselves. If your rotors are scored or worn below their minimum thickness specification, they'll need replacing at the same time, which adds between $60 and $150 per rotor depending on vehicle size. Caliper slide pins that have seized due to Geelong's coastal salt air may need freeing and re-greasing, and worn brake hardware such as anti-rattle clips and shims should always be replaced with new pads. These additional components typically add $15 to $40 to the total job cost.",
+        "Labour costs for brake pad replacement vary across Geelong workshops but generally range from $120 to $200 per axle for a professional installation. This includes removal of the old pads, inspection of the rotors and calipers, installation of new pads and hardware, and bed-in of the new pads through a series of controlled stops. Many Norlane drivers who are comfortable with basic hand tools choose to install pads themselves, saving the labour cost entirely. Our team at NPP can provide application-specific fitting advice with every pad purchase.",
+        "Geelong's coastal climate also affects brake pad longevity. The salt-laden air around Norlane, Corio and Lara accelerates corrosion on brake hardware, which can cause pads to wear unevenly or bind in the caliper. Drivers who notice their vehicle pulling to one side under braking, squealing at low speeds, or requiring more pedal pressure than usual should have their brake system inspected promptly. Replacing pads before they wear completely down to the backing plate can save the cost of new rotors and prevent potential damage to the caliper pistons.",
+        "For the best value on quality brake pads in Norlane, visit National Parts and Products at 26 Station Street. We stock organic, semi-metallic and ceramic options from trusted manufacturers to suit every budget and vehicle type. We are open 9am to 4pm, Monday to Friday, and you can call us on 0401 579 600 with your vehicle details so we can quote you the right pads before your visit."
+      ]
+    },
+    {
+      "title": "When Should You Replace Your Car Battery in Geelong's Climate?",
+      "date": "February 2026",
+      "excerpt": "Geelong's temperature swings can shorten battery life. Here is how Norlane drivers know when it's time for a replacement.",
+      "body": [
+        "A car battery is one of those components most drivers take for granted until it leaves them stranded in a Norlane car park on a cold winter morning. Here in the Geelong region, batteries face a unique combination of challenges including cold overnight temperatures in winter that reduce cranking power, hot summer days that accelerate internal degradation, and the constant vibration of driving on regional Victorian roads. At National Parts and Products in Norlane, we stock a comprehensive range of batteries suited to Geelong's specific climate demands.",
+        "Most car batteries last between three and five years, though this varies significantly based on usage patterns and environmental factors. In Geelong's coastal suburbs like Norlane, Corio and Lara, the salt-air environment accelerates terminal corrosion, which can reduce battery performance even before the battery reaches the end of its chemical lifespan. If you notice white or greenish deposits around your battery terminals, it's time for a clean and inspection. Our team at NPP can test your battery's charge capacity on the spot using professional diagnostic equipment.",
+        "Several warning signs indicate your battery is nearing replacement. Slow engine cranking, especially on Geelong's chilly winter mornings, is the most obvious symptom. Dimming headlights at idle, the need for frequent jump starts, and a swollen or bloated battery case are all indicators that the battery's internal cells are failing. Modern vehicles with stop-start technology place even greater demands on batteries, and if the auxiliary battery in your vehicle fails, it can trigger a cascade of electrical warning lights on the dashboard that confuse even experienced drivers.",
+        "When choosing a replacement battery, consider your vehicle's requirements and your driving habits carefully. If you primarily drive short trips around Norlane and Geelong, under 15 minutes each way, your battery may not receive enough charge from the alternator to fully replenish what is used during starting. In these cases, a higher-capacity battery or periodic maintenance charging with a quality battery tender can extend service life considerably. For tradies and fleet operators who run accessories like portable fridges, tool compressors or auxiliary lighting, a deep-cycle or dual-purpose battery may be more appropriate than a standard starting battery.",
+        "Australia's Battery Recycling scheme means old batteries should never go to landfill. At National Parts and Products, we accept used batteries for responsible recycling when you purchase a replacement. This not only keeps harmful lead and acid out of the Geelong environment but also ensures valuable materials are recovered and reused. It's a small step that makes a real difference to the local community and the broader Victorian environment we all share.",
+        "Visit National Parts and Products at 26 Station Street, Norlane VIC 3214 to browse our full battery range or get your current battery tested free of charge. We're open 9am to 4pm, Monday to Friday, and our knowledgeable staff can help you choose the right battery for your vehicle and budget. Call ahead on 0401 579 600 if you'd like us to check stock for your specific make and model."
+      ]
+    },
+    {
+      "title": "Understanding Oil Filters: A Norlane Driver's Guide to Engine Protection",
+      "date": "January 2026",
+      "excerpt": "The humble oil filter plays a critical role in engine longevity. Learn what Norlane car owners need to know about choosing the right one.",
+      "body": [
+        "Your engine's oil filter might be small and inexpensive compared to other components, but it plays a critical role in protecting your engine from premature wear and costly repairs. Here in Norlane and across the Geelong region, drivers face specific challenges that make choosing the right oil filter even more important. The mix of short suburban trips, highway cruising on the Princes Freeway, and the fine dust that blows through during dry summer months all place additional stress on your engine's filtration system. National Parts and Products on Station Street in Norlane stocks a full range of oil filters for every vehicle type.",
+        "An oil filter's primary job is to remove contaminants from engine oil as it circulates through the engine block, cylinder head and oil galleries. These contaminants include metal shavings from normal engine wear, carbon deposits from combustion, and external particles that find their way into the oil system. A quality oil filter captures particles as small as 20 to 40 microns while maintaining consistent oil flow to critical engine components. Skimping on filter quality to save a few dollars can result in restricted oil flow, increased engine temperatures and ultimately catastrophic engine failure that costs thousands to repair.",
+        "There are generally three grades of oil filter available to Norlane drivers: standard, extended-life and premium. Standard filters are designed for normal driving conditions and regular oil change intervals of 5,000 to 7,500 kilometres. Extended-life filters use higher-quality filtration media and are rated for intervals up to 15,000 kilometres, making them ideal for Norlane drivers who use full synthetic oils and follow manufacturer-recommended extended service schedules. Premium filters offer the highest levels of filtration efficiency and are recommended for turbocharged engines, high-mileage vehicles and those subjected to harsh operating conditions around the Geelong region.",
+        "Geelong's climate presents specific considerations for oil filter selection that many drivers overlook. During winter, cold starts cause oil to thicken, which increases the pressure differential across the filter media. A quality filter with a properly calibrated anti-drainback valve ensures oil remains in the filter housing and doesn't drain back into the sump between engine starts. This means your engine receives lubrication within seconds of turning the key, significantly reducing cold-start wear on bearings and cylinder walls. In summer, higher ambient temperatures thin the oil and increase the volume of contaminants the filter must process.",
+        "For DIY mechanics in Norlane and the surrounding Geelong suburbs, oil filter changes are one of the simplest and most rewarding maintenance tasks you can perform at home. Always use a filter wrench to remove the old filter, clean the mounting surface on the engine block with a lint-free cloth, apply a thin film of fresh oil to the new filter's rubber gasket, and hand-tighten the new filter before giving it an additional three-quarter turn. Over-tightening can crush the gasket and cause leaks, while under-tightening can result in the filter loosening during operation. Our team at NPP can demonstrate the correct technique and recommend the right filter for your specific vehicle.",
+        "National Parts and Products at 26 Station Street, Norlane carries oil filters from leading brands including Ryco, Penrite and Bosch to suit every budget and performance requirement. Whether you drive a compact hatchback, a heavy-duty ute or a commercial van, we'll match you with the correct filter for your engine. Pop in during our opening hours of 9am to 4pm, Monday to Friday, or ring us on 0401 579 600 with your vehicle details and we'll have your filter ready for collection."
+      ]
+    },
+    {
+      "title": "Signs Your Suspension Needs Attention: A Geelong Region Driver's Guide",
+      "date": "December 2025",
+      "excerpt": "Worn suspension affects safety, tyre life and ride comfort. Norlane drivers should watch for these warning signs on Geelong's roads.",
+      "body": [
+        "Your vehicle's suspension system does far more than just provide a comfortable ride over Geelong's varied road surfaces. It keeps your tyres firmly planted on the road, maintains steering precision and plays a crucial role in braking performance and overall vehicle safety. Here in Norlane and throughout the Geelong region, the combination of urban streets, rural roads and high-speed freeway driving puts your suspension through its paces every single day. At National Parts and Products on Station Street in Norlane, we stock a comprehensive range of suspension components to keep your vehicle handling safely and predictably.",
+        "The most common sign of worn suspension is a noticeable change in how your vehicle handles during everyday driving around Norlane. If you notice the car pulling to one side, feeling excessive nose-dive under braking, or wallowing through corners, your suspension components may be past their best. On Geelong's freeways, worn shock absorbers allow excessive body movement that reduces tyre contact with the road surface and increases stopping distances significantly. This is particularly dangerous during emergency braking manoeuvres or when navigating the roundabouts that feature heavily across the Norlane and Corio area.",
+        "Visual inspection can reveal a surprising amount about your vehicle's suspension condition without any special tools. Check underneath your vehicle for oil leaking from shock absorbers or struts, as a thin film of oil on the damper body indicates a failing seal and reduced damping performance. Look at how your vehicle sits when parked on level ground: if it leans noticeably to one side or sits lower at one end, a spring may have sagged or broken. Excessive bouncing when you push down firmly on any corner of the vehicle is another telltale sign that the shock absorbers are no longer controlling spring movement effectively.",
+        "The Geelong region's road conditions also accelerate suspension component wear in ways that drivers in drier inland areas may not experience. Potholes, particularly common on secondary roads around Norlane, Bell Park and Hamlyn Heights after heavy rain, deliver sharp impacts that can damage shock absorbers and even bend suspension arms. Speed bumps in residential areas create repeated low-speed compression cycles that gradually degrade damper performance over time. If you regularly drive on unsealed roads around Lara or the Barrabool Hills, consider upgrading to heavy-duty shock absorbers designed for more demanding use.",
+        "Worn suspension doesn't just affect comfort and safety, it has a direct impact on tyre wear and fuel consumption that hits your hip pocket. When dampers can't control wheel movement effectively, the tyres skip and hop across the road surface rather than maintaining smooth contact. This creates uneven tyre wear patterns, typically feathering across the tread face, that can dramatically shorten tyre life and mean you're buying new tyres far sooner than necessary. A vehicle with compromised suspension also requires more steering corrections from the driver, which increases rolling resistance and fuel consumption over every trip around Geelong.",
+        "If you suspect your suspension needs attention, visit National Parts and Products at 26 Station Street, Norlane VIC 3214. Our knowledgeable team can help identify the right replacement parts for your vehicle and driving needs. We stock shock absorbers, struts, coil springs, sway bar links and bushings from trusted manufacturers. We're open 9am to 4pm, Monday to Friday, and you can call us on 0401 579 600 to check stock or get expert advice before your visit to our Norlane store."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "National Parts and Products | Auto Parts in Norlane | Geelong",
+      "description": "Norlane's trusted auto parts store. Quality brake, engine, electrical and maintenance parts for all vehicle makes. Trade accounts open. 26 Station St, Norlane VIC 3214."
+    },
+    "about": {
+      "title": "About National Parts and Products | Norlane Auto Parts Store",
+      "description": "Learn about NPP, a locally owned auto parts store at 26 Station St, Norlane VIC 3214, serving Geelong's vehicle owners and workshops with quality parts."
+    },
+    "services": {
+      "title": "Auto Parts and Accessories Norlane | NPP Geelong",
+      "description": "Our full range of brake, engine, electrical and maintenance parts at NPP Norlane. Trade accounts available for Geelong workshops and fleets. Special orders welcome."
+    },
+    "pricing": {
+      "title": "Competitive Auto Parts Pricing Norlane | Trade Accounts",
+      "description": "Fair, transparent pricing on quality auto parts at National Parts and Products Norlane. Trade accounts available for Geelong workshops, fleets and tradies."
+    },
+    "contact": {
+      "title": "Contact NPP Norlane | 26 Station St Geelong | Auto Parts",
+      "description": "Get in touch with National Parts and Products at 26 Station St, Norlane VIC 3214. Call 0401 579 600 or email sales@natpp.com.au for parts enquiries."
+    },
+    "blog": {
+      "title": "Auto Parts Blog Norlane | Vehicle Maintenance Guides | NPP",
+      "description": "Expert auto parts advice and vehicle maintenance guides from National Parts and Products, Norlane. Tips for Geelong drivers on brakes, batteries and filters."
+    }
+  }
+}
