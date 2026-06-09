@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "President Refrigeration & Air Conditioning Services",
+  "suburb": "Fawkner",
+  "phone": "03 9345 1234",
+  "email": "info@presidentrefrigeration.com.au",
+  "address": "92 Lynch Rd, Fawkner VIC 3060",
+  "tagline": "Fawkner's Refrigeration & Air Conditioning Experts",
+  "primaryColor": "#0077be",
+  "primaryColorRgb": "0, 119, 190",
+  "primaryColorHover": "#005f8f",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fawkner's Air Conditioning Specialists",
+      "sub": "Trusted cooling and heating solutions for homes and businesses"
+    },
+    {
+      "title": "Refrigeration & Climate Control Services",
+      "sub": "Installation, repair and maintenance across Melbourne's north"
+    },
+    {
+      "title": "Free Quotes for Fawkner Locals",
+      "sub": "Call today for expert HVAC advice"
+    }
+  ],
+  "ctaHeading": "Fawkner's HVAC experts are ready to assist you.",
+  "aboutHeading": "Air Conditioning Services in Fawkner",
+  "aboutSubheading": "Local, licensed and reliable contractors",
+  "aboutText": "President Refrigeration & Air Conditioning Services has been providing top-notch air conditioning and refrigeration solutions to Fawkner and surrounding suburbs for over a decade. Our team of licensed professionals is dedicated to ensuring your comfort with efficient installations, timely repairs, and regular maintenance. We understand the local climate and tailor our services to meet the unique needs of Victorian homes and businesses. Trust us to keep your spaces cool in summer and warm in winter.",
+  "servicesHeading": "Our HVAC Services",
+  "servicesSubheading": "Expert air conditioning and refrigeration care",
+  "servicesText": "We offer a comprehensive range of services including installation, repair, and maintenance for all types of air conditioning and refrigeration systems. Our skilled technicians are equipped to handle residential, commercial, and industrial projects, ensuring optimal performance and energy efficiency.",
+  "services": [
+    {
+      "title": "Air Conditioning Installation",
+      "desc": "We install split systems, ducted air conditioning, and more, ensuring perfect climate control for your Fawkner home or office."
+    },
+    {
+      "title": "Air Conditioning Repair",
+      "desc": "Our technicians quickly diagnose and fix issues with all AC brands, restoring comfort to your space efficiently."
+    },
+    {
+      "title": "Refrigeration System Installation",
+      "desc": "We set up commercial and domestic refrigeration units, from walk-in coolers to display fridges, with precision."
+    },
+    {
+      "title": "Preventive Maintenance",
+      "desc": "Regular servicing keeps your HVAC systems running smoothly, preventing breakdowns and extending their lifespan."
+    },
+    {
+      "title": "Commercial HVAC Services",
+      "desc": "We provide tailored solutions for businesses in Fawkner, including offices, restaurants, and retail spaces."
+    },
+    {
+      "title": "Emergency Breakdowns",
+      "desc": "We offer prompt emergency repairs for air conditioning and refrigeration failures, minimising disruption."
+    }
+  ],
+  "bannerHeading": "Need Air Conditioning in Fawkner?",
+  "bannerSubheading": "We're here to keep you comfortable all year round.",
+  "testimonialsHeading": "What Fawkner Residents Say",
+  "testimonialsSubheading": "Cool solutions, warm service",
+  "blogHeading": "HVAC Tips & News",
+  "blogSubheading": "Advice from the experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call us or send an email for a quick response",
+  "reviews": [
+    {
+      "text": "President Refrigeration installed a new ducted air conditioning system in our Fawkner home, and the service was exceptional. They were professional, punctual, and the system works perfectly.",
+      "name": "James Mitchell",
+      "role": "Fawkner Homeowner"
+    },
+    {
+      "text": "We had a refrigeration breakdown at our café in Broadmeadows, and they responded quickly. The repair was done efficiently, minimising our downtime.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team maintained the air conditioning units in our rental properties across Melbourne's north. Reliable service and fair pricing every time.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
