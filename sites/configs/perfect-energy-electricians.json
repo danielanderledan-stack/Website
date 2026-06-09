@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Perfect Energy Electricians",
+  "suburb": "Fitzroy North",
+  "phone": "0414801137",
+  "email": "electrical@perfectenergyelectricians.com.au",
+  "address": "26 Best St, Fitzroy North VIC 3068",
+  "tagline": "Fitzroy North's Trusted Electricians",
+  "primaryColor": "#ff7d15",
+  "primaryColorRgb": "255, 125, 21",
+  "primaryColorHover": "#e66e12",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fitzroy North's Expert Electricians",
+      "sub": "Electrical and data solutions for Melbourne"
+    },
+    {
+      "title": "Residential & Commercial Services",
+      "sub": "Trusted across Fitzroy North and beyond"
+    },
+    {
+      "title": "24/7 Emergency Electrical Support",
+      "sub": "Always ready when you need us"
+    }
+  ],
+  "ctaHeading": "Fitzroy North's electricians are ready — let's power your project.",
+  "aboutHeading": "Roger's Passion for Electrical Excellence",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Roger has a strong passion for electrical work and commenced trading as Perfect Energy Pty Ltd, holding REC 18837. With a lengthy history of providing Electrical and Data Solutions across most areas of Melbourne, we specialise in serving Fitzroy North and surrounding suburbs. Our commitment is to deliver reliable, efficient, and safe electrical services to both residential and commercial clients. Available 24 hours a day, we ensure your needs are met with professionalism and care.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for all your needs",
+  "servicesText": "We provide a comprehensive range of electrical services tailored to Fitzroy North and greater Melbourne. From residential installations to complex commercial projects, our skilled team ensures high-quality workmanship and adherence to safety standards.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "From new builds to upgrades, we handle all residential electrical needs in Fitzroy North and surrounding areas, ensuring safety and efficiency."
+    },
+    {
+      "title": "Commercial Electrical Solutions",
+      "desc": "We provide reliable electrical services for businesses across Melbourne, including installations, maintenance, and energy-efficient solutions."
+    },
+    {
+      "title": "24/7 Emergency Electrical Support",
+      "desc": "Our team is available around the clock to respond to electrical emergencies, minimising downtime and ensuring safety for homes and businesses."
+    },
+    {
+      "title": "Data and Network Cabling",
+      "desc": "Specialising in data cabling and network setups, we ensure seamless connectivity for homes and offices in Fitzroy North and Melbourne."
+    },
+    {
+      "title": "Lighting Installation and Design",
+      "desc": "Enhance your space with our expert lighting services, from design to installation, tailored to your style and functional requirements."
+    },
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "We conduct thorough safety inspections and compliance checks to keep your property safe and up to current electrical codes."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Fitzroy North?",
+  "bannerSubheading": "We're here to help with all your electrical needs.",
+  "testimonialsHeading": "What Fitzroy North Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for fast, reliable service",
+  "reviews": [
+    {
+      "text": "Perfect Energy Electricians did an excellent job rewiring my home in Fitzroy North. Roger and his team were punctual, professional, and left the site clean. Highly recommend their residential services.",
+      "name": "Mike Thompson",
+      "role": "Fitzroy North Homeowner"
+    },
+    {
+      "text": "As a café owner in Brunswick, I needed urgent electrical repairs. Perfect Energy responded within an hour and fixed the issue promptly. Their commercial expertise is top-notch and reliable.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We've used Perfect Energy for multiple properties across Melbourne, including Glen Waverley. Their reliability and quality work make them our go-to electricians for all maintenance needs.",
+      "name": "David Williams",
+      "role": "Property Manager"
+    }
+  ]
+}
