@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Greenworks Garden Maintenance",
+  "suburb": "Briar Hill",
+  "phone": "0418 585 279",
+  "email": "user@domain.com",
+  "address": "25 Tower Dr, Briar Hill VIC 3088",
+  "tagline": "Briar Hill's Garden Maintenance Experts",
+  "primaryColor": "#209b66",
+  "primaryColorRgb": "32, 155, 102",
+  "primaryColorHover": "#198b5a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Briar Hill's Garden Maintenance Pros",
+      "sub": "Serving Melbourne's North Eastern Suburbs"
+    },
+    {
+      "title": "Lawn Mowing & Complete Garden Care",
+      "sub": "Pruning, hedging, mulching & more"
+    },
+    {
+      "title": "Get Your Weekends Back",
+      "sub": "Professional garden maintenance for Briar Hill"
+    }
+  ],
+  "ctaHeading": "Ready for a Beautiful Garden in Briar Hill?",
+  "aboutHeading": "Your Local Garden Experts in Briar Hill",
+  "aboutSubheading": "Trusted and professional service",
+  "aboutText": "Greenworks Garden Maintenance has been proudly serving Briar Hill and the surrounding north-eastern suburbs of Melbourne. With a comprehensive range of services including lawn mowing, garden cleanup, pruning, hedging, mulching, and irrigation, we ensure your garden thrives all year round. Our team is available from 8am to 7pm, Monday to Saturday, to provide reliable and affordable garden care. Contact us to keep your outdoor spaces looking their best.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Comprehensive garden solutions",
+  "servicesText": "At Greenworks Garden Maintenance, we offer tailored garden care services to meet your specific needs. From routine lawn mowing to specialised irrigation systems, our expert team handles it all. Serving Briar Hill, we focus on quality and customer satisfaction to maintain beautiful gardens.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Regular mowing to keep your lawn neat and healthy, tailored to your schedule and grass type."
+    },
+    {
+      "title": "Garden Cleanup",
+      "desc": "Thorough removal of debris, weeds, and overgrowth to revitalise your outdoor space efficiently."
+    },
+    {
+      "title": "Pruning",
+      "desc": "Expert pruning of shrubs and trees to promote growth, enhance shape, and improve plant health."
+    },
+    {
+      "title": "Hedging",
+      "desc": "Precise hedging services to define boundaries, add structure, and boost garden aesthetics."
+    },
+    {
+      "title": "Mulching",
+      "desc": "Professional application of mulch to conserve moisture, suppress weeds, and enrich soil health."
+    },
+    {
+      "title": "Garden Irrigation",
+      "desc": "Installation and maintenance of efficient irrigation systems to optimise water use for gardens."
+    }
+  ],
+  "bannerHeading": "Need Garden Maintenance in Briar Hill?",
+  "bannerSubheading": "Expert care for your outdoor spaces",
+  "testimonialsHeading": "What Briar Hill Locals Say",
+  "testimonialsSubheading": "Quality work from your neighbours",
+  "blogHeading": "Garden Tips & News",
+  "blogSubheading": "Insights from Greenworks team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Greenworks did an amazing job with our lawn mowing and garden cleanup in Briar Hill. The team was punctual and the garden looks fantastic. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Briar Hill Homeowner"
+    },
+    {
+      "text": "We hired Greenworks for hedging and mulching at our local café. They transformed the outdoor area, and our customers love it. Professional and reliable service.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Greenworks for irrigation maintenance at several properties. They're efficient and always deliver quality work. A trusted partner.",
+      "name": "Mike Davis",
+      "role": "Property Manager"
+    }
+  ]
+}
