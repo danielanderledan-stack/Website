@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Byrd Electrical",
+  "suburb": "Gowanbrae",
+  "phone": "+61390000666",
+  "email": "admin@byrdelec.com.au",
+  "address": "1A, Gowanbrae Drive, Gowanbrae, Melbourne, Victoria, 3043, Australia",
+  "tagline": "Gowanbrae's Trusted Electricians",
+  "primaryColor": "#cf2e2e",
+  "primaryColorRgb": "207, 46, 46",
+  "primaryColorHover": "#b42828",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Gowanbrae's 24/7 Emergency Electricians",
+      "sub": "15+ years serving Melbourne with reliable service"
+    },
+    {
+      "title": "Switchboard Upgrades & Repairs",
+      "sub": "On time or we pay you $200, guaranteed"
+    },
+    {
+      "title": "Home Automation & Data Solutions",
+      "sub": "Smart setups for modern homes in Gowanbrae"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Gowanbrae?",
+  "aboutHeading": "15 Years Electrical Excellence in Gowanbrae",
+  "aboutSubheading": "Local, licensed & available 24/7",
+  "aboutText": "With over 15 years of industry experience, Byrd Electrical provides comprehensive electrical services to Gowanbrae and Melbourne. Our licensed electricians specialize in emergency repairs, installations, and upgrades, ensuring your home or business stays safe and efficient. We offer on-time service with a 100+ year extended workmanship guarantee.",
+  "servicesHeading": "What We Do for Gowanbrae",
+  "servicesSubheading": "Expert electrical solutions",
+  "servicesText": "From emergency calls to smart home setups, we cover all electrical needs for residential and commercial clients in Melbourne. Our team focuses on safety, efficiency, and modern technology.",
+  "services": [
+    {
+      "title": "Emergency Electrical",
+      "desc": "24/7 rapid response for power outages, faults, and urgent issues across Melbourne and Gowanbrae."
+    },
+    {
+      "title": "Electrical Repairs",
+      "desc": "Diagnose and fix faulty wiring, power points, and appliances with transparent, upfront pricing."
+    },
+    {
+      "title": "Light Installation",
+      "desc": "Install pendant lights, downlights, and energy-efficient lighting to enhance your space."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade outdated switchboards to meet modern safety standards and electrical demands."
+    },
+    {
+      "title": "Data & Communications",
+      "desc": "Set up robust data cabling and networks for homes and offices, ensuring reliable connectivity."
+    },
+    {
+      "title": "Home Automation",
+      "desc": "Configure smart devices for lighting, climate, and security, controlled from your smartphone."
+    }
+  ],
+  "bannerHeading": "Gowanbrae's Go-To Emergency Electricians",
+  "bannerSubheading": "Available 24/7 with guaranteed on-time service or we pay you.",
+  "testimonialsHeading": "What Gowanbrae Locals Say",
+  "testimonialsSubheading": "Trusted for quality and reliability",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from our experienced team",
+  "contactHeading": "Contact Byrd Electrical Today",
+  "contactSubheading": "Get a free quote for your electrical project",
+  "reviews": [
+    {
+      "text": "Byrd Electrical handled our switchboard upgrade in Gowanbrae efficiently and professionally. The team was on time, explained everything, and ensured our home's safety with modern standards.",
+      "name": "Sarah Mitchell",
+      "role": "Gowanbrae Homeowner"
+    },
+    {
+      "text": "Excellent service for light installation at our Melbourne office. The electricians were skilled, completed the job quickly, and left the space tidy. Highly recommended for commercial work.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Quick response for an electrical repair at our rental property in Melbourne. Byrd Electrical provided upfront pricing and fixed the issue promptly, keeping our tenants satisfied.",
+      "name": "Emma Watson",
+      "role": "Property Manager"
+    }
+  ]
+}
