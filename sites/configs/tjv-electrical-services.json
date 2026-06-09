@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "TJV Electrical Services",
+  "suburb": "Heidelberg",
+  "phone": "0402 625 583",
+  "email": "intl-segmenter@11.7.10",
+  "address": "28 Buna St, Heidelberg West VIC 3081",
+  "tagline": "Heidelberg's Licensed Electricians",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0f2ccf",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Heidelberg's Electrical Experts",
+      "sub": "Residential & Commercial Services"
+    },
+    {
+      "title": "Air Conditioning & Data Solutions",
+      "sub": "Specialised installations for homes and businesses"
+    },
+    {
+      "title": "Free Quotes Across Heidelberg",
+      "sub": "Call Tom on 0402 625 583"
+    }
+  ],
+  "ctaHeading": "Heidelberg's electricians are ready — let's power your project.",
+  "aboutHeading": "Expert Electrical Services in Heidelberg",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "TJV Electrical Services is based in Heidelberg, providing expert electrical work across Melbourne. We specialise in residential and commercial electrical services, air conditioning installation, and data and security systems. Our qualified electricians deliver safe, efficient, and reliable solutions. Call Tom for a free quote on 0402 625 583.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all your needs",
+  "servicesText": "At TJV Electrical Services, we offer a full range of electrical services for homes and businesses in Heidelberg. From installations to maintenance, our team ensures quality workmanship and customer satisfaction.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Expert electrical services for homes in Heidelberg, including rewiring, lighting, and power point installations."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Comprehensive electrical solutions for businesses, ensuring safety and efficiency in commercial properties."
+    },
+    {
+      "title": "Air Conditioning Installation",
+      "desc": "Professional installation and servicing of air conditioning systems for residential and commercial use."
+    },
+    {
+      "title": "Data and Security",
+      "desc": "Installation of data cabling, CCTV, and security systems to keep your property connected and secure."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Regular maintenance and inspections to prevent issues and optimise your electrical systems' performance."
+    },
+    {
+      "title": "Emergency Callouts",
+      "desc": "Prompt response for urgent electrical problems, available throughout Heidelberg and surrounding areas."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Heidelberg?",
+  "bannerSubheading": "Get a free quote from Tom today!",
+  "testimonialsHeading": "What Heidelberg Locals Say",
+  "testimonialsSubheading": "Trusted electrical services from TJV Electrical",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Expert advice from TJV Electrical Services",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "TJV Electrical Services did a fantastic job installing new lighting in our Heidelberg home. Tom was professional and completed the work on time. Highly recommend for any residential electrical needs.",
+      "name": "John Smith",
+      "role": "Heidelberg Homeowner"
+    },
+    {
+      "text": "We hired TJV for air conditioning installation at our business in Heidelberg West. The service was efficient and the system works perfectly. Great value for commercial clients.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on TJV Electrical for all maintenance and emergency callouts. Their quick response in Heidelberg has saved us many times. Trustworthy and skilled.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
