@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Hands On Electrical Group",
+  "suburb": "Reservoir",
+  "phone": "03 9460 0000",
+  "email": "info@handsonelec.com.au",
+  "address": "16 Daleglen St, Reservoir VIC 3073",
+  "tagline": "Reservoir's Trusted Electricians",
+  "primaryColor": "#0081f2",
+  "primaryColorRgb": "0, 129, 242",
+  "primaryColorHover": "#006bd2",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hands On Electrical in Reservoir",
+      "sub": "Serving Melbourne's north with pride"
+    },
+    {
+      "title": "Expert Electricians for Every Job",
+      "sub": "Residential, commercial & emergency services"
+    },
+    {
+      "title": "Reservoir's 24/7 Electrical Experts",
+      "sub": "Fast response times, quality workmanship"
+    }
+  ],
+  "ctaHeading": "Reservoir's electricians are ready — let's power your project.",
+  "aboutHeading": "Reservoir's Electrical Experts",
+  "aboutSubheading": "Licensed & local",
+  "aboutText": "Hands On Electrical Group has been proudly serving Reservoir and the surrounding areas for over a decade. Our team of licensed electricians specialises in a wide range of electrical services, from residential repairs to commercial installations. We understand the unique needs of Reservoir homes and businesses, providing prompt and professional service every time.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "From routine maintenance to emergency repairs, Hands On Electrical Group covers all your electrical needs in Reservoir. Our skilled electricians are equipped to handle jobs of any size, ensuring safety and efficiency.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete electrical solutions for Reservoir homes, including wiring, repairs, and upgrades."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Professional electrical services for businesses in Reservoir, ensuring minimal downtime."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency callout service for urgent electrical issues in Reservoir and nearby areas."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Expert installation of indoor and outdoor lighting to enhance your property in Reservoir."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety inspections for Reservoir homes and commercial properties."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrading old switchboards to meet current safety standards for Reservoir residents."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Reservoir?",
+  "bannerSubheading": "Fast response times for all your electrical needs.",
+  "testimonialsHeading": "What Reservoir Locals Say",
+  "testimonialsSubheading": "Honest work, reliable service",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Stay informed with expert advice",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Hands On Electrical Group did a fantastic job rewiring our house in Reservoir. The team was punctual, professional, and left the place clean. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Reservoir Homeowner"
+    },
+    {
+      "text": "As a local business owner in Reservoir, I rely on Hands On Electrical for all our commercial electrical needs. Their quick response and quality work have been outstanding.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The safety inspection they conducted at our Reservoir property was thorough and informative. The electrician explained everything clearly, and we feel much safer now.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
