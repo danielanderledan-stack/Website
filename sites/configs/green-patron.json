@@ -1,0 +1,254 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Green Patron",
+  "suburb": "Templestowe",
+  "phone": "+61477115524",
+  "email": "info@greenpatron.com.au",
+  "address": "8 Aloha Gardens, Templestowe VIC 3106",
+  "tagline": "Templestowe's Premier Exterior Architects",
+  "primaryColor": "#65ff00",
+  "primaryColorRgb": "101, 255, 0",
+  "primaryColorHover": "#4ecc00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Templestowe's Architectural Landscapers",
+      "sub": "Premium landscaping & home renovations"
+    },
+    {
+      "title": "Resort-Style Pools & Outdoor Kitchens",
+      "sub": "Master craftsmanship in Templestowe"
+    },
+    {
+      "title": "Client-First Approach & 5-Year Guarantee",
+      "sub": "Architectural precision for your property"
+    }
+  ],
+  "ctaHeading": "Transform your Templestowe property with Green Patron's expertise.",
+  "aboutHeading": "Architectural Precision in Templestowe",
+  "aboutSubheading": "Delivering premium outdoor spaces",
+  "aboutText": "Green Patron is Templestowe's premier exterior architect, specialising in transforming residential properties with architectural precision. With a client-first approach and a 5-year guarantee on our workmanship, we deliver premium landscaping and home renovations across Melbourne's eastern suburbs. Our master craftsmen design and build everything from resort-style pool surrounds to illuminating front gardens.",
+  "servicesHeading": "Our Signature Services",
+  "servicesSubheading": "Crafted for Templestowe homes",
+  "servicesText": "We design and build premium outdoor living spaces with architectural precision. From resort-style pool surrounds to illuminated front gardens, Green Patron transforms Templestowe properties into stunning, functional extensions of the home.",
+  "services": [
+    {
+      "title": "Resort-Style Pool Surround & Entertaining",
+      "desc": "Create a luxury backyard oasis with a complete pool surround and entertaining area.",
+      "longDesc": "Transform your Templestowe backyard into a private resort with a custom-designed pool surround, integrated outdoor kitchen, and sophisticated entertaining space built for Melbourne's climate.",
+      "points": [
+        "Luxury pool surround design",
+        "Integrated outdoor kitchens",
+        "Complete entertainment zones"
+      ]
+    },
+    {
+      "title": "Poolside Pergola & Outdoor Kitchen",
+      "desc": "Add a stylish pergola and functional outdoor kitchen beside your swimming pool.",
+      "longDesc": "Design and construct a stunning poolside pergola paired with a fully equipped outdoor kitchen, creating the perfect shaded retreat for Templestowe summers and year-round outdoor dining.",
+      "points": [
+        "Custom pergola structures",
+        "Complete outdoor kitchens",
+        "Weather-resistant materials"
+      ]
+    },
+    {
+      "title": "Stone Fireplace & Mosaic Terrace",
+      "desc": "Install a beautiful stone fireplace and detailed mosaic terrace for year-round use.",
+      "longDesc": "Add warmth and architectural drama to your Templestowe garden with a bespoke stone fireplace and intricately designed mosaic terrace, creating an inviting focal point for cooler months.",
+      "points": [
+        "Bespoke stone fireplaces",
+        "Intricate mosaic designs",
+        "Year-round outdoor living"
+      ]
+    },
+    {
+      "title": "Backlit Timber Feature Wall",
+      "desc": "Create a dramatic architectural statement with an illuminated timber feature wall.",
+      "longDesc": "Craft a stunning focal point for your Templestowe outdoor space with a custom-designed, backlit timber feature wall that combines natural materials with modern architectural lighting.",
+      "points": [
+        "Custom timber designs",
+        "Integrated LED lighting",
+        "Architectural statements"
+      ]
+    },
+    {
+      "title": "Courtyard Pergola & Water Features",
+      "desc": "Transform a courtyard with a custom pergola and tranquil water feature.",
+      "longDesc": "Maximise your Templestowe courtyard space with a beautifully designed pergola and a soothing water feature, creating a private sanctuary with perfect architectural balance and tranquility.",
+      "points": [
+        "Space-maximising designs",
+        "Custom water features",
+        "Tranquil outdoor sanctuaries"
+      ]
+    },
+    {
+      "title": "Illuminated Front Garden & Pillars",
+      "desc": "Enhance your street appeal with a professionally landscaped and lit front garden.",
+      "longDesc": "Create a stunning first impression for your Templestowe home with a masterfully designed front garden featuring architectural pillars, professional landscaping, and strategic illumination.",
+      "points": [
+        "Stunning street appeal",
+        "Architectural pillar designs",
+        "Professional garden lighting"
+      ]
+    }
+  ],
+  "bannerHeading": "Need Architectural Landscapers in Templestowe?",
+  "bannerSubheading": "Free consultations for premium outdoor projects.",
+  "testimonialsHeading": "What Templestowe Locals Say",
+  "testimonialsSubheading": "Master craftsmanship you can trust",
+  "blogHeading": "Templestowe Landscaping Insights",
+  "blogSubheading": "Expert guides for your outdoor project",
+  "contactHeading": "Start Your Templestowe Transformation",
+  "contactSubheading": "Architectural precision begins with a conversation",
+  "reviews": [
+    {
+      "text": "Green Patron designed and built our entire poolside entertaining area in Templestowe. The backlit timber feature wall and outdoor kitchen are absolutely stunning, perfect for our summer gatherings.",
+      "name": "David Chen",
+      "role": "Templestowe Homeowner"
+    },
+    {
+      "text": "The team completely transformed our tired front garden into a magnificent illuminated entrance with stone pillars. Their architectural eye for detail and master craftsmanship exceeded our expectations.",
+      "name": "Sarah Mitchell",
+      "role": "Property Manager"
+    },
+    {
+      "text": "From consultation through to completion, Green Patron delivered a beautiful courtyard pergola and water feature with flawless precision. The 5-year guarantee gave us complete confidence in their work.",
+      "name": "James O'Neill",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Templestowe",
+    "Doncaster",
+    "Balwyn North",
+    "Box Hill North",
+    "Blackburn",
+    "Mitcham",
+    "Ringwood",
+    "Doncaster East"
+  ],
+  "pricing": {
+    "intro": "Green Patron provides transparent, no-lock-in pricing for all Templestowe landscaping projects. Every consultation begins with a detailed discussion of your vision before providing a comprehensive, fixed-price quote.",
+    "packages": [
+      {
+        "name": "Consultation & Design",
+        "price": "$350",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site Templestowe assessment",
+          "Architectural concept design",
+          "Detailed project proposal"
+        ]
+      },
+      {
+        "name": "Standard Landscape Package",
+        "price": "from $15,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Complete design & build",
+          "Premium materials selection",
+          "5-year workmanship guarantee",
+          "Project management"
+        ]
+      },
+      {
+        "name": "Full Property Transformation",
+        "price": "from $50,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Multi-zone outdoor design",
+          "Architectural feature creation",
+          "Lighting & irrigation systems"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs for Templestowe projects."
+  },
+  "contact": {
+    "intro": "Ready to transform your Templestowe property? Contact Green Patron today for a free consultation. We'd love to discuss how our architectural precision can bring your outdoor vision to life."
+  },
+  "blogPosts": [
+    {
+      "title": "Creating a Resort-Style Pool Surround in Templestowe: Costs & Design Ideas",
+      "date": "March 2026",
+      "excerpt": "Discover how Templestowe homeowners can create luxurious pool surrounds with outdoor kitchens, considering Melbourne's climate and local council requirements for a stunning backyard transformation.",
+      "body": [
+        "Creating a resort-style pool surround in Templestowe requires careful consideration of Melbourne's variable climate and the specific topography of your property. As premier exterior architects, Green Patron begins every pool surround project with a detailed site assessment, considering factors like soil composition, drainage requirements, and sun orientation to ensure your outdoor oasis performs beautifully year-round. Templestowe's established gardens and sloping blocks present unique opportunities for multi-level pool designs that integrate seamlessly with the existing landscape.",
+        "The cost of a complete pool surround and entertaining area in Templestowe typically ranges from $25,000 to $80,000 depending on the scope and materials selected. This investment covers everything from the structural hardscaping and premium tiling to the integrated outdoor kitchen and architectural lighting systems that define a true resort experience. Green Patron works with Templestowe homeowners to develop designs that maximise their available space while adhering to local planning regulations and setback requirements that are common in Melbourne's established eastern suburbs.",
+        "When selecting materials for your Templestowe pool surround, consider options that withstand Melbourne's hot summers and occasional cool winters. Natural stone like bluestone or travertine offers timeless elegance and excellent thermal properties, while premium porcelain tiles provide durability with minimal maintenance. The team at Green Patron sources materials that complement Templestowe's architectural character, ensuring your pool area enhances rather than disrupts the existing streetscape while meeting all Australian safety standards for pool fencing and barriers.",
+        "Integrating an outdoor kitchen into your Templestowe pool surround transforms a simple swimming area into a complete entertainment destination. Modern outdoor kitchens can include built-in BBQs, pizza ovens, bar fridges, and sophisticated lighting systems—all designed to withstand Melbourne's weather extremes. For Templestowe properties, Green Patron often recommends covered kitchen areas that provide shade during summer while offering protection during unexpected weather changes, ensuring your outdoor living space is functional every month of the year.",
+        "Landscaping around your pool area is crucial for creating that authentic resort atmosphere in Templestowe. Strategic planting of drought-tolerant native species combined with architectural plants like grasses and specimen trees can provide privacy, reduce wind exposure, and create microclimates that enhance your pool's usability. Green Patron's designers understand Templestowe's soil conditions and microclimates, selecting plants that will thrive with minimal maintenance while contributing to the overall aesthetic of your outdoor sanctuary.",
+        "Lighting design can make or break a pool area's evening ambiance, and in Templestowe's residential streets, it's important to balance drama with neighbourly consideration. Green Patron specialises in sophisticated lighting schemes that highlight architectural features like water elements and textured walls while providing safe navigation around the pool perimeter. We recommend LED systems that offer energy efficiency and colour-changing capabilities, allowing Templestowe homeowners to adjust the mood from bright family gatherings to sophisticated evening entertaining with simple controls."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Front Garden Illumination in Templestowe",
+      "date": "February 2026",
+      "excerpt": "Learn how Templestowe homeowners can enhance their property's street appeal with professional garden lighting, pillar illumination, and architectural landscaping that complies with local guidelines.",
+      "body": [
+        "In Templestowe's prestigious streets, a well-illuminated front garden does more than provide security—it creates a stunning first impression that enhances property value and contributes to the neighbourhood's character. Green Patron approaches front garden illumination as architectural design, considering how light interacts with plants, pathways, and structural elements to create a cohesive visual experience from the street. For Templestowe homes, this often means balancing visibility with subtlety, ensuring lighting enhances rather than overwhelms the established garden setting.",
+        "The foundation of any successful Templestowe front garden lighting project begins with understanding the property's architecture and existing landscape. Green Patron conducts detailed evening assessments to identify shadow patterns, existing light pollution, and opportunities for highlighting mature trees or architectural features that define the property's character. Templestowe's varied architectural styles—from mid-century modern to contemporary designs—require tailored lighting approaches that complement each home's unique aesthetic while maintaining consistency with the broader streetscape.",
+        "Pillar illumination is particularly effective in Templestowe, where many properties feature impressive entrance pillars that frame the home's facade. Green Patron uses sophisticated uplighting techniques that wash light across pillar surfaces, creating dramatic shadows and highlighting textured materials like stone or rendered finishes. This approach not only enhances the property's grandeur but also provides functional lighting for the driveway and entrance pathway, addressing both aesthetic and practical considerations for Templestowe homeowners.",
+        "Plant-focused lighting can transform a Templestowe front garden into a nightly spectacle. Strategic uplighting of mature trees creates impressive canopies of light, while path lighting guides visitors safely to the front door. Green Patron selects lighting fixtures that withstand Melbourne's weather extremes while providing the right colour temperature to complement Templestowe's diverse plant palette—from the silver foliage of olive trees to the deep greens of native shrubs. The result is a garden that looks as impressive by night as it does by day.",
+        "For Templestowe properties with sloping front gardens—a common feature in this hilly suburb—lighting design must address both aesthetic and functional requirements. Green Patron uses terraced lighting schemes that follow the natural contours of the land, preventing glare while ensuring safe navigation of steps and pathways. This approach requires careful fixture selection and placement, considering sightlines from both the street and the home's interior to create a balanced illumination scheme that serves multiple purposes without becoming intrusive.",
+        "Smart lighting control systems offer Templestowe homeowners unprecedented flexibility in managing their front garden illumination. Green Patron installs systems that allow automatic scheduling, brightness adjustment, and even colour temperature changes throughout the evening. For Templestowe's residential streets, this means gardens can be brightly lit during early evening hours when visibility is most needed, then gradually dimmed to reduce light pollution while maintaining subtle security lighting throughout the night—all controlled remotely via smartphone applications."
+      ]
+    },
+    {
+      "title": "Building the Perfect Outdoor Kitchen in Templestowe: Materials, Design & Melbourne Weather Considerations",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide for Templestowe homeowners on designing durable outdoor kitchens that withstand Melbourne's climate while providing the perfect entertainment space.",
+      "body": [
+        "Designing an outdoor kitchen in Templestowe requires more than selecting appliances—it demands architectural thinking that considers Melbourne's unpredictable weather patterns, local building regulations, and the specific lifestyle requirements of eastern suburbs entertaining. Green Patron approaches every Templestowe outdoor kitchen project as an extension of the home's architecture, ensuring seamless integration with both the interior living spaces and the broader landscape design. This holistic perspective is particularly important in Templestowe, where properties often feature complex rooflines and established gardens that require thoughtful design integration.",
+        "Material selection is critical for Templestowe outdoor kitchens that must withstand temperature extremes from summer heatwaves to occasional winter frosts. Green Patron recommends marine-grade stainless steel for appliances and frameworks, paired with durable benchtop materials like porcelain or natural stone that resist staining and thermal shock. For cabinetry, we often use high-pressure laminates or powder-coated aluminium that won't warp or degrade in Melbourne's variable humidity, ensuring your Templestowe outdoor kitchen maintains its appearance for years with minimal maintenance.",
+        "The layout of a Templestowe outdoor kitchen must facilitate efficient workflow while encouraging social interaction. Green Patron designs around the 'work triangle' principle adapted for outdoor use, positioning cooking, preparation, and cleaning zones for optimal efficiency while maintaining clear sightlines to dining and lounging areas. For Templestowe's sloping blocks, this often involves creative multi-level designs that work with the natural terrain rather than against it, creating defined zones that flow naturally across the outdoor space.",
+        "Weather protection is a paramount consideration for Templestowe outdoor kitchens. Green Patron designs covered cooking areas that provide shelter from summer sun and unexpected rain while maintaining the open-air feel that makes outdoor entertaining appealing. For Templestowe properties, we often incorporate louvered roofing systems that allow homeowners to adjust coverage based on conditions, combined with retractable screens that can be deployed during cooler months to extend the usable season of the outdoor kitchen.",
+        "Lighting and electrical planning for Templestowe outdoor kitchens requires careful coordination with both aesthetic and functional requirements. Green Patron designs layered lighting schemes that provide bright task lighting for food preparation, ambient lighting for dining areas, and accent lighting for architectural features. All electrical work is performed to Australian standards by licensed electricians, with weatherproof fixtures and outlets strategically positioned throughout the Templestowe outdoor kitchen for convenience and safety.",
+        "Integrating technology can elevate a Templestowe outdoor kitchen from functional to exceptional. Green Patron incorporates weatherproof audio systems, automated lighting controls, and even outdoor-rated televisions that transform the space into a complete entertainment destination. For Templestowe homes, we often recommend systems that can be controlled via smartphone apps, allowing homeowners to adjust lighting, music, and even preheat grills before stepping outside—perfect for Melbourne's spontaneous entertaining culture."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Landscaping Contractor in Templestowe: A Complete Guide",
+      "date": "December 2025",
+      "excerpt": "Essential advice for Templestowe homeowners on selecting a qualified landscaping contractor, including key questions to ask and red flags to avoid for a successful project outcome.",
+      "body": [
+        "Selecting the right landscaping contractor in Templestowe is perhaps the most important decision you'll make for your outdoor renovation project. As Melbourne's eastern suburbs continue to invest in premium outdoor living spaces, the number of contractors has grown, but not all offer the architectural precision and craftsmanship that Templestowe properties deserve. Green Patron recommends beginning your search with contractors who specialise in the specific type of project you're planning, whether that's pool surrounds, outdoor kitchens, or comprehensive garden transformations that require integration with existing architecture.",
+        "When evaluating landscaping contractors in Templestowe, first verify their qualifications and credentials. All work over $5,000 in Victoria requires a registered building practitioner, and specific trades like electrical work and plumbing must be performed by licensed professionals. Green Patron holds all necessary registrations for Templestowe projects, including public liability insurance and workers' compensation coverage that protect homeowners throughout the construction process. Ask potential contractors for their registration numbers and verify them with Consumer Affairs Victoria before proceeding.",
+        "Portfolio review is essential when selecting a Templestowe landscaping contractor. Request to see examples of similar projects they've completed, ideally in the Templestowe area where they'll understand local soil conditions, council regulations, and architectural styles. Green Patron maintains an extensive portfolio of Templestowe projects we can share during consultations, demonstrating our experience with the suburb's varied topography and housing styles. Don't just rely on website images—ask for addresses of completed projects you can drive past to assess quality and longevity.",
+        "The consultation process reveals much about a contractor's approach and professionalism. For Templestowe projects, Green Patron conducts thorough site assessments before providing any pricing, considering factors like access challenges, existing drainage, and tree preservation requirements that are common in established suburbs. Be wary of contractors who provide quotes without visiting your Templestowe property, as this often leads to unexpected costs during construction. A proper consultation should include discussion of design possibilities, material options, and project timelines.",
+        "Understanding pricing structures helps Templestowe homeowners avoid surprises during their landscaping project. Green Patron provides detailed, fixed-price quotes that break down costs by materials, labour, and any council fees or approvals required for Templestowe properties. We recommend obtaining at least three comparable quotes, but remember that the cheapest option isn't always the best value. Consider what's included in each quote—quality contractors like Green Patron specify materials by brand and grade, ensuring you know exactly what you're paying for in your Templestowe landscape transformation.",
+        "Contract terms and warranties provide important protection for Templestowe homeowners undertaking significant landscaping projects. Green Patron provides comprehensive contracts that detail project scope, payment schedules, completion timelines, and warranty terms. Our 5-year workmanship guarantee reflects our confidence in the quality of our Templestowe projects and provides homeowners with peace of mind long after completion. Always ensure any verbal promises are documented in the contract, and don't hesitate to ask questions about any terms you don't fully understand before signing."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Green Patron | Landscaper in Templestowe | Premium Outdoor Design",
+      "description": "Green Patron is Templestowe's premier exterior architect offering premium landscaping, pool surrounds & home renovations with a 5-year guarantee. Call +61477115524."
+    },
+    "about": {
+      "title": "About Green Patron | Templestowe's Architectural Landscapers",
+      "description": "Discover Green Patron's master craftsmanship & client-first approach to landscaping in Templestowe. Melbourne's premier exterior architects with 5-year guarantees."
+    },
+    "services": {
+      "title": "Landscaping Services in Templestowe | Pool Surrounds & Outdoor Kitchens",
+      "description": "Explore Green Patron's premium landscaping services in Templestowe including resort-style pool surrounds, outdoor kitchens & architectural garden design."
+    },
+    "pricing": {
+      "title": "Landscaping Costs & Packages Templestowe | Green Patron",
+      "description": "Transparent pricing for Templestowe landscaping projects. From consultations to complete transformations, get fixed-price quotes with no hidden costs."
+    },
+    "contact": {
+      "title": "Contact Green Patron | Free Templestowe Landscaping Consultations",
+      "description": "Ready to transform your Templestowe property? Contact Green Patron for a free architectural consultation. Premium landscaping with 5-year guarantees."
+    },
+    "blog": {
+      "title": "Templestowe Landscaping Blog | Expert Design & Build Advice",
+      "description": "Insights from Templestowe's landscaping experts on pool design, outdoor kitchens, garden lighting & premium outdoor living transformations."
+    }
+  }
+}
