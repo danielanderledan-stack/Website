@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Northcote Auto Care",
+  "suburb": "Northcote",
+  "phone": "03 9481 8217",
+  "email": "northcoteautocare@gmail.com",
+  "address": "100 Herbert St, Northcote VIC 3070",
+  "tagline": "Northcote's Trusted Auto Experts",
+  "primaryColor": "#ef233c",
+  "primaryColorRgb": "239, 35, 60",
+  "primaryColorHover": "#d11f33",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Northcote's Auto Care Specialists",
+      "sub": "Quality service for all vehicles"
+    },
+    {
+      "title": "Logbook, Roadworthy & More",
+      "sub": "Comprehensive maintenance in Northcote"
+    },
+    {
+      "title": "Serving Northcote & Surrounds",
+      "sub": "100 Herbert St, Northcote VIC"
+    }
+  ],
+  "ctaHeading": "Northcote Auto Care — Ready to help you today.",
+  "aboutHeading": "Northcote's Auto Care Experts",
+  "aboutSubheading": "Local & licensed mechanics",
+  "aboutText": "Northcote Auto Care has been serving the Northcote community with reliable automotive services for years. Our team of licensed mechanics specialises in logbook servicing, roadworthy inspections, and general vehicle maintenance. Based at 100 Herbert St, we are committed to honest advice and quality workmanship to keep your car running smoothly and safely.",
+  "servicesHeading": "Our Auto Services",
+  "servicesSubheading": "What we offer at Northcote Auto Care",
+  "servicesText": "At Northcote Auto Care, we provide a full range of automotive services to maintain your vehicle's performance and safety. From logbook servicing to complex diagnostics, our experienced mechanics use advanced tools for efficient repairs. We cater to all car makes and models with professional care in Northcote.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Complete logbook servicing to uphold your vehicle's warranty and ensure optimal performance."
+    },
+    {
+      "title": "Roadworthy Inspection",
+      "desc": "Thorough roadworthy inspections to certify your car meets Victoria's safety standards."
+    },
+    {
+      "title": "Brake and Clutch Repair",
+      "desc": "Expert brake and clutch repair services for reliable stopping and smooth gear changes."
+    },
+    {
+      "title": "Suspension and Steering",
+      "desc": "Suspension and steering repairs to enhance ride comfort and handling on Northcote roads."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced engine diagnostics to accurately identify and fix issues with your vehicle."
+    },
+    {
+      "title": "Wheels, Tyres and Cooling",
+      "desc": "Wheel alignment, tyre services, and cooling system maintenance for safe and efficient driving."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Northcote?",
+  "bannerSubheading": "Book your appointment today for reliable auto care.",
+  "testimonialsHeading": "What Northcote Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Auto Care Tips & News",
+  "blogSubheading": "Stay informed with Northcote Auto Care",
+  "contactHeading": "Contact Us for a Quote",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Northcote Auto Care did a fantastic job on my logbook service. The team was friendly and efficient, and my car runs perfectly now. Highly recommend to anyone in Northcote.",
+      "name": "Jake Mitchell",
+      "role": "Northcote Homeowner"
+    },
+    {
+      "text": "I had my roadworthy inspection done here, and they were thorough and honest. The service was quick, and the price was fair. Will definitely come back.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent brake repair service. The mechanics explained everything clearly, and the work was done on time. Northcote Auto Care is my go-to for all auto needs.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
