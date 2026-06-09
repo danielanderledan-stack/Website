@@ -1,0 +1,307 @@
+{
+  "siteType": "hvac",
+  "businessName": "Firstclassauto – Automotive Excellence",
+  "suburb": "Seaford",
+  "phone": "(03) 9782 1400",
+  "email": "info@firstclassauto.com.au",
+  "address": "Factory 4/39 Brunel Rd, Seaford VIC 3198",
+  "tagline": "Seaford's Trusted Automotive Specialists",
+  "primaryColor": "#00cfff",
+  "primaryColorRgb": "0, 207, 255",
+  "primaryColorHover": "#00a8d4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Seaford's Trusted Auto Mechanics",
+      "sub": "Over a decade serving Melbourne's southeast"
+    },
+    {
+      "title": "Log Book Servicing & Expert Diagnostics",
+      "sub": "European, Japanese & Australian vehicles"
+    },
+    {
+      "title": "Honest Repairs at Fair Prices",
+      "sub": "Free quotes for Seaford & surrounding suburbs"
+    }
+  ],
+  "ctaHeading": "Seaford's mechanics are ready to keep your vehicle on the road.",
+  "aboutHeading": "Over 10 Years of Automotive Excellence in Seaford",
+  "aboutSubheading": "Locally owned, fully qualified & trusted",
+  "aboutText": "Firstclassauto has been the go-to automotive workshop for Seaford vehicle owners for over a decade. Our fully qualified mechanics specialise in log book servicing, advanced diagnostics, and mechanical repairs for European, Japanese, and Australian vehicles. We pride ourselves on transparent pricing, honest advice, and workshop-quality workmanship every single time. From routine maintenance to complex engine diagnostics, Seaford drivers and families trust Firstclassauto to keep their vehicles safe, reliable, and performing at their best on Melbourne's roads.",
+  "servicesHeading": "Our Automotive Services",
+  "servicesSubheading": "Professional car care for Seaford",
+  "servicesText": "Firstclassauto offers a comprehensive range of mechanical services tailored to Seaford vehicle owners. From log book servicing that maintains your warranty to advanced diagnostics using state-of-the-art equipment, our experienced mechanics handle all makes and models. We deliver reliable, honest workmanship backed by years of hands-on experience serving Melbourne's southeast.",
+  "services": [
+    {
+      "title": "Log Book Service",
+      "desc": "Complete manufacturer-spec servicing to protect your new car warranty in Seaford.",
+      "longDesc": "Our log book servicing follows manufacturer specifications precisely, ensuring your new car warranty remains fully intact. We service all major makes and models at our Seaford workshop, using quality OEM-equivalent parts and fluids. Each service includes a comprehensive inspection checklist tailored to your vehicle.",
+      "points": [
+        "Warranty-safe servicing",
+        "All makes and models",
+        "Quality OEM parts"
+      ]
+    },
+    {
+      "title": "Brakes & Clutch",
+      "desc": "Expert brake inspections, pad replacements, and clutch repairs for Seaford vehicles.",
+      "longDesc": "Our Seaford mechanics diagnose and repair all brake and clutch issues using quality parts and professional-grade equipment. From squealing brake pads to slipping clutches and complete system overhauls, we ensure your vehicle stops safely and reliably every time. We service all vehicle types including ABS and electronic braking systems.",
+      "points": [
+        "Complete brake system repair",
+        "Clutch replacement specialists",
+        "Safety-focused inspections"
+      ]
+    },
+    {
+      "title": "Heating & Cooling",
+      "desc": "Automotive air conditioning regas, repairs, and climate control servicing in Seaford.",
+      "longDesc": "Firstclassauto keeps your vehicle comfortable year-round with professional heating and cooling services in Seaford. We handle automotive air conditioning regas, leak detection, compressor repairs, and full system diagnostics. Seaford's coastal climate demands reliable climate control, and our technicians ensure your system performs perfectly in every season.",
+      "points": [
+        "A/C regas and leak repair",
+        "Climate control diagnostics",
+        "Year-round comfort guaranteed"
+      ]
+    },
+    {
+      "title": "Engine Repairs",
+      "desc": "From minor engine tune-ups to major rebuilds, expert engine work in Seaford.",
+      "longDesc": "Our experienced Seaford mechanics tackle all engine repairs, from head gasket replacements and timing belt services to complete engine rebuilds. We use advanced diagnostic tools to accurately pinpoint engine faults before any work begins, saving you time and money. Every engine repair at Firstclassauto is backed by our workmanship guarantee.",
+      "points": [
+        "Accurate engine diagnostics",
+        "Head gasket and timing belt",
+        "Workmanship guarantee included"
+      ]
+    },
+    {
+      "title": "Steering & Suspension",
+      "desc": "Shock absorber, strut, and steering component repairs for Seaford drivers.",
+      "longDesc": "Firstclassauto diagnoses and repairs all steering and suspension issues at our Seaford workshop, from worn shock absorbers and sagging springs to ball joint and control arm replacements. Properly maintained suspension ensures safe, comfortable handling on Melbourne's varied road conditions. We use quality parts to restore your vehicle's original ride quality.",
+      "points": [
+        "Shock and strut replacement",
+        "Wheel alignment services",
+        "Restored ride quality"
+      ]
+    },
+    {
+      "title": "Diagnostics",
+      "desc": "Advanced OBD-II diagnostic scanning and fault-finding for all vehicle makes.",
+      "longDesc": "Our Seaford workshop is equipped with the latest diagnostic scanners capable of reading fault codes across all vehicle manufacturers. We go beyond simply reading codes, our technicians interpret the data to identify the root cause of warning lights, performance issues, and intermittent faults. Accurate diagnostics mean you only pay for repairs that are actually needed.",
+      "points": [
+        "State-of-the-art equipment",
+        "All manufacturer codes read",
+        "Root-cause fault analysis"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Seaford?",
+  "bannerSubheading": "Over 10 years keeping Melbourne's southeast on the road.",
+  "testimonialsHeading": "What Seaford Locals Say",
+  "testimonialsSubheading": "Trusted by hundreds of vehicle owners",
+  "blogHeading": "Automotive Tips & Seaford Guides",
+  "blogSubheading": "Expert advice from our Seaford workshop",
+  "contactHeading": "Contact Firstclassauto Today",
+  "contactSubheading": "Free quotes for Seaford & surrounding suburbs",
+  "reviews": [
+    {
+      "text": "Firstclassauto handles all our log book servicing and we could not be happier. Our Toyota RAV4 is always ready on time and the team explains everything clearly. Highly recommend this Seaford workshop to any local family.",
+      "name": "Sarah Mitchell",
+      "role": "Seaford Local"
+    },
+    {
+      "text": "Our delivery van had a persistent brake issue that two other workshops could not fix. Firstclassauto found the problem quickly and repaired it at a fair price. They saved our local business time and money.",
+      "name": "David Nguyen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Firstclassauto keeps our entire fleet of seven vehicles in top condition with regular log book servicing. Their diagnostics are spot-on and turnaround is always fast. We have used them for over five years now.",
+      "name": "Karen Roberts",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Seaford",
+    "Frankston",
+    "Langwarrin",
+    "Carrum Downs",
+    "Mount Eliza",
+    "Karingal",
+    "Baxter",
+    "Frankston South"
+  ],
+  "about": {
+    "intro": "Firstclassauto is a locally owned and trusted automotive workshop serving the Seaford community and Melbourne's southeastern suburbs with over a decade of hands-on mechanical experience.",
+    "story": [
+      "Founded over ten years ago in the heart of Seaford, Firstclassauto was built on a simple principle: every vehicle owner deserves honest, transparent, and expert automotive care without the inflated dealership price tag. Our qualified mechanics have serviced thousands of vehicles from our Factory 4 workshop on Brunel Road, building lasting relationships with Seaford families and local businesses who rely on their cars every day.",
+      "From European performance vehicles to Japanese family cars and rugged Australian utes, our team has the training, experience, and equipment to service every make and model. We specialise in log book servicing that maintains your manufacturer warranty, advanced computer diagnostics that pinpoint faults accurately, and mechanical repairs completed to the highest professional standards.",
+      "Firstclassauto has grown to become one of Seaford's most recommended automotive workshops through word-of-mouth from satisfied customers across Melbourne's southeast. Our mobile diagnostic service extends our reach beyond the workshop, bringing expert mechanical assistance directly to Seaford vehicle owners and businesses when they need it most."
+    ],
+    "mission": "To provide Seaford vehicle owners with honest, reliable, and affordable automotive care backed by expert workmanship every time.",
+    "whyUs": [
+      {
+        "title": "Qualified Mechanics",
+        "text": "Fully trained and certified technicians with extensive experience across all vehicle makes"
+      },
+      {
+        "title": "Advanced Diagnostics",
+        "text": "State-of-the-art scanning equipment that accurately identifies faults before any work begins"
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Upfront quotes with no hidden costs so you always know exactly what you are paying for"
+      },
+      {
+        "title": "All Vehicles Serviced",
+        "text": "European, Japanese and Australian vehicles all welcomed and expertly maintained at our workshop"
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "3,500+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully qualified mechanics",
+      "Comprehensive workshop insurance",
+      "Free upfront quotes",
+      "Workmanship warranty on all repairs"
+    ]
+  },
+  "pricing": {
+    "intro": "Firstclassauto offers transparent, competitive pricing for all automotive services in Seaford. Every quote is provided upfront with no surprises and no lock-in commitments, so you only pay for the work your vehicle genuinely needs.",
+    "packages": [
+      {
+        "name": "Diagnostic Assessment",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Professional OBD-II diagnostic scan",
+          "Detailed fault code report",
+          "Upfront repair recommendation",
+          "No-obligation quote"
+        ]
+      },
+      {
+        "name": "Log Book Service",
+        "price": "$189",
+        "unit": "from",
+        "highlight": true,
+        "features": [
+          "Full manufacturer-spec inspection",
+          "Quality parts and fluids used",
+          "Service stamp for your log book",
+          "12-month warranty included"
+        ]
+      },
+      {
+        "name": "Major Engine Service",
+        "price": "$389",
+        "unit": "from",
+        "highlight": false,
+        "features": [
+          "Comprehensive engine inspection",
+          "Timing belt and gasket check",
+          "Full fluid replacement",
+          "Detailed health report provided"
+        ]
+      }
+    ],
+    "note": "All quotes are provided upfront before any work begins, so you always know the full cost with no hidden surprises."
+  },
+  "contact": {
+    "intro": "Get in touch with Firstclassauto today for a free quote or to discuss your vehicle's needs. We serve Seaford and all surrounding suburbs with prompt, professional service and a friendly, helpful team ready to assist."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Log Book Servicing Cost in Seaford?",
+      "date": "March 2026",
+      "excerpt": "A complete guide to log book servicing costs for Seaford vehicle owners, covering what is included and how to keep your manufacturer warranty valid.",
+      "body": [
+        "Log book servicing is one of the most important maintenance tasks for any new vehicle owner in Seaford, and understanding the costs involved helps you plan your automotive budget effectively. Many Seaford drivers worry that servicing their vehicle at an independent workshop will void their manufacturer warranty, but this is simply not the case under Australian Consumer Law. As long as servicing is performed by qualified mechanics using appropriate parts and fluids, your warranty remains fully intact. Firstclassauto has been providing manufacturer-compliant log book servicing for Seaford vehicle owners for over a decade, and we understand exactly what each service interval requires for every major vehicle brand sold in Australia.",
+        "The cost of log book servicing in Seaford typically ranges from $150 to $350 depending on your vehicle's make, model, and the specific service interval required. A basic log book service for a Japanese vehicle like a Toyota Corolla or Mazda 3 will generally fall in the $150 to $200 range, while European vehicles such as BMWs, Mercedes-Benz, and Volkswagens tend to cost between $250 and $400 due to specialist parts and more complex service requirements. At Firstclassauto in Seaford, we provide a detailed breakdown of every service item before we begin work, so you understand exactly what your money covers and can make informed decisions about your vehicle's maintenance.",
+        "A standard log book service at our Seaford workshop includes a comprehensive multi-point inspection covering your engine oil and filter, brake system condition, tyre pressures and tread depth, fluid levels including coolant and brake fluid, battery health, steering and suspension components, lights and indicators, and a thorough safety check. We also reset your vehicle's service indicator light and stamp your log book to maintain a complete service history. This detailed approach ensures nothing is overlooked and gives you complete confidence in your vehicle's safety and reliability on Melbourne's roads.",
+        "Seaford's coastal location presents some unique challenges for vehicle maintenance that many drivers overlook. The salt-laden air can accelerate corrosion on underbody components, brake lines, and electrical connections, making regular inspections even more critical. Road dust from the Frankston-Dandenong corridor can clog air filters more quickly than in other areas, and Melbourne's stop-start traffic patterns mean your engine oil degrades faster than highway driving alone would suggest. Our Seaford mechanics factor all of these local conditions into every log book service to keep your vehicle performing at its best.",
+        "Choosing between dealership servicing and an independent workshop like Firstclassauto is a decision many Seaford vehicle owners face. Dealerships charge significantly higher labour rates, often between $150 and $200 per hour, while independent workshops like ours offer the same quality workmanship at more competitive rates. The key is ensuring your chosen workshop uses manufacturer-approved parts and follows the exact service specifications for your vehicle. Firstclassauto invests in ongoing training and the latest diagnostic equipment to ensure our Seaford workshop meets or exceeds dealership standards at a fraction of the cost.",
+        "To keep your log book servicing costs manageable in Seaford, plan ahead by checking your vehicle's service schedule and booking appointments in advance to avoid urgent rush fees. Ask your mechanic about any upcoming services due at the next interval so you can budget accordingly. At Firstclassauto, we maintain a service reminder system for our Seaford customers and can advise you on upcoming maintenance needs during every visit. Regular log book servicing is far more affordable than the costly repairs that result from neglected maintenance, making it a smart investment in your vehicle's long-term reliability and resale value.",
+        "Firstclassauto is proud to be Seaford's trusted choice for log book servicing, helping thousands of local vehicle owners maintain their warranties and keep their cars running smoothly. Contact us today for a free quote on your next scheduled service and experience the honest, expert care that Seaford drivers have relied on for over ten years."
+      ]
+    },
+    {
+      "title": "Signs Your Brakes Need Repair in Seaford and Melbourne Southeast",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that your brakes need attention and how Seaford's coastal conditions affect brake wear and performance on Melbourne roads.",
+      "body": [
+        "Your brakes are the single most critical safety system in your vehicle, and for Seaford drivers navigating Melbourne's southeast roads, recognising the early warning signs of brake wear can prevent dangerous situations and expensive repairs down the track. Seaford's proximity to the coast and the busy Frankston-Dandenong corridor means vehicles here experience a unique combination of salt air exposure, stop-start traffic, and varying road surfaces that all contribute to accelerated brake component wear. Firstclassauto's experienced mechanics have diagnosed and repaired thousands of brake issues for Seaford vehicle owners, and we know exactly what to look for.",
+        "The most common sign that your brakes need professional attention is a high-pitched squealing or squeaking noise when you apply the brake pedal. This sound is caused by the wear indicator on your brake pads making contact with the brake rotor, alerting you that the pads have reached their minimum safe thickness. If you hear grinding instead of squealing, the brake pads have been completely worn through and the metal backing is now contacting the rotor surface. This causes significant damage to the rotors and substantially increases your repair costs. Seaford drivers should never ignore these warning sounds and should book a brake inspection at Firstclassauto immediately.",
+        "Another important indicator is how your brake pedal feels under your foot. A spongy or soft brake pedal often indicates air in the brake lines or a developing issue with the brake fluid, both of which require prompt professional attention. If your vehicle pulls to one side during braking, this suggests uneven pad wear or a problem with a brake caliper. Vibrations through the steering wheel when braking usually mean your brake rotors have become warped or unevenly worn. All of these symptoms warrant a thorough brake inspection at our Seaford workshop to ensure your vehicle stops safely and consistently every time.",
+        "Seaford's coastal environment creates specific challenges for brake system longevity that inland suburbs do not typically face. Salt air accelerates corrosion on brake calipers, brake lines, and the metal components of your braking system. Road dust and grime from the Frankston area can accumulate around brake components, trapping moisture and speeding up wear. Melbourne's frequent traffic congestion means Seaford drivers use their brakes more intensively than those in areas with flowing highway traffic. Combined with hilly sections in surrounding suburbs like Mount Eliza, these conditions demand regular brake maintenance to ensure your safety.",
+        "A professional brake inspection at Firstclassauto involves checking your brake pad thickness, measuring rotor condition and thickness, inspecting brake calipers for smooth operation, testing brake fluid condition and level, examining brake lines and hoses for damage or corrosion, and performing a comprehensive road test. Our Seaford workshop uses precision measuring tools to determine exactly when your brake components need replacement, rather than relying on guesswork. This accurate approach means you only pay for genuine brake work and can plan your maintenance budget with confidence.",
+        "Brake repair costs in Seaford vary depending on the extent of work required. A simple brake pad replacement typically costs between $150 and $300 per axle for standard vehicles. If your rotors also need replacement, expect to pay between $300 and $500 per axle. More complex issues such as caliper replacement or brake line repairs can cost more, but addressing these problems early prevents the cascading damage that leads to much higher bills. Firstclassauto provides upfront quotes for all brake work so Seaford drivers know exactly what to expect before any work begins.",
+        "Seaford drivers should have their brake system professionally inspected every 12 months or 20,000 kilometres, whichever comes first. If you drive frequently in heavy Melbourne traffic or use your vehicle for commercial purposes, more frequent inspections are recommended. Firstclassauto offers comprehensive brake inspections for Seaford vehicle owners at competitive prices, giving you complete peace of mind about your vehicle's most important safety system. Do not wait for brake problems to become dangerous. Contact our Seaford workshop today to book your brake inspection and keep your vehicle stopping safely on every Melbourne road."
+      ]
+    },
+    {
+      "title": "Car Air Conditioning Service and Regas in Seaford",
+      "date": "January 2026",
+      "excerpt": "Everything Seaford vehicle owners need to know about automotive air conditioning servicing, regas costs, and keeping your climate control system working perfectly.",
+      "body": [
+        "Melbourne's weather is notoriously unpredictable, with scorching summer days exceeding 40 degrees followed by chilly winter mornings, making a reliable automotive air conditioning system essential for every Seaford vehicle owner. Your car's climate control does more than keep you comfortable. It demisters your windscreen in winter for safe visibility, dehumidifies the cabin to reduce driver fatigue on long trips, and helps maintain a pleasant environment for passengers. When your air conditioning stops working properly, driving in Melbourne's southeast becomes uncomfortable and potentially unsafe. Firstclassauto in Seaford provides comprehensive automotive air conditioning services to keep your vehicle's climate control performing at its best all year round.",
+        "The most common air conditioning issue Seaford vehicle owners experience is a gradual loss of cooling performance. If your A/C was blowing ice-cold last summer but now seems barely cool, your system has likely lost refrigerant gas through normal microscopic leakage. Automotive A/C systems are not completely sealed, and they lose approximately 10 to 15 percent of their refrigerant charge annually through permeation of rubber hoses and seals. This is perfectly normal and does not indicate a fault. Seaford's coastal salt air can accelerate seal degradation, potentially increasing this loss rate slightly for vehicles in our area compared to inland suburbs.",
+        "A professional air conditioning service at Firstclassauto includes a comprehensive system assessment before any regas work begins. Our Seaford mechanics start by connecting diagnostic gauges to check your system's operating pressures, then perform a leak detection test using electronic leak detection equipment to identify any significant leaks that need repair before regassing. We recover the remaining old refrigerant, evacuate the system to remove moisture and contaminants, replace the receiver drier or accumulator, add the correct type and quantity of compressor oil, and finally recharge the system with the manufacturer-specified refrigerant. This thorough approach ensures your A/C performs optimally and any underlying issues are identified and addressed.",
+        "Seaford vehicle owners should understand that automotive air conditioning refrigerants have changed significantly in recent years. Older vehicles used R134a refrigerant, while many newer models from approximately 2017 onwards use R1234yf, which is more environmentally friendly but significantly more expensive. Using the wrong refrigerant type can damage your compressor and void warranty coverage. At Firstclassauto, we stock both refrigerant types and always confirm the correct specification for your specific vehicle before commencing any regas work. Our Seaford workshop maintains detailed records of your vehicle's A/C service history to ensure consistent, correct maintenance.",
+        "The cost of air conditioning regas in Seaford typically ranges from $150 to $250 for a standard R134a system, while R1234yf systems generally cost between $250 and $400 due to the higher refrigerant price. If your system requires leak repair, compressor replacement, or other component work, costs will be higher. A compressor replacement, for example, typically ranges from $800 to $1,500 including parts and labour depending on your vehicle's make and model. Firstclassauto provides upfront quotes for all A/C work at our Seaford workshop, so you know exactly what to expect before we begin any repairs or servicing.",
+        "Regular air conditioning maintenance is far more cost-effective than emergency repairs, and Seaford drivers should run their A/C system for at least ten minutes every week, even during winter, to keep the compressor seals lubricated and prevent them from drying out and cracking. This simple habit significantly extends the life of your system's components. If you notice weak airflow, unusual musty odours from the vents, or a clicking sound when you switch the A/C on, these are early warning signs that your system needs professional attention. Addressing these symptoms promptly at our Seaford workshop prevents minor issues from becoming expensive major repairs.",
+        "Firstclassauto is Seaford's trusted choice for automotive air conditioning servicing, keeping local drivers comfortable through every Melbourne season. Whether you need a simple regas, a leak diagnosis, or a complete climate control system repair, our experienced mechanics have the equipment and expertise to restore your vehicle's air conditioning to factory performance. Contact our Seaford workshop today to book your air conditioning service and enjoy reliable climate control every time you drive."
+      ]
+    },
+    {
+      "title": "Engine Warning Lights and Car Diagnostics in Seaford",
+      "date": "December 2025",
+      "excerpt": "What your engine warning light means and how Seaford mechanics use advanced diagnostics to identify problems quickly for Melbourne southeast vehicle owners.",
+      "body": [
+        "Seeing an engine warning light illuminate on your dashboard is one of the most common concerns for vehicle owners across Seaford and Melbourne's southeast, and while it can be alarming, understanding what these warning indicators mean helps you take the right action quickly. Modern vehicles contain dozens of electronic sensors and computer modules that constantly monitor your engine's performance, emissions, and safety systems. When something falls outside normal operating parameters, the onboard computer triggers a warning light to alert you. For Seaford drivers navigating the mix of suburban streets and busy arterial roads, knowing how to respond to these warnings is essential for maintaining both vehicle safety and avoiding unnecessary repair costs.",
+        "The check engine light, officially known as the malfunction indicator lamp, is the most frequently triggered warning in Seaford vehicles and can indicate anything from a loose fuel cap to a serious engine misfire. When this light appears as a steady amber glow, the issue is generally not immediately dangerous but should be diagnosed promptly. If the light flashes rapidly, this indicates a severe misfire that can damage your catalytic converter, and you should reduce your driving and seek professional help immediately. Common causes detected by the check engine light include faulty oxygen sensors, catalytic converter efficiency problems, mass airflow sensor failures, ignition system misfires, and emissions system leaks. Firstclassauto's Seaford workshop has the diagnostic equipment to accurately identify the exact cause of your warning light.",
+        "Understanding the diagnostic process helps Seaford vehicle owners know what to expect when they bring their car to Firstclassauto. Our technicians connect a professional-grade OBD-II scanner to your vehicle's diagnostic port, usually located under the dashboard on the driver's side. This device communicates with your vehicle's onboard computers and retrieves stored fault codes that pinpoint the system or component experiencing issues. However, reading the code is only the first step. A fault code like P0300 indicating random engine misfires could be caused by anything from worn spark plugs to faulty ignition coils, fuel injector problems, or vacuum leaks. Our Seaford mechanics use their experience and additional diagnostic tests to determine the root cause, ensuring you only pay for repairs that genuinely fix the problem rather than simply replacing parts based on codes alone.",
+        "Melbourne's driving conditions create specific challenges for Seaford vehicle engines that our mechanics understand well. The combination of stop-start suburban traffic and occasional highway driving on the Frankston Freeway creates varying engine loads that can accelerate wear on certain components. Seaford's coastal location means salt air can corrode electrical connections and sensors more quickly than in inland areas, potentially triggering false warning lights or causing intermittent electrical faults. Our advanced diagnostic equipment can distinguish between genuine faults and corrosion-related electrical issues, saving Seaford vehicle owners from unnecessary repairs and ensuring the actual problem is correctly identified and resolved.",
+        "Professional engine diagnostics at Firstclassauto typically cost between $100 and $150 for a standard diagnostic assessment, which includes retrieving fault codes, basic system checks, and a detailed written report. More complex diagnostics involving multi-system faults, intermittent issues, or performance-related problems may cost between $200 and $350. These costs are always provided upfront at our Seaford workshop with no surprises. The importance of accurate diagnostics cannot be overstated. A misdiagnosis leads to unnecessary parts replacement and continued vehicle problems. Our Seaford mechanics invest in ongoing training and the latest diagnostic equipment specifically to ensure we get the diagnosis right the first time every time.",
+        "Ignoring engine warning lights can lead to significantly increased repair costs for Seaford vehicle owners. A minor emissions leak that could be repaired for $150 if caught early can cause catalytic converter damage costing over $2,000 if ignored. Engine misfires that trigger the check engine light can rapidly destroy your catalytic converter if not addressed, turning a simple spark plug replacement into a very expensive exhaust system repair. Melbourne's regular vehicle registration inspections also require your engine management systems to be functioning correctly, so unresolved warning lights can prevent your vehicle from passing its annual inspection.",
+        "Firstclassauto provides Seaford vehicle owners with accurate, honest engine diagnostics using the latest professional equipment. Our experienced mechanics understand Melbourne's unique driving conditions and the specific challenges they create for local vehicles. If your engine warning light has come on, do not ignore it. Contact our Seaford workshop today for a comprehensive diagnostic assessment and let our experienced team identify the exact cause, provide a transparent quote, and get your vehicle running perfectly again with the confidence that comes from knowing the job has been done right the first time."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Firstclassauto | Mechanic in Seaford | Log Book Service",
+      "description": "Firstclassauto is Seaford's trusted mechanic offering log book servicing, brake repairs, diagnostics and engine work. Call today for a free quote."
+    },
+    "about": {
+      "title": "About Firstclassauto | Seaford's Automotive Workshop",
+      "description": "Learn about Firstclassauto, Seaford's trusted mechanic with over a decade of experience in log book servicing and diagnostics for all vehicle makes."
+    },
+    "services": {
+      "title": "Automotive Services in Seaford | Firstclassauto",
+      "description": "Comprehensive mechanic services in Seaford: log book servicing, brakes, A/C, engine repairs, diagnostics and steering for all vehicle makes and models."
+    },
+    "pricing": {
+      "title": "Seaford Mechanic Pricing | Firstclassauto",
+      "description": "Transparent pricing for log book servicing, diagnostics and repairs at Firstclassauto Seaford. Get an upfront quote with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Firstclassauto | Seaford Mechanic",
+      "description": "Contact Firstclassauto in Seaford for a free mechanic quote. We serve Seaford, Frankston, Langwarrin and all Melbourne southeast suburbs."
+    },
+    "blog": {
+      "title": "Seaford Automotive Blog | Mechanic Tips & Guides",
+      "description": "Expert automotive advice from Seaford's Firstclassauto workshop. Guides on log book servicing, brake care, A/C maintenance and engine diagnostics."
+    }
+  }
+}
