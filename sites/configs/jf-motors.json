@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "JF Motors",
+  "suburb": "Bacchus Marsh",
+  "phone": "03 5367 1234",
+  "email": "info@jfmotors.net.au",
+  "address": "23 Park St, Maddingley VIC 3340",
+  "tagline": "Over 20 Years Serving Bacchus Marsh",
+  "primaryColor": "#FF4500",
+  "primaryColorRgb": "255, 69, 0",
+  "primaryColorHover": "#E03E00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "JF Motors — Bacchus Marsh Mechanics",
+      "sub": "Over 20 years of trusted auto repairs"
+    },
+    {
+      "title": "Servicing All Makes & Models",
+      "sub": "From logbooks to major overhauls"
+    },
+    {
+      "title": "Expert Auto Electrical & Brake Repairs",
+      "sub": "Latest tools and training for quality service"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Bacchus Marsh? JF Motors is Here to Help.",
+  "aboutHeading": "20+ Years of Trusted Auto Repairs in Bacchus Marsh",
+  "aboutSubheading": "Local, Experienced & Equipped",
+  "aboutText": "JF Motors has been serving the Bacchus Marsh community for over 20 years. Our experienced team of mechanics use the latest tools and equipment, coupled with up-to-date industry training and techniques. This focus on quality repairs has seen our reputation grow within the Bacchus Marsh community since opening our doors.",
+  "servicesHeading": "Our Auto Repair Services",
+  "servicesSubheading": "Comprehensive Care for Your Vehicle",
+  "servicesText": "At JF Motors, we offer a wide range of automotive services in Bacchus Marsh, from general servicing to specialised repairs. Our skilled mechanics ensure your car runs its best with quality workmanship and genuine parts.",
+  "services": [
+    {
+      "title": "General Servicing",
+      "desc": "Regular maintenance to keep your vehicle running smoothly and efficiently.",
+      "longDesc": "Comprehensive logbook servicing for all makes and models in Bacchus Marsh, adhering to manufacturer standards. We use quality parts and fluids to ensure optimal performance and longevity.",
+      "points": [
+        "Oil and filter changes",
+        "Multi-point inspections",
+        "Fluid top-ups"
+      ]
+    },
+    {
+      "title": "Auto Electrical Repairs",
+      "desc": "Diagnose and fix electrical issues with precision and advanced tools.",
+      "longDesc": "Expert auto electrical repairs in Bacchus Marsh for batteries, alternators, starters, and wiring. Our technicians use diagnostic equipment to quickly identify and resolve faults.",
+      "points": [
+        "Battery testing and replacement",
+        "Alternator repairs",
+        "Wiring diagnostics"
+      ]
+    },
+    {
+      "title": "Brake Repairs and Machining",
+      "desc": "Ensure safety with professional brake inspections, repairs, and machining.",
+      "longDesc": "Specialised brake services in Bacchus Marsh including pad replacement, disc machining, and fluid flushes. We ensure your braking system meets Australian safety standards.",
+      "points": [
+        "Brake pad replacement",
+        "Disc and drum machining",
+        "Brake fluid flushes"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostics to identify engine problems quickly and accurately.",
+      "longDesc": "Using state-of-the-art diagnostic tools, we pinpoint engine issues in Bacchus Marsh vehicles. From check engine lights to performance problems, we provide reliable solutions.",
+      "points": [
+        "Computerised diagnostics",
+        "Performance tuning",
+        "Emission checks"
+      ]
+    },
+    {
+      "title": "Transmission Repairs",
+      "desc": "Skilled transmission repairs for smooth gear shifts and optimal performance.",
+      "longDesc": "Comprehensive transmission services in Bacchus Marsh, including fluid changes, rebuilds, and diagnostics for manual and automatic systems. We ensure seamless operation.",
+      "points": [
+        "Transmission fluid service",
+        "Clutch repairs",
+        "Gearbox diagnostics"
+      ]
+    },
+    {
+      "title": "Logbook Servicing",
+      "desc": "Maintain your warranty with manufacturer-compliant logbook services.",
+      "longDesc": "Authorised logbook servicing in Bacchus Marsh that preserves your vehicle's warranty. We follow strict guidelines using genuine parts for complete peace of mind.",
+      "points": [
+        "Warranty compliant",
+        "Genuine parts used",
+        "Detailed service records"
+      ]
+    }
+  ],
+  "bannerHeading": "Bacchus Marsh's Go-To Auto Mechanics",
+  "bannerSubheading": "Quality Repairs, Honest Pricing",
+  "testimonialsHeading": "What Bacchus Marsh Locals Say",
+  "testimonialsSubheading": "Trusted by Our Community",
+  "blogHeading": "Bacchus Marsh Auto Care Tips & Guides",
+  "blogSubheading": "Expert Advice from Local Mechanics",
+  "contactHeading": "Get in Touch with JF Motors",
+  "contactSubheading": "Free Quotes & Friendly Service",
+  "reviews": [
+    {
+      "text": "JF Motors in Bacchus Marsh did a fantastic job on my brake repairs. The team was honest, efficient, and my car feels safe again. Highly recommend their services to anyone in the area.",
+      "name": "John Smith",
+      "role": "Bacchus Marsh Homeowner"
+    },
+    {
+      "text": "I've taken my business fleet to JF Motors for servicing for years. Their auto electrical repairs are top-notch, and they always provide clear quotes. A trusted mechanic in Bacchus Marsh.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on JF Motors for reliable car repairs for my tenants. Their logbook servicing keeps vehicles in great condition, and the pricing is always fair.",
+      "name": "Mike Williams",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Bacchus Marsh",
+    "Maddingley",
+    "Ballan",
+    "Ballarat",
+    "Melton",
+    "Sunbury"
+  ],
+  "about": {
+    "intro": "Discover JF Motors, Bacchus Marsh's trusted mechanic with over 20 years of experience in auto repairs and servicing.",
+    "story": [
+      "Founded over 20 years ago in Bacchus Marsh, JF Motors started with a simple goal: to provide reliable and honest auto repair services to the local community. Our founders, passionate about mechanics, built a workshop equipped with the latest tools and a commitment to quality workmanship.",
+      "Today, JF Motors continues to serve Bacchus Marsh and surrounding areas, specialising in all makes and models. Our team of experienced mechanics undergoes regular training to stay updated with industry advancements, ensuring your vehicle receives the best care possible."
+    ],
+    "mission": "To deliver expert, transparent, and friendly auto repair services that keep Bacchus Marsh drivers safe on the road.",
+    "whyUs": [
+      {
+        "title": "Experienced Team",
+        "text": "Our mechanics have over 20 years of hands-on experience with diverse vehicle issues."
+      },
+      {
+        "title": "Advanced Equipment",
+        "text": "We invest in the latest diagnostic tools and machinery for accurate and efficient repairs."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We provide upfront, fixed quotes with no hidden fees, ensuring you know the cost."
+      },
+      {
+        "title": "Customer Satisfaction",
+        "text": "We prioritise your needs with prompt service and a workmanship guarantee on all jobs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "ACDelco service centre",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At JF Motors, we offer competitive pricing with no lock-in contracts. Get a free, no-obligation quote for your Bacchus Marsh auto repair needs.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "from $120",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Fluid top-ups"
+        ]
+      },
+      {
+        "name": "Standard Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full logbook service",
+          "Brake and battery check",
+          "Performance test",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Engine diagnostics",
+          "Transmission service",
+          "Electrical repairs"
+        ]
+      }
+    ],
+    "note": "All prices are estimates; we provide fixed quotes after a thorough inspection."
+  },
+  "contact": {
+    "intro": "Contact JF Motors today for a free quote on auto repairs in Bacchus Marsh. We're ready to help keep your vehicle running smoothly with expert service."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Car Service Cost in Bacchus Marsh?",
+      "date": "March 2026",
+      "excerpt": "Discover typical costs for car servicing in Bacchus Marsh, including factors like vehicle type, service level, and local pricing trends.",
+      "body": [
+        "When considering a car service in Bacchus Marsh, costs can vary based on several factors. For a basic oil and filter change, prices typically start from $120, but this depends on your vehicle's make and model. At JF Motors, we provide transparent quotes after inspection, ensuring no surprises. Bacchus Marsh's local mechanics often offer competitive rates compared to city workshops, making it affordable for residents.",
+        "The type of service significantly impacts cost. A standard logbook service, which includes comprehensive checks, might range from $250 to $400. This ensures compliance with manufacturer standards and helps maintain your warranty. In Bacchus Marsh, where climate conditions can affect vehicle performance, regular servicing is crucial. Our team uses quality parts to keep your car running efficiently in the local environment.",
+        "Additional factors like vehicle age and existing issues can increase costs. Older cars in Bacchus Marsh may need more frequent repairs due to wear from Australian roads. Engine diagnostics or brake repairs might add $100 to $300, depending on complexity. We always recommend getting a fixed quote to budget accordingly. JF Motors offers honest pricing with no hidden fees, a standard we uphold in the community.",
+        "Seasonal considerations also play a role. In Bacchus Marsh, servicing before winter or summer ensures your car handles temperature extremes. For example, battery checks are vital in colder months. Our mechanics advise on optimal service times to prevent breakdowns. With over 20 years of experience, we help Bacchus Marsh drivers avoid costly repairs through proactive maintenance.",
+        "Compared to nearby areas like Ballarat or Melton, Bacchus Marsh offers value for money without compromising quality. JF Motors serves the local community with expertise, using advanced tools for accurate diagnostics. We suggest comparing quotes from local mechanics, but focus on reliability and reviews. Our long-standing reputation in Bacchus Marsh speaks to our commitment to fair pricing.",
+        "In summary, car service costs in Bacchus Marsh depend on service level, vehicle specifics, and local factors. Starting from $120 for basics, it's an investment in your car's longevity. Contact JF Motors for a personalised quote tailored to your needs. We're here to ensure your vehicle stays safe and efficient on Bacchus Marsh roads."
+      ]
+    },
+    {
+      "title": "Signs Your Brakes Need Repair in Bacchus Marsh",
+      "date": "February 2026",
+      "excerpt": "Learn key warning signs for brake issues in Bacchus Marsh, from squealing noises to reduced responsiveness, and when to seek professional help.",
+      "body": [
+        "Brakes are critical for safety, especially in Bacchus Marsh where roads can be hilly and traffic varies. If you notice squealing or grinding noises, it's a clear sign your brake pads may be worn. Ignoring this can lead to costly repairs. At JF Motors, we recommend immediate inspection to prevent further damage and ensure your safety on local streets.",
+        "Reduced braking responsiveness is another warning sign. If your car takes longer to stop or the brake pedal feels soft, it could indicate air in the lines or fluid leaks. In Bacchus Marsh, where weather conditions can affect road traction, this is particularly dangerous. Our mechanics use diagnostic tools to identify issues quickly, providing reliable brake repairs.",
+        "Vibrations when braking, often felt through the steering wheel, suggest warped rotors. This common problem in Bacchus Marsh vehicles can result from frequent stops on uneven roads. Brake machining or replacement may be needed. JF Motors offers expert services to restore smooth braking, adhering to Australian safety standards for peace of mind.",
+        "A brake warning light on your dashboard is an urgent indicator. It could signal low brake fluid or sensor issues. Bacchus Marsh drivers should not delay addressing this, as it compromises vehicle control. We provide comprehensive brake checks, including fluid flushes, to keep your system in top condition. Regular maintenance helps avoid emergencies.",
+        "Wear indicators on brake pads are designed to alert you. If you hear a high-pitched sound when braking, it's time for a replacement. In Bacchus Marsh, with its mix of urban and rural driving, brakes endure significant stress. Our team at JF Motors uses quality parts for durable repairs, ensuring your car handles local driving demands.",
+        "Finally, if your car pulls to one side during braking, it may indicate uneven pad wear or caliper issues. This affects stability, especially on Bacchus Marsh's winding roads. Early detection prevents accidents. We recommend scheduling a brake inspection every 20,000 km or as per your manufacturer's guidelines. Trust JF Motors for honest, efficient service."
+      ]
+    },
+    {
+      "title": "Auto Electrical Issues: Common Problems in Bacchus Marsh",
+      "date": "January 2026",
+      "excerpt": "Explore frequent auto electrical problems in Bacchus Marsh, such as battery failures and alternator issues, and how local mechanics can fix them.",
+      "body": [
+        "Auto electrical problems are common in Bacchus Marsh, where temperature extremes can strain vehicle systems. A dead battery is often the first issue, especially in colder months. Corrosion or old age can cause this. At JF Motors, we test batteries and replace them with quality units to ensure reliability for Bacchus Marsh drivers.",
+        "Alternator failures lead to dimming lights and battery drain. In Bacchus Marsh, where commutes might involve varied terrain, a faulty alternator can leave you stranded. Our mechanics diagnose charging system issues using advanced equipment, providing timely repairs. Regular checks help prevent unexpected breakdowns on local roads.",
+        "Starter motor problems manifest as clicking sounds or failure to start. This can be due to worn components or electrical connections. Bacchus Marsh vehicles, often used for both city and rural trips, need dependable starting systems. JF Motors offers starter repairs with genuine parts, ensuring optimal performance.",
+        "Wiring faults and short circuits are trickier, often causing intermittent issues like faulty lights or dashboard errors. In Bacchus Marsh, exposure to dust and moisture can accelerate wear. Our technicians inspect wiring thoroughly, repairing or replacing sections to restore functionality. We adhere to Australian electrical standards for safety.",
+        "Sensor malfunctions, such as those for engine or ABS systems, trigger warning lights and affect performance. Bacchus Marsh's diverse driving conditions can exacerbate sensor wear. Using diagnostic scanners, we pinpoint faults and provide precise solutions. This keeps your vehicle compliant and efficient on local streets.",
+        "Preventive maintenance is key to avoiding auto electrical issues. In Bacchus Marsh, we recommend annual electrical checks, especially before seasonal changes. JF Motors serves the community with expertise, offering services like battery terminals cleaning and system tests. Trust us to keep your car's electrical system in peak condition."
+      ]
+    },
+    {
+      "title": "Best Time to Get Your Car Serviced in Bacchus Marsh",
+      "date": "December 2025",
+      "excerpt": "Find out the optimal times for car servicing in Bacchus Marsh based on climate, driving habits, and local traffic patterns for maximum efficiency.",
+      "body": [
+        "Choosing the right time for car servicing in Bacchus Marsh can save you time and money. The cooler months of autumn and winter are ideal, as lower temperatures reduce workshop congestion. JF Motors recommends scheduling services in April or May to prepare for cold starts and ensure your vehicle handles Bacchus Marsh's chilly mornings.",
+        "Before summer, around October, is another smart time. Heat can stress cooling systems and batteries. In Bacchus Marsh, where temperatures can rise, servicing before peak heat helps prevent overheating. Our mechanics check fluids, belts, and air conditioning to keep you comfortable and safe on local roads.",
+        "Considering driving habits, if you frequently travel between Bacchus Marsh and Melbourne, more frequent servicing is wise. Highway driving adds wear, so every 10,000 km or six months is advisable. We tailor service schedules to your usage, ensuring optimal performance for Bacchus Marsh commuters.",
+        "Local events and traffic patterns also influence timing. Bacchus Marsh has quieter periods, like mid-week, when workshops are less busy. Booking during these times ensures quicker turnaround. JF Motors offers flexible appointments to fit your routine, providing efficient service without long waits.",
+        "Seasonal weather in Bacchus Marsh, with wet winters and dry summers, affects vehicle health. Servicing after heavy rain can address water damage or rust risks. We recommend inspecting brakes and undercarriage regularly. Our expertise in local conditions means we anticipate common issues and address them proactively.",
+        "In summary, the best times for car servicing in Bacchus Marsh are autumn and pre-summer, aligned with climate and driving needs. Regular maintenance every six months or 10,000 km keeps your car in top shape. Contact JF Motors to book a service that fits your schedule and ensures reliability on Bacchus Marsh roads."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "JF Motors | Mechanic in Bacchus Marsh | Auto Repairs",
+      "description": "JF Motors offers expert auto repairs in Bacchus Marsh, including servicing, electrical, and brake work. Over 20 years trusted by locals. Free quotes!"
+    },
+    "about": {
+      "title": "About JF Motors | Bacchus Marsh's Trusted Mechanics",
+      "description": "Learn about JF Motors, Bacchus Marsh mechanics with 20+ years experience. Quality repairs, honest pricing, and local service for all vehicles."
+    },
+    "services": {
+      "title": "Auto Repair Services in Bacchus Marsh | JF Motors",
+      "description": "Explore auto repair services in Bacchus Marsh from JF Motors: general servicing, electrical, brakes, diagnostics, and more. Expert mechanics ready to help."
+    },
+    "pricing": {
+      "title": "Auto Repair Costs in Bacchus Marsh | JF Motors",
+      "description": "Find competitive auto repair pricing in Bacchus Marsh with JF Motors. Transparent quotes for servicing, electrical, and brake repairs. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact JF Motors | Free Quotes in Bacchus Marsh",
+      "description": "Get in touch with JF Motors in Bacchus Marsh for free auto repair quotes. Call 03 5367 1234 or visit 23 Park St, Maddingley. Quick response guaranteed."
+    },
+    "blog": {
+      "title": "Bacchus Marsh Auto Care Blog | Tips & Advice",
+      "description": "Read the Bacchus Marsh auto care blog from JF Motors for tips on car maintenance, repair costs, and local driving advice. Expert insights from trusted mechanics."
+    }
+  }
+}
