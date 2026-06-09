@@ -1,0 +1,254 @@
+{
+  "siteType": "electrician",
+  "businessName": "Connectelect",
+  "suburb": "Mount Waverley",
+  "phone": "0402182131",
+  "email": "connectmelbourneelectrics@gmail.com",
+  "address": "36 Mayfield Dr, Mount Waverley VIC 3149",
+  "tagline": "Mount Waverley's Trusted Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e56200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mount Waverley's Expert Electricians",
+      "sub": "10+ years serving Melbourne's eastern suburbs"
+    },
+    {
+      "title": "Residential, Commercial & Real Estate Electrical",
+      "sub": "Safety-first approach for every project in Mount Waverley"
+    },
+    {
+      "title": "Connectelect — Your Local Electrical Team",
+      "sub": "Over 250 successful projects completed across Melbourne"
+    }
+  ],
+  "ctaHeading": "Need an electrician in Mount Waverley? Contact Connectelect today.",
+  "aboutHeading": "10 Years Electrical Excellence in Mount Waverley",
+  "aboutSubheading": "Local, licensed & safety-focused",
+  "aboutText": "Connectelect has been providing expert electrical services in Mount Waverley for over 10 years. Specialising in residential, commercial, and real estate electrical work, our team is dedicated to safety and customer satisfaction. With more than 250 successful projects completed, we are Mount Waverley's go-to electricians for reliable, clean, and respectful service across Melbourne.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all electrical needs",
+  "servicesText": "From residential wiring to commercial fit-outs, Connectelect offers a full range of electrical services in Mount Waverley and across Melbourne. Our team stands behind every job with a commitment to quality, safety, and customer-first approach.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Expert home electrical installations, repairs, and upgrades in Mount Waverley.",
+      "longDesc": "Comprehensive residential electrical services for Mount Waverley homes, including wiring, lighting, switchboard upgrades, and safety inspections. We ensure compliance with Australian standards and provide energy-efficient solutions tailored to your needs.",
+      "points": [
+        "Safety compliant",
+        "Energy efficient",
+        "Professional finish"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Reliable electrical solutions for businesses across Mount Waverley and Melbourne.",
+      "longDesc": "Specialised commercial electrical services for Mount Waverley businesses, covering office fit-outs, retail lighting, data cabling, and preventive maintenance. Our experienced team minimises downtime and ensures optimal electrical performance.",
+      "points": [
+        "Minimal business disruption",
+        "Custom solutions",
+        "Compliance guaranteed"
+      ]
+    },
+    {
+      "title": "Real Estate Electrical Services",
+      "desc": "Efficient electrical work for property managers and real estate in Mount Waverley.",
+      "longDesc": "Tailored electrical services for Mount Waverley real estate, including pre-sale inspections, tenant safety checks, and rapid repair solutions. We help property managers maintain safe, compliant properties with fast turnaround times.",
+      "points": [
+        "Quick turnaround",
+        "Inspection reports",
+        "Tenant satisfaction"
+      ]
+    },
+    {
+      "title": "Safety Inspections and Compliance",
+      "desc": "Thorough electrical safety checks to meet Australian regulations in Mount Waverley.",
+      "longDesc": "Detailed electrical safety inspections and compliance audits for Mount Waverley properties, ensuring adherence to AS/NZS 3000 standards. Our reports identify risks and provide actionable recommendations to prevent hazards.",
+      "points": [
+        "Risk assessment",
+        "Compliance certification",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "24/7 emergency electrician services for Mount Waverley and surrounding areas.",
+      "longDesc": "Fast-response emergency electrical repairs available 24 hours in Mount Waverley, handling power outages, fault finding, and urgent safety issues. Our team prioritises safety and provides immediate solutions to restore power.",
+      "points": [
+        "24/7 availability",
+        "Rapid response",
+        "Safety prioritised"
+      ]
+    },
+    {
+      "title": "Electrical Installations and Upgrades",
+      "desc": "Modern electrical installations and upgrades for Mount Waverley homes and businesses.",
+      "longDesc": "Professional electrical installations and upgrades in Mount Waverley, including solar systems, EV charger setups, and smart home integrations. We use quality materials and ensure future-proof, efficient systems.",
+      "points": [
+        "Future-proof systems",
+        "Quality materials",
+        "Expert installation"
+      ]
+    }
+  ],
+  "bannerHeading": "Mount Waverley's Trusted Electricians Are Here",
+  "bannerSubheading": "Supporting callout: Get reliable electrical help for your home or business.",
+  "testimonialsHeading": "What Mount Waverley Locals Say About Connectelect",
+  "testimonialsSubheading": "Reliable work, fair pricing",
+  "blogHeading": "Electrical Tips & Guides from Mount Waverley",
+  "blogSubheading": "Expert advice for your home and business",
+  "contactHeading": "Get a Free Electrical Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Connectelect handled our residential rewiring in Mount Waverley with professionalism and care. The team was clean, respectful, and completed the job on time, ensuring all safety standards were met.",
+      "name": "Sarah Thompson",
+      "role": "Mount Waverley Homeowner"
+    },
+    {
+      "text": "For our commercial office fit-out, Connectelect provided excellent service and ensured all electrical systems were optimised for efficiency. Highly recommend for businesses in Melbourne seeking reliable electricians.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Connectelect for quick and reliable electrical repairs across multiple Mount Waverley properties. Their 10+ years experience shows in their consistent, high-quality work.",
+      "name": "Lisa Patel",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Mount Waverley",
+    "Glen Waverley",
+    "Burwood",
+    "Box Hill",
+    "Ashburton",
+    "Chadstone",
+    "Notting Hill",
+    "Wheelers Hill"
+  ],
+  "pricing": {
+    "intro": "At Connectelect, we offer transparent, no-lock-in pricing for all electrical services in Mount Waverley. Get a free quote upfront with no hidden fees.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional service",
+          "Quality materials",
+          "Safety guarantee",
+          "Workmanship warranty"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom solutions",
+          "Project management",
+          "Compliance certification"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront based on your specific needs in Mount Waverley."
+  },
+  "contact": {
+    "intro": "Contact Connectelect today for a free, no-obligation electrical quote in Mount Waverley. We're available 24 hours to help with any electrical needs, from safety checks to emergency repairs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Electrical Safety Check Cost in Mount Waverley?",
+      "date": "March 2026",
+      "excerpt": "Discover the cost of electrical safety checks in Mount Waverley, including factors like property size and compliance requirements. Protect your home with expert advice.",
+      "body": [
+        "Electrical safety checks are crucial for Mount Waverley homeowners to prevent hazards like shocks or fires. In Australia, these inspections are guided by AS/NZS 3000 standards, and costs can vary based on property size, age, and complexity. For a typical Mount Waverley home, expect to pay between $150 and $300 for a thorough check by a licensed electrician like Connectelect, ensuring all wiring, outlets, and safety devices meet current regulations.",
+        "Several factors influence the cost of an electrical safety check in Mount Waverley. Older homes may require more detailed assessment due to outdated wiring, while larger properties with multiple circuits increase inspection time. Additional services like thermal imaging or report documentation can add to the price, but they provide valuable insights into potential issues, making the investment worthwhile for long-term safety and compliance.",
+        "During a safety check, a qualified electrician from Connectelect will inspect your switchboard, test circuit breakers, check earthing systems, and verify smoke alarm functionality. In Mount Waverley's climate, where humidity and temperature fluctuations can affect electrical components, this thorough evaluation is essential. The process typically takes 1-2 hours, and you'll receive a detailed report outlining any necessary repairs or upgrades to keep your home safe.",
+        "Investing in regular electrical safety checks in Mount Waverley can save you money in the long run by identifying issues early, before they become costly emergencies. Insurance companies often require proof of compliance, and maintaining a safe electrical system can reduce premiums. Connectelect offers competitive pricing and detailed reports that help you understand your home's electrical health, ensuring peace of mind for you and your family.",
+        "For Mount Waverley residents, choosing a local electrician like Connectelect ensures familiarity with area-specific challenges, such as soil conditions affecting outdoor wiring or storm-related power issues. Our team provides transparent quotes with no hidden fees, and we explain any recommended repairs in clear terms. Whether you're selling a property or just maintaining it, a safety check is a smart step towards electrical reliability and compliance with Melbourne's building codes.",
+        "In summary, the cost of an electrical safety check in Mount Waverley is a small price to pay for the security and compliance it offers. With prices starting from $150, Connectelect delivers comprehensive inspections that adhere to Australian standards, helping you avoid fines and ensure your property is electrically sound. Contact us today to schedule your check and keep your Mount Waverley home safe for years to come."
+      ]
+    },
+    {
+      "title": "Signs You Need a Commercial Electrical Upgrade in Melbourne",
+      "date": "February 2026",
+      "excerpt": "Learn the key signs that your Melbourne business needs an electrical upgrade, from flickering lights to outdated switchboards. Ensure safety and efficiency.",
+      "body": [
+        "For businesses in Melbourne, especially in bustling areas like Mount Waverley, an electrical upgrade might be overdue if you notice flickering lights, frequent circuit breaker trips, or outdated wiring. These signs indicate that your commercial electrical system can't handle modern demands, posing safety risks and reducing efficiency. Upgrading to current standards, as per AS/NZS 3000, ensures compliance and prevents costly downtime.",
+        "Another critical sign is the age of your switchboard—if it's over 20 years old and lacks safety switches (RCDs), it's time for an upgrade. In Melbourne's commercial settings, where equipment and lighting loads have increased, an old switchboard can lead to overloads and fire hazards. Connectelect in Mount Waverley can assess your system and recommend upgrades that improve safety and accommodate future growth.",
+        "If your business experiences frequent power surges or has trouble running multiple devices simultaneously, it's a clear indicator that an electrical upgrade is needed. Melbourne's climate, with its stormy seasons, can exacerbate these issues, making surge protection essential. An upgrade by Connectelect includes installing modern wiring, circuits, and protective devices tailored to your commercial needs in Mount Waverley and surrounding areas.",
+        "High electricity bills can also signal inefficiencies in your electrical system. Outdated lighting or machinery consumes more power, increasing operational costs. Upgrading to energy-efficient LED lighting and optimised circuits in your Melbourne business can reduce bills by up to 30%, according to Australian energy guidelines. Connectelect provides cost-effective solutions that pay for themselves over time through savings.",
+        "Safety compliance is non-negotiable for Melbourne businesses, and regular audits may reveal that your electrical setup doesn't meet current regulations. Fines from authorities like WorkSafe Victoria can be substantial, not to mention the risk to employees and customers. By partnering with Connectelect in Mount Waverley, you ensure your commercial property is upgraded to pass inspections and maintain a safe environment.",
+        "In conclusion, recognizing signs like flickering lights, outdated switchboards, or high bills in your Melbourne business can prompt timely electrical upgrades. Connectelect offers expert assessments and upgrades in Mount Waverley, enhancing safety, efficiency, and compliance. Don't wait for a failure—contact us to discuss how we can modernise your commercial electrical system and support your business growth."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Repairs: What to Do in Mount Waverley",
+      "date": "January 2026",
+      "excerpt": "A guide to handling electrical emergencies in Mount Waverley, including steps to take and why quick professional help is essential for safety.",
+      "body": [
+        "Electrical emergencies in Mount Waverley, such as power outages, sparking outlets, or burning smells, require immediate action to prevent injury or fire. The first step is to ensure safety: turn off the power at the main switch if safe to do so, avoid touching any exposed wires, and evacuate the area if necessary. Contact a licensed emergency electrician like Connectelect, who serves Mount Waverley 24/7 for rapid response.",
+        "In Mount Waverley, common electrical emergencies include storm damage to power lines or faults in older home wiring. Australia's strict safety standards mean that only qualified professionals should handle repairs to avoid legal and insurance issues. Connectelect's team is equipped with the tools and knowledge to diagnose and fix issues quickly, minimising downtime and ensuring compliance with local regulations.",
+        "When you call for emergency repairs, provide details like the nature of the problem, your address in Mount Waverley, and any safety concerns. Connectelect prioritises such calls, typically arriving within an hour to assess and resolve the issue. We carry common parts and use diagnostic equipment to identify faults efficiently, whether it's a short circuit in a residential property or a commercial system failure.",
+        "Preventive measures can reduce the risk of emergencies in Mount Waverley homes and businesses. Regular maintenance, such as testing safety switches and inspecting wiring, helps catch issues early. Connectelect offers maintenance plans tailored to Melbourne's climate, where humidity and temperature changes can affect electrical components, ensuring your system remains reliable year-round.",
+        "During an emergency repair, safety is paramount. Our electricians at Connectelect follow Australian work health and safety guidelines, using personal protective equipment and isolating power sources. In Mount Waverley, where older infrastructure might be prevalent, we also check for compliance with current standards, recommending upgrades if necessary to prevent future emergencies.",
+        "After the repair, Connectelect provides a detailed report and advice on any further actions needed for your Mount Waverley property. We ensure all work is certified and backed by a warranty, giving you confidence in the solution. Remember, attempting DIY electrical repairs is dangerous and illegal in Australia—always trust licensed professionals for emergencies to protect your safety and property."
+      ]
+    },
+    {
+      "title": "The Benefits of LED Lighting Installation for Mount Waverley Homes",
+      "date": "December 2025",
+      "excerpt": "Explore how LED lighting installation in Mount Waverley homes can save energy, reduce bills, and enhance comfort with modern technology.",
+      "body": [
+        "Installing LED lighting in Mount Waverley homes offers significant benefits, including energy savings of up to 80% compared to traditional bulbs, according to Australian energy efficiency standards. LEDs last longer, reducing replacement costs and waste, and they provide better illumination with less heat output. For Mount Waverley residents, this means lower electricity bills and a more comfortable living environment, especially during Melbourne's warm summers.",
+        "Beyond cost savings, LED lighting installation enhances home safety and aesthetics in Mount Waverley. LEDs are durable and less prone to breakage, making them ideal for families. They also come in various colour temperatures, allowing you to customise lighting for different rooms—from warm tones in bedrooms to bright whites in kitchens. Connectelect ensures professional installation that meets all electrical codes for Mount Waverley properties.",
+        "The environmental impact of switching to LED lighting in Mount Waverley is substantial, as it reduces carbon footprint by consuming less power. In Australia, where sustainability is increasingly important, this upgrade aligns with national goals for energy reduction. Connectelect uses high-quality LED products that are certified for Australian conditions, ensuring they withstand local climate factors like temperature fluctuations.",
+        "For Mount Waverley homeowners, LED installation can increase property value and appeal, especially if you're considering selling. Modern lighting is a desirable feature, and the energy efficiency ratings can attract buyers looking for low-maintenance homes. Connectelect provides tailored lighting designs that highlight architectural features and improve functionality throughout your Mount Waverley residence.",
+        "The installation process with Connectelect in Mount Waverley is quick and minimally disruptive. Our electricians assess your current wiring, recommend suitable LED fixtures, and handle all aspects from wiring to testing. We ensure compatibility with smart home systems, allowing you to control lighting via apps or voice commands for added convenience in your Mount Waverley home.",
+        "In summary, LED lighting installation for Mount Waverley homes delivers economic, environmental, and aesthetic benefits. With reduced energy costs, longer lifespan, and enhanced comfort, it's a smart investment. Connectelect offers expert installation services in Mount Waverley, helping you make the switch seamlessly and enjoy the advantages of modern lighting technology."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Connectelect | Electrician in Mount Waverley | Melbourne",
+      "description": "Expert electrical services in Mount Waverley. Connectelect offers residential, commercial & real estate electrical work. 10+ years experience. Call 0402182131."
+    },
+    "about": {
+      "title": "About Connectelect | Mount Waverley's Trusted Electricians",
+      "description": "Learn about Connectelect's 10 years of electrical service in Mount Waverley. Our licensed team provides safety-focused solutions for homes and businesses."
+    },
+    "services": {
+      "title": "Electrical Services in Mount Waverley | Residential & Commercial",
+      "description": "Comprehensive electrical services in Mount Waverley from Connectelect. Including safety inspections, emergency repairs, and LED lighting upgrades."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Quotes Mount Waverley | Connectelect",
+      "description": "Transparent pricing for electrical services in Mount Waverley. Get no-obligation quotes from Connectelect for residential and commercial work."
+    },
+    "contact": {
+      "title": "Contact Connectelect | Free Electrical Quotes Mount Waverley",
+      "description": "Contact Connectelect in Mount Waverley for free electrical quotes. 24/7 emergency services available. Call 0402182131 or email us."
+    },
+    "blog": {
+      "title": "Mount Waverley Electrical Blog | Tips & Guides from Connectelect",
+      "description": "Expert electrical advice for Mount Waverley homeowners and businesses. Blog posts on costs, safety, and upgrades from Connectelect."
+    }
+  }
+}
