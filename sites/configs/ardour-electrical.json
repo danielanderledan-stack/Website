@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Ardour Electrical",
+  "suburb": "South Geelong",
+  "phone": "0438 320 913",
+  "email": "drew@ardourelectrical.com.au",
+  "address": "59 Little Fyans St, South Geelong VIC 3220",
+  "tagline": "South Geelong's Trusted Electricians",
+  "primaryColor": "#0693e3",
+  "primaryColorRgb": "6, 147, 227",
+  "primaryColorHover": "#0580d0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Geelong's Trusted Electricians",
+      "sub": "Expert electrical services for your home and business"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "New builds, renovations, and maintenance across Geelong"
+    },
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "Available throughout South Geelong and surrounds"
+    }
+  ],
+  "ctaHeading": "Ready for expert electrical work in South Geelong? Contact us today.",
+  "aboutHeading": "About Ardour Electrical in South Geelong",
+  "aboutSubheading": "Your local, licensed electricians",
+  "aboutText": "Ardour Electrical is a premier electrical service provider based in South Geelong, VIC. With years of experience serving the local community, we specialise in residential and commercial electrical solutions. From new home wiring to emergency repairs, our team is dedicated to delivering reliable and safe electrical work across South Geelong and surrounding suburbs.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for all your needs",
+  "servicesText": "From domestic wiring to complex commercial installations, Ardour Electrical covers it all. We specialise in electrical lighting, automation, and general maintenance, serving both residential and commercial clients in South Geelong. Our team ensures timely and efficient service with a focus on safety and quality.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Expert electrical solutions for homes in South Geelong, including wiring, repairs, and upgrades.",
+      "longDesc": "Our residential services cover everything from basic wiring to complete electrical overhauls for homes in South Geelong. We ensure all work complies with Australian safety standards and is tailored to your specific needs, providing peace of mind for homeowners.",
+      "points": [
+        "Licensed electricians",
+        "Safety compliant",
+        "Timely service"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Reliable electrical installations and maintenance for businesses in the Geelong area.",
+      "longDesc": "We provide comprehensive electrical services for commercial properties in South Geelong, from office fit-outs to industrial maintenance. Our team handles large-scale projects with efficiency, ensuring minimal disruption and adherence to commercial standards.",
+      "points": [
+        "Project management",
+        "Compliance assured",
+        "24/7 support"
+      ]
+    },
+    {
+      "title": "Electrical Lighting Installation",
+      "desc": "Professional lighting design and installation for residential and commercial spaces.",
+      "longDesc": "Ardour Electrical specialises in energy-efficient lighting solutions for South Geelong properties. We install LED systems, smart lighting, and custom designs to enhance aesthetics and reduce energy costs, perfect for homes and businesses alike.",
+      "points": [
+        "Energy-efficient options",
+        "Custom designs",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Home Automation",
+      "desc": "Smart home systems for lighting, security, and convenience in South Geelong.",
+      "longDesc": "Upgrade your South Geelong home with our automation services, integrating smart lighting, security systems, and climate control. We provide seamless installation and user-friendly setups to modernize your living space.",
+      "points": [
+        "Smart technology",
+        "Easy control",
+        "Professional setup"
+      ]
+    },
+    {
+      "title": "New Home Wiring",
+      "desc": "Complete electrical wiring for new constructions in South Geelong and Geelong region.",
+      "longDesc": "We handle all electrical wiring for new homes in South Geelong, from planning to execution. Our team ensures safe, efficient installations that meet building codes and support future electrical needs for homeowners.",
+      "points": [
+        "Compliance with codes",
+        "Future-proof wiring",
+        "On-time completion"
+      ]
+    },
+    {
+      "title": "General Electrical Maintenance",
+      "desc": "Routine checks and repairs to keep your electrical systems running smoothly.",
+      "longDesc": "Our maintenance services in South Geelong include regular inspections, fault detection, and repairs to prevent issues. We help homeowners and businesses maintain safe and reliable electrical systems year-round.",
+      "points": [
+        "Preventive care",
+        "Quick diagnostics",
+        "Affordable rates"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in South Geelong?",
+  "bannerSubheading": "Fast, reliable, and affordable electrical services.",
+  "testimonialsHeading": "What South Geelong Clients Say",
+  "testimonialsSubheading": "Real reviews from our community",
+  "blogHeading": "Electrical Tips & Guides for South Geelong",
+  "blogSubheading": "Expert advice from local electricians",
+  "contactHeading": "Get in Touch with Ardour Electrical",
+  "contactSubheading": "Free quotes and consultations",
+  "reviews": [
+    {
+      "text": "Ardour Electrical did an excellent job rewiring our home in South Geelong. The team was professional and completed the work on time. Highly recommended for any electrical needs.",
+      "name": "Sarah Thompson",
+      "role": "South Geelong Homeowner"
+    },
+    {
+      "text": "We hired Ardour Electrical for our commercial fit-out in Geelong, and they delivered outstanding service. Their expertise in lighting and automation was impressive.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Ardour Electrical for maintenance across multiple properties. Their prompt response and quality work make them my go-to electrician.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "South Geelong",
+    "Geelong West",
+    "Breakwater",
+    "Whittington",
+    "Belmont",
+    "Newtown"
+  ],
+  "about": {
+    "intro": "Ardour Electrical is a leading electrical contractor based in South Geelong, offering comprehensive services for residential and commercial properties.",
+    "story": [
+      "Founded in South Geelong, Ardour Electrical has grown to become a trusted name in electrical services across the Geelong region. Our team of licensed electricians brings over 15 years of combined experience to every project, ensuring precision and safety.",
+      "We are committed to using high-quality materials and the latest techniques to deliver reliable electrical solutions. From simple repairs to complex installations, our focus on customer satisfaction drives everything we do in South Geelong and beyond."
+    ],
+    "mission": "To provide South Geelong with reliable, high-quality electrical solutions that exceed expectations.",
+    "whyUs": [
+      {
+        "title": "Licensed & Insured",
+        "text": "Fully qualified electricians with comprehensive insurance for your protection."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "We are available around the clock for emergencies and scheduled work."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of South Geelong's electrical needs and standards."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees; upfront quotes for all electrical services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "24/7 service",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Ardour Electrical, we offer competitive pricing for all electrical services in South Geelong. No lock-in contracts; get a free quote today.",
+    "packages": [
+      {
+        "name": "Standard Call-Out",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront pricing",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Residential Package",
+        "price": "from $500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full home inspection",
+          "Priority scheduling",
+          "Compliance certificate",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Commercial Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom solutions",
+          "Project management",
+          "Compliance with standards"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Contact Ardour Electrical today for a free quote on your electrical project in South Geelong. Call us or visit our website to get started."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Electrical Rewiring Cost in South Geelong?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting electrical rewiring costs in South Geelong and get expert advice from local electricians.",
+      "body": [
+        "Electrical rewiring is a critical upgrade for many South Geelong homes, especially those built decades ago with outdated wiring. The cost can vary based on the size of the property, the extent of the work, and the materials used. In South Geelong, where many houses are heritage or mid-century builds, rewiring often involves navigating older structures, which can add to the complexity. Factors like the number of circuits, accessibility of walls, and compliance with Australian wiring standards all play a role. On average, homeowners might expect to pay between $2,000 and $8,000 for a full rewire, but this is just a starting point.",
+        "When planning a rewiring project in South Geelong, it is essential to consult with a licensed electrician like Ardour Electrical to assess your specific needs. We start with a thorough inspection to identify any hazards, such as frayed wires or overloaded circuits, which are common in older Geelong properties. Our team ensures that all work adheres to AS/NZS 3000 wiring rules, guaranteeing safety and reliability. We also consider future-proofing, such as adding extra outlets for modern appliances or integrating smart home systems, which is increasingly popular in South Geelong.",
+        "The timing of your rewiring project can impact costs and convenience. In South Geelong, the mild climate means work can often proceed year-round, but we recommend scheduling during drier months to avoid weather-related delays. During the process, we minimize disruption by working systematically through the house, often starting with ceilings and walls. For South Geelong residents, we also handle any necessary council approvals or certifications, ensuring everything is above board. Our transparent pricing includes all labour, materials, and cleanup, so there are no hidden surprises.",
+        "One key consideration in South Geelong is the age and type of housing stock. Many homes in suburbs like South Geelong and Belmont feature original wiring that may not meet current safety standards. Rewiring not only prevents electrical fires but also improves energy efficiency, which is crucial in Australia's variable climate. We use high-quality, durable materials that withstand the local conditions, including humidity and temperature fluctuations. By choosing Ardour Electrical, you benefit from our local knowledge and commitment to quality, making your rewiring investment worthwhile.",
+        "After rewiring, we conduct rigorous testing to ensure everything functions perfectly. This includes checking all outlets, switches, and appliances for proper operation. In South Geelong, where peace of mind is paramount, we provide a compliance certificate that attests to the work meeting all Australian standards. This documentation is valuable for insurance purposes and future property sales. Our team also offers advice on maintaining your new electrical system, such as regular inspections and updates, to keep it in top condition for years to come.",
+        "If you are considering electrical rewiring in South Geelong, contact Ardour Electrical for a free assessment. We provide detailed quotes tailored to your home's specifics, ensuring you understand every aspect of the project. With our experience in the Geelong region, we can navigate any challenges efficiently, delivering a safe and modern electrical system. Don't wait until issues arise; proactive rewiring enhances your home's safety and value, making it a smart choice for South Geelong homeowners."
+      ]
+    },
+    {
+      "title": "Best Energy-Efficient Lighting Solutions for Geelong Homes",
+      "date": "February 2026",
+      "excerpt": "Explore energy-saving lighting options suitable for South Geelong's climate and reduce your electricity bills.",
+      "body": [
+        "Energy-efficient lighting is a smart upgrade for South Geelong homes, where the climate ranges from cool winters to warm summers. Switching to LED or smart lighting can significantly reduce electricity costs while providing better illumination. In Geelong, where many households are conscious of energy use, options like LED bulbs, solar-powered lights, and automated systems are popular. These solutions not only lower bills but also have a longer lifespan, reducing the need for frequent replacements. For South Geelong residents, choosing the right lighting involves considering room usage, natural light availability, and personal preferences.",
+        "LED lighting is the cornerstone of energy efficiency in South Geelong homes. LEDs use up to 80% less energy than traditional incandescent bulbs and last up to 25 times longer. In the Geelong region, where daylight hours vary seasonally, LEDs provide consistent, bright light that mimics natural daylight. We recommend starting with high-traffic areas like kitchens, living rooms, and outdoor spaces. For South Geelong's coastal influence, moisture-resistant LEDs are ideal for bathrooms and decks, ensuring durability against humidity and salt air.",
+        "Smart lighting systems offer advanced control and customization for South Geelong households. Brands like Philips Hue or LIFX allow you to adjust brightness, color, and schedules via smartphone apps, integrating with home automation. In Geelong, where energy tariffs can spike during peak hours, smart timers help optimize usage by turning lights off when not needed. This is particularly useful for busy families in South Geelong who want convenience without waste. Installation is straightforward with a licensed electrician, ensuring compatibility with existing wiring.",
+        "Solar-powered lighting is another excellent option for South Geelong, leveraging Australia's abundant sunlight. Outdoor solar lights for gardens, paths, and driveways reduce reliance on the grid and are eco-friendly. In the Geelong area, where outdoor living is common, solar lighting extends usability into the evenings without increasing energy costs. For indoor use, solar-powered backup lights provide emergency lighting during outages, which can occur in South Geelong during storms. We help select and install systems that maximize efficiency based on your property's orientation and shading.",
+        "When planning lighting upgrades in South Geelong, consider the overall design and functionality. Layered lighting combines ambient, task, and accent lights to create a comfortable environment. For example, in a South Geelong living room, use recessed LEDs for general light, under-cabinet lighting in the kitchen, and decorative pendants for flair. This approach enhances both aesthetics and energy efficiency. Our team at Ardour Electrical provides personalized consultations to match your South Geelong home's style and needs, ensuring optimal results.",
+        "Maintenance and future-proofing are key aspects of energy-efficient lighting in Geelong homes. Regular cleaning and occasional checks ensure lights perform at their best. In South Geelong, where weather can be unpredictable, durable fixtures withstand local conditions. We also advise on emerging technologies, like tunable white LEDs that adjust color temperature throughout the day, supporting circadian rhythms. By investing in efficient lighting now, South Geelong residents can enjoy long-term savings and a reduced carbon footprint, contributing to a sustainable community."
+      ]
+    },
+    {
+      "title": "Electrical Safety Tips for South Geelong Businesses",
+      "date": "January 2026",
+      "excerpt": "Learn essential electrical safety practices to keep your commercial property safe and compliant.",
+      "body": [
+        "Electrical safety is paramount for businesses in South Geelong, where commercial properties range from retail shops to industrial warehouses. Ensuring safe electrical systems prevents accidents, downtime, and legal issues. In the Geelong region, businesses must comply with Australian workplace safety laws, including regular inspections and maintenance. Common risks include overloaded circuits, faulty wiring, and inadequate grounding, which can lead to fires or equipment damage. South Geelong businesses should prioritize proactive measures to protect employees, customers, and assets.",
+        "Regular electrical inspections are a cornerstone of safety for South Geelong businesses. A licensed electrician should assess your systems at least annually, checking for wear, code compliance, and potential hazards. In Geelong, where humidity and temperature variations can affect wiring, inspections catch issues early. We recommend documenting all checks and repairs for compliance records. For South Geelong businesses, this not only ensures safety but also optimizes energy use, reducing operational costs in the long run.",
+        "Proper wiring and circuit management are critical in commercial settings. In South Geelong, many businesses operate heavy machinery or sensitive electronics that demand stable power. Overloading outlets or using incorrect fuses can cause outages or damage. We advise using dedicated circuits for high-demand equipment and installing surge protectors to guard against voltage spikes, which are common during Geelong's stormy seasons. Our team helps design layouts that support your business operations safely and efficiently.",
+        "Lighting plays a significant role in workplace safety and productivity. For South Geelong businesses, adequate lighting reduces accidents and enhances employee well-being. LED fixtures are ideal, offering bright, consistent light with low energy consumption. In retail or office spaces, task lighting ensures visibility for detailed work, while emergency lighting complies with regulations for evacuations. South Geelong's climate means lighting should also account for natural light variations, balancing efficiency with comfort.",
+        "Training staff on electrical safety practices is essential for South Geelong businesses. Employees should know how to identify hazards, report issues, and use equipment correctly. In Geelong, where businesses often have diverse workforces, clear signage and regular briefings reinforce safety culture. We provide resources and consultations to help South Geelong businesses implement effective safety programs, from handling portable appliances to emergency procedures.",
+        "Partnering with a local electrician like Ardour Electrical ensures ongoing support for South Geelong businesses. We offer tailored maintenance plans that include priority service and compliance checks. In the Geelong region, where business continuity is vital, our rapid response minimizes disruptions. By investing in electrical safety, South Geelong businesses not only protect their premises but also build trust with clients and staff, fostering a secure and productive environment."
+      ]
+    },
+    {
+      "title": "Home Automation Systems: Installation Guide for South Geelong Residents",
+      "date": "December 2025",
+      "excerpt": "A comprehensive guide to setting up home automation in South Geelong, from smart lighting to security.",
+      "body": [
+        "Home automation is transforming living in South Geelong, where residents seek convenience, security, and energy efficiency. From smart thermostats to voice-controlled lighting, these systems integrate technology into daily life. In the Geelong region, where coastal weather can be variable, automation helps manage climate control and energy use effectively. For South Geelong homeowners, starting with automation involves assessing needs, budget, and existing infrastructure. A phased approach often works best, beginning with simple upgrades like smart bulbs or plugs.",
+        "Smart lighting is a popular entry point for automation in South Geelong homes. Systems like Philips Hue or Google Home allow remote control via apps or voice commands, adjusting brightness and color to suit moods or schedules. In Geelong, where daylight changes seasonally, automated lighting can mimic natural light patterns, enhancing comfort and saving energy. Installation is seamless with a licensed electrician, ensuring compatibility with your home's wiring. South Geelong residents can start in living areas and expand to bedrooms and outdoors for a fully connected space.",
+        "Security systems are another key aspect of home automation for South Geelong households. Smart cameras, door locks, and alarms provide real-time monitoring and alerts, crucial for peace of mind in a bustling suburb. In the Geelong area, where property values are rising, enhanced security adds appeal and protection. Integration with apps allows remote access, so you can check on your home from anywhere. We recommend systems with local support in South Geelong for quick troubleshooting and updates.",
+        "Climate control automation is particularly beneficial in South Geelong's climate. Smart thermostats like Nest or Ecobee learn your preferences and adjust heating and cooling automatically, reducing energy waste. In Geelong, where summers can be warm and winters cool, this ensures year-round comfort. Automation can also connect to blinds or fans, optimizing natural ventilation. For South Geelong homes, this not only cuts bills but also supports sustainability goals, aligning with local environmental initiatives.",
+        "Integrating multiple systems creates a cohesive smart home experience in South Geelong. Central hubs like Amazon Alexa or Apple HomeKit connect devices, allowing unified control. In Geelong, where technology adoption is growing, this interoperability future-proofs your investment. We help South Geelong residents plan layouts that avoid signal interference and ensure reliable connectivity, essential for consistent performance. Custom scenes, such as 'morning mode' or 'away mode', tailor automation to your lifestyle.",
+        "Professional installation by a local expert like Ardour Electrical is recommended for South Geelong homes. We ensure all systems are set up safely, with proper wiring and compliance with Australian standards. In the Geelong region, our knowledge of local conditions helps optimize performance, such as protecting devices from humidity or dust. Post-installation support includes training and maintenance, so you can enjoy your automated home with confidence. Embrace the future of living in South Geelong with smart, efficient automation."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Ardour Electrical | Electrician in South Geelong | Residential & Commercial",
+      "description": "Ardour Electrical provides expert electrical services in South Geelong, VIC. From rewiring to lighting, call us for free quotes."
+    },
+    "about": {
+      "title": "About Ardour Electrical | Your Local South Geelong Electrician",
+      "description": "Learn about Ardour Electrical, a trusted electrical contractor in South Geelong with years of experience and licensed professionals."
+    },
+    "services": {
+      "title": "Electrical Services in South Geelong | Residential & Commercial",
+      "description": "Comprehensive electrical solutions for homes and businesses in South Geelong. Lighting, automation, and maintenance services."
+    },
+    "pricing": {
+      "title": "Electrical Service Costs in South Geelong | Ardour Electrical",
+      "description": "Transparent pricing for electrical services in South Geelong. Get upfront quotes with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Ardour Electrical | Free Quotes in South Geelong",
+      "description": "Get in touch with Ardour Electrical for electrical services in South Geelong. Call now for a free consultation."
+    },
+    "blog": {
+      "title": "South Geelong Electrical Blog | Tips, Guides & Costs",
+      "description": "Expert electrical advice and guides for South Geelong residents and businesses. Stay informed with our latest posts."
+    }
+  }
+}
