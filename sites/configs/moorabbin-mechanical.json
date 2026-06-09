@@ -1,0 +1,299 @@
+{
+  "siteType": "hvac",
+  "businessName": "Moorabbin Mechanical",
+  "suburb": "Moorabbin",
+  "phone": "03 9555 1234",
+  "email": "info@moorabbinmechanical.com.au",
+  "address": "1 Nellbern Road, Moorabbin VIC 3189",
+  "tagline": "Moorabbin's Trusted Mechanical Experts",
+  "primaryColor": "#FF6B00",
+  "primaryColorRgb": "255, 107, 0",
+  "primaryColorHover": "#CC5500",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Moorabbin's Go-To Mechanics",
+      "sub": "Expert auto care for all makes and models"
+    },
+    {
+      "title": "Engine, Brake & Transmission Services",
+      "sub": "Comprehensive repairs and maintenance"
+    },
+    {
+      "title": "No Job Too Small",
+      "sub": "Free quotes across Moorabbin & surrounds"
+    }
+  ],
+  "ctaHeading": "Moorabbin's mechanics are ready — let's service your vehicle.",
+  "aboutHeading": "Over a Decade of Mechanical Service in Moorabbin",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Moorabbin Mechanical has been providing top-notch car repair and maintenance services in Moorabbin for over ten years. Our team of skilled mechanics specialises in diagnostics, brake repairs, and engine servicing. We pride ourselves on honest workmanship and transparent pricing, ensuring your vehicle is in safe hands.",
+  "servicesHeading": "Our Mechanical Services",
+  "servicesSubheading": "Comprehensive car care",
+  "servicesText": "From routine oil changes to complex engine rebuilds, Moorabbin Mechanical offers a full range of automotive services. We use the latest technology and genuine parts to keep your vehicle running smoothly.",
+  "services": [
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced computer diagnostics to identify engine issues accurately.",
+      "longDesc": "Our state-of-the-art diagnostic tools pinpoint problems quickly, saving you time and money on repairs in Moorabbin.",
+      "points": [
+        "Accurate fault finding",
+        "Latest technology",
+        "Quick results"
+      ]
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Complete brake system inspections and repairs for safe driving.",
+      "longDesc": "We specialise in brake pad replacements, rotor resurfacing, and fluid checks to ensure your vehicle stops reliably in Moorabbin traffic.",
+      "points": [
+        "Enhanced safety",
+        "Quality parts",
+        "Thorough checks"
+      ]
+    },
+    {
+      "title": "Oil Changes",
+      "desc": "Regular oil and filter changes to maintain engine health.",
+      "longDesc": "Using premium oils, we keep your engine lubricated and efficient, preventing costly damage in the long run.",
+      "points": [
+        "Engine protection",
+        "Improved performance",
+        "Affordable service"
+      ]
+    },
+    {
+      "title": "Suspension Work",
+      "desc": "Suspension repairs and alignments for a smooth ride.",
+      "longDesc": "From shock absorbers to wheel alignments, we ensure your vehicle handles perfectly on Moorabbin roads.",
+      "points": [
+        "Better handling",
+        "Comfort driving",
+        "Expert alignment"
+      ]
+    },
+    {
+      "title": "Transmission Service",
+      "desc": "Transmission fluid changes and repairs for seamless gear shifts.",
+      "longDesc": "Our technicians service manual and automatic transmissions to keep your car shifting smoothly and efficiently.",
+      "points": [
+        "Smooth shifting",
+        "Prevent breakdowns",
+        "Professional care"
+      ]
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Routine checks and services to keep your vehicle in top condition.",
+      "longDesc": "We offer comprehensive maintenance packages including filter replacements, fluid top-ups, and safety inspections.",
+      "points": [
+        "Preventive care",
+        "Full vehicle check",
+        "Peace of mind"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Moorabbin?",
+  "bannerSubheading": "Reliable car repairs you can trust.",
+  "testimonialsHeading": "What Moorabbin Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Moorabbin Car Care Tips & Advice",
+  "blogSubheading": "Expert insights from our mechanics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Moorabbin Mechanical fixed my car's brake issues quickly and professionally. The team was honest about the repairs needed and the pricing was fair. Highly recommend for any auto service in Moorabbin.",
+      "name": "Dave Thompson",
+      "role": "Moorabbin Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my vehicle daily. Moorabbin Mechanical provides reliable engine diagnostics and maintenance that keeps my car running smoothly. Their service is top-notch.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've been taking my family's cars to Moorabbin Mechanical for years. They handle everything from oil changes to transmission work with expertise. Always a trustworthy experience.",
+      "name": "Michael O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Moorabbin",
+    "Clayton",
+    "Oakleigh",
+    "Cheltenham",
+    "Mentone",
+    "Bentleigh"
+  ],
+  "about": {
+    "intro": "Moorabbin Mechanical is a family-owned business dedicated to providing exceptional car repair services in Moorabbin and surrounding suburbs.",
+    "story": [
+      "Founded over a decade ago, Moorabbin Mechanical started with a simple goal: to offer reliable and affordable automotive care to the local community. Our skilled mechanics bring years of experience and a passion for cars to every job.",
+      "We believe in transparent communication and using quality parts, ensuring that each customer understands the work being done on their vehicle. From routine maintenance to complex repairs, we handle it all with professionalism.",
+      "Our workshop in Moorabbin is equipped with modern tools and technology, allowing us to service a wide range of makes and models efficiently."
+    ],
+    "mission": "To keep Moorabbin's vehicles safe and reliable with honest, expert mechanical services.",
+    "whyUs": [
+      {
+        "title": "Experienced Team",
+        "text": "Our mechanics have over 10 years of combined experience in auto repairs."
+      },
+      {
+        "title": "Honest Pricing",
+        "text": "We provide upfront quotes with no hidden fees or surprises."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use genuine and high-quality aftermarket parts for durability."
+      },
+      {
+        "title": "Customer Focus",
+        "text": "Your satisfaction is our priority, with clear communication throughout."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "3,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed Mechanics"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Warranty on work"
+    ]
+  },
+  "pricing": {
+    "intro": "At Moorabbin Mechanical, we offer competitive pricing for all our services with no lock-in contracts. Get a free quote today for your vehicle repair needs.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per service",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Safety inspection",
+          "Fluid top-up"
+        ]
+      },
+      {
+        "name": "Major Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Comprehensive engine check",
+          "Brake and suspension inspection",
+          "Full vehicle diagnostics",
+          "Service warranty"
+        ]
+      },
+      {
+        "name": "Diagnostics Package",
+        "price": "$80",
+        "unit": "per diagnosis",
+        "highlight": false,
+        "features": [
+          "Computer scan",
+          "Error code reading",
+          "Recommendation report"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden charges."
+  },
+  "contact": {
+    "intro": "Ready to service your vehicle? Contact Moorabbin Mechanical for a free quote and expert advice. We're here to help with all your car repair needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should You Service Your Car in Moorabbin?",
+      "date": "March 2026",
+      "excerpt": "Discover the recommended service intervals for your vehicle in Moorabbin's climate to ensure longevity and safety.",
+      "body": [
+        "Living in Moorabbin, with its variable weather conditions, means your car needs regular attention to stay in top shape. Most manufacturers recommend a service every 10,000 to 15,000 kilometers or every six months, whichever comes first. In Moorabbin, where temperatures can swing from hot summers to chilly winters, this interval is crucial to prevent engine wear and tear from dust and moisture.",
+        "During a basic service at Moorabbin Mechanics, we check vital components like oil levels, filters, brakes, and tyres. Moorabbin roads can be tough on suspensions, so we also inspect shocks and struts to ensure a smooth ride. Regular servicing helps catch minor issues before they become costly repairs, saving you money in the long run.",
+        "For Moorabbin residents who drive frequently in urban areas with stop-start traffic, more frequent oil changes might be necessary. Synthetic oils can last longer, but in dusty environments like Moorabbin, filters clog up faster. We recommend using high-quality filters and oils tailored to Australian conditions to maximise engine protection.",
+        "In addition to scheduled services, keep an eye on warning lights and unusual noises. Moorabbin's coastal proximity can accelerate rust and corrosion, so underbody inspections are also advised. Our team at Moorabbin Mechanical uses the latest diagnostic tools to identify any hidden problems during your service.",
+        "Don't forget about seasonal checks: before winter, ensure your battery is strong and your heating system works; in summer, check coolant levels and air conditioning. Moorabbin drivers often face flooded roads during heavy rains, so brake checks are essential for safety.",
+        "By following these service guidelines and choosing a trusted local mechanic like Moorabbin Mechanical, you can extend your vehicle's lifespan and avoid unexpected breakdowns. Contact us today to book your next service and keep your car running reliably on Moorabbin streets."
+      ]
+    },
+    {
+      "title": "Signs Your Brakes Need Replacing in Moorabbin",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that your brakes require attention, crucial for safe driving on Moorabbin's busy roads.",
+      "body": [
+        "Brakes are your vehicle's most critical safety feature, and in Moorabbin, where traffic can be hectic, knowing when they need replacing is vital. Common signs include a squealing or grinding noise when you brake, which indicates worn brake pads. If you hear this, bring your car to Moorabbin Mechanical immediately for an inspection.",
+        "Another warning sign is a vibrating brake pedal or steering wheel when braking, often caused by warped rotors. Moorabbin's stop-start traffic can exacerbate this issue, as frequent braking generates heat that affects rotor integrity. Our mechanics can resurface or replace rotors to restore smooth braking.",
+        "If your car pulls to one side when braking, it could mean uneven brake wear or a hydraulic issue. In Moorabbin, where roads can be uneven, this affects handling and safety. We check brake calipers, hoses, and fluid levels to ensure even pressure and reliable stopping power.",
+        "A soft or spongy brake pedal is a red flag, possibly indicating air in the brake lines or a fluid leak. Moorabbin's humid conditions can lead to moisture buildup in brake systems, so regular fluid flushes are recommended. We use high-quality brake fluid that meets Australian standards.",
+        "Visual inspection is also key: look through your wheel spokes to see if brake pads are less than 3mm thick. Moorabbin drivers often overlook this, but it's an easy check. If you're unsure, visit Moorabbin Mechanical for a free brake assessment.",
+        "Ignoring brake issues can lead to accidents, especially on Moorabbin's wet roads during winter. By paying attention to these signs and scheduling regular checks with us, you ensure your safety and avoid costly repairs down the line."
+      ]
+    },
+    {
+      "title": "Choosing the Right Mechanic in Moorabbin for Your Car",
+      "date": "January 2026",
+      "excerpt": "Tips for selecting a trustworthy mechanic in Moorabbin to ensure quality service and value for money.",
+      "body": [
+        "Finding a reliable mechanic in Moorabbin is essential for maintaining your vehicle's health. Start by looking for certifications like a Mechanical Repairers Licence in Victoria, which Moorabbin Mechanics proudly holds. This ensures they meet industry standards and are qualified to work on your car.",
+        "Ask for recommendations from Moorabbin locals or check online reviews for mechanics in the area. Word-of-mouth is powerful in communities like Moorabbin, and many residents trust mechanics based on personal experiences. Moorabbin Mechanical has built a reputation for honest service over the years.",
+        "Consider the range of services offered. A good mechanic should handle everything from basic maintenance to complex repairs. In Moorabbin, where cars face diverse conditions, having a mechanic skilled in diagnostics, brakes, and engine work is beneficial. Our workshop is equipped to service all makes and models.",
+        "Transparency is key: a trustworthy mechanic will explain issues clearly and provide upfront quotes. At Moorabbin Mechanics, we believe in no surprises, so you'll know the cost before any work begins. This is especially important in Moorabbin, where budgeting for car expenses is common.",
+        "Location and convenience matter too. Choose a mechanic close to your home or workplace in Moorabbin for easy drop-offs and pick-ups. Moorabbin Mechanics offers flexible hours and a comfortable waiting area, making the experience hassle-free.",
+        "Finally, check for warranties on work performed. Moorabbin Mechanics provides a guarantee on all repairs, giving you peace of mind. By choosing a local, licensed mechanic, you support the Moorabbin community and ensure your car receives the best care."
+      ]
+    },
+    {
+      "title": "Understanding Car Maintenance Costs in Moorabbin",
+      "date": "December 2025",
+      "excerpt": "A breakdown of typical car maintenance expenses in Moorabbin to help you budget effectively.",
+      "body": [
+        "Owning a car in Moorabbin involves various costs, and understanding maintenance expenses helps you plan ahead. Basic services like oil changes typically cost between $100 and $150, depending on your vehicle's make and oil type. Moorabbin Mechanics offers competitive rates with no hidden fees.",
+        "Major services, which include comprehensive checks, can range from $200 to $400. In Moorabbin, where cars may need extra attention due to road conditions, investing in regular major services prevents breakdowns. We use quality parts that last longer, reducing long-term costs.",
+        "Brake repairs are another common expense; replacing brake pads might cost $150 to $300 per axle. Moorabbin's traffic demands reliable brakes, so skimping on quality isn't advised. Moorabbin Mechanics provides detailed quotes so you know exactly what you're paying for.",
+        "Unexpected repairs, like engine or transmission work, can be pricier, often over $1,000. However, with regular maintenance from Moorabbin Mechanics, you can avoid many of these issues. Our diagnostics catch problems early, saving you money.",
+        "Factor in additional costs like tyre replacements, which vary based on brand and size, and battery replacements every few years. Moorabbin drivers should budget for seasonal checks too, such as cooling system flushes in summer and heater inspections in winter.",
+        "By choosing a local mechanic like Moorabbin Mechanics, you benefit from personalised service and honest advice tailored to Moorabbin conditions. We help you manage costs without compromising on quality, keeping your car running smoothly on a budget."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Moorabbin Mechanical | Car Repair in Moorabbin | Engine & Brake Services",
+      "description": "Trusted car repair and maintenance services in Moorabbin. Expert mechanics for engine diagnostics, brake repairs, and more. Free quotes available."
+    },
+    "about": {
+      "title": "About Moorabbin Mechanical | Your Local Car Experts",
+      "description": "Learn about Moorabbin Mechanical, a family-owned business providing reliable automotive services in Moorabbin for over a decade."
+    },
+    "services": {
+      "title": "Car Repair Services in Moorabbin | Moorabbin Mechanics",
+      "description": "Comprehensive car repair services in Moorabbin including engine diagnostics, brake repairs, oil changes, and general maintenance. Quality work guaranteed."
+    },
+    "pricing": {
+      "title": "Car Repair Costs in Moorabbin | Transparent Pricing",
+      "description": "Affordable car repair pricing in Moorabbin. Get fixed quotes for services, diagnostics, and maintenance with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Moorabbin Mechanical | Free Car Repair Quotes",
+      "description": "Get in touch with Moorabbin Mechanical for free quotes on car repairs. Located in Moorabbin, VIC. Call or email us today."
+    },
+    "blog": {
+      "title": "Moorabbin Car Care Blog | Maintenance Tips & Advice",
+      "description": "Expert advice on car maintenance, repair tips, and local insights for Moorabbin drivers. Stay informed with our latest articles."
+    }
+  }
+}
