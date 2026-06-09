@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Prowire Electrical Solutions Pty Ltd",
+  "suburb": "Epping",
+  "phone": "03 8401 4952",
+  "email": "mick@prowire.net.au",
+  "address": "13/26-38 Miller St, Epping VIC 3076",
+  "tagline": "Epping's Electrical Experts",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0055aa",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Epping's Trusted Electricians",
+      "sub": "25 Years of Electrical Excellence"
+    },
+    {
+      "title": "Residential & Commercial Wiring",
+      "sub": "Expert Installations and Repairs in Epping"
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "sub": "24/7 Support for Epping and Surrounds"
+    }
+  ],
+  "ctaHeading": "Epping Electricians Ready to Help",
+  "aboutHeading": "25 Years Electrical Excellence in Epping",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "Prowire Electrical Solutions Pty Ltd has been serving the Epping community for over 25 years with expert electrical services. Our team of licensed electricians specialises in both residential and commercial projects, ensuring safety and efficiency. From new installations to emergency repairs, we are committed to delivering reliable solutions tailored to your needs in Epping and beyond.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert Solutions for Every Need",
+  "servicesText": "At Prowire Electrical Solutions, we offer a comprehensive range of electrical services to meet the demands of Epping's homes and businesses. Our skilled electricians handle installations, upgrades, and repairs with precision, using high-quality materials and adhering to all safety standards.",
+  "services": [
+    {
+      "title": "Residential Wiring",
+      "desc": "Complete wiring solutions for homes in Epping, ensuring safe and efficient electrical systems for everyday use."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Tailored electrical services for businesses in Epping, from offices to retail spaces, optimising functionality."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard to meet current safety standards and handle increased electrical load in Epping."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Energy-efficient lighting installations for homes and commercial properties across Epping, enhancing ambiance."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety inspections to identify and fix potential hazards, keeping Epping properties safe."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency electrical repair services for urgent issues, providing prompt assistance throughout Epping."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Epping?",
+  "bannerSubheading": "Prowire Electrical Solutions is here to help with all your electrical needs.",
+  "testimonialsHeading": "What Epping Locals Say",
+  "testimonialsSubheading": "Trusted by Your Neighbours",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Our Experts",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "Prowire Electrical Solutions did an excellent job rewiring our home in Epping. Their team was professional, completed the work on time, and we highly recommend their services for any electrical project.",
+      "name": "Steve Thompson",
+      "role": "Epping Homeowner"
+    },
+    {
+      "text": "We hired Prowire for our shop's electrical upgrade in Epping. The work was top-notch, and they were very responsive to our business needs. A reliable local electrician.",
+      "name": "Karen Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Epping, I've used Prowire for multiple tenant electrical issues. They always provide efficient solutions and fair pricing, making them a trusted partner.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
