@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Frazer Air",
+  "suburb": "Thomastown",
+  "phone": "03 9000 0000",
+  "email": "info@frazerair.com.au",
+  "address": "8 Goodyear Dr, Thomastown VIC 3074",
+  "tagline": "Thomastown's Heating & Cooling Experts",
+  "primaryColor": "#1d4ed8",
+  "primaryColorRgb": "29, 78, 216",
+  "primaryColorHover": "#1e3a8a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thomastown's Trusted HVAC Experts",
+      "sub": "Keeping Thomastown comfortable all year round"
+    },
+    {
+      "title": "Heating, Cooling & Air Conditioning",
+      "sub": "Installation, repair and maintenance for homes and businesses"
+    },
+    {
+      "title": "Frazer Air — Service You Can Count On",
+      "sub": "Proudly serving Thomastown and Melbourne's north"
+    }
+  ],
+  "ctaHeading": "Thomastown's heating and cooling specialists — let's get your system sorted.",
+  "aboutHeading": "Thomastown's Heating & Cooling Specialists",
+  "aboutSubheading": "Local expertise, reliable service",
+  "aboutText": "Frazer Air has been keeping Thomastown homes and businesses comfortable with professional heating and cooling solutions. Based on Goodyear Drive in Thomastown, we specialise in split system installation, ducted heating and cooling, and gas heating across Melbourne's northern suburbs. Our licensed technicians are committed to delivering quality workmanship and honest, transparent service on every job.",
+  "servicesHeading": "Our Heating & Cooling Services",
+  "servicesSubheading": "Expert HVAC solutions for Thomastown",
+  "servicesText": "From new installations to emergency repairs, Frazer Air provides a full range of heating and cooling services for residential and commercial properties across Thomastown and surrounding suburbs.",
+  "services": [
+    {
+      "title": "Split System Installation",
+      "desc": "Expert installation of energy-efficient split system air conditioners to keep your Thomastown home cool in summer and warm in winter."
+    },
+    {
+      "title": "Ducted Heating & Cooling",
+      "desc": "Whole-home climate control with professionally installed ducted heating and cooling systems tailored to your property."
+    },
+    {
+      "title": "Gas Heating",
+      "desc": "Reliable and efficient gas heating solutions to keep your family warm through Melbourne's cold winter months."
+    },
+    {
+      "title": "Air Conditioning Repair & Service",
+      "desc": "Fast, affordable repair and regular servicing to keep your air conditioning system running at peak performance."
+    },
+    {
+      "title": "Commercial HVAC",
+      "desc": "Tailored heating and cooling solutions for Thomastown businesses, from offices to retail spaces and warehouses."
+    },
+    {
+      "title": "Emergency HVAC Repairs",
+      "desc": "Urgent heating and cooling repairs available when you need them most, minimising downtime and discomfort."
+    }
+  ],
+  "bannerHeading": "Need Heating or Cooling in Thomastown?",
+  "bannerSubheading": "Frazer Air is your local HVAC specialist — get in touch for a free quote.",
+  "testimonialsHeading": "What Thomastown Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners across Melbourne's north",
+  "blogHeading": "HVAC Tips & News",
+  "blogSubheading": "Expert advice from Frazer Air",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Frazer Air installed a new split system in our Thomastown home and the service was outstanding from start to finish. The team arrived on time, explained everything clearly, and left the place spotless. Could not be happier with the result.",
+      "name": "David Mitchell",
+      "role": "Thomastown Homeowner"
+    },
+    {
+      "text": "We had our ducted heating serviced before winter and the technician was incredibly thorough and honest about what we actually needed. Great to find a local Thomastown business you can genuinely trust.",
+      "name": "Sarah Nguyen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Frazer Air responded quickly when our air conditioning broke down in the middle of a heatwave. They had us back up and running the same day. Highly recommend their emergency repair service to anyone in the northern suburbs.",
+      "name": "James Thornton",
+      "role": "Property Manager"
+    }
+  ]
+}
