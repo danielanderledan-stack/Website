@@ -1,0 +1,301 @@
+{
+  "siteType": "landscaper",
+  "businessName": "United Home Services",
+  "suburb": "Richmond",
+  "phone": "1800 222 899",
+  "email": "info@unitedhomeservices.com.au",
+  "address": "123 Swan St, Richmond VIC 3121",
+  "tagline": "Richmond's Trusted Cleaning & Gardening Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b872",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Premier Cleaning & Gardening Service",
+      "sub": "Making life easier since 1995"
+    },
+    {
+      "title": "Home Cleaning, End of Lease & More",
+      "sub": "Professional services across Melbourne"
+    },
+    {
+      "title": "Gardening & Ironing Done Right",
+      "sub": "24/7 availability for your convenience"
+    }
+  ],
+  "ctaHeading": "Ready for a cleaner, greener Richmond? Let's get started.",
+  "aboutHeading": "25 Years Serving Richmond's Homes",
+  "aboutSubheading": "Local, reliable & thorough",
+  "aboutText": "For over 25 years, United Home Services has been Richmond's go-to for professional cleaning, gardening, and ironing. Our experienced team delivers tailored solutions to keep your home spotless and garden thriving, ensuring peace of mind for every customer.",
+  "servicesHeading": "Our Comprehensive Services",
+  "servicesSubheading": "Quality care for every corner",
+  "servicesText": "From meticulous home cleaning to expert gardening and efficient ironing, we cover all aspects of property maintenance in Richmond. Our dedicated professionals use eco-friendly products to ensure exceptional results.",
+  "services": [
+    {
+      "title": "Home Cleaning",
+      "desc": "Thorough cleaning for your entire home in Richmond.",
+      "longDesc": "Our professional home cleaning service in Richmond covers all areas, using safe products to maintain a healthy environment. We tailor our approach to your needs, ensuring every room sparkles.",
+      "points": [
+        "Tailored cleaning plans",
+        "Eco-friendly products",
+        "Trained professionals"
+      ]
+    },
+    {
+      "title": "End of Lease Cleaning",
+      "desc": "Get your full bond back with our detailed end of lease clean.",
+      "longDesc": "Specialising in end of lease cleaning in Richmond, we ensure every nook is spotless to meet real estate standards. Our comprehensive service helps you secure your bond refund hassle-free.",
+      "points": [
+        "Bond back guarantee",
+        "Deep clean specialists",
+        "Real estate approved"
+      ]
+    },
+    {
+      "title": "Window Cleaning",
+      "desc": "Crystal-clear windows for a brighter Richmond home.",
+      "longDesc": "Our window cleaning service in Richmond uses streak-free techniques to enhance your property's appearance. We handle all window types, ensuring optimal light and views.",
+      "points": [
+        "Streak-free finish",
+        "All window types",
+        "Safety assured"
+      ]
+    },
+    {
+      "title": "Carpet Cleaning",
+      "desc": "Revitalise your carpets with our deep cleaning in Richmond.",
+      "longDesc": "We offer expert carpet cleaning in Richmond, removing dirt, stains, and allergens to improve air quality. Our methods are safe for families and pets, extending carpet life.",
+      "points": [
+        "Deep stain removal",
+        "Allergen reduction",
+        "Quick drying"
+      ]
+    },
+    {
+      "title": "Gardening & Lawn Care",
+      "desc": "Keep your Richmond garden lush and well-maintained.",
+      "longDesc": "Our gardening services in Richmond include lawn mowing, pruning, and landscaping to create beautiful outdoor spaces. We adapt to seasonal needs for year-round curb appeal.",
+      "points": [
+        "Seasonal maintenance",
+        "Lawn revitalisation",
+        "Expert landscaping"
+      ]
+    },
+    {
+      "title": "Ironing Service",
+      "desc": "Convenient ironing for Richmond residents and businesses.",
+      "longDesc": "We provide efficient ironing service in Richmond, handling all fabric types with care. Our timely service ensures your clothes are crisp and ready to wear.",
+      "points": [
+        "All fabric types",
+        "Quick turnaround",
+        "Doorstep collection"
+      ]
+    }
+  ],
+  "bannerHeading": "Need Cleaning or Gardening in Richmond?",
+  "bannerSubheading": "We're here to help with professional, reliable services.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Tips for Richmond Homeowners",
+  "blogSubheading": "Expert advice on cleaning and gardening",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "United Home Services transformed my Richmond home with their thorough end of lease clean. They were punctual, professional, and ensured I got my full bond back. Highly recommend their services.",
+      "name": "Sarah Mitchell",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "The gardening team keeps my lawn in perfect shape throughout the year. Their attention to detail and friendly service make them a joy to work with. Excellent value for money.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've used their ironing service for months now, and it's been a lifesaver. Quick, reliable, and always with a smile. Perfect for busy professionals in Melbourne.",
+      "name": "Emma Lawson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Richmond",
+    "Carlton",
+    "Fitzroy",
+    "Collingwood",
+    "Hawthorn",
+    "Cremorne",
+    "Kew",
+    "South Yarra"
+  ],
+  "about": {
+    "intro": "Discover how United Home Services has been enhancing homes in Richmond for over two decades with our dedicated cleaning and gardening solutions.",
+    "story": [
+      "Founded in 1995, United Home Services started in Richmond with a simple mission to provide reliable home maintenance. Over the years, we've expanded our services to meet the growing needs of the community, always prioritising customer satisfaction.",
+      "Our team of trained professionals uses eco-friendly products and modern techniques to deliver exceptional results. We take pride in our local roots and commitment to excellence, making us Richmond's preferred choice for cleaning and gardening."
+    ],
+    "mission": "To make Richmond homes cleaner and gardens greener through dedicated, professional service.",
+    "whyUs": [
+      {
+        "title": "Experienced Team",
+        "text": "Over 25 years of expertise in cleaning and gardening services in Richmond."
+      },
+      {
+        "title": "Eco-Friendly",
+        "text": "We use safe, non-toxic products to protect your family and the environment."
+      },
+      {
+        "title": "Flexible Scheduling",
+        "text": "24/7 availability to suit your busy lifestyle in Richmond."
+      },
+      {
+        "title": "Guaranteed Satisfaction",
+        "text": "We stand by our work with a satisfaction guarantee for all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Homes Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Eco-friendly products",
+      "Satisfaction guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At United Home Services in Richmond, we offer transparent pricing with no hidden fees. Get a free quote tailored to your specific needs.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$50",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Customised plan",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Regular Cleaning Package",
+        "price": "from $120",
+        "unit": "per session",
+        "highlight": true,
+        "features": [
+          "Weekly or fortnightly service",
+          "All areas included",
+          "Flexible scheduling",
+          "Eco-friendly clean"
+        ]
+      },
+      {
+        "name": "Comprehensive Service",
+        "price": "from $250",
+        "unit": "per month",
+        "highlight": false,
+        "features": [
+          "Cleaning plus gardening",
+          "Priority booking",
+          "Dedicated team",
+          "Monthly maintenance"
+        ]
+      }
+    ],
+    "note": "All prices are fixed upfront with no surprises, ensuring peace of mind for Richmond residents."
+  },
+  "contact": {
+    "intro": "Ready to experience top-notch cleaning or gardening in Richmond? Contact us today for a free, no-obligation quote and let us take care of your home."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Professional Home Cleaning Cost in Richmond?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting home cleaning costs in Richmond, from property size to service frequency, and find the best value for your needs.",
+      "body": [
+        "In Richmond, the cost of professional home cleaning varies based on several key factors. Property size is the primary determinant, with larger homes requiring more time and resources. For a typical three-bedroom house in Richmond, expect prices to start from around $120 for a standard clean. Additional elements like the level of dirtiness, specific requests such as window cleaning or deep carpet treatment, and the frequency of service can influence the final quote.",
+        "Service frequency plays a significant role in pricing for Richmond residents. Regular weekly or fortnightly cleans often come with discounted rates compared to one-off deep cleans. For instance, a weekly cleaning package might cost less per session due to maintained upkeep. It's essential to discuss your schedule with providers to tailor a plan that suits your lifestyle and budget, ensuring consistent cleanliness without breaking the bank.",
+        "The scope of services included also impacts costs. Basic cleaning covers dusting, vacuuming, and mopping, while add-ons like ironing, gardening, or end of lease cleaning incur extra charges. In Richmond, many providers offer bundled packages that combine cleaning with other home maintenance services for better value. Always request a detailed breakdown to understand what's included and avoid unexpected expenses.",
+        "Environmental considerations are increasingly important in Richmond. Eco-friendly cleaning products may come at a slight premium but offer benefits for health and the environment. Providers using non-toxic, biodegradable solutions often highlight this as a feature, appealing to conscious homeowners. When comparing quotes, ask about product types to ensure they align with your preferences and contribute to a safer home environment.",
+        "To get the best deal in Richmond, obtain multiple quotes from reputable local services. Compare not just prices but also services included, reviews, and guarantees. Look for providers with transparent pricing and no hidden fees. Many Richmond-based companies offer free initial consultations to assess your needs and provide accurate estimates, helping you make an informed decision without commitment.",
+        "In summary, professional home cleaning costs in Richmond depend on property size, service frequency, and additional features. By understanding these factors and shopping around, you can find a reliable service that fits your budget. Investing in regular cleaning not only saves time but also maintains your home's value and comfort, making it a worthwhile expense for Richmond homeowners."
+      ]
+    },
+    {
+      "title": "Best Time for Gardening Maintenance in Melbourne's Climate",
+      "date": "February 2026",
+      "excerpt": "Learn the optimal seasons for gardening tasks in Melbourne to keep your Richmond garden thriving throughout the year.",
+      "body": [
+        "Melbourne's temperate climate presents unique opportunities and challenges for gardening in Richmond. Spring, from September to November, is ideal for planting and pruning as the weather warms up. This season sees increased rainfall, which supports new growth, but it's crucial to monitor for pests that become active. In Richmond, many homeowners schedule lawn aeration and fertilisation during this time to prepare for the summer months.",
+        "Summer in Melbourne, December to February, can be hot and dry, requiring careful water management for Richmond gardens. It's the peak season for outdoor entertaining, so maintaining a lush garden is desirable. Focus on regular watering, preferably in the early morning, and mulching to retain moisture. Pruning should be done sparingly to avoid stress on plants, and consider drought-resistant species to reduce maintenance.",
+        "Autumn, March to May, is another critical period for gardening in Richmond. As temperatures cool, it's the perfect time to plant winter vegetables and bulbs. Leaf litter can be composted to enrich the soil, and lawn care should include overseeding to repair any summer damage. Melbourne's unpredictable weather means being prepared for sudden cold snaps, so protecting vulnerable plants is advisable.",
+        "Winter, June to August, in Melbourne is mild but wet, making it suitable for structural garden work in Richmond. This season is ideal for pruning deciduous trees, building garden beds, and planning for spring. Frost can occur, so sensitive plants may need covering. It's also a good time to clean and maintain gardening tools, ensuring readiness for the busy spring season ahead.",
+        "Throughout the year, Richmond gardeners should adapt to Melbourne's variable climate by monitoring weather patterns and adjusting care routines. Using local resources like gardening clubs or professional services can provide tailored advice. Regular maintenance tasks like weeding, pest control, and soil testing should be scheduled seasonally to keep the garden healthy and productive.",
+        "In conclusion, the best time for gardening maintenance in Melbourne aligns with the seasonal changes, with spring and autumn being the busiest periods. By planning ahead and seeking professional guidance, Richmond homeowners can enjoy a beautiful, sustainable garden all year round. Investing in regular gardening services ensures expert care and saves time in the long run."
+      ]
+    },
+    {
+      "title": "End of Lease Cleaning Checklist for Richmond Tenants",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to end of lease cleaning in Richmond to ensure you secure your full bond refund.",
+      "body": [
+        "End of lease cleaning in Richmond is a critical step for tenants aiming to recover their full bond. Real estate agents have strict standards, and missing areas can lead to deductions. A thorough checklist should include all rooms, with special attention to kitchens and bathrooms where grime accumulates. Starting with a detailed plan helps ensure nothing is overlooked during the cleaning process.",
+        "The kitchen requires meticulous cleaning, including oven, stovetop, rangehood, and refrigerator. In Richmond, many properties have older appliances that may need extra effort. Descale taps, clean cabinets inside and out, and ensure all surfaces are grease-free. Don't forget the dishwasher and microwave, as these are common inspection points. Using professional-grade cleaners can make this task more efficient.",
+        "Bathrooms are another focal point in end of lease cleans. Scrub tiles, grout, and fixtures to remove soap scum and mildew. Clean the shower, bathtub, toilet, and sink thoroughly. In Richmond's older homes, mould can be an issue, so addressing it with appropriate products is essential. Mirrors and windows should be streak-free to impress during the final inspection.",
+        "Living areas and bedrooms need comprehensive attention. Dust all surfaces, including skirting boards, light fittings, and fans. Vacuum carpets and mop hard floors, paying attention to corners and under furniture. In Richmond, wooden floors may require polishing, and walls should be spot-cleaned of marks. Window cleaning, both inside and out, is often required to meet lease conditions.",
+        "Additional areas like laundry, garage, and outdoor spaces should not be neglected. In Richmond properties with gardens, maintaining the yard may be part of the lease agreement. Clean the laundry, including washing machine and dryer, and ensure outdoor areas are tidy. Some leases require professional carpet cleaning, so obtaining a certificate can be beneficial for bond claims.",
+        "To simplify the process, consider hiring a professional end of lease cleaning service in Richmond. They have the expertise and equipment to meet agent standards efficiently. Always obtain a detailed quote and ensure they offer a bond-back guarantee. Preparing in advance and communicating with your landlord can lead to a smoother exit and full bond refund, making the move-out process less stressful."
+      ]
+    },
+    {
+      "title": "Why Eco-Friendly Cleaning Products Matter for Richmond Homes",
+      "date": "December 2025",
+      "excerpt": "Discover the benefits of using eco-friendly cleaning products in your Richmond home for health and environmental impact.",
+      "body": [
+        "In Richmond, the shift towards eco-friendly cleaning products is gaining momentum as homeowners become more aware of health and environmental impacts. Traditional cleaners often contain harsh chemicals that can cause respiratory issues, skin irritation, and harm to aquatic life when washed away. Choosing green alternatives helps create a safer indoor environment for families and pets, reducing exposure to toxins.",
+        "Eco-friendly products use natural ingredients like vinegar, baking soda, and essential oils, which are effective yet gentle. In Richmond, many local suppliers offer biodegradable options that break down without polluting waterways. These products are particularly beneficial in homes with children or allergy sufferers, as they minimise the risk of adverse reactions while maintaining cleanliness.",
+        "Beyond health benefits, using green cleaning supports sustainability in Richmond. Reduced chemical runoff protects local ecosystems, including parks and waterways. Many eco-friendly brands also use recyclable packaging, further reducing plastic waste. By choosing these products, Richmond residents contribute to a cleaner community and set a positive example for future generations.",
+        "Cost considerations are often raised, but eco-friendly cleaning can be economical in the long run. Concentrated formulas mean less product is needed per use, and homemade solutions using pantry staples are affordable. In Richmond, households can save money while being environmentally conscious, making it a practical choice for budget-aware families.",
+        "To transition to eco-friendly cleaning in Richmond, start by replacing one product at a time. Read labels for certifications like 'eco-friendly' or 'non-toxic', and seek recommendations from local stores. Professional cleaning services in Richmond increasingly offer green options, so inquire when booking services to ensure your home is cleaned sustainably.",
+        "In conclusion, eco-friendly cleaning products offer numerous advantages for Richmond homes, from health improvements to environmental protection. Making the switch is a simple step towards a greener lifestyle, and with available options, it's easier than ever. Embracing these products ensures a cleaner, safer home and contributes to the well-being of the broader Richmond community."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "United Home Services | Cleaning & Gardening in Richmond",
+      "description": "Professional cleaning, gardening, and ironing services in Richmond. 25+ years of trusted experience. Get a free quote today."
+    },
+    "about": {
+      "title": "About Us | Richmond's Trusted Cleaning & Gardening Team | UHS",
+      "description": "Learn about United Home Services, Richmond's reliable provider for home cleaning, gardening, and ironing since 1995."
+    },
+    "services": {
+      "title": "Cleaning & Gardening Services in Richmond | United Home Services",
+      "description": "Explore our comprehensive cleaning and gardening services in Richmond, including end of lease, carpet cleaning, and lawn care."
+    },
+    "pricing": {
+      "title": "Cleaning & Gardening Prices Richmond | Transparent Quotes | UHS",
+      "description": "Affordable cleaning and gardening pricing in Richmond with no hidden fees. Fixed quotes for all services."
+    },
+    "contact": {
+      "title": "Contact United Home Services | Free Richmond Cleaning Quotes",
+      "description": "Get in touch for a free cleaning or gardening quote in Richmond. We respond within 24 hours."
+    },
+    "blog": {
+      "title": "Richmond Cleaning & Gardening Blog | Tips & Advice | UHS",
+      "description": "Expert advice on home cleaning, gardening, and maintenance for Richmond homeowners. Stay informed with our guides."
+    }
+  }
+}
