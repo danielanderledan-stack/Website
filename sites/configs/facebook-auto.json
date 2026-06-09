@@ -1,0 +1,256 @@
+{
+  "siteType": "builder",
+  "businessName": "Facebook Auto",
+  "suburb": "Ocean Grove",
+  "phone": "0412 345 678",
+  "email": "info@facebookauto.com.au",
+  "address": "Unit 29/39 Prosperity Dr, Ocean Grove VIC 3226",
+  "tagline": "Ocean Grove's Trusted Auto Mechanics",
+  "primaryColor": "#1877f2",
+  "primaryColorRgb": "24, 119, 242",
+  "primaryColorHover": "#1565d8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Ocean Grove's Go-To Auto Mechanics",
+      "sub": "Trusted car repair and maintenance on the Bellarine"
+    },
+    {
+      "title": "Logbook Servicing, Brakes & Diagnostics",
+      "sub": "Keeping Ocean Grove vehicles safe and reliable"
+    },
+    {
+      "title": "Open Mon–Sat, 8 am–5:30 pm",
+      "sub": "Hassle-free servicing for every make and model"
+    }
+  ],
+  "ctaHeading": "Need a mechanic in Ocean Grove? We're ready to help.",
+  "aboutHeading": "Your Local Ocean Grove Mechanics",
+  "aboutSubheading": "Trusted car care on the Bellarine Peninsula",
+  "aboutText": "Facebook Auto is Ocean Grove's dedicated car repair and maintenance service, operating from our workshop on Prosperity Drive. Our skilled mechanics specialise in logbook servicing, brake and suspension repairs, engine diagnostics, and mobile mechanical assistance for all vehicle makes and models. We proudly serve Ocean Grove, Torquay, Leopold, Drysdale, and the wider Geelong region with honest, transparent automotive care.",
+  "servicesHeading": "What We Do Under the Bonnet",
+  "servicesSubheading": "Complete auto repair and maintenance",
+  "servicesText": "From routine logbook servicing to complex engine diagnostics, Facebook Auto delivers reliable, professional car maintenance to Ocean Grove and the Bellarine Peninsula. Our workshop handles everything from brake repairs to mobile roadside assistance.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Manufacturer-standard logbook servicing that protects your new car warranty across all makes and models.",
+      "longDesc": "Keep your new car warranty intact with Facebook Auto's full logbook servicing in Ocean Grove. We follow every manufacturer requirement precisely, using quality fluids and parts for Toyota, Hyundai, Mazda, and more.",
+      "points": [
+        "Warranty-safe servicing",
+        "All vehicle makes",
+        "Quality OEM parts"
+      ]
+    },
+    {
+      "title": "Brake & Suspension Repairs",
+      "desc": "Complete brake pad replacement, disc machining, shock absorber and suspension component repairs.",
+      "longDesc": "Brake and suspension problems are serious safety risks on Ocean Grove's coastal roads. Our mechanics diagnose and repair pads, rotors, shocks, struts, and bushings using quality parts and proven methods.",
+      "points": [
+        "Safety-critical expertise",
+        "Quality brake parts",
+        "Full suspension checks"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced computer diagnostics to accurately identify engine faults, warning lights, and performance issues.",
+      "longDesc": "Dashboard warning lights and rough running demand expert diagnosis. Facebook Auto uses modern scan tools to pinpoint engine faults in Ocean Grove, delivering accurate repairs without unnecessary guesswork or expense.",
+      "points": [
+        "Advanced scan tools",
+        "Accurate fault-finding",
+        "No unnecessary costs"
+      ]
+    },
+    {
+      "title": "Mobile Mechanic Service",
+      "desc": "We come to your home or workplace in Ocean Grove and surrounds for convenient on-site car servicing.",
+      "longDesc": "Can't make it to the workshop? Our mobile mechanic brings professional car servicing directly to your Ocean Grove driveway or office car park. Ideal for logbook services, battery replacements, and minor repairs.",
+      "points": [
+        "We come to you",
+        "Same-day availability",
+        "Fully equipped service"
+      ]
+    },
+    {
+      "title": "Pre-Purchase Inspections",
+      "desc": "Thorough mechanical inspections before you buy, giving Ocean Grove buyers confidence and peace of mind.",
+      "longDesc": "Buying a used car on the Bellarine? Our comprehensive pre-purchase inspections cover engine, driveline, brakes, suspension, body condition, and fluid analysis. Get a detailed written report before you commit.",
+      "points": [
+        "Detailed written report",
+        "Honest independent advice",
+        "Full mechanical check"
+      ]
+    },
+    {
+      "title": "Auto Electrical Repairs",
+      "desc": "Battery testing, alternator repairs, starter motor replacement, and wiring fault diagnosis.",
+      "longDesc": "Electrical gremlins can leave you stranded. Facebook Auto diagnoses and repairs batteries, alternators, starters, and wiring faults in Ocean Grove, getting your vehicle's electrical system back to full reliability.",
+      "points": [
+        "Battery and charging tests",
+        "Wiring fault diagnosis",
+        "All vehicle electrical"
+      ]
+    }
+  ],
+  "bannerHeading": "Your Ocean Grove Auto Mechanics",
+  "bannerSubheading": "Professional car repair and maintenance on the Bellarine Peninsula",
+  "testimonialsHeading": "What Ocean Grove Drivers Say",
+  "testimonialsSubheading": "Honest service, fair prices",
+  "blogHeading": "Ocean Grove Auto Tips & Advice",
+  "blogSubheading": "Local mechanical knowledge for Bellarine drivers",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call or visit us at our Ocean Grove workshop",
+  "reviews": [
+    {
+      "text": "The team at Facebook Auto did a full logbook service on my Toyota Camry and it was seamless. They explained everything clearly, the price was fair, and my car drives beautifully. Highly recommend them to anyone in Ocean Grove needing a reliable mechanic.",
+      "name": "Dave Mitchell",
+      "role": "Ocean Grove Homeowner"
+    },
+    {
+      "text": "I run a small business here on the Bellarine and rely on our van daily. Facebook Auto keeps our fleet in top shape with regular servicing and quick brake repairs. They understand how important uptime is for local business owners.",
+      "name": "Karen Wallace",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their mobile mechanic service saved me when my car wouldn't start on a Monday morning. They came straight to my place in Ocean Grove, replaced the starter motor, and I was back on the road by lunch. Brilliant service.",
+      "name": "James Nguyen",
+      "role": "Ocean Grove Resident"
+    }
+  ],
+  "serviceAreas": [
+    "Ocean Grove",
+    "Torquay",
+    "Leopold",
+    "Drysdale",
+    "Portarlington",
+    "Clifton Springs",
+    "Wallington",
+    "Marcus Hill"
+  ],
+  "pricing": {
+    "intro": "At Facebook Auto in Ocean Grove, every job starts with a clear, upfront quote. No surprises, no hidden fees — just honest pricing for quality car repair and maintenance.",
+    "packages": [
+      {
+        "name": "Diagnostic Assessment",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Comprehensive vehicle inspection",
+          "Advanced computer diagnostics",
+          "Upfront repair quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Logbook Service",
+        "price": "from $149",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Manufacturer-standard service",
+          "All fluids and filters replaced",
+          "Multi-point safety check",
+          "Warranty-preserving documentation"
+        ]
+      },
+      {
+        "name": "Major Mechanical Repair",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full diagnostic and repair",
+          "Quality parts and fluids",
+          "Detailed written report",
+          "Workmanship warranty included"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided before any work begins — no surprises at pickup."
+  },
+  "contact": {
+    "intro": "Ready to book your car in for servicing or repair? Contact Facebook Auto in Ocean Grove today for a free, no-obligation quote. We're open Monday to Saturday, 8 am to 5:30 pm."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Car Brake Repair Cost in Ocean Grove?",
+      "date": "March 2026",
+      "excerpt": "Discover what brake repairs typically cost in Ocean Grove, the factors that affect pricing, and when you should get your brakes inspected by a local mechanic.",
+      "body": [
+        "If you live in Ocean Grove and have noticed squealing, grinding, or a soft brake pedal, you are probably wondering what brake repairs are going to cost you. At Facebook Auto, we see brake-related issues every week at our Prosperity Drive workshop, and the price can vary quite significantly depending on the extent of the wear and the parts involved. On the Bellarine Peninsula, where coastal humidity and salt air accelerate corrosion, brake components can deteriorate faster than in many inland areas, making regular inspection especially important for Ocean Grove vehicle owners.",
+        "For a basic front brake pad replacement on a standard passenger vehicle, most Ocean Grove mechanics will charge between $200 and $350 per axle. This typically includes new pads, brake cleaner, and labour. If your brake discs or rotors are scored or warped and need machining or replacement, you are looking at an additional $150 to $300 per disc. At Facebook Auto, we always measure disc thickness before recommending replacement, because sometimes a simple machine is all that is needed to restore safe braking performance for your Ocean Grove commute.",
+        "Rear brakes on many modern vehicles use a drum-and-shoe setup rather than disc brakes, which can affect pricing. Rear drum brake servicing in Ocean Grove generally costs between $180 and $300 per side, including new shoes, hardware, and cylinder inspection if applicable. Vehicles with electronic parking brakes may incur additional labour costs because the system needs to be placed into service mode before work can begin. Our Ocean Grove workshop has the diagnostic equipment to handle these modern brake systems correctly.",
+        "Several factors influence the final cost of brake repairs in Ocean Grove. The make and model of your vehicle matters — European cars like BMW and Volkswagen often use proprietary brake components that cost more than standard Japanese or Korean parts. Driving habits play a role too; if you frequently drive along the Great Ocean Road or commute through Geelong stop-start traffic, your brakes will wear faster. The age and condition of other suspension components can also affect brake performance and may need attention at the same time.",
+        "Ocean Grove drivers should have their brakes inspected at least every 12 months or 20,000 kilometres, whichever comes first. On the Bellarine, the combination of coastal moisture, gravel roads in surrounding areas like Marcus Hill and Wallington, and hilly terrain means your brakes work harder than you might think. At Facebook Auto, we offer a complimentary brake inspection as part of every logbook service, so you can catch problems early before they become expensive safety hazards on the road.",
+        "When choosing a mechanic for brake repairs in Ocean Grove, look for transparent pricing, quality parts, and a clear warranty on workmanship. At Facebook Auto, we provide a written quote before starting any brake work, so you know exactly what you are paying. We use quality aftermarket or OEM-equivalent parts and stand behind every brake job with our workmanship guarantee. If your brakes are making noise or feeling spongy, call our Ocean Grove workshop today on 0412 345 678 for honest advice and competitive pricing."
+      ]
+    },
+    {
+      "title": "Logbook Servicing Explained: Why Ocean Grove New Car Owners Need It",
+      "date": "February 2026",
+      "excerpt": "Learn why logbook servicing is essential for new car owners in Ocean Grove, how it protects your warranty, and what a proper service includes.",
+      "body": [
+        "Buying a new car is a significant investment, and protecting that investment through proper logbook servicing is one of the smartest things an Ocean Grove vehicle owner can do. Many new car owners do not realise that skipping scheduled logbook services or having them done by a non-authorised workshop can void their manufacturer warranty. At Facebook Auto in Ocean Grove, we perform fully compliant logbook servicing that keeps your warranty intact while often costing less than dealership prices.",
+        "A logbook service follows the exact maintenance schedule outlined in your vehicle's manufacturer logbook. Each service interval specifies which fluids, filters, and components need to be checked, replaced, or serviced. For most modern vehicles sold in Australia, the first logbook service falls at either 1,000 kilometres or six months, with subsequent services typically every six months or 10,000 to 15,000 kilometres. In Ocean Grove, where daily driving often involves coastal roads and variable conditions, adhering to these intervals is critical for vehicle longevity.",
+        "Under Australian Consumer Law, you are not required to have logbook servicing performed at a dealership to maintain your warranty. As long as the service is completed by a qualified mechanic using manufacturer-specified parts and fluids, the warranty remains valid. This is excellent news for Ocean Grove car owners, because workshops like Facebook Auto can deliver dealership-standard logbook servicing at competitive prices. We use quality fluids and parts that meet or exceed manufacturer specifications for every vehicle we service.",
+        "During a typical logbook service at our Ocean Grove workshop, our mechanics perform a comprehensive multi-point inspection. This includes engine oil and filter replacement, brake fluid check and top-up, coolant system inspection, tyre pressure and tread depth assessment, battery testing, steering and suspension check, drive belt inspection, and a full under-vehicle safety inspection. We also reset your vehicle's service indicator and stamp your logbook to confirm the service has been completed to manufacturer standards.",
+        "Ocean Grove new car owners often ask whether dealership servicing is really necessary. The short answer is no — as long as the work is done correctly and documented properly. What matters is that the service follows the manufacturer's schedule exactly, uses the correct grade of oil and approved filter types, and is performed by a suitably qualified mechanic. At Facebook Auto, we keep detailed records of every logbook service we perform in Ocean Grove, providing you with documentation that satisfies any warranty claim.",
+        "If you have recently purchased a new vehicle in the Geelong or Bellarine region and need your first or next logbook service, bring it to Facebook Auto in Ocean Grove. We are located at Unit 29, 39 Prosperity Drive, and we are open Monday to Saturday from 8 am to 5:30 pm. Our team will service your vehicle to the highest standard, stamp your logbook, and save you money compared to dealership pricing. Call us today on 0412 345 678 to book your next logbook service in Ocean Grove."
+      ]
+    },
+    {
+      "title": "Ocean Grove Mobile Mechanic: Servicing Your Car at Home or Work",
+      "date": "January 2026",
+      "excerpt": "Find out how Ocean Grove's mobile mechanic service from Facebook Auto brings professional car servicing to your driveway or workplace.",
+      "body": [
+        "Life in Ocean Grove moves at its own pace, and sometimes getting your car to a workshop just does not fit into the schedule. That is exactly why Facebook Auto offers a fully equipped mobile mechanic service across Ocean Grove and the surrounding Bellarine Peninsula. Whether your vehicle is parked at home, at your workplace, or even at the local shops, our mobile mechanic can perform a wide range of car repair and maintenance services right where your vehicle is sitting.",
+        "Our mobile mechanic unit carries the essential tools, fluids, and parts needed for most common automotive services. Logbook servicing, oil and filter changes, battery replacements, brake inspections, minor electrical repairs, and pre-purchase inspections can all be completed at your Ocean Grove location. For more complex repairs involving heavy equipment or lifts, we will arrange to have your vehicle transported to our Prosperity Drive workshop, where our full facility is available to handle the job efficiently.",
+        "The mobile mechanic service is particularly popular among Ocean Grove's busy families, working professionals, and elderly residents who may find it difficult to arrange alternative transport. Instead of spending half a day waiting at a workshop, you can go about your routine while our mechanic services your vehicle in the driveway. We typically complete a standard logbook service at your Ocean Grove location in about ninety minutes, and we will call you before starting any additional work that was not originally discussed.",
+        "Coastal living in Ocean Grove does come with some unique challenges for vehicle maintenance. Salt air from Bass Strait accelerates corrosion on underbody components, brake lines, and battery terminals. Our mobile mechanic can perform a quick underbody assessment and battery health check at your Ocean Grove home, identifying corrosion issues early before they lead to expensive repairs. This is especially valuable for vehicles that are parked outdoors or near the beach, which is common throughout the Ocean Grove area.",
+        "Booking Facebook Auto's mobile mechanic service in Ocean Grove is straightforward. Simply call our workshop on 0412 345 678, describe what your vehicle needs, and we will schedule a time that suits you. We cover Ocean Grove, Torquay, Leopold, Drysdale, Portarlington, and surrounding Bellarine communities. A small call-out fee may apply depending on your location, but this is always confirmed upfront before we arrive. Most mobile service appointments in Ocean Grove can be arranged within one to two business days.",
+        "When you choose Facebook Auto's mobile mechanic in Ocean Grove, you get the same quality workmanship and professional service as you would in our workshop — just delivered to your door. We carry manufacturer-compliant fluids and quality parts, and every mobile service includes the same workmanship guarantee as our in-shop work. If you need car servicing in Ocean Grove without the hassle of dropping off your vehicle, our mobile mechanic is the convenient solution. Call today to book your mobile service appointment."
+      ]
+    },
+    {
+      "title": "Buying a Used Car on the Bellarine? Get a Pre-Purchase Inspection in Ocean Grove",
+      "date": "December 2025",
+      "excerpt": "Before buying a used car in Ocean Grove or the Bellarine Peninsula, learn why a pre-purchase inspection can save you thousands in unexpected repairs.",
+      "body": [
+        "Purchasing a used car is one of the biggest financial decisions many Ocean Grove residents make, yet it is also one of the most risky without a professional mechanical inspection. Whether you are browsing private sales in Ocean Grove, Torquay, or Geelong, or looking at dealership stock on the Bellarine Peninsula, a pre-purchase inspection from Facebook Auto can uncover hidden problems that are invisible to the untrained eye. Spending a small amount on an inspection now can save you thousands in unexpected repairs down the track.",
+        "A comprehensive pre-purchase inspection at our Ocean Grove workshop examines every major system in the vehicle. Our mechanics assess the engine and driveline for leaks, unusual noises, and performance issues. We check the transmission operation, clutch condition, and differential integrity. The brake system, steering components, and suspension are thoroughly tested for wear and safety. We also inspect the body structure for accident damage, rust, and panel alignment, which is particularly relevant for vehicles that have spent time in Ocean Grove's salt-air coastal environment.",
+        "Coastal towns like Ocean Grove present specific challenges when buying used cars. Vehicles that have been garage-kept in dry conditions tend to fare better than those parked outdoors near the coast, where salt spray accelerates underbody corrosion and brake line deterioration. During a pre-purchase inspection, our Ocean Grove mechanics pay close attention to brake line condition, suspension bushings, wheel bearings, and chassis rail integrity. These components can corrode significantly in coastal environments, and replacement costs can be surprisingly high.",
+        "The inspection process at Facebook Auto typically takes between one and two hours, depending on the vehicle's age and condition. We use diagnostic scan tools to check for stored fault codes in the engine, transmission, and safety systems. We measure brake disc thickness and tyre tread depth, check all fluid levels and condition, test the battery and charging system, and inspect all lights, glass, and interior components. You receive a detailed written report that clearly outlines any issues found, ranked by urgency and estimated repair cost.",
+        "Many Ocean Grove buyers ask whether a pre-purchase inspection is really necessary if the car looks clean and runs well. The answer is almost always yes. Cosmetic condition tells you very little about mechanical health. A freshly detailed engine bay can hide oil leaks, and a smooth test drive at sixty kilometres per hour may not reveal a worn clutch or a failing wheel bearing that only shows up under heavy braking. The small investment in a professional inspection at our Ocean Grove workshop provides genuine peace of mind.",
+        "If you are considering purchasing a used car on the Bellarine Peninsula, book a pre-purchase inspection with Facebook Auto before you commit. We are located at Unit 29, 39 Prosperity Drive, Ocean Grove, and we offer flexible appointment times to suit your schedule. Our detailed written report gives you negotiating power and helps you make an informed decision. Call us on 0412 345 678 to schedule your pre-purchase inspection in Ocean Grove, and drive away with confidence knowing exactly what you are buying."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Facebook Auto | Mechanic in Ocean Grove | Car Repairs",
+      "description": "Facebook Auto is Ocean Grove's trusted car repair and maintenance service. Logbook servicing, brakes, diagnostics & mobile mechanic on the Bellarine Peninsula."
+    },
+    "about": {
+      "title": "About Facebook Auto | Ocean Grove's Local Mechanics",
+      "description": "Learn about Facebook Auto, Ocean Grove's dedicated car repair and maintenance workshop on Prosperity Drive, serving the Bellarine Peninsula with trusted service."
+    },
+    "services": {
+      "title": "Car Repair Services in Ocean Grove | Facebook Auto",
+      "description": "Professional logbook servicing, brake repairs, engine diagnostics, mobile mechanic & pre-purchase inspections in Ocean Grove and the Bellarine Peninsula."
+    },
+    "pricing": {
+      "title": "Car Servicing Prices Ocean Grove | Facebook Auto",
+      "description": "Transparent, upfront pricing for car servicing and repairs in Ocean Grove. From $110 diagnostics to full logbook services. No hidden fees, no surprises."
+    },
+    "contact": {
+      "title": "Contact Facebook Auto | Ocean Grove Mechanic",
+      "description": "Contact Facebook Auto for car repair and maintenance in Ocean Grove. Call 0412 345 678 or visit Unit 29, 39 Prosperity Dr, Ocean Grove VIC 3226. Open Mon–Sat."
+    },
+    "blog": {
+      "title": "Auto Tips & Car Care Blog | Facebook Auto Ocean Grove",
+      "description": "Expert car maintenance advice for Ocean Grove and Bellarine drivers. Learn about brake repairs, logbook servicing, mobile mechanics, and vehicle care tips."
+    }
+  }
+}
