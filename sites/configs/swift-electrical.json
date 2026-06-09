@@ -1,0 +1,296 @@
+{
+  "siteType": "electrician",
+  "businessName": "Swift Electrical",
+  "suburb": "Port Fairy",
+  "phone": "03 5561 1014",
+  "email": "admin@swiftelectrical.com.au",
+  "address": "226 Hamilton-Port Fairy Rd, Port Fairy VIC 3284",
+  "tagline": "Port Fairy's 24/7 Electricians",
+  "primaryColor": "#00D4FF",
+  "primaryColorRgb": "0, 212, 255",
+  "primaryColorHover": "#00B8E6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Port Fairy's Trusted 24/7 Electricians",
+      "sub": "Reliable electrical solutions, day or night"
+    },
+    {
+      "title": "Residential, Commercial & Emergency",
+      "sub": "From new builds to urgent fault finding"
+    },
+    {
+      "title": "No Job Too Urgent or Complex",
+      "sub": "Serving Port Fairy & the Western District"
+    }
+  ],
+  "ctaHeading": "Swift Electrical is ready to solve your Port Fairy power problems.",
+  "aboutHeading": "Port Fairy's Dedicated Electricians",
+  "aboutSubheading": "Local, licensed & available 24/7",
+  "aboutText": "Swift Electrical has been proudly serving the Port Fairy community and surrounding Western District regions for over 15 years. As your local, licensed electrical contractors, we specialise in providing prompt, professional service for homes, farms, and businesses. From urgent emergency callouts to complete rewiring projects, our team delivers safe, compliant, and high-quality electrical work with the reliability Port Fairy residents depend on.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Powering Port Fairy safely",
+  "servicesText": "Swift Electrical provides a full suite of electrical services tailored to Port Fairy's unique coastal and rural properties. Our licensed electricians handle everything from routine maintenance and safety checks to complex installations and 24/7 emergency repairs.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Comprehensive home electrical services for Port Fairy houses, from safety inspections to new wiring.",
+      "longDesc": "We provide Port Fairy homeowners with complete residential electrical solutions, including switchboard upgrades, power point installation, and full home rewiring for older properties. Our work complies with all Victorian safety standards.",
+      "points": [
+        "Home safety inspections",
+        "Switchboard upgrades",
+        "Light & power fixes"
+      ]
+    },
+    {
+      "title": "Commercial & Industrial",
+      "desc": "Keeping Port Fairy businesses running with reliable electrical maintenance and installations.",
+      "longDesc": "Swift Electrical supports Port Fairy's commercial and industrial facilities with planned maintenance, three-phase power setups, and energy-efficient lighting upgrades to reduce operational costs and ensure safety compliance.",
+      "points": [
+        "Energy-efficient solutions",
+        "Data & comms cabling",
+        "Scheduled maintenance"
+      ]
+    },
+    {
+      "title": "24/7 Emergency Services",
+      "desc": "Immediate response for electrical emergencies across Port Fairy and surrounds, any time of day.",
+      "longDesc": "Electrical emergencies don't wait, and neither do we. Swift Electrical offers a true 24-hour emergency service for Port Fairy homes and businesses, providing rapid fault diagnosis and repair to restore safety and power.",
+      "points": [
+        "Rapid response times",
+        "After-hours availability",
+        "Safety-first approach"
+      ]
+    },
+    {
+      "title": "Switchboard & Safety",
+      "desc": "Essential switchboard upgrades and safety switch installations for Port Fairy properties.",
+      "longDesc": "Protect your Port Fairy property with modern switchboard upgrades and mandatory safety switch (RCD) installations. We ensure your electrical system meets current Australian standards, crucial for coastal homes.",
+      "points": [
+        "Mandatory RCD protection",
+        "Current compliance",
+        "Surge protection setup"
+      ]
+    },
+    {
+      "title": "Lighting & Design",
+      "desc": "Expert lighting installation and design for Port Fairy homes, gardens, and commercial spaces.",
+      "longDesc": "Enhance your Port Fairy property with professional lighting design and installation. We specialise in energy-efficient LED upgrades, feature lighting, outdoor security lighting, and garden lighting tailored to the local environment.",
+      "points": [
+        "LED energy savings",
+        "Indoor & outdoor design",
+        "Security lighting"
+      ]
+    },
+    {
+      "title": "Data & Cabling",
+      "desc": "Structured data cabling and network installations for homes and businesses in Port Fairy.",
+      "longDesc": "Swift Electrical installs high-quality structured cabling for reliable internet and communications in Port Fairy. From home office setups to complete commercial data networks, we ensure seamless connectivity.",
+      "points": [
+        "NBN-ready cabling",
+        "Home office setups",
+        "Commercial networks"
+      ]
+    }
+  ],
+  "bannerHeading": "Port Fairy Electricians You Can Trust",
+  "bannerSubheading": "Call anytime for a free, no-obligation quote.",
+  "testimonialsHeading": "What Port Fairy Says About Us",
+  "testimonialsSubheading": "Dependable service, honest advice",
+  "blogHeading": "Port Fairy Electrical Advice & Tips",
+  "blogSubheading": "Keeping our community safe & informed",
+  "contactHeading": "Get Your Port Fairy Electrical Quote",
+  "contactSubheading": "We respond fast, 24/7",
+  "reviews": [
+    {
+      "text": "Swift Electrical responded quickly when our switchboard failed at our Port Fairy shop. The electrician was professional, explained everything clearly, and had us back up and running safely in no time. Highly recommend their emergency service.",
+      "name": "Dave Henderson",
+      "role": "Port Fairy Business Owner"
+    },
+    {
+      "text": "We used Swift Electrical to upgrade all the lighting in our heritage Port Fairy home to LED. They were fantastic – tidy, knowledgeable about heritage considerations, and the result has transformed our rooms while cutting our power bill.",
+      "name": "Sarah & Mark Coleman",
+      "role": "Port Fairy Homeowner"
+    },
+    {
+      "text": "As a property manager in the region, I rely on Swift Electrical for all our Port Fairy rental inspections and repairs. They are consistently reliable, provide clear quotes, and their 24/7 availability is invaluable for urgent tenant issues.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Port Fairy",
+    "Warrnambool",
+    "Koroit",
+    "Killarney",
+    "Tower Hill",
+    "Moyne",
+    "Framlingham"
+  ],
+  "about": {
+    "intro": "Swift Electrical is Port Fairy's dedicated, locally owned electrical contractor, providing reliable 24/7 service for residential, commercial, and emergency needs.",
+    "story": [
+      "Founded over 15 years ago, Swift Electrical was built on the principles of honest workmanship and exceptional reliability for the Port Fairy community. Our founders saw a need for an electrician who could truly be there whenever they were needed, which is why we offer a genuine 24-hour emergency callout service across the Western District.",
+      "Today, our team of licensed electricians lives and works right here in the region. We understand the specific needs of Port Fairy's properties, from maintaining the wiring in historic cottages to equipping modern farms and coastal homes with safe, efficient electrical systems. Our commitment is to deliver safe, compliant solutions with the friendly, straightforward service you expect from a local business."
+    ],
+    "mission": "To provide Port Fairy and the Western District with safe, reliable electrical solutions, delivered with integrity and available whenever you need us.",
+    "whyUs": [
+      {
+        "title": "24/7 Availability",
+        "text": "True around-the-clock emergency service for Port Fairy when you need it most."
+      },
+      {
+        "title": "Local & Licensed",
+        "text": "Fully licensed electricians who live and work in the Port Fairy region."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Clear, upfront quotes before any work begins, no hidden surprises."
+      },
+      {
+        "title": "Quality Guarantee",
+        "text": "We stand behind all our work with a comprehensive service guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years in Port Fairy"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Service"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Master Electricians Member",
+      "Fully Licensed & Insured",
+      "24/7 Emergency Callout",
+      "Workmanship Guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Swift Electrical, we provide upfront, honest pricing for all our Port Fairy electrical services. No job is too small, and we'll always give you a fixed quote before starting.",
+    "packages": [
+      {
+        "name": "Diagnostic & Quote",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site fault diagnosis",
+          "Fixed price quote provided",
+          "No-obligation assessment"
+        ]
+      },
+      {
+        "name": "Standard Residential Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Labour & materials included",
+          "Compliance certificate issued",
+          "Tidy & professional work",
+          "Guaranteed for 12 months"
+        ]
+      },
+      {
+        "name": "Complex & Commercial",
+        "price": "Custom Quote",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Detailed project planning",
+          "Tailored solutions",
+          "Phased installation available",
+          "Ongoing maintenance options"
+        ]
+      }
+    ],
+    "note": "All quotes for Port Fairy jobs are fixed and provided upfront, so you know the cost before we begin."
+  },
+  "contact": {
+    "intro": "Need a reliable Port Fairy electrician? Contact Swift Electrical today for a free, no-obligation quote on any residential or commercial electrical job."
+  },
+  "blogPosts": [
+    {
+      "title": "Electrical Safety Checks: Why Port Fairy Homes Need Them",
+      "date": "April 2026",
+      "excerpt": "Learn why regular electrical safety inspections are crucial for Port Fairy properties, especially given the coastal climate and aging housing stock.",
+      "body": [
+        "Port Fairy is renowned for its beautiful historic streetscapes and charming cottages, but many of these homes contain aging electrical wiring that poses significant safety risks. Over time, insulation degrades, connections can loosen, and older switchboards may lack essential modern safety features like safety switches (RCDs). For Port Fairy homeowners, a professional electrical safety check isn't just a recommendation; it's a critical step in preventing electrical fires and ensuring the safety of your family and belongings.",
+        "The unique coastal environment of Port Fairy also presents specific challenges. Salt-laden air can accelerate the corrosion of electrical components, particularly in outdoor installations, meter boxes, and coastal properties. A licensed electrician from Swift Electrical will inspect your entire system, identifying signs of corrosion, wear, and non-compliance with current Australian standards that untrained eyes might miss. This is especially important for rental properties to meet Victorian legislation.",
+        "During a comprehensive safety check at your Port Fairy home, our electricians will thoroughly test your switchboard, power outlets, light fittings, and wiring circuits. We look for overloaded circuits, faulty wiring, and the absence of mandatory RCD protection. We also check outdoor lighting and power to ensure they are safely installed for the garden and coastal conditions. The process is non-invasive and provides you with a detailed report on the health of your electrical system.",
+        "Based on our inspection findings at your Port Fairy property, we provide a clear, prioritised report of any recommended repairs or upgrades. We explain the issues in plain English, outlining the safety benefits and compliance requirements of each recommendation. There is never any pressure to proceed, but addressing critical issues promptly is vital for maintaining a safe living environment in your home.",
+        "The cost of an electrical safety check in Port Fairy is a small investment compared to the potential risks of an undetected fault. Regular inspections, recommended every 5-10 years or after purchasing a property, can identify problems early, saving you money and safeguarding your home. Swift Electrical offers straightforward pricing for these essential inspections, providing peace of mind for Port Fairy residents."
+      ]
+    },
+    {
+      "title": "How Much Does It Cost to Upgrade a Switchboard in Port Fairy?",
+      "date": "March 2026",
+      "excerpt": "A detailed breakdown of switchboard upgrade costs in Port Fairy, factors affecting price, and why it's a vital safety investment for your home.",
+      "body": [
+        "Upgrading the switchboard is one of the most important electrical safety improvements you can make for your Port Fairy home. Older ceramic or mercury-type switchboards, common in many of the area's historic properties, do not offer modern circuit protection and lack safety switches. A switchboard upgrade replaces this outdated equipment with a modern enclosure fitted with circuit breakers and mandatory RCDs, drastically reducing the risk of electrocution and fire.",
+        "For a standard Port Fairy residential switchboard upgrade, the cost typically ranges from $800 to $2,500. This price includes the new switchboard enclosure, circuit breakers, safety switches (RCDs) for all circuits, all labour, and the necessary compliance certificate. The final cost for your Port Fairy home depends on several factors, including the complexity of the existing wiring, the number of circuits in your house, and the condition of the wiring leading to the switchboard.",
+        "The primary driver of cost is the number of circuits that require protection. A basic upgrade might cover the main power and lighting circuits, but a thorough job for a Port Fairy home includes protecting dedicated power circuits for ovens, air conditioners, and hot water systems individually. If your existing wiring is found to be substandard during the upgrade process, additional work to bring it up to scratch may be required, which will affect the final quote.",
+        "Choosing a licensed electrician for your Port Fairy switchboard upgrade is non-negotiable. This is not a job for a handyman. Swift Electrical ensures the new switchboard is installed to current Australian Standards (AS/NZS 3000) and handles all the necessary notifications and certificates required by your energy provider and local council. We source reliable, durable equipment suited to withstand Port Fairy's coastal conditions.",
+        "While the upfront cost is a consideration, think of a switchboard upgrade as protecting your entire Port Fairy investment. Insurance companies may require evidence of an up-to-date switchboard, and it is often a mandatory requirement when selling a property. More importantly, it provides critical protection for your family. We provide detailed, fixed-price quotes for all Port Fairy switchboard upgrades so you know exactly what the safety improvement entails."
+      ]
+    },
+    {
+      "title": "The Best Outdoor Lighting Solutions for Port Fairy Coastal Homes",
+      "date": "February 2026",
+      "excerpt": "Discover durable, stylish outdoor lighting options perfect for Port Fairy's coastal climate, enhancing safety and beauty around your property.",
+      "body": [
+        "Port Fairy's stunning coastal location and temperate climate make outdoor living a joy for much of the year. However, choosing outdoor lighting requires careful consideration to withstand the region's specific environmental factors. Salt spray, high humidity, and strong UV exposure can quickly degrade inferior fixtures. For Port Fairy homes, selecting the right outdoor lighting is about achieving a balance between aesthetics, durability, and functionality.",
+        "For security and safety around your Port Fairy property, robust wall-mounted LED floodlights with motion sensors are an excellent investment. We recommend fixtures with a high IP (Ingress Protection) rating, such as IP65 or higher, to ensure they are completely sealed against dust and moisture. These lights should be positioned to illuminate driveways, pathways, and entry points, deterring intruders and preventing trips and falls in the dark.",
+        "Accent and garden lighting can dramatically enhance the nighttime appeal of your Port Fairy home, highlighting architectural features or beautiful coastal gardens. LED spike spotlights are ideal for illuminating trees and garden beds, while low-profile deck lights can create a safe, inviting atmosphere on outdoor entertaining areas. For heritage properties, choose styles that complement the era of the home while providing modern, efficient illumination.",
+        "All outdoor electrical work in Port Fairy must be performed by a licensed electrician to ensure compliance with stringent safety standards. Proper installation involves using appropriate outdoor-rated cabling, ensuring correct earthing, and often installing dedicated safety switches for outdoor circuits. Swift Electrical understands these requirements and ensures your Port Fairy outdoor lighting installation is safe, compliant, and built to last in the marine environment.",
+        "When planning your outdoor lighting in Port Fairy, consider both your immediate needs and future flexibility. Installing a slightly larger conduit than currently needed can allow for easy expansion later. We can help you design a comprehensive outdoor lighting plan for your Port Fairy property that enhances security, showcases your home, and is engineered to withstand the beautiful but demanding coastal conditions."
+      ]
+    },
+    {
+      "title": "Preparing Your Port Fairy Home's Electrical System for Summer",
+      "date": "January 2026",
+      "excerpt": "Get your Port Fairy home ready for the warmer months with essential electrical maintenance tips to prevent overloads and ensure safety.",
+      "body": [
+        "As summer arrives in Port Fairy, the increased use of air conditioners, fans, pool pumps, and outdoor entertaining equipment places a higher demand on your home's electrical system. Taking proactive steps now can prevent inconvenient overloads, circuit breaker trips, and potential safety hazards. A pre-summer electrical check by Swift Electrical helps ensure your Port Fairy home is safe and ready for the season.",
+        "The first step is to assess your switchboard's capacity. If you've added significant appliances in recent years, your circuits may be nearing their load limit. Our Port Fairy electricians can conduct a load assessment, identifying if your main switch and wiring are sufficient to handle peak summer demand. Upgrading to a modern switchboard with RCD protection is often the best long-term solution for safety and reliability.",
+        "Air conditioning units are a major power draw. Ensure the dedicated circuit for your Port Fairy home's air conditioner is in good condition and not sharing power with other high-draw appliances. We recommend having the unit serviced annually, which includes checking its electrical connections. Also, inspect outdoor units for any debris or plant growth that could impede airflow and efficiency.",
+        "Summer is the perfect time to inspect and test all outdoor power points and lighting around your Port Fairy property. Ensure all external outlets have weatherproof covers and that any garden or pool equipment is connected via a safety switch. Faulty outdoor wiring is a significant risk, especially with summer rain and increased use of extension leads for barbecues and events.",
+        "Don't forget about your smoke alarms. The law in Victoria requires working smoke alarms in all homes, and summer brings an increased risk of house fires from electrical overloads and heating. Test all alarms in your Port Fairy home and replace any batteries or units that are over 10 years old. Swift Electrical can install interconnected photoelectric smoke alarms that provide the best early warning for your family's safety."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Swift Electrical — Electrician in Port Fairy | 24/7 Service",
+      "description": "Port Fairy's trusted 24/7 electrician. Swift Electrical offers fast residential, commercial & emergency electrical services. Licensed, insured & local."
+    },
+    "about": {
+      "title": "About Swift Electrical | Port Fairy's Local Electricians",
+      "description": "Learn about Swift Electrical, Port Fairy's licensed electrical contractors with over 15 years' local experience. Available 24/7 for all your electrical needs."
+    },
+    "services": {
+      "title": "Electrical Services in Port Fairy | Swift Electrical",
+      "description": "Full electrical services for Port Fairy homes & businesses. From switchboard upgrades to emergency repairs. Call Swift Electrical for a free quote."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Quotes | Port Fairy Electrician",
+      "description": "Honest, upfront pricing for Port Fairy electrical work. Get a free, fixed quote for residential, commercial or emergency electrical services."
+    },
+    "contact": {
+      "title": "Contact Swift Electrical | 24/7 Port Fairy Electrician",
+      "description": "Need an electrician in Port Fairy? Contact Swift Electrical anytime for a free quote. 24/7 emergency service available across the Western District."
+    },
+    "blog": {
+      "title": "Port Fairy Electrical Tips & Advice | Swift Electrical",
+      "description": "Expert electrical advice for Port Fairy homeowners. Tips on safety, lighting, switchboards & saving energy from your local licensed electricians."
+    }
+  }
+}
