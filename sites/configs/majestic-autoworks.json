@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Majestic AutoWorks",
+  "suburb": "Epping",
+  "phone": "0435 042 032",
+  "email": "majestic.autowrks@gmail.com",
+  "address": "Unit 1/5 Webb Ct, Epping VIC 3076",
+  "tagline": "Epping's Trusted Auto Mechanics",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#cc5500",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Majestic AutoWorks in Epping",
+      "sub": "Expert Auto Repairs for Your Vehicle"
+    },
+    {
+      "title": "Complete Car Servicing",
+      "sub": "From Logbook Maintenance to Major Repairs"
+    },
+    {
+      "title": "Epping's Mechanic of Choice",
+      "sub": "Quality Workmanship, Transparent Pricing"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Epping? Contact Us Today.",
+  "aboutHeading": "Professional Auto Care in Epping",
+  "aboutSubheading": "Skilled Mechanics You Can Trust",
+  "aboutText": "Majestic AutoWorks in Epping provides professional automotive repairs with a focus on customer satisfaction. Our skilled mechanics offer transparent service, accurate diagnostics, and high-quality workmanship. We specialize in a range of services from general maintenance to complex engine repairs, ensuring your vehicle runs smoothly.",
+  "servicesHeading": "Our Auto Repair Services",
+  "servicesSubheading": "Comprehensive Car Care",
+  "servicesText": "From routine logbook servicing to advanced diagnostics, we cover all your vehicle's needs. Our team in Epping is equipped with the latest tools and expertise to keep your car in top condition.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Manufacturer-approved servicing to maintain your warranty and vehicle performance in Epping."
+    },
+    {
+      "title": "General Mechanical Repairs",
+      "desc": "Expert repairs for all mechanical issues, from minor fixes to major overhauls."
+    },
+    {
+      "title": "Diagnostics & Fault Finding",
+      "desc": "Accurate diagnostics using advanced tools to identify and resolve vehicle faults quickly."
+    },
+    {
+      "title": "Brake Repairs & Replacement",
+      "desc": "Safe and reliable brake services to ensure your vehicle stops effectively."
+    },
+    {
+      "title": "Air Conditioning Service & Regas",
+      "desc": "Professional AC servicing and regas to keep you comfortable on Epping roads."
+    },
+    {
+      "title": "Engine Repairs & Maintenance",
+      "desc": "Comprehensive engine care to enhance performance and longevity for your car."
+    }
+  ],
+  "bannerHeading": "Mechanic in Epping – Quick & Reliable Service",
+  "bannerSubheading": "We're here to keep your vehicle running smoothly.",
+  "testimonialsHeading": "What Epping Locals Say",
+  "testimonialsSubheading": "Trusted by Our Community",
+  "blogHeading": "Auto Care Tips & News",
+  "blogSubheading": "Insights from Majestic AutoWorks",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly to your enquiry.",
+  "reviews": [
+    {
+      "text": "Majestic AutoWorks in Epping did a fantastic job with my logbook servicing. The mechanic was professional and explained everything clearly. Highly recommend!",
+      "name": "David Chen",
+      "role": "Epping Homeowner"
+    },
+    {
+      "text": "I had my brakes replaced here, and the work was excellent. Fair pricing and great attention to detail.",
+      "name": "Lisa Brown",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their diagnostics and fault finding saved me money by pinpointing the exact issue. Top-notch service in Epping.",
+      "name": "James O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
