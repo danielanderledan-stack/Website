@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "CoCraft Melbourne",
+  "suburb": "Heidelberg Heights",
+  "phone": "0407 519 835",
+  "email": "user@domain.com",
+  "address": "67 St Hellier St, Heidelberg Heights VIC 3056",
+  "tagline": "Heidelberg Heights Woodworking Hub",
+  "primaryColor": "#8B4513",
+  "primaryColorRgb": "139, 69, 19",
+  "primaryColorHover": "#7A3E10",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Woodworking Classes in Heidelberg Heights",
+      "sub": "Learn from experts at CoCraft"
+    },
+    {
+      "title": "CoCraft Memberships Available",
+      "sub": "Flexible access to our studio"
+    },
+    {
+      "title": "Join Melbourne's Woodworking Community",
+      "sub": "Classes for all skill levels"
+    }
+  ],
+  "ctaHeading": "Ready to start woodworking in Heidelberg Heights?",
+  "aboutHeading": "CoCraft Woodworking in Heidelberg Heights",
+  "aboutSubheading": "Your local studio and workshop",
+  "aboutText": "Located at 67 St Hellier St, Heidelberg Heights, CoCraft Melbourne offers woodworking classes and memberships for all skill levels. Our community-oriented approach provides a welcoming space to learn and create with expert guidance. Memberships offer cost-effective ways to spend more time making in our fully equipped studio during opening hours.",
+  "servicesHeading": "What We Teach",
+  "servicesSubheading": "Woodworking made accessible",
+  "servicesText": "Our classes cover a range of skills from basic techniques to advanced projects. Memberships provide ongoing access to our workshop for independent practice and creativity.",
+  "services": [
+    {
+      "title": "Beginner Classes",
+      "desc": "Perfect for those new to woodworking, covering tools and basic techniques in a supportive environment."
+    },
+    {
+      "title": "Advanced Workshops",
+      "desc": "For experienced makers looking to refine skills in joinery, furniture making, and complex projects."
+    },
+    {
+      "title": "Membership Access",
+      "desc": "Enjoy flexible studio hours with affordable membership plans for regular practice."
+    },
+    {
+      "title": "Private Tuition",
+      "desc": "One-on-one sessions tailored to your specific projects and learning goals."
+    },
+    {
+      "title": "Tool Training",
+      "desc": "Learn to use various woodworking tools safely and effectively for better results."
+    },
+    {
+      "title": "Community Projects",
+      "desc": "Collaborate with others in group projects and events to build skills together."
+    }
+  ],
+  "bannerHeading": "Woodworking Classes in Heidelberg Heights",
+  "bannerSubheading": "Explore our memberships and workshops.",
+  "testimonialsHeading": "What Our Members Say",
+  "testimonialsSubheading": "Real feedback from the community",
+  "blogHeading": "Woodworking Insights",
+  "blogSubheading": "Tips from CoCraft",
+  "contactHeading": "Contact CoCraft Melbourne",
+  "contactSubheading": "We're here to help",
+  "reviews": [
+    {
+      "text": "CoCraft's woodworking classes in Heidelberg Heights are fantastic. I've learned so much about joinery and furniture making in a supportive environment.",
+      "name": "Tom Wilson",
+      "role": "Heidelberg Heights Homeowner"
+    },
+    {
+      "text": "As a local business owner, I appreciate the professionalism of CoCraft's workshops. The tools and instruction are top-notch for skill development.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage properties and have referred tenants to CoCraft for hobby classes. The membership option is great value for regular access.",
+      "name": "James Murray",
+      "role": "Property Manager"
+    }
+  ]
+}
