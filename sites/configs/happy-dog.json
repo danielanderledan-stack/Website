@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Happy Dog",
+  "suburb": "Thornbury",
+  "phone": "0412 345 678",
+  "email": "info@happydog.com.au",
+  "address": "1 High St, Thornbury VIC 3071",
+  "tagline": "Thornbury's Trusted Carpentry Experts",
+  "primaryColor": "#8B4513",
+  "primaryColorRgb": "139, 69, 19",
+  "primaryColorHover": "#7A3B10",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thornbury's Carpentry Specialists",
+      "sub": "Expert craftsmanship for your home"
+    },
+    {
+      "title": "Handyman Services in Thornbury",
+      "sub": "No job too big or small"
+    },
+    {
+      "title": "Happy Dog Home Improvements",
+      "sub": "Quality work since 2010"
+    }
+  ],
+  "ctaHeading": "Need a Carpenter in Thornbury? Let's Talk.",
+  "aboutHeading": "Happy Dog Carpentry in Thornbury",
+  "aboutSubheading": "Local, reliable, and skilled",
+  "aboutText": "Happy Dog has been providing top-quality carpentry and handyman services in Thornbury for over 10 years. Our team of skilled tradespeople specialises in everything from custom joinery to home renovations. We take pride in our work and are committed to exceeding your expectations. Whether it's a small repair or a large build, we've got you covered in Thornbury and surrounding areas.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Comprehensive solutions for your home",
+  "servicesText": "At Happy Dog, we offer a wide range of carpentry and handyman services tailored to your needs. From building decks to repairing furniture, our expert team handles it all with precision and care. Serving Thornbury and Melbourne's northern suburbs.",
+  "services": [
+    {
+      "title": "Carpentry",
+      "desc": "General carpentry work for homes and businesses, including framing, roofing, and structural repairs."
+    },
+    {
+      "title": "Handyman Service",
+      "desc": "Quick fixes and minor repairs around the house, from door handles to shelving installations."
+    },
+    {
+      "title": "Joinery",
+      "desc": "Custom-built cabinets, shelves, and woodwork to enhance your living spaces in Thornbury."
+    },
+    {
+      "title": "Deck Construction",
+      "desc": "Outdoor decks and pergolas built to last, perfect for Melbourne's variable weather."
+    },
+    {
+      "title": "Furniture Restoration",
+      "desc": "Reviving old furniture with expert craftsmanship, bringing new life to cherished pieces."
+    },
+    {
+      "title": "Home Repairs",
+      "desc": "From window replacements to flooring fixes, we handle all maintenance carpentry needs."
+    }
+  ],
+  "bannerHeading": "Carpentry Services in Thornbury",
+  "bannerSubheading": "Professional and affordable solutions.",
+  "testimonialsHeading": "What Thornbury Locals Say",
+  "testimonialsSubheading": "Real reviews from our customers",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Insights from the Happy Dog team",
+  "contactHeading": "Get a Quote from Happy Dog",
+  "contactSubheading": "We're here to help with your project.",
+  "reviews": [
+    {
+      "text": "Happy Dog did an amazing job on our new deck in Thornbury. The craftsmanship is top-notch, and they finished on time. Highly recommend their carpentry services!",
+      "name": "Sarah Mitchell",
+      "role": "Thornbury Homeowner"
+    },
+    {
+      "text": "We hired Happy Dog for handyman services to fix some plumbing and electrical issues. They were professional and efficient. Great work for our Thornbury café.",
+      "name": "James O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Happy Dog for all maintenance carpentry in Thornbury. They always deliver quality work and are easy to deal with.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
