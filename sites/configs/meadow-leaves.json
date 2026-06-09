@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Meadow Leaves",
+  "suburb": "Heidelberg Heights",
+  "phone": "0470241595",
+  "email": "info@example.com",
+  "address": "44 Marie Ave, Heidelberg Heights VIC 3081",
+  "tagline": "Heidelberg Heights' Trusted Gardeners",
+  "primaryColor": "#63c34a",
+  "primaryColorRgb": "99, 195, 74",
+  "primaryColorHover": "#4e9e3a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Heidelberg Heights' Lawn Mowing Experts",
+      "sub": "Reliable & Affordable Services"
+    },
+    {
+      "title": "Garden Clean-up & Maintenance",
+      "sub": "From Hedging to Tree Removal"
+    },
+    {
+      "title": "Free Quotes in Heidelberg Heights",
+      "sub": "Call Us Today on 0470241595"
+    }
+  ],
+  "ctaHeading": "Meadow Leaves is Ready for Your Garden Project in Heidelberg Heights.",
+  "aboutHeading": "Local Gardeners in Heidelberg Heights",
+  "aboutSubheading": "Reliable & Affordable Lawn Care",
+  "aboutText": "At Meadow Leaves, we have been serving Heidelberg Heights and the North Eastern suburbs for years, offering expert lawn mowing, hedge trimming, and garden maintenance. Our team is dedicated to providing reliable and affordable services tailored to both residential and commercial properties. With a focus on quality workmanship, we ensure your garden looks its best year-round. Contact us for a free quote and experience our professional care.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Comprehensive Garden Services",
+  "servicesText": "Meadow Leaves provides a full range of garden care services, from regular lawn mowing and edging to one-off garden clean-ups and tree removal. We cater to homes and businesses across Heidelberg Heights, Greensborough, and Doncaster, ensuring top-quality results every time.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Professional lawn mowing and edging to keep your grass neat and healthy. We service both residential and commercial properties in Heidelberg Heights."
+    },
+    {
+      "title": "Hedge Trimming",
+      "desc": "Expert hedge trimming to shape and maintain your hedges, enhancing your garden's appearance and privacy."
+    },
+    {
+      "title": "Garden Clean-up & Weeding",
+      "desc": "Thorough garden clean-up and weeding to remove unwanted plants and debris, leaving your outdoor space tidy."
+    },
+    {
+      "title": "Pruning",
+      "desc": "Careful pruning of trees and shrubs to promote growth and maintain garden aesthetics."
+    },
+    {
+      "title": "Tree Removal",
+      "desc": "Safe and efficient tree removal services for hazardous or unwanted trees, with minimal disruption."
+    },
+    {
+      "title": "Pressure Washing & Gutter Cleaning",
+      "desc": "High-pressure washing for driveways, paths, and gutters to remove dirt and buildup, restoring surfaces."
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Heidelberg Heights?",
+  "bannerSubheading": "Meadow Leaves offers free quotes for all garden services.",
+  "testimonialsHeading": "What Heidelberg Heights Locals Say",
+  "testimonialsSubheading": "Trusted by Your Neighbours",
+  "blogHeading": "Gardening Tips & News",
+  "blogSubheading": "Advice from Meadow Leaves",
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "We're Here to Help",
+  "reviews": [
+    {
+      "text": "Meadow Leaves did an excellent job with our lawn mowing in Heidelberg Heights. The team was punctual and left our garden looking fantastic. Highly recommend their services!",
+      "name": "John Smith",
+      "role": "Heidelberg Heights Homeowner"
+    },
+    {
+      "text": "We hired Meadow Leaves for hedge trimming at our business in Greensborough. The work was done efficiently and to a high standard. Great local service!",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The tree removal by Meadow Leaves was handled professionally and safely. They cleaned up afterwards and were very reasonably priced. A trusted team in the area.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
