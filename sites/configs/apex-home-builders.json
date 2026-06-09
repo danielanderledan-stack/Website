@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Apex Home Builders",
+  "suburb": "Thomastown",
+  "phone": "0412 345 678",
+  "email": "info@apexhomebuilders.com.au",
+  "address": "5 Apex Ct, Thomastown VIC 3074",
+  "tagline": "Thomastown's Premier Home Builders",
+  "primaryColor": "#2E86AB",
+  "primaryColorRgb": "46, 134, 171",
+  "primaryColorHover": "#1F6F8B",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Thomastown's Premier Home Builders",
+      "sub": "Crafting quality homes since 2000"
+    },
+    {
+      "title": "New Builds, Renovations & Extensions",
+      "sub": "Tailored to Thomastown families"
+    },
+    {
+      "title": "No Project Too Complex",
+      "sub": "Free consultations in Thomastown & surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to Build in Thomastown? Let's Get Started.",
+  "aboutHeading": "20+ Years Building in Thomastown",
+  "aboutSubheading": "Local, Licensed & Trusted",
+  "aboutText": "At Apex Home Builders, we've been constructing dream homes in Thomastown for over two decades. Our team understands the local landscape and delivers bespoke builds tailored to your needs. From initial design to final touches, we ensure every project meets the highest standards of craftsmanship and durability.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Comprehensive home solutions",
+  "servicesText": "We offer a full range of building services in Thomastown, including new home constructions, renovations, and custom extensions. Each project is handled with precision and care, using quality materials to ensure lasting results.",
+  "services": [
+    {
+      "title": "New Home Builds",
+      "desc": "Designing and constructing custom homes from the ground up in Thomastown."
+    },
+    {
+      "title": "Renovations",
+      "desc": "Transforming existing spaces with modern updates and functional improvements."
+    },
+    {
+      "title": "Extensions",
+      "desc": "Adding extra rooms or levels to accommodate growing families in Thomastown."
+    },
+    {
+      "title": "Kitchen & Bathrooms",
+      "desc": "Specialized refurbishments for the heart of the home with premium finishes."
+    },
+    {
+      "title": "Outdoor Living",
+      "desc": "Building decks, patios, and outdoor entertaining areas for Thomastown homes."
+    },
+    {
+      "title": "Project Management",
+      "desc": "Overseeing every aspect of your build for a seamless and stress-free experience."
+    }
+  ],
+  "bannerHeading": "Need a Builder in Thomastown?",
+  "bannerSubheading": "We're here to bring your vision to life.",
+  "testimonialsHeading": "What Thomastown Clients Say",
+  "testimonialsSubheading": "Quality builds, happy homeowners",
+  "blogHeading": "Building Insights & Updates",
+  "blogSubheading": "Tips from our Thomastown team",
+  "contactHeading": "Get Your Free Quote Today",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Apex Home Builders completed our new kitchen renovation in Thomastown flawlessly. The attention to detail and timely delivery exceeded our expectations.",
+      "name": "Sarah Mitchell",
+      "role": "Thomastown Homeowner"
+    },
+    {
+      "text": "We hired them for a home extension, and the result was outstanding. Professional team and excellent communication throughout the project.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their project management service made our build stress-free. Highly recommend for anyone in Thomastown looking for reliable builders.",
+      "name": "Emma Clarke",
+      "role": "Property Manager"
+    }
+  ]
+}
