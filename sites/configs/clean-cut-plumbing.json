@@ -1,0 +1,298 @@
+{
+  "siteType": "plumber",
+  "businessName": "Clean Cut Plumbing",
+  "suburb": "Kew East",
+  "phone": "0401 234 567",
+  "email": "info@cleancutplumbing.com.au",
+  "address": "48 Westbrook St, Kew East VIC 3102",
+  "tagline": "Kew East's Trusted Plumbing Experts",
+  "primaryColor": "#00AEEF",
+  "primaryColorRgb": "0, 174, 239",
+  "primaryColorHover": "#0090CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kew East's Go-To Plumbers",
+      "sub": "Expert plumbing services for your home"
+    },
+    {
+      "title": "Emergency Plumbing in Kew East",
+      "sub": "24/7 support when you need it most"
+    },
+    {
+      "title": "Licensed & Insured Plumbers",
+      "sub": "Quality workmanship guaranteed"
+    }
+  ],
+  "ctaHeading": "Kew East plumber ready to help — call us today.",
+  "aboutHeading": "About Clean Cut Plumbing in Kew East",
+  "aboutSubheading": "Local expertise, trusted service",
+  "aboutText": "Clean Cut Plumbing has been serving the Kew East community for over 10 years, providing reliable and professional plumbing services. Our team of licensed plumbers specialises in everything from routine maintenance to complex installations. We pride ourselves on punctuality and transparent pricing, ensuring every job is done right the first time. Contact us for all your plumbing needs in Kew East and surrounding suburbs.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive solutions for Kew East",
+  "servicesText": "At Clean Cut Plumbing, we offer a full range of plumbing services tailored to Kew East homes and businesses. From leak repairs to hot water system installations, our skilled team handles it all with efficiency and care.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Rapid response for urgent plumbing issues in Kew East.",
+      "longDesc": "Our emergency plumbing service in Kew East ensures fast, reliable solutions for burst pipes, overflows, and other urgent problems, available 24/7 to minimize damage and restore safety.",
+      "points": [
+        "24/7 availability",
+        "Quick response time",
+        "Prevents further damage"
+      ]
+    },
+    {
+      "title": "Tap and Fixture Repairs",
+      "desc": "Fixing leaky taps and installing new fixtures throughout Kew East.",
+      "longDesc": "We repair and replace taps, showerheads, and other fixtures in Kew East, improving water efficiency and preventing wastage with expert craftsmanship for your home.",
+      "points": [
+        "Saves water bills",
+        "Expert installation",
+        "Wide range of brands"
+      ]
+    },
+    {
+      "title": "Drain Cleaning",
+      "desc": "Clearing blocked drains and pipes for homes in Kew East.",
+      "longDesc": "Our drain cleaning service in Kew East uses advanced techniques to remove blockages, ensuring smooth flow and preventing future clogs in your plumbing system.",
+      "points": [
+        "Advanced equipment",
+        "Prevents blockages",
+        "Thorough cleaning"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems in Kew East.",
+      "longDesc": "We handle all aspects of hot water systems in Kew East, from new installations to repairs, ensuring reliable hot water supply for your household and businesses.",
+      "points": [
+        "Energy-efficient options",
+        "Expert advice",
+        "Regular maintenance"
+      ]
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete plumbing solutions for bathroom upgrades in Kew East.",
+      "longDesc": "For bathroom renovations in Kew East, we provide expert plumbing, including fixture installation, pipe rerouting, and compliance with Australian building standards.",
+      "points": [
+        "Compliant work",
+        "Custom solutions",
+        "Seamless integration"
+      ]
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless pipe repair solutions for Kew East properties.",
+      "longDesc": "Our pipe relining service in Kew East offers a minimally invasive repair for damaged pipes, restoring functionality without extensive excavation or disruption.",
+      "points": [
+        "No digging required",
+        "Cost-effective",
+        "Long-lasting results"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Kew East?",
+  "bannerSubheading": "Fast, reliable service from local experts.",
+  "testimonialsHeading": "What Kew East Residents Say",
+  "testimonialsSubheading": "Honest plumbing service you can trust",
+  "blogHeading": "Plumbing Tips for Kew East Homeowners",
+  "blogSubheading": "Expert advice from Clean Cut Plumbing",
+  "contactHeading": "Get in Touch with Clean Cut Plumbing",
+  "contactSubheading": "Free quotes and friendly advice",
+  "reviews": [
+    {
+      "text": "Clean Cut Plumbing fixed our hot water system in Kew East quickly and efficiently. Their plumber was professional and explained everything clearly. Highly recommend for any plumbing issue.",
+      "name": "Sarah Mitchell",
+      "role": "Kew East Homeowner"
+    },
+    {
+      "text": "We've used Clean Cut Plumbing for our café's drain maintenance in Kew East. Always reliable and fairly priced. Their emergency service saved us from a big mess last summer.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Clean Cut Plumbing for all our Kew East rental properties. They handle everything from tap repairs to full renovations with minimal disruption.",
+      "name": "Rebecca Taylor",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Kew East",
+    "Kew",
+    "Hawthorn",
+    "Richmond",
+    "Camberwell",
+    "Balwyn"
+  ],
+  "about": {
+    "intro": "Clean Cut Plumbing is a locally owned business dedicated to serving Kew East and surrounding areas with top-quality plumbing services.",
+    "story": [
+      "Founded over a decade ago, Clean Cut Plumbing started with a mission to provide honest, reliable plumbing solutions to the Kew East community. Our founder, with 20 years of experience, saw the need for a plumber who prioritises customer satisfaction and quality workmanship.",
+      "Today, our team of licensed plumbers continues that tradition, handling everything from emergency repairs to large-scale installations. We invest in ongoing training and the latest technology to ensure we meet the evolving needs of Kew East residents and businesses."
+    ],
+    "mission": "To be Kew East's most trusted plumbing service through excellence and integrity.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "All our plumbers are fully licensed and insured for your peace of mind in Kew East."
+      },
+      {
+        "title": "Prompt Service",
+        "text": "We value your time, offering on-time arrivals and efficient plumbing solutions."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees; upfront quotes for all plumbing work in Kew East."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years in Kew East"
+      },
+      {
+        "value": "3,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Clean Cut Plumbing, we offer transparent pricing for all our services in Kew East. Get a free, no-obligation quote today to understand the costs upfront.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed upfront quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Includes labour and materials",
+          "Common repairs and installations",
+          "Workmanship guarantee",
+          "Clean-up after job"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complex installations or renovations",
+          "Custom plumbing solutions",
+          "Project management included"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden surprises for Kew East customers."
+  },
+  "contact": {
+    "intro": "Ready to solve your plumbing problems in Kew East? Contact Clean Cut Plumbing today for a free quote or to schedule a service."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in Kew East?",
+      "date": "March 2026",
+      "excerpt": "Find out the typical costs for emergency plumbing services in Kew East, including factors that influence pricing and tips to save money.",
+      "body": [
+        "Emergency plumbing costs in Kew East can vary widely based on several factors, making it essential for homeowners to understand what to expect before an issue arises. On average, call-out fees range from $100 to $250, with additional charges for after-hours service, which is common in urgent situations like burst pipes or severe leaks. The total cost often depends on the time of day, with nights, weekends, and public holidays attracting higher rates due to the immediate response required from our plumbers.",
+        "The severity of the plumbing problem is another critical cost driver in Kew East. For instance, a simple tap repair might cost between $200 and $400, while more complex issues like sewer line blockages or water heater failures can escalate to $1,000 or more. Parts and materials also play a role; using high-quality, Australian-standard fittings can increase the price but ensures longevity and compliance with local regulations, which is crucial for Kew East properties to avoid future repairs.",
+        "In Kew East, average emergency plumbing prices for common scenarios include $150-$300 for blocked drains, $300-$600 for hot water system emergencies, and $500-$1,200 for major pipe bursts. These estimates cover labour, parts, and any necessary diagnostics. It's important to note that Clear Cut Plumbing provides upfront quotes before starting work, so Kew East residents know the exact cost and avoid surprises, aligning with our commitment to transparent pricing.",
+        "Choosing a reliable emergency plumber in Kew East involves checking licenses, insurance, and customer reviews. Look for plumbers who are members of professional associations like the Master Plumbers Association of Victoria, as this ensures adherence to industry standards. In Kew East, where older homes may have specific plumbing challenges, selecting an experienced local plumber can prevent recurring issues and save money in the long run.",
+        "Prevention tips can help Kew East homeowners avoid costly emergencies. Regular maintenance, such as annual drain inspections and hot water system checks, can identify potential problems early. In Kew East's climate, with its variable weather, being proactive about pipe insulation during colder months can prevent freezing and bursting. Simple habits like avoiding pouring grease down drains also reduce blockage risks, keeping emergency calls to a minimum.",
+        "In conclusion, understanding emergency plumbing costs in Kew East empowers residents to make informed decisions and budget effectively. By partnering with a trusted local service like Clean Cut Plumbing, you gain access to fair pricing, expert advice, and swift solutions when it matters most. Contact us today for a free consultation or to learn more about our services in Kew East and nearby suburbs."
+      ]
+    },
+    {
+      "title": "Best Time for Hot Water System Installation in Kew East",
+      "date": "February 2026",
+      "excerpt": "Learn when to install or replace your hot water system in Kew East for optimal efficiency and cost savings.",
+      "body": [
+        "Determining the best time for hot water system installation in Kew East involves considering seasonal factors, energy efficiency, and your household's specific needs. In Melbourne's climate, spring and autumn are often ideal, as temperatures are moderate, making the installation process smoother and less disruptive. This timing also allows you to prepare for summer's higher hot water demand or winter's colder mornings without rush.",
+        "Energy efficiency is a key consideration for Kew East homeowners. Modern hot water systems, such as heat pumps or solar models, can significantly reduce electricity bills, especially in a suburb like Kew East with good sun exposure for solar options. Installing during off-peak seasons, like late autumn, may offer better deals from suppliers and installers, as demand is lower, potentially saving you hundreds of dollars on both equipment and labour.",
+        "The age and condition of your current hot water system in Kew East should guide your decision. If it's over 10 years old or showing signs of frequent breakdowns, replacing it promptly can prevent unexpected failures. In Kew East's older housing stock, upgrading to a larger capacity system might be necessary for growing families, and planning this during a quieter period ensures thorough installation without compromising daily routines.",
+        "Local regulations and incentives in Victoria can influence timing. For instance, rebates for energy-efficient hot water systems are often available, and aligning your installation with these programs can maximize savings. In Kew East, consulting with a licensed plumber familiar with local codes ensures compliance and helps navigate any permit requirements, making the process seamless and legally sound.",
+        "Practical aspects, such as your family's schedule and home renovations, also play a role. If you're planning a bathroom upgrade in Kew East, coordinating hot water system installation with that project can reduce overall costs and inconvenience. Additionally, ensuring the system is sized correctly for your household—typically 50-100 liters per person—prevents underperformance, which is crucial for comfort in Kew East's variable weather.",
+        "In summary, the best time for hot water system installation in Kew East balances practicality, cost-effectiveness, and energy efficiency. By planning ahead and consulting with experts like Clean Cut Plumbing, you can ensure a smooth transition that enhances your home's comfort and sustainability. Reach out to us for tailored advice and quotes in Kew East."
+      ]
+    },
+    {
+      "title": "Signs Your Drains Need Professional Cleaning in Kew East",
+      "date": "January 2026",
+      "excerpt": "Discover the common signs that indicate your drains require professional cleaning to prevent blockages and damage.",
+      "body": [
+        "Recognising signs that your drains need professional cleaning in Kew East is crucial for maintaining a healthy plumbing system. Slow-draining sinks or showers are often the first indicator, suggesting buildup from soap, grease, or debris. In Kew East homes, where older pipes may be more susceptible, addressing this early can prevent complete blockages that lead to costly repairs and water damage.",
+        "Frequent gurgling sounds from drains in Kew East properties usually signal a venting issue or partial blockage. This noise occurs when air is trapped in the pipes, and if ignored, it can escalate to sewage backups. Regular professional cleaning in Kew East helps clear these obstructions, ensuring smooth airflow and preventing unpleasant odors from permeating your home.",
+        "Another sign is water backing up in multiple fixtures, such as toilets, sinks, or showers, especially after heavy use. In Kew East, this could indicate a main sewer line blockage, often caused by tree roots infiltrating pipes—a common issue in suburban areas with mature vegetation. Professional plumbers use camera inspections to diagnose and resolve such problems efficiently.",
+        "Persistent foul smells emanating from drains in Kew East are a clear red flag, pointing to stagnant water or decomposing waste in the pipes. These odors can affect indoor air quality and indicate deeper issues that DIY methods can't fix. In Kew East's residential setting, hiring experts ensures thorough cleaning and sanitisation, restoring freshness to your home.",
+        "Visible mold or mildew growth near drains in Kew East homes suggests moisture buildup due to leaks or poor drainage. This not only poses health risks but also indicates structural damage potential. Professional cleaning removes the source of moisture, often involving pipe repairs or adjustments, to protect your Kew East property's integrity and comply with health standards.",
+        "Preventative measures, like avoiding flushing non-degradable items and using drain guards, can reduce the need for frequent cleaning. However, in Kew East, where water hardness might contribute to scale buildup, annual professional drain cleaning is recommended. This proactive approach extends pipe life, prevents emergencies, and keeps your plumbing system running efficiently year-round."
+      ]
+    },
+    {
+      "title": "Bathroom Renovation Plumbing Checklist for Kew East Homes",
+      "date": "December 2025",
+      "excerpt": "A comprehensive guide to plumbing considerations when renovating your bathroom in Kew East.",
+      "body": [
+        "Starting a bathroom renovation in Kew East requires careful planning, especially for plumbing aspects that can make or break the project. First, assess the existing plumbing layout to understand what can be reused or needs modification. In Kew East's older homes, pipes may be outdated or non-compliant with current Australian standards, so a professional inspection by Clean Cut Plumbing is essential to identify necessary upgrades early.",
+        "Water supply and drainage are critical components. For Kew East residents, ensuring that hot water systems are adequately sized for new fixtures, like larger showers or double vanities, prevents pressure issues. Additionally, checking the slope and condition of drain pipes in Kew East properties ensures efficient waste removal and avoids future blockages, which is vital given the suburb's aging infrastructure.",
+        "Fixture selection should balance aesthetics with plumbing feasibility. In Kew East, popular choices include water-efficient toilets and showerheads, which comply with Victorian regulations and reduce utility bills. Plan for the rough-in dimensions of new fixtures, as misalignment can lead to costly rework. Consulting with a plumber during the design phase helps integrate these elements seamlessly into your Kew East bathroom.",
+        "Ventilation and waterproofing are often overlooked but crucial. Properly installed vents prevent sewer gases from entering the bathroom, while waterproofing membranes protect against leaks—a common concern in Kew East's variable climate. Ensure that any tiling or flooring work adheres to local building codes, and consider adding underfloor heating for comfort during colder months, which requires specific plumbing considerations.",
+        "Budgeting for plumbing in a Kew East bathroom renovation typically accounts for 15-25% of total costs, depending on complexity. This includes labour, materials, and potential surprises like hidden pipe damage. Obtaining detailed quotes from licensed plumbers like Clean Cut Plumbing ensures transparency, and financing options may be available to manage expenses for Kew East homeowners undertaking larger projects.",
+        "Finally, schedule the plumbing work early in the renovation timeline to avoid delays. In Kew East, where contractors may have busy seasons, booking in advance ensures timely completion. After installation, thorough testing and a final inspection by a licensed plumber guarantee everything functions correctly, providing peace of mind and a beautifully renovated bathroom for your Kew East home."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Clean Cut Plumbing | Plumber in Kew East | Emergency & General Services",
+      "description": "Reliable plumber in Kew East for emergency repairs, hot water systems, and drain cleaning. Licensed, insured, and offering free quotes. Call today!"
+    },
+    "about": {
+      "title": "About Clean Cut Plumbing | Your Kew East Plumbing Experts",
+      "description": "Learn about Clean Cut Plumbing, serving Kew East with trusted plumbing services for over 10 years. Local, licensed, and dedicated to quality."
+    },
+    "services": {
+      "title": "Plumbing Services in Kew East | Clean Cut Plumbing",
+      "description": "Comprehensive plumbing services in Kew East including emergency repairs, drain cleaning, and hot water systems. Expert plumbers at your service."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Quotes in Kew East | Transparent Pricing",
+      "description": "Understand plumbing costs in Kew East with upfront pricing from Clean Cut Plumbing. Free quotes, no hidden fees. Get started today."
+    },
+    "contact": {
+      "title": "Contact Clean Cut Plumbing | Free Quotes for Kew East",
+      "description": "Get in touch with Clean Cut Plumbing for all your plumbing needs in Kew East. Free quotes, quick response. Call or email now."
+    },
+    "blog": {
+      "title": "Kew East Plumbing Blog | Tips and Guides from Experts",
+      "description": "Expert plumbing advice for Kew East residents. Learn about costs, maintenance, and renovation tips from Clean Cut Plumbing."
+    }
+  }
+}
