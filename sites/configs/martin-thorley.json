@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Martin Thorley",
+  "suburb": "Northcote",
+  "phone": "0439394839",
+  "email": "info@martinthorley.com.au",
+  "address": "16 Charles St, Northcote VIC 3070",
+  "tagline": "Northcote's Trusted Handyman & Carpenter",
+  "primaryColor": "#0071bc",
+  "primaryColorRgb": "0, 113, 188",
+  "primaryColorHover": "#005a96",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Martin Thorley: Northcote's Handyman",
+      "sub": "Serving Melbourne's inner suburbs with quality carpentry"
+    },
+    {
+      "title": "Painting, Repairs & Maintenance in Northcote",
+      "sub": "Expert services for your home or office"
+    },
+    {
+      "title": "Call or Text for a Free Quote",
+      "sub": "Reliable handyman work across Collingwood, Fitzroy & more"
+    }
+  ],
+  "ctaHeading": "Northcote's carpenter is ready — let's tackle your project.",
+  "aboutHeading": "Martin Thorley: Your Northcote Handyman",
+  "aboutSubheading": "Local carpentry and handyman services",
+  "aboutText": "With extensive experience in carpentry and handyman work, Martin Thorley provides reliable services across Northcote and Melbourne's inner suburbs. Specialising in painting, repairs, and maintenance, we ensure every job is done to the highest standard for homes and offices. From Fitzroy to Preston, we're dedicated to quality workmanship and customer satisfaction.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Handyman services tailored to you",
+  "servicesText": "Martin Thorley offers a comprehensive range of handyman services in Northcote, including painting, carpentry, repairs, and general maintenance. We cater to both residential and commercial clients, ensuring quality workmanship and timely completion for all projects.",
+  "services": [
+    {
+      "title": "Interior & Exterior Painting",
+      "desc": "Professional painting for homes and businesses in Northcote, with attention to detail and clean finishes."
+    },
+    {
+      "title": "Carpentry & Woodwork",
+      "desc": "Custom carpentry solutions from shelving to structural repairs, tailored to your needs."
+    },
+    {
+      "title": "General Repairs",
+      "desc": "Quick and efficient fixes for doors, windows, fixtures, and other household issues."
+    },
+    {
+      "title": "Property Maintenance",
+      "desc": "Ongoing upkeep services to keep your Northcote property in top condition year-round."
+    },
+    {
+      "title": "Home Improvements",
+      "desc": "Renovations and upgrades to enhance your living space, from small tweaks to larger projects."
+    },
+    {
+      "title": "Commercial Handyman",
+      "desc": "Reliable services for offices and commercial spaces across Melbourne's inner suburbs."
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Northcote?",
+  "bannerSubheading": "Martin Thorley is here to help with all your handyman needs.",
+  "testimonialsHeading": "What Northcote Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Handyman Tips & Advice",
+  "blogSubheading": "Insights from Martin Thorley",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly to your enquiry",
+  "reviews": [
+    {
+      "text": "Martin did an excellent job painting our living room in Northcote. His attention to detail and professionalism made the process smooth and the result fantastic. Highly recommend for any painting work.",
+      "name": "Sarah Mitchell",
+      "role": "Northcote Homeowner"
+    },
+    {
+      "text": "We hired Martin for carpentry work on our office fit-out in Fitzroy. He delivered high-quality results on time and within budget. His expertise and reliability made him a great choice for commercial projects.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable and skilled handyman services for our rental properties in Collingwood. Martin always provides prompt and efficient repairs, keeping our tenants happy and properties well-maintained.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
