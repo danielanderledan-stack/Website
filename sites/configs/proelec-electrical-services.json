@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Proelec Electrical Services",
+  "suburb": "Keilor Park",
+  "phone": "1234567890",
+  "email": "contact@mysite.com",
+  "address": "Unit 9/35 Logistics St, Keilor Park VIC 3042",
+  "tagline": "Elevating Electrical Projects in Keilor Park",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55d00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Keilor Park's Premier Electricians",
+      "sub": "15 years of trusted service"
+    },
+    {
+      "title": "Custom Switchboards & Upgrades",
+      "sub": "Tailored for safety and efficiency"
+    },
+    {
+      "title": "Lighting Automation & Security",
+      "sub": "Smart solutions for homes & businesses"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Keilor Park?",
+  "aboutHeading": "15 Years of Excellence in Keilor Park",
+  "aboutSubheading": "Local, Licensed & Dedicated",
+  "aboutText": "With over 15 years of experience in Keilor Park and beyond, Proelec Electrical Services has developed a reputation for handling significant electrical projects with precision. Our commitment to treating every project as if it were our own sets us apart, ensuring results that exceed expectations. From switchboard upgrades to lighting automation, we deliver tailored solutions with care and dedication.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "Proelec Electrical Services offers a comprehensive range of electrical services, from custom switchboards to security systems. We specialise in design and construct services, office refurbishments, and streamlined lighting automation for both residential and commercial clients in Keilor Park and surrounding areas.",
+  "services": [
+    {
+      "title": "Custom New Main Switchboards",
+      "desc": "We design and install custom main switchboards tailored to your property's electrical needs, ensuring safety and efficiency."
+    },
+    {
+      "title": "Efficient Switch Board Upgrades",
+      "desc": "Upgrade your existing switchboard to meet current standards, improving reliability and preventing electrical issues."
+    },
+    {
+      "title": "Design & Construct Services",
+      "desc": "Our design and construct services cover all aspects of electrical projects, from planning to completion."
+    },
+    {
+      "title": "Streamlined Lighting Automation",
+      "desc": "Implement smart lighting systems that automate control, enhance energy efficiency, and add convenience to your space."
+    },
+    {
+      "title": "Office Refurbishments",
+      "desc": "Complete electrical refurbishments for offices, including rewiring, lighting upgrades, and data cabling solutions."
+    },
+    {
+      "title": "Security Systems",
+      "desc": "Install and maintain security systems such as cameras, alarms, and access control for homes and businesses."
+    }
+  ],
+  "bannerHeading": "Electrical Experts in Keilor Park",
+  "bannerSubheading": "From switchboards to security, we've got you covered.",
+  "testimonialsHeading": "What Keilor Park Clients Say",
+  "testimonialsSubheading": "Trusted by locals for quality work",
+  "blogHeading": "Electrical Tips & Insights",
+  "blogSubheading": "From the Proelec team",
+  "contactHeading": "Get Your Free Quote Today",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "Proelec Electrical upgraded our switchboard at our Keilor Park home efficiently and professionally. The team was punctual and left the area clean. Highly recommend their services.",
+      "name": "John Smith",
+      "role": "Keilor Park Homeowner"
+    },
+    {
+      "text": "We hired Proelec for office refurbishments at our Dandenong location. Their design and construct service was seamless, and the lighting automation they installed has saved us on energy costs.",
+      "name": "Sarah Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The security system installation for our property in Keilor Park was handled expertly by Proelec. They provided great advice and ensured everything was set up correctly.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ]
+}
