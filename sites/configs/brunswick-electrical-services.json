@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Brunswick Electrical Services",
+  "suburb": "Brunswick",
+  "phone": "0400 123 456",
+  "email": "info@brunswickelectrical.com.au",
+  "address": "5 G5, 1 Dods St, Brunswick VIC 3056",
+  "tagline": "Brunswick's Expert Electricians",
+  "primaryColor": "#c0c0c0",
+  "primaryColorRgb": "192, 192, 192",
+  "primaryColorHover": "#b0b0b0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick's Go-To Electricians",
+      "sub": "Reliable service for your home and business"
+    },
+    {
+      "title": "Residential & Commercial Wiring",
+      "sub": "Safe, efficient electrical solutions"
+    },
+    {
+      "title": "No Job Too Small or Large",
+      "sub": "Free quotes across Brunswick and surrounds"
+    }
+  ],
+  "ctaHeading": "Brunswick electricians are here to help — get your free quote today.",
+  "aboutHeading": "A Decade of Service in Brunswick",
+  "aboutSubheading": "Local, licensed & professional",
+  "aboutText": "With over 10 years of experience, Brunswick Electrical Services has been the trusted choice for electricians in Brunswick and surrounding suburbs. Our licensed team brings over a decade of hands-on experience, specializing in both residential and commercial electrical work. We are committed to delivering reliable, safe, and efficient solutions tailored to the needs of Brunswick homes and businesses.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for Brunswick",
+  "servicesText": "We offer a full range of electrical services to meet the needs of Brunswick residents and businesses. Whether it's a quick fix or a major installation, our skilled electricians are equipped to handle it all efficiently and safely.",
+  "services": [
+    {
+      "title": "Residential Wiring & Repairs",
+      "desc": "We handle all home electrical issues, from faulty outlets to complete rewiring, ensuring your family's safety."
+    },
+    {
+      "title": "Commercial Electrical Installations",
+      "desc": "Expert wiring and setup for offices, shops, and warehouses across Brunswick, tailored to your business needs."
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Thorough electrical safety checks to keep your property compliant and secure, with detailed reports provided."
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Enhance your space with energy-efficient lighting solutions, from LED upgrades to custom designs for homes and businesses."
+    },
+    {
+      "title": "Power Point & Switch Installations",
+      "desc": "Additional power points or smart switches installed professionally, adding convenience and functionality to your property."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 emergency callouts for urgent electrical faults, providing prompt and reliable solutions when you need them most."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Brunswick?",
+  "bannerSubheading": "Fast, reliable service for your electrical needs.",
+  "testimonialsHeading": "What Brunswick Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from our Brunswick electricians",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We're ready to assist with your project",
+  "reviews": [
+    {
+      "text": "Brunswick Electrical Services did a fantastic job rewiring our old home in Brunswick. The team was professional, clean, and finished on time. Highly recommend for any electrical work.",
+      "name": "John Smith",
+      "role": "Brunswick Homeowner"
+    },
+    {
+      "text": "We had them install new lighting in our cafe on Sydney Road. The work was top-notch, and they worked around our business hours. A reliable local electrician.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Brunswick Electrical Services for multiple units. They handle everything from safety inspections to repairs efficiently. Always a pleasure to work with.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
