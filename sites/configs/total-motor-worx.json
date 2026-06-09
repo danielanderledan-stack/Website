@@ -1,0 +1,305 @@
+{
+  "siteType": "builder",
+  "businessName": "Total Motor Worx",
+  "suburb": "Breakwater",
+  "phone": "03 5243 7890",
+  "email": "info@totalmotorworx.com.au",
+  "address": "6 Kadak Place, Breakwater VIC 3219",
+  "tagline": "Breakwater's Trusted Auto Mechanics",
+  "primaryColor": "#1877f2",
+  "primaryColorRgb": "24, 119, 242",
+  "primaryColorHover": "#1466ca",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Breakwater's Go-To Auto Mechanics",
+      "sub": "Trusted by Breakwater & Geelong drivers"
+    },
+    {
+      "title": "Logbook Servicing, Brakes & Engine Repairs",
+      "sub": "All makes, all models, all handled"
+    },
+    {
+      "title": "Honest Repairs at Fair Prices",
+      "sub": "Free diagnostics across Breakwater & surrounds"
+    }
+  ],
+  "ctaHeading": "Breakwater's mechanics are ready — let's get your car sorted.",
+  "aboutHeading": "Experienced Auto Mechanics in Breakwater",
+  "aboutSubheading": "Honest repairs, fair prices, every time",
+  "aboutText": "Total Motor Worx has been keeping Breakwater drivers safely on the road with reliable, honest car repairs and maintenance for over a decade. Located on Kadak Place in the heart of Breakwater, our skilled mechanics service all makes and models, from everyday hatchbacks to heavy-duty work utes. We specialise in logbook servicing, brake and clutch repairs, engine diagnostics, transmission work, suspension tuning, and auto electrical systems. Geelong and Surf Coast locals trust Total Motor Worx for transparent pricing, quality parts, and a team that genuinely explains what your car needs.",
+  "servicesHeading": "What We Fix & Service",
+  "servicesSubheading": "Complete auto care for Breakwater drivers",
+  "servicesText": "At Total Motor Worx in Breakwater, we handle everything from routine logbook servicing to complex engine rebuilds and transmission repairs. Our qualified mechanics use the latest diagnostic equipment to identify problems quickly and accurately, saving you time and money on every visit to our Kadak Place workshop.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Complete logbook servicing following manufacturer specifications to protect your warranty and keep your engine running at peak performance.",
+      "longDesc": "At Total Motor Worx in Breakwater, we follow your vehicle's manufacturer logbook schedule precisely, using quality oils and filters that meet OEM specifications. Every service is documented and stamped to maintain your warranty, giving you complete peace of mind.",
+      "points": [
+        "All makes and models",
+        "Warranty-safe servicing",
+        "Same-day completion"
+      ]
+    },
+    {
+      "title": "Brake & Clutch Repairs",
+      "desc": "Full brake and clutch system inspections, quality pad replacements, rotor machining, and fluid flushes for safe, reliable stopping.",
+      "longDesc": "Your brakes are your most critical safety system. Our Breakwater mechanics inspect pads, discs, calipers, brake lines, and fluid condition, replacing worn components with trusted brands that meet Australian safety standards for consistent, reliable stopping power.",
+      "points": [
+        "Quality brake components",
+        "Safe stopping power",
+        "Fixed-price quotes"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced computer diagnostics to accurately identify engine faults, warning lights, and performance issues across all vehicle makes.",
+      "longDesc": "Using the latest OBD-II diagnostic equipment, our Breakwater workshop reads engine fault codes and analyses live data to pinpoint the exact cause of warning lights, misfires, rough idling, or power loss without unnecessary part replacements.",
+      "points": [
+        "Advanced diagnostic tools",
+        "Accurate fault finding",
+        "No unnecessary repairs"
+      ]
+    },
+    {
+      "title": "Transmission Servicing",
+      "desc": "Comprehensive automatic and manual transmission servicing, fluid changes, and expert repairs to ensure smooth, reliable power delivery.",
+      "longDesc": "Whether you drive an automatic or manual, your transmission needs regular maintenance to perform reliably. We service transmissions across all makes at our Breakwater workshop, including fluid changes, filter replacements, and complex internal repairs.",
+      "points": [
+        "Auto and manual",
+        "Expert transmission care",
+        "Smooth power delivery"
+      ]
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Shock absorber replacement, coil spring repairs, wheel alignments, and steering component repairs for safe, comfortable vehicle handling.",
+      "longDesc": "Worn suspension components affect handling, tyre wear, and passenger comfort. Our Breakwater mechanics inspect and replace shocks, struts, bushings, ball joints, and steering components, restoring your vehicle's original ride quality and road-holding ability.",
+      "points": [
+        "Complete suspension check",
+        "Improved ride comfort",
+        "Better tyre life"
+      ]
+    },
+    {
+      "title": "Auto Electrical & A/C",
+      "desc": "Electrical fault diagnosis, battery testing, and complete automotive air conditioning servicing and repairs for all vehicles.",
+      "longDesc": "From dead batteries and faulty alternators to complex wiring faults and complete A/C re-gas services, our Breakwater workshop has the diagnostic tools and expertise to solve electrical and climate control issues across all vehicle makes and models.",
+      "points": [
+        "Full electrical diagnosis",
+        "A/C re-gas and repair",
+        "All vehicle makes"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Breakwater?",
+  "bannerSubheading": "From logbook services to engine rebuilds — we have you covered.",
+  "testimonialsHeading": "What Breakwater Drivers Say",
+  "testimonialsSubheading": "Real reviews from real locals",
+  "blogHeading": "Breakwater Auto Tips & Guides",
+  "blogSubheading": "Expert advice from your local mechanic",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Fast, friendly service from your Breakwater mechanic",
+  "reviews": [
+    {
+      "text": "Total Motor Worx handled my annual logbook service for my Toyota RAV4 and the whole experience was seamless. They explained everything clearly, had it done the same day, and the price was exactly what they quoted. Best mechanic I have found in Breakwater.",
+      "name": "Dave Mitchell",
+      "role": "Breakwater Local"
+    },
+    {
+      "text": "We take our entire fleet of work vehicles to Total Motor Worx in Breakwater and they never miss a beat. From brake replacements to engine diagnostics, their team is professional, efficient, and always upfront about costs. Highly recommend for any business needing a reliable mechanic.",
+      "name": "Sarah Keenan",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "My air conditioning stopped working right before Christmas and the team at Total Motor Worx in Breakwater sorted it out within a day. They found a small leak, repaired it properly, and the A/C has been ice cold ever since. Really happy with the service.",
+      "name": "Trevor Nguyen",
+      "role": "Grovedale Resident"
+    }
+  ],
+  "serviceAreas": [
+    "Breakwater",
+    "Grovedale",
+    "Marshall",
+    "Belmont",
+    "South Geelong",
+    "Newcomb",
+    "Whittington"
+  ],
+  "about": {
+    "intro": "Total Motor Worx is a dedicated auto mechanic workshop on Kadak Place in Breakwater, VIC, providing reliable car repairs, logbook servicing, and diagnostics to drivers across Geelong and the surrounding suburbs.",
+    "story": [
+      "Total Motor Worx was established in Breakwater with a clear purpose — to give Geelong drivers an honest, skilled alternative to overpriced dealership servicing. From our workshop on Kadak Place, we have built lasting relationships with local families, tradies, and business owners who depend on their vehicles every day. Our mechanics bring years of hands-on experience across all makes and models, combining traditional mechanical skill with modern diagnostic technology to deliver reliable, efficient repairs.",
+      "Living and working in Breakwater means we understand the unique challenges local drivers face, from coastal corrosion affecting vehicle components to the demands of daily commuting along the Princes Highway and through Geelong's busy corridors. Every vehicle that enters our workshop receives the same thorough attention whether it is a routine logbook service or a complex engine rebuild. Total Motor Worx is proud to be Breakwater's trusted auto mechanic, committed to keeping our community safely on the road."
+    ],
+    "mission": "To keep Breakwater and Geelong drivers safely on the road with honest, expert mechanical service they can count on.",
+    "whyUs": [
+      {
+        "title": "Qualified Mechanics",
+        "text": "Fully certified technicians with years of experience on all vehicle makes and models."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "We provide fixed-price quotes before any work begins so there are never surprises."
+      },
+      {
+        "title": "Same-Day Service",
+        "text": "Most standard repairs completed the same day to minimise time off the road."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use OEM-equivalent or better parts backed by manufacturer warranties for lasting reliability."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed and insured",
+      "Quality OEM-equivalent parts",
+      "Free upfront quotes",
+      "Workmanship guaranteed"
+    ]
+  },
+  "pricing": {
+    "intro": "At Total Motor Worx in Breakwater, we believe in honest, transparent pricing for every job. There are no lock-in contracts and no hidden fees — just straightforward quotes before any work begins.",
+    "packages": [
+      {
+        "name": "Diagnostic & Quote",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site vehicle assessment",
+          "Full diagnostic scan",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Service",
+        "price": "from $220",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Logbook or general service",
+          "Quality oils and filters",
+          "All makes and models",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $800",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Engine, transmission or A/C",
+          "Detailed written diagnosis",
+          "OEM-equivalent parts",
+          "Fixed-price confirmation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — you pay exactly what we quote."
+  },
+  "contact": {
+    "intro": "Ready to get your car looked after by Breakwater's trusted mechanics? Contact Total Motor Worx today for a free, no-obligation quote, or drop into our Kadak Place workshop during business hours."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Full Logbook Service Cost in Breakwater?",
+      "date": "March 2026",
+      "excerpt": "We break down the typical cost of a full logbook service in Breakwater, covering what is included, key pricing factors, and why independent mechanics often save you money.",
+      "body": [
+        "If you live in Breakwater and drive a newer vehicle, understanding the cost of a full logbook service is essential for keeping your car warranty valid and your engine running smoothly. At Total Motor Worx, we service vehicles across Breakwater and greater Geelong every day, and we know that pricing transparency matters. A standard logbook service in Breakwater typically ranges from $180 to $380 depending on your vehicle's make, model, and engine type. Smaller four-cylinder cars tend to sit at the lower end, while larger SUVs, turbo-diesels, and performance vehicles command higher prices due to more complex oil requirements and additional inspection points.",
+        "So what exactly is included when you book a logbook service at our Kadak Place workshop in Breakwater? A genuine logbook service follows the manufacturer's specified maintenance schedule, which means your mechanic must complete every inspection and replacement item listed in your vehicle's service booklet. This typically includes an engine oil and filter change using manufacturer-recommended fluids, a comprehensive brake inspection, tyre rotation and pressure check, fluid level top-ups across coolant, brake, power steering, and transmission systems, battery testing, and a thorough multi-point safety inspection. Every item is documented and stamped to protect your warranty.",
+        "Several factors influence the final price of your logbook service in Breakwater. The type of engine oil is one of the biggest cost drivers — vehicles requiring full synthetic oil can add $30 to $60 to the service compared to conventional mineral oil. Your car's engine size also plays a role; a compact Mazda 3 or Hyundai i30 will be significantly cheaper to service than a Toyota LandCruiser or Ford Ranger. At Total Motor Worx, we always quote upfront before starting any work, so there are no surprises when you collect your vehicle. We use quality parts that meet or exceed OEM specifications to keep your car performing at its best.",
+        "One question we hear from Breakwater car owners regularly is whether they need to visit a dealership to maintain their manufacturer warranty. The short answer is no — Australian Consumer Law protects your right to have your vehicle serviced by any qualified mechanic, provided they follow the manufacturer's logbook schedule and use appropriate parts. Many Breakwater and Geelong residents don't realise that dealership servicing often costs 20 to 40 percent more than an independent workshop like Total Motor Worx. We have the same diagnostic equipment, the same qualified technicians, and a genuine commitment to keeping your car and your wallet in great shape.",
+        "For Breakwater families who rely on their vehicles for daily commutes into Geelong, trips along the Princes Highway, or weekends down the Surf Coast, staying on top of logbook servicing prevents small problems from becoming expensive breakdowns. Oil degrades over time, filters clog, brake pads wear, and fluids lose their protective properties. Skipping or delaying even one scheduled service can lead to premature engine wear, reduced fuel efficiency, and potential warranty claims being denied. Our team at Total Motor Worx recommends setting a reminder based on both the kilometre interval and the time interval specified in your logbook, whichever comes first, to keep your vehicle fully protected.",
+        "When choosing a mechanic in Breakwater for your logbook servicing, look for a workshop that is fully licensed, uses quality parts, and provides a detailed invoice showing every item completed. At Total Motor Worx on Kadak Place, we have been servicing vehicles in the Breakwater community for years, building a reputation based on honest communication and reliable mechanical work. We are happy to walk you through your vehicle's service schedule, explain exactly what needs to be done, and provide a fixed price before we pick up a single tool. Our goal is to make logbook servicing straightforward and stress-free for every Breakwater driver.",
+        "Ready to book your next logbook service in Breakwater? Contact Total Motor Worx today on Kadak Place, Breakwater, and let our experienced team keep your vehicle running exactly as the manufacturer intended. We serve drivers from Breakwater, Grovedale, Marshall, Belmont, South Geelong, Newcomb, and across the greater Geelong region with honest pricing and quality workmanship every time. Whether your car is due for its first service or its fifteenth, we treat every vehicle with the same care and attention. Call us today or visit our workshop to arrange a convenient booking time that fits your schedule."
+      ]
+    },
+    {
+      "title": "When Should You Replace Your Car's Brakes in Breakwater?",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that your car's brakes need replacing, typical repair costs in Breakwater, and how to choose the right brake components for safe, reliable stopping.",
+      "body": [
+        "Your car's brakes are the single most important safety system on the vehicle, yet many Breakwater drivers wait far too long before having them inspected or replaced. At Total Motor Worx on Kadak Place in Breakwater, we see vehicles every week with brake pads that have worn well beyond safe limits, putting both the driver and other road users at serious risk. Understanding the warning signs and knowing when to replace your brakes can save you from costly rotor damage and, more importantly, keep you safe on Geelong's busy roads. Most brake pads last between 30,000 and 70,000 kilometres depending on your driving style and vehicle type.",
+        "The most obvious sign that your brakes need attention is a high-pitched squealing or screeching noise when you press the pedal. This sound is produced by the wear indicator built into most modern brake pads, designed to alert you before the pad material is completely gone. Another common warning sign in Breakwater vehicles is a grinding or growling noise, which indicates that the brake pad has worn through entirely and metal is contacting metal on the rotor. At this stage, you are likely looking at both new pads and new rotors, significantly increasing the repair cost. A soft or spongy brake pedal and the vehicle pulling to one side under braking are also clear indicators that a professional inspection is overdue.",
+        "Several factors affect how quickly your brakes wear down in Breakwater and the surrounding Geelong area. If you frequently drive along the Princes Highway between Breakwater and Melbourne, you will use your brakes more heavily during peak traffic than someone who primarily drives quiet suburban streets. Hilly terrain around Geelong also places additional demand on your braking system, particularly on descents where prolonged braking generates significant heat. Stop-start driving in urban areas accelerates brake pad wear compared to consistent highway cruising. At Total Motor Worx, we inspect brake pad thickness and rotor condition during every logbook service, giving you early warning before small issues become expensive problems requiring complete brake overhauls.",
+        "When it comes to replacing brakes in Breakwater, cost is a common concern for local drivers. A straightforward front brake pad replacement on a typical four-cylinder sedan typically costs between $180 and $300 per axle including labour and quality parts. If the rotors also need machining or replacement, you can expect to pay an additional $150 to $350 per side. Rear brakes on most vehicles tend to last longer than fronts because they do less of the braking work, but they still require regular inspection. At Total Motor Worx, we always provide a detailed quote before starting any brake work, so you know exactly what is involved and what it will cost before we begin.",
+        "Breakwater drivers often ask whether they should use original equipment manufacturer parts or aftermarket alternatives for their brake replacements. The answer depends on your vehicle and your budget, but both options can provide excellent stopping performance when sourced from reputable suppliers. At Total Motor Worx, we stock trusted brake component brands that meet Australian safety standards, and we will always recommend the best option for your specific vehicle and driving needs. Cheap brake components are never worth the risk, so we only install parts we would be confident using in our own family vehicles. Quality brake pads, rotors, and brake fluid ensure consistent, reliable stopping power in all conditions.",
+        "Living in Breakwater means navigating roundabouts, school zones, shopping centre car parks, and busy intersections around Geelong, all environments where responsive brakes are absolutely critical. Worn brakes increase your stopping distance significantly, which in wet conditions around the Surf Coast can be the difference between a safe stop and a serious accident. Australian design rules require minimum brake performance standards, and driving with dangerously worn brakes can result in a failed roadworthy inspection and potential fines. The team at Total Motor Worx recommends having your brakes inspected at least every 12 months or 10,000 kilometres, whichever comes first, to ensure your vehicle always meets safety standards.",
+        "If you are unsure about the condition of your brakes, bring your vehicle to Total Motor Worx on Kadak Place in Breakwater for a thorough brake inspection. Our experienced mechanics will measure pad thickness, check rotor condition, inspect brake fluid, and assess the entire braking system. We serve Breakwater, Grovedale, Marshall, Belmont, South Geelong, Newcomb, and the wider Geelong community with honest, upfront pricing and reliable mechanical work. Do not wait until your brakes fail — call us today to book an inspection and drive with confidence knowing your vehicle is safe."
+      ]
+    },
+    {
+      "title": "Car Air Conditioning Repair in Breakwater Before Geelong Summers",
+      "date": "January 2026",
+      "excerpt": "Discover why Geelong summers put extra strain on your car's A/C system, common air conditioning faults, and how Breakwater drivers can stay cool with timely professional repairs.",
+      "body": [
+        "Geelong summers can push temperatures well above 35 degrees, and when your car's air conditioning stops blowing cold air, a short drive through Breakwater can become genuinely uncomfortable. At Total Motor Worx on Kadak Place in Breakwater, we specialise in diagnosing and repairing automotive air conditioning systems for all makes and models. Whether your A/C has stopped working entirely, is blowing warm air, or is producing unusual smells, our qualified mechanics have the diagnostic equipment and experience to get it sorted quickly. Many Breakwater drivers leave A/C issues unattended for months, not realising that small refrigerant leaks can escalate into compressor failures costing hundreds of dollars more to repair.",
+        "Understanding how your vehicle's air conditioning system works helps Breakwater drivers recognise problems early and avoid costly repairs. Your car's A/C relies on a closed loop of refrigerant gas that cycles through a compressor, condenser, evaporator, and expansion valve. When any component in this system develops a fault or the refrigerant level drops due to a leak, cooling performance decreases noticeably. Common signs that your Breakwater vehicle needs A/C attention include weak airflow, air that is cool but not cold, a musty or mouldy smell coming from the vents, visible refrigerant oil stains around engine bay components, or unusual clicking sounds when the A/C is switched on. Catching these symptoms early saves time and money.",
+        "Air conditioning repairs in Breakwater and the wider Geelong area vary widely depending on the issue. A simple refrigerant re-gas is the most affordable fix, typically costing between $120 and $200 for most passenger vehicles. However, if the system has an underlying leak, simply adding more refrigerant is a temporary band-aid that will leave you with the same problem within weeks. At Total Motor Worx, we perform a comprehensive leak test before any re-gas, using electronic leak detection equipment to identify the exact source of the problem. More complex repairs such as compressor replacement, condenser repairs, or evaporator issues can range from $400 to over $1,200 depending on the vehicle and parts required.",
+        "Breakwater's coastal proximity to the Surf Coast means vehicles in our area are exposed to salt-laden air, which can accelerate corrosion of A/C condensers and metal fittings. This is a factor that many Geelong mechanics overlook, but at Total Motor Worx, we understand the specific environmental challenges that Breakwater drivers face. Salt air combined with heat creates ideal conditions for refrigerant leaks at connection points and along condenser fins. Regular A/C inspections, particularly before summer, help identify early signs of corrosion and allow us to address minor issues before they develop into major system failures. Preventative maintenance is always more affordable than emergency repairs when your A/C fails during the hottest week of the year.",
+        "A question we often hear from Breakwater vehicle owners is whether running the car's air conditioning uses more fuel and causes extra engine wear. While it is true that the A/C compressor places additional load on the engine, modern systems are designed to operate efficiently, and the fuel penalty is typically minimal, usually around half a litre per hundred kilometres in urban driving. Compared to driving with windows down at highway speed, which creates aerodynamic drag, using the A/C is often the more fuel-efficient choice. At Total Motor Worx, we can also inspect your A/C system for issues such as a seized compressor clutch, which can affect engine performance and fuel economy even when the A/C is switched off.",
+        "For Breakwater families preparing for the Geelong summer, the best time to have your car's air conditioning inspected is during spring, before the real heat arrives. This gives our mechanics at Total Motor Worx time to source any parts needed and complete repairs without the pressure of a heatwave booking rush. Many Breakwater drivers also combine their A/C inspection with their regular logbook service, saving time and ensuring every system in the vehicle is checked simultaneously. Our Kadak Place workshop is conveniently located for Breakwater, Grovedale, Marshall, and Belmont residents, making it easy to fit professional A/C maintenance into your schedule. A pre-summer check can mean the difference between comfortable family drives and sweaty school runs.",
+        "Do not let a broken air conditioning system ruin your Geelong summer. If your car's A/C is not performing as it should, bring it to Total Motor Worx on Kadak Place in Breakwater for a professional diagnosis and repair. We service all makes and models, from everyday hatchbacks to commercial fleets, using quality parts and providing honest upfront quotes before any work begins. Our workshop serves drivers from Breakwater, Grovedale, Marshall, Belmont, South Geelong, Newcomb, and across the greater Geelong region with reliable, efficient air conditioning repairs. Whether you need a quick re-gas or a complete compressor replacement, our experienced team is ready to help. Call us today to book your A/C inspection and stay cool on every drive this summer."
+      ]
+    },
+    {
+      "title": "Engine Warning Lights in Breakwater: What They Mean and What to Do",
+      "date": "December 2025",
+      "excerpt": "Understand what different engine warning light colours mean, common causes of dashboard warnings, and when Breakwater drivers should visit a mechanic for diagnostics.",
+      "body": [
+        "That small illuminated symbol on your dashboard can trigger real anxiety, but understanding what your engine warning light means is the first step toward getting it resolved. At Total Motor Worx on Kadak Place in Breakwater, we diagnose engine warning lights every day for drivers across Geelong and the surrounding suburbs. The check engine light, officially known as the malfunction indicator lamp, can signal anything from a loose fuel cap to a serious engine misfire or emissions system failure. Ignoring it is never a good idea, because even minor issues left unchecked can cause progressive damage to expensive components like catalytic converters, oxygen sensors, and transmission systems.",
+        "When your engine warning light illuminates in Breakwater, the first thing to check is your fuel cap. A loose, cracked, or missing fuel cap is one of the most common reasons the check engine light activates, and tightening or replacing it may resolve the issue within a few driving cycles. If the light remains on after ensuring the cap is secure, it is time to visit Total Motor Worx for a professional diagnostic scan. Modern vehicles store fault codes in the engine control unit, and our OBD-II diagnostic equipment reads these codes to pinpoint the exact system or component that has triggered the warning. This saves time and eliminates guesswork.",
+        "Different coloured warning lights on your Breakwater vehicle's dashboard carry different levels of urgency. A steady amber or yellow check engine light generally indicates a non-critical fault that should be inspected soon but does not require immediate action. A flashing check engine light, however, signals a severe engine misfire that can cause rapid damage to the catalytic converter and should be addressed immediately. Red warning lights such as the oil pressure warning or temperature warning always indicate urgent problems requiring you to pull over safely as soon as possible. At Total Motor Worx, we advise Breakwater drivers never to ignore any dashboard warning light regardless of colour because early diagnosis always leads to simpler and more affordable repairs.",
+        "The cost of diagnosing and fixing engine warning light issues in Breakwater depends entirely on the underlying cause. At Total Motor Worx, our diagnostic scan and assessment typically costs between $80 and $120, which is often credited toward the repair if you proceed with the work. Simple fixes like replacing a faulty oxygen sensor, a worn ignition coil, or a vacuum leak might cost between $150 and $400 including parts and labour. More complex issues such as catalytic converter replacement, turbocharger faults, or timing chain problems can range from $800 to over $2,500. The key is to address the warning light promptly before a small issue cascades into multiple component failures.",
+        "Breakwater drivers who frequently travel between Geelong and Melbourne on the Princes Highway should pay particular attention to engine warning lights, as highway driving at sustained speeds places different demands on engine and emissions systems than city driving. Carbon build-up on intake valves, exhaust gas recirculation faults, and DPF blockages in diesel vehicles are all issues that tend to manifest during regular highway commuting. At Total Motor Worx, we understand the driving patterns of Breakwater residents and tailor our diagnostic approach accordingly. We also see a noticeable increase in warning light activations during Geelong's colder winter months, when condensation and short trip driving prevent engines from reaching optimal operating temperature, leading to sensor fouling and fuel dilution.",
+        "Choosing the right mechanic in Breakwater for engine diagnostics is important because not all workshops have the diagnostic equipment needed to accurately read manufacturer-specific fault codes. Generic OBD-II scanners can read basic powertrain codes, but many modern vehicles store additional fault codes in ABS, airbag, transmission, and body control modules that require manufacturer-level diagnostic tools. At Total Motor Worx on Kadak Place in Breakwater, we have invested in comprehensive diagnostic equipment that covers all major vehicle makes, ensuring accurate fault identification every time. This means fewer diagnostic guesswork, faster repairs, and better outcomes for Breakwater and Geelong vehicle owners who depend on their cars every day.",
+        "If your engine warning light is on, do not delay — bring your vehicle to Total Motor Worx in Breakwater for a professional diagnostic assessment. Our experienced mechanics will identify the exact cause of the warning, explain the recommended repairs in plain language, and provide a fixed price quote before any work begins. We serve drivers from Breakwater, Grovedale, Marshall, Belmont, South Geelong, Newcomb, and across the greater Geelong region with honest, reliable mechanical service. Call us today or visit our Kadak Place workshop to get your engine warning light diagnosed and resolved quickly."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Total Motor Worx | Mechanic in Breakwater | Geelong",
+      "description": "Total Motor Worx is Breakwater's trusted auto mechanic. Logbook servicing, brake repairs, engine diagnostics and more. Serving Geelong drivers with honest, reliable car care."
+    },
+    "about": {
+      "title": "About Us | Breakwater's Trusted Auto Mechanic",
+      "description": "Learn about Total Motor Worx, Breakwater's experienced auto mechanic. Quality logbook servicing, brake repairs and engine diagnostics for all Geelong vehicle owners."
+    },
+    "services": {
+      "title": "Car Repair Services in Breakwater | Total Motor Worx",
+      "description": "Full auto repair services in Breakwater, VIC. Logbook servicing, brakes, engine diagnostics, transmission, suspension and air conditioning. Trusted by Geelong drivers."
+    },
+    "pricing": {
+      "title": "Car Service Prices Breakwater | Total Motor Worx",
+      "description": "Transparent auto repair pricing in Breakwater. Honest quotes for logbook servicing, brake repairs and engine diagnostics. Serving Geelong and surrounds."
+    },
+    "contact": {
+      "title": "Contact Total Motor Worx | Free Breakwater Quotes",
+      "description": "Contact Total Motor Worx in Breakwater for a free mechanic quote. Logbook servicing, brake repairs and engine diagnostics for all Geelong drivers."
+    },
+    "blog": {
+      "title": "Breakwater Mechanic Blog | Auto Tips and Car Care",
+      "description": "Expert car maintenance tips from Total Motor Worx in Breakwater, VIC. Local guides on servicing costs, brake care, A/C repairs and engine diagnostics."
+    }
+  }
+}
