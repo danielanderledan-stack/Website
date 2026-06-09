@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Dirty Jeans Gardening",
+  "suburb": "Montmorency",
+  "phone": "0412 345 678",
+  "email": "example@example.com",
+  "address": "17 Kirwana Grove, Montmorency VIC 3094",
+  "tagline": "Montmorency's Garden Specialists",
+  "primaryColor": "#2299dd",
+  "primaryColorRgb": "34, 153, 221",
+  "primaryColorHover": "#1d7bc0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Montmorency's Go-To Gardeners",
+      "sub": "Years of landscaping expertise across Banyule"
+    },
+    {
+      "title": "Garden Maintenance & Renovations",
+      "sub": "Tailored services for Montmorency homes"
+    },
+    {
+      "title": "Irrigation & Outdoor Lighting",
+      "sub": "Efficient installations in your local area"
+    }
+  ],
+  "ctaHeading": "Ready for a garden refresh in Montmorency?",
+  "aboutHeading": "Gardening Expertise in Montmorency",
+  "aboutSubheading": "Horticulture-qualified and locally focused",
+  "aboutText": "With years of hands-on experience in residential landscaping and an Associate Degree in Horticulture, I provide specialised gardening services across Montmorency and surrounding Banyule areas. From routine garden maintenance and irrigation systems to custom metalwork and outdoor lighting, I deliver personalised solutions that enhance your outdoor space. My commitment is to quality workmanship and understanding the unique needs of local gardens.",
+  "servicesHeading": "Our Garden Services",
+  "servicesSubheading": "Comprehensive care for Montmorency gardens",
+  "servicesText": "We offer a full range of gardening services tailored to Montmorency's conditions, including maintenance, plant selection, and irrigation. Our expertise ensures your garden thrives with minimal fuss, whether it's a small touch-up or a complete renovation.",
+  "services": [
+    {
+      "title": "Garden Maintenance & Mulching",
+      "desc": "Regular upkeep such as mowing, weeding, and mulching to keep your Montmorency garden neat and healthy throughout the seasons."
+    },
+    {
+      "title": "Plant Selection & Advice",
+      "desc": "Expert guidance on choosing plants suited to your soil and climate, ensuring beautiful and sustainable growth in your garden."
+    },
+    {
+      "title": "Irrigation Installation",
+      "desc": "Custom-designed sprinkler and drip systems that conserve water while maintaining lush greenery in your outdoor areas."
+    },
+    {
+      "title": "Steel Edging & Trellising",
+      "desc": "Bespoke metalwork for garden borders, paths, and plant supports, adding structure and visual appeal to your space."
+    },
+    {
+      "title": "Tree Work & Pruning",
+      "desc": "Professional pruning and care to promote tree health, safety, and aesthetics in residential and commercial properties."
+    },
+    {
+      "title": "Garden Renovations & Lighting",
+      "desc": "Complete transformations including redesigns and outdoor lighting to create functional and inviting evening gardens."
+    }
+  ],
+  "bannerHeading": "Gardening Help Needed in Montmorency?",
+  "bannerSubheading": "From regular maintenance to full renovations, we've got the expertise.",
+  "testimonialsHeading": "What Montmorency Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses across Banyule",
+  "blogHeading": "Gardening Tips & News",
+  "blogSubheading": "Insights from Dirty Jeans Gardening",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly to your enquiry",
+  "reviews": [
+    {
+      "text": "Dirty Jeans Gardening did an amazing job on our garden renovation in Montmorency, including new steel edging and lighting. The result was beyond our expectations, and the team was friendly and professional.",
+      "name": "Sarah Mitchell",
+      "role": "Montmorency Homeowner"
+    },
+    {
+      "text": "We engaged them for irrigation installation and plant selection at our café outdoor area. The work was completed on time and has greatly improved the space for our customers.",
+      "name": "James Cooper",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I use Dirty Jeans Gardening for regular maintenance across multiple Montmorency properties. Their reliable service and attention to detail keep everything looking top-notch.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
