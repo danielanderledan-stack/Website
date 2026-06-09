@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Q-Tech Electrical",
+  "suburb": "Bundoora",
+  "phone": "0432 175 079",
+  "email": "sales@qtechelectrical.com.au",
+  "address": "62 Wallara Crescent, Bundoora VIC 3083",
+  "tagline": "Bundoora's Licensed Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#cc5400",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Bundoora's Licensed Electricians",
+      "sub": "Q-Tech Electrical – Melbourne's Northern Suburbs"
+    },
+    {
+      "title": "Expert Residential & Commercial Solutions",
+      "sub": "Serving Bundoora for Over 20 Years"
+    },
+    {
+      "title": "Call Q-Tech for Fast Service",
+      "sub": "Reliable Electricians in Your Area"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Bundoora? Call Q-Tech Now!",
+  "aboutHeading": "Q-Tech Electrical in Bundoora",
+  "aboutSubheading": "Local, Licensed & Trusted",
+  "aboutText": "Q-Tech Electrical has been providing licensed electrical services to Bundoora and Melbourne's northern suburbs for over 20 years. Our team specialises in residential, commercial, and industrial electrical work, ensuring safe and efficient solutions. From switchboard upgrades to lighting designs, we handle all electrical problems with expertise. Based at 62 Wallara Crescent, Bundoora, we are committed to quality service and customer satisfaction.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions for Every Need",
+  "servicesText": "From residential repairs to commercial installations, Q-Tech Electrical offers a full range of electrical services in Bundoora and surrounding areas. Our licensed electricians ensure high standards and safety in every project.",
+  "services": [
+    {
+      "title": "Residential Electrical Service",
+      "desc": "Expert residential electrical services in Bundoora, including repairs, installations, and safety inspections for homes."
+    },
+    {
+      "title": "Commercial Electrical Service",
+      "desc": "Tailored commercial electrical solutions for businesses in Bundoora, ensuring minimal downtime and compliance."
+    },
+    {
+      "title": "Industrial Electrical Service",
+      "desc": "Specialised industrial electrical work for factories and warehouses across Melbourne's northern suburbs."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Professional switchboard upgrades and replacements to enhance safety and capacity in your property."
+    },
+    {
+      "title": "Panel Changes",
+      "desc": "Efficient panel changes and repairs to keep your electrical system running smoothly and up to code."
+    },
+    {
+      "title": "Lighting Designs",
+      "desc": "Creative lighting designs for homes and businesses, improving aesthetics and energy efficiency in Bundoora."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Bundoora?",
+  "bannerSubheading": "Q-Tech Electrical is here to help with all your electrical needs.",
+  "testimonialsHeading": "What Bundoora Locals Say",
+  "testimonialsSubheading": "Trusted by Homeowners and Businesses",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Stay informed with Q-Tech's latest updates",
+  "contactHeading": "Get in Touch with Q-Tech",
+  "contactSubheading": "Free quotes and consultations for Bundoora residents",
+  "reviews": [
+    {
+      "text": "Q-Tech Electrical did an excellent job rewiring my home in Bundoora. Their team was professional and completed the work on time. Highly recommended for residential electrical services.",
+      "name": "Sarah Mitchell",
+      "role": "Bundoora Homeowner"
+    },
+    {
+      "text": "As a business owner in Bundoora, I rely on Q-Tech for all my commercial electrical needs. They installed new lighting in our office and it looks fantastic. Great service!",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Q-Tech upgraded our switchboard at the rental property in Reservoir. The electricians were courteous and efficient. We use them for all our property management electrical work.",
+      "name": "James O'Connor",
+      "role": "Property Manager"
+    }
+  ]
+}
