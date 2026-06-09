@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "A. George Motors",
+  "suburb": "Fairfield",
+  "phone": "03 9481 5678",
+  "email": "info@ageorgemotors.com.au",
+  "address": "Unit 3/8 Chingford St, Fairfield VIC 3078",
+  "tagline": "Fairfield's Trusted Car Mechanic",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#005a87",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fairfield's Expert Car Mechanics",
+      "sub": "A. George Motors, serving Melbourne's north"
+    },
+    {
+      "title": "Roadworthy Inspections & Car Repairs",
+      "sub": "Trusted service in Fairfield and surrounds"
+    },
+    {
+      "title": "Logbook Servicing & Brake Repairs",
+      "sub": "Keeping your vehicle safe on the road"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Fairfield? Call Us Today.",
+  "aboutHeading": "A. George Motors: Your Fairfield Mechanic",
+  "aboutSubheading": "Professional car repairs & roadworthy inspections",
+  "aboutText": "A. George Motors is a trusted car mechanic in Fairfield, VIC, specialising in roadworthy inspections. Whether you're buying a used car or have received a defect notice, we provide thorough inspections to ensure your vehicle is safe. With our expertise, you can have peace of mind knowing your car is in good hands.",
+  "servicesHeading": "Our Car Repair Services",
+  "servicesSubheading": "Comprehensive vehicle maintenance",
+  "servicesText": "At A. George Motors in Fairfield, we offer a wide range of car repair services to keep your vehicle running smoothly. From logbook servicing to complex engine diagnostics, our skilled mechanics use the latest tools and techniques.",
+  "services": [
+    {
+      "title": "Roadworthy Inspections",
+      "desc": "We provide thorough roadworthy inspections to certify your vehicle is safe for the road, as required by Victorian law."
+    },
+    {
+      "title": "Logbook Servicing",
+      "desc": "Stay on top of your manufacturer's logbook with our comprehensive servicing to maintain your warranty and performance."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Expert brake repairs and replacements to ensure your vehicle stops safely and reliably."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to accurately identify and fix engine issues quickly."
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "We repair and replace suspension and steering components for a smooth and safe ride."
+    },
+    {
+      "title": "Electrical Repairs",
+      "desc": "From battery issues to complex wiring, our electricians handle all car electrical problems."
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Fairfield?",
+  "bannerSubheading": "A. George Motors is here to help with all your car repair needs.",
+  "testimonialsHeading": "What Fairfield Locals Say",
+  "testimonialsSubheading": "Quality service you can trust",
+  "blogHeading": "Car Maintenance Tips & News",
+  "blogSubheading": "From the experts at A. George Motors",
+  "contactHeading": "Contact A. George Motors Today",
+  "contactSubheading": "Get in touch for a quote or advice",
+  "reviews": [
+    {
+      "text": "A. George Motors did a fantastic job with my roadworthy inspection in Fairfield. The mechanic was thorough and explained everything clearly. I felt confident driving away knowing my car was safe.",
+      "name": "James Smith",
+      "role": "Fairfield Homeowner"
+    },
+    {
+      "text": "I've been taking my business car to A. George Motors for logbook servicing for years. Their work is always reliable and fairly priced. Highly recommend for any car repairs.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need a mechanic I can trust for our fleet. A. George Motors in Fairfield provides excellent brake repairs and maintenance services.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
