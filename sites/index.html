@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;600;700;800&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/sites/assets/index-CVMqsAGZ.js"></script>
+    <script type="module" crossorigin src="/sites/assets/index-CO5DWiiq.js"></script>
     <link rel="stylesheet" crossorigin href="/sites/assets/index-D0fHSW2c.css">
   <!-- cd-style-start -->
 <style>.btn-yellow{padding-top:9px!important;padding-bottom:9px!important}</style>
@@ -139,6 +139,7 @@
   }
   function showFYI(){
     if(document.getElementById("cd-fyi")||document.getElementById("cd-burger"))return;
+    try{if(sessionStorage.getItem("cd-fyi-seen"))return;sessionStorage.setItem("cd-fyi-seen","1");}catch(e){}
     var ov=document.createElement("div");ov.id="cd-fyi";
     ov.style.cssText="position:fixed;inset:0;z-index:100001;background:rgba(6,24,43,.6);display:flex;align-items:center;justify-content:center;padding:20px;font-family:Roboto,system-ui,sans-serif;opacity:0;transition:opacity .25s ease";
     ov.innerHTML='<div role="dialog" aria-label="FYI" style="position:relative;background:#fff;border-radius:22px;max-width:460px;width:100%;padding:42px 32px 32px;box-shadow:0 20px 60px rgba(0,0,0,.35);text-align:center;transform:scale(.94);transition:transform .25s ease;border-top:5px solid '+CYAN+'">'
