@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Northside Electrical Contractors",
+  "suburb": "Brunswick East",
+  "phone": "03 9482 1234",
+  "email": "info@northsideelectrical.com",
+  "address": "24 Albert St, Brunswick East VIC 3057",
+  "tagline": "Brunswick East's Trusted Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Brunswick East Electrical Experts",
+      "sub": "Powering homes since 2005"
+    },
+    {
+      "title": "Residential & Commercial Services",
+      "sub": "Tailored solutions for Melbourne's north"
+    },
+    {
+      "title": "24/7 Emergency Repairs",
+      "sub": "Always ready for Brunswick East locals"
+    }
+  ],
+  "ctaHeading": "Brunswick East's electricians are ready to help.",
+  "aboutHeading": "Powering Brunswick East for Over 15 Years",
+  "aboutSubheading": "Licensed, insured & local",
+  "aboutText": "Northside Electrical Contractors has been serving Brunswick East and surrounding suburbs for over 15 years. Our team of licensed electricians specializes in residential and commercial electrical work, focusing on safety, reliability, and exceptional service. We are committed to delivering high-quality solutions tailored to the needs of Brunswick East locals and businesses.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We provide comprehensive electrical services for homes and businesses across Brunswick East. From installations to repairs, our skilled team ensures all work meets strict Australian safety standards.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete wiring, lighting, and powerpoint installations for your Brunswick East home."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Tailored electrical solutions for offices, retail, and industrial spaces in Melbourne."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 rapid response for electrical faults to keep your property safe and powered."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernising old switchboards to meet current safety regulations in Brunswick East."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Energy-efficient LED lighting and custom designs for homes and businesses."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety checks and compliance reports for peace of mind."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Brunswick East?",
+  "bannerSubheading": "Fast, reliable service for all your electrical needs.",
+  "testimonialsHeading": "What Brunswick East Locals Say",
+  "testimonialsSubheading": "Quality work that speaks for itself",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from our experienced team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond quickly to your enquiry",
+  "reviews": [
+    {
+      "text": "Northside Electrical rewired our Brunswick East home flawlessly. Professional, on time, and excellent communication throughout. Highly recommend for any electrical work!",
+      "name": "Tom Mitchell",
+      "role": "Brunswick East Homeowner"
+    },
+    {
+      "text": "As a local business owner, I trust Northside for all our electrical maintenance. Their team is always responsive, thorough, and ensures minimal disruption. Great service!",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We've used Northside Electrical for switchboard upgrades and safety inspections across multiple properties in Melbourne. Their expertise and reliability are top-notch.",
+      "name": "Michael O'Brien",
+      "role": "Property Manager"
+    }
+  ]
+}
