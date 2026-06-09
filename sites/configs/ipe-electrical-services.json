@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "IPE Electrical Services",
+  "suburb": "Epping",
+  "phone": "0397170237",
+  "email": "info@ipeelectrical.com.au",
+  "address": "Unit 18/5 Scanlon Dr, Epping VIC 3076",
+  "tagline": "Epping's Trusted Electricians",
+  "primaryColor": "#007bff",
+  "primaryColorRgb": "0, 123, 255",
+  "primaryColorHover": "#0056b3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Epping's Go-To Electricians",
+      "sub": "Expert electrical services for your home and business"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "Safe, efficient, and reliable solutions"
+    },
+    {
+      "title": "No Job Too Small or Large",
+      "sub": "Free quotes in Epping and surrounds"
+    }
+  ],
+  "ctaHeading": "Epping Electricians Ready to Help",
+  "aboutHeading": "Epping's Electrical Specialists",
+  "aboutSubheading": "Licensed, Local, and Loyal",
+  "aboutText": "Serving Epping for years, IPE Electrical Services prides itself on competitive prices and exceptional customer care. Our edge is providing greater service and efficiency, with all work fully guaranteed. Our excellent tradespeople are highly dedicated to customer satisfaction, ensuring every job meets the highest standards. We are committed to being Epping's trusted electrical partner.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions for Epping",
+  "servicesText": "IPE Electrical Services offers a full range of electrical solutions tailored to Epping's needs. From installations to repairs, our team ensures safe and efficient outcomes. We specialise in both domestic and commercial projects, delivering quality workmanship every time.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete wiring, repairs, and upgrade services for residential properties in Epping, ensuring compliance with Australian standards."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Efficient electrical solutions for businesses in Epping, including fit-outs, maintenance, and energy-saving installations."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Prompt response to electrical faults in Epping, with dedicated tradespeople available during business hours."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for improved safety and capacity in Epping homes and commercial properties."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Expert installation of indoor and outdoor lighting systems for Epping homes and offices, enhancing functionality."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety checks to identify hazards and ensure Epping residents and businesses are protected."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Epping?",
+  "bannerSubheading": "Fast, reliable service from your local experts.",
+  "testimonialsHeading": "What Epping Locals Say",
+  "testimonialsSubheading": "Quality work, honest prices",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from IPE Electrical Services",
+  "contactHeading": "Get in Touch with Epping's Electricians",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "IPE Electrical Services rewired our entire Epping home efficiently and with great care. Their tradespeople were professional and left the site clean. Highly recommend for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Epping Homeowner"
+    },
+    {
+      "text": "As a local business owner in Epping, I rely on IPE for our commercial electrical maintenance. They are always reliable and provide excellent service at competitive prices.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing properties in Epping, I've used IPE Electrical for switchboard upgrades and safety inspections. Their attention to detail and commitment to customer satisfaction is outstanding.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
