@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "DQ Electrical Solutions",
+  "suburb": "Glenroy",
+  "phone": "0451 692 924",
+  "email": "user@domain.com",
+  "address": "70 Outlook Dr, Glenroy VIC 3046",
+  "tagline": "Glenroy's Trusted Electricians",
+  "primaryColor": "#007bff",
+  "primaryColorRgb": "0, 123, 255",
+  "primaryColorHover": "#0056b3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Glenroy's Go-To Electricians",
+      "sub": "Serving Melbourne's northern suburbs"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "Licensed and insured for all jobs"
+    },
+    {
+      "title": "24/7 Emergency Electrician",
+      "sub": "Quick response in Glenroy and surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Glenroy?",
+  "aboutHeading": "Glenroy's Electrical Experts",
+  "aboutSubheading": "Licensed, Local & Reliable",
+  "aboutText": "At DQ Electrical Solutions, we've been providing top-notch electrical services to Glenroy and surrounding areas for over 10 years. Our team of licensed electricians specialises in residential, commercial, and emergency work, ensuring safety and efficiency. From switchboard upgrades to lighting installations, we handle it all with precision. Trust us for reliable electrical solutions in Glenroy.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Professional Workmanship",
+  "servicesText": "We offer a comprehensive range of electrical services tailored to your needs. Whether it's a simple repair or a complex installation, our experienced team delivers quality results. We serve Glenroy and Melbourne's north with pride.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "From wiring new homes to upgrading existing systems, we ensure your home is safe and efficient."
+    },
+    {
+      "title": "Commercial Services",
+      "desc": "We provide electrical solutions for businesses, including office fit-outs and maintenance contracts."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Available 24/7 for urgent electrical issues in Glenroy, minimising downtime and risks."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for improved safety and compliance with current standards."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Enhance your space with expert lighting design and installation for homes and businesses."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Comprehensive electrical safety checks to keep your property up to code and secure."
+    }
+  ],
+  "bannerHeading": "Electrical Services in Glenroy",
+  "bannerSubheading": "Quality work, guaranteed",
+  "testimonialsHeading": "What Glenroy Locals Say",
+  "testimonialsSubheading": "Honest service, fair prices",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "DQ Electrical Solutions did a fantastic job upgrading our switchboard in Glenroy. The team was professional, punctual, and left everything clean. Highly recommend for any electrical work.",
+      "name": "Luke Thompson",
+      "role": "Glenroy Homeowner"
+    },
+    {
+      "text": "We hired DQ for our shop's electrical fit-out in Coburg. They were efficient and the quality was top-notch. Our business has been running smoothly since.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on DQ Electrical for all our rental properties in Melbourne's north. Their reliability and quick response time make them my go-to electrician.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
