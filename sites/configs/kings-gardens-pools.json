@@ -1,0 +1,299 @@
+{
+  "siteType": "landscaper",
+  "businessName": "King's Gardens & Pools",
+  "suburb": "Torquay",
+  "phone": "0342271552",
+  "email": "info@kingslandscaping.com.au",
+  "address": "Unit 20/10 Cylinders Dr, Torquay VIC 3228",
+  "tagline": "Torquay's Garden & Pool Specialists",
+  "primaryColor": "#fcb900",
+  "primaryColorRgb": "252, 185, 0",
+  "primaryColorHover": "#e0a500",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Torquay's Garden Design Experts",
+      "sub": "In-house teams for smart outdoor retreats"
+    },
+    {
+      "title": "Landscaping Construction & Maintenance",
+      "sub": "From concept to year-round care in Torquay"
+    },
+    {
+      "title": "Enhance Your Coastal Lifestyle",
+      "sub": "Family-friendly spaces all year around"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Torquay Garden?",
+  "aboutHeading": "King's Gardens & Pools: Torquay's Landscapers",
+  "aboutSubheading": "Local experts in outdoor living",
+  "aboutText": "At King's Gardens & Pools in Torquay, our in-house team of garden design experts, landscaping construction crews, and maintenance professionals bring your outdoor vision to life. We create smart, practical, and inspiring outdoor retreats tailored to Torquay's unique coastal environment. Enhancing your outdoor space with us will transform your lifestyle, allowing family and friends to enjoy time together outside all year around.",
+  "servicesHeading": "Our Landscaping Services",
+  "servicesSubheading": "Comprehensive outdoor solutions",
+  "servicesText": "We offer a full range of landscaping services in Torquay, from initial design to ongoing maintenance. Our team ensures every project is completed to the highest standard, suiting Torquay's coastal lifestyle.",
+  "services": [
+    {
+      "title": "Garden Design",
+      "desc": "Tailored garden designs to suit Torquay's coastal climate and your lifestyle needs.",
+      "longDesc": "Our expert designers create custom garden plans that maximise your outdoor space in Torquay, considering local soil conditions, native plants, and year-round enjoyment for families.",
+      "points": [
+        "Personalised Concepts",
+        "Coastal Plant Expertise",
+        "Practical Layouts"
+      ]
+    },
+    {
+      "title": "Landscaping Construction",
+      "desc": "Full construction services to build your dream outdoor area in Torquay.",
+      "longDesc": "From hardscaping to soft planting, our construction crews handle all aspects of landscaping in Torquay, using quality materials that withstand coastal weather and enhance property value.",
+      "points": [
+        "End-to-End Building",
+        "Durable Materials",
+        "On-Time Completion"
+      ]
+    },
+    {
+      "title": "Landscape Maintenance",
+      "desc": "Regular care to keep your Torquay garden looking its best throughout the seasons.",
+      "longDesc": "Our maintenance team provides tailored programs for Torquay gardens, including pruning, fertilising, and irrigation management to ensure healthy, vibrant outdoor spaces.",
+      "points": [
+        "Scheduled Services",
+        "Seasonal Adjustments",
+        "Healthy Growth"
+      ]
+    },
+    {
+      "title": "Outdoor Living Spaces",
+      "desc": "Create functional outdoor rooms for entertainment and relaxation in Torquay.",
+      "longDesc": "We design and build patios, decks, and seating areas in Torquay that blend seamlessly with your garden, perfect for enjoying the coastal breeze and family gatherings.",
+      "points": [
+        "Entertainment Ready",
+        "Weather-Resistant",
+        "Custom Integration"
+      ]
+    },
+    {
+      "title": "Garden Renovations",
+      "desc": "Revitalise tired gardens with modern updates and improvements in Torquay.",
+      "longDesc": "Our renovation services refresh existing gardens in Torquay, incorporating new layouts, plant selections, and features to align with current trends and your evolving needs.",
+      "points": [
+        "Fresh Designs",
+        "Increased Appeal",
+        "Efficient Upgrades"
+      ]
+    },
+    {
+      "title": "Pool Landscaping",
+      "desc": "Specialised landscaping around pools for safety and beauty in Torquay.",
+      "longDesc": "We integrate pool areas with surrounding gardens in Torquay, using non-slip materials, privacy planting, and low-maintenance options to create a cohesive, enjoyable oasis.",
+      "points": [
+        "Safety Focused",
+        "Aesthetic Harmony",
+        "Low Maintenance"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Landscaper in Torquay?",
+  "bannerSubheading": "From design to maintenance, we've got you covered.",
+  "testimonialsHeading": "What Torquay Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners across the region",
+  "blogHeading": "Torquay Landscaping Tips & Guides",
+  "blogSubheading": "Expert advice for your outdoor projects",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "King's Gardens & Pools transformed our Torquay backyard with a stunning garden design. Their maintenance team keeps it looking perfect year-round. Highly recommend their landscaping services.",
+      "name": "Sarah Mitchell",
+      "role": "Torquay Homeowner"
+    },
+    {
+      "text": "The team at King's Gardens & Pools did an exceptional job on our outdoor living space in Torquay. Their attention to detail and use of coastal plants was impressive. A truly professional service.",
+      "name": "David Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Torquay, I rely on King's Gardens & Pools for regular landscape maintenance. They always deliver reliable, high-quality work that keeps our properties attractive and well-maintained.",
+      "name": "Emily Clarke",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Torquay",
+    "Anglesea",
+    "Aireys Inlet",
+    "Lorne",
+    "Jan Juc",
+    "Bellbrae"
+  ],
+  "about": {
+    "intro": "King's Gardens & Pools has been enhancing outdoor spaces in Torquay for over a decade, combining local expertise with passionate design.",
+    "story": [
+      "Founded in Torquay, our team of passionate landscapers and designers understand the unique challenges and opportunities of coastal gardening. We started with a simple goal: to create beautiful, functional outdoor areas that families can enjoy every day.",
+      "Over the years, we've completed countless projects across Torquay and the Surf Coast, from intimate garden makeovers to large-scale landscaping constructions. Our in-house crews handle everything, ensuring quality and consistency in every job."
+    ],
+    "mission": "To transform Torquay's outdoor spaces into inspiring retreats that enhance lifestyles.",
+    "whyUs": [
+      {
+        "title": "Local Experts",
+        "text": "We know Torquay's climate and soil, ensuring gardens thrive year-round with minimal issues."
+      },
+      {
+        "title": "In-House Teams",
+        "text": "All design, construction, and maintenance handled by our dedicated professionals for seamless results."
+      },
+      {
+        "title": "Custom Designs",
+        "text": "Tailored solutions that reflect your vision and suit your Torquay lifestyle perfectly."
+      },
+      {
+        "title": "Sustainable Practices",
+        "text": "Eco-friendly approaches using native plants and efficient irrigation to reduce water usage."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years in Torquay"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed landscapers",
+      "Comprehensive insurance",
+      "Free on-site quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At King's Gardens & Pools, we offer transparent pricing for all landscaping services in Torquay. No lock-in contracts, just honest quotes tailored to your project.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed proposal",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Garden Upgrade",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Design & construction",
+          "Premium materials",
+          "2-year maintenance plan",
+          "Satisfaction guarantee"
+        ]
+      },
+      {
+        "name": "Full Landscape Transformation",
+        "price": "from $20,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete redesign",
+          "Construction & planting",
+          "Irrigation system",
+          "Ongoing care options"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs, so you know exactly what to expect for your Torquay project."
+  },
+  "contact": {
+    "intro": "Ready to start your landscaping project in Torquay? Contact King's Gardens & Pools today for a free, no-obligation quote. We're here to help transform your outdoor space."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Landscaping Cost in Torquay? A Complete Guide",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting landscaping costs in Torquay, from design to materials and labor, to budget effectively for your outdoor project.",
+      "body": [
+        "When planning a landscaping project in Torquay, understanding the costs involved is crucial for setting a realistic budget. Factors such as the size of your outdoor space, the complexity of the design, and the quality of materials selected can all influence the final price. In Torquay's coastal environment, considerations like soil type, wind exposure, and native plant availability also play a role in determining costs. Professional landscapers like King's Gardens & Pools provide detailed quotes that break down these elements, ensuring transparency from the start.",
+        "The average cost of basic garden maintenance in Torquay typically ranges from $50 to $100 per hour, depending on the services required. For larger projects like garden renovations or outdoor living space construction, prices can vary widely. A standard garden upgrade might start from $5,000, while full landscape transformations could exceed $20,000. It's important to factor in ongoing maintenance costs to keep your Torquay garden thriving, especially with the region's variable weather conditions and salt spray from the coast.",
+        "In Torquay, the cost of hardscaping elements such as patios, pathways, and retaining walls can add significantly to the overall expense. Materials like natural stone or high-quality pavers are popular choices but come at a premium. Labour costs in the Surf Coast area are competitive, but skilled tradespeople are in demand, so booking in advance can help secure better rates. Always obtain multiple quotes from local Torquay landscapers to compare prices and services, ensuring you get the best value for your investment.",
+        "The time of year can also impact landscaping costs in Torquay. Booking projects during the off-season, typically winter months, might yield discounts as contractors are less busy. However, certain tasks like planting are best done in spring for optimal growth. Australian building standards and local council regulations may require permits for significant landscaping works, adding to the upfront costs. Consulting with a professional landscaper familiar with Torquay's requirements can help navigate these aspects smoothly.",
+        "To maximise your budget in Torquay, consider phased projects where you tackle different areas over time. This approach allows you to spread costs while still enjoying incremental improvements to your outdoor space. Investing in durable, low-maintenance materials can reduce long-term expenses, especially in Torquay's harsh coastal climate. Native plants are often more cost-effective as they require less water and care once established, contributing to a sustainable and budget-friendly garden.",
+        "In summary, landscaping costs in Torquay depend on multiple factors, but with careful planning and professional guidance, you can create a beautiful outdoor area within your means. King's Gardens & Pools offers free consultations to help Torquay homeowners understand their options and make informed decisions. By focusing on local expertise and tailored solutions, you can ensure your landscaping project is both cost-effective and perfectly suited to the Torquay lifestyle."
+      ]
+    },
+    {
+      "title": "Best Native Plants for Coastal Gardens in Torquay",
+      "date": "February 2026",
+      "excerpt": "Explore top native plant selections for Torquay's coastal gardens, adapted to sandy soils, salt winds, and the local climate for resilient beauty.",
+      "body": [
+        "Torquay's coastal location presents unique challenges for gardening, including sandy soils, salt-laden winds, and variable rainfall. Selecting native plants that are naturally adapted to these conditions is key to creating a low-maintenance, thriving garden. Species like Coastal Banksia, Tea Tree, and Pigface are excellent choices for Torquay gardens, as they tolerate poor soils and exposure while providing habitat for local wildlife. Incorporating these plants can reduce water usage and the need for chemical treatments, aligning with sustainable gardening practices.",
+        "When designing a native garden in Torquay, consider the layout to provide shelter from prevailing winds. Using layers of shrubs and trees can create microclimates that protect more delicate species. Native grasses such as Lomandra and Dianella are hardy options that add texture and movement to the landscape. These plants are well-suited to Torquay's climate and can be used in borders, mass plantings, or as ground covers to suppress weeds and retain soil moisture.",
+        "The aesthetic appeal of native plants in Torquay gardens is significant, with flowering species like Grevillea and Kangaroo Paw offering vibrant colours throughout the year. These plants attract birds and pollinators, enhancing biodiversity in your outdoor space. For poolside areas in Torquay, opt for non-invasive natives that won't drop excessive leaves or roots into the water. Consulting with a local landscaper can help select the right plants for specific zones in your garden, ensuring harmony and functionality.",
+        "Soil preparation is crucial when establishing native plants in Torquay. While these species are adaptable, improving drainage and adding organic matter can enhance their establishment. Mulching with native bark or gravel helps conserve moisture and regulate soil temperature, which is beneficial in Torquay's warm summers and cool winters. Avoid over-fertilising, as native plants often thrive in low-nutrient soils, and excessive growth can make them more susceptible to pests and diseases.",
+        "In Torquay, native plants also contribute to the local ecosystem by providing food and shelter for fauna. Incorporating elements like bird baths or insect hotels can further enhance this ecological benefit. For larger properties, consider creating a native bush garden that mimics the natural coastal vegetation of the Surf Coast region. This approach not only reduces maintenance but also preserves the unique character of Torquay's landscape.",
+        "Overall, using native plants in Torquay gardens is a smart choice for sustainability, beauty, and resilience. King's Gardens & Pools specialises in native landscaping, offering expert advice on plant selection and garden design tailored to Torquay's conditions. By embracing local flora, you can create a garden that is both environmentally responsible and visually stunning, perfectly suited to the coastal lifestyle."
+      ]
+    },
+    {
+      "title": "Preparing Your Torquay Garden for Summer: Tips and Tricks",
+      "date": "January 2026",
+      "excerpt": "Learn essential tips to get your Torquay garden ready for summer, including irrigation, shading, and plant care to withstand the heat.",
+      "body": [
+        "As summer approaches in Torquay, preparing your garden to handle the increased heat and sun exposure is essential. Start by assessing your irrigation system to ensure it's efficient and covering all areas. Drip irrigation or soaker hoses are ideal for Torquay's sandy soils, as they deliver water directly to the roots, reducing evaporation. Mulching heavily around plants can help retain moisture and keep roots cool, which is particularly important for newly planted specimens.",
+        "Shading is another key consideration for Torquay gardens in summer. Installing shade sails or using plants like trees and tall shrubs can protect vulnerable areas from intense sunlight. Consider the orientation of your outdoor spaces and provide shaded seating areas for comfort. For vegetable gardens in Torquay, using shade cloth can prevent scorching and extend the growing season for heat-sensitive crops like tomatoes and lettuce.",
+        "Plant care during summer in Torquay involves regular monitoring for pests and diseases, which can thrive in warm conditions. Inspect plants for signs of aphids, spider mites, or fungal issues, and address them promptly with eco-friendly solutions. Pruning can improve air circulation and reduce the risk of disease. Native plants are generally more resistant, but even they may need extra attention during prolonged dry spells.",
+        "Maintaining healthy soil is vital for summer resilience in Torquay. Adding compost or organic matter can improve water retention and nutrient availability. Avoid over-fertilising, as this can promote soft growth that is more susceptible to heat stress. For lawns in Torquay, mowing at a higher setting can shade the soil and reduce water loss. Consider drought-tolerant grass varieties if your lawn is struggling.",
+        "Outdoor living areas in Torquay should also be summer-proofed. Clean and inspect outdoor furniture, and ensure that entertainment spaces are well-ventilated and shaded. For pool areas, regular maintenance of water levels and chemical balance is crucial to prevent algae growth in the heat. Landscaping around pools with heat-resistant plants can enhance the aesthetic while providing functional benefits.",
+        "In summary, preparing your Torquay garden for summer involves a combination of irrigation management, shading, plant care, and soil maintenance. King's Gardens & Pools offers seasonal maintenance packages tailored to Torquay's climate, helping homeowners keep their gardens thriving through the warmer months. By taking proactive steps, you can enjoy a beautiful and functional outdoor space all summer long in Torquay."
+      ]
+    },
+    {
+      "title": "The Benefits of Professional Landscape Maintenance in Torquay",
+      "date": "December 2025",
+      "excerpt": "Discover why hiring professional landscape maintenance services in Torquay can save time, enhance property value, and ensure garden health.",
+      "body": [
+        "Professional landscape maintenance in Torquay offers numerous benefits for homeowners and property managers. Regular upkeep by experts ensures that your garden remains healthy, attractive, and functional throughout the year. In Torquay's coastal environment, this includes tasks like pruning, fertilising, pest control, and irrigation management, all tailored to local conditions. By outsourcing these responsibilities, you can save valuable time and avoid the physical demands of garden work.",
+        "One of the key advantages of professional maintenance in Torquay is the expertise that comes with local knowledge. Landscapers familiar with the area understand the specific challenges, such as salt spray, sandy soils, and wind exposure. They can recommend and implement strategies to protect plants, improve soil health, and optimise water usage. This expertise helps prevent common issues like plant decline or erosion, which can be costly to address if left unchecked.",
+        "Well-maintained gardens significantly enhance property value in Torquay, a region where outdoor living is highly prized. A tidy, vibrant garden creates a positive first impression for potential buyers or tenants. Professional services ensure that your landscape is always in top condition, with regular mowing, edging, and seasonal adjustments. This level of care can increase curb appeal and make your property stand out in the competitive Torquay market.",
+        "For busy homeowners in Torquay, professional landscape maintenance provides peace of mind. Knowing that your garden is being cared for by reliable experts allows you to focus on other priorities. Maintenance plans can be customised to suit your needs and budget, offering flexibility in service frequency and scope. This is particularly beneficial for those with large properties or complex garden designs that require specialised attention.",
+        "In addition to aesthetic benefits, professional maintenance in Torquay contributes to environmental sustainability. Experts can implement water-efficient irrigation systems, use organic fertilisers, and promote biodiversity through native plant care. This approach not only conserves resources but also supports the local ecosystem, aligning with Torquay's community values of environmental stewardship.",
+        "Ultimately, investing in professional landscape maintenance in Torquay is a smart decision that pays dividends in property value, time savings, and garden health. King's Gardens & Pools offers comprehensive maintenance programs designed for Torquay's unique conditions, ensuring your outdoor space remains a source of pride and enjoyment. By partnering with local professionals, you can maintain a beautiful garden effortlessly."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "King's Gardens & Pools | Landscaper in Torquay | Design & Maintenance",
+      "description": "Transform your Torquay outdoor space with expert garden design, construction, and maintenance from King's Gardens & Pools. Free quotes for local residents."
+    },
+    "about": {
+      "title": "About Us | Torquay's Trusted Landscaping Team | King's Gardens",
+      "description": "Learn about King's Gardens & Pools, Torquay's local landscaping experts with over 10 years of experience in garden design, construction, and maintenance."
+    },
+    "services": {
+      "title": "Landscaping Services in Torquay | Gardens, Pools & Outdoor Living",
+      "description": "Explore comprehensive landscaping services in Torquay including garden design, construction, maintenance, and pool landscaping from King's Gardens & Pools."
+    },
+    "pricing": {
+      "title": "Landscaping Costs & Prices Torquay | King's Gardens & Pools",
+      "description": "Transparent pricing for landscaping services in Torquay. Get free quotes for garden design, upgrades, and transformations with no hidden costs."
+    },
+    "contact": {
+      "title": "Contact King's Gardens & Pools | Free Torquay Landscaping Quotes",
+      "description": "Get in touch with King's Gardens & Pools in Torquay for free landscaping quotes. We offer garden design, construction, and maintenance services."
+    },
+    "blog": {
+      "title": "Torquay Landscaping Blog | Local Tips, Costs & Guides",
+      "description": "Read expert advice on landscaping in Torquay, including cost guides, native plants, seasonal tips, and maintenance benefits from local professionals."
+    }
+  }
+}
