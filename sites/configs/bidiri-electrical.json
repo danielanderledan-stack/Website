@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Bidiri Electrical",
+  "suburb": "Coburg North",
+  "phone": "0416 080 707",
+  "email": "info@bidirielectrical.com",
+  "address": "27 Catherine St, Coburg North VIC 3058",
+  "tagline": "Coburg North's Trusted Electrician",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6800c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coburg North's Go-To Electrician",
+      "sub": "Serving Melbourne's northern and eastern districts"
+    },
+    {
+      "title": "Reliable Electrical Solutions for Every Need",
+      "sub": "Residential, commercial & emergency services"
+    },
+    {
+      "title": "Trusted by Coburg North Locals",
+      "sub": "Free quotes and 24/7 availability"
+    }
+  ],
+  "ctaHeading": "Coburg North Electricians — Let's Power Your Project.",
+  "aboutHeading": "Your Local Coburg North Electrician",
+  "aboutSubheading": "Licensed, reliable, and always available",
+  "aboutText": "Bidiri Electrical is your trusted local electrician in Coburg North, serving the greater Melbourne area. With a commitment to excellence, we provide comprehensive electrical services including installations, repairs, and emergency callouts. Our team, led by Ali, ensures every job is done right the first time, offering reliable and affordable solutions.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "We specialise in a variety of electrical services for both residential and commercial clients. From new builds to maintenance, our skilled electricians in Coburg North deliver quality workmanship. Whether it's lighting, wiring, or security systems, we've got you covered.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Expert electrical solutions for homes in Coburg North, including wiring, repairs, and safety inspections."
+    },
+    {
+      "title": "Commercial Electrical Work",
+      "desc": "Tailored electrical services for businesses, from fit-outs to ongoing maintenance contracts."
+    },
+    {
+      "title": "Emergency Electrician",
+      "desc": "24/7 emergency callouts across Coburg North for urgent electrical issues and breakdowns."
+    },
+    {
+      "title": "Security System Installation",
+      "desc": "Professional installation and maintenance of security alarms and CCTV systems for your peace of mind."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Custom lighting design and installation for homes and businesses, enhancing both function and style."
+    },
+    {
+      "title": "Power Upgrades and Wiring",
+      "desc": "Upgrade your electrical system with modern wiring and power solutions to meet current demands."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Coburg North?",
+  "bannerSubheading": "Fast response and quality work guaranteed.",
+  "testimonialsHeading": "Coburg North Locals Recommend Us",
+  "testimonialsSubheading": "See why we're the trusted choice",
+  "blogHeading": "Electrical Insights & Tips",
+  "blogSubheading": "Stay safe and informed",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "I strongly recommend Bidiri Electrical to anyone in Coburg North requiring work on their home. Special thank you to Ali and his team for the installation of my new security system. Very affordable price and holds his customers needs in high regard.",
+      "name": "Ibby",
+      "role": "Coburg North Homeowner"
+    },
+    {
+      "text": "As a property manager, I can always rest assured when Ali is sent out for a work order. Extremely reliable and fairly priced, he is great to deal with. Highly recommend.",
+      "name": "Josiah Donato",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Called him out to my gym to hook up the speakers and install a few different lights around. The previous electrician had difficulty, but Ali was confident and got the job done. Speakers are working amazing, definitely recommend!",
+      "name": "Team Musclefit",
+      "role": "Local Business Owner"
+    }
+  ]
+}
