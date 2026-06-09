@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Mocha Crown Automotive",
+  "suburb": "Chelsea Heights",
+  "phone": "03 9772 1234",
+  "email": "info@mochacrownauto.com.au",
+  "address": "271 Wells Rd, Chelsea Heights VIC 3196",
+  "tagline": "Chelsea Heights' Trusted Car Mechanics",
+  "primaryColor": "#00aaff",
+  "primaryColorRgb": "0, 170, 255",
+  "primaryColorHover": "#0088cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Chelsea Heights' Auto Experts",
+      "sub": "Specializing in European and Hybrid Vehicles"
+    },
+    {
+      "title": "Transmission, Brakes & Full Car Servicing",
+      "sub": "Quality repairs for all makes and models"
+    },
+    {
+      "title": "Mocha Crown Automotive – Local Mechanics",
+      "sub": "Serving Chelsea Heights since 2005"
+    }
+  ],
+  "ctaHeading": "Need a Car Mechanic in Chelsea Heights? Contact Us Today",
+  "aboutHeading": "Expert Car Repairs in Chelsea Heights",
+  "aboutSubheading": "Mocha Crown Automotive – Your Local Experts",
+  "aboutText": "Mocha Crown Automotive has been the go-to car repair shop in Chelsea Heights for over 15 years. Our team of qualified mechanics specializes in European car repairs, hybrid systems, and comprehensive diagnostics. From transmission services to brake repairs, we provide reliable, transparent service to keep your vehicle in top condition. Located on Wells Road, we serve Chelsea Heights and surrounding suburbs with pride.",
+  "servicesHeading": "Our Comprehensive Car Repair Services",
+  "servicesSubheading": "Quality workmanship for every vehicle",
+  "servicesText": "At Mocha Crown Automotive, we offer a full range of car repair services in Chelsea Heights. Our mechanics are trained in the latest technologies, ensuring accurate diagnostics and efficient repairs. Whether it's routine maintenance or complex engine work, we've got you covered.",
+  "services": [
+    {
+      "title": "European Car Repairs",
+      "desc": "Specialized servicing for BMW, Mercedes, Audi, and more in Chelsea Heights.",
+      "longDesc": "Our mechanics are experts in European car repairs, using advanced diagnostics to pinpoint issues accurately. We provide genuine parts and manufacturer-standard service for all European makes, ensuring optimal performance and longevity.",
+      "points": [
+        "Advanced diagnostics",
+        "Genuine parts",
+        "Manufacturer standards"
+      ]
+    },
+    {
+      "title": "Hybrid Vehicle Service",
+      "desc": "Expert care for hybrid cars, from battery checks to full system repairs.",
+      "longDesc": "Hybrid vehicles require specialized knowledge, and our Chelsea Heights team is certified to service all hybrid systems. From battery diagnostics to electric motor repairs, we ensure your hybrid runs efficiently and reliably.",
+      "points": [
+        "Certified hybrid technicians",
+        "Battery health checks",
+        "Efficient performance"
+      ]
+    },
+    {
+      "title": "Brake & Transmission Service",
+      "desc": "Comprehensive brake repairs and transmission servicing for safety.",
+      "longDesc": "We offer complete brake inspections, pad replacements, and transmission flushes to maintain your vehicle's safety and smooth operation. Our Chelsea Heights workshop uses quality materials for lasting results.",
+      "points": [
+        "Safety-focused repairs",
+        "Quality brake pads",
+        "Transmission flushes"
+      ]
+    },
+    {
+      "title": "Cooling System Repairs",
+      "desc": "Water pump, radiator, and cooling system fixes to prevent overheating.",
+      "longDesc": "Overheating can cause severe engine damage; our mechanics specialize in cooling system repairs in Chelsea Heights. We handle water pump replacements, radiator flushes, and hose repairs to keep your engine cool.",
+      "points": [
+        "Prevent engine damage",
+        "Expert radiator service",
+        "Cooling system diagnostics"
+      ]
+    },
+    {
+      "title": "Diagnostic & Electrical Services",
+      "desc": "No-start diagnostics, electrical faults, and computer scans.",
+      "longDesc": "Using state-of-the-art diagnostic tools, we accurately identify electrical issues, no-start problems, and sensor faults in Chelsea Heights. Our comprehensive scans ensure precise repairs every time.",
+      "points": [
+        "Advanced diagnostic tools",
+        "Accurate fault finding",
+        "Electrical system repairs"
+      ]
+    },
+    {
+      "title": "General Maintenance & Servicing",
+      "desc": "Oil changes, filter replacements, and regular vehicle check-ups.",
+      "longDesc": "Routine maintenance is key to vehicle longevity; we provide oil changes, filter replacements, and full inspections in Chelsea Heights. Our scheduled services keep your car running smoothly year-round.",
+      "points": [
+        "Affordable oil changes",
+        "Filter replacements",
+        "Scheduled servicing"
+      ]
+    }
+  ],
+  "bannerHeading": "Mocha Crown Automotive – Your Local Chelsea Heights Mechanics",
+  "bannerSubheading": "Reliable car repairs with a smile",
+  "testimonialsHeading": "What Chelsea Heights Locals Say About Us",
+  "testimonialsSubheading": "Honest service, happy customers",
+  "blogHeading": "Auto Care Tips from Chelsea Heights Mechanics",
+  "blogSubheading": "Expert advice to keep your car in top shape",
+  "contactHeading": "Get a Free Quote from Mocha Crown Automotive",
+  "contactSubheading": "We're here to help with all your car repair needs",
+  "reviews": [
+    {
+      "text": "Mocha Crown Automotive fixed my European car's transmission quickly and affordably. Highly recommend their service in Chelsea Heights for any complex repairs.",
+      "name": "John Smith",
+      "role": "Chelsea Heights Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on Mocha Crown for our fleet maintenance. Their diagnostics are spot-on, and they always get the job done right.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent hybrid vehicle service at Mocha Crown. They explained everything clearly and my car runs like new. Great team in Chelsea Heights!",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Chelsea Heights",
+    "Chelsea",
+    "Aspendale",
+    "Mentone",
+    "Bonbeach",
+    "Parkdale"
+  ],
+  "about": {
+    "intro": "Mocha Crown Automotive is a leading car repair shop in Chelsea Heights, offering expert services for all vehicle makes and models.",
+    "story": [
+      "Founded over 15 years ago, Mocha Crown Automotive has grown from a small garage to a trusted name in Chelsea Heights. Our mechanics bring decades of combined experience, specializing in European and hybrid vehicles to meet the evolving needs of modern cars.",
+      "We pride ourselves on using the latest diagnostic technology and genuine parts to deliver high-quality repairs. From routine servicing to complex engine overhauls, our Chelsea Heights workshop is equipped to handle it all with precision and care."
+    ],
+    "mission": "To provide Chelsea Heights with reliable, transparent car repair services that keep vehicles safe and efficient.",
+    "whyUs": [
+      {
+        "title": "Certified Mechanics",
+        "text": "Our team is fully qualified and trained in the latest automotive technologies."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We offer upfront quotes with no hidden fees, ensuring honesty in every job."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use genuine and high-quality aftermarket parts for lasting repairs."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Chelsea Heights' driving conditions and vehicle needs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,500+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free diagnostic scans",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Mocha Crown Automotive in Chelsea Heights, we provide clear pricing with no lock-in contracts. Our quotes are fixed upfront, so you know exactly what to expect.",
+    "packages": [
+      {
+        "name": "Diagnostic Scan",
+        "price": "$80",
+        "unit": "per scan",
+        "highlight": false,
+        "features": [
+          "Full vehicle scan",
+          "Detailed report",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Service",
+        "price": "from $200",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Fluid top-ups",
+          "Service report"
+        ]
+      },
+      {
+        "name": "Major Repair Package",
+        "price": "from $800",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive diagnostics",
+          "Quality parts used",
+          "Warranty on repairs",
+          "Post-service support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided before any work begins, ensuring no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get your car repaired? Contact Mocha Crown Automotive in Chelsea Heights for a free quote. Call us or visit our workshop on Wells Road."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Car Service Cost in Chelsea Heights?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of car servicing in Chelsea Heights, including factors that affect pricing and tips to save on maintenance.",
+      "body": [
+        "Car servicing costs in Chelsea Heights can vary based on the vehicle type, service needed, and the mechanic's expertise. At Mocha Crown Automotive, we offer competitive pricing for all makes and models, starting from basic oil changes to comprehensive inspections. Factors like European car parts, hybrid system checks, and local demand influence the final price, but we ensure transparency with upfront quotes.",
+        "For a standard car service in Chelsea Heights, expect to pay between $150 and $300, covering oil replacement, filter changes, and a multi-point check. Luxury or European vehicles might cost more due to specialized parts and labor. Our Chelsea Heights workshop provides detailed breakdowns, so you understand each cost component without hidden fees.",
+        "Hybrid vehicle services in Chelsea Heights often include battery diagnostics and system calibration, which can add to the cost. However, regular maintenance can prevent expensive repairs down the line. Mocha Crown Automotive uses manufacturer-approved tools to ensure accurate servicing, keeping your hybrid efficient and reliable.",
+        "To save on car servicing costs in Chelsea Heights, consider scheduling regular check-ups to catch issues early. We offer service packages that bundle multiple checks at a discounted rate. Additionally, using quality aftermarket parts can reduce expenses without compromising on performance, as we do at our local workshop.",
+        "Australian regulations require certain safety inspections, which are part of the servicing cost in Chelsea Heights. Our mechanics are familiar with local standards and ensure your vehicle complies with all legal requirements. We also provide advice on seasonal maintenance, like preparing for Melbourne's variable weather.",
+        "In summary, the cost of car service in Chelsea Heights depends on several factors, but with Mocha Crown Automotive, you get reliable service at fair prices. Contact us for a personalized quote based on your vehicle's needs, and drive with confidence knowing your car is in expert hands."
+      ]
+    },
+    {
+      "title": "Signs Your Hybrid Car Needs Repair in Chelsea Heights",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators that your hybrid vehicle requires professional attention in Chelsea Heights to avoid costly breakdowns.",
+      "body": [
+        "Hybrid cars are popular in Chelsea Heights for their fuel efficiency, but they require specialized care to stay in top condition. At Mocha Crown Automotive, we often see hybrids with issues that, if caught early, can prevent major repairs. Understanding the signs of trouble can save you time and money in the long run.",
+        "One common sign is a decrease in battery performance, such as shorter electric-only driving range or frequent charging needs. In Chelsea Heights' variable climate, battery health can fluctuate, so regular diagnostics are essential. Our workshop uses advanced tools to check battery cells and recommend solutions.",
+        "Unusual noises or vibrations during acceleration or braking in your hybrid car in Chelsea Heights may indicate motor or brake system issues. Hybrids have regenerative braking systems that need proper maintenance. We inspect these components thoroughly to ensure safety and efficiency.",
+        "Dashboard warning lights, especially for hybrid systems or electrical faults, should never be ignored. In Chelsea Heights, our mechanics are trained to interpret these alerts accurately and perform necessary repairs. Early intervention can prevent small problems from escalating.",
+        "To keep your hybrid car reliable in Chelsea Heights, follow the manufacturer's service schedule and pay attention to performance changes. Mocha Crown Automotive offers hybrid-specific packages that include battery checks, system updates, and fluid replacements tailored to local driving conditions.",
+        "If you notice any of these signs in Chelsea Heights, bring your hybrid to Mocha Crown Automotive for a thorough inspection. Our expertise in hybrid repairs ensures your vehicle remains efficient, safe, and ready for the road."
+      ]
+    },
+    {
+      "title": "Why Choose a European Car Specialist in Chelsea Heights?",
+      "date": "January 2026",
+      "excerpt": "Explore the benefits of taking your European vehicle to a specialized mechanic in Chelsea Heights for superior service and longevity.",
+      "body": [
+        "European cars like BMW, Mercedes, and Audi are common on Chelsea Heights roads, but they require specialized knowledge for proper maintenance. At Mocha Crown Automotive, our mechanics are trained in European car systems, ensuring your vehicle receives the best care tailored to its unique engineering.",
+        "In Chelsea Heights, where driving conditions can vary from urban streets to coastal winds, European cars need diagnostics that account for specific performance metrics. Our workshop uses manufacturer-approved tools to scan for faults accurately, avoiding generic repairs that might miss issues.",
+        "Using genuine parts is crucial for European car repairs in Chelsea Heights. Aftermarket parts can sometimes compromise performance or void warranties. We source authentic components to maintain your vehicle's integrity and resale value, providing peace of mind for owners.",
+        "Regular servicing by a specialist in Chelsea Heights can prevent common European car problems, such as electrical glitches or turbocharger wear. We offer scheduled maintenance plans that include detailed inspections, fluid changes, and software updates to keep your car running smoothly.",
+        "The cost of European car repairs in Chelsea Heights might be higher due to parts and expertise, but investing in specialized service saves money long-term by avoiding breakdowns. Mocha Crown Automotive provides transparent pricing and upfront quotes, so there are no surprises.",
+        "Choosing a European car specialist in Chelsea Heights ensures your vehicle is handled by experts who understand its intricacies. Mocha Crown Automotive is committed to delivering high-quality repairs that preserve your car's performance and safety."
+      ]
+    },
+    {
+      "title": "Preparing Your Car for Melbourne Winters in Chelsea Heights",
+      "date": "December 2025",
+      "excerpt": "Essential tips to winterize your vehicle and avoid common issues in Chelsea Heights' cold, damp months.",
+      "body": [
+        "Melbourne winters in Chelsea Heights bring cold temperatures and damp conditions that can stress your car. At Mocha Crown Automotive, we recommend preparing your vehicle early to prevent cold-weather problems. Simple checks can make a big difference in reliability during the cooler months.",
+        "Start with a battery check, as cold weather reduces battery efficiency. In Chelsea Heights, where mornings can be chilly, a weak battery might leave you stranded. Our workshop tests battery health and cleans terminals to ensure optimal performance.",
+        "Inspect your tires for tread depth and pressure, as wet roads in Chelsea Heights increase the risk of hydroplaning. Properly inflated tires with good tread provide better traction. We also recommend checking antifreeze levels to prevent engine freezing.",
+        "Ensure your heating system and defrosters are working correctly for comfort and safety. In Chelsea Heights' winters, clear windows are essential for visibility. We service HVAC systems, including cabin filters, to keep your car's interior warm and fog-free.",
+        "Use appropriate winter-grade oil and fluids in your car to handle lower temperatures. Chelsea Heights mechanics at Mocha Crown Automotive can advise on the right viscosity for your engine. Also, check wiper blades and replace them if they're worn for better rain visibility.",
+        "Finally, keep an emergency kit in your car with essentials like a blanket, flashlight, and jumper cables. Chelsea Heights roads can be unpredictable in winter, so being prepared is key. Visit Mocha Crown Automotive for a full winter inspection to drive with confidence."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Mocha Crown Automotive | Car Repair in Chelsea Heights | European & Hybrid Experts",
+      "description": "Expert car repair services in Chelsea Heights, specializing in European and hybrid vehicles. Trust Mocha Crown Automotive for reliable diagnostics and maintenance."
+    },
+    "about": {
+      "title": "About Mocha Crown Automotive | Chelsea Heights Car Mechanics",
+      "description": "Learn about Mocha Crown Automotive, Chelsea Heights' trusted car repair shop with over 15 years of experience in European and hybrid car services."
+    },
+    "services": {
+      "title": "Car Repair Services in Chelsea Heights | Mocha Crown Automotive",
+      "description": "Comprehensive car repair services in Chelsea Heights, including European car repairs, hybrid servicing, brake and transmission fixes. Quality you can trust."
+    },
+    "pricing": {
+      "title": "Car Repair Costs in Chelsea Heights | Mocha Crown Automotive",
+      "description": "Transparent pricing for car repairs in Chelsea Heights. Get upfront quotes for diagnostics, servicing, and major repairs at Mocha Crown Automotive."
+    },
+    "contact": {
+      "title": "Contact Mocha Crown Automotive | Free Quotes in Chelsea Heights",
+      "description": "Get a free quote from Mocha Crown Automotive in Chelsea Heights. Call or visit us for expert car repair services with no obligation."
+    },
+    "blog": {
+      "title": "Auto Care Blog | Chelsea Heights Car Repair Tips | Mocha Crown",
+      "description": "Stay informed with car care tips and advice from Chelsea Heights mechanics at Mocha Crown Automotive. Guides on servicing, costs, and maintenance."
+    }
+  }
+}
