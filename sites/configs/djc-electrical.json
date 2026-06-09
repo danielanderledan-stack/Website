@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "DJC Electrical",
+  "suburb": "Doncaster",
+  "phone": "0412 345 678",
+  "email": "info@djcelectrical.com.au",
+  "address": "2 Dawson Street, Doncaster VIC 3108",
+  "tagline": "Doncaster's Trusted Electricians",
+  "primaryColor": "#5affff",
+  "primaryColorRgb": "90, 255, 255",
+  "primaryColorHover": "#41e9ff",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Doncaster's Go-To Electricians",
+      "sub": "Serving Melbourne's eastern suburbs for over a decade"
+    },
+    {
+      "title": "Switchboards, Wiring & Safety Inspections",
+      "sub": "Domestic, commercial & industrial electrical solutions"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Doncaster & surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Doncaster? Call DJC Electrical Today.",
+  "aboutHeading": "10+ Years Serving Doncaster",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With over 10 years of experience in Doncaster, DJC Electrical has been providing top-notch electrical services to homes and businesses. Our team is fully licensed and insured, ensuring every job is done right the first time. We specialise in everything from switchboard upgrades to emergency repairs, tailored to the unique needs of Melbourne's eastern suburbs.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for all your needs",
+  "servicesText": "At DJC Electrical, we offer a comprehensive range of services including installations, maintenance, and safety checks. Whether it's a simple repair or a complete rewiring, we handle it with precision and care.",
+  "services": [
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your old switchboard to meet current safety standards.",
+      "longDesc": "We specialise in switchboard upgrades in Doncaster, ensuring your electrical system is safe and compliant with Australian regulations. Our services include meter box replacements and safety switch installations for enhanced protection.",
+      "points": [
+        "Enhanced safety",
+        "Compliance guaranteed",
+        "Future-proofed system"
+      ]
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Comprehensive electrical safety checks for homes and businesses.",
+      "longDesc": "Our detailed safety inspections in Doncaster identify potential hazards and ensure your property meets all safety codes. We provide thorough reports and recommendations for peace of mind.",
+      "points": [
+        "Detailed hazard analysis",
+        "Code compliance report",
+        "Expert recommendations"
+      ]
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional installation of indoor and outdoor lighting systems.",
+      "longDesc": "From energy-efficient LED upgrades to decorative lighting, we design and install solutions that enhance your Doncaster property. Our work includes both residential and commercial projects.",
+      "points": [
+        "Energy-efficient options",
+        "Custom designs",
+        "Professional finish"
+      ]
+    },
+    {
+      "title": "Wiring & Rewiring",
+      "desc": "Complete wiring services for new builds and renovations.",
+      "longDesc": "We provide expert wiring and rewiring services in Doncaster, using high-quality materials to ensure durability and safety. Our team handles everything from partial updates to full property rewiring.",
+      "points": [
+        "Quality materials",
+        "Minimised disruption",
+        "Long-term reliability"
+      ]
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 rapid response for urgent electrical faults.",
+      "longDesc": "DJC Electrical offers prompt emergency repair services across Doncaster. We quickly diagnose and fix issues like power outages or electrical fires to restore safety and functionality.",
+      "points": [
+        "24/7 availability",
+        "Fast response times",
+        "Emergency solutions"
+      ]
+    },
+    {
+      "title": "Solar Panel Installation",
+      "desc": "Harness solar energy with professional installation services.",
+      "longDesc": "We install and maintain solar panel systems in Doncaster, helping you reduce energy bills and carbon footprint. Our services include system design, installation, and ongoing support.",
+      "points": [
+        "Cost savings",
+        "Eco-friendly power",
+        "Expert installation"
+      ]
+    }
+  ],
+  "bannerHeading": "Get a Free Electrical Quote in Doncaster",
+  "bannerSubheading": "Fast, reliable service from your local electricians",
+  "testimonialsHeading": "What Doncaster Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Electrical Tips & Local Advice",
+  "blogSubheading": "Insights from Doncaster's electrical experts",
+  "contactHeading": "Contact DJC Electrical",
+  "contactSubheading": "We're here to help with all your electrical needs",
+  "reviews": [
+    {
+      "text": "DJC Electrical did an excellent job upgrading our switchboard in Doncaster. They were professional, on time, and left everything clean. Highly recommend for any electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Doncaster Homeowner"
+    },
+    {
+      "text": "We hired them for lighting installation at our café in Doncaster. The work was top-notch and reasonably priced. They transformed our space with modern fixtures.",
+      "name": "James Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on DJC Electrical for tenant safety inspections. They always deliver timely reports and ensure compliance. A trusted partner in Doncaster.",
+      "name": "Rebecca Torres",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Doncaster",
+    "Doncaster East",
+    "Box Hill",
+    "Balwyn",
+    "Bulleen",
+    "Templestowe"
+  ],
+  "about": {
+    "intro": "DJC Electrical is your trusted local electrician in Doncaster, providing reliable and safe electrical services for over a decade.",
+    "story": [
+      "Founded over 10 years ago, DJC Electrical has grown from a small family business to a leading electrical service provider in Doncaster. Our journey began with a commitment to quality workmanship and customer satisfaction, serving the local community with integrity.",
+      "Today, we serve hundreds of homes and businesses across Melbourne's eastern suburbs, specialising in both residential and commercial electrical solutions. Our team stays updated with the latest technologies and safety standards to ensure top-quality service every time."
+    ],
+    "mission": "To provide Doncaster with safe, efficient, and affordable electrical services that exceed expectations.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are licensed and insured for your peace of mind."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your time with punctual service every visit."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden costs – get a clear quote before we start."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand by our work with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At DJC Electrical, we offer transparent pricing with no lock-in contracts. Get a free quote for your electrical needs in Doncaster.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Common electrical fixes",
+          "Safety checks",
+          "Quality parts",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complex installations",
+          "Rewiring services",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and upfront – no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact DJC Electrical for a free quote on your electrical project in Doncaster. We're just a call or email away."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Switchboard Upgrade Cost in Doncaster?",
+      "date": "March 2026",
+      "excerpt": "Understanding the costs and benefits of upgrading your switchboard in Doncaster. A comprehensive guide for homeowners and businesses.",
+      "body": [
+        "Switchboard upgrades are essential for maintaining electrical safety in Doncaster homes and businesses. In Melbourne's eastern suburbs, older properties often have outdated switchboards that can pose risks like electrical fires or faults. The cost of upgrading in Doncaster typically ranges from $800 to $2,500, depending on the complexity, materials, and labour involved. Factors such as the number of circuits, presence of safety switches, and compliance with current Australian standards influence the final price. DJC Electrical provides detailed assessments to ensure accurate quotes tailored to your Doncaster property.",
+        "When considering a switchboard upgrade in Doncaster, it's crucial to understand the components involved. Modern switchboards include circuit breakers, residual current devices (RCDs), and surge protection to safeguard against power surges common in Melbourne's variable climate. The installation process involves inspecting existing wiring, replacing outdated components, and testing for compliance. In Doncaster, where homes may range from modern builds to heritage properties, we customise upgrades to meet specific needs, ensuring minimal disruption and maximum safety for residents.",
+        "The benefits of a switchboard upgrade extend beyond safety. In Doncaster, an upgraded system can improve energy efficiency, reduce electricity bills by preventing wastage, and increase property value. Many insurance providers in Melbourne offer lower premiums for homes with compliant switchboards, adding financial incentives. DJC Electrical uses high-quality, Australian-standard materials sourced from trusted suppliers, ensuring durability and reliability. Our team in Doncaster is trained to handle both residential and commercial projects, providing peace of mind with every installation.",
+        "Common signs that you need a switchboard upgrade in Doncaster include frequent circuit breaker trips, flickering lights, or a lack of safety switches. Melbourne's climate, with its hot summers and cold winters, can stress electrical systems, making upgrades vital for year-round reliability. During our inspections in Doncaster, we also check for pest damage or corrosion, which are prevalent in some areas. Addressing these issues promptly prevents costly repairs down the line and ensures your property remains safe and functional for years.",
+        "DJC Electrical prioritises transparency in our switchboard upgrade services for Doncaster clients. We provide fixed, upfront quotes with no hidden fees, outlining all costs for materials, labour, and compliance testing. Our process includes a thorough site assessment, where we evaluate your electrical needs and recommend the best solution. For Doncaster businesses, we offer after-hours installations to minimise operational downtime. With over 10 years of experience in Melbourne's eastern suburbs, we guarantee workmanship that meets or exceeds industry standards.",
+        "In summary, investing in a switchboard upgrade in Doncaster is a smart decision for safety, efficiency, and long-term savings. Whether you're a homeowner or business owner, DJC Electrical is here to guide you through the process with expert advice and reliable service. Contact us today for a free assessment and join the many satisfied clients across Doncaster who have enhanced their electrical systems with our help."
+      ]
+    },
+    {
+      "title": "Top Electrical Safety Tips for Doncaster Homes in 2026",
+      "date": "February 2026",
+      "excerpt": "Protect your family with these essential electrical safety measures tailored for Doncaster properties in Melbourne's eastern suburbs.",
+      "body": [
+        "Electrical safety is paramount for Doncaster homeowners, especially with Melbourne's changing seasons bringing unique challenges. In 2026, ensuring your property's electrical system is up to date can prevent accidents and save lives. Start by scheduling regular safety inspections with a licensed electrician in Doncaster. These checks identify hazards like overloaded circuits, faulty wiring, or outdated components, which are common in older homes across Melbourne's eastern suburbs. DJC Electrical recommends annual inspections to maintain compliance and peace of mind.",
+        "One key tip for Doncaster residents is to avoid overloading power points, a frequent cause of electrical fires. Use power boards with surge protection and spread appliances across multiple outlets. In Melbourne's summer heat, air conditioners and fans can strain circuits, so it's wise to have dedicated circuits installed for heavy-duty appliances. DJC Electrical in Doncaster can assess your home's capacity and suggest upgrades to handle modern demands, ensuring safety without compromising convenience.",
+        "Another critical aspect is the use of safety switches or RCDs, which are mandatory in Australian homes for preventing electric shocks. If your Doncaster property lacks these, it's time for an upgrade. Melbourne's weather, with sudden storms and power surges, makes RCDs essential for protecting sensitive electronics and appliances. DJC Electrical installs and tests safety switches in Doncaster, providing detailed reports to confirm they're functioning correctly and compliant with local regulations.",
+        "Outdoor electrical safety is also vital in Doncaster, where gardens and outdoor living spaces are popular. Ensure all outdoor wiring is weatherproof and installed by a professional to avoid risks from rain or moisture. Melbourne's coastal proximity can lead to higher humidity, increasing corrosion risks for electrical components. Regularly check outdoor lights, sockets, and extensions for damage, and consider installing residual current protection for garden circuits. DJC Electrical offers tailored solutions for Doncaster homes to keep outdoor areas safe and enjoyable.",
+        "Teaching children about electrical safety is another important step for Doncaster families. Cover unused sockets, keep cords out of reach, and educate kids on the dangers of playing with electrical items. In Melbourne's urban environment, power outages can occur during extreme weather, so having a safety plan with torches and battery-powered devices is prudent. DJC Electrical can help Doncaster homeowners prepare with backup solutions and emergency lighting installations, enhancing overall household safety.",
+        "Finally, stay informed about electrical safety updates in Australia, as standards evolve to address new risks. In Doncaster, DJC Electrical keeps clients updated on changes, such as new wiring regulations or energy-efficient technologies. By following these tips and partnering with a trusted local electrician, you can ensure your home remains safe and secure throughout 2026 and beyond."
+      ]
+    },
+    {
+      "title": "When to Call an Emergency Electrician in Doncaster",
+      "date": "January 2026",
+      "excerpt": "Know the signs that you need urgent electrical assistance and how DJC Electrical can help Doncaster residents quickly.",
+      "body": [
+        "Electrical emergencies in Doncaster can happen unexpectedly, posing serious risks to safety and property. Knowing when to call an emergency electrician is crucial for Melbourne homeowners. Common signs include persistent power outages, burning smells from outlets, or sparks when plugging in devices. In Doncaster, where older wiring may not handle modern loads, these issues can escalate rapidly. DJC Electrical offers 24/7 emergency services to address such situations promptly, minimising damage and ensuring safety.",
+        "One frequent emergency in Doncaster is a complete power failure, which can disrupt daily life and business operations. Melbourne's weather, with storms and heatwaves, often causes outages due to damaged lines or overloaded grids. Before calling an electrician, check if the issue is isolated to your property or affects the neighbourhood. If it's just your home, it could be a fault in the switchboard or wiring. DJC Electrical in Doncaster quickly diagnoses and fixes power issues, restoring electricity efficiently.",
+        "Another critical situation is when you notice a burning odour or smoke from electrical fixtures, indicating overheating or potential fire risk. In Doncaster homes, this might stem from faulty appliances, overloaded circuits, or deteriorating wiring. Turn off the main power immediately and evacuate if necessary before contacting help. DJC Electrical's emergency team in Doncaster is trained to handle fire hazards, conducting thorough inspections to identify and resolve the root cause, preventing further incidents.",
+        "Water damage to electrical systems is also common in Melbourne's eastern suburbs, including Doncaster, during heavy rain or flooding. Water and electricity are a dangerous mix, so if your property experiences leaks near outlets, switches, or the meter box, avoid using the electrical system until a professional assesses it. DJC Electrical provides emergency call-outs in Doncaster for water-related electrical issues, using safe techniques to dry, repair, or replace affected components.",
+        "For businesses in Doncaster, electrical emergencies can lead to costly downtime. Issues like circuit failures or equipment malfunctions need immediate attention to maintain operations. Melbourne's commercial areas rely on reliable electricity, so having a trusted emergency electrician is key. DJC Electrical offers rapid response services for Doncaster businesses, with solutions tailored to minimise disruption and ensure compliance with workplace safety standards.",
+        "In summary, don't hesitate to call DJC Electrical for any electrical emergency in Doncaster. Our skilled technicians are available around the clock, equipped to handle everything from simple faults to complex hazards. By acting quickly, you protect your property, family, and peace of mind in Melbourne's dynamic environment."
+      ]
+    },
+    {
+      "title": "Energy-Efficient Lighting Solutions for Melbourne's Eastern Suburbs",
+      "date": "December 2025",
+      "excerpt": "Save on energy bills with modern lighting upgrades. Tips for Doncaster and surrounding areas to go green.",
+      "body": [
+        "Switching to energy-efficient lighting is a smart move for Doncaster homeowners looking to reduce electricity bills and environmental impact. In Melbourne's eastern suburbs, where energy costs can be high, LED lighting offers significant savings by using up to 75% less power than traditional bulbs. DJC Electrical specialises in lighting upgrades in Doncaster, installing systems that not only cut costs but also enhance the look and functionality of your home. With Melbourne's long summer days, efficient lighting can optimise natural light use during evenings.",
+        "The benefits of LED lighting in Doncaster extend beyond savings. LEDs have a longer lifespan, often lasting up to 25,000 hours, which means fewer replacements and less waste. In Melbourne's climate, where temperature fluctuations can affect bulb performance, LEDs are more durable and reliable. DJC Electrical provides tailored lighting designs for Doncaster properties, considering factors like room use, natural light availability, and aesthetic preferences to create optimal illumination.",
+        "When planning a lighting upgrade in Doncaster, it's essential to assess your current setup. Many older homes in Melbourne's eastern suburbs still use incandescent or halogen bulbs, which are inefficient and prone to overheating. A professional inspection by DJC Electrical can identify opportunities for improvement, such as adding dimmer switches, motion sensors, or smart lighting controls. These features enhance convenience and further reduce energy consumption, aligning with sustainable living trends in Doncaster.",
+        "For outdoor lighting in Doncaster, energy-efficient solutions are particularly valuable. Melbourne's evenings can be dark, especially in winter, making well-lit pathways and security lights important for safety. Solar-powered options are ideal, harnessing Australia's abundant sunlight to power fixtures without additional electricity costs. DJC Electrical installs and maintains outdoor lighting in Doncaster, ensuring it's weatherproof and compliant with local regulations, while boosting your property's curb appeal.",
+        "The installation process for lighting upgrades in Doncaster is straightforward with DJC Electrical. We handle everything from initial consultation to final testing, ensuring minimal disruption to your daily routine. Our team uses high-quality, Australian-standard products that are compatible with Melbourne's electrical grid, providing peace of mind. For Doncaster businesses, efficient lighting can improve workplace productivity and reduce operational expenses, making it a worthwhile investment.",
+        "In conclusion, energy-efficient lighting solutions offer Doncaster residents a practical way to save money and support sustainability. By partnering with DJC Electrical, you gain access to expert advice and professional installation services tailored to Melbourne's eastern suburbs. Embrace modern lighting today and enjoy a brighter, more efficient home or business."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "DJC Electrical | Electrician in Doncaster | Switchboard & Safety",
+      "description": "Trusted electrician in Doncaster offering switchboard upgrades, safety inspections, and more. Free quotes for Melbourne's eastern suburbs."
+    },
+    "about": {
+      "title": "About DJC Electrical | Doncaster's Local Electrician",
+      "description": "Learn about DJC Electrical, serving Doncaster with over 10 years of electrical expertise. Licensed and insured."
+    },
+    "services": {
+      "title": "Electrical Services in Doncaster | DJC Electrical",
+      "description": "Comprehensive electrical services including installations, repairs, and safety checks. Serving Doncaster and surrounds."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Quotes Doncaster | DJC Electrical",
+      "description": "Transparent pricing for electrical services in Doncaster. Get a free, no-obligation quote today."
+    },
+    "contact": {
+      "title": "Contact DJC Electrical | Free Doncaster Electrician Quotes",
+      "description": "Get in touch with DJC Electrical for reliable electrical services in Doncaster. Call or email for a free quote."
+    },
+    "blog": {
+      "title": "Doncaster Electrical Blog | Tips & Guides",
+      "description": "Expert electrical advice and local guides for Doncaster homeowners and businesses."
+    }
+  }
+}
