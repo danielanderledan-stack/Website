@@ -1,0 +1,301 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Jims Mowing Australia",
+  "suburb": "Surrey Hills",
+  "phone": "0397809998",
+  "email": "info@jimsmowing.com.au",
+  "address": "10, Alexandra Crescent, Surrey Hills, Melbourne, Victoria, 3127, Australia",
+  "tagline": "Surrey Hills' Trusted Mowing Experts",
+  "primaryColor": "#fcb900",
+  "primaryColorRgb": "252, 185, 0",
+  "primaryColorHover": "#e0a800",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Surrey Hills' Go-To Lawn Experts",
+      "sub": "Over 20 years serving Melbourne's eastern suburbs"
+    },
+    {
+      "title": "Mowing, Landscaping & Garden Care",
+      "sub": "Domestic, commercial & acreage services"
+    },
+    {
+      "title": "Get a Free Quote Today",
+      "sub": "For Surrey Hills & surrounding areas"
+    }
+  ],
+  "ctaHeading": "Surrey Hills, let's make your garden shine!",
+  "aboutHeading": "20+ Years of Gardening in Surrey Hills",
+  "aboutSubheading": "Local, reliable & professional",
+  "aboutText": "Jims Mowing Australia has been tending to gardens in Surrey Hills for over two decades. From regular lawn mowing to complete garden makeovers, we understand the local climate and soil conditions in Melbourne's east. Our team of licensed professionals is committed to keeping your outdoor spaces beautiful year-round with personalised service.",
+  "servicesHeading": "Our Gardening Services",
+  "servicesSubheading": "Tailored for Surrey Hills homes",
+  "servicesText": "We offer a comprehensive range of gardening services in Surrey Hills, including lawn care, hedge trimming, and rubbish removal. Each service is designed to meet the specific needs of Melbourne's eastern suburbs, ensuring your garden thrives in all seasons.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Regular lawn mowing for residential and commercial properties in Surrey Hills, keeping grass healthy and neat.",
+      "longDesc": "Our professional lawn mowing service in Surrey Hills covers all grass types, with precise edging and cleanup. We use quality equipment to ensure a uniform cut, promoting turf health and enhancing your property's curb appeal throughout Melbourne's climate.",
+      "points": [
+        "Precision mowing",
+        "Edging included",
+        "Healthier turf"
+      ]
+    },
+    {
+      "title": "Hedge Trimming & Pruning",
+      "desc": "Expert hedge trimming and pruning to maintain shape and growth for gardens in Surrey Hills and surrounds.",
+      "longDesc": "Specialising in hedge trimming and pruning for Surrey Hills homes, we shape and maintain shrubs to promote dense growth and aesthetic appeal. Our techniques are tailored to Australian native plants, ensuring longevity and disease prevention.",
+      "points": [
+        "Shape retention",
+        "Growth promotion",
+        "Native plant expertise"
+      ]
+    },
+    {
+      "title": "Rubbish Removal",
+      "desc": "Efficient garden rubbish removal services for Surrey Hills properties, clearing green waste and debris.",
+      "longDesc": "We provide thorough garden rubbish removal in Surrey Hills, handling green waste, branches, and debris. Our team ensures eco-friendly disposal, complying with Melbourne council regulations, to keep your outdoor spaces clean and safe.",
+      "points": [
+        "Eco-friendly disposal",
+        "Full cleanup",
+        "Council compliant"
+      ]
+    },
+    {
+      "title": "Garden Landscaping",
+      "desc": "Complete garden landscaping services to transform Surrey Hills outdoor areas with design and planting.",
+      "longDesc": "From design to implementation, our garden landscaping services in Surrey Hills create functional and beautiful outdoor living spaces. We use drought-tolerant plants suitable for Melbourne's conditions, enhancing property value and enjoyment.",
+      "points": [
+        "Custom designs",
+        "Drought-tolerant plants",
+        "Value enhancement"
+      ]
+    },
+    {
+      "title": "Commercial & Contract Gardening",
+      "desc": "Reliable commercial gardening and contract services for businesses and strata properties in Surrey Hills.",
+      "longDesc": "Our commercial gardening in Surrey Hills offers scheduled maintenance for offices, complexes, and public areas. We ensure consistent, high-quality results that reflect well on your business, with flexible contracts to suit your needs.",
+      "points": [
+        "Scheduled maintenance",
+        "Business-focused",
+        "Flexible contracts"
+      ]
+    },
+    {
+      "title": "Lawn Aeration & Dethatching",
+      "desc": "Professional lawn aeration and dethatching to improve soil health and grass vitality in Surrey Hills lawns.",
+      "longDesc": "Lawn aeration and dethatching services in Surrey Hills address compacted soil and thatch build-up, common in Melbourne's clay soils. This promotes better water, nutrient, and air flow, leading to stronger, more resilient grass growth.",
+      "points": [
+        "Soil improvement",
+        "Thatch reduction",
+        "Vibrant growth"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Surrey Hills?",
+  "bannerSubheading": "Professional lawn and garden care at your doorstep.",
+  "testimonialsHeading": "What Surrey Hills Locals Say",
+  "testimonialsSubheading": "Trusted by over 1 million customers",
+  "blogHeading": "Gardening Tips for Surrey Hills",
+  "blogSubheading": "Expert advice for Melbourne's eastern suburbs",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're here to help with all your gardening needs",
+  "reviews": [
+    {
+      "text": "Jims Mowing did an excellent job mowing and edging my lawn in Surrey Hills. They were punctual, thorough, and left the garden looking fantastic. Highly recommend their services for any local homeowner!",
+      "name": "John Smith",
+      "role": "Surrey Hills Homeowner"
+    },
+    {
+      "text": "As a property manager in the area, I've used Jims for multiple tenants' gardens. Their hedge trimming and garden maintenance are consistently top-notch, keeping properties in great condition with minimal hassle.",
+      "name": "Sarah Thompson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "We hired Jims for commercial gardening at our Surrey Hills office. The team is reliable, professional, and the results are always impressive, enhancing our business's curb appeal and staff enjoyment.",
+      "name": "Mike Davis",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Surrey Hills",
+    "Box Hill",
+    "Camberwell",
+    "Hawthorn",
+    "Blackburn",
+    "Doncaster"
+  ],
+  "about": {
+    "intro": "Jims Mowing Australia has been the trusted gardening partner for Surrey Hills residents since 2003, delivering reliable lawn and garden care.",
+    "story": [
+      "Founded in Melbourne's eastern suburbs, Jims Mowing Australia started with a single truck and a passion for gardening. Over the years, we've expanded our services across Surrey Hills, building a reputation for quality workmanship and customer care that stands the test of time.",
+      "Our team of local experts understands the unique challenges of gardening in Surrey Hills, from clay soils to seasonal weather patterns. We invest in ongoing training and equipment to ensure we provide the best solutions for maintaining beautiful, healthy outdoor spaces."
+    ],
+    "mission": "To keep Surrey Hills gardens beautiful with professional, affordable, and sustainable gardening services.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "We know Surrey Hills' climate and soil conditions intimately for optimal results."
+      },
+      {
+        "title": "Reliable Service",
+        "text": "Consistent, punctual visits to keep your garden maintained without fail."
+      },
+      {
+        "title": "Eco-Friendly",
+        "text": "Sustainable practices that benefit your garden and the local environment."
+      },
+      {
+        "title": "Fully Insured",
+        "text": "Complete peace of mind with coverage for all work performed on your property."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "10,000+",
+        "label": "Gardens Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Satisfaction Rate"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Jims Mowing Australia, we offer transparent, no-lock-in pricing for Surrey Hills residents. Get a free quote upfront with no surprises.",
+    "packages": [
+      {
+        "name": "Basic Mowing",
+        "price": "$40",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Lawn mowing",
+          "Edging",
+          "Clippings removal"
+        ]
+      },
+      {
+        "name": "Garden Care",
+        "price": "from $80",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Mowing & edging",
+          "Hedge trimming",
+          "Weeding",
+          "Green waste disposal"
+        ]
+      },
+      {
+        "name": "Full Service",
+        "price": "from $150",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "All-in-one garden care",
+          "Landscaping advice",
+          "Seasonal maintenance",
+          "Priority scheduling"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided before any work begins, ensuring no hidden costs."
+  },
+  "contact": {
+    "intro": "Ready to transform your garden? Contact Jims Mowing Australia in Surrey Hills for a free, no-obligation quote. We're available 7 am–8 pm to discuss your needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Lawn Mowing Cost in Surrey Hills, Melbourne?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting lawn mowing prices in Surrey Hills, including lawn size, frequency, and service inclusions for Melbourne homeowners.",
+      "body": [
+        "Lawn mowing costs in Surrey Hills vary based on several key factors, starting with the size of your property. For a typical suburban home, weekly mowing might range from $40 to $80, depending on the acreage and complexity. Larger properties or those with steep slopes may incur higher fees due to increased time and equipment needs. It's essential to get a personalised quote from local services like Jims Mowing Australia to account for your specific layout and grass type, ensuring fair pricing without surprises.",
+        "The frequency of mowing also impacts costs, as regular maintenance often comes with discounted rates compared to one-off jobs. In Surrey Hills, where spring and summer see rapid grass growth, weekly or fortnightly plans can keep your lawn healthy and reduce long-term expenses by preventing overgrowth. Melbourne's temperate climate means grass grows for most of the year, so a consistent schedule is recommended to maintain curb appeal and avoid more intensive work later.",
+        "Additional services such as edging, clipping removal, and fertilising can add to the base cost but provide comprehensive care. For example, edging alone might add $10 to $20 per visit, enhancing the neatness of your lawn borders. In Surrey Hills, where many homes have defined garden beds, these extras are popular for maintaining a polished look. Always inquire about package deals that bundle mowing with other services for better value.",
+        "Equipment and labour are major cost drivers, with professional services using commercial-grade mowers that ensure a precise cut. Surrey Hills lawns often feature varieties like ryegrass or fescue, which require specific blade heights for optimal health. Hiring experts like Jims Mowing Australia means access to well-maintained tools and knowledgeable staff who can adjust techniques based on seasonal changes, protecting your investment in your garden.",
+        "Local regulations and eco-friendly practices may also influence pricing, as some services in Surrey Hills offer green waste recycling or electric equipment options. These sustainable approaches might have slight premiums but contribute to environmental conservation, aligning with Melbourne's push for greener suburbs. It's worth discussing these options with your gardener to balance cost with ecological benefits.",
+        "In summary, lawn mowing in Surrey Hills is an affordable way to maintain your property, with costs tailored to individual needs. By choosing a reputable local provider, you ensure quality service that keeps your lawn lush and inviting throughout the year. Always request a detailed quote to understand exactly what's included and how it fits your budget."
+      ]
+    },
+    {
+      "title": "Best Time for Hedge Trimming in Melbourne's Eastern Suburbs",
+      "date": "February 2026",
+      "excerpt": "Learn when to trim hedges in Surrey Hills for optimal growth, considering Melbourne's climate and plant species for year-round health.",
+      "body": [
+        "Timing is critical for hedge trimming in Melbourne's eastern suburbs like Surrey Hills, where the climate influences plant growth cycles. The best time to trim most hedges is in late winter or early spring, before the main growing season begins. This allows plants to recover quickly and develop dense foliage, essential for privacy screens and garden aesthetics. In Surrey Hills, where native species like lilly pilli or photinia are common, avoiding mid-summer trimming prevents stress from heat and drought.",
+        "Different hedge types require specific trimming schedules, with evergreen varieties needing more frequent attention than deciduous ones. For instance, box hedges in Surrey Hills might benefit from trimming three times a year—spring, summer, and autumn—to maintain shape. Deciduous hedges, like those with seasonal leaves, are best pruned in late autumn after leaf fall to avoid interfering with natural cycles. Understanding your plant's needs ensures healthier growth and reduces the risk of disease.",
+        "Melbourne's variable weather adds complexity, as unexpected frosts or heatwaves can damage freshly trimmed hedges. In Surrey Hills, monitoring local forecasts is key; trimming should be postponed if extreme conditions are predicted. Professional services like Jims Mowing Australia have the expertise to assess plant health and choose optimal windows, using techniques that promote even growth and prevent issues like dieback or pest infestations.",
+        "Tools and techniques also play a role in successful hedge trimming, with sharp shears or powered trimmers ensuring clean cuts that heal faster. Surrey Hills gardeners often recommend cutting at a slight angle to allow sunlight penetration, which is vital for inner foliage. Regular maintenance not only keeps hedges tidy but also strengthens them against wind and storms, common in Melbourne's coastal-influenced climate.",
+        "For new hedges, the first few years are crucial, requiring careful trimming to establish a strong framework. In Surrey Hills, where many properties feature established gardens, young plants should be trimmed lightly to encourage branching. This foundational work pays off with robust, dense hedges that enhance property value and privacy, making it a worthwhile investment for homeowners.",
+        "Overall, the best time for hedge trimming in Surrey Hills hinges on plant type and local conditions. Consulting with experts ensures your hedges thrive, providing beauty and function for years to come. With proper timing and care, your garden can remain a highlight of your home throughout Melbourne's seasons."
+      ]
+    },
+    {
+      "title": "Garden Landscaping Ideas for Surrey Hills Homes",
+      "date": "January 2026",
+      "excerpt": "Explore practical garden landscaping concepts tailored to Surrey Hills properties, focusing on drought-resistant plants and functional designs.",
+      "body": [
+        "Garden landscaping in Surrey Hills homes should prioritize designs that suit Melbourne's climate and local soil conditions, which often include clay-based earth. One popular idea is creating low-water gardens using native Australian plants like kangaroo paw or grevillea, which thrive in dry periods and attract wildlife. These designs reduce maintenance and water bills while adding vibrant colour to your outdoor space, perfect for busy Surrey Hills households.",
+        "Functional layouts are key for smaller suburban properties, where space efficiency matters. Incorporating elements like raised garden beds, vertical planters, or paved pathways can maximize usability without overwhelming the area. In Surrey Hills, many homes have compact backyards, so multi-purpose features—such as seating areas integrated with planters—offer both relaxation and greenery, enhancing daily living.",
+        "Hardscaping elements, including patios, retaining walls, or water features, add structure and value to Surrey Hills gardens. Using local materials like bluestone or recycled timber ensures durability and blends with Melbourne's architectural style. For example, a well-placed patio can extend living areas outdoors, ideal for entertaining in the temperate climate, while retaining walls help manage sloped terrains common in the suburb.",
+        "Sustainable landscaping practices are increasingly important in Surrey Hills, with residents seeking eco-friendly solutions. Installing rain gardens or permeable paving helps manage stormwater runoff, reducing environmental impact. Selecting plants that support local biodiversity, such as those providing nectar for birds, contributes to a healthier ecosystem, aligning with community efforts for greener suburbs.",
+        "Lighting and irrigation systems can transform garden functionality, allowing enjoyment after dark and ensuring plant health during dry spells. In Surrey Hills, where summer temperatures rise, automated drip irrigation conserves water while keeping gardens lush. Solar-powered lights along pathways or highlighting feature trees create ambiance and safety, making gardens usable year-round.",
+        "Personalisation is vital, as each Surrey Hills home has unique needs and preferences. Working with local landscapers like Jims Mowing Australia ensures designs reflect your lifestyle, whether you desire a children's play area, a productive veggie patch, or a serene retreat. Tailored landscaping not only boosts property appeal but also creates a personal sanctuary within the bustling Melbourne environment.",
+        "In conclusion, garden landscaping ideas for Surrey Hills should balance aesthetics, practicality, and sustainability. By focusing on local conditions and professional input, homeowners can create beautiful, resilient gardens that enhance their homes and community for years."
+      ]
+    },
+    {
+      "title": "Why Regular Lawn Aeration is Essential in Surrey Hills",
+      "date": "December 2025",
+      "excerpt": "Understand the importance of lawn aeration for Surrey Hills lawns, addressing soil compaction and promoting healthier grass in Melbourne's conditions.",
+      "body": [
+        "Regular lawn aeration is crucial in Surrey Hills, where Melbourne's clay-heavy soils often become compacted, limiting air, water, and nutrient flow to grass roots. Aeration involves perforating the soil with small holes, allowing essential elements to penetrate deeply, which is vital for maintaining a lush, resilient lawn. In Surrey Hills, where many properties feature established turfs, annual aeration can prevent common issues like thinning grass or moss growth.",
+        "The benefits of lawn aeration extend beyond immediate health, improving long-term turf vitality by reducing thatch build-up. Thatch, a layer of dead grass and roots, can accumulate in Surrey Hills lawns due to regular mowing and organic debris, creating a barrier that hinders moisture absorption. Aeration breaks down this layer, promoting decomposition and encouraging new growth, which is particularly important during Melbourne's dry spells.",
+        "Timing is key for effective aeration in Surrey Hills, with late spring or early autumn being optimal when soil is moist and temperatures are mild. This allows grass to recover quickly and take advantage of growing conditions. In Melbourne's variable climate, avoiding aeration during extreme heat or frost ensures minimal stress on the lawn, maximising results and reducing the risk of damage.",
+        "Professional lawn aeration services in Surrey Hills use specialized equipment that ensures consistent depth and spacing, unlike DIY methods that can be uneven. Experts like Jims Mowing Australia assess soil type and grass variety to tailor aeration techniques, such as core aeration for heavily compacted areas. This precision helps address specific issues like water pooling or bare patches, common in suburban lawns.",
+        "After aeration, overseeding and fertilising can enhance results, as the holes provide ideal seed-to-soil contact for new growth. In Surrey Hills, where cool-season grasses like ryegrass are prevalent, overseeding post-aeration fills in thin areas, creating a denser, more attractive lawn. Fertilising at this time delivers nutrients directly to roots, boosting growth and colour during the following seasons.",
+        "Regular aeration also contributes to environmental sustainability by improving water infiltration and reducing runoff, which is beneficial in Surrey Hills' hilly terrain. Healthier lawns require fewer chemical inputs, supporting eco-friendly gardening practices. This aligns with Melbourne's broader goals for water conservation and green urban spaces, making aeration a responsible choice for homeowners.",
+        "In summary, regular lawn aeration is essential for Surrey Hills residents to maintain beautiful, functional gardens. By addressing soil compaction and thatch, it ensures lawns stay vibrant and healthy, even in challenging Melbourne conditions. Incorporating aeration into your annual garden care routine with professional help guarantees optimal outcomes for your outdoor space."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Jims Mowing Australia | Mowing in Surrey Hills",
+      "description": "Trusted lawn mowing and gardening services in Surrey Hills, Melbourne. Free quotes for mowing, hedging, and landscaping."
+    },
+    "about": {
+      "title": "About Jims Mowing | Surrey Hills Garden Experts",
+      "description": "Learn about Jims Mowing Australia, serving Surrey Hills with professional gardening services for over 20 years."
+    },
+    "services": {
+      "title": "Gardening Services in Surrey Hills | Mowing & Landscaping",
+      "description": "Comprehensive gardening services including lawn mowing, hedge trimming, and garden landscaping in Surrey Hills."
+    },
+    "pricing": {
+      "title": "Mowing Prices & Costs Surrey Hills | Jims Mowing",
+      "description": "Affordable lawn mowing and gardening prices in Surrey Hills. Get transparent quotes with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Jims Mowing Australia | Free Quotes Surrey Hills",
+      "description": "Get in touch with Jims Mowing for free gardening quotes in Surrey Hills. Call 0397809998 or visit us online."
+    },
+    "blog": {
+      "title": "Surrey Hills Gardening Blog | Tips & Advice from Jims",
+      "description": "Expert gardening tips, lawn care advice, and landscaping ideas for Surrey Hills and Melbourne's eastern suburbs."
+    }
+  }
+}
