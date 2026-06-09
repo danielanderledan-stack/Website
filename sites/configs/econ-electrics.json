@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Econ Electrics",
+  "suburb": "Campbellfield",
+  "phone": "03 9305 6789",
+  "email": "info@econelectrics.com.au",
+  "address": "Factory 1/8-10 Scammel St, Campbellfield VIC 3061",
+  "tagline": "Campbellfield's Industrial Electricians",
+  "primaryColor": "#67b43a",
+  "primaryColorRgb": "103, 180, 58",
+  "primaryColorHover": "#5da234",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Campbellfield's Trusted Electricians",
+      "sub": "Industrial & commercial electrical experts"
+    },
+    {
+      "title": "Advanced Power Solutions",
+      "sub": "Coping with technology advances"
+    },
+    {
+      "title": "Energy Efficient Systems",
+      "sub": "Lowering consumption across Melbourne"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Campbellfield?",
+  "aboutHeading": "Industrial Electrical Experts in Campbellfield",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Econ Electrics has been serving Campbellfield for years, specialising in industrial electrical solutions. We understand that today's facilities demand more from their power to cope with technological advances, while also focusing on energy efficiency. Our team provides tailored services to ensure optimal performance and reduced energy consumption for all our clients.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive power solutions",
+  "servicesText": "We offer a wide range of electrical services for industrial, commercial, and residential clients. From installations to maintenance, our team ensures safe and efficient power systems.",
+  "services": [
+    {
+      "title": "Industrial Electrical Installations",
+      "desc": "We handle complex installations for factories and plants, ensuring compliance with Australian standards."
+    },
+    {
+      "title": "Commercial Wiring",
+      "desc": "Our experts design and install wiring for offices, shops, and commercial spaces in Campbellfield."
+    },
+    {
+      "title": "Energy Audits & Efficiency",
+      "desc": "We assess and upgrade systems to reduce energy consumption and lower operational costs."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "Regular maintenance programs to prevent downtime and keep your electrical systems running smoothly."
+    },
+    {
+      "title": "Power Distribution",
+      "desc": "We design and install efficient power distribution networks for industrial and commercial facilities."
+    },
+    {
+      "title": "Emergency Services",
+      "desc": "24/7 emergency callouts across Campbellfield to address urgent electrical issues promptly."
+    }
+  ],
+  "bannerHeading": "Campbellfield's Electrical Specialists Ready",
+  "bannerSubheading": "Free quotes for all industrial and commercial projects",
+  "testimonialsHeading": "What Campbellfield Clients Say",
+  "testimonialsSubheading": "Quality work, trusted service",
+  "blogHeading": "Electrical Insights & News",
+  "blogSubheading": "Tips from Econ Electrics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Econ Electrics did an excellent job upgrading the electrical system at our Campbellfield factory. Their team was professional and completed the work on time, significantly improving our energy efficiency.",
+      "name": "John Smith",
+      "role": "Campbellfield Factory Owner"
+    },
+    {
+      "text": "We hired Econ Electrics for our commercial office fit-out, and they delivered outstanding results. Their expertise in power distribution helped us reduce costs.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Econ Electrics for all electrical maintenance across my properties. They are reliable and provide quick responses.",
+      "name": "Mike Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
