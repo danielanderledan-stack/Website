@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "BNE Electrical Solutions",
+  "suburb": "Campbellfield",
+  "phone": "03 7302 0738",
+  "email": "info@bneelectrical.com.au",
+  "address": "3 Scammel St, Campbellfield VIC 3061",
+  "tagline": "Campbellfield's Electrical Experts",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0f5fcc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Campbellfield's Trusted Electricians",
+      "sub": "Serving Melbourne's northern suburbs for years"
+    },
+    {
+      "title": "Expert Electrical Installations & Maintenance",
+      "sub": "Residential, commercial & industrial services"
+    },
+    {
+      "title": "24/7 Emergency Electrical Support",
+      "sub": "Call us for urgent electrical needs in Campbellfield"
+    }
+  ],
+  "ctaHeading": "Campbellfield's electricians are ready — let's power your project.",
+  "aboutHeading": "15 Years of Electrical Excellence in Campbellfield",
+  "aboutSubheading": "Licensed, reliable & local",
+  "aboutText": "With over 15 years of experience serving Campbellfield and the surrounding areas, BNE Electrical Solutions is your go-to for all electrical needs. Our team of licensed electricians specialise in installations, maintenance, and emergency services. We take pride in delivering high-quality workmanship tailored to both residential and commercial clients. Contact us today for a free quote on your next project.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for every need",
+  "servicesText": "From home rewiring to commercial fit-outs, we offer a full range of electrical services in Campbellfield. Our skilled team handles everything from switchboard upgrades to lighting installations, ensuring safety and efficiency.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "We provide complete wiring, lighting, and power point installations for residential properties in Campbellfield and surrounding suburbs."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Our team handles commercial electrical work, including office fit-outs, retail lighting, and energy-efficient solutions for businesses in Campbellfield."
+    },
+    {
+      "title": "Industrial Electrical",
+      "desc": "We specialise in industrial electrical maintenance and installations, providing robust solutions for factories, warehouses, and manufacturing facilities across Melbourne."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your switchboard to meet modern safety standards, ensuring reliable power distribution and compliance with Australian regulations."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "Our 24/7 emergency service covers urgent electrical faults in Campbellfield, with rapid response times to minimise downtime."
+    },
+    {
+      "title": "Electrical Maintenance",
+      "desc": "We offer regular electrical maintenance packages to keep your systems running smoothly and safely, preventing costly breakdowns."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Campbellfield?",
+  "bannerSubheading": "Fast, reliable service for all your electrical needs.",
+  "testimonialsHeading": "What Campbellfield Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from our experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly",
+  "reviews": [
+    {
+      "text": "BNE Electrical Solutions did a fantastic job rewiring our entire house in Campbellfield. The team was professional, punctual, and left everything clean. Highly recommend their residential services!",
+      "name": "Sarah Mitchell",
+      "role": "Campbellfield Homeowner"
+    },
+    {
+      "text": "We hired BNE for our shop's electrical upgrade, and they delivered top-notch work on time and within budget. Their commercial expertise is second to none.",
+      "name": "David Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on BNE Electrical for all maintenance across our Campbellfield properties. They're always responsive and their work is consistently excellent.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
