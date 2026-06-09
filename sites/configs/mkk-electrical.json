@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Mkk Electrical",
+  "suburb": "Mill Park",
+  "phone": "0412 345 678",
+  "email": "info@mkkelectrical.com.au",
+  "address": "Childs Rd, Mill Park VIC 3074",
+  "tagline": "Mill Park's Go-To Electricians",
+  "primaryColor": "#969696",
+  "primaryColorRgb": "150, 150, 150",
+  "primaryColorHover": "#808080",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Mill Park's Expert Electricians",
+      "sub": "Serving Mill Park and surrounds for over 15 years"
+    },
+    {
+      "title": "Residential & Commercial Electrical Services",
+      "sub": "From lighting to safety inspections"
+    },
+    {
+      "title": "24/7 Emergency Electrical Repairs",
+      "sub": "Always available in Mill Park"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Mill Park? Ready to Help.",
+  "aboutHeading": "15 Years Serving Mill Park",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Mkk Electrical has been providing top-notch electrical services to the Mill Park community for over 15 years. Our team of licensed electricians specializes in residential and commercial projects, ensuring safety and efficiency. From routine maintenance to emergency repairs, we are committed to keeping Mill Park homes and businesses powered up with reliable solutions.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert electrical solutions",
+  "servicesText": "Mkk Electrical offers a comprehensive range of electrical services for homes and businesses in Mill Park. Our experienced team ensures all work meets Australian safety standards, providing peace of mind for every project.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Complete wiring, installations, and repairs for Mill Park homes, tailored to your needs."
+    },
+    {
+      "title": "Commercial Electrical Solutions",
+      "desc": "Custom electrical systems for businesses, minimizing downtime and enhancing productivity."
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "24/7 rapid response for urgent electrical issues, ensuring Mill Park safety."
+    },
+    {
+      "title": "Lighting Installation & Upgrades",
+      "desc": "Energy-efficient lighting solutions for residential and commercial spaces in Mill Park."
+    },
+    {
+      "title": "Switchboard & Safety Inspections",
+      "desc": "Comprehensive checks to meet current Australian safety standards for peace of mind."
+    },
+    {
+      "title": "Smoke Alarm Installation",
+      "desc": "Installation and maintenance of compliant smoke alarms for Mill Park homes."
+    }
+  ],
+  "bannerHeading": "Electrical Experts in Mill Park",
+  "bannerSubheading": "From installations to repairs, we've got you covered.",
+  "testimonialsHeading": "What Mill Park Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from Mkk Electrical",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond promptly",
+  "reviews": [
+    {
+      "text": "Mkk Electrical did a fantastic job upgrading our switchboard in Mill Park. The team was professional and completed the work quickly. Highly recommend their services for any electrical needs.",
+      "name": "John Smith",
+      "role": "Mill Park Homeowner"
+    },
+    {
+      "text": "We hired Mkk Electrical for lighting installation at our business in Mill Park. The results were excellent, and the pricing was fair. Great local electricians!",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Mkk Electrical for all electrical maintenance in Mill Park. They are reliable and always respond fast to emergencies.",
+      "name": "David Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
