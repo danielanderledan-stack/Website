@@ -1,0 +1,247 @@
+{
+  "siteType": "landscaper",
+  "businessName": "All Good Garden Care & Maintenance",
+  "suburb": "St Kilda East",
+  "phone": "0412 345 678",
+  "email": "user@domain.com",
+  "address": "Westbury St, St Kilda East VIC 3183",
+  "tagline": "St Kilda East's Passionate Gardeners",
+  "primaryColor": "#33cc33",
+  "primaryColorRgb": "51, 204, 51",
+  "primaryColorHover": "#2eb82e",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "St Kilda East's Garden Experts",
+      "sub": "Passion for plants, proven results"
+    },
+    {
+      "title": "Year-Round Garden Maintenance",
+      "sub": "Keeping your greens looking great"
+    },
+    {
+      "title": "Free Consultations for St Kilda East",
+      "sub": "Let's discuss your garden's potential"
+    }
+  ],
+  "ctaHeading": "Ready for a stunning St Kilda East garden? Let's talk.",
+  "aboutHeading": "Genuine Passion for St Kilda East Gardens",
+  "aboutSubheading": "Hard-working gardeners, exceptional results",
+  "aboutText": "All Good Garden Care & Maintenance are experienced gardeners with a genuine passion for making St Kilda East gardens look their best. Our exceptional service focuses on both the aesthetics and health of your plants, ensuring your garden looks great all year round in the unique local climate. We've built our reputation in St Kilda East on reliable, detailed work and a love for horticulture.",
+  "servicesHeading": "Our Gardening Services in St Kilda East",
+  "servicesSubheading": "Complete garden care solutions",
+  "servicesText": "From regular lawn mowing to seasonal pruning and full garden makeovers, we provide comprehensive maintenance tailored to St Kilda East's conditions. Our services ensure your outdoor space thrives in the local bayside environment.",
+  "services": [
+    {
+      "title": "Lawn Care & Mowing",
+      "desc": "Regular mowing, edging, and fertilising for a healthy, lush St Kilda East lawn.",
+      "longDesc": "Our comprehensive lawn care service for St Kilda East homes includes precise mowing, clean edging, and tailored fertilisation programs to suit local grass types and soil conditions, promoting deep root growth.",
+      "points": [
+        "Bayside lawn specialists",
+        "Seasonal care plans",
+        "Weed & pest control"
+      ]
+    },
+    {
+      "title": "Hedge & Shrub Trimming",
+      "desc": "Expert shaping and pruning to maintain healthy hedges and beautiful shrub forms.",
+      "longDesc": "We meticulously trim and shape hedges and shrubs in St Kilda East gardens, using proper techniques to encourage dense growth, prevent disease, and maintain the aesthetic lines of your landscape design.",
+      "points": [
+        "Precision shaping",
+        "Promotes plant health",
+        "All hedge varieties"
+      ]
+    },
+    {
+      "title": "Weed Management",
+      "desc": "Effective removal and preventative strategies to keep your St Kilda East garden weed-free.",
+      "longDesc": "Our targeted weed management service tackles both existing weeds and prevents new growth in St Kilda East gardens, using environmentally considerate methods that protect your desirable plants and local soil health.",
+      "points": [
+        "Eco-friendly solutions",
+        "Prevents regrowth",
+        "Protects garden beds"
+      ]
+    },
+    {
+      "title": "Garden Clean-Ups",
+      "desc": "Thorough seasonal clean-ups to rejuvenate your garden and prepare for changing conditions.",
+      "longDesc": "We perform thorough seasonal garden clean-ups for St Kilda East properties, clearing debris, cutting back perennials, and preparing beds for the next season, giving your garden a fresh, revitalised look.",
+      "points": [
+        "Seasonal rejuvenation",
+        "Debris removal",
+        "Bed preparation"
+      ]
+    },
+    {
+      "title": "Planting & Mulching",
+      "desc": "Expert advice and installation of plants suited to St Kilda East's climate and soil.",
+      "longDesc": "We advise on and install plants perfectly suited to St Kilda East's coastal conditions and apply premium mulches to conserve moisture, suppress weeds, and enhance the visual appeal of your garden beds.",
+      "points": [
+        "Climate-suitable plants",
+        "Mulch installation",
+        "Soil improvement"
+      ]
+    },
+    {
+      "title": "General Garden Maintenance",
+      "desc": "Comprehensive upkeep including sweeping, waste removal, and general tidying.",
+      "longDesc": "Our general maintenance service ensures your St Kilda East property always looks immaculate, covering tasks from path sweeping and waste removal to ongoing tidy-ups that keep your garden inviting.",
+      "points": [
+        "Regular tidy-ups",
+        "Waste removed",
+        "Always welcoming"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Gardener in St Kilda East?",
+  "bannerSubheading": "Get a free, no-obligation quote for your garden today.",
+  "testimonialsHeading": "What St Kilda East Locals Say",
+  "testimonialsSubheading": "Real feedback from our community",
+  "blogHeading": "St Kilda East Garden Guides & Tips",
+  "blogSubheading": "Helping your garden thrive locally",
+  "contactHeading": "Get Your St Kilda East Garden Quote",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "All Good transformed our tired St Kilda East backyard. Their attention to detail with the hedge trimming and general tidy-up was fantastic. The garden looks healthy and neat every time they visit.",
+      "name": "Sarah Mitchell",
+      "role": "St Kilda East Homeowner"
+    },
+    {
+      "text": "We've used their lawn care service for our café's courtyard for two years. Consistent, reliable, and they understand what a high-traffic outdoor area needs. Highly recommend for St Kilda East businesses.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties in St Kilda East, I need gardeners I can trust. All Good provides excellent, dependable maintenance across all our rentals. Their communication is always clear and proactive.",
+      "name": "James O'Sullivan",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "St Kilda East",
+    "St Kilda",
+    "Balaclava",
+    "Ripponlea",
+    "Elsternwick",
+    "Prahran",
+    "St Kilda West",
+    "Glen Huntly"
+  ],
+  "pricing": {
+    "intro": "Our St Kilda East gardening services are priced fairly, with no lock-in contracts. Get a clear, upfront quote for the exact work your garden needs.",
+    "packages": [
+      {
+        "name": "Essential Mow & Edge",
+        "price": "$85",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Lawn mowing & edging",
+          "Blow-down of paths",
+          "Bin area tidy-up"
+        ]
+      },
+      {
+        "name": "Standard Garden Care",
+        "price": "from $150",
+        "unit": "per visit",
+        "highlight": true,
+        "features": [
+          "Full mow & edge",
+          "Hedge & shrub trim",
+          "Weed & tidy beds",
+          "All green waste removed"
+        ]
+      },
+      {
+        "name": "Seasonal Clean-Up",
+        "price": "from $350",
+        "unit": "per session",
+        "highlight": false,
+        "features": [
+          "Complete garden overhaul",
+          "Pruning & cut-back",
+          "Mulch application",
+          "Full site clearance"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs for St Kilda East jobs."
+  },
+  "contact": {
+    "intro": "Ready to enhance your St Kilda East garden? Contact us today for a free, no-obligation on-site consultation and quote. We look forward to hearing from you."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should You Mow Your Lawn in St Kilda East?",
+      "date": "March 2026",
+      "excerpt": "Discover the ideal mowing frequency for a healthy St Kilda East lawn, considering local grass types, bayside climate, and seasonal growth patterns for best results.",
+      "body": [
+        "Determining the perfect mowing schedule for your St Kilda East lawn depends on several local factors. The bayside climate, with its relatively mild winters and warm summers, means grass growth doesn't fully stop. During the peak growing season from October to March, most cool-season grasses common in Melbourne's inner suburbs, like ryegrass and fescue, will need mowing every 7 to 10 days. This frequency encourages dense growth, which naturally chokes out weeds and creates a lush, resilient turf.",
+        "In the cooler months from April to September, growth slows considerably. You can often extend the time between mows to every 3 to 4 weeks for St Kilda East lawns. However, it's crucial not to let it get too long, as this can shade the soil and promote fungal diseases, especially with the occasional damp, overcast days typical of a Port Phillip Bay winter. A good rule of thumb is the one-third rule: never remove more than one-third of the grass blade in a single cut, as this stresses the plant.",
+        "The type of grass you have in St Kilda East will also dictate the schedule. Buffalo grass varieties like Sir Walter are popular for their shade tolerance and lower water needs, while kikuyu is a vigorous, sun-loving option. Each has a slightly different growth habit and ideal mowing height. Our team at All Good Garden Care identifies your grass type during our initial assessment and provides a tailored maintenance plan that keeps your St Kilda East lawn in peak condition throughout the year.",
+        "Beyond frequency, mowing technique matters. Cutting at the right height—generally between 3-5cm for most residential lawns—promotes root depth and drought resistance. This is particularly important for St Kilda East gardens exposed to summer sea breezes. Regular, correct mowing is the single most important task for a great-looking lawn. If you're unsure about the right schedule for your specific garden, a professional assessment can make all the difference."
+      ]
+    },
+    {
+      "title": "Best Native Plants for St Kilda East Coastal Gardens",
+      "date": "February 2026",
+      "excerpt": "Learn which hardy Australian natives thrive in St Kilda East's coastal conditions, offering low-maintenance beauty and support for local wildlife.",
+      "body": [
+        "St Kilda East's proximity to Port Phillip Bay creates a unique microclimate for gardens, with salt-laden winds and sandy soils being common challenges. Choosing the right plants is key to a low-maintenance, thriving garden. Australian native plants are superbly adapted to these conditions. Plants like Coastal Rosemary (Westringia fruticosa) are incredibly hardy, tolerate salt spray, and can be shaped into dense, formal hedges that provide excellent privacy.",
+        "For larger feature plants, the Coastal Banksia (Banksia integrifolia) is a stunning choice, offering unique flower spikes that attract native birds. Its leathery leaves are tough against wind and salt. In shaded areas under existing trees, Correa reflexa (Common Correa) provides beautiful, bell-shaped flowers in winter, offering crucial nectar for birds when other food sources are scarce. These selections directly support the local St Kilda East ecosystem.",
+        "Groundcovers are essential for weed suppression and adding texture. Myoporum parvifolium is a fantastic, fast-growing groundcover with small white flowers that spreads to cover bare soil quickly, reducing maintenance. For a splash of colour, Chrysocephalum apiculatum (Yellow Buttons) forms a tough mat with bright yellow flowers. Using these plants in St Kilda East gardens means less watering, less fertilising, and more enjoyment.",
+        "When planting in St Kilda East, soil preparation is still important. Amending sandy soils with compost and organic matter before planting will give your natives the best start. Applying a layer of coarse mulch helps retain moisture and keep roots cool. Our team at All Good Garden Care can help you design and plant a beautiful, sustainable native garden perfectly suited to your St Kilda East property's specific conditions and your personal taste."
+      ]
+    },
+    {
+      "title": "Preparing Your St Kilda East Garden for Melbourne Winters",
+      "date": "January 2026",
+      "excerpt": "A step-by-step guide to protecting your St Kilda East garden from frost, wind, and wet conditions during the cooler months.",
+      "body": [
+        "As autumn turns to winter in Melbourne, St Kilda East gardens need specific preparation to withstand the cooler, wetter months. The first step is a thorough autumn clean-up. Remove fallen leaves, spent annuals, and decaying debris from garden beds. This reduces hiding places for pests and fungal spores that thrive in damp conditions, giving your garden a healthy start to winter.",
+        "Pruning is essential before winter sets in. For most deciduous plants, late autumn is the ideal time for structural pruning, as the bare branches make it easy to see the plant's framework. Cut out dead, diseased, or crossing branches to improve air circulation. However, avoid pruning spring-flowering shrubs like camellias, as you'll remove next year's flowers. For hedges, a final trim before the cold will keep them tidy.",
+        "Protecting vulnerable plants from frost is crucial, even in relatively mild bayside St Kilda East. Frost cloth or even old sheets can be draped over tender plants like grevilleas or young citrus on cold nights. For potted plants, moving them closer to the house or under an eave can provide enough protection. Applying a thick layer of mulch around the base of plants insulates roots from temperature fluctuations.",
+        "Finally, winter is the perfect time for planning. Assess what worked in your garden over summer and start sketching ideas for new beds or plant additions. It's also a good time to service and clean gardening tools, ensuring they're ready for the spring burst of growth. A little work in winter ensures your St Kilda East garden will explode back into life when the warmer weather returns."
+      ]
+    },
+    {
+      "title": "Why Regular Garden Maintenance Adds Value to St Kilda East Properties",
+      "date": "December 2025",
+      "excerpt": "Explore how consistent, professional garden care enhances your St Kilda East property's curb appeal, neighbourly relations, and overall enjoyment.",
+      "body": [
+        "In the sought-after suburb of St Kilda East, first impressions matter. The front garden is the first thing visitors, potential buyers, and neighbours see. A well-maintained garden with healthy lawns, neat hedges, and tidy beds significantly boosts curb appeal and can positively influence property value. It signals that the entire property has been cared for, creating a positive perception that extends beyond the garden gate.",
+        "Beyond financial value, regular maintenance dramatically enhances your personal enjoyment of your home. A tidy, healthy outdoor space becomes an extension of your living area—a place to relax, entertain, and connect with nature. Coming home to a neat garden reduces stress and provides a sense of pride and accomplishment, even if the hard work is done by a professional team.",
+        "Consistent care also prevents small issues from becoming large, expensive problems. Regular pruning stops plants from outgrowing their space and damaging fences or structures. Weed management prevents invasive species from establishing. Early detection of pests or diseases during routine maintenance allows for simple, targeted treatments rather than drastic measures later.",
+        "Furthermore, a well-kept garden contributes positively to the entire St Kilda East neighbourhood. It fosters a sense of community pride and can encourage neighbours to maintain their own properties. By investing in regular garden maintenance with a local team like All Good, you're not just caring for your own plot; you're contributing to the overall leafy, attractive character that makes St Kilda East such a wonderful place to live."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "All Good Garden Care | Garden Maintenance in St Kilda East",
+      "description": "Professional garden maintenance in St Kilda East. Expert lawn care, hedge trimming, weeding & clean-ups. Passionate gardeners making your garden look great all year."
+    },
+    "about": {
+      "title": "About Us | St Kilda East Garden Maintenance Team | All Good",
+      "description": "Meet the passionate gardeners behind All Good Garden Care. Experienced, local, and dedicated to maintaining beautiful St Kilda East gardens with exceptional service."
+    },
+    "services": {
+      "title": "Gardening Services in St Kilda East | Lawn Care & Maintenance",
+      "description": "Complete gardening services for St Kilda East. Professional lawn mowing, hedge trimming, weed control, garden clean-ups & planting. Tailored to local conditions."
+    },
+    "pricing": {
+      "title": "Garden Maintenance Prices St Kilda East | All Good Gardening",
+      "description": "Fair, transparent pricing for St Kilda East garden care. No lock-in contracts. Get a fixed quote for lawn care, seasonal clean-ups & regular maintenance."
+    },
+    "contact": {
+      "title": "Contact All Good Garden Care | Free St Kilda East Garden Quote",
+      "description": "Get in touch for a free garden consultation and quote in St Kilda East. We respond quickly. Let's discuss making your garden look its best."
+    },
+    "blog": {
+      "title": "St Kilda East Garden Blog | Tips, Guides & Local Advice",
+      "description": "Expert gardening advice tailored for St Kilda East. Learn about lawn care, native plants, seasonal prep & property value from your local garden maintenance experts."
+    }
+  }
+}
