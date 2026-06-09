@@ -1,0 +1,300 @@
+{
+  "siteType": "plumber",
+  "businessName": "Artfullife",
+  "suburb": "Balwyn",
+  "phone": "03 9836 1234",
+  "email": "info@artfullife.com.au",
+  "address": "6 Yarrbat Avenue, Balwyn VIC 3103",
+  "tagline": "Balwyn's Trusted Plumbers",
+  "primaryColor": "#0099cc",
+  "primaryColorRgb": "0, 153, 204",
+  "primaryColorHover": "#007799",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Artfullife Plumbing in Balwyn",
+      "sub": "Expert plumbing services for your home or business"
+    },
+    {
+      "title": "Reliable Plumbing Solutions",
+      "sub": "From repairs to installations across Balwyn"
+    },
+    {
+      "title": "24/7 Emergency Plumbing",
+      "sub": "Fast response in Balwyn and surrounds"
+    }
+  ],
+  "ctaHeading": "Need a plumber in Balwyn? Contact Artfullife today.",
+  "aboutHeading": "Artfullife Plumbing — Serving Balwyn Since 2000",
+  "aboutSubheading": "Local, licensed, and reliable",
+  "aboutText": "Artfullife has been providing top-notch plumbing services to Balwyn and surrounding suburbs for over 20 years. Our team of licensed plumbers is passionate about delivering reliable solutions for all your plumbing needs. Whether it's emergency repairs or new installations, we're committed to quality and customer satisfaction.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive plumbing solutions",
+  "servicesText": "At Artfullife, we offer a wide range of plumbing services in Balwyn, including emergency repairs, installations, and maintenance. Our experienced team handles everything from blocked drains to hot water systems, ensuring your plumbing runs smoothly.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Fast response for urgent plumbing issues in Balwyn.",
+      "longDesc": "Our emergency plumbing service in Balwyn ensures that critical issues like burst pipes or major leaks are addressed promptly, 24/7.",
+      "points": [
+        "24/7 availability",
+        "Rapid response time",
+        "Immediate repairs"
+      ]
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Expert unblocking of drains in Balwyn homes and businesses.",
+      "longDesc": "We specialise in clearing blocked drains in Balwyn using advanced equipment to prevent future issues and ensure proper flow.",
+      "points": [
+        "Advanced unblocking tools",
+        "Preventative solutions",
+        "All drain types"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation and repair of hot water systems in Balwyn.",
+      "longDesc": "For Balwyn residents, we provide complete hot water system services, from new installations to efficient repairs of all brands.",
+      "points": [
+        "All system types",
+        "Energy-efficient options",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless pipe repair solutions for Balwyn properties.",
+      "longDesc": "Our pipe relining service in Balwyn offers a minimally invasive way to fix damaged pipes without digging up your garden.",
+      "points": [
+        "No excavation needed",
+        "Durable results",
+        "Cost-effective"
+      ]
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitting services for Balwyn homes.",
+      "longDesc": "Artfullife is fully licensed for gas fitting in Balwyn, including appliance installation, leak detection, and safety checks.",
+      "points": [
+        "Licensed gasfitters",
+        "Safety compliance",
+        "All gas appliances"
+      ]
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete plumbing for bathroom renovations in Balwyn.",
+      "longDesc": "We handle all plumbing aspects of bathroom renovations in Balwyn, ensuring your new space is functional and up to code.",
+      "points": [
+        "Full plumbing work",
+        "Up-to-date compliance",
+        "Quality fixtures"
+      ]
+    }
+  ],
+  "bannerHeading": "Artfullife Plumbing — Your Balwyn Experts",
+  "bannerSubheading": "Fast, reliable, and affordable",
+  "testimonialsHeading": "What Balwyn Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Balwyn Plumbing Tips & Advice",
+  "blogSubheading": "Expert insights from Artfullife",
+  "contactHeading": "Get a Free Quote from Artfullife",
+  "contactSubheading": "We're here to help with all plumbing needs",
+  "reviews": [
+    {
+      "text": "Artfullife fixed our hot water system in Balwyn quickly and efficiently. Great service and fair price.",
+      "name": "John Smith",
+      "role": "Balwyn Homeowner"
+    },
+    {
+      "text": "As a property manager, I rely on Artfullife for all plumbing issues in Balwyn. They're always professional and on time.",
+      "name": "Sarah Jones",
+      "role": "Property Manager"
+    },
+    {
+      "text": "Had a blocked drain emergency in Balwyn, and Artfullife responded within the hour. Highly recommended!",
+      "name": "Mike Chen",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Balwyn",
+    "Box Hill",
+    "Camberwell",
+    "Doncaster",
+    "Blackburn",
+    "Mitcham",
+    "Surrey Hills"
+  ],
+  "about": {
+    "intro": "Artfullife has been a trusted plumbing service in Balwyn for over two decades, offering reliable solutions for all plumbing needs.",
+    "story": [
+      "Founded in 2000, Artfullife started as a small family business in Balwyn and has grown to serve the wider Melbourne area. Our commitment to quality and customer service has made us a household name in Balwyn for plumbing solutions.",
+      "We invest in ongoing training and state-of-the-art equipment to ensure our plumbers in Balwyn can handle any job, from simple repairs to complex installations. Our passion for excellence drives every project we undertake."
+    ],
+    "mission": "To provide Balwyn with exceptional plumbing services that exceed expectations.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our plumbers are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your time with punctual service across Balwyn."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden costs—get a fixed quote before any work begins."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed plumbing professionals",
+      "Fully insured for all work",
+      "Free no-obligation quotes",
+      "Workmanship guarantee included"
+    ]
+  },
+  "pricing": {
+    "intro": "Artfullife offers transparent pricing for all plumbing services in Balwyn. No lock-in contracts—just honest quotes for quality work.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Common repairs or installations",
+          "Quality parts used",
+          "Clean and tidy work",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full renovation or new build plumbing",
+          "Detailed project plan",
+          "Licensed supervision",
+          "Compliance certification"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what you're paying before we start."
+  },
+  "contact": {
+    "intro": "For reliable plumbing services in Balwyn, contact Artfullife today for a free, no-obligation quote."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Plumber Cost in Balwyn?",
+      "date": "March 2026",
+      "excerpt": "Understanding the factors that affect plumbing costs in Balwyn, from emergency call-outs to major installations.",
+      "body": [
+        "When you need a plumber in Balwyn, one of the first questions is often about cost. The price of plumbing services can vary based on several factors, including the complexity of the job, the time of day, and the materials required. In Balwyn, typical call-out fees range from $80 to $150, with hourly rates often between $100 and $200 for general work. Emergency services, such as after-hours calls for burst pipes, may incur additional charges.",
+        "For common plumbing jobs in Balwyn, such as fixing a leaky tap or unblocking a drain, you might expect to pay between $150 and $400, depending on the specifics. More extensive work, like hot water system installation or pipe relining, can cost from $1,000 to $5,000 or more. It's always best to get a detailed quote from a licensed plumber in Balwyn to avoid surprises.",
+        "Factors that influence plumbing costs in Balwyn include the accessibility of the problem, the age of your plumbing system, and whether parts need to be replaced. Older homes in Balwyn may have outdated pipes that require more work. Additionally, if the job is urgent and needs immediate attention, expect higher rates due to the convenience.",
+        "To get the best value for plumbing services in Balwyn, consider getting multiple quotes from reputable plumbers. Ask for itemised costs so you understand what you're paying for. Artfullife, for example, provides upfront fixed quotes with no hidden fees, ensuring transparency for all Balwyn customers.",
+        "It's also worth noting that regular maintenance can help prevent costly emergencies. Scheduling annual plumbing checks in Balwyn can identify issues early, saving you money in the long run. By investing in preventive care, you can extend the life of your plumbing system and avoid unexpected expenses.",
+        "In summary, plumbing costs in Balwyn are influenced by various factors, but with careful planning and choosing a trusted local plumber, you can manage expenses effectively. Always opt for licensed professionals to ensure quality work and compliance with Australian plumbing standards."
+      ]
+    },
+    {
+      "title": "Signs You Need Emergency Plumbing in Balwyn",
+      "date": "February 2026",
+      "excerpt": "Recognise the warning signs that require immediate plumbing attention to prevent damage in your Balwyn home.",
+      "body": [
+        "Emergency plumbing situations can happen without warning, and knowing the signs can save your Balwyn property from significant damage. One clear indicator is a burst pipe, which can cause flooding and structural issues. If you notice water gushing from a pipe or damp walls, it's time to call an emergency plumber in Balwyn immediately.",
+        "Another sign is a severe blockage that causes sewage backup or overflowing drains. This not only creates a mess but also poses health risks. In Balwyn, where older homes may have aging pipes, blockages can occur due to tree roots or accumulated debris. Ignoring this can lead to more extensive damage and costly repairs.",
+        "A sudden lack of hot water or a gas leak are also emergencies. If your hot water system fails in the middle of winter in Balwyn, it's urgent. Similarly, if you smell gas or hear a hissing sound, evacuate and contact a licensed gasfitter in Balwyn right away. Gas leaks are dangerous and require immediate professional intervention.",
+        "Other signs include dripping sounds behind walls, low water pressure, or puddles under sinks. These might seem minor but can indicate hidden problems that worsen over time. In Balwyn, where homes are often closely spaced, plumbing issues can affect neighbours, so prompt action is essential.",
+        "When you encounter any of these signs in Balwyn, don't delay. Contact Artfullife for emergency plumbing services. Our team is available 24/7 to address urgent issues, minimizing damage and restoring normalcy. We carry the necessary equipment to handle most emergencies on the first visit.",
+        "Preventive measures can also help. Regular plumbing inspections in Balwyn can catch problems early. By being vigilant and knowing the signs, you can avoid the stress and expense of emergency plumbing. Trust Artfullife, your local Balwyn plumber, for reliable emergency response."
+      ]
+    },
+    {
+      "title": "Best Hot Water Systems for Balwyn Homes",
+      "date": "January 2026",
+      "excerpt": "A guide to choosing the right hot water system for your Balwyn property, considering efficiency and climate.",
+      "body": [
+        "Selecting the best hot water system for your Balwyn home involves considering factors like household size, energy efficiency, and budget. In Melbourne's climate, where winters are cold, a reliable hot water system is essential. Balwyn homes often opt for gas, electric, or solar systems, each with pros and cons.",
+        "Gas hot water systems are popular in Balwyn due to their quick recovery and lower running costs. They're ideal for larger families with high hot water demand. However, they require a gas connection and regular maintenance. For Balwyn properties without gas, electric systems are a viable option, though they may have higher energy bills.",
+        "Solar hot water systems are eco-friendly and can reduce long-term costs, making them attractive for Balwyn homeowners looking to save on energy. They work well in Melbourne's sunny periods but may need a backup for cloudy days. Installation costs are higher, but government rebates can offset this.",
+        "When choosing a hot water system in Balwyn, consider the unit's energy rating, capacity, and warranty. A well-sized system ensures you have enough hot water without wasting energy. Consulting with a plumber in Balwyn, like Artfullife, can help you assess your needs and recommend the best option.",
+        "Installation is key—improper setup can lead to inefficiency and breakdowns. Our team in Balwyn handles all aspects of hot water system installation, ensuring compliance with Australian standards. We also offer maintenance services to keep your system running smoothly.",
+        "In conclusion, the best hot water system for Balwyn homes depends on your specific circumstances. Whether you choose gas, electric, or solar, professional installation and regular maintenance are crucial. Contact Artfullife for expert advice and service in Balwyn."
+      ]
+    },
+    {
+      "title": "Preventing Blocked Drains in Balwyn",
+      "date": "December 2025",
+      "excerpt": "Practical tips to avoid blocked drains and maintain plumbing health in your Balwyn property.",
+      "body": [
+        "Blocked drains are a common plumbing issue in Balwyn, but with proper care, you can prevent them. Start by being mindful of what goes down your sinks and toilets. Avoid pouring grease, oil, or food scraps down the kitchen sink, as these can solidify and cause blockages. Use drain strainers to catch debris.",
+        "In bathrooms, hair and soap scum are major culprits for blocked drains in Balwyn homes. Regularly clean drain covers and consider installing hair catchers. Flushing only toilet paper and human waste prevents clogs in sewer lines. Never flush wipes, cotton balls, or feminine hygiene products.",
+        "Outdoor drains in Balwyn can become blocked by leaves, dirt, and garden debris. Keep gutters and downpipes clean, especially during autumn when leaves fall. Ensure that outdoor drains are covered and regularly inspected for buildup. Tree roots are another common cause of drain blockages in older Balwyn suburbs.",
+        "If you notice slow drainage or gurgling sounds, it's an early sign of a blockage. Addressing it promptly can prevent a complete clog. For Balwyn residents, scheduling annual drain inspections with a plumber can identify issues before they escalate. Artfullife offers drain cleaning services using CCTV cameras to pinpoint problems.",
+        "For existing blockages, professional help is often needed. DIY methods like chemical cleaners can damage pipes and are not always effective. A licensed plumber in Balwyn uses equipment like high-pressure water jets to clear drains safely and thoroughly.",
+        "By following these tips, you can reduce the risk of blocked drains in Balwyn and maintain a healthy plumbing system. Remember, prevention is better than cure—contact Artfullife for regular maintenance and expert plumbing advice in Balwyn."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Artfullife Plumbing | Plumber in Balwyn | Emergency Repairs",
+      "description": "Artfullife provides expert plumbing services in Balwyn, including emergency repairs, drain clearing, and hot water systems. Licensed and reliable."
+    },
+    "about": {
+      "title": "About Artfullife Plumbing | Trusted Balwyn Plumbers",
+      "description": "Learn about Artfullife, Balwyn's trusted plumbing service with over 20 years of experience. Licensed, insured, and committed to quality."
+    },
+    "services": {
+      "title": "Plumbing Services in Balwyn | Artfullife Experts",
+      "description": "Comprehensive plumbing services in Balwyn: emergency fixes, drain clearing, hot water, pipe relining, gas fitting, and renovations."
+    },
+    "pricing": {
+      "title": "Plumbing Costs in Balwyn | Transparent Pricing",
+      "description": "Get upfront, fixed pricing for plumbing services in Balwyn. No hidden fees—contact Artfullife for a free quote today."
+    },
+    "contact": {
+      "title": "Contact Artfullife Plumbing | Free Balwyn Quotes",
+      "description": "Reach out to Artfullife for reliable plumbing in Balwyn. Free, no-obligation quotes and 24/7 emergency service available."
+    },
+    "blog": {
+      "title": "Balwyn Plumbing Blog | Tips and Advice",
+      "description": "Expert plumbing advice for Balwyn homeowners: costs, maintenance tips, and local guides from Artfullife's experienced team."
+    }
+  }
+}
