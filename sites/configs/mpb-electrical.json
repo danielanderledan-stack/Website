@@ -1,0 +1,302 @@
+{
+  "siteType": "electrician",
+  "businessName": "MPB Electrical",
+  "suburb": "Bristol",
+  "phone": "07950840710",
+  "email": "sales.pb.electrical@gmail.com",
+  "address": "72, North Road, Ashley Down, Bristol, BS6 5AJ",
+  "tagline": "Bristol's Domestic & Commercial Electricians",
+  "primaryColor": "#00d4ff",
+  "primaryColorRgb": "0, 212, 255",
+  "primaryColorHover": "#00b8e6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Your Trusted Bristol Electricians",
+      "sub": "From home rewires to commercial fit-outs"
+    },
+    {
+      "title": "24/7 Emergency Repairs",
+      "sub": "Fast response across Bristol & surrounding areas"
+    },
+    {
+      "title": "Safety Certified & Insured",
+      "sub": "Professional electrical solutions for every property"
+    }
+  ],
+  "ctaHeading": "Need a Reliable Electrician in Bristol? Let's Get Started.",
+  "aboutHeading": "Powering Bristol Homes & Businesses",
+  "aboutSubheading": "Local expertise, trusted service",
+  "aboutText": "MPB Electrical has been providing top-tier electrical services to homes and businesses across Bristol for years. From the historic homes of Clifton to modern commercial spaces in the city centre, our team combines deep local knowledge with certified expertise to ensure every installation, repair, and maintenance job is completed safely and efficiently.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Complete solutions for your property",
+  "servicesText": "We cover every aspect of electrical work for Bristol residents and businesses. Our licensed team handles everything from urgent repairs to planned upgrades and full installations, always prioritising safety and compliance with UK standards.",
+  "services": [
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 rapid response for urgent electrical faults, power outages, and safety hazards across Bristol.",
+      "longDesc": "Our Bristol emergency electricians are on call around the clock to tackle sudden electrical failures, sparking outlets, or complete power loss. We arrive quickly to diagnose and fix the problem, restoring safety and normality to your property without delay.",
+      "points": [
+        "24/7 availability",
+        "Fast Bristol response",
+        "Safety-first fixes"
+      ]
+    },
+    {
+      "title": "Domestic Rewires",
+      "desc": "Complete or partial house rewiring for older Bristol properties, enhancing safety and capacity.",
+      "longDesc": "Many Bristol homes, especially in areas like Redland and Cotham, have aging wiring that can't support modern appliances. Our expert team conducts thorough assessments and performs meticulous rewires using the latest materials, ensuring your home meets current regulations.",
+      "points": [
+        "Full home rewires",
+        "Period property experts",
+        "Minimal disruption"
+      ]
+    },
+    {
+      "title": "Commercial Installations",
+      "desc": "New builds, office fit-outs, and retail electrical systems designed for Bristol businesses.",
+      "longDesc": "From Harbourside offices to Gloucester Road shops, we design and install robust electrical systems for commercial clients. We handle lighting, power distribution, data cabling, and compliance testing to create efficient, safe workspaces.",
+      "points": [
+        "Office & retail fit-outs",
+        "Energy-efficient design",
+        "Full compliance testing"
+      ]
+    },
+    {
+      "title": "EICR & Safety Checks",
+      "desc": "Electrical Installation Condition Reports and landlord safety certificates for Bristol properties.",
+      "longDesc": "Stay legal and safe with our comprehensive EICR inspections. We test your installation's condition, provide a detailed report, and perform any necessary remedial work. Essential for Bristol landlords and homeowners buying or selling.",
+      "points": [
+        "Certified inspections",
+        "Landlord compliance",
+        "Detailed reports"
+      ]
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Fast, professional home and workplace electric vehicle charging point installation in Bristol.",
+      "longDesc": "Join Bristol's move to electric with a properly installed home or work EV charger. We handle the grant application process, ensure your consumer unit can support it, and fit a reliable unit from leading brands, ready for your daily commute.",
+      "points": [
+        "Grant assistance",
+        "Home & work chargers",
+        "Top brand units"
+      ]
+    },
+    {
+      "title": "Lighting & Power Upgrades",
+      "desc": "LED conversions, additional sockets, and consumer unit upgrades to modernise your Bristol property.",
+      "longDesc": "Boost your property's functionality and energy efficiency. We install modern LED lighting schemes, add USB sockets to kitchens and offices, and upgrade outdated fuse boxes with state-of-the-art consumer units with RCBO protection.",
+      "points": [
+        "LED conversions",
+        "Smart home wiring",
+        "Consumer unit upgrades"
+      ]
+    }
+  ],
+  "bannerHeading": "Trusted Across Bristol's Neighbourhoods",
+  "bannerSubheading": "From Bedminster to Bishopston, we've got you covered.",
+  "testimonialsHeading": "What Bristol Clients Say",
+  "testimonialsSubheading": "Reviews from your local community",
+  "blogHeading": "Bristol Electrical Guides & Tips",
+  "blogSubheading": "Expert advice to keep you powered up",
+  "contactHeading": "Get a Free Quote",
+  "contactSubheading": "No call-out charges for quoted work",
+  "reviews": [
+    {
+      "text": "MPB Electrical completely rewired our Victorian terrace in Bishopston. The team was tidy, professional, and explained everything clearly. Our old fuse box is finally up to modern standards, giving us real peace of mind.",
+      "name": "Sarah & Tom H.",
+      "role": "Bishopston Homeowner"
+    },
+    {
+      "text": "We needed urgent electrical work done for our café on Gloucester Road before opening. MPB were there the same day, diagnosed the fault quickly, and got us safely back online. Absolutely essential for any local business.",
+      "name": "James L.",
+      "role": "Café Owner, Redland"
+    },
+    {
+      "text": "The electrician who installed our new EV charger in Clifton was fantastic. He handled the grant paperwork and installed it neatly in our garage. Professional service from quote to completion.",
+      "name": "David R.",
+      "role": "Clifton Resident"
+    }
+  ],
+  "serviceAreas": [
+    "Bishopston",
+    "Clifton",
+    "Redland",
+    "Bedminster",
+    "Southville",
+    "Stokes Croft",
+    "Easton",
+    "Knowle"
+  ],
+  "about": {
+    "intro": "MPB Electrical is a dedicated team of Bristol-based electricians, delivering safe, reliable, and high-quality electrical services for both residential and commercial properties across the city.",
+    "story": [
+      "Founded in Bristol, our business grew from a simple idea: to provide honest, expert electrical work without the jargon or hidden costs. We've built our reputation one satisfied customer at a time, from fixing a faulty light in a Southville flat to managing full electrical installations for new offices in Temple Quarter.",
+      "We understand Bristol's unique mix of properties, from period homes needing careful rewiring to modern developments requiring smart tech integration. Our electricians are not just qualified; they're locally knowledgeable, understanding the specific challenges and requirements of homes and businesses in different Bristol neighbourhoods.",
+      "Safety is at the core of everything we do. All our work is certified to BS 7671 (IET Wiring Regulations), and we carry comprehensive public liability insurance. We believe in transparent communication, providing clear quotes and detailed explanations so you know exactly what's happening with your electrical system."
+    ],
+    "mission": "To be Bristol's most trusted electrical partner, keeping homes and businesses safe, efficient, and powered for the future.",
+    "whyUs": [
+      {
+        "title": "Local Bristol Experts",
+        "text": "We know Bristol's housing stock, from Clifton villas to new-builds, and tailor our work accordingly."
+      },
+      {
+        "title": "Certified & Safe",
+        "text": "Every job meets BS 7671 standards, with full certification provided for your records and peace of mind."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "You receive a detailed, fixed-price quote before we start. No surprises, just honest, upfront costs."
+      },
+      {
+        "title": "Minimal Disruption",
+        "text": "We work efficiently and cleanly, respecting your home or business environment at every stage."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years in Bristol"
+      },
+      {
+        "value": "2,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Positive Reviews"
+      }
+    ],
+    "credentials": [
+      "NICEIC Approved Contractor",
+      "Part P Certified",
+      "City & Guilds Qualified",
+      "Full Public Liability Insurance"
+    ]
+  },
+  "pricing": {
+    "intro": "Our pricing is transparent and competitive for Bristol. We provide a detailed, fixed-price quote after a free on-site assessment, so you know exactly what you'll pay with no hidden extras.",
+    "packages": [
+      {
+        "name": "Electrical Health Check",
+        "price": "£150",
+        "unit": "fixed price",
+        "highlight": false,
+        "features": [
+          "Full visual inspection",
+          "EICR test & certificate",
+          "Priority booking"
+        ]
+      },
+      {
+        "name": "Standard Call-Out",
+        "price": "from £80",
+        "unit": "plus parts",
+        "highlight": true,
+        "features": [
+          "Fault diagnosis & repair",
+          "Minor installations",
+          "Same-day availability",
+          "Parts at trade price"
+        ]
+      },
+      {
+        "name": "Full Installation Project",
+        "price": "Quote-Based",
+        "unit": "no-obligation",
+        "highlight": false,
+        "features": [
+          "Comprehensive site survey",
+          "Detailed fixed quote",
+          "Project managed",
+          "Warranty on all work"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and include VAT. No call-out charge if you proceed with the quoted work."
+  },
+  "contact": {
+    "intro": "Ready to discuss your electrical project or need urgent help in Bristol? Contact MPB Electrical today for a free, no-obligation quote or to book our 24/7 emergency service."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Full House Rewire Cost in Bristol? (2026 Guide)",
+      "date": "March 2026",
+      "excerpt": "A comprehensive guide to understanding the costs, process, and timeline for rewiring a Bristol home, from terraces to detached properties.",
+      "body": [
+        "Considering a full house rewire for your Bristol property? It's a significant investment but essential for safety, especially in older homes common in areas like Cotham, Redland, and Bishopston. The cost can vary widely, typically ranging from £4,000 to £8,000+ for an average 3-bedroom house. The final price depends on the property's size, the complexity of accessing old wiring, and the level of new sockets and switches you require.",
+        "Bristol's diverse housing stock means costs differ. A Victorian terrace with solid walls might be more labour-intensive to rewire than a modern property with cavity walls or conduit systems. Access is a key factor; chasing walls in solid stone buildings in areas like Clifton requires careful, professional work. We always recommend a detailed survey to provide an accurate, fixed quote for your specific home.",
+        "The rewire process typically takes 3-5 days for an average home. We isolate the electrical supply, safely remove the old wiring, install new circuits in compliance with BS 7671 regulations, and install your chosen accessories. We work to minimise disruption, often coordinating with plasterers for making good. A full rewire includes a new consumer unit (fuse box), which is the heart of your home's electrical safety.",
+        "A major benefit is future-proofing your Bristol home. A new rewire allows for additional circuits for modern demands like EV chargers, smart home tech, or high-power kitchen appliances. We can plan the installation to accommodate these needs from the start, avoiding costly additions later. This is particularly relevant for growing families or those planning home offices.",
+        "Crucially, a full rewire comes with an Electrical Installation Certificate (EIC), proving the work meets all safety standards. This is vital for insurance purposes and adds value to your property. At MPB Electrical, we handle all the certification and can advise on any notification required with Building Control under Part P.",
+        "To get an accurate cost for your Bristol home, we offer free on-site surveys. We'll assess your current installation, discuss your requirements, and provide a detailed, fixed-price quote with no obligations. This ensures you understand exactly what the work entails and what you're paying for before any commitment."
+      ]
+    },
+    {
+      "title": "Emergency Electrician Bristol: What To Do When Your Power Goes Out",
+      "date": "February 2026",
+      "excerpt": "Step-by-step advice for Bristol residents experiencing a power cut or electrical fault, including when to call an emergency electrician.",
+      "body": [
+        "Losing power can be stressful, especially during Bristol's wetter months. Before calling an electrician, first check if it's a local area power cut. Use a mobile phone to check your utility provider's (Western Power or Bristol Energy) live power cut map online. If it's not a widespread outage, the issue is likely within your property.",
+        "Start with basic checks. See if neighbours are affected. Check your consumer unit (fuse box) – a switch may have tripped. Try resetting it by switching it to the off position, then firmly back on. If it trips immediately, there's a fault in your property's wiring or an appliance. Do not keep resetting it.",
+        "Identify the cause. Unplug all appliances in the affected circuit and try resetting the breaker again. If it holds, plug appliances back in one by one. If a specific appliance trips the breaker, it's faulty and needs replacing. If the breaker trips with nothing plugged in, you have a wiring fault – this requires professional attention.",
+        "Safety is paramount. If you smell burning, see scorch marks, or have sparking sockets, turn off the electricity at the main switch if it's safe to do so and call an emergency electrician immediately. Never attempt to investigate or fix suspected wiring faults yourself. Keep children and pets away from the affected area.",
+        "When to call MPB Electrical's emergency service in Bristol. If you've confirmed it's not an area outage, if your consumer unit is constantly tripping, if you have no power to essential circuits, or in case of any safety hazard (burning smell, sparking), call us immediately. We have electricians on call 24/7 across Bristol for rapid response.",
+        "We aim to be with you within the hour for genuine emergencies. Our Bristol-based electricians will diagnose the fault efficiently and carry out immediate repairs to restore power safely. We'll provide a clear explanation of the issue and a quote for any further work needed, ensuring your property is safe before we leave."
+      ]
+    },
+    {
+      "title": "Bristol Landlord EICR Requirements: Your 2026 Legal Guide",
+      "date": "January 2026",
+      "excerpt": "Everything Bristol landlords need to know about Electrical Installation Condition Reports, legal deadlines, and choosing a qualified inspector.",
+      "body": [
+        "As a Bristol landlord, you are legally required to ensure the electrical installation in your rental property is safe. Since 2020, this means having a valid Electrical Installation Condition Report (EICR). For new tenancies, an EICR must be in place before the tenant moves in. For existing tenancies, you must provide a copy of a satisfactory EICR (no 'Code C1' or 'Code C2' observations) within 28 days of it being completed.",
+        "An EICR is not just a certificate; it's a detailed report on the condition of the property's fixed electrical wiring, sockets, lighting, and consumer unit. A qualified Bristol electrician will test the insulation resistance, earth continuity, and circuit functionality. The report will rate each circuit as satisfactory or unsatisfactory and note any observed damage or deterioration.",
+        "Choosing the right electrician is critical. The inspection must be carried out by a competent person – typically an electrician registered with a government-approved scheme like NICEIC, NAPIT, or ELECSA. MPB Electrical are NICEIC Approved Contractors, meaning our work is regularly assessed for quality and safety, and we carry the required insurance and qualifications to issue valid EICRs for Bristol landlords.",
+        "Cost is a common concern. For a standard Bristol rental property (e.g., a 2-bed flat in Bedminster), an EICR typically costs between £150 and £250. This is a small price for compliance and peace of mind. We provide a clear, fixed quote, and the inspection is usually completed within 2-3 hours with minimal disruption to tenants.",
+        "If the report identifies any 'C2' observations (danger present), remedial work is required. This could be something like replacing an old fuse box or faulty wiring. As your chosen Bristol electrician, we can provide a quote for any necessary repairs to bring the property up to standard, often carrying out the work quickly to avoid delays with tenancy agreements.",
+        "Keep your documentation organised. The EICR is valid for 5 years, but we recommend a visual inspection annually. You must provide a copy of the EICR to new tenants at the start of their tenancy and to existing tenants within 28 days of the inspection. Failure to provide a valid EICR can result in fines of up to £30,000 from Bristol City Council."
+      ]
+    },
+    {
+      "title": "Why Upgrade to an LED Lighting Scheme in Your Bristol Home?",
+      "date": "December 2025",
+      "excerpt": "Discover the benefits of switching to energy-efficient LED lighting in your Bristol property, from cost savings to enhanced ambiance.",
+      "body": [
+        "Upgrading your Bristol home to an LED lighting scheme is one of the most impactful and cost-effective improvements you can make. Modern LED lights use up to 85% less energy than old incandescent or halogen bulbs and last up to 25 times longer. This translates directly into lower electricity bills – a significant saving given current energy prices in Bristol.",
+        "Beyond savings, LED lighting offers superior quality and flexibility. LEDs provide instant, full brightness without warm-up time, and they're available in a wide range of colour temperatures, from warm white (2700K) for living rooms to cool white (4000K) for kitchens and offices. This allows you to create the perfect ambiance in each room of your Bristol home.",
+        "For period properties in areas like Clifton or Cotham, LEDs are ideal. They come in styles that mimic traditional filament bulbs, preserving the character of a period room while delivering modern efficiency. We can also install dimmable LED systems, giving you complete control over lighting levels for different moods and occasions.",
+        "The environmental benefit is substantial. LED lights contain no hazardous materials like mercury and are 100% recyclable. By switching, you significantly reduce your carbon footprint. For Bristol residents committed to sustainability, this is a simple and effective step towards a greener home, aligning with the city's own environmental goals.",
+        "Professional installation ensures optimal performance. Our Bristol electricians can design a full LED scheme, calculating the right lumens (brightness) for each space. We handle the replacement of downlights, spotlights, and main lighting circuits, ensuring safe installation and compatibility with any existing dimmer switches or smart home systems.",
+        "To summarise, an LED upgrade is a smart investment for any Bristol homeowner. It lowers your energy bills, reduces maintenance costs thanks to long lifespan, improves light quality and control, and is better for the planet. Contact MPB Electrical for a free assessment and quote to transform your home's lighting."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "MPB Electrical — Electrician in Bristol | Emergency Repairs & Installations",
+      "description": "Trusted Bristol electricians for domestic rewires, commercial fit-outs, EV charger installs & 24/7 emergency repairs. NICEIC approved. Free quotes."
+    },
+    "about": {
+      "title": "About MPB Electrical | Bristol's Trusted Local Electricians",
+      "description": "Learn about MPB Electrical, your NICEIC-approved, Bristol-based electrical contractors specialising in domestic and commercial installations and safety."
+    },
+    "services": {
+      "title": "Electrical Services in Bristol | Rewires, EV Chargers & EICR",
+      "description": "Full range of electrical services for Bristol homes & businesses: emergency repairs, rewires, EV charger installation, EICR, lighting upgrades."
+    },
+    "pricing": {
+      "title": "Electrician Prices & Costs in Bristol | MPB Electrical",
+      "description": "Transparent pricing for Bristol electricians. Get a fixed quote for rewires, EV charger installs, safety checks, and standard call-outs."
+    },
+    "contact": {
+      "title": "Contact MPB Electrical | Get a Free Electrician Quote in Bristol",
+      "description": "Contact MPB Electrical for a free, no-obligation quote in Bristol. 24/7 emergency electrician service available. Call or email today."
+    },
+    "blog": {
+      "title": "Bristol Electrical Guides | Rewiring Costs, LED Tips & EICR Advice",
+      "description": "Expert electrical advice for Bristol property owners. Guides on rewire costs, LED lighting, landlord EICR requirements, and emergency procedures."
+    }
+  }
+}
