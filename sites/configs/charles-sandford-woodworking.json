@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Charles Sandford Woodworking",
+  "suburb": "Preston",
+  "phone": "0412 345 678",
+  "email": "info@charlessandford.com.au",
+  "address": "6 Bellevue Cres, Preston VIC 3072",
+  "tagline": "Preston's Custom Woodworking Experts",
+  "primaryColor": "#8B4513",
+  "primaryColorRgb": "139, 69, 19",
+  "primaryColorHover": "#723A13",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Preston's Custom Woodworking Specialists",
+      "sub": "Architecture, furniture & restoration projects"
+    },
+    {
+      "title": "Handcrafted Furniture & Cabinetry",
+      "sub": "Bespoke designs for homes and businesses"
+    },
+    {
+      "title": "Expert Restoration in Preston",
+      "sub": "Reviving cherished pieces with care"
+    }
+  ],
+  "ctaHeading": "Ready for custom woodwork in Preston?",
+  "aboutHeading": "Expert Woodworking in Preston",
+  "aboutSubheading": "Local & specialised craftsmanship",
+  "aboutText": "Based in Preston, Charles Sandford Woodworking offers bespoke woodworking services for architecture, furniture, and restoration projects. With years of experience, our team delivers meticulous attention to detail for every job. We pride ourselves on quality, using traditional techniques to create pieces that last. Serving Preston and surrounds with trusted, custom solutions.",
+  "servicesHeading": "Our Woodworking Services",
+  "servicesSubheading": "Crafted with precision",
+  "servicesText": "From custom furniture to architectural woodwork, we provide tailored services for residential and commercial clients in Preston. Our expertise in restoration ensures cherished items are revived with care. We combine skill and passion to meet your unique woodworking needs.",
+  "services": [
+    {
+      "title": "Custom Furniture",
+      "desc": "Designing and building unique furniture pieces to perfectly fit your space and style requirements."
+    },
+    {
+      "title": "Architectural Woodwork",
+      "desc": "Creating custom wood elements like beams, trim, and fixtures for homes and buildings."
+    },
+    {
+      "title": "Restoration Projects",
+      "desc": "Restoring antique and vintage wood items to their former glory with expert care and precision."
+    },
+    {
+      "title": "Cabinet Making",
+      "desc": "Handcrafted cabinets for kitchens, bathrooms, and storage solutions tailored to your needs."
+    },
+    {
+      "title": "Joinery & Millwork",
+      "desc": "Precision joinery for doors, windows, and custom woodwork installations with fine detailing."
+    },
+    {
+      "title": "Wood Finishing",
+      "desc": "Applying high-quality finishes to protect and enhance the natural beauty of your wood projects."
+    }
+  ],
+  "bannerHeading": "Need Custom Woodworking in Preston?",
+  "bannerSubheading": "Get a free consultation for your project today.",
+  "testimonialsHeading": "What Preston Locals Say",
+  "testimonialsSubheading": "Quality craftsmanship, every time",
+  "blogHeading": "Woodworking Tips & Projects",
+  "blogSubheading": "Insights from our workshop",
+  "contactHeading": "Contact Us for a Quote",
+  "contactSubheading": "We respond promptly to all enquiries",
+  "reviews": [
+    {
+      "text": "Charles did an amazing job restoring our antique dining table in Preston. His attention to detail was outstanding, and the finish looks brand new. Highly recommend his craftsmanship.",
+      "name": "John Mitchell",
+      "role": "Preston Homeowner"
+    },
+    {
+      "text": "We commissioned custom cabinets for our local café, and the quality exceeded expectations. Charles delivered on time with exceptional skill, perfect for any business in the area.",
+      "name": "Emma Clarke",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Charles for multiple restoration projects in Preston. His reliable work adds real value to our properties, and he always provides fair pricing.",
+      "name": "David Thompson",
+      "role": "Property Manager"
+    }
+  ]
+}
