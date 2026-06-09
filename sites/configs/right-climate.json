@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "Right Climate",
+  "suburb": "Hadfield",
+  "phone": "0455 522 255",
+  "email": "info@rightclimate.com.au",
+  "address": "85 South St, Hadfield VIC 3046",
+  "tagline": "Hadfield's Heating & Cooling Experts",
+  "primaryColor": "#3498db",
+  "primaryColorRgb": "52, 152, 219",
+  "primaryColorHover": "#2980b9",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Hadfield's Trusted HVAC Experts",
+      "sub": "Heating & cooling for Melbourne's north"
+    },
+    {
+      "title": "Air Conditioning & Heating Solutions",
+      "sub": "Installation, repair & maintenance"
+    },
+    {
+      "title": "Comfort in Every Season",
+      "sub": "Free quotes across Hadfield & surrounds"
+    }
+  ],
+  "ctaHeading": "Need HVAC in Hadfield? Let's talk.",
+  "aboutHeading": "Right Climate: Hadfield's HVAC Specialists",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Hadfield, Right Climate provides expert heating and cooling solutions to Melbourne's northern suburbs. With years of experience, our team specializes in air conditioning and heating systems, ensuring homes and businesses stay comfortable year-round. We offer prompt service, competitive pricing, and a commitment to quality workmanship in every job we undertake.",
+  "servicesHeading": "Our HVAC Services",
+  "servicesSubheading": "Keeping Hadfield comfortable",
+  "servicesText": "Right Climate offers comprehensive heating and cooling services for residential and commercial properties in Hadfield and surrounding areas. From installations to emergency repairs, our skilled technicians handle it all with professionalism and expertise to meet your climate control needs.",
+  "services": [
+    {
+      "title": "Air Conditioning Installation",
+      "desc": "We install split systems and ducted air conditioning to keep your Hadfield home cool during the hot Australian summers."
+    },
+    {
+      "title": "Heating System Repair",
+      "desc": "Our experts quickly diagnose and fix heating issues to restore warmth in your property when you need it most."
+    },
+    {
+      "title": "Ducted Heating Maintenance",
+      "desc": "Regular maintenance ensures your ducted heating runs efficiently, extending its lifespan and reducing energy costs."
+    },
+    {
+      "title": "Energy Efficiency Assessments",
+      "desc": "We assess your HVAC system to recommend energy-saving upgrades that lower bills and improve comfort."
+    },
+    {
+      "title": "Emergency HVAC Services",
+      "desc": "Available for urgent repairs, we respond fast to heating and cooling emergencies in Hadfield and nearby areas."
+    },
+    {
+      "title": "Commercial Climate Control",
+      "desc": "Tailored HVAC solutions for businesses in Hadfield, ensuring optimal comfort for staff and customers alike."
+    }
+  ],
+  "bannerHeading": "Heating & Cooling in Hadfield?",
+  "bannerSubheading": "Expert solutions from Right Climate.",
+  "testimonialsHeading": "What Hadfield Clients Say",
+  "testimonialsSubheading": "Trusted by locals",
+  "blogHeading": "HVAC Tips & News",
+  "blogSubheading": "From the Right Climate team",
+  "contactHeading": "Get in Touch with Right Climate",
+  "contactSubheading": "We're here to help",
+  "reviews": [
+    {
+      "text": "Right Climate installed a new split system in our Hadfield home, and it's been perfect for the hot summers. Their service was prompt and professional, with clear communication throughout.",
+      "name": "John Smith",
+      "role": "Hadfield Homeowner"
+    },
+    {
+      "text": "As a business owner in Hadfield, I relied on Right Climate for our office's heating system repair. They fixed it quickly and at a fair price, minimising downtime for us.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our rental properties in the area, Right Climate provides reliable HVAC maintenance. Their team is always courteous and efficient, ensuring our tenants stay comfortable year-round.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
