@@ -1,0 +1,85 @@
+{
+  "siteType": "tiler",
+  "businessName": "Nexus Stone",
+  "suburb": "Coolaroo",
+  "phone": "0412 345 678",
+  "email": "johndoe@example.com",
+  "address": "6 Lisa Pl, Coolaroo VIC 3048",
+  "tagline": "Coolaroo's Stone and Tile Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6500c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Coolaroo's Premium Stone Services",
+      "sub": "Custom countertops, vanities, and more"
+    },
+    {
+      "title": "Expert Tiling for Every Space",
+      "sub": "Tiles and wall panels installed with precision"
+    },
+    {
+      "title": "Commercial Stone Projects",
+      "sub": "Trusted by businesses nationwide"
+    }
+  ],
+  "ctaHeading": "Start Your Stone Project in Coolaroo",
+  "aboutHeading": "Nexus Stone: Coolaroo's Stone Experts",
+  "aboutSubheading": "Local craftsmanship with a national reputation",
+  "aboutText": "Nexus Stone has been serving Coolaroo and surrounding areas with high-quality stone products and services for over a decade. Specialising in custom countertops, vanities, and tiling solutions, we bring craftsmanship and attention to detail to every project. Our team is dedicated to transforming spaces with durable and stylish stone installations, trusted by homeowners and businesses alike.",
+  "servicesHeading": "Our Comprehensive Stone Services",
+  "servicesSubheading": "Quality materials and expert installation",
+  "servicesText": "From custom countertops to complete tiling projects, Nexus Stone provides a full range of stone services. We handle everything from design consultation to final installation, ensuring each piece is perfectly suited to your needs.",
+  "services": [
+    {
+      "title": "Custom Countertops",
+      "desc": "We design and install bespoke stone countertops tailored to your kitchen or bathroom, using premium materials for lasting beauty and functionality."
+    },
+    {
+      "title": "Vanities & Shower Bases",
+      "desc": "Craft elegant vanities and durable shower bases from natural or engineered stone, custom-fitted to your specifications."
+    },
+    {
+      "title": "Tiles and Wall Panels",
+      "desc": "Expert installation of stone tiles and wall panels to enhance walls, floors, and backsplashes with a touch of luxury."
+    },
+    {
+      "title": "Commercial Stone Projects",
+      "desc": "Complete stone solutions for businesses, from office fit-outs to retail spaces, delivered on time and within budget."
+    },
+    {
+      "title": "Stone Consultation & Design",
+      "desc": "Free consultations to help you choose the right stone products for your project, with expert advice on design and maintenance."
+    },
+    {
+      "title": "Installation & Repair Services",
+      "desc": "Professional installation and repair services to ensure your stone surfaces remain in perfect condition for years to come."
+    }
+  ],
+  "bannerHeading": "Need Stone Services in Coolaroo?",
+  "bannerSubheading": "We're here to help with all your stone needs.",
+  "testimonialsHeading": "What Coolaroo Customers Say",
+  "testimonialsSubheading": "Real feedback from locals",
+  "blogHeading": "Stone Tips & Trends",
+  "blogSubheading": "Insights from Nexus Stone",
+  "contactHeading": "Contact Nexus Stone Today",
+  "contactSubheading": "Get in touch for a free quote",
+  "reviews": [
+    {
+      "text": "We had Nexus Stone install custom granite countertops in our Coolaroo home, and the result was stunning. Their attention to detail and professional service made the entire process seamless.",
+      "name": "Sarah Mitchell",
+      "role": "Coolaroo Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed reliable stone suppliers for our restaurant renovation. Nexus Stone delivered high-quality wall panels and countertops on schedule. Highly recommend their commercial services.",
+      "name": "James O'Connell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Nexus Stone provided excellent tiling services for our apartment complex in Coolaroo. Their team was efficient, and the finish was impeccable. We've used them for multiple properties now.",
+      "name": "Karen Hughes",
+      "role": "Property Manager"
+    }
+  ]
+}
