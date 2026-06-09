@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Richmond Auto Service Centre",
+  "suburb": "Richmond",
+  "phone": "03 9429 1234",
+  "email": "info@richmondauto.com.au",
+  "address": "56 Elizabeth St, Richmond VIC 3121",
+  "tagline": "Richmond's Trusted Mechanics",
+  "primaryColor": "#ff8c00",
+  "primaryColorRgb": "255, 140, 0",
+  "primaryColorHover": "#e67300",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Trusted Auto Mechanics",
+      "sub": "Over 20 years of quality car care"
+    },
+    {
+      "title": "Log Book Service & Major Repairs",
+      "sub": "All makes and models serviced"
+    },
+    {
+      "title": "Auto Electrical & Fault Diagnosis",
+      "sub": "Expert service in Richmond & surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Richmond? Let's Get Your Car Serviced.",
+  "aboutHeading": "20+ Years Auto Service in Richmond",
+  "aboutSubheading": "Personalised, honest service for all vehicles",
+  "aboutText": "Richmond Auto Service Centre has been providing trusted vehicle servicing and repairs to the Richmond community for over 20 years. Our highly personalised service ensures that whether you need a log book service, major mechanical overhaul, or auto electrical diagnosis, we treat every car with care. Located at 56 Elizabeth Street, we serve all makes and models, delivering quality workmanship that exceeds expectations.",
+  "servicesHeading": "What We Service & Repair",
+  "servicesSubheading": "Expert car care in Richmond",
+  "servicesText": "From log book servicing to complex auto electrical repairs, Richmond Auto Service Centre covers all aspects of vehicle maintenance. Our experienced technicians in Richmond provide honest, reliable service for all car makes and models.",
+  "services": [
+    {
+      "title": "Log Book Service",
+      "desc": "Comprehensive log book servicing to maintain your vehicle's warranty.",
+      "longDesc": "Our Richmond auto mechanics provide manufacturer-standard log book services, ensuring your car stays in top condition. We use quality parts and follow precise service schedules for all makes and models.",
+      "points": [
+        "Maintains warranty",
+        "Quality parts used",
+        "All car makes"
+      ]
+    },
+    {
+      "title": "Major Mechanical Service",
+      "desc": "In-depth servicing for high-mileage or older vehicles.",
+      "longDesc": "Major services at Richmond Auto include thorough inspections, fluid changes, and component replacements. Keep your vehicle running smoothly with our detailed mechanical care.",
+      "points": [
+        "Thorough inspections",
+        "Extends vehicle life",
+        "Expert technicians"
+      ]
+    },
+    {
+      "title": "Fault Diagnosis & Repair",
+      "desc": "Accurate diagnostics for engine, electrical, and system faults.",
+      "longDesc": "Using advanced diagnostic tools, we identify and fix faults efficiently in Richmond. From warning lights to performance issues, we ensure your car is safe and reliable.",
+      "points": [
+        "Advanced diagnostics",
+        "Fast repairs",
+        "Guaranteed fixes"
+      ]
+    },
+    {
+      "title": "Pre-Purchase Inspection",
+      "desc": "Independent mechanical inspection before you buy a used car.",
+      "longDesc": "Our pre-purchase inspections in Richmond give you peace of mind when buying a used vehicle. We assess all critical systems to prevent unexpected costs.",
+      "points": [
+        "Unbiased report",
+        "Covers all systems",
+        "Avoid hidden issues"
+      ]
+    },
+    {
+      "title": "Auto Electrical Service",
+      "desc": "Specialist repairs for batteries, alternators, and wiring.",
+      "longDesc": "As auto electrical experts in Richmond, we handle everything from battery testing to complex wiring repairs. Keep your car's electrical system in perfect working order.",
+      "points": [
+        "Battery & alternator",
+        "Wiring repairs",
+        "Electrical diagnostics"
+      ]
+    },
+    {
+      "title": "General Vehicle Maintenance",
+      "desc": "Routine checks and minor repairs to keep your car roadworthy.",
+      "longDesc": "Regular maintenance at Richmond Auto includes oil changes, brake checks, and tyre rotations. We help prevent breakdowns and ensure your vehicle is safe to drive.",
+      "points": [
+        "Routine oil changes",
+        "Brake inspections",
+        "Tyre rotations"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Richmond?",
+  "bannerSubheading": "We're here to help with all your auto service needs.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Richmond Auto Service Tips & Guides",
+  "blogSubheading": "Expert advice from your local mechanic",
+  "contactHeading": "Get in Touch for a Free Quote",
+  "contactSubheading": "Quick response for all service enquiries",
+  "reviews": [
+    {
+      "text": "The log book service at Richmond Auto was thorough and kept my car's warranty intact. Highly recommend their personalised approach for all Richmond drivers.",
+      "name": "John Smith",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "I've taken my business car for major services here for years. The fault diagnosis saved me from a costly repair. Trustworthy and efficient service in Richmond.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Pre-purchase inspection was detailed and gave me confidence buying my used car. Great service in Richmond, highly professional team.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Richmond",
+    "Cremorne",
+    "Burnside",
+    "East Melbourne",
+    "Hawthorn",
+    "Kew",
+    "Collingwood"
+  ],
+  "about": {
+    "intro": "Richmond Auto Service Centre has been serving the Richmond community with expert vehicle maintenance and repairs for over 20 years.",
+    "story": [
+      "Founded over two decades ago, Richmond Auto Service Centre started as a small workshop dedicated to providing honest, reliable auto repairs. Our commitment to personalised service has made us a trusted name in Richmond and surrounding suburbs.",
+      "Today, our team of experienced technicians uses the latest diagnostic equipment to service all makes and models. Whether it's a routine log book service or complex auto electrical work, we ensure every job is done to the highest standard."
+    ],
+    "mission": "To deliver trusted, expert auto care to Richmond with transparency and quality.",
+    "whyUs": [
+      {
+        "title": "Personalised Service",
+        "text": "We treat every car and customer as unique in Richmond."
+      },
+      {
+        "title": "Expert Technicians",
+        "text": "Our qualified mechanics have decades of combined experience."
+      },
+      {
+        "title": "Advanced Diagnostics",
+        "text": "Using state-of-the-art tools for accurate fault finding."
+      },
+      {
+        "title": "Fair Pricing",
+        "text": "Transparent quotes with no hidden costs for Richmond locals."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Free diagnostic checks",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Richmond Auto Service Centre, we offer competitive pricing for all vehicle services. No lock-in contracts, just honest quotes for Richmond car owners.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Top-up fluids"
+        ]
+      },
+      {
+        "name": "Log Book Service",
+        "price": "$250",
+        "unit": "per service",
+        "highlight": true,
+        "features": [
+          "Manufacturer-standard service",
+          "Warranty maintained",
+          "Detailed report",
+          "Quality parts"
+        ]
+      },
+      {
+        "name": "Major Overhaul",
+        "price": "from $800",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete mechanical check",
+          "Component replacements",
+          "Electrical diagnostics",
+          "Road test included"
+        ]
+      }
+    ],
+    "note": "All prices are upfront and fixed, with no surprises for our Richmond customers."
+  },
+  "contact": {
+    "intro": "For reliable auto service in Richmond, contact Richmond Auto Service Centre. We're ready to help with all your vehicle maintenance needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should You Service Your Car in Richmond's Climate?",
+      "date": "March 2026",
+      "excerpt": "Discover the best service intervals for Richmond's variable weather to keep your vehicle running smoothly and avoid costly repairs.",
+      "body": [
+        "In Richmond, Melbourne, the climate can range from hot summers to chilly winters, affecting your vehicle's performance. Regular servicing is crucial to address issues like battery drain in cold weather or coolant checks in summer. At Richmond Auto Service Centre, we recommend servicing every 10,000 kilometers or six months, whichever comes first. This ensures your car adapts to local conditions and maintains efficiency, preventing breakdowns during extreme temperatures.",
+        "Richmond's urban environment means stop-start traffic can accelerate wear on brakes and engines. Our mechanics in Richmond inspect these components during each service, using local driving patterns to tailor advice. For example, frequent short trips might require more frequent oil changes due to incomplete engine warming. We also check air filters more often in dusty conditions, ensuring optimal performance for Richmond drivers.",
+        "The cost of neglecting regular service in Richmond can be high, with repairs often exceeding preventive maintenance costs. Our service packages are designed to be affordable and transparent, helping you budget effectively. We use high-quality parts sourced from reputable suppliers, ensuring durability in Melbourne's variable climate. By following manufacturer guidelines, we maintain your warranty while adapting to Richmond-specific challenges.",
+        "Auto electrical systems are particularly sensitive to temperature extremes. In Richmond's cold winters, battery failures are common, so we include free battery checks in our log book services. Our advanced diagnostics can identify issues before they become severe, saving you time and money. We also advise on coolant types suited for local conditions, preventing overheating in summer and freezing in winter.",
+        "Pre-purchase inspections in Richmond are vital due to the used car market's variability. Our detailed reports highlight climate-related wear, such as rust from coastal humidity or sun damage to interiors. We provide actionable recommendations, helping you negotiate prices or avoid problematic vehicles. This service is especially valuable for Richmond buyers looking for reliable transport in Melbourne's bustling suburb.",
+        "Ultimately, regular servicing at Richmond Auto Service Centre is an investment in your vehicle's longevity. We keep records of your service history, tailoring future maintenance to Richmond's environmental factors. Our goal is to provide peace of mind, knowing your car is safe and efficient for daily commutes or weekend trips around Melbourne. Contact us today to schedule your next service and experience personalised care."
+      ]
+    },
+    {
+      "title": "Signs Your Car Needs Auto Electrical Repair in Richmond",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs of auto electrical problems and why Richmond drivers should seek expert diagnosis promptly.",
+      "body": [
+        "Auto electrical issues in Richmond can manifest in subtle ways, such as dimming headlights or intermittent dashboard warnings. In Melbourne's variable climate, temperature swings can stress wiring and batteries, leading to failures. Richmond Auto Service Centre uses advanced diagnostic tools to pinpoint problems early, preventing roadside breakdowns. Common signs include clicking noises when starting, flickering lights, or unresponsive power windows.",
+        "The cost of ignoring electrical faults in Richmond can escalate quickly, as minor issues affect major systems like ignition or charging. Our mechanics specialize in auto electrical repair, servicing all car makes with precision. We check connections, alternators, and sensors, ensuring compatibility with modern vehicle technology. For Richmond drivers, this expertise is crucial for reliable daily commuting in heavy traffic.",
+        "Richmond's urban setting exposes vehicles to vibration and dust, which can corrode electrical components over time. We recommend periodic electrical inspections as part of general maintenance, especially for older cars. Our workshop at 56 Elizabeth Street is equipped to handle complex wiring repairs, from battery replacements to ECU diagnostics. We use quality parts to withstand local environmental stresses.",
+        "Battery failures are frequent in Richmond during winter, as cold temperatures reduce capacity. Symptoms like slow cranking or warning lights indicate need for testing. We offer free battery health checks with every service, helping you avoid unexpected failures. Our team also advises on battery types suited for Melbourne's climate, ensuring optimal performance year-round.",
+        "Modern cars rely heavily on electrical systems for safety features like ABS and airbags. In Richmond, where traffic conditions vary, these systems must function perfectly. Our fault diagnosis includes scans of all electronic modules, identifying issues before they compromise safety. We provide clear reports and upfront pricing, making electrical repairs transparent for Richmond customers.",
+        "Ultimately, addressing auto electrical repairs promptly at Richmond Auto Service Centre saves you time and money. We are committed to keeping your vehicle safe and efficient on Richmond's roads. With over 20 years of experience, our trusted team delivers reliable solutions tailored to local needs. Contact us for a diagnostic check and drive with confidence."
+      ]
+    },
+    {
+      "title": "What Does a Pre-Purchase Inspection Include in Richmond?",
+      "date": "January 2026",
+      "excerpt": "A detailed guide to pre-purchase inspections at Richmond Auto, helping you make informed decisions when buying a used car.",
+      "body": [
+        "Buying a used car in Richmond requires a thorough pre-purchase inspection to uncover hidden issues. At Richmond Auto Service Centre, our inspection covers mechanical, electrical, and structural aspects, tailored to Melbourne's climate. We check for rust from coastal moisture, sun damage to interiors, and wear from stop-start traffic common in the suburb. This ensures you get a reliable vehicle without nasty surprises.",
+        "The process begins with a comprehensive underbody inspection, assessing suspension, brakes, and exhaust systems. Richmond's road conditions, including potholes and speed bumps, can cause unseen damage. Our mechanics use diagnostic tools to evaluate engine performance and transmission health, providing a detailed report with photos. This transparency helps Richmond buyers negotiate fair prices based on real conditions.",
+        "Electrical systems are scrutinized for faults, such as faulty sensors or wiring issues that may arise from temperature extremes. We test batteries, alternators, and all lights, ensuring compliance with Australian safety standards. For Richmond drivers, this is vital as electrical failures can lead to breakdowns in busy areas. Our report highlights immediate repairs and future maintenance needs, giving you a complete picture.",
+        "We also assess fluid levels, leaks, and cooling system integrity, which are critical in Melbourne's variable weather. Poor maintenance can lead to overheating in summer or freezing in winter, so our inspection includes coolant and oil analysis. This attention to detail helps Richmond buyers avoid costly post-purchase repairs, making it a wise investment before committing to a vehicle.",
+        "The cost of a pre-purchase inspection at Richmond Auto is competitive, with results typically available within 24 hours. We provide written reports that are easy to understand, outlining both strengths and weaknesses of the vehicle. This service is especially valuable in Richmond's active used car market, where quick decisions are often needed. Our goal is to empower you with knowledge for a confident purchase.",
+        "In summary, a pre-purchase inspection from Richmond Auto Service Centre is essential for any used car buyer in the suburb. We combine local expertise with advanced diagnostics to deliver reliable assessments. Trust our over 20 years of experience to help you find a safe and dependable vehicle. Contact us today to book your inspection and drive away with peace of mind."
+      ]
+    },
+    {
+      "title": "Log Book Servicing: Why It's Essential for Richmond Car Owners",
+      "date": "December 2025",
+      "excerpt": "Understand the importance of log book servicing for maintaining your vehicle's warranty and performance in Richmond.",
+      "body": [
+        "Log book servicing is critical for Richmond car owners to preserve manufacturer warranties and ensure long-term vehicle health. At Richmond Auto Service Centre, we follow strict guidelines using genuine parts, adapted to Melbourne's climate challenges. Regular servicing every 10,000 kilometers or six months prevents issues like oil degradation in hot summers or battery strain in cold winters, keeping your car reliable on Richmond's roads.",
+        "In Richmond, urban driving conditions with frequent stops can accelerate engine wear. Our log book services include detailed inspections of brakes, filters, and fluids, tailored to local usage patterns. We use high-quality lubricants suited for temperature variations, ensuring optimal performance. This proactive approach saves Richmond drivers from expensive repairs down the line, maintaining resale value.",
+        "The process at Richmond Auto is transparent, with no hidden fees. We document each service step, providing records that satisfy warranty requirements. For newer cars, this is essential to avoid voiding coverage. Our mechanics are trained on all makes and models, using diagnostic tools to identify potential issues early. Richmond customers benefit from this expertise in a convenient location on Elizabeth Street.",
+        "Auto electrical checks are integrated into log book services, as systems can fail due to climate stress. We test batteries, alternators, and wiring, preventing common Richmond issues like winter breakdowns. Our service includes software updates where applicable, ensuring your car's electronics function correctly. This comprehensive care enhances safety and efficiency for daily commutes in Melbourne.",
+        "Cost-wise, log book servicing at Richmond Auto is competitively priced, with packages designed for different budgets. We offer reminders and flexible scheduling to suit Richmond lifestyles, minimizing disruption. By adhering to manufacturer schedules, we help extend your vehicle's lifespan, which is particularly valuable in a bustling suburb like Richmond where cars endure heavy use.",
+        "Ultimately, log book servicing at Richmond Auto Service Centre is an investment in peace of mind for Richmond car owners. We combine local knowledge with international standards to deliver unmatched care. Our commitment to personalised service ensures your vehicle receives the attention it deserves. Contact us to schedule your next log book service and keep your car performing at its best."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Richmond Auto Service Centre | Mechanic in Richmond VIC",
+      "description": "Trusted auto mechanics in Richmond offering log book service, major repairs, and auto electrical diagnostics. Over 20 years of experience."
+    },
+    "about": {
+      "title": "About Us | Richmond's Trusted Auto Service Centre",
+      "description": "Learn about Richmond Auto Service Centre's history, team, and commitment to personalised vehicle care in Richmond."
+    },
+    "services": {
+      "title": "Auto Services in Richmond | Log Book, Repairs & Diagnostics",
+      "description": "Comprehensive auto services in Richmond including log book servicing, fault diagnosis, and pre-purchase inspections."
+    },
+    "pricing": {
+      "title": "Auto Service Costs Richmond | Transparent Pricing",
+      "description": "View competitive pricing for vehicle servicing in Richmond. No hidden fees, upfront quotes for all car makes."
+    },
+    "contact": {
+      "title": "Contact Richmond Auto Service Centre | Free Quotes",
+      "description": "Get in touch for a free quote on auto repairs and servicing in Richmond. Quick response and expert advice."
+    },
+    "blog": {
+      "title": "Richmond Auto Service Blog | Tips & Guides",
+      "description": "Expert auto care advice from Richmond mechanics. Maintenance tips, service guides, and local insights."
+    }
+  }
+}
