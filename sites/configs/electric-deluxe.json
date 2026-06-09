@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Electric Deluxe",
+  "suburb": "Preston",
+  "phone": "0409 249 449",
+  "email": "info@eletricdeluxe.com",
+  "address": "2A Spark Grove, Preston VIC 3072",
+  "tagline": "Preston's Electrical Detectives at Electric Deluxe",
+  "primaryColor": "#ec2622",
+  "primaryColorRgb": "236, 38, 34",
+  "primaryColorHover": "#d92022",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Preston's Electrical Detectives",
+      "sub": "Electric Deluxe – fixing tricky problems"
+    },
+    {
+      "title": "Trusted Electrician in Preston",
+      "sub": "Residential & commercial electrical services"
+    },
+    {
+      "title": "Free Quotes for Preston Homes",
+      "sub": "Call 0409 249 449 or email us"
+    }
+  ],
+  "ctaHeading": "Ready to Solve Your Electrical Issues in Preston?",
+  "aboutHeading": "Electric Deluxe: Preston's Local Electrician",
+  "aboutSubheading": "Licensed, reliable, and local to Preston",
+  "aboutText": "Electric Deluxe has been serving the Preston community with expert electrical services. Our team specialises in diagnosing and fixing complex electrical issues, from faulty wiring to switchboard upgrades. We pride ourselves on being thorough and honest, ensuring your home or business is safe and compliant. With a focus on customer satisfaction, we provide prompt and professional service across Preston and surrounding suburbs.",
+  "servicesHeading": "Our Electrical Services in Preston",
+  "servicesSubheading": "From repairs to installations",
+  "servicesText": "At Electric Deluxe, we offer a comprehensive range of electrical services tailored to Preston homes and businesses. Our experienced electricians handle everything from routine maintenance to emergency repairs, ensuring quality workmanship every time.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete electrical solutions for Preston homes, including wiring, repairs, and safety checks."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Reliable electrical services for local businesses, from fit-outs to maintenance contracts."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency call-out for urgent electrical faults, minimising downtime and risk."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade old switchboards to meet current safety standards, preventing hazards."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Energy-efficient lighting solutions for indoor and outdoor spaces in Preston."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Comprehensive electrical safety inspections to ensure compliance and peace of mind."
+    }
+  ],
+  "bannerHeading": "Electrician in Preston? We're Here to Help!",
+  "bannerSubheading": "Professional electrical services with a local touch.",
+  "testimonialsHeading": "What Preston Locals Say About Us",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips & News from Preston",
+  "blogSubheading": "Stay informed with Electric Deluxe",
+  "contactHeading": "Contact Electric Deluxe in Preston",
+  "contactSubheading": "Get a free quote today",
+  "reviews": [
+    {
+      "text": "Electric Deluxe helped us with a tricky wiring issue at our Preston home. Their electrician was like a detective, finding and fixing the problem quickly. Highly recommend their services!",
+      "name": "Sarah Mitchell",
+      "role": "Preston Homeowner"
+    },
+    {
+      "text": "We had Electric Deluxe upgrade our switchboard at the local café. Professional work, completed on time, and great communication throughout. A reliable electrician in Preston.",
+      "name": "James O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Electric Deluxe for all electrical maintenance in my Preston properties. They are prompt, efficient, and always provide detailed reports.",
+      "name": "Emily Watson",
+      "role": "Property Manager"
+    }
+  ]
+}
