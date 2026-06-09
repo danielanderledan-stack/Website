@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "Serv Auto Care Service",
+  "suburb": "Fawkner",
+  "phone": "03 9359 4034",
+  "email": "info@servautocare.com.au",
+  "address": "18 Leo St, Fawkner VIC 3060",
+  "tagline": "Fawkner's Trusted Mechanic",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Fawkner's Go-To Mechanics",
+      "sub": "Expert car service and repairs since 2000"
+    },
+    {
+      "title": "Logbook Servicing & Brake Repairs",
+      "sub": "Comprehensive auto care in Fawkner"
+    },
+    {
+      "title": "State-of-the-Art Workshop in Fawkner",
+      "sub": "Modern diagnostics and skilled technicians"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Fawkner?",
+  "aboutHeading": "Fawkner's Premier Auto Care Centre",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Serv Auto Care Service is Fawkner's premier car service and repair centre, owned and operated by head mechanic Serv Auto Care Service. With a highly qualified team of automotive repair technicians, we promise satisfaction in every job. Our modern workshop at 18 Leo St, Fawkner, is equipped to handle all your vehicle needs, from routine servicing to complex repairs, serving the local community with dedication.",
+  "servicesHeading": "Our Automotive Services",
+  "servicesSubheading": "Comprehensive car care",
+  "servicesText": "Serv Auto Care Service offers a wide range of automotive services and repairs. Our skilled technicians use the latest diagnostic tools and genuine parts to keep your car running smoothly. From logbook servicing to major overhauls, we cover all aspects of vehicle maintenance in Fawkner and surrounding areas.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Manufacturer-specified servicing to maintain your vehicle's warranty and ensure optimal performance on the road."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Complete brake inspections, pad replacements, and rotor resurfacing for safe and reliable stopping power."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced computer diagnostics to quickly identify and fix engine issues, preventing costly breakdowns."
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Expert repair and alignment services to ensure a smooth, stable ride and improve vehicle handling."
+    },
+    {
+      "title": "Exhaust Systems",
+      "desc": "Installation, repair, and upgrade of exhaust systems to meet emission standards and enhance performance."
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Comprehensive service for automatic and manual transmissions to ensure optimal shifting and longevity."
+    }
+  ],
+  "bannerHeading": "Fawkner's Mechanic Specialists",
+  "bannerSubheading": "Fast, reliable service for all car makes and models.",
+  "testimonialsHeading": "What Fawkner Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Auto Care Tips & News",
+  "blogSubheading": "Advice from Serv Auto Care",
+  "contactHeading": "Get in Touch Today",
+  "contactSubheading": "We're here to help with your car care needs",
+  "reviews": [
+    {
+      "text": "Serv Auto Care did a fantastic job on my car's logbook service in Fawkner. The team was professional, efficient, and got it done quickly. I highly recommend them for any auto repairs in the area.",
+      "name": "John Smith",
+      "role": "Fawkner Homeowner"
+    },
+    {
+      "text": "I've been taking my business van to Serv Auto Care for brake repairs and regular servicing. Always reliable with fair pricing and excellent workmanship. They are a trusted mechanic in the Fawkner community.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need a dependable mechanic for my fleet vehicles. Serv Auto Care in Fawkner provides top-notch engine diagnostics and transmission work, keeping our cars on the road without hassle.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
