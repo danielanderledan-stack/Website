@@ -1,0 +1,294 @@
+{
+  "siteType": "electrician",
+  "businessName": "Onqueelectrics",
+  "suburb": "Burwood",
+  "phone": "0432 548 196",
+  "email": "info@onqueelectrics.com.au",
+  "address": "5-5B, Worrall Street, Burwood VIC 3125",
+  "tagline": "Burwood's Trusted Electrician",
+  "primaryColor": "#8ed1fc",
+  "primaryColorRgb": "142, 209, 252",
+  "primaryColorHover": "#7bc2f6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Burwood's Trusted Electrician",
+      "sub": "Reliable electrical services since 2014"
+    },
+    {
+      "title": "Switchboard Upgrades & Safety Checks",
+      "sub": "Keeping Burwood homes compliant"
+    },
+    {
+      "title": "24/7 Emergency Electrical Help",
+      "sub": "Available across Burwood & surrounds"
+    }
+  ],
+  "ctaHeading": "Burwood's electricians are ready — let's power up your home.",
+  "aboutHeading": "10+ Years Electrical Expertise in Burwood",
+  "aboutSubheading": "Licensed, local & available 24/7",
+  "aboutText": "With over a decade of experience serving Burwood, Victoria, our team at Onqueelectrics delivers thorough and reliable electrical services. We've handled everything from kitchen appliance installations to rewiring faulty work, ensuring all meets Australian safety standards. As praised by customers like Damian G, we're honest, communicative, and committed to perfection.",
+  "servicesHeading": "What We Wire & Install",
+  "servicesSubheading": "Electrical solutions for Burwood",
+  "servicesText": "From switchboard upgrades to lighting installations, Onqueelectrics provides comprehensive electrical services in Burwood and Melbourne's eastern suburbs. Our licensed electricians ensure all work complies with Australian standards, offering both residential and commercial solutions.",
+  "services": [
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your old switchboard for safety and efficiency in Burwood homes.",
+      "longDesc": "We upgrade outdated switchboards in Burwood to meet current Australian standards, preventing electrical hazards and improving power distribution for modern appliances.",
+      "points": [
+        "Enhanced safety",
+        "Compliant installation",
+        "Better performance"
+      ]
+    },
+    {
+      "title": "Lighting Installation & Repair",
+      "desc": "Professional lighting solutions for Burwood properties, indoors and out.",
+      "longDesc": "Our Burwood electricians install and repair all types of lighting, from energy-efficient LEDs to decorative fixtures, enhancing your home's ambience and functionality.",
+      "points": [
+        "Expert installation",
+        "Energy savings",
+        "Custom designs"
+      ]
+    },
+    {
+      "title": "Kitchen Appliance Installation",
+      "desc": "Safe and proper setup of ovens, cooktops, and other kitchen appliances.",
+      "longDesc": "We handle kitchen appliance installations in Burwood, ensuring correct wiring and compliance with Australian safety regulations for appliances like ovens and dishwashers.",
+      "points": [
+        "Secure connections",
+        "Code compliance",
+        "Professional service"
+      ]
+    },
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "Thorough inspections to identify and fix electrical risks in Burwood properties.",
+      "longDesc": "Our safety inspections in Burwood cover wiring, outlets, and systems, providing detailed reports and fixes to meet Australian standards and protect your home.",
+      "points": [
+        "Comprehensive checks",
+        "Risk prevention",
+        "Certified reports"
+      ]
+    },
+    {
+      "title": "Rewiring & Fault Finding",
+      "desc": "Expert diagnosis and repair of electrical faults and outdated wiring.",
+      "longDesc": "We specialise in rewiring and fault finding in Burwood, correcting issues from previous work to ensure all electrical systems are safe and efficient.",
+      "points": [
+        "Accurate diagnosis",
+        "Quality rewiring",
+        "Long-term solutions"
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 rapid response for urgent electrical issues in Burwood and surrounds.",
+      "longDesc": "Our Burwood emergency electricians are available around the clock to handle power outages, faults, and other critical issues, minimising downtime and risk.",
+      "points": [
+        "Fast response",
+        "Any time service",
+        "Problem resolution"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Burwood?",
+  "bannerSubheading": "Fast, reliable service from your local team",
+  "testimonialsHeading": "What Burwood Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners & businesses",
+  "blogHeading": "Burwood Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from your local electrician",
+  "contactHeading": "Get a Free Electrical Quote",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "Damian G: TJ installed our kitchen appliances perfectly and even rewired a previous error to safety standards. Highly recommend Onqueelectrics in Burwood for honest, thorough work.",
+      "name": "Damian G",
+      "role": "Burwood Homeowner"
+    },
+    {
+      "text": "Sarah M: Had our switchboard upgraded quickly and efficiently. The team at Onqueelectrics was professional and left the site clean. Great service in Burwood.",
+      "name": "Sarah M",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Mike T: Used Onqueelectrics for a safety inspection on our rental property. They identified issues and fixed them promptly. Reliable electrician in Burwood.",
+      "name": "Mike T",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Burwood",
+    "Glen Waverley",
+    "Clayton",
+    "Mount Waverley",
+    "Box Hill",
+    "Blackburn"
+  ],
+  "about": {
+    "intro": "Onqueelectrics has been serving Burwood and surrounding areas with top-quality electrical services for over 10 years, building trust through reliability and safety.",
+    "story": [
+      "Founded in Burwood, Victoria, our team of licensed electricians has built a reputation for reliability and attention to detail. We specialise in residential and commercial electrical work, from new installations to emergency repairs, ensuring every job meets stringent Australian safety standards.",
+      "As highlighted by customer Damian G, we take pride in our thorough approach, such as identifying and correcting faulty wiring from previous work. Our commitment to honest communication and perfection drives us to be Burwood's go-to electrician for all electrical needs."
+    ],
+    "mission": "To provide Burwood with safe, efficient, and honest electrical services that exceed expectations.",
+    "whyUs": [
+      {
+        "title": "Licensed & Insured",
+        "text": "All work performed by fully licensed and insured electricians for your peace of mind."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "Emergency electrical services available around the clock in Burwood and surrounds."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden costs; we provide fixed quotes before starting any electrical work."
+      },
+      {
+        "title": "Quality Workmanship",
+        "text": "We guarantee all our electrical services for lasting results and customer satisfaction."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "24/7 service"
+    ]
+  },
+  "pricing": {
+    "intro": "At Onqueelectrics, we offer transparent pricing for all electrical services in Burwood. No lock-in contracts; just honest quotes tailored to your needs.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Fixed upfront quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality materials",
+          "Compliance certificate",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project or Renovation",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive planning",
+          "Full electrical fit-out",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to get your electrical work done? Contact Onqueelectrics for a free, no-obligation quote in Burwood and surrounding areas."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Switchboard Upgrade Cost in Burwood?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of switchboard upgrades in Burwood, Victoria, including factors affecting price and why it's essential for safety.",
+      "body": [
+        "Upgrading your switchboard in Burwood is a critical investment for home safety, especially in older properties with outdated wiring. In Melbourne's eastern suburbs like Burwood, the cost typically ranges from $800 to $2,500, depending on the size of the property and complexity of the job. Factors include the number of circuits, whether additional safety switches are needed, and compliance with current Australian standards. As a Burwood electrician, we always recommend assessing your switchboard every 10-15 years to prevent electrical fires and ensure it can handle modern appliance loads.",
+        "The process involves a licensed electrician inspecting your existing setup, often found in garages or utility areas, and designing an upgrade that meets AS/NZS 3000 wiring rules. In Burwood, where many homes are from the mid-20th century, older ceramic fuses may need replacement with circuit breakers and residual current devices (RCDs). This not only enhances safety but can also reduce insurance premiums, as insurers in Victoria often require compliant switchboards. We provide fixed quotes after an on-site assessment, so there are no hidden costs.",
+        "Choosing a local electrician in Burwood ensures familiarity with common issues like bushfire-prone areas or coastal humidity, which can affect electrical systems. During the upgrade, we also check for faulty wiring or overloaded circuits, which are frequent in Burwood's family homes with multiple appliances. The work usually takes 4-8 hours, and we prioritise minimising disruption. After completion, you receive a certificate of compliance, which is mandatory in Victoria and proves your switchboard meets legal standards.",
+        "For Burwood residents, scheduling a switchboard upgrade during quieter months, like late autumn or winter, can sometimes offer quicker service and avoid peak demand periods. Melbourne's climate, with its cool winters and warm summers, means electrical loads vary, so a well-functioning switchboard is key to managing air-conditioning and heating safely. We also advise on energy-saving tips, such as LED lighting or smart meters, to complement your upgraded system and reduce long-term costs.",
+        "In summary, while the cost of a switchboard upgrade in Burwood may seem significant, it's a vital step to protect your property and family. By hiring a licensed electrician from Onqueelectrics, you ensure the job is done right the first time, with all work guaranteed. Contact us for a free assessment and detailed quote tailored to your Burwood home's specific needs."
+      ]
+    },
+    {
+      "title": "Best Time for Electrical Safety Inspections in Melbourne's Eastern Suburbs",
+      "date": "February 2026",
+      "excerpt": "Learn when to schedule electrical safety checks in Burwood and nearby areas, considering Melbourne's climate and building regulations.",
+      "body": [
+        "In Melbourne's eastern suburbs like Burwood, scheduling an electrical safety inspection is crucial for maintaining safe and efficient homes, especially given the region's variable climate. The best time is during mild weather periods, such as spring or autumn, when electricians can easily access outdoor areas and the moderate temperatures reduce stress on electrical systems. In Burwood, with its mix of established and modern homes, inspections should ideally occur every 5 years or before major renovations to comply with Victorian building codes.",
+        "Melbourne's cold winters can lead to increased use of heating appliances, putting extra load on wiring, while hot summers may strain air-conditioning systems. An inspection before these seasons helps identify issues like overloaded circuits or faulty outlets. As a Burwood electrician, we recommend timing inspections during weekdays in off-peak months to ensure thorough assessments without rush. This also allows for any necessary repairs to be completed promptly, avoiding emergencies during extreme weather.",
+        "During a safety inspection in Burwood, our licensed electricians check all aspects, from switchboards and wiring to earthing and smoke alarms, ensuring compliance with Australian standards AS/NZS 3000. We pay special attention to common Burwood issues, such as older homes with aluminium wiring or properties near green spaces where pests might damage cables. The process takes 2-4 hours, and we provide a detailed report highlighting risks and recommended fixes, which is essential for insurance purposes in Victoria.",
+        "For Burwood businesses and rental properties, annual inspections are often required by law to maintain compliance and tenant safety. Melbourne's eastern suburbs, including nearby Glen Waverley and Mount Waverley, share similar electrical challenges, so scheduling inspections collaboratively with neighbours can sometimes reduce costs. We also advise on upgrading to energy-efficient systems during inspections, which can lower electricity bills and support sustainability in Burwood's community-focused environment.",
+        "In conclusion, the optimal time for an electrical safety inspection in Burwood and Melbourne's eastern suburbs is during transitional seasons, ensuring readiness for climate extremes. By partnering with Onqueelectrics, you receive expert local advice and reliable service, keeping your property safe and up to standard. Book your inspection today to avoid potential hazards and enjoy peace of mind."
+      ]
+    },
+    {
+      "title": "Why You Need a Licensed Electrician for Kitchen Appliance Installation in Burwood",
+      "date": "January 2026",
+      "excerpt": "Explore the importance of hiring a licensed electrician in Burwood for safe kitchen appliance installation and compliance with Australian standards.",
+      "body": [
+        "In Burwood, Victoria, installing kitchen appliances like ovens, cooktops, or dishwashers requires a licensed electrician to ensure safety and compliance with Australian standards. Burwood homes, especially older ones, may have outdated wiring that can't handle modern appliance loads, leading to risks of electrical fires or shocks. A licensed electrician from Onqueelectrics assesses your existing setup, provides correct wiring, and ensures all connections meet AS/NZS 3000 rules, which is mandatory for insurance and resale value.",
+        "The installation process involves more than plugging in appliances; it includes dedicated circuits, proper earthing, and often switchboard modifications. In Burwood, where kitchen renovations are popular, we recommend using a local electrician familiar with common issues like space constraints or shared walls in townhouses. Our team handles everything from hardwiring to testing, guaranteeing that appliances operate efficiently and safely. This attention to detail prevents future problems, such as tripped circuits or warranty voids.",
+        "Melbourne's climate affects kitchen appliance use, with high humidity in summer potentially causing condensation issues near electrical components. In Burwood, we advise scheduling installations during dry periods to avoid complications. Additionally, Australian building codes require that all electrical work is performed by licensed professionals, and DIY installations can lead to fines or safety hazards. We provide certificates of compliance after installation, giving you peace of mind and documentation for property records.",
+        "For Burwood residents considering kitchen upgrades, it's wise to consult an electrician early in the planning stage. We can advise on energy-efficient appliances, load balancing, and future-proofing for additions like solar panels, which are increasingly common in Melbourne's eastern suburbs. Our services extend to nearby areas like Clayton and Box Hill, ensuring consistent quality and local expertise. We also offer tips on maintaining appliance wiring to extend their lifespan in Burwood's seasonal conditions.",
+        "In summary, hiring a licensed electrician for kitchen appliance installation in Burwood is essential for safety, compliance, and long-term reliability. Onqueelectrics brings years of local experience, ensuring your kitchen is functional and secure. Contact us for a consultation and quote tailored to your Burwood home's needs."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services in Burwood: What to Do During a Power Outage",
+      "date": "December 2025",
+      "excerpt": "A guide to handling electrical emergencies in Burwood, including when to call an electrician and steps to ensure safety.",
+      "body": [
+        "Experiencing a power outage in Burwood can be stressful, but knowing how to respond is key to ensuring safety and quick resolution. In Melbourne's eastern suburbs, outages can result from severe weather, such as storms in winter or heatwaves in summer, affecting local grids. As a Burwood electrician, we advise first checking if the outage is localised—look for neighbourhood lights or contact your electricity provider. If it's isolated to your property, it may indicate an internal electrical fault requiring professional help.",
+        "Safety steps during a power outage include turning off sensitive appliances to prevent damage from surges when power returns and using torches instead of candles to avoid fire risks. In Burwood homes with older wiring, outages might stem from overloaded circuits or faulty switchboards, common in areas with many family homes. If you smell burning or see sparks, evacuate immediately and call an emergency electrician from Onqueelectrics, available 24/7 in Burwood and surrounds. We prioritise rapid response to minimise risks.",
+        "Our emergency services in Burwood cover issues like tripped breakers, electrical fires, or complete power loss. We arrive within hours, equipped to diagnose and fix problems on-site. Melbourne's climate can exacerbate electrical issues—for example, heavy rain might cause water ingress into outdoor outlets, common in Burwood's leafy suburbs. We recommend regular safety inspections to prevent such emergencies, ensuring your home is prepared for seasonal challenges.",
+        "For Burwood businesses or rental properties, power outages can lead to financial losses or tenant complaints, so having a reliable electrician on call is crucial. We provide temporary solutions like generators or quick repairs to restore functionality. Our team also advises on upgrading to surge protectors or backup systems, which are valuable in Melbourne's variable weather. We serve nearby areas like Glen Waverley and Blackburn, ensuring consistent emergency support across the eastern suburbs.",
+        "In conclusion, during a power outage in Burwood, prioritise safety by checking for local causes and contacting a licensed electrician for property-specific issues. Onqueelectrics offers trusted emergency electrical services to keep your home or business powered and secure. Save our number and reach out anytime for immediate assistance in Burwood and surrounding regions."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Onqueelectrics | Electrician in Burwood | Electrical Services",
+      "description": "Trusted electrician in Burwood, Victoria. Switchboard upgrades, lighting, and emergency services. Call 0432 548 196 for a free quote."
+    },
+    "about": {
+      "title": "About Us | Burwood's Licensed Electrician | Onqueelectrics",
+      "description": "Learn about Onqueelectrics, Burwood's experienced electrical team with over 10 years serving Melbourne's eastern suburbs. Licensed and insured."
+    },
+    "services": {
+      "title": "Electrical Services in Burwood | Switchboards, Lighting & More",
+      "description": "Comprehensive electrical services in Burwood, Victoria. From switchboard upgrades to appliance installations by licensed electricians."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Prices in Burwood | Onqueelectrics Quotes",
+      "description": "Transparent pricing for electrical work in Burwood. Get upfront quotes for switchboard upgrades, inspections, and emergency services."
+    },
+    "contact": {
+      "title": "Contact Onqueelectrics | Free Electrical Quotes in Burwood",
+      "description": "Get in touch with Onqueelectrics for free electrical quotes in Burwood, VIC. 24/7 emergency services available. Call 0432 548 196."
+    },
+    "blog": {
+      "title": "Burwood Electrical Blog | Local Tips & Advice from Onqueelectrics",
+      "description": "Expert electrical advice for Burwood residents. Guides on costs, safety inspections, and appliance installations in Melbourne's east."
+    }
+  }
+}
