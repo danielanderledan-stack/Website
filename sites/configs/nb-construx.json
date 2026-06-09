@@ -1,0 +1,300 @@
+{
+  "siteType": "carpenter",
+  "businessName": "NB Construx",
+  "suburb": "Noble Park",
+  "phone": "0435995656",
+  "email": "team@latofonts.com",
+  "address": "44 Callander Rd, Noble Park VIC 3174",
+  "tagline": "Noble Park's Carpentry Experts",
+  "primaryColor": "#3a8fff",
+  "primaryColorRgb": "58, 143, 255",
+  "primaryColorHover": "#2a70d0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Noble Park's Go-To Carpenters",
+      "sub": "Transforming spaces with precision"
+    },
+    {
+      "title": "Kitchen, Bathroom & Living Space Renovations",
+      "sub": "Custom carpentry for every project"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Noble Park & surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to transform your Noble Park home? Let's build your dream.",
+  "aboutHeading": "Carpentry Excellence in Noble Park",
+  "aboutSubheading": "Craftsmanship you can trust",
+  "aboutText": "At NB Construx, we've been delivering high-quality carpentry and building solutions in Noble Park for over 10 years. Our mission is to transform ideas into lasting spaces, specialising in kitchen renovations, bathroom renovations, and living space enhancements that reflect our clients' vision with reliability and detail.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Quality craftsmanship for every need",
+  "servicesText": "From kitchen renovations to custom cabinetry, NB Construx offers comprehensive carpentry services in Noble Park, ensuring functionality and style in every project.",
+  "services": [
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Bespoke kitchen designs and installations tailored to your lifestyle.",
+      "longDesc": "Expert kitchen renovations in Noble Park, focusing on functionality and aesthetics to create your dream cooking space.",
+      "points": [
+        "Custom layouts",
+        "Quality materials",
+        "Seamless finish"
+      ]
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Transform your bathroom with durable carpentry and modern designs.",
+      "longDesc": "Professional bathroom renovations in Noble Park, incorporating waterproofing and precision carpentry for lasting results.",
+      "points": [
+        "Waterproof solutions",
+        "Modern fixtures",
+        "Attention to detail"
+      ]
+    },
+    {
+      "title": "Custom Cabinetry",
+      "desc": "Handcrafted cabinets and storage solutions for your home.",
+      "longDesc": "Bespoke cabinetry services in Noble Park, designed to maximise space and complement your interior decor.",
+      "points": [
+        "Tailored designs",
+        "Durable construction",
+        "Perfect fit"
+      ]
+    },
+    {
+      "title": "Timber Decking",
+      "desc": "Enhance your outdoor living with beautifully crafted decks.",
+      "longDesc": "Premium timber decking in Noble Park, built to withstand Australian weather and add value to your property.",
+      "points": [
+        "Weather-resistant",
+        "Low maintenance",
+        "Elegant design"
+      ]
+    },
+    {
+      "title": "Flooring Installation",
+      "desc": "Expert installation of timber and laminate flooring.",
+      "longDesc": "Professional flooring services in Noble Park, ensuring a flawless finish and long-lasting durability.",
+      "points": [
+        "Precision fitting",
+        "Variety of styles",
+        "Expert advice"
+      ]
+    },
+    {
+      "title": "Home Additions",
+      "desc": "Expand your living space with seamless extensions and builds.",
+      "longDesc": "Comprehensive home addition services in Noble Park, from planning to completion, for extra rooms or extensions.",
+      "points": [
+        "Full project management",
+        "Compliance assured",
+        "Quality build"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Carpenter in Noble Park?",
+  "bannerSubheading": "Your local experts for all carpentry needs.",
+  "testimonialsHeading": "What Noble Park Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Carpentry Tips & Guides for Noble Park",
+  "blogSubheading": "Insights from our local team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We're here to help with your project",
+  "reviews": [
+    {
+      "text": "NB Construx did an amazing job on our kitchen renovation in Noble Park. The craftsmanship was top-notch, and they finished on time and within budget. Highly recommend their carpentry services.",
+      "name": "Sarah Mitchell",
+      "role": "Noble Park Homeowner"
+    },
+    {
+      "text": "We hired NB Construx for custom cabinetry in our shop, and the quality exceeded expectations. Their attention to detail and reliability made the process smooth. Great local carpenter.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used NB Construx for multiple bathroom renovations in Noble Park. They consistently deliver high-quality work and are always professional. A go-to carpentry team.",
+      "name": "Linda Patel",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Noble Park",
+    "Dandenong",
+    "Keysborough",
+    "Springvale",
+    "Mulgrave",
+    "Clayton",
+    "Noble Park North"
+  ],
+  "about": {
+    "intro": "NB Construx is Noble Park's leading carpentry business, specialising in transforming homes with expert craftsmanship.",
+    "story": [
+      "Founded over a decade ago in Noble Park, NB Construx has built a reputation for reliability and quality in carpentry. Our team of skilled craftsmen is dedicated to delivering projects that stand the test of time, from kitchen renovations to complete home additions.",
+      "We believe in a client-focused approach, where every project starts with understanding your vision. Using Australian standards and sustainable practices, we ensure that every build not only meets but exceeds expectations, enhancing everyday living in Noble Park homes."
+    ],
+    "mission": "To transform Noble Park spaces into lasting homes through expert carpentry and unwavering commitment to quality.",
+    "whyUs": [
+      {
+        "title": "Expert Craftsmanship",
+        "text": "Skilled carpenters with years of experience in Noble Park projects."
+      },
+      {
+        "title": "Reliable Service",
+        "text": "We stick to timelines and budgets, ensuring peace of mind."
+      },
+      {
+        "title": "Custom Solutions",
+        "text": "Tailored carpentry to match your specific needs and style."
+      },
+      {
+        "title": "Guaranteed Quality",
+        "text": "All work backed by a workmanship guarantee for your confidence."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed carpenter",
+      "Public liability insurance",
+      "Free on-site quotes",
+      "Workmanship warranty"
+    ]
+  },
+  "pricing": {
+    "intro": "At NB Construx in Noble Park, we offer transparent pricing with no lock-in contracts, so you only pay for what you need.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Renovation",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Kitchen or bathroom focus",
+          "Custom carpentry included",
+          "Project management",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $15,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full home addition",
+          "Multiple rooms",
+          "End-to-end service",
+          "Compliance assured"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees, ensuring complete transparency for your Noble Park project."
+  },
+  "contact": {
+    "intro": "Ready to start your carpentry project in Noble Park? Contact NB Construx today for a free, no-obligation quote and let's bring your ideas to life."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Kitchen Renovation Cost in Noble Park?",
+      "date": "March 2026",
+      "excerpt": "Discover the average costs and factors affecting kitchen renovations in Noble Park, from materials to labour.",
+      "body": [
+        "Kitchen renovations in Noble Park are a popular way to enhance both the functionality and value of your home. The cost can vary widely based on the scope of the project, materials chosen, and the complexity of the design. On average, a basic kitchen renovation in Melbourne's southeastern suburbs like Noble Park might start from $15,000, but for high-end finishes or custom cabinetry, it can easily exceed $40,000.",
+        "Several factors influence the final cost, including the size of the kitchen, the type of appliances, and whether structural changes are needed. For instance, moving plumbing or electrical lines can add to the expense. In Noble Park, where homes range from older builds to modern estates, it's crucial to get a detailed quote from a local carpenter like NB Construx to understand your specific needs.",
+        "Australian building standards require compliance with regulations such as the Building Code of Australia (BCA), which ensures safety and quality. In Noble Park, this includes proper ventilation, lighting, and electrical safety. A professional carpentry service will handle all permits and inspections, saving you time and ensuring your renovation meets all legal requirements.",
+        "When budgeting, consider not just the upfront costs but also the long-term benefits. A well-designed kitchen can improve energy efficiency, especially with modern appliances and LED lighting. In Noble Park's climate, with hot summers and cool winters, insulation and proper sealing are also important factors that a skilled carpenter can address during the renovation process.",
+        "Choosing the right materials is key to durability and aesthetics. For Noble Park homes, moisture-resistant materials are essential in kitchens to handle humidity from cooking. Options like laminate, timber, or stone each have different price points and maintenance needs. Consulting with a local expert can help you select materials that suit your lifestyle and budget.",
+        "Finally, timing your renovation can impact costs. In Melbourne, the demand for carpenters and builders peaks during certain seasons. Planning your kitchen renovation during off-peak times, like winter, might lead to better availability and potentially lower labour costs. Always get multiple quotes and check references to ensure you're working with a reputable team in Noble Park."
+      ]
+    },
+    {
+      "title": "Best Timber for Decking in Noble Park's Climate",
+      "date": "February 2026",
+      "excerpt": "Learn which timber species perform best in Noble Park's weather conditions for durable and beautiful decking.",
+      "body": [
+        "Installing a timber deck in Noble Park requires choosing the right wood species to withstand the local climate. Melbourne's southeastern suburbs experience a temperate climate with cool winters and warm summers, so the timber must resist moisture, temperature changes, and UV exposure. Popular choices include treated pine, which is cost-effective, and hardwoods like jarrah or merbau for added durability.",
+        "Treated pine is often used for decking in Noble Park due to its affordability and resistance to rot and insects when properly maintained. However, it requires regular sealing to prevent warping and fading under the Australian sun. For a longer-lasting option, hardwoods like spotted gum are excellent but come at a higher price point.",
+        "When selecting timber, consider the Janka hardness rating, which measures resistance to dents and scratches. In Noble Park, where decks might see heavy foot traffic or outdoor furniture, a higher Janka rating ensures longevity. For example, ironbark has a Janka rating of 14, making it ideal for high-use areas.",
+        "Installation in Noble Park should adhere to Australian standards, such as AS 1684 for residential timber structures. This includes proper spacing, fastening, and treatment of posts to prevent ground contact issues. A local carpenter familiar with Noble Park's soil conditions can ensure your deck is built to last.",
+        "Maintenance is another key factor. In Noble Park's variable weather, timber decking needs regular cleaning and resealing every 2-3 years to maintain its appearance and structural integrity. Some hardwoods, like blackbutt, have natural oils that reduce maintenance needs, making them a practical choice for busy homeowners.",
+        "Cost-wise, timber decking in Noble Park can range from $200 to $400 per square metre installed, depending on the species and design complexity. Getting a quote from a local expert like NB Construx will provide a clear breakdown, including materials, labour, and any additional features like lighting or handrails."
+      ]
+    },
+    {
+      "title": "Signs Your Noble Park Home Needs a Bathroom Renovation",
+      "date": "January 2026",
+      "excerpt": "Identify common issues in Noble Park bathrooms that indicate it's time for a professional renovation.",
+      "body": [
+        "Bathrooms are one of the most used spaces in any Noble Park home, and signs of wear and tear are common. If you're noticing leaks, cracked tiles, or mould growth, it might be time for a renovation. These issues not only affect aesthetics but can also lead to structural damage if left unaddressed, especially in older Noble Park properties.",
+        "Another sign is outdated fixtures and poor functionality. In Noble Park homes built in the 1980s or earlier, bathrooms may lack modern amenities like efficient toilets, rainfall showers, or adequate storage. A renovation can update these elements, improving water efficiency and daily comfort, which is crucial in Melbourne's climate where water conservation is important.",
+        "Space planning is often a problem in older bathrooms. If your Noble Park bathroom feels cramped or has awkward layouts, a renovation can optimise the space. This might involve reconfiguring plumbing, adding built-in cabinetry, or installing larger showers to enhance usability and value.",
+        "Mould and mildew are prevalent in Noble Park bathrooms due to humidity from showers and baths. Persistent mould indicates poor ventilation or waterproofing, which are health hazards. A professional renovation includes installing proper exhaust fans and waterproof membranes, complying with Australian building codes to ensure a healthy environment.",
+        "When considering a bathroom renovation in Noble Park, factor in the resale value. Updated bathrooms are a key selling point in the real estate market. Even if you're not planning to sell soon, investing in a renovation can provide daily enjoyment and long-term benefits through increased property value.",
+        "Finally, the cost of a bathroom renovation in Noble Park can range from $10,000 for a basic update to $30,000 or more for a luxury overhaul. It's essential to get a detailed quote from a licensed carpenter who understands local requirements and can deliver a project that meets your budget and timeline."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Carpenter in Noble Park for Your Project",
+      "date": "December 2025",
+      "excerpt": "A guide to selecting a reliable carpenter in Noble Park, from licensing to reviews and quotes.",
+      "body": [
+        "Choosing the right carpenter in Noble Park is crucial for the success of your home improvement project. Start by verifying that the carpenter is fully licensed in Victoria, which ensures they meet the required skills and standards. In Noble Park, you can check licenses through the Victorian Building Authority (VBA) to avoid unlicensed work.",
+        "Experience is another key factor. Look for carpenters who have worked on similar projects in Noble Park, whether it's kitchen renovations, bathroom updates, or custom cabinetry. A portfolio of past work and references from local clients can provide insight into their craftsmanship and reliability.",
+        "Get multiple quotes from different carpenters in Noble Park to compare pricing and services. A detailed quote should break down costs for materials, labour, and any additional expenses. Be wary of quotes that are significantly lower than others, as they might indicate subpar materials or hidden fees.",
+        "Communication is essential throughout the project. A good carpenter in Noble Park will listen to your needs, provide clear timelines, and keep you updated on progress. Check online reviews and testimonials to gauge their reputation in the local community.",
+        "Insurance is non-negotiable. Ensure the carpenter has public liability insurance and workers' compensation to protect you from any accidents or damages during the project. In Noble Park, this is a legal requirement and provides peace of mind.",
+        "Finally, consider the carpenter's knowledge of Australian building standards and local regulations in Noble Park. They should be familiar with council requirements and ensure all work is compliant, avoiding future issues with inspections or insurance claims."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "NB Construx | Carpenter in Noble Park | Kitchen & Bathroom Renovations",
+      "description": "Expert carpentry services in Noble Park, including kitchen renovations, bathroom updates, and custom cabinetry. Get a free quote today."
+    },
+    "about": {
+      "title": "About NB Construx | Noble Park's Trusted Carpentry Team",
+      "description": "Learn about NB Construx, Noble Park's leading carpenter with over 10 years of experience in high-quality building solutions."
+    },
+    "services": {
+      "title": "Carpentry Services in Noble Park | Renovations & Cabinetry",
+      "description": "Comprehensive carpentry services in Noble Park: kitchen renovations, bathroom updates, decking, and more. Quality craftsmanship guaranteed."
+    },
+    "pricing": {
+      "title": "Carpentry Costs & Prices in Noble Park | NB Construx",
+      "description": "Transparent pricing for carpentry projects in Noble Park. Get detailed quotes for renovations, cabinetry, and home additions."
+    },
+    "contact": {
+      "title": "Contact NB Construx | Free Carpenter Quotes in Noble Park",
+      "description": "Reach out to NB Construx for free carpentry quotes in Noble Park. We're ready to help with your renovation or building project."
+    },
+    "blog": {
+      "title": "Noble Park Carpentry Blog | Local Tips & Renovation Guides",
+      "description": "Insights and advice from Noble Park carpentry experts on renovations, costs, and home improvement projects."
+    }
+  }
+}
