@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Fitz Electrical",
+  "suburb": "Diamond Creek",
+  "phone": "0421838239",
+  "email": "info@fitzelec.com.au",
+  "address": "Diamond Creek VIC 3089",
+  "tagline": "Diamond Creek's Electrical Experts",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0055aa",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Diamond Creek's Trusted Electricians",
+      "sub": "Comprehensive electrical solutions for all needs"
+    },
+    {
+      "title": "HVAC, Refrigeration & Fire Specialists",
+      "sub": "One point of contact for complete service"
+    },
+    {
+      "title": "Quality Workmanship in Diamond Creek",
+      "sub": "Experienced team covering residential and commercial"
+    }
+  ],
+  "ctaHeading": "Get Your Free Electrical Quote in Diamond Creek",
+  "aboutHeading": "Fitz Electrical in Diamond Creek",
+  "aboutSubheading": "Your local electrical experts",
+  "aboutText": "Fitz Electrical brings extensive experience in all areas of the electrical industry to Diamond Creek, including HVAC, refrigeration, and fire systems. We provide a single point of contact for all your electrical requirements, setting us apart with reliable service. Our team is committed to quality workmanship across Diamond Creek and surrounding suburbs.",
+  "servicesHeading": "Our Comprehensive Electrical Services",
+  "servicesSubheading": "Expert care for every need",
+  "servicesText": "We offer a full range of electrical services tailored to Diamond Creek homes and businesses. From installations to maintenance, our skilled team ensures safe and efficient solutions.",
+  "services": [
+    {
+      "title": "General Electrical Repairs",
+      "desc": "We handle all electrical issues, from wiring faults to power outages, with prompt and professional service."
+    },
+    {
+      "title": "HVAC Installation & Maintenance",
+      "desc": "Our experts install and service heating, ventilation, and air conditioning systems for optimal comfort."
+    },
+    {
+      "title": "Refrigeration Services",
+      "desc": "We provide repair and installation for commercial and domestic refrigeration units to keep things running smoothly."
+    },
+    {
+      "title": "Fire Safety Systems",
+      "desc": "Ensure property safety with our installation and maintenance of fire alarms and suppression systems."
+    },
+    {
+      "title": "Commercial Electrical Work",
+      "desc": "We manage large-scale projects for businesses, ensuring compliance and efficiency in all installations."
+    },
+    {
+      "title": "Residential Wiring & Upgrades",
+      "desc": "From new builds to rewiring, we enhance the safety and functionality of home electrical systems."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Diamond Creek?",
+  "bannerSubheading": "We cover all your electrical requirements.",
+  "testimonialsHeading": "What Diamond Creek Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from Fitz Electrical",
+  "contactHeading": "Contact Fitz Electrical Today",
+  "contactSubheading": "We're here to help with your projects",
+  "reviews": [
+    {
+      "text": "Fitz Electrical installed a new HVAC system at our Diamond Creek home, and the service was outstanding. Their team was professional and efficient, making the process seamless.",
+      "name": "James Mitchell",
+      "role": "Diamond Creek Homeowner"
+    },
+    {
+      "text": "We rely on Fitz Electrical for all our business's refrigeration needs. They provided quick repairs and excellent maintenance, keeping our operations running.",
+      "name": "Linda Carter",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For fire safety system checks, Fitz Electrical in Diamond Creek is reliable and thorough. They ensure everything meets standards, giving us peace of mind.",
+      "name": "Robert Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
