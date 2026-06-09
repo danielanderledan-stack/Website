@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Campbellfield Electrical Services",
+  "suburb": "Campbellfield",
+  "phone": "0412 345 678",
+  "email": "info@campbellfieldelectrical.com.au",
+  "address": "45a Merri Concourse, Campbellfield VIC 3061",
+  "tagline": "Campbellfield's Trusted Electricians",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0055aa",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Campbellfield's Expert Electricians",
+      "sub": "Serving Campbellfield and surrounding areas since 2008"
+    },
+    {
+      "title": "24/7 Electrical Services",
+      "sub": "Open 24 hours for emergencies across Campbellfield"
+    },
+    {
+      "title": "Licensed & Reliable",
+      "sub": "Quality electrical work for homes and businesses"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Campbellfield?",
+  "aboutHeading": "15 Years of Electrical Excellence in Campbellfield",
+  "aboutSubheading": "Local, licensed & always available",
+  "aboutText": "With over 15 years of experience in Campbellfield, we provide reliable electrical services for homes and businesses. Our team is fully licensed and available 24 hours a day to handle any electrical issue. We specialise in safety inspections, wiring upgrades, and emergency repairs across Campbellfield and neighbouring suburbs.",
+  "servicesHeading": "What We Do Best",
+  "servicesSubheading": "Professional electrical solutions",
+  "servicesText": "From residential rewiring to commercial installations, we cover all aspects of electrical work. Our services include safety checks, lighting upgrades, and emergency callouts throughout Campbellfield and nearby areas.",
+  "services": [
+    {
+      "title": "Safety Inspections",
+      "desc": "We conduct thorough electrical safety inspections for homes and businesses in Campbellfield to identify and prevent hazards."
+    },
+    {
+      "title": "Residential Wiring",
+      "desc": "Expert wiring installation and upgrades for new builds or renovations in Campbellfield, ensuring compliance with Australian standards."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Tailored electrical solutions for shops, offices, and industrial properties in Campbellfield, including setup and maintenance."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Energy-efficient lighting setups for indoor and outdoor spaces, enhancing functionality for Campbellfield residents."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "24/7 emergency callouts for power outages and faults, serving Campbellfield and surrounding areas promptly."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modern switchboard installations to meet safety standards, providing reliable power for Campbellfield properties."
+    }
+  ],
+  "bannerHeading": "Campbellfield Electricians Ready to Help",
+  "bannerSubheading": "Fast, reliable, and always open for your needs.",
+  "testimonialsHeading": "What Campbellfield Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Stay informed with expert advice",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "They conducted a comprehensive safety inspection at our Campbellfield home and identified several issues we had overlooked. The work was professional and completed quickly, giving us peace of mind.",
+      "name": "John Smith",
+      "role": "Campbellfield Homeowner"
+    },
+    {
+      "text": "The team did an excellent job upgrading our shop's electrical system in Campbellfield. They handled the entire project efficiently and within budget, ensuring minimal disruption to our business operations.",
+      "name": "Sarah Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We had a reliable emergency repair service when our power went out. They arrived within an hour in Campbellfield and fixed the issue promptly, preventing further damage to our property.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
