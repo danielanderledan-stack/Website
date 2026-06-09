@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "CLD Electrical",
+  "suburb": "Lilydale",
+  "phone": "0408003834",
+  "email": "chris@cldelectrical.com.au",
+  "address": "7 Panorama Rise, Lilydale VIC 3140",
+  "tagline": "Lilydale's Trusted Electricians",
+  "primaryColor": "#00ccff",
+  "primaryColorRgb": "0, 204, 255",
+  "primaryColorHover": "#0099cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lilydale's Expert Electricians",
+      "sub": "Over 10 years serving Melbourne's east"
+    },
+    {
+      "title": "Electrical, Audio Visual & Security",
+      "sub": "Complete home and business solutions"
+    },
+    {
+      "title": "24/7 Emergency Service Available",
+      "sub": "Call Chris anytime for fast help"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Lilydale? We're Here to Help.",
+  "aboutHeading": "10+ Years Electrical Service in Lilydale",
+  "aboutSubheading": "Licensed, Local & Professional",
+  "aboutText": "CLD Electrical, led by Chris, has been providing top-notch electrical services to Lilydale and surrounding areas for over a decade. With extensive industry experience and ongoing training, we offer comprehensive solutions for your home and business. Whether it's a simple repair or a full installation, our team delivers reliable work from start to finish.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert Solutions for Lilydale",
+  "servicesText": "From general electrical work to advanced audio visual and security systems, CLD Electrical covers all your needs in Lilydale. Our skilled team ensures safe, efficient, and tailored services for both residential and commercial properties.",
+  "services": [
+    {
+      "title": "General Electrical Services",
+      "desc": "Comprehensive electrical repairs, installations, and maintenance for Lilydale homes and businesses.",
+      "longDesc": "Our general electrical services in Lilydale include fault finding, wiring upgrades, and compliance checks to ensure your property meets Australian safety standards. We handle everything from minor fixes to major electrical overhauls.",
+      "points": [
+        "Safe and reliable",
+        "Licensed professionals",
+        "24/7 availability"
+      ]
+    },
+    {
+      "title": "Audio Visual Installation",
+      "desc": "Expert setup of home theatre, sound systems, and smart audio visual solutions in Lilydale.",
+      "longDesc": "Enhance your entertainment experience with our audio visual installation services in Lilydale. We design and install custom systems for homes and offices, including wiring, mounting, and calibration.",
+      "points": [
+        "Custom designs",
+        "High-quality equipment",
+        "Seamless integration"
+      ]
+    },
+    {
+      "title": "Security System Setup",
+      "desc": "Advanced security cameras, alarms, and access control systems for Lilydale properties.",
+      "longDesc": "Protect your Lilydale home or business with our security system setup. We install CCTV, alarm systems, and smart access controls, providing peace of mind with reliable monitoring and support.",
+      "points": [
+        "Deter crime effectively",
+        "Remote monitoring",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Energy-efficient lighting solutions for interiors, exteriors, and landscapes in Lilydale.",
+      "longDesc": "Our lighting services in Lilydale cover design, installation, and upgrades for residential and commercial spaces. We focus on energy-saving options that enhance aesthetics and functionality.",
+      "points": [
+        "Reduce energy costs",
+        "Modern designs",
+        "Expert advice"
+      ]
+    },
+    {
+      "title": "Power Point & Wiring Solutions",
+      "desc": "Additional power points, data cabling, and rewiring services for Lilydale homes.",
+      "longDesc": "Need more power points or updated wiring in Lilydale? We provide safe and efficient installation of power outlets, data cables, and full rewiring to meet your growing electrical needs.",
+      "points": [
+        "Increase convenience",
+        "Compliant with standards",
+        "Minimal disruption"
+      ]
+    },
+    {
+      "title": "Switchboard & Safety Checks",
+      "desc": "Switchboard upgrades and electrical safety inspections for Lilydale properties.",
+      "longDesc": "Ensure your Lilydale property is safe with our switchboard upgrades and comprehensive safety checks. We identify and fix potential hazards, complying with all Victorian electrical regulations.",
+      "points": [
+        "Prevent electrical fires",
+        "Up-to-date compliance",
+        "Detailed reports"
+      ]
+    }
+  ],
+  "bannerHeading": "Electrical Experts in Lilydale - Ready to Assist",
+  "bannerSubheading": "From routine maintenance to emergency repairs, CLD Electrical has you covered.",
+  "testimonialsHeading": "What Lilydale Customers Say",
+  "testimonialsSubheading": "Trusted by locals for quality electrical work",
+  "blogHeading": "Lilydale Electrical Tips & Guides",
+  "blogSubheading": "Stay informed with our latest advice",
+  "contactHeading": "Get a Free Electrical Quote in Lilydale",
+  "contactSubheading": "Quick response and upfront pricing",
+  "reviews": [
+    {
+      "text": "Chris from CLD Electrical installed a new security system at our Lilydale home. The work was done efficiently, and he explained everything clearly. Highly recommend for any electrical needs in the area.",
+      "name": "Sarah Mitchell",
+      "role": "Lilydale Homeowner"
+    },
+    {
+      "text": "We hired CLD Electrical for audio visual setup in our office. The team was professional, and the system works perfectly. Great service for businesses in Lilydale.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Had an electrical emergency at my rental property in Mooroolbark. CLD Electrical responded quickly and fixed the issue. Reliable and reasonably priced.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Lilydale",
+    "Mooroolbark",
+    "Kilsyth",
+    "Ringwood",
+    "Croydon",
+    "Coldstream",
+    "Chirnside Park"
+  ],
+  "about": {
+    "intro": "CLD Electrical is a family-run business dedicated to serving Lilydale and Melbourne's eastern suburbs with reliable electrical solutions.",
+    "story": [
+      "Founded by Chris, CLD Electrical started with a passion for providing honest electrical services to the Lilydale community. Over the years, we have expanded our expertise to include audio visual and security installations, meeting the evolving needs of our clients.",
+      "Our commitment to quality and customer satisfaction drives everything we do. We stay updated with the latest industry standards and technologies to ensure Lilydale residents receive the best possible service, whether for residential or commercial projects."
+    ],
+    "mission": "To deliver safe, efficient, and affordable electrical services to every home and business in Lilydale.",
+    "whyUs": [
+      {
+        "title": "Licensed Electrician",
+        "text": "Fully qualified and registered with Victorian electrical authorities."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "Emergency call-outs available any time, day or night."
+      },
+      {
+        "title": "Upfront Quotes",
+        "text": "Transparent pricing with no hidden fees or surprises."
+      },
+      {
+        "title": "Quality Workmanship",
+        "text": "We stand behind our work with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed electrician",
+      "Public liability insured",
+      "Free on-site quotes",
+      "Workmanship warranty"
+    ]
+  },
+  "pricing": {
+    "intro": "At CLD Electrical in Lilydale, we offer transparent pricing with no lock-in contracts. Every job starts with a free assessment to provide an accurate quote.",
+    "packages": [
+      {
+        "name": "Call-Out & Assessment",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Work",
+        "price": "from $200",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Labour and materials included",
+          "Compliance guaranteed",
+          "24-month warranty",
+          "Clean-up after job"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom design and planning",
+          "Project management",
+          "Quality certified components"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what you're paying before we start any work in Lilydale."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact CLD Electrical in Lilydale for a free, no-obligation quote. Call Chris on 0408003834 or email chris@cldelectrical.com.au."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does an Electrician Cost in Lilydale? A Complete Guide",
+      "date": "March 2026",
+      "excerpt": "Discover the typical costs of hiring an electrician in Lilydale, including call-out fees, hourly rates, and common job prices for 2026.",
+      "body": [
+        "Understanding the cost of hiring an electrician in Lilydale is crucial for homeowners and businesses planning electrical work. In 2026, typical rates in Melbourne's eastern suburbs start from $80 for a call-out fee, covering travel and initial assessment. This fee is often deducted from the total cost if you proceed with the job. For standard electrical tasks like installing power points or lighting, expect to pay between $200 and $500, depending on complexity and materials.",
+        "Several factors influence electrician costs in Lilydale, including the time of day, job urgency, and specific requirements. Emergency call-outs after hours or on weekends may incur additional charges, sometimes up to 50% more. The type of service also matters; for example, audio visual installations or security system setups can range from $500 to $2,000 or more, based on the equipment and integration needed. Always request a detailed quote to avoid surprises.",
+        "Lilydale's climate and geography can impact electrical work costs. For instance, homes in older areas might need rewiring to meet current Australian safety standards, which can be more expensive due to labor intensity. Additionally, during Melbourne's cooler months, demand for heating-related electrical services might peak, affecting availability and pricing. Planning your projects during off-peak seasons like spring can sometimes lead to better rates.",
+        "To get the best value, consider multiple quotes from licensed electricians in Lilydale. Compare not just prices but also what's included, such as warranties, compliance certificates, and post-job support. CLD Electrical offers free assessments and fixed quotes, ensuring transparency. We recommend budgeting for regular maintenance checks to prevent costly emergencies, especially in older Lilydale properties.",
+        "Australian building standards require all electrical work to be performed by licensed professionals, ensuring safety and compliance. In Lilydale, this means adhering to AS/NZS 3000 wiring rules and obtaining necessary permits for major jobs. Non-compliant work can lead to fines or insurance issues, so always verify your electrician's credentials. Our team at CLD Electrical is fully licensed and keeps up-to-date with all regulations.",
+        "In summary, electrician costs in Lilydale vary based on job type, urgency, and scope. For accurate pricing, contact a reputable local business like CLD Electrical. We provide detailed quotes tailored to your needs, helping you make informed decisions for your home or business electrical projects."
+      ]
+    },
+    {
+      "title": "Signs You Need a Switchboard Upgrade in Your Lilydale Home",
+      "date": "February 2026",
+      "excerpt": "Learn the key indicators that your Lilydale property's switchboard may need an upgrade for safety and efficiency.",
+      "body": [
+        "A switchboard is the heart of your home's electrical system, and in Lilydale, many older properties may have outdated setups. Signs you need an upgrade include frequent circuit breaker trips, flickering lights, or a switchboard that's over 20 years old. These issues can indicate overloaded circuits or non-compliant wiring, posing safety risks like electrical fires.",
+        "Lilydale's housing stock includes many homes from the mid-20th century, which often have original electrical infrastructure. Upgrading to a modern switchboard with safety switches (RCDs) is essential for protection against electric shocks. According to Victorian regulations, all new installations or major renovations must include RCDs, making upgrades not just a safety measure but a legal requirement in many cases.",
+        "The benefits of a switchboard upgrade extend beyond safety. Modern switchboards allow for higher electrical loads, accommodating today's appliances and technologies like solar panels or electric vehicle chargers. In Lilydale, where families are increasingly adopting smart home systems, an upgraded switchboard ensures reliable power distribution and prevents overloads that can damage expensive equipment.",
+        "Costs for switchboard upgrades in Lilydale typically range from $800 to $2,000, depending on the size of your home and the complexity of the job. This includes replacing the old switchboard, installing new circuit breakers, and conducting thorough testing. While it's an investment, it can reduce energy bills by improving efficiency and lower insurance premiums by meeting safety standards.",
+        "To determine if your Lilydale home needs a switchboard upgrade, schedule a professional inspection. A licensed electrician will assess your current setup, identify any compliance issues, and provide recommendations. CLD Electrical offers free assessments in Lilydale, helping homeowners understand their options without pressure. We use quality components to ensure longevity and performance.",
+        "Ignoring switchboard issues can lead to more significant problems down the line, including costly repairs or even property damage. In Lilydale's variable climate, where humidity and temperature changes can affect electrical components, regular maintenance is key. By investing in an upgrade now, you protect your home and family for years to come."
+      ]
+    },
+    {
+      "title": "Best Security Systems for Lilydale Properties in 2026",
+      "date": "January 2026",
+      "excerpt": "Explore top security system options for Lilydale homes and businesses, including CCTV, alarms, and smart controls.",
+      "body": [
+        "Security is a top concern for Lilydale residents, and investing in a reliable system can deter crime and provide peace of mind. In 2026, popular options include high-definition CCTV cameras, smart alarm systems, and integrated access controls. These technologies allow remote monitoring via smartphones, making it easier to keep an eye on your property from anywhere.",
+        "For Lilydale homes, wired CCTV systems offer superior reliability and image quality, especially in areas with variable weather conditions. Wireless options are convenient for renters or temporary setups but may be less secure. Brands like Hikvision and Dahua are popular in Australia, providing features like night vision and motion detection that are essential for Lilydale's suburban environment.",
+        "Alarm systems have evolved with smart technology, enabling integration with home automation platforms like Google Home or Amazon Alexa. In Lilydale, where many properties have outdoor spaces, motion-sensor alarms can cover driveways and gardens effectively. Professional installation ensures proper placement and wiring, maximizing coverage and minimizing false alarms.",
+        "The cost of security systems in Lilydale varies based on the scale and features. Basic CCTV setups start from $500 for a few cameras, while comprehensive systems with recording and monitoring can exceed $2,000. Alarm systems typically cost between $300 and $1,000, plus monthly monitoring fees if desired. CLD Electrical provides customized quotes based on your specific security needs.",
+        "When choosing a security system for your Lilydale property, consider factors like property size, crime rates in the area, and your lifestyle. Consulting with a local expert can help identify vulnerabilities and recommend solutions. We at CLD Electrical assess each property individually, ensuring the system fits your budget and requirements without unnecessary add-ons.",
+        "In conclusion, a well-chosen security system is an investment in your safety. For Lilydale residents, working with a licensed electrician like CLD Electrical ensures professional installation and ongoing support. Contact us to discuss the best options for your home or business in 2026."
+      ]
+    },
+    {
+      "title": "How to Reduce Energy Costs with LED Lighting in Lilydale",
+      "date": "December 2025",
+      "excerpt": "Find out how upgrading to LED lighting in your Lilydale home can save money and reduce your environmental impact.",
+      "body": [
+        "LED lighting is a smart upgrade for Lilydale homeowners looking to cut energy costs and enhance their living spaces. LEDs use up to 80% less energy than traditional incandescent bulbs and last significantly longer, reducing both electricity bills and replacement frequency. In Melbourne's eastern suburbs, where energy prices are rising, this switch offers immediate savings.",
+        "The environmental benefits of LED lighting align with Australia's push towards sustainability. LEDs contain no hazardous materials and are fully recyclable, making them an eco-friendly choice. In Lilydale, where many residents value green living, upgrading to LED lighting can contribute to lower carbon footprints while providing better illumination quality.",
+        "Installation of LED lighting in Lilydale homes is straightforward but should be done by a licensed electrician to ensure compatibility and safety. This includes replacing bulbs, installing dimmer switches, or upgrading entire lighting fixtures. Professional installation ensures optimal performance and compliance with Australian electrical standards, preventing issues like flickering or overheating.",
+        "Cost savings from LED lighting can be substantial. For a typical Lilydale home, upgrading all lights to LEDs might cost between $500 and $1,500, depending on the number of fixtures and any additional wiring. However, the reduction in energy consumption can pay for itself within a few years, especially with incentives like government rebates for energy-efficient upgrades.",
+        "Beyond cost, LED lighting offers design flexibility. In Lilydale, where homes range from modern to heritage styles, LEDs come in various shapes, colors, and brightness levels to suit any decor. They also generate less heat, making them safer for use in confined spaces and reducing cooling costs during Melbourne's warmer months.",
+        "To start saving, assess your current lighting setup and consult with a local expert. CLD Electrical in Lilydale provides free energy audits and recommends LED solutions tailored to your needs. We handle everything from selection to installation, ensuring a seamless transition to more efficient lighting in your home."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "CLD Electrical | Electrician in Lilydale | Audio Visual & Security",
+      "description": "CLD Electrical offers expert electrical, audio visual, and security services in Lilydale, Melbourne. Licensed 24/7 emergency call-outs. Get a free quote today!"
+    },
+    "about": {
+      "title": "About CLD Electrical | Lilydale's Trusted Electrician",
+      "description": "Learn about CLD Electrical, serving Lilydale with reliable electrical solutions for over 10 years. Meet Chris and our team of licensed professionals."
+    },
+    "services": {
+      "title": "Electrical Services in Lilydale | Audio Visual & Security | CLD Electrical",
+      "description": "Comprehensive electrical services in Lilydale including wiring, lighting, audio visual installation, and security systems. Licensed and insured."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Costs in Lilydale | CLD Electrical",
+      "description": "Transparent pricing for electrical services in Lilydale. Call-out fees from $80, standard work from $200. Free quotes and upfront pricing."
+    },
+    "contact": {
+      "title": "Contact CLD Electrical | Free Quotes in Lilydale | 0408003834",
+      "description": "Get in touch with CLD Electrical in Lilydale for free electrical quotes. Call 0408003834 or email chris@cldelectrical.com.au. 24/7 availability."
+    },
+    "blog": {
+      "title": "Electrical Tips & Guides for Lilydale | CLD Electrical Blog",
+      "description": "Stay informed with the latest electrical advice, cost guides, and maintenance tips for Lilydale homes and businesses from CLD Electrical."
+    }
+  }
+}
