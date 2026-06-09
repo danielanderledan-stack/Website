@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Epping Carpentry Specialists",
+  "suburb": "Epping",
+  "phone": "03 9401 1234",
+  "email": "info@eppingcarpentry.com.au",
+  "address": "35 Produce Drive, Epping VIC 3076",
+  "tagline": "Epping's Carpentry Experts",
+  "primaryColor": "#00639b",
+  "primaryColorRgb": "0, 99, 155",
+  "primaryColorHover": "#005c8a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Epping's Trusted Carpenters",
+      "sub": "Serving Melbourne's north for over 10 years"
+    },
+    {
+      "title": "Custom Cabinetry & Decking Specialists",
+      "sub": "Residential and commercial carpentry"
+    },
+    {
+      "title": "Quality Craftsmanship in Every Project",
+      "sub": "Free quotes for Epping and surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Carpenter in Epping? Let's Build Something Great.",
+  "aboutHeading": "Over 10 Years Carpentry in Epping",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With more than a decade of experience in Epping, we specialise in all aspects of carpentry from custom cabinetry to complete home renovations. Our team is dedicated to delivering high-quality craftsmanship and personalised service to the local community. Whether it's a small repair or a large-scale project, we take pride in our work and ensure every detail is perfect. Based in the heart of Epping, we understand the unique needs of homes and businesses in the area.",
+  "servicesHeading": "Our Carpentry Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From structural framing to fine finishing, we offer comprehensive carpentry services tailored to Epping properties. Our skilled tradespeople use quality materials and proven techniques to deliver lasting results.",
+  "services": [
+    {
+      "title": "Custom Cabinetry",
+      "desc": "Design and installation of bespoke cabinets for kitchens, bathrooms, and living spaces in Epping homes."
+    },
+    {
+      "title": "Decking & Outdoor Structures",
+      "desc": "Build beautiful timber decks, pergolas, and outdoor entertaining areas suited to Melbourne's climate."
+    },
+    {
+      "title": "Home Renovations",
+      "desc": "Complete renovation services including framing, walling, and finishing for residential properties."
+    },
+    {
+      "title": "Commercial Carpentry",
+      "desc": "Fit-outs and maintenance for Epping businesses, offices, and retail spaces."
+    },
+    {
+      "title": "Structural Repairs",
+      "desc": "Expert repairs and reinforcement of timber structures to ensure safety and longevity."
+    },
+    {
+      "title": "Furniture Making",
+      "desc": "Custom-built furniture pieces crafted to your specifications with attention to detail."
+    }
+  ],
+  "bannerHeading": "Epping's Carpentry Specialists Are Here",
+  "bannerSubheading": "Transform your space with expert craftsmanship",
+  "testimonialsHeading": "What Epping Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Carpentry Tips & News",
+  "blogSubheading": "Insights from our experienced team",
+  "contactHeading": "Get Your Free Quote Today",
+  "contactSubheading": "Contact us for a no-obligation estimate",
+  "reviews": [
+    {
+      "text": "The team at Epping Carpentry did an amazing job on our kitchen renovation. The custom cabinets are perfect, and they finished on time. Highly recommend for anyone in Epping.",
+      "name": "Sarah Mitchell",
+      "role": "Epping Homeowner"
+    },
+    {
+      "text": "We hired them for a deck build at our café in Epping. The craftsmanship is outstanding, and it has become a highlight for our customers. Great work!",
+      "name": "James Cooper",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Epping Carpentry for multiple repairs across our portfolio. They are reliable, professional, and always deliver quality results.",
+      "name": "Linda Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
