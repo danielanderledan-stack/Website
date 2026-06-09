@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Nav Cabinetry & Woodworks",
+  "suburb": "Campbellfield",
+  "phone": "0401555001",
+  "email": "user@domain.com",
+  "address": "8 Killara Rd, Campbellfield VIC 3061",
+  "tagline": "Campbellfield's Cabinet Specialists",
+  "primaryColor": "#6B4226",
+  "primaryColorRgb": "107, 66, 38",
+  "primaryColorHover": "#5C3A22",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Campbellfield's Cabinet Experts",
+      "sub": "Crafting quality since 2008"
+    },
+    {
+      "title": "Custom Kitchens & Joinery",
+      "sub": "Tailored solutions for your home"
+    },
+    {
+      "title": "Precision Woodwork in Campbellfield",
+      "sub": "Free consultations available"
+    }
+  ],
+  "ctaHeading": "Get your custom cabinets today",
+  "aboutHeading": "Expert Cabinet Making in Campbellfield",
+  "aboutSubheading": "Local craftsmanship since 2008",
+  "aboutText": "Nav Cabinetry & Woodworks has been serving Campbellfield since 2008, specialising in bespoke cabinetry for homes and businesses. Our team designs and builds kitchen cabinets, bathroom vanities, and custom joinery using traditional techniques and modern materials. We focus on attention to detail and durable construction to create functional, beautiful pieces that enhance your space.",
+  "servicesHeading": "Our Cabinetry Services",
+  "servicesSubheading": "Tailored to your needs",
+  "servicesText": "From design to installation, Nav Cabinetry offers comprehensive services for kitchens, bathrooms, and living areas. We create custom solutions that fit your style and practical requirements, using high-quality timber and finishes.",
+  "services": [
+    {
+      "title": "Kitchen Cabinets",
+      "desc": "Design and install custom kitchen cabinets that maximise storage and elevate your Campbellfield kitchen's look."
+    },
+    {
+      "title": "Bathroom Vanities",
+      "desc": "Craft stylish, durable vanities tailored to your bathroom's layout and your personal taste."
+    },
+    {
+      "title": "Custom Joinery",
+      "desc": "Build bespoke joinery pieces like shelves, desks, and entertainment units for seamless home integration."
+    },
+    {
+      "title": "Wardrobes & Storage",
+      "desc": "Create organised wardrobe and storage solutions that fit perfectly into your bedroom or living space."
+    },
+    {
+      "title": "Furniture Making",
+      "desc": "Produce custom furniture items such as tables, chairs, and cabinets with expert woodworking."
+    },
+    {
+      "title": "Repairs & Renovations",
+      "desc": "Restore or update existing cabinetry to refresh your home without a full replacement."
+    }
+  ],
+  "bannerHeading": "Need a Cabinet Maker in Campbellfield?",
+  "bannerSubheading": "We bring your vision to life with precision woodwork.",
+  "testimonialsHeading": "What Campbellfield Clients Say",
+  "testimonialsSubheading": "Quality workmanship you can trust",
+  "blogHeading": "Cabinetry Insights & Tips",
+  "blogSubheading": "Advice from Nav Cabinetry",
+  "contactHeading": "Contact Us for a Quote",
+  "contactSubheading": "We're ready to discuss your project",
+  "reviews": [
+    {
+      "text": "Nav Cabinetry & Woodworks did an amazing job on our kitchen renovation in Campbellfield. The custom cabinets fit perfectly and have transformed our space. Highly recommend their attention to detail.",
+      "name": "David Wilson",
+      "role": "Campbellfield Homeowner"
+    },
+    {
+      "text": "As a local business owner, I needed reliable joinery for my shop fitout. Nav delivered high-quality cabinets on time and within budget. Their craftsmanship is top-notch.",
+      "name": "Emily Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties, I rely on consistent quality for bathroom vanities. Nav Cabinetry provides excellent service and durable products that my tenants love.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
