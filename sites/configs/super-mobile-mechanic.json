@@ -1,0 +1,300 @@
+{
+  "siteType": "builder",
+  "businessName": "Super Mobile Mechanic",
+  "suburb": "Melton West",
+  "phone": "0400 123 456",
+  "email": "info@supermobilemechanic.com.au",
+  "address": "533-555 High St, Melton West VIC 3337",
+  "tagline": "Melton West's Trusted Mobile Mechanic",
+  "primaryColor": "#1877f2",
+  "primaryColorRgb": "24, 119, 242",
+  "primaryColorHover": "#1565c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melton West's Mobile Mechanic Experts",
+      "sub": "Serving the western suburbs with on-site repairs"
+    },
+    {
+      "title": "Engine, Brake & Transmission Services",
+      "sub": "Fast, reliable car repair at your location"
+    },
+    {
+      "title": "No Job Too Small or Complex",
+      "sub": "Free quotes for Melton West and surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Melton West? We Come to You!",
+  "aboutHeading": "10+ Years Mobile Mechanic in Melton West",
+  "aboutSubheading": "Local, reliable & fully equipped",
+  "aboutText": "Super Mobile Mechanic has been serving Melton West for over 10 years, providing expert car repair services directly at your location. Our team specializes in engine diagnostics, brake repairs, and transmission services, ensuring your vehicle is back on the road quickly. With a focus on convenience and quality, we are Melton West's go-to mobile mechanic.",
+  "servicesHeading": "Our Mobile Mechanic Services",
+  "servicesSubheading": "On-site repairs for all vehicle makes",
+  "servicesText": "From routine maintenance to complex repairs, Super Mobile Mechanic offers a comprehensive range of services in Melton West. We handle everything from oil changes and brake pads to engine overhauls and electrical issues, all performed at your home or workplace.",
+  "services": [
+    {
+      "title": "Engine Diagnostics & Repair",
+      "desc": "Advanced diagnostic tools to identify and fix engine problems on-site.",
+      "longDesc": "Our mobile mechanics use state-of-the-art equipment for accurate engine diagnostics in Melton West, ensuring efficient repairs and optimal performance for your vehicle.",
+      "points": [
+        "On-site service",
+        "Advanced diagnostics",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Brake Service & Repair",
+      "desc": "Complete brake inspections, pad replacements, and rotor resurfacing.",
+      "longDesc": "We provide thorough brake service in Melton West, including pad replacements and rotor resurfacing, to ensure your vehicle's safety and compliance with Australian standards.",
+      "points": [
+        "Safety focused",
+        "Quality parts",
+        "Certified technicians"
+      ]
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Expert transmission fixes for automatic and manual vehicles.",
+      "longDesc": "Super Mobile Mechanic offers specialized transmission repair services in Melton West, addressing issues from slipping gears to complete rebuilds with precision.",
+      "points": [
+        "All transmission types",
+        "Experienced mechanics",
+        "Warranty included"
+      ]
+    },
+    {
+      "title": "Electrical System Repair",
+      "desc": "Troubleshooting and fixing car electrical issues efficiently.",
+      "longDesc": "Our team handles electrical repairs in Melton West, including battery testing, alternator fixes, and wiring diagnostics, ensuring your vehicle's electrical system functions flawlessly.",
+      "points": [
+        "Comprehensive checks",
+        "Rapid service",
+        "Mobile convenience"
+      ]
+    },
+    {
+      "title": "Mobile Roadside Assistance",
+      "desc": "Immediate help for breakdowns and emergency repairs.",
+      "longDesc": "We provide roadside assistance in Melton West and surrounding areas, offering quick response times for battery jumps, flat tires, and other urgent mechanical issues.",
+      "points": [
+        "24/7 availability",
+        "Quick response",
+        "Fully equipped"
+      ]
+    },
+    {
+      "title": "Routine Vehicle Maintenance",
+      "desc": "Oil changes, filters, and general servicing at your location.",
+      "longDesc": "Keep your vehicle in top condition with our routine maintenance services in Melton West, including oil changes, air filter replacements, and fluid checks, all done on-site.",
+      "points": [
+        "Convenient scheduling",
+        "Preventative care",
+        "Affordable pricing"
+      ]
+    }
+  ],
+  "bannerHeading": "Super Mobile Mechanic in Melton West",
+  "bannerSubheading": "Your vehicle deserves expert care — we come to you!",
+  "testimonialsHeading": "What Melton West Locals Say",
+  "testimonialsSubheading": "Trusted by car owners across the western suburbs",
+  "blogHeading": "Car Care Tips & Melton West Insights",
+  "blogSubheading": "Expert advice from your local mobile mechanic",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call or message us for quick service in Melton West",
+  "reviews": [
+    {
+      "text": "Super Mobile Mechanic came to my home in Melton West for a brake repair job. The service was quick, professional, and saved me the hassle of going to a garage. Highly recommend their mobile service!",
+      "name": "Dave Thompson",
+      "role": "Melton West Homeowner"
+    },
+    {
+      "text": "As a local business owner in Melton West, I rely on Super Mobile Mechanic for fleet maintenance. Their on-site engine diagnostics have kept our vehicles running smoothly with minimal downtime.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I manage properties in Melton West and often need reliable car repairs for tenants. Super Mobile Mechanic provides excellent transmission repair services with upfront pricing and no surprises.",
+      "name": "Michael O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Melton West",
+    "Melton",
+    "Rockbank",
+    "Burnside",
+    "Caroline Springs",
+    "Taylors Lakes",
+    "Deer Park"
+  ],
+  "about": {
+    "intro": "Super Mobile Mechanic is Melton West's premier mobile mechanic service, offering expert car repairs at your location.",
+    "story": [
+      "Founded over a decade ago, Super Mobile Mechanic started with a mission to provide convenient and reliable car repair services in Melton West. Our founder, a local mechanic, saw the need for on-site repairs to save time and hassle for car owners. Today, we continue that legacy with a team of certified technicians.",
+      "We invest in the latest mobile diagnostic tools and parts to handle any vehicle issue, from simple brake fixes to complex engine repairs. Our service area covers Melton West and nearby suburbs, ensuring fast response times and personalized service. We are committed to quality workmanship and customer satisfaction."
+    ],
+    "mission": "To deliver trusted, on-site mechanical services to Melton West and surrounding communities.",
+    "whyUs": [
+      {
+        "title": "Mobile Convenience",
+        "text": "We come to your home or workplace in Melton West, saving you time and travel."
+      },
+      {
+        "title": "Certified Mechanics",
+        "text": "All our technicians are fully qualified and experienced in Australian vehicle standards."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "We provide upfront quotes with no hidden fees for all services in Melton West."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We stand behind our work with a service guarantee on all repairs and parts."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2,500+",
+        "label": "Vehicles Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Satisfaction Rate"
+      }
+    ],
+    "credentials": [
+      "Licensed mechanic",
+      "Fully insured",
+      "Mobile service",
+      "Quality parts guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Super Mobile Mechanic, we offer transparent pricing for all services in Melton West. Get a free quote with no obligation — just honest rates for expert mobile repairs.",
+    "packages": [
+      {
+        "name": "Call-Out & Diagnostic",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Diagnostic report",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Service Package",
+        "price": "from $200",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Routine maintenance",
+          "Parts included",
+          "Warranty on labour",
+          "Mobile convenience"
+        ]
+      },
+      {
+        "name": "Major Repair Project",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complex diagnostics",
+          "Extended labour",
+          "Quality parts",
+          "Post-repair support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprise charges for Melton West residents."
+  },
+  "contact": {
+    "intro": "Ready to get your vehicle repaired? Contact Super Mobile Mechanic for a free quote in Melton West. We respond quickly and can schedule service at your convenience."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Mobile Mechanic Cost in Melton West?",
+      "date": "March 2026",
+      "excerpt": "Discover the average costs for mobile mechanic services in Melton West, including factors that affect pricing and tips for saving money on car repairs.",
+      "body": [
+        "When it comes to mobile mechanic costs in Melton West, several factors come into play. The type of service needed, the complexity of the repair, and the parts required all influence the final price. For basic services like oil changes or brake pad replacements, costs typically range from $150 to $300, including parts and labour. However, more involved repairs such as engine diagnostics or transmission work can start from $400 and go up depending on the issue. In Melton West, where convenience is key, mobile mechanics often charge a call-out fee of around $80 to $100, which covers travel and initial assessment.",
+        "One significant advantage of choosing a mobile mechanic in Melton West is the transparency in pricing. Unlike traditional garages, mobile services provide upfront quotes before starting any work. This means you know exactly what you're paying for without hidden fees. For example, a standard service package that includes routine maintenance like oil, filters, and fluid checks might cost from $200 to $350, depending on your vehicle's make and model. It's essential to ask for a detailed breakdown of costs, including labour rates and parts markup, to ensure you're getting fair value.",
+        "The cost of parts is another critical factor in mobile mechanic pricing. In Australia, parts can vary significantly based on whether they are OEM (Original Equipment Manufacturer) or aftermarket. For Melton West residents, using high-quality OEM parts might increase the cost by 20-30% but offers better longevity and performance. Mobile mechanics often have partnerships with local suppliers, which can help reduce parts costs. Additionally, for common repairs like brake services, using certified parts that meet Australian safety standards is crucial to avoid future issues.",
+        "Labour rates for mobile mechanics in Melton West generally range from $80 to $120 per hour, depending on the mechanic's experience and the job's complexity. Since mobile mechanics save you the trip to a garage, the overall cost can be competitive or even lower for many services. For instance, an engine diagnostic that might cost $150 at a garage could be done on-site for $120, including a detailed report. It's worth noting that some mobile mechanics offer fixed-price services for popular repairs, providing certainty on costs upfront.",
+        "To save money on mobile mechanic costs in Melton West, consider bundling services. For example, combining an oil change with a brake inspection can often reduce the total labour cost. Regular maintenance is also key; keeping up with scheduled services prevents minor issues from becoming expensive repairs. Many mobile mechanics in Melton West offer service packages or memberships that include discounts on future work, which can be a cost-effective way to maintain your vehicle over time.",
+        "Finally, when choosing a mobile mechanic in Melton West, always check for reviews and certifications. A reputable mechanic will be licensed, insured, and willing to provide references. While the cheapest option might seem tempting, quality workmanship and genuine parts can save you money in the long run by avoiding repeat repairs. By understanding the factors that influence costs and shopping around for quotes, Melton West car owners can find reliable mobile mechanic services that fit their budget without compromising on quality."
+      ]
+    },
+    {
+      "title": "Best Time for Vehicle Maintenance in Melbourne's Western Suburbs",
+      "date": "February 2026",
+      "excerpt": "Learn about the optimal times for vehicle maintenance in Melton West and surrounding areas, considering Melbourne's climate and driving conditions.",
+      "body": [
+        "Melbourne's western suburbs, including Melton West, experience a temperate climate with distinct seasons that affect vehicle maintenance needs. The best time to schedule routine maintenance is during autumn (March to May) or spring (September to November). In autumn, preparing your car for winter involves checking the battery, antifreeze levels, and tyre tread depth. Melbourne's winters can be chilly with occasional frost, so ensuring your vehicle is ready for colder starts is essential. Spring is ideal for post-winter checks, including inspecting brakes and suspension after months of wet roads.",
+        "Summer in Melbourne's west can be hot, with temperatures often exceeding 30°C. This puts extra strain on your car's cooling system, battery, and tyres. Scheduling a maintenance check in early summer (December to February) can prevent overheating issues and ensure your air conditioning is functioning properly. For Melton West residents, where commuting might involve longer drives, having a reliable cooling system is crucial. Mobile mechanics can perform these checks on-site, making it convenient to stay on top of summer maintenance.",
+        "Melton West's driving conditions also influence maintenance schedules. The area has a mix of suburban and rural roads, which can cause uneven tyre wear. Regular tyre rotations every 10,000 km or twice a year are recommended. Additionally, the dust and debris from nearby construction or farming areas can clog air filters more quickly, so checking them every 15,000 km is wise. Mobile mechanics in Melton West can perform these inspections during routine visits, ensuring your vehicle runs efficiently.",
+        "Another factor is Melbourne's unpredictable weather, which can lead to sudden storms and wet conditions. Maintaining your windshield wipers and brakes is vital for safety. The best time to check these is before the rainy season typically starts in late autumn. Wipers should be replaced every 6 to 12 months, and brake pads inspected for wear. For Melton West car owners, a mobile mechanic can quickly assess and replace these components on your driveway, saving time and ensuring readiness for wet weather.",
+        "For vehicle maintenance in Melton West, aligning service with your driving habits is key. If you frequently drive on highways, more frequent oil changes and brake checks might be necessary. Conversely, city driving with lots of stop-start traffic can accelerate brake wear. Keeping a log of your services and mileage helps in planning maintenance intervals. Many mobile mechanics offer reminder services to notify you when your next check is due, which is particularly useful for busy Melton West residents.",
+        "In summary, the best time for vehicle maintenance in Melton West depends on seasonal conditions and personal driving patterns. Autumn and spring are optimal for general checks, while summer and winter require specific attention to cooling and heating systems. By working with a local mobile mechanic, you can tailor a maintenance schedule that keeps your car in top condition year-round, avoiding breakdowns and costly repairs."
+      ]
+    },
+    {
+      "title": "Signs Your Car Needs Immediate Repair in Melton West",
+      "date": "January 2026",
+      "excerpt": "Identify the warning signs that indicate your car requires urgent repair, and why Melton West drivers should address them promptly with a mobile mechanic.",
+      "body": [
+        "As a Melton West car owner, recognizing the signs that your vehicle needs immediate repair can prevent accidents and expensive breakdowns. One of the first indicators is unusual noises, such as grinding, squealing, or knocking sounds. Grinding often points to brake issues, where brake pads are worn down and metal is contacting the rotor. Squealing might indicate a loose belt or worn brake pads. Knocking sounds from the engine can signal serious internal problems like bearing failure. In Melton West, where roads can be busy, addressing these noises promptly by calling a mobile mechanic ensures safety.",
+        "Another critical sign is dashboard warning lights. The check engine light, oil pressure warning, or battery alert should never be ignored. These lights indicate specific issues that need diagnosis. For example, the oil pressure light could mean low oil levels or a failing oil pump, which can lead to engine damage if not fixed. In Melton West, a mobile mechanic with diagnostic tools can quickly identify the cause and perform repairs on-site, avoiding the need to drive a potentially unsafe vehicle to a garage.",
+        "Poor performance is a red flag. If your car struggles to accelerate, stalls frequently, or experiences rough idling, it's time for a check-up. These symptoms can stem from fuel system issues, spark plug problems, or air intake blockages. For Melton West residents commuting to Melbourne or local trips, reliable performance is essential. A mobile mechanic can test and tune your engine at your home, ensuring optimal efficiency and preventing further deterioration.",
+        "Visual cues like fluid leaks are also urgent. Puddles of oil, coolant, or brake fluid under your car indicate leaks that need immediate attention. Oil leaks can lead to engine overheating, while brake fluid leaks compromise stopping power. In Melbourne's variable weather, especially during rain, fluid leaks can become hazardous. Mobile mechanics in Melton West can inspect and seal leaks on your driveway, restoring your vehicle's safety.",
+        "Unusual vibrations while driving are another warning sign. Vibrations in the steering wheel might mean wheel alignment issues or worn tyres, while vibrations from the brake pedal indicate warped rotors. These problems affect handling and safety, particularly at higher speeds. For Melton West drivers, where highway driving is common, ensuring your car is vibration-free is crucial. A mobile mechanic can perform alignment checks and brake inspections to resolve these issues quickly.",
+        "Lastly, smoke from the exhaust or engine bay is a severe sign. Blue smoke suggests oil burning in the engine, white smoke may indicate coolant leakage into the combustion chamber, and black smoke points to a rich fuel mixture. All these require immediate repair to avoid engine failure. In Melton West, where mobile mechanic services are readily available, calling for help at the first sign of smoke can save your engine and reduce repair costs. Always prioritize these signs and seek professional assistance promptly."
+      ]
+    },
+    {
+      "title": "Why Choose a Mobile Mechanic in Melton West Over a Traditional Garage?",
+      "date": "December 2025",
+      "excerpt": "Explore the benefits of mobile mechanic services in Melton West, including convenience, cost savings, and personalized care for your vehicle.",
+      "body": [
+        "In Melton West, choosing a mobile mechanic over a traditional garage offers numerous advantages, starting with unparalleled convenience. Mobile mechanics come to your location, whether it's your home, workplace, or even the roadside, eliminating the need to wait in garages or arrange alternative transport. For busy Melton West residents, this saves valuable time and reduces stress. Services like routine maintenance, brake repairs, or diagnostics can all be performed on your driveway, making car care effortless.",
+        "Cost savings are another significant benefit. Traditional garages have overhead costs like rent and utilities, which are often passed on to customers. Mobile mechanics operate with lower overhead, allowing them to offer competitive pricing. In Melton West, where cost of living considerations are important, this can make essential repairs more affordable. Additionally, mobile services provide transparent quotes upfront, so you avoid unexpected charges that sometimes occur in garages.",
+        "Personalized service is a hallmark of mobile mechanics. In Melton West, local mobile mechanics build relationships with their customers, understanding their specific vehicle needs and preferences. This personalized approach leads to better maintenance plans and targeted repairs. For instance, a mobile mechanic who knows your car's history can anticipate issues and recommend preventive measures, extending your vehicle's lifespan.",
+        "Flexibility in scheduling is another advantage. Mobile mechanics in Melton West often offer extended hours, including weekends and evenings, to accommodate your schedule. This is especially useful for those with tight work commitments or family obligations. You can book a service that fits your routine without disrupting your day, ensuring your vehicle is serviced at a convenient time.",
+        "For Melton West drivers, mobile mechanics also provide faster response times for urgent repairs. Breakdowns or sudden issues can be addressed quickly, as mobile units are equipped with tools and parts to handle many common problems on-site. This rapid service minimizes downtime and gets you back on the road sooner, which is crucial for daily commuting or business needs in the western suburbs.",
+        "Finally, mobile mechanics in Melton West often specialize in a wide range of services, from basic maintenance to complex repairs, all performed with the same expertise as a garage. By choosing a mobile service, you get the best of both worlds: professional workmanship and the comfort of location-based convenience. For car owners in Melton West, this makes mobile mechanics a smart, efficient choice for all vehicle repair needs."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Super Mobile Mechanic | Mobile Mechanic in Melton West | Car Repairs",
+      "description": "Expert mobile mechanic services in Melton West. On-site car repairs, diagnostics, and maintenance. Call now for a free quote from Super Mobile Mechanic."
+    },
+    "about": {
+      "title": "About Us | Super Mobile Mechanic | Melton West's Trusted Mechanic",
+      "description": "Learn about Super Mobile Mechanic, Melton West's leading mobile mechanic service with over 10 years of experience in on-site car repairs."
+    },
+    "services": {
+      "title": "Mobile Mechanic Services in Melton West | Engine, Brake & Transmission",
+      "description": "Comprehensive mobile mechanic services in Melton West including engine diagnostics, brake repair, and transmission fixes. We come to you!"
+    },
+    "pricing": {
+      "title": "Car Repair Costs in Melton West | Transparent Mobile Mechanic Pricing",
+      "description": "Fair and upfront pricing for mobile mechanic services in Melton West. Get a free, no-obligation quote for your vehicle repairs today."
+    },
+    "contact": {
+      "title": "Contact Super Mobile Mechanic | Free Quotes in Melton West",
+      "description": "Get in touch with Super Mobile Mechanic for mobile car repairs in Melton West. Quick response and on-site service available."
+    },
+    "blog": {
+      "title": "Car Maintenance Tips & Melton West Insights | Super Mobile Mechanic",
+      "description": "Expert car care advice and local insights from Melton West's mobile mechanic. Stay updated with maintenance tips and service guides."
+    }
+  }
+}
