@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "JLV Electric",
+  "suburb": "Tullamarine",
+  "phone": "0423 093 792",
+  "email": "user@domain.com",
+  "address": "Mickleham Rd, Tullamarine VIC 3043",
+  "tagline": "Tullamarine's Licensed Electricians",
+  "primaryColor": "#2563eb",
+  "primaryColorRgb": "37, 99, 235",
+  "primaryColorHover": "#1d4ed8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Tullamarine's Trusted Electricians",
+      "sub": "Licensed, insured and experienced across Melbourne"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "Fit-outs, upgrades, fault finding and more"
+    },
+    {
+      "title": "Quality Work, Done Right First Time",
+      "sub": "Free quotes across Tullamarine and surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Tullamarine?",
+  "aboutHeading": "Tullamarine's Licensed Electricians",
+  "aboutSubheading": "Quality work, clear communication",
+  "aboutText": "JLV Electric has been providing licensed, insured electrical services to homes and businesses across Tullamarine and Melbourne's north for years. Our experienced team delivers quality work with clear communication, ensuring every job is done right the first time. From residential repairs and fault finding to commercial fit-outs and ongoing maintenance, we take pride in tidy finishes and strict adherence to Australian safety standards.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Quality solutions for every property",
+  "servicesText": "Whether it is a residential repair, commercial fit-out or new build, our Tullamarine-based electricians deliver reliable solutions with upfront advice and clear communication at every step.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "Complete home electrical services including repairs, rewiring and safety checks for Tullamarine families and homeowners."
+    },
+    {
+      "title": "Commercial Fit-Outs",
+      "desc": "Electrical fit-outs for shops, offices and commercial spaces across Melbourne's north, completed to Australian standards."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your outdated switchboard for improved safety and compliance with current Australian electrical regulations."
+    },
+    {
+      "title": "Fault Finding & Repairs",
+      "desc": "Fast, accurate diagnosis and repair of electrical faults to keep your home or business safe and running smoothly."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Interior and exterior lighting solutions including LED upgrades, downlights and energy-efficient installations."
+    },
+    {
+      "title": "Ongoing Maintenance",
+      "desc": "Scheduled electrical maintenance for properties and businesses, preventing issues before they become costly problems."
+    }
+  ],
+  "bannerHeading": "Tullamarine's Electrical Experts",
+  "bannerSubheading": "Licensed, insured and ready to help — call today",
+  "testimonialsHeading": "What Tullamarine Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from Tullamarine's electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "JLV Electric handled a full switchboard upgrade at our Tullamarine home. The work was completed on time, the site was left spotless and the pricing was upfront and fair. Highly recommend their professionalism.",
+      "name": "Craig Mitchell",
+      "role": "Tullamarine Homeowner"
+    },
+    {
+      "text": "We needed a complete electrical fit-out for our new shop in Broadmeadows. JLV Electric delivered quality work with clear communication from start to finish. Their experience really showed in the finished result.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "JLV Electric has been maintaining the electrical systems across our managed properties for over two years. They are reliable, always tidy and communicate what needs doing before any work starts. A great team.",
+      "name": "David Kenna",
+      "role": "Property Manager"
+    }
+  ]
+}
