@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Melbourne Electrical CO",
+  "suburb": "Oak Park",
+  "phone": "1300 631 375",
+  "email": "leads@melbourneelectricalco.com.au",
+  "address": "16 Margaret St, Oak Park VIC 3046",
+  "tagline": "Oak Park's Trusted Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Oak Park's Top-Rated Electricians",
+      "sub": "16 years of trusted electrical services"
+    },
+    {
+      "title": "Residential, Commercial & Property Managers",
+      "sub": "Expert electricians for all your needs"
+    },
+    {
+      "title": "24/7 Emergency Assistance",
+      "sub": "Quick response across Oak Park & Melbourne"
+    }
+  ],
+  "ctaHeading": "Oak Park Electricians Ready to Help",
+  "aboutHeading": "16 Years Electrician in Oak Park",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "Melbourne Electrical CO brings 16 years of dedicated electrical expertise to Oak Park and greater Melbourne. Our skilled electricians handle everything from residential rewiring to commercial switchboard upgrades with precision. We pride ourselves on punctuality, clear communication, and adherence to Australian safety standards. Whether it's a simple smoke alarm install or complex fault diagnosis, we've got Oak Park covered.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive Solutions for Oak Park",
+  "servicesText": "We offer a full range of electrical services tailored for Oak Park homes and businesses. Our expertise includes installations, fault finding, and emergency repairs. With a focus on safety and quality, we ensure every job meets the highest standards.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "We handle all home electrical needs in Oak Park, from lighting installations to complete rewiring. Our team ensures your family's safety with thorough inspections and upgrades."
+    },
+    {
+      "title": "Commercial Electrical Solutions",
+      "desc": "Providing reliable electrical services for Oak Park businesses, including office fit-outs, maintenance, and energy-efficient upgrades to keep your operations running smoothly."
+    },
+    {
+      "title": "Property Management Electrical",
+      "desc": "Specialised electrical support for property managers in Oak Park, covering tenant fit-outs, routine maintenance, and compliance checks for multiple properties."
+    },
+    {
+      "title": "Power & Lighting Installations",
+      "desc": "Expert installation of power points, lighting systems, and ceiling fans across Oak Park, enhancing functionality and ambiance in any space."
+    },
+    {
+      "title": "Fault Finding & Switchboard Upgrades",
+      "desc": "Our Oak Park electricians quickly diagnose electrical faults and perform switchboard upgrades to prevent hazards and improve system reliability."
+    },
+    {
+      "title": "Emergency & Safety Services",
+      "desc": "24/7 emergency electrical assistance in Oak Park, including smoke alarm installation, EV charging setup, and urgent repairs to ensure your peace of mind."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Oak Park?",
+  "bannerSubheading": "Fast, reliable service from your local experts.",
+  "testimonialsHeading": "What Oak Park Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from Melbourne Electrical CO",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We're here to help with your electrical needs",
+  "reviews": [
+    {
+      "text": "Melbourne Electrical CO did an excellent job installing new smoke alarms in our Oak Park home. Their electricians were punctual, professional, and explained everything clearly. Highly recommend for any residential electrical work.",
+      "name": "David Thompson",
+      "role": "Oak Park Homeowner"
+    },
+    {
+      "text": "As a local business owner in Oak Park, I rely on Melbourne Electrical CO for all our commercial electrical maintenance. They've upgraded our switchboards and handled fault finding with great efficiency. Their service is top-notch.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties in Oak Park, I trust Melbourne Electrical CO for tenant fit-outs and routine electrical checks. Their quick response to emergency calls and attention to detail make them my go-to electricians.",
+      "name": "James Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
