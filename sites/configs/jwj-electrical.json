@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "JWJ Electrical",
+  "suburb": "Croydon",
+  "phone": "0408 528 454",
+  "email": "josh@jwjelectrical.com.au",
+  "address": "10 Sunray Court, Croydon VIC 3136",
+  "tagline": "Croydon's Go-To Electricians",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Croydon's Go-To Electricians",
+      "sub": "10+ years serving the Yarra Valley"
+    },
+    {
+      "title": "Residential, Commercial & Industrial",
+      "sub": "Licensed & insured electricians"
+    },
+    {
+      "title": "24/7 Emergency Services",
+      "sub": "Open 24 hours for urgent repairs"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Croydon? Let's Power Up Your Project.",
+  "aboutHeading": "10 Years Electrical Excellence in Croydon",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "At JWJ Electrical, we've been providing top-notch electrical services in Croydon for over a decade. Our team of licensed electricians specialises in residential, commercial, and industrial solutions, ensuring safety and efficiency. From installations to maintenance, we're committed to quality workmanship across the Yarra Valley.",
+  "servicesHeading": "Our Expert Electrical Services",
+  "servicesSubheading": "Solutions for every electrical need",
+  "servicesText": "JWJ Electrical offers a comprehensive range of electrical services in Croydon, including installations, repairs, and safety inspections. Our licensed team ensures all work meets Australian standards, providing reliable and efficient solutions for homes and businesses.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Comprehensive residential electrical services for Croydon homes, including wiring, lighting, and safety checks.",
+      "longDesc": "Our residential electricians in Croydon handle everything from minor repairs to major installations, ensuring your home's electrical system is safe and up to code. We specialise in lighting upgrades, switchboard replacements, and energy-efficient solutions for modern living.",
+      "points": [
+        "Home wiring upgrades",
+        "Lighting installations",
+        "Safety switch checks"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Tailored electrical systems for businesses across the Yarra Valley, from offices to retail spaces.",
+      "longDesc": "Our commercial electricians in Croydon provide expert solutions including office fit-outs, data cabling, and energy management systems. We help businesses reduce costs and improve efficiency with compliant electrical installations.",
+      "points": [
+        "Office electrical maintenance",
+        "Data cabling setup",
+        "Energy audits"
+      ]
+    },
+    {
+      "title": "Industrial Electrical Services",
+      "desc": "Heavy-duty electrical solutions for factories and warehouses in the Yarra Valley.",
+      "longDesc": "Specialised industrial electrical services in Croydon, including machinery wiring, control panel installations, and preventive maintenance. We ensure minimal downtime and optimal performance for your industrial operations.",
+      "points": [
+        "Machinery wiring",
+        "Control panel upgrades",
+        "Preventive maintenance"
+      ]
+    },
+    {
+      "title": "Electrical Repairs",
+      "desc": "Fast and reliable repair services for all electrical faults in Croydon and surrounds.",
+      "longDesc": "Our Croydon electricians diagnose and repair electrical issues promptly, from faulty outlets to power outages, ensuring safety and compliance. We use advanced tools for accurate fixes.",
+      "points": [
+        "Fault diagnosis",
+        "Quick repairs",
+        "Licensed technicians"
+      ]
+    },
+    {
+      "title": "Safety Inspections & Compliance",
+      "desc": "Comprehensive electrical safety checks for homes and businesses in Croydon.",
+      "longDesc": "We offer detailed safety inspections in Croydon to meet Australian standards, identifying hazards and ensuring your property is compliant. Our reports include recommendations for upgrades.",
+      "points": [
+        "Electrical safety audits",
+        "Compliance reports",
+        "Risk assessments"
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 emergency call-outs for urgent electrical problems in Croydon and the Yarra Valley.",
+      "longDesc": "Available round the clock in Croydon, our emergency electricians respond quickly to outages, sparks, or any critical electrical faults. We prioritise safety and swift resolutions.",
+      "points": [
+        "24/7 availability",
+        "Rapid response",
+        "Emergency repairs"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Croydon? We're Here to Help.",
+  "bannerSubheading": "Fast, reliable service from JWJ Electrical.",
+  "testimonialsHeading": "What Croydon Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Croydon Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from your local electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll respond within 24 hours",
+  "reviews": [
+    {
+      "text": "JWJ Electrical did a fantastic job rewiring our home in Croydon. Their attention to detail and professionalism were outstanding, and the work was completed on time.",
+      "name": "Sarah Mitchell",
+      "role": "Croydon Homeowner"
+    },
+    {
+      "text": "As a local business owner in the Yarra Valley, I rely on JWJ Electrical for all our commercial maintenance. They're always on time and provide top-notch service.",
+      "name": "David Chen",
+      "role": "Yarra Valley Business Owner"
+    },
+    {
+      "text": "Prompt and efficient emergency repair service. They fixed our power outage quickly, and the pricing was fair. Highly recommend JWJ Electrical in Croydon.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Croydon",
+    "Mooroolbark",
+    "Ringwood",
+    "Mitcham",
+    "Boronia",
+    "Healesville"
+  ],
+  "about": {
+    "intro": "JWJ Electrical has been serving Croydon and the Yarra Valley for over 10 years, providing expert electrical services to residential, commercial, and industrial clients.",
+    "story": [
+      "Founded over a decade ago in Croydon, JWJ Electrical started with a commitment to quality electrical work. We've grown to serve the Yarra Valley area, always prioritising safety and customer satisfaction in every project.",
+      "Our team of licensed electricians brings extensive experience to every job. From simple repairs to complex installations, we ensure all work meets Australian standards. We're proud to be Croydon's trusted electrical partner for over 10 years."
+    ],
+    "mission": "To provide reliable, safe, and efficient electrical solutions for Croydon and the Yarra Valley.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "We're available around the clock for emergency electrical services in Croydon."
+      },
+      {
+        "title": "Local Experts",
+        "text": "With 10+ years in the Yarra Valley, we know local electrical needs best."
+      },
+      {
+        "title": "Quality Workmanship",
+        "text": "We deliver high-quality electrical work that lasts, backed by guarantees."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed electricians",
+      "Comprehensive insurance",
+      "Free on-site quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At JWJ Electrical, we offer transparent pricing with no hidden fees. Get a free quote for your electrical project in Croydon.",
+    "packages": [
+      {
+        "name": "Standard Service Call",
+        "price": "$99",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site diagnosis",
+          "Upfront quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Common Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Wiring repairs",
+          "Lighting installation",
+          "Safety check",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Installation",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Switchboard upgrade",
+          "Full rewire",
+          "Compliance certificate"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins."
+  },
+  "contact": {
+    "intro": "Ready to schedule your electrical service? Contact JWJ Electrical in Croydon for a free, no-obligation quote. We're here to help with all your electrical needs."
+  },
+  "blogPosts": [
+    {
+      "title": "Electrical Safety Inspection Costs in Croydon: What to Expect",
+      "date": "March 2026",
+      "excerpt": "Understanding the cost factors for electrical safety inspections in Croydon, including home size, age, and compliance requirements.",
+      "body": [
+        "Electrical safety inspections are crucial for Croydon homes and businesses to ensure compliance with Australian standards. The cost varies based on several factors, including the property size, electrical system complexity, and any additional tests required. In Croydon, typical inspections start from around $150 for basic checks, but comprehensive audits may cost more. It's essential to choose a licensed electrician who can provide a detailed report and address any issues found.",
+        "When scheduling an inspection in Croydon, consider the age of your property. Older homes may have outdated wiring that requires more thorough examination. The cost can increase if the inspector identifies hazards like faulty switchboards or non-compliant installations. JWJ Electrical offers fixed-price inspections in Croydon, ensuring transparency and no surprises. We check everything from outlets to safety switches, providing a clear report for your peace of mind.",
+        "The frequency of inspections also affects costs. For Croydon homeowners, annual checks are recommended, while commercial properties may need more frequent audits. Factors like the presence of smoke alarms, surge protectors, and energy-efficient systems can influence pricing. In the Yarra Valley, where weather conditions can impact electrical systems, regular inspections help prevent issues like power surges or outages.",
+        "Choosing a local Croydon electrician for your inspection ensures familiarity with regional regulations and climate considerations. At JWJ Electrical, we use advanced diagnostic tools to provide accurate assessments. Our reports include recommendations for upgrades or repairs, helping you budget effectively. Investing in regular safety inspections can prevent costly emergencies and ensure your property remains safe and compliant.",
+        "For Croydon residents, understanding the value of electrical safety inspections goes beyond cost. It's about protecting your family or business from electrical fires and shocks. Our licensed team at JWJ Electrical has over 10 years of experience in the Yarra Valley, making us experts in identifying common local issues. We offer package deals that include inspections and minor repairs, saving you time and money.",
+        "To get an accurate quote for an electrical safety inspection in Croydon, contact JWJ Electrical today. We provide free, no-obligation estimates based on your specific needs. Whether it's a routine check or a pre-sale inspection, our team is ready to help. Ensure your Croydon property is electrically safe and compliant with our expert services."
+      ]
+    },
+    {
+      "title": "Upgrading Your Switchboard in the Yarra Valley: A Complete Guide",
+      "date": "February 2026",
+      "excerpt": "Learn why upgrading your switchboard is essential in the Yarra Valley, including cost factors, benefits, and local regulations.",
+      "body": [
+        "Upgrading your switchboard is a critical electrical improvement for homes and businesses in the Yarra Valley, especially in areas like Croydon where older properties may have outdated systems. A modern switchboard enhances safety by preventing overloads and electrical fires, which is crucial in Australia's variable climate. Costs in the Yarra Valley typically range from $800 to $2,000, depending on the complexity and materials used.",
+        "In Croydon, switchboard upgrades often involve replacing ceramic fuses with modern circuit breakers and safety switches. This not only meets current Australian standards but also improves energy efficiency. Factors affecting cost include the number of circuits, the need for rewiring, and any additional features like surge protection. JWJ Electrical provides fixed-price quotes for switchboard upgrades in Croydon, ensuring transparency.",
+        "The benefits of upgrading extend beyond safety. A new switchboard can support increased electrical loads from modern appliances, air conditioning, and solar systems, which are common in Yarra Valley homes. This reduces the risk of tripping circuits and enhances overall system reliability. For Croydon residents, this upgrade is a long-term investment in property value and comfort.",
+        "Local regulations in Victoria require switchboards to comply with AS/NZS 3000 standards. In the Yarra Valley, where bushfire risks and extreme weather can impact electrical systems, having a compliant switchboard is non-negotiable. JWJ Electrical ensures all upgrades in Croydon meet these standards, providing compliance certificates for insurance and peace of mind.",
+        "The process of upgrading a switchboard in Croydon typically takes 4-8 hours, with minimal disruption. Our licensed electricians at JWJ Electrical handle everything from assessment to installation, ensuring a seamless experience. We recommend upgrades every 20-30 years or when signs of wear appear, such as frequent tripping or outdated components.",
+        "For Yarra Valley residents considering a switchboard upgrade, consulting a local expert is key. JWJ Electrical offers free assessments in Croydon to determine your specific needs. Contact us today to schedule an inspection and get a detailed quote tailored to your property."
+      ]
+    },
+    {
+      "title": "Energy-Efficient Lighting Solutions for Croydon Homes",
+      "date": "January 2026",
+      "excerpt": "Discover how energy-efficient lighting can reduce your bills and enhance your Croydon home, with tips from local electricians.",
+      "body": [
+        "Energy-efficient lighting is a smart upgrade for Croydon homes, offering significant cost savings and environmental benefits. In the Yarra Valley, where electricity prices can fluctuate, switching to LED or smart lighting systems can reduce energy bills by up to 80%. This is particularly relevant for Croydon residents looking to lower their carbon footprint while enhancing home comfort.",
+        "Croydon's climate, with cool winters and warm summers, makes efficient lighting essential. LEDs use less energy and emit less heat, reducing the load on air conditioning during summer. Installation costs in Croydon typically range from $200 to $500 per room, depending on the complexity and type of fixtures chosen. JWJ Electrical provides tailored solutions for homes in the Yarra Valley.",
+        "When selecting energy-efficient lighting for Croydon homes, consider factors like colour temperature, brightness, and smart controls. Dimmable LEDs allow for ambiance adjustment, while motion sensors add convenience and security. Our local electricians at JWJ Electrical can advise on the best options for your Croydon property, ensuring compatibility with existing wiring.",
+        "The installation process in Croydon involves assessing your current lighting setup, recommending efficient alternatives, and handling the electrical work. We ensure all installations comply with Australian standards and provide guarantees on workmanship. For Yarra Valley homes, this upgrade not only cuts costs but also adds modern appeal.",
+        "Beyond cost savings, energy-efficient lighting contributes to a sustainable lifestyle. In Croydon, where community values environmental responsibility, this upgrade aligns with local initiatives. JWJ Electrical uses high-quality, Australian-made products to support the local economy while delivering reliable performance.",
+        "To explore energy-efficient lighting solutions for your Croydon home, contact JWJ Electrical for a free consultation. We'll help you design a lighting plan that maximises efficiency and enhances your living space. Make the switch today and enjoy long-term benefits in the Yarra Valley."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services: Why Croydon Residents Trust JWJ Electrical",
+      "date": "December 2025",
+      "excerpt": "From power outages to sparking outlets, learn how JWJ Electrical provides reliable emergency electrical services in Croydon.",
+      "body": [
+        "Emergency electrical services are vital for Croydon residents, where sudden outages or faults can disrupt daily life and pose safety risks. JWJ Electrical offers 24/7 emergency call-outs in the Yarra Valley, ensuring rapid response to issues like power failures, sparking outlets, or storm damage. Our team is equipped to handle any emergency, prioritising safety and quick resolution.",
+        "In Croydon, common electrical emergencies include tripped circuits, faulty wiring, and appliance malfunctions. These can occur due to age, weather, or overloads, especially in older homes. Our licensed electricians diagnose problems quickly using advanced tools, providing temporary fixes if needed and permanent solutions to prevent recurrence. We understand the urgency and act promptly.",
+        "The cost of emergency electrical services in Croydon varies based on the issue's complexity and time of day. JWJ Electrical offers transparent pricing with no hidden fees, even for after-hours calls. We provide upfront quotes before commencing work, ensuring Croydon residents know what to expect. Our goal is to restore safety without financial surprises.",
+        "For Yarra Valley locals, having a trusted emergency electrician is essential. JWJ Electrical has over 10 years of experience serving Croydon, making us familiar with common local issues like power surges during storms or wiring problems in heritage homes. We carry a wide range of parts to complete most repairs on the first visit.",
+        "Preventive measures can reduce emergencies in Croydon homes. Regular maintenance, safety inspections, and upgrades to modern systems help avoid critical failures. JWJ Electrical offers maintenance packages that include emergency cover, giving Croydon residents peace of mind throughout the year.",
+        "When an electrical emergency strikes in Croydon, don't hesitate to contact JWJ Electrical. Our team is ready 24/7 to provide expert assistance, ensuring your home or business is safe and functional. Trust the local experts who know the Yarra Valley inside out."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "JWJ Electrical | Electrician in Croydon | Electrical Services",
+      "description": "JWJ Electrical provides expert electrical services in Croydon, VIC. Licensed electricians for residential, commercial & industrial needs. Call now!"
+    },
+    "about": {
+      "title": "About JWJ Electrical | Croydon's Trusted Electricians",
+      "description": "Learn about JWJ Electrical, with over 10 years serving Croydon and the Yarra Valley. Licensed, insured, and committed to quality electrical work."
+    },
+    "services": {
+      "title": "Electrical Services in Croydon | Residential, Commercial & Industrial",
+      "description": "Comprehensive electrical services in Croydon from JWJ Electrical. Installations, repairs, safety inspections & 24/7 emergency help."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Costs in Croydon | JWJ Electrical",
+      "description": "Transparent electrical pricing in Croydon. Get free quotes for installations, repairs, and inspections from licensed electricians."
+    },
+    "contact": {
+      "title": "Contact JWJ Electrical | Free Quotes in Croydon",
+      "description": "Get in touch with JWJ Electrical in Croydon for free electrical quotes. Available 24/7 for emergencies. Call 0408 528 454."
+    },
+    "blog": {
+      "title": "Croydon Electrical Blog | Tips & Guides from JWJ Electrical",
+      "description": "Expert electrical advice for Croydon residents. Guides on safety inspections, switchboard upgrades, and energy efficiency."
+    }
+  }
+}
