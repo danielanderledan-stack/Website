@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "O. A. Electrical Services",
+  "suburb": "Craigieburn",
+  "phone": "0420516657",
+  "email": "oaelectrical@hotmail.com",
+  "address": "11 Edington Way, Craigieburn VIC 3064",
+  "tagline": "Craigieburn's Trusted Electricians for 25+ Years",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6d00c8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Craigieburn's Electrical Experts",
+      "sub": "25+ years of reliable service in your area"
+    },
+    {
+      "title": "Surge Protection & Safety First",
+      "sub": "Keep your Craigieburn home safe from electrical hazards"
+    },
+    {
+      "title": "No Job Too Small for O. A. Electrical",
+      "sub": "Free quotes across Craigieburn and surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Craigieburn? Let's Get Started.",
+  "aboutHeading": "25 Years Electrical Service in Craigieburn",
+  "aboutSubheading": "Local, licensed & friendly",
+  "aboutText": "O. A. Electrical Services has been proudly serving Craigieburn for over 25 years. Our reputation is built on quality workmanship and friendly service, earning us a steady stream of clients and referrals. We specialise in everything from safety inspections to complex installations, ensuring your home or business is always in expert hands.",
+  "servicesHeading": "Our Electrical Solutions",
+  "servicesSubheading": "Comprehensive care for Craigieburn properties",
+  "servicesText": "From safety checks to surge protector installs, we cover all electrical needs in Craigieburn. Our team delivers prompt, professional service to keep your property safe and efficient. Trust our experience for both residential and commercial projects.",
+  "services": [
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "Thorough checks to identify and prevent hazards in Craigieburn homes and businesses."
+    },
+    {
+      "title": "Whole House Surge Protectors",
+      "desc": "Expert installation to safeguard your appliances from damaging power surges."
+    },
+    {
+      "title": "Electrical Repairs & Maintenance",
+      "desc": "Fast, reliable fixes for any electrical issue in Craigieburn, big or small."
+    },
+    {
+      "title": "Lighting & Power Point Installations",
+      "desc": "Upgrade your space with professional lighting and power point setups."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for safety, compliance, and better performance."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 response for urgent electrical problems across Craigieburn."
+    }
+  ],
+  "bannerHeading": "Trusted Electricians in Craigieburn",
+  "bannerSubheading": "Call us for a free quote and friendly advice.",
+  "testimonialsHeading": "What Craigieburn Locals Say",
+  "testimonialsSubheading": "Honest work, happy customers",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from O. A. Electrical",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "O. A. Electrical installed whole house surge protectors at our Craigieburn home. Their service was prompt, professional, and they explained everything clearly. Highly recommend for any electrical work!",
+      "name": "Mike Thompson",
+      "role": "Craigieburn Homeowner"
+    },
+    {
+      "text": "We've relied on O. A. Electrical for our Craigieburn business for years. Their reliable maintenance and quick repairs keep our operations running smoothly. A trustworthy and skilled team.",
+      "name": "Lisa Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Craigieburn, I depend on O. A. Electrical for tenant electrical issues. They respond quickly and deliver top-notch work every time. Excellent service and value.",
+      "name": "David Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
