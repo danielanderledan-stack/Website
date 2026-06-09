@@ -1,0 +1,85 @@
+{
+  "siteType": "hvac",
+  "businessName": "A2Z Trade Services",
+  "suburb": "Thomastown",
+  "phone": "0457904322",
+  "email": "admin@a2zts.com.au",
+  "address": "15/23 Heyington Ave, Thomastown VIC 3074",
+  "tagline": "Thomastown's One-Stop Maintenance Shop",
+  "primaryColor": "#004370",
+  "primaryColorRgb": "0, 67, 112",
+  "primaryColorHover": "#003a64",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "A2Z Trade Services in Thomastown",
+      "sub": "Your local national maintenance team"
+    },
+    {
+      "title": "Expert HVAC & Trade Services",
+      "sub": "Serving Thomastown and across Australia"
+    },
+    {
+      "title": "From Plumbing to Painting",
+      "sub": "Comprehensive maintenance solutions"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote From Thomastown's Experts",
+  "aboutHeading": "Thomastown's Trusted Maintenance Partner",
+  "aboutSubheading": "Professional services nationwide",
+  "aboutText": "Based in Thomastown, A2Z Trade Services is a national provider of comprehensive maintenance solutions. Our team of experienced tradespeople specialises in commercial, industrial, and retail sectors, ensuring professionalism in every job. With a client portal for easy tracking, we deliver efficient and accurate support. We aim for mutually beneficial partnerships that enhance both your business and ours.",
+  "servicesHeading": "Our Comprehensive Trade Services",
+  "servicesSubheading": "From HVAC to Handyman",
+  "servicesText": "At A2Z Trade Services, we provide end-to-end maintenance solutions for Thomastown and beyond. Our services cover everything from emergency repairs to scheduled upkeep, ensuring your property is always in top condition. We specialise in HVAC, plumbing, electrical, and carpentry, among others.",
+  "services": [
+    {
+      "title": "HVAC Services",
+      "desc": "Heating, cooling, and ventilation systems for commercial and industrial properties, ensuring optimal climate control."
+    },
+    {
+      "title": "Plumbing & Draining",
+      "desc": "Expert plumbing services for repairs, installations, and maintenance in residential and commercial settings."
+    },
+    {
+      "title": "Electrical Solutions",
+      "desc": "Comprehensive electrical work including wiring, fixtures, and safety inspections for all types of buildings."
+    },
+    {
+      "title": "Carpentry & Handyman",
+      "desc": "Skilled carpentry for repairs, installations, and general maintenance tasks around your property."
+    },
+    {
+      "title": "Commercial Maintenance",
+      "desc": "Specialised services for signage, flooring, glazing, and other commercial needs to keep your business running smoothly."
+    },
+    {
+      "title": "Cleaning & Painting",
+      "desc": "Professional cleaning and painting services to enhance the appearance and hygiene of your space."
+    }
+  ],
+  "bannerHeading": "Thomastown's Maintenance Experts Are Here",
+  "bannerSubheading": "Get in touch for a free assessment.",
+  "testimonialsHeading": "What Thomastown Clients Say",
+  "testimonialsSubheading": "Real feedback from our customers",
+  "blogHeading": "Maintenance Tips & Industry News",
+  "blogSubheading": "From the A2Z Trade Services team",
+  "contactHeading": "Contact A2Z Trade Services Today",
+  "contactSubheading": "We're ready to help",
+  "reviews": [
+    {
+      "text": "A2Z Trade Services handled our HVAC installation in Thomastown efficiently and professionally. The team was punctual, and the work was done to a high standard. We've used them for ongoing maintenance, and they always deliver.",
+      "name": "Brad Thompson",
+      "role": "Thomastown Homeowner"
+    },
+    {
+      "text": "For our office in Melbourne, A2Z provided excellent electrical and plumbing services. Their client portal made tracking jobs easy, and the support was great. Highly recommend for commercial maintenance.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on A2Z Trade Services for all maintenance tasks. From HVAC repairs to painting, they handle everything promptly. Their nationwide network ensures service whenever needed.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
