@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "ProEdge Joinery",
+  "suburb": "Airport West",
+  "phone": "0393300303",
+  "email": "info@proedgejoinery.com.au",
+  "address": "32 King St, Airport West VIC 3042",
+  "tagline": "Airport West's Cabinet Specialists",
+  "primaryColor": "#A0522D",
+  "primaryColorRgb": "160, 82, 45",
+  "primaryColorHover": "#8B4513",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Airport West's Cabinet Makers",
+      "sub": "Quality joinery since 2008"
+    },
+    {
+      "title": "Custom Kitchens & Bathrooms",
+      "sub": "Precision CNC machined finishes"
+    },
+    {
+      "title": "Commercial & Residential Joinery",
+      "sub": "Serving Melbourne's west with pride"
+    }
+  ],
+  "ctaHeading": "Get Your Custom Joinery in Airport West",
+  "aboutHeading": "15+ Years Joinery in Airport West",
+  "aboutSubheading": "Local, reliable, and precise",
+  "aboutText": "With a trusted history since 2008, ProEdge Joinery has been a cornerstone of Airport West's trade community for over 15 years. We specialise in providing high-quality cabinetry and joinery services, leveraging advanced CNC machinery and CAD processes for precision and efficiency. Our goal is complete customer satisfaction, whether for residential renovations or commercial projects.",
+  "servicesHeading": "Our Joinery Services",
+  "servicesSubheading": "Precision craftsmanship for every need",
+  "servicesText": "From custom cabinetry to intricate joinery, we offer a wide range of services tailored to your requirements. Using state-of-the-art technology, we deliver fast and reliable results for both home and business owners in Airport West and surrounding areas.",
+  "services": [
+    {
+      "title": "Custom Cabinetry",
+      "desc": "We design and build bespoke cabinets tailored to your space and style, ensuring a perfect fit and finish every time."
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Transform your kitchen with our expert renovation services, from modern designs to classic finishes, all crafted with precision."
+    },
+    {
+      "title": "Bathroom Vanities",
+      "desc": "Elevate your bathroom with custom vanities that combine functionality and aesthetic appeal, using high-quality materials."
+    },
+    {
+      "title": "Commercial Joinery",
+      "desc": "We provide durable and stylish joinery solutions for offices, shops, and commercial spaces across Melbourne's west."
+    },
+    {
+      "title": "Furniture Making",
+      "desc": "Create unique furniture pieces with our custom woodworking services, perfect for homes and businesses alike."
+    },
+    {
+      "title": "CNC Machining Services",
+      "desc": "Leverage our advanced CNC machinery for precise and efficient machining, ideal for complex joinery projects."
+    }
+  ],
+  "bannerHeading": "Need Joinery in Airport West?",
+  "bannerSubheading": "From design to installation, we've got you covered.",
+  "testimonialsHeading": "What Airport West Clients Say",
+  "testimonialsSubheading": "Trusted by locals for quality work",
+  "blogHeading": "Joinery Insights & Tips",
+  "blogSubheading": "Expert advice from ProEdge Joinery",
+  "contactHeading": "Request a Free Quote",
+  "contactSubheading": "Contact us today for all your joinery needs",
+  "reviews": [
+    {
+      "text": "ProEdge Joinery did an amazing job on our kitchen renovation in Airport West. The custom cabinets were perfectly crafted, and the whole process was smooth and professional.",
+      "name": "James Mitchell",
+      "role": "Airport West Homeowner"
+    },
+    {
+      "text": "We hired ProEdge for our office fit-out, and the commercial joinery was top-notch. Their attention to detail and quick turnaround helped us get set up on time.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "I've used ProEdge for multiple bathroom vanities in my properties. Their CNC machined joinery is always precise, and they deliver quality finishes every time.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
