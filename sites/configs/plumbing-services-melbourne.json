@@ -1,0 +1,306 @@
+{
+  "siteType": "plumber",
+  "businessName": "Plumbing Services Melbourne",
+  "suburb": "Kew",
+  "phone": "03 9853 3699",
+  "email": "admin@hamesreid.com.au",
+  "address": "101 Denmark St, Kew VIC 3101",
+  "tagline": "Kew's Trusted Plumbers Since 1984",
+  "primaryColor": "#00a0d2",
+  "primaryColorRgb": "0, 160, 210",
+  "primaryColorHover": "#0090c2",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kew's Go-To Plumbers",
+      "sub": "Over 40 years serving Melbourne's east"
+    },
+    {
+      "title": "Blocked Drains, Hot Water & Gas",
+      "sub": "24/7 emergency plumbing services"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Kew & surrounds"
+    }
+  ],
+  "ctaHeading": "Kew's plumbers are ready - let's fix your plumbing today.",
+  "aboutHeading": "40 Years Plumbing in Kew",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Founded in 1984 by Kevin Hames and the late Lindsay Reid, Hames Reid Plumbing has been the trusted plumber in Kew for over four decades. We specialise in blocked drains, hot water systems, and gas fittings, delivering prompt and professional service to homes and businesses across Kew and surrounding suburbs.",
+  "servicesHeading": "What We Fix & Maintain",
+  "servicesSubheading": "Plumbing done right",
+  "servicesText": "From emergency burst pipes to routine gas fittings, our Kew-based team covers all plumbing services. We use the latest technology for CCTV drain inspections and ensure every job meets Australian standards.",
+  "services": [
+    {
+      "title": "Blocked Drains",
+      "desc": "Expert clearing of blocked drains in Kew homes and businesses.",
+      "longDesc": "We specialise in clearing blocked drains using advanced techniques like hydro jetting and CCTV inspections. Serving Kew, we ensure fast and effective solutions to prevent recurring blockages.",
+      "points": [
+        "Fast response times",
+        "Advanced clearing methods",
+        "Preventative advice"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems.",
+      "longDesc": "Whether you need a new hot water system installed or repairs in Kew, our licensed plumbers handle all brands and types. We focus on energy-efficient solutions tailored to your home.",
+      "points": [
+        "All brands serviced",
+        "Energy-efficient options",
+        "Same-day repairs"
+      ]
+    },
+    {
+      "title": "Gas Fittings",
+      "desc": "Safe and certified gas fitting services for Kew properties.",
+      "longDesc": "Our certified gas fitters in Kew provide installation, repairs, and safety checks for gas appliances. We comply with all Australian gas safety standards.",
+      "points": [
+        "Certified gas fitters",
+        "Safety compliance guaranteed",
+        "Appliance installation"
+      ]
+    },
+    {
+      "title": "CCTV Drain Inspections",
+      "desc": "Accurate diagnosis of drain issues using CCTV technology.",
+      "longDesc": "For Kew properties, we offer detailed CCTV drain inspections to identify problems like cracks or blockages. Our high-resolution cameras provide precise diagnostics.",
+      "points": [
+        "High-resolution cameras",
+        "Accurate diagnostics",
+        "Non-invasive method"
+      ]
+    },
+    {
+      "title": "Burst Pipes",
+      "desc": "Emergency repair for burst pipes to minimise water damage.",
+      "longDesc": "Burst pipes in Kew can cause significant damage. Our emergency team provides rapid response to fix leaks and restore your plumbing system promptly.",
+      "points": [
+        "24/7 emergency service",
+        "Minimise water damage",
+        "Quick leak detection"
+      ]
+    },
+    {
+      "title": "General Plumbing",
+      "desc": "Comprehensive plumbing maintenance and repairs.",
+      "longDesc": "From leaky taps to full plumbing overhauls, our Kew plumbers handle all general plumbing tasks. We ensure reliable and long-lasting solutions for your peace of mind.",
+      "points": [
+        "All plumbing tasks",
+        "Reliable workmanship",
+        "Maintenance plans available"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Kew?",
+  "bannerSubheading": "24/7 emergency services available",
+  "testimonialsHeading": "What Kew Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Plumbing Guides & Advice",
+  "blogSubheading": "Deep-dives from the Kew team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Hames Reid Plumbing fixed our blocked drain in Kew quickly and efficiently. Their CCTV inspection identified the issue immediately, and the price was fair. Highly recommend for any plumbing emergency.",
+      "name": "John Smith",
+      "role": "Kew Homeowner"
+    },
+    {
+      "text": "As a local café owner in Kew, I rely on Hames Reid for all our gas fitting needs. They always arrive on time and provide professional service, ensuring our kitchen runs smoothly.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We manage several properties in Kew and have used Hames Reid Plumbing for burst pipes and general maintenance. Their team is reliable and provides upfront pricing, which we appreciate.",
+      "name": "Mike Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Kew",
+    "Hawthorn",
+    "Richmond",
+    "Camberwell",
+    "Balwyn",
+    "Box Hill",
+    "Doncaster"
+  ],
+  "about": {
+    "intro": "Hames Reid Plumbing has been the trusted plumber in Kew since 1984, offering comprehensive plumbing services to the local community.",
+    "story": [
+      "Founded in 1984 by Kevin Hames and the late Lindsay Reid, our business started with a commitment to quality workmanship and honest pricing. Over the decades, we have grown to serve Kew and surrounding suburbs, building lasting relationships with our clients.",
+      "Today, our team of licensed plumbers continues this tradition, using modern technology like CCTV drain inspections to provide efficient solutions. We take pride in being a family-owned business that treats every job with care and professionalism."
+    ],
+    "mission": "To provide Kew with reliable, high-quality plumbing services that exceed expectations.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our plumbers are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "We offer emergency plumbing services around the clock in Kew."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "You receive a fixed quote before any work begins, no surprises."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "40+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Plumbing Services Melbourne, we offer transparent pricing for all our Kew plumbing services. No lock-in contracts, just honest quotes.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Expert diagnosis",
+          "Quality parts and labor",
+          "Workmanship guarantee",
+          "Clean-up included"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $1,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Multiple trades coordination",
+          "Compliance documentation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what you're paying for."
+  },
+  "contact": {
+    "intro": "Need a plumber in Kew? Contact Plumbing Services Melbourne today for a free, no-obligation quote. We're available 24/7 for emergencies."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Blocked Drain Cost in Kew?",
+      "date": "March 2026",
+      "excerpt": "Discover the typical costs for clearing a blocked drain in Kew, including factors like severity and method used by local plumbers.",
+      "body": [
+        "Blocked drains are a common issue in Kew homes, often caused by tree roots, grease buildup, or foreign objects. The cost to clear a blocked drain in Kew can vary depending on the severity and location of the blockage. For minor blockages, using a plunger or chemical drain cleaner might cost under $100, but these methods are often temporary and can damage pipes if overused.",
+        "For more stubborn blockages, professional plumbers in Kew use advanced techniques like hydro jetting or mechanical rodding. Hydro jetting involves high-pressure water to scour the pipe walls, typically costing between $200 and $400. This method is effective for grease and root intrusions but requires specialized equipment, which is why licensed plumbers recommend it for persistent issues.",
+        "CCTV drain inspections are another key service in Kew, allowing plumbers to diagnose the exact cause of the blockage. The inspection itself costs around $150 to $300, but it provides valuable information to prevent future problems. In Kew's older suburbs, aging pipes can be prone to cracks or collapses, making inspections a wise investment.",
+        "When choosing a plumber in Kew for blocked drains, consider factors like their experience, licensing, and upfront pricing. Licensed plumbers in Melbourne must adhere to Australian standards, ensuring safe and compliant work. Look for reviews from Kew locals to gauge reliability and service quality.",
+        "Preventative measures can save Kew homeowners money in the long run. Regular maintenance, such as annual drain cleaning and avoiding pouring grease down sinks, can reduce the likelihood of blockages. Many plumbers in Kew offer maintenance packages that include scheduled inspections and priority service.",
+        "In summary, the cost of clearing a blocked drain in Kew ranges from $100 for simple fixes to over $500 for complex issues requiring excavation. Always get multiple quotes from licensed plumbers and ensure they provide a detailed breakdown of costs. Investing in professional service prevents recurring problems and protects your property value.",
+        "For Kew residents, Hames Reid Plumbing offers competitive pricing and 24/7 availability for blocked drain emergencies. Our team uses state-of-the-art equipment to diagnose and resolve blockages efficiently, minimising disruption to your daily life. Contact us for a free quote tailored to your specific needs."
+      ]
+    },
+    {
+      "title": "When Should You Replace Your Hot Water System in Kew?",
+      "date": "February 2026",
+      "excerpt": "Learn the signs that indicate it's time to replace your hot water system in Kew, and explore energy-efficient options for Melbourne homes.",
+      "body": [
+        "Hot water systems are essential for comfort in Kew homes, but they don't last forever. Most systems have a lifespan of 10 to 15 years, depending on the type and maintenance. In Kew's variable climate, a reliable hot water system is crucial, especially during cold winters when demand peaks.",
+        "Signs that your hot water system needs replacement include inconsistent water temperature, strange noises, or visible rust and leaks. If your energy bills are rising unexpectedly, an old, inefficient system could be the culprit. Kew homeowners should consider upgrading to a more energy-efficient model to save on long-term costs.",
+        "In Melbourne, including Kew, options for hot water systems include electric, gas, solar, and heat pump models. Gas systems are popular for their quick heating, but solar systems offer environmental benefits and lower running costs. The choice depends on your household size, energy preferences, and budget.",
+        "The cost of replacing a hot water system in Kew ranges from $1,000 to $5,000, depending on the type and installation complexity. For example, a standard electric system might cost around $1,200 installed, while a solar system can be $4,000 or more. Licensed plumbers in Kew can provide accurate quotes after assessing your current setup.",
+        "Australian building standards require that hot water systems be installed by licensed professionals to ensure safety and compliance. In Kew, plumbers must adhere to local regulations, including proper ventilation for gas systems and secure mounting for tanks. Always verify your plumber's credentials to avoid issues with insurance or warranties.",
+        "Preventative maintenance can extend the life of your hot water system. Regular flushing to remove sediment buildup and annual inspections by a Kew plumber can prevent premature failure. Many plumbing services offer maintenance plans that include these checks at a discounted rate.",
+        "When replacing your hot water system in Kew, consider factors like energy efficiency ratings, warranty periods, and future maintenance needs. Upgrading to a modern system can improve comfort and reduce your carbon footprint. Consult with a local plumber to find the best solution for your home.",
+        "For Kew residents, Hames Reid Plumbing provides expert advice and installation for all types of hot water systems. We help you choose the right system based on your needs and budget, ensuring efficient and reliable hot water supply for years to come."
+      ]
+    },
+    {
+      "title": "Gas Fitting Safety Checks Every Kew Home Needs",
+      "date": "January 2026",
+      "excerpt": "Discover why regular gas fitting safety checks are vital for Kew homes, and what to expect from a professional inspection.",
+      "body": [
+        "Gas appliances provide convenience and efficiency in Kew homes, but they also pose safety risks if not properly maintained. Regular gas fitting safety checks are essential to prevent leaks, carbon monoxide poisoning, and fire hazards. In Melbourne, including Kew, gas safety is regulated by strict Australian standards.",
+        "A gas fitting safety check involves inspecting all gas appliances, connections, and pipework for leaks or damage. Licensed gas fitters in Kew use specialized equipment like gas detectors to identify even minor leaks. This process typically takes one to two hours and costs between $100 and $200, depending on the number of appliances.",
+        "Kew homes with older gas systems may be at higher risk due to aging pipes or outdated fittings. If your home was built before the 1990s, consider upgrading to modern materials like copper or stainless steel for better durability and safety. A Kew plumber can assess your system and recommend necessary upgrades.",
+        "Signs of a gas leak include a smell of rotten eggs, hissing sounds near appliances, or dead vegetation around gas lines. If you suspect a leak, evacuate immediately and contact emergency services. In Kew, licensed gas fitters are available 24/7 for such emergencies, providing prompt and reliable service.",
+        "Australian standards for gas fitting include AS/NZS 5601, which outlines installation and maintenance requirements. In Kew, plumbers must comply with these standards to ensure safety and avoid fines. Always hire a licensed gas fitter who can provide a certificate of compliance after the inspection.",
+        "Preventative measures include installing carbon monoxide detectors and ensuring adequate ventilation for gas appliances. In Kew's climate, where homes are often sealed for energy efficiency, proper ventilation is critical to prevent buildup of harmful gases. Regular maintenance keeps your family safe and your appliances running efficiently.",
+        "For Kew homeowners, scheduling annual gas fitting safety checks is a proactive way to protect your property and loved ones. Hames Reid Plumbing offers comprehensive gas safety inspections, identifying issues early and providing solutions that meet all Australian regulations.",
+        "In summary, gas fitting safety checks in Kew are not just a legal requirement but a crucial step in home maintenance. By investing in regular inspections, you can avoid costly repairs, ensure compliance, and maintain a safe living environment for your household."
+      ]
+    },
+    {
+      "title": "Burst Pipe Emergency? What to Do in Kew Before the Plumber Arrives",
+      "date": "December 2025",
+      "excerpt": "Step-by-step guide on handling a burst pipe emergency in Kew, minimising damage until professional help arrives.",
+      "body": [
+        "A burst pipe is a plumbing emergency that requires immediate action to prevent water damage in your Kew home. Water can quickly flood floors, damage walls, and ruin personal belongings. Knowing what to do before the plumber arrives can save you time, money, and stress.",
+        "The first step is to shut off the water supply at the main valve. In most Kew homes, the main shut-off valve is located near the water meter or where the pipe enters the house. Turn it clockwise to stop the flow of water. If you're unsure, contact your local water utility or a Kew plumber for guidance.",
+        "Next, open all taps to drain the remaining water from the pipes. This reduces pressure and minimises further leaking. In Kew, where temperatures can drop below freezing in winter, draining pipes also helps prevent additional damage from ice expansion.",
+        "After shutting off the water, assess the damage and move valuables to a safe area. Use towels, buckets, or a wet-dry vacuum to contain the water. For Kew properties with timber floors, quick action is essential to prevent warping or mould growth.",
+        "Do not attempt to repair a burst pipe yourself unless it's a minor leak you can temporarily patch with plumber's tape or a clamp. Complex repairs require licensed plumbers in Kew who have the tools and expertise to fix the issue permanently and comply with Australian plumbing standards.",
+        "While waiting for the plumber, document the damage with photos or videos for insurance purposes. Most home insurance policies in Kew cover sudden and accidental water damage, so keep records of all repair costs. Contact your insurer as soon as possible to start the claims process.",
+        "In Kew, emergency plumbing services like Hames Reid Plumbing offer 24/7 response for burst pipes. Our team arrives quickly, assesses the situation, and implements effective repairs to restore your plumbing system. We use advanced leak detection methods to find hidden damage and prevent future issues.",
+        "To prevent burst pipes in Kew, consider insulating exposed pipes during winter and avoiding pouring grease down drains, which can cause blockages and pressure buildup. Regular plumbing maintenance by a licensed Kew plumber can identify vulnerabilities before they lead to emergencies."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Plumbing Services Melbourne | Plumber in Kew | Blocked Drains & Gas Fitting",
+      "description": "Hames Reid Plumbing: trusted Kew plumber since 1984. 24/7 emergency services for blocked drains, hot water systems, and gas fittings. Free quotes!"
+    },
+    "about": {
+      "title": "About Us | Kew's Trusted Plumbing Team | Plumbing Services Melbourne",
+      "description": "Learn about Hames Reid Plumbing, serving Kew since 1984 with quality plumbing services. Licensed, insured, and committed to fair pricing."
+    },
+    "services": {
+      "title": "Plumbing Services in Kew | Blocked Drains, Gas Fitting & More",
+      "description": "Comprehensive plumbing services in Kew: blocked drains, hot water systems, gas fittings, CCTV inspections. Expert solutions from licensed plumbers."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Prices in Kew | Plumbing Services Melbourne",
+      "description": "Transparent pricing for Kew plumbing services. From call-out fees to major projects, get upfront quotes with no hidden costs."
+    },
+    "contact": {
+      "title": "Contact Plumbing Services Melbourne | Free Kew Plumber Quotes",
+      "description": "Get in touch for a free plumbing quote in Kew. 24/7 availability for emergencies. Call 03 9853 3699 or email admin@hamesreid.com.au."
+    },
+    "blog": {
+      "title": "Kew Plumbing Blog | Local Trade Tips & Cost Guides",
+      "description": "Expert plumbing advice for Kew residents. Guides on blocked drains, hot water systems, and gas safety to help you maintain your home."
+    }
+  }
+}
