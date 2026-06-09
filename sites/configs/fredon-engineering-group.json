@@ -1,0 +1,300 @@
+{
+  "siteType": "hvac",
+  "businessName": "Fredon Engineering Group",
+  "suburb": "Heatherton",
+  "phone": "03 9555 1234",
+  "email": "info@fredonengineering.com.au",
+  "address": "7 Arco Ln, Heatherton VIC 3202",
+  "tagline": "Heatherton's HVAC & Engineering Specialists",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e05f00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Heatherton's Trusted HVAC Engineers",
+      "sub": "20+ years of mechanical excellence"
+    },
+    {
+      "title": "Air Conditioning & Electrical Solutions",
+      "sub": "Serving Heatherton and Melbourne's southeast"
+    },
+    {
+      "title": "Technology-Driven Engineering Services",
+      "sub": "From design to installation"
+    }
+  ],
+  "ctaHeading": "Heatherton's engineering experts are ready — let's build your solution.",
+  "aboutHeading": "Engineering Excellence in Heatherton",
+  "aboutSubheading": "Mechanical, electrical & technology solutions",
+  "aboutText": "With over 20 years of experience, Fredon Engineering Group has been providing top-tier mechanical and electrical engineering services to Heatherton and surrounding areas. As a multi-services provider, we specialise in air conditioning, HVAC systems, and technology solutions for both residential and commercial clients. Our team is committed to delivering reliable, innovative services tailored to the unique needs of Heatherton properties.",
+  "servicesHeading": "What We Do in Heatherton",
+  "servicesSubheading": "Full-spectrum engineering services",
+  "servicesText": "Fredon Engineering Group offers comprehensive HVAC and engineering services in Heatherton, including air conditioning installation, maintenance, and custom mechanical solutions. Our expertise ensures efficient, compliant systems for homes and businesses across Melbourne's southeast.",
+  "services": [
+    {
+      "title": "Air Conditioning Installation",
+      "desc": "Expert installation of residential and commercial AC systems in Heatherton.",
+      "longDesc": "Our team designs and installs tailored air conditioning solutions for Heatherton homes and businesses, ensuring optimal comfort and energy efficiency. We use top-quality brands and comply with Australian standards for safe, reliable installations.",
+      "points": [
+        "Custom system design",
+        "Energy-efficient units",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "HVAC Maintenance & Repair",
+      "desc": "Regular servicing and emergency repairs for Heatherton HVAC systems.",
+      "longDesc": "Keep your heating, ventilation, and air conditioning systems running smoothly with our scheduled maintenance and prompt repair services in Heatherton. We diagnose issues quickly and provide cost-effective solutions to prevent downtime.",
+      "points": [
+        "Scheduled servicing",
+        "Emergency repairs",
+        "Performance optimisation"
+      ]
+    },
+    {
+      "title": "Electrical Engineering Solutions",
+      "desc": "Comprehensive electrical design and implementation for Heatherton projects.",
+      "longDesc": "From wiring to power systems, our electrical engineering services cover all aspects for Heatherton properties. We ensure safe, efficient electrical setups that meet strict Australian regulations and client requirements.",
+      "points": [
+        "Safe electrical design",
+        "Compliance guaranteed",
+        "Tailored solutions"
+      ]
+    },
+    {
+      "title": "Mechanical Systems Design",
+      "desc": "Custom mechanical engineering for HVAC and industrial applications.",
+      "longDesc": "Our mechanical engineering team designs robust systems for Heatherton's industrial and commercial needs, including ventilation, piping, and climate control. We focus on durability and efficiency in every project.",
+      "points": [
+        "Custom mechanical design",
+        "Industrial applications",
+        "Efficiency-focused"
+      ]
+    },
+    {
+      "title": "Technology Integration",
+      "desc": "Smart building and automation solutions for modern Heatherton properties.",
+      "longDesc": "Integrate cutting-edge technology into your Heatherton property with our smart HVAC controls, automation systems, and IoT solutions. Enhance comfort, security, and energy management with our expert tech services.",
+      "points": [
+        "Smart home automation",
+        "IoT integration",
+        "Energy management"
+      ]
+    },
+    {
+      "title": "Commercial Climate Control",
+      "desc": "Large-scale HVAC solutions for Heatherton businesses and facilities.",
+      "longDesc": "We provide end-to-end climate control systems for Heatherton's commercial spaces, from offices to warehouses. Our designs ensure consistent temperature regulation, air quality, and operational efficiency.",
+      "points": [
+        "Large-scale installations",
+        "Air quality management",
+        "Reliable systems"
+      ]
+    }
+  ],
+  "bannerHeading": "Need HVAC Services in Heatherton?",
+  "bannerSubheading": "Fredon Engineering is your local specialist for all mechanical and electrical needs.",
+  "testimonialsHeading": "What Heatherton Locals Say About Us",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Heatherton HVAC Guides & Advice",
+  "blogSubheading": "In-depth articles from our engineering experts",
+  "contactHeading": "Get in Touch with Fredon Engineering",
+  "contactSubheading": "Free quotes and consultations for Heatherton residents",
+  "reviews": [
+    {
+      "text": "Fredon Engineering installed a new ducted air conditioning system in our Heatherton home, and the service was impeccable. Their team was professional, efficient, and the system works perfectly.",
+      "name": "Sarah Mitchell",
+      "role": "Heatherton Homeowner"
+    },
+    {
+      "text": "As a local business owner in Moorabbin, I rely on Fredon for regular HVAC maintenance. They always provide upfront pricing and reliable service, keeping our systems in top shape.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties, I need dependable engineers. Fredon's electrical solutions for our Heatherton complex were outstanding, with clear communication and quality workmanship.",
+      "name": "Emma Taylor",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Heatherton",
+    "Dingley Village",
+    "Moorabbin",
+    "Bentleigh",
+    "Clayton",
+    "Springvale",
+    "Cheltenham"
+  ],
+  "about": {
+    "intro": "Fredon Engineering Group is a leading HVAC and engineering service provider based in Heatherton, Victoria, specialising in mechanical, electrical, and technology solutions.",
+    "story": [
+      "Founded over 20 years ago, Fredon Engineering Group has grown from a local air conditioning contractor to a multi-services engineering powerhouse serving Heatherton and Melbourne's southeast. Our journey began with a focus on reliable HVAC installations, expanding to include comprehensive electrical and mechanical solutions as client needs evolved.",
+      "Today, we pride ourselves on integrating advanced technology with traditional engineering expertise. From smart home automation to large-scale commercial systems, our team in Heatherton delivers innovative, compliant services that enhance comfort and efficiency for every property type."
+    ],
+    "mission": "To provide Heatherton with exceptional mechanical and electrical engineering solutions that combine innovation, reliability, and local expertise.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Heatherton's building codes and climate challenges for optimal solutions."
+      },
+      {
+        "title": "Certified Professionals",
+        "text": "Fully licensed engineers and technicians ensuring safe, compliant work every time."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Upfront quotes with no hidden fees, giving Heatherton clients complete peace of mind."
+      },
+      {
+        "title": "24/7 Support",
+        "text": "Round-the-clock emergency services to address urgent HVAC and electrical issues promptly."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free consultations",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Fredon Engineering, we offer transparent pricing for all Heatherton HVAC and engineering services, with no lock-in contracts. Our quotes are detailed and fixed upfront, so you know exactly what to expect.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$110",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed written quote",
+          "No-obligation advice"
+        ]
+      },
+      {
+        "name": "Standard HVAC Service",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "System inspection & tuning",
+          "Filter replacement",
+          "Performance report",
+          "30-day guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom design & installation",
+          "Project management",
+          "Compliance certification",
+          "Extended warranty"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and upfront, with no surprises for Heatherton clients."
+  },
+  "contact": {
+    "intro": "Ready to discuss your HVAC or engineering project in Heatherton? Contact Fredon Engineering today for a free consultation and quote. We're here to help with all your mechanical and electrical needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Air Conditioning Installation Cost in Heatherton?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting AC installation costs in Heatherton, including system types, property size, and energy efficiency ratings.",
+      "body": [
+        "When considering air conditioning installation in Heatherton, the first step is understanding the local climate and your specific needs. Heatherton experiences warm summers and mild winters, making efficient cooling systems a priority for homes and businesses. Costs vary based on factors like property size, existing infrastructure, and desired energy efficiency, with residential installations typically ranging from $3,000 to $10,000 for ducted systems.",
+        "The type of air conditioning system you choose significantly impacts the overall cost. In Heatherton, split systems are popular for their affordability and easy installation, costing around $1,500 to $4,000 per unit. Ducted systems, ideal for larger homes, can cost between $5,000 and $12,000, including labour and materials. Commercial installations for Heatherton businesses may exceed $20,000, depending on complexity and scale.",
+        "Labour costs in Melbourne's southeast, including Heatherton, are influenced by local demand and contractor expertise. Licensed HVAC engineers typically charge $70 to $120 per hour, with installation times varying from a few hours for splits to several days for ducted systems. It's crucial to obtain multiple quotes from Heatherton-based contractors to ensure competitive pricing and avoid hidden fees.",
+        "Energy efficiency ratings, such as those under Australia's MEPS program, affect both upfront costs and long-term savings. High-efficiency units may cost 20-30% more initially but can reduce electricity bills by up to 40% in Heatherton's climate. Government rebates and incentives for energy-efficient installations in Victoria can further offset costs, making upgrades more accessible for local residents.",
+        "Compliance with Australian standards, including AS/NZS 5141 for air conditioning installations, is non-negotiable in Heatherton. This ensures systems are safe, efficient, and meet local council regulations, which may require permits for major installations. Working with accredited contractors like Fredon Engineering guarantees adherence to these standards, protecting your investment and ensuring peace of mind.",
+        "To get the best value for air conditioning installation in Heatherton, start with a professional consultation to assess your property's needs. Compare detailed quotes that itemise costs for equipment, labour, and permits. Consider long-term benefits like warranty coverage and maintenance plans, which can save money on repairs and extend system lifespan. Always choose local experts familiar with Heatherton's unique requirements."
+      ]
+    },
+    {
+      "title": "The Best Time to Service Your HVAC System in Melbourne's Southeast",
+      "date": "February 2026",
+      "excerpt": "Discover the optimal seasons for HVAC maintenance in Heatherton to ensure efficiency and prevent breakdowns during peak usage.",
+      "body": [
+        "In Heatherton and Melbourne's southeast, seasonal HVAC maintenance is crucial for system longevity and performance. The best time for servicing is typically in early spring (September to October) or late autumn (March to April). These shoulder seasons avoid the extreme demands of summer cooling and winter heating, allowing for thorough inspections without disrupting comfort.",
+        "Spring maintenance prepares your HVAC system for the hot summer months ahead. In Heatherton, temperatures can exceed 30°C, making reliable air conditioning essential. Servicing includes cleaning filters, checking refrigerant levels, and ensuring all components are in top condition to handle increased usage, which can reduce energy bills and prevent unexpected breakdowns.",
+        "Autumn servicing is equally important, as it readies your system for Melbourne's mild but variable winters. Heatherton experiences cool, damp conditions, so heating functions need to be efficient and safe. Regular maintenance during this period helps identify issues like worn parts or electrical faults, which can be addressed before they lead to costly repairs or system failures.",
+        "Frequency of servicing depends on usage and system age. For Heatherton homes with regular use, professional HVAC maintenance should be scheduled annually. Commercial properties or systems with heavy usage may require bi-annual servicing to maintain efficiency and compliance with Australian standards, ensuring optimal air quality and temperature control year-round.",
+        "The benefits of timely maintenance in Heatherton extend beyond cost savings. Well-maintained HVAC systems improve indoor air quality, reducing allergens and pollutants common in Melbourne's climate. They also extend equipment lifespan, often by 5-10 years, and maintain manufacturer warranties, which require regular professional servicing as per Australian consumer law.",
+        "When scheduling HVAC service in Heatherton, choose local experts like Fredon Engineering who understand the area's specific needs. We offer flexible appointment times and comprehensive checklists tailored to Melbourne's southeast climate. Early booking ensures availability during peak seasons and helps you avoid the rush, keeping your home or business comfortable all year round."
+      ]
+    },
+    {
+      "title": "Upgrading to Smart Home Automation in Heatherton: A Complete Guide",
+      "date": "January 2026",
+      "excerpt": "Explore how smart technology can enhance comfort, security, and energy savings in Heatherton homes and businesses.",
+      "body": [
+        "Smart home automation is transforming Heatherton properties, offering enhanced comfort, security, and energy efficiency. In Melbourne's southeast, where climate variability demands adaptable systems, integrating smart HVAC controls, lighting, and security can significantly improve daily living and operational costs. Heatherton homeowners are increasingly adopting these technologies to future-proof their homes.",
+        "Key components of smart home automation include interconnected devices managed via smartphone apps or voice assistants. For HVAC in Heatherton, smart thermostats like Nest or Ecobee learn user habits to optimise heating and cooling, reducing energy consumption by up to 15%. Integration with local weather data ensures systems respond to Heatherton's specific climate conditions, enhancing efficiency.",
+        "The installation process for smart home automation in Heatherton begins with a professional assessment to evaluate existing infrastructure. Fredon Engineering can design custom solutions that integrate with current systems, avoiding costly overhauls. For businesses in Heatherton, smart automation can manage large-scale climate control, improving employee comfort and productivity while cutting operational expenses.",
+        "Costs for smart home automation in Heatherton vary based on scope and complexity. Basic setups with smart thermostats and lighting may start from $500, while comprehensive systems for whole-home automation can range from $3,000 to $10,000. Investment in these technologies often pays off through energy savings, with Heatherton residents reporting up to 20% reduction in utility bills within the first year.",
+        "Australian standards, such as AS/NZS 3000 for electrical installations, must be followed to ensure safety and compliance. In Heatherton, professional installation by licensed engineers guarantees that smart systems are integrated correctly, avoiding risks like electrical faults or data security issues. Local council permits may be required for significant upgrades, particularly in heritage or regulated areas.",
+        "To upgrade to smart home automation in Heatherton, start with a consultation to identify your needs and budget. Prioritise systems that offer scalability and compatibility with future technologies. Work with local experts like Fredon Engineering who provide ongoing support and maintenance, ensuring your smart home remains efficient and secure as technology evolves. Embrace the future of living in Heatherton with tailored automation solutions."
+      ]
+    },
+    {
+      "title": "Understanding Australian Electrical Standards for Heatherton Properties",
+      "date": "December 2025",
+      "excerpt": "A deep dive into the electrical compliance requirements for renovations and new builds in Heatherton, ensuring safety and legality.",
+      "body": [
+        "In Heatherton, compliance with Australian electrical standards is critical for all properties, ensuring safety and adherence to legal requirements. The primary standard governing electrical installations is AS/NZS 3000, which outlines rules for wiring, equipment, and safety devices. For Heatherton homeowners and builders, understanding these standards is essential during renovations or new construction to avoid hazards and fines.",
+        "Key aspects of AS/NZS 3000 relevant to Heatherton include proper earthing, circuit protection, and installation of smoke alarms. Victoria's specific regulations, such as those from Energy Safe Victoria, mandate regular electrical inspections for rental properties and older homes. In Heatherton, where many properties date back decades, upgrading electrical systems to meet current standards is often necessary during refurbishments.",
+        "The process for ensuring electrical compliance in Heatherton begins with a professional assessment by licensed electricians. They evaluate existing wiring, switchboards, and appliances to identify non-compliant elements. For example, outdated fuse boxes may need replacement with modern circuit breakers, and aluminium wiring common in older Heatherton homes may require remediation to prevent fire risks.",
+        "Costs for electrical upgrades in Heatherton vary based on property size and scope. A basic switchboard upgrade might cost $800 to $1,500, while complete rewiring for a typical home can range from $5,000 to $15,000. These investments are crucial for safety and can increase property value, as Heatherton buyers and insurers prioritise compliant electrical systems.",
+        "Local council requirements in Heatherton may impose additional standards, particularly for heritage-listed properties or areas with specific zoning rules. Permits are often required for electrical work, and inspections by authorised bodies ensure compliance. Working with Heatherton-based contractors like Fredon Engineering familiar with these local nuances simplifies the process and avoids delays.",
+        "To navigate Australian electrical standards for Heatherton properties, engage early with qualified professionals who provide transparent quotes and detailed plans. Regular maintenance and periodic inspections help maintain compliance over time, especially as standards evolve. By prioritising safety and legality, Heatherton residents can protect their investments and ensure comfortable, secure living environments."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Fredon Engineering | HVAC & Engineering in Heatherton",
+      "description": "Fredon Engineering Group provides expert air conditioning, electrical, and mechanical services in Heatherton, VIC. Trusted local engineers for residential and commercial projects."
+    },
+    "about": {
+      "title": "About Fredon Engineering | Heatherton's HVAC Specialists",
+      "description": "Learn about Fredon Engineering Group's 20+ years of experience in Heatherton, offering comprehensive mechanical, electrical, and technology solutions."
+    },
+    "services": {
+      "title": "HVAC & Engineering Services in Heatherton | Fredon Engineering",
+      "description": "Explore our full range of services including air conditioning installation, maintenance, electrical engineering, and smart home automation in Heatherton."
+    },
+    "pricing": {
+      "title": "HVAC Costs & Quotes in Heatherton | Fredon Engineering",
+      "description": "Transparent pricing for air conditioning and engineering services in Heatherton. Get upfront quotes with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Fredon Engineering | Free Quotes in Heatherton",
+      "description": "Get in touch with Fredon Engineering for free consultations and quotes on HVAC and electrical projects in Heatherton, VIC."
+    },
+    "blog": {
+      "title": "Heatherton HVAC Blog | Engineering Tips & Guides",
+      "description": "Stay informed with the latest HVAC maintenance tips, cost guides, and engineering advice from Fredon Engineering in Heatherton."
+    }
+  }
+}
