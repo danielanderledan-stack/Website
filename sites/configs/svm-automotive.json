@@ -1,0 +1,85 @@
+{
+  "siteType": "builder",
+  "businessName": "SVM Automotive",
+  "suburb": "Epping",
+  "phone": "0384186779",
+  "email": "intl-segmenter@11.7.10",
+  "address": "3A Salicki Ave, Epping VIC 3076",
+  "tagline": "Epping's Trusted Automotive Mechanic",
+  "primaryColor": "#1a73e8",
+  "primaryColorRgb": "26, 115, 232",
+  "primaryColorHover": "#1565c0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Epping's Go-To Mechanic",
+      "sub": "20 years of automotive service"
+    },
+    {
+      "title": "Roadworthy Certificates & Safety Checks",
+      "sub": "SVM Automotive has you covered"
+    },
+    {
+      "title": "Expert Car Servicing in Epping",
+      "sub": "Your local & trusted team"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Epping? Let's get you back on the road.",
+  "aboutHeading": "20 Years Automotive Service in Epping",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "SVM Automotive has been Epping's trusted mechanic for over 20 years, providing reliable automotive services to the local community. Our commitment to amazing service goes beyond just fixing your car – we aim to exceed expectations with friendly, knowledgeable staff and a welcoming atmosphere. Whether it's routine maintenance or a roadworthy certificate, we make your experience stress-free. With a focus on quality and customer satisfaction, we've built lasting relationships across Epping.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Comprehensive automotive solutions",
+  "servicesText": "SVM Automotive offers a full range of mechanical services in Epping, from general servicing to specialised inspections. Our experienced team ensures your vehicle runs smoothly and safely, using quality parts and the latest techniques. We cater to all makes and models, providing honest advice and efficient service every time.",
+  "services": [
+    {
+      "title": "General Servicing",
+      "desc": "Regular maintenance to keep your vehicle in top condition, including oil changes, filter replacements, and inspections."
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Expert brake inspection, repair, and replacement to ensure your safety on the road."
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced diagnostic tools to identify and fix engine issues quickly and accurately."
+    },
+    {
+      "title": "Roadworthy Certificates",
+      "desc": "Comprehensive inspections and certification for vehicle registration in Victoria."
+    },
+    {
+      "title": "Safety Check Inspections",
+      "desc": "Thorough safety checks to meet regulatory standards and give you peace of mind."
+    },
+    {
+      "title": "Pre-Purchase Inspections",
+      "desc": "Detailed inspections for used vehicles to help you make an informed buying decision."
+    }
+  ],
+  "bannerHeading": "Your Local Mechanic in Epping",
+  "bannerSubheading": "Quality service with a smile – get in touch today.",
+  "testimonialsHeading": "What Epping Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Automotive Tips & News",
+  "blogSubheading": "Advice from SVM Automotive",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "SVM Automotive did a fantastic job on my roadworthy certificate in Epping. The process was quick and hassle-free, and the staff were incredibly friendly. Highly recommend for anyone in the area!",
+      "name": "John Smith",
+      "role": "Epping Homeowner"
+    },
+    {
+      "text": "I've been taking my car to SVM Automotive for years. Their brake repairs are top-notch, and they always explain what's needed. Great service for local businesses like mine.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on SVM Automotive for safety check inspections. They're reliable and efficient, ensuring all vehicles meet standards. A trusted partner in Epping.",
+      "name": "Mike Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
