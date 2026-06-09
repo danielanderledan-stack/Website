@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Keece Electrical",
+  "suburb": "Richmond",
+  "phone": "1300 537 537",
+  "email": "service@keece.com.au",
+  "address": "121 Burnley St, Richmond VIC 3121",
+  "tagline": "Richmond's Award-Winning Electricians",
+  "primaryColor": "#3399ff",
+  "primaryColorRgb": "51, 153, 255",
+  "primaryColorHover": "#2673cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Go-To Electricians",
+      "sub": "Serving Melbourne's east with over 20 years' experience"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "Licensed, insured & available 24/7"
+    },
+    {
+      "title": "Emergency Repairs & Installations",
+      "sub": "Fast response across Richmond & surrounds"
+    }
+  ],
+  "ctaHeading": "Keece Electrical — Richmond's electricians are ready to help.",
+  "aboutHeading": "Over 20 Years Electrical Excellence in Richmond",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Keece Electrical has been providing top-tier electrical services to Richmond and surrounding areas for over two decades. Our skilled team handles everything from residential rewiring to complex commercial installations. We pride ourselves on safety, reliability, and exceeding customer expectations in every project. As an award-winning HSEQ ISO certified organisation, we ensure all work meets Australian standards, giving Richmond homeowners and businesses peace of mind.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From routine maintenance to full-scale installations, Keece Electrical covers all aspects of electrical work in Richmond. Our licensed electricians are equipped to handle residential, commercial, and industrial projects with precision, innovation, and strict compliance.",
+  "services": [
+    {
+      "title": "Residential Electrical Services",
+      "desc": "Comprehensive home electrical solutions for Richmond homeowners.",
+      "longDesc": "Our residential services in Richmond include wiring, rewiring, switchboard upgrades, and lighting installations, ensuring your home is safe, energy-efficient, and fully compliant with Victorian regulations.",
+      "points": [
+        "Safe & reliable",
+        "Energy-efficient solutions",
+        "24/7 emergency support"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Installations",
+      "desc": "Tailored electrical systems for Richmond businesses.",
+      "longDesc": "We design and install robust electrical infrastructure for offices, retail, and industrial facilities in Richmond, focusing on minimising downtime and ensuring all work adheres to Australian standards.",
+      "points": [
+        "Customised designs",
+        "Minimised downtime",
+        "Compliance guaranteed"
+      ]
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "desc": "Fast response for urgent electrical issues in Richmond.",
+      "longDesc": "Available 24/7, our emergency team in Richmond quickly diagnoses and fixes electrical faults to restore safety and functionality, providing rapid, fully insured service when you need it most.",
+      "points": [
+        "24/7 availability",
+        "Rapid response time",
+        "Fully insured service"
+      ]
+    },
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "Thorough assessments to keep your property compliant.",
+      "longDesc": "Our detailed inspections in Richmond identify potential hazards and ensure your electrical systems meet Victorian regulations, preventing costly issues and enhancing safety for homes and businesses.",
+      "points": [
+        "Comprehensive reports",
+        "Regulatory compliance",
+        "Preventative maintenance"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for safety and capacity.",
+      "longDesc": "Upgrading old switchboards in Richmond homes and businesses to handle increased load and improve safety with circuit breakers and RCDs, future-proofing your electrical system.",
+      "points": [
+        "Enhanced safety",
+        "Increased capacity",
+        "Future-proofed systems"
+      ]
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "Professional lighting solutions for aesthetics and efficiency.",
+      "longDesc": "From LED upgrades to custom lighting designs, we enhance the ambiance and energy efficiency of Richmond properties with expert installation, using the latest technology for optimal results.",
+      "points": [
+        "LED expertise",
+        "Custom designs",
+        "Energy savings"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Richmond?",
+  "bannerSubheading": "Keece Electrical is here to help with all your electrical needs.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners and businesses alike",
+  "blogHeading": "Richmond Electrical Tips & Guides",
+  "blogSubheading": "Insights from your local electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact Keece Electrical for prompt service",
+  "reviews": [
+    {
+      "text": "Keece Electrical did an amazing job upgrading our switchboard in Richmond. The team was professional, punctual, and left everything clean. Highly recommend their services for any electrical work!",
+      "name": "Sarah Mitchell",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "As a local café owner, I needed reliable electrical work quickly. Keece Electrical delivered on time and on budget, ensuring our shop was safe and fully operational. Their expertise in Richmond is unmatched.",
+      "name": "James O'Brien",
+      "role": "Richmond Business Owner"
+    },
+    {
+      "text": "We've used Keece Electrical for multiple properties in the area. Their attention to detail and compliance knowledge is top-notch. Always our first choice for electrical needs across Richmond and surrounds.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Richmond",
+    "Carlton",
+    "Fitzroy",
+    "Collingwood",
+    "Hawthorn",
+    "South Yarra",
+    "Kew"
+  ],
+  "about": {
+    "intro": "Keece Electrical has been Richmond's trusted electrician for over 20 years, delivering safe, innovative, and reliable electrical solutions to homes and businesses.",
+    "story": [
+      "Founded in Richmond, Keece Electrical started with a commitment to quality electrical work and exceptional customer service. Over the years, we've grown to serve Melbourne's eastern suburbs while maintaining our local roots and a personalised approach to every project.",
+      "Our team of licensed electricians is trained in the latest technologies, ensuring we handle everything from simple repairs to complex installations. We're proud to be an award-winning HSEQ ISO certified organisation, reflecting our dedication to safety, excellence, and exceeding expectations in Richmond."
+    ],
+    "mission": "To provide Richmond with reliable, innovative electrical services that exceed expectations and ensure safety.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are fully licensed and insured, ensuring compliance and peace of mind in Richmond."
+      },
+      {
+        "title": "24/7 Availability",
+        "text": "We offer round-the-clock emergency services across Richmond and surrounds for urgent electrical issues."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Upfront quotes with no hidden fees, so Richmond customers know the full cost before we start."
+      },
+      {
+        "title": "Quality Guarantee",
+        "text": "We stand behind our work with a satisfaction guarantee on all electrical services in Richmond."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "HSEQ ISO Certified",
+      "24/7 support",
+      "Free quotes"
+    ]
+  },
+  "pricing": {
+    "intro": "At Keece Electrical, we offer transparent, competitive pricing for all electrical services in Richmond with no lock-in contracts.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality materials",
+          "Workmanship guarantee",
+          "Clean-up included"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom electrical design",
+          "Project management",
+          "Compliance certification"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know the full cost before any work begins in Richmond."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact Keece Electrical today for a free, no-obligation quote on your electrical project in Richmond or surrounding suburbs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Switchboard Upgrade Cost in Richmond?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting switchboard upgrade costs in Richmond, including materials, labour, and compliance with Victorian electrical standards.",
+      "body": [
+        "Upgrading your switchboard is a crucial safety measure for Richmond homes, especially as older properties may not handle modern electrical loads. In Richmond, where many houses date back several decades, the cost of a switchboard upgrade can vary based on the age of your wiring, the complexity of the installation, and the materials used. Typically, Richmond homeowners can expect to pay between $800 and $2,500 for a standard upgrade, with factors like the need for additional circuits or compliance with current Australian standards influencing the final price. Keece Electrical provides detailed, upfront quotes tailored to your Richmond property's specific requirements.",
+        "The materials chosen for your switchboard upgrade play a significant role in the overall cost. In Richmond, where electrical safety is paramount, we use high-quality circuit breakers, residual current devices (RCDs), and surge protectors to ensure compliance and durability. The labour involved includes not just the physical installation but also thorough testing and certification by licensed electricians. At Keece Electrical, we emphasise transparency, breaking down costs for Richmond customers so you understand exactly what you're paying for, from the initial assessment to the final sign-off.",
+        "Compliance with Victorian electrical regulations is non-negotiable in Richmond, and this adds to the cost but ensures your property is safe. Standards like AS/NZS 3000 govern electrical installations, and failing to meet them can lead to fines or insurance issues. In Richmond, where heritage buildings are common, additional challenges like preserving aesthetics while upgrading may incur extra expenses. Keece Electrical's team is intimately familiar with these local nuances, ensuring your switchboard upgrade not only meets but exceeds all regulatory requirements.",
+        "Beyond the immediate cost, a switchboard upgrade in Richmond offers long-term benefits that can save you money. Enhanced safety reduces the risk of electrical fires or shocks, which is critical in densely populated areas like Richmond. Modern switchboards also improve energy efficiency, potentially lowering your electricity bills by optimising power distribution. For Richmond businesses, this upgrade can minimise downtime caused by electrical faults, making it a wise investment in operational reliability.",
+        "When budgeting for a switchboard upgrade in Richmond, consider the scope of your electrical needs. For instance, if you're adding new appliances or renovating, a more comprehensive upgrade might be necessary. Keece Electrical offers free on-site assessments in Richmond to evaluate your current system and recommend cost-effective solutions. We handle all aspects, from obtaining permits to final inspections, ensuring a seamless process without unexpected costs.",
+        "To get an accurate estimate for your Richmond switchboard upgrade, contact Keece Electrical for a free quote. Our team will visit your property, assess the situation, and provide a fixed-price proposal tailored to your needs. With over 20 years of experience in Richmond, we guarantee quality workmanship and compliance, giving you peace of mind. Don't wait for electrical issues to arise—upgrade your switchboard today for a safer, more efficient home."
+      ]
+    },
+    {
+      "title": "LED Lighting Installation: Save Energy in Your Richmond Home",
+      "date": "February 2026",
+      "excerpt": "Learn how LED lighting can reduce your energy bills and enhance your Richmond property's ambiance with professional installation tips.",
+      "body": [
+        "Switching to LED lighting is one of the most effective ways for Richmond homeowners to cut energy costs while improving illumination. In Richmond, where electricity prices are a concern, LED lights use up to 80% less energy than traditional bulbs and last significantly longer. The initial investment in LED installation can be offset by savings on your power bills, making it a smart choice for both residential and commercial properties. Keece Electrical specialises in LED upgrades across Richmond, ensuring optimal placement and efficiency.",
+        "The installation process for LED lighting in Richmond involves assessing your current setup and designing a system that meets your needs. For homes in Richmond, this might include replacing incandescent bulbs with LED alternatives or installing new fixtures in kitchens, living areas, and outdoor spaces. Factors like room size, natural light, and desired ambiance influence the design. Our licensed electricians in Richmond handle everything from wiring to fixture installation, guaranteeing compliance with Australian standards.",
+        "In Richmond's climate, with hot summers and cool winters, LED lighting offers additional benefits beyond energy savings. LEDs emit less heat, helping to keep your home cooler during Melbourne's warm spells, which can reduce air conditioning costs. They also provide brighter, more consistent light, enhancing safety and comfort in Richmond properties. For outdoor areas like gardens or pathways, weather-resistant LED options are available to withstand local conditions.",
+        "When planning LED lighting installation in Richmond, consider the long-term advantages. LEDs have a lifespan of up to 25,000 hours, meaning fewer replacements and less waste, which aligns with sustainability goals in the community. For Richmond businesses, this can translate to lower maintenance costs and a greener image. Keece Electrical uses high-quality LED products that meet all Australian regulations, ensuring durability and performance.",
+        "Cost is a key factor for Richmond residents considering LED upgrades. While prices vary based on the number of fixtures and complexity, typical installations range from $500 to $3,000. Keece Electrical provides detailed quotes for Richmond projects, breaking down costs for labour, materials, and any necessary electrical modifications. We also offer advice on available rebates or incentives for energy-efficient upgrades in Victoria.",
+        "To start your LED lighting project in Richmond, contact Keece Electrical for a free consultation. Our team will evaluate your home, recommend the best solutions, and provide a fixed-price quote. With our expertise in Richmond, we ensure a smooth installation process with minimal disruption. Upgrade to LED lighting today to enjoy energy savings, enhanced aesthetics, and a more sustainable home."
+      ]
+    },
+    {
+      "title": "Electrical Safety Tips for Richmond Rental Properties",
+      "date": "January 2026",
+      "excerpt": "Essential electrical safety checks every Richmond landlord should know to protect tenants and comply with Victorian laws.",
+      "body": [
+        "As a landlord in Richmond, ensuring electrical safety in your rental property is not just a legal requirement but also a moral obligation to protect your tenants. Victorian law mandates regular electrical inspections and maintenance, with penalties for non-compliance. In Richmond, where rental properties range from modern apartments to older homes, specific risks like outdated wiring or faulty appliances need addressing. Keece Electrical offers comprehensive safety checks tailored to Richmond landlords, helping you meet all regulations.",
+        "Key electrical safety tips for Richmond rentals include scheduling professional inspections at least every five years or when there's a change of tenancy. During these checks, our Richmond-based electricians assess wiring, switchboards, outlets, and appliances for hazards like frayed cables or overloaded circuits. We also test smoke alarms and safety switches, which are compulsory under Victorian legislation. For Richmond properties near the coast, like those in nearby suburbs, additional checks for moisture damage are crucial.",
+        "Maintaining electrical safety in Richmond rentals involves proactive measures. Ensure all appliances provided are in good condition and carry appropriate safety marks. Educate tenants on basic safety practices, such as not overloading power points and reporting issues promptly. In Richmond, where winter months can be damp, checking for water ingress near electrical systems is vital to prevent shocks or fires.",
+        "Common electrical hazards in Richmond rental properties include old switchboards without RCDs, insufficient lighting in stairwells or hallways, and damaged power points. Upgrading these elements not only enhances safety but can also increase property value. Keece Electrical uses durable, code-compliant materials for all upgrades in Richmond, ensuring long-term reliability.",
+        "Budgeting for electrical maintenance in Richmond rentals is essential. Costs for inspections typically start from $150, with any necessary repairs priced separately. Keece Electrical provides transparent quotes to Richmond landlords, outlining all expenses upfront. We also offer maintenance packages that include regular checks, helping you manage costs effectively while staying compliant.",
+        "To safeguard your Richmond rental property, partner with Keece Electrical for all electrical safety needs. Our team understands local regulations and the specific challenges of Richmond's building stock. Contact us today for a free assessment and ensure your property is safe, compliant, and attractive to tenants."
+      ]
+    },
+    {
+      "title": "Emergency Electrician in Richmond: What to Do When Power Fails",
+      "date": "December 2025",
+      "excerpt": "Steps to take during an electrical emergency in Richmond and how Keece Electrical can help restore power quickly and safely.",
+      "body": [
+        "Experiencing a power failure in your Richmond home or business can be stressful, especially during extreme weather or critical times. Knowing what to do immediately can prevent further damage and ensure safety. In Richmond, where electrical grids can be affected by storms or aging infrastructure, having a reliable emergency electrician like Keece Electrical on call is essential. Our 24/7 service ensures rapid response to get your power back on.",
+        "The first step during a power outage in Richmond is to check if the issue is isolated to your property. Look for tripped circuit breakers in your switchboard or blown fuses. If multiple properties are affected, contact your electricity distributor, as it may be a grid issue. For Richmond, this is typically CitiPower, and reporting outages helps them prioritise repairs. If the problem is within your property, avoid tampering with electrical systems and call a licensed electrician immediately.",
+        "When you contact Keece Electrical for an emergency in Richmond, our team arrives promptly to diagnose the issue. Common causes include faulty wiring, overloaded circuits, or storm damage—all of which are prevalent in Richmond's older housing stock. We use advanced diagnostic tools to quickly identify the problem, ensuring minimal downtime. Our electricians are fully insured and trained to handle emergencies safely.",
+        "In Richmond, electrical emergencies can pose serious risks, such as fires or electrocution, if not addressed properly. It's crucial to keep a safe distance from any damaged electrical components and turn off the main power if safe to do so. Keece Electrical advises Richmond residents to have an emergency kit with flashlights and contact details handy. We also recommend installing surge protectors to safeguard appliances from voltage spikes during storms.",
+        "The cost of emergency electrical services in Richmond varies based on the complexity and time of call-out. Keece Electrical offers transparent pricing, with call-out fees starting from $120 for after-hours attendance. We provide upfront quotes once on-site, so you know the cost before any work begins. For Richmond businesses, we understand the urgency to minimise operational losses, so we prioritise swift resolutions.",
+        "To prepare for electrical emergencies in Richmond, consider preventive maintenance with Keece Electrical. Regular inspections can identify potential issues before they escalate, saving you time and money. Contact us today to schedule a check-up or save our number for emergencies. With our local expertise in Richmond, we're here to keep your property safe and powered at all times."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Keece Electrical | Electrician in Richmond | Electrical Services",
+      "description": "Keece Electrical provides expert electrical services in Richmond, VIC. Licensed electricians for residential, commercial & emergency repairs. Call 1300 537 537."
+    },
+    "about": {
+      "title": "About Keece Electrical | Richmond's Trusted Electricians",
+      "description": "Learn about Keece Electrical, Richmond's award-winning electrical team with over 20 years of experience in safe, reliable services."
+    },
+    "services": {
+      "title": "Electrical Services in Richmond | Keece Electrical",
+      "description": "Comprehensive electrical services in Richmond including installations, repairs, inspections & 24/7 emergencies. Licensed & insured."
+    },
+    "pricing": {
+      "title": "Electrical Service Costs Richmond | Keece Electrical Pricing",
+      "description": "Transparent pricing for electrical work in Richmond. Get upfront quotes with no hidden fees. Free call-out available."
+    },
+    "contact": {
+      "title": "Contact Keece Electrical | Richmond Electrician Quotes",
+      "description": "Get in touch with Keece Electrical for free electrical quotes in Richmond. Call 1300 537 537 or email service@keece.com.au."
+    },
+    "blog": {
+      "title": "Richmond Electrical Blog | Tips, Guides & Advice",
+      "description": "Expert electrical advice for Richmond homeowners and businesses. Learn about costs, safety, and energy-saving tips."
+    }
+  }
+}
