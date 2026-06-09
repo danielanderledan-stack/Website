@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Your Local On Time Services",
+  "suburb": "Lalor",
+  "phone": "+61488071460",
+  "email": "yourlocalontimeservices@gmail.com",
+  "address": "31 Prilep Heights, Lalor VIC 3075",
+  "tagline": "Lalor's Trusted Electrician - On Time, Every Time",
+  "primaryColor": "#009ef4",
+  "primaryColorRgb": "0, 158, 244",
+  "primaryColorHover": "#0085d6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Lalor's On-Time Electricians",
+      "sub": "20+ years in Melbourne's northern suburbs"
+    },
+    {
+      "title": "Switchboards, Rewiring & EV Chargers",
+      "sub": "Domestic and commercial electrical services"
+    },
+    {
+      "title": "24/7 Emergency Callouts in Lalor",
+      "sub": "Honest pricing, quality workmanship"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Lalor?",
+  "aboutHeading": "20+ Years Electrical in Lalor",
+  "aboutSubheading": "Local, licensed and always on time",
+  "aboutText": "With over 20 years of electrical experience, Your Local On Time Services has been Lalor's trusted licensed electrician for years. Billy and his team specialise in switchboard upgrades, house rewiring, EV charger installation, and 24/7 emergency callouts across Melbourne's northern suburbs. We hold REC 24551 and ensure all work meets Australian safety standards. Our promise is simple: arrive on time, every time, with honest pricing and a clean workspace.",
+  "servicesHeading": "Electrical Services in Lalor",
+  "servicesSubheading": "Expert solutions for your home and business",
+  "servicesText": "From routine inspections to complex rewiring, we cover all electrical needs in Lalor and surrounds. Our licensed team provides switchboard upgrades, EV charger installations, and emergency repairs with a focus on safety and reliability.",
+  "services": [
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "We upgrade old switchboards to meet current safety standards, preventing electrical hazards in your home."
+    },
+    {
+      "title": "House Rewiring",
+      "desc": "Complete rewiring services for older homes, ensuring safe and efficient electrical systems throughout."
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Professional installation of electric vehicle chargers for residential and commercial properties."
+    },
+    {
+      "title": "Smoke Detector Compliance",
+      "desc": "Installation and testing of smoke detectors to comply with Victorian regulations and keep your family safe."
+    },
+    {
+      "title": "Security Camera Installation",
+      "desc": "Expert setup of security camera systems for enhanced surveillance and peace of mind."
+    },
+    {
+      "title": "24/7 Emergency Services",
+      "desc": "Round-the-clock emergency callouts for urgent electrical faults in Lalor and northern Melbourne."
+    }
+  ],
+  "bannerHeading": "Emergency Electrician in Lalor",
+  "bannerSubheading": "Available 24 hours, 7 days a week",
+  "testimonialsHeading": "What Lalor Customers Say",
+  "testimonialsSubheading": "Trusted by locals for reliable electrical work",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from Your Local On Time Services",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Billy from Your Local On Time Services arrived exactly on time for our switchboard upgrade in Lalor. The work was done efficiently, and he left the area spotless. Highly recommend for anyone needing a reliable electrician.",
+      "name": "Mark Thompson",
+      "role": "Lalor Homeowner"
+    },
+    {
+      "text": "We had them install an EV charger at our business in Thomastown. The team was professional, and the pricing was upfront and fair. Great service from start to finish.",
+      "name": "Sarah Jenkins",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on quick and competent trades. Your Local On Time Services handled a smoke detector compliance check for several rentals in Bundoora without a hitch.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
