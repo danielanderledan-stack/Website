@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "AT Electrical Services",
+  "suburb": "Box Hill",
+  "phone": "0451 111 116",
+  "email": "info@atelectricservices.com",
+  "address": "850 Whitehorse Rd, Box Hill VIC 3128",
+  "tagline": "Box Hill's Trusted Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e65c00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Box Hill's Expert Electricians",
+      "sub": "5+ years serving Melbourne's eastern suburbs"
+    },
+    {
+      "title": "Residential & Commercial Electrical",
+      "sub": "From routine repairs to complex installations"
+    },
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "Immediate response for urgent issues"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Box Hill? We're here to help.",
+  "aboutHeading": "5+ Years Electrical Experience in Box Hill",
+  "aboutSubheading": "Licensed A-Grade Electricians",
+  "aboutText": "AT Electrical Services is your local expert electrician in Box Hill, providing high-end electrical services for domestic and commercial clients across Melbourne's Eastern and South Eastern Suburbs. With over 5 years of experience, an A-Grade Electrician license, and an REC license, we ensure reliable and safe solutions. Contact us for a free quote today.",
+  "servicesHeading": "Our Electrical Services in Box Hill",
+  "servicesSubheading": "Comprehensive solutions for all needs",
+  "servicesText": "From residential repairs to commercial installations, AT Electrical Services delivers professional electrical solutions tailored to Box Hill's unique demands. Our A-Grade licensed team handles everything from safety inspections to emergency calls.",
+  "services": [
+    {
+      "title": "Residential Electrical Repairs",
+      "desc": "Expert fixes for all home electrical issues in Box Hill.",
+      "longDesc": "From faulty wiring to power outages, our A-Grade electricians provide fast and reliable residential repair services across Box Hill and surrounding suburbs.",
+      "points": [
+        "Licensed & insured",
+        "Same-day service",
+        "Transparent pricing"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Installations",
+      "desc": "Tailored electrical solutions for businesses in Melbourne's east.",
+      "longDesc": "AT Electrical Services offers comprehensive commercial installation services, ensuring your business in Box Hill meets all safety standards and operational needs.",
+      "points": [
+        "Minimal disruption",
+        "Compliance guaranteed",
+        "Project managed"
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 rapid response for urgent electrical emergencies.",
+      "longDesc": "Electrical emergencies don't wait, and neither do we. Our Box Hill team is available around the clock to handle any urgent electrical issue safely and efficiently.",
+      "points": [
+        "Immediate response",
+        "Expert diagnostics",
+        "Safe repairs"
+      ]
+    },
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "Thorough assessments to keep your property safe.",
+      "longDesc": "We conduct detailed electrical safety inspections for homes and businesses in Box Hill, identifying potential hazards and ensuring compliance with Australian standards.",
+      "points": [
+        "Comprehensive checks",
+        "Certified reports",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your electrical system for safety and efficiency.",
+      "longDesc": "Upgrading your switchboard is crucial for handling modern electrical loads. We provide expert switchboard upgrade services in Box Hill to enhance safety and performance.",
+      "points": [
+        "Increased capacity",
+        "Safety improvements",
+        "Code compliance"
+      ]
+    },
+    {
+      "title": "Lighting Design and Installation",
+      "desc": "Custom lighting solutions for aesthetics and functionality.",
+      "longDesc": "From energy-efficient LEDs to architectural lighting, our team designs and installs lighting systems tailored to your Box Hill property's unique needs.",
+      "points": [
+        "Energy savings",
+        "Custom designs",
+        "Professional finish"
+      ]
+    }
+  ],
+  "bannerHeading": "Box Hill's Electricians Are Ready to Assist",
+  "bannerSubheading": "Free quotes and expert advice",
+  "testimonialsHeading": "What Box Hill Locals Say",
+  "testimonialsSubheading": "Trusted by your community",
+  "blogHeading": "Box Hill Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from local electricians",
+  "contactHeading": "Get a Free Electrical Quote Today",
+  "contactSubheading": "We respond within 24 hours",
+  "reviews": [
+    {
+      "text": "AT Electrical Services did an excellent job with the switchboard upgrade at our Box Hill home. The work was completed efficiently and to a high standard.",
+      "name": "James Mitchell",
+      "role": "Box Hill Homeowner"
+    },
+    {
+      "text": "We hired AT Electrical for our office fit-out in Hawthorn, and they delivered exceptional commercial electrical installation services. Highly recommend.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their emergency response was swift when we had a power outage at our property in Camberwell. Professional and reliable service.",
+      "name": "Michael O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Box Hill",
+    "Hawthorn",
+    "Camberwell",
+    "Blackburn",
+    "Burwood",
+    "Glen Waverley",
+    "Mount Waverley"
+  ],
+  "about": {
+    "intro": "AT Electrical Services has been serving Box Hill and Melbourne's eastern suburbs with expert electrical solutions for over 5 years.",
+    "story": [
+      "Founded with a commitment to excellence, AT Electrical Services has grown from a small local operation to a trusted name in Box Hill's electrical trade. Our team of licensed electricians brings extensive experience to every project, ensuring quality workmanship and customer satisfaction.",
+      "We specialise in both residential and commercial electrical services, understanding the unique needs of Box Hill's diverse properties. From modern apartments to historic homes, our expertise covers a wide range of electrical challenges."
+    ],
+    "mission": "To provide Box Hill with reliable, safe, and innovative electrical services that exceed expectations.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "A-Grade Electrician and REC licensed professionals."
+      },
+      {
+        "title": "Prompt Response",
+        "text": "24/7 availability for emergencies and timely service."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees, upfront quotes for all work."
+      },
+      {
+        "title": "Guaranteed Quality",
+        "text": "Workmanship guarantee on every job we complete."
+      }
+    ],
+    "stats": [
+      {
+        "value": "5+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At AT Electrical Services, we offer competitive pricing for all electrical work in Box Hill with no lock-in contracts.",
+    "packages": [
+      {
+        "name": "Call-Out & Diagnosis",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Fixed quote provided",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Common repairs & installations",
+          "Quality parts used",
+          "Safety tested",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Commercial fit-outs",
+          "Switchboard upgrades",
+          "Project management included"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to discuss your electrical needs in Box Hill? Contact AT Electrical Services for a free, no-obligation quote today."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does an Electrician Cost in Box Hill?",
+      "date": "March 2026",
+      "excerpt": "Discover the typical costs for electrical services in Box Hill, including call-out fees, hourly rates, and common job prices.",
+      "body": [
+        "When searching for an electrician in Box Hill, understanding the costs involved is crucial for budgeting your electrical projects. In Melbourne's eastern suburbs, electrician call-out fees typically range from $100 to $150, with hourly rates between $80 and $120 after the initial assessment. Factors like job complexity, materials required, and after-hours service can influence the final price. For Box Hill homeowners and businesses, getting multiple quotes from licensed electricians ensures competitive pricing and transparent service agreements.",
+        "For common residential jobs in Box Hill, such as installing a new power point or repairing a light fixture, costs often start from $150 to $300, depending on the specifics. Switchboard upgrades, which are essential for older homes in the area to handle modern electrical loads, can range from $800 to $2,000, including materials and labour. Commercial projects, like office fit-outs or retail electrical installations, vary widely but usually begin at $1,500, reflecting the scale and compliance requirements in Melbourne's business districts.",
+        "Emergency electrical services in Box Hill command higher rates due to the urgent response required, with call-outs after hours potentially adding a premium of 50% or more. It's advisable to have a licensed electrician's contact details handy for situations like power outages or safety hazards. Always verify that the electrician holds an A-Grade license and REC certification, as mandated in Victoria, to ensure work meets Australian safety standards. AT Electrical Services offers upfront quotes to avoid any hidden costs.",
+        "To get accurate pricing for your electrical needs in Box Hill, start by detailing the job scope when contacting electricians. Providing specifics about the issue, property type, and any access constraints helps in obtaining precise estimates. For instance, a full home rewire in a Box Hill period home might cost between $5,000 and $10,000, factoring in the heritage considerations and wiring complexity. Comparing quotes from local providers like AT Electrical Services, who understand Box Hill's property landscape, can lead to better value.",
+        "Tips for saving on electrical costs in Box Hill include scheduling non-emergency work during standard hours, bundling multiple jobs into one visit, and opting for energy-efficient upgrades that reduce long-term bills. For example, installing LED lighting can save up to 80% on lighting costs, with initial investments often recouped within two years. Always ask for a written quote detailing labour, parts, and any guarantees, and check reviews from other Box Hill residents to gauge service quality.",
+        "In summary, the cost of hiring an electrician in Box Hill depends on the job type, timing, and provider. By understanding typical price ranges and obtaining detailed quotes, you can make informed decisions. AT Electrical Services, with over 5 years of experience in Box Hill, offers transparent pricing and expert advice to ensure your electrical projects are completed safely and affordably. Contact us today for a free assessment tailored to your needs."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services: What to Do During a Power Outage in Box Hill",
+      "date": "February 2026",
+      "excerpt": "Learn how to handle electrical emergencies in Box Hill, from power outages to safety hazards, with expert advice from local electricians.",
+      "body": [
+        "Power outages in Box Hill can occur due to severe weather, equipment failure, or grid issues, disrupting daily life and business operations. The first step is to ensure safety by turning off appliances to prevent damage when power returns, and checking if the outage is isolated to your property or widespread. In Melbourne's eastern suburbs, reporting outages to your energy provider and having a licensed electrician on call, like AT Electrical Services, can expedite restoration and address any underlying electrical problems.",
+        "Common electrical emergencies in Box Hill include flickering lights, burning smells, or sparking outlets, which may indicate serious hazards like faulty wiring or overloaded circuits. If you notice these signs, avoid using the affected area and contact a professional immediately. A-Grade electricians are trained to diagnose issues quickly, using advanced tools to pinpoint faults. In Box Hill, where older homes are prevalent, these problems can arise from outdated wiring systems that don't meet current Australian standards.",
+        "During a power outage, it's important to keep refrigerated food safe by minimising fridge openings and using coolers if the outage lasts longer than four hours. For businesses in Box Hill, having an emergency electrical plan can prevent data loss and operational downtime. AT Electrical Services offers 24/7 emergency response to Box Hill and surrounding areas, ensuring that critical issues like power failures are resolved swiftly. Our team prioritises safety and provides temporary solutions if repairs require time.",
+        "Preventative measures can reduce the likelihood of emergencies in Box Hill homes and businesses. Regular electrical safety inspections, recommended every five years, help identify wear and tear before it leads to failures. Upgrading switchboards and installing surge protectors are also effective steps, especially given Melbourne's variable weather that can cause power surges. For Box Hill residents, investing in these upgrades not only enhances safety but also increases property value.",
+        "When selecting an emergency electrician in Box Hill, verify their credentials, including licensing and insurance, to ensure compliance with Victorian regulations. Look for providers with local experience who understand the area's specific challenges, such as heritage property constraints or commercial building codes. AT Electrical Services, based in Box Hill, has a proven track record in handling emergencies across Melbourne's eastern and south-eastern suburbs, offering prompt and reliable service.",
+        "In conclusion, being prepared for electrical emergencies in Box Hill involves knowing immediate safety steps and having a trusted electrician's contact details. From power outages to urgent repairs, professional assistance ensures minimal risk and downtime. AT Electrical Services is committed to supporting Box Hill with 24/7 emergency electrical services, backed by over 5 years of local expertise. Save our number for peace of mind in any electrical crisis."
+      ]
+    },
+    {
+      "title": "Signs You Need a Switchboard Upgrade in Your Melbourne Home",
+      "date": "January 2026",
+      "excerpt": "Identify the key indicators that your Box Hill home requires a switchboard upgrade for safety and efficiency in Melbourne's climate.",
+      "body": [
+        "In Box Hill, many homes, especially older ones, have switchboards that were installed decades ago and may not accommodate modern electrical demands. Signs like frequent circuit breaker trips, flickering lights, or a warm switchboard panel indicate that an upgrade is overdue. Melbourne's weather, with its hot summers and potential for power surges, exacerbates these issues, making timely upgrades essential for preventing electrical fires and ensuring reliable power distribution in your property.",
+        "An outdated switchboard often uses ceramic fuses instead of modern circuit breakers, which are less responsive to overloads and pose safety risks. In Box Hill, where housing stock includes both period homes and newer builds, assessing your switchboard's compatibility with current Australian standards is crucial. Upgrading to a switchboard with residual current devices (RCDs) enhances protection against electric shocks, a critical feature for families and businesses in the area.",
+        "Other signs include visible corrosion, a lack of safety switches on power and lighting circuits, or an inability to add new appliances without tripping the system. For Box Hill residents, this can limit the use of high-demand devices like air conditioners or electric vehicles, which are becoming more common. A professional inspection by a licensed electrician can determine if your switchboard meets the requirements set by Energy Safe Victoria, ensuring compliance and safety.",
+        "The benefits of a switchboard upgrade in Box Hill extend beyond safety to include increased electrical capacity and energy efficiency. Modern switchboards can handle higher loads, supporting home renovations or business expansions without the need for frequent repairs. In Melbourne's eastern suburbs, where property values are rising, an upgraded switchboard is an attractive feature for buyers, adding to the overall value and appeal of your home.",
+        "When planning a switchboard upgrade in Box Hill, consider factors like the age of your property, current electrical usage, and any planned additions. A licensed electrician will assess your needs and provide a detailed quote, typically ranging from $800 to $2,000 for residential installations. AT Electrical Services, with over 5 years of experience in Box Hill, offers tailored upgrade solutions that integrate seamlessly with your existing system, minimising disruption and maximising performance.",
+        "In summary, recognising the signs that your Box Hill home needs a switchboard upgrade can prevent hazards and improve electrical functionality. From frequent trips to outdated components, addressing these issues promptly is key. AT Electrical Services is your local expert for switchboard upgrades in Melbourne's eastern suburbs, delivering compliant and efficient solutions. Contact us to schedule an inspection and ensure your home's electrical system is up to standard."
+      ]
+    },
+    {
+      "title": "Energy-Efficient Lighting Solutions for Box Hill Properties",
+      "date": "December 2025",
+      "excerpt": "Explore how energy-efficient lighting can benefit Box Hill homes and businesses, reducing costs and enhancing sustainability in Melbourne's climate.",
+      "body": [
+        "In Box Hill, transitioning to energy-efficient lighting is a practical way to lower electricity bills and reduce environmental impact. LED lighting, which uses up to 80% less energy than traditional incandescent bulbs, is particularly effective in Melbourne's variable climate, providing consistent illumination while withstanding temperature fluctuations. For Box Hill homeowners and businesses, this upgrade offers long-term savings and aligns with Victoria's energy efficiency targets.",
+        "Common energy-efficient lighting options for Box Hill properties include LED downlights, strip lighting, and smart lighting systems that can be controlled via apps or timers. These solutions are ideal for both residential and commercial spaces, enhancing aesthetics while improving functionality. In Melbourne's eastern suburbs, where natural daylight varies throughout the year, well-designed lighting can create comfortable environments and support productivity in offices or retail outlets.",
+        "The installation process for energy-efficient lighting in Box Hill involves assessing your current setup, selecting appropriate fixtures, and ensuring compliance with Australian electrical standards. A licensed electrician can recommend products suited to your space, such as dimmable LEDs for living areas or high-output fixtures for commercial warehouses. For older homes in Box Hill, retrofitting lighting may require minor wiring adjustments to accommodate modern systems safely.",
+        "Benefits of energy-efficient lighting extend beyond cost savings to include reduced maintenance, as LEDs have longer lifespans, often exceeding 25,000 hours. In Box Hill, where commercial properties operate extensively, this translates to fewer bulb replacements and less downtime. Additionally, smart lighting controls allow for automated adjustments based on occupancy or time of day, further optimising energy use and enhancing convenience for residents and businesses alike.",
+        "When considering energy-efficient lighting upgrades in Box Hill, it's important to factor in initial investment versus long-term returns. While LED fixtures may have higher upfront costs, the payback period is typically short due to significant energy reductions. For example, upgrading a typical Box Hill home's lighting to LEDs can save hundreds of dollars annually on electricity bills. AT Electrical Services provides expert consultations to help you choose the best solutions for your specific needs and budget.",
+        "In conclusion, energy-efficient lighting is a smart investment for Box Hill properties, offering environmental and economic benefits. From LED installations to smart systems, the right lighting can transform your space while supporting Melbourne's sustainability goals. AT Electrical Services, with over 5 years of experience in Box Hill, delivers professional lighting upgrades tailored to local requirements. Contact us to explore how we can enhance your property's efficiency and appeal."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "AT Electrical Services | Electrician in Box Hill | Electrical Repairs",
+      "description": "Expert electrician in Box Hill providing residential & commercial electrical services. Licensed, insured, 24/7 emergency. Free quotes."
+    },
+    "about": {
+      "title": "About AT Electrical Services | Box Hill's Trusted Electrician",
+      "description": "Learn about our 5+ years of electrical experience in Box Hill. A-Grade licensed electricians for all domestic and commercial needs."
+    },
+    "services": {
+      "title": "Electrical Services in Box Hill | Repairs, Installations & More",
+      "description": "Comprehensive electrical services in Box Hill including repairs, installations, safety inspections. Expert A-Grade electricians."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Pricing in Box Hill | AT Electrical Services",
+      "description": "Transparent pricing for electrical work in Box Hill. Get upfront quotes for call-outs, repairs, and major projects."
+    },
+    "contact": {
+      "title": "Contact AT Electrical Services | Free Box Hill Electrician Quotes",
+      "description": "Get in touch with AT Electrical Services in Box Hill for a free electrical quote. 24/7 emergency service available."
+    },
+    "blog": {
+      "title": "Box Hill Electrical Blog | Tips, Guides & Expert Advice",
+      "description": "Read our latest blog posts on electrical maintenance, safety, and costs in Box Hill and Melbourne's eastern suburbs."
+    }
+  }
+}
