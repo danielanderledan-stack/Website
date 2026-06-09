@@ -1,0 +1,301 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Lawn Mowing & Garden Maintenance Geelong",
+  "suburb": "Geelong",
+  "phone": "0403 613 260",
+  "email": "info@wlgsolutions.com.au",
+  "address": "Geelong, VIC 3220",
+  "tagline": "Geelong's Go-To Lawn & Garden Experts",
+  "primaryColor": "#4ade3f",
+  "primaryColorRgb": "74, 222, 63",
+  "primaryColorHover": "#3cc934",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Geelong's Premier Lawn Mowing Service",
+      "sub": "Reliable care for every season"
+    },
+    {
+      "title": "Weed Control & Garden Maintenance",
+      "sub": "Keeping your garden healthy year-round"
+    },
+    {
+      "title": "Free Quotes & No Hidden Fees",
+      "sub": "Trusted by Geelong homeowners"
+    }
+  ],
+  "ctaHeading": "Need Lawn Care in Geelong? Let's Get Started!",
+  "aboutHeading": "Geelong's Trusted Lawn Care Professionals",
+  "aboutSubheading": "Local expertise with a personal touch",
+  "aboutText": "Lawn Mowing & Garden Maintenance Geelong has served the Geelong region for years, providing expert lawn mowing, weed control, and garden maintenance. Our team knows the local climate and soil conditions, offering tailored solutions to keep your outdoor space thriving. From regular care to pressure cleaning, we deliver reliable, affordable service that exceeds expectations.",
+  "servicesHeading": "Our Lawn & Garden Services",
+  "servicesSubheading": "Comprehensive care for your outdoor space",
+  "servicesText": "We offer a full range of lawn care services in Geelong, including mowing, weeding, pruning, and maintenance. Our professional team uses quality equipment to ensure your garden looks its best all year round.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Professional lawn mowing services in Geelong for a tidy, healthy lawn.",
+      "longDesc": "Our expert lawn mowing in Geelong ensures a precise cut and even finish, using top-quality equipment to promote grass health. Regular mowing prevents weeds and enhances curb appeal.",
+      "points": [
+        "Precision cutting",
+        "Promotes healthy growth",
+        "Boosts curb appeal"
+      ]
+    },
+    {
+      "title": "Weed Control",
+      "desc": "Effective weed control solutions for Geelong gardens and lawns.",
+      "longDesc": "We target and eliminate invasive weeds in Geelong with safe, eco-friendly treatments, protecting your plants and ensuring a weed-free garden. Our methods are tailored to local weed species.",
+      "points": [
+        "Safe treatments",
+        "Prevents regrowth",
+        "Protects plants"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Complete garden maintenance packages for Geelong properties.",
+      "longDesc": "From pruning to mulching, our garden maintenance in Geelong covers all aspects to keep your outdoor space immaculate. We handle seasonal tasks and routine care with attention to detail.",
+      "points": [
+        "Full seasonal care",
+        "Immaculate results",
+        "Tailored to your garden"
+      ]
+    },
+    {
+      "title": "Tree & Shrub Pruning",
+      "desc": "Expert pruning for trees and shrubs in Geelong to promote growth.",
+      "longDesc": "Our skilled pruning services in Geelong enhance the health and shape of trees and shrubs, removing deadwood and encouraging new growth. We follow best practices for optimal results.",
+      "points": [
+        "Boosts plant health",
+        "Encourages new growth",
+        "Expert techniques"
+      ]
+    },
+    {
+      "title": "Hedge Trimming",
+      "desc": "Precise hedge trimming for neat, structured hedges in Geelong.",
+      "longDesc": "We provide meticulous hedge trimming in Geelong, creating clean lines and dense growth for privacy and aesthetics. Our team ensures even cuts and proper shaping.",
+      "points": [
+        "Clean, sharp lines",
+        "Promotes density",
+        "Enhances privacy"
+      ]
+    },
+    {
+      "title": "Pressure Cleaning",
+      "desc": "High-pressure cleaning for driveways, paths, and surfaces in Geelong.",
+      "longDesc": "Our pressure cleaning services in Geelong remove dirt, grime, and stains from outdoor surfaces, restoring their original appearance. We use efficient, eco-friendly methods.",
+      "points": [
+        "Removes tough stains",
+        "Restores surfaces",
+        "Eco-friendly methods"
+      ]
+    }
+  ],
+  "bannerHeading": "Expert Lawn Care in Geelong",
+  "bannerSubheading": "From mowing to maintenance, we do it all",
+  "testimonialsHeading": "What Geelong Locals Say",
+  "testimonialsSubheading": "Real reviews from satisfied clients",
+  "blogHeading": "Geelong Lawn Care Tips & Guides",
+  "blogSubheading": "Expert advice for your garden",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Lawn Mowing & Garden Maintenance Geelong handles our monthly lawn mowing in Belmont flawlessly. Their reliability and quality keep our garden looking great year-round.",
+      "name": "Sarah Mitchell",
+      "role": "Geelong Homeowner"
+    },
+    {
+      "text": "They did an excellent job with weed control and hedge trimming at our business in Waurn Ponds. Professional service, fair prices, and highly recommend to others.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Hamlyn Heights, I rely on their garden maintenance services. They keep all our properties tidy and well-maintained, saving me time and hassle.",
+      "name": "Emily Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Geelong",
+    "Belmont",
+    "Waurn Ponds",
+    "Hamlyn Heights",
+    "Highton",
+    "Corio",
+    "Norlane",
+    "Lara"
+  ],
+  "about": {
+    "intro": "Lawn Mowing & Garden Maintenance Geelong is your local partner for all lawn care needs in Geelong, VIC, delivering professional and affordable services.",
+    "story": [
+      "Founded with a passion for maintaining beautiful gardens in Geelong, our team has grown to serve the entire region with expertise in lawn mowing, weed control, and garden maintenance. We use professional equipment and eco-friendly practices to ensure your outdoor space thrives in all seasons.",
+      "We believe in transparent communication and reliable service, which has made us a trusted choice for homeowners and businesses alike in Geelong. Our commitment to quality workmanship and customer satisfaction drives everything we do."
+    ],
+    "mission": "To provide Geelong with affordable, high-quality lawn care that exceeds expectations and enhances every garden.",
+    "whyUs": [
+      {
+        "title": "Local Experts",
+        "text": "Deep knowledge of Geelong's climate and lawn care needs."
+      },
+      {
+        "title": "Reliable Service",
+        "text": "Always on time, every time, for your peace of mind."
+      },
+      {
+        "title": "Affordable Pricing",
+        "text": "Competitive rates with no hidden charges for all services."
+      },
+      {
+        "title": "Eco-Friendly",
+        "text": "Using sustainable methods to protect Geelong's environment."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Happy Clients"
+      },
+      {
+        "value": "100%",
+        "label": "Satisfaction Guaranteed"
+      }
+    ],
+    "credentials": [
+      "Fully licensed and insured",
+      "Free quotes provided",
+      "Flexible scheduling",
+      "Quality workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "Our pricing for Geelong lawn care is straightforward with no lock-in contracts. Get a free quote tailored to your garden's specific needs.",
+    "packages": [
+      {
+        "name": "Basic Lawn Mow",
+        "price": "$50",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Single lawn mow",
+          "Edging included",
+          "Quick turnaround"
+        ]
+      },
+      {
+        "name": "Regular Care Package",
+        "price": "from $120",
+        "unit": "per month",
+        "highlight": true,
+        "features": [
+          "Weekly mowing",
+          "Weed control",
+          "Edging & blowing",
+          "Priority scheduling"
+        ]
+      },
+      {
+        "name": "Full Garden Maintenance",
+        "price": "from $250",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Mowing & trimming",
+          "Hedge cutting",
+          "Weed treatment",
+          "Garden tidy-up"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises, ensuring transparent pricing for Geelong clients."
+  },
+  "contact": {
+    "intro": "Ready to transform your garden? Contact Lawn Mowing & Garden Maintenance Geelong for a free, no-obligation quote today—we're here to help with all your lawn care needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Lawn Mowing Cost in Geelong in 2026?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors influencing lawn mowing costs in Geelong, including lawn size, frequency, and seasonal considerations for budget-friendly care.",
+      "body": [
+        "In Geelong, lawn mowing costs can vary based on several factors, starting with the size of your lawn. Smaller urban gardens in suburbs like Belmont might cost between $40 to $60 per visit, while larger properties in Highton or Waurn Ponds could range from $70 to $120. The frequency of service also plays a role; weekly mowing often comes at a discounted rate compared to one-off jobs, making it more economical for regular maintenance.",
+        "Seasonal changes in Geelong affect lawn growth and mowing needs. During spring and summer, grass grows faster, requiring more frequent cuts, which can increase overall costs. In contrast, autumn and winter see slower growth, potentially reducing expenses. It's essential to consider these cycles when budgeting, as professional lawn mowing services in Geelong adjust schedules to keep your lawn healthy without overspending.",
+        "Additional services like edging, blowing, or weed control can add to the cost but provide comprehensive care. For instance, adding weed treatment might increase the price by $10 to $20 per visit. Geelong's climate, with its mix of coastal and inland influences, may necessitate specific treatments for pests or weeds, which should be factored into your lawn care budget for optimal results.",
+        "When choosing a lawn mowing service in Geelong, look for transparent pricing and free quotes. Reputable providers like Lawn Mowing & Garden Maintenance Geelong offer upfront estimates without hidden fees. It's also wise to compare packages that include regular maintenance, as these can save money in the long run by preventing overgrowth and reducing the need for intensive care later.",
+        "DIY lawn mowing might seem cost-effective initially, but it requires time, equipment, and expertise. In Geelong, hiring professionals ensures consistent results and frees up your schedule. The cost of purchasing or renting a mower, fuel, and maintenance can add up, often exceeding the expense of a professional service, especially for larger or more complex lawns.",
+        "Ultimately, investing in professional lawn mowing in Geelong enhances your property's curb appeal and value. Regular care prevents issues like thatch buildup and promotes a lush, green lawn. By understanding the costs involved, you can make informed decisions that keep your garden looking its best year-round, tailored to Geelong's unique environmental conditions."
+      ]
+    },
+    {
+      "title": "Best Weeds to Target in Geelong Gardens This Season",
+      "date": "February 2026",
+      "excerpt": "Learn about common weeds in Geelong gardens, their impact, and effective control methods to maintain a healthy, weed-free outdoor space.",
+      "body": [
+        "Geelong gardens often contend with weeds like bindii, clover, and winter grass, which thrive in the region's temperate climate. Bindii, with its prickly seeds, is particularly problematic in lawns during spring and summer, causing discomfort and ruining the lawn's appearance. Identifying these weeds early is key to effective control, as they can spread rapidly if left unchecked.",
+        "Clover is another common weed in Geelong, easily recognizable by its three-leaf clusters. While it can add nitrogen to the soil, excessive clover indicates poor lawn health and can outcompete desired grass species. In Geelong's varied soils, clover often appears in nutrient-deficient areas, so addressing soil health through fertilisation and aeration can help manage it naturally.",
+        "Winter grass thrives in Geelong's cooler months, germinating in autumn and persisting through winter. This annual weed has a shallow root system, making it easier to remove manually, but prevention is better. Applying pre-emergent herbicides in early autumn can stop winter grass seeds from sprouting, keeping your lawn clean during the wet season.",
+        "For effective weed control in Geelong, a combination of cultural and chemical methods works best. Cultural practices like maintaining a thick, healthy lawn through proper mowing and watering can suppress weed growth. When chemical control is needed,选择选择选择性除草剂针对特定杂草，避免伤害草坪植物，符合Geelong的环境标准。",
+        "Professional weed control services in Geelong, such as those offered by Lawn Mowing & Garden Maintenance Geelong, use targeted treatments that are safe for lawns and the environment. They can assess your garden's specific weed issues and apply solutions that provide long-lasting results, reducing the need for repeated applications.",
+        "Regular monitoring and maintenance are essential for keeping weeds at bay in Geelong gardens. By understanding the lifecycle of common weeds and implementing proactive measures, you can enjoy a lush, weed-free lawn. This not only enhances the beauty of your outdoor space but also contributes to a healthier ecosystem in your garden."
+      ]
+    },
+    {
+      "title": "Guide to Hedge Trimming in Geelong's Climate",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to hedge trimming in Geelong, covering timing, techniques, and maintenance tips for neat, healthy hedges year-round.",
+      "body": [
+        "Hedge trimming in Geelong requires attention to the local climate, with its mild winters and warm summers influencing growth patterns. The best time to trim most hedges is in late spring or early summer, after the initial growth flush but before the heat intensifies. This allows hedges to recover quickly and maintain a dense, tidy appearance throughout the season.",
+        "In Geelong, evergreen hedges like box or privet benefit from regular trimming to shape and encourage bushiness. Start by removing dead or damaged branches, then trim the sides slightly wider than the top to ensure sunlight reaches all parts. This technique prevents bare spots and promotes even growth, essential for hedges in Geelong's often windy conditions.",
+        "Deciduous hedges, such as privet, should be trimmed in late winter while dormant, before new growth begins. This hard pruning stimulates vigorous spring growth and helps maintain the hedge's structure. In Geelong, where winters are mild, timing is flexible, but avoiding pruning during frost is important to prevent damage.",
+        "Tools matter for hedge trimming in Geelong; use sharp, clean shears or electric trimmers to make precise cuts that heal quickly. Dull tools can tear branches, leaving hedges vulnerable to disease. After trimming, clean tools with disinfectant to prevent spreading pathogens, especially in humid Geelong summers where fungal issues can arise.",
+        "Maintenance beyond trimming is key for healthy hedges in Geelong. Regular watering during dry spells and fertilising in spring support robust growth. Mulching around the base helps retain moisture and suppress weeds, creating an ideal environment for hedge roots to thrive in Geelong's sometimes sandy soils.",
+        "For large or high hedges, professional hedge trimming services in Geelong ensure safety and quality results. Experts like Lawn Mowing & Garden Maintenance Geelong have the equipment and expertise to handle any size hedge, providing neat, even cuts that enhance your garden's privacy and aesthetics without the hassle of DIY."
+      ]
+    },
+    {
+      "title": "Pressure Cleaning Tips for Geelong Homes",
+      "date": "December 2025",
+      "excerpt": "Discover how pressure cleaning can refresh your Geelong home's exterior, with tips on surfaces, techniques, and when to call professionals.",
+      "body": [
+        "Pressure cleaning is an effective way to maintain your Geelong home's exterior, removing built-up dirt, mould, and stains from surfaces like driveways, paths, and walls. In Geelong's coastal environment, salt air and humidity can accelerate grime accumulation, making regular pressure cleaning essential for preserving your property's appearance and value.",
+        "Before starting, assess the surface to be cleaned; different materials like concrete, brick, or wood require varying pressure levels. For Geelong homes, concrete driveways often need high pressure (around 3000 PSI) to remove oil stains and algae, while softer surfaces like painted walls may require lower pressure to avoid damage.",
+        "Safety first when pressure cleaning in Geelong. Wear protective gear, including goggles and gloves, and clear the area of obstacles. Test a small, inconspicuous spot to ensure the pressure is appropriate. In Geelong's variable weather, choose a dry day to prevent slippery surfaces and allow time for drying after cleaning.",
+        "Technique matters for effective pressure cleaning. Hold the nozzle at a consistent distance, about 30 cm from the surface, and move in sweeping motions to avoid streaks. For vertical surfaces like walls, work from top to bottom to prevent dirty water from running over cleaned areas. This method ensures thorough cleaning without damage.",
+        "Eco-friendly considerations are important in Geelong, where environmental regulations may apply. Use biodegradable cleaning solutions if needed, and avoid chemicals that can harm local wildlife or waterways. Professional pressure cleaning services in Geelong often use environmentally safe products, ensuring compliance and protection for the community.",
+        "For stubborn stains or large areas, hiring professionals like Lawn Mowing & Garden Maintenance Geelong can save time and ensure optimal results. They have commercial-grade equipment and expertise to handle Geelong's specific challenges, such as removing red clay stains or algae from shaded areas, leaving your home looking refreshed and well-maintained."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Lawn Mowing & Garden Maintenance Geelong | Lawn Care Experts",
+      "description": "Professional lawn mowing, weed control & garden maintenance in Geelong, VIC. Reliable, affordable service with free quotes. Call today!"
+    },
+    "about": {
+      "title": "About Us | Geelong's Trusted Lawn Care Team | Lawn Mowing Geelong",
+      "description": "Learn about Lawn Mowing & Garden Maintenance Geelong, your local experts in lawn care, weed control, and garden maintenance in Geelong, VIC."
+    },
+    "services": {
+      "title": "Lawn Care Services in Geelong | Mowing, Weeding & More",
+      "description": "Comprehensive lawn care services in Geelong including mowing, weed control, hedge trimming, and pressure cleaning. Get a free quote!"
+    },
+    "pricing": {
+      "title": "Lawn Care Pricing in Geelong | Affordable & Transparent",
+      "description": "Transparent pricing for lawn mowing and garden maintenance in Geelong. No lock-in contracts, free quotes available."
+    },
+    "contact": {
+      "title": "Contact Us | Lawn Mowing Geelong | Free Quotes",
+      "description": "Get in touch with Lawn Mowing & Garden Maintenance Geelong for free quotes on lawn care services. Serving Geelong, VIC."
+    },
+    "blog": {
+      "title": "Geelong Lawn Care Blog | Tips & Guides for Your Garden",
+      "description": "Expert lawn care advice for Geelong homeowners. Learn about costs, maintenance tips, and seasonal garden care."
+    }
+  }
+}
