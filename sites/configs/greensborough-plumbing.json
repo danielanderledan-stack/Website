@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Greensborough Plumbing",
+  "suburb": "Greensborough",
+  "phone": "03 9435 0000",
+  "email": "info@greensboroughplumbing.com.au",
+  "address": "62 Greenhill Rd, Greensborough VIC 3088",
+  "tagline": "Greensborough's Trusted Plumbers",
+  "primaryColor": "#1e73be",
+  "primaryColorRgb": "30, 115, 190",
+  "primaryColorHover": "#1a65a8",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Greensborough's Go-To Plumbers",
+      "sub": "24/7 service for all your plumbing needs"
+    },
+    {
+      "title": "Emergency Plumbing in Greensborough",
+      "sub": "Fast response when you need it most"
+    },
+    {
+      "title": "Residential & Commercial Plumbing",
+      "sub": "From fixes to installations across Greensborough"
+    }
+  ],
+  "ctaHeading": "Greensborough's plumbers are ready — let's fix your issue.",
+  "aboutHeading": "Local Plumbing Experts in Greensborough",
+  "aboutSubheading": "24/7 Service in Greensborough",
+  "aboutText": "With over 15 years of experience serving Greensborough, we specialize in all aspects of plumbing. Our team provides reliable, 24-hour service to both residential and commercial clients. From emergency repairs to installations, we ensure quality workmanship every time.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive solutions for Greensborough",
+  "servicesText": "We offer a wide range of plumbing services tailored to Greensborough residents and businesses. Whether it's a simple repair or a complex installation, our skilled plumbers handle it all with efficiency.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 rapid response for urgent plumbing issues in Greensborough."
+    },
+    {
+      "title": "Leak Detection & Repair",
+      "desc": "Advanced technology to find and fix leaks in your home or business."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "Efficient unblocking of drains to prevent water damage and backups."
+    },
+    {
+      "title": "Hot Water System Installation",
+      "desc": "Expert installation and servicing of hot water units for Greensborough properties."
+    },
+    {
+      "title": "Pipe Relining",
+      "desc": "Trenchless pipe repair solutions to minimise disruption and cost."
+    },
+    {
+      "title": "Bathroom & Kitchen Plumbing",
+      "desc": "Complete plumbing services for renovations and new installations."
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Greensborough?",
+  "bannerSubheading": "We're here for all your plumbing emergencies.",
+  "testimonialsHeading": "What Greensborough Locals Say",
+  "testimonialsSubheading": "Reliable service, every time",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Expert advice from our team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "They fixed our hot water system quickly and efficiently. Greensborough Plumbing saved us from a cold shower disaster!",
+      "name": "Mark Thompson",
+      "role": "Greensborough Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on their commercial plumbing services. Always professional and on time.",
+      "name": "Sarah Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Their emergency service was a lifesaver when we had a burst pipe. Highly recommend to all Property Managers.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
