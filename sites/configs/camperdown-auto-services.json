@@ -1,0 +1,300 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Camperdown Auto Services",
+  "suburb": "Camperdown",
+  "phone": "03 5595 1234",
+  "email": "info@camperdownautoservices.com.au",
+  "address": "235 Manifold St, Camperdown VIC 3260",
+  "tagline": "Camperdown's Trusted Auto Mechanics",
+  "primaryColor": "#FF6B00",
+  "primaryColorRgb": "255, 107, 0",
+  "primaryColorHover": "#E55C00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Camperdown's Go-To Auto Mechanics",
+      "sub": "Over 15 years serving the community"
+    },
+    {
+      "title": "Full Car Servicing & Repairs",
+      "sub": "From oil changes to engine overhauls"
+    },
+    {
+      "title": "No Job Too Small",
+      "sub": "Free quotes for Camperdown locals"
+    }
+  ],
+  "ctaHeading": "Camperdown's mechanics are ready — let's fix your car.",
+  "aboutHeading": "15 Years Auto Services in Camperdown",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Camperdown Auto Services, established over 15 years ago, is a family-owned mechanic dedicated to providing top-quality auto care to the Camperdown community. Our skilled team handles all makes and models, offering personalised service that keeps your car in peak condition for the unique driving conditions of Victoria's Western District. We specialise in logbook servicing, brake repairs, and engine diagnostics, ensuring your vehicle runs smoothly and safely on local roads.",
+  "servicesHeading": "What We Fix & Maintain",
+  "servicesSubheading": "Comprehensive auto care",
+  "servicesText": "At Camperdown Auto Services, we offer a wide range of mechanical services tailored to your vehicle's needs. From routine logbook servicing to complex engine repairs, our expert mechanics use the latest diagnostic tools to ensure accuracy and efficiency for Camperdown drivers.",
+  "services": [
+    {
+      "title": "Logbook Servicing",
+      "desc": "Full manufacturer-specified servicing to maintain your warranty.",
+      "longDesc": "Our logbook servicing in Camperdown adheres to all manufacturer guidelines, using quality parts to keep your vehicle's warranty intact and running efficiently. We follow strict Australian automotive standards for optimal performance.",
+      "points": [
+        "Maintains warranty",
+        "Quality parts used",
+        "Expert technicians"
+      ]
+    },
+    {
+      "title": "Brake Repairs",
+      "desc": "Complete brake system inspections, repairs, and replacements.",
+      "longDesc": "Ensure your safety with our thorough brake repairs in Camperdown, covering pads, rotors, and fluid checks to meet Australian safety standards. We use durable components for reliable stopping power.",
+      "points": [
+        "Safety guaranteed",
+        "Fast turnaround",
+        "Free inspection"
+      ]
+    },
+    {
+      "title": "Engine Diagnostics",
+      "desc": "Advanced computer diagnostics to pinpoint engine issues accurately.",
+      "longDesc": "Using state-of-the-art diagnostic equipment, our Camperdown mechanics quickly identify and fix engine problems, preventing costly breakdowns. We specialise in all vehicle makes for precise solutions.",
+      "points": [
+        "Accurate diagnosis",
+        "Preventative care",
+        "Latest technology"
+      ]
+    },
+    {
+      "title": "Transmission Repair",
+      "desc": "Expert repair and servicing for manual and automatic transmissions.",
+      "longDesc": "From fluid changes to full rebuilds, our transmission services in Camperdown ensure smooth gear shifts and prolonged vehicle life. We handle both domestic and imported cars with skill.",
+      "points": [
+        "Smooth performance",
+        "Experienced specialists",
+        "All vehicle types"
+      ]
+    },
+    {
+      "title": "Auto Electrical",
+      "desc": "Solutions for battery, alternator, and wiring issues.",
+      "longDesc": "Our auto electrical services in Camperdown tackle everything from dead batteries to complex wiring faults, keeping your car's electrical system reliable. We use advanced tools for quick fixes.",
+      "points": [
+        "Reliable power",
+        "Efficient troubleshooting",
+        "Quick fixes"
+      ]
+    },
+    {
+      "title": "Suspension & Steering",
+      "desc": "Repairs for shocks, struts, and steering components.",
+      "longDesc": "Maintain control and comfort with our suspension and steering repairs in Camperdown, designed for the region's varied road conditions. We ensure your vehicle handles safely and smoothly.",
+      "points": [
+        "Improved handling",
+        "Comfortable ride",
+        "Durability assured"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Camperdown?",
+  "bannerSubheading": "Professional auto services at affordable prices.",
+  "testimonialsHeading": "What Camperdown Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Auto Care Guides for Camperdown Drivers",
+  "blogSubheading": "Expert advice from local mechanics",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call or email for quick assistance",
+  "reviews": [
+    {
+      "text": "Camperdown Auto Services did an excellent job on my car's logbook service. They were efficient, transparent with pricing, and even gave me tips for maintaining my vehicle in Camperdown's wet conditions.",
+      "name": "Mike Thompson",
+      "role": "Camperdown Homeowner"
+    },
+    {
+      "text": "As a local business owner, I rely on my van. The team fixed a major engine issue quickly, getting me back on the road with minimal downtime. Highly recommend their diagnostics for Camperdown drivers.",
+      "name": "Lisa Brown",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We use Camperdown Auto Services for our fleet. Their brake repairs and regular servicing are top-notch, and they always provide detailed reports. A trusted partner for property managers in the area.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Camperdown",
+    "Terang",
+    "Simpson",
+    "Darlington",
+    "Skipton",
+    "Derrinallum",
+    "Lismore"
+  ],
+  "about": {
+    "intro": "Camperdown Auto Services is a dedicated mechanic serving the Camperdown community with reliable auto care solutions tailored to local needs.",
+    "story": [
+      "For over 15 years, we have been committed to keeping Camperdown's vehicles safe and efficient. Our family-owned business started with a simple goal: to provide honest, high-quality mechanical services to locals, building trust through every repair and service.",
+      "Living and working in Camperdown, we understand the specific needs of drivers in Victoria's Western District, from wet weather driving to rural road conditions. This local expertise allows us to offer tailored advice and services that keep your car performing optimally."
+    ],
+    "mission": "To deliver exceptional auto services that Camperdown residents can depend on, every time.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "We know Camperdown's driving conditions and vehicle needs intimately."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No surprises—get upfront quotes for all services."
+      },
+      {
+        "title": "Skilled Mechanics",
+        "text": "Our team is trained in the latest automotive technologies."
+      },
+      {
+        "title": "Community Focused",
+        "text": "Supporting Camperdown with reliable auto care for years."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed mechanics",
+      "Comprehensive insurance",
+      "Manufacturer warranties honored",
+      "Free local quotes"
+    ]
+  },
+  "pricing": {
+    "intro": "At Camperdown Auto Services, we offer transparent pricing with no lock-in contracts. Get a free quote for your vehicle's needs.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$150",
+        "unit": "per service",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Multi-point inspection",
+          "Top-up fluids"
+        ]
+      },
+      {
+        "name": "Comprehensive Service",
+        "price": "$350",
+        "unit": "per service",
+        "highlight": true,
+        "features": [
+          "Full logbook servicing",
+          "Brake and tyre check",
+          "Engine diagnostics",
+          "Road test included"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $800",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Detailed diagnosis",
+          "Quality parts",
+          "Labour included",
+          "Warranty on work"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees."
+  },
+  "contact": {
+    "intro": "Ready to book your service? Contact Camperdown Auto Services for a free, no-obligation quote. We're here to help with all your auto repair needs in Camperdown."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Full Car Service Cost in Camperdown?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors influencing car service costs in Camperdown, including local pricing, service inclusions, and tips to save on maintenance.",
+      "body": [
+        "When it comes to car servicing in Camperdown, costs can vary based on your vehicle's make, model, and age. At Camperdown Auto Services, we provide transparent pricing to help locals budget for maintenance. A full car service typically includes oil and filter changes, brake checks, and fluid top-ups, but prices depend on whether it's a basic or logbook service. In the Camperdown area, you can expect to pay between $150 for a basic check to $350 for a comprehensive service, with major repairs costing more. We always offer upfront quotes so there are no surprises.",
+        "Several factors affect the cost of a car service in Camperdown. First, the type of vehicle—European models may require specialised parts, increasing expenses. Second, the service interval; sticking to manufacturer recommendations prevents costly breakdowns. Camperdown's wet winters can accelerate wear on brakes and tyres, so regular checks are wise. Third, labour rates in regional Victoria are competitive, but using certified mechanics ensures quality work. At Camperdown Auto Services, we source high-quality parts locally to keep costs down while maintaining reliability for local driving conditions.",
+        "What's included in a full car service at our Camperdown workshop? Our comprehensive service covers everything from engine diagnostics to suspension checks, tailored to Australian automotive standards. We inspect brakes, tyres, battery health, and electrical systems—critical for safety on Camperdown's rural roads. Logbook services follow manufacturer specs, preserving your warranty. We also provide a detailed report, highlighting any issues and recommendations. This thorough approach helps Camperdown drivers avoid future expenses by catching problems early.",
+        "To save on car service costs in Camperdown, consider these tips. Regular maintenance prevents minor issues from becoming expensive repairs; for example, timely oil changes extend engine life. Use local mechanics like Camperdown Auto Services who understand the area's needs, such as preparing vehicles for wet weather. We offer package deals for repeat customers and fleet services for local businesses. Additionally, keeping an eye on tyre pressure and brake wear between services can reduce costs. Our goal is to provide affordable, quality care to the Camperdown community.",
+        "In Camperdown, the best time for a car service is before winter or summer to address seasonal challenges. Winter brings rain and cooler temperatures, straining batteries and wipers, while summer heat affects cooling systems. Scheduling a service at Camperdown Auto Services ensures your vehicle is ready for these conditions. We recommend servicing every 10,000 km or six months, whichever comes first. Our team uses diagnostic tools to identify issues specific to Camperdown's driving environment, giving you peace of mind and preventing roadside breakdowns.",
+        "Camperdown Auto Services stands out for its local expertise in car servicing. We've served the community for over 15 years, handling everything from daily drivers to vintage cars. Our mechanics are fully licensed and trained on the latest technologies, ensuring accurate diagnostics and repairs. We prioritise using parts that meet Australian standards, suitable for Camperdown's roads. Whether it's a simple oil change or complex engine repair, our transparent pricing and commitment to quality make us the top choice for cost-effective car care in Camperdown."
+      ]
+    },
+    {
+      "title": "Best Tyres for Camperdown's Wet Winter Roads",
+      "date": "February 2026",
+      "excerpt": "Learn which tyres perform best in Camperdown's wet conditions, including tread patterns, brands, and maintenance tips for safety.",
+      "body": [
+        "Camperdown experiences wet winters with frequent rain, making tyre selection crucial for safe driving. The best tyres for these conditions should have excellent water dispersion to prevent hydroplaning. At Camperdown Auto Services, we recommend all-season tyres with deep tread patterns, as they handle both wet and dry surfaces effectively. Local brands like Bridgestone and Michelin offer models designed for Australian weather, providing grip on slippery roads. Ensuring your tyres are suited to Camperdown's climate reduces accident risks and improves fuel efficiency.",
+        "When choosing tyres for Camperdown, consider tread depth and rubber compound. Tyres with a minimum of 3mm tread are ideal for wet roads, as they channel water away efficiently. In Camperdown's rural areas, where roads can be uneven, all-terrain tyres may benefit 4WD drivers. We advise checking the tyre's UTQG rating for wet traction. At our workshop, we stock tyres that meet Australian safety standards, tailored to local needs. Regular rotation and alignment services at Camperdown Auto Services extend tyre life and maintain performance in wet conditions.",
+        "Maintenance is key to optimising tyre performance in Camperdown's wet winters. Check tyre pressure monthly, as temperature drops reduce pressure, affecting grip. Inspect tread wear using the coin test; if the tread is worn below 3mm, replacement is necessary. Camperdown Auto Services offers free tyre checks to ensure your vehicle is road-ready. Additionally, balancing and alignment services prevent uneven wear, common on Camperdown's bumpy roads. We recommend servicing before winter to address any issues proactively.",
+        "For Camperdown drivers, tyre brands matter. We suggest Michelin Defender for all-season reliability, offering long tread life and wet grip. Bridgestone Turanza is another top choice, known for noise reduction and comfort on long drives from Camperdown to nearby towns. Budget-friendly options like Kumho also perform well. At Camperdown Auto Services, we help you select tyres based on your driving habits and vehicle type, ensuring value for money. Our local expertise means we understand which tyres suit Camperdown's weather and road surfaces best.",
+        "Beyond tread and brand, consider tyre size and load rating for Camperdown conditions. Larger tyres may improve off-road capability but can affect fuel economy. For everyday driving in Camperdown, standard sizes with appropriate load indices are sufficient. We recommend consulting with our mechanics at Camperdown Auto Services to match tyres to your vehicle's specifications. Regular maintenance, including puncture repairs and seasonal swaps, keeps you safe. Investing in quality tyres reduces long-term costs by minimising wear and improving safety.",
+        "Camperdown Auto Services is your local tyre expert, with over 15 years of experience in the community. We provide comprehensive tyre services, from sales to fitting and balancing, all compliant with Australian standards. Our team understands Camperdown's wet winter challenges and recommends tyres that enhance safety and performance. Whether you drive a sedan, SUV, or ute, we have options to suit your needs. Visit us for a free tyre assessment and drive confidently through Camperdown's rainy seasons."
+      ]
+    },
+    {
+      "title": "Signs Your Brakes Need Replacing: A Camperdown Guide",
+      "date": "January 2026",
+      "excerpt": "Identify key brake wear indicators in your vehicle and learn how Camperdown Auto Services ensures safe stopping on local roads.",
+      "body": [
+        "Recognising brake wear signs is vital for safety, especially in Camperdown where wet roads demand reliable stopping power. Common indicators include squealing noises, a spongy brake pedal, or the vehicle pulling to one side during braking. At Camperdown Auto Services, we recommend immediate inspection if you notice these symptoms, as worn brakes can fail unexpectedly. Camperdown's hilly terrain and variable weather increase brake stress, making regular checks essential. Our mechanics use diagnostic tools to assess pad thickness and rotor condition accurately.",
+        "In Camperdown, brake pads typically last 30,000 to 70,000 km, but local driving conditions can shorten this. Frequent stops in town or on rural roads accelerate wear. Watch for dashboard warning lights or vibrations when braking—these signal potential issues. Camperdown Auto Services offers free brake inspections to catch problems early. We check pads, rotors, calipers, and brake fluid, ensuring everything meets Australian safety standards. Timely replacements prevent costly repairs and keep you safe on Camperdown's roads.",
+        "Brake maintenance in Camperdown involves more than just pad replacement. Rotors may need resurfacing or replacement if warped, common in stop-and-go traffic. Brake fluid should be changed every two years to prevent moisture buildup, which reduces effectiveness. At our workshop, we use high-quality components designed for Camperdown's climate, including wet-resistant materials. Our services include brake bleeding and system flushes to maintain optimal pressure. We educate Camperdown drivers on best practices, like avoiding harsh braking to prolong pad life.",
+        "Camperdown's weather plays a role in brake performance. Rain and humidity can cause rust on rotors, leading to squeaking and reduced efficiency. Regular driving helps dry out brakes, but if a car sits idle, check for corrosion. At Camperdown Auto Services, we recommend driving your vehicle periodically in wet seasons to keep brakes in good condition. We also offer anti-corrosion treatments for rotors, suitable for Camperdown's coastal-influenced climate. Our team ensures your brake system is prepared for all weather challenges.",
+        "How often should you service brakes in Camperdown? We suggest inspecting them every 10,000 km or during routine logbook services. Given Camperdown's rural roads, more frequent checks may be needed if you drive often on gravel. Camperdown Auto Services provides detailed brake reports, highlighting wear levels and recommended actions. We use only parts that comply with Australian Design Rules, ensuring your vehicle remains roadworthy. Our local knowledge means we understand the unique demands Camperdown places on braking systems.",
+        "Camperdown Auto Services has been the trusted brake specialist for Camperdown for over 15 years. Our mechanics are skilled in all brake repairs, from pad replacements to full system overhauls. We prioritise using durable components that withstand local conditions, offering warranties for peace of mind. Whether you drive a family car or commercial vehicle, our services are tailored to keep you safe. Visit us for a brake check and experience the difference of local expertise in Camperdown."
+      ]
+    },
+    {
+      "title": "Preparing Your Car for a Long Drive from Camperdown",
+      "date": "December 2025",
+      "excerpt": "Essential tips for vehicle maintenance before road trips from Camperdown, covering tyres, fluids, and safety checks for Australian highways.",
+      "body": [
+        "Long drives from Camperdown require thorough vehicle preparation to ensure safety and reliability on Australian highways. Before hitting the road, check your tyres for adequate tread depth and pressure—Camperdown Auto Services recommends at least 3mm for wet conditions and proper inflation for fuel efficiency. Inspect brakes for responsiveness, as highway driving demands quick stops. Ensure all lights work, including indicators and brake lights, for visibility. A pre-trip inspection at our Camperdown workshop can catch issues early, preventing breakdowns on remote stretches.",
+        "Fluid levels are critical for long-distance travel from Camperdown. Top up engine oil, coolant, brake fluid, and power steering fluid. Use coolant suitable for Camperdown's temperature variations, as summers can be hot and winters cold. Check windshield washer fluid for cleaning bugs and dirt on highways. At Camperdown Auto Services, we offer fluid flushes and replacements to keep your vehicle running smoothly. Don't forget the spare tyre and jack—essential for emergencies on Camperdown's rural roads leading to larger highways.",
+        "In Camperdown, weather can change quickly, so prepare for rain or shine. Pack an emergency kit with water, snacks, a first-aid kit, and tools. Test your wipers and replace blades if streaky, as Camperdown's wet seasons can impact visibility. Ensure your battery is in good condition; cold starts in winter can drain it. We recommend a battery check at Camperdown Auto Services, especially if it's over three years old. Planning your route and service stops in advance adds safety to your journey from Camperdown.",
+        "Vehicle maintenance for long drives includes checking the suspension and steering, which handle highway speeds and potential bumps. At Camperdown Auto Services, we inspect shock absorbers and alignment to ensure stable handling. If towing a trailer, verify hitch security and trailer lights. Camperdown drivers often travel to Melbourne or coastal areas, so consider tyre wear from longer distances. Our mechanics advise rotating tyres before the trip to promote even wear. Regular servicing keeps your car road-ready for any adventure from Camperdown.",
+        "Don't overlook the exhaust system and emissions, as Australian regulations require compliance. A malfunctioning exhaust can reduce fuel efficiency and fail roadside inspections. At Camperdown Auto Services, we diagnose exhaust issues and ensure your vehicle meets standards. Additionally, clean or replace air filters to maintain engine performance during long hauls. We recommend using quality fuel from reputable stations to avoid engine knock. These steps, combined with our local expertise, prepare your car for reliable travel from Camperdown.",
+        "Camperdown Auto Services has helped countless locals prepare for long drives over our 15 years in the community. We offer comprehensive pre-trip inspections tailored to Camperdown's conditions and Australian road standards. Our team provides advice on everything from tyre choices to packing essentials, ensuring peace of mind. Whether you're heading to the Great Ocean Road or interstate, we equip your vehicle for the journey. Trust our Camperdown mechanics to keep you safe on the open road."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Camperdown Auto Services — Mechanic in Camperdown | Car Repairs",
+      "description": "Camperdown Auto Services is your local mechanic in Camperdown, VIC, offering logbook servicing, brake repairs, and engine diagnostics. Free quotes for Camperdown drivers."
+    },
+    "about": {
+      "title": "About Us | Camperdown's Trusted Auto Mechanics | Camperdown Auto Services",
+      "description": "Discover Camperdown Auto Services, with over 15 years of experience providing reliable mechanic services to Camperdown and surrounding suburbs."
+    },
+    "services": {
+      "title": "Auto Mechanic Services in Camperdown | Logbook & Repairs",
+      "description": "Explore our full range of mechanic services in Camperdown, including logbook servicing, brake repairs, and engine diagnostics for all vehicle makes."
+    },
+    "pricing": {
+      "title": "Car Service Costs & Prices in Camperdown | Camperdown Auto Services",
+      "description": "Transparent pricing for car services in Camperdown. Get free quotes for logbook servicing, brake repairs, and more at Camperdown Auto Services."
+    },
+    "contact": {
+      "title": "Contact Camperdown Auto Services | Free Mechanic Quotes in Camperdown",
+      "description": "Contact Camperdown Auto Services for a free, no-obligation quote on auto repairs in Camperdown. Call or email our local team today."
+    },
+    "blog": {
+      "title": "Camperdown Auto Blog | Local Trade Tips & Car Care Advice",
+      "description": "Read expert auto care guides from Camperdown Auto Services, with tips on car maintenance, tyre selection, and brake safety for Camperdown drivers."
+    }
+  }
+}
