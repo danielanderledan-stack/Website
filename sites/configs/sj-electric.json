@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "SJ Electric",
+  "suburb": "Thomastown",
+  "phone": "03 9305 1234",
+  "email": "info@sjelectric.com.au",
+  "address": "76 Commercial Dr, Thomastown VIC 3074",
+  "tagline": "Thomastown's Electrical Experts",
+  "primaryColor": "#0066CC",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#005299",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "SJ Electric in Thomastown",
+      "sub": "Your local electrical experts"
+    },
+    {
+      "title": "Residential & Commercial Services",
+      "sub": "From homes to businesses in Thomastown"
+    },
+    {
+      "title": "24/7 Emergency Electrical Support",
+      "sub": "Fast response across Melbourne's north"
+    }
+  ],
+  "ctaHeading": "Thomastown's electricians are ready to help.",
+  "aboutHeading": "SJ Electric in Thomastown",
+  "aboutSubheading": "Local, licensed & professional",
+  "aboutText": "S.J. Electric is proud to be one of Australia's foremost electrical services providers, reaching clients in metropolitan areas and remote regions. Based in Thomastown, we have been delivering specialised electrical solutions for over 20 years. Our team is committed to quality workmanship and reliable service, ensuring every project meets the highest standards. Whether for homes or businesses, we are your trusted local electricians.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Expert electrical solutions",
+  "servicesText": "We offer a comprehensive range of electrical services for both residential and commercial clients in Thomastown and surrounding areas. From installations to repairs, our skilled team handles it all with professionalism and precision.",
+  "services": [
+    {
+      "title": "Residential Electrical Work",
+      "desc": "Complete wiring, lighting, and repairs for Thomastown homes."
+    },
+    {
+      "title": "Commercial Installations",
+      "desc": "Electrical systems for businesses and industrial properties across Melbourne."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Fast 24/7 response for electrical faults and outages in Thomastown."
+    },
+    {
+      "title": "Solar Panel Installation",
+      "desc": "Energy-efficient solar systems to reduce your electricity bills."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Modernise your switchboard for improved safety and compliance."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough checks to ensure your electrical system is safe and up to code."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Thomastown?",
+  "bannerSubheading": "Call us for a free quote today.",
+  "testimonialsHeading": "What Thomastown Locals Say",
+  "testimonialsSubheading": "Trusted by the community",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Insights from SJ Electric",
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "We're here to help",
+  "reviews": [
+    {
+      "text": "SJ Electric did a fantastic job rewiring our Thomastown home. Professional and efficient service from start to finish.",
+      "name": "John Smith",
+      "role": "Thomastown Homeowner"
+    },
+    {
+      "text": "We hired them for our office fit-out in Thomastown. Excellent workmanship and they met all deadlines.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on SJ Electric for all our maintenance needs. They are always reliable and prompt.",
+      "name": "Mike Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
