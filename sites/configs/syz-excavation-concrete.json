@@ -1,0 +1,85 @@
+{
+  "siteType": "concreter",
+  "businessName": "SYZ Excavation Concrete",
+  "suburb": "Craigieburn",
+  "phone": "0406988441",
+  "email": "example@example.com",
+  "address": "350 Craigieburn Rd, Craigieburn VIC 3064",
+  "tagline": "Craigieburn's Concrete Experts",
+  "primaryColor": "#22c55e",
+  "primaryColorRgb": "34, 197, 94",
+  "primaryColorHover": "#16a34a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Craigieburn's Go-To Concreters",
+      "sub": "Specialising in exposed aggregate and coloured concrete"
+    },
+    {
+      "title": "Plain Concrete & Crossovers",
+      "sub": "Residential and commercial services"
+    },
+    {
+      "title": "Free Quotes Across Craigieburn",
+      "sub": "No job too big or small"
+    }
+  ],
+  "ctaHeading": "Craigieburn's concreters are ready — let's pour your project.",
+  "aboutHeading": "Experienced Concreters in Craigieburn",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "At SYZ Excavation Concrete, we have been serving the Craigieburn community with expert concrete solutions for years. Our team specializes in exposed aggregate, plain, and coloured concrete, ensuring every project meets the highest standards. We pride ourselves on professionalism, reliability, and customer satisfaction, making us the preferred choice for residential and commercial needs.",
+  "servicesHeading": "What We Offer",
+  "servicesSubheading": "Comprehensive concrete services",
+  "servicesText": "We provide a full range of concrete services, including exposed aggregate, plain concrete, coloured concrete, crossovers, and footpaths. Our skilled team in Craigieburn handles projects from small repairs to large installations with precision.",
+  "services": [
+    {
+      "title": "Exposed Aggregate Concrete",
+      "desc": "We create durable and stylish exposed aggregate finishes for driveways and paths, adding texture and beauty to your property."
+    },
+    {
+      "title": "Plain Concrete",
+      "desc": "Our plain concrete services offer a versatile and cost-effective solution for slabs, foundations, and various construction projects."
+    },
+    {
+      "title": "Coloured Concrete",
+      "desc": "Enhance your outdoor spaces with our coloured concrete options, available in a wide range of hues to match your design vision."
+    },
+    {
+      "title": "Crossovers",
+      "desc": "We expertly install concrete crossovers to provide safe and seamless access between your property and the road."
+    },
+    {
+      "title": "Footpaths",
+      "desc": "Our concrete footpath installations ensure safe and attractive walkways for residential and commercial areas."
+    },
+    {
+      "title": "Concrete Driveways",
+      "desc": "We design and pour high-quality concrete driveways that withstand heavy traffic and enhance your home's curb appeal."
+    }
+  ],
+  "bannerHeading": "Need a Concreter in Craigieburn?",
+  "bannerSubheading": "Get a free quote for your next project.",
+  "testimonialsHeading": "What Craigieburn Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Concreting Tips & News",
+  "blogSubheading": "Advice from the team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "SYZ Excavation Concrete did an excellent job on our exposed aggregate driveway in Craigieburn. The team was professional, arrived on time, and the result was flawless. Highly recommend!",
+      "name": "John Smith",
+      "role": "Craigieburn Homeowner"
+    },
+    {
+      "text": "For our commercial concrete slab, SYZ provided top-notch service with clear communication and timely completion. Their workmanship is outstanding.",
+      "name": "Sarah Jones",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used SYZ for coloured concrete footpaths and crossovers. They consistently deliver quality work and fair pricing.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
