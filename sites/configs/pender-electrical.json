@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Pender Electrical",
+  "suburb": "Reservoir",
+  "phone": "0403 939 100",
+  "email": "micah@micahrich.com",
+  "address": "102 Spring St, Reservoir VIC 3073",
+  "tagline": "Reservoir's Trusted Electricians",
+  "primaryColor": "#121212",
+  "primaryColorRgb": "18, 18, 18",
+  "primaryColorHover": "#0f0f0f",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Reservoir's Go-To Electricians",
+      "sub": "Serving Melbourne's north with quality workmanship"
+    },
+    {
+      "title": "Safe Installations & Renovations",
+      "sub": "Residential electrical experts in Reservoir"
+    },
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "Available across Reservoir & surrounds"
+    }
+  ],
+  "ctaHeading": "Reservoir's electricians are ready — let's power up your project.",
+  "aboutHeading": "Quality Electrical Services in Reservoir",
+  "aboutSubheading": "Reliable, safe & professional",
+  "aboutText": "Pender Electrical is a Reservoir-based electrical business delivering reliable, high-quality electrical services to homes across Melbourne's northern and inner suburbs. With experience working across residential homes and renovations, we focus on delivering safe electrical installations, clear communication, and professional workmanship with strong attention to detail. Proudly serving Reservoir and surrounding areas.",
+  "servicesHeading": "Electrical Services for Reservoir Homes",
+  "servicesSubheading": "Comprehensive solutions",
+  "servicesText": "We offer a comprehensive range of electrical services for Reservoir homes, including installations, upgrades, and repairs. Our team ensures all work meets safety standards and is completed with precision.",
+  "services": [
+    {
+      "title": "Residential Wiring",
+      "desc": "Complete wiring solutions for new builds and existing homes in Reservoir, ensuring safe and efficient electrical systems."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade old switchboards to modern safety standards, protecting your Reservoir property from electrical faults."
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Professional lighting setups for indoor and outdoor spaces, enhancing functionality and aesthetics in your home."
+    },
+    {
+      "title": "Safety Inspections",
+      "desc": "Thorough electrical safety checks to identify and resolve issues, keeping your Reservoir family safe."
+    },
+    {
+      "title": "Renovation Electrical Work",
+      "desc": "Expert electrical services for home renovations, tailored to Reservoir properties and building codes."
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Prompt 24/7 emergency electrical repairs to minimise downtime and ensure safety for Reservoir residents."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Reservoir?",
+  "bannerSubheading": "We're available 24 hours for all your electrical needs.",
+  "testimonialsHeading": "What Reservoir Locals Say",
+  "testimonialsSubheading": "Trusted by homeowners across Melbourne's north",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Expert advice from Pender Electrical",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Quick response guaranteed",
+  "reviews": [
+    {
+      "text": "Micah and his team did a fantastic job on our switchboard upgrade in Reservoir. The work was done safely and efficiently, with clear communication throughout. Highly recommend for any electrical work.",
+      "name": "John Smith",
+      "role": "Reservoir Homeowner"
+    },
+    {
+      "text": "Pender Electrical handled the wiring for our home renovation in Preston. Their attention to detail and professionalism were outstanding. We'll definitely use them again.",
+      "name": "Sarah Jones",
+      "role": "Property Manager"
+    },
+    {
+      "text": "We had an emergency electrical issue at our business in Thornbury, and Micah responded quickly. The fix was done right the first time. Great local electrician.",
+      "name": "Dave Wilson",
+      "role": "Local Business Owner"
+    }
+  ]
+}
