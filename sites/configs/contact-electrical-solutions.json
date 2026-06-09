@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Contact Electrical Solutions",
+  "suburb": "Heidelberg",
+  "phone": "1300 521 141",
+  "email": "info@contactelectrical.com.au",
+  "address": "46 Manton St, Heidelberg VIC 3084",
+  "tagline": "Heidelberg's Electrical Experts",
+  "primaryColor": "#7a00df",
+  "primaryColorRgb": "122, 0, 223",
+  "primaryColorHover": "#6900c9",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Heidelberg's Trusted Electricians",
+      "sub": "Residential & Commercial Services"
+    },
+    {
+      "title": "Thermal Imaging & Safety Checks",
+      "sub": "Advanced diagnostics for your home"
+    },
+    {
+      "title": "Emergency Electrical Repairs",
+      "sub": "24/7 service in Heidelberg & surrounds"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Heidelberg?",
+  "aboutHeading": "Professional Electrical Services in Heidelberg",
+  "aboutSubheading": "Quality workmanship by Tim and his team",
+  "aboutText": "With over a decade of experience serving Heidelberg, Contact Electrical Solutions is your go-to electrician for all residential and commercial needs. Tim and his skilled team specialise in everything from basic wiring to advanced thermal imaging and emergency repairs. We are committed to delivering safe, reliable, and efficient electrical solutions tailored to the Heidelberg community.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for Heidelberg",
+  "servicesText": "At Contact Electrical Solutions, we offer a wide range of electrical services tailored for Heidelberg residents and businesses. Whether it's installing new systems, maintaining existing ones, or providing emergency support, our skilled team delivers reliable and specialised solutions. We use the latest technology, including thermal imaging, to ensure optimal performance and safety.",
+  "services": [
+    {
+      "title": "Residential Electrical",
+      "desc": "We provide complete electrical solutions for homes in Heidelberg, from lighting installations to full rewiring, ensuring safety and efficiency."
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Our commercial services cover office fit-outs, retail electrical systems, and maintenance contracts for businesses across Heidelberg."
+    },
+    {
+      "title": "Thermal Imaging",
+      "desc": "Using advanced thermal cameras, we detect hidden electrical faults in your property, preventing potential hazards and ensuring compliance."
+    },
+    {
+      "title": "Emergency Electrical",
+      "desc": "We offer 24/7 emergency electrical services in Heidelberg, responding quickly to outages, faults, and urgent repairs."
+    },
+    {
+      "title": "Air Conditioning",
+      "desc": "Installation, repair, and maintenance of air conditioning systems to keep your home or business comfortable year-round."
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "We upgrade old switchboards to meet current safety standards, protecting your property from electrical risks."
+    }
+  ],
+  "bannerHeading": "Electrical Services in Heidelberg",
+  "bannerSubheading": "Trusted by locals for quality work",
+  "testimonialsHeading": "What Heidelberg Locals Say",
+  "testimonialsSubheading": "Customer reviews from Heidelberg",
+  "blogHeading": "Electrical Tips & News",
+  "blogSubheading": "Advice from our Heidelberg team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for all electrical needs in Heidelberg",
+  "reviews": [
+    {
+      "text": "Tim and his team at Contact Electrical Solutions did an excellent job on our switchboard upgrade in Heidelberg. They were thorough, explained everything, and completed the work on time. Highly recommend for any electrical needs.",
+      "name": "Sarah Mitchell",
+      "role": "Heidelberg Homeowner"
+    },
+    {
+      "text": "As a business owner in Heidelberg, I've used Contact Electrical Solutions for our commercial electrical maintenance. Their thermal imaging service identified issues we didn't know about, saving us from potential shutdowns. Professional and reliable.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Property manager here, and I've called on Contact Electrical Solutions for emergency repairs in Heidelberg. They responded quickly and fixed the problem efficiently. Their service is top-notch, and I trust them for all properties I manage.",
+      "name": "Emily Watson",
+      "role": "Property Manager"
+    }
+  ]
+}
