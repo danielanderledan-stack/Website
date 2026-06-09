@@ -1,0 +1,299 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Dogs and Gardens",
+  "suburb": "McKinnon",
+  "phone": "0412 345 678",
+  "email": "dogsandgardens73@gmail.com",
+  "address": "Carcoola Court, Ormond, Melbourne, Victoria, 3204, Australia",
+  "tagline": "McKinnon's Dog Walking & Garden Experts",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0e5cc0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "McKinnon's Trusted Dog Walkers",
+      "sub": "Reliable care for your furry friends"
+    },
+    {
+      "title": "Garden Maintenance in Ormond & Bentleigh",
+      "sub": "Keep your outdoor spaces spectacular"
+    },
+    {
+      "title": "Local Team, Friendly Service",
+      "sub": "Covering McKinnon to Carnegie"
+    }
+  ],
+  "ctaHeading": "McKinnon's dog walkers and gardeners are ready — let's help you today.",
+  "aboutHeading": "About Dogs and Gardens in McKinnon",
+  "aboutSubheading": "Local, friendly, and reliable",
+  "aboutText": "Hello! We are Emma and Jess, a local team based in McKinnon, VIC, near the Willim Cafe area. With over five years of experience in dog walking and garden maintenance, we offer friendly and reliable services for our local community. We cover McKinnon, Ormond, Bentleigh, Patterson and Carnegie, and we're here to help keep your dogs entertained and your outdoor spaces looking spectacular.",
+  "servicesHeading": "Our Services",
+  "servicesSubheading": "Dog walking & garden care",
+  "servicesText": "We specialise in dog walking and garden maintenance across McKinnon and surrounding suburbs. Our friendly team ensures your pets get the exercise they need and your gardens stay tidy all year round.",
+  "services": [
+    {
+      "title": "Dog Walking",
+      "desc": "Expert dog walking services tailored to your pet's needs in McKinnon.",
+      "longDesc": "Our professional dog walkers provide reliable, fun-filled walks for dogs of all sizes in McKinnon, ensuring they stay active and happy while you're busy.",
+      "points": [
+        "Personalised walks",
+        "Safe and insured",
+        "Flexible scheduling"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Comprehensive garden care to keep your outdoor spaces looking great.",
+      "longDesc": "From lawn mowing to hedge trimming, we offer complete garden maintenance in McKinnon, Ormond, and Bentleigh, using eco-friendly methods for stunning results.",
+      "points": [
+        "Eco-friendly practices",
+        "Regular upkeep",
+        "Customised plans"
+      ]
+    },
+    {
+      "title": "Pet Sitting",
+      "desc": "In-home pet sitting for your furry family members when you're away.",
+      "longDesc": "We provide loving pet sitting services in the McKinnon area, including feeding, playtime, and companionship to keep your pets comfortable and stress-free.",
+      "points": [
+        "Home-based care",
+        "Daily updates",
+        "All pet types"
+      ]
+    },
+    {
+      "title": "Lawn Mowing",
+      "desc": "Professional lawn mowing to maintain a neat and healthy lawn.",
+      "longDesc": "Our lawn mowing service in McKinnon and Carnegie ensures your grass is cut to the perfect length, promoting growth and enhancing your property's curb appeal.",
+      "points": [
+        "Precise cutting",
+        "Edging included",
+        "Debris removal"
+      ]
+    },
+    {
+      "title": "Hedge Trimming",
+      "desc": "Skilled hedge trimming for tidy, well-shaped boundaries.",
+      "longDesc": "We expertly trim hedges in Patterson and surrounding suburbs, using sharp tools for clean cuts that improve plant health and aesthetics in your garden.",
+      "points": [
+        "Precision shaping",
+        "Health-focused",
+        "Seasonal care"
+      ]
+    },
+    {
+      "title": "Garden Cleanup",
+      "desc": "Thorough garden cleanup to remove debris and refresh your space.",
+      "longDesc": "Our garden cleanup service in McKinnon and Ormond includes leaf removal, weeding, and general tidying to keep your outdoor areas pristine and inviting.",
+      "points": [
+        "Complete removal",
+        "Seasonal specials",
+        "Eco-disposal"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Dog Walker or Gardener in McKinnon?",
+  "bannerSubheading": "We're here to help with all your pet and garden needs.",
+  "testimonialsHeading": "What McKinnon Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Local Pet & Garden Tips",
+  "blogSubheading": "Advice from McKinnon experts",
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "For a free quote or chat",
+  "reviews": [
+    {
+      "text": "Emma and Jess have been walking my dog in McKinnon for months now, and the difference is amazing. My pup is always tired and happy after their walks, and I love the personalised care they provide.",
+      "name": "Sarah Mitchell",
+      "role": "McKinnon Homeowner"
+    },
+    {
+      "text": "Their garden maintenance service transformed my overgrown backyard in Ormond. The team is friendly, reliable, and always on time. I highly recommend them for anyone needing regular garden care.",
+      "name": "Tom Clarke",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Bentleigh, I rely on Dogs and Gardens for both dog walking and garden upkeep. They're professional and handle everything with care, making my life much easier.",
+      "name": "Linda Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "McKinnon",
+    "Ormond",
+    "Bentleigh",
+    "Patterson",
+    "Carnegie",
+    "Glen Huntly",
+    "Caulfield South"
+  ],
+  "about": {
+    "intro": "Dogs and Gardens is a local business based in McKinnon, VIC, offering trusted dog walking and garden maintenance services for the community.",
+    "story": [
+      "Emma and Jess started Dogs and Gardens over five years ago with a simple goal: to provide reliable, friendly services for pet owners and homeowners in McKinnon and surrounding areas. Growing up in the local community, they saw a need for personalised care that big companies couldn't offer.",
+      "Today, we proudly cover suburbs like Ormond, Bentleigh, Patterson, and Carnegie, building lasting relationships with our clients. Our team is passionate about keeping dogs active and gardens beautiful, ensuring every visit is tailored to your specific needs."
+    ],
+    "mission": "To keep McKinnon's pets happy and gardens stunning through dedicated, local service.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "We know McKinnon and surrounding suburbs inside out for tailored care."
+      },
+      {
+        "title": "Flexible Scheduling",
+        "text": "We work around your timetable to provide convenient dog walking and garden visits."
+      },
+      {
+        "title": "Pet-Friendly Approach",
+        "text": "Our dog walkers are trained to handle all breeds with love and safety in mind."
+      },
+      {
+        "title": "Reliable Service",
+        "text": "Count on us for consistent, high-quality maintenance every time you need us."
+      }
+    ],
+    "stats": [
+      {
+        "value": "5+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Happy Clients"
+      },
+      {
+        "value": "100%",
+        "label": "Community Focused"
+      }
+    ],
+    "credentials": [
+      "Fully insured",
+      "LocalReferences",
+      "Free quotes",
+      "Eco-friendly practices"
+    ]
+  },
+  "pricing": {
+    "intro": "We offer transparent, no-lock-in pricing for dog walking and garden maintenance in McKinnon. Get a free quote tailored to your needs without any hidden fees.",
+    "packages": [
+      {
+        "name": "Single Dog Walk",
+        "price": "$25",
+        "unit": "per walk",
+        "highlight": false,
+        "features": [
+          "60-minute walk",
+          "Local McKinnon routes",
+          "Photo updates"
+        ]
+      },
+      {
+        "name": "Weekly Garden Care",
+        "price": "from $80",
+        "unit": "per week",
+        "highlight": true,
+        "features": [
+          "Lawn mowing & edging",
+          "Hedge trimming",
+          "Debris removal",
+          "Custom schedule"
+        ]
+      },
+      {
+        "name": "Combo Package",
+        "price": "from $150",
+        "unit": "per fortnight",
+        "highlight": false,
+        "features": [
+          "Dog walking + garden care",
+          "Discounted rate",
+          "Priority booking"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what you're paying for with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact us for a free quote on dog walking or garden maintenance in McKinnon and surrounding suburbs."
+  },
+  "blogPosts": [
+    {
+      "title": "Best Dog Walking Routes in McKinnon for Active Pups",
+      "date": "March 2026",
+      "excerpt": "Discover the top dog walking paths in McKinnon, VIC, that are perfect for keeping your furry friends exercised and happy in the local area.",
+      "body": [
+        "McKinnon, VIC, offers some fantastic dog walking routes that cater to all breeds and energy levels. Starting from the popular McKinnon Reserve, you can enjoy wide open spaces where dogs can run off-leash safely. This area is well-maintained and provides a secure environment for early morning or late afternoon walks, making it ideal for busy pet owners in the suburb.",
+        "Another great spot is the trail along McKinnon's residential streets, which are quiet and tree-lined, providing shade during the warm Australian summers. These routes are perfect for puppies or older dogs that need a gentler pace. Always remember to bring water and waste bags to keep the area clean and respectful for other locals.",
+        "For those looking for a longer adventure, the nearby Glen Huntly Creek Trail is easily accessible from McKinnon and offers a scenic walk with water features. This path is popular among local dog walkers and ensures your pet gets plenty of stimulation. It's important to check leash laws, as some sections may require dogs to be on-leash for safety.",
+        "Seasonal considerations are key in McKinnon; during winter, the cooler temperatures make midday walks more comfortable, while in summer, early mornings avoid the heat. Our dog walking services at Dogs and Gardens know these routes intimately and can customise walks based on your dog's needs, ensuring they stay healthy and happy year-round.",
+        "Safety is paramount, so always ensure your dog is vaccinated and microchipped before exploring new routes. McKinnon's community is pet-friendly, and locals often share tips on the best paths. By choosing professional dog walking in McKinnon, you not only save time but also provide your dog with social interaction and exercise tailored to the local environment.",
+        "In conclusion, McKinnon's dog walking routes offer diversity and convenience for pet owners. Whether you prefer park trails or street walks, the suburb has something for everyone. Partnering with a local service like ours ensures your dog enjoys the best of McKinnon's outdoors while you have peace of mind."
+      ]
+    },
+    {
+      "title": "How to Maintain a Beautiful Garden in Melbourne's Variable Climate",
+      "date": "February 2026",
+      "excerpt": "Learn essential garden maintenance tips for McKinnon homeowners to keep your outdoor spaces thriving through Melbourne's unpredictable weather.",
+      "body": [
+        "Melbourne's climate is known for its variability, with hot summers and cool winters that can challenge garden maintenance in suburbs like McKinnon. To keep your garden beautiful year-round, start with understanding the local soil conditions. McKinnon's soil is often clay-based, which retains moisture but can become waterlogged, so incorporating organic matter like compost improves drainage and plant health.",
+        "Seasonal care is crucial; during summer, focus on watering early in the morning to reduce evaporation, and use mulch to retain moisture. In McKinnon, native Australian plants are excellent choices as they're adapted to local conditions and require less water. Our garden maintenance services include seasonal checks to ensure your plants thrive despite temperature swings.",
+        "Winter in Melbourne brings frost and cold winds, which can damage sensitive plants. Protect your garden by covering vulnerable areas with frost cloths and pruning back perennials to encourage spring growth. McKinnon gardeners often use windbreaks like hedges, which we can trim and maintain to provide shelter for your plants.",
+        "Regular lawn mowing is essential in McKinnon, especially during the growing seasons of spring and autumn. Keep grass at an optimal height of about 3-4 centimetres to promote deep root growth and drought resistance. Our team uses eco-friendly equipment to minimise noise and environmental impact while keeping your lawn in top condition.",
+        "Pest management is another key aspect of garden maintenance in McKinnon. Common issues like aphids or snails can be addressed with natural remedies, such as neem oil or copper barriers. We integrate sustainable practices into our services to avoid harmful chemicals, ensuring a safe space for pets and children in your outdoor areas.",
+        "Finally, planning for long-term garden health involves regular assessments. In McKinnon, we recommend quarterly reviews to adapt to changing weather patterns and plant needs. By investing in professional garden maintenance, you not only enhance your property's appeal but also contribute to a greener, more resilient local environment."
+      ]
+    },
+    {
+      "title": "Signs Your Dog Needs More Exercise and How McKinnon Walkers Can Help",
+      "date": "January 2026",
+      "excerpt": "Is your dog showing signs of restlessness? Discover how professional dog walking in McKinnon can improve their health and happiness.",
+      "body": [
+        "Dogs, much like humans, need regular exercise to stay healthy and content. In McKinnon, where suburban life can sometimes limit outdoor time, signs that your dog needs more activity might include excessive barking, destructive behaviour, or weight gain. Recognising these cues early can prevent long-term health issues and strengthen your bond with your pet.",
+        "Common indicators are restlessness at home, such as pacing or whining, which often stem from pent-up energy. Dogs that are not exercised adequately may also develop anxiety or depression, affecting their overall well-being. In McKinnon's community, many pet owners face this challenge due to busy schedules, making professional dog walking services a valuable solution.",
+        "Professional dog walkers in McKinnon, like our team at Dogs and Gardens, provide structured walks that cater to your dog's breed, age, and energy level. For instance, high-energy breeds like Border Collies require more intense exercise, while older dogs may benefit from gentle strolls around local parks. Our services ensure each walk is tailored to meet these specific needs.",
+        "The benefits of regular exercise extend beyond physical health; mental stimulation from new scents and social interactions during walks in McKinnon can reduce behavioural problems. We often incorporate varied routes, such as McKinnon Reserve or nearby trails, to keep things interesting and engaging for your dog.",
+        "In Melbourne's climate, it's important to adjust exercise routines seasonally. During hot summers, walks are best scheduled early or late to avoid heatstroke, while in cooler months, longer sessions can be more frequent. Our dog walking team in McKinnon is trained to adapt to these conditions, ensuring safe and enjoyable outings for your pet.",
+        "If you suspect your dog needs more exercise, start by observing their behaviour and consulting with a vet if needed. Then, consider hiring a local dog walker in McKinnon to supplement your efforts. With our reliable service, you can rest assured that your dog is getting the activity they need to lead a balanced, happy life in the comfort of your community."
+      ]
+    },
+    {
+      "title": "Garden Maintenance Costs in McKinnon: What to Expect in 2026",
+      "date": "December 2025",
+      "excerpt": "Understanding the costs of garden maintenance in McKinnon, VIC, helps homeowners budget for a beautiful outdoor space without surprises.",
+      "body": [
+        "Garden maintenance costs in McKinnon can vary based on the size of your garden, the services required, and the frequency of visits. On average, basic lawn mowing might start from $30 per session for a small suburban yard, while comprehensive garden care including hedge trimming and weeding can range from $80 to $150 per week. These prices reflect the local market and the quality of service provided.",
+        "Factors influencing cost include the complexity of your garden layout; for example, a garden with native plants or intricate landscaping in McKinnon may require more specialised care, thus affecting pricing. At Dogs and Gardens, we offer transparent quotes after assessing your specific needs, ensuring no hidden fees and tailored solutions for your property.",
+        "Seasonal variations also play a role in McKinnon. During spring and autumn, demand for garden maintenance increases as gardens need more attention for growth and cleanup. This might lead to slight price adjustments, but we always aim to provide competitive rates that align with the local economy and service quality.",
+        "To budget effectively, consider the long-term benefits of regular maintenance. Investing in weekly garden care in McKinnon not only keeps your outdoor space attractive but also prevents costly repairs from neglected issues like overgrown roots or pest infestations. Our packages are designed to offer value, with discounts for ongoing commitments.",
+        "When comparing costs, look at what's included: our services in McKinnon often cover equipment, labour, and disposal, so you get a comprehensive package. It's also wise to check for insurance and guarantees, as reputable providers like us ensure all work is backed by assurances for your peace of mind.",
+        "In summary, garden maintenance costs in McKinnon for 2026 are influenced by garden size, service frequency, and seasonal factors. By choosing a local, professional team, you can enjoy a beautiful garden without breaking the bank. Contact us for a free quote to get started on your tailored maintenance plan."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Dogs and Gardens | Dog Walker in McKinnon | Garden Care",
+      "description": "Professional dog walking and garden maintenance in McKinnon, VIC. Trusted local team covering Ormond, Bentleigh, and Carnegie for pet care and garden upkeep."
+    },
+    "about": {
+      "title": "About Dogs and Gardens | McKinnon's Local Pet & Garden Experts",
+      "description": "Learn about Dogs and Gardens, a McKinnon-based business offering friendly dog walking and garden maintenance with over 5 years of local experience."
+    },
+    "services": {
+      "title": "Dog Walking & Garden Services in McKinnon | Dogs and Gardens",
+      "description": "Explore our dog walking, pet sitting, and garden maintenance services in McKinnon, VIC, designed for local pet owners and homeowners."
+    },
+    "pricing": {
+      "title": "Dog Walking & Garden Maintenance Prices McKinnon | Dogs and Gardens",
+      "description": "Transparent pricing for dog walking and garden care in McKinnon. No lock-in contracts, free quotes, and competitive rates for local services."
+    },
+    "contact": {
+      "title": "Contact Dogs and Gardens | Free Quotes in McKinnon & Surrounds",
+      "description": "Get in touch with Dogs and Gardens for free quotes on dog walking and garden maintenance in McKinnon, Ormond, Bentleigh, and nearby suburbs."
+    },
+    "blog": {
+      "title": "McKinnon Pet & Garden Blog | Tips from Local Experts",
+      "description": "Read our blog for local advice on dog walking routes, garden maintenance tips, and seasonal care in McKinnon and Melbourne's southeast."
+    }
+  }
+}
