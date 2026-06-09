@@ -1,0 +1,85 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Pierre The Landscaper",
+  "suburb": "Briar Hill",
+  "phone": "0420 654 842",
+  "email": "user@domain.com",
+  "address": "15 Pine Ave, Briar Hill VIC 3088",
+  "tagline": "Briar Hill's Landscaping Experts",
+  "primaryColor": "#228B22",
+  "primaryColorRgb": "34, 139, 34",
+  "primaryColorHover": "#1E7B1E",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Pierre The Landscaper in Briar Hill",
+      "sub": "Softscaping & Hardscaping Specialists"
+    },
+    {
+      "title": "Garden Maintenance & Design",
+      "sub": "Serving Melbourne's North-East"
+    },
+    {
+      "title": "Get Your Dream Garden Today",
+      "sub": "Free Quotes for Briar Hill & Surrounds"
+    }
+  ],
+  "ctaHeading": "Ready to Transform Your Briar Hill Garden?",
+  "aboutHeading": "Landscaping in Briar Hill for Years",
+  "aboutSubheading": "Local & Passionate",
+  "aboutText": "Pierre The Landscaper has been transforming gardens in Briar Hill and Melbourne's north-eastern suburbs for over a decade. Specialising in both softscaping and hardscaping, we handle everything from planting and mulching to paving and retaining walls. Our team is dedicated to creating beautiful, functional outdoor spaces tailored to your needs, using quality materials and expert craftsmanship.",
+  "servicesHeading": "Our Landscaping Services",
+  "servicesSubheading": "Comprehensive Garden Solutions",
+  "servicesText": "From initial design to ongoing maintenance, Pierre The Landscaper offers a full range of services. Whether you need new turf, a custom irrigation system, or a complete garden overhaul, we have the expertise to deliver quality results in Briar Hill and beyond.",
+  "services": [
+    {
+      "title": "Softscaping & Planting",
+      "desc": "Expert planting, mulching, and garden bed design to bring your outdoor space to life with vibrant flora and healthy soil."
+    },
+    {
+      "title": "Hardscaping & Paving",
+      "desc": "Professional paving, retaining walls, and garden edging to create structured, durable features that enhance your property's appeal."
+    },
+    {
+      "title": "Turf Installation",
+      "desc": "Quality turfing and synthetic turf options for a lush, low-maintenance lawn that stays green all year round in Briar Hill."
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "Efficient irrigation solutions to keep your garden hydrated and healthy, reducing water waste and saving you time."
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Regular upkeep including pruning, weeding, and general care to maintain your garden's beauty and prevent overgrowth."
+    },
+    {
+      "title": "Excavation & Earthworks",
+      "desc": "Site preparation and excavation services for garden beds, paths, and other landscaping projects, ensuring a solid foundation."
+    }
+  ],
+  "bannerHeading": "Need Landscaping in Briar Hill?",
+  "bannerSubheading": "Let's create your perfect outdoor oasis.",
+  "testimonialsHeading": "What Briar Hill Locals Say",
+  "testimonialsSubheading": "Real reviews from our community",
+  "blogHeading": "Landscaping Tips & Insights",
+  "blogSubheading": "Advice from Pierre The Landscaper",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for a personalised consultation",
+  "reviews": [
+    {
+      "text": "Pierre The Landscaper did an amazing job on our backyard renovation in Briar Hill. The new paving and garden edging look fantastic, and the team was professional and punctual throughout.",
+      "name": "John Smith",
+      "role": "Briar Hill Homeowner"
+    },
+    {
+      "text": "We hired Pierre for garden maintenance and irrigation setup for our café in Northcote. The work was top-notch, and our outdoor area has never looked better, attracting more customers.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Pierre The Landscaper for multiple properties in the area. Their reliability and quality of work, especially with turfing and planting, is consistently excellent.",
+      "name": "Mike Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
