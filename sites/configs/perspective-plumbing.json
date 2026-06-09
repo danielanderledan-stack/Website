@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Perspective Plumbing",
+  "suburb": "Donnybrook",
+  "phone": "0411295646",
+  "email": "info@perspectiveplumbing.com.au",
+  "address": "33, Downtown Avenue, Olivine, Donnybrook, Melbourne, Victoria, 3064, Australia",
+  "tagline": "Donnybrook's Trusted Plumbing Experts",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006ba1",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Perspective Plumbing in Donnybrook",
+      "sub": "18+ years serving Melbourne's north"
+    },
+    {
+      "title": "Residential & Commercial Plumbers",
+      "sub": "Expert service for homes and businesses"
+    },
+    {
+      "title": "24/7 Emergency Plumbing",
+      "sub": "Fast response in Donnybrook & surrounds"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Donnybrook?",
+  "aboutHeading": "18 Years Plumbing in Donnybrook",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "With more than 18 years of experience, Perspective Plumbing has established itself as the leading plumbing service in Donnybrook and the surrounding northern suburbs of Melbourne. Our skilled professionals specialize in everything from routine repairs to complex installations, ensuring homes and businesses receive top-notch care. We pride ourselves on transparent communication, fair pricing, and solutions that last.",
+  "servicesHeading": "What We Do",
+  "servicesSubheading": "Expert Plumbing Services",
+  "servicesText": "From residential repairs to commercial installations, we cover all plumbing needs in Donnybrook and beyond. Our team handles drainage, gas fitting, hot water systems, and emergencies with precision and care.",
+  "services": [
+    {
+      "title": "Residential Plumbing",
+      "desc": "Expert plumbing services for homes in Donnybrook, including toilet repairs, tap fixes, and leak detection."
+    },
+    {
+      "title": "Commercial Plumbing",
+      "desc": "Professional plumbing solutions for businesses across Melbourne's Northern Suburbs, tailored to your specific needs."
+    },
+    {
+      "title": "Drainage Systems",
+      "desc": "Comprehensive drainage services such as blocked drains, stormwater installation, and system maintenance to keep your property safe."
+    },
+    {
+      "title": "Gas Fitting",
+      "desc": "Licensed gas fitting for repairs, installations, and safety checks, ensuring compliance and efficiency."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems to provide reliable hot water for your home or business."
+    },
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency plumbing services for urgent issues, with rapid response times in Donnybrook and surrounds."
+    }
+  ],
+  "bannerHeading": "Plumbing Help in Donnybrook?",
+  "bannerSubheading": "We're here for all your plumbing emergencies.",
+  "testimonialsHeading": "What Donnybrook Locals Say",
+  "testimonialsSubheading": "Trusted by residents and businesses",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from Perspective Plumbing",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Contact us for prompt, professional service",
+  "reviews": [
+    {
+      "text": "Perspective Plumbing fixed our blocked drain in Donnybrook quickly and efficiently. Their team was professional and the pricing was fair. Highly recommend their drainage services.",
+      "name": "Sarah Mitchell",
+      "role": "Donnybrook Homeowner"
+    },
+    {
+      "text": "We've used Perspective Plumbing for our business in Bundoora for years. Their commercial plumbing expertise keeps our operations running smoothly. Reliable and trustworthy.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager in Thomastown, I rely on Perspective Plumbing for all tenant plumbing issues. They respond fast and do quality work every time.",
+      "name": "Linda Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
