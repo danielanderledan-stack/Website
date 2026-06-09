@@ -1,0 +1,300 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Barings Landscapes",
+  "suburb": "Prahran",
+  "phone": "03 9824 5678",
+  "email": "info@baringslandscapes.com.au",
+  "address": "36 Clifton St, Prahran VIC 3181",
+  "tagline": "Prahran's Landscaping Specialists",
+  "primaryColor": "#00C853",
+  "primaryColorRgb": "0, 200, 83",
+  "primaryColorHover": "#009624",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Prahran's Trusted Landscapers",
+      "sub": "Creating Beautiful Gardens Since 2005"
+    },
+    {
+      "title": "Garden Design, Paving & Lawn Care",
+      "sub": "Residential & Commercial Landscaping"
+    },
+    {
+      "title": "No Project Too Big or Small",
+      "sub": "Free Quotes Across Prahran & Surrounds"
+    }
+  ],
+  "ctaHeading": "Prahran's landscapers are ready — let's transform your outdoor space.",
+  "aboutHeading": "20 Years Transforming Prahran Gardens",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "Barings Landscapes has been specialising in landscaping services for over 20 years in Prahran and surrounding areas. We understand the unique climate and soil conditions of Melbourne's inner suburbs, ensuring your garden thrives year-round. Our team is fully licensed and committed to delivering high-quality, personalised outdoor solutions.",
+  "servicesHeading": "Our Landscaping Services",
+  "servicesSubheading": "Crafting Beautiful Outdoor Spaces",
+  "servicesText": "From garden design to complete lawn installations, Barings Landscapes offers comprehensive landscaping services tailored to Prahran homes and businesses. We use sustainable materials and innovative techniques to create low-maintenance, stunning landscapes.",
+  "services": [
+    {
+      "title": "Garden Design",
+      "desc": "We create custom garden designs that reflect your style and suit Prahran's climate.",
+      "longDesc": "Our expert designers at Barings Landscapes craft bespoke garden plans, incorporating native plants and sustainable features to enhance your Prahran property's curb appeal and functionality.",
+      "points": [
+        "Personalised designs",
+        "Native plant expertise",
+        "Sustainable solutions"
+      ]
+    },
+    {
+      "title": "Lawn Installation & Repair",
+      "desc": "We install and repair lush, healthy lawns using high-quality turf suited to Prahran's conditions.",
+      "longDesc": "Barings Landscapes provides professional lawn installation and repair services in Prahran, ensuring a vibrant, durable lawn that withstands Melbourne's variable weather and heavy use.",
+      "points": [
+        "Premium turf varieties",
+        "Expert soil preparation",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Paving & Hardscaping",
+      "desc": "We design and install durable paving for paths, driveways, and outdoor entertaining areas.",
+      "longDesc": "Our paving and hardscaping services in Prahran include driveway, patio, and walkway installations, using materials that complement your home's aesthetic and handle local climate stresses.",
+      "points": [
+        "Custom hardscape designs",
+        "Weather-resistant materials",
+        "Seamless integration"
+      ]
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "We install efficient irrigation systems to keep your Prahran garden watered and thriving.",
+      "longDesc": "Barings Landscapes designs and installs smart irrigation solutions for Prahran properties, conserving water while ensuring optimal plant health in Melbourne's dry spells.",
+      "points": [
+        "Water-efficient tech",
+        "Automated systems",
+        "Reduced maintenance"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "We offer regular maintenance to keep your Prahran garden looking its best year-round.",
+      "longDesc": "Our garden maintenance services in Prahran include pruning, mulching, fertilising, and seasonal care, tailored to local plant needs and your schedule.",
+      "points": [
+        "Scheduled upkeep",
+        "Expert horticulture",
+        "Flexible plans"
+      ]
+    },
+    {
+      "title": "Landscape Lighting",
+      "desc": "We install landscape lighting to enhance safety and beauty in your Prahran outdoor spaces.",
+      "longDesc": "Barings Landscapes provides landscape lighting installations in Prahran, using energy-efficient fixtures to highlight garden features and improve nighttime usability.",
+      "points": [
+        "Ambient & security lighting",
+        "Energy-efficient LEDs",
+        "Custom layouts"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Landscaper in Prahran?",
+  "bannerSubheading": "From Concept to Creation, We've Got You Covered",
+  "testimonialsHeading": "What Prahran Locals Say",
+  "testimonialsSubheading": "Honest Work, Fair Prices",
+  "blogHeading": "Local Landscaping Guides & Advice",
+  "blogSubheading": "Tips from Prahran's Landscaping Experts",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll Respond Within 24 Hours",
+  "reviews": [
+    {
+      "text": "Barings Landscapes transformed our Prahran backyard with a stunning garden design and new paving. Their knowledge of local plants and attention to detail made the process seamless.",
+      "name": "Sarah Mitchell",
+      "role": "Prahran Homeowner"
+    },
+    {
+      "text": "We hired Barings for lawn installation at our Prahran café, and the result was fantastic. The team was professional, and the lawn has boosted our outdoor seating appeal.",
+      "name": "David Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Barings Landscapes for maintenance across our Prahran properties. They are reliable, efficient, and always deliver quality work.",
+      "name": "Emma Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Prahran",
+    "South Yarra",
+    "Armadale",
+    "St Kilda",
+    "Toorak",
+    "Malvern",
+    "Windsor"
+  ],
+  "about": {
+    "intro": "Barings Landscapes has been Prahran's go-to landscaping company for over two decades, specialising in creating beautiful, functional outdoor spaces.",
+    "story": [
+      "Founded in 2005, Barings Landscapes started as a small team passionate about transforming Prahran's gardens. Over the years, we've grown to serve hundreds of residential and commercial clients, always maintaining our commitment to quality and customer satisfaction.",
+      "Our deep understanding of Prahran's microclimate allows us to select plants and materials that thrive locally, ensuring long-lasting beauty and minimal maintenance for your garden."
+    ],
+    "mission": "To enhance Prahran's outdoor living spaces through innovative, sustainable landscaping solutions.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "We know Prahran's soil and climate conditions intimately for optimal results."
+      },
+      {
+        "title": "Fully Licensed",
+        "text": "All work is carried out by licensed professionals, ensuring compliance."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden costs, upfront quotes for every project in Prahran."
+      },
+      {
+        "title": "Guaranteed Results",
+        "text": "We stand behind our workmanship with a satisfaction guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Barings Landscapes, we offer transparent pricing with no lock-in contracts. Get a free, no-obligation quote tailored to your Prahran property's specific needs.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed proposal",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Landscaping Package",
+        "price": "from $3,500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Custom design",
+          "Native plant selection",
+          "Professional installation",
+          "12-month maintenance"
+        ]
+      },
+      {
+        "name": "Full Garden Makeover",
+        "price": "from $12,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete redesign",
+          "Hardscaping & planting",
+          "Irrigation setup",
+          "Ongoing support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what to expect for your Prahran project."
+  },
+  "contact": {
+    "intro": "Ready to enhance your Prahran property? Contact Barings Landscapes today for a free, no-obligation quote. We're here to bring your garden vision to life."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Garden Renovation Cost in Prahran?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting garden renovation costs in Prahran, from soil preparation to plant selection and hardscaping materials.",
+      "body": [
+        "When considering a garden renovation in Prahran, the cost can vary significantly based on the scope and materials used. Prahran's urban setting often requires creative solutions for small spaces, influencing pricing. Factors like soil quality, existing vegetation, and access to the property play a role. For example, compacted clay soil common in parts of Prahran may need amendment, adding to costs.",
+        "The choice of plants is another major cost driver. Native Australian species adapted to Melbourne's climate, such as kangaroo paw or lomandra, can be cost-effective long-term due to lower maintenance. However, exotic or high-maintenance plants may increase initial outlay. Paving and hardscaping materials, like bluestone or recycled brick, also affect the budget, with prices per square metre varying.",
+        "Labour costs in Prahran are influenced by project complexity and duration. A simple lawn repair might cost less than a full garden design with irrigation. It's essential to get detailed quotes from licensed landscapers like Barings Landscapes to understand breakdowns. Always factor in permits if your project involves significant changes to drainage or structures.",
+        "Local regulations in Prahran, governed by the City of Stonnington, may require permits for certain works, adding to overall costs. Environmental considerations, such as stormwater management, are important in Melbourne's inner suburbs. Sustainable practices, like rain gardens, can offer long-term savings but may have higher upfront costs.",
+        "Seasonal timing also impacts costs. Spring and autumn are ideal for planting in Prahran, as the mild weather reduces plant stress and may lower replacement rates. Winter projects might face delays due to cold, wet conditions, potentially increasing labour hours. Plan ahead to align with optimal planting seasons for better value.",
+        "To get an accurate estimate for your Prahran garden renovation, schedule a consultation with Barings Landscapes. We provide tailored quotes based on your specific site conditions and goals. Remember, investing in quality landscaping can enhance property value and outdoor enjoyment for years to come, making it a worthwhile consideration."
+      ]
+    },
+    {
+      "title": "Best Plants for Prahran's Shady Gardens",
+      "date": "February 2026",
+      "excerpt": "Explore top plant choices for shady areas in Prahran gardens, suited to Melbourne's climate and urban microclimates.",
+      "body": [
+        "Prahran's streetscapes and property layouts often create shady spots due to tall buildings and established trees. Selecting the right plants for these areas is crucial for a thriving garden. Shade-tolerant species that flourish in Melbourne's temperate climate include native ferns, heucheras, and hostas. These plants add texture and colour without requiring full sun.",
+        "Consider the type of shade: full shade from north-facing walls or dappled light under trees. For full shade, plants like Liriope or Viola hederacea perform well in Prahran's conditions. Dappled light areas can support more variety, such as bromeliads or certain orchids, which are popular in Australian gardens.",
+        "Soil conditions in shady Prahran spots may be damp and low in nutrients. Amend soil with organic matter like compost to improve drainage and fertility. Mulching helps retain moisture and suppress weeds, which is beneficial in shaded areas where evaporation is slower.",
+        "Watering needs differ in shade; plants require less water than in full sun. Overwatering can lead to root rot, so ensure good drainage. Prahran's rainfall patterns, with wetter winters and drier summers, mean monitoring soil moisture is key, especially during establishment.",
+        "Design tips for shady Prahran gardens include using light-coloured foliage to brighten spaces and incorporating reflective elements like mirrors or light stones. Grouping plants with similar needs simplifies maintenance. Barings Landscapes can help design cohesive shade gardens that suit your property's unique layout.",
+        "Regular maintenance is essential to keep shade gardens healthy. Pruning to improve air circulation prevents fungal diseases common in damp, shaded areas. Fertilise sparingly, as shaded plants grow slower. Consult with local experts to tailor care routines for Prahran's specific environmental conditions."
+      ]
+    },
+    {
+      "title": "Why Paving is Perfect for Prahran's Compact Outdoor Spaces",
+      "date": "January 2026",
+      "excerpt": "Learn how paving solutions can maximise functionality and style in Prahran's small gardens and courtyards.",
+      "body": [
+        "Prahran's dense urban fabric means many properties have limited outdoor space. Paving offers a practical solution to create usable areas like patios, paths, and courtyards without the maintenance of lawns. Materials such as concrete pavers, natural stone, or brick can be laid in patterns to enhance visual appeal.",
+        "The benefits of paving in Prahran include durability against Melbourne's weather extremes, from hot summers to cold winters. Paved surfaces are easy to clean and can withstand heavy foot traffic, making them ideal for entertainment areas. They also reduce mud and dust, improving accessibility.",
+        "Design considerations for Prahran's compact spaces involve choosing light colours to reflect light and make areas appear larger. Permeable paving options help with stormwater management, complying with local environmental regulations. Incorporating stepping stones or borders can add character without overwhelming the space.",
+        "Cost factors for paving in Prahran depend on material choice and area size. Basic concrete pavers are cost-effective, while natural bluestone or granite may be higher but offer a premium look. Installation labour is a significant portion, so getting quotes from experienced pavers like Barings Landscapes ensures accurate budgeting.",
+        "Maintenance of paved areas is straightforward. Regular sweeping and occasional washing prevent moss buildup, which can be slippery in Prahran's damp winters. Sealing pavers every few years protects against stains and weathering, extending their lifespan. Local products suited to Australian conditions are recommended.",
+        "For Prahran homeowners, paving can transform underused spaces into functional outdoor rooms. Consult with professionals to design layouts that flow with your home's architecture. Barings Landscapes provides custom paving solutions tailored to Prahran's unique urban environment, enhancing both utility and aesthetic."
+      ]
+    },
+    {
+      "title": "Maintaining a Lush Lawn in Prahran's Variable Climate",
+      "date": "December 2025",
+      "excerpt": "Get expert tips on lawn care in Prahran, addressing Melbourne's dry spells, clay soils, and seasonal challenges.",
+      "body": [
+        "A lush lawn in Prahran requires understanding Melbourne's variable climate, with dry summers and cool, wet winters. Choosing drought-resistant grass varieties like Buffalo or Kikuyu can help lawns survive with less water. These species are well-suited to Prahran's conditions and recover quickly from stress.",
+        "Soil preparation is key for Prahran lawns, as many areas have heavy clay soil that compacts easily. Aerating the soil annually improves drainage and root growth. Adding organic matter or gypsum can break down clay, creating a better foundation for grass establishment and health.",
+        "Watering practices should be efficient to conserve water during Prahran's dry periods. Deep, infrequent watering encourages deep root systems, making lawns more resilient. Early morning watering reduces evaporation and fungal risks. Consider installing a smart irrigation system for automated, weather-based schedules.",
+        "Mowing and fertilising are essential maintenance tasks. Mow regularly but avoid cutting grass too short, which can stress it in Prahran's heat. Use a sharp blade for clean cuts. Fertilise in spring and autumn with a slow-release formula to support growth without overfeeding, which can lead to thatch buildup.",
+        "Weed control in Prahran lawns involves pre-emergent treatments in spring and spot-treating as needed. Common weeds like clover or bindii can be managed with natural or chemical options, depending on preferences. Overseeding bare patches in autumn helps maintain a thick, healthy turf.",
+        "For professional lawn care in Prahran, Barings Landscapes offers tailored maintenance plans. Our experts assess your lawn's specific needs, considering local factors like shade, soil type, and usage. With regular care, your Prahran lawn can remain vibrant and enjoyable year-round."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Barings Landscapes | Landscaper in Prahran | Garden Design",
+      "description": "Barings Landscapes offers expert landscaping in Prahran, including garden design, paving, lawn care & irrigation. Free quotes for Prahran homes and businesses."
+    },
+    "about": {
+      "title": "About Barings Landscapes | Prahran's Trusted Landscaping Team",
+      "description": "Learn about Barings Landscapes, Prahran's leading landscaper with 20+ years experience in creating beautiful, sustainable gardens for Melbourne's inner suburbs."
+    },
+    "services": {
+      "title": "Landscaping Services in Prahran | Garden Design & More",
+      "description": "Explore comprehensive landscaping services in Prahran from Barings Landscapes: garden design, paving, irrigation, and maintenance tailored for Prahran's climate."
+    },
+    "pricing": {
+      "title": "Landscaping Costs in Prahran | Transparent Pricing | Barings",
+      "description": "Get upfront pricing for landscaping projects in Prahran. No hidden fees, free quotes. Affordable solutions for garden design, paving, and lawn care."
+    },
+    "contact": {
+      "title": "Contact Barings Landscapes | Free Prahran Landscaping Quotes",
+      "description": "Contact Barings Landscapes for a free quote on your Prahran landscaping project. Fast response, expert advice for garden design, paving, and maintenance."
+    },
+    "blog": {
+      "title": "Prahran Landscaping Blog | Tips, Costs & Local Advice",
+      "description": "Read the latest landscaping blog for Prahran homeowners: guides on garden costs, plant selection, paving, and lawn care tips suited to Melbourne's climate."
+    }
+  }
+}
