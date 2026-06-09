@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Switched Electrical Group",
+  "suburb": "Greensborough",
+  "phone": "0401952027",
+  "email": "James@switchedelectricalgroup.com.au",
+  "address": "Unit 3/8 Bailey Grove, Ivanhoe East VIC 3079",
+  "tagline": "Greensborough's Trusted Electricians",
+  "primaryColor": "#007cba",
+  "primaryColorRgb": "0, 124, 186",
+  "primaryColorHover": "#006da7",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Greensborough's Electrical Experts",
+      "sub": "Commercial, domestic & industrial services"
+    },
+    {
+      "title": "24/7 Emergency Electrical Services",
+      "sub": "Always available for Greensborough locals"
+    },
+    {
+      "title": "Powering Greensborough with Quality",
+      "sub": "Installation, maintenance & energy efficiency"
+    }
+  ],
+  "ctaHeading": "Get a Free Quote from Greensborough's Electricians",
+  "aboutHeading": "Your Local Greensborough Electricians",
+  "aboutSubheading": "Licensed, reliable & ready to help",
+  "aboutText": "Switched Electrical Group has been providing expert electrical services to Greensborough and surrounding areas for many years. We specialise in commercial, domestic, and industrial installations, maintenance, and repairs. Our team is dedicated to ensuring all work meets the highest safety and quality standards. With 24/7 availability, we are always here to address your electrical needs promptly.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Comprehensive solutions for every need",
+  "servicesText": "We offer a wide range of electrical services tailored for residential, commercial, and industrial clients in Greensborough. From routine maintenance to complex installations, our skilled technicians ensure efficient and reliable outcomes.",
+  "services": [
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Expert wiring, lighting, and power systems for businesses in Greensborough, ensuring minimal disruption and optimal performance."
+    },
+    {
+      "title": "Domestic Electrical Services",
+      "desc": "Safe and efficient home electrical installations, repairs, and upgrades for Greensborough homeowners."
+    },
+    {
+      "title": "Industrial Electrical Services",
+      "desc": "Specialised electrical solutions for industrial facilities, including machinery wiring and maintenance."
+    },
+    {
+      "title": "Electrical Maintenance & Repairs",
+      "desc": "Regular upkeep and emergency repairs to keep your electrical systems running smoothly."
+    },
+    {
+      "title": "Energy Efficiency Solutions",
+      "desc": "Installation of energy-saving equipment and audits to reduce costs and environmental impact."
+    },
+    {
+      "title": "Emergency Electrical Services",
+      "desc": "24/7 rapid response for urgent electrical issues in Greensborough and nearby areas."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Greensborough?",
+  "bannerSubheading": "Professional electrical services at your fingertips.",
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted by Greensborough locals",
+  "blogHeading": "Electrical Insights",
+  "blogSubheading": "Tips and updates from our team",
+  "contactHeading": "Contact Switched Electrical Group",
+  "contactSubheading": "We'll get back to you within the hour",
+  "reviews": [
+    {
+      "text": "Switched Electrical Group did an excellent job rewiring our home in Greensborough. Their professionalism and attention to detail were outstanding. Highly recommend for any domestic electrical work.",
+      "name": "Sarah Mitchell",
+      "role": "Greensborough Homeowner"
+    },
+    {
+      "text": "As a business owner, I needed reliable electrical maintenance for my shop. The team provided prompt and efficient service, ensuring minimal downtime. Great work!",
+      "name": "Mark Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We hired Switched Electrical Group for industrial wiring at our factory. They handled the project with expertise and completed it on time. Their commercial services are top-notch.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ]
+}
