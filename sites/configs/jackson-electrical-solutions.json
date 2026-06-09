@@ -1,0 +1,85 @@
+{
+  "siteType": "electrician",
+  "businessName": "Jackson Electrical Solutions",
+  "suburb": "Diamond Creek",
+  "phone": "+61490040847",
+  "email": "luke@jacksonelectrical.com.au",
+  "address": "15 Kingsbury Ct, Diamond Creek VIC 3089",
+  "tagline": "Diamond Creek's Trusted Electrician",
+  "primaryColor": "#525252",
+  "primaryColorRgb": "82, 82, 82",
+  "primaryColorHover": "#404040",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Diamond Creek's Electrical Specialists",
+      "sub": "A-Grade Electrician for Victoria"
+    },
+    {
+      "title": "Solar Installations & Infrastructure",
+      "sub": "From Lancaster Solar Farm to West Gate Bridge"
+    },
+    {
+      "title": "Reliable & Compliant Electrical Work",
+      "sub": "Serving Diamond Creek and surrounds"
+    }
+  ],
+  "ctaHeading": "Get Your Free Quote from Diamond Creek's Electrician",
+  "aboutHeading": "Diamond Creek's A-Grade Electrician",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Based in Diamond Creek, Jackson Electrical Solutions is your local A-Grade Electrician and Registered Electrical Contractor. We specialise in delivering quality electrical work across Victoria, from residential solar installations to large-scale infrastructure projects like the Lancaster Solar Farm and West Gate Bridge. Our team ensures every job is reliable, compliant, and built to last, serving the Diamond Creek community with pride.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "Jackson Electrical Solutions provides a comprehensive range of electrical services tailored to Diamond Creek homes and businesses. From solar panel installations to complex commercial fit-outs, our experienced team handles projects of all sizes with precision and care.",
+  "services": [
+    {
+      "title": "Solar Installations",
+      "desc": "Expert installation of solar systems, including large-scale projects like Lancaster Solar Farm, to power your home or business sustainably."
+    },
+    {
+      "title": "Commercial & Industrial Electrical",
+      "desc": "Specialised electrical services for commercial and industrial facilities, ensuring safe and efficient operations across Victoria."
+    },
+    {
+      "title": "Infrastructure Projects",
+      "desc": "Trusted partner for critical infrastructure, including contributions to major projects like the West Gate Bridge."
+    },
+    {
+      "title": "Maintenance & Testing",
+      "desc": "Comprehensive maintenance and testing services to keep your electrical systems compliant and performing at their best."
+    },
+    {
+      "title": "Industrial & Warehouse Solutions",
+      "desc": "Tailored electrical solutions for industrial and warehouse environments, optimising productivity and safety."
+    },
+    {
+      "title": "Electrical Fit-Outs",
+      "desc": "Professional fit-out services for commercial spaces, from office buildings to retail outlets in Diamond Creek."
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Diamond Creek?",
+  "bannerSubheading": "Fast, reliable service for all your electrical needs.",
+  "testimonialsHeading": "What Diamond Creek Locals Say",
+  "testimonialsSubheading": "Trusted by our community",
+  "blogHeading": "Electrical Tips & Updates",
+  "blogSubheading": "Insights from Jackson Electrical Solutions",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're here to help with your electrical projects.",
+  "reviews": [
+    {
+      "text": "Jackson Electrical Solutions installed solar panels at our Diamond Creek home, and the service was exceptional. Their team was professional, and the system has been working perfectly for months now.",
+      "name": "David Thompson",
+      "role": "Diamond Creek Homeowner"
+    },
+    {
+      "text": "We hired Jackson Electrical for a commercial fit-out at our Diamond Creek business, and they delivered outstanding work. Highly recommended for any electrical project.",
+      "name": "Emma Wilson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I've used Jackson Electrical for maintenance and testing across multiple sites. Their reliability and expertise make them my go-to electrician in Victoria.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
