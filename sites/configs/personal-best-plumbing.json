@@ -1,0 +1,85 @@
+{
+  "siteType": "plumber",
+  "businessName": "Personal Best Plumbing",
+  "suburb": "Oak Park",
+  "phone": "0401 436 038",
+  "email": "thomas@personalbestplumbing.com",
+  "address": "12 Sylvester St, Oak Park VIC 3046",
+  "tagline": "Oak Park's Trusted Plumbers",
+  "primaryColor": "#0066cc",
+  "primaryColorRgb": "0, 102, 204",
+  "primaryColorHover": "#0052a3",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Oak Park's Go-To Plumbers",
+      "sub": "Fast response, fair pricing"
+    },
+    {
+      "title": "24/7 Emergency Plumbing in Oak Park",
+      "sub": "Serving Oak Park and surrounds"
+    },
+    {
+      "title": "Expert Leak Repairs & Drain Clearing",
+      "sub": "Licensed and reliable solutions"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in Oak Park? Let's Fix It.",
+  "aboutHeading": "Oak Park's Trusted Plumbers",
+  "aboutSubheading": "Local, Licensed & Reliable",
+  "aboutText": "Personal Best Plumbing is a locally owned and operated plumbing service based in Oak Park. We specialise in providing fast and reliable plumbing solutions for both residential and commercial properties. Our team of licensed plumbers is equipped to handle a wide variety of issues, including emergency repairs, drain clearing, and hot water system maintenance. With a focus on quality workmanship and transparent pricing, we strive to exceed customer expectations every time.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "Comprehensive solutions for all your plumbing needs",
+  "servicesText": "At Personal Best Plumbing, we offer a wide range of services to keep your plumbing in top condition. From emergency call-outs to scheduled maintenance, our skilled team is equipped to handle it all. We use the latest tools and techniques to deliver efficient and lasting results.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "We provide 24/7 emergency plumbing services to quickly resolve urgent issues like burst pipes or severe leaks."
+    },
+    {
+      "title": "Leak Detection & Repair",
+      "desc": "Our advanced leak detection technology helps us find and fix leaks efficiently, preventing water damage and saving you money."
+    },
+    {
+      "title": "Drain Clearing",
+      "desc": "We clear blocked drains using professional equipment, ensuring smooth flow and preventing future blockages in your home or business."
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems, including gas, electric, and solar options, tailored to your needs."
+    },
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Complete bathroom renovation services, from design to installation, to create your dream space with quality plumbing work."
+    },
+    {
+      "title": "General Maintenance",
+      "desc": "Regular plumbing maintenance checks to identify potential issues early and keep your system running efficiently."
+    }
+  ],
+  "bannerHeading": "Oak Park Plumbers Ready to Help",
+  "bannerSubheading": "24/7 service for your peace of mind",
+  "testimonialsHeading": "What Oak Park Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Plumbing Tips & News",
+  "blogSubheading": "Advice from our experts",
+  "contactHeading": "Get a Free Quote from Oak Park Plumbers",
+  "contactSubheading": "We respond quickly to all enquiries",
+  "reviews": [
+    {
+      "text": "Personal Best Plumbing fixed our hot water system in Oak Park quickly and efficiently. Their service was professional and the pricing was fair. Highly recommend to all locals!",
+      "name": "John Smith",
+      "role": "Oak Park Homeowner"
+    },
+    {
+      "text": "We had a major leak at our business premises, and the team at Personal Best Plumbing responded immediately. They resolved the issue with minimal disruption, showing great expertise.",
+      "name": "Sarah Johnson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For routine maintenance on our rental properties in Oak Park, we rely on Personal Best Plumbing. They are always on time, thorough, and provide detailed reports.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ]
+}
