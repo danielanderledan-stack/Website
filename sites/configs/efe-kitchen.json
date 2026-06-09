@@ -1,0 +1,85 @@
+{
+  "siteType": "carpenter",
+  "businessName": "EFE KITCHEN",
+  "suburb": "Somerton",
+  "phone": "0400 123 456",
+  "email": "slick-carousel@1.8.1",
+  "address": "1 Freight Dr, Somerton VIC 3062",
+  "tagline": "Somerton's Kitchen Experts",
+  "primaryColor": "#b22222",
+  "primaryColorRgb": "178, 34, 34",
+  "primaryColorHover": "#991f1f",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Dream Kitchens in Somerton",
+      "sub": "Interest-free finance up to 12 months"
+    },
+    {
+      "title": "Kitchens, Bathrooms & Laundry",
+      "sub": "Complete home solutions by EFE Kitchen"
+    },
+    {
+      "title": "Custom Cabinetry & Wardrobes",
+      "sub": "High quality at competitive prices"
+    }
+  ],
+  "ctaHeading": "Ready for Your Somerton Kitchen Makeover?",
+  "aboutHeading": "Somerton's Flatpack Kitchen Specialists",
+  "aboutSubheading": "Affordable & Customisable Solutions",
+  "aboutText": "At EFE Kitchen in Somerton, we specialise in flatpack kitchens that are both affordable and high-quality. Our cabinets come in a variety of finishes and can be ordered online for easy pickup. With options for fixed or custom widths and heights, we help you create your perfect kitchen without breaking the bank. Serving Somerton and surrounding areas, we are your local experts in kitchen remodels.",
+  "servicesHeading": "Our Kitchen & Home Services",
+  "servicesSubheading": "Comprehensive Solutions for Your Home",
+  "servicesText": "From kitchens and bathrooms to laundry and study rooms, EFE Kitchen offers a full range of home improvement services. We provide high-quality cabinets, wardrobes, and custom designs tailored to your needs. With competitive prices and full support, we ensure your project is completed to perfection.",
+  "services": [
+    {
+      "title": "Kitchens",
+      "desc": "We design and install custom kitchens, including flatpack options, to transform your cooking space in Somerton."
+    },
+    {
+      "title": "Laundry",
+      "desc": "Complete laundry renovations with durable cabinets and efficient layouts for your home."
+    },
+    {
+      "title": "Bathrooms",
+      "desc": "Create your dream bathroom with our range of fittings, tiles, and custom storage solutions."
+    },
+    {
+      "title": "Wardrobes",
+      "desc": "Custom wardrobes designed to maximise space and organisation in your bedroom or living area."
+    },
+    {
+      "title": "Cabinets",
+      "desc": "High-quality cabinets for kitchens, bathrooms, and more, available in various finishes and sizes."
+    },
+    {
+      "title": "Study Rooms",
+      "desc": "Design functional study rooms with built-in desks, shelves, and storage to suit your needs."
+    }
+  ],
+  "bannerHeading": "Kitchen Remodeling in Somerton?",
+  "bannerSubheading": "Get in touch for a free consultation and quote.",
+  "testimonialsHeading": "What Somerton Residents Say",
+  "testimonialsSubheading": "Real feedback from our clients",
+  "blogHeading": "Kitchen Tips & Inspiration",
+  "blogSubheading": "From the EFE Kitchen team",
+  "contactHeading": "Contact EFE Kitchen in Somerton",
+  "contactSubheading": "We're here to help with your project",
+  "reviews": [
+    {
+      "text": "EFE Kitchen did an amazing job on our kitchen remodel in Somerton. The flatpack cabinets were easy to install, and the quality is outstanding. We love our new space!",
+      "name": "Sarah Mitchell",
+      "role": "Somerton Homeowner"
+    },
+    {
+      "text": "We hired EFE Kitchen for our bathroom renovation and were impressed with the competitive prices and full support provided. The team was professional and finished on time.",
+      "name": "David Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "For our laundry upgrade, EFE Kitchen offered great options and quick service. The custom cabinets fit perfectly, and we highly recommend them to anyone in the area.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ]
+}
