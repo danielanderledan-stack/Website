@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Builder — Complete Digital</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --navy: #0a2540;
+        --cyan: #48cae4;
+        --bg: #f4f7fa;
+      }
+      /* the hidden attribute must always win over display:flex rules */
+      [hidden] {
+        display: none !important;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Roboto, system-ui, sans-serif;
+        background: var(--bg);
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        background: var(--navy);
+        color: #fff;
+        padding: 12px 18px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-bottom: 3px solid var(--cyan);
+      }
+      header .logo {
+        font-family: "Roboto Slab", serif;
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        white-space: nowrap;
+      }
+      header .right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .pill {
+        font-size: 13px;
+        font-weight: 700;
+        background: rgba(255, 255, 255, 0.1);
+        color: #d6f3fb;
+        padding: 6px 14px;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+      .pill.low {
+        background: #7a2e2e;
+        color: #ffd9d9;
+      }
+      .topup-btn {
+        font-size: 13px;
+        font-weight: 700;
+        background: var(--cyan);
+        color: var(--navy);
+        border: none;
+        border-radius: 20px;
+        padding: 7px 16px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .logout {
+        background: none;
+        border: none;
+        color: #9db8cc;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      #messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 24px 16px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .row {
+        display: flex;
+        max-width: 820px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .row.user {
+        justify-content: flex-end;
+      }
+      .bubble {
+        max-width: 78%;
+        padding: 12px 16px;
+        border-radius: 16px;
+        font-size: 14.5px;
+        line-height: 1.55;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+      .user .bubble {
+        background: var(--navy);
+        color: #fff;
+        border-bottom-right-radius: 4px;
+      }
+      .ai .bubble {
+        background: #fff;
+        color: #1a2733;
+        border: 1px solid #e3eaf1;
+        border-bottom-left-radius: 4px;
+        box-shadow: 0 2px 8px rgba(10, 37, 64, 0.05);
+      }
+      .sys .bubble {
+        background: #fff4f4;
+        color: #8a2b2b;
+        border: 1px solid #f2caca;
+        font-size: 13px;
+      }
+      .bubble img.att {
+        display: block;
+        max-width: 200px;
+        max-height: 140px;
+        border-radius: 10px;
+        margin-top: 8px;
+        object-fit: cover;
+      }
+      .chips {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+      .chip {
+        font-size: 12px;
+        font-weight: 500;
+        background: rgba(72, 202, 228, 0.14);
+        color: #0b5e74;
+        border: 1px solid rgba(72, 202, 228, 0.45);
+        padding: 3px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+      }
+      .typing {
+        display: inline-flex;
+        gap: 5px;
+        padding: 6px 2px;
+      }
+      .typing span {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #9db4c4;
+        animation: blink 1.2s infinite;
+      }
+      .typing span:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .typing span:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+      @keyframes blink {
+        0%,
+        80%,
+        100% {
+          opacity: 0.25;
+        }
+        40% {
+          opacity: 1;
+        }
+      }
+
+      #composer {
+        flex-shrink: 0;
+        padding: 12px 16px 16px;
+      }
+      #previews {
+        max-width: 820px;
+        margin: 0 auto 8px;
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      #previews .pv {
+        position: relative;
+      }
+      #previews img {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid var(--cyan);
+      }
+      #previews button {
+        position: absolute;
+        top: -7px;
+        right: -7px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: none;
+        background: var(--navy);
+        color: #fff;
+        font-size: 11px;
+        cursor: pointer;
+        line-height: 1;
+      }
+      .bar {
+        max-width: 820px;
+        margin: 0 auto;
+        display: flex;
+        gap: 8px;
+        align-items: flex-end;
+        background: #fff;
+        border: 1px solid #dbe5ee;
+        border-radius: 18px;
+        padding: 8px 10px;
+        box-shadow: 0 6px 24px rgba(10, 37, 64, 0.08);
+      }
+      .bar textarea {
+        flex: 1;
+        border: none;
+        outline: none;
+        resize: none;
+        font-family: inherit;
+        font-size: 14.5px;
+        line-height: 1.5;
+        max-height: 140px;
+        padding: 8px 4px;
+        background: transparent;
+      }
+      .iconbtn {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      #attach {
+        background: #eef4f9;
+        color: #41637d;
+        font-size: 19px;
+      }
+      #send {
+        background: var(--navy);
+        color: #fff;
+      }
+      #send:disabled {
+        opacity: 0.45;
+        cursor: default;
+      }
+      #send svg {
+        width: 18px;
+        height: 18px;
+      }
+      .hint {
+        max-width: 820px;
+        margin: 6px auto 0;
+        font-size: 11.5px;
+        color: #8aa0b2;
+        text-align: center;
+      }
+
+      /* ------- modals ------- */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(6, 24, 43, 0.62);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
+        z-index: 50;
+      }
+      .modal {
+        background: #fff;
+        border-radius: 20px;
+        max-width: 430px;
+        width: 100%;
+        padding: 30px 28px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+        border-top: 5px solid var(--cyan);
+      }
+      .modal h2 {
+        font-family: "Roboto Slab", serif;
+        font-size: 22px;
+        color: var(--navy);
+        margin-bottom: 6px;
+      }
+      .modal .sub {
+        font-size: 13.5px;
+        color: #5d7488;
+        margin-bottom: 20px;
+        line-height: 1.55;
+      }
+      .modal label {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        color: #41637d;
+        margin: 14px 0 6px;
+        letter-spacing: 0.4px;
+      }
+      .modal input[type="tel"],
+      .modal input[type="password"],
+      .modal input[type="number"] {
+        width: 100%;
+        border: 1.5px solid #d6e2ec;
+        border-radius: 11px;
+        padding: 11px 13px;
+        font-size: 15px;
+        font-family: inherit;
+        outline: none;
+      }
+      .modal input:focus {
+        border-color: var(--cyan);
+      }
+      .primary {
+        width: 100%;
+        margin-top: 20px;
+        background: var(--navy);
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        padding: 13px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .primary:disabled {
+        opacity: 0.5;
+      }
+      .modal .err {
+        color: #b03333;
+        font-size: 13px;
+        margin-top: 12px;
+        display: none;
+      }
+      .modal .close {
+        position: absolute;
+        top: 10px;
+        right: 16px;
+        border: none;
+        background: none;
+        font-size: 24px;
+        color: #90a4b5;
+        cursor: pointer;
+      }
+      .modal {
+        position: relative;
+      }
+
+      /* top-up specifics */
+      .me {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        background: #f2f8fc;
+        border: 1px solid #dcebf5;
+        border-radius: 14px;
+        padding: 14px;
+        margin-bottom: 18px;
+      }
+      .me img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+        border: 2.5px solid var(--cyan);
+      }
+      .me p {
+        font-size: 13px;
+        line-height: 1.55;
+        color: #3c5468;
+      }
+      .amounts {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .amt {
+        flex: 1;
+        min-width: 70px;
+        border: 1.5px solid #d6e2ec;
+        background: #fff;
+        border-radius: 11px;
+        padding: 11px 0;
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--navy);
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .amt.on {
+        background: var(--navy);
+        color: #fff;
+        border-color: var(--navy);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        complete digital<span style="color: var(--cyan)">.</span> website
+        builder
+      </div>
+      <div class="right">
+        <span class="pill" id="balance" hidden></span>
+        <button class="topup-btn" id="topupBtn" hidden>Top up</button>
+        <button class="logout" id="logoutBtn" hidden>log out</button>
+      </div>
+    </header>
+
+    <div id="messages"></div>
+
+    <div id="composer" hidden>
+      <div id="previews"></div>
+      <div class="bar">
+        <button class="iconbtn" id="attach" title="Attach an image">
+          &#128247;
+        </button>
+        <input
+          type="file"
+          id="file"
+          accept="image/png,image/jpeg,image/webp,image/gif"
+          multiple
+          hidden
+        />
+        <textarea
+          id="input"
+          rows="1"
+          placeholder="Describe a change… e.g. “Change the homepage headline to …”"
+        ></textarea>
+        <button class="iconbtn" id="send" title="Send">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M22 2 11 13" />
+            <path d="M22 2 15 22l-4-9-9-4 20-7z" />
+          </svg>
+        </button>
+      </div>
+      <div class="hint">
+        Each request uses $1 of editing credit. Changes go live on your website
+        within a minute or two.
+      </div>
+    </div>
+
+    <!-- login modal -->
+    <div class="overlay" id="loginOverlay" hidden>
+      <div class="modal">
+        <h2>Log in to edit your website</h2>
+        <p class="sub">Use the phone number and password we set up with you.</p>
+        <label>Phone number</label>
+        <input
+          type="tel"
+          id="loginNumber"
+          autocomplete="username"
+          placeholder="04xx xxx xxx"
+        />
+        <label>Password</label>
+        <input
+          type="password"
+          id="loginPassword"
+          autocomplete="current-password"
+        />
+        <p class="err" id="loginErr"></p>
+        <button class="primary" id="loginGo">Log in</button>
+      </div>
+    </div>
+
+    <!-- top-up modal -->
+    <div class="overlay" id="topupOverlay" hidden>
+      <div class="modal">
+        <button class="close" id="topupClose">&times;</button>
+        <h2>Top up editing credit</h2>
+        <div class="me">
+          <img
+            src="https://www.completedigital.org/images/dan.jpg"
+            alt="Dan from Complete Digital"
+          />
+          <p>
+            <strong>A quick word from Dan:</strong> every change you make here
+            runs on a powerful AI, and that AI costs us real money each time.
+            Your website itself is free — so we can't afford to eat the AI cost
+            too. $1 per request keeps this fair for everyone. Thanks for
+            understanding!
+          </p>
+        </div>
+        <p class="sub" id="topupReason" style="margin-bottom: 10px"></p>
+        <label>Choose an amount (AUD)</label>
+        <div class="amounts">
+          <button class="amt" data-amt="5">$5</button>
+          <button class="amt on" data-amt="10">$10</button>
+          <button class="amt" data-amt="20">$20</button>
+          <button class="amt" data-amt="50">$50</button>
+        </div>
+        <label>Or enter your own ($5–$500)</label>
+        <input
+          type="number"
+          id="customAmt"
+          min="5"
+          max="500"
+          step="1"
+          placeholder="e.g. 15"
+        />
+        <p class="err" id="topupErr"></p>
+        <button class="primary" id="topupGo">Continue to secure payment</button>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        "use strict";
+        var AUTH =
+          "https://n8n-production-d02c.up.railway.app/webhook/builder-auth";
+        var CHAT =
+          "https://n8n-production-d02c.up.railway.app/webhook/site-editor";
+        var TOPUP_API = "/api/create-topup-link";
+
+        var state = {
+          token: localStorage.getItem("cd-builder-token") || "",
+          number: "",
+          site: "",
+          balance: 0,
+        };
+
+        var $ = function (id) {
+          return document.getElementById(id);
+        };
+        var messagesEl = $("messages"),
+          inputEl = $("input"),
+          sendBtn = $("send");
+        var pending = [],
+          busy = false;
+
+        /* ---------- rendering ---------- */
+        function addBubble(role, text, opts) {
+          opts = opts || {};
+          var row = document.createElement("div");
+          row.className = "row " + role;
+          var b = document.createElement("div");
+          b.className = "bubble";
+          b.textContent = text;
+          (opts.images || []).forEach(function (src) {
+            var img = document.createElement("img");
+            img.className = "att";
+            img.src = src;
+            b.appendChild(img);
+          });
+          if (opts.changed && opts.changed.length) {
+            var chips = document.createElement("div");
+            chips.className = "chips";
+            opts.changed.forEach(function (p) {
+              var a = document.createElement("a");
+              a.className = "chip";
+              a.textContent =
+                "Updated: " +
+                (p === "/" ? "Home page" : p.replace(/\//g, " ").trim());
+              chips.appendChild(a);
+            });
+            b.appendChild(chips);
+          }
+          row.appendChild(b);
+          messagesEl.appendChild(row);
+          messagesEl.scrollTop = messagesEl.scrollHeight;
+          return row;
+        }
+        function addTyping() {
+          var row = document.createElement("div");
+          row.className = "row ai";
+          row.innerHTML =
+            '<div class="bubble"><div class="typing"><span></span><span></span><span></span></div></div>';
+          messagesEl.appendChild(row);
+          messagesEl.scrollTop = messagesEl.scrollHeight;
+          return row;
+        }
+        function setBalance(v) {
+          if (typeof v !== "number" || isNaN(v)) return;
+          state.balance = v;
+          var p = $("balance");
+          p.hidden = false;
+          p.textContent = "$" + v.toFixed(2) + " credit";
+          p.className = "pill" + (v < 1 ? " low" : "");
+          $("topupBtn").hidden = false;
+          $("logoutBtn").hidden = false;
+        }
+        function showChat(history) {
+          $("loginOverlay").hidden = true;
+          $("composer").hidden = false;
+          messagesEl.innerHTML = "";
+          if (history && history.length) {
+            history.forEach(function (m) {
+              addBubble(m.role === "assistant" ? "ai" : "user", m.content);
+            });
+          } else {
+            addBubble(
+              "ai",
+              "Hi! I'm your website editor. Tell me what you'd like to change — wording, photos, prices, anything. Attach images with the camera button.",
+            );
+          }
+          inputEl.focus();
+        }
+
+        /* ---------- auth ---------- */
+        function showLogin(msg) {
+          $("composer").hidden = true;
+          $("loginOverlay").hidden = false;
+          if (msg) {
+            var e = $("loginErr");
+            e.textContent = msg;
+            e.style.display = "block";
+          }
+        }
+        $("loginGo").onclick = function () {
+          var btn = this;
+          btn.disabled = true;
+          $("loginErr").style.display = "none";
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              action: "login",
+              number: $("loginNumber").value.trim().replace(/ /g, ""),
+              password: $("loginPassword").value,
+            }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok) throw new Error(d.error || "Login failed.");
+              state.token = d.token;
+              state.number = d.number || "";
+              state.site = d.site || "";
+              localStorage.setItem("cd-builder-token", d.token);
+              setBalance(d.balance);
+              showChat(d.history);
+            })
+            .catch(function (e) {
+              showLogin(e.message);
+            })
+            .finally(function () {
+              btn.disabled = false;
+            });
+        };
+        $("loginPassword").addEventListener("keydown", function (e) {
+          if (e.key === "Enter") $("loginGo").click();
+        });
+        $("logoutBtn").onclick = function () {
+          localStorage.removeItem("cd-builder-token");
+          location.reload();
+        };
+
+        function restoreSession(thenPollBalance) {
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ action: "session", token: state.token }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok) {
+                localStorage.removeItem("cd-builder-token");
+                state.token = "";
+                showLogin();
+                return;
+              }
+              state.number = d.number || "";
+              state.site = d.site || "";
+              setBalance(d.balance);
+              showChat(d.history);
+              if (thenPollBalance) pollBalance(d.balance, 8);
+            })
+            .catch(function () {
+              showLogin("Could not reach the server — please try again.");
+            });
+        }
+
+        // After a Square top-up redirect, the credit lands via webhook a few
+        // seconds later — poll until the balance moves.
+        function pollBalance(startBal, left) {
+          if (left <= 0) return;
+          setTimeout(function () {
+            fetch(AUTH, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ action: "session", token: state.token }),
+            })
+              .then(function (r) {
+                return r.json();
+              })
+              .then(function (d) {
+                if (d.ok) setBalance(d.balance);
+                if (!d.ok || d.balance === startBal)
+                  pollBalance(startBal, left - 1);
+                else
+                  addBubble(
+                    "ai",
+                    "Top-up received — thank you! Your credit is now $" +
+                      d.balance.toFixed(2) +
+                      ".",
+                  );
+              })
+              .catch(function () {
+                pollBalance(startBal, left - 1);
+              });
+          }, 4000);
+        }
+
+        /* ---------- top-up modal ---------- */
+        var chosenAmt = 10;
+        Array.prototype.forEach.call(
+          document.querySelectorAll(".amt"),
+          function (btn) {
+            btn.onclick = function () {
+              document.querySelectorAll(".amt").forEach(function (b) {
+                b.classList.remove("on");
+              });
+              btn.classList.add("on");
+              chosenAmt = parseInt(btn.getAttribute("data-amt"), 10);
+              $("customAmt").value = "";
+            };
+          },
+        );
+        $("customAmt").addEventListener("input", function () {
+          document.querySelectorAll(".amt").forEach(function (b) {
+            b.classList.remove("on");
+          });
+        });
+        function openTopup(reason) {
+          $("topupReason").textContent = reason || "";
+          $("topupErr").style.display = "none";
+          $("topupOverlay").hidden = false;
+        }
+        $("topupBtn").onclick = function () {
+          openTopup("");
+        };
+        $("topupClose").onclick = function () {
+          $("topupOverlay").hidden = true;
+        };
+        $("topupGo").onclick = function () {
+          var btn = this;
+          var amt = parseInt($("customAmt").value, 10) || chosenAmt;
+          var err = $("topupErr");
+          if (!(amt >= 5 && amt <= 500)) {
+            err.textContent = "Amount must be between $5 and $500.";
+            err.style.display = "block";
+            return;
+          }
+          btn.disabled = true;
+          err.style.display = "none";
+          fetch(TOPUP_API, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ number: state.number, amount: amt }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.url)
+                throw new Error(d.error || "Could not start checkout.");
+              location.href = d.url;
+            })
+            .catch(function (e) {
+              err.textContent = e.message;
+              err.style.display = "block";
+              btn.disabled = false;
+            });
+        };
+
+        /* ---------- chat ---------- */
+        function renderPreviews() {
+          var p = $("previews");
+          p.innerHTML = "";
+          pending.forEach(function (img, i) {
+            var d = document.createElement("div");
+            d.className = "pv";
+            var el = document.createElement("img");
+            el.src = img.dataUrl;
+            var x = document.createElement("button");
+            x.textContent = "×";
+            x.onclick = function () {
+              pending.splice(i, 1);
+              renderPreviews();
+            };
+            d.appendChild(el);
+            d.appendChild(x);
+            p.appendChild(d);
+          });
+        }
+        $("attach").onclick = function () {
+          $("file").click();
+        };
+        $("file").onchange = function () {
+          Array.prototype.slice
+            .call(this.files)
+            .slice(0, 4 - pending.length)
+            .forEach(function (f) {
+              if (f.size > 4 * 1024 * 1024) {
+                addBubble("sys", f.name + " is too large (max 4MB).");
+                return;
+              }
+              var r = new FileReader();
+              r.onload = function () {
+                pending.push({
+                  name: f.name,
+                  b64: r.result.split(",")[1],
+                  dataUrl: r.result,
+                });
+                renderPreviews();
+              };
+              r.readAsDataURL(f);
+            });
+          this.value = "";
+        };
+        inputEl.addEventListener("input", function () {
+          inputEl.style.height = "auto";
+          inputEl.style.height = Math.min(inputEl.scrollHeight, 140) + "px";
+        });
+        inputEl.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" && !e.shiftKey) {
+            e.preventDefault();
+            send();
+          }
+        });
+        sendBtn.onclick = send;
+
+        function send() {
+          if (busy) return;
+          var text = inputEl.value.trim();
+          if (!text && !pending.length) return;
+          if (state.balance < 1) {
+            openTopup("You'll need at least $1 of credit to send a request.");
+            return;
+          }
+
+          var imgs = pending.slice();
+          addBubble("user", text || "(image)", {
+            images: imgs.map(function (p) {
+              return p.dataUrl;
+            }),
+          });
+          inputEl.value = "";
+          inputEl.style.height = "auto";
+          pending = [];
+          renderPreviews();
+
+          busy = true;
+          sendBtn.disabled = true;
+          var typing = addTyping();
+
+          fetch(CHAT, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              token: state.token,
+              message: text || "Use the uploaded image(s) where appropriate.",
+              images: imgs.map(function (p) {
+                return { name: p.name, b64: p.b64 };
+              }),
+            }),
+          })
+            .then(function (r) {
+              if (!r.ok)
+                throw new Error(
+                  "The editor hit a problem (HTTP " +
+                    r.status +
+                    "). Your credit was not charged twice — please try again.",
+                );
+              return r.json();
+            })
+            .then(function (d) {
+              typing.remove();
+              if (d.error === "insufficient_balance") {
+                setBalance(d.balance);
+                openTopup("You are out of editing credit.");
+                return;
+              }
+              if (d.error === "auth") {
+                showLogin("Your session expired — please log in again.");
+                return;
+              }
+              addBubble("ai", d.reply || "Done.", {
+                changed: d.changedUrls || [],
+              });
+              if (typeof d.balance === "number") setBalance(d.balance);
+            })
+            .catch(function (e) {
+              typing.remove();
+              addBubble(
+                "sys",
+                e.message || "Something went wrong — please try again.",
+              );
+            })
+            .finally(function () {
+              busy = false;
+              sendBtn.disabled = false;
+              inputEl.focus();
+            });
+        }
+
+        /* ---------- boot ---------- */
+        var cameFromTopup =
+          new URLSearchParams(location.search).get("topup") === "success";
+        if (state.token) restoreSession(cameFromTopup);
+        else showLogin();
+      })();
+    </script>
+  </body>
+</html>
