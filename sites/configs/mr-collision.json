@@ -1,0 +1,301 @@
+{
+  "siteType": "builder",
+  "businessName": "MR Collision",
+  "suburb": "New Gisborne",
+  "phone": "0396906806",
+  "email": "info@smash-repairs.com.au",
+  "address": "6 Meek St, New Gisborne VIC 3438",
+  "tagline": "New Gisborne's Collision Repair Specialists",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e55e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "New Gisborne's Trusted Smash Repairers",
+      "sub": "20+ years restoring vehicles across the Macedon Ranges"
+    },
+    {
+      "title": "Expert Panel, Paint & Body Repairs",
+      "sub": "Insurance-approved quality you can count on"
+    },
+    {
+      "title": "Stress-Free Claims & Replacement Vehicles",
+      "sub": "We handle everything so you don't have to"
+    }
+  ],
+  "ctaHeading": "New Gisborne's collision repair experts are ready — let's get your car back on the road.",
+  "aboutHeading": "20 Years Collision Repair in New Gisborne",
+  "aboutSubheading": "Trusted, insured & locally owned",
+  "aboutText": "With over 20 years of experience, MR Collision has been New Gisborne's trusted collision repair specialist, serving the Macedon Ranges and greater Melbourne with expert vehicle restoration. Our Meek Street workshop implements the latest body shop management technology to connect with all insurance companies and meet their exacting standards. From panel and body repairs to complete paint refinishing, insurance claims, replacement vehicles, and ADAS calibration, we deliver faultless quality repairs and a stress-free experience for every New Gisborne customer.",
+  "servicesHeading": "What We Fix & Restore",
+  "servicesSubheading": "Collision repair done right",
+  "servicesText": "MR Collision offers a complete range of collision repair services from our New Gisborne workshop. Whether you need expert panel beating, precision paint refinishing, help with your insurance claim, a replacement vehicle, ADAS recalibration, or vehicle transportation, our experienced team delivers quality results every time.",
+  "services": [
+    {
+      "title": "Panel & Body Repairs",
+      "desc": "Expert panel beating and dent removal to restore your vehicle's body to pre-accident condition.",
+      "longDesc": "Our New Gisborne technicians use advanced panel beating techniques and the latest body shop technology to repair dents, creases and structural damage. From minor door dings to major collision repairs, we restore every panel to manufacturer specifications.",
+      "points": [
+        "Advanced dent removal",
+        "Structural realignment",
+        "Factory-standard finish"
+      ]
+    },
+    {
+      "title": "Paint & Refinishing",
+      "desc": "Professional vehicle painting and colour-matching for a seamless, factory-quality finish every time.",
+      "longDesc": "MR Collision uses state-of-the-art water-based paint systems and digital colour-matching technology to deliver flawless refinishing results in New Gisborne. From single panel resprays to complete vehicle painting, our finish is guaranteed to match your vehicle's original colour.",
+      "points": [
+        "Digital colour matching",
+        "Premium paint systems",
+        "Seamless finish guarantee"
+      ]
+    },
+    {
+      "title": "Insurance Claims Assistance",
+      "desc": "We handle your entire insurance claim from lodgement through to final repair and payment.",
+      "longDesc": "As a trusted and recognised repairer for all insurance companies, MR Collision manages your claim process in New Gisborne. We lodge claims, liaise with your insurer, and ensure your vehicle is repaired to the highest standard without the hassle.",
+      "points": [
+        "All insurers accepted",
+        "Claim lodging support",
+        "Direct insurer liaison"
+      ]
+    },
+    {
+      "title": "Replacement Vehicles",
+      "desc": "Courtesy replacement vehicles delivered to your door anywhere in Victoria during repairs.",
+      "longDesc": "Stay on the road while your vehicle is being repaired with our replacement vehicle service. MR Collision delivers replacement vehicles to your door anywhere in Victoria, with flexible pickup and return arrangements to suit your schedule.",
+      "points": [
+        "Doorstep delivery",
+        "Flexible arrangements",
+        "Immediate availability"
+      ]
+    },
+    {
+      "title": "ADAS Calibration & Support",
+      "desc": "Advanced driver-assistance system recalibration to ensure your vehicle's safety systems function correctly.",
+      "longDesc": "Modern vehicles rely on ADAS technology including lane assist, automatic braking and collision detection. After collision repairs, these systems require precise recalibration. Our New Gisborne workshop uses manufacturer-approved diagnostic equipment to restore full ADAS functionality.",
+      "points": [
+        "Manufacturer-approved equipment",
+        "Full system recalibration",
+        "Safety-certified results"
+      ]
+    },
+    {
+      "title": "Vehicle Transportation",
+      "desc": "Convenient vehicle pickup, delivery and car hire coordination to keep you mobile.",
+      "longDesc": "MR Collision provides vehicle transportation and car hire coordination for New Gisborne and Macedon Ranges residents. We arrange pickup of your damaged vehicle, delivery of your repaired car, and coordinate hire vehicles to keep you mobile throughout the process.",
+      "points": [
+        "Vehicle pickup service",
+        "Hire car coordination",
+        "Hassle-free logistics"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Smash Repairer in New Gisborne?",
+  "bannerSubheading": "Trusted by locals and insurance companies across the Macedon Ranges.",
+  "testimonialsHeading": "What New Gisborne Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Smash Repair Guides & Vehicle Tips",
+  "blogSubheading": "Expert advice from the New Gisborne team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll assess your vehicle and get back to you fast",
+  "reviews": [
+    {
+      "text": "After a nasty accident on the Calder Freeway, MR Collision completely restored my Toyota Camry. Their team handled the entire insurance claim and the paintwork was absolutely flawless. New Gisborne locals are lucky to have such a professional smash repairer.",
+      "name": "Sarah Mitchell",
+      "role": "New Gisborne Homeowner"
+    },
+    {
+      "text": "We use MR Collision for our business fleet repairs and they consistently deliver outstanding results. Their replacement vehicle service means our staff never miss a day of work while vehicles are being repaired. Incredibly professional and reliable team.",
+      "name": "David Thompson",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team at MR Collision made my insurance claim process completely stress-free after a hailstorm damaged my vehicle. From the initial quote to the final quality check, every step was handled with care and professionalism. Highly recommended for anyone in the Macedon Ranges.",
+      "name": "Karen O'Brien",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "New Gisborne",
+    "Gisborne",
+    "Woodend",
+    "Riddells Creek",
+    "Macedon",
+    "Sunbury",
+    "Kyneton"
+  ],
+  "about": {
+    "intro": "With over 20 years of dedicated collision repair experience, MR Collision is New Gisborne's most trusted smash repair specialist serving the Macedon Ranges and greater Melbourne.",
+    "story": [
+      "MR Collision was established to provide the New Gisborne community with collision repair services of the highest standard. Over 20 years, we have grown into one of the Macedon Ranges most trusted smash repairers, serving customers from New Gisborne, Woodend, Riddells Creek and beyond. Our reputation is built on honest communication, quality workmanship and genuine commitment to every customer.",
+      "We have invested heavily in the latest body shop management technology, enabling us to connect directly with all major insurance companies and comply with their exacting standards. This technology, combined with our team of highly skilled technicians, means we can deliver repairs that meet manufacturer specifications every time. Our New Gisborne workshop on Meek Street is equipped to handle everything from minor parking dents to major structural collision damage.",
+      "At MR Collision, we understand that being without your vehicle is inconvenient. That is why we offer replacement vehicle delivery and pickup anywhere in Victoria, ensuring you stay on the road throughout the repair process. From the moment you contact us to the final quality inspection, our team handles every detail of your collision repair journey with professionalism and care, making the experience as stress-free as possible for every New Gisborne customer."
+    ],
+    "mission": "To deliver exceptional collision repair from New Gisborne, restoring every vehicle to manufacturer standard with minimal stress for our customers.",
+    "whyUs": [
+      {
+        "title": "Insurance Approved",
+        "text": "Trusted and recognised repairer for all major Australian insurance companies with direct claims integration."
+      },
+      {
+        "title": "Latest Technology",
+        "text": "State-of-the-art body shop management and ADAS calibration equipment in our New Gisborne workshop."
+      },
+      {
+        "title": "Replacement Vehicles",
+        "text": "Doorstep delivery and collection of replacement vehicles anywhere in Victoria during repairs."
+      },
+      {
+        "title": "20 Years Experience",
+        "text": "Two decades of trusted collision repair expertise serving New Gisborne and the Macedon Ranges."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "3,000+",
+        "label": "Vehicles Restored"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "All insurers accepted",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At MR Collision in New Gisborne, we provide honest, transparent pricing for all smash repair services. Every quote is detailed and upfront with no hidden fees or surprise charges.",
+    "packages": [
+      {
+        "name": "Damage Assessment",
+        "price": "Free",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Thorough vehicle inspection",
+          "Digital damage report",
+          "No-obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Smash Repair",
+        "price": "from $800",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Panel beating & body work",
+          "Professional paint matching",
+          "Insurance claim support",
+          "Quality guaranteed finish"
+        ]
+      },
+      {
+        "name": "Major Collision Repair",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full structural assessment",
+          "Complete panel replacement",
+          "ADAS recalibration",
+          "Replacement vehicle provided"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins, so you always know the full cost."
+  },
+  "contact": {
+    "intro": "Ready to restore your vehicle? Contact MR Collision in New Gisborne for a free, no-obligation smash repair quote. Call us on 0396906806, email info@smash-repairs.com.au, or visit our Meek Street workshop."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Smash Repair Cost in New Gisborne?",
+      "date": "March 2026",
+      "excerpt": "Find out what smash repair costs in New Gisborne, from minor dents to major collision damage. Honest pricing from MR Collision on Meek Street.",
+      "body": [
+        "The cost of smash repair in New Gisborne varies widely depending on the severity of the damage, your vehicle's make and model, and the specific parts required. Minor scratches and small dents typical of car park incidents might cost between $300 and $800 to repair at a local New Gisborne panel beater. However, more serious collision damage involving structural components, airbag deployment, or multiple panel replacement can easily exceed $5,000. At MR Collision on Meek Street in New Gisborne, we provide detailed, no-obligation quotes that break down every element of the repair so there are no surprises when you receive your final invoice.",
+        "Panel beating and dent removal form the core of most smash repair jobs in the New Gisborne area. For minor dents where the paint remains intact, paintless dent removal (PDR) offers a cost-effective solution typically ranging from $150 to $500 per dent depending on size and accessibility. Traditional panel beating for more significant damage, where the metal has been stretched or torn, generally costs between $800 and $2,500 per panel. New Gisborne vehicle owners should also factor in the cost of replacement parts, which varies dramatically between common Australian vehicles like Toyota and Holden models versus luxury European marques requiring imported components from overseas suppliers.",
+        "Paint and refinishing represent a significant portion of any smash repair quote in New Gisborne. A full respray of a single panel typically costs between $500 and $1,200, while painting multiple panels or an entire vehicle can range from $2,000 to $5,000 or more. Modern water-based paint systems used by reputable New Gisborne repairers like MR Collision ensure colour-matched finishes that blend seamlessly with your vehicle's existing paintwork. Factors affecting paint costs include the complexity of your vehicle's colour, whether metallic or pearlescent finishes are involved, and the number of coats required to achieve a factory-quality result.",
+        "Insurance coverage significantly impacts what New Gisborne drivers pay out of pocket for smash repairs. If you hold comprehensive car insurance, your insurer will typically cover the cost of repairs minus your excess, which usually ranges from $300 to $800 depending on your policy. Third-party property damage insurance covers repairs to other people's vehicles but not your own. At MR Collision, we work directly with all major Australian insurance companies and can lodge claims on your behalf, streamlining the entire process. Our New Gisborne workshop has been a trusted and recognised repairer for insurers for over 20 years.",
+        "Choosing a local New Gisborne smash repairer over an interstate or metropolitan option can save you both time and money. Local repairers understand the specific driving conditions of the Macedon Ranges, including gravel roads, wildlife hazards, and narrow country lanes that contribute to common vehicle damage in the area. MR Collision's established relationships with parts suppliers across Victoria mean faster turnaround times and more competitive pricing than you might find with distant repairers. Our Meek Street workshop is conveniently located for New Gisborne residents, making it easy to drop off your vehicle, arrange a courtesy car, and stay updated on your repair progress throughout the process.",
+        "To get the most accurate smash repair quote in New Gisborne, bring your vehicle to MR Collision for a thorough visual and structural assessment. We use the latest body shop management technology to provide detailed digital reports that itemise every repair element, from panel work and paint to mechanical components and ADAS recalibration. This transparency means you can make informed decisions about your repair, whether you are proceeding through insurance or paying privately. Contact our New Gisborne team on 0396906806 or visit us at 6 Meek Street to arrange your free, no-obligation smash repair quote today."
+      ]
+    },
+    {
+      "title": "What to Do After a Car Accident in the Macedon Ranges",
+      "date": "February 2026",
+      "excerpt": "A step-by-step guide for Macedon Ranges drivers after a car accident. Learn what to do, who to call and how to protect your insurance claim.",
+      "body": [
+        "Being involved in a car accident in the Macedon Ranges can be a stressful and disorienting experience, but knowing the right steps to take can protect both your safety and your insurance claim. The first priority is always safety: move your vehicle to a safe location if possible, turn on your hazard lights, and check yourself and your passengers for injuries. If anyone is injured, call 000 immediately for emergency services. For minor accidents in the New Gisborne area, you should still report the incident to Victoria Police if there are injuries, significant vehicle damage, or if the other driver is uncooperative or cannot provide details.",
+        "Once you have ensured everyone's safety, the next critical step after a car accident in the Macedon Ranges is to gather as much information as possible. Exchange full details with the other driver including their name, address, phone number, licence number, insurer details, and vehicle registration. Take clear photographs of all vehicle damage from multiple angles, the accident scene including road conditions and any relevant signage, and the other driver's licence and registration. If there are witnesses to the accident in New Gisborne or surrounding areas, collect their contact details as well. This documentation will be invaluable when lodging your insurance claim or if any disputes arise later.",
+        "Contacting your insurance company should happen as soon as possible after any car accident in the Macedon Ranges, ideally within 24 hours. Most Australian insurers have 24-hour claims hotlines that will guide you through the initial reporting process. When you call, have your policy number ready along with the details you collected at the scene. Your insurer will assign a claim number and may ask you to obtain quotes from smash repairers. For New Gisborne residents, MR Collision can assist with the entire claims process, including lodging documentation directly with your insurer and providing detailed repair assessments that meet all insurance company standards and requirements.",
+        "Finding the right smash repairer after an accident in the Macedon Ranges is crucial to getting your vehicle back to pre-accident condition. While your insurer may suggest a preferred repairer, it is important to know that under Australian Consumer Law, you have the right to choose your own repairer. A trusted New Gisborne repairer like MR Collision, with over 20 years of experience and relationships with all major insurance companies, ensures your vehicle receives expert attention using the latest repair technology. We are a trusted and recognised repairer for all insurance companies, which means your claim will be processed smoothly regardless of who your insurer is.",
+        "One of the biggest concerns after a car accident in the New Gisborne area is how you will get around while your vehicle is being repaired. MR Collision offers replacement vehicle delivery and pickup anywhere in Victoria, keeping you mobile throughout the repair process. Whether you need a vehicle for your daily commute to work in Melbourne, school runs in Woodend, or business travel across the Macedon Ranges, our replacement vehicle service ensures minimal disruption to your life. Simply enquire with our friendly staff when you drop off your vehicle and we will arrange a suitable replacement to be delivered to your door.",
+        "Dealing with the aftermath of a car accident involves more than just vehicle repairs, and it is important to look after your wellbeing throughout the process. The team at MR Collision in New Gisborne understands that accidents can be emotionally taxing, which is why we pride ourselves on providing a stress-free repair experience. From the moment you bring your vehicle to our Meek Street workshop, we handle every aspect of the repair journey including insurance liaison, parts sourcing, quality repairs, and vehicle transportation. Our goal is to take the burden off your shoulders so you can focus on getting back to normal life in the Macedon Ranges."
+      ]
+    },
+    {
+      "title": "How Long Does Collision Repair Take in New Gisborne?",
+      "date": "January 2026",
+      "excerpt": "Wondering how long your smash repair will take in New Gisborne? Here are realistic timelines for every type of collision repair.",
+      "body": [
+        "If your vehicle has been damaged in an accident and you are wondering how long collision repair takes in New Gisborne, the answer depends on several factors including the extent of the damage, parts availability, and the complexity of the paintwork required. Minor repairs such as small dent removal or scratch touch-ups can often be completed in one to two working days at our New Gisborne workshop. Moderate collision damage typically requiring panel replacement and partial resprays usually takes between five and ten working days. Major structural repairs involving multiple panels, chassis realignment, and complete refinishing can extend to three to six weeks depending on the specific requirements of your vehicle.",
+        "Several key factors influence how long your collision repair will take at our New Gisborne workshop. The availability of replacement parts is often the single biggest variable in repair timelines. Common parts for popular Australian vehicles like Toyota Corollas, Mazda 3s, and Hyundai i30s are typically available within one to three days from our network of Victorian suppliers. However, parts for luxury European vehicles, older models, or heavily damaged components may need to be sourced from overseas, potentially adding two to four weeks to your repair timeline. At MR Collision, we begin the parts ordering process immediately upon completing your damage assessment to minimise unnecessary delays.",
+        "The collision repair process at MR Collision in New Gisborne follows a thorough, systematic approach designed to restore your vehicle to manufacturer standards. Once your vehicle arrives at our Meek Street workshop, our technicians conduct a comprehensive damage assessment using the latest diagnostic technology. We then develop a detailed repair plan, order any required parts, and begin structural or panel work as needed. Each stage includes quality checkpoints to ensure precision alignment, proper paint adhesion, and flawless colour matching. Our body shop management system allows us to track every step of the process, providing you with real-time updates on your vehicle's progress throughout the repair journey.",
+        "Insurance approval is another factor that can affect repair timelines for New Gisborne vehicle owners. After we submit our detailed repair assessment to your insurer, the approval process typically takes between one and three working days for standard claims. More complex claims involving significant damage or disputed costs may require additional back-and-forth between our workshop and the insurer, potentially adding several days to the overall timeline. MR Collision has established relationships with all major Australian insurance companies, which means our assessments are trusted and rarely require additional documentation or reassessment. This streamlined communication helps keep your repair on schedule and gets your vehicle back to you as quickly as possible.",
+        "At MR Collision in New Gisborne, we understand that being without your vehicle causes significant inconvenience, especially for residents of the Macedon Ranges who may rely on their car for commuting to Melbourne or navigating regional roads. That is why we have implemented efficient workshop management processes designed to minimise repair times without compromising on quality. Our team of experienced technicians specialises in parallel workflow, meaning multiple aspects of your repair are handled simultaneously rather than sequentially. Combined with our extensive parts supplier network and direct insurance company connections, this approach consistently delivers faster turnaround times than many metropolitan smash repairers, despite our convenient New Gisborne location.",
+        "While we strive to complete every repair as quickly as possible, MR Collision never cuts corners to meet arbitrary deadlines. Quality collision repair in New Gisborne requires patience, precision, and the right materials, all of which take time to get right. We keep you informed throughout the process with regular updates and will always communicate honestly if any unexpected issues arise during repairs that may affect your timeline. Replacement vehicle delivery and pickup is available anywhere in Victoria, ensuring you stay on the road while your vehicle receives the expert care it deserves. Contact us on 0396906806 to discuss your repair timeline and arrange a replacement vehicle."
+      ]
+    },
+    {
+      "title": "Why Choice of Repairer Matters for Your Insurance Claim",
+      "date": "December 2025",
+      "excerpt": "Learn why choosing your own smash repairer in New Gisborne puts you in control of your insurance claim and ensures quality results.",
+      "body": [
+        "Many New Gisborne drivers are unaware that under Australian Consumer Law, you have the legal right to choose your own smash repairer when making an insurance claim, regardless of what your insurance company may suggest. Insurance steering is the practice where insurers direct or pressure policyholders toward their preferred repairer network, often without disclosing that this is merely a suggestion rather than a requirement. For drivers in the Macedon Ranges, understanding your right to choose is essential to ensuring your vehicle receives the quality repairs it deserves. At MR Collision in New Gisborne, we encourage every customer to make an informed decision about where their vehicle is repaired.",
+        "Insurance companies establish preferred repairer networks based on negotiated bulk pricing agreements, which can sometimes mean prioritising cost savings over repair quality. While many repairers within these networks do excellent work, the arrangement can result in shorter repair timelines, generic parts usage, and less personalised customer service. When you choose your own repairer in New Gisborne, you select a workshop based on their reputation, qualifications, and track record rather than your insurer's commercial arrangements. MR Collision has been a trusted and recognised repairer for all insurance companies for over 20 years, meaning your insurer will process your claim without difficulty while you receive the benefit of our dedicated, customer-focused approach.",
+        "Choosing a local New Gisborne repairer like MR Collision offers distinct advantages over travelling to a metropolitan workshop or accepting your insurer's first suggestion. Our Meek Street workshop is convenient for New Gisborne, Woodend, and Riddells Creek residents, eliminating lengthy travel times to drop off and collect your vehicle. Local repairers are invested in their community reputation, which drives a higher standard of workmanship and customer care. We understand the specific driving conditions of the Macedon Ranges, from gravel road debris damage to wildlife collision repairs, and our technicians have the experience to address these local challenges efficiently. Being local also means easier communication and the ability to visit your vehicle during repairs.",
+        "The quality of collision repair directly impacts your vehicle's safety, resale value, and long-term reliability, making your choice of repairer one of the most important decisions you will make after an accident. At MR Collision in New Gisborne, we invest in the latest body shop management technology, ADAS calibration equipment, and ongoing technician training to ensure every repair meets or exceeds manufacturer standards. Our paint and refinishing systems use colour-matching technology that delivers seamless results, while our structural repair capabilities ensure your vehicle's safety systems function correctly after impact. These quality commitments may not always be guaranteed when repairs are directed by insurance companies focused primarily on cost containment.",
+        "Asserting your right to choose your own repairer in New Gisborne is straightforward, but it does require clear communication with your insurer. When lodging your claim, simply inform your insurer that you have selected MR Collision as your preferred repairer. If your insurer questions this choice, remind them that under Australian Consumer Law, you are entitled to choose any licensed repairer. Provide your insurer with our details and we will handle the rest, including submitting our assessment and liaising directly with your claims manager. MR Collision is recognised by all major insurance companies, so your claim will proceed smoothly without delays or disputes related to your choice of repairer.",
+        "At MR Collision, we have spent over 20 years building trusted relationships with insurance companies and vehicle owners across the New Gisborne area and greater Macedon Ranges. Our comprehensive services, including panel and body repairs, paint and refinishing, insurance claims assistance, replacement vehicle delivery, ADAS calibration, and vehicle transportation, mean we can manage your entire repair journey from start to finish under one roof. We implement the latest technology in body shop management to connect to all insurance companies and comply with all insurance company standards and requirements. Choose MR Collision as your New Gisborne repairer and experience the difference that local expertise, genuine care, and uncompromising quality make to your collision repair."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "MR Collision | Smash Repairs in New Gisborne | Collision Repair",
+      "description": "MR Collision provides expert smash repair, panel beating and insurance claims in New Gisborne VIC. 20+ years trusted by locals and all insurers."
+    },
+    "about": {
+      "title": "About MR Collision | New Gisborne's Trusted Collision Repair Team",
+      "description": "Discover MR Collision, New Gisborne's trusted smash repair specialists with 20+ years experience. Expert body work, paint and insurance claims assistance."
+    },
+    "services": {
+      "title": "Smash Repair Services New Gisborne | Panel Beating & Paint",
+      "description": "Full smash repair services in New Gisborne by MR Collision. Panel beating, paint refinishing, insurance claims, replacement vehicles and ADAS support."
+    },
+    "pricing": {
+      "title": "Smash Repair Costs New Gisborne | Transparent Quotes | MR Collision",
+      "description": "Smash repair costs in New Gisborne explained by MR Collision. Transparent quotes, no hidden fees. Insurance and private repair options available."
+    },
+    "contact": {
+      "title": "Contact MR Collision | Free Smash Repair Quote New Gisborne",
+      "description": "Contact MR Collision in New Gisborne for a free smash repair quote. Call 0396906806 or visit 6 Meek St, New Gisborne. All insurance claims welcome."
+    },
+    "blog": {
+      "title": "Smash Repair Tips & Guides New Gisborne | MR Collision Blog",
+      "description": "Expert smash repair guides from MR Collision New Gisborne. Advice on collision repair costs, insurance claims, accident procedures and vehicle tips."
+    }
+  }
+}
