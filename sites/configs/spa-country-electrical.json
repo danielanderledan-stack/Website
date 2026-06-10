@@ -1,0 +1,300 @@
+{
+  "siteType": "electrician",
+  "businessName": "Spa Country Electrical",
+  "suburb": "Daylesford",
+  "phone": "0428 764 465",
+  "email": "info@spacountryelectrical.com.au",
+  "address": "Burgoyne Street, Vaughan, Victoria, 3451, Australia",
+  "tagline": "Daylesford's Trusted Electrician",
+  "primaryColor": "#00bfff",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#009ccc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Daylesford's Go-To Electricians",
+      "sub": "Family-owned, serving Central Highlands"
+    },
+    {
+      "title": "Rural, Domestic & Commercial Electrical",
+      "sub": "Free quotes across Daylesford & surrounds"
+    },
+    {
+      "title": "Lighting, Switchboards & More",
+      "sub": "Expert solutions for your home or business"
+    }
+  ],
+  "ctaHeading": "Daylesford's electricians are ready — let's power up your project.",
+  "aboutHeading": "15+ Years Electrical Service in Daylesford",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "Spa Country Electrical is a family-owned business operated by Lynal, Leonie, and their sons, providing comprehensive electrical services to Daylesford and the Central Highlands. With over 15 years of experience, we specialise in rural, domestic, and commercial electrical needs, ensuring safety and quality for every project in the region.",
+  "servicesHeading": "What We Do Best",
+  "servicesSubheading": "Comprehensive electrical solutions",
+  "servicesText": "From new lighting installations to switchboard upgrades, Spa Country Electrical offers a full range of electrical services in Daylesford. We provide free quotes, safety switch installations, and rewiring for old homes, all tailored to the Central Highlands region.",
+  "services": [
+    {
+      "title": "Lighting Installations",
+      "desc": "Expert installation of new lighting, sensor lights, and ceiling fans for homes and businesses.",
+      "longDesc": "Upgrade your Daylesford property with energy-efficient LED lighting, sensor lights for security, and ceiling fans for comfort. Our services include hard-wired smoke detectors and light dimmers.",
+      "points": [
+        "Energy-efficient solutions",
+        "Enhanced home security",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "Power Point & Wiring",
+      "desc": "Adding more power points, hard-wired smoke detectors, and surge protectors.",
+      "longDesc": "Increase your power capacity in Daylesford homes with additional power points, essential hard-wired smoke detectors, and surge protectors to safeguard your appliances from power surges.",
+      "points": [
+        "Increased power access",
+        "Safety compliance",
+        "Appliance protection"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrading old switchboards to modern safety switches and mains upgrades.",
+      "longDesc": "Ensure your Daylesford property's electrical safety with switchboard upgrades to safety switches, mains upgrades for better capacity, and compliance with Australian standards.",
+      "points": [
+        "Improved electrical safety",
+        "Compliant installations",
+        "Reliable power supply"
+      ]
+    },
+    {
+      "title": "Safety & Surge Protection",
+      "desc": "Installing safety switches and surge protectors to protect your family and devices.",
+      "longDesc": "Protect your Daylesford home from electrical faults with safety switches that save lives, and surge protectors that prevent damage from power surges in the Central Highlands.",
+      "points": [
+        "Life-saving protection",
+        "Device safety",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Rewiring Services",
+      "desc": "Complete rewiring of old homes, garages, and outbuildings in Daylesford.",
+      "longDesc": "Revitalise older Daylesford properties with full rewiring services, ensuring safe and reliable electrical systems for homes, garages, and rural outbuildings.",
+      "points": [
+        "Modern electrical systems",
+        "Enhanced safety",
+        "Increased property value"
+      ]
+    },
+    {
+      "title": "Underground Power Supply",
+      "desc": "New underground power supplies for rural and commercial properties.",
+      "longDesc": "Install new underground power supplies in Daylesford and surrounding areas, ideal for rural properties, enhancing aesthetics and reliability of electrical connections.",
+      "points": [
+        "Cleaner property look",
+        "Reduced outage risks",
+        "Tailored solutions"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Daylesford?",
+  "bannerSubheading": "No job too big or small — free quotes available.",
+  "testimonialsHeading": "What Daylesford Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Electrical Tips for Daylesford Homes",
+  "blogSubheading": "Expert advice from local electricians",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call us or send an email",
+  "reviews": [
+    {
+      "text": "Spa Country Electrical installed new LED lighting throughout our Daylesford home, and the difference is amazing. Their attention to detail and professional service made the whole process easy and efficient.",
+      "name": "John Mitchell",
+      "role": "Daylesford Homeowner"
+    },
+    {
+      "text": "We had our old switchboard upgraded to safety switches by Spa Country Electrical. They were prompt, knowledgeable, and the work was done to a high standard, ensuring our business safety.",
+      "name": "Sarah Thompson",
+      "role": "Local Business Owner in Hepburn Springs"
+    },
+    {
+      "text": "As a property manager, I rely on Spa Country Electrical for all electrical maintenance in the Central Highlands. Their reliability and quality work keep our properties safe and functional.",
+      "name": "David Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Daylesford",
+    "Hepburn Springs",
+    "Creswick",
+    "Clunes",
+    "Ballarat",
+    "Blampied",
+    "Leonards Hill"
+  ],
+  "about": {
+    "intro": "Spa Country Electrical is a family-owned electrical business serving Daylesford and the Central Highlands with reliable, professional services.",
+    "story": [
+      "Founded by Lynal and Leonie, Spa Country Electrical has been a cornerstone in Daylesford for over 15 years. Our family, including our sons, is dedicated to providing top-notch electrical solutions tailored to the unique needs of rural, domestic, and commercial clients in the region.",
+      "From our base in Vaughan, we proudly service Daylesford and surrounding areas, ensuring every project meets Australian safety standards. Our commitment to quality and customer satisfaction has made us the go-to electrician in the Central Highlands."
+    ],
+    "mission": "To deliver safe, efficient, and affordable electrical services to Daylesford and the Central Highlands.",
+    "whyUs": [
+      {
+        "title": "Family-Owned",
+        "text": "Personalised service with family values at the core of our work."
+      },
+      {
+        "title": "Licensed Electricians",
+        "text": "Fully qualified and insured for your peace of mind on every job."
+      },
+      {
+        "title": "Free Quotes",
+        "text": "No-obligation quotes for all electrical work in Daylesford."
+      },
+      {
+        "title": "Local Experts",
+        "text": "Deep knowledge of Daylesford and Central Highlands electrical needs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Spa Country Electrical in Daylesford, we offer transparent pricing with no hidden fees. Get a free quote today for your electrical project.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Installation",
+        "price": "from $300",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Lighting or power point install",
+          "Safety switch upgrade",
+          "Professional service",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Rewiring old homes",
+          "Switchboard overhaul",
+          "Underground power supply",
+          "Full electrical audit"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises, ensuring you know the cost before we start."
+  },
+  "contact": {
+    "intro": "Ready to start your electrical project in Daylesford? Contact Spa Country Electrical for a free, no-obligation quote. Call us on 0428 764 465 or email info@spacountryelectrical.com.au."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Switchboard Upgrade Cost in Daylesford?",
+      "date": "March 2026",
+      "excerpt": "Explore the costs and benefits of upgrading your switchboard to safety switches in Daylesford, including factors affecting price and Australian standards.",
+      "body": [
+        "Upgrading your switchboard is a critical electrical safety measure for any Daylesford home or business. With older properties common in the Central Highlands, ensuring your switchboard meets current Australian standards is essential. The cost of a switchboard upgrade in Daylesford typically ranges from $800 to $2,500, depending on the complexity, such as the number of circuits, type of safety switches required, and any additional wiring needed. Factors like the age of your property, existing electrical condition, and accessibility of the switchboard location can influence the final price. At Spa Country Electrical, we provide detailed quotes that break down all costs upfront, so you know exactly what to expect.",
+        "Safety switches, also known as residual current devices (RCDs), are now mandatory in most Australian homes and businesses. They protect against electrical fires and electrocutions by quickly cutting off power when a fault is detected. In Daylesford, where rural and older homes are prevalent, upgrading to safety switches is not just a legal requirement but a vital safety upgrade. Our electricians at Spa Country Electrical are fully licensed and experienced in installing modern switchboards that comply with AS/NZS 3000 standards. We ensure minimal disruption during the upgrade process, often completing the work in a single day.",
+        "When considering the cost, it's important to factor in long-term savings and safety. A new switchboard can improve the reliability of your electrical system, reduce the risk of faults, and potentially lower insurance premiums. For Daylesford residents, investing in a switchboard upgrade adds value to your property and ensures peace of mind. We recommend getting at least three quotes from licensed electricians in the area to compare prices and services. Spa Country Electrical offers free quotes, so you can make an informed decision without any pressure.",
+        "The installation process involves assessing your current electrical setup, removing the old switchboard, and installing a new one with appropriate safety switches. Our team handles all necessary paperwork and inspections to ensure compliance with local regulations. In the Central Highlands, where weather conditions can affect electrical systems, we also check for any weatherproofing needs, especially for rural properties. We use high-quality materials from reputable suppliers to guarantee durability and performance.",
+        "Common issues in Daylesford homes include outdated wiring, overloaded circuits, and lack of safety switches. During a switchboard upgrade, we often identify and address these related problems, providing a comprehensive electrical health check. This proactive approach prevents future issues and enhances the overall safety of your property. Our customers in Hepburn Springs and Creswick have praised our thoroughness and transparent communication throughout the process.",
+        "To get started, contact Spa Country Electrical for a free assessment of your switchboard. We'll explain the options, provide a detailed quote, and schedule the work at your convenience. Whether you're in Daylesford, Ballarat, or surrounding areas, our team is ready to help. Don't wait until an electrical fault occurs—upgrade your switchboard today for a safer, more efficient electrical system."
+      ]
+    },
+    {
+      "title": "Benefits of LED Lighting in Daylesford Homes",
+      "date": "February 2026",
+      "excerpt": "Discover how LED lighting can reduce energy costs and enhance comfort in Daylesford residences, with tips for choosing the right fixtures.",
+      "body": [
+        "LED lighting is revolutionising homes in Daylesford, offering significant energy savings and improved lighting quality. In the Central Highlands, where electricity costs can be high, switching to LED bulbs can reduce your energy bills by up to 80% compared to traditional incandescent bulbs. Daylesford's climate, with its cool winters and mild summers, makes efficient lighting essential for comfort and cost-effectiveness. At Spa Country Electrical, we recommend LED installations tailored to your home's needs, ensuring optimal brightness and style.",
+        "Beyond cost savings, LED lighting in Daylesford homes provides superior longevity, lasting up to 25 times longer than old bulbs. This means fewer replacements and less maintenance, which is ideal for rural properties where access might be limited. LED lights also emit less heat, making them safer for use in attics, garages, and outbuildings common in the area. Our installation services include hard-wired options and dimmer switches to customise your lighting ambiance.",
+        "When choosing LED lighting for your Daylesford property, consider factors like colour temperature (warm white for living areas, cool white for workspaces), lumens for brightness, and compatibility with existing fixtures. We advise on selecting energy-rated products that comply with Australian standards, ensuring safety and performance. For historic homes in Daylesford, we offer discreet installations that preserve the character while modernising the electrical system.",
+        "The installation process for LED lighting is straightforward but requires a licensed electrician to ensure safety, especially in older homes with outdated wiring. Spa Country Electrical handles all aspects, from assessing your current setup to installing new fixtures and wiring. We also provide advice on smart lighting systems that can be controlled via apps, adding convenience and further energy savings for Daylesford residents.",
+        "Common applications in Daylesford include outdoor sensor lights for security, indoor downlights for kitchens and bathrooms, and ceiling fans with integrated LED lights. Our team ensures that all installations meet the AS/NZS 3000 wiring rules, providing peace of mind. Customer feedback from Ballarat and Creswick highlights the immediate difference in light quality and reduction in electricity costs after our upgrades.",
+        "To explore LED lighting options for your Daylesford home, contact Spa Country Electrical for a free consultation. We'll assess your needs, recommend suitable products, and provide a detailed quote. With our expertise in the Central Highlands, we ensure your lighting upgrade is efficient, stylish, and tailored to local conditions."
+      ]
+    },
+    {
+      "title": "Why Safety Switches Save Lives in the Central Highlands",
+      "date": "January 2026",
+      "excerpt": "Learn about the importance of safety switches in preventing electrical accidents in Daylesford and nearby suburbs.",
+      "body": [
+        "Safety switches, or residual current devices (RCDs), are a non-negotiable safety feature for homes and businesses in Daylesford and the Central Highlands. They detect electrical faults and cut power in milliseconds, preventing electrocutions and fires. In Australia, safety switches are mandatory in new installations and upgrades, but many older Daylesford properties still lack them. At Spa Country Electrical, we emphasise their critical role in protecting families and assets.",
+        "The Central Highlands region, including Daylesford, has a mix of historic and modern properties, with rural settings that increase electrical risks from weather, pests, and aging wiring. Safety switches provide an essential layer of protection by monitoring electricity flow and instantly shutting off power if an imbalance is detected. This is particularly vital in wet areas like bathrooms and kitchens, or for outdoor circuits exposed to the elements.",
+        "Installing safety switches in Daylesford is a cost-effective upgrade that can save lives. The process involves upgrading your switchboard or adding dedicated circuits, which our licensed electricians at Spa Country Electrical perform efficiently. We use high-quality RCDs that comply with AS/NZS 3000 standards, ensuring reliability and durability. Most installations take a few hours, with minimal disruption to your daily routine.",
+        "Common misconceptions include that safety switches are expensive or unnecessary for older homes. In reality, the cost is minimal compared to the potential loss of life or property damage. For Daylesford residents, we offer free quotes to assess your current safety switch status and recommend upgrades. Our work in Hepburn Springs and Blampied has prevented numerous electrical incidents, underscoring their importance.",
+        "Beyond installation, we educate Daylesford customers on regular testing of safety switches using the built-in test button, which should be done monthly. This simple habit ensures the device is functioning correctly. In rural areas where power surges are common from storms or faults, safety switches add an extra layer of defence, protecting sensitive electronics and appliances.",
+        "To enhance the safety of your Daylesford property, contact Spa Country Electrical for a safety switch assessment. Our team will provide expert advice, install the necessary devices, and ensure your electrical system is up to standard. Don't compromise on safety—protect your home and family with reliable safety switches in the Central Highlands."
+      ]
+    },
+    {
+      "title": "Rewiring Old Homes in Daylesford: What You Need to Know",
+      "date": "December 2025",
+      "excerpt": "A guide to rewiring older properties in Daylesford, including costs, benefits, and compliance with Australian standards.",
+      "body": [
+        "Rewiring is a crucial upgrade for older homes in Daylesford, where many properties date back decades and may have outdated, unsafe wiring. In the Central Highlands, aging electrical systems pose fire and electrocution risks, especially with modern appliance loads. At Spa Country Electrical, we specialise in full rewiring services that bring Daylesford homes up to current Australian standards, ensuring safety and functionality.",
+        "The cost of rewiring a home in Daylesford varies based on size, complexity, and accessibility, typically ranging from $8,000 to $20,000. Factors include the number of rooms, type of wiring (copper is recommended), and any additional upgrades like switchboard replacements. We provide detailed quotes after a thorough inspection, explaining each cost component. For rural properties in the area, additional considerations like underground power may apply.",
+        "Benefits of rewiring include improved safety, increased property value, and compatibility with modern electronics. Old wiring in Daylesford homes often can't handle high-power devices, leading to overload and faults. Rewiring uses new cables, outlets, and circuits designed for today's needs, reducing energy waste and enhancing reliability. It's also an opportunity to install safety switches and surge protectors.",
+        "The rewiring process involves accessing walls, ceilings, and floors to replace old cables, which can be disruptive but necessary. Our team at Spa Country Electrical minimises mess and inconvenience, using efficient techniques and clean practices. We comply with AS/NZS 3000 wiring rules, ensuring all work is inspected and certified. For Daylesford's heritage homes, we offer discreet methods to preserve architectural integrity.",
+        "Common signs you need rewiring in Daylesford include flickering lights, frequent circuit breaker trips, burning smells, and old rubber or cloth-insulated wiring. If your home is over 30 years old, a professional assessment is recommended. We've rewired numerous properties in Creswick and Clunes, addressing issues like poor grounding and inadequate earthing, which are common in the region.",
+        "To start the rewiring journey for your Daylesford home, contact Spa Country Electrical for a free consultation. We'll assess your electrical system, outline the scope of work, and provide a transparent quote. With our local expertise, we ensure the project is completed on time, within budget, and to the highest standards of safety and quality."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Spa Country Electrical | Electrician in Daylesford | Rural & Domestic Services",
+      "description": "Spa Country Electrical provides expert electrician services in Daylesford, Central Highlands. Free quotes for lighting, switchboards, and rewiring. Call 0428 764 465."
+    },
+    "about": {
+      "title": "About Us | Daylesford's Family Electrician | Spa Country Electrical",
+      "description": "Learn about Spa Country Electrical, a family-owned electrician business serving Daylesford and Central Highlands with over 15 years experience."
+    },
+    "services": {
+      "title": "Electrical Services in Daylesford | Lighting, Switchboards & More",
+      "description": "Comprehensive electrical services in Daylesford: lighting installations, switchboard upgrades, rewiring, and safety switches by licensed electricians."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Prices in Daylesford | Spa Country Electrical",
+      "description": "Transparent pricing for electrician services in Daylesford. Free quotes for call-outs, installations, and major projects."
+    },
+    "contact": {
+      "title": "Contact Spa Country Electrical | Free Daylesford Electrician Quotes",
+      "description": "Get in touch with Spa Country Electrical for free electrical quotes in Daylesford. Call 0428 764 465 or email today."
+    },
+    "blog": {
+      "title": "Daylesford Electrical Blog | Tips & Guides | Spa Country Electrical",
+      "description": "Expert electrical advice for Daylesford residents. Guides on switchboard upgrades, LED lighting, safety switches, and more."
+    }
+  }
+}
