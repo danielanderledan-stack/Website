@@ -1,0 +1,300 @@
+{
+  "siteType": "hvac",
+  "businessName": "Abbey Boilers",
+  "suburb": "Horsham",
+  "phone": "03 5382 1234",
+  "email": "ADMIN@ABBEYBOILERS.COM",
+  "address": "24 Foundry Lane, Horsham VIC 3400",
+  "tagline": "Horsham's Central Heating Experts",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#0099CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Horsham's Trusted Boiler Specialists",
+      "sub": "Saving energy and money since 2008"
+    },
+    {
+      "title": "Boiler Repair & Installation in Horsham",
+      "sub": "Affordable, efficient heating solutions"
+    },
+    {
+      "title": "Upgrade Your Heating Controls",
+      "sub": "Reduce bills by up to $110 a year"
+    }
+  ],
+  "ctaHeading": "Ready to Upgrade Your Heating in Horsham?",
+  "aboutHeading": "Abbey Boilers: Horsham's Heating Experts Since 2008",
+  "aboutSubheading": "Local, reliable & energy-efficient solutions",
+  "aboutText": "Based in Horsham, Abbey Boilers has been helping homeowners reduce energy costs since 2008. Old boilers can cost more to run, but replacing them isn't always cost-effective. We specialize in installing modern heating controls like thermostats and programmers, which can save you up to $110 a year and cut carbon emissions by 320kg annually. Our expertise ensures your home stays warm and efficient.",
+  "servicesHeading": "Our Central Heating Services",
+  "servicesSubheading": "Expert solutions for Horsham homes",
+  "servicesText": "At Abbey Boilers, we offer comprehensive central heating services in Horsham, from boiler repairs to energy-efficient upgrades. Our team ensures your system runs smoothly, keeping your home comfortable all year round. Trust us for reliable, affordable heating solutions tailored to your needs.",
+  "services": [
+    {
+      "title": "Boiler Installation",
+      "desc": "We install new, energy-efficient boilers to keep your Horsham home warm and reduce energy bills.",
+      "longDesc": "Our boiler installation service in Horsham focuses on high-efficiency models that lower running costs and carbon footprint. We handle everything from removal to setup, ensuring minimal disruption to your household.",
+      "points": [
+        "Free quotes",
+        "Energy-efficient models",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "Heating System Repair",
+      "desc": "Expert repairs for all types of heating systems in Horsham, restoring warmth quickly and reliably.",
+      "longDesc": "Abbey Boilers provides fast and effective heating system repairs in Horsham, diagnosing issues with boilers, radiators, and controls. We use quality parts to ensure long-lasting performance and customer satisfaction.",
+      "points": [
+        "Rapid response",
+        "Quality parts",
+        "Guaranteed work"
+      ]
+    },
+    {
+      "title": "Thermostat Installation",
+      "desc": "Upgrade to accurate thermostats and programmers for better control over your home's heating in Horsham.",
+      "longDesc": "We install advanced thermostats and programmers in Horsham homes, allowing precise temperature control and energy savings. This upgrade can reduce heating bills and enhance comfort throughout the year.",
+      "points": [
+        "Accurate control",
+        "Lower energy costs",
+        "Easy to use"
+      ]
+    },
+    {
+      "title": "Energy Efficiency Audits",
+      "desc": "Comprehensive audits to improve your heating system's efficiency and save money in Horsham.",
+      "longDesc": "Our energy efficiency audits in Horsham assess your current heating setup and recommend upgrades like insulation or new controls. We help you achieve maximum savings and reduce environmental impact.",
+      "points": [
+        "Detailed assessment",
+        "Cost-saving tips",
+        "Eco-friendly solutions"
+      ]
+    },
+    {
+      "title": "Annual Boiler Servicing",
+      "desc": "Regular maintenance to keep your boiler running safely and efficiently in Horsham homes.",
+      "longDesc": "Abbey Boilers offers annual boiler servicing in Horsham to prevent breakdowns, ensure safety compliance, and maintain efficiency. Our thorough checks extend your boiler's lifespan and avoid costly repairs.",
+      "points": [
+        "Safety checks",
+        "Efficiency maintenance",
+        "Preventative care"
+      ]
+    },
+    {
+      "title": "Emergency Heating Repairs",
+      "desc": "24/7 emergency repairs for heating failures in Horsham, ensuring your home stays warm when needed.",
+      "longDesc": "We provide emergency heating repair services in Horsham, available around the clock to address sudden breakdowns. Our technicians arrive quickly to restore heat, minimizing discomfort and risk.",
+      "points": [
+        "24/7 availability",
+        "Fast response",
+        "Reliable fixes"
+      ]
+    }
+  ],
+  "bannerHeading": "Need Heating Help in Horsham?",
+  "bannerSubheading": "Abbey Boilers is here for all your central heating needs.",
+  "testimonialsHeading": "What Horsham Residents Say",
+  "testimonialsSubheading": "Trusted by locals for years",
+  "blogHeading": "Heating Tips and Advice for Horsham",
+  "blogSubheading": "Stay warm with our expert insights",
+  "contactHeading": "Get in Touch with Abbey Boilers",
+  "contactSubheading": "We're just a call away for free quotes",
+  "reviews": [
+    {
+      "text": "Abbey Boilers installed a new thermostat in my Horsham home, and my energy bills have dropped noticeably. The service was prompt and professional, saving me around $100 a year.",
+      "name": "Sarah Mitchell",
+      "role": "Horsham Homeowner"
+    },
+    {
+      "text": "As a property manager in Horsham, I rely on Abbey Boilers for annual servicing of multiple properties. Their team is reliable, and the pricing is fair. Highly recommend their services.",
+      "name": "James O'Connor",
+      "role": "Property Manager"
+    },
+    {
+      "text": "We had Abbey Boilers repair our old heating system in the middle of winter. They responded quickly and got everything working efficiently. Great local service in Horsham.",
+      "name": "Linda Chen",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Horsham",
+    "Dimboola",
+    "Rainbow",
+    "Warracknabeal",
+    "Nhill",
+    "St Arnaud"
+  ],
+  "about": {
+    "intro": "Abbey Boilers is Horsham's leading central heating service, dedicated to providing efficient and affordable boiler solutions since 2008.",
+    "story": [
+      "Founded in 2008, Abbey Boilers started as a small heating service in Horsham, Victoria. Over the years, we have grown to become the trusted choice for boiler repair, installation, and energy efficiency upgrades in the Wimmera region. Our commitment to quality and customer satisfaction has kept us at the forefront of the heating industry.",
+      "We specialize in helping Horsham homeowners reduce their energy costs by upgrading to modern heating controls. With the rising price of energy, our solutions like thermostats and programmers can save you up to $110 annually while cutting carbon emissions. Our certified technicians ensure every job is done right the first time."
+    ],
+    "mission": "To keep Horsham homes warm and energy-efficient through expert boiler services and innovative heating solutions.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We understand Horsham's heating needs and climate challenges."
+      },
+      {
+        "title": "Certified Technicians",
+        "text": "All our team members are fully qualified and insured."
+      },
+      {
+        "title": "Energy Savings",
+        "text": "We help you reduce bills with efficient upgrades."
+      },
+      {
+        "title": "Customer Focus",
+        "text": "Transparent pricing and no hidden fees guaranteed."
+      }
+    ],
+    "stats": [
+      {
+        "value": "16+",
+        "label": "Years in Horsham"
+      },
+      {
+        "value": "500+",
+        "label": "Boilers Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Abbey Boilers, we offer transparent pricing for all our heating services in Horsham. Get a free, no-obligation quote today to understand the costs upfront.",
+    "packages": [
+      {
+        "name": "Heating Consultation",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Expert advice",
+          "Fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Service",
+        "price": "from $350",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Boiler repair or tune-up",
+          "Safety check",
+          "Energy efficiency tips",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Installation",
+        "price": "from $3,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "New boiler installation",
+          "Removal of old unit",
+          "System setup",
+          "Post-installation support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden charges or lock-in contracts."
+  },
+  "contact": {
+    "intro": "Ready to improve your home's heating in Horsham? Contact Abbey Boilers today for a free, no-obligation quote. Our team is available 9 am–5 pm, Monday to Friday."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Boiler Replacement Cost in Horsham?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting boiler replacement costs in Horsham, including model, installation complexity, and potential energy savings for your home.",
+      "body": [
+        "When considering boiler replacement in Horsham, several factors influence the overall cost. The type of boiler you choose—whether a combi, system, or regular model—plays a significant role, with prices ranging from $2,000 to $5,000 for the unit itself. Installation costs in Horsham typically add $1,000 to $2,000, depending on the complexity of the job, such as relocating pipes or upgrading controls. Local labour rates in the Wimmera region are competitive, but always get multiple quotes to ensure fair pricing. Additionally, energy efficiency ratings can impact long-term savings, making it worth investing in a high-rated model despite higher upfront costs.",
+        "In Horsham, the climate demands reliable heating during cold winters, so choosing an efficient boiler is crucial. Australian standards require boilers to meet specific energy performance benchmarks, and we recommend models with a 4-star rating or above to maximize savings. The age and condition of your existing system can also affect replacement costs—if upgrades to pipework or controls are needed, this adds to the expense. For example, installing thermostatic radiator valves alongside a new boiler can enhance efficiency, potentially saving up to $110 annually on energy bills. Always factor in potential government rebates or incentives for energy-efficient upgrades in Victoria.",
+        "The installation process in Horsham involves several steps that contribute to the cost. First, a thorough assessment of your home's heating requirements is essential to size the boiler correctly. Our technicians at Abbey Boilers handle this with precision, ensuring optimal performance. Removing and disposing of the old boiler may incur additional fees, typically $200 to $500, but we include this in our quotes for transparency. Horsham properties, especially older homes, might need modifications to accommodate new systems, which can increase costs. We always provide detailed, itemized quotes so homeowners understand exactly what they're paying for, with no hidden surprises.",
+        "To minimize boiler replacement costs in Horsham, consider timing your installation during off-peak seasons, such as spring or summer, when demand is lower and prices may be more competitive. Regular maintenance can also extend your boiler's lifespan, delaying replacement. Energy audits are another way to identify inefficiencies before they lead to costly breakdowns. In Horsham, where temperatures can drop significantly, ensuring your boiler is efficient not only saves money but also enhances home comfort. We advise homeowners to explore financing options or payment plans that Abbey Boilers offers to make upgrades more accessible without compromising on quality.",
+        "When budgeting for boiler replacement in Horsham, don't overlook the long-term benefits of energy savings. A new, efficient boiler can reduce heating bills by 20% or more, translating to annual savings of $100 to $200 for an average household. This offset can make the initial investment worthwhile within a few years. In Horsham, with its cold winters, reliable heating is essential, so cutting corners on quality can lead to higher costs down the line. Always choose a reputable service like Abbey Boilers, which provides warranties and ongoing support, ensuring your investment is protected for years to come.",
+        "Finally, for Horsham residents, understanding boiler replacement costs involves balancing upfront expenses with long-term gains. By selecting the right model, hiring experienced professionals, and taking advantage of local incentives, you can achieve a cost-effective upgrade. Abbey Boilers specializes in guiding Horsham homeowners through this process, from initial consultation to final installation, ensuring your home stays warm and energy-efficient without breaking the bank. Contact us today for a personalized quote tailored to your specific needs and budget."
+      ]
+    },
+    {
+      "title": "Best Heating Controls for Horsham Winters: A Complete Guide",
+      "date": "February 2026",
+      "excerpt": "Explore the top heating controls to keep your Horsham home warm and energy-efficient during cold Australian winters.",
+      "body": [
+        "Horsham winters can be chilly, making effective heating controls essential for comfort and energy savings. The best options include smart thermostats, programmable timers, and thermostatic radiator valves (TRVs). Smart thermostats like Nest or Ecobee allow remote control via smartphone apps, learning your habits to optimize heating schedules. In Horsham, where temperatures often drop below 10°C, these devices can maintain consistent warmth while reducing unnecessary energy use. Programmable timers enable you to set heating times in advance, ensuring your home is warm when you wake up or return from work, without wasting energy during the day.",
+        "Thermostatic radiator valves (TRVs) are another valuable upgrade for Horsham homes, allowing room-by-room temperature control. This is particularly useful in larger houses or those with varying occupancy patterns. By adjusting heat in individual rooms, you can avoid overheating unused spaces, potentially saving up to $110 annually on energy bills, as per Energy Saving Trust data. In Horsham's climate, where heating demands fluctuate, TRVs provide flexibility and efficiency. Installation is straightforward, and when combined with a new boiler or system upgrade, they enhance overall performance and reduce carbon emissions by up to 320kg per year.",
+        "When selecting heating controls for Horsham, consider compatibility with your existing system. If you have an older boiler, upgrading to a modern programmer or thermostat can improve functionality without a full replacement. Abbey Boilers in Horsham recommends conducting an energy audit to identify the best solutions for your home. Factors like home insulation, window quality, and heating system age influence which controls will be most effective. For example, in well-insulated Horsham homes, smart thermostats can achieve greater savings, while older properties might benefit from TRVs to address heat loss in specific areas.",
+        "The cost of heating controls in Horsham varies, but investing in quality products pays off in the long run. Basic programmable timers may cost around $100 to $200, while advanced smart thermostats range from $200 to $400, including installation. TRVs typically cost $50 to $100 per valve, with installation adding to the expense. However, the energy savings in Horsham's cold winters can offset these costs within a year or two. Always choose products that meet Australian standards and come with warranties to ensure reliability and safety.",
+        "Installation of heating controls in Horsham should be done by certified professionals to ensure optimal performance. At Abbey Boilers, our technicians are trained to install and configure various systems, from basic timers to smart home integrations. We also provide guidance on usage, helping you maximize energy efficiency. In Horsham, where winter heating can account for a significant portion of household energy use, proper control setup is key to managing costs. Regular maintenance and updates are also important, as software updates for smart thermostats can introduce new features and improvements.",
+        "In summary, the best heating controls for Horsham winters combine technology, efficiency, and ease of use. By upgrading to smart thermostats, programmable timers, or TRVs, you can enjoy a warmer home with lower energy bills. Abbey Boilers is here to help Horsham residents choose and install the right controls, ensuring comfort and savings throughout the cold season. Contact us for a consultation to explore your options and start saving today."
+      ]
+    },
+    {
+      "title": "Energy Efficiency Tips to Cut Heating Bills in Horsham",
+      "date": "January 2026",
+      "excerpt": "Learn how to reduce your energy costs in Horsham with simple upgrades and maintenance tips for your central heating system.",
+      "body": [
+        "Reducing heating bills in Horsham starts with understanding your energy consumption patterns. In the Wimmera region, where winters are cold, heating can account for over 40% of household energy use. One of the most effective tips is to install a programmable thermostat or smart control, which allows you to schedule heating only when needed. This simple upgrade can save up to $110 annually, as per Energy Saving Trust estimates. In Horsham homes, ensuring your thermostat is accurately calibrated and placed away from drafts or heat sources maximizes its efficiency, leading to consistent temperature control and lower costs.",
+        "Another key tip is to maintain your heating system regularly. In Horsham, where boilers work hard during winter, annual servicing by professionals like Abbey Boilers ensures optimal performance. Tasks include bleeding radiators to remove air pockets, which improves heat distribution, and checking for leaks or inefficiencies. A well-maintained boiler operates at higher efficiency, reducing energy waste and extending its lifespan. Additionally, insulating your home—through cavity wall insulation, floor insulation, and draft-proofing—can cut heat loss by up to 50%, significantly lowering bills in Horsham's chilly climate.",
+        "Upgrading to energy-efficient components is a smart move for Horsham residents. Replacing old thermostatic radiator valves (TRVs) with modern ones allows room-by-room temperature control, preventing overheating in unused spaces. This can reduce energy use by 10% or more. In Horsham, where homes vary in age and construction, addressing specific areas like windows and doors with double glazing or seals further enhances efficiency. Financial incentives, such as Victoria's energy efficiency rebates, may be available for such upgrades, making them more affordable and increasing long-term savings.",
+        "Behavioral changes also play a role in cutting heating bills in Horsham. Simple actions like wearing warmer clothing indoors, using blankets, and lowering the thermostat by even 1°C can save around 10% on heating costs. In Horsham's cold winters, every bit counts, and combining these habits with technological upgrades amplifies the benefits. For families, setting heating schedules around daily routines—such as heating only in the morning and evening—can lead to substantial savings without compromising comfort. Abbey Boilers recommends tracking your energy bills to monitor progress and adjust strategies as needed.",
+        "For Horsham homeowners, investing in a new, high-efficiency boiler can yield significant long-term savings. Although the upfront cost may seem high, modern boilers with 90%+ efficiency ratings reduce gas consumption, leading to lower bills. In Horsham, where heating demands are high, this investment pays off within a few years. Additionally, consider solar water heating or heat pumps as alternative options, which can further decrease reliance on gas and electricity. Always consult with experts like Abbey Boilers to assess your home's suitability for such technologies in the Horsham context.",
+        "In conclusion, cutting heating bills in Horsham involves a mix of maintenance, upgrades, and mindful usage. By implementing these energy efficiency tips, you can enjoy a warmer home while saving money and reducing your environmental footprint. Abbey Boilers is committed to helping Horsham residents achieve these goals through expert advice and professional services. Contact us to start your journey towards lower energy costs and a more efficient home heating system."
+      ]
+    },
+    {
+      "title": "Emergency Heating Repair Services in Horsham: What to Do",
+      "date": "December 2025",
+      "excerpt": "Find out what steps to take when your heating fails in Horsham, and how Abbey Boilers can provide fast emergency repairs.",
+      "body": [
+        "When your heating fails in Horsham, especially during cold winter months, it's crucial to act quickly to ensure safety and comfort. The first step is to check for obvious issues, such as a tripped circuit breaker or a frozen condensate pipe, which are common problems in Horsham's chilly climate. If you have a gas boiler, smell for gas leaks and, if detected, evacuate the premises immediately and call the emergency services. For non-urgent repairs, try resetting the boiler as per the manufacturer's instructions. However, if the issue persists, it's time to contact a professional service like Abbey Boilers for emergency assistance.",
+        "Abbey Boilers offers 24/7 emergency heating repair services in Horsham, ensuring rapid response when you need it most. Our technicians are trained to handle a wide range of issues, from boiler breakdowns to control failures. In Horsham, where temperatures can drop significantly, a swift repair is essential to prevent discomfort and potential health risks. We prioritize emergency calls, typically arriving within a few hours, and carry common parts to fix many problems on the first visit. This minimizes downtime and gets your heating back on quickly.",
+        "During an emergency repair in Horsham, safety is paramount. Our team at Abbey Boilers conducts thorough inspections to identify the root cause of the problem, not just the symptoms. This approach ensures long-term reliability and prevents recurring issues. In Horsham homes, common emergencies include boiler lockouts, pressure drops, and thermostat malfunctions. We diagnose these efficiently, providing clear explanations and upfront cost estimates before proceeding with repairs. All work is guaranteed, giving you peace of mind that your heating system is in safe hands.",
+        "To prepare for heating emergencies in Horsham, consider preventive measures like regular servicing and installing carbon monoxide detectors. Abbey Boilers recommends annual maintenance to catch potential issues early, reducing the likelihood of sudden failures. In Horsham's winter, having a backup plan, such as portable heaters or warm clothing, can provide temporary relief while waiting for repairs. Additionally, keep our contact details handy and know your boiler's model and service history to expedite the repair process.",
+        "The cost of emergency heating repairs in Horsham varies depending on the issue, but Abbey Boilers provides transparent pricing with no hidden fees. Emergency call-out fees typically start from $150, with parts and labour additional. We offer fixed quotes after assessment, so you know the total cost upfront. In Horsham, where heating is essential, we balance affordability with quality, ensuring repairs are done right the first time. For peace of mind, we also offer service agreements that include priority emergency support.",
+        "In summary, knowing what to do during a heating emergency in Horsham can save time, money, and stress. By staying calm, checking basics, and calling trusted professionals like Abbey Boilers, you can resolve issues efficiently. Our emergency repair services are designed to keep Horsham homes warm and safe, even in the coldest conditions. Contact us anytime for prompt assistance and reliable heating solutions."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Abbey Boilers | Central Heating in Horsham | Boiler Services",
+      "description": "Horsham's trusted central heating service. Abbey Boilers offers boiler repair, installation, and energy efficiency upgrades. Save up to $110 a year."
+    },
+    "about": {
+      "title": "About Abbey Boilers | Horsham's Heating Experts Since 2008",
+      "description": "Discover Abbey Boilers, Horsham's leading central heating service since 2008. Expert boiler repair, installation, and energy-saving solutions."
+    },
+    "services": {
+      "title": "Central Heating Services in Horsham | Abbey Boilers",
+      "description": "Comprehensive central heating services in Horsham, including boiler installation, repair, and efficiency audits by Abbey Boilers."
+    },
+    "pricing": {
+      "title": "Heating Costs & Prices in Horsham | Abbey Boilers",
+      "description": "Transparent pricing for central heating services in Horsham. Get free quotes for boiler repairs, installations, and upgrades from Abbey Boilers."
+    },
+    "contact": {
+      "title": "Contact Abbey Boilers | Free Heating Quotes in Horsham",
+      "description": "Get in touch with Abbey Boilers in Horsham for free, no-obligation quotes on boiler services. Call or email today."
+    },
+    "blog": {
+      "title": "Horsham Heating Blog | Tips & Advice from Abbey Boilers",
+      "description": "Expert heating tips, cost guides, and advice for Horsham homeowners from Abbey Boilers. Stay warm and save energy."
+    }
+  }
+}
