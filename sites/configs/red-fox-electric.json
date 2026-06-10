@@ -1,0 +1,301 @@
+{
+  "siteType": "electrician",
+  "businessName": "Red Fox Electric",
+  "suburb": "Denver",
+  "phone": "720-520-0812",
+  "email": "info@redfoxelectric.com",
+  "address": "877 Wyandot St, Denver, CO 80204",
+  "tagline": "Denver's Trusted Electricians",
+  "primaryColor": "#6485ff",
+  "primaryColorRgb": "100, 133, 255",
+  "primaryColorHover": "#5270CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Powering Denver Homes & Businesses",
+      "sub": "Serving the Mile High City since 2012"
+    },
+    {
+      "title": "EV Chargers, Panels & Emergency Repairs",
+      "sub": "Licensed Colorado electricians for every job"
+    },
+    {
+      "title": "Licensed, Fast & Fully Insured",
+      "sub": "Free estimates across Denver and surrounding areas"
+    }
+  ],
+  "ctaHeading": "Denver's electricians are ready — let's power your project.",
+  "aboutHeading": "Denver's Electrical Experts Since 2012",
+  "aboutSubheading": "Licensed, Local & Reliable",
+  "aboutText": "Based at 877 Wyandot St in the heart of Denver, Red Fox Electric has been delivering expert electrical services across the Mile High City and surrounding Colorado communities for over a decade. From emergency electrical repairs and panel upgrades to EV charger installations and whole-home generators, our licensed team handles residential and commercial projects of every scale. We pride ourselves on transparent pricing, punctual service, and workmanship that meets Colorado's rigorous electrical codes — because Denver homeowners deserve an electrician they can rely on.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for Denver homes and businesses",
+  "servicesText": "At Red Fox Electric, we provide a full spectrum of electrical services to Denver homes and businesses. Whether you need emergency repairs, a panel upgrade, EV charger installation, or generator setup, our licensed Colorado electricians deliver safe, code-compliant solutions with transparent upfront pricing.",
+  "services": [
+    {
+      "title": "Electrical Diagnostics & Repairs",
+      "desc": "Expert troubleshooting and repair for all electrical faults, from flickering lights to faulty wiring and tripping circuits.",
+      "longDesc": "Our Denver electricians use advanced diagnostic tools to pinpoint electrical issues quickly and accurately. From damaged wiring and overloaded circuits to outlet failures, we fix the problem right the first time.",
+      "points": [
+        "Fast fault finding",
+        "Code-compliant repairs",
+        "Same-day service available"
+      ]
+    },
+    {
+      "title": "Emergency Electrician",
+      "desc": "24/7 emergency electrical services across Denver when you need immediate, safe solutions for urgent faults.",
+      "longDesc": "Electrical emergencies do not wait for business hours. Our emergency electricians respond fast across Denver, restoring power and safety to your home or business when critical faults arise.",
+      "points": [
+        "24/7 availability",
+        "Rapid response times",
+        "Safety-first approach"
+      ]
+    },
+    {
+      "title": "Electrical Panel Upgrades",
+      "desc": "Complete electrical panel replacement and upgrades for older Denver homes needing more capacity and safety.",
+      "longDesc": "Many Denver homes built before 1990 have outdated panels that cannot handle modern electrical loads. We upgrade your panel to meet current Colorado codes and support today's power demands.",
+      "points": [
+        "Up to current codes",
+        "Increased capacity",
+        "Boosts home value"
+      ]
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Professional Level 2 EV charger installation for Tesla, ChargePoint, and all major electric vehicle brands in Denver.",
+      "longDesc": "As Denver's EV adoption grows, we install home and commercial charging stations for all vehicle makes. Our installations include dedicated circuits, permits, and inspection-ready wiring.",
+      "points": [
+        "All EV brands supported",
+        "Permits handled",
+        "Future-proof wiring"
+      ]
+    },
+    {
+      "title": "Generator Installation",
+      "desc": "Standby and whole-home generator installation to keep your Denver property powered during Colorado's storms and outages.",
+      "longDesc": "Colorado's unpredictable weather means power outages are a real risk. We install and maintain whole-home generators that automatically kick in when the grid goes down.",
+      "points": [
+        "Automatic switchover",
+        "Backup within seconds",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Indoor & Outdoor Lighting",
+      "desc": "Lighting design and installation for Denver homes, from recessed LED upgrades to landscape and security lighting.",
+      "longDesc": "Transform your Denver home with expert lighting installations. We handle recessed lighting, pendant fixtures, landscape illumination, and security lighting — all energy-efficient and beautifully designed.",
+      "points": [
+        "LED energy savings",
+        "Custom light design",
+        "Security lighting options"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Denver?",
+  "bannerSubheading": "Fast, licensed electrical service across the Mile High City.",
+  "testimonialsHeading": "What Denver Customers Say",
+  "testimonialsSubheading": "Honest work, transparent pricing",
+  "blogHeading": "Denver Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from licensed Colorado electricians",
+  "contactHeading": "Get a Free Estimate Today",
+  "contactSubheading": "We will respond within the hour",
+  "reviews": [
+    {
+      "text": "Red Fox Electric upgraded the electrical panel at our Capitol Hill home and the whole process was seamless. They explained everything, completed the work in a single day, and our home is now safe for modern loads. Their panel upgrade service is second to none in Denver.",
+      "name": "Mike Johnson",
+      "role": "Capitol Hill Homeowner"
+    },
+    {
+      "text": "We hired Red Fox Electric to install two Level 2 EV chargers at our Five Points business. From the initial quote to final inspection, the process was smooth and efficient. They handled all permits and the chargers have been working flawlessly ever since.",
+      "name": "Sarah Chen",
+      "role": "Five Points Business Owner"
+    },
+    {
+      "text": "After a lightning storm caused a power failure at our Highland property, Red Fox Electric responded within the hour. They diagnosed the fault, completed repairs, and had us back up and running the same evening. Outstanding emergency electrician service when we needed it most.",
+      "name": "David Rodriguez",
+      "role": "Highland Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Capitol Hill",
+    "Five Points",
+    "Highland",
+    "Wash Park",
+    "Baker",
+    "Cherry Creek",
+    "City Park",
+    "Washington Park"
+  ],
+  "about": {
+    "intro": "Red Fox Electric is Denver's trusted electrical contractor, delivering safe, reliable, and code-compliant electrical services to homes and businesses across the Mile High City.",
+    "story": [
+      "Founded over a decade ago on Wyandot Street in Denver's vibrant west side, Red Fox Electric was built on a simple principle: every customer deserves honest, transparent electrical work without the runaround. Our founder saw too many Denver homeowners overcharged for substandard repairs, and set out to build a company that puts integrity first.",
+      "Today, our team of licensed Colorado electricians serves hundreds of residential and commercial clients each year across Denver and surrounding communities. From quick diagnostic callouts to complex panel upgrades and EV charger installations, we bring the same meticulous attention to detail and commitment to safety to every single job."
+    ],
+    "mission": "To keep Denver homes and businesses safe, powered, and running at peak electrical performance — every day.",
+    "whyUs": [
+      {
+        "title": "Licensed & Certified",
+        "text": "All electricians hold current Colorado licenses and undergo continuous training."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Upfront fixed quotes with no hidden fees or surprise charges on your bill."
+      },
+      {
+        "title": "Fast Response",
+        "text": "Same-day and emergency callouts across the greater Denver metro area."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "Every job backed by our comprehensive workmanship guarantee for your peace of mind."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years in Denver"
+      },
+      {
+        "value": "1,500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Colorado Licensed Electrician",
+      "Fully Insured",
+      "Free Estimates",
+      "Workmanship Guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Red Fox Electric, we offer upfront, transparent pricing for all our Denver electrical services. No lock-in contracts, no hidden fees — just honest quotes before we start any work.",
+    "packages": [
+      {
+        "name": "Diagnostic Call-Out",
+        "price": "$89",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site fault diagnosis",
+          "Upfront fixed quote",
+          "No obligation to proceed",
+          "Same-day availability"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician on-site",
+          "Parts and labour included",
+          "Code-compliant work",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Permits and inspections handled",
+          "Detailed written proposal"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — the price we quote is the price you pay, guaranteed."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact Red Fox Electric today for a free, no-obligation estimate on any electrical service across Denver. Call us or fill out the form and we will get back to you within the hour."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does an Electrical Panel Upgrade Cost in Denver, CO?",
+      "date": "March 2026",
+      "excerpt": "Discover the real cost of upgrading your electrical panel in Denver, including factors like amperage, permits, and Colorado code requirements that affect your final price.",
+      "body": [
+        "Upgrading your electrical panel is one of the most important investments a Denver homeowner can make, especially if your home was built before the 1990s. Older panels, particularly those rated at 60 or 100 amps, often struggle to handle the electrical demands of modern households with air conditioning, EV chargers, and multiple high-draw appliances running simultaneously. In Denver, where summer temperatures can push HVAC systems hard and winter storms test backup power systems, having an adequate electrical panel is not just a convenience — it is a safety necessity that protects your home and family from electrical fires and overload damage.",
+        "The cost of an electrical panel upgrade in Denver typically ranges from $1,500 to $4,000, depending on several critical factors. The size of the new panel plays a major role: upgrading from a 100-amp to a 200-amp panel is the most common request and usually falls in the $2,000 to $3,000 range. If your home requires a 400-amp service for heavy commercial equipment or large EV charging setups, costs can climb to $4,000 or more. Additional variables include the condition of your existing wiring, whether your meter base needs replacement, the complexity of the installation, and any upgrade requirements dictated by your local Denver utility provider.",
+        "Denver's building codes, aligned with the National Electrical Code and Colorado state requirements, mandate that all panel upgrades meet current safety standards. This means your electrician must pull permits from the City and County of Denver before beginning work, and the installation must pass a final inspection. While some homeowners are tempted to cut corners by hiring unlicensed contractors, the risks are severe — failed inspections can result in fines, insurance claim denials, and serious safety hazards. A licensed Denver electrician like Red Fox Electric handles all permitting, ensuring your upgrade is fully compliant and documented.",
+        "When budgeting for your panel upgrade, consider the long-term value it adds to your Denver property. A modern 200-amp panel not only supports current electrical demands but future-proofs your home for upcoming technologies like solar panel systems, battery storage, and additional EV chargers. Real estate agents in Denver consistently report that homes with upgraded electrical panels sell faster and at higher prices, making this a smart investment whether you plan to stay for decades or sell in the near future. The peace of mind alone — knowing your home's electrical system is safe and up to code — is worth every dollar.",
+        "Colorado's unique climate also factors into panel upgrade considerations. Denver's high altitude means thinner air, which can affect how electrical components dissipate heat. Additionally, the region's intense summer thunderstorms and occasional winter ice storms put extra stress on electrical systems. A properly sized, modern panel handles these environmental factors more effectively than aging equipment. At Red Fox Electric, we assess your home's specific needs — including climate-related considerations — and recommend the right panel size and configuration for optimal performance and safety year-round.",
+        "The panel upgrade process with Red Fox Electric typically takes one to two days. On the first day, we disconnect your old panel, install the new panel and meter base if needed, and ensure all wiring connections meet current code. A city inspector then verifies the installation before power is restored. Most Denver homeowners experience minimal disruption, and we always clean up thoroughly after the job is complete. If you are noticing signs that your panel needs upgrading — frequent breaker trips, flickering lights, a warm panel cover, or an outdated fuse box — contact us for a free assessment and upfront quote at your Denver home."
+      ]
+    },
+    {
+      "title": "EV Charger Installation Guide for Denver Homeowners",
+      "date": "February 2026",
+      "excerpt": "Everything Denver homeowners need to know about installing a Level 2 EV charger at home, including costs, permits, panel requirements, and the best charger brands for Colorado conditions.",
+      "body": [
+        "As Denver continues to lead Colorado's push toward electric vehicle adoption, more homeowners are realising that home EV charger installation is one of the smartest upgrades they can make. Having a dedicated Level 2 charging station means you wake up to a full battery every morning, eliminate range anxiety for your daily commute, and significantly reduce your carbon footprint. Denver's growing network of public chargers is helpful, but nothing beats the convenience and cost savings of charging at home — especially when Colorado's off-peak electricity rates make overnight charging incredibly affordable compared to public station fees.",
+        "A Level 2 EV charger operates on a 240-volt circuit, delivering roughly 25 to 30 miles of range per hour of charging — a massive upgrade from the 3 to 5 miles per hour you get from a standard 120-volt wall outlet. The most popular brands for Denver installations include Tesla Wall Connector, ChargePoint Home Flex, Grizzl-E, and Emporia. Each offers different features, but all require a dedicated circuit from your electrical panel. This is where many Denver homes hit a snag: if your current panel is already at capacity, you may need a panel upgrade before installation. Red Fox Electric evaluates your panel during the initial assessment to give you a complete picture of what is needed.",
+        "The total cost of home EV charger installation in Denver typically ranges from $800 to $2,500, depending on your electrical setup and charger choice. The charger itself costs between $300 and $700 for most Level 2 units, while installation labour — including running a new circuit, installing a dedicated breaker, and mounting the unit — adds $500 to $1,500. If a panel upgrade is required, that adds $1,500 to $3,000 on top. Denver requires permits for EV charger installations, and the work must pass inspection. Red Fox Electric handles all permitting and inspection coordination as part of our service, so you do not have to navigate Denver's building department alone.",
+        "Colorado and Denver offer significant incentives that reduce your out-of-pocket cost for EV charger installation. The federal tax credit covers 30% of charger costs (up to $1,000 for residential installations) under the Inflation Reduction Act. Xcel Energy, Denver's primary electricity provider, has offered rebates of up to $500 for qualifying Level 2 charger installations. Additionally, some Denver employers and workplaces offer EV charging incentives as part of their sustainability programs. Red Fox Electric stays current on all available incentives and will help you maximise your savings during the quoting process.",
+        "Denver's climate considerations for EV charger placement matter more than many homeowners realise. Colorado's cold winters can reduce battery efficiency, which makes having a reliable home charger even more critical for maintaining range. Outdoor installations should use chargers rated for extreme temperatures, and we recommend weatherproof enclosures for units mounted in exposed locations. Indoor garage installations are ideal for most Denver homes, protecting the charger from hail, snow, and UV exposure while keeping it easily accessible for daily use.",
+        "The installation timeline is refreshingly quick. Most Denver EV charger installations with Red Fox Electric are completed in a single day, from circuit installation to final testing. We schedule the city inspection, and once approved, your charger is ready for daily use. If you are considering an EV charger for your Denver home, start with a free assessment from Red Fox Electric. We will evaluate your electrical panel, recommend the best charger for your needs and budget, and provide a fixed quote that covers everything — no surprises, no hidden costs, just professional installation you can count on."
+      ]
+    },
+    {
+      "title": "When to Call an Emergency Electrician in Denver, CO",
+      "date": "January 2026",
+      "excerpt": "Learn the critical electrical emergencies Denver homeowners should never ignore, from power outages to burning smells, and when to call a licensed emergency electrician immediately.",
+      "body": [
+        "Electrical emergencies are among the most dangerous situations a Denver homeowner can face. Unlike a leaky tap or a broken window, electrical faults can escalate from minor inconveniences to life-threatening hazards in seconds. Sparks, burning smells, sudden power loss, and tripping breakers are not just annoyances — they are warning signs that something in your home's electrical system has gone seriously wrong. Knowing when to call an emergency electrician in Denver versus when to wait for a regular appointment could save your property, your belongings, and potentially your life.",
+        "Call an emergency electrician immediately if you notice any of these critical warning signs in your Denver home. A burning or melting smell coming from outlets, switches, or your electrical panel indicates overheating wiring that could ignite at any moment. Visible sparks when plugging in or using appliances signal dangerous arcing. If your circuit breaker keeps tripping repeatedly after you have reset it, a deeper fault exists that needs urgent diagnosis. Complete power loss to part or all of your home — especially if your neighbours still have power — suggests a serious electrical issue. And if you or anyone in your home receives an electric shock from touching an appliance or outlet, treat it as a medical and electrical emergency simultaneously.",
+        "Denver homes face particular electrical risks due to the region's climate and housing stock. Many Denver neighbourhoods feature homes built in the 1950s through 1980s, which may still have original wiring, outdated aluminium circuits, or Federal Pacific panels known for safety issues. Colorado's dramatic temperature swings cause wiring to expand and contract, potentially loosening connections over time. Summer thunderstorms bring lightning strikes and power surges that can damage electrical systems, while winter ice storms can down power lines and create dangerous conditions. These environmental factors make Denver homeowners especially vulnerable to electrical emergencies.",
+        "When you call Red Fox Electric for an emergency, our response protocol is designed for speed and safety. We prioritise emergency calls and aim to have a licensed electrician at your Denver property within one hour of your call. Our emergency team arrives equipped with full diagnostic tools and common replacement parts, allowing them to resolve most emergency situations on the first visit. We will make the area safe immediately, identify the root cause, and complete permanent repairs — all while keeping you informed throughout the process.",
+        "There are several things you should do while waiting for your emergency electrician to arrive. If you smell burning, turn off the main breaker if it is safe to access and evacuate anyone from the affected area. Never use water on an electrical fire — use a Class C fire extinguisher if you have one. Avoid touching any wet electrical outlets or switches. If part of your home has lost power but others have not, leave the breakers in their current position so the electrician can diagnose the fault accurately. Do not attempt DIY electrical repairs during an emergency — amateur work can cause electrocution, worsen the fault, or void your homeowner's insurance.",
+        "Red Fox Electric offers 24/7 emergency electrical service across Denver and surrounding communities, including Capitol Hill, Five Points, Highland, Wash Park, and Baker. Our emergency rates are competitive and transparent — you will know the cost before we begin any work. We also provide temporary solutions when needed, such as portable generator hookups or temporary wiring, to keep your home safe and functional while permanent repairs are scheduled. Save our number, 720-520-0812, in your phone now so it is ready when you need it most."
+      ]
+    },
+    {
+      "title": "Whole Home Generator Costs and Options in Denver, Colorado",
+      "date": "December 2025",
+      "excerpt": "A comprehensive guide to whole home generator installation in Denver, covering costs, fuel types, sizing, and why Colorado weather makes backup power essential.",
+      "body": [
+        "Colorado's front range experiences an average of 15 to 20 significant weather events per year that cause power outages — from summer hailstorms and lightning strikes to winter blizzards and high wind events. For Denver homeowners, a whole home generator is not a luxury; it is a practical safeguard that keeps your family safe, your refrigerated food fresh, your heating and cooling running, and your home's sump pump working during the storms that matter most. Unlike portable generators, a standby whole home generator activates automatically within seconds of a power outage, providing seamless backup electricity without any manual intervention.",
+        "The cost of a whole home generator in Denver typically ranges from $7,000 to $15,000 installed, depending on the generator size, fuel type, and installation complexity. A 14kW unit, sufficient for most Denver homes, runs approximately $7,000 to $9,000 installed. Larger 20kW to 24kW units, capable of powering larger homes with central air conditioning and multiple high-draw appliances, cost $10,000 to $15,000 installed. Natural gas generators are the most popular choice in Denver thanks to the city's reliable natural gas infrastructure, while propane generators serve homes without gas line access. Diesel generators are less common for residential use due to fuel storage requirements and noise levels.",
+        "Sizing your generator correctly is critical, and this is where a professional Denver electrician's expertise pays for itself. Undersized generators cannot handle your home's peak electrical demand, leading to overloaded systems and potential damage. Oversized generators cost more upfront and waste fuel during partial-load operation. At Red Fox Electric, we perform a detailed load assessment of your Denver home, accounting for all essential circuits plus high-demand appliances like air conditioners, electric water heaters, and shop equipment. We then recommend the optimal generator size that balances capability with efficiency, ensuring reliable backup without unnecessary expense.",
+        "Denver's building codes require permits for whole home generator installation, and the work must comply with both the City and County of Denver's electrical codes and Colorado's state regulations. Key requirements include proper placement (minimum distances from doors, windows, and property lines), professional natural gas or propane line connection, and a dedicated transfer switch that safely isolates your home from the grid during operation. Red Fox Electric handles all permits, utility coordination, and inspections as part of our installation service. We also ensure your generator installation meets HOA requirements where applicable, which is particularly important in Denver's many managed neighbourhoods.",
+        "Maintenance is an important ongoing consideration for Denver generator owners. Standby generators require regular oil changes, filter replacements, and annual professional inspections to remain reliable when you need them most. Natural gas generators generally require less maintenance than propane or diesel units, which is another reason they are the top choice for Denver homeowners. Red Fox Electric offers maintenance plans that include scheduled service visits, battery checks, and load testing to keep your generator in peak condition year-round. Many of our Denver customers find that the peace of mind alone justifies the modest annual maintenance investment.",
+        "If you are considering a whole home generator for your Denver property, start with a consultation from Red Fox Electric. We will assess your home's electrical needs, recommend the right generator size and fuel type, provide a detailed fixed-price quote, and handle the complete installation from permits to final inspection. With Colorado's storm season approaching, now is the ideal time to prepare. Contact us at 720-520-0812 to schedule your free generator assessment at your Denver home."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Red Fox Electric | Electrician in Denver, CO | Panels, EV Chargers & Repairs",
+      "description": "Red Fox Electric — Denver's trusted electrician. Electrical panel upgrades, EV charger installation, emergency repairs and generators. Licensed, insured, free estimates. Call 720-520-0812."
+    },
+    "about": {
+      "title": "About Red Fox Electric | Denver's Licensed Electrical Contractor",
+      "description": "Learn about Red Fox Electric, Denver's trusted electrical contractor with over a decade of experience in panel upgrades, EV chargers, generators and emergency repairs."
+    },
+    "services": {
+      "title": "Electrical Services in Denver, CO | Red Fox Electric",
+      "description": "Full-service electrical contractor in Denver — diagnostics, panel upgrades, EV chargers, generators, lighting and emergency repairs. Licensed Colorado electricians. Free quotes."
+    },
+    "pricing": {
+      "title": "Electrical Service Costs Denver | Red Fox Electric Pricing",
+      "description": "Transparent pricing for Denver electrical services. Diagnostic call-outs from $89, standard jobs from $250, major projects quoted upfront. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Red Fox Electric | Free Denver Electrician Quotes",
+      "description": "Get a free estimate from Red Fox Electric, Denver's trusted electrician. Call 720-520-0812 or request a quote online for fast, licensed electrical service."
+    },
+    "blog": {
+      "title": "Denver Electrical Tips and Guides | Red Fox Electric Blog",
+      "description": "Expert electrical advice for Denver homeowners — panel upgrade costs, EV charger guides, emergency tips and generator information from licensed Colorado electricians."
+    }
+  }
+}
