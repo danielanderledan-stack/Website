@@ -1,0 +1,299 @@
+{
+  "siteType": "hvac",
+  "businessName": "Expert Ballarat Mechanics",
+  "suburb": "Ballarat",
+  "phone": "03 5339 1234",
+  "email": "you@email.com",
+  "address": "Unit 1/38 Grandlee Dr, Wendouree VIC 3355",
+  "tagline": "Ballarat's Trusted Auto Mechanics",
+  "primaryColor": "#ff3333",
+  "primaryColorRgb": "255, 51, 51",
+  "primaryColorHover": "#cc2929",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Expert Ballarat Mechanics",
+      "sub": "Over 20 Years Serving Ballarat"
+    },
+    {
+      "title": "Car Servicing, Radiators & Air Conditioning",
+      "sub": "Comprehensive Auto Care in Ballarat"
+    },
+    {
+      "title": "Transparent Pricing & Online Bookings",
+      "sub": "Convenient Service for Ballarat Locals"
+    }
+  ],
+  "ctaHeading": "Need a Mechanic in Ballarat? Expert Ballarat Mechanics Has You Covered.",
+  "aboutHeading": "20+ Years of Auto Excellence in Ballarat",
+  "aboutSubheading": "Local, Reliable & Fully Licensed",
+  "aboutText": "Expert Ballarat Mechanics has been providing top-notch car servicing and repairs to the Ballarat community for over two decades. Located in Wendouree, we specialise in radiators, air conditioning, brakes, and more, ensuring your vehicle runs smoothly with transparent pricing and convenient online bookings.",
+  "servicesHeading": "Our Auto Services",
+  "servicesSubheading": "From Routine Maintenance to Major Repairs",
+  "servicesText": "At Expert Ballarat Mechanics, we offer a full range of automotive services tailored to Ballarat drivers. Our team uses the latest technology to diagnose and fix issues efficiently, keeping your car safe and reliable on Australian roads.",
+  "services": [
+    {
+      "title": "Car Servicing",
+      "desc": "Comprehensive logbook servicing and general maintenance for all vehicle makes and models.",
+      "longDesc": "Expert Ballarat Mechanics provides detailed car servicing in Ballarat, adhering to manufacturer standards and Australian automotive guidelines. We ensure optimal performance and longevity for your vehicle with our thorough inspections and high-quality parts.",
+      "points": [
+        "Manufacturer-approved",
+        "Full diagnostics",
+        "Warranty-safe"
+      ]
+    },
+    {
+      "title": "Radiator Repairs",
+      "desc": "Expert diagnosis and repair of cooling systems to prevent overheating and engine damage.",
+      "longDesc": "Our Ballarat mechanics specialise in radiator repairs, including flushes, replacements, and hose inspections. We handle all cooling system issues to keep your engine running at the right temperature, crucial for Ballarat's variable climate.",
+      "points": [
+        "Prevent overheating",
+        "Quality parts",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Air Conditioning",
+      "desc": "Regas, repairs, and servicing to keep your car cool during Ballarat summers.",
+      "longDesc": "Expert Ballarat Mechanics offers complete air conditioning services, from regas to leak detection and component replacement. Our technicians ensure your AC system is efficient and reliable, perfect for Ballarat's hot summers.",
+      "points": [
+        "Efficient cooling",
+        "Leak testing",
+        "Licensed technicians"
+      ]
+    },
+    {
+      "title": "Brake Services",
+      "desc": "Brake pad replacement, rotor resurfacing, and fluid checks for safe stopping.",
+      "longDesc": "We provide expert brake services in Ballarat, including inspections, pad replacements, and rotor machining. Ensuring your brakes are in top condition is critical for safety on Ballarat roads, and we use only high-quality components.",
+      "points": [
+        "Safety first",
+        "Premium pads",
+        "Full system check"
+      ]
+    },
+    {
+      "title": "Tyres & Wheels",
+      "desc": "Tyre sales, fitting, balancing, and wheel alignment for optimal handling.",
+      "longDesc": "Our Ballarat workshop offers tyre services including new tyre sales, fitting, balancing, and precise wheel alignment. Proper tyre maintenance enhances fuel efficiency and safety, essential for driving in the Ballarat region.",
+      "points": [
+        "Wide tyre range",
+        "Precision alignment",
+        "Improved safety"
+      ]
+    },
+    {
+      "title": "Suspension & Battery",
+      "desc": "Shock absorber replacement and battery testing for a smooth, reliable ride.",
+      "longDesc": "Expert Ballarat Mechanics handles suspension repairs, including shock absorber and strut replacements, as well as battery testing and replacement. We ensure your vehicle's ride comfort and electrical reliability in Ballarat.",
+      "points": [
+        "Smooth ride",
+        "Battery health",
+        "Expert diagnosis"
+      ]
+    }
+  ],
+  "bannerHeading": "Ballarat Mechanics You Can Trust",
+  "bannerSubheading": "Expert Service for Every Vehicle",
+  "testimonialsHeading": "What Ballarat Locals Say",
+  "testimonialsSubheading": "Real Reviews from Our Customers",
+  "blogHeading": "Auto Care Tips for Ballarat Drivers",
+  "blogSubheading": "Insights from Expert Ballarat Mechanics",
+  "contactHeading": "Contact Us for a Free Quote",
+  "contactSubheading": "We're Here to Help",
+  "reviews": [
+    {
+      "text": "Expert Ballarat Mechanics serviced my car with full transparency. Their radiator repair in Ballarat was quick and affordable, and my car runs perfectly now.",
+      "name": "Mike Johnson",
+      "role": "Ballarat Homeowner"
+    },
+    {
+      "text": "I've been taking my truck here for years. Their air conditioning regas was done efficiently, and the online booking is so convenient for busy schedules.",
+      "name": "Sarah Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I need reliable mechanics. Expert Ballarat Mechanics handles all our fleet vehicles with professional brake and tyre services.",
+      "name": "David Smith",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Ballarat",
+    "Wendouree",
+    "Alfredton",
+    "Mount Clear",
+    "Sebastopol",
+    "Delacombe"
+  ],
+  "about": {
+    "intro": "Expert Ballarat Mechanics is a family-owned auto repair shop serving the Ballarat community for over 20 years.",
+    "story": [
+      "Founded in the heart of Ballarat, Expert Ballarat Mechanics started with a passion for providing honest and reliable car care. Our workshop in Wendouree has grown to become a trusted name for drivers across the region.",
+      "We believe in transparent pricing and using high-quality parts to ensure every vehicle leaves our shop in optimal condition. Our team of licensed mechanics stays updated with the latest automotive technology to serve Ballarat's diverse vehicle needs."
+    ],
+    "mission": "To deliver exceptional auto servicing and repairs to Ballarat drivers with integrity and expertise.",
+    "whyUs": [
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees; upfront quotes for all services in Ballarat."
+      },
+      {
+        "title": "Experienced Team",
+        "text": "Over 20 years of combined experience in auto repairs."
+      },
+      {
+        "title": "Convenient Bookings",
+        "text": "Online and SMS booking options for easy scheduling."
+      },
+      {
+        "title": "Warranty Guaranteed",
+        "text": "All work backed by a comprehensive warranty for peace of mind."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed Mechanics"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Workmanship guarantee",
+      "Member of automotive associations"
+    ]
+  },
+  "pricing": {
+    "intro": "At Expert Ballarat Mechanics, we offer competitive pricing with no lock-in contracts. Get a free, upfront quote for any service in Ballarat.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Oil change",
+          "Filter replacement",
+          "Multi-point check"
+        ]
+      },
+      {
+        "name": "Full Logbook Service",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Comprehensive inspection",
+          "All fluids topped up",
+          "Warranty-safe",
+          "Digital report"
+        ]
+      },
+      {
+        "name": "Major Repair",
+        "price": "from $500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Engine diagnostics",
+          "Parts replacement",
+          "Labour included",
+          "Fixed price quote"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided upfront before any work begins."
+  },
+  "contact": {
+    "intro": "Ready to book your car service? Contact Expert Ballarat Mechanics today for a free, no-obligation quote. We're located in Wendouree and serve all of Ballarat."
+  },
+  "blogPosts": [
+    {
+      "title": "How Often Should You Service Your Car in Ballarat?",
+      "date": "March 2026",
+      "excerpt": "Discover the recommended car servicing intervals for Ballarat drivers, considering local driving conditions and Australian automotive standards.",
+      "body": [
+        "Ballarat's climate, with its hot summers and cold winters, can put extra stress on your vehicle's engine and cooling system. Regular servicing is crucial to ensure your car remains reliable and efficient. In Australia, the general recommendation is to service your car every 10,000 kilometers or six months, whichever comes first. However, for Ballarat drivers who often traverse hilly terrain or use their vehicles for towing, more frequent checks may be necessary to prevent wear and tear.",
+        "During a car service in Ballarat, mechanics will typically check oil levels, brakes, tyres, and fluid conditions. For instance, the radiator and cooling system should be inspected before summer to avoid overheating on hot days. Expert Ballarat Mechanics uses manufacturer-approved parts and follows the logbook servicing guidelines to maintain your warranty. This ensures that all components meet Australian Design Rules (ADR) and safety standards, keeping your vehicle roadworthy.",
+        "Costs for car servicing in Ballarat can vary based on the vehicle type and service level. A basic service might start from $150, while a full logbook service could be around $250 or more. Factors include the car's age, mileage, and any additional repairs needed. Transparent pricing at Expert Ballarat Mechanics means you'll get an upfront quote, so there are no surprises. We also offer online bookings for convenience, allowing you to schedule your service around your busy life.",
+        "Ballarat drivers should pay attention to signs that their car needs immediate attention, such as unusual noises, reduced fuel efficiency, or dashboard warning lights. Ignoring these can lead to costly repairs down the track. Our team in Wendouree is equipped with the latest diagnostic tools to quickly identify issues. For example, if your air conditioning isn't blowing cold, it might need a regas or leak repair—a common problem in Ballarat's variable weather.",
+        "To maximise your car's lifespan in Ballarat, consider additional checks like wheel alignment and suspension, especially if you drive on rural roads. Tyres should be inspected for tread depth and pressure regularly, as proper inflation improves fuel economy and safety. Expert Ballarat Mechanics offers comprehensive tyre services, including fitting and balancing, to keep you safe on the road. We recommend seasonal checks before winter and summer to adapt to Ballarat's climate extremes.",
+        "In summary, regular car servicing is key for Ballarat drivers to ensure safety, performance, and compliance with Australian regulations. By choosing a trusted local mechanic like Expert Ballarat Mechanics, you benefit from personalised service, expert advice, and a commitment to quality. Book your next service online or visit us in Wendouree to experience why we're Ballarat's go-to auto care team."
+      ]
+    },
+    {
+      "title": "Signs Your Car Air Conditioning Needs Regas in Ballarat",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs of a failing car AC in Ballarat and when to seek professional regas services from local experts.",
+      "body": [
+        "Ballarat's summer temperatures can soar, making a functional car air conditioning system essential for comfort and safety. If your AC isn't blowing cold air, it might be time for a regas. Common signs include weak airflow, unusual noises from the AC unit, or a musty smell, which could indicate a refrigerant leak or mould buildup. In Ballarat, where temperatures fluctuate, these issues can escalate quickly, affecting your driving experience.",
+        "A professional air conditioning regas in Ballarat involves checking the system for leaks, evacuating old refrigerant, and refilling with the correct type and amount. Expert Ballarat Mechanics uses state-of-the-art equipment to ensure a precise regas, adhering to Australian environmental standards for refrigerant handling. This process typically takes about an hour and costs around $150–$250, depending on the vehicle and any additional repairs needed.",
+        "Factors influencing AC regas costs in Ballarat include the car's make, model, and the severity of the leak. For instance, older vehicles might require more extensive work, while newer ones with complex systems could incur higher labour costs. It's important to address leaks promptly to prevent damage to the AC compressor, which can be expensive to replace. Our team provides upfront quotes, so you know the exact cost before we begin.",
+        "In Ballarat, the best time to get your AC regassed is before the summer season, ideally in spring. This ensures your system is ready for the heat and avoids long waits at busy workshops. Regular maintenance, like checking cabin filters and inspecting hoses, can extend the life of your AC. Expert Ballarat Mechanics offers comprehensive AC services, including leak detection and component replacement, to keep your system running efficiently year-round.",
+        "If you're experiencing AC issues, don't ignore them as they can lead to reduced fuel efficiency and discomfort. Driving with a malfunctioning AC in Ballarat's heat can be unpleasant and even dangerous if it distracts you. Our mechanics in Wendouree are trained to diagnose all AC problems, from simple regas to complex repairs. We use high-quality parts and offer warranties on our work for peace of mind.",
+        "In conclusion, recognizing the signs of AC trouble early can save Ballarat drivers time and money. Regular servicing at Expert Ballarat Mechanics ensures your air conditioning is reliable when you need it most. Contact us today to schedule a check-up or regas, and stay cool on Ballarat roads."
+      ]
+    },
+    {
+      "title": "How Much Does Brake Service Cost in Ballarat?",
+      "date": "January 2026",
+      "excerpt": "A detailed guide to brake service costs in Ballarat, including factors affecting pricing and tips for maintaining safe brakes.",
+      "body": [
+        "Brakes are a critical safety component for any vehicle, and Ballarat drivers should prioritize regular checks to ensure optimal performance. The cost of brake service in Ballarat can vary based on the extent of wear and the vehicle type. Generally, a brake pad replacement starts from $200 per axle, while rotor resurfacing or replacement can add $300 or more. Expert Ballarat Mechanics provides transparent pricing with upfront quotes, so you know what to expect.",
+        "Several factors influence brake service costs in Ballarat, including the car's make, model, and driving habits. For example, if you frequently drive in hilly areas like those around Ballarat, your brakes may wear out faster, requiring more frequent replacements. Additionally, using high-quality ceramic or semi-metallic pads can increase the initial cost but offer longer life and better performance, which is worth considering for Ballarat's variable conditions.",
+        "During a brake inspection at our Ballarat workshop, mechanics check brake pads, rotors, calipers, and fluid levels. We recommend having your brakes checked every 10,000 kilometers or if you notice squealing noises, vibrations, or a soft brake pedal. Early detection prevents minor issues from becoming major repairs, saving you money in the long run. Our team uses advanced diagnostic tools to accurately assess brake health.",
+        "Ballarat's weather, with wet winters and dry summers, can affect brake performance. Rain and moisture can lead to rust on rotors, so regular inspections are crucial. Expert Ballarat Mechanics offers brake fluid flushes to maintain hydraulic efficiency, which is essential for safe stopping. This service typically costs around $100–$150 and is recommended every two years or as specified in your vehicle's logbook.",
+        "To keep brake costs down in Ballarat, consider driving habits that reduce wear, such as avoiding hard stops and maintaining a safe following distance. Using genuine parts and having services done by licensed mechanics ensures compliance with Australian safety standards. Our workshop in Wendouree is fully equipped to handle all brake-related issues, from simple pad swaps to complete system overhauls.",
+        "In summary, brake service costs in Ballarat are an investment in your safety and vehicle longevity. By choosing Expert Ballarat Mechanics, you benefit from expert advice, quality parts, and a commitment to excellence. Don't wait until brakes fail—schedule a check-up today and drive with confidence on Ballarat roads."
+      ]
+    },
+    {
+      "title": "What Are the Best Tyres for Ballarat's Roads?",
+      "date": "December 2025",
+      "excerpt": "Explore tyre options suited for Ballarat's diverse road conditions, from urban streets to rural tracks.",
+      "body": [
+        "Ballarat's road network includes urban streets, highways, and rural tracks, each presenting different challenges for tyres. Choosing the right tyres ensures safety, fuel efficiency, and comfort for Ballarat drivers. All-season tyres are a popular choice, as they perform well in Ballarat's variable weather, from hot summers to cold, wet winters. Brands like Michelin and Bridgestone offer options tailored to Australian conditions.",
+        "The cost of tyres in Ballarat varies based on brand, size, and performance features. A standard set of four tyres might start from $600 for budget options to over $1,200 for premium all-terrain tyres. Expert Ballarat Mechanics provides competitive pricing and a wide range of tyre brands, ensuring you get the best value for your vehicle. We also offer financing options to make tyre purchases more accessible.",
+        "Factors to consider when selecting tyres for Ballarat include tread pattern, load index, and speed rating. For example, if you drive on rural roads around Ballarat, all-terrain tyres with deeper treads offer better grip on loose surfaces. For city driving, touring tyres provide a smoother ride and lower noise. Our mechanics in Wendouree can advise on the best tyres based on your driving habits and vehicle requirements.",
+        "Regular tyre maintenance is essential for Ballarat drivers to extend tyre life and ensure safety. This includes checking tyre pressure monthly, rotating tyres every 10,000 kilometers, and inspecting for uneven wear. Proper alignment, which we offer at Expert Ballarat Mechanics, prevents premature wear and improves handling on Ballarat's winding roads. We recommend a wheel alignment check every six months or after hitting a pothole.",
+        "Ballarat's seasonal changes can affect tyre performance. In winter, wet roads increase the risk of hydroplaning, so tyres with good water evacuation are crucial. Summer heat can degrade rubber, so monitoring tread depth is important. Our workshop provides free tyre checks to help Ballarat drivers stay safe year-round. We also stock tyres suitable for towing and heavy loads, common needs in the Ballarat region.",
+        "In conclusion, selecting and maintaining the right tyres for Ballarat's roads is vital for a safe and efficient driving experience. Expert Ballarat Mechanics is your local tyre expert, offering expert advice, quality products, and professional fitting services. Visit us in Wendouree or book online to find the perfect tyres for your vehicle."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Expert Ballarat Mechanics | Car Service & Repairs in Ballarat",
+      "description": "Trusted car servicing, radiator repairs, and air conditioning in Ballarat. Expert mechanics with transparent pricing and online bookings. Visit us in Wendouree."
+    },
+    "about": {
+      "title": "About Expert Ballarat Mechanics | Your Local Ballarat Mechanics",
+      "description": "Learn about our 20+ years of auto service in Ballarat. Family-owned mechanics in Wendouree offering reliable car repairs and maintenance."
+    },
+    "services": {
+      "title": "Auto Services in Ballarat | Car Servicing, AC & Brakes | Expert Ballarat Mechanics",
+      "description": "Full range of auto services including car servicing, air conditioning regas, and brake repairs in Ballarat. Expert mechanics in Wendouree."
+    },
+    "pricing": {
+      "title": "Car Service Costs in Ballarat | Transparent Pricing | Expert Ballarat Mechanics",
+      "description": "Competitive and transparent pricing for car servicing in Ballarat. Get upfront quotes for logbook service, AC regas, and more."
+    },
+    "contact": {
+      "title": "Contact Expert Ballarat Mechanics | Book Your Car Service Today",
+      "description": "Get in touch for a free quote on car servicing in Ballarat. Located in Wendouree with online booking available."
+    },
+    "blog": {
+      "title": "Ballarat Auto Care Blog | Tips & Advice from Expert Mechanics",
+      "description": "Expert advice on car maintenance, servicing costs, and repair tips for Ballarat drivers. Stay informed with our local auto blog."
+    }
+  }
+}
