@@ -1,0 +1,254 @@
+{
+  "siteType": "landscaper",
+  "businessName": "JS Landscaping",
+  "suburb": "South Yarra",
+  "phone": "0412 345 678",
+  "email": "info@jslandscaping.com.au",
+  "address": "123 Toorak Road, South Yarra VIC 3141",
+  "tagline": "South Yarra's Premier Landscape Designers",
+  "primaryColor": "#22c55e",
+  "primaryColorRgb": "34, 197, 94",
+  "primaryColorHover": "#16a34a",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Yarra's Premier Landscapers",
+      "sub": "Crafting stunning gardens since 2010"
+    },
+    {
+      "title": "Expert Garden Design & Installation",
+      "sub": "Bespoke landscapes for Melbourne's inner east"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free consultations across South Yarra & surrounds"
+    }
+  ],
+  "ctaHeading": "South Yarra's landscapers are ready — let's transform your outdoor space.",
+  "aboutHeading": "14 Years Landscaping in South Yarra",
+  "aboutSubheading": "Local, creative & committed",
+  "aboutText": "For over 14 years, JS Landscaping has been transforming gardens across South Yarra and Melbourne's prestigious inner-east suburbs. Our team of qualified designers and horticulturists specialise in creating bespoke outdoor living spaces, from lush cottage gardens to modern, low-maintenance xeriscapes. We combine local horticultural knowledge with creative design to build gardens that thrive in Melbourne's unique climate.",
+  "servicesHeading": "Our Landscaping Services",
+  "servicesSubheading": "Crafted for Melbourne's inner east",
+  "servicesText": "From initial concept to final mulch, we manage every aspect of your garden project in South Yarra. Our comprehensive services ensure your outdoor space is beautiful, functional, and perfectly suited to your lifestyle and the local environment.",
+  "services": [
+    {
+      "title": "Landscape Design",
+      "desc": "Bespoke garden design tailored to your South Yarra property, lifestyle, and local climate.",
+      "longDesc": "Our expert designers create detailed, personalised plans for your South Yarra garden. We consider soil type, microclimates, and your vision to craft a cohesive, beautiful, and sustainable outdoor space.",
+      "points": [
+        "Personalised design concepts",
+        "3D visualisations",
+        "Sustainable planting schemes"
+      ]
+    },
+    {
+      "title": "Garden Installation",
+      "desc": "Professional installation of plants, turf, garden beds, and complete landscape transformations.",
+      "longDesc": "Our skilled crew brings your South Yarra garden design to life. We handle everything from soil preparation and drainage to planting mature trees, ensuring a flawless finish that establishes quickly.",
+      "points": [
+        "Quality plant stock",
+        "Expert soil preparation",
+        "Meticulous installation"
+      ]
+    },
+    {
+      "title": "Retaining Walls & Fencing",
+      "desc": "Functional and aesthetic stone, timber, or rendered retaining walls and privacy screens.",
+      "longDesc": "Perfect for South Yarra's sloped blocks, we build durable, attractive retaining walls using moss rock, sandstone, or timber. We also install privacy fencing and screens to enhance your garden's seclusion.",
+      "points": [
+        "Sloped block solutions",
+        "Natural & rendered options",
+        "Integrated planting"
+      ]
+    },
+    {
+      "title": "Irrigation Systems",
+      "desc": "Efficient, automated watering systems designed to keep your garden lush with minimal waste.",
+      "longDesc": "We install smart, water-efficient irrigation systems for South Yarra gardens. Using drip lines and weather-based controllers, we ensure your plants receive precise hydration, saving water and time.",
+      "points": [
+        "Water-saving technology",
+        "Smart system control",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "Mulching & Garden Beds",
+      "desc": "Weed suppression and soil health with premium organic mulches and custom garden bed builds.",
+      "longDesc": "Protect your South Yarra garden beds and enhance soil health with our professional mulching service. We install custom-edged beds and apply high-quality organic mulches to suppress weeds and retain moisture.",
+      "points": [
+        "Premium organic mulches",
+        "Weed suppression",
+        "Improved soil health"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Regular pruning, shaping, clean-ups, and seasonal care to keep your garden in peak condition.",
+      "longDesc": "Our maintenance teams keep South Yarra gardens looking immaculate year-round. From seasonal pruning and lawn care to green waste removal, we offer flexible schedules to suit your needs.",
+      "points": [
+        "Flexible scheduling",
+        "Seasonal expertise",
+        "Comprehensive care"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Landscaper in South Yarra?",
+  "bannerSubheading": "Get a free design consultation and quote today.",
+  "testimonialsHeading": "What South Yarra Locals Say",
+  "testimonialsSubheading": "Beautiful gardens, happy clients",
+  "blogHeading": "South Yarra Garden Guides & Advice",
+  "blogSubheading": "Local tips from our landscaping experts",
+  "contactHeading": "Get a Free Landscape Design",
+  "contactSubheading": "Let's discuss your South Yarra garden",
+  "reviews": [
+    {
+      "text": "JS Landscaping completely transformed our small South Yarra courtyard into a stunning, low-maintenance oasis. Their design was creative and perfectly suited the tight space, and the installation team was meticulous. We couldn't be happier with the result.",
+      "name": "Sarah Thompson",
+      "role": "South Yarra Homeowner"
+    },
+    {
+      "text": "We hired JS Landscaping for a full garden overhaul at our Toorak Road office. They managed the entire project seamlessly, creating a welcoming entrance and functional outdoor seating area. Their professionalism and attention to detail were outstanding.",
+      "name": "Michael O'Brien",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Jose and his team at JS Landscaping did an exceptional job building a tiered stone retaining wall and new garden beds for our sloped Richmond property. Their knowledge of local plants and practical solutions was impressive. Highly recommended.",
+      "name": "James Wu",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "South Yarra",
+    "Toorak",
+    "Richmond",
+    "Hawthorn",
+    "Armadale",
+    "Prahran",
+    "Malvern"
+  ],
+  "pricing": {
+    "intro": "We provide transparent, no-obligation quotes for all South Yarra landscaping projects. Every garden is unique, so we tailor our pricing to your specific design, materials, and site requirements.",
+    "packages": [
+      {
+        "name": "Design Consultation",
+        "price": "$180",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Initial concept sketch",
+          "Upfront fixed quote"
+        ]
+      },
+      {
+        "name": "Standard Garden Refresh",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Mulching & edging",
+          "Plant refresh",
+          "Soil conditioning",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Complete Landscape Transformation",
+        "price": "from $15,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full design & installation",
+          "Hardscaping & planting",
+          "Irrigation system",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs for your South Yarra project."
+  },
+  "contact": {
+    "intro": "Ready to create your dream garden in South Yarra? Contact us today for a free design consultation. Our team is here to bring your outdoor vision to life."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Garden Landscaping Cost in South Yarra?",
+      "date": "March 2026",
+      "excerpt": "Discover the key factors affecting landscaping costs in South Yarra, from design complexity to material choices, for your next garden project.",
+      "body": [
+        "When planning a landscaping project in South Yarra, understanding the costs involved is the first step toward creating your dream garden. Prices can vary widely based on the size of your outdoor space, the complexity of the design, and the materials you choose. For a simple garden refresh involving new mulch, edging, and some plant replacements in a typical South Yarra courtyard or backyard, homeowners can expect costs starting from around $2,500 to $5,000. This includes labour, quality organic mulch, premium soil amendments, and a selection of hardy, suited plants for Melbourne's temperate climate.",
+        "A more substantial project, such as a complete garden overhaul with new retaining walls, paved pathways, a pergola, and full irrigation, will naturally require a larger investment. In South Yarra, where properties often feature sloped blocks and established trees, these projects typically range from $15,000 to $50,000 or more. The cost is heavily influenced by the choice of materials: natural moss rock or sandstone for retaining walls will be more expensive than timber or concrete blocks, but offers superior longevity and aesthetic appeal. Labour for skilled stonework and the installation of complex irrigation systems also forms a significant part of the budget.",
+        "The design phase itself is a crucial cost factor. Engaging a professional landscape designer to create a detailed, scaled plan for your South Yarra garden ensures every element is considered, from soil drainage and sun exposure to plant selection that will thrive in the local microclimate. This upfront investment in design, often costing between $1,000 and $3,000 depending on scope, can prevent costly mistakes and result in a more cohesive, successful outcome. It allows for accurate material ordering and gives you a clear vision to present to landscapers for precise quotes.",
+        "Specific features popular in South Yarra gardens will influence your budget. Installing a smart, water-efficient drip irrigation system is highly recommended given Melbourne's variable rainfall and water restrictions. The cost for a basic system for a standard backyard might be around $2,000 to $4,000, while a comprehensive system covering large gardens with multiple zones can be higher. Similarly, creating functional outdoor living areas with high-quality decking or paving from materials like bluestone or brick will add to the total but significantly increase your property's usability and value.",
+        "Ultimately, the best way to understand the cost for your specific South Yarra property is to obtain a detailed, tailored quote. A reputable local landscaper will visit your site, discuss your goals, assess the conditions, and provide a transparent breakdown of costs. This ensures there are no surprises and that the investment aligns with your vision and budget. Remember, quality landscaping is not just an expense but an investment in your property's value and your enjoyment of your home.",
+        "JS Landscaping offers free initial site consultations and detailed quotes for all South Yarra residents. We specialise in creating sustainable, beautiful gardens that respect the character of the neighbourhood. Contact us to discuss your project and receive an accurate cost assessment based on your unique requirements and the local South Yarra conditions."
+      ]
+    },
+    {
+      "title": "Best Low-Maintenance Plants for South Yarra Gardens",
+      "date": "February 2026",
+      "excerpt": "Explore hardy, beautiful plants perfect for South Yarra gardens that thrive in Melbourne's climate with minimal upkeep.",
+      "body": [
+        "South Yarra gardens often balance historic charm with modern lifestyles, making low-maintenance planting schemes highly desirable. Choosing the right plants is key to creating a garden that looks fantastic with minimal effort, especially given Melbourne's sometimes unpredictable weather. Indigenous and climate-appropriate species are ideal, as they are naturally adapted to the local rainfall patterns and soil types, requiring less water, fertiliser, and pest management than exotic varieties.",
+        "For ground cover and suppressing weeds in garden beds, consider Dichondra repens (Kidney Weed) or Myoporum parvifolium. These native options form dense mats, thrive in sun or part shade, and need only occasional mowing or trimming. In sunny spots, the lavender and rosemary bushes not only provide aromatic foliage and flowers but are also drought-tolerant once established, making them perfect for South Yarra's dry summers. They also attract beneficial insects to the garden.",
+        "When it comes to feature plants, the ornamental grasses like Lomandra longifolia or Dianella revoluta are virtually indestructible. They offer year-round structural foliage, require minimal water, and can be left unpruned for a natural look. For a splash of colour with minimal fuss, Kangaroo Paw (Anigozanthos) provides vibrant, unique flowers and is exceptionally hardy in Australian conditions. These plants add a distinctly Australian feel to a South Yarra garden.",
+        "Trees are a significant element, and for smaller spaces, consider the Laurus nobilis (Bay Tree), which can be kept compact, offers useful herbs, and provides screening. For a larger, shady canopy, the Brachychiton acerifolius (Illawarra Flame Tree) is a stunning native option that brings spectacular red flowers. Selecting plants suited to your specific garden's light conditions—whether it's a sunny front yard or a shaded courtyard behind a terrace—is crucial for long-term success and reduced maintenance.",
+        "A well-designed, low-maintenance garden in South Yarra isn't about creating a barren landscape; it's about smart planning. Incorporating mulching, efficient irrigation, and the right plant selections can reduce your weekly garden chores significantly. Using high-quality organic mulch suppresses weeds and retains soil moisture, while a drip irrigation system delivers water directly to the roots, minimising waste and effort. These elements work together to create a resilient garden ecosystem.",
+        "At JS Landscaping, we specialise in designing low-maintenance gardens for South Yarra homes. We can help you select the perfect combination of hardy, beautiful plants that will thrive in your specific conditions, ensuring your garden remains a source of joy, not a chore. Contact us to plan your easy-care garden oasis."
+      ]
+    },
+    {
+      "title": "Retaining Wall Solutions for Sloped Blocks in Melbourne's East",
+      "date": "January 2026",
+      "excerpt": "Learn about the best materials and design considerations for building retaining walls on sloped South Yarra properties.",
+      "body": [
+        "Many properties in South Yarra and Melbourne's inner-east feature sloped blocks, presenting both a challenge and an opportunity for creative landscaping. A well-designed retaining wall is often the solution, transforming an unusable incline into functional, terraced garden beds, flat lawn areas, or stunning planting slopes. The choice of material and design is critical, impacting both the structural integrity and the aesthetic appeal of your garden.",
+        "Natural stone, such as moss rock or sandstone, is a popular and timeless choice for South Yarra retaining walls. These materials blend seamlessly with the established garden character of the area. While more expensive due to material cost and the skill required for dry-stacking or mortaring, a natural stone wall offers incredible durability and a unique, organic look. Each stone is different, creating a wall with character that ages beautifully over decades.",
+        "Timber sleeper walls are a more cost-effective and quicker option. Using treated hardwood sleepers, a retaining wall can be constructed relatively efficiently. This method is versatile and can be used for both straight runs and curves. However, timber has a shorter lifespan than stone or concrete and requires more maintenance over time, particularly in contact with soil. It can be an excellent choice for less formal areas or where budget is a primary concern.",
+        "Rendered blockwork or concrete block walls offer a modern, clean-lined alternative. Concrete blocks are strong, affordable, and can be rendered and painted to match your home's exterior or garden theme. This provides a smooth, contemporary finish that suits modern South Yarra renovations. For larger, taller walls engineered for significant load-bearing, reinforced concrete is the necessary solution, ensuring safety and compliance with building regulations.",
+        "The design of a retaining wall must consider drainage, as water pressure behind the wall is its primary enemy. Proper weep holes and gravel backfill are essential components. For walls over a certain height (typically 600mm in many Victorian councils), a building permit and engineering plans are legally required to ensure they are constructed to withstand the forces of the retained earth. This is a critical step that should never be skipped for safety and liability reasons.",
+        "JS Landscaping has extensive experience designing and constructing retaining walls for sloped blocks throughout South Yarra. We can assess your site, recommend the most appropriate and cost-effective solution, and manage the entire process, including any necessary engineering and council approvals. Let us help you unlock the full potential of your property's landscape."
+      ]
+    },
+    {
+      "title": "Creating a Beautiful, Water-Wise Garden in South Yarra",
+      "date": "December 2025",
+      "excerpt": "Discover how to design a stunning garden in South Yarra that conserves water and thrives through Melbourne's dry spells.",
+      "body": [
+        "With Melbourne's history of droughts and water restrictions, creating a water-wise garden is not just environmentally responsible but also a practical necessity for South Yarra homeowners. A beautiful, resilient garden doesn't require constant watering; it's achieved through intelligent design, smart plant selection, and efficient systems. The goal is to use water as effectively as possible while maintaining a lush, inviting outdoor space that enhances your lifestyle and property value.",
+        "The foundation of a water-wise garden is excellent soil health. Incorporating generous amounts of organic matter, like compost and well-rotted manure, into your South Yarra soil improves its structure and water-holding capacity. This allows plants' roots to access moisture more easily. Combining this with a thick layer of organic mulch—such as bark chips or lucerne hay—on all garden beds is essential. Mulch reduces evaporation by up to 70%, suppresses weeds that compete for water, and slowly breaks down to enrich the soil further.",
+        "Plant selection is paramount. Choosing native and Mediterranean-climate plants that are naturally adapted to low-water conditions is the smartest approach. Indigenous species like Grevillea, Banksia, and Westringia are perfectly suited to South Yarra. Mediterranean herbs like rosemary, thyme, and oregano also thrive with minimal water once established. Grouping plants with similar water needs together, a practice known as hydrozoning, ensures you can water efficiently without over- or under-watering different areas.",
+        "An efficient irrigation system is a game-changer. Drip irrigation and soaker hoses deliver water directly to the plant's root zone, minimising loss to evaporation and wind. Pairing this with a smart controller that adjusts watering based on local weather data (often available via Wi-Fi) prevents unnecessary watering before or after rain. For South Yarra gardens, this automated, precise approach is far more effective than sprinklers that water paths and fences.",
+        "Designing for shade can significantly reduce water needs. Strategically placing trees and structures to provide shade for more vulnerable plants or parts of your garden can lower soil temperature and reduce evaporation. Creating shaded seating areas also makes your garden more comfortable during hot South Yarra summers, encouraging you to enjoy your outdoor space without needing to constantly irrigate thirsty lawns in full sun.",
+        "A water-wise garden in South Yarra can be incredibly diverse and beautiful, full of texture, colour, and life. It reduces your water bills, requires less maintenance, and provides a habitat for local birds and insects. JS Landscaping specialises in designing and installing sustainable, water-efficient gardens for Melbourne's inner east. Contact us to start planning a garden that's both gorgeous and responsible."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "JS Landscaping | Landscaper in South Yarra | Garden Design",
+      "description": "JS Landscaping is South Yarra's trusted landscaping expert. Specialising in garden design, installation & maintenance for Melbourne's inner east. Free quotes."
+    },
+    "about": {
+      "title": "About JS Landscaping | South Yarra's Landscape Design Team",
+      "description": "Learn about JS Landscaping, your local South Yarra landscaping team with 14+ years of experience creating stunning, sustainable gardens in Melbourne's inner east."
+    },
+    "services": {
+      "title": "Landscaping Services in South Yarra | Design, Installation & More",
+      "description": "Explore JS Landscaping's full range of landscaping services in South Yarra: from bespoke garden design and installation to retaining walls and irrigation systems."
+    },
+    "pricing": {
+      "title": "Landscaping Costs & Packages South Yarra | JS Landscaping",
+      "description": "Transparent pricing for South Yarra landscaping projects. Get an idea of costs for garden design, installation, and maintenance from JS Landscaping. Free quotes."
+    },
+    "contact": {
+      "title": "Contact JS Landscaping | Free South Yarra Landscaping Quotes",
+      "description": "Get in touch with JS Landscaping for a free consultation and quote for your South Yarra garden project. Let's create your perfect outdoor space."
+    },
+    "blog": {
+      "title": "South Yarra Gardening Blog | Tips from JS Landscaping Experts",
+      "description": "The JS Landscaping blog offers expert advice on gardening in South Yarra and Melbourne's east. Read guides on cost, plants, retaining walls, and water-wise gardens."
+    }
+  }
+}
