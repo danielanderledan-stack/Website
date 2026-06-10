@@ -1,0 +1,296 @@
+{
+  "siteType": "builder",
+  "businessName": "Home Remodelling",
+  "suburb": "Newport",
+  "phone": "0409 166 760",
+  "email": "info@homeremodelling.com.au",
+  "address": "12 Example St, Newport VIC 3015",
+  "tagline": "Newport's Home Remodelling Experts",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0e5bcc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Newport's Home Remodelling Specialists",
+      "sub": "25+ years of quality renovations"
+    },
+    {
+      "title": "Kitchen, Bathrooms & Extensions",
+      "sub": "Transforming homes across Newport"
+    },
+    {
+      "title": "No Project Too Complex",
+      "sub": "Free consultations for Newport residents"
+    }
+  ],
+  "ctaHeading": "Ready to remodel your Newport home? Let's get started.",
+  "aboutHeading": "25 Years of Home Remodelling in Newport",
+  "aboutSubheading": "Local, licensed & trusted",
+  "aboutText": "With over 25 years of experience in home remodelling, we have been transforming Newport properties into dream homes. Our attention to detail and commitment to quality ensure every project exceeds expectations. As your local builder, we understand the unique needs of Newport homes and deliver results that stand the test of time.",
+  "servicesHeading": "Our Home Remodelling Services",
+  "servicesSubheading": "Comprehensive solutions for every home",
+  "servicesText": "From kitchen renovations to full home extensions, we offer a wide range of remodelling services tailored to Newport homes. Our team is fully licensed and insured, providing peace of mind for every project.",
+  "services": [
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Modernise your kitchen with custom designs.",
+      "longDesc": "We specialise in kitchen renovations in Newport, creating functional and stylish spaces. From countertops to cabinetry, we handle all aspects with precision.",
+      "points": [
+        "Custom designs",
+        "Quality materials",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Bathroom Remodelling",
+      "desc": "Transform your bathroom into a relaxing retreat.",
+      "longDesc": "Our bathroom remodelling services in Newport include tiling, plumbing, and fittings, ensuring a spa-like finish every time.",
+      "points": [
+        "Luxurious finishes",
+        "Water-efficient fixtures",
+        "Full project management"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Add space and value to your Newport home.",
+      "longDesc": "We build seamless home extensions in Newport, from single-room additions to multi-storey expansions, compliant with all local regulations.",
+      "points": [
+        "Seamless integration",
+        "Council approvals handled",
+        "Increased property value"
+      ]
+    },
+    {
+      "title": "Deck & Outdoor Living",
+      "desc": "Create perfect outdoor entertaining areas.",
+      "longDesc": "Our deck building services in Newport use durable materials for decks that withstand the Australian climate, ideal for year-round use.",
+      "points": [
+        "Weather-resistant materials",
+        "Custom designs",
+        "Low maintenance options"
+      ]
+    },
+    {
+      "title": "Interior Painting",
+      "desc": "Refresh your home's interior with expert painting.",
+      "longDesc": "We offer professional interior painting in Newport, using high-quality paints for a flawless finish that lasts.",
+      "points": [
+        "Wide colour range",
+        "Preparation included",
+        "Clean and tidy work"
+      ]
+    },
+    {
+      "title": "General Repairs & Maintenance",
+      "desc": "Keep your home in top condition.",
+      "longDesc": "From minor fixes to major repairs, our maintenance services in Newport ensure your property remains safe and functional.",
+      "points": [
+        "Prompt service",
+        "Affordable rates",
+        "All trade expertise"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Home Remodeller in Newport?",
+  "bannerSubheading": "Get expert advice and free quotes today.",
+  "testimonialsHeading": "What Newport Homeowners Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Home Remodelling Tips for Newport",
+  "blogSubheading": "Insights from your local experts",
+  "reviews": [
+    {
+      "text": "Home Remodelling completely transformed our kitchen in Newport. The attention to detail was outstanding, and they finished on time and within budget. Highly recommended for any remodelling project.",
+      "name": "Sarah Mitchell",
+      "role": "Newport Homeowner"
+    },
+    {
+      "text": "We hired them for a bathroom renovation and were impressed by their professionalism. As a local business owner, I appreciate quality work that doesn't break the bank.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Managing multiple properties in Newport, I've used Home Remodelling for several extensions. Their reliability and craftsmanship are unmatched in the area.",
+      "name": "David Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Newport",
+    "Spotswood",
+    "Williamstown",
+    "Yarraville",
+    "Altona",
+    "Footscray"
+  ],
+  "about": {
+    "intro": "Discover why Newport trusts Home Remodelling for over 25 years of quality home transformations.",
+    "story": [
+      "We started in Newport over two decades ago, committed to providing exceptional home remodelling services. Our journey began with small renovations, and now we handle large-scale projects across the suburb, building lasting relationships with clients.",
+      "Every project we undertake in Newport is driven by our passion for craftsmanship and customer satisfaction. We listen to your needs and deliver tailored solutions that enhance your living space, ensuring every detail meets the highest standards."
+    ],
+    "mission": "To transform Newport homes with integrity, quality, and unmatched personal service.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our work is fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "On-Time Delivery",
+        "text": "We respect your time and complete projects as scheduled."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden costs, just upfront and honest quotes."
+      },
+      {
+        "title": "Quality Guarantee",
+        "text": "We stand behind our work with a comprehensive warranty."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Homes Renovated"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed builder",
+      "Public liability insured",
+      "Free initial consultations",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "We offer competitive pricing for home remodelling in Newport, with no lock-in contracts. Get a free quote tailored to your project.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed written quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Renovation",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Kitchen or bathroom remodel",
+          "Project management included",
+          "Quality materials",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Extension",
+        "price": "from $25,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full architectural plans",
+          "Council approval handling",
+          "Premium finishes"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your home remodelling project in Newport? Contact us today for a free consultation and quote."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Kitchen Renovation Cost in Newport?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting kitchen renovation costs in Newport, from materials to labour, with expert tips to budget effectively.",
+      "body": [
+        "Kitchen renovations in Newport can vary widely in cost, depending on the size of your kitchen, the quality of materials, and the complexity of the design. On average, a standard kitchen remodel in Newport might range from $10,000 to $30,000, but this can increase for high-end finishes or structural changes. Factors such as plumbing and electrical work, cabinetry, countertops, and appliances all play a role in the final price, making it essential to plan carefully from the start.",
+        "To get an accurate estimate, it's essential to consult with a local builder who understands Newport's specific requirements. At Home Remodelling, we provide free on-site assessments to give you a tailored quote. We consider your space's dimensions, your lifestyle needs, and your budget to recommend the best options without compromising on quality, ensuring transparency throughout the process.",
+        "One way to manage costs is to prioritise essential upgrades, like durable countertops and efficient appliances, while saving on cosmetic items. Newport homes often have unique layouts, so working with a builder familiar with the area can help optimise space and avoid unexpected expenses. We also guide you through selecting materials that suit Melbourne's climate, ensuring longevity and reducing maintenance costs over time.",
+        "Labour costs in Newport are competitive, but skilled tradespeople are worth the investment for a flawless finish. Our team includes licensed plumbers, electricians, and carpenters, all coordinated to minimise delays and keep the project on track. We handle all council approvals if structural changes are needed, which is crucial in heritage areas of Newport to comply with local regulations.",
+        "Additionally, consider the long-term value of your renovation. A well-executed kitchen remodel in Newport can significantly increase your property's market value, making it a wise investment. We use high-quality, locally sourced materials where possible to support the community and reduce environmental impact, aligning with sustainable building practices.",
+        "Finally, timing is key. Booking your renovation during quieter months can sometimes lead to better availability and pricing. Contact us at Home Remodelling to discuss your kitchen renovation plans in Newport and get a no-obligation quote today, ensuring your project starts on the right foot with expert guidance."
+      ]
+    },
+    {
+      "title": "Best Time to Renovate Your Bathroom in Melbourne's Climate",
+      "date": "February 2026",
+      "excerpt": "Learn when to schedule bathroom renovations in Newport to avoid weather-related delays and ensure optimal conditions.",
+      "body": [
+        "Timing a bathroom renovation in Newport around Melbourne's unpredictable climate is crucial for avoiding delays and ensuring quality work. The best time to start is during the drier months, from late spring to early autumn, when humidity is lower and temperatures are milder. This allows for proper curing of adhesives and paints, reducing the risk of issues like mould growth or cracking.",
+        "In Newport, where many homes have older plumbing systems, scheduling renovations during favourable weather also helps in handling any unexpected repairs without weather interference. We at Home Remodelling recommend planning your project at least three months in advance to secure the best tradespeople and materials, especially since demand peaks during warmer seasons.",
+        "Melbourne's climate can be harsh on bathroom materials, so selecting water-resistant and durable options is key. For Newport residents, we advise using tiles and fixtures designed for high-moisture environments, and we incorporate proper ventilation solutions to combat condensation, which is common in cooler months.",
+        "During the renovation process, we manage all aspects from demolition to final touches, ensuring minimal disruption to your daily life. Our team coordinates with local suppliers in Newport to source materials quickly, and we keep you updated on progress to maintain transparency and trust throughout the project.",
+        "Additionally, consider the resale value of your home. A well-timed bathroom renovation in Newport can enhance your property's appeal, especially if you're planning to sell. We focus on timeless designs and quality craftsmanship that stand up to Melbourne's weather, providing long-term benefits.",
+        "Contact Home Remodelling today to discuss your bathroom renovation timing in Newport. We offer free consultations to help you plan the perfect schedule, ensuring your project is completed efficiently and to the highest standards."
+      ]
+    },
+    {
+      "title": "Increasing Home Value with Extensions in Newport",
+      "date": "January 2026",
+      "excerpt": "Discover how home extensions in Newport can boost your property value and provide more living space for your family.",
+      "body": [
+        "Home extensions are a smart investment for Newport homeowners looking to increase property value and accommodate growing families. In Newport, where land is at a premium, adding space through extensions can significantly enhance your home's market appeal, often yielding a return on investment of over 50% in some cases. Common extensions include additional bedrooms, living areas, or granny flats for rental income.",
+        "Before starting an extension in Newport, it's vital to understand local council regulations and heritage restrictions. As a local builder, Home Remodelling navigates these requirements seamlessly, ensuring your project complies with all laws. We begin with a detailed site assessment to determine the best design that maximises space without compromising your home's aesthetics.",
+        "The cost of extensions in Newport varies based on size, materials, and complexity. A single-room extension might start from $20,000, while larger projects can exceed $100,000. We provide transparent quotes that break down all expenses, from architectural plans to construction, helping you budget effectively and avoid surprises.",
+        "During construction, we prioritise minimal disruption to your daily life. Our team works efficiently, using quality materials that blend seamlessly with your existing home. In Newport, we often incorporate energy-efficient features like double-glazed windows and insulation to reduce utility costs, adding long-term value.",
+        "Extensions also offer the opportunity to modernise your home's layout. For example, open-plan living areas are popular in Newport, and we can design extensions that create fluid spaces for family gatherings. We ensure all work is fully insured and guaranteed, giving you peace of mind throughout the process.",
+        "To explore how an extension can benefit your Newport home, contact Home Remodelling for a free consultation. We'll discuss your ideas and provide a tailored plan to increase your property's value and functionality, backed by over 25 years of local experience."
+      ]
+    },
+    {
+      "title": "Choosing the Right Materials for Outdoor Decks in Newport",
+      "date": "December 2025",
+      "excerpt": "A guide to selecting deck materials that withstand Newport's weather and enhance your outdoor living area.",
+      "body": [
+        "Building a deck in Newport requires materials that can handle Melbourne's variable weather, from hot summers to cool, rainy winters. Popular choices include hardwoods like spotted gum or treated pine, which are durable and resistant to termites. Composite decking is another option, offering low maintenance and longevity, ideal for busy Newport families.",
+        "When selecting materials, consider Newport's coastal influence, which can lead to higher humidity and salt exposure. Hardwoods need regular sealing to prevent warping, while composite materials are more forgiving. At Home Remodelling, we advise on the best options based on your budget and lifestyle, ensuring your deck remains attractive for years.",
+        "The cost of decking materials in Newport ranges from $50 to $200 per square metre, excluding installation. Hardwoods may have a higher upfront cost but offer a natural look that complements many Newport homes. Composite decking, though pricier initially, saves money over time with minimal upkeep, making it a practical choice.",
+        "Installation is key to a deck's durability. Our team in Newport ensures proper foundation work, using concrete footings to stabilise the structure against soil movement. We also incorporate drainage solutions to prevent water pooling, which is common during Melbourne's wet seasons.",
+        "Design considerations include size, layout, and features like railings or built-in seating. In Newport, decks often serve as extensions of indoor living spaces, so we focus on seamless integration with your home's architecture. We use local suppliers to source materials, supporting the community and reducing transport costs.",
+        "To get started on your Newport deck project, contact Home Remodelling for a free quote. We'll guide you through material selection and design, ensuring your outdoor space is both beautiful and resilient to local weather conditions."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Home Remodelling | Builder in Newport | Renovations & Extensions",
+      "description": "Trusted home remodelling services in Newport with 25+ years experience. Kitchen, bathroom & extension experts. Free quotes for Newport residents."
+    },
+    "about": {
+      "title": "About Home Remodelling | Newport's Local Builder | 25 Years",
+      "description": "Learn about Home Remodelling, Newport's trusted builder with over 25 years of quality home transformations. Licensed, insured & local."
+    },
+    "services": {
+      "title": "Home Remodelling Services in Newport | Renovations, Extensions",
+      "description": "Explore our comprehensive home remodelling services in Newport: kitchens, bathrooms, extensions & more. Quality work guaranteed."
+    },
+    "pricing": {
+      "title": "Home Renovation Costs in Newport | Free Quotes | Home Remodelling",
+      "description": "Get transparent pricing for home renovations in Newport. No lock-in quotes from a trusted local builder. Contact us today."
+    },
+    "contact": {
+      "title": "Contact Home Remodelling | Free Newport Renovation Quotes",
+      "description": "Get in touch for a free home remodelling quote in Newport. Quick response, expert advice. Call or email us today."
+    },
+    "blog": {
+      "title": "Home Remodelling Blog | Newport Tips & Renovation Advice",
+      "description": "Stay updated with home remodelling tips, cost guides, and renovation advice for Newport residents. Insights from local experts."
+    }
+  }
+}
