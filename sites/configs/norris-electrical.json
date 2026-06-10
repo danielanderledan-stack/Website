@@ -1,0 +1,298 @@
+{
+  "siteType": "electrician",
+  "businessName": "Norris Electrical",
+  "suburb": "Sunbury",
+  "phone": "+61467442262",
+  "email": "bailey@norriselectrical.com.au",
+  "address": "14 Alexander Court, Sunbury VIC 3429",
+  "tagline": "Sunbury's Trusted Electricians",
+  "primaryColor": "#ff6900",
+  "primaryColorRgb": "255, 105, 0",
+  "primaryColorHover": "#e05e00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Sunbury's Go-To Electricians",
+      "sub": "Serving Melbourne's North West for years"
+    },
+    {
+      "title": "Solar, Air Conditioning & More",
+      "sub": "Comprehensive electrical solutions"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Sunbury & surrounds"
+    }
+  ],
+  "ctaHeading": "Sunbury's electricians are ready — let's power your project.",
+  "aboutHeading": "Trusted Electricians in Sunbury",
+  "aboutSubheading": "Local, licensed & reliable service",
+  "aboutText": "Norris Electrical is a Sunbury-based electrical business with over 15 years of experience serving homes and businesses across Melbourne's North West. We specialise in solar installations, air conditioning, smart home systems, and general electrical repairs. Our team is fully licensed, insured, and committed to delivering high-quality workmanship with honest, upfront pricing.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for every need",
+  "servicesText": "From solar panel installations to air conditioner servicing, we provide a wide range of electrical services to Sunbury and surrounding suburbs. Our skilled electricians ensure every job is done right the first time.",
+  "services": [
+    {
+      "title": "Solar Installation",
+      "desc": "Professional solar panel and battery installation for homes in Sunbury.",
+      "longDesc": "We design and install custom solar systems to help Sunbury residents reduce energy bills and embrace renewable energy. Our installations comply with Australian standards for maximum efficiency.",
+      "points": [
+        "Custom system design",
+        "High-quality panels",
+        "Energy savings guaranteed"
+      ]
+    },
+    {
+      "title": "Air Conditioning Services",
+      "desc": "Installation, servicing, and repairs for split systems and ducted units.",
+      "longDesc": "Keep your Sunbury home comfortable year-round with our expert air conditioning services. We handle everything from new installations to emergency repairs for all major brands.",
+      "points": [
+        "Expert installation",
+        "Prompt repairs",
+        "Annual servicing available"
+      ]
+    },
+    {
+      "title": "Electrical Repairs & Maintenance",
+      "desc": "Reliable fault finding, switchboard upgrades, and safety checks.",
+      "longDesc": "Our electricians quickly diagnose and fix electrical issues in Sunbury homes, ensuring safety and compliance. We offer switchboard upgrades and smoke alarm replacements.",
+      "points": [
+        "Fast fault diagnosis",
+        "Safety-focused",
+        "Licensed professionals"
+      ]
+    },
+    {
+      "title": "Smart Homes & Data Cabling",
+      "desc": "Data cabling, security cameras, and doorbell camera installations.",
+      "longDesc": "Upgrade your Sunbury property with smart home technology. We install data cabling, security systems, and video doorbells for enhanced convenience and security.",
+      "points": [
+        "Modern tech integration",
+        "Expert cabling",
+        "Enhanced security"
+      ]
+    },
+    {
+      "title": "Lighting Installation",
+      "desc": "Indoor, outdoor, and commercial lighting solutions.",
+      "longDesc": "Illuminate your Sunbury space with our lighting installation services. We handle downlights, dimmers, outdoor lighting, and energy-efficient upgrades.",
+      "points": [
+        "Energy-efficient options",
+        "Professional fitting",
+        "Custom designs"
+      ]
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Home and business electric vehicle charger installations.",
+      "longDesc": "Prepare for the future with EV charger installation in Sunbury. We install Level 2 chargers for fast, convenient charging at home or work.",
+      "points": [
+        "Fast charging setup",
+        "Safe installation",
+        "Future-proof solution"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Sunbury?",
+  "bannerSubheading": "We service all of Melbourne's North West with reliable electrical solutions.",
+  "testimonialsHeading": "What Sunbury Locals Say",
+  "testimonialsSubheading": "Quality work, honest pricing",
+  "blogHeading": "Sunbury Electrical Guides & Tips",
+  "blogSubheading": "Expert advice from your local electrician",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Quick response guaranteed",
+  "reviews": [
+    {
+      "text": "Norris Electrical installed our solar panels in Sunbury last month. The team was professional, and we're already seeing savings on our energy bills. Highly recommend their service!",
+      "name": "Dave Thompson",
+      "role": "Sunbury Homeowner"
+    },
+    {
+      "text": "We had our air conditioner serviced by Norris Electrical. They arrived on time, fixed the issue quickly, and the pricing was upfront with no surprises. Great local electrician!",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Norris Electrical for all our Sunbury properties. Their reliability and quality workmanship make them our go-to for electrical maintenance.",
+      "name": "Mike Johnson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Sunbury",
+    "Gisborne",
+    "Diggers Rest",
+    "Melton",
+    "Caroline Springs",
+    "Taylors Lakes"
+  ],
+  "about": {
+    "intro": "Norris Electrical has been serving the Sunbury community for over 15 years, providing reliable electrical solutions for homes and businesses.",
+    "story": [
+      "Founded in Sunbury, our business grew from a small local electrician to a trusted team serving Melbourne's North West. We pride ourselves on genuine customer care and high-quality workmanship in every job.",
+      "Over the years, we've expanded our services to include solar installations, air conditioning, and smart home systems, always staying updated with the latest technologies to benefit our Sunbury clients."
+    ],
+    "mission": "To deliver exceptional electrical services to Sunbury and surrounding areas with integrity and expertise.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your time with punctual appointments and efficient service."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No surprises with clear, fixed quotes before any work begins."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand behind our work with a satisfaction guarantee on all jobs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "800+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed electrician",
+      "Comprehensive insurance",
+      "Free on-site quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Norris Electrical, we offer transparent pricing with no hidden fees. Get a free quote for any electrical work in Sunbury.",
+    "packages": [
+      {
+        "name": "Call-Out & Diagnosis",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional service",
+          "Quality materials",
+          "Compliance guaranteed",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom design",
+          "Premium installation",
+          "Project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what to expect."
+  },
+  "contact": {
+    "intro": "Ready to discuss your electrical needs? Contact Norris Electrical today for a free, no-obligation quote in Sunbury and surrounding areas."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Solar Installation Cost in Sunbury?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting solar panel costs in Sunbury, including system size, installation complexity, and potential rebates.",
+      "body": [
+        "Installing solar panels in Sunbury is a smart investment for homeowners looking to reduce electricity bills and carbon footprint. The cost varies based on system size, with typical residential setups ranging from 6.6kW to 10kW. In Sunbury, factors like roof orientation, shading, and structural integrity can influence the overall price significantly. Local electricians must assess these variables to provide accurate quotes.",
+        "Labor costs are another key component. Certified electricians in Sunbury charge between $80 to $120 per hour, and a full installation might take one to two days. It's essential to choose a licensed installer to ensure compliance with Australian standards like AS/NZS 5033 for safety and performance. This prevents future issues and maximizes energy production.",
+        "Government rebates and incentives can significantly reduce upfront costs. The Small-scale Renewable Energy Scheme (SRES) provides certificates that lower the price. Sunbury residents should check current eligibility, as these can save thousands off the installation cost. Additionally, state-specific programs may apply, so consulting with a local expert is advisable.",
+        "When budgeting, consider additional expenses like solar batteries for energy storage, which can add $5,000 to $10,000 to the project. However, they increase self-sufficiency and provide backup power during outages, which is valuable in Melbourne's variable climate. Sunbury's weather patterns make batteries a practical consideration for year-round reliability.",
+        "Choosing the right provider is crucial. Look for Sunbury-based electricians with proven experience in solar installations. Ask for detailed quotes that include all components, warranties, and post-installation support to avoid hidden surprises. Local knowledge ensures systems are tailored to the area's specific needs.",
+        "In summary, solar installation in Sunbury typically costs between $4,000 and $8,000 after rebates for a standard system. Investing in solar not only cuts energy bills but also increases property value, making it a wise choice for Sunbury homes. With the right setup, you can enjoy sustainable energy for decades."
+      ]
+    },
+    {
+      "title": "Best Time for Electrical Upgrades in Melbourne Winter",
+      "date": "February 2026",
+      "excerpt": "Learn why winter is an ideal time for electrical upgrades in Melbourne, including switchboard improvements and lighting changes.",
+      "body": [
+        "Winter in Melbourne brings colder temperatures and longer nights, making it a practical time for electrical upgrades in Sunbury and surrounding areas. With less outdoor activity, indoor electrical work can be scheduled with minimal disruption to your daily routine. This season allows electricians to focus on detailed projects without weather delays.",
+        "Switchboard upgrades are particularly beneficial during winter. Older switchboards may not handle modern electrical loads, leading to safety risks. Upgrading ensures compliance with current standards and reduces the risk of electrical faults during high-usage periods when heaters and appliances are in constant use.",
+        "Lighting upgrades can also enhance your home's ambiance. LED downlights and dimmer switches are energy-efficient and provide warmer lighting, which is comforting in winter. Sunbury electricians can advise on the best options for your space, considering factors like room size and natural light availability.",
+        "Heating systems, such as air conditioners and electric heaters, are used more frequently in winter. Having them serviced before peak usage ensures they run efficiently, saving on energy costs and preventing breakdowns when you need them most. Regular maintenance extends the lifespan of your equipment.",
+        "Scheduling electrical work in winter often means quicker appointments, as demand for other services might be lower. Sunbury electricians can offer flexible times to accommodate your needs without long waiting periods. This convenience makes it easier to plan and complete projects efficiently.",
+        "Overall, winter is an opportune time for electrical maintenance and upgrades in Sunbury. It prepares your home for the season, enhances safety, and can lead to long-term savings on energy bills. Investing in these improvements now will pay dividends throughout the year."
+      ]
+    },
+    {
+      "title": "Common Electrical Faults in Sunbury Homes and How to Fix Them",
+      "date": "January 2026",
+      "excerpt": "Identify frequent electrical issues in Sunbury residences, from tripped circuits to faulty wiring, and know when to call a professional.",
+      "body": [
+        "Sunbury homes, like many in Melbourne, can experience common electrical faults due to age, weather, or wear and tear. Recognising these issues early can prevent bigger problems and ensure safety for your family. Local electricians are familiar with these challenges and can provide timely solutions.",
+        "Tripped circuits are a frequent complaint. They often occur when too many appliances are plugged into one circuit, overloading it. In Sunbury, this might happen during winter with heaters and other devices in use. Reducing load or upgrading the switchboard can help manage power distribution effectively.",
+        "Flickering lights can indicate loose wiring or faulty switches. In older Sunbury properties, this might be due to deteriorating insulation. It's crucial to have a licensed electrician inspect and repair to avoid fire hazards. Prompt attention ensures the electrical system remains stable and safe.",
+        "Faulty power outlets are another common issue. Symptoms include sparks, burning smells, or outlets that don't work. These should be addressed immediately by a professional electrician in Sunbury to prevent electrical shocks or fires. Regular checks can identify such issues before they escalate.",
+        "Surge protectors and safety switches can mitigate some faults. Installing these devices in your Sunbury home adds layers of protection. Regular safety checks by a qualified electrician can identify potential issues before they escalate, ensuring your system is robust against power surges.",
+        "When in doubt, always consult a licensed electrician. Attempting DIY electrical fixes is dangerous and illegal in Australia. Norris Electrical in Sunbury offers reliable fault-finding services to keep your home safe and compliant with all regulations."
+      ]
+    },
+    {
+      "title": "Why Regular Electrical Safety Checks Are Vital for Sunbury Properties",
+      "date": "December 2025",
+      "excerpt": "Understand the importance of routine electrical inspections in Sunbury to ensure safety, compliance, and efficiency in your home or business.",
+      "body": [
+        "Electrical safety checks are essential for all properties in Sunbury, as they help prevent accidents, ensure compliance with regulations, and maintain system efficiency. Regular inspections by a licensed electrician can save you from costly repairs and enhance safety for occupants.",
+        "In Sunbury, where homes may be older or exposed to varying weather conditions, electrical systems can degrade over time. Safety checks identify issues like outdated wiring, overloaded circuits, or faulty components that pose risks. This proactive approach is key to maintaining a safe environment.",
+        "Compliance with Australian standards, such as AS/NZS 3000, is mandatory. Regular checks ensure your Sunbury property meets these standards, which is crucial for insurance purposes and when selling or renting the property. Non-compliance can lead to legal and financial consequences.",
+        "Energy efficiency is another benefit. An electrician can assess your setup and recommend upgrades, like LED lighting or smart thermostats, which can reduce energy consumption and lower bills for Sunbury residents. These improvements contribute to long-term cost savings and environmental sustainability.",
+        "For businesses in Sunbury, safety checks are even more critical. They minimize downtime, protect employees, and ensure smooth operations. A scheduled maintenance plan can be tailored to your specific needs, reducing unexpected disruptions and enhancing productivity.",
+        "In conclusion, regular electrical safety checks in Sunbury are a wise investment. They protect your property, comply with laws, and offer peace of mind. Contact Norris Electrical to schedule your inspection today and safeguard your home or business."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Norris Electrical | Electrician in Sunbury | Solar & Air Conditioning",
+      "description": "Norris Electrical provides expert electrical services in Sunbury, including solar installation, air conditioning, and repairs. Licensed and reliable."
+    },
+    "about": {
+      "title": "About Us | Sunbury's Trusted Electricians | Norris Electrical",
+      "description": "Learn about Norris Electrical, Sunbury's experienced electrician with 15+ years serving Melbourne's North West. Licensed, insured, and local."
+    },
+    "services": {
+      "title": "Electrical Services in Sunbury | Solar, AC & Repairs",
+      "description": "Comprehensive electrical services in Sunbury: solar installation, air conditioning, lighting, data cabling, and more. Get a free quote today."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Prices Sunbury | Norris Electrical",
+      "description": "Transparent pricing for electrical work in Sunbury. From call-out fees to major projects, get upfront quotes with no hidden costs."
+    },
+    "contact": {
+      "title": "Contact Norris Electrical | Free Sunbury Electrician Quotes",
+      "description": "Contact Norris Electrical for free quotes on electrical services in Sunbury and surrounding areas. Quick response guaranteed."
+    },
+    "blog": {
+      "title": "Sunbury Electrical Blog | Local Tips & Guides",
+      "description": "Expert electrical advice for Sunbury homeowners and businesses. Learn about costs, safety, and maintenance from your local electrician."
+    }
+  }
+}
