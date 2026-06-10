@@ -1,0 +1,299 @@
+{
+  "siteType": "plumber",
+  "businessName": "Home Plumbing Services",
+  "suburb": "South Melbourne",
+  "phone": "0407 506 742",
+  "email": "info@homeplumbing.com.au",
+  "address": "45 Clarendon St, South Melbourne VIC 3015",
+  "tagline": "South Melbourne's Trusted Plumbers Since 2010",
+  "primaryColor": "#ff7f50",
+  "primaryColorRgb": "255, 127, 80",
+  "primaryColorHover": "#e06040",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Melbourne's Go-To Plumbers",
+      "sub": "24/7 emergency services for homes & businesses"
+    },
+    {
+      "title": "Blocked Drains, Gas & Hot Water",
+      "sub": "Expert solutions with upfront pricing"
+    },
+    {
+      "title": "Fast Response Across Melbourne",
+      "sub": "Call now for a free quote in South Melbourne"
+    }
+  ],
+  "ctaHeading": "Need a Plumber in South Melbourne? We're Ready to Help!",
+  "aboutHeading": "15 Years Plumbing in South Melbourne",
+  "aboutSubheading": "Local expertise you can trust",
+  "aboutText": "Home Plumbing Services has been the trusted plumber for South Melbourne and surrounding suburbs for over 15 years. Our licensed team specialises in emergency repairs, hot water installations, and drain clearing with same-day service. We focus on reliable, honest work with upfront quotes and no surprises.",
+  "servicesHeading": "Comprehensive Plumbing Services",
+  "servicesSubheading": "Quality workmanship guaranteed",
+  "servicesText": "From emergency leaks to complete gas fitting, we cover all plumbing needs in South Melbourne. Our services include blocked drain clearing, hot water system repairs, and pipe relining, all performed by certified professionals.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "24/7 emergency callouts for urgent plumbing issues in South Melbourne and nearby areas.",
+      "longDesc": "Our emergency plumbing service in South Melbourne provides rapid response for burst pipes, major leaks, and overflow issues. We arrive within the hour to prevent water damage and restore your plumbing system quickly and efficiently.",
+      "points": [
+        "24/7 availability",
+        "Fast response times",
+        "No call-out fee"
+      ]
+    },
+    {
+      "title": "Blocked Drains",
+      "desc": "Professional drain clearing services to fix blockages in homes and businesses across South Melbourne.",
+      "longDesc": "We use advanced CCTV inspection and high-pressure jetting to clear blocked drains in South Melbourne. Our solutions address tree root intrusion, grease build-up, and debris, ensuring long-term flow and preventing future blockages.",
+      "points": [
+        "CCTV inspection",
+        "High-pressure jetting",
+        "Preventative advice"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Installation, repair, and maintenance of hot water systems for South Melbourne properties.",
+      "longDesc": "Whether you need a new hot water system installed or repairs on an existing unit in South Melbourne, our experts handle all brands and types. We ensure optimal performance, energy efficiency, and compliance with Australian standards.",
+      "points": [
+        "All brands serviced",
+        "Energy-efficient options",
+        "Same-day repairs"
+      ]
+    },
+    {
+      "title": "Gas Fitting & Repairs",
+      "desc": "Licensed gas fitting services for safe and compliant gas installations in South Melbourne.",
+      "longDesc": "Our licensed gasfitters in South Melbourne perform gas leak detection, appliance installation, and pipework repairs. We ensure all work meets strict safety regulations, providing peace of mind for residential and commercial clients.",
+      "points": [
+        "Licensed professionals",
+        "Safety compliant",
+        "Gas leak detection"
+      ]
+    },
+    {
+      "title": "Tap & Toilet Installations",
+      "desc": "Efficient tap and toilet repair or replacement services throughout South Melbourne.",
+      "longDesc": "From dripping taps to complete toilet replacements, our South Melbourne plumbing team delivers precise installations using quality fixtures. We help conserve water and improve functionality with modern, durable solutions.",
+      "points": [
+        "Water-saving fixtures",
+        "Precise installation",
+        "Warranty on parts"
+      ]
+    },
+    {
+      "title": "Pipe Relining & Maintenance",
+      "desc": "Trenchless pipe relining solutions for damaged pipes in South Melbourne without excavation.",
+      "longDesc": "Our pipe relining service in South Melbourne offers a minimally invasive repair for cracked or broken pipes. Using epoxy resin, we restore pipe integrity without digging, saving time and reducing disruption to your property.",
+      "points": [
+        "No excavation needed",
+        "Long-lasting repairs",
+        "Cost-effective solution"
+      ]
+    }
+  ],
+  "bannerHeading": "Plumbing Emergencies in South Melbourne?",
+  "bannerSubheading": "Don't wait — call our expert team for immediate assistance.",
+  "testimonialsHeading": "What South Melbourne Locals Think",
+  "testimonialsSubheading": "Real feedback from our community",
+  "blogHeading": "South Melbourne Plumbing Insights",
+  "blogSubheading": "Expert tips from your local professionals",
+  "contactHeading": "Contact Home Plumbing Services",
+  "contactSubheading": "Get a free, no-obligation quote today.",
+  "reviews": [
+    {
+      "text": "Home Plumbing Services fixed our blocked drain in South Melbourne quickly and professionally. The team was courteous and the pricing was transparent — highly recommend!",
+      "name": "David Wilson",
+      "role": "South Melbourne Homeowner"
+    },
+    {
+      "text": "Excellent gas fitting service for our restaurant in South Melbourne. They ensured everything was safe and compliant, with minimal disruption to our business hours.",
+      "name": "Lisa Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Reliable property management plumbing for our units in South Melbourne. Always on time and efficient, handling multiple issues in one visit.",
+      "name": "James Taylor",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "South Melbourne",
+    "Melbourne CBD",
+    "St Kilda",
+    "Albert Park",
+    "Port Melbourne",
+    "Docklands",
+    "Southbank"
+  ],
+  "about": {
+    "intro": "Home Plumbing Services is South Melbourne's trusted plumbing partner, offering over 15 years of local expertise in residential and commercial plumbing solutions.",
+    "story": [
+      "Founded in 2010, Home Plumbing Services started with a commitment to provide honest, reliable plumbing to South Melbourne residents. Our founder, a local tradesman, saw the need for prompt, high-quality service without the hidden fees common in the industry. Today, we've grown to a team of licensed plumbers, all dedicated to upholding our original values.",
+      "We specialise in everything from emergency repairs to complex gas installations, serving South Melbourne and surrounding suburbs. Our modern techniques, like pipe relining and CCTV inspections, ensure efficient solutions with minimal disruption. We're proud to be part of the South Melbourne community, supporting local homes and businesses with dependable plumbing care."
+    ],
+    "mission": "To deliver fast, reliable plumbing services to South Melbourne with integrity and expertise.",
+    "whyUs": [
+      {
+        "title": "24/7 Emergency Service",
+        "text": "Round-the-clock availability for urgent plumbing issues in South Melbourne."
+      },
+      {
+        "title": "Licensed & Insured",
+        "text": "All work performed by fully licensed and insured professionals."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "Transparent quotes before starting any work, no hidden costs."
+      },
+      {
+        "title": "Guaranteed Workmanship",
+        "text": "We stand by our work with a satisfaction guarantee on all services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed plumber",
+      "Comprehensive insurance",
+      "Free onsite quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Home Plumbing Services, we offer competitive pricing for all plumbing needs in South Melbourne. Our quotes are fixed and upfront, so you know exactly what to expect with no surprises.",
+    "packages": [
+      {
+        "name": "Plumbing Health Check",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Comprehensive system inspection",
+          "Upfront detailed report",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Diagnosis and repair",
+          "Quality parts included",
+          "Workmanship guarantee",
+          "Same-day service available"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Customised solution plan",
+          "Project management included",
+          "Compliance certification"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront after assessment, with no lock-in contracts."
+  },
+  "contact": {
+    "intro": "Ready to solve your plumbing issues in South Melbourne? Contact Home Plumbing Services today for a free, no-obligation quote. Call us or fill out the form, and we'll respond promptly."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in South Melbourne?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting emergency plumbing costs in South Melbourne, from call-out fees to repair complexities, with tips to save money.",
+      "body": [
+        "Emergency plumbing costs in South Melbourne can vary based on several key factors, including the time of day, the severity of the issue, and the parts required. After-hours callouts typically incur higher rates due to the urgent nature, but many local plumbers like Home Plumbing Services offer transparent pricing upfront. In South Melbourne, typical emergency call-out fees range from $100 to $200, covering the initial assessment and travel.",
+        "The cost of repairs itself depends on the problem. For instance, fixing a burst pipe might cost between $300 and $800, while a blocked drain clearing could be $200 to $500. In South Melbourne, where older properties are common, issues like tree root intrusion or corroded pipes can increase expenses. Always ask for a detailed quote after inspection to avoid surprises.",
+        "To save money on emergency plumbing in South Melbourne, consider preventative maintenance. Regular inspections can identify small issues before they escalate. Additionally, some plumbers offer service agreements with priority response and discounted rates. Home Plumbing Services provides annual health checks for South Melbourne homes, helping residents avoid costly emergencies.",
+        "Australian standards require licensed plumbers for all gas and major water work, ensuring safety and compliance. In South Melbourne, using unlicensed tradespeople can lead to fines and void insurance. Always verify credentials and choose a reputable service with positive local reviews.",
+        "Seasonal factors also play a role. In Melbourne's winter, frozen pipes can cause bursts, increasing emergency calls. South Melbourne properties near the bay might experience salt air corrosion, affecting plumbing systems. Understanding these local conditions helps in budgeting for potential repairs.",
+        "Ultimately, the best way to manage emergency plumbing costs in South Melbourne is to build a relationship with a trusted local plumber. Home Plumbing Services offers fair, fixed pricing and prioritises quick response to minimise damage. Contact us for a no-obligation quote and peace of mind."
+      ]
+    },
+    {
+      "title": "Signs You Need a Hot Water System Replacement in South Melbourne",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that indicate your hot water system in South Melbourne needs replacement, from inconsistent heating to rising energy bills.",
+      "body": [
+        "In South Melbourne, a reliable hot water system is essential for daily comfort. Signs you need a replacement include inconsistent water temperature, strange noises from the tank, and visible rust or leaks. If your system is over 10 years old, it may be nearing the end of its lifespan, especially in hard water areas like parts of South Melbourne where mineral buildup accelerates wear.",
+        "Rising energy bills are another indicator. Older hot water systems become less efficient over time, consuming more gas or electricity to heat water. In South Melbourne, where energy costs can be high, upgrading to an energy-efficient model like a heat pump or solar system can lead to significant savings. Consider the long-term benefits against the upfront cost.",
+        "When choosing a new system in South Melbourne, factors like household size, energy source, and space availability matter. Electric systems are common but may have higher running costs, while gas and solar options offer efficiency. South Melbourne homes with roof space can benefit from solar hot water, reducing environmental impact and bills.",
+        "Installation in South Melbourne must comply with Australian standards, including proper ventilation for gas systems and electrical safety. A licensed plumber from Home Plumbing Services ensures correct installation, warranty validity, and compliance with local regulations. We also advise on available rebates for energy-efficient upgrades.",
+        "The replacement process typically takes a few hours. Our team in South Melbourne removes the old system, installs the new one, and tests everything for optimal performance. We handle all aspects, from disposal to paperwork, making the transition seamless for homeowners.",
+        "Regular maintenance can extend your hot water system's life, but replacement becomes necessary when repairs are frequent or uneconomical. South Melbourne residents can contact us for a free assessment to determine if replacement is the best option, ensuring uninterrupted hot water supply."
+      ]
+    },
+    {
+      "title": "Preventing Blocked Drains in South Melbourne Homes",
+      "date": "January 2026",
+      "excerpt": "Effective tips to prevent blocked drains in South Melbourne, covering common causes like grease and roots, and maintenance strategies.",
+      "body": [
+        "Blocked drains are a common issue in South Melbourne homes, often caused by daily habits and environmental factors. Grease, food scraps, hair, and foreign objects build up in pipes, leading to slow drainage or backups. In South Melbourne, tree roots are a major culprit, invading underground pipes through cracks and joints.",
+        "To prevent blockages, avoid pouring grease down sinks — instead, collect it in a container and dispose of it properly. Use drain screens to catch hair and debris in showers and sinks. In South Melbourne, where older clay pipes are prevalent, regular cleaning with enzyme-based products can help break down organic matter without damaging pipes.",
+        "For outdoor drains, keep gutters and downpipes clear of leaves and debris, especially during autumn. South Melbourne properties with gardens should be mindful of root systems; consider root barriers for new plantings near sewer lines. Regular professional inspections can identify early signs of root intrusion.",
+        "If you notice warning signs like gurgling sounds or water pooling, address them promptly to avoid complete blockages. South Melbourne residents can schedule annual drain checks with Home Plumbing Services, using CCTV technology to assess pipe conditions without excavation.",
+        "In South Melbourne, local councils have regulations about stormwater and sewer connections. Ensure your plumbing complies to prevent environmental issues and fines. Our team advises on best practices for drain maintenance, tailored to South Melbourne's climate and infrastructure.",
+        "By adopting these preventive measures, South Melbourne homeowners can reduce the risk of blocked drains and avoid costly repairs. Contact us for professional advice or to arrange a drain assessment — we're here to help keep your plumbing flowing smoothly."
+      ]
+    },
+    {
+      "title": "Gas Safety Checks for South Melbourne Landlords and Property Managers",
+      "date": "December 2025",
+      "excerpt": "Why regular gas safety checks are crucial for rental properties in South Melbourne, including legal requirements and benefits.",
+      "body": [
+        "For landlords and property managers in South Melbourne, gas safety is a legal obligation under Victorian regulations. Regular gas safety checks must be conducted by licensed gasfitters to ensure appliances and installations are safe and compliant. Failure to comply can result in penalties and increased liability.",
+        "In South Melbourne, many rental properties have gas heaters, stoves, and hot water systems that require annual servicing. A gas safety check includes inspecting for leaks, testing appliance function, and verifying proper ventilation. This not only protects tenants but also extends the lifespan of gas equipment.",
+        "Benefits of regular gas safety checks in South Melbourne include reduced risk of carbon monoxide poisoning, fire hazards, and unexpected breakdowns. South Melbourne's older housing stock may have outdated gas fittings, making checks even more critical. Proactive maintenance can also enhance property value and attract quality tenants.",
+        "When scheduling a gas safety check in South Melbourne, choose a licensed provider like Home Plumbing Services. We issue compliance certificates required by law and provide detailed reports on any issues found. Our team is familiar with local South Melbourne regulations and can advise on necessary upgrades.",
+        "The process is straightforward: a gasfitter visits the property, conducts tests, and provides documentation. For South Melbourne landlords managing multiple properties, we offer bulk service agreements for convenience and cost savings. Ensuring gas safety is a responsible investment in tenant welfare and property management.",
+        "Contact Home Plumbing Services to book your gas safety check in South Melbourne. We're committed to keeping your properties safe and compliant, with minimal disruption to tenants. Regular checks are a key part of responsible property management in our local community."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Home Plumbing Services | Plumber in South Melbourne | Emergency Repairs",
+      "description": "Expert plumbing services in South Melbourne, including 24/7 emergencies, blocked drains, gas fitting, and hot water repairs. Call today for a free quote."
+    },
+    "about": {
+      "title": "About Us | South Melbourne's Trusted Plumbing Team | Home Plumbing",
+      "description": "Learn about Home Plumbing Services, over 15 years of reliable plumbing solutions in South Melbourne. Licensed, insured, and committed to quality."
+    },
+    "services": {
+      "title": "Plumbing Services in South Melbourne | Drains, Gas & Hot Water",
+      "description": "Comprehensive plumbing services in South Melbourne: emergency repairs, blocked drains, gas fitting, and hot water system installations. Get a quote now."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Prices South Melbourne | Home Plumbing Services",
+      "description": "Transparent pricing for plumbing services in South Melbourne. No hidden fees, upfront quotes for all jobs from minor repairs to major projects."
+    },
+    "contact": {
+      "title": "Contact Home Plumbing Services | Free Plumber Quotes South Melbourne",
+      "description": "Get in touch with Home Plumbing Services for free plumbing quotes in South Melbourne. Call 0407 506 742 or use our contact form for fast service."
+    },
+    "blog": {
+      "title": "South Melbourne Plumbing Blog | Tips, Guides & Cost Advice",
+      "description": "Expert plumbing advice for South Melbourne residents: maintenance tips, cost guides, and local insights from trusted professionals."
+    }
+  }
+}
