@@ -1,0 +1,298 @@
+{
+  "siteType": "plumber",
+  "businessName": "Mr. Plumber",
+  "suburb": "Denver",
+  "phone": "(303) 375-1175",
+  "email": "impallari@gmail.com",
+  "address": "3347 Niagara St, Denver, CO 80207",
+  "tagline": "Denver's Trusted Plumber",
+  "primaryColor": "#00AAFF",
+  "primaryColorRgb": "0, 170, 255",
+  "primaryColorHover": "#0088CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Denver's Trusted Plumber",
+      "sub": "15+ years solving plumbing challenges across Denver"
+    },
+    {
+      "title": "Emergency Repairs, Hot Water & Drains",
+      "sub": "Residential and commercial plumbing services"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free quotes across Denver and surrounds"
+    }
+  ],
+  "ctaHeading": "Denver's plumber is ready — let's fix your plumbing today.",
+  "aboutHeading": "15 Years Plumbing in Denver",
+  "aboutSubheading": "Local, licensed and reliable",
+  "aboutText": "For over fifteen years, Mr. Plumber has been Denver's go-to plumbing expert, delivering reliable, cost-effective solutions for homes and businesses alike. Jeff Butler and his team specialise in tackling the unique plumbing challenges that Denver's older properties present, from aging pipe systems to complex drainage issues. Whether it is an emergency repair, hot water system installation, or routine maintenance, we arrive on time, respect your property, and leave every job spotless. Trust Denver's most recommended plumber to keep your water flowing.",
+  "servicesHeading": "What We Fix and Install",
+  "servicesSubheading": "Plumbing done right",
+  "servicesText": "From emergency leak repairs to complete bathroom fit-outs and hot water system replacements, Mr. Plumber provides the full spectrum of plumbing services across Denver and its surrounding suburbs. We combine fifteen years of hands-on experience with modern diagnostic tools to solve any plumbing issue quickly and affordably.",
+  "services": [
+    {
+      "title": "Emergency Plumbing Repairs",
+      "desc": "Fast response emergency plumbing service for burst pipes, major leaks, sewer overflows, and water damage prevention across Denver.",
+      "longDesc": "When plumbing emergencies strike across Denver, Mr. Plumber provides rapid response to minimise water damage and restore your plumbing system. Our fully equipped service vehicles carry common replacement parts to fix most emergency issues on the first visit.",
+      "points": [
+        "Rapid emergency response",
+        "Minimise water damage",
+        "Fixed on first visit"
+      ]
+    },
+    {
+      "title": "Drain Clearing and Unblocking",
+      "desc": "Professional drain clearing and unblocking for sinks, toilets, floor drains, and stormwater across Denver.",
+      "longDesc": "Blocked drains causing backups in your Denver home? Mr. Plumber uses advanced CCTV drain inspection and high-pressure water jetting to identify and clear blockages without damaging your existing pipes, helping prevent future occurrences.",
+      "points": [
+        "CCTV drain inspection",
+        "High-pressure jet clearing",
+        "Prevent future blockages"
+      ]
+    },
+    {
+      "title": "Hot Water System Installation and Repair",
+      "desc": "Expert installation, repair, and replacement of gas, electric, and solar hot water systems in Denver.",
+      "longDesc": "Whether you need a brand-new hot water system installed or your existing unit repaired, Mr. Plumber helps Denver homeowners choose the most energy-efficient solution for their household size, usage patterns, and budget.",
+      "points": [
+        "Gas, electric and solar",
+        "Maximise energy efficiency",
+        "Same-day hot water"
+      ]
+    },
+    {
+      "title": "Pipe Relining and Repair",
+      "desc": "Trenchless pipe relining and repair to fix damaged pipes without excavating your Denver property.",
+      "longDesc": "Avoid the disruption and expense of traditional pipe replacement with advanced pipe relining technology. Mr. Plumber repairs cracked, root-damaged, and collapsed pipes across Denver without digging up your garden, driveway, or landscaping.",
+      "points": [
+        "No-dig pipe repair",
+        "Root damage solutions",
+        "Long-lasting repair warranty"
+      ]
+    },
+    {
+      "title": "Bathroom and Kitchen Plumbing",
+      "desc": "Complete bathroom and kitchen plumbing for renovations, new builds, and fixture upgrades across Denver.",
+      "longDesc": "Planning a kitchen or bathroom renovation in Denver? Mr. Plumber handles all rough-in and fit-off plumbing work, from sink and tapware installation to fixture relocation, ensuring full compliance with Denver plumbing codes and standards.",
+      "points": [
+        "Complete renovation plumbing",
+        "Tapware and fixture install",
+        "Fully code-compliant work"
+      ]
+    },
+    {
+      "title": "General Plumbing Maintenance",
+      "desc": "Comprehensive preventative plumbing maintenance and inspections to keep your Denver property's plumbing system in peak condition year-round.",
+      "longDesc": "Regular plumbing maintenance helps Denver homeowners avoid costly emergency repairs. Mr. Plumber provides comprehensive inspections covering pressure testing, leak detection, valve servicing, water heater flushing, and gutter and downpipe checks.",
+      "points": [
+        "Comprehensive plumbing inspections",
+        "Leak detection and testing",
+        "Prevent costly repairs"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Denver?",
+  "bannerSubheading": "Fast, reliable service across Denver and surrounding suburbs.",
+  "testimonialsHeading": "What Denver Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Plumbing Guides and Advice",
+  "blogSubheading": "Deep-dives from the Denver team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We will get back to you fast",
+  "reviews": [
+    {
+      "text": "Jeff from Mr. Plumber has been looking after our plumbing at our Hilltop home for the past eight years. When our hot water system failed on a freezing Denver winter morning, he had a replacement installed the same day. Reliable, honest, and always fairly priced.",
+      "name": "Michael Torres",
+      "role": "Hilltop Homeowner"
+    },
+    {
+      "text": "We had a stubborn blocked drain at our Congress Park cafe that two other plumbers could not fix. Jeff used CCTV inspection to find the issue and cleared it in under an hour. Mr. Plumber is now our go-to plumber for all our business properties in Denver.",
+      "name": "Sarah Jenkins",
+      "role": "Congress Park Business Owner"
+    },
+    {
+      "text": "Managing twelve rental properties across Denver, I need a plumber I can count on for fast, reliable service. Jeff Butler at Mr. Plumber handles everything from emergency call-outs to routine maintenance. He always provides upfront pricing and my tenants consistently give positive feedback.",
+      "name": "David Chen",
+      "role": "Denver Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Hilltop",
+    "Montclair",
+    "Congress Park",
+    "Cherry Creek",
+    "Wash Park",
+    "Capitol Hill"
+  ],
+  "about": {
+    "intro": "Mr. Plumber has been Denver's trusted plumbing service for over fifteen years, providing reliable, affordable solutions for residential and commercial properties across the Mile High City.",
+    "story": [
+      "Jeff Butler founded Mr. Plumber with a simple philosophy: provide honest, knowledgeable plumbing service at fair prices without cutting corners. Over the past fifteen years, that approach has earned the trust of hundreds of Denver homeowners and businesses. From humble beginnings, Mr. Plumber has grown into one of Denver's most recommended plumbing services, handling everything from simple leak repairs to complex whole-home repiping projects.",
+      "Denver's unique housing stock, from century-old homes in Capitol Hill to modern builds in Cherry Creek, presents distinctive plumbing challenges. Jeff's deep experience with the city's older properties means he understands the quirks of legacy pipe systems and the specialised solutions required to bring them up to modern standards. This expertise, combined with modern diagnostic technology, ensures every job is done right the first time."
+    ],
+    "mission": "To deliver honest, reliable plumbing solutions that protect Denver homes and earn lifelong trust.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "Licensed and insured plumbers you can trust in your Denver home or business."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your time and arrive when we say we will, every single job."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No surprises or hidden fees. You approve the fixed price before work begins."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "All workmanship is backed by our comprehensive satisfaction guarantee for your complete peace of mind."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed and Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed plumber",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Mr. Plumber, we believe in transparent, upfront pricing with no lock-in contracts. Every Denver customer receives a fixed quote before any work begins, so you always know exactly what you are paying.",
+    "packages": [
+      {
+        "name": "Call-Out and Diagnostic",
+        "price": "$89",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation to proceed"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $180",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Fully licensed plumber",
+          "Quality parts and materials",
+          "Same-day completion where possible",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $2,500",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Detailed project plan",
+          "Dedicated project manager",
+          "Staged payment options"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and upfront with no hidden costs, no surprise invoices, and no obligation to proceed."
+  },
+  "contact": {
+    "intro": "Ready to get your plumbing sorted? Contact Mr. Plumber today for a free, no-obligation quote. We serve Denver and all surrounding suburbs with fast, reliable plumbing service."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Emergency Plumbing Cost in Denver?",
+      "date": "March 2026",
+      "excerpt": "Discover the real cost of emergency plumbing services in Denver, from call-out fees to common repair prices, and learn how to avoid being overcharged.",
+      "body": [
+        "Facing a plumbing emergency in Denver can be stressful, especially when you are worried about the cost. Whether it is a burst pipe flooding your basement in Capitol Hill or a failed hot water system on a cold Colorado morning, understanding typical emergency plumbing costs helps you make informed decisions. Denver homeowners can expect to pay varying rates depending on the nature of the emergency, the time of day, and the complexity of the repair. In this guide, the team at Mr. Plumber breaks down real emergency plumbing costs specific to Denver, helping you budget and avoid being overcharged when you need a plumber most.",
+        "The first cost you will encounter with any emergency plumbing call-out in Denver is the call-out or diagnostic fee. Most Denver plumbers, including Mr. Plumber, charge a flat call-out fee that covers travel to your property and an initial assessment of the problem. In the Denver metro area, call-out fees typically range from $80 to $150 depending on the time of day and location within the city. This fee usually includes the plumber's initial diagnosis and a written quote for the repair. At Mr. Plumber, our $89 call-out fee covers the full on-site assessment, and if you choose not to proceed, you owe nothing beyond that initial visit charge.",
+        "Common emergency plumbing repairs in Denver vary widely in cost depending on the issue. A simple tap or toilet repair might cost between $150 and $300, while clearing a blocked drain typically runs $200 to $450. More serious emergencies such as burst pipe repairs can range from $300 to $800 or more, depending on pipe accessibility and the extent of water damage. Hot water system emergencies, whether repair or replacement, are among the most expensive, with repairs averaging $200 to $600 and full replacements starting from $1,200 for standard units. These are typical Denver prices, and getting an upfront fixed quote before any work begins protects you from unexpected costs.",
+        "Several factors influence the final cost of emergency plumbing in Denver. After-hours call-outs, including evenings, weekends, and public holidays, typically incur a premium of 50% to 100% above standard rates. The location of the problem matters too; a burst pipe under a concrete slab in Hilltop will cost more to access and repair than one in an exposed basement. Parts and materials also affect pricing, with premium fixtures and fittings costing more than standard alternatives. Finally, the plumber's experience and qualifications play a role; licensed, insured plumbers with proven track records may charge slightly more, but the quality and reliability of their work provides genuine long-term value for Denver homeowners.",
+        "To avoid being overcharged during a plumbing emergency in Denver, always request a fixed quote before work begins and compare pricing from two or three plumbers where possible. Ask whether the call-out fee is deducted from the total repair cost, as some plumbers offer this arrangement. Be wary of unusually low quotes, which may indicate substandard parts or a lack of proper licensing. Check that your plumber is fully licensed to operate in Colorado and carries adequate insurance. Mr. Plumber provides transparent, upfront pricing on every job, with no hidden fees or surprise invoices, giving Denver homeowners complete peace of mind when plumbing emergencies arise.",
+        "If you are facing a plumbing emergency in Denver, Mr. Plumber is ready to help with fast, reliable service at honest prices. Jeff Butler and his team have been handling emergency plumbing across Denver for over fifteen years, from burst pipes and gas leaks to failed hot water systems and severe blockages. Our fully equipped service vehicles carry common replacement parts, allowing us to resolve most emergencies in a single visit. Call us on (303) 375-1175 for immediate assistance, or request a free quote online. Do not let a plumbing emergency cause unnecessary damage to your Denver home."
+      ]
+    },
+    {
+      "title": "Signs Your Hot Water System Needs Replacing in Denver",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that your hot water system is failing, and when Denver homeowners should plan for a full replacement.",
+      "body": [
+        "Your hot water system is one of the most important appliances in your Denver home, working hard every day to provide reliable hot water for showers, washing, and cooking. Denver's cold winters put additional strain on hot water systems, making reliable performance essential from October through April. Most hot water systems last between 10 and 15 years, depending on the type, brand, and maintenance history. Knowing the warning signs that your system is approaching the end of its life helps you plan for a replacement before a complete failure leaves you without hot water on a freezing Denver morning. Here are the key indicators that it may be time to upgrade.",
+        "Age is the most reliable indicator that your hot water system needs attention. Gas storage systems typically last 10 to 12 years, while electric units may last 12 to 15. If your system is approaching or exceeding these timeframes, the risk of failure increases significantly each year. Check the manufacture date on your system's label; if it is over a decade old, start planning for replacement even if it appears to be working well. Modern hot water systems are considerably more energy-efficient than older models, so replacing an aging unit can reduce your Denver energy bills by 20% to 30% annually, making the investment pay for itself over time.",
+        "Performance changes are among the earliest warning signs that your hot water system is declining. If your hot water runs out faster than it used to, takes longer to reheat, or never reaches the temperature it once did, the heating elements or burner may be failing. Inconsistent water temperature, where the water goes from hot to cold unpredictably, often indicates a failing thermostat or sediment buildup in the tank. Rusty or discoloured water from your hot water taps suggests internal corrosion, which can lead to leaks and tank failure. Strange noises such as popping, rumbling, or cracking from the system indicate sediment accumulation that reduces efficiency and accelerates wear.",
+        "Visible leaks around your hot water system are an urgent warning sign that should not be ignored. Even a small amount of moisture or pooling water at the base of the tank indicates that the unit is compromised and could fail suddenly, potentially causing significant water damage to your Denver home. Rising energy bills without an increase in usage often point to a system that is working harder to produce the same amount of hot water, indicating declining efficiency. If you notice any of these signs, an immediate inspection by a qualified plumber can determine whether repair or replacement is the most cost-effective option for your situation and budget.",
+        "The cost of replacing a hot water system in Denver varies based on the type and size you choose. Standard gas storage systems start from around $1,200 installed, while continuous flow gas units begin at approximately $1,500 to $2,500 depending on capacity. Heat pump hot water systems, which are the most energy-efficient option for Denver's climate, range from $2,500 to $4,500 installed but offer significant long-term energy savings. While the upfront cost may seem substantial, modern efficient systems can save Denver homeowners hundreds of dollars per year in energy costs, and financing options are often available to spread the investment over manageable monthly payments.",
+        "If your hot water system is showing any of these warning signs, contact Mr. Plumber for an honest assessment and upfront pricing. Jeff Butler has been installing and repairing hot water systems across Denver for over fifteen years and can recommend the best solution for your household size, budget, and energy preferences. We handle everything from minor repairs to full system replacements, ensuring your Denver home has reliable hot water all year round. Call (303) 375-1175 to book an inspection, or visit our contact page for a free, no-obligation quote on hot water system replacement in Denver."
+      ]
+    },
+    {
+      "title": "How to Prevent Blocked Drains in Your Denver Home",
+      "date": "January 2026",
+      "excerpt": "Practical tips to keep your drains clear and avoid expensive blocked drain call-outs in Denver, including seasonal maintenance advice.",
+      "body": [
+        "Blocked drains are one of the most common and frustrating plumbing problems Denver homeowners face. From slow-draining kitchen sinks to overflowing outdoor stormwater drains, blockages can disrupt your daily routine and lead to expensive emergency repairs if left unchecked. Denver's climate, with its dry summers and occasional heavy storms, creates unique drainage challenges that require proactive maintenance. Understanding the main causes of blocked drains and taking simple preventive steps can save you significant time, money, and stress. In this guide, the Mr. Plumber team shares practical advice to keep your Denver home's drains clear and flowing freely all year round.",
+        "The kitchen drain is the most common source of blockages in Denver homes. Grease, fats, and cooking oils are the primary culprits, solidifying inside pipes and trapping food particles that gradually build up over time. Never pour cooking grease down the drain; instead, pour it into a container, let it solidify, and dispose of it in the bin. Avoid putting coffee grounds, rice, pasta, and fibrous vegetables down the sink, as these materials expand and create stubborn clogs. Use drain screens to catch food particles, and flush your kitchen drain weekly with boiling water and a small amount of dish soap to dissolve grease before it hardens inside your pipes.",
+        "Bathroom drains in Denver homes frequently become blocked by hair, soap scum, and personal care products. Installing hair catchers over all shower and bath drains is the single most effective preventive measure you can take. Clean these catchers regularly to maintain proper water flow. Avoid flushing wet wipes, cotton buds, dental floss, and sanitary products down the toilet, even if packaging claims they are flushable; these items do not break down quickly and cause severe blockages deep within your plumbing system. Run hot water down bathroom drains after each use to help dissolve soap scum, and use a monthly enzyme-based drain cleaner to maintain pipe health without harsh chemicals.",
+        "Outdoor and stormwater drain maintenance is particularly important for Denver homeowners, especially during the spring and autumn months when leaves and debris accumulate. Clear leaves, dirt, and debris from gutter grates and drain covers regularly, particularly before and after heavy rain events. Ensure downpipes connect properly to stormwater drains and that water flows freely away from your home's foundation. Tree roots are a major cause of underground drain blockages throughout Denver's established suburbs; if you have large trees near your drainage lines, consider annual CCTV drain inspections to detect root intrusion before it causes a complete blockage or costly pipe collapse.",
+        "Recognising the early warning signs of a developing blockage allows you to address the problem before it becomes an emergency. Slow-draining sinks, gurgling sounds from drains, water pooling around floor drains, and unpleasant odours emanating from pipes are all indicators that a blockage is forming. Multiple drains backing up simultaneously suggests a problem in your main sewer line, which requires immediate professional attention. If you notice any of these signs in your Denver home, do not delay; early intervention is always less expensive than emergency repairs, and a qualified plumber can resolve the issue before it escalates into costly property damage.",
+        "Regular professional drain maintenance is the best way to prevent serious blockages in your Denver home. Mr. Plumber offers comprehensive drain inspection and cleaning services using CCTV cameras and high-pressure water jetting to keep your pipes clear and identify potential problems before they become emergencies. Jeff Butler has been maintaining drainage systems across Denver for over fifteen years and understands the specific challenges posed by the area's soil conditions, tree coverage, and climate. Contact us on (303) 375-1175 to schedule a drain inspection or to discuss a preventative maintenance plan tailored to your Denver property."
+      ]
+    },
+    {
+      "title": "Why Older Denver Homes Need Specialised Plumbing Attention",
+      "date": "December 2025",
+      "excerpt": "Denver's heritage homes present unique plumbing challenges. Learn what to watch for and how a specialised plumber can protect your investment.",
+      "body": [
+        "Denver is renowned for its diverse housing stock, from charming Victorian-era homes in Capitol Hill to mid-century bungalows in Hilltop and classic ranches throughout the eastern suburbs. While these older properties offer character and solid construction that modern builds often struggle to match, they also come with plumbing systems that demand specialised knowledge and attention. Many of Denver's pre-1970s homes contain original plumbing infrastructure that, while built to last, is now approaching or exceeding its expected lifespan. Understanding the unique plumbing challenges these homes present is essential for any Denver homeowner looking to protect their investment and maintain a safe, functional living environment.",
+        "Pipe material is one of the most critical concerns in older Denver homes. Properties built before the 1970s may contain galvanised steel pipes, which corrode from the inside out over decades, reducing water pressure and eventually causing leaks. Some homes even retain original lead supply lines, which pose serious health risks and should be replaced immediately. Cast iron drain pipes, common in Denver's older neighbourhoods, are prone to rust and deterioration, leading to leaks, blockages, and sewer gas infiltration. A qualified plumber experienced with Denver's older housing stock can identify these materials through inspection and recommend appropriate upgrade paths to bring your home's plumbing up to modern safety standards.",
+        "Beyond pipe materials, older Denver homes often feature plumbing layouts that present practical challenges. Undersized drain pipes, single-handle shower valves, and outdated fixture connections can make modern renovations difficult without proper planning. Many older homes also lack isolation valves, meaning a single leak may require shutting off water to the entire house. Water pressure issues are common in Denver's hilltop areas, where elevation changes and aging municipal infrastructure can affect supply pressure to older properties. These challenges require a plumber who understands both modern plumbing standards and the specific quirks of Denver's historic housing, ensuring any work integrates seamlessly with existing infrastructure.",
+        "Specialised knowledge of Denver's building codes and permit requirements is essential when working on older homes. Plumbing modifications in heritage areas may require specific approvals, and all work must comply with current Colorado plumbing codes while respecting the structural integrity of the original building. Mr. Plumber's fifteen years of experience working with Denver's older properties means we understand exactly what is required to bring aging plumbing systems up to code without unnecessary disruption or expense. Our team navigates the permit process on your behalf and ensures every modification meets current standards while preserving the character that makes your older Denver home unique.",
+        "Preventative maintenance is particularly valuable for owners of older Denver homes, as it helps identify and address plumbing issues before they cause major damage. Annual plumbing inspections that include pressure testing, visual pipe assessment, and drainage flow evaluation can catch early signs of corrosion, leaks, or root intrusion. For homes with original galvanised pipes, proactive replacement planning prevents the disruptive emergency repairs that often result from sudden pipe failure. Mr. Plumber offers tailored maintenance programs specifically designed for Denver's older properties, giving homeowners peace of mind and helping preserve both property value and the integrity of their home's original construction.",
+        "If you own an older Denver home and have concerns about its plumbing condition, Mr. Plumber is here to help. Jeff Butler has extensive experience working with Denver's diverse range of older properties, from century-old Victorian homes to classic mid-century builds. We provide thorough plumbing inspections, honest assessments, and practical solutions that respect your home's heritage while ensuring safe, modern plumbing performance. Call (303) 375-1175 to schedule an inspection, or contact us online for a free, no-obligation consultation about your older Denver home's plumbing needs. Protect your investment with Denver's most trusted specialist plumber for older homes."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Mr. Plumber | Denver Plumber | Emergency Repairs and Drains",
+      "description": "Denver's trusted plumber with 15+ years experience. Emergency repairs, drain clearing, hot water systems and more. Call (303) 375-1175 for a free quote."
+    },
+    "about": {
+      "title": "About Mr. Plumber | Denver's Trusted Plumbing Team",
+      "description": "Learn about Jeff Butler and the Mr. Plumber team — Denver's trusted plumbers with over 15 years of reliable, honest service for homes and businesses."
+    },
+    "services": {
+      "title": "Plumbing Services Denver CO | Emergency, Drains and Hot Water",
+      "description": "Full-service plumbing in Denver, CO: emergency repairs, drain clearing, hot water systems, pipe relining, bathroom renovations and preventative maintenance."
+    },
+    "pricing": {
+      "title": "Plumbing Costs and Prices Denver | Mr. Plumber",
+      "description": "Transparent plumbing pricing for Denver homeowners and businesses. Upfront fixed quotes with no hidden fees or surprises. Call (303) 375-1175 for a free assessment."
+    },
+    "contact": {
+      "title": "Contact Mr. Plumber | Free Denver Plumbing Quotes",
+      "description": "Get in touch with Mr. Plumber for fast, reliable plumbing in Denver. Free quotes, honest advice, and no-obligation assessments. Call (303) 375-1175 today."
+    },
+    "blog": {
+      "title": "Denver Plumbing Blog | Tips, Guides and Expert Advice",
+      "description": "Expert plumbing advice for Denver homeowners: cost guides, maintenance tips, emergency prep guides, and home improvement insights from the Mr. Plumber team."
+    }
+  }
+}
