@@ -1,0 +1,127 @@
+{
+  "name": "Static Site Fuser — template download",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "name": "When clicking Execute",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [220, 300]
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "{\n  \"_NOTE\": \"Replace this object with the real customer config JSON (same shape as sites/configs/<slug>.json). Keep the optional domain field.\",\n  \"siteType\": \"plumber\",\n  \"businessName\": \"1300 FINDLEAK\",\n  \"suburb\": \"Parkdale\",\n  \"domain\": \"https://www.1300findleak.com.au\"\n}",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0002-4000-8000-000000000002",
+      "name": "Customer Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [440, 300]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "danielanderledan-stack",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "Website",
+          "mode": "name"
+        },
+        "filePath": "prerender/template/bundle.js",
+        "asBinaryProperty": false,
+        "additionalParameters": {}
+      },
+      "id": "a1b2c3d4-0003-4000-8000-000000000003",
+      "name": "Get Bundle",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [660, 300]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "danielanderledan-stack",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "Website",
+          "mode": "name"
+        },
+        "filePath": "prerender/template/template.css",
+        "asBinaryProperty": false,
+        "additionalParameters": {}
+      },
+      "id": "a1b2c3d4-0004-4000-8000-000000000004",
+      "name": "Get CSS",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [880, 300]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "danielanderledan-stack",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "Website",
+          "mode": "name"
+        },
+        "filePath": "prerender/template/site.js",
+        "asBinaryProperty": false,
+        "additionalParameters": {}
+      },
+      "id": "a1b2c3d4-0005-4000-8000-000000000005",
+      "name": "Get SiteJS",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1.1,
+      "position": [1100, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Customer config: comes from the 'Customer Config' node — swap that node\n// for your real purchase-flow input later, keeping the same node name (or\n// update the reference below).\nconst config = $('Customer Config').first().json;\n\n// GitHub file:get (asBinaryProperty=false) returns base64 in json.content\nconst file = (name) => Buffer.from($(name).first().json.content, 'base64').toString('utf8');\nconst bundleJs = file('Get Bundle');\nconst cssText = file('Get CSS');\nconst siteJs = file('Get SiteJS');\n\n/* >>> PASTE the entire contents of prerender/fuse.cjs BELOW this line,\n       then DELETE its final `module.exports = { fuseSite };` line <<< */\n\n\n\n/* >>> END PASTE <<< */\n\nconst result = await fuseSite({ config, bundleJs, cssText, siteJs, domain: config.domain });\n\nreturn [\n  ...result.files.map((f) => ({ json: { type: 'file', path: f.path, content: f.content } })),\n  ...result.copies.map((c) => ({ json: { type: 'image', from: c.from, to: c.to } })),\n  { json: { type: 'meta', slug: result.slug, domain: result.domain, warnings: result.warnings, routes: result.routes } },\n];"
+      },
+      "id": "a1b2c3d4-0006-4000-8000-000000000006",
+      "name": "Fuse Static Site",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1320, 300]
+    }
+  ],
+  "connections": {
+    "When clicking Execute": {
+      "main": [[{ "node": "Customer Config", "type": "main", "index": 0 }]]
+    },
+    "Customer Config": {
+      "main": [[{ "node": "Get Bundle", "type": "main", "index": 0 }]]
+    },
+    "Get Bundle": {
+      "main": [[{ "node": "Get CSS", "type": "main", "index": 0 }]]
+    },
+    "Get CSS": {
+      "main": [[{ "node": "Get SiteJS", "type": "main", "index": 0 }]]
+    },
+    "Get SiteJS": {
+      "main": [[{ "node": "Fuse Static Site", "type": "main", "index": 0 }]]
+    }
+  },
+  "pinData": {},
+  "settings": { "executionOrder": "v1" }
+}
