@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Home Electrical",
+  "suburb": "Wendouree",
+  "phone": "03 5331 4567",
+  "email": "info@homeelectrical.com.au",
+  "address": "Industrial Estate, 7 Daveyduke Dr, Wendouree VIC 3355",
+  "tagline": "Wendouree's Trusted Electricians",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#009ED6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Wendouree's Go-To Electricians",
+      "sub": "15+ years serving local homes and businesses"
+    },
+    {
+      "title": "Commercial & Industrial Electrical Experts",
+      "sub": "Project management, control panels, and more"
+    },
+    {
+      "title": "Reliable Domestic Electrical Services",
+      "sub": "Competitive rates for all your home needs"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Wendouree?",
+  "aboutHeading": "Electrical Experts in Wendouree",
+  "aboutSubheading": "Keeping you connected and safe",
+  "aboutText": "Home Electrical has been providing expert electrical services in Wendouree for over a decade. We keep abreast of technological advances and developments affecting the electrical industry, ensuring our customers receive the latest information to make informed decisions. Focusing on the commercial and industrial sectors, we also offer complete domestic electrical services at competitive rates throughout Wendouree and surrounding areas.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Expert solutions for all your needs",
+  "servicesText": "From project management to control panel installations and welding services, Home Electrical offers a comprehensive range of electrical solutions for commercial, industrial, and domestic clients in Wendouree. Our licensed electricians are equipped to handle projects of any scale with precision and safety.",
+  "services": [
+    {
+      "title": "Project Management",
+      "desc": "Comprehensive oversight of electrical projects from start to finish in Wendouree.",
+      "longDesc": "Our project management services ensure your electrical installations are completed on time, within budget, and to the highest standards. We coordinate all aspects, including design, procurement, and execution, for commercial and industrial clients.",
+      "points": [
+        "On-time delivery",
+        "Budget adherence",
+        "Quality control"
+      ]
+    },
+    {
+      "title": "Control Panel Installation",
+      "desc": "Expert design and installation of custom control panels for various applications.",
+      "longDesc": "We specialise in building and installing control panels tailored to your specific needs, ensuring reliable operation and compliance with Australian standards. Ideal for industrial machinery and commercial systems.",
+      "points": [
+        "Custom designs",
+        "Compliance assured",
+        "Reliable performance"
+      ]
+    },
+    {
+      "title": "Welding Services",
+      "desc": "Professional welding for electrical enclosures and structural components.",
+      "longDesc": "Our certified welders provide high-quality welding services for electrical installations, including enclosure fabrication and support structures. We ensure durability and safety in all welding projects.",
+      "points": [
+        "Certified welders",
+        "Durable results",
+        "Safety focused"
+      ]
+    },
+    {
+      "title": "Commercial Electrical Services",
+      "desc": "Full-service electrical solutions for businesses and commercial properties.",
+      "longDesc": "We handle all commercial electrical needs, from fit-outs and maintenance to energy efficiency upgrades. Our team minimises downtime and ensures your business stays powered and safe.",
+      "points": [
+        "Minimal disruption",
+        "Energy efficiency",
+        "Full compliance"
+      ]
+    },
+    {
+      "title": "Industrial Electrical Services",
+      "desc": "Specialised electrical services for factories, warehouses, and industrial facilities.",
+      "longDesc": "From heavy machinery wiring to plant maintenance, we provide robust electrical solutions for industrial environments. Our expertise ensures operational efficiency and adherence to strict safety protocols.",
+      "points": [
+        "Heavy-duty wiring",
+        "Plant maintenance",
+        "Safety protocols"
+      ]
+    },
+    {
+      "title": "Domestic Electrical Services",
+      "desc": "Reliable electrical services for homes and residential properties in Wendouree.",
+      "longDesc": "We offer complete domestic electrical services, including installations, repairs, and safety inspections. Our competitive rates and prompt service make us the trusted choice for homeowners.",
+      "points": [
+        "Home installations",
+        "Prompt repairs",
+        "Safety inspections"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Wendouree?",
+  "bannerSubheading": "Fast, reliable electrical services for your home or business.",
+  "testimonialsHeading": "What Wendouree Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Wendouree Electrical Tips & Guides",
+  "blogSubheading": "Expert advice from your local electricians",
+  "contactHeading": "Get a Free Electrical Quote",
+  "contactSubheading": "Contact us today for a no-obligation assessment.",
+  "reviews": [
+    {
+      "text": "Home Electrical did a fantastic job on the control panel installation for our factory in Wendouree. Their attention to detail and professionalism were outstanding. Highly recommend for any commercial project.",
+      "name": "John Smith",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "We called Home Electrical for domestic rewiring at our Wendouree home. The team was punctual, courteous, and the work was completed to a high standard. Great value for money.",
+      "name": "Sarah Johnson",
+      "role": "Wendouree Homeowner"
+    },
+    {
+      "text": "As a property manager, I rely on Home Electrical for all our rental properties in the area. Their emergency response and maintenance services are top-notch. They never let us down.",
+      "name": "Michael Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Wendouree",
+    "Ballarat",
+    "Alfredton",
+    "Sebastopol",
+    "Buninyong",
+    "Creswick"
+  ],
+  "about": {
+    "intro": "Home Electrical is Wendouree's premier electrical service provider, dedicated to delivering safe, efficient, and innovative solutions for all your electrical needs.",
+    "story": [
+      "Founded over a decade ago, Home Electrical has grown from a small local operation to a trusted name in electrical services across Wendouree and the greater Ballarat region. Our commitment to staying at the forefront of technological advancements ensures that we bring the latest industry practices to every project, whether for homes or businesses.",
+      "We specialise in commercial and industrial electrical work, including project management, control panel installations, and welding services, but our passion extends to providing affordable and reliable domestic electrical services. This dual focus allows us to serve the entire community with expertise and care."
+    ],
+    "mission": "To provide Wendouree with exceptional electrical services that prioritise safety, quality, and customer satisfaction.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "All our electricians are fully licensed and insured, guaranteeing professional work."
+      },
+      {
+        "title": "Local Knowledge",
+        "text": "Deep understanding of Wendouree's electrical needs and building codes."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No hidden fees; upfront quotes and competitive rates for all services."
+      },
+      {
+        "title": "24/7 Emergency",
+        "text": "Round-the-clock availability for urgent electrical issues in the area."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "800+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Home Electrical, we offer transparent pricing with no lock-in contracts. Get a free quote for your electrical project in Wendouree today.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$80",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed written quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Service",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Licensed electrician",
+          "Quality materials",
+          "Upfront fixed price",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Custom project plan",
+          "Dedicated manager",
+          "Phased payments",
+          "Full compliance"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises, ensuring you know exactly what you're paying for."
+  },
+  "contact": {
+    "intro": "Ready to start your electrical project? Contact Home Electrical for a free, no-obligation quote in Wendouree. We're here to help with any electrical need."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Electrical Installation Cost in Wendouree?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting electrical installation costs in Wendouree and get insights into pricing for homes and businesses.",
+      "body": [
+        "Electrical installation costs in Wendouree can vary widely based on the scope of the project, the type of property, and the specific requirements. For residential installations, such as rewiring or new circuit additions, costs typically range from $1,500 to $5,000, depending on the size of the home and the complexity of the work. Commercial and industrial projects are more variable, often starting from $10,000 for basic fit-outs to over $100,000 for large-scale installations.",
+        "One key factor is the age of the property. Older homes in Wendouree may require additional work to meet current Australian standards, including upgrading switchboards and wiring, which can increase costs. New constructions offer more straightforward installations but still need careful planning to ensure energy efficiency and safety compliance.",
+        "The choice of electrician also impacts the overall cost. Licensed professionals like Home Electrical provide upfront quotes that include all labour, materials, and any necessary permits. This transparency helps avoid unexpected expenses. We recommend getting multiple quotes to compare, but ensure you're comparing like-for-like services.",
+        "In Wendouree, the climate can influence electrical needs, such as the installation of surge protectors due to occasional storms or outdoor lighting for security. These additional features should be factored into the budget. Always discuss your specific requirements with your electrician to get an accurate estimate.",
+        "For businesses, electrical costs include ongoing maintenance and energy management. Investing in energy-efficient systems can lead to long-term savings, which is why we advise commercial clients in Wendouree to consider upgrades during installations. This proactive approach reduces downtime and operational costs.",
+        "Ultimately, the cost of electrical installation in Wendouree is an investment in safety and functionality. By choosing a reputable local electrician like Home Electrical, you ensure that the work is done right the first time, adhering to all Australian standards and providing peace of mind for years to come."
+      ]
+    },
+    {
+      "title": "Best Practices for Commercial Electrical Maintenance in Ballarat Region",
+      "date": "February 2026",
+      "excerpt": "Learn essential maintenance tips for commercial electrical systems in Ballarat, including Wendouree, to ensure safety and efficiency.",
+      "body": [
+        "Commercial electrical maintenance is crucial for businesses in the Ballarat region, including Wendouree, to prevent costly downtime and ensure compliance with Australian safety standards. Regular inspections and servicing can identify potential issues before they escalate, protecting your employees and assets.",
+        "A comprehensive maintenance plan should include routine checks of wiring, switchboards, lighting, and emergency systems. In Wendouree, where temperatures can fluctuate, it's important to inspect for any wear and tear from climate conditions. Seasonal maintenance, such as before winter, can prepare your systems for increased load.",
+        "Hiring a licensed electrician from a local provider like Home Electrical ensures that maintenance is performed to the highest standards. We offer tailored maintenance packages for businesses in Ballarat, covering everything from visual inspections to full system audits. This local expertise means we understand the specific challenges faced by properties in the area.",
+        "Energy efficiency is another key aspect of maintenance. Upgrading to LED lighting or installing smart controls can significantly reduce electricity bills. For commercial properties in Wendouree, we recommend an energy audit as part of regular maintenance to identify savings opportunities and improve sustainability.",
+        "Emergency preparedness is vital. Ensure that all emergency systems, including backup generators and exit lighting, are regularly tested and maintained. In the event of a power outage or fault, having reliable systems can make a critical difference for businesses in the Ballarat region.",
+        "Documentation is essential for compliance. Keep records of all maintenance activities, including dates, findings, and any repairs made. This documentation not only helps with regulatory requirements but also provides a history that can inform future maintenance decisions for your commercial property in Wendouree."
+      ]
+    },
+    {
+      "title": "Safety Inspection Checklist for Wendouree Homes",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to electrical safety inspections for homeowners in Wendouree, highlighting key areas to check.",
+      "body": [
+        "Electrical safety inspections are vital for homeowners in Wendouree to prevent hazards like shocks, fires, and equipment damage. A thorough inspection should cover all aspects of your home's electrical system, from the main switchboard to individual outlets and appliances.",
+        "Start with the switchboard: ensure it's up to date with circuit breakers and safety switches (RCDs). Older homes in Wendouree may have outdated fuse boxes that need replacement to meet current Australian standards. Check for any signs of damage, such as burn marks or loose connections.",
+        "Inspect all wiring and outlets for wear, fraying, or discolouration. In Wendouree's climate, moisture can be an issue, so look for any signs of water damage near electrical points. Test all outlets with a plug-in tester to ensure they are properly earthed and functioning.",
+        "Lighting fixtures should be checked for stability and proper function. Ensure that all bulbs are appropriate for their fixtures and that any dimmer switches are compatible. Outdoor lighting is particularly important in Wendouree for security and safety during darker months.",
+        "Appliances and cords need regular inspection for damage. Avoid overloading outlets, especially in older homes where wiring may not support high loads. Use surge protectors for valuable electronics to safeguard against power surges, which can occur during storms in the Ballarat region.",
+        "For peace of mind, consider a professional safety inspection from a licensed electrician like Home Electrical. We provide detailed reports and recommendations for any necessary upgrades, ensuring your Wendouree home is safe and compliant. Regular inspections, recommended every few years, can prevent major issues and ensure ongoing safety."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Services in Wendouree: What to Do During a Power Outage",
+      "date": "December 2025",
+      "excerpt": "Steps to take during an electrical emergency in Wendouree, and how local electricians can assist with rapid response.",
+      "body": [
+        "Experiencing a power outage in Wendouree can be stressful, especially if it's due to an electrical fault. The first step is to ensure safety: turn off all appliances at the power point to prevent damage when electricity is restored. Check if the outage is localised to your property or affects the wider area by looking at neighbouring lights.",
+        "If it's a property-specific issue, inspect your switchboard for any tripped circuit breakers or blown fuses. Reset any tripped switches carefully. If the problem persists, it's likely a more serious fault that requires professional attention. Avoid attempting DIY repairs, as this can be dangerous.",
+        "Contact a licensed emergency electrician in Wendouree immediately. Home Electrical offers 24/7 emergency services with rapid response times. Our team is equipped to handle all types of electrical emergencies, from faults and shorts to complete power failures, ensuring minimal disruption to your home or business.",
+        "In the event of an electrical fire or hazard, call Triple Zero (000) first for emergency services. Once safe, evacuate the premises and wait for professionals. Do not re-enter until cleared by authorities. Electrical fires can spread quickly, so prevention and prompt response are key.",
+        "For businesses in Wendouree, having an emergency plan is crucial. This includes knowing your electrician's contact details and having backup power solutions like generators. Regular maintenance can reduce the likelihood of emergencies, but being prepared ensures swift action when needed.",
+        "After the immediate issue is resolved, a thorough inspection by a professional electrician is recommended to identify the root cause and prevent recurrence. Home Electrical provides comprehensive emergency services in Wendouree and surrounding areas, giving you peace of mind that your electrical system is in safe hands."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Home Electrical | Electrician in Wendouree | Electrical Services",
+      "description": "Trusted electrician in Wendouree offering commercial, industrial & domestic electrical services. Get a free quote from Home Electrical today."
+    },
+    "about": {
+      "title": "About Home Electrical | Wendouree's Local Electricians",
+      "description": "Learn about Home Electrical, your trusted electrical service provider in Wendouree with over 15 years of experience. Fully licensed & insured."
+    },
+    "services": {
+      "title": "Electrical Services in Wendouree | Home Electrical",
+      "description": "Comprehensive electrical services in Wendouree including project management, control panels, welding & more. Expert solutions for all needs."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Quotes Wendouree | Home Electrical",
+      "description": "Transparent pricing for electrical services in Wendouree. Get upfront quotes with no hidden fees from licensed electricians."
+    },
+    "contact": {
+      "title": "Contact Home Electrical | Free Electrical Quotes Wendouree",
+      "description": "Contact Home Electrical in Wendouree for free, no-obligation electrical quotes. Available 24/7 for emergencies."
+    },
+    "blog": {
+      "title": "Wendouree Electrical Blog | Tips & Guides from Home Electrical",
+      "description": "Expert electrical advice and guides for Wendouree residents and businesses. Stay informed with local insights from Home Electrical."
+    }
+  }
+}
