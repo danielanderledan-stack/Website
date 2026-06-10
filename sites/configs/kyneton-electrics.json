@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Kyneton Electrics",
+  "suburb": "Kyneton",
+  "phone": "0354221369",
+  "email": "bootstrap@5.1.1",
+  "address": "17 Latrobe St, Kyneton VIC 3444",
+  "tagline": "Kyneton's Trusted Electricians",
+  "primaryColor": "#00A3FF",
+  "primaryColorRgb": "0, 163, 255",
+  "primaryColorHover": "#0088CC",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Kyneton's Go-To Electricians",
+      "sub": "Fast, safe electrical fixes for homes and businesses"
+    },
+    {
+      "title": "Power Outages? Faulty Wiring? We Fix It All",
+      "sub": "Prompt service across Kyneton and surrounds"
+    },
+    {
+      "title": "Licensed & Insured Electrical Experts",
+      "sub": "Free quotes for Kyneton residents"
+    }
+  ],
+  "ctaHeading": "Need an Electrician in Kyneton? Call Us Now.",
+  "aboutHeading": "Kyneton Electrics — Your Local Electrical Experts",
+  "aboutSubheading": "Experienced Team Serving Kyneton Since 2014",
+  "aboutText": "Based in Kyneton, Kyneton Electrics has been diagnosing and fixing electrical problems quickly and safely for over a decade. Whether it's a sudden power outage, faulty wiring, or flickering lights, our experienced team is ready to help. We know electrical issues can't wait — that's why we respond promptly and get your power back on with minimal disruption across Kyneton VIC 3444.",
+  "servicesHeading": "Our Electrical Services in Kyneton",
+  "servicesSubheading": "Comprehensive Solutions for Every Need",
+  "servicesText": "From emergency repairs to preventive maintenance, Kyneton Electrics offers a full range of electrical services tailored to homes and businesses in Kyneton. Our licensed electricians ensure all work meets Australian safety standards.",
+  "services": [
+    {
+      "title": "Power Outage Repairs",
+      "desc": "Rapid response to restore power during outages in Kyneton homes and businesses.",
+      "longDesc": "Our Kyneton electricians quickly diagnose the cause of power outages, from grid issues to internal faults, ensuring minimal downtime for your property. We service all Kyneton areas including residential and commercial.",
+      "points": [
+        "Fast emergency response",
+        "24/7 availability",
+        "Minimal disruption"
+      ]
+    },
+    {
+      "title": "Faulty Wiring Diagnosis & Repair",
+      "desc": "Identify and fix wiring issues to prevent hazards in your Kyneton property.",
+      "longDesc": "We specialise in detecting and repairing faulty wiring in Kyneton homes, using advanced tools to ensure safety and compliance with Australian electrical standards. Protect your property from fire risks.",
+      "points": [
+        "Advanced diagnostics",
+        "Safety compliance",
+        "Licensed repairs"
+      ]
+    },
+    {
+      "title": "Flickering Lights Solutions",
+      "desc": "Eliminate flickering lights with expert troubleshooting in Kyneton.",
+      "longDesc": "Flickering lights in Kyneton can indicate loose connections or overloaded circuits. Our electricians pinpoint the root cause and provide lasting solutions, restoring stable lighting to your space.",
+      "points": [
+        "Root cause analysis",
+        "Quick fixes",
+        "Energy-efficient solutions"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade outdated switchboards for safety and efficiency in Kyneton.",
+      "longDesc": "Old switchboards in Kyneton properties can be a safety risk. We install modern, compliant switchboards to handle increased electrical loads, improving safety and reliability for your home or business.",
+      "points": [
+        "Modern compliance",
+        "Increased capacity",
+        "Enhanced safety"
+      ]
+    },
+    {
+      "title": "Electrical Safety Inspections",
+      "desc": "Comprehensive safety checks for Kyneton properties to meet regulations.",
+      "longDesc": "Our thorough electrical inspections in Kyneton identify potential hazards, ensuring your property complies with Victorian safety regulations. We provide detailed reports and recommendations.",
+      "points": [
+        "Detailed reports",
+        "Regulation compliance",
+        "Risk prevention"
+      ]
+    },
+    {
+      "title": "Outdoor & Security Lighting",
+      "desc": "Install durable outdoor lighting for safety and aesthetics in Kyneton.",
+      "longDesc": "Enhance your Kyneton property's security and curb appeal with our outdoor lighting installations. We use weather-resistant fixtures suited to the local climate, from pathway lights to security systems.",
+      "points": [
+        "Weather-resistant fixtures",
+        "Security enhancement",
+        "Aesthetic appeal"
+      ]
+    }
+  ],
+  "bannerHeading": "Electrical Emergencies in Kyneton? We're Here to Help.",
+  "bannerSubheading": "24/7 service for urgent electrical issues across Kyneton",
+  "testimonialsHeading": "What Kyneton Locals Say About Us",
+  "testimonialsSubheading": "Honest, Reliable Electrical Work",
+  "blogHeading": "Kyneton Electrical Tips & Guides",
+  "blogSubheading": "Expert Advice from Local Electricians",
+  "contactHeading": "Get a Free Electrical Quote",
+  "contactSubheading": "Call or Email for Prompt Service",
+  "reviews": [
+    {
+      "text": "Kyneton Electrics fixed our faulty wiring quickly and safely. Their team was professional and explained everything clearly. Highly recommend for any electrical work in Kyneton.",
+      "name": "Sarah Mitchell",
+      "role": "Kyneton Homeowner"
+    },
+    {
+      "text": "Prompt service when we had a power outage at our shop. They were on time, diagnosed the issue fast, and got us back in business. Great local electricians.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Used Kyneton Electrics for switchboard upgrades in our rental properties. Reliable, licensed, and always provide upfront quotes. The go-to electricians in the area.",
+      "name": "David Thompson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Kyneton",
+    "Malmsbury",
+    "Taradale",
+    "Gisborne",
+    "Woodend",
+    "Castlemaine",
+    "Lancefield"
+  ],
+  "about": {
+    "intro": "Kyneton Electrics is your trusted local electrician in Kyneton, VIC, providing reliable and efficient electrical services with over 10 years of experience.",
+    "story": [
+      "Founded over a decade ago, Kyneton Electrics has become a cornerstone of the Kyneton community. Our team of licensed electricians is dedicated to solving electrical problems with precision and care, ensuring safety and satisfaction for every job in the local area.",
+      "From emergency repairs to routine maintenance, we handle all electrical needs in Kyneton and surrounding suburbs. We pride ourselves on using the latest techniques and adhering to Australian safety standards to deliver top-quality service that Kyneton residents can rely on."
+    ],
+    "mission": "To provide Kyneton with safe, efficient, and affordable electrical solutions.",
+    "whyUs": [
+      {
+        "title": "Rapid Response",
+        "text": "We respond quickly to electrical emergencies in Kyneton, minimising downtime."
+      },
+      {
+        "title": "Licensed Experts",
+        "text": "Fully licensed and insured electricians for your peace of mind."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "No surprises — upfront quotes for all electrical work in Kyneton."
+      },
+      {
+        "title": "Local Knowledge",
+        "text": "Deep understanding of Kyneton's electrical needs and challenges."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "24/7 emergency service"
+    ]
+  },
+  "pricing": {
+    "intro": "At Kyneton Electrics, we offer competitive pricing with no lock-in contracts. Get a free quote for your electrical project in Kyneton, and we'll provide upfront costs.",
+    "packages": [
+      {
+        "name": "Electrical Inspection",
+        "price": "$120",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Comprehensive safety check",
+          "Detailed report",
+          "No-obligation advice"
+        ]
+      },
+      {
+        "name": "Standard Repair",
+        "price": "from $200",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Fault diagnosis",
+          "Quality parts",
+          "Workmanship guarantee",
+          "Upfront pricing"
+        ]
+      },
+      {
+        "name": "Major Installation",
+        "price": "from $1,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Switchboard upgrades",
+          "Lighting installations",
+          "Compliance certificate"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs for Kyneton customers."
+  },
+  "contact": {
+    "intro": "Ready to solve your electrical issues? Contact Kyneton Electrics for a free, no-obligation quote. We're here to help with any electrical problem in Kyneton."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Electrical Rewiring Cost in Kyneton?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting electrical rewiring costs in Kyneton, including home size, wiring type, and local regulations.",
+      "body": [
+        "Electrical rewiring is a critical upgrade for older Kyneton homes, where aging wiring can pose safety risks. The cost depends on several factors: the size of your property, the complexity of the wiring, and the materials used. In Kyneton, where many heritage homes exist, rewiring often involves careful work to preserve aesthetics while meeting modern Australian standards. Expect to pay between $4,000 and $8,000 for a typical three-bedroom house, but larger or more complex projects can exceed this. Always get multiple quotes from licensed Kyneton electricians to ensure competitive pricing.",
+        "Kyneton's climate, with cold winters and occasional humidity, can affect wiring insulation over time. During a rewiring project, electricians will assess your current system, replace outdated cables, and install new outlets and switches. This not only improves safety but also enhances energy efficiency, potentially reducing your electricity bills. It's essential to hire a licensed professional in Kyneton to avoid DIY pitfalls and ensure compliance with Victorian electrical regulations, which require a certificate of compliance upon completion.",
+        "When planning a rewiring project in Kyneton, consider the layout of your home and any future electrical needs, such as additional circuits for appliances or outdoor lighting. The process typically takes one to two weeks, during which you may experience temporary power interruptions. Kyneton Electrics offers detailed consultations to outline the scope, timeline, and fixed pricing upfront, so there are no surprises. We use high-quality, durable materials suited to Australian conditions, ensuring your new wiring lasts for decades.",
+        "Beyond cost, rewiring in Kyneton adds value to your property by addressing safety hazards like frayed wires or overloaded circuits. This is particularly important for insurance purposes, as many policies require up-to-date electrical systems. Local electricians familiar with Kyneton's building stock can navigate any challenges, such as accessing walls in older constructions. Regular maintenance after rewiring, like inspections every few years, can further protect your investment and keep your home safe.",
+        "If you're considering rewiring, start with a free safety inspection from Kyneton Electrics. Our team will assess your needs and provide a tailored quote, helping you understand the full investment. We prioritise minimal disruption to your daily life, working efficiently to complete projects on time. With over 10 years of experience in Kyneton, we've handled countless rewiring jobs, from small cottages to large commercial properties, always delivering reliable results.",
+        "In summary, electrical rewiring in Kyneton is a worthwhile investment in safety and efficiency. By choosing a licensed local electrician, you ensure the work meets all standards and is done right the first time. Contact Kyneton Electrics today to discuss your project and get a free, no-obligation quote tailored to your specific needs in the Kyneton area."
+      ]
+    },
+    {
+      "title": "Signs Your Switchboard Needs Upgrading in Kyneton",
+      "date": "February 2026",
+      "excerpt": "Learn the warning signs that your Kyneton property's switchboard is outdated and why upgrading is crucial for safety.",
+      "body": [
+        "Your switchboard is the heart of your home's electrical system, and in Kyneton, where many properties are older, it's vital to recognise when it needs upgrading. Common signs include frequent circuit breaker trips, a buzzing noise, or fuses that blow regularly. These issues indicate that your switchboard can't handle modern electrical loads, increasing the risk of fire or electrical shock. Upgrading to a modern switchboard in Kyneton ensures compliance with Australian safety standards and provides better protection for your appliances.",
+        "In Kyneton's climate, temperature fluctuations can stress old switchboards, leading to corrosion or loose connections. If you notice discoloured outlets or a burning smell, it's an urgent sign that your switchboard is compromised. An upgrade involves replacing outdated components with circuit breakers and safety switches, which automatically cut power during faults. This not only enhances safety but also improves reliability, reducing unexpected outages in your Kyneton home or business.",
+        "The cost of upgrading a switchboard in Kyneton typically ranges from $1,500 to $3,000, depending on the size and complexity of the property. Factors include the number of circuits, the need for additional safety features, and accessibility. Licensed electricians in Kyneton can assess your current system and provide a fixed quote upfront. We recommend upgrading every 20-25 years or immediately if you experience the signs mentioned, to prevent dangerous situations.",
+        "Upgrading your switchboard in Kyneton also future-proofs your property for increased electrical demand, such as from new appliances, solar systems, or electric vehicles. A modern switchboard can handle higher loads and offers better circuit management, which is essential as Kyneton homes become more technologically equipped. This investment can also positively impact your property's value and insurance eligibility, as insurers often require up-to-date electrical systems.",
+        "During the upgrade process in Kyneton, a licensed electrician will install the new switchboard, test all circuits, and issue a certificate of compliance. This ensures the work meets Victorian regulations and provides peace of mind. At Kyneton Electrics, we use high-quality brands and offer minimal disruption, often completing upgrades in a single day. Our local expertise means we understand Kyneton's specific needs, from heritage homes to modern builds.",
+        "Don't wait for a failure to address your switchboard. Regular inspections by Kyneton electricians can identify issues early. If you're experiencing any warning signs, contact Kyneton Electrics for a free assessment. We'll guide you through the upgrade process, explaining costs and benefits tailored to your Kyneton property. Upgrading your switchboard is a proactive step towards a safer, more efficient home."
+      ]
+    },
+    {
+      "title": "Best Outdoor Lighting Options for Kyneton Homes",
+      "date": "January 2026",
+      "excerpt": "Explore durable and energy-efficient outdoor lighting solutions suited to Kyneton's climate and lifestyle.",
+      "body": [
+        "Outdoor lighting in Kyneton not only enhances curb appeal but also improves security, especially during the region's long winter evenings. The best options consider Kyneton's climate, which includes cold temperatures and occasional frost, so durability is key. LED lights are ideal due to their energy efficiency and long lifespan, reducing maintenance costs. For Kyneton homes, consider motion-sensor lights for driveways and pathways, providing safety and deterring intruders.",
+        "Kyneton's rural and semi-rural settings often require lighting that blends with the natural environment. Solar-powered lights are a sustainable choice, harnessing Australia's ample sunlight, though they may need backup during cloudy periods. Ensure fixtures are rated for outdoor use and resistant to Kyneton's weather conditions, with IP ratings suitable for dust and moisture. Professional installation by Kyneton electricians ensures proper placement and wiring for optimal performance.",
+        "The cost of outdoor lighting in Kyneton varies based on the type and number of fixtures. Basic solar lights can start from $50 each, while hardwired LED systems with smart controls might cost $200 to $500 per fixture, plus installation. Factors include the complexity of the electrical work, such as running underground cables, and any additional features like timers or dimmers. Kyneton Electrics provides free quotes to outline costs specific to your property and needs.",
+        "In Kyneton, outdoor lighting should comply with local council regulations, especially regarding light pollution and neighborly considerations. Choosing warm-white LEDs can minimize glare while providing sufficient illumination. For larger properties, consider zoning different areas, like garden beds, patios, and entry points, to create a cohesive look. Regular maintenance, such as cleaning fixtures and checking connections, ensures longevity in Kyneton's variable weather.",
+        "When selecting outdoor lighting in Kyneton, think about energy efficiency to reduce electricity bills. LED lights use up to 80% less energy than traditional bulbs, which is beneficial for both the environment and your wallet. Smart lighting systems, which can be controlled via apps, add convenience and allow you to adjust settings remotely, useful for Kyneton residents who travel or have irregular schedules.",
+        "Professional installation by licensed Kyneton electricians is crucial for safety and compliance. We ensure all outdoor lighting meets Australian standards, including proper grounding and circuit protection. At Kyneton Electrics, we offer tailored solutions, from simple upgrades to full outdoor lighting designs, enhancing your home's safety and aesthetic. Contact us for a free consultation to explore the best options for your Kyneton property."
+      ]
+    },
+    {
+      "title": "Emergency Electrical Repairs: What Kyneton Residents Should Know",
+      "date": "December 2025",
+      "excerpt": "A guide to handling electrical emergencies in Kyneton, from power outages to safety hazards, with expert advice.",
+      "body": [
+        "Electrical emergencies in Kyneton can be stressful, but knowing what to do can prevent injury or damage. Common issues include power outages, exposed wires, or electrical fires. First, ensure safety by turning off the main power switch if possible and avoiding contact with water or faulty equipment. In Kyneton, where weather events can cause outages, having an emergency plan is wise. Always call a licensed electrician like Kyneton Electrics for immediate assistance.",
+        "Power outages in Kyneton may result from grid faults, storms, or internal issues. If multiple homes are affected, it's likely a distribution problem; check with your energy provider. For isolated outages, inspect your switchboard for tripped breakers before calling for help. Kyneton Electrics offers 24/7 emergency services, responding promptly to restore power. Our team diagnoses issues quickly, whether it's a faulty circuit, damaged wiring, or appliance failure.",
+        "Exposed or damaged wiring is a severe hazard in Kyneton homes, especially with children or pets around. Do not attempt to repair it yourself; isolate the area and contact a licensed electrician immediately. In Kyneton, older properties may have outdated wiring that requires expert attention. We provide fast repairs to secure the wiring and prevent shocks or fires, ensuring compliance with Victorian safety standards.",
+        "Electrical fires are rare but dangerous. If you smell burning or see sparks from outlets, disconnect power at the main switch and evacuate if necessary. Call emergency services first, then a licensed electrician. In Kyneton, fire risks can be mitigated by regular safety inspections and upgrades, like installing safety switches. Kyneton Electrics helps identify and rectify potential fire hazards, offering peace of mind for local residents.",
+        "For any electrical emergency in Kyneton, documentation is important. Note the time, symptoms, and any actions taken. This information helps the electrician diagnose the problem faster. Our emergency service includes a thorough assessment and temporary fixes if needed, with permanent solutions scheduled promptly. We understand the urgency and prioritise Kyneton customers to minimise disruption.",
+        "Prevention is better than cure; regular maintenance can reduce emergencies. Kyneton Electrics recommends annual inspections to catch issues early. We also provide advice on safe electrical practices, like avoiding overloading outlets. For Kyneton residents, being prepared and having a trusted electrician on call ensures safety. Contact us anytime for emergency repairs or preventive advice in Kyneton."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Kyneton Electrics | Electrician in Kyneton | Power Outage Repairs",
+      "description": "Kyneton Electrics provides fast, safe electrical services in Kyneton VIC. From power outages to wiring repairs, our licensed team is ready to help. Call 0354221369."
+    },
+    "about": {
+      "title": "About Us | Kyneton's Trusted Electrical Team | Kyneton Electrics",
+      "description": "Learn about Kyneton Electrics, your local electrician with over 10 years of experience in electrical diagnostics and repairs across Kyneton and surrounding areas."
+    },
+    "services": {
+      "title": "Electrical Services in Kyneton | Repairs, Upgrades & Safety",
+      "description": "Comprehensive electrical services in Kyneton including power outage repair, switchboard upgrades, and safety inspections by licensed electricians. Get a free quote today."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Quotes Kyneton | Kyneton Electrics",
+      "description": "Transparent pricing for electrical work in Kyneton. Upfront quotes for repairs, installations, and inspections with no hidden fees. Contact us now."
+    },
+    "contact": {
+      "title": "Contact Kyneton Electrics | Free Quotes for Kyneton Electrician",
+      "description": "Get in touch with Kyneton Electrics for a free electrical quote. Call 0354221369 or email bootstrap@5.1.1 for prompt service in Kyneton VIC."
+    },
+    "blog": {
+      "title": "Kyneton Electrical Blog | Tips, Guides & Cost Advice",
+      "description": "Expert electrical advice for Kyneton residents. Learn about costs, maintenance, and safety from local electricians at Kyneton Electrics. Read more now."
+    }
+  }
+}
