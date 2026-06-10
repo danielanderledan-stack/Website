@@ -1,0 +1,301 @@
+{
+  "siteType": "hvac",
+  "businessName": "All Car Care Centre",
+  "suburb": "Delacombe",
+  "phone": "+61353361653",
+  "email": "allcarcarecentre@gmail.com",
+  "address": "Shed 1/5 Innovation Dr, Delacombe VIC 3356",
+  "tagline": "Delacombe's Trusted Car Mechanics",
+  "primaryColor": "#ffa855",
+  "primaryColorRgb": "255, 168, 85",
+  "primaryColorHover": "#e89540",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Delacombe's Trusted Car Service Centre",
+      "sub": "VACC-compliant mechanics serving the Ballarat region"
+    },
+    {
+      "title": "Log Book Servicing, RWC & AC Repairs",
+      "sub": "All makes and models welcome"
+    },
+    {
+      "title": "Quality Car Care Without the Drama",
+      "sub": "Same-day service on Innovation Drive, Delacombe"
+    }
+  ],
+  "ctaHeading": "Delacombe's car care experts are ready — let's get your vehicle sorted.",
+  "aboutHeading": "Delacombe's VACC-Compliant Car Service Centre",
+  "aboutSubheading": "Keeping Ballarat region vehicles at their best",
+  "aboutText": "At All Car Care Centre in Delacombe, we have been keeping Ballarat region vehicles running at their best for years. Our VACC-compliant team delivers quality car servicing from log book maintenance and oil changes to roadworthy certificates and brake repairs. Located on Innovation Drive in Delacombe, we are the trusted choice for drivers across the western suburbs of Ballarat who demand reliable, affordable automotive care without cutting corners.",
+  "servicesHeading": "What We Service & Repair",
+  "servicesSubheading": "Expert car care, transparent pricing",
+  "servicesText": "From routine log book servicing and oil changes to comprehensive brake repairs and roadworthy certificates, All Car Care Centre in Delacombe handles it all. Our VACC-compliant technicians service all makes and models with genuine parts and transparent pricing across the Ballarat region.",
+  "services": [
+    {
+      "title": "Roadworthy Certificate (RWC)",
+      "desc": "VicRoads-approved RWC inspections for Delacombe drivers, ensuring your vehicle meets every Victorian road safety standard.",
+      "longDesc": "Our Delacombe technicians conduct thorough roadworthy certificate inspections covering tyres, brakes, lights, suspension, and structural integrity. We provide honest assessments and fast turnaround so you can sell or re-register your vehicle with confidence.",
+      "points": [
+        "VicRoads-approved inspections",
+        "Fast turnaround times",
+        "Honest assessments"
+      ]
+    },
+    {
+      "title": "Log Book Service",
+      "desc": "Manufacturer-specified log book servicing to protect your warranty and keep your vehicle performing at its peak.",
+      "longDesc": "All Car Care Centre follows your vehicle manufacturer log book schedule using quality parts and fluids. Our Delacombe team stamps your log book to maintain your warranty while providing thorough inspections of all critical systems.",
+      "points": [
+        "Warranty-protected servicing",
+        "Quality parts and fluids",
+        "Full system inspection"
+      ]
+    },
+    {
+      "title": "Oil Change and Maintenance",
+      "desc": "Regular oil changes and preventative maintenance to extend your engine life and improve fuel efficiency.",
+      "longDesc": "Keep your engine running smoothly with professional oil changes at our Delacombe workshop. We use premium oils and filters suited to your vehicle, checking levels, leaks, and overall engine health during every service visit.",
+      "points": [
+        "Premium oils and filters",
+        "Engine health checks",
+        "Improved fuel efficiency"
+      ]
+    },
+    {
+      "title": "AC Servicing and Re-Gas",
+      "desc": "Complete automotive air conditioning servicing, diagnostics, and re-gas to keep you cool through Ballarat hot summers.",
+      "longDesc": "From leak detection and diagnostics to full system re-gas, our Delacombe technicians restore your vehicle air conditioning to factory performance. We service all makes and models, ensuring comfortable cabin temperatures year-round.",
+      "points": [
+        "Full diagnostics and leak repair",
+        "All vehicle makes serviced",
+        "Year-round comfort"
+      ]
+    },
+    {
+      "title": "Brakes and Suspension",
+      "desc": "Expert brake and suspension repairs for safer handling, smoother rides, and confident stopping power on Ballarat roads.",
+      "longDesc": "Our Delacombe mechanics diagnose and repair brake pads, rotors, calipers, shock absorbers, and suspension components using quality parts. We ensure your vehicle handles Ballarat varied road conditions with reliable stopping power and a smooth ride.",
+      "points": [
+        "Complete brake inspections",
+        "Quality replacement parts",
+        "Smoother and safer handling"
+      ]
+    },
+    {
+      "title": "Tyre Services",
+      "desc": "Tyre fitting, balancing, rotation, and alignment to maximise grip, safety, and tread life on Ballarat roads.",
+      "longDesc": "All Car Care Centre provides professional tyre services in Delacombe including new tyre sales, fitting, wheel balancing, rotation, and alignment. We help Ballarat region drivers maintain optimal grip and even tread wear for safer driving.",
+      "points": [
+        "New tyres and fitting",
+        "Wheel alignment and balance",
+        "Extended tread life"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Mechanic in Delacombe?",
+  "bannerSubheading": "VACC-compliant car servicing for the entire Ballarat region",
+  "testimonialsHeading": "What Delacombe Locals Say",
+  "testimonialsSubheading": "Trusted by drivers across the Ballarat region",
+  "blogHeading": "Car Care Tips for Ballarat Drivers",
+  "blogSubheading": "Expert advice from the Delacombe workshop",
+  "contactHeading": "Get Your Free Quote Today",
+  "contactSubheading": "Delacombe mechanics are ready to help",
+  "reviews": [
+    {
+      "text": "I took my Toyota Camry to All Car Care Centre in Delacombe for a roadworthy certificate before selling it. The team was upfront about costs, finished on time, and the RWC passed without any drama. Highly recommend them to anyone in the Ballarat region.",
+      "name": "Sarah Mitchell",
+      "role": "Delacombe Local"
+    },
+    {
+      "text": "Our family has been using All Car Care Centre for log book servicing for years. They are always honest about what needs doing and what can wait. Great mechanics who genuinely care about keeping your car safe on Ballarat roads.",
+      "name": "David Thompson",
+      "role": "Ballarat Homeowner"
+    },
+    {
+      "text": "The AC in my work van stopped blowing cold right before summer. The guys at All Car Care Centre in Delacombe diagnosed a leak, fixed it, and re-gassed the system the same day. Brilliant service and very fair pricing.",
+      "name": "Jake Morrison",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Delacombe",
+    "Ballarat",
+    "Sebastopol",
+    "Alfredton",
+    "Wendouree",
+    "Buninyong",
+    "Redan",
+    "Miners Rest"
+  ],
+  "about": {
+    "intro": "All Car Care Centre is Delacombe trusted VACC-compliant automotive service centre, delivering quality car care to the Ballarat region.",
+    "story": [
+      "Founded to serve the growing Delacombe community, All Car Care Centre has built its reputation on honest, reliable automotive servicing. Our experienced VACC-compliant technicians understand that maintaining your vehicle should not break the bank, which is why we offer transparent pricing and genuine advice on every job. From a quick oil change to a complete roadworthy inspection, we treat every vehicle with the same meticulous attention to detail.",
+      "Conveniently located on Innovation Drive in Delacombe, we service vehicles from across the Ballarat region including Sebastopol, Alfredton, and Wendouree. Whether you drive a sedan, ute, or SUV, our team uses quality parts and follows manufacturer specifications to keep your car performing at its best. We are proud to be the go-to car service centre for families and businesses throughout Delacombe and surrounds."
+    ],
+    "mission": "To deliver reliable, affordable car servicing that keeps Delacombe and Ballarat drivers safe on the road.",
+    "whyUs": [
+      {
+        "title": "VACC Compliant",
+        "text": "We operate a fully VACC-compliant workshop meeting Australia highest automotive service standards."
+      },
+      {
+        "title": "Honest Pricing",
+        "text": "We provide transparent, upfront quotes with no hidden fees or unnecessary upselling."
+      },
+      {
+        "title": "All Makes and Models",
+        "text": "From sedans and SUVs to utes and commercial vehicles, we service all makes."
+      },
+      {
+        "title": "Fast Turnaround",
+        "text": "Most services completed same-day so you spend less time without your car."
+      }
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "VACC Compliant"
+      },
+      {
+        "value": "1,200+",
+        "label": "Cars Serviced"
+      },
+      {
+        "value": "5+",
+        "label": "Years Experience"
+      }
+    ],
+    "credentials": [
+      "VACC Compliant Centre",
+      "Qualified Technicians",
+      "Quality Guaranteed",
+      "Same-Day Service"
+    ]
+  },
+  "pricing": {
+    "intro": "At All Car Care Centre in Delacombe, we offer competitive, no-lock-in pricing for all car servicing needs across the Ballarat region.",
+    "packages": [
+      {
+        "name": "Basic Service",
+        "price": "from $149",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Oil and filter change",
+          "Fluid level check",
+          "Visual inspection"
+        ]
+      },
+      {
+        "name": "Log Book Service",
+        "price": "from $249",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Manufacturer-spec service",
+          "Log book stamp",
+          "Full system check",
+          "Quality parts and fluids"
+        ]
+      },
+      {
+        "name": "Full Inspection",
+        "price": "from $349",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Comprehensive 100+ point check",
+          "Brake and tyre assessment",
+          "Detailed report",
+          "Priority scheduling"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises — just honest car care for Delacombe drivers."
+  },
+  "contact": {
+    "intro": "Need reliable car servicing in Delacombe? Contact All Car Care Centre today for a free, no-obligation quote. Call us or drop by the workshop on Innovation Drive."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Roadworthy Certificate Cost in Delacombe?",
+      "date": "April 2026",
+      "excerpt": "Everything Ballarat region vehicle owners need to know about RWC costs, what is inspected, and how to prepare your car for a smooth roadworthy certificate pass in Delacombe.",
+      "body": [
+        "Getting a roadworthy certificate (RWC) is a legal requirement when selling or re-registering a vehicle in Victoria, and understanding the costs upfront helps Ballarat region drivers plan with confidence. At All Car Care Centre in Delacombe, we provide VicRoads-approved RWC inspections that cover all the critical safety components of your vehicle. The cost of an RWC in the Ballarat region typically ranges from $150 to $200 for a standard passenger vehicle, though this can vary depending on the vehicle age, type, and condition. Our Delacombe team provides transparent pricing before we begin any inspection so there are never any surprises.",
+        "The roadworthy certificate inspection in Delacombe covers a comprehensive checklist mandated by VicRoads. This includes your tyres tread depth and condition, brake pad and rotor thickness, brake fluid levels, all exterior lights and indicators, steering and suspension components, windscreen condition, seatbelt function, and structural integrity of the vehicle chassis and body. Each of these items must meet strict Victorian safety standards before a certificate can be issued. Our experienced technicians at All Car Care Centre know exactly what VicRoads inspectors look for, and we will flag any issues before your formal inspection to give you the best chance of passing first time.",
+        "If your vehicle does not pass the initial RWC inspection in Delacombe, do not worry — this is more common than you might think, especially for older vehicles. VicRoads allows 30 days to have the identified defects repaired and reinspected. At All Car Care Centre, we can handle both the repairs and the reinspection under one roof, saving you time and hassle. Common issues that cause RWC failures in the Ballarat region include worn brake pads, bald tyres, cracked windscreens, and non-functioning lights. Many of these are relatively affordable fixes, and our team will provide a clear quote before proceeding with any repairs.",
+        "For Delacombe residents planning to sell a vehicle, it is worth getting your RWC organised early. Having a valid roadworthy certificate in hand makes your vehicle far more attractive to buyers and can speed up the sale process considerably. If you are buying a vehicle privately in the Ballarat region, insist on seeing a current RWC or factor the cost of obtaining one into your budget. At All Car Care Centre on Innovation Drive in Delacombe, we recommend scheduling your RWC inspection a few weeks before your planned sale date to allow time for any necessary repairs.",
+        "Weather and seasonal factors in the Ballarat region can also affect your vehicle roadworthiness. The cold, wet winters in western Victoria take a toll on brakes, tyres, and undercarriage components through moisture and road grime. Before winter sets in, it is wise to have your Delacombe mechanic check these wear items to ensure your vehicle will pass its RWC when the time comes. All Car Care Centre offers pre-inspection check-ups that can identify potential issues early, saving you money and stress down the track.",
+        "At All Car Care Centre in Delacombe, we pride ourselves on making the RWC process as straightforward and stress-free as possible for Ballarat region drivers. Our VicRoads-approved inspection facility is fully equipped, and our team provides honest, jargon-free advice about what your vehicle needs. Whether you need an RWC for a sale, registration transfer, or simply want peace of mind about your vehicle safety, book your inspection with us today and experience the difference a trusted Delacombe car care centre makes."
+      ]
+    },
+    {
+      "title": "When Should You Get a Log Book Service in Delacombe?",
+      "date": "March 2026",
+      "excerpt": "Learn why sticking to your manufacturer log book service schedule matters, what is included, and how Delacombe drivers can protect their warranty and resale value.",
+      "body": [
+        "If you have recently purchased a new or used vehicle in the Ballarat region, understanding when to get a log book service is essential for protecting your manufacturer warranty and maintaining your car resale value. At All Car Care Centre in Delacombe, we service vehicles according to their exact manufacturer specifications, ensuring your log book is stamped correctly and your warranty remains intact. Log book services are typically due every six months or every 10,000 to 15,000 kilometres, whichever comes first, though this varies by manufacturer. Our Delacombe technicians can help you determine the right schedule for your specific vehicle.",
+        "A log book service at our Delacombe workshop goes far beyond a basic oil change. Each service follows the detailed checklist outlined by your vehicle manufacturer, covering engine oil and filter replacement using the correct grade and specification, inspection and topping up of all fluid levels including coolant, brake fluid, power steering, and transmission fluid, tyre pressure checks and rotation, brake system inspection, battery health testing, and a thorough examination of belts, hoses, and filters. Our team uses quality OEM-equivalent parts to ensure your vehicle performs exactly as the manufacturer intended.",
+        "Many Ballarat region drivers do not realise that skipping log book services or having them done at non-qualified workshops can void their manufacturer warranty. At All Car Care Centre in Delacombe, we are a fully VACC-compliant workshop, which means our log book servicing meets the standards required to maintain your warranty. We stamp your log book with all relevant details after each service, providing a clear documented history that future buyers or dealers will value. This documentation is particularly important for newer vehicles still under warranty.",
+        "The Ballarat region climate also plays a role in determining your ideal log book service intervals. The cold winters and temperature extremes of western Victoria put additional strain on engines, batteries, and cooling systems. If you frequently drive in dusty conditions around Delacombe industrial areas or commute on the Western Freeway, your engine oil may degrade faster than the standard interval suggests. Our Delacombe mechanics can assess your driving conditions and recommend a tailored service schedule that keeps your engine protected year-round.",
+        "Selling your vehicle in the Ballarat region? A complete log book service history significantly increases resale value. Buyers at Ballarat car yards and private sales increasingly check for documented service histories, and a stamped log book from a reputable Delacombe workshop like All Car Care Centre adds credibility and confidence. Even if you are not planning to sell soon, maintaining your log book from day one ensures you will always get maximum value when the time comes.",
+        "Whether your vehicle is due for its first service or its twentieth, All Car Care Centre in Delacombe delivers manufacturer-spec log book servicing that protects your warranty, your engine, and your investment. Book your next log book service with our experienced team and join hundreds of satisfied Ballarat region drivers who trust us with their vehicle maintenance."
+      ]
+    },
+    {
+      "title": "Signs Your Car Air Conditioning Needs Servicing in Ballarat",
+      "date": "February 2026",
+      "excerpt": "Do not get caught without cool air this summer — discover the warning signs your vehicle AC system needs professional attention from Delacombe trusted mechanics.",
+      "body": [
+        "As summer temperatures climb across the Ballarat region, a functioning air conditioning system is not just a luxury — it is essential for safe, comfortable driving. At All Car Care Centre in Delacombe, we see plenty of vehicles each year where the AC has failed unexpectedly because early warning signs were ignored. Understanding these signs can save Ballarat region drivers from expensive repairs and sweltering commutes. The most obvious indicator is reduced cooling performance: if your AC takes longer than usual to cool the cabin or never reaches the cold temperatures it once did, it is time to have the system checked by a professional in Delacombe.",
+        "Another common warning sign is unusual noise when you turn on the air conditioning. Clicking, rattling, or squealing sounds from under the dashboard or bonnet can indicate a failing compressor, loose belts, or a damaged condenser fan. These issues do not resolve themselves and will worsen if left unattended. At All Car Care Centre, our Delacombe technicians use diagnostic equipment to pinpoint the exact cause of AC noise and recommend the most cost-effective repair. Ignoring these sounds in the Ballarat region climate could leave you without cooling during the hottest days of the year.",
+        "Unpleasant odours from your vehicle air conditioning vents are another clear sign that servicing is overdue. Musty or mouldy smells typically indicate bacterial or fungal growth within the evaporator or ducting system, which is common in vehicles that have not had their AC serviced in over twelve months. Our Delacombe workshop offers professional AC cleaning and sanitising treatments that eliminate these odours and improve the air quality inside your Ballarat region vehicle. This is particularly important for families with young children or allergy sufferers.",
+        "Visible refrigerant leaks, often appearing as an oily residue near AC components under the bonnet, signal a more serious issue that requires immediate attention from a Delacombe professional. Low refrigerant levels force the compressor to work harder, leading to increased wear and potential system failure. All Car Care Centre in Delacombe performs comprehensive leak detection using UV dye and electronic detectors, followed by professional re-gas services that restore your AC system to factory specifications. We use the correct refrigerant type for your specific vehicle.",
+        "The best approach to avoiding AC breakdowns in the Ballarat region is preventive maintenance. We recommend having your vehicle air conditioning system professionally inspected and serviced at least once every twelve months, ideally before summer begins. During a service at our Delacombe workshop, we check refrigerant levels, inspect all hoses and connections for leaks, test compressor performance, and clean or replace the cabin air filter. This proactive approach is far cheaper than emergency repairs and ensures reliable cooling when you need it most.",
+        "Do not wait until you are stuck in Ballarat traffic on a 40-degree day without air conditioning. Contact All Car Care Centre in Delacombe to book your AC system inspection and service today. Our experienced team will have your vehicle cooling system performing at its best, keeping you comfortable on every drive across the Ballarat region."
+      ]
+    },
+    {
+      "title": "How Often Should You Change Your Car Oil in the Ballarat Region?",
+      "date": "January 2026",
+      "excerpt": "A complete guide to oil change intervals for Ballarat drivers, including how Delacombe climate and driving conditions affect your engine health.",
+      "body": [
+        "Regular oil changes are the single most important maintenance task you can perform to keep your vehicle engine running reliably, yet many Ballarat region drivers are not sure how often they should be done. At All Car Care Centre in Delacombe, we recommend following your vehicle manufacturer specified oil change interval, which is typically every six months or every 10,000 to 15,000 kilometres for modern vehicles using synthetic oil. However, driving conditions in the Ballarat region can influence these intervals, and our Delacombe mechanics can assess your specific situation to recommend the optimal schedule.",
+        "The Ballarat region climate presents unique challenges for engine oil. Cold winter mornings mean your engine takes longer to reach optimal operating temperature, during which time the oil circulates less effectively and can accumulate moisture and fuel contaminants. The temperature swings between Ballarat cold winters and warm summers also accelerate oil degradation through thermal cycling. If you primarily drive short trips around Delacombe, Sebastopol, or Alfredton where the engine rarely reaches full operating temperature, the oil may need changing more frequently than the manufacturer standard interval suggests.",
+        "Different types of engine oil also have different lifespans and performance characteristics. Conventional mineral oils typically need changing every 5,000 to 7,500 kilometres, while semi-synthetic blends last longer at around 7,500 to 10,000 kilometres. Full synthetic oils, which All Car Care Centre recommends for most modern vehicles in the Ballarat region, can last 10,000 to 15,000 kilometres depending on the formulation. Synthetic oils perform better in extreme temperatures, resist breakdown more effectively, and provide superior engine protection during Delacombe cold winter starts.",
+        "Several warning signs indicate your oil needs immediate attention regardless of your service schedule. Dark brown or black oil on the dipstick, a gritty texture when rubbed between your fingers, increased engine noise or knocking, the oil pressure warning light illuminating, or a burning oil smell from the engine bay are all red flags. At our Delacombe workshop, we check oil condition during every service and advise Ballarat region drivers on whether an earlier oil change is necessary. Do not ignore these signs — running an engine with degraded oil can cause catastrophic and expensive damage.",
+        "Choosing the right oil for your vehicle and driving conditions matters just as much as the change interval. Our Delacombe mechanics at All Car Care Centre select oils that meet your manufacturer specifications for viscosity, performance rating, and certification standards. For Ballarat region drivers who tow trailers, carry heavy loads, or drive in dusty conditions, we may recommend oils with higher viscosity ratings or enhanced detergent packages. We stock a full range of quality oils suitable for every vehicle type serviced at our Delacombe workshop.",
+        "Skipping or delaying oil changes is a false economy that can lead to engine sludge, increased fuel consumption, and ultimately catastrophic engine failure costing thousands of dollars. At All Car Care Centre in Delacombe, we make oil changes quick, affordable, and convenient for Ballarat region drivers. Our comprehensive oil change service includes new oil and filter, a multi-point inspection, fluid top-ups, and a written report on your engine condition. Book your next oil change with our Delacombe team and keep your engine running smoothly for years to come."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "All Car Care Centre | Car Service and Repairs in Delacombe VIC",
+      "description": "Delacombe trusted car service centre for log book servicing, RWC inspections, AC re-gas and brake repairs. VACC-compliant mechanics serving the Ballarat region. Call today."
+    },
+    "about": {
+      "title": "About All Car Care Centre | Delacombe VACC-Compliant Mechanics",
+      "description": "Learn about All Car Care Centre, Delacombe VACC-compliant automotive service team delivering quality car care across the Ballarat region for years."
+    },
+    "services": {
+      "title": "Car Service and Repairs in Delacombe | All Car Care Centre",
+      "description": "Full automotive servicing in Delacombe including log book service, RWC, AC re-gas, brakes, tyres and oil changes. Serving Ballarat and surrounds."
+    },
+    "pricing": {
+      "title": "Car Servicing Costs Delacombe | All Car Care Centre",
+      "description": "Transparent car servicing prices in Delacombe VIC. Log book service, basic service and full inspection packages for Ballarat region vehicles."
+    },
+    "contact": {
+      "title": "Contact All Car Care Centre | Delacombe Car Mechanics",
+      "description": "Get a free quote from All Car Care Centre in Delacombe VIC. Call +61 3 5336 1653 or visit us on Innovation Drive for quality car servicing."
+    },
+    "blog": {
+      "title": "Car Care Blog | Tips from Delacombe Mechanics | All Car Care",
+      "description": "Expert car maintenance advice for Ballarat region drivers. Tips on oil changes, AC servicing, RWC inspections and more from Delacombe mechanics."
+    }
+  }
+}
