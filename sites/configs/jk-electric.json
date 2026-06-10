@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "JK Electric",
+  "suburb": "Denver",
+  "phone": "3037750832",
+  "email": "example@example.com",
+  "address": "1194 S Bannock St, Denver, CO 80223",
+  "tagline": "Denver's Trusted Electrical Contractors",
+  "primaryColor": "#9a50ff",
+  "primaryColorRgb": "154, 80, 255",
+  "primaryColorHover": "#8040dd",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Denver's Go-To Electricians",
+      "sub": "Serving Denver, Arvada, Thornton & Highlands Ranch"
+    },
+    {
+      "title": "Residential & Commercial Electrical Services",
+      "sub": "Service Upgrades, Lighting & Rewiring Experts"
+    },
+    {
+      "title": "No Job Too Big or Small",
+      "sub": "Free Quotes Across Denver & Surrounds"
+    }
+  ],
+  "ctaHeading": "Denver's electricians are ready — let's power your project.",
+  "aboutHeading": "Trusted Electricians in Denver",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "JK Electric is a leading electrical contractor proudly serving Denver, Arvada, Thornton, Highlands Ranch, Boulder and surrounding communities in Colorado. With years of dedicated experience, we deliver comprehensive residential and commercial electrical services, including service upgrades, lighting system installations, rewiring, and more. We uphold the highest standards of quality and professionalism, treating every Denver client with integrity and a commitment to their best interests on every project.",
+  "servicesHeading": "What We Wire & Install",
+  "servicesSubheading": "Electrical done right",
+  "servicesText": "From routine electrical inspections to complex rewiring projects, JK Electric covers all your needs in Denver. Our licensed team specialises in residential and commercial service upgrades, energy-efficient lighting installations, and emergency repairs across the Denver metro area.",
+  "services": [
+    {
+      "title": "Service Upgrades",
+      "desc": "Enhance your property's electrical capacity with expert service upgrades tailored for Denver homes and businesses.",
+      "longDesc": "We perform thorough assessments and upgrade your electrical service panel to meet modern demands, ensuring safety and compliance with Denver codes for both residential and commercial properties.",
+      "points": [
+        "Increased capacity",
+        "Safety compliance",
+        "Denver experts"
+      ]
+    },
+    {
+      "title": "Lighting Installations",
+      "desc": "Professional lighting system installations to brighten your Denver space, from homes to commercial outlets.",
+      "longDesc": "Our Denver electricians design and install custom lighting solutions, including LED upgrades and landscape lighting, optimised for Colorado's climate and energy efficiency standards.",
+      "points": [
+        "Energy-efficient designs",
+        "Custom solutions",
+        "Local installation"
+      ]
+    },
+    {
+      "title": "Rewiring Services",
+      "desc": "Complete rewiring for older Denver properties to ensure safety and meet current electrical standards.",
+      "longDesc": "We specialise in full and partial rewiring for Denver homes and businesses, using high-quality materials to eliminate hazards and improve electrical performance in the local environment.",
+      "points": [
+        "Safety first",
+        "Quality materials",
+        "Denver specialists"
+      ]
+    },
+    {
+      "title": "Electrical Inspections",
+      "desc": "Comprehensive electrical inspections for Denver properties to identify issues and ensure regulatory compliance.",
+      "longDesc": "Our detailed inspections cover all aspects of your electrical system, providing peace of mind for Denver homeowners and businesses by adhering to Colorado's strict electrical codes and standards.",
+      "points": [
+        "Thorough assessments",
+        "Code compliance",
+        "Peace of mind"
+      ]
+    },
+    {
+      "title": "Switchboard Upgrades",
+      "desc": "Upgrade your switchboard in Denver for improved safety and to handle increased electrical loads.",
+      "longDesc": "We replace outdated switchboards with modern, circuit breaker-equipped panels, essential for Denver properties to prevent overloads and enhance safety in the local climate.",
+      "points": [
+        "Modern technology",
+        "Load handling",
+        "Denver safety"
+      ]
+    },
+    {
+      "title": "Emergency Repairs",
+      "desc": "Fast and reliable emergency electrical repairs available 24/7 for Denver residents and businesses.",
+      "longDesc": "Our Denver-based team responds swiftly to electrical emergencies, from power outages to fault finding, minimising downtime and ensuring safety for your property around the clock.",
+      "points": [
+        "24/7 availability",
+        "Rapid response",
+        "Denver coverage"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Denver?",
+  "bannerSubheading": "From service upgrades to emergency repairs, we've got Denver covered.",
+  "testimonialsHeading": "What Denver Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Electrical Guides & Advice",
+  "blogSubheading": "Deep-dives from the Denver team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "JK Electric did a fantastic job on our service upgrade in Denver. The team was professional, efficient, and explained everything clearly, ensuring our home's electrical system is now safe and up to code.",
+      "name": "Mike Johnson",
+      "role": "Denver Homeowner"
+    },
+    {
+      "text": "We hired JK Electric for lighting installations at our business in Arvada. Their knowledge of commercial systems and attention to detail were impressive, and the project was completed on schedule.",
+      "name": "Sarah Williams",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Excellent rewiring service for our property in Thornton. They used high-quality materials and adhered to all safety standards, giving us confidence in the workmanship for years to come.",
+      "name": "David Brown",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Denver",
+    "Arvada",
+    "Thornton",
+    "Highlands Ranch",
+    "Boulder",
+    "Lakewood",
+    "Westminster"
+  ],
+  "about": {
+    "intro": "JK Electric is a premier electrical contractor based in Denver, Colorado, specialising in residential and commercial electrical services for the local community.",
+    "story": [
+      "Founded in Denver, JK Electric has built a reputation on reliability and quality, serving the electrical needs of homes and businesses across Arvada, Thornton, Highlands Ranch, and beyond. Our team of licensed electricians is committed to delivering safe, efficient solutions tailored to Colorado's unique requirements, from routine maintenance to complex installations.",
+      "We take pride in our Denver roots, understanding the local electrical codes and climate challenges. Whether it's a lighting upgrade for a Denver storefront or a full rewiring for a historic home, we approach every project with integrity, ensuring our clients' best interests are always at the forefront."
+    ],
+    "mission": "To provide Denver and surrounding areas with top-tier electrical services that prioritise safety, quality, and customer satisfaction.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "Our Denver electricians are fully licensed and trained in the latest standards."
+      },
+      {
+        "title": "Timely Service",
+        "text": "We respect your schedule, completing projects on time in Denver."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Upfront quotes with no hidden fees for Denver clients."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "All our electrical work in Denver comes with a solid guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1,500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed in Colorado",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At JK Electric in Denver, we offer straightforward, no-lock-in pricing for all electrical services, from call-outs to major projects, ensuring you get value without surprises.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$95",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Upfront fixed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $250",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Common repairs & installs",
+          "Licensed Denver electricians",
+          "Quality materials",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Project",
+        "price": "from $2,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full rewiring & upgrades",
+          "Custom lighting solutions",
+          "Commercial-scale work"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs, giving Denver clients complete peace of mind."
+  },
+  "contact": {
+    "intro": "Ready to discuss your electrical needs in Denver? Contact JK Electric today for a free, no-obligation quote, and let our local experts assist you."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does an Electrical Service Upgrade Cost in Denver?",
+      "date": "March 2026",
+      "excerpt": "Discover the factors affecting electrical service upgrade costs in Denver, from panel size to local regulations, with insights from JK Electric.",
+      "body": [
+        "Electrical service upgrades are essential for many Denver homes and businesses, especially as modern demands increase. In Denver, the cost of a service upgrade typically ranges from $1,500 to $4,000, depending on factors like the current system's age, the required amperage increase, and local permitting fees. JK Electric, based in Denver, emphasises that older properties in areas like Highlands Ranch or Arvada may need more extensive work to meet Colorado's updated electrical codes, which can influence pricing.",
+        "Key cost drivers in Denver include the type of service panel—whether it's a standard upgrade to 200 amps or a larger commercial installation—and the complexity of rewiring needed to accommodate new circuits. Denver's climate, with cold winters and occasional storms, can also impact project timelines and material choices, as electricians must ensure systems are resilient. At JK Electric, we provide detailed assessments to pinpoint exactly what your Denver property requires, avoiding unnecessary expenses.",
+        "Permitting in Denver is another consideration; the city requires inspections and adherence to the National Electrical Code, which can add to the overall cost. Our team at JK Electric handles all Denver permit applications, streamlining the process for you. We recommend getting multiple quotes, but always prioritise licensed electricians who understand Denver's specific requirements to ensure safety and compliance.",
+        "To budget effectively, consider the long-term benefits of a service upgrade in Denver, such as increased property value and reduced risk of electrical fires. JK Electric offers flexible pricing options for Denver clients, including phased approaches for larger projects. We always advise against cutting corners, as Denver's building standards are stringent and designed to protect residents.",
+        "Examples from our Denver projects show that a typical residential service upgrade for a home in Thornton might cost around $2,200, including materials and labour, while commercial upgrades in downtown Denver can exceed $5,000. Factors like accessibility of the electrical panel and any hidden issues, such as outdated wiring, can add to the scope. Our transparent quoting process ensures you know all costs upfront.",
+        "In summary, the cost of an electrical service upgrade in Denver varies, but with JK Electric, you receive expert guidance and competitive pricing. We encourage Denver homeowners and businesses to contact us for a tailored quote, leveraging our years of experience to deliver efficient, code-compliant solutions that enhance your property's safety and functionality."
+      ]
+    },
+    {
+      "title": "Best Practices for Electrical Inspections in Denver's Winter Months",
+      "date": "February 2026",
+      "excerpt": "Learn why winter electrical inspections are crucial in Denver, with tips on preparing your system for cold weather from local experts.",
+      "body": [
+        "Denver's winter months bring cold temperatures and increased use of heating systems, making electrical inspections vital for safety and efficiency. At JK Electric in Denver, we recommend annual inspections to identify potential issues before they escalate. Winter in Colorado can strain electrical systems, with higher loads from heaters and lights, so ensuring your Denver property's wiring is up to code is essential to prevent hazards like overloads or fires.",
+        "During a Denver winter inspection, our licensed electricians check for common cold-weather issues, such as frost-related damage to outdoor wiring or moisture buildup in panels. For Denver homes in areas like Boulder or Lakewood, we also assess insulation around electrical components to prevent heat loss and improve energy efficiency. This proactive approach helps Denver residents avoid costly repairs during peak winter demand.",
+        "Key aspects of a Denver electrical inspection include testing circuit breakers, verifying grounding systems, and inspecting outlets for wear. Denver's dry climate can sometimes lead to static electricity issues, which our team addresses by ensuring proper earthing. We use advanced diagnostic tools to provide thorough reports, tailored to Denver's specific environmental conditions.",
+        "Preparing your Denver property for winter involves simple steps like avoiding overloading circuits with space heaters and ensuring smoke detectors are functional. JK Electric educates Denver clients on best practices, such as using surge protectors for sensitive electronics and scheduling inspections early in the season to beat the rush. Our local expertise means we understand Denver's unique challenges.",
+        "Examples from our Denver service records show that properties in Thornton and Arvada often benefit from inspections that catch minor issues, like loose connections, before winter sets in. We also advise Denver businesses to schedule inspections during off-hours to minimise disruption. Compliance with Denver's electrical codes is non-negotiable, and our inspections ensure you meet all regulatory requirements.",
+        "In conclusion, electrical inspections in Denver during winter are a smart investment in safety and performance. JK Electric is here to help Denver homeowners and businesses with comprehensive inspections that keep your systems running smoothly through Colorado's coldest months."
+      ]
+    },
+    {
+      "title": "Upgrading to LED Lighting: Benefits for Denver Homes and Businesses",
+      "date": "January 2026",
+      "excerpt": "Explore how LED lighting upgrades can save energy and enhance spaces in Denver, with advice from JK Electric's local team.",
+      "body": [
+        "LED lighting upgrades offer significant benefits for Denver homes and businesses, from reduced energy bills to improved aesthetics. In Denver, where sustainability is a growing priority, switching to LED systems can cut electricity use by up to 75%, according to local energy reports. JK Electric specialises in LED installations across Denver, helping clients in suburbs like Highlands Ranch and Arvada embrace eco-friendly solutions.",
+        "The advantages of LED lighting in Denver include longer lifespan—typically 25,000 to 50,000 hours—and better durability against the state's variable climate. Denver's sunny days can complement LED daylight bulbs, enhancing natural light in homes and offices. Our Denver electricians assess your current setup and recommend tailored LED upgrades that align with Colorado's energy efficiency standards.",
+        "For Denver businesses, LED lighting can create more inviting environments while lowering operational costs. We've helped Denver retailers in downtown areas upgrade to LED track lighting, boosting customer appeal and reducing maintenance needs. Residential clients in Lakewood benefit from LED recessed lighting, which suits modern Denver home designs and improves overall ambiance.",
+        "Installation considerations in Denver involve ensuring compatibility with existing fixtures and dimming systems. Our team at JK Electric handles all Denver electrical adaptations, from retrofitting old sockets to installing new circuits if needed. We source high-quality LED products that meet Denver's building codes and are suitable for the local environment.",
+        "Costs for LED upgrades in Denver vary; a basic residential project might start from $500, while commercial installations can range higher. JK Electric provides transparent pricing for Denver clients, including assessments of potential rebates from Colorado energy programs. We always recommend starting with a lighting audit to maximise savings and benefits.",
+        "In summary, upgrading to LED lighting is a smart move for Denver properties, offering energy savings, durability, and enhanced aesthetics. JK Electric is your local Denver partner for seamless LED installations, backed by expertise and a commitment to quality."
+      ]
+    },
+    {
+      "title": "Why Denver Properties Need Regular Rewiring: Safety and Compliance Guide",
+      "date": "December 2025",
+      "excerpt": "Understand the importance of rewiring for older Denver buildings, with insights into safety standards and local regulations.",
+      "body": [
+        "Regular rewiring is crucial for older Denver properties to ensure safety and compliance with modern electrical standards. Many homes and businesses in Denver, especially in historic areas like Denver's Capitol Hill, have outdated wiring that can pose fire risks. JK Electric, based in Denver, stresses that rewiring is not just an upgrade but a necessity for protecting your investment and meeting Colorado's stringent electrical codes.",
+        "Signs that your Denver property may need rewiring include frequent circuit breaker trips, flickering lights, or a reliance on extension cords. In Denver's climate, with dry conditions and temperature swings, old wiring can degrade faster. Our Denver electricians conduct thorough assessments to determine the scope of rewiring needed, from full replacements in severe cases to partial upgrades in specific areas.",
+        "The rewiring process in Denver involves replacing old aluminium or cloth-insulated wires with modern copper or PVC alternatives. We ensure all work complies with the National Electrical Code and local Denver permits, which require inspections upon completion. For Denver commercial properties, this often includes updating panels and adding circuits to handle increased loads from technology.",
+        "Cost factors for rewiring in Denver depend on property size, accessibility, and existing conditions. A typical Denver home might cost between $8,000 and $15,000 for a full rewire, but JK Electric offers phased options to make it more manageable for Denver clients. We also advise on minimising disruption during the project, especially for occupied Denver residences.",
+        "Examples from our Denver projects show that rewiring an older house in Thornton can prevent issues like short circuits during winter, while commercial rewiring in Arvada ensures uninterrupted operations. Our team uses minimally invasive techniques where possible, reducing repair work post-installation. Denver's building inspectors work closely with us to verify compliance.",
+        "In conclusion, regular rewiring is essential for Denver properties to maintain safety, efficiency, and legal compliance. JK Electric is your trusted Denver partner for expert rewiring services, ensuring your electrical system is safe and future-ready."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "JK Electric | Electrician in Denver | Service Upgrades & Rewiring",
+      "description": "JK Electric provides expert electrical services in Denver, CO, including service upgrades, lighting installations, rewiring, and emergency repairs. Licensed, local, and reliable."
+    },
+    "about": {
+      "title": "About JK Electric | Denver's Trusted Electrical Contractors",
+      "description": "Learn about JK Electric, Denver's premier electrical contractor with years of experience in residential and commercial services. Licensed, insured, and committed to quality."
+    },
+    "services": {
+      "title": "Electrical Services in Denver | Rewiring, Lighting & Upgrades",
+      "description": "Comprehensive electrical services in Denver, CO from JK Electric. Specialising in service upgrades, lighting installations, rewiring, and more for homes and businesses."
+    },
+    "pricing": {
+      "title": "Electrical Service Costs & Prices in Denver | JK Electric",
+      "description": "Transparent pricing for electrical services in Denver. Get upfront quotes for call-outs, standard jobs, and major projects from JK Electric's local team."
+    },
+    "contact": {
+      "title": "Contact JK Electric | Free Electrical Quotes in Denver",
+      "description": "Reach out to JK Electric for free electrical quotes in Denver, CO. Serving Denver, Arvada, Thornton, Highlands Ranch, and surrounding areas."
+    },
+    "blog": {
+      "title": "Denver Electrical Blog | Tips, Costs & Local Advice",
+      "description": "Read JK Electric's blog for electrical tips, cost guides, and local advice tailored to Denver homeowners and businesses."
+    }
+  }
+}
