@@ -1,0 +1,301 @@
+{
+  "siteType": "plumber",
+  "businessName": "King Rooter & Plumbing",
+  "suburb": "Melbourne",
+  "phone": "1300 546 476",
+  "email": "kingrooterplumbing@gmail.com",
+  "address": "100 Fillmore St, Melbourne VIC 3000",
+  "tagline": "Melbourne's Trusted Plumbing Experts",
+  "primaryColor": "#00d084",
+  "primaryColorRgb": "0, 208, 132",
+  "primaryColorHover": "#00b070",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Go-To Plumbers",
+      "sub": "10+ years serving Melbourne & surrounds"
+    },
+    {
+      "title": "Water Heaters, Drains & Sewer Lines",
+      "sub": "Fast, reliable plumbing solutions"
+    },
+    {
+      "title": "Same Day Emergency Service",
+      "sub": "Available 24/7 across Melbourne"
+    }
+  ],
+  "ctaHeading": "Melbourne's plumbing experts are here — let's solve your problem today.",
+  "aboutHeading": "10 Years Plumbing in Melbourne",
+  "aboutSubheading": "Local, licensed & reliable",
+  "aboutText": "King Rooter & Plumbing has been serving Melbourne and surrounding suburbs for over 10 years. Our team of licensed plumbers specialises in water heater installation, drain cleaning, and sewer repairs. We pride ourselves on prompt, professional service with upfront pricing, ensuring no surprises for Melbourne homeowners and businesses.",
+  "servicesHeading": "Comprehensive Plumbing Services",
+  "servicesSubheading": "Expert solutions for all your plumbing needs",
+  "servicesText": "From emergency leak repairs to routine maintenance, King Rooter & Plumbing offers a full range of plumbing services across Melbourne. Our experienced plumbers use the latest technology to diagnose and fix issues efficiently.",
+  "services": [
+    {
+      "title": "Water Heater Installation & Repair",
+      "desc": "Expert installation and repair of all types of water heaters for Melbourne homes and businesses.",
+      "longDesc": "Whether you need a new gas or electric water heater installed or repairs to your existing system, our Melbourne plumbers provide reliable, efficient service. We handle all brands and models, ensuring optimal performance and energy efficiency.",
+      "points": [
+        "Same-day installations",
+        "Energy-efficient solutions",
+        "All brands serviced"
+      ]
+    },
+    {
+      "title": "Drain & Sewer Cleaning",
+      "desc": "Professional drain unblocking and sewer cleaning using advanced techniques for Melbourne properties.",
+      "longDesc": "Clogged drains or sewer backups can cause major issues. Our Melbourne plumbers use high-pressure water jetting and CCTV cameras to clear blockages and prevent future problems, keeping your plumbing system flowing smoothly.",
+      "points": [
+        "High-pressure jetting",
+        "CCTV camera inspections",
+        "Preventative maintenance"
+      ]
+    },
+    {
+      "title": "Sewer Camera Inspection",
+      "desc": "Accurate sewer line inspections with video cameras to identify issues without excavation.",
+      "longDesc": "Our state-of-the-art sewer cameras allow us to inspect your sewer lines in Melbourne, pinpointing cracks, blockages, or root intrusion. This non-invasive method saves time and money on unnecessary digging.",
+      "points": [
+        "Non-invasive diagnostics",
+        "Detailed video reports",
+        "Accurate problem detection"
+      ]
+    },
+    {
+      "title": "Sewer & Water Pipe Repair",
+      "desc": "Fast, durable repairs for damaged sewer and water pipes throughout Melbourne.",
+      "longDesc": "Leaking or broken pipes can lead to water damage and high bills. Our licensed plumbers in Melbourne offer trenchless pipe relining and traditional repairs to restore your plumbing system quickly and affordably.",
+      "points": [
+        "Trenchless technology",
+        "Durable materials",
+        "Minimally disruptive"
+      ]
+    },
+    {
+      "title": "General Plumbing Installation & Repair",
+      "desc": "Complete plumbing services for taps, toilets, fixtures, and general repairs in Melbourne.",
+      "longDesc": "From installing a new toilet to fixing a leaking tap, our Melbourne plumbers handle all general plumbing tasks with precision. We ensure all work meets Australian standards and local building codes.",
+      "points": [
+        "All fixture brands",
+        "Compliance guaranteed",
+        "Transparent pricing"
+      ]
+    },
+    {
+      "title": "Emergency Same-Day Service",
+      "desc": "24/7 emergency plumbing service available across Melbourne for urgent issues.",
+      "longDesc": "Plumbing emergencies don't wait, and neither do we. King Rooter & Plumbing offers same-day emergency service in Melbourne, providing quick response to burst pipes, severe leaks, or blocked drains at any hour.",
+      "points": [
+        "Available 24/7",
+        "Fast response times",
+        "No extra call-out fees"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Plumber in Melbourne?",
+  "bannerSubheading": "Licensed, reliable, and ready to help with any plumbing issue.",
+  "testimonialsHeading": "What Melbourne Locals Say",
+  "testimonialsSubheading": "Hundreds of 5-star reviews from happy customers",
+  "blogHeading": "Melbourne Plumbing Tips & Guides",
+  "blogSubheading": "Expert advice to keep your plumbing in top shape",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Call us or fill out the form for a quick response.",
+  "reviews": [
+    {
+      "text": "King Rooter & Plumbing fixed our hot water system in Melbourne within hours of calling. The plumber was professional, explained everything clearly, and charged a fair price. Highly recommend for any plumbing needs!",
+      "name": "Sarah Thompson",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "Excellent service from Al when he unblocked our sewer in South Melbourne. He was on time, used a camera to show the issue, and cleaned up after. Great work!",
+      "name": "James K.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Brandon from King Rooter did a fantastic job repairing our water pipes in Carlton. He was efficient, knowledgeable, and left no mess. Will definitely use again for future plumbing work.",
+      "name": "Laura Macke",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Melbourne",
+    "South Melbourne",
+    "Carlton",
+    "Fitzroy",
+    "Richmond",
+    "Collingwood",
+    "Docklands",
+    "Port Melbourne"
+  ],
+  "about": {
+    "intro": "King Rooter & Plumbing is a trusted plumbing service provider in Melbourne, offering expert solutions for residential and commercial needs.",
+    "story": [
+      "Founded over a decade ago, King Rooter & Plumbing has grown to become a leading plumber in Melbourne. Our team of licensed professionals is dedicated to delivering high-quality workmanship and exceptional customer service.",
+      "We specialise in a wide range of plumbing services, from emergency repairs to major installations. Using the latest technology and techniques, we ensure efficient and lasting solutions for Melbourne's diverse plumbing challenges."
+    ],
+    "mission": "To provide Melbourne with reliable, affordable plumbing services that exceed expectations every time.",
+    "whyUs": [
+      {
+        "title": "Licensed Experts",
+        "text": "All our plumbers are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "Fast Response",
+        "text": "We offer same-day service for emergencies across Melbourne."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "No hidden fees – you get a clear quote before we start."
+      },
+      {
+        "title": "Quality Guarantee",
+        "text": "All work is guaranteed, ensuring your satisfaction."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "4.7",
+        "label": "Google Rating"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At King Rooter & Plumbing, we offer transparent pricing with no hidden costs. Get a free quote for your plumbing project in Melbourne today.",
+    "packages": [
+      {
+        "name": "Call-Out & Inspection",
+        "price": "$89",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Diagnostic report",
+          "No obligation quote"
+        ]
+      },
+      {
+        "name": "Standard Plumbing Job",
+        "price": "from $150",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Expert diagnosis",
+          "Quality repairs",
+          "Compliance certificate",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Plumbing Project",
+        "price": "from $1,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Detailed planning",
+          "Licensed tradespeople",
+          "Project management",
+          "Final inspection"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises – what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to fix your plumbing issue? Contact King Rooter & Plumbing in Melbourne for a free, no-obligation quote. We respond within one hour."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Blocked Drain Cost in Melbourne?",
+      "date": "April 2026",
+      "excerpt": "Discover the typical costs for clearing a blocked drain in Melbourne, including factors that affect pricing and how to prevent future blockages.",
+      "body": [
+        "Blocked drains are a common plumbing issue in Melbourne, often caused by tree roots, grease buildup, or foreign objects. The cost to clear a blocked drain in Melbourne typically ranges from $100 to $500, depending on the severity and method required. For minor blockages, a simple plunger or drain snake might suffice, but more severe cases may need high-pressure water jetting or CCTV inspection.",
+        "In Melbourne's older suburbs, clay pipes are prone to cracking and root intrusion, which can lead to frequent blockages. If you're experiencing recurring issues, it might be time for a sewer camera inspection to identify the root cause. This non-invasive diagnostic tool costs between $200 and $400 but can save you money in the long run by pinpointing the exact problem.",
+        "Preventative maintenance is key to avoiding costly drain repairs. Regular cleaning and avoiding flushing non-biodegradable items can keep your drains flowing. In Melbourne, where heavy rains can overwhelm sewer systems, ensuring your drains are clear is especially important before winter to prevent backups.",
+        "When choosing a plumber for drain cleaning in Melbourne, always opt for a licensed professional. Ask for upfront pricing and check reviews to ensure quality service. King Rooter & Plumbing offers transparent quotes and same-day service for blocked drains across Melbourne, including suburbs like South Melbourne and Carlton.",
+        "For commercial properties in Melbourne, blocked drains can disrupt business operations. We offer tailored solutions for businesses, including scheduled maintenance plans to keep drains clear. Our team uses industrial-grade equipment to handle large-scale blockages efficiently.",
+        "In summary, the cost of fixing a blocked drain in Melbourne varies based on the cause and solution. By investing in regular maintenance and choosing a reputable plumber, you can avoid emergencies and keep your plumbing system in top condition. Contact us today for a free assessment."
+      ]
+    },
+    {
+      "title": "Signs You Need a Water Heater Replacement in Melbourne",
+      "date": "March 2026",
+      "excerpt": "Learn the key indicators that your water heater is failing and when to consider a replacement in Melbourne's variable climate.",
+      "body": [
+        "Water heaters are essential in Melbourne, especially during the chilly winters. If you're noticing inconsistent hot water, strange noises, or leaks, it might be time for a replacement. A typical water heater lasts 10-15 years, but Melbourne's hard water can shorten this lifespan due to mineral buildup.",
+        "Signs of a failing water heater include rusty water, fluctuating temperatures, and increased energy bills. In Melbourne, where energy costs are high, an efficient water heater can save you money in the long run. Upgrading to a modern, energy-efficient model can reduce your carbon footprint and provide reliable hot water.",
+        "When considering replacement, factor in the size of your household and usage patterns. Melbourne families often need larger capacity units. Consult with a licensed plumber to choose the right type—gas, electric, or solar—to suit your home and budget.",
+        "Installation costs for a new water heater in Melbourne range from $1,000 to $3,000, depending on the model and complexity. While this is an investment, the benefits of consistent hot water and lower running costs make it worthwhile. King Rooter & Plumbing offers competitive pricing and expert installation services.",
+        "To prolong the life of your new water heater, regular maintenance is crucial. Flushing the tank annually and checking the anode rod can prevent corrosion. In Melbourne, we recommend a professional service every two years to ensure optimal performance.",
+        "If you're unsure about your water heater's condition, our team in Melbourne can provide a thorough inspection and honest advice. We'll help you decide whether repair or replacement is the best option for your needs."
+      ]
+    },
+    {
+      "title": "How to Choose a Reliable Plumber in Melbourne",
+      "date": "February 2026",
+      "excerpt": "A guide to selecting a trustworthy plumber in Melbourne, covering licensing, reviews, and pricing transparency.",
+      "body": [
+        "Choosing a reliable plumber in Melbourne is crucial for ensuring quality work and avoiding scams. Always start by checking for a valid plumbing license, which is mandatory in Victoria. Licensed plumbers have the training and insurance to handle plumbing tasks safely and legally.",
+        "Look for plumbers with positive reviews on Google or other platforms. In Melbourne, word-of-mouth recommendations are valuable, so ask friends or neighbours for referrals. A good plumber will have a track record of satisfied customers and transparent communication.",
+        "Pricing transparency is key. Before hiring, request a detailed quote that includes all costs. Melbourne plumbers should offer upfront pricing with no hidden fees. At King Rooter & Plumbing, we provide clear, fixed quotes before starting any work.",
+        "Consider the plumber's experience with your specific issue. Whether it's a blocked drain, water heater repair, or sewer inspection, choose a specialist if needed. Melbourne has unique plumbing challenges, like older infrastructure and tree root problems, so expertise matters.",
+        "Emergency services are another factor. Plumbing emergencies can happen anytime, so select a plumber who offers 24/7 availability. In Melbourne, where weather can cause sudden pipe bursts, having a reliable emergency contact is essential.",
+        "Finally, ensure the plumber offers a guarantee on their work. This shows confidence in their craftsmanship and provides you with recourse if issues arise. In Melbourne, King Rooter & Plumbing stands behind all our services with a satisfaction guarantee."
+      ]
+    },
+    {
+      "title": "Preventing Sewer Backups in Melbourne Homes",
+      "date": "January 2026",
+      "excerpt": "Tips to avoid sewer line backups in Melbourne, including maintenance strategies and signs of potential problems.",
+      "body": [
+        "Sewer backups are a homeowner's nightmare, especially in Melbourne where heavy rainfall can exacerbate issues. Prevention starts with understanding common causes: tree roots, grease accumulation, and pipe deterioration. Regular maintenance can keep your sewer line clear and functional.",
+        "In Melbourne, many homes have aging sewer pipes that are susceptible to cracks and collapses. Tree roots are a major culprit, often invading pipes in search of water. Installing root barriers or choosing root-resistant plants can help mitigate this risk.",
+        "Grease should never be poured down drains, as it solidifies and causes blockages. Instead, collect grease in a container and dispose of it properly. In Melbourne, local regulations require proper waste disposal, so following best practices avoids fines and plumbing issues.",
+        "Schedule annual sewer inspections with a licensed plumber. Using CCTV cameras, we can identify potential problems before they become emergencies. In Melbourne, we recommend inspections before winter to prepare for increased water usage.",
+        "If you notice slow drains, gurgling sounds, or foul odours, these could be signs of a sewer issue. Don't ignore them—contact a Melbourne plumber promptly to avoid costly repairs. King Rooter & Plumbing offers diagnostic services to catch problems early.",
+        "By taking proactive steps, Melbourne homeowners can protect their properties from sewer backups. Our team provides expert advice and services tailored to local conditions, ensuring your sewer system remains reliable year-round."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "King Rooter & Plumbing | Plumber in Melbourne | Expert Services",
+      "description": "King Rooter & Plumbing offers trusted plumbing services in Melbourne, including water heater repair, drain cleaning, and emergency same-day service. Call now!"
+    },
+    "about": {
+      "title": "About King Rooter & Plumbing | Melbourne's Trusted Plumbers",
+      "description": "Learn about King Rooter & Plumbing, Melbourne's licensed plumbing experts with over 10 years of experience. We provide reliable, affordable plumbing solutions."
+    },
+    "services": {
+      "title": "Plumbing Services in Melbourne | Drains, Heaters & Repairs",
+      "description": "Comprehensive plumbing services in Melbourne from King Rooter & Plumbing. Water heater installation, drain unblocking, and sewer repairs with upfront pricing."
+    },
+    "pricing": {
+      "title": "Plumbing Costs & Prices Melbourne | King Rooter & Plumbing",
+      "description": "Transparent plumbing pricing in Melbourne. Get upfront quotes for call-outs, standard jobs, and major projects with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact King Rooter & Plumbing | Free Melbourne Plumber Quotes",
+      "description": "Get in touch with King Rooter & Plumbing in Melbourne for a free plumbing quote. We respond within 1 hour for all enquiries."
+    },
+    "blog": {
+      "title": "Melbourne Plumbing Blog | Tips, Guides & Cost Advice",
+      "description": "Read the latest plumbing tips and guides for Melbourne homeowners from King Rooter & Plumbing. Expert advice on drains, water heaters, and more."
+    }
+  }
+}
