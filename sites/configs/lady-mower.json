@@ -1,0 +1,299 @@
+{
+  "siteType": "landscaper",
+  "businessName": "Lady Mower",
+  "suburb": "Woodend",
+  "phone": "0423 456 789",
+  "email": "hello@ladymower.com",
+  "address": "2, Palmer Crescent, Newham, Victoria, 3442, Australia",
+  "tagline": "Woodend's Trusted Lawn Mowing & Garden Care",
+  "primaryColor": "#39FF14",
+  "primaryColorRgb": "57, 255, 20",
+  "primaryColorHover": "#32CD32",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Woodend's Premier Lawn Mowing Service",
+      "sub": "Local, owner-operated in the Macedon Ranges"
+    },
+    {
+      "title": "Garden Care & Maintenance Experts",
+      "sub": "Serving Kyneton, Macedon, and beyond"
+    },
+    {
+      "title": "Reliable & Affordable Garden Solutions",
+      "sub": "Free quotes across Woodend & surrounds"
+    }
+  ],
+  "ctaHeading": "Woodend's lawn care specialists are ready — let's get your garden looking great.",
+  "aboutHeading": "Woodend's Local Lawn Mowing Experts",
+  "aboutSubheading": "Owner-operated, trusted in the Macedon Ranges",
+  "aboutText": "Lady Mower is a local, owner-operated lawn mowing and garden care service based in Woodend, servicing the Macedon Ranges. With over 10 years of experience, we provide reliable and affordable garden maintenance to homes and businesses. Our team understands the unique climate and soil conditions in Woodend, ensuring your lawn stays healthy and green year-round. Contact us today for a free quote.",
+  "servicesHeading": "Our Lawn & Garden Services",
+  "servicesSubheading": "Professional care for your outdoor space",
+  "servicesText": "From regular lawn mowing to complete garden makeovers, Lady Mower offers a comprehensive range of services tailored to Woodend residents. We use quality equipment and eco-friendly practices to keep your garden thriving. Serving Woodend, Kyneton, Macedon, and the wider Macedon Ranges.",
+  "services": [
+    {
+      "title": "Lawn Mowing",
+      "desc": "Regular lawn mowing services to keep your yard neat and tidy in Woodend.",
+      "longDesc": "Our professional lawn mowing service in Woodend ensures your grass is cut to the perfect height, promoting healthy growth. We handle all sizes of lawns, from small suburban blocks to large rural properties in the Macedon Ranges.",
+      "points": [
+        "Healthy grass growth",
+        "Flexible scheduling",
+        "Affordable rates"
+      ]
+    },
+    {
+      "title": "Garden Maintenance",
+      "desc": "Comprehensive garden upkeep including weeding, mulching, and planting in Woodend.",
+      "longDesc": "Keep your garden in top shape with our tailored maintenance plans in Woodend. We focus on soil health and plant care, using eco-friendly methods to enhance your outdoor space throughout the seasons.",
+      "points": [
+        "Seasonal care plans",
+        "Eco-friendly practices",
+        "Personalised attention"
+      ]
+    },
+    {
+      "title": "Hedge Trimming",
+      "desc": "Expert hedge trimming to shape and maintain privacy in Macedon Ranges gardens.",
+      "longDesc": "Professional hedge trimming services in Woodend ensure your hedges are neat and healthy. We use precise techniques to promote dense growth, ideal for privacy and aesthetics in local homes.",
+      "points": [
+        "Precision cutting",
+        "Promotes dense growth",
+        "Enhances privacy"
+      ]
+    },
+    {
+      "title": "Weed Control",
+      "desc": "Effective weed control solutions to protect your lawn and garden beds in Kyneton.",
+      "longDesc": "Our targeted weed control in Woodend eliminates invasive plants without harming your lawn. We use safe, proven methods to keep your garden beds clean and thriving in the local climate.",
+      "points": [
+        "Safe for lawns",
+        "Prevents regrowth",
+        "Long-lasting results"
+      ]
+    },
+    {
+      "title": "Garden Cleanup",
+      "desc": "Thorough garden cleanup services to revitalise overgrown spaces in Woodend.",
+      "longDesc": "From leaf removal to full site clearing, our garden cleanup in Woodend transforms neglected areas. We focus on detail and efficiency, preparing your garden for new growth or seasonal changes.",
+      "points": [
+        "Full site clearing",
+        "Attention to detail",
+        "Revitalises spaces"
+      ]
+    },
+    {
+      "title": "Landscaping Advice",
+      "desc": "Professional landscaping tips and advice for Woodend gardens and lawns.",
+      "longDesc": "Get expert landscaping advice tailored to Woodend's climate and soil. We help you plan garden layouts, choose suitable plants, and maintain a beautiful outdoor area with practical, local insights.",
+      "points": [
+        "Local plant selection",
+        "Climate-wise planning",
+        "Practical tips"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Gardener in Woodend?",
+  "bannerSubheading": "Expert lawn care for the Macedon Ranges",
+  "testimonialsHeading": "What Woodend Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Garden Tips & Advice for Woodend",
+  "blogSubheading": "Local insights from Lady Mower",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "Serving Woodend and the Macedon Ranges",
+  "reviews": [
+    {
+      "text": "Lady Mower has been mowing our lawn in Woodend for years. They're always on time and do a fantastic job. Our garden has never looked better.",
+      "name": "Sarah Mitchell",
+      "role": "Woodend Homeowner"
+    },
+    {
+      "text": "As a property manager in Kyneton, I rely on Lady Mower for regular garden maintenance. They're reliable, professional, and great value for money.",
+      "name": "James Thompson",
+      "role": "Property Manager"
+    },
+    {
+      "text": "I hired Lady Mower for a full garden cleanup in Macedon. The team was efficient and left everything spotless. Highly recommend their services.",
+      "name": "Emma Collins",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Woodend",
+    "Kyneton",
+    "Macedon",
+    "Carlsruhe",
+    "Romsey",
+    "Newham"
+  ],
+  "about": {
+    "intro": "Lady Mower is a local, owner-operated lawn mowing and garden care service based in Woodend, servicing the Macedon Ranges.",
+    "story": [
+      "Founded over 10 years ago, Lady Mower started in Woodend with a simple mission: to provide reliable and affordable lawn care to our community. We understand the local climate and soil, which allows us to tailor our services to keep gardens lush and healthy.",
+      "Today, we proudly serve Woodend, Kyneton, Macedon, and surrounding areas. Our owner-operated model means you get personal attention and consistent quality every time. We use eco-friendly methods to minimize environmental impact while maximizing results."
+    ],
+    "mission": "To keep Woodend's gardens beautiful and thriving with professional, personalised care.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "We know the Macedon Ranges climate and soil inside out."
+      },
+      {
+        "title": "Reliable Service",
+        "text": "On-time, every time, with flexible scheduling options."
+      },
+      {
+        "title": "Affordable Prices",
+        "text": "Competitive rates without compromising on quality."
+      },
+      {
+        "title": "Eco-Friendly",
+        "text": "Using sustainable practices for a healthier environment."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Lawns Mowed"
+      },
+      {
+        "value": "100%",
+        "label": "Satisfaction Rate"
+      }
+    ],
+    "credentials": [
+      "Fully insured",
+      "Local references",
+      "Free quotes",
+      "Eco-friendly practices"
+    ]
+  },
+  "pricing": {
+    "intro": "At Lady Mower, we offer transparent pricing with no lock-in contracts. Get a free quote for your Woodend property today.",
+    "packages": [
+      {
+        "name": "Basic Mow & Edging",
+        "price": "$50",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "Lawn mowing",
+          "Edge trimming",
+          "Clippings removal"
+        ]
+      },
+      {
+        "name": "Standard Garden Care",
+        "price": "from $120",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Full lawn service",
+          "Garden bed tidy-up",
+          "Hedge trimming included",
+          "Flexible scheduling"
+        ]
+      },
+      {
+        "name": "Premium Garden Package",
+        "price": "from $250",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Complete garden overhaul",
+          "Weed control & fertilising",
+          "Seasonal maintenance plan",
+          "Priority booking"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so no surprises on your bill."
+  },
+  "contact": {
+    "intro": "Ready to get your garden in top shape? Contact Lady Mower today for a free, no-obligation quote. We're based in Woodend and serve the entire Macedon Ranges."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Lawn Mowing Cost in Woodend in 2025?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost of lawn mowing services in Woodend, including factors that affect pricing and tips for getting the best value.",
+      "body": [
+        "In Woodend, the cost of lawn mowing varies based on several local factors, making it essential for homeowners to understand what influences pricing. The Macedon Ranges' climate, with its cool winters and warm summers, affects grass growth rates, meaning mowing frequency can change seasonally. Typically, professional lawn mowing in Woodend starts from around $50 for a basic service, but this depends on lawn size, terrain, and any additional requirements like edging or cleanup. Local services like Lady Mower offer tailored quotes to ensure fair pricing for the specific conditions of your property.",
+        "Lawn size is the primary determinant of cost in Woodend, with smaller suburban blocks costing less than larger rural properties. For example, a quarter-acre block might cost between $60 and $100 per mow, while acreage could be significantly more. Terrain also plays a role; uneven or sloped lawns in the Macedon Ranges may require more time and specialised equipment, adding to the expense. Additionally, if your lawn has obstacles like trees, garden beds, or fences, this can influence the final price. It's always best to get an on-site assessment for accurate quotes.",
+        "Choosing between DIY and professional lawn mowing in Woodend involves weighing costs and benefits. While DIY mowing might seem cheaper upfront, considering equipment purchase, maintenance, and time investment, professional services often provide better value. In Woodend's variable climate, professionals like Lady Mower have the knowledge to mow at optimal heights for grass health, preventing issues like scalping or fungal diseases. Moreover, local services understand the best mowing schedules for indigenous grasses and can advise on watering and fertilising to keep your lawn vibrant throughout the year.",
+        "When selecting a lawn mowing service in Woodend, look for providers with local experience and positive reviews. Lady Mower, for instance, has been serving the Macedon Ranges for over a decade, with a track record of reliability and quality. Ask about their equipment, eco-friendly practices, and whether they offer flexible scheduling to suit your needs. It's also wise to check if they provide additional services like edging, clipping removal, or garden maintenance, which can save you time and ensure a comprehensive care package for your outdoor space.",
+        "Seasonal considerations significantly impact lawn mowing costs and practices in Woodend. During spring and summer, rapid grass growth may necessitate weekly mowing, increasing annual expenses. In contrast, autumn and winter mowing can be less frequent, but preparation for colder months is crucial. The Macedon Ranges' frosty winters require careful lawn care to prevent damage, and professionals can advise on mowing heights and aeration to protect your grass. Lady Mower's local expertise ensures that your lawn is maintained optimally, adapting to seasonal changes for year-round health.",
+        "In summary, understanding the factors that influence lawn mowing costs in Woodend helps homeowners make informed decisions. From lawn size and terrain to seasonal demands, each element plays a role in determining the final price. Professional services like Lady Mower offer transparent, upfront quotes that reflect the specific needs of your property, ensuring no hidden costs. By investing in local expertise, you not only save time but also enhance the health and appearance of your garden, contributing to the beauty of the Woodend community."
+      ]
+    },
+    {
+      "title": "Essential Garden Maintenance Tips for Macedon Ranges Homeowners",
+      "date": "February 2026",
+      "excerpt": "Learn key garden maintenance strategies tailored to the Macedon Ranges' climate, ensuring your outdoor space thrives all year round.",
+      "body": [
+        "Maintaining a garden in the Macedon Ranges requires an understanding of the local climate, which features cool, wet winters and warm, dry summers. Homeowners in Woodend and surrounding areas like Kyneton should focus on soil health, as the region's clay-heavy soils can retain moisture in winter but become compacted in summer. Regular aeration and adding organic matter like compost can improve soil structure, promoting better drainage and root growth. This foundational care sets the stage for a resilient garden that withstands seasonal extremes.",
+        "Water management is critical in the Macedon Ranges, where summer droughts can stress plants. Implementing efficient irrigation systems, such as drip lines or soaker hoses, helps conserve water while ensuring deep root hydration. In Woodend, it's advisable to water early in the morning to reduce evaporation and fungal risks. Mulching around plants with organic materials like wood chips or straw retains soil moisture and suppresses weeds, a practical step for local gardens facing dry spells. Lady Mower can advise on water-wise practices tailored to your garden's layout.",
+        "Plant selection plays a vital role in garden maintenance, and choosing natives adapted to the Macedon Ranges ensures lower upkeep and higher survival rates. Indigenous plants like eucalyptus, banksia, and kangaroo paw thrive in local soils and require minimal watering once established. For ornamental gardens, opt for drought-tolerant species such as lavender or rosemary, which add colour and fragrance without demanding excessive resources. This approach not only reduces maintenance time but also supports local biodiversity, enhancing the ecological balance of your Woodend garden.",
+        "Regular pruning and trimming are essential for garden health, particularly in the Macedon Ranges where dense growth can harbour pests and diseases. Hedge trimming, as offered by Lady Mower, should be done seasonally to shape plants and encourage flowering. For fruit trees, pruning in late winter promotes better yields, while deadheading flowers throughout the season maintains aesthetic appeal. It's important to use clean, sharp tools to prevent disease spread, and local professionals can ensure precise techniques that benefit your garden's long-term vitality.",
+        "Weed control is a persistent challenge in Woodend gardens, where invasive species like blackberry and thistle can quickly overrun beds. Integrated pest management, combining manual removal with eco-friendly herbicides, offers a sustainable solution. Regular mulching and dense planting reduce weed germination, while early intervention prevents establishment. Lady Mower's services include targeted weed control that protects your plants and soil, using methods safe for families and pets. Staying proactive with weed management keeps your garden neat and healthy throughout the year.",
+        "Seasonal cleanup is crucial for preparing your Macedon Ranges garden for the changing climate. In autumn, clearing fallen leaves and debris prevents fungal issues and reduces overwintering pests. Spring is ideal for mulching, dividing perennials, and planting new additions. Winter involves protecting tender plants with frost cloaks and planning for summer. Professional services like Lady Mower provide comprehensive cleanup and maintenance plans, ensuring your Woodend garden transitions smoothly between seasons. By following these tips, homeowners can enjoy a beautiful, low-maintenance outdoor space year-round."
+      ]
+    },
+    {
+      "title": "Why Regular Hedge Trimming is Crucial in Kyneton's Climate",
+      "date": "January 2026",
+      "excerpt": "Discover the importance of hedge trimming in Kyneton's variable climate, including benefits for privacy, plant health, and garden aesthetics.",
+      "body": [
+        "Hedge trimming is a vital aspect of garden maintenance in Kyneton, where the climate's cool winters and warm summers can lead to uneven growth and plant stress. Regular trimming ensures hedges maintain their shape and density, which is essential for privacy and wind protection in residential areas. In the Macedon Ranges, hedges like privet, bottlebrush, or conifers thrive with proper care, but without trimming, they can become leggy or overgrown, detracting from your property's curb appeal. Professional services like Lady Mower understand local growth patterns and can schedule trims for optimal health.",
+        "The benefits of timely hedge trimming extend beyond aesthetics. In Kyneton's climate, dense hedges can trap moisture during wet winters, increasing the risk of fungal diseases. Trimming improves air circulation, reducing humidity and preventing issues like powdery mildew. Additionally, regular cuts encourage new growth, making hedges thicker and more effective as barriers. For homes in Woodend and nearby areas, this translates to better noise reduction and enhanced security. Lady Mower uses precise techniques to promote even growth, ensuring your hedges remain robust throughout the seasons.",
+        "Timing is critical for hedge trimming in Kyneton, influenced by the local frost cycles. It's best to avoid trimming during late autumn or early winter when frost can damage fresh cuts. Instead, schedule trims in late spring or early summer when plants are actively growing and can recover quickly. For flowering hedges, trimming after blooming preserves next year's buds. The Macedon Ranges' variable weather means flexibility is key, and professional services monitor conditions to choose the ideal time. Lady Mower offers tailored advice to keep your hedges in top condition year-round.",
+        "Choosing the right tools and methods for hedge trimming impacts the health and appearance of your plants. In Kyneton, using sharp, clean shears or trimmers prevents ragged cuts that can invite disease. For tall hedges, proper equipment like ladders or powered trimmers ensures safety and precision. Eco-friendly practices, such as composting clippings, align with sustainable gardening in the Macedon Ranges. Lady Mower's team is trained in best practices, delivering neat results while minimising environmental impact. This attention to detail enhances the longevity and beauty of your hedges.",
+        "Common mistakes in hedge trimming, such as cutting too much at once or trimming at the wrong height, can harm plants in Kyneton's climate. Over-pruning stresses hedges, leading to sparse growth or dieback. It's important to remove no more than one-third of the foliage per session and to shape hedges slightly wider at the base for sunlight exposure. Local knowledge is invaluable here; professionals like Lady Mower understand how Macedon Ranges conditions affect growth rates and can adjust trimming schedules accordingly. This expertise prevents damage and ensures healthy, attractive hedges.",
+        "In conclusion, regular hedge trimming is crucial for maintaining healthy, functional hedges in Kyneton and the broader Macedon Ranges. It supports plant health, enhances privacy, and contributes to garden aesthetics. By scheduling professional trims with services like Lady Mower, homeowners benefit from local expertise and reliable care. Investing in this maintenance not only improves your outdoor space but also adds value to your property, making it a wise choice for Woodend residents looking to keep their gardens in prime condition."
+      ]
+    },
+    {
+      "title": "Preparing Your Garden for Woodend's Cold Winters",
+      "date": "December 2025",
+      "excerpt": "Get expert tips on protecting your garden from Woodend's frosty winters, including plant care, soil preparation, and maintenance strategies.",
+      "body": [
+        "Woodend's cold winters, with frequent frosts and chilly winds from the Macedon Ranges, present challenges for garden health. Preparing your garden early in autumn ensures plants survive and thrive when spring arrives. Start by assessing vulnerable areas, such as exposed slopes or low-lying spots where cold air settles. Mulching heavily around the base of plants with materials like straw or leaf litter insulates roots, maintaining soil temperature and moisture. Professional services like Lady Mower can help with soil testing and mulching tailored to Woodend's specific conditions.",
+        "Soil preparation is key for winter resilience in Woodend gardens. The region's clay soils can become waterlogged during wet periods, so improving drainage with gypsum or organic matter prevents root rot. Adding compost in late autumn boosts soil fertility and microbial activity, which supports plant health through the cold months. For lawns, aerating before winter reduces compaction and allows water to penetrate deeper. Lady Mower offers comprehensive garden care that includes soil amendments, ensuring your outdoor space is primed to handle the Macedon Ranges' winter climate.",
+        "Plant protection strategies should focus on both hardy and tender species. In Woodend, native plants like eucalyptus are generally frost-tolerant, but exotic varieties may need covering with frost cloths or hessian sacks during severe cold snaps. Moving potted plants to sheltered locations, such as against north-facing walls, provides additional warmth. It's also important to reduce watering frequency, as overwatering in cold, damp conditions can harm roots. Local expertise from services like Lady Mower helps identify which plants need extra care and how to implement protective measures effectively.",
+        "Lawn care in Woodend's winter involves mowing at a higher height to protect grass roots from frost damage. Avoid mowing when the lawn is wet or frozen, as this can tear blades and lead to disease. Applying a winter-specific fertiliser in early autumn strengthens grass against cold stress, promoting quicker recovery in spring. For areas prone to moss growth due to shade and moisture, consider scarifying and overseeding to maintain a healthy lawn. Lady Mower's lawn services adapt to seasonal changes, ensuring your Woodend lawn stays green and robust throughout winter.",
+        "Tool and equipment maintenance is often overlooked but crucial for winter readiness. Cleaning and sharpening garden tools before storage prevents rust and ensures they're ready for spring use. Irrigation systems should be drained and winterised to avoid pipe bursts from freezing temperatures. In Woodend, where frost is common, investing in quality covers for outdoor furniture or garden beds adds longevity. Lady Mower provides advice on maintaining your garden infrastructure, helping you avoid costly repairs and keep your outdoor space functional year-round.",
+        "Finally, planning for spring during winter keeps your garden goals on track. Use the colder months to design layouts, order seeds, or plan new plantings suited to the Macedon Ranges' climate. Regular checks during winter, such as clearing debris or inspecting for pests, prevent issues from escalating. By taking proactive steps, Woodend homeowners can enjoy a vibrant, healthy garden as the seasons change. Professional services like Lady Mower offer ongoing support, from winter cleanup to spring preparation, ensuring your garden remains a beautiful part of your home throughout the year."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Lady Mower | Lawn Mowing in Woodend | Garden Care Services",
+      "description": "Professional lawn mowing and garden care in Woodend, servicing Kyneton, Macedon, and the Macedon Ranges. Free quotes from Lady Mower."
+    },
+    "about": {
+      "title": "About Lady Mower | Woodend's Local Lawn Mowing Experts",
+      "description": "Learn about Lady Mower, a trusted, owner-operated garden care service based in Woodend, Victoria, with over 10 years of experience."
+    },
+    "services": {
+      "title": "Garden Care Services in Woodend | Lawn Mowing & Maintenance",
+      "description": "Explore our range of lawn mowing, hedge trimming, and garden maintenance services in Woodend and the Macedon Ranges."
+    },
+    "pricing": {
+      "title": "Lawn Mowing Prices Woodend | Affordable Garden Care Quotes",
+      "description": "Transparent pricing for lawn mowing and garden services in Woodend. No lock-in contracts, free quotes from Lady Mower."
+    },
+    "contact": {
+      "title": "Contact Lady Mower | Free Garden Care Quotes in Woodend",
+      "description": "Get in touch with Lady Mower for professional lawn mowing and garden care in Woodend. Serving the Macedon Ranges."
+    },
+    "blog": {
+      "title": "Garden Tips & Advice | Woodend Lawn Care Blog",
+      "description": "Read the latest garden maintenance tips, lawn care advice, and local insights for Woodend and the Macedon Ranges."
+    }
+  }
+}
