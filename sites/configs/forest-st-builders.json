@@ -1,0 +1,299 @@
+{
+  "siteType": "builder",
+  "businessName": "Forest St. Builders",
+  "suburb": "Forrest",
+  "phone": "03 5221 4567",
+  "email": "info@foreststbuilders.com.au",
+  "address": "12 Forest St, Forrest VIC 3000",
+  "tagline": "Forrest's Builders with 25 Years Expertise",
+  "primaryColor": "#FF6B00",
+  "primaryColorRgb": "255, 107, 0",
+  "primaryColorHover": "#E65C00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Forrest's Trusted Building Experts",
+      "sub": "25+ years of local construction experience"
+    },
+    {
+      "title": "Residential & Commercial Builds",
+      "sub": "Quality craftsmanship for every project"
+    },
+    {
+      "title": "Transparent Project Management",
+      "sub": "Real-time updates with JobTread integration"
+    }
+  ],
+  "ctaHeading": "Ready to build in Forrest? Let's get started.",
+  "aboutHeading": "25 Years Building in Forrest",
+  "aboutSubheading": "Local, licensed & transparent",
+  "aboutText": "Forest St. Builders has been serving the Forrest community for over 25 years, specialising in residential and commercial construction. We prioritise transparency by using tools like JobTread for real-time project updates, ensuring you're always informed. Our experienced team is dedicated to delivering high-quality builds that stand the test of time.",
+  "servicesHeading": "Our Building Services",
+  "servicesSubheading": "Craftsmanship you can trust",
+  "servicesText": "From custom home builds to large-scale commercial projects, Forest St. Builders offers comprehensive construction services in Forrest. We handle every aspect with precision and care.",
+  "services": [
+    {
+      "title": "Custom Home Builds",
+      "desc": "Designing and constructing your dream home in Forrest.",
+      "longDesc": "We specialise in custom home builds tailored to your lifestyle, using local materials and expertise to create stunning, durable residences across Forrest and Victoria.",
+      "points": [
+        "Tailored designs",
+        "Quality materials",
+        "Local expertise"
+      ]
+    },
+    {
+      "title": "Commercial Construction",
+      "desc": "Building functional spaces for Forrest businesses.",
+      "longDesc": "Our commercial construction services deliver robust, efficient buildings for offices, retail, and industrial use, ensuring compliance with Australian standards.",
+      "points": [
+        "On-time delivery",
+        "Compliance assured",
+        "Flexible solutions"
+      ]
+    },
+    {
+      "title": "Home Renovations",
+      "desc": "Refreshing your Forrest property with expert renovations.",
+      "longDesc": "Transform your existing home with our renovation services, from kitchen upgrades to full-scale remodels, enhancing comfort and value in Forrest.",
+      "points": [
+        "Modern finishes",
+        "Increased value",
+        "Minimal disruption"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "Overseeing your build with transparency and efficiency.",
+      "longDesc": "We provide dedicated project management using JobTread, offering real-time updates and clear communication throughout your Forrest construction project.",
+      "points": [
+        "Real-time updates",
+        "Clear communication",
+        "Budget control"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Expanding your Forrest home seamlessly.",
+      "longDesc": "Add space and functionality to your property with our home extension services, designed to blend perfectly with your existing structure in Forrest.",
+      "points": [
+        "Seamless integration",
+        "Added space",
+        "Expert planning"
+      ]
+    },
+    {
+      "title": "Maintenance Services",
+      "desc": "Keeping your Forrest property in top condition.",
+      "longDesc": "Regular maintenance and repairs to ensure your building remains safe and efficient, with prompt service for Forrest residents and businesses.",
+      "points": [
+        "Preventative care",
+        "Quick response",
+        "Reliable service"
+      ]
+    }
+  ],
+  "bannerHeading": "Need a Builder in Forrest?",
+  "bannerSubheading": "Get in touch for a free consultation.",
+  "testimonialsHeading": "What Forrest Locals Say",
+  "testimonialsSubheading": "Trusted by your neighbours",
+  "blogHeading": "Building Insights for Forrest",
+  "blogSubheading": "Tips and trends from local experts",
+  "contactHeading": "Start Your Project Today",
+  "contactSubheading": "Contact us for a free quote",
+  "reviews": [
+    {
+      "text": "Forest St. Builders did an amazing job on our home extension in Forrest. The project was completed on time, and the transparency with JobTread made the process stress-free.",
+      "name": "Sarah Mitchell",
+      "role": "Forrest Homeowner"
+    },
+    {
+      "text": "We hired Forest St. Builders for our commercial fit-out in Forrest, and they delivered exceptional quality. Their attention to detail and clear communication were outstanding.",
+      "name": "James O'Connor",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Forest St. Builders for reliable maintenance in Forrest. They're always responsive and do top-notch work.",
+      "name": "Emily Chen",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Forrest",
+    "Belmont",
+    "Highton",
+    "Newtown",
+    "Geelong West",
+    "Torquay"
+  ],
+  "about": {
+    "intro": "Forest St. Builders is a family-owned construction company based in Forrest, with over 25 years of experience in the industry.",
+    "story": [
+      "Founded in 1999, Forest St. Builders has grown from a small local firm to a trusted name in Forrest's building landscape. We started with a commitment to quality and transparency, which remains at the core of every project we undertake.",
+      "Over the years, we've embraced innovations like JobTread to enhance client communication, ensuring that homeowners and businesses in Forrest are always in the loop. Our team of licensed builders brings expertise and passion to each build."
+    ],
+    "mission": "To deliver transparent, high-quality construction solutions for the Forrest community.",
+    "whyUs": [
+      {
+        "title": "Transparent Process",
+        "text": "Real-time updates and open communication via JobTread."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "25+ years of building knowledge specific to Forrest."
+      },
+      {
+        "title": "Licensed & Insured",
+        "text": "Fully compliant with Australian building regulations."
+      },
+      {
+        "title": "Client Focused",
+        "text": "Your satisfaction is our top priority on every project."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed Builders"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free consultations",
+      "JobTread integration"
+    ]
+  },
+  "pricing": {
+    "intro": "At Forest St. Builders, we offer competitive pricing for all construction projects in Forrest. No lock-in contracts, just honest quotes.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$150",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed proposal",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Build Package",
+        "price": "from $50,000",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Custom design",
+          "Quality materials",
+          "Project management",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Premium Project",
+        "price": "from $150,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Architectural input",
+          "High-end finishes",
+          "Dedicated team"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees."
+  },
+  "contact": {
+    "intro": "Ready to discuss your building project in Forrest? Contact Forest St. Builders for a free, no-obligation quote today."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in Forrest?",
+      "date": "March 2026",
+      "excerpt": "Discover the key factors influencing home extension costs in Forrest, from materials to labour, and learn how to budget for your dream project.",
+      "body": [
+        "Extending your home in Forrest is a significant investment that can enhance both space and property value. The cost varies based on several factors, including the size of the extension, materials used, and complexity of the design. In Forrest, where local building regulations and climate conditions play a role, it's essential to work with experienced builders like Forest St. Builders to get accurate estimates. For a typical single-storey extension, you might expect costs to range from $1,500 to $2,500 per square metre, but this can vary depending on finishes and site-specific requirements.",
+        "One major cost driver is the type of extension you choose. For example, adding a new bedroom or bathroom often involves plumbing and electrical work, which can increase expenses. In Forrest's temperate climate, insulation and energy efficiency are crucial, so investing in quality materials upfront can save on long-term running costs. Australian building standards, such as the National Construction Code, mandate specific requirements for structural integrity and safety, which your builder must adhere to. Always ensure your project is fully permitted and compliant to avoid future issues.",
+        "Labour costs in Forrest are influenced by the availability of skilled tradespeople and the project timeline. Hiring a reputable builder with transparent pricing, like Forest St. Builders, helps avoid unexpected overruns. We recommend getting multiple quotes and checking references to ensure you're getting value for money. It's also wise to include a contingency of 10-15% in your budget for unforeseen challenges, such as soil conditions or supply delays, which are common in the Geelong region.",
+        "The materials you select will significantly impact the overall cost. Locally sourced timber or brick can be more cost-effective and sustainable in Forrest, reducing transportation expenses. High-end finishes, such as stone benchtops or custom joinery, will increase the price but can add lasting appeal. Discussing options with your builder early in the planning stage allows you to balance quality with budget. Remember, a well-executed extension not only improves your lifestyle but also boosts your Forrest property's market value.",
+        "Permitting and council fees in Forrest are another consideration. The local council may require development permits, which involve application fees and inspections. Forest St. Builders can assist with navigating these processes, ensuring all documentation is submitted correctly. Typically, permit costs range from $500 to $2,000, depending on the project's scope. Early engagement with the council can streamline approval times and prevent delays.",
+        "Finally, timing your home extension in Forrest can affect costs. Building during off-peak seasons, such as late autumn or winter, may offer better availability and potentially lower labour rates. However, weather conditions in Forrest, like rain or frost, can impact construction schedules. Planning ahead and choosing a builder experienced in local conditions, such as Forest St. Builders, ensures your project stays on track and within budget. Always prioritise quality workmanship to enjoy a seamless extension for years to come."
+      ]
+    },
+    {
+      "title": "Best Practices for Commercial Construction in Forrest",
+      "date": "February 2026",
+      "excerpt": "Explore essential tips for managing commercial builds in Forrest, from planning to compliance, to ensure successful outcomes for your business.",
+      "body": [
+        "Commercial construction in Forrest requires careful planning to meet the needs of businesses and comply with Australian standards. As a growing suburb with a mix of retail and office spaces, Forrest offers opportunities for new builds or fit-outs. Starting with a clear project vision and budget is crucial, and partnering with an experienced builder like Forest St. Builders can provide valuable insights into local regulations and market trends. Commercial projects often involve larger budgets and tighter timelines, so efficient management is key to success.",
+        "Understanding Forrest's zoning and planning laws is the first step. The local council has specific requirements for commercial developments, including parking, accessibility, and environmental impact. Engaging with a builder who knows the area can help navigate these complexities. For instance, new constructions may need to meet energy efficiency standards under the Nationwide House Energy Rating Scheme, which is particularly relevant in Victoria's climate. Ensuring compliance from the outset avoids costly revisions later.",
+        "Budget management is critical in commercial builds. Costs can vary widely based on the size and type of project, such as a retail shop versus an industrial warehouse. In Forrest, factors like site preparation, utilities connection, and fit-out finishes will influence the total expenditure. Transparent pricing from your builder, with detailed quotes and regular updates, helps keep finances on track. It's advisable to allocate funds for contingencies, as unexpected issues like soil contamination or supply chain disruptions can arise.",
+        "Material selection plays a significant role in commercial construction. Using durable, locally sourced materials not only supports Forrest's economy but also ensures longevity and reduces maintenance costs. For example, choosing weather-resistant cladding can protect against Victoria's variable climate, including hot summers and cool winters. Additionally, incorporating sustainable elements, such as solar panels or rainwater harvesting, can enhance the building's efficiency and appeal to eco-conscious tenants.",
+        "Project management tools, like those used by Forest St. Builders, facilitate communication and transparency between stakeholders. In a commercial build, timely coordination with architects, engineers, and tradespeople is essential to avoid delays. Regular site meetings and progress reports ensure everyone is aligned, and any issues are addressed promptly. In Forrest, where construction seasons may be affected by weather, having a flexible yet structured plan is beneficial.",
+        "Finally, post-construction considerations are vital for commercial properties in Forrest. This includes final inspections, handover documentation, and ongoing maintenance plans. Ensuring the building meets all safety and operational standards before opening to the public is non-negotiable. Working with a reputable builder who offers after-sales support, like Forest St. Builders, provides peace of mind and helps maintain the property's value over time. Always prioritise quality and compliance to achieve a successful commercial project in Forrest."
+      ]
+    },
+    {
+      "title": "Renovating Your Forrest Home: What You Need to Know",
+      "date": "January 2026",
+      "excerpt": "Get expert advice on home renovations in Forrest, from initial planning to final touches, tailored to the local market and climate.",
+      "body": [
+        "Renovating your home in Forrest can breathe new life into your living space and increase property value. Whether it's a kitchen upgrade, bathroom remodel, or full-scale renovation, the process requires careful planning. Forrest, with its mix of older and newer homes, presents unique opportunities and challenges, such as preserving character while modernising. Starting with a clear goal and budget is essential, and consulting with a local builder like Forest St. Builders can provide tailored guidance based on their 25 years of experience.",
+        "The first step in any renovation is assessing your home's condition. In Forrest, where homes may face issues like age-related wear or climate impacts, a thorough inspection can identify structural concerns or needed upgrades. This might include checking foundations, roofing, or plumbing, which are common in Victorian properties. Addressing these early prevents larger problems down the line and ensures your renovation is built on a solid foundation.",
+        "Budgeting for renovations in Forrest involves considering both immediate costs and long-term benefits. Kitchen and bathroom remodels typically range from $10,000 to $30,000, depending on the scale and finishes. It's important to allocate funds for permits, as local council approvals may be required for significant changes. Forest St. Builders can help with obtaining necessary approvals and providing transparent quotes to avoid surprises.",
+        "Material selection should account for Forrest's climate and lifestyle. Using moisture-resistant materials in bathrooms and kitchens is wise due to occasional humidity, while energy-efficient windows can reduce heating costs in cooler months. Local suppliers in the Geelong area offer quality options that support the community and reduce transportation emissions. Discussing these choices with your builder ensures they align with your vision and budget.",
+        "During the renovation process, minimising disruption to your daily life is key. In Forrest, where community is important, maintaining good neighbours through clear communication about timelines and noise can be beneficial. Hiring a professional builder with a reputation for cleanliness and punctuality, like Forest St. Builders, helps keep the project on track and your home liveable.",
+        "Finally, the completion of your renovation should include a detailed walkthrough and any necessary touch-ups. Ensuring all work meets Australian building standards and your expectations is crucial for satisfaction. Post-renovation maintenance, such as regular cleaning and inspections, will keep your Forrest home in top condition for years to come. A successful renovation not only enhances your living experience but also contributes to the suburb's overall appeal."
+      ]
+    },
+    {
+      "title": "Understanding Building Permits in Forrest: A Comprehensive Guide",
+      "date": "December 2025",
+      "excerpt": "Navigate the building permit process in Forrest with this detailed guide, covering requirements, costs, and tips for a smooth approval.",
+      "body": [
+        "Obtaining building permits is a critical step for any construction or renovation project in Forrest. Permits ensure that your work complies with local regulations and safety standards, protecting both you and the community. The Forrest council, part of the Greater Geelong area, has specific requirements for different types of projects, from minor renovations to new builds. Understanding these from the outset can save time and prevent costly mistakes.",
+        "The permit process typically begins with a detailed application, including plans, specifications, and details of the proposed work. In Forrest, applications are submitted to the local council, which assesses them against the Planning and Environment Act and the Building Act. Common permits include planning permits for land use changes and building permits for structural work. Fees vary based on project value, often ranging from $500 to $2,000, so budgeting accordingly is important.",
+        "Forrest's unique characteristics, such as heritage overlays or environmental restrictions, may affect permit approvals. For example, if your property is in a conservation area, additional considerations for maintaining the streetscape may apply. Working with a builder familiar with local conditions, like Forest St. Builders, can help navigate these nuances. They can prepare documentation that meets council expectations and expedite the process.",
+        "Timelines for permits in Forrest can vary depending on the complexity of the project and council workload. Simple renovations might be approved in a few weeks, while larger developments could take months. It's advisable to submit applications early and allow for potential delays, such as requests for further information or site inspections. Keeping communication open with the council and your builder ensures everyone stays informed.",
+        "Costs beyond the initial permit fee include potential consultancy fees for architects or engineers, which are often required for detailed plans. In Forrest, where building standards are strict to ensure durability against weather and seismic considerations, professional input is valuable. Investing in quality documentation upfront can prevent revisions and speed up approval.",
+        "Once approved, adhering to permit conditions is mandatory. This includes scheduling inspections at key stages, such as foundations and completion, to verify compliance. Forrest council may require final certification before occupancy, which your builder can assist with. Failing to comply can result in fines or orders to undo work, so meticulous record-keeping and cooperation with inspectors are essential.",
+        "In summary, understanding building permits in Forrest is fundamental to a successful project. By engaging with experienced professionals and planning ahead, you can ensure a smooth process that meets all legal requirements. Forest St. Builders offers support from start to finish, leveraging their local knowledge to make your build hassle-free and compliant with Australian standards."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Forest St. Builders | Builder in Forrest | Construction Experts",
+      "description": "Forest St. Builders offers expert construction services in Forrest with 25 years experience. Get a free quote for builds, renovations, and more."
+    },
+    "about": {
+      "title": "About Forest St. Builders | Forrest's Local Builders",
+      "description": "Learn about Forest St. Builders, Forrest's trusted construction company with over 25 years of transparent building services."
+    },
+    "services": {
+      "title": "Construction Services in Forrest | Forest St. Builders",
+      "description": "Explore our range of building services in Forrest, including custom homes, renovations, and commercial projects."
+    },
+    "pricing": {
+      "title": "Building Costs in Forrest | Forest St. Builders Pricing",
+      "description": "Understand the costs of construction in Forrest with transparent pricing from Forest St. Builders. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Forest St. Builders | Free Quotes in Forrest",
+      "description": "Get in touch with Forest St. Builders in Forrest for free building quotes and consultations. Call or email today."
+    },
+    "blog": {
+      "title": "Forrest Building Blog | Tips & Guides from Forest St. Builders",
+      "description": "Read the latest building advice, cost guides, and tips for Forrest residents on the Forest St. Builders blog."
+    }
+  }
+}
