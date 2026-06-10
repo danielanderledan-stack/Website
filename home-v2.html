@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Honest Web Design for Tradies | Complete Digital — Melbourne</title>
+  <meta name="description" content="Complete Digital builds websites for Australian tradies with no upcharges, unlimited changes and no lock-in. Bayside, Melbourne." />
+  <!-- TEST PAGE — not linked from the live site, kept out of search -->
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" />
+  <style>
+    :root {
+      --navy: #0a2540;
+      --navy-soft: #41566b;
+      --ink-faint: #6b7f93;
+      --cyan: #48cae4;
+      --cyan-deep: #00a8cf;
+      --cyan-soft: #ade8f4;
+      --paper: #f6fbfd;
+      --white: #ffffff;
+      --line: rgba(10, 37, 64, 0.1);
+      --line-soft: rgba(10, 37, 64, 0.06);
+      --serif: "Fraunces", Georgia, serif;
+      --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+      --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      color: var(--navy);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: clip;
+      font-size: 16.5px;
+      line-height: 1.65;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+    img { max-width: 100%; display: block; }
+
+    .wrap {
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    /* ---------- reveal on scroll ---------- */
+    .rv {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+    }
+    .rv.in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .rv { opacity: 1; transform: none; transition: none; }
+    }
+
+    /* ---------- header ---------- */
+    .hdr {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s ease;
+    }
+    .hdr.scrolled { border-bottom-color: var(--line-soft); }
+    .hdr-in {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 2px;
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    .brand .dots { letter-spacing: 1px; }
+    .brand .dots span:nth-child(1) { color: var(--cyan); }
+    .brand .dots span:nth-child(2) { color: var(--cyan-deep); }
+    .brand .dots span:nth-child(3) { color: var(--navy); }
+    .hdr-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      font-size: 0.92rem;
+      font-weight: 500;
+      color: var(--navy-soft);
+    }
+    .hdr-nav a:hover { color: var(--navy); }
+    .hdr-cta {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--navy);
+      border: 1.5px solid var(--navy);
+      border-radius: 999px;
+      padding: 9px 22px;
+      transition: background 0.25s ease, color 0.25s ease;
+    }
+    .hdr-cta:hover { background: var(--navy); color: var(--white); }
+    @media (max-width: 760px) {
+      .hdr-nav .hide-m { display: none; }
+      .hdr-nav { gap: 18px; }
+    }
+
+    /* ---------- buttons ---------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      font-size: 0.98rem;
+      border-radius: 999px;
+      padding: 15px 30px;
+      transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease), background 0.25s ease;
+      cursor: pointer;
+      border: none;
+      font-family: var(--sans);
+    }
+    .btn svg { width: 17px; height: 17px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .btn-dark {
+      background: var(--navy);
+      color: var(--white);
+      box-shadow: 0 14px 30px -14px rgba(10, 37, 64, 0.5);
+    }
+    .btn-dark:hover { transform: translateY(-2px); box-shadow: 0 20px 36px -14px rgba(10, 37, 64, 0.55); }
+    .btn-line {
+      background: transparent;
+      color: var(--navy);
+      border: 1.5px solid var(--line);
+    }
+    .btn-line:hover { border-color: var(--navy); }
+
+    /* ---------- section scaffolding ---------- */
+    section { padding: 110px 0; }
+    .sec-label {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 28px;
+    }
+    .sec-label::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--line-soft);
+    }
+    .sec-label em { font-style: normal; color: var(--cyan-deep); }
+    h2 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(2rem, 4.4vw, 3.1rem);
+      line-height: 1.12;
+      letter-spacing: -0.015em;
+      max-width: 17ch;
+    }
+    h2 .it { font-style: italic; color: var(--cyan-deep); }
+    .lede {
+      margin-top: 22px;
+      max-width: 56ch;
+      color: var(--navy-soft);
+      font-size: 1.06rem;
+    }
+
+    /* ---------- hero ---------- */
+    .hero { padding: 90px 0 100px; }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 70px;
+      align-items: center;
+    }
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 30px;
+    }
+    .kicker::before {
+      content: "";
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--cyan);
+    }
+    h1 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(2.7rem, 6vw, 4.4rem);
+      line-height: 1.06;
+      letter-spacing: -0.02em;
+    }
+    h1 .it { font-style: italic; color: var(--cyan-deep); }
+    .hero-sub {
+      margin-top: 28px;
+      font-size: 1.12rem;
+      color: var(--navy-soft);
+      max-width: 50ch;
+    }
+    .hero-sub strong { color: var(--navy); font-weight: 600; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 38px; }
+    .hero-note {
+      margin-top: 34px;
+      font-size: 0.9rem;
+      color: var(--ink-faint);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .hero-note .stars { color: #f59e0b; letter-spacing: 2px; font-size: 0.85rem; }
+
+    /* the quote docket */
+    .docket {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 34px 34px 28px;
+      box-shadow: 0 30px 60px -35px rgba(10, 37, 64, 0.35);
+      transform: rotate(1.2deg);
+      position: relative;
+      font-size: 0.95rem;
+    }
+    .docket::before {
+      content: "";
+      position: absolute;
+      top: -10px; left: 50%;
+      transform: translateX(-50%) rotate(-2deg);
+      width: 92px; height: 22px;
+      background: rgba(72, 202, 228, 0.35);
+      border-left: 1px dashed rgba(10, 37, 64, 0.15);
+      border-right: 1px dashed rgba(10, 37, 64, 0.15);
+    }
+    .docket-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 16px;
+      border-bottom: 1px dashed var(--line);
+      margin-bottom: 8px;
+    }
+    .docket-head strong {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .docket-head span {
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      font-weight: 600;
+    }
+    .docket-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 14px;
+      padding: 13px 0;
+      border-bottom: 1px dashed var(--line-soft);
+    }
+    .docket-row .label { color: var(--navy-soft); }
+    .docket-row .fill {
+      flex: 1;
+      border-bottom: 1px dotted rgba(10, 37, 64, 0.2);
+      transform: translateY(-4px);
+    }
+    .docket-row .amt { font-weight: 700; font-variant-numeric: tabular-nums; }
+    .docket-row .amt.zero { color: var(--cyan-deep); }
+    .docket-row .amt s { color: var(--ink-faint); font-weight: 500; margin-right: 8px; }
+    .docket-total {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 18px 0 4px;
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+    .docket-total .amt { color: var(--cyan-deep); font-size: 1.5rem; }
+    .docket-fine {
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: var(--ink-faint);
+    }
+    .docket-fine a { color: var(--cyan-deep); font-weight: 600; }
+
+    /* ---------- burns (the problem) ---------- */
+    .burns { background: var(--navy); color: var(--white); }
+    .burns .sec-label { color: rgba(255, 255, 255, 0.45); }
+    .burns .sec-label::after { background: rgba(255, 255, 255, 0.12); }
+    .burns h2 { color: var(--white); }
+    .burns h2 .it { color: var(--cyan); }
+    .burns .lede { color: rgba(255, 255, 255, 0.65); }
+    .burn-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+      margin-top: 60px;
+    }
+    .burn {
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      padding: 30px 30px 26px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .burn-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--cyan);
+      border: 1px solid rgba(72, 202, 228, 0.35);
+      border-radius: 999px;
+      padding: 5px 13px;
+      margin-bottom: 18px;
+    }
+    .burn q {
+      display: block;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      quotes: "\201C" "\201D";
+      margin-bottom: 14px;
+    }
+    .burn p { font-size: 0.93rem; color: rgba(255, 255, 255, 0.6); }
+    .burns-outro {
+      margin-top: 56px;
+      text-align: center;
+      font-family: var(--serif);
+      font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .burns-outro strong { color: var(--cyan); font-weight: 600; }
+
+    /* ---------- rules ---------- */
+    .rules { background: var(--paper); }
+    .rule {
+      display: grid;
+      grid-template-columns: 130px 1fr 1fr;
+      gap: 40px;
+      padding: 52px 0;
+      border-top: 1px solid var(--line);
+      align-items: start;
+    }
+    .rule:last-of-type { border-bottom: 1px solid var(--line); }
+    .rule-num {
+      font-family: var(--serif);
+      font-size: 3.4rem;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--cyan-deep);
+      line-height: 1;
+    }
+    .rule h3 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.75rem;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+    .rule h3 small {
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 12px;
+    }
+    .rule p { color: var(--navy-soft); font-size: 0.99rem; }
+    .rule p + p { margin-top: 12px; }
+    .rule p strong { color: var(--navy); }
+
+    /* ---------- work / proof ---------- */
+    .work-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 64px;
+      align-items: center;
+      margin-top: 24px;
+    }
+    .work-points { margin-top: 34px; }
+    .work-points li {
+      display: flex;
+      gap: 14px;
+      padding: 14px 0;
+      border-top: 1px solid var(--line-soft);
+      font-size: 0.97rem;
+      color: var(--navy-soft);
+    }
+    .work-points li strong { color: var(--navy); font-weight: 600; }
+    .work-points .tick {
+      flex: none;
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background: rgba(72, 202, 228, 0.15);
+      color: var(--cyan-deep);
+      display: grid;
+      place-items: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+    .browser {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--white);
+      box-shadow: 0 40px 80px -40px rgba(10, 37, 64, 0.4);
+    }
+    .browser-bar {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 16px;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line-soft);
+    }
+    .browser-bar .dots { display: flex; gap: 6px; }
+    .browser-bar .dots span {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: rgba(10, 37, 64, 0.12);
+    }
+    .browser-bar .url {
+      flex: 1;
+      font-size: 0.78rem;
+      color: var(--ink-faint);
+      background: var(--white);
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      padding: 5px 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .browser-frame {
+      width: 100%;
+      height: 480px;
+      border: 0;
+      display: block;
+    }
+    .work-cta { margin-top: 28px; }
+
+    /* ---------- pricing ---------- */
+    .pricing { background: var(--paper); }
+    .price-table {
+      margin-top: 56px;
+      border-top: 1px solid var(--line);
+    }
+    .price-row {
+      display: grid;
+      grid-template-columns: 1fr 2fr auto;
+      gap: 30px;
+      align-items: baseline;
+      padding: 24px 0;
+      border-bottom: 1px solid var(--line-soft);
+    }
+    .price-row .name {
+      font-family: var(--serif);
+      font-size: 1.18rem;
+      font-weight: 500;
+    }
+    .price-row .desc { font-size: 0.92rem; color: var(--navy-soft); }
+    .price-row .cost {
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .price-row .cost small { font-weight: 500; color: var(--ink-faint); }
+    .price-row .cost.free { color: var(--cyan-deep); }
+    .price-note {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin-top: 34px;
+      font-size: 0.92rem;
+      color: var(--navy-soft);
+    }
+
+    /* ---------- about ---------- */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 72px;
+      align-items: center;
+    }
+    .portrait {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      border-radius: 18px;
+    }
+    .portrait::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 18px;
+      border: 1.5px solid var(--cyan);
+      transform: translate(14px, 14px);
+      z-index: 0;
+      pointer-events: none;
+    }
+    .portrait img,
+    .portrait .ph {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+    .portrait .ph {
+      display: none;
+      background: var(--navy);
+      color: var(--white);
+      place-items: center;
+      text-align: center;
+      padding: 30px;
+    }
+    .portrait.no-img img { display: none; }
+    .portrait.no-img .ph { display: grid; }
+    .portrait .ph .initials {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 4.5rem;
+      color: var(--cyan);
+      line-height: 1;
+    }
+    .portrait .ph small {
+      display: block;
+      margin-top: 16px;
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.45);
+      max-width: 24ch;
+    }
+    .about-copy .sig {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.4rem;
+      color: var(--cyan-deep);
+      margin-top: 30px;
+    }
+    .about-copy .role {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-top: 6px;
+    }
+    .about-copy p { color: var(--navy-soft); margin-top: 18px; max-width: 54ch; }
+    .about-copy p strong { color: var(--navy); }
+    .about-contacts { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
+
+    /* ---------- contact ---------- */
+    .contact { background: var(--navy); color: var(--white); padding-bottom: 120px; }
+    .contact .sec-label { color: rgba(255, 255, 255, 0.45); }
+    .contact .sec-label::after { background: rgba(255, 255, 255, 0.12); }
+    .contact h2 { color: var(--white); }
+    .contact h2 .it { color: var(--cyan); }
+    .contact .lede { color: rgba(255, 255, 255, 0.65); }
+    .cform {
+      margin-top: 54px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+      max-width: 780px;
+    }
+    .cform label { display: block; }
+    .cform label.full { grid-column: 1 / -1; }
+    .cform span {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 9px;
+    }
+    .cform input,
+    .cform textarea {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 12px;
+      color: var(--white);
+      font-family: var(--sans);
+      font-size: 1rem;
+      padding: 15px 18px;
+      transition: border-color 0.25s ease, background 0.25s ease;
+    }
+    .cform input::placeholder,
+    .cform textarea::placeholder { color: rgba(255, 255, 255, 0.3); }
+    .cform input:focus,
+    .cform textarea:focus {
+      outline: none;
+      border-color: var(--cyan);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .cform textarea { resize: vertical; min-height: 130px; }
+    .cform .btn-dark {
+      background: var(--cyan);
+      color: var(--navy);
+      justify-self: start;
+      box-shadow: 0 14px 30px -14px rgba(72, 202, 228, 0.5);
+    }
+    .cform .btn-dark:disabled { opacity: 0.6; transform: none; cursor: wait; }
+    .form-status { grid-column: 1 / -1; font-size: 0.95rem; min-height: 1.4em; color: rgba(255, 255, 255, 0.7); }
+    .form-status.ok { color: var(--cyan); }
+    .form-status.err { color: #fca5a5; }
+    .contact-alt {
+      margin-top: 44px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 40px;
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.65);
+    }
+    .contact-alt a { color: var(--cyan); font-weight: 600; }
+
+    /* ---------- footer ---------- */
+    footer {
+      background: var(--navy);
+      color: rgba(255, 255, 255, 0.5);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 36px 0;
+      font-size: 0.88rem;
+    }
+    .ftr-in {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .ftr-in nav { display: flex; gap: 26px; }
+    .ftr-in nav a:hover { color: var(--white); }
+
+    /* ---------- responsive ---------- */
+    @media (max-width: 920px) {
+      section { padding: 80px 0; }
+      .hero { padding: 56px 0 80px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 60px; }
+      .docket { transform: none; max-width: 480px; }
+      .burn-grid { grid-template-columns: 1fr; }
+      .rule { grid-template-columns: 1fr; gap: 18px; padding: 42px 0; }
+      .rule-num { font-size: 2.6rem; }
+      .work-grid { grid-template-columns: 1fr; gap: 44px; }
+      .about-grid { grid-template-columns: 1fr; gap: 56px; }
+      .portrait { max-width: 380px; }
+      .price-row { grid-template-columns: 1fr auto; }
+      .price-row .desc { grid-column: 1 / -1; order: 3; }
+      .cform { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= header ================= -->
+  <header class="hdr" id="top">
+    <div class="wrap hdr-in">
+      <a class="brand" href="/home-v2.html">
+        complete digital<span class="dots"><span>.</span><span>.</span><span>.</span></span>
+      </a>
+      <nav class="hdr-nav" aria-label="Primary">
+        <a href="#problem" class="hide-m">The problem</a>
+        <a href="#rules" class="hide-m">Our rules</a>
+        <a href="#work" class="hide-m">Work</a>
+        <a href="#daniel" class="hide-m">About</a>
+        <a href="#contact" class="hdr-cta">Get a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= hero ================= -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="kicker">Web design for trades · Bayside, Melbourne</p>
+          <h1>An honest website.<br /><span class="it">Imagine that.</span></h1>
+          <p class="hero-sub">
+            Most tradies we meet have already been burned by a web company —
+            overquoted, locked in, then charged again for every little change.
+            Complete Digital was built to be the opposite:
+            <strong>no upcharges, unlimited changes,</strong> and you own everything.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-dark">
+              Get a straight answer
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#work" class="btn btn-line">See the work</a>
+          </div>
+          <p class="hero-note">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            Trusted by 40+ Australian trade businesses
+          </p>
+        </div>
+
+        <!-- the honest quote docket -->
+        <aside class="docket rv" aria-label="What we quote, up front">
+          <div class="docket-head">
+            <strong>Your quote</strong>
+            <span>№ 001 · valid forever</span>
+          </div>
+          <div class="docket-row">
+            <span class="label">Website, designed &amp; built</span>
+            <span class="fill" aria-hidden="true"></span>
+            <span class="amt zero">$0</span>
+          </div>
+          <div class="docket-row">
+            <span class="label">Every change, forever</span>
+            <span class="fill" aria-hidden="true"></span>
+            <span class="amt zero">$0</span>
+          </div>
+          <div class="docket-row">
+            <span class="label">"Maintenance" upcharge</span>
+            <span class="fill" aria-hidden="true"></span>
+            <span class="amt"><s>$90/hr</s>$0</span>
+          </div>
+          <div class="docket-row">
+            <span class="label">Lock-in contract</span>
+            <span class="fill" aria-hidden="true"></span>
+            <span class="amt zero">none</span>
+          </div>
+          <div class="docket-total">
+            <span>Due today</span>
+            <span class="amt">$0</span>
+          </div>
+          <p class="docket-fine">
+            Optional extras — your own domain, automated SMS, instant quoting —
+            start at $5/wk. Only if you want them. <a href="/pricing.html">Build your own price&nbsp;→</a>
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= the problem ================= -->
+    <section class="burns" id="problem">
+      <div class="wrap">
+        <p class="sec-label rv"><em>01</em> — The problem</p>
+        <h2 class="rv">Web designers gave themselves a <span class="it">bad name.</span></h2>
+        <p class="lede rv">
+          We've onboarded enough tradies to have heard every version of the same story.
+          If any of these sound familiar, you're exactly who we built this for.
+        </p>
+
+        <div class="burn-grid">
+          <article class="burn rv">
+            <span class="burn-tag">The template markup</span>
+            <q>I paid four grand and later found out it was a $60 template.</q>
+            <p>Agencies resell off-the-shelf themes at custom-build prices, betting you won't know the difference. Every site we ship is designed and coded from scratch — and you're welcome to look under the hood.</p>
+          </article>
+          <article class="burn rv">
+            <span class="burn-tag">The hostage situation</span>
+            <q>When I tried to leave, they told me I didn't own my own domain.</q>
+            <p>Some companies register your domain under their name and hold the site to ransom when you want out. Your domain sits in your name from day one. Leave whenever — we'll even hand over the files.</p>
+          </article>
+          <article class="burn rv">
+            <span class="burn-tag">The edit toll-booth</span>
+            <q>They charged me $150 to change a phone number.</q>
+            <p>Hourly "maintenance" rates turn a two-minute edit into an invoice. Changes are part of the deal here — new photos, new services, new pages. Unlimited, and usually done within a day.</p>
+          </article>
+          <article class="burn rv">
+            <span class="burn-tag">The vanishing act</span>
+            <q>Site went live, then I never heard from them again.</q>
+            <p>The launch was the last day they answered the phone. We're the opposite: the relationship starts at launch. One bloke, one number, and he picks up.</p>
+          </article>
+        </div>
+
+        <p class="burns-outro rv">
+          Fair enough if you don't trust us yet.<br />
+          <strong>So here's how we make it impossible to get burned.</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= the rules ================= -->
+    <section class="rules" id="rules">
+      <div class="wrap">
+        <p class="sec-label rv"><em>02</em> — Our rules</p>
+        <h2 class="rv">Three rules. <span class="it">No fine print.</span></h2>
+        <p class="lede rv" style="margin-bottom: 64px;">
+          These aren't marketing lines — they're how the business is structured.
+          Break any of them and you have every right to walk, which is exactly the point.
+        </p>
+
+        <div class="rule rv">
+          <div class="rule-num">01</div>
+          <h3><small>Rule one</small>No upcharges. Ever.</h3>
+          <div>
+            <p>The website itself is <strong>free to build and free to keep</strong>. If you add extras, they're flat weekly prices listed publicly on our pricing page — the number you see is the number you pay.</p>
+            <p>No setup fees, no "hosting renewals", no surprise invoices in March. If it's not on the pricing page, it doesn't cost anything.</p>
+          </div>
+        </div>
+
+        <div class="rule rv">
+          <div class="rule-num">02</div>
+          <h3><small>Rule two</small>Unlimited changes.</h3>
+          <div>
+            <p>New phone number, new photos, a page for a new service, a price update before the weekend — <strong>send a text, it gets done</strong>. Usually same-day, always free.</p>
+            <p>Your business changes constantly. A website that costs money to update is a website that goes stale. Ours don't.</p>
+          </div>
+        </div>
+
+        <div class="rule rv">
+          <div class="rule-num">03</div>
+          <h3><small>Rule three</small>You own everything.</h3>
+          <div>
+            <p>Your domain is registered <strong>in your name</strong>. Your content is yours. Billing is weekly with no contract, so "cancel anytime" means this Friday, not in 24 months.</p>
+            <p>If you ever leave, you take the lot with you — domain, files, photos, the works. No exit fees, no hostage negotiations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= the work ================= -->
+    <section id="work">
+      <div class="wrap">
+        <p class="sec-label rv"><em>03</em> — The work</p>
+        <div class="work-grid">
+          <div>
+            <h2 class="rv">Judge the work, not <span class="it">the pitch.</span></h2>
+            <p class="lede rv">
+              That's a real site we built, running live in the frame — scroll it, tap it,
+              hold it to the standard you'd hold your own work to.
+            </p>
+            <ul class="work-points rv">
+              <li><span class="tick">✓</span><span><strong>Built for phones first</strong> — because that's where your customers are standing when something breaks.</span></li>
+              <li><span class="tick">✓</span><span><strong>Fast on bad reception</strong> — lean, hand-written code. No bloated page builders.</span></li>
+              <li><span class="tick">✓</span><span><strong>Found on Google</strong> — structured data, suburb pages and local SEO built in, not bolted on.</span></li>
+              <li><span class="tick">✓</span><span><strong>Built to convert</strong> — call buttons, booking forms and reviews placed where they get used.</span></li>
+            </ul>
+            <div class="work-cta rv">
+              <a class="btn btn-line" href="https://site-display3.vercel.app/" target="_blank" rel="noopener">
+                Open the full site
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="browser rv">
+            <div class="browser-bar" aria-hidden="true">
+              <div class="dots"><span></span><span></span><span></span></div>
+              <div class="url">site-display3.vercel.app — built by Complete Digital</div>
+            </div>
+            <iframe class="browser-frame" src="https://site-display3.vercel.app/" title="A live tradie website built by Complete Digital" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= pricing ================= -->
+    <section class="pricing" id="pricing">
+      <div class="wrap">
+        <p class="sec-label rv"><em>04</em> — Straight pricing</p>
+        <h2 class="rv">The whole price list. <span class="it">Right here.</span></h2>
+        <p class="lede rv">
+          No "book a call to find out". This is everything we charge for,
+          published in full. Add what's useful, skip what isn't.
+        </p>
+
+        <div class="price-table rv">
+          <div class="price-row">
+            <span class="name">Website</span>
+            <span class="desc">Designed, built, hosted and updated by us. Mobile-first, SEO-ready, unlimited changes included.</span>
+            <span class="cost free">Free</span>
+          </div>
+          <div class="price-row">
+            <span class="name">Custom domain</span>
+            <span class="desc">Your own yourbusiness.com.au — registered in your name. We handle the boring bits.</span>
+            <span class="cost">$5<small>/wk</small></span>
+          </div>
+          <div class="price-row">
+            <span class="name">AI spam filter</span>
+            <span class="desc">Junk leads, bots and cold sellers filtered out before they reach your phone.</span>
+            <span class="cost">$9<small>/wk</small></span>
+          </div>
+          <div class="price-row">
+            <span class="name">Automatic SMS &amp; email</span>
+            <span class="desc">Leads answered in under 30 seconds, reviews chased after every job, follow-ups on autopilot.</span>
+            <span class="cost">$18<small>/wk</small></span>
+          </div>
+          <div class="price-row">
+            <span class="name">Auto customer quoting</span>
+            <span class="desc">AI prices the job in seconds, you sense-check it, the quote lands before they ring anyone else.</span>
+            <span class="cost">$24<small>/wk</small></span>
+          </div>
+        </div>
+
+        <div class="price-note rv">
+          <span>Weekly billing · no lock-in · turn everything on and get 10% off the lot.</span>
+          <a class="btn btn-dark" href="/pricing.html">
+            Build your exact price
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= about daniel ================= -->
+    <section id="daniel">
+      <div class="wrap">
+        <p class="sec-label rv"><em>05</em> — The bloke behind it</p>
+        <div class="about-grid">
+          <figure class="portrait rv" id="portrait">
+            <img src="/images/daniel.jpg" alt="Daniel Anderle, founder of Complete Digital"
+                 onerror="document.getElementById('portrait').classList.add('no-img')" />
+            <div class="ph" aria-hidden="true">
+              <div>
+                <span class="initials">DA</span>
+                <small>Photo coming — drop <code>daniel.jpg</code> into <code>/images/</code></small>
+              </div>
+            </div>
+          </figure>
+          <div class="about-copy">
+            <h2 class="rv">When you call, <span class="it">I pick up.</span></h2>
+            <p class="rv">
+              G'day — I'm Daniel. Complete Digital is me: a web designer from Bayside, Melbourne,
+              not an agency with account managers, ticket queues and a sales floor.
+            </p>
+            <p class="rv">
+              I started this after watching too many tradies get treated like ATMs —
+              quoted thousands for templates, billed by the hour to fix a typo, locked into
+              contracts written to be escaped from. Trades run on reputation and word of mouth.
+              <strong>I think web design should run on the same rules.</strong>
+            </p>
+            <p class="rv">
+              So everything here is built the way you'd want a job done on your own house:
+              quoted straight, done properly, and backed up afterwards. You deal with the person
+              who actually builds your site — and you'll have my mobile, not a support inbox.
+            </p>
+            <p class="sig rv">Daniel Anderle</p>
+            <p class="role rv">Founder, Complete Digital</p>
+            <div class="about-contacts rv">
+              <a class="btn btn-line" href="tel:+61432839654">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.9.7A2 2 0 0 1 22 16.9z"/></svg>
+                0432 839 654
+              </a>
+              <a class="btn btn-line" href="mailto:daniel.anderle.dan@gmail.com">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM2 8l10 7 10-7"/></svg>
+                Email me
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= contact ================= -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="sec-label rv"><em>06</em> — Get started</p>
+        <h2 class="rv">Tell me your trade.<br />I'll tell you <span class="it">the price.</span></h2>
+        <p class="lede rv">
+          A plan and a fixed price, usually the same day. No discovery calls,
+          no proposals with a cover page — just a straight answer.
+        </p>
+
+        <form class="cform rv" id="contactForm">
+          <label>
+            <span>Your name</span>
+            <input type="text" name="name" placeholder="Josh Wade" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Phone</span>
+            <input type="tel" name="number" placeholder="0400 000 000" autocomplete="tel" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required />
+          </label>
+          <label>
+            <span>Trade</span>
+            <input type="text" name="trade" placeholder="Electrician" required />
+          </label>
+          <label class="full">
+            <span>Suburb / area</span>
+            <input type="text" name="suburb" placeholder="Frankston, 3196…" required />
+          </label>
+          <label class="full">
+            <span>What do you need?</span>
+            <textarea name="message" rows="4" placeholder="New site, SEO, leads system — or just tell me what the last mob did and I'll fix it." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-dark">
+            Send it
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-alt rv">
+          <span>Prefer to talk? <a href="tel:+61432839654">0432 839 654</a></span>
+          <span>Or email <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= footer ================= -->
+  <footer>
+    <div class="wrap ftr-in">
+      <span>© Complete Digital — Black Rock, VIC 3193</span>
+      <nav aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/design.html">Design</a>
+        <a href="/seo.html">SEO</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    /* header hairline on scroll */
+    (function () {
+      var hdr = document.querySelector(".hdr");
+      var onScroll = function () {
+        hdr.classList.toggle("scrolled", window.scrollY > 8);
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+    })();
+
+    /* scroll reveals */
+    (function () {
+      var els = document.querySelectorAll(".rv");
+      if (!("IntersectionObserver" in window)) {
+        els.forEach(function (el) { el.classList.add("in"); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add("in");
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+
+    /* contact form → n8n webhook (same contract as the live homepage) */
+    (function () {
+      var WEBHOOK_URL = "https://n8n-production-d02c.up.railway.app/webhook/a9535112-5d90-4ecc-a74a-7a9c8bcbdc81";
+      var form = document.getElementById("contactForm");
+      if (!form) return;
+      var statusEl = form.querySelector(".form-status");
+      var submitBtn = form.querySelector("button[type=submit]");
+      var setStatus = function (msg, cls) {
+        statusEl.textContent = msg;
+        statusEl.className = "form-status" + (cls ? " " + cls : "");
+      };
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        var d = new FormData(form);
+        var payload = [{
+          "name": (d.get("name") || "").trim(),
+          "number": (d.get("number") || "").trim(),
+          "email": (d.get("email") || "").trim(),
+          "Trade": (d.get("trade") || "").trim(),
+          "Suburb\area": (d.get("suburb") || "").trim(),
+          "Message": (d.get("message") || "").trim()
+        }];
+        submitBtn.disabled = true;
+        setStatus("Sending…", "");
+        try {
+          var res = await fetch(WEBHOOK_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          form.reset();
+          setStatus("Got it — I'll be in touch shortly.", "ok");
+        } catch (err) {
+          setStatus("Couldn't send just now — email daniel.anderle.dan@gmail.com", "err");
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
