@@ -521,6 +521,14 @@ file, commit, and Vercel serves it.
    MAIN
    ======================================================================== */
 async function fuseSite(input) {
+  /* n8n's task runner freezes JS built-in prototypes (prototype-pollution
+     hardening), which breaks jsdom's dependency chain at load time
+     (decimal.js assigns .toString on plain objects). When we detect frozen
+     intrinsics, re-run this same file in a clean child Node process —
+     fresh, unfrozen intrinsics — and stream the result back. */
+  if (Object.isFrozen(Object.prototype) && !process.env.CD_FUSER_CHILD) {
+    return fuseInChildProcess(input);
+  }
   const jsdomLib = input.jsdom || require('jsdom');
   const config = input.config;
   const slug = input.slug || deriveSlug(config);
@@ -604,6 +612,39 @@ async function fuseSite(input) {
   }
 
   return { files, copies, warnings, slug, domain, routes };
+}
+
+function fuseInChildProcess(input) {
+  const { execFile } = require('child_process');
+  return new Promise((resolve, reject) => {
+    const child = execFile(
+      process.execPath, [__filename],
+      { env: { ...process.env, CD_FUSER_CHILD: '1' }, maxBuffer: 256 * 1024 * 1024, timeout: 180000 },
+      (err, stdout, stderr) => {
+        if (err) return reject(new Error('cd-fuser child failed: ' + ((stderr || '').slice(-2000) || err.message)));
+        try { resolve(JSON.parse(stdout)); } catch (e) { reject(new Error('cd-fuser child returned invalid JSON: ' + stdout.slice(0, 300))); }
+      }
+    );
+    child.stdin.on('error', reject);
+    child.stdin.write(JSON.stringify(input));
+    child.stdin.end();
+  });
+}
+
+/* child-process entry: input JSON on stdin, result JSON on stdout */
+if (process.env.CD_FUSER_CHILD === '1' && require.main === module) {
+  let buf = '';
+  process.stdin.setEncoding('utf8');
+  process.stdin.on('data', (c) => { buf += c; });
+  process.stdin.on('end', async () => {
+    try {
+      const out = await fuseSite(JSON.parse(buf));
+      process.stdout.write(JSON.stringify(out));
+    } catch (e) {
+      process.stderr.write(String((e && e.stack) || e));
+      process.exit(1);
+    }
+  });
 }
 
 module.exports = { fuseSite };
