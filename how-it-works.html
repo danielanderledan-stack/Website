@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How It Works | Complete Digital</title>
+  <meta name="description" content="How Complete Digital works: we build your demo website first, you review it, we customise it free, you go live. Five easy steps from demo to live website." />
+  <link rel="canonical" href="https://completedigital.com.au/how-it-works.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://completedigital.com.au/how-it-works.html" />
+  <meta property="og:title" content="How It Works | Complete Digital" />
+  <meta property="og:description" content="We build your demo website first, you review it, we customise it free, you go live. Five easy steps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" /></noscript>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    /* ── Scroll journey: SVG line draws through the steps ─────────── */
+    .hiw {
+      position: relative;
+      margin-top: 64px;
+    }
+    .hiw-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+    .hiw-svg .hiw-rail {
+      fill: none;
+      stroke: rgba(72, 202, 228, 0.18);
+      stroke-width: 3;
+      stroke-linecap: round;
+    }
+    .hiw-svg .hiw-draw {
+      fill: none;
+      stroke: url(#hiwGrad);
+      stroke-width: 3;
+      stroke-linecap: round;
+    }
+    .hiw-step {
+      position: relative;
+      padding: 0 0 clamp(56px, 9vw, 90px) clamp(58px, 16vw, 92px);
+      opacity: 0;
+      transform: translateY(26px);
+      transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+    }
+    .hiw-step:last-child { padding-bottom: 0; }
+    .hiw-step.on { opacity: 1; transform: translateY(0); }
+    .hiw-node {
+      position: absolute;
+      left: clamp(20px, 6vw, 34px);
+      top: 8px;
+      width: 16px; height: 16px;
+      border-radius: 50%;
+      background: #fff;
+      border: 3px solid rgba(72, 202, 228, 0.45);
+      transform: translateX(-50%) scale(0.8);
+      transition: background 0.35s ease, border-color 0.35s ease,
+                  box-shadow 0.35s ease, transform 0.4s var(--bounce);
+      z-index: 1;
+    }
+    .hiw-step.on .hiw-node {
+      background: var(--theme-deep);
+      border-color: var(--theme-deep);
+      box-shadow: 0 0 0 6px rgba(72, 202, 228, 0.22);
+      transform: translateX(-50%) scale(1);
+    }
+    .hiw-num {
+      display: inline-block;
+      font-family: "Outfit", sans-serif;
+      font-weight: 800;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      color: var(--theme-deep);
+      margin-bottom: 8px;
+    }
+    .hiw-title {
+      font-family: "Outfit", sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.5rem, 4.5vw, 2.2rem);
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+    .hiw-text {
+      font-size: clamp(1rem, 1.5vw, 1.15rem);
+      line-height: 1.65;
+      color: var(--navy-soft);
+      max-width: 34em;
+    }
+    .hiw-free {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 12px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(72, 202, 228, 0.14);
+      border: 1px solid rgba(72, 202, 228, 0.35);
+      color: var(--theme-deep);
+      font-family: "Outfit", sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Closing CTA ──────────────────────────────────────────────── */
+    .hiw-cta {
+      margin-top: clamp(70px, 12vw, 110px);
+      text-align: center;
+      padding: clamp(36px, 6vw, 56px) 24px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      box-shadow: var(--shadow-sm);
+    }
+    .hiw-cta h2 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.7rem, 5vw, 2.6rem);
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+    .hiw-cta p {
+      color: var(--navy-soft);
+      max-width: 32em;
+      margin: 0 auto 26px;
+      line-height: 1.6;
+    }
+    .hiw-cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .hiw-cta-actions a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      padding: 14px 28px;
+      font-family: "Outfit", sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform 0.25s var(--ease-out);
+    }
+    .hiw-cta-actions a:hover { transform: translateY(-2px); }
+    .hiw-cta-go {
+      background: var(--navy);
+      color: #fff;
+      box-shadow: var(--shadow-sm);
+    }
+    .hiw-cta-me {
+      border: 1.5px solid var(--theme);
+      color: var(--navy);
+      background: #fff;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hiw-step { opacity: 1; transform: none; transition: none; }
+      .hiw-node { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating bubble navigation -->
+  <header class="nav-wrap">
+    <nav class="nav-bubble" aria-label="Primary">
+      <a class="brand" href="/#home" aria-label="Complete Digital — Melbourne web design agency">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-name">Complete digital<span class="brand-ellipsis">…</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="/#home" class="nav-link" aria-label="Home">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="nav-icon"><path d="M3 11.2 12 4l9 7.2M5.5 9.6V20h13V9.6"/></svg>
+            <span>Home</span>
+          </a>
+        </li>
+        <li><a href="/how-it-works.html" class="nav-link is-active">How it works</a></li>
+        <li><a href="/pricing.html" class="nav-link">Pricing</a></li>
+        <li><a href="/about-me.html" class="nav-link">About me</a></li>
+        <li class="nav-links-cta">
+          <a href="/contact.html" class="nav-link nav-link-cta">
+            Get a quote
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </li>
+      </ul>
+
+      <a href="/contact.html" class="nav-cta">
+        Get a quote
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <span class="eyebrow reveal"><span class="eyebrow-dot"></span> How it works</span>
+      <h1 class="page-title reveal">From demo to live, in
+        <span class="headline-accent">five easy steps.</span></h1>
+      <p class="page-lead reveal">No meetings, no deposits, no risk. You've already seen your website —
+        here's exactly what happens next, and what it costs (mostly: nothing).</p>
+
+      <div class="hiw" id="hiw">
+        <svg class="hiw-svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="hiwGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+              <stop offset="0" stop-color="#00a8cf" />
+              <stop offset="1" stop-color="#48cae4" />
+            </linearGradient>
+          </defs>
+          <path class="hiw-rail" d="" />
+          <path class="hiw-draw" d="" />
+        </svg>
+
+        <div class="hiw-step">
+          <span class="hiw-node" aria-hidden="true"></span>
+          <span class="hiw-num">STEP 01</span>
+          <h2 class="hiw-title">We build your demo first</h2>
+          <p class="hiw-text">Before we ever contact you, we find your business and build a complete,
+            working website for it — every page designed and written for your trade. No briefs, no
+            "discovery calls", no deposit. The work comes first.</p>
+          <span class="hiw-free">✓ FREE</span>
+        </div>
+
+        <div class="hiw-step">
+          <span class="hiw-node" aria-hidden="true"></span>
+          <span class="hiw-num">STEP 02</span>
+          <h2 class="hiw-title">You take a look</h2>
+          <p class="hiw-text">The link we send you is your actual website, live on the internet. Click
+            around — every page works, on any phone. If it's not for you, close the tab and that's
+            the end of it. No follow-up spam, no pressure.</p>
+        </div>
+
+        <div class="hiw-step">
+          <span class="hiw-node" aria-hidden="true"></span>
+          <span class="hiw-num">STEP 03</span>
+          <h2 class="hiw-title">We make it yours</h2>
+          <p class="hiw-text">Tell us what to change — your photos, your logo, your words, your
+            colours, your real reviews. We keep tweaking until you're happy with every page.
+            Still completely free.</p>
+          <span class="hiw-free">✓ STILL FREE</span>
+        </div>
+
+        <div class="hiw-step">
+          <span class="hiw-node" aria-hidden="true"></span>
+          <span class="hiw-num">STEP 04</span>
+          <h2 class="hiw-title">Go live</h2>
+          <p class="hiw-text">Check out online in two minutes, we connect your domain, and your site
+            is live. The website itself costs nothing — you only pay for the optional add-ons you
+            actually want, from $5 a week. Cancel anytime.</p>
+        </div>
+
+        <div class="hiw-step">
+          <span class="hiw-node" aria-hidden="true"></span>
+          <span class="hiw-num">STEP 05</span>
+          <h2 class="hiw-title">It keeps getting better</h2>
+          <p class="hiw-text">Hosting, speed, SEO and content improvements happen automatically in
+            the background. Most websites get older every year — yours gets better every month,
+            without you lifting a finger.</p>
+        </div>
+      </div>
+
+      <div class="hiw-cta reveal">
+        <h2>Ready for the next step?</h2>
+        <p>Your website is already built and waiting. Pick what you want on the pricing page and
+          go live this week.</p>
+        <div class="hiw-cta-actions">
+          <a class="hiw-cta-go" href="/pricing.html">Checkout — get started
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="hiw-cta-me" href="/about-me.html">Meet the guy building it</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <address class="footer-address">
+        <strong class="footer-brand">Complete Digital</strong>
+        <span>Web design agency — Bayside Melbourne</span>
+        <span>Black Rock VIC 3193</span>
+        <div class="footer-links">
+          <a href="tel:+61432839654">0432 839 654</a>
+          <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a>
+        </div>
+      </address>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="/how-it-works.html">How it works</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/about-me.html">About me</a>
+        <a href="/contact.html">Get a quote</a>
+      </nav>
+    </div>
+  </footer>
+
+  <noscript>
+    <style>.hiw-step { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+
+  <script src="/script.js" defer></script>
+  <script>
+  /* Scroll journey: a single SVG path weaves through the step nodes and
+     draws itself as you scroll; each step lights up as the line reaches it. */
+  (function () {
+    var hiw = document.getElementById("hiw");
+    if (!hiw) return;
+    var svg = hiw.querySelector(".hiw-svg");
+    var rail = hiw.querySelector(".hiw-rail");
+    var draw = hiw.querySelector(".hiw-draw");
+    var steps = Array.prototype.slice.call(hiw.querySelectorAll(".hiw-step"));
+    var nodes = steps.map(function (s) { return s.querySelector(".hiw-node"); });
+    var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    var total = 0, nodeLens = [], lastP = -1;
+
+    function buildPath() {
+      var box = hiw.getBoundingClientRect();
+      svg.setAttribute("viewBox", "0 0 " + box.width + " " + box.height);
+      var pts = nodes.map(function (n) {
+        var r = n.getBoundingClientRect();
+        return { x: r.left - box.left + r.width / 2, y: r.top - box.top + r.height / 2 };
+      });
+      if (!pts.length) return;
+      // Gentle alternating weave between nodes so the line feels hand-drawn
+      var d = "M " + pts[0].x + " " + Math.max(pts[0].y - 30, 0) + " L " + pts[0].x + " " + pts[0].y;
+      for (var i = 1; i < pts.length; i++) {
+        var a = pts[i - 1], b = pts[i];
+        var bend = Math.min(box.width * 0.06, 42) * (i % 2 ? 1 : -1);
+        var midY1 = a.y + (b.y - a.y) / 3;
+        var midY2 = a.y + (2 * (b.y - a.y)) / 3;
+        d += " C " + (a.x + bend) + " " + midY1 + " " + (b.x + bend) + " " + midY2 + " " + b.x + " " + b.y;
+      }
+      rail.setAttribute("d", d);
+      draw.setAttribute("d", d);
+      total = draw.getTotalLength();
+      // Length along the path at each node, for lighting steps up in sync
+      nodeLens = [];
+      var probe = 0, step = Math.max(total / 400, 1);
+      for (var j = 0; j < pts.length; j++) {
+        while (probe < total && draw.getPointAtLength(probe).y < pts[j].y - 1) probe += step;
+        nodeLens.push(Math.min(probe, total));
+      }
+      draw.style.strokeDasharray = total + " " + total;
+      lastP = -1;
+      update();
+    }
+
+    function progress() {
+      var r = hiw.getBoundingClientRect();
+      // The line tip tracks a point ~70% down the viewport
+      return Math.min(Math.max((window.innerHeight * 0.7 - r.top) / r.height, 0), 1);
+    }
+
+    function update() {
+      if (!total) return;
+      var p = reduced ? 1 : progress();
+      if (p === lastP) return;
+      lastP = p;
+      var drawn = total * p;
+      draw.style.strokeDashoffset = total - drawn;
+      for (var i = 0; i < steps.length; i++) {
+        if (drawn >= nodeLens[i] - 2) steps[i].classList.add("on");
+      }
+    }
+
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { update(); ticking = false; });
+    }, { passive: true });
+
+    var lastW = window.innerWidth;
+    window.addEventListener("resize", function () {
+      if (window.innerWidth === lastW) return;
+      lastW = window.innerWidth;
+      buildPath();
+    });
+    window.addEventListener("orientationchange", buildPath);
+
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(buildPath);
+    window.addEventListener("load", buildPath);
+    buildPath();
+  })();
+  </script>
+</body>
+</html>

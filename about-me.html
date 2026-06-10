@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me — Dan | Complete Digital</title>
+  <meta name="description" content="Meet Dan, the 17-year-old founder of Complete Digital. Building fast, honest websites for Australian tradies — and breaking the pattern of bad websites." />
+  <link rel="canonical" href="https://completedigital.com.au/about-me.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://completedigital.com.au/about-me.html" />
+  <meta property="og:title" content="About Me — Dan | Complete Digital" />
+  <meta property="og:description" content="Meet Dan, the 17-year-old founder of Complete Digital. Building fast, honest websites for Australian tradies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" /></noscript>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    /* Page-specific: portrait card above the story */
+    .me-photo {
+      width: min(280px, 64vw);
+      margin: 34px 0 6px;
+      position: relative;
+    }
+    .me-photo img,
+    .me-photo .me-fallback {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 22px;
+      box-shadow: var(--shadow-lg);
+      border: 4px solid #fff;
+    }
+    .me-photo .me-fallback {
+      display: none;
+      background: linear-gradient(150deg, var(--theme) 0%, var(--navy) 80%);
+      color: #fff;
+      font-family: "Outfit", sans-serif;
+      font-weight: 800;
+      font-size: 5.5rem;
+      line-height: 1;
+      align-items: center;
+      justify-content: center;
+    }
+    .me-photo.no-img img { display: none; }
+    .me-photo.no-img .me-fallback { display: flex; }
+    .me-photo::after {
+      content: "";
+      position: absolute;
+      inset: 14px -14px -14px 14px;
+      border-radius: 22px;
+      background: rgba(72, 202, 228, 0.18);
+      z-index: -1;
+    }
+    .me-tag {
+      display: inline-block;
+      margin: 18px 0 0;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink-faint);
+    }
+    .me-body p {
+      font-size: clamp(1rem, 1.5vw, 1.15rem);
+      line-height: 1.7;
+      color: var(--navy-soft);
+      max-width: 38em;
+      margin: 0 0 22px;
+    }
+    .me-body p strong { color: var(--navy); }
+    .me-body { margin-top: 26px; }
+    .me-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+    .me-actions a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      padding: 13px 24px;
+      font-family: "Outfit", sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+    }
+    .me-actions a:hover { transform: translateY(-2px); }
+    .me-cta-primary {
+      background: var(--navy);
+      color: #fff;
+      box-shadow: var(--shadow-sm);
+    }
+    .me-cta-ghost {
+      border: 1.5px solid var(--theme);
+      color: var(--navy);
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating bubble navigation -->
+  <header class="nav-wrap">
+    <nav class="nav-bubble" aria-label="Primary">
+      <a class="brand" href="/#home" aria-label="Complete Digital — Melbourne web design agency">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-name">Complete digital<span class="brand-ellipsis">…</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="/#home" class="nav-link" aria-label="Home">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="nav-icon"><path d="M3 11.2 12 4l9 7.2M5.5 9.6V20h13V9.6"/></svg>
+            <span>Home</span>
+          </a>
+        </li>
+        <li><a href="/how-it-works.html" class="nav-link">How it works</a></li>
+        <li><a href="/pricing.html" class="nav-link">Pricing</a></li>
+        <li><a href="/about-me.html" class="nav-link is-active">About me</a></li>
+        <li class="nav-links-cta">
+          <a href="/contact.html" class="nav-link nav-link-cta">
+            Get a quote
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </li>
+      </ul>
+
+      <a href="/contact.html" class="nav-cta">
+        Get a quote
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="page-inner">
+      <span class="eyebrow reveal"><span class="eyebrow-dot"></span> About me</span>
+
+      <div class="me-photo reveal" id="mePhoto">
+        <img src="/images/dan.jpg" alt="Dan — founder of Complete Digital"
+             onerror="document.getElementById('mePhoto').classList.add('no-img')" />
+        <span class="me-fallback" aria-hidden="true">D</span>
+      </div>
+
+      <h1 class="page-title reveal">Hey, I'm <span class="headline-accent">Dan.</span></h1>
+
+      <div class="me-body">
+        <p class="reveal">I'm 17, I live in Melbourne's bayside, and — unfortunately — I have to pay
+          rent. So this isn't a hobby or a school project. Complete Digital is how I make my living,
+          which means <strong>your website actually working is the whole job.</strong> If it doesn't
+          bring you customers, I don't eat. Simple as that.</p>
+
+        <p class="reveal">I'm a hard-working, community kind of guy. I grew up around tradies and
+          small business owners, and I've watched too many good ones get burnt by agencies — paying
+          thousands for a slow, outdated site, then waiting weeks for an email back. When you work
+          with me, there's no account manager and no hand-offs. <strong>The person who built your
+          demo is the person who answers the phone.</strong> That's me.</p>
+
+        <p class="reveal">Most trade websites out there are honestly bad. Slow to load, painful on a
+          phone, built years ago and abandoned. I started Complete Digital to <strong>break that
+          pattern</strong> — build it properly, keep it fast, keep improving it, and charge fairly
+          while I'm at it. That's why I build your site <em>before</em> I ever ask you for a cent:
+          you should see exactly what you're getting first.</p>
+
+        <p class="reveal">Being young cuts both ways, I know. But it means I've grown up on the
+          internet — I know what makes a site feel sharp in 2026, I move fast, and I've got
+          everything to prove. Give me a go, and I'll work harder on your website than anyone else
+          would.</p>
+      </div>
+
+      <div class="me-actions reveal">
+        <a class="me-cta-primary" href="/how-it-works.html">See how it works
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="me-cta-ghost" href="/pricing.html">See pricing</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <address class="footer-address">
+        <strong class="footer-brand">Complete Digital</strong>
+        <span>Web design agency — Bayside Melbourne</span>
+        <span>Black Rock VIC 3193</span>
+        <div class="footer-links">
+          <a href="tel:+61432839654">0432 839 654</a>
+          <a href="mailto:daniel.anderle.dan@gmail.com">daniel.anderle.dan@gmail.com</a>
+        </div>
+      </address>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/">Home</a>
+        <a href="/how-it-works.html">How it works</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/about-me.html">About me</a>
+        <a href="/contact.html">Get a quote</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>
