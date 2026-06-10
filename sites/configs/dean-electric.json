@@ -1,0 +1,299 @@
+{
+  "siteType": "electrician",
+  "businessName": "Dean Electric",
+  "suburb": "Richmond",
+  "phone": "0412 345 678",
+  "email": "intl-segmenter@11.7.10",
+  "address": "1260 S Inca St, Richmond VIC 3121",
+  "tagline": "Richmond's Electricians with 23 Years Experience",
+  "primaryColor": "#116dff",
+  "primaryColorRgb": "17, 109, 255",
+  "primaryColorHover": "#0e5bcc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Richmond's Trusted Electricians",
+      "sub": "23+ years leading electrical projects"
+    },
+    {
+      "title": "Electrical Installations & Design",
+      "sub": "Commercial & sustainable solutions"
+    },
+    {
+      "title": "No Job Too Complex",
+      "sub": "Free quotes across Richmond & surrounds"
+    }
+  ],
+  "ctaHeading": "Richmond's electricians are ready — let's power your project.",
+  "aboutHeading": "23 Years Electrical Excellence in Richmond",
+  "aboutSubheading": "Local, qualified & dedicated",
+  "aboutText": "Dean Electric, based in Richmond, brings over 23 years of electrical contracting experience to every project. Our field superintendents lead with expertise, while our project managers ensure jobs are on time and within budget. From consulting to sustainable electrical solutions, we deliver successful installations across Melbourne's eastern suburbs.",
+  "servicesHeading": "What We Wire & Install",
+  "servicesSubheading": "Expert electrical services",
+  "servicesText": "Dean Electric offers comprehensive electrical services in Richmond, including installations, consulting, and sustainable solutions. With over 23 years of experience, we handle domestic, commercial, and industrial projects with precision.",
+  "services": [
+    {
+      "title": "Electrical Installations",
+      "desc": "Professional wiring and installation for homes and businesses.",
+      "longDesc": "Dean Electric provides top-tier electrical installations in Richmond, ensuring safety and compliance with Australian standards. Our team handles everything from new builds to upgrades.",
+      "points": [
+        "Licensed electricians",
+        "Compliant wiring",
+        "Safe installations"
+      ]
+    },
+    {
+      "title": "Consulting Services",
+      "desc": "Expert advice for electrical projects and designs.",
+      "longDesc": "Our consulting services in Richmond help clients plan efficient electrical systems. We offer design/assist and design/build consultations for optimal outcomes.",
+      "points": [
+        "Tailored advice",
+        "Project planning",
+        "Cost-effective solutions"
+      ]
+    },
+    {
+      "title": "Design/Assist Projects",
+      "desc": "Collaborative design support for complex electrical needs.",
+      "longDesc": "For design/assist projects in Richmond, Dean Electric works with architects and builders to integrate electrical systems seamlessly. We ensure designs meet all technical requirements.",
+      "points": [
+        "Team collaboration",
+        "Technical expertise",
+        "Seamless integration"
+      ]
+    },
+    {
+      "title": "Design/Build Projects",
+      "desc": "End-to-end electrical design and construction.",
+      "longDesc": "Our design/build services in Richmond handle complete electrical projects from concept to completion. We manage all aspects to deliver functional and efficient systems.",
+      "points": [
+        "Full project management",
+        "Integrated solutions",
+        "Timely delivery"
+      ]
+    },
+    {
+      "title": "Sustainable Electrical Solutions",
+      "desc": "Eco-friendly electrical options for energy efficiency.",
+      "longDesc": "Dean Electric specializes in sustainable electrical solutions in Richmond, including solar, LED lighting, and energy-efficient systems. We help reduce environmental impact.",
+      "points": [
+        "Energy efficiency",
+        "Green technology",
+        "Cost savings"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "Keeping electrical jobs on schedule and budget.",
+      "longDesc": "With over 20 years of experience, our project management team in Richmond ensures electrical jobs are completed efficiently. We coordinate all phases for smooth execution.",
+      "points": [
+        "On-time completion",
+        "Budget adherence",
+        "Expert coordination"
+      ]
+    }
+  ],
+  "bannerHeading": "Need an Electrician in Richmond?",
+  "bannerSubheading": "Fast, reliable service for your electrical needs.",
+  "testimonialsHeading": "What Richmond Locals Say",
+  "testimonialsSubheading": "Honest work, fair prices",
+  "blogHeading": "Local Electrical Guides & Advice",
+  "blogSubheading": "Insights from the Richmond team",
+  "contactHeading": "Get a Free Quote Today",
+  "contactSubheading": "We'll get back to you fast",
+  "reviews": [
+    {
+      "text": "Dean Electric handled the rewiring of our Richmond home flawlessly. Their 23 years of experience showed in the neat and safe installation. Highly recommend their professional service.",
+      "name": "Tom Henderson",
+      "role": "Richmond Homeowner"
+    },
+    {
+      "text": "For our office fit-out in Richmond, Dean Electric provided excellent consulting and design. They kept the project on budget and within schedule. Great team to work with.",
+      "name": "Sarah Mitchell",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "As a property manager, I rely on Dean Electric for maintenance in Richmond. They are always prompt, reliable, and their work is top-notch. Wouldn't use anyone else.",
+      "name": "James Liu",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Richmond",
+    "East Melbourne",
+    "Hawthorn",
+    "Cremorne",
+    "Burnley",
+    "Camberwell"
+  ],
+  "about": {
+    "intro": "Dean Electric is a Richmond-based electrical contractor with over 23 years of dedicated service to the community.",
+    "story": [
+      "Founded with a commitment to quality, Dean Electric has grown to become a trusted name in Richmond's electrical industry. Our team of field superintendents and project managers brings extensive experience to every job, from small residential fixes to large commercial installations.",
+      "We pride ourselves on keeping projects on schedule and within budget, thanks to our rigorous project management approach. Our engineering services, including consulting and design/assist, ensure that all electrical work meets the highest standards of safety and efficiency."
+    ],
+    "mission": "To provide Richmond with reliable, safe, and innovative electrical solutions that power homes and businesses.",
+    "whyUs": [
+      {
+        "title": "Fully Licensed",
+        "text": "All our electricians are fully licensed and insured for your peace of mind."
+      },
+      {
+        "title": "On Time",
+        "text": "We complete projects on schedule, respecting your time and deadlines."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "Transparent quotes with no hidden costs, so you know exactly what to expect."
+      },
+      {
+        "title": "Guaranteed Work",
+        "text": "We stand by our work with a satisfaction guarantee on all electrical services."
+      }
+    ],
+    "stats": [
+      {
+        "value": "23+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Dean Electric in Richmond, we offer transparent pricing with no lock-in contracts. Get a free quote for your electrical project today.",
+    "packages": [
+      {
+        "name": "Call-Out & Quote",
+        "price": "$90",
+        "unit": "per visit",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed quote",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Professional installation",
+          "Compliance check",
+          "Workmanship guarantee",
+          "24/7 support"
+        ]
+      },
+      {
+        "name": "Major Electrical Project",
+        "price": "from $5,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Design & build",
+          "Ongoing maintenance",
+          "Custom solutions"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so there are no surprises with your electrical costs in Richmond."
+  },
+  "contact": {
+    "intro": "Ready to start your electrical project in Richmond? Contact Dean Electric today for a free, no-obligation quote. We're here to help with all your electrical needs."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Electrical Rewiring Cost in Richmond?",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting electrical rewiring costs in Richmond, from home size to wiring materials, and get a free quote from Dean Electric.",
+      "body": [
+        "Electrical rewiring is a critical safety upgrade for older homes in Richmond, where many properties date back decades. The cost depends on several factors, including the size of your home, the condition of existing wiring, and the materials used. In Richmond, typical rewiring costs range from $5,000 to $15,000 for a full house, but this can vary based on specific needs. Dean Electric provides detailed assessments to give you an accurate quote tailored to your property.",
+        "One key factor is the type of wiring. In Richmond, many homes still have outdated aluminium wiring, which can be a fire hazard. Replacing this with modern copper wiring increases safety but also affects the cost. Our team at Dean Electric ensures all work complies with Australian Standards AS/NZS 3000, so your rewiring is not only cost-effective but also legally compliant.",
+        "The layout of your home matters too. Multi-storey houses or properties with complex layouts may require more labour, driving up the cost. In Richmond's hilly areas, access challenges can also play a role. We offer free on-site quotes to accurately assess these factors before any work begins, ensuring transparency from the start.",
+        "Another consideration is whether you need partial or full rewiring. Some Richmond homes may only need rewiring in specific areas, like the kitchen or bathroom, due to higher moisture levels. Dean Electric can help you prioritise which sections to tackle first, balancing cost and safety.",
+        "In terms of materials, Richmond electricians often use PVC conduit for protection, but some older homes may require special fittings. We source high-quality materials to ensure longevity and safety, which might slightly increase the upfront cost but save money in the long run by avoiding future repairs.",
+        "Finally, timing can influence cost. Scheduling rewiring during off-peak seasons in Melbourne, like late autumn or winter, might offer better rates. Dean Electric offers flexible scheduling to accommodate your needs, ensuring minimal disruption to your Richmond home while keeping costs manageable."
+      ]
+    },
+    {
+      "title": "Best Time to Install Solar Panels in Melbourne's Eastern Suburbs",
+      "date": "February 2026",
+      "excerpt": "Learn about the optimal seasons for solar panel installation in Melbourne's eastern suburbs like Richmond, considering weather, incentives, and energy savings.",
+      "body": [
+        "Installing solar panels in Richmond is a smart investment for energy savings and sustainability, but timing can impact efficiency and cost. Melbourne's eastern suburbs, including Richmond, experience distinct seasons that affect solar performance. The best time for installation is often during spring or autumn, when milder weather allows for easier setup and optimal sun exposure without the extreme heat of summer.",
+        "Weather conditions play a crucial role. In Richmond, summer months bring longer days but also higher temperatures, which can reduce panel efficiency. Winter offers fewer daylight hours but cooler conditions. Dean Electric recommends scheduling installations in shoulder seasons to balance weather factors and ensure your system operates at peak efficiency year-round.",
+        "Government incentives and rebates can also influence timing. In Victoria, schemes like the Solar Homes Program provide rebates that may have application deadlines. Checking these in advance with Dean Electric helps Richmond residents maximise savings on installation costs.",
+        "The specific needs of your property matter too. For homes in Richmond with shaded areas from trees or buildings, a thorough assessment by our team ensures panels are placed for maximum sunlight. We use local solar data to optimise placement, even in urban settings.",
+        "Long-term benefits include reduced electricity bills and carbon footprint. In Richmond, where energy costs are rising, a well-timed solar installation can pay off in years. Dean Electric provides detailed ROI projections to help you make an informed decision.",
+        "Finally, maintenance is easier when installed during optimal seasons. Spring installations allow panels to be cleaned and checked before summer, ensuring they handle Richmond's occasional dust and pollen. Our team offers ongoing support to keep your system running smoothly."
+      ]
+    },
+    {
+      "title": "Signs Your Richmond Home Needs an Electrical Safety Inspection",
+      "date": "January 2026",
+      "excerpt": "Discover common signs that indicate your Richmond property requires an electrical safety inspection to prevent hazards and ensure compliance.",
+      "body": [
+        "Electrical safety inspections are essential for Richmond homes, especially older properties where wiring may deteriorate. Signs like flickering lights, frequent circuit breaker trips, or a burning smell indicate potential hazards. In Richmond, where many houses date back to the early 20th century, these issues are common and require immediate attention from a qualified electrician.",
+        "Flickering or dimming lights can suggest overloaded circuits or faulty wiring, which are risks in Richmond's densely built areas. If multiple appliances trip breakers, it might mean your electrical system is outdated. Dean Electric recommends inspections every 5-10 years to catch such problems early.",
+        "A burning odour or discoloured outlets are serious red flags, often pointing to overheating wires. In Richmond's homes, where space heaters and air conditioners are used heavily, this can lead to fires. Our safety inspections identify and rectify these issues before they escalate.",
+        "Outdated wiring types, like knob-and-tube or aluminium wiring, are prevalent in some Richmond properties. These can degrade over time and fail to meet modern safety standards. Dean Electric assesses your wiring and recommends upgrades to comply with Australian Standards AS/NZS 3000.",
+        "Moisture damage in kitchens or bathrooms can affect electrical components. Richmond's occasional humid weather might exacerbate this, leading to corrosion or short circuits. Inspections help pinpoint areas needing waterproofing or repairs.",
+        "Finally, if you're buying or selling a Richmond home, an electrical safety inspection is crucial for due diligence. Dean Electric provides detailed reports that ensure peace of mind and can be used in property transactions."
+      ]
+    },
+    {
+      "title": "Energy-Efficient Lighting Solutions for Richmond Businesses",
+      "date": "December 2025",
+      "excerpt": "Explore energy-efficient lighting options for businesses in Richmond, from LED upgrades to smart systems, to reduce costs and environmental impact.",
+      "body": [
+        "Energy-efficient lighting is a game-changer for Richmond businesses, reducing electricity bills and enhancing workplace environments. Options like LED lights, smart controls, and natural light integration are popular in Melbourne's eastern suburbs. Dean Electric helps Richmond businesses transition to efficient lighting, saving up to 75% on energy costs.",
+        "LED lighting is the most common upgrade, offering long lifespan and low maintenance. In Richmond, where commercial spaces range from shops to offices, LEDs provide bright, consistent light while cutting consumption. We install LED systems tailored to your business needs, ensuring compliance with Australian standards.",
+        "Smart lighting systems allow control via sensors or apps, optimising usage based on occupancy. For Richmond businesses with variable hours, this reduces waste and improves efficiency. Dean Electric integrates smart solutions that sync with your operations for maximum savings.",
+        "Natural light maximisation through skylights or reflective surfaces can supplement artificial lighting. In Richmond's urban landscape, where buildings are close together, strategic design helps capture more daylight. Our consultants assess your space to recommend cost-effective enhancements.",
+        "Maintenance and durability are key benefits. Richmond businesses benefit from reduced downtime, as efficient lights last longer and require fewer replacements. Dean Electric offers ongoing support to keep your lighting system in top condition.",
+        "Finally, energy-efficient lighting boosts sustainability credentials, important for Richmond businesses aiming to attract eco-conscious customers. We provide audits and installations that align with environmental goals, contributing to a greener community."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Dean Electric | Electrician in Richmond | Electrical Services",
+      "description": "Dean Electric is Richmond's trusted electrician with 23+ years experience. Offering installations, consulting, and sustainable electrical solutions. Get a free quote today."
+    },
+    "about": {
+      "title": "About Dean Electric | Richmond's Electrical Experts",
+      "description": "Learn about Dean Electric, Richmond's electrical contractor with over 23 years of experience in installations, consulting, and project management."
+    },
+    "services": {
+      "title": "Electrical Services in Richmond | Installations & Consulting",
+      "description": "Comprehensive electrical services in Richmond including installations, design/assist, and sustainable solutions by Dean Electric. Licensed and reliable."
+    },
+    "pricing": {
+      "title": "Electrical Costs in Richmond | Transparent Pricing | Dean Electric",
+      "description": "Transparent electrical pricing for Richmond homes and businesses. No lock-in contracts, upfront quotes from Dean Electric."
+    },
+    "contact": {
+      "title": "Contact Dean Electric | Free Richmond Electrician Quotes",
+      "description": "Get in touch with Dean Electric for free electrical quotes in Richmond. Fast response, professional service, and guaranteed work."
+    },
+    "blog": {
+      "title": "Richmond Electrical Blog | Local Tips & Advice",
+      "description": "Read the latest electrical guides and advice from Dean Electric in Richmond. Covers costs, safety, and energy efficiency for Australian homes."
+    }
+  }
+}
