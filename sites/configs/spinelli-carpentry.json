@@ -1,0 +1,302 @@
+{
+  "siteType": "carpenter",
+  "businessName": "Spinelli Carpentry",
+  "suburb": "Newport",
+  "phone": "0458 200 306",
+  "email": "info@spinellicarpentry.com.au",
+  "address": "123 Example St, Newport VIC 3015",
+  "tagline": "Newport's Custom Carpentry Experts",
+  "primaryColor": "#0000ff",
+  "primaryColorRgb": "0, 0, 255",
+  "primaryColorHover": "#0000cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Newport's Trusted Carpentry Team",
+      "sub": "46 years of Italian craftsmanship"
+    },
+    {
+      "title": "Custom Kitchens, Cabinetry & Furniture",
+      "sub": "Bespoke timber solutions for your home"
+    },
+    {
+      "title": "Free Quotes Across Newport & Surrounds",
+      "sub": "No job too big or small"
+    }
+  ],
+  "ctaHeading": "Ready to transform your space with custom carpentry in Newport?",
+  "aboutHeading": "46 Years of Carpentry Excellence in Newport",
+  "aboutSubheading": "From Verona to Newport, quality timber work",
+  "aboutText": "Since 1980, Spinelli Carpentry has been delivering exceptional carpentry services, starting in Verona and now proudly serving Newport and Melbourne's west. Our team combines traditional Italian joinery techniques with modern Australian standards to create stunning custom furniture, kitchens, and millwork. We specialise in tailored solutions that fit your lifestyle and space, ensuring every piece is crafted with precision and care.",
+  "servicesHeading": "What We Craft for Newport Homes",
+  "servicesSubheading": "Expert carpentry for every need",
+  "servicesText": "At Spinelli Carpentry in Newport, we offer a comprehensive range of carpentry services from custom cabinetry to complete kitchen renovations. Our skilled team uses high-quality timbers and finishes to deliver durable and beautiful results for residential and commercial clients across Newport and nearby suburbs.",
+  "services": [
+    {
+      "title": "Custom Cabinetry",
+      "desc": "Bespoke cabinets designed for your kitchen, bathroom, or living spaces.",
+      "longDesc": "Our custom cabinetry service in Newport focuses on maximising storage and style with precision-built units tailored to your exact specifications. Using premium materials, we create functional and aesthetically pleasing solutions that enhance your home's value.",
+      "points": [
+        "Tailored to your space",
+        "Premium timber materials",
+        "Expert installation"
+      ]
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Complete kitchen makeovers with custom joinery and modern designs.",
+      "longDesc": "Transform your Newport kitchen with our full renovation service, including layout planning, cabinetry, benchtops, and finishing touches. We ensure a seamless process from concept to completion, delivering a kitchen that's both beautiful and highly functional.",
+      "points": [
+        "End-to-end renovation",
+        "Modern Australian designs",
+        "Quality craftsmanship"
+      ]
+    },
+    {
+      "title": "Furniture Making",
+      "desc": "Handcrafted furniture pieces built to last a lifetime.",
+      "longDesc": "From dining tables to bookshelves, our furniture making service in Newport creates unique, handcrafted pieces that reflect your personal style. We work closely with you to design and build furniture that fits perfectly into your home environment.",
+      "points": [
+        "Unique designs",
+        "Durable construction",
+        "Personalised service"
+      ]
+    },
+    {
+      "title": "Timber Decking",
+      "desc": "Outdoor decking solutions for patios, pools, and entertaining areas.",
+      "longDesc": "Enhance your Newport outdoor living with expertly installed timber decking, using weather-resistant materials suited to the local climate. We handle everything from design to installation, creating inviting spaces for relaxation and entertainment.",
+      "points": [
+        "Weather-resistant materials",
+        "Custom designs",
+        "Professional installation"
+      ]
+    },
+    {
+      "title": "Shelving & Storage",
+      "desc": "Functional shelving systems for homes and offices.",
+      "longDesc": "Our shelving solutions in Newport are designed to optimise space and organisation, with custom-built units for closets, libraries, or retail displays. We focus on practicality and aesthetics, ensuring your storage needs are met with style.",
+      "points": [
+        "Space optimisation",
+        "Custom configurations",
+        "Sturdy construction"
+      ]
+    },
+    {
+      "title": "Door Installation & Repair",
+      "desc": "Installation, repair, and replacement of internal and external doors.",
+      "longDesc": "For reliable door services in Newport, we offer installation, repair, and replacement of all types of doors, ensuring smooth operation and security. Our team provides quick and efficient solutions to keep your home safe and accessible.",
+      "points": [
+        "Quick turnaround",
+        "Security focused",
+        "Wide range of options"
+      ]
+    }
+  ],
+  "bannerHeading": "Looking for a Skilled Carpenter in Newport?",
+  "bannerSubheading": "Spinelli Carpentry is here to help with all your timber needs.",
+  "testimonialsHeading": "What Newport Locals Say About Us",
+  "testimonialsSubheading": "Trusted by homeowners across Melbourne's west",
+  "blogHeading": "Carpentry Tips & Insights for Newport",
+  "blogSubheading": "Expert advice from Spinelli Carpentry",
+  "contactHeading": "Get in Touch for a Free Consultation",
+  "contactSubheading": "We're ready to bring your carpentry ideas to life",
+  "reviews": [
+    {
+      "text": "Spinelli Carpentry did an amazing job on our kitchen renovation in Newport. The custom cabinets are stunning and perfectly fit our space. Highly recommend their attention to detail and professional service.",
+      "name": "Sarah Thompson",
+      "role": "Newport Homeowner"
+    },
+    {
+      "text": "We hired Spinelli for custom shelving in our Footscray office, and the result was exceptional. The team was punctual, skilled, and delivered exactly what we needed. A reliable carpentry service.",
+      "name": "Michael Chen",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The timber decking installed by Spinelli Carpentry at our Yarraville property has transformed our outdoor area. Great workmanship and fair pricing. Will definitely use them again.",
+      "name": "Emma Wilson",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Newport",
+    "Spotswood",
+    "Williamstown",
+    "Yarraville",
+    "Altona",
+    "Footscray",
+    "Seddon",
+    "Kingsville"
+  ],
+  "about": {
+    "intro": "Spinelli Carpentry brings 46 years of Italian joinery tradition to Newport, offering expert carpentry services for homes and businesses.",
+    "story": [
+      "Founded in 1980 in Verona, Italy, Falegnameria Spinelli built a reputation for meticulous craftsmanship and custom timber work. In the early 2000s, the family relocated to Australia, bringing their skills to Melbourne's western suburbs and establishing Spinelli Carpentry in Newport.",
+      "Today, we continue this legacy by blending traditional techniques with modern Australian building standards. Our workshop in Newport is equipped to handle projects of all sizes, from bespoke furniture to full-scale renovations, ensuring every client receives personalised service and outstanding quality."
+    ],
+    "mission": "To deliver exceptional carpentry solutions in Newport, combining heritage craftsmanship with contemporary design.",
+    "whyUs": [
+      {
+        "title": "Heritage Craftsmanship",
+        "text": "Decades of Italian joinery expertise applied to every project."
+      },
+      {
+        "title": "Local & Licensed",
+        "text": "Fully licensed and insured, serving Newport and surrounds."
+      },
+      {
+        "title": "Custom Solutions",
+        "text": "Tailored designs to meet your specific needs and style."
+      },
+      {
+        "title": "Quality Materials",
+        "text": "Use of premium timbers and finishes for lasting results."
+      }
+    ],
+    "stats": [
+      {
+        "value": "46+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Fully licensed",
+      "Fully insured",
+      "Free quotes",
+      "Workmanship guarantee"
+    ]
+  },
+  "pricing": {
+    "intro": "At Spinelli Carpentry in Newport, we provide transparent pricing with no hidden costs. Get a free, no-obligation quote for your carpentry project.",
+    "packages": [
+      {
+        "name": "Consultation & Quote",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Detailed proposal",
+          "No commitment required"
+        ]
+      },
+      {
+        "name": "Standard Project",
+        "price": "from $1,500",
+        "unit": "",
+        "highlight": true,
+        "features": [
+          "Custom design",
+          "Professional installation",
+          "Premium materials",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Major Renovation",
+        "price": "from $10,000",
+        "unit": "",
+        "highlight": false,
+        "features": [
+          "Full project management",
+          "Multi-room solutions",
+          "High-end finishes"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly what to expect with no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your carpentry project in Newport? Contact Spinelli Carpentry today for a free consultation and quote. We're here to help bring your ideas to life."
+  },
+  "blogPosts": [
+    {
+      "title": "How Much Does Custom Cabinetry Cost in Newport? A Detailed Guide",
+      "date": "March 2026",
+      "excerpt": "Explore the factors affecting custom cabinetry costs in Newport, including materials, design complexity, and installation fees for your home project.",
+      "body": [
+        "When planning custom cabinetry for your Newport home, the cost can vary widely based on several key factors. In Newport, where space optimisation is crucial, the size and layout of your kitchen or bathroom will significantly impact pricing. For instance, cabinetry for a standard Newport kitchen might start from $5,000, but bespoke designs with high-end finishes can exceed $20,000. We always recommend starting with a free consultation to assess your specific needs and provide a tailored quote.",
+        "Material choice is another critical cost driver. In Newport's climate, durable timbers like Victorian ash or recycled hardwoods are popular for their longevity and aesthetic appeal. Engineered woods such as MDF are more budget-friendly but may not offer the same premium look. At Spinelli Carpentry, we source locally where possible, ensuring quality and supporting Australian suppliers, which can influence final pricing but guarantees sustainability.",
+        "Design complexity directly affects labour costs. Simple, flat-pack styles are cheaper, while custom joinery with intricate details, soft-close mechanisms, or integrated lighting requires more skilled hours. In Newport, many older homes have unique dimensions, so precise measurements and custom solutions are essential, adding to the cost but ensuring a perfect fit. Our team excels in handling such challenges efficiently.",
+        "Installation fees in Newport typically range from $50 to $100 per hour, depending on the carpenter's experience. For a full cabinetry project, installation might take 20-40 hours, contributing significantly to the total cost. We provide fixed quotes that include all labour, so you avoid unexpected expenses. Additionally, consider the cost of removals if replacing existing units, which can add $500-$1,000 to your budget.",
+        "To optimise costs in Newport, consider phased renovations. Start with essential cabinetry and add features later. Using semi-custom options can also reduce expenses while maintaining quality. We advise clients to prioritise durable materials and timeless designs to avoid frequent updates. Local builders in Newport often collaborate with us for seamless integration, potentially lowering overall project costs.",
+        "In summary, custom cabinetry in Newport is an investment that enhances both functionality and property value. By understanding the factors—size, materials, design, and installation—you can make informed decisions. Spinelli Carpentry offers free, no-obligation quotes to help you plan effectively. Contact us today to discuss your project and get a precise estimate tailored to your Newport home."
+      ]
+    },
+    {
+      "title": "Best Timber for Outdoor Decking in Newport's Climate",
+      "date": "February 2026",
+      "excerpt": "Discover the top timber choices for outdoor decking in Newport, considering the local weather conditions and maintenance requirements.",
+      "body": [
+        "Newport's coastal climate in Melbourne's west presents specific challenges for outdoor decking, with fluctuations in humidity, rain, and UV exposure. Choosing the right timber is essential for longevity and minimal maintenance. Spotted gum is a popular choice among Newport residents due to its natural durability and resistance to rot, making it ideal for withstanding the local elements. It's a Class 1 hardwood, perfect for high-traffic areas.",
+        "Another excellent option is blackbutt, which offers a lighter aesthetic and good fire resistance, important in Australian conditions. For budget-conscious projects in Newport, treated pine can be used, but it requires regular staining and may not last as long as hardwoods. At Spinelli Carpentry, we recommend composite materials for low-maintenance decking, which mimic wood look and are highly resistant to Newport's weather.",
+        "Installation techniques in Newport must account for soil movement and drainage. Proper subfloor preparation, including adequate ventilation and spacing between boards, prevents warping and moisture buildup. We use stainless steel fixings to avoid corrosion from the salty air, common in coastal suburbs like Newport. This attention to detail ensures your deck remains safe and attractive for years.",
+        "Maintenance for timber decking in Newport involves regular cleaning and resealing every 2-3 years to protect against UV damage. We provide clients with maintenance guides tailored to their chosen timber, helping to preserve the deck's appearance. For example, oiling spotted gum annually can maintain its rich colour, while composite decks need only soap and water cleaning.",
+        "Cost-wise, timber decking in Newport ranges from $200 to $400 per square meter, including materials and installation. Hardwoods like spotted gum are at the higher end but offer better value long-term. We offer free site assessments to determine the best option for your space and budget, considering factors like deck size, access, and design complexity.",
+        "In conclusion, selecting the best timber for decking in Newport involves balancing aesthetics, durability, and cost. With our expertise in local conditions, Spinelli Carpentry can guide you to the ideal solution. Contact us for a free quote and let's create an outdoor space that thrives in Newport's climate."
+      ]
+    },
+    {
+      "title": "Kitchen Renovation Trends in Newport for 2026",
+      "date": "January 2026",
+      "excerpt": "Explore the latest kitchen renovation trends popular in Newport homes, from sustainable materials to smart storage solutions.",
+      "body": [
+        "In Newport, kitchen renovations for 2026 are focusing on sustainability and functionality, reflecting broader Australian trends. Homeowners are increasingly opting for eco-friendly materials like recycled timber or bamboo, which reduce environmental impact while adding warmth to the space. At Spinelli Carpentry, we've seen a rise in requests for locally sourced Victorian ash, prized for its sustainability and durability in Newport's homes.",
+        "Smart storage solutions are key in Newport's compact living spaces. Custom cabinetry with pull-out shelves, hidden compartments, and vertical storage maximises every inch. For example, integrating corner carousels or under-sink organisers can transform a cluttered kitchen into an efficient workspace. Our designs often incorporate these elements to suit Newport's older home layouts.",
+        "Open shelving is gaining popularity in Newport kitchens, creating a more airy and accessible feel. This trend allows for display of personalised items and easy access to daily essentials. We craft floating shelves from solid timbers, ensuring they are both sturdy and stylish, complementing the overall kitchen design.",
+        "Color palettes in Newport are shifting towards earthy tones and matte finishes, moving away from high-gloss whites. Shades like sage green or warm neutrals are trending, providing a calming backdrop. We match these with durable benchtops like quartz or timber, which withstand Newport's busy household environments.",
+        "Technology integration is another trend, with smart appliances and lighting becoming standard. In Newport, where energy efficiency is valued, LED lighting and induction cooktops are popular. We work with clients to plan wiring and placement during renovations, ensuring seamless tech incorporation without compromising aesthetics.",
+        "Budget planning for a kitchen renovation in Newport typically starts from $15,000 for a minor refresh to $50,000 or more for a complete overhaul. We advise setting aside 10-20% for contingencies, common in older homes where hidden issues may arise. Our detailed quotes include all aspects, from demolition to final touches, providing clarity for Newport homeowners.",
+        "In summary, 2026 kitchen trends in Newport emphasize sustainability, smart storage, and personalisation. Spinelli Carpentry is at the forefront of these innovations, offering custom solutions that align with local preferences. Contact us to discuss your kitchen renovation and stay ahead of the trends."
+      ]
+    },
+    {
+      "title": "Maintaining Timber Furniture in Newport's Humid Summers",
+      "date": "December 2025",
+      "excerpt": "Learn how to care for timber furniture in Newport during humid summers to prevent damage and extend its lifespan.",
+      "body": [
+        "Newport's humid summers can pose challenges for timber furniture, leading to swelling, warping, or cracking if not properly maintained. To protect your pieces, start by controlling indoor humidity levels. Using dehumidifiers or air conditioning to maintain 40-60% relative humidity is ideal. At Spinelli Carpentry, we advise placing moisture barriers under furniture legs to prevent direct contact with potentially damp floors.",
+        "Regular cleaning is essential. Dust furniture weekly with a soft cloth to prevent buildup that can trap moisture. For deeper cleaning, use a damp cloth followed by immediate drying, avoiding harsh chemicals that can strip finishes. In Newport, where sea breezes carry salt, wiping down furniture regularly helps prevent corrosion and maintains the timber's lustre.",
+        "Finishing and sealing are crucial for protection. Apply a fresh coat of wax or oil every 6-12 months, depending on use. For outdoor furniture, use marine-grade sealants to withstand Newport's coastal elements. We recommend testing products on a small area first to ensure compatibility with your furniture's existing finish.",
+        "Placement matters in Newport homes. Avoid placing timber furniture near windows or doors where direct sunlight or drafts can cause rapid temperature changes. Use curtains or blinds to filter light and maintain stable conditions. For outdoor furniture, ensure it's covered or stored during extreme weather, common in Newport's variable climate.",
+        "Repair tips for minor damage include using wood fillers for scratches and applying matching stains. For significant issues like warping, professional assessment is recommended. Spinelli Carpentry offers repair services in Newport, restoring furniture to its original condition with expert craftsmanship.",
+        "Investing in quality furniture from the start reduces maintenance needs. At Spinelli Carpentry, we use timbers treated for durability and provide care instructions with every piece. For Newport clients, we offer annual maintenance checks to ensure your furniture remains in top condition through the seasons.",
+        "In conclusion, maintaining timber furniture in Newport's humid summers involves proactive care, from humidity control to regular cleaning and finishing. By following these tips, you can preserve the beauty and functionality of your furniture for years. Contact Spinelli Carpentry for personalised advice and services in Newport."
+      ]
+    }
+  ],
+  "seo": {
+    "home": {
+      "title": "Spinelli Carpentry | Carpenter in Newport | Custom Timber Work",
+      "description": "Spinelli Carpentry offers expert carpentry services in Newport, including custom cabinetry, kitchen renovations, and furniture making. Free quotes available."
+    },
+    "about": {
+      "title": "About Spinelli Carpentry | Newport's Heritage Carpentry Team",
+      "description": "Learn about Spinelli Carpentry's 46-year legacy of Italian craftsmanship now serving Newport and Melbourne's west with quality timber solutions."
+    },
+    "services": {
+      "title": "Carpentry Services in Newport | Kitchens, Cabinetry & More",
+      "description": "Explore our range of carpentry services in Newport, from custom cabinetry to timber decking. Tailored solutions for your home or business."
+    },
+    "pricing": {
+      "title": "Carpentry Costs in Newport | Transparent Pricing | Spinelli",
+      "description": "Find out about carpentry pricing in Newport with Spinelli Carpentry. Get free, no-obligation quotes for all projects, large or small."
+    },
+    "contact": {
+      "title": "Contact Spinelli Carpentry | Free Newport Carpenter Quotes",
+      "description": "Get in touch with Spinelli Carpentry in Newport for a free consultation and quote on your carpentry project. We respond within 24 hours."
+    },
+    "blog": {
+      "title": "Newport Carpentry Blog | Tips, Trends & Cost Guides",
+      "description": "Read the latest carpentry advice from Spinelli Carpentry, with guides on costs, materials, and trends specific to Newport homes."
+    }
+  }
+}
