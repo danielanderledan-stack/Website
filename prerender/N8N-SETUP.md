@@ -6,29 +6,34 @@ SEO and theming baked in, interactivity via one standard `site.js`.
 
 ---
 
-## 1. One-time: prepare the n8n instance (Railway)
+## 1. One-time: prepare the n8n instance (Railway) — DONE 2026-06-10
 
-The Code node runs the real React bundle inside **jsdom**, so jsdom must be
-installed in the n8n container and whitelisted.
+The Code node runs the real React bundle inside **jsdom**, and loads the
+fuser as the **cd-fuser** module (the Code node sandbox blocks eval, so the
+fuser must be a real installed module, not a downloaded string).
 
 **Railway environment variables** (n8n service → Variables):
 
 ```
-NODE_FUNCTION_ALLOW_EXTERNAL=jsdom
+NODE_FUNCTION_ALLOW_EXTERNAL=jsdom,cd-fuser
 ```
 
-**Install jsdom in the container.** If your Railway n8n deploys from a
-Dockerfile, change/create it like this and redeploy:
+**The n8n service deploys from `danielanderledan-stack/n8n-railway-updated`**,
+whose Dockerfile installs both:
 
 ```dockerfile
 FROM n8nio/n8n:latest
 USER root
-RUN cd /usr/local/lib/node_modules/n8n && npm install jsdom@26
-USER node
+# global install: the n8n package dir uses pnpm catalog: refs npm can't touch
+RUN npm install -g jsdom@26 --omit=dev --no-audit --no-fund
+# the fuser (prerender/fuse.cjs) baked in as a requireable module
+ADD https://raw.githubusercontent.com/danielanderledan-stack/Website/claude/elegant-maxwell-THblU/prerender/fuse.cjs /usr/local/lib/node_modules/cd-fuser/index.js
+RUN printf '{"name":"cd-fuser","version":"1.0.0","main":"index.js"}' > /usr/local/lib/node_modules/cd-fuser/package.json && chmod -R a+r /usr/local/lib/node_modules/cd-fuser
 ```
 
-(If you deploy the stock image without a Dockerfile, switch the service to
-"Deploy from Dockerfile" with the 4 lines above. Nothing else changes.)
+**To ship a fuser update:** push the new `prerender/fuse.cjs` to the Website
+repo's default branch, then redeploy the n8n service on Railway (the ADD
+fetches the latest copy at build time).
 
 ## 2. One-time: template files in GitHub
 

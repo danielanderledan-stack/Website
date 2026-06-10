@@ -111,39 +111,12 @@
     {
       "parameters": {
         "mode": "runOnceForAllItems",
-        "jsCode": "// GitHub file:get (asBinaryProperty=false) returns base64 in json.content\nconst file = (name) => Buffer.from($(name).first().json.content, 'base64').toString('utf8');\n\n// fuse.cjs is downloaded by the 'Get Fuser' node and loaded dynamically —\n// pushing a new prerender/fuse.cjs to GitHub updates every future build.\nconst mod = { exports: {} };\nnew Function('module', 'exports', 'require', file('Get Fuser'))(mod, mod.exports, require);\nconst { fuseSite } = mod.exports;\n\n// Customer config: tolerate the object itself or a stringified copy under\n// a data/json/config field (Set-node variations).\nlet config = $('Customer Config').first().json;\nif (typeof config === 'string') config = JSON.parse(config);\nfor (const k of ['data', 'json', 'config']) {\n  if (config && typeof config[k] === 'string') { try { config = JSON.parse(config[k]); break; } catch (e) {} }\n  else if (config && config[k] && typeof config[k] === 'object' && !config.businessName && !config.siteType) { config = config[k]; break; }\n}\n\nconst result = await fuseSite({\n  config,\n  bundleJs: file('Get Bundle'),\n  cssText: file('Get CSS'),\n  siteJs: file('Get SiteJS'),\n  domain: config.domain,\n});\n\nreturn [\n  ...result.files.map((f) => ({ json: { type: 'file', path: f.path, content: f.content } })),\n  ...result.copies.map((c) => ({ json: { type: 'image', from: c.from, to: c.to } })),\n  { json: { type: 'meta', slug: result.slug, domain: result.domain, warnings: result.warnings, routes: result.routes } },\n];"
+        "jsCode": "// GitHub file:get (asBinaryProperty=false) returns base64 in json.content\nconst file = (name) => Buffer.from($(name).first().json.content, 'base64').toString('utf8');\n\n// The fuser is baked into the n8n image as the cd-fuser module (see the\n// service Dockerfile). To pick up a newer prerender/fuse.cjs from GitHub,\n// redeploy the n8n service on Railway.\nconst { fuseSite } = require('cd-fuser');\n\n// Customer config: tolerate the object itself or a stringified copy under\n// a data/json/config field (Set-node variations).\nlet config = $('Customer Config').first().json;\nif (typeof config === 'string') config = JSON.parse(config);\nfor (const k of ['data', 'json', 'config']) {\n  if (config && typeof config[k] === 'string') { try { config = JSON.parse(config[k]); break; } catch (e) {} }\n  else if (config && config[k] && typeof config[k] === 'object' && !config.businessName && !config.siteType) { config = config[k]; break; }\n}\n\nconst result = await fuseSite({\n  config,\n  bundleJs: file('Get Bundle'),\n  cssText: file('Get CSS'),\n  siteJs: file('Get SiteJS'),\n  domain: config.domain,\n});\n\nreturn [\n  ...result.files.map((f) => ({ json: { type: 'file', path: f.path, content: f.content } })),\n  ...result.copies.map((c) => ({ json: { type: 'image', from: c.from, to: c.to } })),\n  { json: { type: 'meta', slug: result.slug, domain: result.domain, warnings: result.warnings, routes: result.routes } },\n];"
       },
       "id": "a1b2c3d4-0006-4000-8000-000000000006",
       "name": "Fuse Static Site",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [
-        1540,
-        300
-      ]
-    },
-    {
-      "parameters": {
-        "resource": "file",
-        "operation": "get",
-        "owner": {
-          "__rl": true,
-          "value": "danielanderledan-stack",
-          "mode": "name"
-        },
-        "repository": {
-          "__rl": true,
-          "value": "Website",
-          "mode": "name"
-        },
-        "filePath": "prerender/fuse.cjs",
-        "asBinaryProperty": false,
-        "additionalParameters": {}
-      },
-      "id": "a1b2c3d4-0007-4000-8000-000000000007",
-      "name": "Get Fuser",
-      "type": "n8n-nodes-base.github",
-      "typeVersion": 1.1,
       "position": [
         1320,
         300
@@ -196,17 +169,6 @@
       ]
     },
     "Get SiteJS": {
-      "main": [
-        [
-          {
-            "node": "Get Fuser",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Get Fuser": {
       "main": [
         [
           {

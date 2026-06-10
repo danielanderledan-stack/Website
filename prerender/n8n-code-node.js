@@ -30,11 +30,13 @@ const TEMPLATE_REPO_RAW = 'https://raw.githubusercontent.com/danielanderledan-st
    $('Get Bundle').first().json.data */
 const file = (name) => Buffer.from($(name).first().json.content, 'base64').toString('utf8');
 
-/* fuse.cjs is downloaded by the 'Get Fuser' GitHub node and loaded here —
-   no pasting; pushing a new fuse.cjs to GitHub updates every future build. */
-const mod = { exports: {} };
-new Function('module', 'exports', 'require', file('Get Fuser'))(mod, mod.exports, require);
-const { fuseSite } = mod.exports;
+/* The fuser is baked into the n8n image as the cd-fuser module (see the
+   service's Dockerfile: danielanderledan-stack/n8n-railway-updated). The
+   Code node sandbox blocks eval/new Function, so it cannot be loaded from a
+   downloaded string. To pick up a newer prerender/fuse.cjs from GitHub,
+   redeploy the n8n service on Railway. Requires env var:
+   NODE_FUNCTION_ALLOW_EXTERNAL=jsdom,cd-fuser */
+const { fuseSite } = require('cd-fuser');
 
 /* Customer config: tolerate the common shapes — the object itself, or a
    stringified copy under a data/json/config field (Set-node variations). */
