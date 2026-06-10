@@ -23,15 +23,28 @@
      { type:'meta',  slug, domain, warnings, routes }
    ========================================================================= */
 
-/* >>> PASTE prerender/fuse.cjs HERE (without its module.exports line) <<< */
-
 const TEMPLATE_REPO_RAW = 'https://raw.githubusercontent.com/danielanderledan-stack/Website/claude/elegant-maxwell-THblU/';
 
-const config = $('Customer Config').first().json;
 /* GitHub file:get nodes (asBinaryProperty=false) return base64 in json.content.
    If you use HTTP Request nodes (Response Format: Text) instead, swap to:
    $('Get Bundle').first().json.data */
 const file = (name) => Buffer.from($(name).first().json.content, 'base64').toString('utf8');
+
+/* fuse.cjs is downloaded by the 'Get Fuser' GitHub node and loaded here —
+   no pasting; pushing a new fuse.cjs to GitHub updates every future build. */
+const mod = { exports: {} };
+new Function('module', 'exports', 'require', file('Get Fuser'))(mod, mod.exports, require);
+const { fuseSite } = mod.exports;
+
+/* Customer config: tolerate the common shapes — the object itself, or a
+   stringified copy under a data/json/config field (Set-node variations). */
+let config = $('Customer Config').first().json;
+if (typeof config === 'string') config = JSON.parse(config);
+for (const k of ['data', 'json', 'config']) {
+  if (config && typeof config[k] === 'string') { try { config = JSON.parse(config[k]); break; } catch (e) {} }
+  else if (config && config[k] && typeof config[k] === 'object' && !config.businessName && !config.siteType) { config = config[k]; break; }
+}
+
 const bundleJs = file('Get Bundle');
 const cssText = file('Get CSS');
 const siteJs = file('Get SiteJS');
