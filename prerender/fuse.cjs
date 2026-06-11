@@ -798,10 +798,24 @@ async function fuseSite(input) {
     content: "User-agent: *\nAllow: /\n\nSitemap: " + domain + "/sitemap.xml\n",
   });
   files.push({ path: "sitemap.xml", content: buildSitemap(domain, routes) });
+  /* ignoreCommand: analytics-mirror commits (analytics/events.ndjson, written
+     by the collector after every visitor session) must not trigger a Vercel
+     rebuild of the site — dashboards read the mirror via the collector's GET
+     endpoint, not the deployed copy. Exits 0 (skip build) when only analytics/
+     changed; errors on the first commit (no HEAD^), which Vercel treats as
+     "build". */
   files.push({
     path: "vercel.json",
     content:
-      JSON.stringify({ cleanUrls: true, trailingSlash: true }, null, 2) + "\n",
+      JSON.stringify(
+        {
+          cleanUrls: true,
+          trailingSlash: true,
+          ignoreCommand: "git diff --quiet HEAD^ HEAD -- ':!analytics'",
+        },
+        null,
+        2,
+      ) + "\n",
   });
   files.push({ path: "EDITING.md", content: buildEditingGuide(slug) });
 
