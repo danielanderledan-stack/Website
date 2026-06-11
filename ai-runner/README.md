@@ -24,7 +24,7 @@ Request body:
 | field | type | meaning |
 |---|---|---|
 | `prompt` | string (required) | The task for the agent. |
-| `repo` | string | GitHub repo to clone first — `owner/name` or full https URL. Cloned (depth 1) to `<workspace>/repo`, which becomes the cwd. Private repos need `GH_TOKEN` set on the service. |
+| `repo` | string | GitHub repo to clone first — `owner/name` or full https URL. Cloned (depth 1) to `<workspace>/repo`, which becomes the cwd. Private repos need `GH_TOKEN` set on the service. The workspace is deleted after the job: the agent is instructed to `git commit && git push` when the task changes the repo (the clone remote is pre-authenticated), and to report the commit hash. |
 | `branch` | string | Branch/tag to clone (default: repo default branch). |
 | `cwd` | string | Subdirectory (relative to the clone / workspace) to run in. |
 | `allowedTools` | string[] | Subset of `bash`, `read_file`, `write_file`, `list_dir`. Empty/omitted = all. |

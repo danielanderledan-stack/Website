@@ -185,6 +185,9 @@ async function runJob(job, log) {
       'You are an automated agent running in a scratch Linux workspace.',
       `Working directory: ${cwd}.`,
       tools.length ? 'Use the provided tools to inspect files and run commands as needed.' : 'No tools are available; answer directly.',
+      job.repo
+        ? `The working directory is a clone of ${job.repo}${job.branch ? ' (branch ' + job.branch + ')' : ''} with a pre-authenticated remote. IMPORTANT: this workspace is destroyed when the job ends — if the task asks you to change, fix, rename or update anything in the repo, you MUST persist the changes by running: git add -A && git commit -m "<describe the change>" && git push. Verify the push succeeded (no error output) and mention the commit hash in your final answer. If you did not push, say so explicitly instead of claiming the change was made.`
+        : 'The workspace is temporary and discarded when the job ends.',
       'When you are done, reply with your final answer as plain text. If the task asks for structured output, include it as a ```json fenced block.',
       'Be direct and concise.',
     ].join(' ');
