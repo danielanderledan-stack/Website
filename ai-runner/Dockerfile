@@ -8,8 +8,8 @@ RUN apt-get update \
  && apt-get update \
  && apt-get install -y --no-install-recommends gh \
  && rm -rf /var/lib/apt/lists/* \
- && git config --global user.name "ai-runner" \
- && git config --global user.email "ai-runner@railway.internal"
+ && git config --global user.name "danielanderledan-stack" \
+ && git config --global user.email "daniel.anderle.dan@gmail.com"
 
 WORKDIR /app
 COPY package.json ./
