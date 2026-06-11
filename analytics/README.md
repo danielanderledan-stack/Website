@@ -39,6 +39,36 @@ visitor's browser                    Vercel (completedigital.org)        GitHub
   meta the snippet falls back to `location.hostname`). Existing sites are NOT
   retrofitted; to add one by hand, see the header comment in `snippet.js`.
 
+## Per-site mirrors (customer dashboards)
+
+Besides the master file above, the collector writes a **second copy of each
+event into the customer site's own repo** at the same path,
+`analytics/events.ndjson` (default branch). So a per-customer dashboard never
+touches the master file — it reads only that site's mirror:
+
+```
+GET https://www.completedigital.org/api/track?site=<site-id>
+```
+
+→ the site's NDJSON, `Content-Type: application/x-ndjson`, CORS `*`, no auth,
+`Cache-Control: no-store`. `<site-id>` is whatever that site's events carry in
+their `site` field (repo slug from `<meta name="cd-site">`, else the vercel
+hostname, e.g. `premo-caulking-yw8s.vercel.app`). Unknown site → 404.
+
+How the site → repo mapping works: a slug is used as the repo name directly;
+a `*.vercel.app` hostname is tried as-is and then with its random 4-char
+deploy suffix stripped (`premo-caulking-yw8s` → `premo-caulking` →
+case-insensitive match on repo `Premo-Caulking`). Sites on **custom domains
+without a cd-site meta can't be mapped** — their events land only in the
+master file.
+
+Mirror writes are best-effort: the master file is written first and a mirror
+failure never drops a beacon. Customer-repo `vercel.json` carries
+`ignoreCommand` so mirror commits don't trigger pointless Vercel rebuilds —
+which also means the copy served at the customer's own
+`/analytics/events.ndjson` is **stale until the next real deploy**; dashboards
+should use the GET endpoint above, not the same-origin file.
+
 ## Event schema
 
 Common fields (every line):
