@@ -282,15 +282,62 @@ return pages.map((p) => ({ json: { path: p, site: g.site } }));
 `.trim();
 
 const CODE_APPLY_COLOURS = `
-// Swaps the four theme variables in each page's <html> style attribute.
+// Full re-theme. The pages contain the theme in TWO forms: the four CSS
+// variables on <html>, and literal colour values React baked into inline
+// styles at generation time (hex, rgb(), and bare r,g,b triples inside
+// rgba()). We read each page's CURRENT colours from its own variables, then
+// token-replace every literal form before swapping the variables themselves
+// (tokens prevent chained replacements when old/new palettes overlap).
 const g = $('Colour Guard').first().json;
+
+const hexToRgbStr = (hex) => {
+  const c = (i) => parseInt(hex.slice(1 + i * 2, 3 + i * 2), 16);
+  return c(0) + ', ' + c(1) + ', ' + c(2);
+};
+const escRe = (s) => s.replace(/[.*+?^\\\${}()|[\\]\\\\]/g, '\\\\$&');
+
 return $input.all().map((it) => {
   let html = Buffer.from(it.json.content, 'base64').toString('utf8');
+
+  // current palette, read from the page itself
+  const cur = (name) => {
+    const m = html.match(new RegExp('--color-' + name + ':\\\\s*([^;"]+)'));
+    return m ? m[1].trim() : null;
+  };
+  const oldPrimary = cur('primary');
+  const oldHover = cur('primary-hover');
+  const oldSecondary = cur('secondary');
+
+  // [oldValue, token, newValue] — hex (any case), rgb(...) and bare triples
+  const subs = [];
+  const addColour = (oldHex, token, newHex) => {
+    if (!oldHex || !/^#[0-9a-fA-F]{6}$/.test(oldHex)) return;
+    const oldTriple = hexToRgbStr(oldHex);
+    subs.push([oldHex, token + 'X', newHex]);
+    subs.push(['rgb(' + oldTriple + ')', token + 'R', newHex]);
+    subs.push([oldTriple, token + 'T', hexToRgbStr(newHex)]);
+    subs.push([oldTriple.replace(/ /g, ''), token + 'N', hexToRgbStr(newHex)]);
+  };
+  addColour(oldPrimary, '@@P', g.primary);
+  addColour(oldHover, '@@H', g.hover);
+  addColour(oldSecondary, '@@S', g.secondary);
+
+  // pass 1: old values -> unique tokens (case-insensitive for hex)
+  for (const [oldV, token] of subs) {
+    html = html.replace(new RegExp(escRe(oldV), 'gi'), token);
+  }
+  // pass 2: tokens -> new values
+  for (const [, token, newV] of subs) {
+    html = html.split(token).join(newV);
+  }
+
+  // canonical variables last (covers pages where extraction failed)
   html = html
     .replace(/--color-primary:\\s*[^;"]+/, '--color-primary: ' + g.primary)
     .replace(/--color-primary-rgb:\\s*[^;"]+/, '--color-primary-rgb: ' + g.rgb)
     .replace(/--color-primary-hover:\\s*[^;"]+/, '--color-primary-hover: ' + g.hover)
     .replace(/--color-secondary:\\s*[^;"]+/, '--color-secondary: ' + g.secondary);
+
   return { json: { path: it.json.path, content: html, site: g.site } };
 });
 `.trim();
