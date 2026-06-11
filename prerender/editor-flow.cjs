@@ -96,6 +96,8 @@ const prompt = [
   '2. If edits are needed, pick the file(s) to change — usually ONE page, never more than 4. Page URLs map to files: / -> index.html, /about/ -> about/index.html, etc. Styling/theme changes go in the <html> style attribute of each page (CSS variables) or assets/site.css.',
   '3. Write a concrete implementation plan: which sections (pages contain <!-- SECTION: name --> markers), what text/markup changes, which images to use. Mention constraints the implementer must keep: data-cd attributes, CSS variables for colors, hero captions exist both in <h1 data-cd="hero-title"> and the matching slide data-title, page <head> (title/description/og/JSON-LD) must stay consistent with visible changes.',
   '4. Keep the reply to the customer short, friendly, plain-language (no tech jargon, no file paths). Australian small-business tone.',
+  '5. If anything is unclear, ask the question in reply and files_to_edit MUST be [] — never edit while also asking for clarification.',
+  '6. IMAGE REQUESTS: if the section IMAGES THE CUSTOMER JUST UPLOADED appears above, the customer DID attach image(s) THIS turn — never say nothing was attached; plan with those exact paths. The site can only show images that exist. Use the customer-uploaded image paths listed above, or images already on the site. If they ask to add/change an image but uploaded nothing this turn, reply asking them to attach it with the camera button, files_to_edit []. "Header image" / "main image" means the home page hero slide image unless they say otherwise.',
   '',
   'Output ONLY a JSON object, no markdown fences:',
   '{"reply": "<what you tell the customer>", "files_to_edit": ["index.html"], "plan": "<detailed notes for the implementer>"}',
@@ -175,7 +177,8 @@ const prompt = [
   '- Colors that should follow the site theme must use var(--color-primary) etc., never hard-coded copies of theme colors.',
   '- Hero heading changes: update BOTH the <h1 data-cd="hero-title"> text AND the matching data-title attribute on the first [data-cd="slide"].',
   '- If visible business info changes (name, suburb, services), also update the page <title>, meta description and og: tags in the same page.',
-  '- Use uploaded image paths verbatim; give every <img> a meaningful alt text. Use loading="lazy" except above-the-fold.',
+  '- NEVER invent or alter image filenames/paths. An <img src> or background-image value may ONLY be: (a) one of the UPLOADED IMAGE PATHS above copied character-for-character, (b) a path that already appears in the provided files, or (c) an https URL the customer explicitly gave. Anything else 404s and the live site swaps in a random placeholder photo. If the plan involves a new image and uploaded paths exist, use the uploaded path.',
+  '- Give every <img> meaningful alt text. Use loading="lazy" except above-the-fold.',
   '- Keep HTML valid; keep the existing inline-style coding style of the file.',
 ].join('\\n');
 
@@ -591,9 +594,20 @@ const connections = [
 /* ------------------------------------------------------------------ */
 
 const updateOnly = process.argv[2] === "update";
+
+/* These nodes are OWNED by builder-auth-flow.cjs (auth/billing versions).
+   Updating them from here would revert billing — never touch them in
+   update mode. After any full re-create, run builder-auth-flow.cjs too. */
+const OWNED_ELSEWHERE = new Set([
+  "Validate Edit Request",
+  "Build Edit Reply",
+  "Has Images",
+]);
+
 const ops = [];
 for (const n of nodes) {
   if (updateOnly) {
+    if (OWNED_ELSEWHERE.has(n.name)) continue;
     ops.push({
       type: "updateNodeParameters",
       nodeName: n.name,

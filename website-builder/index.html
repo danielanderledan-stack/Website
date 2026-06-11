@@ -259,7 +259,10 @@
       #attach {
         background: #eef4f9;
         color: #41637d;
-        font-size: 19px;
+      }
+      #attach svg {
+        width: 19px;
+        height: 19px;
       }
       #send {
         background: var(--navy);
@@ -439,7 +442,19 @@
       <div id="previews"></div>
       <div class="bar">
         <button class="iconbtn" id="attach" title="Attach an image">
-          &#128247;
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+            />
+            <circle cx="12" cy="13" r="4" />
+          </svg>
         </button>
         <input
           type="file"
