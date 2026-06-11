@@ -98,6 +98,65 @@ const CODE_CREDIT_REPLY = `
 return [{ json: { ok: true, balance: $('Apply Credit').first().json.balance } }];
 `.trim();
 
+/* ---------------- image gallery + swap (free) ---------------- */
+
+const CODE_IMG_GUARD = `
+// Session check for the image gallery.
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+if (!row.site) throw new Error('No website linked to this account');
+return [{ json: { site: row.site } }];
+`.trim();
+
+const CODE_DIR_ITEMS = `
+// One item per image subfolder (e.g. assets/images/hvac). Always emits at
+// least one item so the chain never dies on flat/empty layouts.
+const dirs = $input.all().map((i) => i.json).filter((e) => e && e.type === 'dir');
+if (!dirs.length) return [{ json: { path: 'assets/images' } }];
+return dirs.map((d) => ({ json: { path: d.path } }));
+`.trim();
+
+const CODE_BUILD_IMAGE_LIST = `
+// Collects every image found in assets/, deduped, with tokenized preview
+// URLs (the repos are private; download_url carries a temporary token).
+const seen = new Map();
+const grab = (node) => {
+  try {
+    $(node).all().forEach((i) => {
+      const e = i.json || {};
+      if (e.type === 'file' && /\\.(jpe?g|png|webp|gif|svg)$/i.test(e.path || '')) {
+        seen.set(e.path, { path: e.path, url: e.download_url || '' });
+      }
+    });
+  } catch (err) {}
+};
+grab('List Img Root'); grab('List Img Sub'); grab('List Uploads');
+return [{ json: { ok: true, images: [...seen.values()] } }];
+`.trim();
+
+const CODE_SWAP_GUARD = `
+// Validates a swap request and prepares the binary for the commit.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const path = String(body.path || '');
+if (path.includes('..') || !/^assets\\/(images|uploads)\\/[A-Za-z0-9._-]+(\\/[A-Za-z0-9._-]+)*\\.(jpe?g|png|webp|gif|svg)$/i.test(path)) {
+  throw new Error('Invalid image path');
+}
+const b64 = String(body.b64 || '');
+if (!b64 || b64.length > 6 * 1024 * 1024) throw new Error('Image missing or too large (max ~4MB)');
+const name = path.split('/').pop();
+const ext = (name.split('.').pop() || 'jpg').toLowerCase();
+const mime = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', webp: 'image/webp', gif: 'image/gif', svg: 'image/svg+xml' }[ext] || 'image/jpeg';
+return [{ json: { site: row.site, path }, binary: { data: { data: b64, mimeType: mime, fileName: name } } }];
+`.trim();
+
+const CODE_SWAP_REPLY = `
+return [{ json: { ok: true, path: $('Swap Guard').first().json.path } }];
+`.trim();
+
 /* ---------------- editor chain: validate / route / bill ---------------- */
 
 const CODE_VALIDATE_V3 = `
@@ -362,6 +421,8 @@ const accountNodes = [
           switchRule("login", "login"),
           switchRule("session", "session"),
           switchRule("credit", "credit"),
+          switchRule("images", "images"),
+          switchRule("swap", "swap"),
         ],
       },
       options: {},
@@ -471,6 +532,152 @@ const accountNodes = [
     position: [2220, Y + 160],
     settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_CREDIT_REPLY },
+  },
+  /* image gallery + swap */
+  {
+    name: "Find Session Images",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 320],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Img Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1560, Y + 320],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_IMG_GUARD },
+  },
+  {
+    name: "List Img Root",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1700, Y + 320],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "list",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Img Guard').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "assets/images",
+    },
+  },
+  {
+    name: "Dir Items",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1840, Y + 320],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_DIR_ITEMS },
+  },
+  {
+    name: "List Img Sub",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1980, Y + 320],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "list",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Img Guard').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "={{ $json.path }}",
+    },
+  },
+  {
+    name: "List Uploads",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2120, Y + 320],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: {
+      alwaysOutputData: true,
+      onError: "continueRegularOutput",
+      executeOnce: true,
+    },
+    parameters: {
+      resource: "file",
+      operation: "list",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Img Guard').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "assets/uploads",
+    },
+  },
+  {
+    name: "Build Image List",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2260, Y + 320],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_BUILD_IMAGE_LIST },
+  },
+  {
+    name: "Find Session Swap",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 480],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Swap Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1620, Y + 480],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SWAP_GUARD },
+  },
+  {
+    name: "Commit Swap",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1820, Y + 480],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      binaryData: true,
+      binaryPropertyName: "data",
+      commitMessage: "={{ 'image swap: ' + $json.path }}",
+    },
+  },
+  {
+    name: "Swap Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2020, Y + 480],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SWAP_REPLY },
   },
   {
     name: "Respond Builder",
@@ -721,6 +928,20 @@ const accountConnections = [
   ["Apply Credit", "Save Credit"],
   ["Save Credit", "Credit Reply"],
   ["Credit Reply", "Respond Builder"],
+  /* image gallery + swap */
+  { source: "Route Action", target: "Find Session Images", sourceIndex: 3 },
+  { source: "Route Action", target: "Find Session Swap", sourceIndex: 4 },
+  ["Find Session Images", "Img Guard"],
+  ["Img Guard", "List Img Root"],
+  ["List Img Root", "Dir Items"],
+  ["Dir Items", "List Img Sub"],
+  ["List Img Sub", "List Uploads"],
+  ["List Uploads", "Build Image List"],
+  ["Build Image List", "Respond Builder"],
+  ["Find Session Swap", "Swap Guard"],
+  ["Swap Guard", "Commit Swap"],
+  ["Commit Swap", "Swap Reply"],
+  ["Swap Reply", "Respond Builder"],
 ];
 
 const editorConnections = [

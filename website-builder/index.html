@@ -594,6 +594,68 @@
         color: #fff;
         border-color: var(--navy);
       }
+
+      /* photo gallery */
+      .gallery-modal {
+        max-width: 760px;
+      }
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 12px;
+        margin-top: 14px;
+        max-height: 56dvh;
+        overflow-y: auto;
+        padding-right: 4px;
+      }
+      .gcard {
+        border: 1px solid #e2eaf2;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #fbfdff;
+      }
+      .gcard img {
+        width: 100%;
+        height: 96px;
+        object-fit: cover;
+        display: block;
+        background: #eef2f6;
+      }
+      .gcard .gname {
+        font-size: 10.5px;
+        color: #6c8398;
+        padding: 6px 8px 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .gcard button {
+        width: calc(100% - 16px);
+        margin: 6px 8px 8px;
+        background: var(--navy);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 7px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .gcard button:disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+      .gcard.swapped {
+        outline: 2px solid var(--cyan);
+      }
+      .gallery-loading {
+        font-size: 13px;
+        color: #6c8398;
+        grid-column: 1 / -1;
+        padding: 20px 0;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -614,6 +676,15 @@
       <aside id="sidebar">
         <button id="sidebarClose" aria-label="Close">&times;</button>
         <h3>Quick tasks</h3>
+
+        <div class="tile">
+          <h4>Swap photos</h4>
+          <p>
+            See every photo on your website and replace any of them with your
+            own — free, no credit needed.
+          </p>
+          <button id="openGallery">Open photo gallery</button>
+        </div>
 
         <div class="tile">
           <h4>Quote-only website</h4>
@@ -799,6 +870,27 @@
         />
         <p class="err" id="topupErr"></p>
         <button class="primary" id="topupGo">Continue to secure payment</button>
+      </div>
+    </div>
+
+    <!-- photo gallery modal -->
+    <div class="overlay" id="galleryOverlay" hidden>
+      <div class="modal gallery-modal">
+        <button class="close" id="galleryClose">&times;</button>
+        <h2>Your website photos</h2>
+        <p class="sub">
+          Pick any photo and swap it for your own. The new photo appears
+          everywhere the old one was used — free of charge.
+        </p>
+        <div id="galleryGrid" class="gallery-grid">
+          <p class="gallery-loading">Loading your photos…</p>
+        </div>
+        <input
+          type="file"
+          id="swapFile"
+          accept="image/png,image/jpeg,image/webp,image/gif"
+          hidden
+        />
       </div>
     </div>
 
@@ -1088,6 +1180,112 @@
               });
           }, 4000);
         }
+
+        /* ---------- photo gallery (free swaps) ---------- */
+        var swapTarget = null;
+        function openGallery() {
+          closeSidebar();
+          $("galleryOverlay").hidden = false;
+          loadGallery();
+        }
+        function loadGallery() {
+          var grid = $("galleryGrid");
+          grid.innerHTML =
+            '<p class="gallery-loading">Loading your photos…</p>';
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ action: "images", token: state.token }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok || !d.images) throw new Error("Could not load photos.");
+              grid.innerHTML = "";
+              if (!d.images.length) {
+                grid.innerHTML =
+                  '<p class="gallery-loading">No swappable photos found on your site yet.</p>';
+                return;
+              }
+              d.images.forEach(function (img) {
+                var card = document.createElement("div");
+                card.className = "gcard";
+                var im = document.createElement("img");
+                im.loading = "lazy";
+                im.src = img.url;
+                var nm = document.createElement("div");
+                nm.className = "gname";
+                nm.textContent = img.path.split("/").pop();
+                nm.title = img.path;
+                var btn = document.createElement("button");
+                btn.textContent = "Swap";
+                btn.onclick = function () {
+                  swapTarget = { path: img.path, card: card, btn: btn };
+                  $("swapFile").click();
+                };
+                card.appendChild(im);
+                card.appendChild(nm);
+                card.appendChild(btn);
+                grid.appendChild(card);
+              });
+            })
+            .catch(function (e) {
+              grid.innerHTML =
+                '<p class="gallery-loading">' +
+                (e.message || "Could not load photos.") +
+                "</p>";
+            });
+        }
+        $("openGallery").onclick = openGallery;
+        $("galleryClose").onclick = function () {
+          $("galleryOverlay").hidden = true;
+        };
+        $("swapFile").onchange = function () {
+          var f = this.files[0];
+          this.value = "";
+          if (!f || !swapTarget) return;
+          if (f.size > 4 * 1024 * 1024) {
+            alert("That image is too large (max 4MB).");
+            return;
+          }
+          var t = swapTarget;
+          swapTarget = null;
+          t.btn.disabled = true;
+          t.btn.textContent = "Swapping…";
+          var r = new FileReader();
+          r.onload = function () {
+            fetch(AUTH, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                action: "swap",
+                token: state.token,
+                path: t.path,
+                b64: r.result.split(",")[1],
+              }),
+            })
+              .then(function (res) {
+                return res.json();
+              })
+              .then(function (d) {
+                if (!d.ok) throw new Error("Swap failed — please try again.");
+                t.card.classList.add("swapped");
+                t.card.querySelector("img").src = r.result; // show the new image immediately
+                t.btn.textContent = "Swapped ✓";
+                addBubble(
+                  "ai",
+                  "Photo swapped! It'll be live on your website within a minute or two. (Photo swaps are free.)",
+                );
+              })
+              .catch(function (e) {
+                t.btn.disabled = false;
+                t.btn.textContent = "Swap";
+                alert(e.message || "Swap failed — please try again.");
+              });
+          };
+          r.readAsDataURL(f);
+        };
 
         /* ---------- top-up modal ---------- */
         var chosenAmt = 10;
