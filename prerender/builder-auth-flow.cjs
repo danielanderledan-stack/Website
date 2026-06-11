@@ -157,6 +157,148 @@ const CODE_SWAP_REPLY = `
 return [{ json: { ok: true, path: $('Swap Guard').first().json.path } }];
 `.trim();
 
+/* ---------------- text editor (free, deterministic) ---------------- */
+
+const PAGE_RE =
+  "^(index|about\\\\/index|services\\\\/index|pricing\\\\/index|blog\\\\/index|contact\\\\/index|blog\\\\/\\\\d+\\\\/index)\\\\.html$";
+
+const CODE_TEXTS_GUARD = `
+// Session + page validation for text extraction.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const page = String(body.page || 'index.html');
+if (!new RegExp('${PAGE_RE}').test(page)) throw new Error('Invalid page');
+return [{ json: { site: row.site, page } }];
+`.trim();
+
+const CODE_EXTRACT_TEXTS = `
+// Pull every pure-text element out of the page. Each block carries its exact
+// outer HTML as a relocation anchor + its occurrence index among identical
+// matches, so edits can be spliced back deterministically.
+const g = $('Texts Guard').first().json;
+const html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+const bodyStart = html.indexOf('<body');
+const bodyHtml = bodyStart === -1 ? html : html.slice(bodyStart);
+
+const re = /<(h[1-6]|p|a|button|span|li)\\b([^>]*)>([^<>]+)<\\/\\1>/g;
+const dec = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+const seen = {};
+const blocks = [];
+let m;
+while ((m = re.exec(bodyHtml)) !== null) {
+  const text = m[3];
+  if (text.trim().length < 2) continue;
+  if (/^[\\s\\d.,$%–—\\-]+$/.test(text)) continue; // pure numbers/punctuation (prices live in bigger context)
+  const full = m[0];
+  seen[full] = (seen[full] || 0) + 1;
+  blocks.push({ tag: m[1], text: dec(text), find: full, occurrence: seen[full] });
+}
+return [{ json: { ok: true, page: g.page, blocks: blocks.slice(0, 200) } }];
+`.trim();
+
+const CODE_SAVE_GUARD = `
+// Session + payload validation for text saves.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const page = String(body.page || '');
+if (!new RegExp('${PAGE_RE}').test(page)) throw new Error('Invalid page');
+const edits = (Array.isArray(body.edits) ? body.edits : []).slice(0, 60);
+if (!edits.length) throw new Error('No edits supplied');
+return [{ json: { site: row.site, page, edits } }];
+`.trim();
+
+const CODE_APPLY_TEXTS = `
+// Splices the edited text back into the page by exact-occurrence replacement.
+// The find anchor is re-validated against the safe element shape, and the new
+// text is entity-encoded — customers can change words, never inject markup.
+const g = $('Save Guard').first().json;
+let html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+const elRe = /^<(h[1-6]|p|a|button|span|li)\\b([^>]*)>([^<>]+)<\\/\\1>$/;
+const enc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+let applied = 0;
+const failures = [];
+for (const e of g.edits) {
+  const find = String(e.find || '');
+  const m = elRe.exec(find);
+  if (!m) { failures.push('invalid block'); continue; }
+  const newInner = enc(String(e.text || '')).slice(0, 2000);
+  if (!newInner.trim()) { failures.push('empty text'); continue; }
+  const replacement = '<' + m[1] + m[2] + '>' + newInner + '</' + m[1] + '>';
+  let idx = -1;
+  for (let k = 0; k < (Number(e.occurrence) || 1); k++) {
+    idx = html.indexOf(find, idx + 1);
+    if (idx === -1) break;
+  }
+  if (idx === -1) { failures.push('"' + m[3].slice(0, 40) + '": no longer found'); continue; }
+  html = html.slice(0, idx) + replacement + html.slice(idx + find.length);
+  // hero caption lives twice: the h1 AND the matching slide data-title
+  if (m[2].includes('data-cd="hero-title"')) {
+    html = html.split('data-title="' + m[3] + '"').join('data-title="' + newInner + '"');
+  }
+  applied++;
+}
+if (!applied) throw new Error('No edits could be applied: ' + failures.join('; '));
+return [{ json: { site: g.site, page: g.page, content: html, applied, failures } }];
+`.trim();
+
+const CODE_TEXTS_REPLY = `
+const a = $('Apply Texts').first().json;
+return [{ json: { ok: true, applied: a.applied, failures: a.failures } }];
+`.trim();
+
+/* ---------------- colour editor (free, deterministic) ---------------- */
+
+const CODE_COLOUR_GUARD = `
+// Validates the two hex colours and derives rgb + hover (12% darker).
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const hexRe = /^#[0-9a-fA-F]{6}$/;
+const primary = String(body.primary || '');
+const secondary = String(body.secondary || '');
+if (!hexRe.test(primary) || !hexRe.test(secondary)) throw new Error('Invalid colour');
+const ch = (h, i) => parseInt(h.slice(1 + i * 2, 3 + i * 2), 16);
+const rgb = ch(primary, 0) + ', ' + ch(primary, 1) + ', ' + ch(primary, 2);
+const hover = '#' + [0, 1, 2].map((i) => Math.round(ch(primary, i) * 0.88).toString(16).padStart(2, '0')).join('');
+return [{ json: { site: row.site, primary, secondary, rgb, hover } }];
+`.trim();
+
+const CODE_COLOUR_PAGES = `
+// Page list from the site's sitemap (fallback: the standard set).
+const g = $('Colour Guard').first().json;
+let pages = ['index.html', 'about/index.html', 'services/index.html', 'pricing/index.html', 'blog/index.html', 'contact/index.html'];
+try {
+  const sm = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+  const urls = [...sm.matchAll(/<loc>([^<]+)<\\/loc>/g)].map((m) => String(m[1]).replace(/^https?:\\/\\/[^\\/]+/, ''));
+  if (urls.length) pages = urls.map((p) => (p.replace(/^\\/+|\\/+$/g, '') ? p.replace(/^\\/+|\\/+$/g, '') + '/index.html' : 'index.html'));
+} catch (e) {}
+return pages.map((p) => ({ json: { path: p, site: g.site } }));
+`.trim();
+
+const CODE_APPLY_COLOURS = `
+// Swaps the four theme variables in each page's <html> style attribute.
+const g = $('Colour Guard').first().json;
+return $input.all().map((it) => {
+  let html = Buffer.from(it.json.content, 'base64').toString('utf8');
+  html = html
+    .replace(/--color-primary:\\s*[^;"]+/, '--color-primary: ' + g.primary)
+    .replace(/--color-primary-rgb:\\s*[^;"]+/, '--color-primary-rgb: ' + g.rgb)
+    .replace(/--color-primary-hover:\\s*[^;"]+/, '--color-primary-hover: ' + g.hover)
+    .replace(/--color-secondary:\\s*[^;"]+/, '--color-secondary: ' + g.secondary);
+  return { json: { path: it.json.path, content: html, site: g.site } };
+});
+`.trim();
+
+const CODE_COLOURS_REPLY = `
+return [{ json: { ok: true, pages: $('Apply Colours').all().length } }];
+`.trim();
+
 /* ---------------- editor chain: validate / route / bill ---------------- */
 
 const CODE_VALIDATE_V3 = `
@@ -423,6 +565,9 @@ const accountNodes = [
           switchRule("credit", "credit"),
           switchRule("images", "images"),
           switchRule("swap", "swap"),
+          switchRule("texts", "texts"),
+          switchRule("savetexts", "save-texts"),
+          switchRule("colours", "colours"),
         ],
       },
       options: {},
@@ -678,6 +823,216 @@ const accountNodes = [
     position: [2020, Y + 480],
     settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_SWAP_REPLY },
+  },
+  /* text editor */
+  {
+    name: "Find Session Texts",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 640],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Texts Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 640],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_TEXTS_GUARD },
+  },
+  {
+    name: "Get Page Text",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 640],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Extract Texts",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 640],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_EXTRACT_TEXTS },
+  },
+  /* text saver */
+  {
+    name: "Find Session SaveT",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 800],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Save Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 800],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SAVE_GUARD },
+  },
+  {
+    name: "Get Page For Save",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 800],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Apply Texts",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 800],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_APPLY_TEXTS },
+  },
+  {
+    name: "Commit Texts",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2060, Y + 800],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "={{ 'text edits: ' + $json.page }}",
+    },
+  },
+  {
+    name: "Texts Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2220, Y + 800],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_TEXTS_REPLY },
+  },
+  /* colour editor */
+  {
+    name: "Find Session Colours",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 960],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Colour Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 960],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_COLOUR_GUARD },
+  },
+  {
+    name: "Get Sitemap Colours",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 960],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "sitemap.xml",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Colour Pages",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 960],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_COLOUR_PAGES },
+  },
+  {
+    name: "Get Page For Colour",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2060, Y + 960],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Apply Colours",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2220, Y + 960],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_APPLY_COLOURS },
+  },
+  {
+    name: "Commit Colours",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2380, Y + 960],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "colour change",
+    },
+  },
+  {
+    name: "Colours Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2540, Y + 960],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_COLOURS_REPLY },
   },
   {
     name: "Respond Builder",
@@ -942,6 +1297,28 @@ const accountConnections = [
   ["Swap Guard", "Commit Swap"],
   ["Commit Swap", "Swap Reply"],
   ["Swap Reply", "Respond Builder"],
+  /* text + colour editors */
+  { source: "Route Action", target: "Find Session Texts", sourceIndex: 5 },
+  { source: "Route Action", target: "Find Session SaveT", sourceIndex: 6 },
+  { source: "Route Action", target: "Find Session Colours", sourceIndex: 7 },
+  ["Find Session Texts", "Texts Guard"],
+  ["Texts Guard", "Get Page Text"],
+  ["Get Page Text", "Extract Texts"],
+  ["Extract Texts", "Respond Builder"],
+  ["Find Session SaveT", "Save Guard"],
+  ["Save Guard", "Get Page For Save"],
+  ["Get Page For Save", "Apply Texts"],
+  ["Apply Texts", "Commit Texts"],
+  ["Commit Texts", "Texts Reply"],
+  ["Texts Reply", "Respond Builder"],
+  ["Find Session Colours", "Colour Guard"],
+  ["Colour Guard", "Get Sitemap Colours"],
+  ["Get Sitemap Colours", "Colour Pages"],
+  ["Colour Pages", "Get Page For Colour"],
+  ["Get Page For Colour", "Apply Colours"],
+  ["Apply Colours", "Commit Colours"],
+  ["Commit Colours", "Colours Reply"],
+  ["Colours Reply", "Respond Builder"],
 ];
 
 const editorConnections = [

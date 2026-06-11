@@ -65,7 +65,7 @@ try { route = $('Parse Route').first().json; } catch (e) {}
 let pages = ['index.html', 'about/index.html', 'services/index.html', 'pricing/index.html', 'blog/index.html', 'contact/index.html'];
 try {
   const sm = Buffer.from($('Get Sitemap').first().json.content, 'base64').toString('utf8');
-  const urls = [...sm.matchAll(/<loc>([^<]+)<\\/loc>/g)].map((m) => new URL(m[1]).pathname);
+  const urls = [...sm.matchAll(/<loc>([^<]+)<\\/loc>/g)].map((m) => String(m[1]).replace(/^https?:\\/\\/[^\\/]+/, ''));
   if (urls.length) pages = urls.map((p) => (p.replace(/^\\/+|\\/+$/g, '') ? p.replace(/^\\/+|\\/+$/g, '') + '/index.html' : 'index.html'));
 } catch (e) {}
 

@@ -656,6 +656,90 @@
         padding: 20px 0;
         text-align: center;
       }
+
+      /* visual editor tabs + text editor */
+      .vtabs {
+        display: flex;
+        gap: 6px;
+        margin: 4px 0 14px;
+        border-bottom: 1.5px solid #e2eaf2;
+      }
+      .vtab {
+        background: none;
+        border: none;
+        font-family: inherit;
+        font-size: 13.5px;
+        font-weight: 700;
+        color: #6c8398;
+        padding: 8px 14px;
+        cursor: pointer;
+        border-bottom: 2.5px solid transparent;
+        margin-bottom: -1.5px;
+      }
+      .vtab.on {
+        color: var(--navy);
+        border-bottom-color: var(--cyan);
+      }
+      .vlabel {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        color: #41637d;
+        margin: 10px 0 6px;
+        letter-spacing: 0.4px;
+      }
+      #textPage {
+        width: 100%;
+        border: 1.5px solid #d6e2ec;
+        border-radius: 11px;
+        padding: 10px 12px;
+        font-size: 14px;
+        font-family: inherit;
+        outline: none;
+        background: #fff;
+      }
+      .text-list {
+        max-height: 46dvh;
+        overflow-y: auto;
+        margin-top: 12px;
+        padding-right: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .trow {
+        border: 1px solid #e2eaf2;
+        border-radius: 11px;
+        padding: 8px 10px;
+        background: #fbfdff;
+      }
+      .trow .ttag {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: #0b5e74;
+        background: rgba(72, 202, 228, 0.16);
+        border-radius: 5px;
+        padding: 1px 7px;
+        margin-bottom: 5px;
+      }
+      .trow textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        resize: none;
+        font-family: inherit;
+        font-size: 13.5px;
+        line-height: 1.5;
+        background: transparent;
+        color: #1a2733;
+      }
+      .trow.dirty {
+        border-color: var(--cyan);
+        background: #f2fbfe;
+      }
     </style>
   </head>
   <body>
@@ -678,12 +762,12 @@
         <h3>Quick tasks</h3>
 
         <div class="tile">
-          <h4>Swap photos</h4>
+          <h4>Visual editor</h4>
           <p>
-            See every photo on your website and replace any of them with your
-            own — free, no credit needed.
+            Change any photo, any text, or your whole colour scheme — instant
+            and free, no credit needed.
           </p>
-          <button id="openGallery">Open photo gallery</button>
+          <button id="openGallery">Open visual editor</button>
         </div>
 
         <div class="tile">
@@ -717,22 +801,6 @@
             </option>
           </select>
           <button data-preset="blog">Write the post</button>
-        </div>
-
-        <div class="tile">
-          <h4>Change colours</h4>
-          <p>Re-theme your whole site with a new main and dark colour.</p>
-          <div class="colorrow">
-            <div>
-              <label>Main colour</label
-              ><input type="color" id="colMain" value="#00bfff" />
-            </div>
-            <div>
-              <label>Dark colour</label
-              ><input type="color" id="colDark" value="#1a1a1a" />
-            </div>
-          </div>
-          <button data-preset="colours">Change colours</button>
         </div>
 
         <div class="tile">
@@ -873,24 +941,66 @@
       </div>
     </div>
 
-    <!-- photo gallery modal -->
+    <!-- visual editor modal: photos / text / colours -->
     <div class="overlay" id="galleryOverlay" hidden>
       <div class="modal gallery-modal">
         <button class="close" id="galleryClose">&times;</button>
-        <h2>Your website photos</h2>
+        <h2>Visual editor</h2>
         <p class="sub">
-          Pick any photo and swap it for your own. The new photo appears
-          everywhere the old one was used — free of charge.
+          Change photos, text and colours instantly — free, no credit needed.
         </p>
-        <div id="galleryGrid" class="gallery-grid">
-          <p class="gallery-loading">Loading your photos…</p>
+        <div class="vtabs">
+          <button class="vtab on" data-tab="tabPhotos">Photos</button>
+          <button class="vtab" data-tab="tabText">Text</button>
+          <button class="vtab" data-tab="tabColours">Colours</button>
         </div>
-        <input
-          type="file"
-          id="swapFile"
-          accept="image/png,image/jpeg,image/webp,image/gif"
-          hidden
-        />
+
+        <div id="tabPhotos">
+          <div id="galleryGrid" class="gallery-grid">
+            <p class="gallery-loading">Loading your photos…</p>
+          </div>
+          <input
+            type="file"
+            id="swapFile"
+            accept="image/png,image/jpeg,image/webp,image/gif"
+            hidden
+          />
+        </div>
+
+        <div id="tabText" hidden>
+          <label class="vlabel">Page</label>
+          <select id="textPage">
+            <option value="index.html">Home</option>
+            <option value="about/index.html">About</option>
+            <option value="services/index.html">Services</option>
+            <option value="pricing/index.html">Pricing</option>
+            <option value="blog/index.html">Blog</option>
+            <option value="contact/index.html">Contact</option>
+          </select>
+          <div id="textList" class="text-list">
+            <p class="gallery-loading">Pick a page to see its text.</p>
+          </div>
+          <button class="primary" id="saveTexts" disabled>
+            Save text changes
+          </button>
+        </div>
+
+        <div id="tabColours" hidden>
+          <p class="sub" style="margin-bottom: 6px">
+            Re-theme every page of your site in one go.
+          </p>
+          <div class="colorrow" style="margin-top: 8px">
+            <div>
+              <label class="vlabel">Main colour</label>
+              <input type="color" id="themeMain" value="#00bfff" />
+            </div>
+            <div>
+              <label class="vlabel">Dark colour</label>
+              <input type="color" id="themeDark" value="#1a1a1a" />
+            </div>
+          </div>
+          <button class="primary" id="applyColours">Apply colours</button>
+        </div>
       </div>
     </div>
 
@@ -1033,19 +1143,6 @@
                 ", helpful and local, in my business voice.",
             };
           },
-          colours: function () {
-            var main = $("colMain").value,
-              dark = $("colDark").value;
-            return {
-              label: "Change colours",
-              message:
-                "[PRESET: colours] Change my site theme colours: primary colour " +
-                main +
-                ", secondary/dark colour " +
-                dark +
-                ". Apply to every page.",
-            };
-          },
           offer: function () {
             var offer = $("offerText").value.trim();
             if (!offer) return { error: "Type the offer first." };
@@ -1186,8 +1283,202 @@
         function openGallery() {
           closeSidebar();
           $("galleryOverlay").hidden = false;
+          showTab("tabPhotos");
           loadGallery();
         }
+
+        /* ----- visual editor tabs ----- */
+        function showTab(id) {
+          ["tabPhotos", "tabText", "tabColours"].forEach(function (t) {
+            $(t).hidden = t !== id;
+          });
+          Array.prototype.forEach.call(
+            document.querySelectorAll(".vtab"),
+            function (b) {
+              b.classList.toggle("on", b.getAttribute("data-tab") === id);
+            },
+          );
+          if (id === "tabText" && !$("textList").querySelector(".trow")) {
+            loadTexts();
+          }
+        }
+        Array.prototype.forEach.call(
+          document.querySelectorAll(".vtab"),
+          function (b) {
+            b.onclick = function () {
+              showTab(b.getAttribute("data-tab"));
+            };
+          },
+        );
+
+        /* ----- text tab ----- */
+        var textDirty = {};
+        function loadTexts() {
+          var list = $("textList");
+          textDirty = {};
+          $("saveTexts").disabled = true;
+          list.innerHTML =
+            '<p class="gallery-loading">Loading the text on this page…</p>';
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              action: "texts",
+              token: state.token,
+              page: $("textPage").value,
+            }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok || !d.blocks) throw new Error("Could not load text.");
+              list.innerHTML = "";
+              if (!d.blocks.length) {
+                list.innerHTML =
+                  '<p class="gallery-loading">No editable text found on this page.</p>';
+                return;
+              }
+              d.blocks.forEach(function (b, i) {
+                var row = document.createElement("div");
+                row.className = "trow";
+                var tag = document.createElement("span");
+                tag.className = "ttag";
+                tag.textContent =
+                  {
+                    h1: "Main heading",
+                    h2: "Heading",
+                    h3: "Heading",
+                    h4: "Heading",
+                    h5: "Heading",
+                    h6: "Heading",
+                    p: "Paragraph",
+                    a: "Link / button",
+                    button: "Button",
+                    span: "Label",
+                    li: "List item",
+                  }[b.tag] || b.tag;
+                var ta = document.createElement("textarea");
+                ta.value = b.text;
+                ta.rows = Math.min(
+                  6,
+                  Math.max(1, Math.ceil(b.text.length / 70)),
+                );
+                ta.addEventListener("input", function () {
+                  ta.style.height = "auto";
+                  ta.style.height = ta.scrollHeight + "px";
+                  if (ta.value !== b.text) {
+                    textDirty[i] = {
+                      find: b.find,
+                      occurrence: b.occurrence,
+                      text: ta.value,
+                    };
+                    row.classList.add("dirty");
+                  } else {
+                    delete textDirty[i];
+                    row.classList.remove("dirty");
+                  }
+                  $("saveTexts").disabled = !Object.keys(textDirty).length;
+                });
+                row.appendChild(tag);
+                row.appendChild(ta);
+                list.appendChild(row);
+              });
+            })
+            .catch(function (e) {
+              list.innerHTML =
+                '<p class="gallery-loading">' +
+                (e.message || "Could not load text.") +
+                "</p>";
+            });
+        }
+        $("textPage").onchange = loadTexts;
+        $("saveTexts").onclick = function () {
+          var btn = this;
+          var edits = Object.keys(textDirty).map(function (k) {
+            return textDirty[k];
+          });
+          if (!edits.length) return;
+          btn.disabled = true;
+          btn.textContent = "Saving…";
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              action: "save-texts",
+              token: state.token,
+              page: $("textPage").value,
+              edits: edits,
+            }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok) throw new Error("Save failed — please try again.");
+              btn.textContent = "Saved ✓";
+              addBubble(
+                "ai",
+                "Text updated (" +
+                  d.applied +
+                  " change" +
+                  (d.applied === 1 ? "" : "s") +
+                  ") — live on your website within a minute or two." +
+                  (d.failures && d.failures.length
+                    ? " A couple couldn't be applied: " + d.failures.join("; ")
+                    : ""),
+              );
+              setTimeout(function () {
+                btn.textContent = "Save text changes";
+                loadTexts();
+              }, 1200);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Save text changes";
+              alert(e.message || "Save failed — please try again.");
+            });
+        };
+
+        /* ----- colours tab ----- */
+        $("applyColours").onclick = function () {
+          var btn = this;
+          btn.disabled = true;
+          btn.textContent = "Applying to every page…";
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              action: "colours",
+              token: state.token,
+              primary: $("themeMain").value,
+              secondary: $("themeDark").value,
+            }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok)
+                throw new Error("Colour change failed — please try again.");
+              btn.textContent = "Applied ✓";
+              addBubble(
+                "ai",
+                "New colours applied across " +
+                  d.pages +
+                  " pages — live within a minute or two.",
+              );
+              setTimeout(function () {
+                btn.disabled = false;
+                btn.textContent = "Apply colours";
+              }, 1500);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Apply colours";
+              alert(e.message || "Colour change failed — please try again.");
+            });
+        };
         function loadGallery() {
           var grid = $("galleryGrid");
           grid.innerHTML =
