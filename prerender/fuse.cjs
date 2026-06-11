@@ -28,7 +28,7 @@
    Only dependency: jsdom  (n8n: NODE_FUNCTION_ALLOW_EXTERNAL=jsdom)
    ========================================================================= */
 
-'use strict';
+"use strict";
 
 /* ----------------------------------------------------------------------
    CSS appended to the template stylesheet. Replaces the hover effects the
@@ -56,12 +56,19 @@ html:not(.js) .reveal,html:not(.js) .reveal-l,html:not(.js) .reveal-r{opacity:1!
 [data-cd="calc-type"] button.cd-on{background:var(--color-secondary)!important;color:var(--color-primary)!important}
 `;
 
-const PAGES = ['home', 'about', 'services', 'pricing', 'blog', 'contact'];
+const PAGES = ["home", "about", "services", "pricing", "blog", "contact"];
 
 function deriveSlug(cfg) {
   if (cfg.slug) return cfg.slug;
-  return ((cfg.logoPrefix || cfg.businessName || 'site') + ' ' + (cfg.suburb || ''))
-    .toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return (
+    (cfg.logoPrefix || cfg.businessName || "site") +
+    " " +
+    (cfg.suburb || "")
+  )
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 /* ---------- tiny async helpers ---------- */
@@ -70,9 +77,14 @@ async function waitFor(fn, timeoutMs, label) {
   const t0 = Date.now();
   for (;;) {
     let v;
-    try { v = fn(); } catch (e) { v = null; }
+    try {
+      v = fn();
+    } catch (e) {
+      v = null;
+    }
     if (v) return v;
-    if (Date.now() - t0 > timeoutMs) throw new Error('Timed out waiting for ' + label);
+    if (Date.now() - t0 > timeoutMs)
+      throw new Error("Timed out waiting for " + label);
     await sleep(15);
   }
 }
@@ -80,8 +92,16 @@ async function waitFor(fn, timeoutMs, label) {
 /* ----------------------------------------------------------------------
    Render one route in jsdom by executing the real bundle.
 ---------------------------------------------------------------------- */
-async function renderRoute({ JSDOM, VirtualConsole }, bundleJs, config, slug, domain, route) {
-  const url = domain + '/sites/' + slug + (route === 'home' ? '/' : '/' + route);
+async function renderRoute(
+  { JSDOM, VirtualConsole },
+  bundleJs,
+  config,
+  slug,
+  domain,
+  route,
+) {
+  const url =
+    domain + "/sites/" + slug + (route === "home" ? "/" : "/" + route);
   const vc = new VirtualConsole(); // silence jsdom CSS/feature noise
   const dom = new JSDOM(
     `<!DOCTYPE html>
@@ -97,32 +117,52 @@ async function renderRoute({ JSDOM, VirtualConsole }, bundleJs, config, slug, do
 </head>
 <body><div id="root"></div></body>
 </html>`,
-    { url, runScripts: 'outside-only', pretendToBeVisual: true, virtualConsole: vc }
+    {
+      url,
+      runScripts: "outside-only",
+      pretendToBeVisual: true,
+      virtualConsole: vc,
+    },
   );
   const w = dom.window;
 
   /* The app only needs fetch (the config) and IntersectionObserver.
      The IO stub fires immediately so IO-gated state (stat bar width)
      reaches its final value; reveal classes are stripped afterwards. */
-  w.fetch = () => Promise.resolve({
-    ok: true, status: 200,
-    json: () => Promise.resolve(JSON.parse(JSON.stringify(config))),
-  });
+  w.fetch = () =>
+    Promise.resolve({
+      ok: true,
+      status: 200,
+      json: () => Promise.resolve(JSON.parse(JSON.stringify(config))),
+    });
   w.IntersectionObserver = class {
-    constructor(cb) { this.cb = cb; }
+    constructor(cb) {
+      this.cb = cb;
+    }
     observe(target) {
       const self = this;
-      w.setTimeout(() => { try { self.cb([{ isIntersecting: true, target }], self); } catch (e) {} }, 0);
+      w.setTimeout(() => {
+        try {
+          self.cb([{ isIntersecting: true, target }], self);
+        } catch (e) {}
+      }, 0);
     }
-    unobserve() {} disconnect() {} takeRecords() { return []; }
+    unobserve() {}
+    disconnect() {}
+    takeRecords() {
+      return [];
+    }
   };
   w.scrollTo = () => {};
 
   w.eval(bundleJs);
 
   await waitFor(
-    () => w.document.querySelector('#root nav') && w.document.querySelector('#root footer'),
-    8000, 'page render (' + route + ')'
+    () =>
+      w.document.querySelector("#root nav") &&
+      w.document.querySelector("#root footer"),
+    8000,
+    "page render (" + route + ")",
   );
   await sleep(60); // let SEO/meta effects and IO stubs settle
   return dom;
@@ -133,8 +173,11 @@ async function renderRoute({ JSDOM, VirtualConsole }, bundleJs, config, slug, do
    setter then dispatch the event React listens for.
 ---------------------------------------------------------------------- */
 function setNativeValue(w, el, value, eventType) {
-  const proto = el.tagName === 'SELECT' ? w.HTMLSelectElement.prototype : w.HTMLInputElement.prototype;
-  Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, value);
+  const proto =
+    el.tagName === "SELECT"
+      ? w.HTMLSelectElement.prototype
+      : w.HTMLInputElement.prototype;
+  Object.getOwnPropertyDescriptor(proto, "value").set.call(el, value);
   el.dispatchEvent(new w.Event(eventType, { bubbles: true }));
 }
 
@@ -150,7 +193,7 @@ const settle = () => sleep(15);
 async function captureMobileMenu(w) {
   const doc = w.document;
   const btn = doc.querySelector('nav button[aria-label="Toggle menu"]');
-  const nav = btn && btn.closest('nav');
+  const nav = btn && btn.closest("nav");
   if (!btn || !nav) return null;
   const before = nav.children.length;
   btn.click();
@@ -165,18 +208,27 @@ async function captureMobileMenu(w) {
 /* Click through hero slides, recording each slide's headline/subheadline. */
 async function captureHeroCaptions(w) {
   const doc = w.document;
-  const hero = doc.getElementById('home');
+  const hero = doc.getElementById("home");
   if (!hero) return null;
   const next = hero.querySelector('button[aria-label="Next slide"]');
   const slides = [...hero.children].filter(
-    (el) => el.tagName === 'DIV' && el.querySelector(':scope > img') && !el.querySelector('h1')
+    (el) =>
+      el.tagName === "DIV" &&
+      el.querySelector(":scope > img") &&
+      !el.querySelector("h1"),
   );
   if (!next || slides.length === 0) return null;
   const captions = [];
   for (let i = 0; i < slides.length; i++) {
-    const h1 = hero.querySelector('h1');
-    const sub = h1 && h1.nextElementSibling && h1.nextElementSibling.tagName === 'P' ? h1.nextElementSibling : null;
-    captions.push({ title: h1 ? h1.textContent : '', sub: sub ? sub.textContent : '' });
+    const h1 = hero.querySelector("h1");
+    const sub =
+      h1 && h1.nextElementSibling && h1.nextElementSibling.tagName === "P"
+        ? h1.nextElementSibling
+        : null;
+    captions.push({
+      title: h1 ? h1.textContent : "",
+      sub: sub ? sub.textContent : "",
+    });
     next.click(); // after the last click we're back at slide 0
     await settle();
   }
@@ -187,20 +239,23 @@ async function captureHeroCaptions(w) {
    renders for it. Returns clones plus the live nodes to replace. */
 async function captureTestimonials(w) {
   const doc = w.document;
-  const dots = [...doc.querySelectorAll('#root .dot')];
+  const dots = [...doc.querySelectorAll("#root .dot")];
   if (dots.length < 2) return null;
   const dotsWrap = dots[0].parentElement;
   const col = dotsWrap.parentElement;
   const variants = [];
   for (let i = 0; i < dots.length; i++) {
-    doc.querySelectorAll('#root .dot')[i].click();
+    doc.querySelectorAll("#root .dot")[i].click();
     await settle();
-    const quote = col.querySelector(':scope > p');
-    const author = col.querySelector(':scope > div.flex');
+    const quote = col.querySelector(":scope > p");
+    const author = col.querySelector(":scope > div.flex");
     if (!quote || !author) return null;
-    variants.push({ quote: quote.cloneNode(true), author: author.cloneNode(true) });
+    variants.push({
+      quote: quote.cloneNode(true),
+      author: author.cloneNode(true),
+    });
   }
-  doc.querySelectorAll('#root .dot')[0].click(); // back to the first
+  doc.querySelectorAll("#root .dot")[0].click(); // back to the first
   await settle();
   return { col, dotsWrap, variants };
 }
@@ -210,29 +265,35 @@ async function captureTestimonials(w) {
    option so site.js can recompute with the original formula. */
 async function probeCalculator(w, warnings) {
   const doc = w.document;
-  const section = doc.getElementById('prices');
+  const section = doc.getElementById("prices");
   if (!section) return null;
-  const select = section.querySelector('select');
+  const select = section.querySelector("select");
   const range = section.querySelector('input[type="range"]');
-  const card = select && select.closest('div');
-  const root = select ? select.closest('.pricing-calc-card') || section : null;
+  const card = select && select.closest("div");
+  const root = select ? select.closest(".pricing-calc-card") || section : null;
   if (!select || !range || !root) return null;
-  const priceEl = [...root.querySelectorAll('span')].find((s) => /(^|\s)250\s*$/.test(s.textContent) && s.textContent.trim().length <= 8);
-  if (!priceEl) { warnings.push('calculator: price element not found — bases not probed'); return null; }
-  const currency = priceEl.textContent.replace(/[\d\s]+$/, '').trim() || '$';
+  const priceEl = [...root.querySelectorAll("span")].find(
+    (s) =>
+      /(^|\s)250\s*$/.test(s.textContent) && s.textContent.trim().length <= 8,
+  );
+  if (!priceEl) {
+    warnings.push("calculator: price element not found — bases not probed");
+    return null;
+  }
+  const currency = priceEl.textContent.replace(/[\d\s]+$/, "").trim() || "$";
 
-  setNativeValue(w, range, 0, 'input');
+  setNativeValue(w, range, 0, "input");
   await settle();
   for (const opt of [...select.options]) {
     if (!opt.value) continue;
-    setNativeValue(w, select, opt.value, 'change');
+    setNativeValue(w, select, opt.value, "change");
     await settle();
-    const shown = parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10);
-    if (!isNaN(shown)) opt.setAttribute('data-base', String(shown));
+    const shown = parseInt(priceEl.textContent.replace(/[^\d]/g, ""), 10);
+    if (!isNaN(shown)) opt.setAttribute("data-base", String(shown));
   }
   /* restore the defaults a fresh visitor sees */
-  setNativeValue(w, select, '', 'change');
-  setNativeValue(w, range, 10, 'input');
+  setNativeValue(w, select, "", "change");
+  setNativeValue(w, range, 10, "input");
   await settle();
   return { section, select, range, root, priceEl, currency };
 }
@@ -247,168 +308,226 @@ function postProcess(w, ctx) {
   const { slug, domain, menuClone, heroCap, testi, calc } = ctx;
 
   /* --- navbar + mobile menu --- */
-  const nav = doc.querySelector('#root nav') || doc.querySelector('nav');
+  const nav = doc.querySelector("#root nav") || doc.querySelector("nav");
   if (nav) {
-    nav.setAttribute('data-cd', 'nav');
+    nav.setAttribute("data-cd", "nav");
     const burger = nav.querySelector('button[aria-label="Toggle menu"]');
-    if (burger) burger.setAttribute('data-cd', 'burger');
+    if (burger) burger.setAttribute("data-cd", "burger");
     if (menuClone) {
-      menuClone.setAttribute('data-cd', 'mobile-menu');
-      menuClone.style.display = 'none';
+      menuClone.setAttribute("data-cd", "mobile-menu");
+      menuClone.style.display = "none";
       nav.appendChild(menuClone);
     }
   }
 
   /* --- hero carousel --- */
   if (heroCap) {
-    const hero = doc.getElementById('home');
-    hero.setAttribute('data-cd', 'hero');
+    const hero = doc.getElementById("home");
+    hero.setAttribute("data-cd", "hero");
     heroCap.slides.forEach((sl, i) => {
-      sl.setAttribute('data-cd', 'slide');
+      sl.setAttribute("data-cd", "slide");
       if (heroCap.captions[i]) {
-        sl.setAttribute('data-title', heroCap.captions[i].title);
-        sl.setAttribute('data-sub', heroCap.captions[i].sub);
+        sl.setAttribute("data-title", heroCap.captions[i].title);
+        sl.setAttribute("data-sub", heroCap.captions[i].sub);
       }
     });
-    const h1 = hero.querySelector('h1');
+    const h1 = hero.querySelector("h1");
     if (h1) {
-      h1.setAttribute('data-cd', 'hero-title');
+      h1.setAttribute("data-cd", "hero-title");
       const sub = h1.nextElementSibling;
-      if (sub && sub.tagName === 'P') sub.setAttribute('data-cd', 'hero-sub');
+      if (sub && sub.tagName === "P") sub.setAttribute("data-cd", "hero-sub");
     }
     const prev = hero.querySelector('button[aria-label="Previous slide"]');
     const next = hero.querySelector('button[aria-label="Next slide"]');
-    if (prev) prev.setAttribute('data-cd', 'hero-prev');
-    if (next) next.setAttribute('data-cd', 'hero-next');
+    if (prev) prev.setAttribute("data-cd", "hero-prev");
+    if (next) next.setAttribute("data-cd", "hero-next");
   }
 
   /* --- testimonials: materialise every slide, first one visible --- */
   if (testi) {
     const { col, dotsWrap, variants } = testi;
-    [...col.querySelectorAll(':scope > p, :scope > div.flex')].forEach((el) => {
+    [...col.querySelectorAll(":scope > p, :scope > div.flex")].forEach((el) => {
       if (el !== dotsWrap) el.remove();
     });
     variants.forEach((v, i) => {
-      const wrap = doc.createElement('div');
-      wrap.setAttribute('data-cd', 't-slide');
-      if (i !== 0) wrap.style.display = 'none';
+      const wrap = doc.createElement("div");
+      wrap.setAttribute("data-cd", "t-slide");
+      if (i !== 0) wrap.style.display = "none";
       wrap.appendChild(v.quote);
       wrap.appendChild(v.author);
       col.insertBefore(wrap, dotsWrap);
     });
-    [...dotsWrap.querySelectorAll('.dot')].forEach((d, i) => {
-      d.setAttribute('data-cd', 't-dot');
-      d.classList.toggle('active', i === 0);
+    [...dotsWrap.querySelectorAll(".dot")].forEach((d, i) => {
+      d.setAttribute("data-cd", "t-dot");
+      d.classList.toggle("active", i === 0);
     });
   }
 
   /* --- calculator hooks --- */
   if (calc) {
-    calc.root.setAttribute('data-cd', 'calc');
-    calc.select.setAttribute('data-cd', 'calc-service');
-    calc.range.setAttribute('data-cd', 'calc-distance');
-    calc.priceEl.setAttribute('data-cd', 'calc-price');
-    calc.priceEl.setAttribute('data-currency', calc.currency);
+    calc.root.setAttribute("data-cd", "calc");
+    calc.select.setAttribute("data-cd", "calc-service");
+    calc.range.setAttribute("data-cd", "calc-distance");
+    calc.priceEl.setAttribute("data-cd", "calc-price");
+    calc.priceEl.setAttribute("data-currency", calc.currency);
     const flexHead = calc.range.parentElement.firstElementChild;
     const badge = flexHead && flexHead.lastElementChild;
-    if (badge && badge.tagName === 'SPAN') {
-      badge.setAttribute('data-cd', 'calc-distance-value');
-      const unit = badge.textContent.replace(/[\d\s]+/, '').trim();
-      if (unit) badge.setAttribute('data-unit', unit);
+    if (badge && badge.tagName === "SPAN") {
+      badge.setAttribute("data-cd", "calc-distance-value");
+      const unit = badge.textContent.replace(/[\d\s]+/, "").trim();
+      if (unit) badge.setAttribute("data-unit", unit);
     }
     /* The two Yes/No-style button groups (urgency first, type second in
        source order). React baked the active look as inline styles; move
        active-state styling to the .cd-on class so site.js can toggle it. */
-    const groups = [...calc.root.querySelectorAll('div.flex.gap-0')];
+    const groups = [...calc.root.querySelectorAll("div.flex.gap-0")];
     const tag = (group, name, activeIdx) => {
       if (!group) return;
-      group.setAttribute('data-cd', name);
-      [...group.querySelectorAll('button')].forEach((b, i) => {
-        b.style.background = '#fff';
-        b.style.color = '#1a1a1a';
-        b.classList.toggle('cd-on', i === activeIdx);
+      group.setAttribute("data-cd", name);
+      [...group.querySelectorAll("button")].forEach((b, i) => {
+        b.style.background = "#fff";
+        b.style.color = "#1a1a1a";
+        b.classList.toggle("cd-on", i === activeIdx);
       });
     };
-    tag(groups[0], 'calc-urgency', 1); /* "No" is the default */
-    tag(groups[1], 'calc-type', 0);
+    tag(groups[0], "calc-urgency", 1); /* "No" is the default */
+    tag(groups[1], "calc-type", 0);
   }
 
   /* --- stat/progress bar: keep final width baked (works without JS),
          site.js re-animates from 0 using data-target --- */
   [...doc.querySelectorAll('div[style*="width 1.4s"]')].forEach((bar) => {
-    bar.setAttribute('data-cd', 'statbar');
-    if (bar.style.width) bar.setAttribute('data-target', bar.style.width);
+    bar.setAttribute("data-cd", "statbar");
+    if (bar.style.width) bar.setAttribute("data-target", bar.style.width);
   });
 
   /* --- photo-row hover (was React mouseenter): class-based CSS now --- */
-  [...doc.querySelectorAll('#root img')].forEach((img) => {
-    if ((img.getAttribute('style') || '').includes('transform 0.5s')) {
+  [...doc.querySelectorAll("#root img")].forEach((img) => {
+    if ((img.getAttribute("style") || "").includes("transform 0.5s")) {
       const wrap = img.parentElement;
-      wrap.classList.add('cd-zoom');
+      wrap.classList.add("cd-zoom");
       const tint = img.nextElementSibling;
-      if (tint && tint.tagName === 'DIV') tint.classList.add('cd-tint');
+      if (tint && tint.tagName === "DIV") tint.classList.add("cd-tint");
     }
   });
 
   /* --- footer: newsletter + bottom-link hover --- */
-  [...doc.querySelectorAll('#root form')].forEach((f) => {
-    if (f.querySelector('input[type="email"]')) f.setAttribute('data-cd', 'newsletter');
+  [...doc.querySelectorAll("#root form")].forEach((f) => {
+    if (f.querySelector('input[type="email"]'))
+      f.setAttribute("data-cd", "newsletter");
   });
-  const footer = doc.querySelector('#root footer');
+  const footer = doc.querySelector("#root footer");
   if (footer) {
-    [...footer.querySelectorAll('a')].forEach((a) => {
-      if ((a.getAttribute('style') || '').includes('color 0.2s')) a.classList.add('cd-flink');
+    [...footer.querySelectorAll("a")].forEach((a) => {
+      if ((a.getAttribute("style") || "").includes("color 0.2s"))
+        a.classList.add("cd-flink");
     });
   }
 
   /* --- reveal animations: strip the .visible our IO stub added so they
          replay on scroll exactly like the demo --- */
-  [...doc.querySelectorAll('.reveal.visible, .reveal-l.visible, .reveal-r.visible')]
-    .forEach((el) => el.classList.remove('visible'));
+  [
+    ...doc.querySelectorAll(
+      ".reveal.visible, .reveal-l.visible, .reveal-r.visible",
+    ),
+  ].forEach((el) => el.classList.remove("visible"));
 
   /* --- strip React, wire the static assets --- */
-  [...doc.querySelectorAll('script[type="module"], link[rel="modulepreload"]')].forEach((el) => el.remove());
-  const jsFlag = doc.createElement('script');
+  [
+    ...doc.querySelectorAll('script[type="module"], link[rel="modulepreload"]'),
+  ].forEach((el) => el.remove());
+  const jsFlag = doc.createElement("script");
   jsFlag.textContent = "document.documentElement.classList.add('js')";
   doc.head.insertBefore(jsFlag, doc.head.firstChild);
-  const siteScript = doc.createElement('script');
-  siteScript.setAttribute('defer', '');
-  siteScript.setAttribute('src', '/assets/site.js');
+  const siteScript = doc.createElement("script");
+  siteScript.setAttribute("defer", "");
+  siteScript.setAttribute("src", "/assets/site.js");
   doc.head.appendChild(siteScript);
+
+  /* --- stable site id for the analytics tracker (site.js section 10);
+         without it the tracker falls back to location.hostname --- */
+  if (!doc.querySelector('meta[name="cd-site"]')) {
+    const siteIdMeta = doc.createElement("meta");
+    siteIdMeta.setAttribute("name", "cd-site");
+    siteIdMeta.setAttribute("content", slug);
+    doc.head.insertBefore(siteIdMeta, siteScript);
+  }
 
   /* --- URL rewriting: /sites/<slug>/page -> /page/, images -> /assets --- */
   const rew = (v) => {
     if (!v) return v;
-    let out = v.split('/sites/images/').join('/assets/images/');
-    const base = '/sites/' + slug;
-    out = out.replace(new RegExp('(^|' + domain.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')' + base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(/[a-z0-9/-]*)?', 'g'),
+    let out = v.split("/sites/images/").join("/assets/images/");
+    const base = "/sites/" + slug;
+    out = out.replace(
+      new RegExp(
+        "(^|" +
+          domain.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") +
+          ")" +
+          base.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") +
+          "(/[a-z0-9/-]*)?",
+        "g",
+      ),
       (m, origin, rest) => {
-        let p = rest || '/';
-        if (p !== '/' && !p.endsWith('/')) p += '/';
+        let p = rest || "/";
+        if (p !== "/" && !p.endsWith("/")) p += "/";
         return origin + p;
-      });
+      },
+    );
     return out;
   };
-  [...doc.querySelectorAll('a[href]')].forEach((a) => a.setAttribute('href', rew(a.getAttribute('href'))));
-  [...doc.querySelectorAll('img[src]')].forEach((i) => i.setAttribute('src', rew(i.getAttribute('src'))));
-  [...doc.querySelectorAll('meta[content]')].forEach((m) => m.setAttribute('content', rew(m.getAttribute('content'))));
-  [...doc.querySelectorAll('link[rel="canonical"]')].forEach((l) => l.setAttribute('href', rew(l.getAttribute('href'))));
-  [...doc.querySelectorAll('script[type="application/ld+json"]')].forEach((s) => { s.textContent = rew(s.textContent); });
+  [...doc.querySelectorAll("a[href]")].forEach((a) =>
+    a.setAttribute("href", rew(a.getAttribute("href"))),
+  );
+  [...doc.querySelectorAll("img[src]")].forEach((i) =>
+    i.setAttribute("src", rew(i.getAttribute("src"))),
+  );
+  [...doc.querySelectorAll("meta[content]")].forEach((m) =>
+    m.setAttribute("content", rew(m.getAttribute("content"))),
+  );
+  [...doc.querySelectorAll('link[rel="canonical"]')].forEach((l) =>
+    l.setAttribute("href", rew(l.getAttribute("href"))),
+  );
+  [...doc.querySelectorAll('script[type="application/ld+json"]')].forEach(
+    (s) => {
+      s.textContent = rew(s.textContent);
+    },
+  );
 
   /* --- section markers for future editors --- */
-  const main = doc.querySelector('#root main');
+  const main = doc.querySelector("#root main");
   if (main) {
     [...main.children].forEach((sec, i) => {
       let name = sec.id;
       if (!name) {
-        const h = sec.querySelector('h1,h2,h3');
-        name = h ? h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').split('-').slice(0, 4).join('-').replace(/^-|-$/g, '') : '';
+        const h = sec.querySelector("h1,h2,h3");
+        name = h
+          ? h.textContent
+              .trim()
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")
+              .split("-")
+              .slice(0, 4)
+              .join("-")
+              .replace(/^-|-$/g, "")
+          : "";
       }
       if (!name) {
-        const imgs = sec.querySelectorAll('img').length;
-        name = (imgs >= 2 ? 'photo-strip' : imgs === 1 ? 'feature-image' : 'section') + '-' + (i + 1);
+        const imgs = sec.querySelectorAll("img").length;
+        name =
+          (imgs >= 2
+            ? "photo-strip"
+            : imgs === 1
+              ? "feature-image"
+              : "section") +
+          "-" +
+          (i + 1);
       }
-      sec.parentNode.insertBefore(doc.createComment(' ==================== SECTION: ' + name + ' ==================== '), sec);
+      sec.parentNode.insertBefore(
+        doc.createComment(
+          " ==================== SECTION: " + name + " ==================== ",
+        ),
+        sec,
+      );
     });
   }
 }
@@ -419,65 +538,124 @@ function postProcess(w, ctx) {
    indented; anything containing text keeps its exact serialized form
    (whitespace inside text-bearing markup is rendering-sensitive).
    ======================================================================== */
-const VOID_TAGS = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr']);
+const VOID_TAGS = new Set([
+  "area",
+  "base",
+  "br",
+  "col",
+  "embed",
+  "hr",
+  "img",
+  "input",
+  "link",
+  "meta",
+  "param",
+  "source",
+  "track",
+  "wbr",
+]);
 
 function openTag(el) {
-  let attrs = '';
+  let attrs = "";
   for (const at of el.attributes) {
-    attrs += ' ' + at.name + '="' + at.value.replace(/&/g, '&amp;').replace(/"/g, '&quot;') + '"';
+    attrs +=
+      " " +
+      at.name +
+      '="' +
+      at.value.replace(/&/g, "&amp;").replace(/"/g, "&quot;") +
+      '"';
   }
-  return '<' + el.tagName.toLowerCase() + attrs + '>';
+  return "<" + el.tagName.toLowerCase() + attrs + ">";
 }
 function isElementOnly(el) {
   let any = false;
   for (const ch of el.childNodes) {
-    if (ch.nodeType === 3 && ch.textContent.trim() !== '') return false;
+    if (ch.nodeType === 3 && ch.textContent.trim() !== "") return false;
     if (ch.nodeType === 1 || ch.nodeType === 8) any = true;
   }
   return any;
 }
 function fmtNode(node, indent, out) {
-  if (node.nodeType === 8) { out.push(indent + '<!--' + node.textContent + '-->'); return; }
-  if (node.nodeType === 3) { const t = node.textContent.trim(); if (t) out.push(indent + t); return; }
-  if (node.nodeType !== 1) return;
-  const tag = node.tagName.toLowerCase();
-  if (tag === 'script' || tag === 'style') {
-    const txt = node.textContent.trim();
-    if (txt) { out.push(indent + openTag(node)); out.push(txt); out.push(indent + '</' + tag + '>'); }
-    else out.push(indent + openTag(node) + '</' + tag + '>');
+  if (node.nodeType === 8) {
+    out.push(indent + "<!--" + node.textContent + "-->");
     return;
   }
-  if (VOID_TAGS.has(tag)) { out.push(indent + openTag(node)); return; }
-  if (!node.childNodes.length) { out.push(indent + openTag(node) + '</' + tag + '>'); return; }
+  if (node.nodeType === 3) {
+    const t = node.textContent.trim();
+    if (t) out.push(indent + t);
+    return;
+  }
+  if (node.nodeType !== 1) return;
+  const tag = node.tagName.toLowerCase();
+  if (tag === "script" || tag === "style") {
+    const txt = node.textContent.trim();
+    if (txt) {
+      out.push(indent + openTag(node));
+      out.push(txt);
+      out.push(indent + "</" + tag + ">");
+    } else out.push(indent + openTag(node) + "</" + tag + ">");
+    return;
+  }
+  if (VOID_TAGS.has(tag)) {
+    out.push(indent + openTag(node));
+    return;
+  }
+  if (!node.childNodes.length) {
+    out.push(indent + openTag(node) + "</" + tag + ">");
+    return;
+  }
   if (isElementOnly(node)) {
     out.push(indent + openTag(node));
-    for (const ch of node.childNodes) fmtNode(ch, indent + '  ', out);
-    out.push(indent + '</' + tag + '>');
+    for (const ch of node.childNodes) fmtNode(ch, indent + "  ", out);
+    out.push(indent + "</" + tag + ">");
   } else {
     out.push(indent + node.outerHTML);
   }
 }
 function serializeDoc(doc) {
-  const out = ['<!DOCTYPE html>'];
-  fmtNode(doc.documentElement, '', out);
-  return out.join('\n') + '\n';
+  const out = ["<!DOCTYPE html>"];
+  fmtNode(doc.documentElement, "", out);
+  return out.join("\n") + "\n";
 }
 
 /* ========================================================================
    SITE-LEVEL EXTRAS
    ======================================================================== */
 function buildFavicon(cfg) {
-  const letter = (cfg.logoCircleLetter || (cfg.businessName || cfg.logoPrefix || 'C').trim()[0] || 'C').toUpperCase();
-  const bg = cfg.primaryColor || '#FFD338';
-  const fg = cfg.secondaryColor || '#1a1a1a';
-  return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">'
-    + '<circle cx="32" cy="32" r="30" fill="' + bg + '"/>'
-    + '<text x="32" y="43" text-anchor="middle" font-family="Roboto Slab, serif" font-size="34" font-weight="800" fill="' + fg + '">'
-    + letter + '</text></svg>\n';
+  const letter = (
+    cfg.logoCircleLetter ||
+    (cfg.businessName || cfg.logoPrefix || "C").trim()[0] ||
+    "C"
+  ).toUpperCase();
+  const bg = cfg.primaryColor || "#FFD338";
+  const fg = cfg.secondaryColor || "#1a1a1a";
+  return (
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+    '<circle cx="32" cy="32" r="30" fill="' +
+    bg +
+    '"/>' +
+    '<text x="32" y="43" text-anchor="middle" font-family="Roboto Slab, serif" font-size="34" font-weight="800" fill="' +
+    fg +
+    '">' +
+    letter +
+    "</text></svg>\n"
+  );
 }
 function buildSitemap(domain, routes) {
-  const urls = routes.map((r) => '  <url><loc>' + domain + (r === 'home' ? '/' : '/' + r + '/') + '</loc></url>').join('\n');
-  return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + '\n</urlset>\n';
+  const urls = routes
+    .map(
+      (r) =>
+        "  <url><loc>" +
+        domain +
+        (r === "home" ? "/" : "/" + r + "/") +
+        "</loc></url>",
+    )
+    .join("\n");
+  return (
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    urls +
+    "\n</urlset>\n"
+  );
 }
 function buildEditingGuide(slug) {
   return `# Editing guide — generated static site (${slug})
@@ -529,10 +707,13 @@ async function fuseSite(input) {
   if (Object.isFrozen(Object.prototype) && !process.env.CD_FUSER_CHILD) {
     return fuseInChildProcess(input);
   }
-  const jsdomLib = input.jsdom || require('jsdom');
+  const jsdomLib = input.jsdom || require("jsdom");
   const config = input.config;
   const slug = input.slug || deriveSlug(config);
-  const domain = (input.domain || ('https://' + slug + '.vercel.app')).replace(/\/$/, '');
+  const domain = (input.domain || "https://" + slug + ".vercel.app").replace(
+    /\/$/,
+    "",
+  );
   const warnings = [];
   const files = [];
 
@@ -544,7 +725,10 @@ async function fuseSite(input) {
   const bundleJs = input.bundleJs.replace(/"(clamp\([^")]*\))"/g, (m, expr) => {
     let key = null;
     for (const [k, v] of clampMap) if (v === expr) key = k;
-    if (!key) { key = 'var(--cdclamp-' + clampMap.size + ')'; clampMap.set(key, expr); }
+    if (!key) {
+      key = "var(--cdclamp-" + clampMap.size + ")";
+      clampMap.set(key, expr);
+    }
     return '"' + key + '"';
   });
   const restoreClamps = (html) => {
@@ -553,60 +737,89 @@ async function fuseSite(input) {
   };
 
   /* --- 1. blog post count: render the blog listing first and count links --- */
-  const blogDom = await renderRoute(jsdomLib, bundleJs, config, slug, domain, 'blog');
+  const blogDom = await renderRoute(
+    jsdomLib,
+    bundleJs,
+    config,
+    slug,
+    domain,
+    "blog",
+  );
   const postNums = new Set();
-  [...blogDom.window.document.querySelectorAll('a[href]')].forEach((a) => {
-    const m = (a.getAttribute('href') || '').match(/\/blog\/(\d+)\/?$/);
+  [...blogDom.window.document.querySelectorAll("a[href]")].forEach((a) => {
+    const m = (a.getAttribute("href") || "").match(/\/blog\/(\d+)\/?$/);
     if (m) postNums.add(parseInt(m[1], 10));
   });
-  const routes = [...PAGES, ...[...postNums].sort((a, b) => a - b).map((n) => 'blog/' + n)];
+  const routes = [
+    ...PAGES,
+    ...[...postNums].sort((a, b) => a - b).map((n) => "blog/" + n),
+  ];
 
   /* --- 2. render + capture + post-process every route --- */
   for (const route of routes) {
-    const dom = route === 'blog' ? blogDom
-      : await renderRoute(jsdomLib, bundleJs, config, slug, domain, route);
+    const dom =
+      route === "blog"
+        ? blogDom
+        : await renderRoute(jsdomLib, bundleJs, config, slug, domain, route);
     const w = dom.window;
 
     const menuClone = await captureMobileMenu(w);
     const heroCap = await captureHeroCaptions(w);
     const calc = await probeCalculator(w, warnings);
     const testi = await captureTestimonials(w);
-    if (route === 'home') {
-      if (!menuClone) warnings.push('home: mobile menu not captured');
-      if (!heroCap) warnings.push('home: hero slides not captured');
-      if (!calc) warnings.push('home: calculator not found/probed');
-      if (!testi) warnings.push('home: testimonials not captured');
+    if (route === "home") {
+      if (!menuClone) warnings.push("home: mobile menu not captured");
+      if (!heroCap) warnings.push("home: hero slides not captured");
+      if (!calc) warnings.push("home: calculator not found/probed");
+      if (!testi) warnings.push("home: testimonials not captured");
     }
 
     await sleep(30); // drain React's pending microtask work from the capture clicks
 
     postProcess(w, { slug, domain, menuClone, heroCap, testi, calc });
 
-    const path = route === 'home' ? 'index.html' : route + '/index.html';
+    const path = route === "home" ? "index.html" : route + "/index.html";
     files.push({ path, content: restoreClamps(serializeDoc(w.document)) });
     await sleep(30); // let queued microtasks finish while the window is still alive
-    try { w.close(); } catch (e) {}
+    try {
+      w.close();
+    } catch (e) {}
   }
 
   /* --- 3. site-wide assets --- */
-  files.push({ path: 'assets/site.css', content: input.cssText + '\n' + EXTRA_CSS });
-  files.push({ path: 'assets/site.js', content: input.siteJs });
-  files.push({ path: 'favicon.svg', content: buildFavicon(config) });
-  files.push({ path: 'robots.txt', content: 'User-agent: *\nAllow: /\n\nSitemap: ' + domain + '/sitemap.xml\n' });
-  files.push({ path: 'sitemap.xml', content: buildSitemap(domain, routes) });
-  files.push({ path: 'vercel.json', content: JSON.stringify({ cleanUrls: true, trailingSlash: true }, null, 2) + '\n' });
-  files.push({ path: 'EDITING.md', content: buildEditingGuide(slug) });
+  files.push({
+    path: "assets/site.css",
+    content: input.cssText + "\n" + EXTRA_CSS,
+  });
+  files.push({ path: "assets/site.js", content: input.siteJs });
+  files.push({ path: "favicon.svg", content: buildFavicon(config) });
+  files.push({
+    path: "robots.txt",
+    content: "User-agent: *\nAllow: /\n\nSitemap: " + domain + "/sitemap.xml\n",
+  });
+  files.push({ path: "sitemap.xml", content: buildSitemap(domain, routes) });
+  files.push({
+    path: "vercel.json",
+    content:
+      JSON.stringify({ cleanUrls: true, trailingSlash: true }, null, 2) + "\n",
+  });
+  files.push({ path: "EDITING.md", content: buildEditingGuide(slug) });
 
   /* --- 4. local images referenced by the pages -> copy manifest --- */
   const copies = [];
   const seen = new Set();
   for (const f of files) {
-    if (!f.path.endsWith('.html')) continue;
-    for (const m of f.content.matchAll(/\/assets\/images\/([a-zA-Z0-9_\-./]+)/g)) {
+    if (!f.path.endsWith(".html")) continue;
+    for (const m of f.content.matchAll(
+      /\/assets\/images\/([a-zA-Z0-9_\-./]+)/g,
+    )) {
       const rel = m[1];
       if (!seen.has(rel)) {
         seen.add(rel);
-        copies.push({ from: 'sites/images/' + rel, to: 'assets/images/' + rel });
+        copies.push({
+          from: "sites/images/" + rel,
+          to: "assets/images/" + rel,
+        });
       }
     }
   }
@@ -615,28 +828,49 @@ async function fuseSite(input) {
 }
 
 function fuseInChildProcess(input) {
-  const { execFile } = require('child_process');
+  const { execFile } = require("child_process");
   return new Promise((resolve, reject) => {
     const child = execFile(
-      process.execPath, [__filename],
-      { env: { ...process.env, CD_FUSER_CHILD: '1' }, maxBuffer: 256 * 1024 * 1024, timeout: 180000 },
+      process.execPath,
+      [__filename],
+      {
+        env: { ...process.env, CD_FUSER_CHILD: "1" },
+        maxBuffer: 256 * 1024 * 1024,
+        timeout: 180000,
+      },
       (err, stdout, stderr) => {
-        if (err) return reject(new Error('cd-fuser child failed: ' + ((stderr || '').slice(-2000) || err.message)));
-        try { resolve(JSON.parse(stdout)); } catch (e) { reject(new Error('cd-fuser child returned invalid JSON: ' + stdout.slice(0, 300))); }
-      }
+        if (err)
+          return reject(
+            new Error(
+              "cd-fuser child failed: " +
+                ((stderr || "").slice(-2000) || err.message),
+            ),
+          );
+        try {
+          resolve(JSON.parse(stdout));
+        } catch (e) {
+          reject(
+            new Error(
+              "cd-fuser child returned invalid JSON: " + stdout.slice(0, 300),
+            ),
+          );
+        }
+      },
     );
-    child.stdin.on('error', reject);
+    child.stdin.on("error", reject);
     child.stdin.write(JSON.stringify(input));
     child.stdin.end();
   });
 }
 
 /* child-process entry: input JSON on stdin, result JSON on stdout */
-if (process.env.CD_FUSER_CHILD === '1' && require.main === module) {
-  let buf = '';
-  process.stdin.setEncoding('utf8');
-  process.stdin.on('data', (c) => { buf += c; });
-  process.stdin.on('end', async () => {
+if (process.env.CD_FUSER_CHILD === "1" && require.main === module) {
+  let buf = "";
+  process.stdin.setEncoding("utf8");
+  process.stdin.on("data", (c) => {
+    buf += c;
+  });
+  process.stdin.on("end", async () => {
     try {
       const out = await fuseSite(JSON.parse(buf));
       process.stdout.write(JSON.stringify(out));
