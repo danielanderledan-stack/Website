@@ -16,14 +16,14 @@
         --cyan: #48cae4;
         --bg: #f4f7fa;
       }
-      /* the hidden attribute must always win over display:flex rules */
-      [hidden] {
-        display: none !important;
-      }
       * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+      }
+      /* the hidden attribute must always win over display rules */
+      [hidden] {
+        display: none !important;
       }
       body {
         font-family: Roboto, system-ui, sans-serif;
@@ -42,6 +42,16 @@
         gap: 10px;
         flex-shrink: 0;
         border-bottom: 3px solid var(--cyan);
+        z-index: 30;
+      }
+      #menuBtn {
+        display: none;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 2px 6px;
       }
       header .logo {
         font-family: "Roboto Slab", serif;
@@ -89,6 +99,156 @@
         text-decoration: underline;
       }
 
+      #app {
+        flex: 1;
+        display: flex;
+        min-height: 0;
+      }
+
+      /* ---------- sidebar with preset tasks ---------- */
+      #sidebar {
+        width: 280px;
+        flex-shrink: 0;
+        background: #fff;
+        border-right: 1px solid #e2eaf2;
+        overflow-y: auto;
+        padding: 16px 14px 24px;
+      }
+      #sidebar h3 {
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;
+        color: var(--navy);
+        margin: 4px 4px 12px;
+      }
+      .tile {
+        border: 1px solid #e2eaf2;
+        border-radius: 14px;
+        padding: 14px;
+        margin-bottom: 12px;
+        background: #fbfdff;
+      }
+      .tile h4 {
+        font-size: 13.5px;
+        color: var(--navy);
+        margin-bottom: 4px;
+      }
+      .tile p {
+        font-size: 12px;
+        color: #6c8398;
+        line-height: 1.45;
+        margin-bottom: 10px;
+      }
+      .tile label {
+        display: block;
+        font-size: 11px;
+        font-weight: 700;
+        color: #41637d;
+        margin: 8px 0 4px;
+      }
+      .tile input[type="text"],
+      .tile select {
+        width: 100%;
+        border: 1.5px solid #d6e2ec;
+        border-radius: 9px;
+        padding: 8px 10px;
+        font-size: 13px;
+        font-family: inherit;
+        outline: none;
+        background: #fff;
+      }
+      .tile input[type="text"]:focus,
+      .tile select:focus {
+        border-color: var(--cyan);
+      }
+      .colorrow {
+        display: flex;
+        gap: 10px;
+      }
+      .colorrow div {
+        flex: 1;
+      }
+      .tile input[type="color"] {
+        width: 100%;
+        height: 36px;
+        border: 1.5px solid #d6e2ec;
+        border-radius: 9px;
+        padding: 2px;
+        background: #fff;
+        cursor: pointer;
+      }
+      .tile button {
+        width: 100%;
+        margin-top: 10px;
+        background: var(--navy);
+        color: #fff;
+        border: none;
+        border-radius: 9px;
+        padding: 9px;
+        font-size: 12.5px;
+        font-weight: 700;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .tile button:hover {
+        background: #123a63;
+      }
+      .sidebar-note {
+        font-size: 11px;
+        color: #8aa0b2;
+        line-height: 1.5;
+        margin-top: 14px;
+        padding: 0 4px;
+      }
+      #sidebarClose {
+        display: none;
+      }
+      #scrim {
+        display: none;
+      }
+
+      @media (max-width: 880px) {
+        #menuBtn {
+          display: block;
+        }
+        #sidebar {
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          z-index: 60;
+          transform: translateX(-105%);
+          transition: transform 0.25s ease;
+          box-shadow: 8px 0 30px rgba(10, 37, 64, 0.18);
+          padding-top: 14px;
+        }
+        #sidebar.open {
+          transform: translateX(0);
+        }
+        #sidebarClose {
+          display: block;
+          background: none;
+          border: none;
+          font-size: 22px;
+          color: #90a4b5;
+          cursor: pointer;
+          float: right;
+          margin: -2px 2px 6px;
+        }
+        #scrim.show {
+          display: block;
+          position: fixed;
+          inset: 0;
+          background: rgba(6, 24, 43, 0.45);
+          z-index: 50;
+        }
+      }
+
+      #main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
       #messages {
         flex: 1;
         overflow-y: auto;
@@ -140,6 +300,21 @@
         border-radius: 10px;
         margin-top: 8px;
         object-fit: cover;
+      }
+      .bubble .preset-tag {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        background: rgba(72, 202, 228, 0.25);
+        color: #063e50;
+        border-radius: 6px;
+        padding: 2px 8px;
+        margin-bottom: 6px;
+      }
+      .user .bubble .preset-tag {
+        background: rgba(72, 202, 228, 0.35);
+        color: #eafcff;
       }
       .chips {
         display: flex;
@@ -284,7 +459,7 @@
         text-align: center;
       }
 
-      /* ------- modals ------- */
+      /* ---------- modals ---------- */
       .overlay {
         position: fixed;
         inset: 0;
@@ -293,9 +468,10 @@
         align-items: center;
         justify-content: center;
         padding: 18px;
-        z-index: 50;
+        z-index: 80;
       }
       .modal {
+        position: relative;
         background: #fff;
         border-radius: 20px;
         max-width: 430px;
@@ -303,6 +479,8 @@
         padding: 30px 28px;
         box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
         border-top: 5px solid var(--cyan);
+        max-height: 92dvh;
+        overflow-y: auto;
       }
       .modal h2 {
         font-family: "Roboto Slab", serif;
@@ -370,11 +548,6 @@
         color: #90a4b5;
         cursor: pointer;
       }
-      .modal {
-        position: relative;
-      }
-
-      /* top-up specifics */
       .me {
         display: flex;
         gap: 14px;
@@ -425,6 +598,7 @@
   </head>
   <body>
     <header>
+      <button id="menuBtn" aria-label="Tasks menu">&#9776;</button>
       <div class="logo">
         complete digital<span style="color: var(--cyan)">.</span> website
         builder
@@ -436,55 +610,132 @@
       </div>
     </header>
 
-    <div id="messages"></div>
+    <div id="app">
+      <aside id="sidebar">
+        <button id="sidebarClose" aria-label="Close">&times;</button>
+        <h3>Quick tasks</h3>
 
-    <div id="composer" hidden>
-      <div id="previews"></div>
-      <div class="bar">
-        <button class="iconbtn" id="attach" title="Attach an image">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path
-              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+        <div class="tile">
+          <h4>Quote-only website</h4>
+          <p>
+            Hide all your prices and turn every pricing button into a "Get a
+            free quote" request.
+          </p>
+          <button data-preset="quote-only">Make it quote-only</button>
+        </div>
+
+        <div class="tile">
+          <h4>Write a blog post</h4>
+          <p>
+            A new post on your blog — good for showing up in Google searches.
+          </p>
+          <label>Topic</label>
+          <input
+            type="text"
+            id="blogTopic"
+            placeholder="e.g. how to spot failing caulking"
+          />
+          <label>Length</label>
+          <select id="blogLength">
+            <option value="a quick read (about 300 words)">Quick read</option>
+            <option value="a standard post (about 600 words)" selected>
+              Standard
+            </option>
+            <option value="a detailed guide (about 1000 words)">
+              Detailed guide
+            </option>
+          </select>
+          <button data-preset="blog">Write the post</button>
+        </div>
+
+        <div class="tile">
+          <h4>Change colours</h4>
+          <p>Re-theme your whole site with a new main and dark colour.</p>
+          <div class="colorrow">
+            <div>
+              <label>Main colour</label
+              ><input type="color" id="colMain" value="#00bfff" />
+            </div>
+            <div>
+              <label>Dark colour</label
+              ><input type="color" id="colDark" value="#1a1a1a" />
+            </div>
+          </div>
+          <button data-preset="colours">Change colours</button>
+        </div>
+
+        <div class="tile">
+          <h4>Special offer</h4>
+          <p>Put a special offer front and centre on your home page.</p>
+          <label>The offer</label>
+          <input
+            type="text"
+            id="offerText"
+            placeholder="e.g. 10% off all jobs booked in June"
+          />
+          <button data-preset="offer">Add the offer</button>
+        </div>
+
+        <p class="sidebar-note">
+          Each task uses $1 of credit, charged only when the change is made.
+          Anything bigger — redesigns, new pages, new features — talk to Dan on
+          0432 839 654.
+        </p>
+      </aside>
+      <div id="scrim"></div>
+
+      <div id="main">
+        <div id="messages"></div>
+
+        <div id="composer" hidden>
+          <div id="previews"></div>
+          <div class="bar">
+            <button class="iconbtn" id="attach" title="Attach an image">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+                />
+                <circle cx="12" cy="13" r="4" />
+              </svg>
+            </button>
+            <input
+              type="file"
+              id="file"
+              accept="image/png,image/jpeg,image/webp,image/gif"
+              multiple
+              hidden
             />
-            <circle cx="12" cy="13" r="4" />
-          </svg>
-        </button>
-        <input
-          type="file"
-          id="file"
-          accept="image/png,image/jpeg,image/webp,image/gif"
-          multiple
-          hidden
-        />
-        <textarea
-          id="input"
-          rows="1"
-          placeholder="Describe a change… e.g. “Change the homepage headline to …”"
-        ></textarea>
-        <button class="iconbtn" id="send" title="Send">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M22 2 11 13" />
-            <path d="M22 2 15 22l-4-9-9-4 20-7z" />
-          </svg>
-        </button>
-      </div>
-      <div class="hint">
-        Each request uses $1 of editing credit. Changes go live on your website
-        within a minute or two.
+            <textarea
+              id="input"
+              rows="1"
+              placeholder="Describe a change… e.g. “Change the homepage headline to …”"
+            ></textarea>
+            <button class="iconbtn" id="send" title="Send">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M22 2 11 13" />
+                <path d="M22 2 15 22l-4-9-9-4 20-7z" />
+              </svg>
+            </button>
+          </div>
+          <div class="hint">
+            Questions are free — $1 of credit only when we change something.
+            Changes go live within a minute or two.
+          </div>
+        </div>
       </div>
     </div>
 
@@ -525,8 +776,8 @@
             <strong>A quick word from Dan:</strong> every change you make here
             runs on a powerful AI, and that AI costs us real money each time.
             Your website itself is free — so we can't afford to eat the AI cost
-            too. $1 per request keeps this fair for everyone. Thanks for
-            understanding!
+            too. $1 per change (questions are always free) keeps it fair for
+            everyone. Thanks for understanding!
           </p>
         </div>
         <p class="sub" id="topupReason" style="margin-bottom: 10px"></p>
@@ -566,7 +817,6 @@
           site: "",
           balance: 0,
         };
-
         var $ = function (id) {
           return document.getElementById(id);
         };
@@ -583,7 +833,14 @@
           row.className = "row " + role;
           var b = document.createElement("div");
           b.className = "bubble";
-          b.textContent = text;
+          if (opts.presetLabel) {
+            var tag = document.createElement("span");
+            tag.className = "preset-tag";
+            tag.textContent = opts.presetLabel;
+            b.appendChild(tag);
+            b.appendChild(document.createElement("br"));
+          }
+          b.appendChild(document.createTextNode(text));
           (opts.images || []).forEach(function (src) {
             var img = document.createElement("img");
             img.className = "att";
@@ -633,16 +890,99 @@
           messagesEl.innerHTML = "";
           if (history && history.length) {
             history.forEach(function (m) {
-              addBubble(m.role === "assistant" ? "ai" : "user", m.content);
+              var t = String(m.content || "");
+              var preset = t.match(/^\[PRESET: ([a-z-]+)\]/);
+              addBubble(
+                m.role === "assistant" ? "ai" : "user",
+                preset ? t.replace(/^\[PRESET: [a-z-]+\]\s*/, "") : t,
+                preset ? { presetLabel: "Quick task: " + preset[1] } : {},
+              );
             });
           } else {
             addBubble(
               "ai",
-              "Hi! I'm your website editor. Tell me what you'd like to change — wording, photos, prices, anything. Attach images with the camera button.",
+              "Hi! I'm your website editor. Tell me what you'd like to change — wording, photos, prices, anything. Questions are free; changes are $1 each. The quick tasks on the left are a good place to start.",
             );
           }
           inputEl.focus();
         }
+
+        /* ---------- sidebar (mobile drawer) ---------- */
+        function closeSidebar() {
+          $("sidebar").classList.remove("open");
+          $("scrim").classList.remove("show");
+        }
+        $("menuBtn").onclick = function () {
+          $("sidebar").classList.add("open");
+          $("scrim").classList.add("show");
+        };
+        $("sidebarClose").onclick = closeSidebar;
+        $("scrim").onclick = closeSidebar;
+
+        /* ---------- presets ---------- */
+        var PRESETS = {
+          "quote-only": function () {
+            return {
+              label: "Quote-only website",
+              message:
+                '[PRESET: quote-only] Convert my website to quote-only: remove or hide all specific dollar amounts and prices everywhere (pricing cards, price lists, calculator amounts), and change pricing-related buttons and calls-to-action to "Get a free quote".',
+            };
+          },
+          blog: function () {
+            var topic = $("blogTopic").value.trim();
+            if (!topic) return { error: "Give the blog post a topic first." };
+            return {
+              label: "Write a blog post",
+              message:
+                "[PRESET: blog] Write and publish a new blog post about: " +
+                topic +
+                ". Make it " +
+                $("blogLength").value +
+                ", helpful and local, in my business voice.",
+            };
+          },
+          colours: function () {
+            var main = $("colMain").value,
+              dark = $("colDark").value;
+            return {
+              label: "Change colours",
+              message:
+                "[PRESET: colours] Change my site theme colours: primary colour " +
+                main +
+                ", secondary/dark colour " +
+                dark +
+                ". Apply to every page.",
+            };
+          },
+          offer: function () {
+            var offer = $("offerText").value.trim();
+            if (!offer) return { error: "Type the offer first." };
+            return {
+              label: "Special offer",
+              message:
+                "[PRESET: offer] Add this special offer prominently on my home page: " +
+                offer,
+            };
+          },
+        };
+        Array.prototype.forEach.call(
+          document.querySelectorAll("[data-preset]"),
+          function (btn) {
+            btn.onclick = function () {
+              var p = PRESETS[btn.getAttribute("data-preset")]();
+              if (p.error) {
+                addBubble("sys", p.error);
+                closeSidebar();
+                return;
+              }
+              closeSidebar();
+              sendMessage(p.message, {
+                presetLabel: "Quick task: " + p.label,
+                display: p.message.replace(/^\[PRESET: [a-z-]+\]\s*/, ""),
+              });
+            };
+          },
+        );
 
         /* ---------- auth ---------- */
         function showLogin(msg) {
@@ -720,9 +1060,6 @@
               showLogin("Could not reach the server — please try again.");
             });
         }
-
-        // After a Square top-up redirect, the credit lands via webhook a few
-        // seconds later — poll until the balance moves.
         function pollBalance(startBal, left) {
           if (left <= 0) return;
           setTimeout(function () {
@@ -866,28 +1203,31 @@
         inputEl.addEventListener("keydown", function (e) {
           if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();
-            send();
+            sendFromBox();
           }
         });
-        sendBtn.onclick = send;
+        sendBtn.onclick = sendFromBox;
 
-        function send() {
-          if (busy) return;
+        function sendFromBox() {
           var text = inputEl.value.trim();
           if (!text && !pending.length) return;
-          if (state.balance < 1) {
-            openTopup("You'll need at least $1 of credit to send a request.");
-            return;
-          }
+          inputEl.value = "";
+          inputEl.style.height = "auto";
+          sendMessage(text, {});
+        }
+
+        function sendMessage(text, opts) {
+          if (busy) return;
+          if (!text && !pending.length) return;
+          // questions are free even on $0 — the server gates only actual changes
 
           var imgs = pending.slice();
-          addBubble("user", text || "(image)", {
+          addBubble("user", opts.display || text || "(image)", {
             images: imgs.map(function (p) {
               return p.dataUrl;
             }),
+            presetLabel: opts.presetLabel,
           });
-          inputEl.value = "";
-          inputEl.style.height = "auto";
           pending = [];
           renderPreviews();
 
@@ -911,7 +1251,7 @@
                 throw new Error(
                   "The editor hit a problem (HTTP " +
                     r.status +
-                    "). Your credit was not charged twice — please try again.",
+                    "). If anything was charged for a failed change, message us and we will sort it.",
                 );
               return r.json();
             })

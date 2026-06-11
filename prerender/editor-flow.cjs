@@ -58,6 +58,8 @@ return src.images.map((img) => ({
 const CODE_PLANNER_PROMPT = `
 // Assembles the planner prompt. Edit freely — this is plain text in, JSON out.
 const req = $('Validate Edit Request').first().json;
+let route = { intent: 'text_edit' };
+try { route = $('Parse Route').first().json; } catch (e) {}
 
 // page list from sitemap.xml (fallback: the standard generated page set)
 let pages = ['index.html', 'about/index.html', 'services/index.html', 'pricing/index.html', 'blog/index.html', 'contact/index.html'];
@@ -73,7 +75,21 @@ try {
   if (g && g.content) guide = Buffer.from(g.content, 'base64').toString('utf8');
 } catch (e) {}
 
-const editable = [...pages, 'assets/site.css'];
+const isPreset = route.intent === 'preset';
+const editable = [...pages, 'assets/site.css', ...(isPreset ? ['sitemap.xml'] : [])];
+
+const INTENT_RULES = {
+  text_edit: 'This is a TEXT change (wording, headings, prices, contact details, typo fixes). Change text and attribute values only — no structural/markup redesign. Keep edits tight.',
+  image_edit: 'This is an IMAGE change (add/swap/remove an image). Use ONLY the uploaded image paths listed above or images already on the site — never invent a path. "Header image" / "main image" means the home page hero slide image.',
+  content_edit: 'This is a CONTENT improvement, limited to ONE section of ONE page. Pick the single most relevant section. If the request actually spans multiple sections or pages, do NOT edit: set files_to_edit to [] and reply that bigger reworks are best done by Dan personally on 0432 839 654 (no charge for asking).',
+  preset: [
+    'This is a CURATED PRESET job — follow the preset instructions in the message exactly. Preset notes:',
+    '- [PRESET: quote-only]: remove/hide all specific dollar amounts across pages (pricing cards, price lists, calculator) and re-word pricing CTAs to "Get a free quote". You may edit up to 8 files.',
+    '- [PRESET: colours]: change the four CSS variables (--color-primary, --color-primary-rgb, --color-primary-hover, --color-secondary) in the <html> style attribute of EVERY page. primary-rgb is the primary hex as "r, g, b"; primary-hover is primary darkened ~12%. Edit every page file.',
+    '- [PRESET: offer]: add or update a special-offer line on the home page (hero subheading or banner section) with the offer text given. One page only.',
+    '- [PRESET: blog]: write a NEW blog post. files_to_edit MUST be ["blog/index.html", "blog/1/index.html"] (the listing + a reference post). Plan: create blog/<next-number>/index.html cloned from the reference post structure (same head/nav/footer/sections, new title/date/body), add a matching card to the blog listing, and add the new URL to sitemap.xml (also include "sitemap.xml" in files_to_edit). Use todays date.',
+  ].join('\\n'),
+};
 
 const prompt = [
   'You are the PLANNING agent of a website editing assistant. Customers of a web agency chat with you to change their own small-business website (fully static HTML, no build step).',
@@ -91,19 +107,22 @@ const prompt = [
   '== CUSTOMER MESSAGE ==',
   req.message,
   '',
+  '== REQUEST TYPE (pre-classified) ==',
+  route.intent,
+  INTENT_RULES[route.intent] || INTENT_RULES.text_edit,
+  '',
   '== YOUR JOB ==',
-  '1. Decide if this needs file edits at all. Pure questions ("what pages do I have?") need none. NOTE: you can see file names and the editing guide but NOT page contents — never promise to "check" or "have a look at" a page, because no follow-up happens unless the customer asks for a change. If you cannot answer, say what you do know and ask them to tell you what they want changed.',
-  '2. If edits are needed, pick the file(s) to change — usually ONE page, never more than 4. Page URLs map to files: / -> index.html, /about/ -> about/index.html, etc. Styling/theme changes go in the <html> style attribute of each page (CSS variables) or assets/site.css.',
-  '3. Write a concrete implementation plan: which sections (pages contain <!-- SECTION: name --> markers), what text/markup changes, which images to use. Mention constraints the implementer must keep: data-cd attributes, CSS variables for colors, hero captions exist both in <h1 data-cd="hero-title"> and the matching slide data-title, page <head> (title/description/og/JSON-LD) must stay consistent with visible changes.',
-  '4. Keep the reply to the customer short, friendly, plain-language (no tech jargon, no file paths). Australian small-business tone.',
-  '5. If anything is unclear, ask the question in reply and files_to_edit MUST be [] — never edit while also asking for clarification.',
-  '6. IMAGE REQUESTS: if the section IMAGES THE CUSTOMER JUST UPLOADED appears above, the customer DID attach image(s) THIS turn — never say nothing was attached; plan with those exact paths. The site can only show images that exist. Use the customer-uploaded image paths listed above, or images already on the site. If they ask to add/change an image but uploaded nothing this turn, reply asking them to attach it with the camera button, files_to_edit []. "Header image" / "main image" means the home page hero slide image unless they say otherwise.',
+  '1. Plan the edit. Pick the file(s) to change — usually ONE page' + (isPreset ? ' (presets may span more, see notes)' : ', never more than 4') + '. Page URLs map to files: / -> index.html, /about/ -> about/index.html.',
+  '2. Write a concrete implementation plan: which sections (pages contain <!-- SECTION: name --> markers), exact text/markup changes, which images to use. Constraints the implementer must keep: data-cd attributes, CSS variables for theme colors, hero captions exist both in <h1 data-cd="hero-title"> AND the matching slide data-title, page <head> (title/description/og/JSON-LD) stays consistent with visible changes.',
+  '3. If the uploaded-images section is present, the customer DID attach image(s) this turn — never claim otherwise; plan with those exact paths.',
+  '4. If anything is unclear, ask in reply and files_to_edit MUST be [] — never edit while asking. If the request is really MAJOR work (redesign, new features, many sections), files_to_edit [] and point them to Dan on 0432 839 654.',
+  '5. ' + "REPLY STYLE: you are Dan's website assistant — sound like a friendly, busy Aussie texting a client. First person, contractions, short warm sentences, no corporate fluff, no emojis, never \\"I have successfully\\", never mention being an AI, files, code or paths.",
   '',
   'Output ONLY a JSON object, no markdown fences:',
   '{"reply": "<what you tell the customer>", "files_to_edit": ["index.html"], "plan": "<detailed notes for the implementer>"}',
 ].join('\\n');
 
-return [{ json: { prompt, editable } }];
+return [{ json: { prompt, editable, isPreset } }];
 `.trim();
 
 const CODE_PARSE_PLAN = `
@@ -116,9 +135,11 @@ if (!m) throw new Error('Planner returned no JSON: ' + raw.slice(0, 300));
 let plan;
 try { plan = JSON.parse(m[0]); } catch (e) { throw new Error('Planner JSON invalid: ' + m[0].slice(0, 300)); }
 
-const editable = new Set($('Build Planner Prompt').first().json.editable);
+const src = $('Build Planner Prompt').first().json;
+const editable = new Set(src.editable);
+const cap = src.isPreset ? 8 : 4;
 const files = (Array.isArray(plan.files_to_edit) ? plan.files_to_edit : [])
-  .map(String).filter((p) => editable.has(p)).slice(0, 4);
+  .map(String).filter((p) => editable.has(p)).slice(0, cap);
 
 return [{ json: {
   reply: String(plan.reply || 'Done.'),
@@ -166,9 +187,13 @@ const prompt = [
   '===',
   '(the replacement lines)',
   '>>>',
-  'Repeat blocks as needed (multiple blocks per file are fine). After all blocks output:',
+  'To CREATE a brand-new file (ONLY when the plan says to, e.g. a new blog post page) output instead:',
+  '<<<NEWFILE blog/5/index.html',
+  '(the complete file content)',
+  '>>>',
+  'Repeat blocks as needed. After all blocks output:',
   '<<<REPLY',
-  '(one or two friendly sentences telling the customer what changed — plain language, no file names)',
+  '(one or two sentences telling the customer what changed)',
   '>>>',
   '',
   '== RULES ==',
@@ -177,16 +202,18 @@ const prompt = [
   '- Colors that should follow the site theme must use var(--color-primary) etc., never hard-coded copies of theme colors.',
   '- Hero heading changes: update BOTH the <h1 data-cd="hero-title"> text AND the matching data-title attribute on the first [data-cd="slide"].',
   '- If visible business info changes (name, suburb, services), also update the page <title>, meta description and og: tags in the same page.',
-  '- NEVER invent or alter image filenames/paths. An <img src> or background-image value may ONLY be: (a) one of the UPLOADED IMAGE PATHS above copied character-for-character, (b) a path that already appears in the provided files, or (c) an https URL the customer explicitly gave. Anything else 404s and the live site swaps in a random placeholder photo. If the plan involves a new image and uploaded paths exist, use the uploaded path.',
+  '- NEVER invent or alter image filenames/paths. An <img src> or background-image value may ONLY be: (a) one of the UPLOADED IMAGE PATHS above copied character-for-character, (b) a path that already appears in the provided files, or (c) an https URL the customer explicitly gave. Anything else 404s and the live site swaps in a random placeholder photo.',
+  '- NEWFILE paths must be blog/<number>/index.html only; model the page on the provided reference post (keep its head structure, nav, footer, css link, site.js) with new content.',
   '- Give every <img> meaningful alt text. Use loading="lazy" except above-the-fold.',
   '- Keep HTML valid; keep the existing inline-style coding style of the file.',
+  '- ' + "REPLY STYLE: you are Dan's website assistant — sound like a friendly, busy Aussie texting a client. First person, contractions, short warm sentences, no corporate fluff, no emojis, never \\"I have successfully\\", never mention being an AI, files, code or paths.",
 ].join('\\n');
 
 return [{ json: { prompt, files } }];
 `.trim();
 
 const CODE_APPLY_EDITS = `
-// Parses SEARCH/REPLACE blocks and applies them to the fetched files.
+// Parses SEARCH/REPLACE + NEWFILE blocks and applies them.
 let out = String($json.text || '');
 const tIdx2 = out.lastIndexOf('</think>');
 if (tIdx2 !== -1) out = out.slice(tIdx2 + 8);
@@ -194,6 +221,7 @@ const src = $('Build Implementer Prompt').first().json;
 const files = { ...src.files };
 
 const blockRe = /<<<FILE ([^\\n]+)\\n<<<SEARCH\\n([\\s\\S]*?)\\n===\\n([\\s\\S]*?)\\n>>>/g;
+const newFileRe = /<<<NEWFILE ([^\\n]+)\\n([\\s\\S]*?)\\n>>>/g;
 const replyRe = /<<<REPLY\\n([\\s\\S]*?)\\n?>>>/;
 
 const applied = [];
@@ -209,13 +237,11 @@ while ((m = blockRe.exec(out)) !== null) {
     applied.push(file);
     continue;
   }
-  // fallback: tolerate trailing-whitespace / CRLF drift per line
   const norm = (s) => s.replace(/\\r/g, '').split('\\n').map((l) => l.replace(/\\s+$/, '')).join('\\n');
   const normFile = norm(files[file]);
   const normSearch = norm(search);
   const idx = normFile.indexOf(normSearch);
   if (idx !== -1) {
-    // map back via line counts
     const pre = normFile.slice(0, idx).split('\\n').length - 1;
     const lines = files[file].split('\\n');
     const span = normSearch.split('\\n').length;
@@ -227,15 +253,29 @@ while ((m = blockRe.exec(out)) !== null) {
   }
 }
 
+// brand-new files (blog posts only)
+const created = {};
+while ((m = newFileRe.exec(out)) !== null) {
+  const file = m[1].trim();
+  if (!/^blog\\/\\d+\\/index\\.html$/.test(file)) { failed.push(file + ': NEWFILE path not allowed'); continue; }
+  if (file in files) { failed.push(file + ': NEWFILE already exists'); continue; }
+  created[file] = m[2];
+  applied.push(file);
+}
+
 const replyM = out.match(replyRe);
 const reply = replyM ? replyM[1].trim() : $('Parse Plan').first().json.reply;
 
 const changed = [...new Set(applied)];
 if (!changed.length) {
-  // nothing applied — surface a useful error to the customer
-  return [{ json: { noChanges: true, reply: 'Sorry — I could not apply that change automatically. Could you describe it a little differently?', failures: failed } }];
+  return [{ json: { noChanges: true, reply: 'Sorry — I could not make that change automatically. Could you describe it a little differently?', failures: failed } }];
 }
-return changed.map((p) => ({ json: { path: p, content: files[p], reply, failures: failed } }));
+return changed.map((p) => ({ json: {
+  path: p,
+  content: created[p] !== undefined ? created[p] : files[p],
+  isNew: created[p] !== undefined,
+  reply, failures: failed,
+} }));
 `.trim();
 
 const CODE_BUILD_REPLY = `

@@ -1,8 +1,11 @@
-/* Adds customer auth + billing to the workflow:
-   - /webhook/builder-auth  (login / session / credit actions)
-   - editor chain: session check, $1/message charge, server-side history.
-   Run: node prerender/builder-auth-flow.cjs        (create everything)
-        node prerender/builder-auth-flow.cjs update (re-apply parameters)
+/* Customer auth + intent routing + billing for the site editor workflow.
+   v3: gpt-oss-120b router classifies each message; $1 is charged ONLY when
+   an edit actually happens (questions/major-requests are free; major work
+   is referred to Dan on 0432 839 654).
+
+   Run: node prerender/builder-auth-flow.cjs          (create everything)
+        node prerender/builder-auth-flow.cjs update   (re-apply parameters)
+        node prerender/builder-auth-flow.cjs migrate  (v2 -> v3 in-place)
 */
 "use strict";
 const fs = require("fs");
@@ -17,11 +20,14 @@ const TABLE = {
   cachedResultName: "Customer",
   cachedResultUrl: "/projects/plQj1g7Jh5oWs2Nv/datatables/NJUM0H4anjWD9V7U",
 };
+const OR_CRED = { id: "a3JC3E3Sxx6KtLLv", name: "OpenRouter account 3" };
+const ROUTER_MODEL = "openai/gpt-oss-120b";
 const CREDIT_SECRET = "cd-credit-w7m2p9xk4fqz";
-const EDIT_TOKEN = "cd-edit-9drx84kq2m"; // legacy per-site links keep working
-const MSG_FEE = 1; // dollars per message
+const EDIT_TOKEN = "cd-edit-9drx84kq2m"; // legacy per-site links keep working (unbilled)
+const MSG_FEE = 1; // dollars per ACTIONED message
+const DAN = "0432 839 654";
 
-/* ---------------- Code node sources ---------------- */
+/* ---------------- account webhook (login / session / credit) ---------------- */
 
 const CODE_CHECK_LOGIN = `
 // Verifies number+password against the Customer table row (if any).
@@ -30,7 +36,6 @@ const row = $input.first().json || {};
 const ok = !!(row.id !== undefined && row.Password && String(row.Password) === String(body.password || ''));
 if (!ok) return [{ json: { ok: false, error: 'Wrong phone number or password.' } }];
 
-// session token: webcrypto when available, layered Math.random fallback
 let token;
 try { token = crypto.randomUUID() + '-' + crypto.randomUUID(); }
 catch (e) { token = Array.from({ length: 64 }, () => Math.floor(Math.random() * 16).toString(16)).join(''); }
@@ -93,8 +98,9 @@ const CODE_CREDIT_REPLY = `
 return [{ json: { ok: true, balance: $('Apply Credit').first().json.balance } }];
 `.trim();
 
-/* Replacement for the editor chain's Validate Edit Request: session + billing */
-const CODE_VALIDATE_V2 = `
+/* ---------------- editor chain: validate / route / bill ---------------- */
+
+const CODE_VALIDATE_V3 = `
 // Validates the edit request: customer session (billed) or legacy site link.
 const body = $('Edit Webhook').first().json.body || {};
 const row = $input.first().json || {}; // from Load Session (may be empty)
@@ -110,15 +116,14 @@ if (body.token === '${EDIT_TOKEN}' && body.site) {
   if (!valid) return [{ json: { authFailed: true } }];
   site = String(row.site || '');
   const balance = parseFloat(row.account_balance || '0') || 0;
-  if (balance < ${MSG_FEE}) {
-    return [{ json: { insufficient: true, balance: Math.round(balance * 100) / 100 } }];
-  }
   try { history = JSON.parse(row.message_history || '[]'); } catch (e) { history = []; }
   history = history.slice(-12);
   billing = {
     rowId: row.id,
     number: row.Number,
+    balanceNow: Math.round(balance * 100) / 100,
     newBalance: String(Math.round((balance - ${MSG_FEE}) * 100) / 100),
+    canAfford: balance >= ${MSG_FEE},
     prevHistory: JSON.parse(row.message_history || '[]'),
   };
 }
@@ -141,16 +146,89 @@ const images = (Array.isArray(body.images) ? body.images : []).slice(0, 4).map((
 return [{ json: { site, message, history, images, imagePaths: images.map((x) => '/' + x.path), billing } }];
 `.trim();
 
-const CODE_GATE_REPLY = `
-// Friendly responses for the not-allowed paths.
-const j = $input.first().json;
-if (j.authFailed) return [{ json: { error: 'auth', reply: 'Your session has expired — please log in again.' } }];
-return [{ json: { error: 'insufficient_balance', balance: j.balance, reply: 'You are out of editing credit. Top up to keep making changes.' } }];
+const CODE_ROUTER_PROMPT = `
+// Cheap, fast intent classification before any money is spent or charged.
+const v = $('Validate Edit Request').first().json;
+const recent = v.history.slice(-6).map((m) => m.role.toUpperCase() + ': ' + m.content).join('\\n');
+
+const prompt = [
+  'You route customer requests for a small-business website editing chat. Classify the message; when no edit should happen, also draft the reply.',
+  '',
+  'ALLOWED here (MINOR changes, $1 each): wording/text changes, headings, the prices shown on the site, contact details, swapping/adding/removing images, fixing obvious issues (typos, broken bits), and improving the content of ONE section at a time. Messages starting with "[PRESET:" are curated jobs and always count as edits.',
+  'NOT allowed (MAJOR work, free reply, refer to Dan): redesigns, layout/structural changes, new pages or features, full-page or whole-site rewrites, integrations/bookings/forms, SEO overhauls, anything spanning many sections or pages. For these the customer needs Dan directly on ${DAN}.',
+  '',
+  v.imagePaths.length ? 'THE CUSTOMER ATTACHED ' + v.imagePaths.length + ' IMAGE(S) THIS TURN.' : 'No images attached this turn.',
+  '',
+  'RECENT CONVERSATION:',
+  recent || '(first message)',
+  '',
+  'CUSTOMER MESSAGE:',
+  v.message,
+  '',
+  'INTENTS:',
+  '- question  : asking about the site or service, chit-chat, or so unclear you need a follow-up. Not charged.',
+  '- text_edit : change/fix text, headings, prices, contact details, typos.',
+  '- image_edit: add/swap/remove an image (especially when images are attached).',
+  '- content_edit: rewrite/improve ONE section of one page.',
+  '- preset    : message starts with [PRESET:, OR the customer is confirming/continuing a recent [PRESET: ...] task visible in the conversation (e.g. answering its follow-up question). Curated preset jobs are allowed even when they would otherwise be major (like adding a blog post).',
+  '- major     : anything from the NOT-allowed list. Not charged.',
+  '',
+  'REPLY STYLE (question/major only): you are Dan\\'s website assistant. Sound like a friendly, busy Aussie texting a client: first person, contractions, short and warm, no corporate fluff, no emojis, never "I have successfully" or "as an AI". You CANNOT look at or check the website yourself — never promise to "take a look" or report back; share what you know and ask what they want changed. For major: kindly explain that is a bigger job best done properly, and to call or text Dan on ${DAN} — and that this chat has not charged them.',
+  '',
+  'Output ONLY JSON: {"intent": "question|text_edit|image_edit|content_edit|preset|major", "reply": "<for question/major, else empty>"}',
+].join('\\n');
+
+return [{ json: { prompt } }];
 `.trim();
 
-/* Build Edit Reply v2: include balance + prepare history to persist */
-const CODE_BUILD_REPLY_V2 = `
-// Final response payload for the chat UI (handles both edit and no-edit paths).
+const CODE_PARSE_ROUTE = `
+// Extracts the router's decision.
+// Presets are OURS — never let the model reclassify them (it once bounced a
+// curated blog preset to "major" because new pages are normally off-limits).
+const vmsg = String($('Validate Edit Request').first().json.message || '').trim();
+if (/^\\[PRESET:/i.test(vmsg)) return [{ json: { intent: 'preset', reply: '' } }];
+let raw = String($json.text || '');
+const t = raw.lastIndexOf('</think>');
+if (t !== -1) raw = raw.slice(t + 8);
+const m = raw.match(/\\{[\\s\\S]*\\}/);
+let out = {};
+try { out = JSON.parse(m ? m[0] : '{}'); } catch (e) {}
+const intents = ['question', 'text_edit', 'image_edit', 'content_edit', 'preset', 'major'];
+const intent = intents.includes(out.intent) ? out.intent : 'question';
+const reply = String(out.reply || '').trim() || 'Happy to help — could you tell me a bit more about what you want changed?';
+return [{ json: { intent, reply } }];
+`.trim();
+
+const CODE_FREE_REPLY = `
+// No-charge response (questions, major-work referrals). Still saves history.
+const v = $('Validate Edit Request').first().json;
+const r = $('Parse Route').first().json;
+const reply = r.reply;
+let newHistory = null, billingRowId = null, balance = null;
+if (v.billing) {
+  balance = v.billing.balanceNow;
+  billingRowId = v.billing.rowId;
+  newHistory = JSON.stringify((v.billing.prevHistory || []).concat([
+    { role: 'user', content: v.message },
+    { role: 'assistant', content: reply },
+  ]).slice(-40));
+}
+return [{ json: { reply, changed: [], changedUrls: [], site: v.site, balance, failures: [], newHistory, billingRowId, free: true } }];
+`.trim();
+
+const CODE_GATE_REPLY_V3 = `
+// Friendly responses for the not-allowed paths.
+const v = $('Validate Edit Request').first().json;
+if (v.authFailed) return [{ json: { error: 'auth', reply: 'Your session has expired — please log in again.' } }];
+return [{ json: {
+  error: 'insufficient_balance',
+  balance: v.billing ? v.billing.balanceNow : 0,
+  reply: "You're out of editing credit — top up and I'll get straight onto it. (Questions are always free.)",
+} }];
+`.trim();
+
+const CODE_BUILD_REPLY_V3 = `
+// Final response payload for the chat UI (edit paths).
 const items = $input.all();
 const first = items[0] ? items[0].json : {};
 let reply = first.reply || 'Done.';
@@ -160,14 +238,21 @@ try { changed = $('Apply Edits').all().filter((i) => i.json.path).map((i) => i.j
 changed = [...new Set(changed)];
 const v = $('Validate Edit Request').first().json;
 
-let newHistory = null, balance = null;
+// the fee only applies when Charge Fee actually ran (i.e. a commit happened)
+let charged = false;
+try { $('Charge Fee').first(); charged = true; } catch (e) {}
+
+let failures = first.failures || [];
+try { failures = $('Apply Edits').first().json.failures || failures; } catch (e) {}
+
+let newHistory = null, balance = null, billingRowId = null;
 if (v.billing) {
-  balance = parseFloat(v.billing.newBalance);
-  const h = (v.billing.prevHistory || []).concat([
+  balance = charged ? parseFloat(v.billing.newBalance) : v.billing.balanceNow;
+  billingRowId = v.billing.rowId;
+  newHistory = JSON.stringify((v.billing.prevHistory || []).concat([
     { role: 'user', content: v.message },
     { role: 'assistant', content: reply },
-  ]).slice(-40);
-  newHistory = JSON.stringify(h);
+  ]).slice(-40));
 }
 
 return [{ json: {
@@ -175,15 +260,18 @@ return [{ json: {
   changedUrls: changed.map((p) => '/' + p.replace(/index\\.html$/, '').replace(/\\.html$/, '')),
   site: v.site,
   balance,
-  failures: first.failures || [],
+  failures,
   newHistory,
-  billingRowId: v.billing ? v.billing.rowId : null,
+  billingRowId,
 } }];
 `.trim();
 
-const CODE_FINAL_REPLY = `
-// Strip internals before responding to the UI.
-const r = { ...$('Build Edit Reply').first().json };
+const CODE_FINAL_REPLY_V3 = `
+// Strip internals before responding to the UI (edit OR free path).
+let src = null;
+try { src = $('Build Edit Reply').first().json; } catch (e) {}
+if (!src) { try { src = $('Free Reply').first().json; } catch (e) {} }
+const r = { ...(src || { reply: 'Done.' }) };
 delete r.newHistory; delete r.billingRowId;
 return [{ json: r }];
 `.trim();
@@ -245,10 +333,12 @@ const switchRule = (key, val) => ({
   outputKey: key,
 });
 
+const VREF = "$('Validate Edit Request').first().json";
+
 /* ---------------- nodes ---------------- */
 
 const Y = 1150;
-const nodes = [
+const accountNodes = [
   {
     name: "Builder Webhook",
     type: "n8n-nodes-base.webhook",
@@ -277,14 +367,12 @@ const nodes = [
       options: {},
     },
   },
-
-  /* login */
   {
     name: "Find User",
     type: "n8n-nodes-base.dataTable",
     typeVersion: 1.1,
     position: [1420, Y - 160],
-    alwaysOutputData: true,
+    settings: { alwaysOutputData: true },
     parameters: dtGet(
       "Number",
       "={{ $('Builder Webhook').first().json.body.number }}",
@@ -324,17 +412,15 @@ const nodes = [
     type: "n8n-nodes-base.code",
     typeVersion: 2,
     position: [2220, Y - 220],
-    executeOnce: true,
+    settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_LOGIN_REPLY },
   },
-
-  /* session restore */
   {
     name: "Find Session",
     type: "n8n-nodes-base.dataTable",
     typeVersion: 1.1,
     position: [1420, Y],
-    alwaysOutputData: true,
+    settings: { alwaysOutputData: true },
     parameters: dtGet(
       "session_token",
       "={{ $('Builder Webhook').first().json.body.token }}",
@@ -347,8 +433,6 @@ const nodes = [
     position: [1620, Y],
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_SESSION_REPLY },
   },
-
-  /* credit (from Vercel Square webhook) */
   {
     name: "Credit Guard",
     type: "n8n-nodes-base.code",
@@ -361,7 +445,7 @@ const nodes = [
     type: "n8n-nodes-base.dataTable",
     typeVersion: 1.1,
     position: [1620, Y + 160],
-    alwaysOutputData: true,
+    settings: { alwaysOutputData: true },
     parameters: dtGet("Number", "={{ $json.number }}"),
   },
   {
@@ -385,10 +469,9 @@ const nodes = [
     type: "n8n-nodes-base.code",
     typeVersion: 2,
     position: [2220, Y + 160],
-    executeOnce: true,
+    settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_CREDIT_REPLY },
   },
-
   {
     name: "Respond Builder",
     type: "n8n-nodes-base.respondToWebhook",
@@ -396,15 +479,23 @@ const nodes = [
     position: [2440, Y],
     parameters: { respondWith: "firstIncomingItem", options: {} },
   },
+];
 
-  /* editor chain additions */
+const editorNodes = [
   {
     name: "Load Session",
     type: "n8n-nodes-base.dataTable",
     typeVersion: 1.1,
     position: [1100, 430],
-    alwaysOutputData: true,
+    settings: { alwaysOutputData: true },
     parameters: dtGet("session_token", "={{ $json.body.token }}"),
+  },
+  {
+    name: "Validate Edit Request",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1200, 430],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_VALIDATE_V3 },
   },
   {
     name: "Can Proceed",
@@ -413,7 +504,7 @@ const nodes = [
     position: [1300, 430],
     parameters: ifCond(
       "cp1",
-      "={{ ($json.insufficient || $json.authFailed) ? 1 : 0 }}",
+      "={{ $json.authFailed ? 1 : 0 }}",
       { type: "number", operation: "equals" },
       0,
     ),
@@ -422,50 +513,197 @@ const nodes = [
     name: "Gate Reply",
     type: "n8n-nodes-base.code",
     typeVersion: 2,
-    position: [1500, 470],
-    parameters: { mode: "runOnceForAllItems", jsCode: CODE_GATE_REPLY },
+    position: [1500, 530],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_GATE_REPLY_V3 },
+  },
+  /* router (new in v3) */
+  {
+    name: "Build Router Prompt",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1440, 330],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_ROUTER_PROMPT },
   },
   {
+    name: "Route Intent",
+    type: "@n8n/n8n-nodes-langchain.chainLlm",
+    typeVersion: 1.9,
+    position: [1580, 330],
+    parameters: {
+      promptType: "define",
+      text: "={{ $json.prompt }}",
+      batching: {},
+    },
+  },
+  {
+    name: "Router Model",
+    type: "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+    typeVersion: 1,
+    position: [1580, 480],
+    credentials: { openRouterApi: OR_CRED },
+    parameters: { model: ROUTER_MODEL, options: {} },
+  },
+  {
+    name: "Parse Route",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1720, 330],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_PARSE_ROUTE },
+  },
+  {
+    name: "Action Switch",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [1860, 330],
+    parameters: ifCond(
+      "as1",
+      "={{ ['text_edit','image_edit','content_edit','preset'].includes($json.intent) ? 1 : 0 }}",
+      { type: "number", operation: "equals" },
+      1,
+    ),
+  },
+  {
+    name: "Charge Gate",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [2000, 280],
+    parameters: ifCond(
+      "cg1",
+      "={{ (!" +
+        VREF +
+        ".billing || " +
+        VREF +
+        ".billing.canAfford) ? 1 : 0 }}",
+      { type: "number", operation: "equals" },
+      1,
+    ),
+  },
+  {
+    name: "Free Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2000, 430],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_FREE_REPLY },
+  },
+  {
+    /* charges AFTER a successful commit — failed or no-op runs cost nothing */
     name: "Charge Fee",
     type: "n8n-nodes-base.dataTable",
     typeVersion: 1.1,
-    position: [1500, 350],
-    alwaysOutputData: true,
+    position: [3800, 520],
+    settings: { alwaysOutputData: true, executeOnce: true },
     parameters: dtUpdate(
       "id",
-      "={{ $json.billing ? $json.billing.rowId : -1 }}",
+      "={{ " + VREF + ".billing ? " + VREF + ".billing.rowId : -1 }}",
       {
-        account_balance: "={{ $json.billing ? $json.billing.newBalance : '' }}",
+        account_balance:
+          "={{ " + VREF + ".billing ? " + VREF + ".billing.newBalance : '' }}",
       },
     ),
+  },
+  {
+    /* guards Commit Edit from the "no changes applied" item */
+    name: "Made Changes",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [3500, 520],
+    parameters: ifCond(
+      "mc1",
+      "={{ $json.path ? 1 : 0 }}",
+      { type: "number", operation: "equals" },
+      1,
+    ),
+  },
+  {
+    /* the GitHub node's operation field can't be an expression — route
+       brand-new files (blog posts) to a dedicated file:create node */
+    name: "Is New File",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [3650, 520],
+    parameters: ifCond(
+      "inf1",
+      "={{ $json.isNew ? 1 : 0 }}",
+      { type: "number", operation: "equals" },
+      1,
+    ),
+  },
+  {
+    name: "Commit New File",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [3800, 420],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "create",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Validate Edit Request').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "={{ $json.path }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage:
+        "={{ 'site edit (new page): ' + $('Validate Edit Request').first().json.message.slice(0, 60) }}",
+    },
   },
   {
     name: "Save Chat History",
     type: "n8n-nodes-base.dataTable",
     typeVersion: 1.1,
     position: [4200, 600],
-    alwaysOutputData: true,
-    executeOnce: true,
-    parameters: dtUpdate(
-      "id",
-      "={{ $('Build Edit Reply').first().json.billingRowId ?? -1 }}",
-      {
-        message_history:
-          "={{ $('Build Edit Reply').first().json.newHistory || '' }}",
-      },
-    ),
+    settings: { alwaysOutputData: true, executeOnce: true },
+    parameters: dtUpdate("id", "={{ $json.billingRowId ?? -1 }}", {
+      message_history: "={{ $json.newHistory || '' }}",
+    }),
+  },
+  {
+    name: "Build Edit Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [4000, 600],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_BUILD_REPLY_V3 },
   },
   {
     name: "Final Reply",
     type: "n8n-nodes-base.code",
     typeVersion: 2,
     position: [4400, 600],
-    executeOnce: true,
-    parameters: { mode: "runOnceForAllItems", jsCode: CODE_FINAL_REPLY },
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_FINAL_REPLY_V3 },
+  },
+  /* owned here so the editor-flow script can't revert it */
+  {
+    name: "Has Images",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [2280, 280],
+    parameters: ifCond(
+      "h1",
+      "={{ " + VREF + ".images.length }}",
+      { type: "number", operation: "gt" },
+      0,
+    ),
   },
 ];
 
-const connections = [
+const NEW_IN_V3 = new Set([
+  "Build Router Prompt",
+  "Route Intent",
+  "Router Model",
+  "Parse Route",
+  "Action Switch",
+  "Charge Gate",
+  "Free Reply",
+]);
+
+const accountConnections = [
   ["Builder Webhook", "Route Action"],
   { source: "Route Action", target: "Find User", sourceIndex: 0 },
   { source: "Route Action", target: "Find Session", sourceIndex: 1 },
@@ -485,124 +723,229 @@ const connections = [
   ["Credit Reply", "Respond Builder"],
 ];
 
-/* editor chain rewiring */
-const rewires = [
+const editorConnections = [
+  { source: "Can Proceed", target: "Build Router Prompt", sourceIndex: 0 },
+  { source: "Can Proceed", target: "Gate Reply", sourceIndex: 1 },
+  ["Build Router Prompt", "Route Intent"],
   {
-    type: "removeConnection",
-    source: "Edit Webhook",
-    target: "Validate Edit Request",
+    source: "Router Model",
+    target: "Route Intent",
+    connectionType: "ai_languageModel",
   },
-  { type: "addConnection", source: "Edit Webhook", target: "Load Session" },
-  {
-    type: "addConnection",
-    source: "Load Session",
-    target: "Validate Edit Request",
-  },
-  {
-    type: "removeConnection",
-    source: "Validate Edit Request",
-    target: "Has Images",
-  },
-  {
-    type: "addConnection",
-    source: "Validate Edit Request",
-    target: "Can Proceed",
-  },
-  {
-    type: "addConnection",
-    source: "Can Proceed",
-    target: "Charge Fee",
-    sourceIndex: 0,
-  },
-  {
-    type: "addConnection",
-    source: "Can Proceed",
-    target: "Gate Reply",
-    sourceIndex: 1,
-  },
-  { type: "addConnection", source: "Gate Reply", target: "Respond Edit" },
-  { type: "addConnection", source: "Charge Fee", target: "Has Images" },
-  {
-    type: "removeConnection",
-    source: "Build Edit Reply",
-    target: "Respond Edit",
-  },
-  {
-    type: "addConnection",
-    source: "Build Edit Reply",
-    target: "Save Chat History",
-  },
-  { type: "addConnection", source: "Save Chat History", target: "Final Reply" },
-  { type: "addConnection", source: "Final Reply", target: "Respond Edit" },
-];
-
-/* parameter updates to existing editor nodes */
-const paramUpdates = [
-  {
-    type: "updateNodeParameters",
-    nodeName: "Validate Edit Request",
-    parameters: { mode: "runOnceForAllItems", jsCode: CODE_VALIDATE_V2 },
-    replace: true,
-  },
-  {
-    type: "updateNodeParameters",
-    nodeName: "Build Edit Reply",
-    parameters: { mode: "runOnceForAllItems", jsCode: CODE_BUILD_REPLY_V2 },
-    replace: true,
-  },
-  /* Has Images must read from Validate output via node reference (its direct
-     input is now Charge Fee, whose output is the updated table row) */
-  {
-    type: "updateNodeParameters",
-    nodeName: "Has Images",
-    parameters: ifCond(
-      "h1",
-      "={{ $('Validate Edit Request').first().json.images.length }}",
-      { type: "number", operation: "gt" },
-      0,
-    ),
-    replace: true,
-  },
+  ["Route Intent", "Parse Route"],
+  ["Parse Route", "Action Switch"],
+  { source: "Action Switch", target: "Charge Gate", sourceIndex: 0 },
+  { source: "Action Switch", target: "Free Reply", sourceIndex: 1 },
+  { source: "Charge Gate", target: "Has Images", sourceIndex: 0 },
+  { source: "Charge Gate", target: "Gate Reply", sourceIndex: 1 },
+  ["Free Reply", "Save Chat History"],
+  ["Gate Reply", "Respond Edit"],
+  /* charge only after edits were actually committed */
+  ["Apply Edits", "Made Changes"],
+  { source: "Made Changes", target: "Is New File", sourceIndex: 0 },
+  { source: "Made Changes", target: "Build Edit Reply", sourceIndex: 1 },
+  { source: "Is New File", target: "Commit New File", sourceIndex: 0 },
+  { source: "Is New File", target: "Commit Edit", sourceIndex: 1 },
+  ["Commit New File", "Charge Fee"],
+  ["Commit Edit", "Charge Fee"],
+  ["Charge Fee", "Build Edit Reply"],
+  ["Build Edit Reply", "Save Chat History"],
+  ["Save Chat History", "Final Reply"],
+  ["Final Reply", "Respond Edit"],
 ];
 
 /* ---------------- apply ---------------- */
 
-const updateOnly = process.argv[2] === "update";
+const mode = process.argv[2] || "create";
 const ops = [];
-if (updateOnly) {
-  for (const n of nodes)
+const allNodes = [...accountNodes, ...editorNodes];
+
+function addNodeOps(nodeList) {
+  for (const n of nodeList) {
+    const { settings, ...node } = n;
+    ops.push({ type: "addNode", node });
+    if (settings)
+      ops.push({ type: "setNodeSettings", nodeName: n.name, settings });
+  }
+}
+function updateOps(nodeList) {
+  for (const n of nodeList) {
     ops.push({
       type: "updateNodeParameters",
       nodeName: n.name,
       parameters: n.parameters,
       replace: true,
     });
-  ops.push(...paramUpdates);
-} else {
-  for (const n of nodes) ops.push({ type: "addNode", node: n });
-  for (const c of connections)
+    if (n.settings)
+      ops.push({
+        type: "setNodeSettings",
+        nodeName: n.name,
+        settings: n.settings,
+      });
+  }
+}
+
+if (mode === "update") {
+  updateOps(allNodes);
+} else if (mode === "migrate") {
+  /* v2 -> v3: add router nodes, rewire the charge, update changed params */
+  addNodeOps(editorNodes.filter((n) => NEW_IN_V3.has(n.name)));
+  ops.push({
+    type: "removeConnection",
+    source: "Can Proceed",
+    target: "Charge Fee",
+  });
+  for (const c of editorConnections) {
     ops.push(
       Array.isArray(c)
         ? { type: "addConnection", source: c[0], target: c[1] }
         : { type: "addConnection", ...c },
     );
-  ops.push(...rewires);
-  ops.push(...paramUpdates);
+  }
+  updateOps(
+    allNodes.filter(
+      (n) =>
+        !NEW_IN_V3.has(n.name) &&
+        [
+          "Validate Edit Request",
+          "Gate Reply",
+          "Charge Fee",
+          "Save Chat History",
+          "Build Edit Reply",
+          "Final Reply",
+          "Has Images",
+        ].includes(n.name),
+    ),
+  );
+} else if (mode !== "reconcile") {
+  addNodeOps(allNodes);
+  for (const c of [...accountConnections, ...editorConnections]) {
+    ops.push(
+      Array.isArray(c)
+        ? { type: "addConnection", source: c[0], target: c[1] }
+        : { type: "addConnection", ...c },
+    );
+  }
+  ops.push({
+    type: "addConnection",
+    source: "Edit Webhook",
+    target: "Load Session",
+  });
+  ops.push({
+    type: "addConnection",
+    source: "Load Session",
+    target: "Validate Edit Request",
+  });
+  ops.push({
+    type: "addConnection",
+    source: "Validate Edit Request",
+    target: "Can Proceed",
+  });
 }
 
-const payload = { workflowId: WORKFLOW_ID, operations: ops };
-fs.writeFileSync(
-  path.join(__dirname, "builder-ops.json"),
-  JSON.stringify(payload),
-);
-console.log("ops:", ops.length, "— applying...");
-const out = execFileSync(
-  process.execPath,
-  [
-    path.join(__dirname, "n8n-mcp.cjs"),
-    "update_workflow",
-    "@" + path.join(__dirname, "builder-ops.json"),
-  ],
-  { encoding: "utf8" },
-);
-console.log(out.slice(0, 500));
+if (mode === "reconcile") {
+  /* Diff against the LIVE workflow: add missing nodes/connections, refresh
+     params of owned nodes, remove stale legacy wiring. Survives manual UI
+     edits and version restores. */
+  const live = JSON.parse(
+    execFileSync(
+      process.execPath,
+      [
+        path.join(__dirname, "n8n-mcp.cjs"),
+        "get_workflow_details",
+        JSON.stringify({ workflowId: WORKFLOW_ID }),
+      ],
+      { encoding: "utf8", maxBuffer: 64e6 },
+    ),
+  ).workflow;
+  const liveNames = new Set(live.nodes.map((n) => n.name));
+  const hasConn = (src, tgt, type, si) => {
+    const c = live.connections[src];
+    const lists = (c && c[type || "main"]) || [];
+    const list = lists[si || 0] || [];
+    return list.some((t) => t && t.node === tgt);
+  };
+
+  for (const n of allNodes) {
+    if (liveNames.has(n.name)) {
+      ops.push({
+        type: "updateNodeParameters",
+        nodeName: n.name,
+        parameters: n.parameters,
+        replace: true,
+      });
+      if (n.credentials) {
+        const key = Object.keys(n.credentials)[0];
+        ops.push({
+          type: "setNodeCredential",
+          nodeName: n.name,
+          credentialKey: key,
+          credentialId: n.credentials[key].id,
+          credentialName: n.credentials[key].name,
+        });
+      }
+    } else {
+      const { settings, ...node } = n;
+      ops.push({ type: "addNode", node });
+    }
+    if (n.settings)
+      ops.push({
+        type: "setNodeSettings",
+        nodeName: n.name,
+        settings: n.settings,
+      });
+  }
+
+  /* stale direct wiring from older topologies */
+  const stale = [
+    ["Edit Webhook", "Validate Edit Request"],
+    ["Validate Edit Request", "Has Images"],
+    ["Build Edit Reply", "Respond Edit"],
+    ["Can Proceed", "Charge Fee"],
+    ["Made Changes", "Commit Edit"],
+    /* v3.1: charge moved to post-commit */
+    ["Charge Gate", "Charge Fee"],
+    ["Charge Fee", "Has Images"],
+    ["Apply Edits", "Commit Edit"],
+    ["Commit Edit", "Build Edit Reply"],
+  ];
+  for (const [s, t] of stale) {
+    if (hasConn(s, t))
+      ops.push({ type: "removeConnection", source: s, target: t });
+  }
+
+  const wanted = [
+    ...accountConnections,
+    ...editorConnections,
+    ["Edit Webhook", "Load Session"],
+    ["Load Session", "Validate Edit Request"],
+    ["Validate Edit Request", "Can Proceed"],
+  ];
+  for (const c of wanted) {
+    const o = Array.isArray(c) ? { source: c[0], target: c[1] } : c;
+    if (!hasConn(o.source, o.target, o.connectionType, o.sourceIndex)) {
+      ops.push({ type: "addConnection", ...o });
+    }
+  }
+}
+
+/* the MCP tool caps operations at 100 — apply in ordered batches
+   (reconcile is idempotent, so a mid-run failure is safely re-runnable) */
+console.log("mode:", mode, "— ops:", ops.length, "— applying...");
+for (let i = 0; i < ops.length; i += 90) {
+  const batch = ops.slice(i, i + 90);
+  fs.writeFileSync(
+    path.join(__dirname, "builder-ops.json"),
+    JSON.stringify({ workflowId: WORKFLOW_ID, operations: batch }),
+  );
+  const out = execFileSync(
+    process.execPath,
+    [
+      path.join(__dirname, "n8n-mcp.cjs"),
+      "update_workflow",
+      "@" + path.join(__dirname, "builder-ops.json"),
+    ],
+    { encoding: "utf8" },
+  );
+  console.log("batch", i / 90 + 1, ":", out.slice(0, 200).replace(/\s+/g, " "));
+}
