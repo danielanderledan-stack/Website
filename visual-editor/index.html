@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Editor — Complete Digital</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --navy: #0a2540;
+        --cyan: #48cae4;
+        --bg: #f4f7fa;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      [hidden] {
+        display: none !important;
+      }
+      body {
+        font-family: Roboto, system-ui, sans-serif;
+        background: var(--bg);
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        background: var(--navy);
+        color: #fff;
+        padding: 12px 18px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 3px solid var(--cyan);
+      }
+      header .logo {
+        font-family: "Roboto Slab", serif;
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+      }
+      header .right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .pill {
+        font-size: 13px;
+        font-weight: 700;
+        background: rgba(255, 255, 255, 0.1);
+        color: #d6f3fb;
+        padding: 6px 14px;
+        border-radius: 20px;
+      }
+      .logout {
+        background: none;
+        border: none;
+        color: #9db8cc;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      main {
+        flex: 1;
+        width: 100%;
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 22px 16px 40px;
+      }
+      .intro {
+        font-size: 13.5px;
+        color: #5d7488;
+        margin-bottom: 16px;
+        line-height: 1.55;
+      }
+
+      .vtabs {
+        display: flex;
+        gap: 6px;
+        margin: 4px 0 18px;
+        border-bottom: 1.5px solid #dde7f0;
+      }
+      .vtab {
+        background: none;
+        border: none;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 700;
+        color: #6c8398;
+        padding: 9px 16px;
+        cursor: pointer;
+        border-bottom: 2.5px solid transparent;
+        margin-bottom: -1.5px;
+      }
+      .vtab.on {
+        color: var(--navy);
+        border-bottom-color: var(--cyan);
+      }
+
+      .vlabel {
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        color: #41637d;
+        margin: 10px 0 6px;
+        letter-spacing: 0.4px;
+      }
+      select,
+      input[type="tel"],
+      input[type="password"] {
+        width: 100%;
+        border: 1.5px solid #d6e2ec;
+        border-radius: 11px;
+        padding: 10px 12px;
+        font-size: 14px;
+        font-family: inherit;
+        outline: none;
+        background: #fff;
+      }
+      select:focus,
+      input:focus {
+        border-color: var(--cyan);
+      }
+      .primary {
+        width: 100%;
+        margin-top: 16px;
+        background: var(--navy);
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        padding: 13px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .primary:disabled {
+        opacity: 0.5;
+      }
+      .note {
+        font-size: 12px;
+        color: #8aa0b2;
+        margin-top: 10px;
+        line-height: 1.5;
+      }
+      .toast {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--navy);
+        color: #fff;
+        font-size: 13.5px;
+        padding: 12px 22px;
+        border-radius: 12px;
+        box-shadow: 0 12px 36px rgba(10, 37, 64, 0.35);
+        opacity: 0;
+        transition: opacity 0.25s ease;
+        pointer-events: none;
+        max-width: 90vw;
+        text-align: center;
+        z-index: 99;
+      }
+      .toast.show {
+        opacity: 1;
+      }
+
+      /* photos */
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 12px;
+      }
+      .gcard {
+        border: 1px solid #e2eaf2;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #fff;
+      }
+      .gcard img {
+        width: 100%;
+        height: 105px;
+        object-fit: cover;
+        display: block;
+        background: #eef2f6;
+      }
+      .gcard .gname {
+        font-size: 10.5px;
+        color: #6c8398;
+        padding: 6px 8px 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .gcard button {
+        width: calc(100% - 16px);
+        margin: 6px 8px 8px;
+        background: var(--navy);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 7px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      .gcard button:disabled {
+        opacity: 0.5;
+      }
+      .gcard.swapped {
+        outline: 2px solid var(--cyan);
+      }
+      .loading {
+        font-size: 13px;
+        color: #6c8398;
+        grid-column: 1/-1;
+        padding: 24px 0;
+        text-align: center;
+      }
+
+      /* text */
+      .text-list {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .trow {
+        border: 1px solid #e2eaf2;
+        border-radius: 11px;
+        padding: 8px 10px;
+        background: #fff;
+      }
+      .trow .ttag {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: #0b5e74;
+        background: rgba(72, 202, 228, 0.16);
+        border-radius: 5px;
+        padding: 1px 7px;
+        margin-bottom: 5px;
+      }
+      .trow textarea {
+        width: 100%;
+        border: none;
+        outline: none;
+        resize: none;
+        font-family: inherit;
+        font-size: 13.5px;
+        line-height: 1.5;
+        background: transparent;
+        color: #1a2733;
+      }
+      .trow.dirty {
+        border-color: var(--cyan);
+        background: #f2fbfe;
+      }
+      #saveTexts {
+        position: sticky;
+        bottom: 14px;
+        box-shadow: 0 10px 30px rgba(10, 37, 64, 0.25);
+      }
+
+      /* colours */
+      .colorrow {
+        display: flex;
+        gap: 14px;
+        max-width: 420px;
+      }
+      .colorrow div {
+        flex: 1;
+      }
+      input[type="color"] {
+        width: 100%;
+        height: 44px;
+        border: 1.5px solid #d6e2ec;
+        border-radius: 11px;
+        padding: 3px;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      /* login modal */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(6, 24, 43, 0.62);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
+        z-index: 50;
+      }
+      .modal {
+        background: #fff;
+        border-radius: 20px;
+        max-width: 430px;
+        width: 100%;
+        padding: 30px 28px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+        border-top: 5px solid var(--cyan);
+      }
+      .modal h2 {
+        font-family: "Roboto Slab", serif;
+        font-size: 22px;
+        color: var(--navy);
+        margin-bottom: 6px;
+      }
+      .modal .sub {
+        font-size: 13.5px;
+        color: #5d7488;
+        margin-bottom: 18px;
+        line-height: 1.55;
+      }
+      .modal .err {
+        color: #b03333;
+        font-size: 13px;
+        margin-top: 12px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        complete digital<span style="color: var(--cyan)">.</span> site editor
+      </div>
+      <div class="right">
+        <span class="pill" id="siteLabel" hidden></span>
+        <button class="logout" id="logoutBtn" hidden>log out</button>
+      </div>
+    </header>
+
+    <main id="editor" hidden>
+      <p class="intro">
+        Change your website's photos, text and colours — every change is free
+        and goes live within a minute or two.
+      </p>
+      <div class="vtabs">
+        <button class="vtab on" data-tab="tabPhotos">Photos</button>
+        <button class="vtab" data-tab="tabText">Text</button>
+        <button class="vtab" data-tab="tabColours">Colours</button>
+      </div>
+
+      <div id="tabPhotos">
+        <div id="galleryGrid" class="gallery-grid">
+          <p class="loading">Loading your photos…</p>
+        </div>
+        <input
+          type="file"
+          id="swapFile"
+          accept="image/png,image/jpeg,image/webp,image/gif"
+          hidden
+        />
+      </div>
+
+      <div id="tabText" hidden>
+        <label class="vlabel">Page</label>
+        <select id="textPage">
+          <option value="index.html">Home</option>
+          <option value="about/index.html">About</option>
+          <option value="services/index.html">Services</option>
+          <option value="pricing/index.html">Pricing</option>
+          <option value="blog/index.html">Blog</option>
+          <option value="contact/index.html">Contact</option>
+        </select>
+        <div id="textList" class="text-list">
+          <p class="loading">Loading…</p>
+        </div>
+        <button class="primary" id="saveTexts" disabled>
+          Save text changes
+        </button>
+      </div>
+
+      <div id="tabColours" hidden>
+        <p class="intro" style="margin-bottom: 4px">
+          Re-theme every page of your site in one go.
+        </p>
+        <div class="colorrow">
+          <div>
+            <label class="vlabel">Main colour</label
+            ><input type="color" id="themeMain" value="#00bfff" />
+          </div>
+          <div>
+            <label class="vlabel">Dark colour</label
+            ><input type="color" id="themeDark" value="#1a1a1a" />
+          </div>
+        </div>
+        <div style="max-width: 420px">
+          <button class="primary" id="applyColours">Apply colours</button>
+        </div>
+        <p class="note">
+          Tip: the main colour is used for buttons and highlights; the dark
+          colour for the menu bar and footer.
+        </p>
+      </div>
+    </main>
+
+    <div class="overlay" id="loginOverlay" hidden>
+      <div class="modal">
+        <h2>Log in to edit your website</h2>
+        <p class="sub">Use the phone number and password we set up with you.</p>
+        <label class="vlabel">Phone number</label>
+        <input
+          type="tel"
+          id="loginNumber"
+          autocomplete="username"
+          placeholder="04xx xxx xxx"
+        />
+        <label class="vlabel">Password</label>
+        <input
+          type="password"
+          id="loginPassword"
+          autocomplete="current-password"
+        />
+        <p class="err" id="loginErr"></p>
+        <button class="primary" id="loginGo">Log in</button>
+      </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+      (function () {
+        "use strict";
+        var AUTH =
+          "https://n8n-production-d02c.up.railway.app/webhook/builder-auth";
+        var state = { token: localStorage.getItem("cd-builder-token") || "" };
+        var $ = function (id) {
+          return document.getElementById(id);
+        };
+
+        var toastTimer = null;
+        function toast(msg) {
+          var t = $("toast");
+          t.textContent = msg;
+          t.classList.add("show");
+          clearTimeout(toastTimer);
+          toastTimer = setTimeout(function () {
+            t.classList.remove("show");
+          }, 4200);
+        }
+
+        function api(body) {
+          body.token = state.token;
+          return fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body),
+          }).then(function (r) {
+            return r.json();
+          });
+        }
+
+        /* ---------- auth ---------- */
+        function showLogin(msg) {
+          $("editor").hidden = true;
+          $("loginOverlay").hidden = false;
+          if (msg) {
+            var e = $("loginErr");
+            e.textContent = msg;
+            e.style.display = "block";
+          }
+        }
+        function showEditor(site) {
+          $("loginOverlay").hidden = true;
+          $("editor").hidden = false;
+          $("siteLabel").hidden = false;
+          $("siteLabel").textContent = site || "your website";
+          $("logoutBtn").hidden = false;
+          loadGallery();
+        }
+        $("loginGo").onclick = function () {
+          var btn = this;
+          btn.disabled = true;
+          $("loginErr").style.display = "none";
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              action: "login",
+              number: $("loginNumber").value.trim().replace(/ /g, ""),
+              password: $("loginPassword").value,
+            }),
+          })
+            .then(function (r) {
+              return r.json();
+            })
+            .then(function (d) {
+              if (!d.ok) throw new Error(d.error || "Login failed.");
+              state.token = d.token;
+              localStorage.setItem("cd-builder-token", d.token);
+              showEditor(d.site);
+            })
+            .catch(function (e) {
+              showLogin(e.message);
+            })
+            .finally(function () {
+              btn.disabled = false;
+            });
+        };
+        $("loginPassword").addEventListener("keydown", function (e) {
+          if (e.key === "Enter") $("loginGo").click();
+        });
+        $("logoutBtn").onclick = function () {
+          localStorage.removeItem("cd-builder-token");
+          location.reload();
+        };
+
+        /* ---------- tabs ---------- */
+        function showTab(id) {
+          ["tabPhotos", "tabText", "tabColours"].forEach(function (t) {
+            $(t).hidden = t !== id;
+          });
+          Array.prototype.forEach.call(
+            document.querySelectorAll(".vtab"),
+            function (b) {
+              b.classList.toggle("on", b.getAttribute("data-tab") === id);
+            },
+          );
+          if (id === "tabText" && !$("textList").querySelector(".trow"))
+            loadTexts();
+        }
+        Array.prototype.forEach.call(
+          document.querySelectorAll(".vtab"),
+          function (b) {
+            b.onclick = function () {
+              showTab(b.getAttribute("data-tab"));
+            };
+          },
+        );
+
+        /* ---------- photos ---------- */
+        var swapTarget = null;
+        function loadGallery() {
+          var grid = $("galleryGrid");
+          grid.innerHTML = '<p class="loading">Loading your photos…</p>';
+          api({ action: "images" })
+            .then(function (d) {
+              if (!d.ok || !d.images)
+                throw new Error(
+                  "Could not load photos — try logging in again.",
+                );
+              grid.innerHTML = "";
+              if (!d.images.length) {
+                grid.innerHTML =
+                  '<p class="loading">No swappable photos found yet.</p>';
+                return;
+              }
+              d.images.forEach(function (img) {
+                var card = document.createElement("div");
+                card.className = "gcard";
+                var im = document.createElement("img");
+                im.loading = "lazy";
+                im.src = img.url;
+                var nm = document.createElement("div");
+                nm.className = "gname";
+                nm.textContent = img.path.split("/").pop();
+                nm.title = img.path;
+                var btn = document.createElement("button");
+                btn.textContent = "Swap";
+                btn.onclick = function () {
+                  swapTarget = { path: img.path, card: card, btn: btn };
+                  $("swapFile").click();
+                };
+                card.appendChild(im);
+                card.appendChild(nm);
+                card.appendChild(btn);
+                grid.appendChild(card);
+              });
+            })
+            .catch(function (e) {
+              grid.innerHTML = '<p class="loading">' + e.message + "</p>";
+            });
+        }
+        $("swapFile").onchange = function () {
+          var f = this.files[0];
+          this.value = "";
+          if (!f || !swapTarget) return;
+          if (f.size > 4 * 1024 * 1024) {
+            toast("That image is too large (max 4MB).");
+            return;
+          }
+          var t = swapTarget;
+          swapTarget = null;
+          t.btn.disabled = true;
+          t.btn.textContent = "Swapping…";
+          var r = new FileReader();
+          r.onload = function () {
+            api({ action: "swap", path: t.path, b64: r.result.split(",")[1] })
+              .then(function (d) {
+                if (!d.ok) throw new Error("Swap failed — please try again.");
+                t.card.classList.add("swapped");
+                t.card.querySelector("img").src = r.result;
+                t.btn.textContent = "Swapped ✓";
+                toast(
+                  "Photo swapped — live on your website within a minute or two.",
+                );
+              })
+              .catch(function (e) {
+                t.btn.disabled = false;
+                t.btn.textContent = "Swap";
+                toast(e.message);
+              });
+          };
+          r.readAsDataURL(f);
+        };
+
+        /* ---------- text ---------- */
+        var textDirty = {};
+        function loadTexts() {
+          var list = $("textList");
+          textDirty = {};
+          $("saveTexts").disabled = true;
+          list.innerHTML =
+            '<p class="loading">Loading the text on this page…</p>';
+          api({ action: "texts", page: $("textPage").value })
+            .then(function (d) {
+              if (!d.ok || !d.blocks) throw new Error("Could not load text.");
+              list.innerHTML = "";
+              if (!d.blocks.length) {
+                list.innerHTML =
+                  '<p class="loading">No editable text found on this page.</p>';
+                return;
+              }
+              d.blocks.forEach(function (b, i) {
+                var row = document.createElement("div");
+                row.className = "trow";
+                var tag = document.createElement("span");
+                tag.className = "ttag";
+                tag.textContent =
+                  {
+                    h1: "Main heading",
+                    h2: "Heading",
+                    h3: "Heading",
+                    h4: "Heading",
+                    h5: "Heading",
+                    h6: "Heading",
+                    p: "Paragraph",
+                    a: "Link / button",
+                    button: "Button",
+                    span: "Label",
+                    li: "List item",
+                  }[b.tag] || b.tag;
+                var ta = document.createElement("textarea");
+                ta.value = b.text;
+                ta.rows = Math.min(
+                  6,
+                  Math.max(1, Math.ceil(b.text.length / 70)),
+                );
+                ta.addEventListener("input", function () {
+                  ta.style.height = "auto";
+                  ta.style.height = ta.scrollHeight + "px";
+                  if (ta.value !== b.text) {
+                    textDirty[i] = {
+                      find: b.find,
+                      occurrence: b.occurrence,
+                      text: ta.value,
+                    };
+                    row.classList.add("dirty");
+                  } else {
+                    delete textDirty[i];
+                    row.classList.remove("dirty");
+                  }
+                  $("saveTexts").disabled = !Object.keys(textDirty).length;
+                });
+                row.appendChild(tag);
+                row.appendChild(ta);
+                list.appendChild(row);
+              });
+            })
+            .catch(function (e) {
+              list.innerHTML = '<p class="loading">' + e.message + "</p>";
+            });
+        }
+        $("textPage").onchange = loadTexts;
+        $("saveTexts").onclick = function () {
+          var btn = this;
+          var edits = Object.keys(textDirty).map(function (k) {
+            return textDirty[k];
+          });
+          if (!edits.length) return;
+          btn.disabled = true;
+          btn.textContent = "Saving…";
+          api({ action: "save-texts", page: $("textPage").value, edits: edits })
+            .then(function (d) {
+              if (!d.ok) throw new Error("Save failed — please try again.");
+              btn.textContent = "Saved ✓";
+              toast(
+                "Text updated (" +
+                  d.applied +
+                  " change" +
+                  (d.applied === 1 ? "" : "s") +
+                  ") — live within a minute or two." +
+                  (d.failures && d.failures.length
+                    ? " Some could not be applied: " + d.failures.join("; ")
+                    : ""),
+              );
+              setTimeout(function () {
+                btn.textContent = "Save text changes";
+                loadTexts();
+              }, 1200);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Save text changes";
+              toast(e.message);
+            });
+        };
+
+        /* ---------- colours ---------- */
+        $("applyColours").onclick = function () {
+          var btn = this;
+          btn.disabled = true;
+          btn.textContent = "Applying to every page…";
+          api({
+            action: "colours",
+            primary: $("themeMain").value,
+            secondary: $("themeDark").value,
+          })
+            .then(function (d) {
+              if (!d.ok)
+                throw new Error("Colour change failed — please try again.");
+              btn.textContent = "Applied ✓";
+              toast(
+                "New colours applied across " +
+                  d.pages +
+                  " pages — live within a minute or two.",
+              );
+              setTimeout(function () {
+                btn.disabled = false;
+                btn.textContent = "Apply colours";
+              }, 1500);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Apply colours";
+              toast(e.message);
+            });
+        };
+
+        /* ---------- boot ---------- */
+        if (state.token) {
+          api({ action: "session" })
+            .then(function (d) {
+              if (d.ok) showEditor(d.site);
+              else {
+                localStorage.removeItem("cd-builder-token");
+                state.token = "";
+                showLogin();
+              }
+            })
+            .catch(function () {
+              showLogin("Could not reach the server — please try again.");
+            });
+        } else {
+          showLogin();
+        }
+      })();
+    </script>
+  </body>
+</html>
