@@ -5,6 +5,7 @@
   },
   "outputDirectory": ".",
   "rewrites": [
+    { "source": "/dashboard", "destination": "/dashboard.html" },
     { "source": "/sites/:path*", "destination": "/sites/index.html" },
     { "source": "/email/:path*", "destination": "/email/index.html" }
   ]
