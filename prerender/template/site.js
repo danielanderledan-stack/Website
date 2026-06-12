@@ -360,8 +360,8 @@
   /* ------------------------------------------------------------------
      10. Visitor analytics (self-contained, structure-agnostic)
      Sends pageview + conversion-click events to the Complete Digital
-     collector (/api/track on completedigital.org), which appends them
-     to analytics/events.ndjson in the Website repo. First-party
+     collector (n8n webhook on Railway), which stores them
+     in the analytics data table. First-party
      localStorage id only — no cookies, nothing consent-triggering.
      Uses document-level event delegation so it keeps working however
      the page markup is edited. Skips headless browsers (screenshot
@@ -369,7 +369,7 @@
   ------------------------------------------------------------------ */
   safe("analytics", function () {
     if (navigator.webdriver || /[?&]capture=1/.test(location.search)) return;
-    var ENDPOINT = "https://www.completedigital.org/api/track";
+    var ENDPOINT = "https://n8n-production-d02c.up.railway.app/webhook/analytics-track";
     var siteMeta = document.querySelector('meta[name="cd-site"]');
     var SITE =
       (siteMeta && siteMeta.getAttribute("content")) || location.hostname;

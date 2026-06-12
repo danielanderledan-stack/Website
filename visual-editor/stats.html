@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your website stats — Complete Digital</title>
+    <meta name="robots" content="noindex" />
+    <!--
+      Per-customer analytics dashboard. One static file, no libraries.
+      Data: GET https://n8n-production-d02c.up.railway.app/webhook/analytics-data?site=<SITE_ID>
+      (NDJSON, CORS *). SITE_ID comes from ?site=...; when this file is
+      deployed inside a customer site it falls back to location.host.
+      All aggregation happens right here in the browser — traffic on these
+      sites is small enough to crunch the whole file every load.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --navy: #0a2540;
+        --cyan: #48cae4;
+        --green: #1f9d55;
+        --bg: #f4f7fa;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Roboto, system-ui, sans-serif;
+        background: var(--bg);
+        color: #1a2733;
+        min-height: 100dvh;
+      }
+      .wrap {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 18px 16px 50px;
+      }
+      h1 {
+        font-family: "Roboto Slab", serif;
+        font-size: 21px;
+        color: var(--navy);
+      }
+      .sub {
+        font-size: 13px;
+        color: #5d7488;
+        margin: 4px 0 16px;
+      }
+      .periods {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 16px;
+      }
+      .periods button {
+        border: 1.5px solid #d6e2ec;
+        background: #fff;
+        border-radius: 20px;
+        padding: 7px 16px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: inherit;
+        color: #41637d;
+        cursor: pointer;
+      }
+      .periods button.on {
+        background: var(--navy);
+        border-color: var(--navy);
+        color: #fff;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+      .kpi {
+        background: #fff;
+        border: 1px solid #e2eaf2;
+        border-radius: 14px;
+        padding: 16px 16px 14px;
+        position: relative;
+      }
+      .kpi.hero {
+        background: var(--navy);
+        border-color: var(--navy);
+        color: #fff;
+      }
+      .kpi .num {
+        font-family: "Roboto Slab", serif;
+        font-size: 34px;
+        font-weight: 800;
+        line-height: 1.1;
+      }
+      .kpi.hero .num {
+        color: #7ce3a9;
+      }
+      .kpi .lab {
+        font-size: 12.5px;
+        font-weight: 700;
+        margin-top: 4px;
+        color: #41637d;
+      }
+      .kpi.hero .lab {
+        color: #d6f3fb;
+      }
+      .kpi .why {
+        font-size: 11px;
+        color: #8aa0b2;
+        margin-top: 4px;
+        line-height: 1.45;
+      }
+      .kpi.hero .why {
+        color: #9db8cc;
+      }
+      .info {
+        position: absolute;
+        top: 10px;
+        right: 12px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1.5px solid #b6c5d2;
+        color: #8aa0b2;
+        font-size: 11px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: help;
+        background: none;
+        font-family: inherit;
+      }
+      .kpi.hero .info {
+        border-color: #41637d;
+        color: #9db8cc;
+      }
+
+      .panel {
+        background: #fff;
+        border: 1px solid #e2eaf2;
+        border-radius: 14px;
+        padding: 16px;
+        margin-bottom: 14px;
+      }
+      .panel h2 {
+        font-size: 14.5px;
+        color: var(--navy);
+        margin-bottom: 3px;
+      }
+      .panel .phint {
+        font-size: 11.5px;
+        color: #8aa0b2;
+        margin-bottom: 12px;
+        line-height: 1.45;
+      }
+      .barrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px 0;
+        font-size: 13px;
+      }
+      .barrow .blab {
+        flex: 0 0 165px;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #2c4a63;
+        font-weight: 500;
+      }
+      .barrow .btrack {
+        flex: 1;
+        background: #eef2f6;
+        border-radius: 6px;
+        height: 18px;
+        overflow: hidden;
+      }
+      .barrow .bfill {
+        height: 100%;
+        background: var(--cyan);
+        border-radius: 6px;
+        min-width: 2px;
+      }
+      .barrow .bfill.green {
+        background: var(--green);
+      }
+      .barrow .bnum {
+        flex: 0 0 34px;
+        text-align: right;
+        font-weight: 700;
+        color: var(--navy);
+      }
+      .chart {
+        display: flex;
+        align-items: flex-end;
+        gap: 3px;
+        height: 110px;
+        margin-top: 6px;
+      }
+      .chart .col {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 4px;
+        min-width: 0;
+      }
+      .chart .cbar {
+        width: 100%;
+        max-width: 34px;
+        background: var(--cyan);
+        border-radius: 4px 4px 0 0;
+        min-height: 2px;
+      }
+      .chart .cbar.zero {
+        background: #e2eaf2;
+      }
+      .chart .clab {
+        font-size: 9.5px;
+        color: #8aa0b2;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 100%;
+      }
+      .convrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 0;
+        border-bottom: 1px solid #eef2f6;
+        font-size: 13px;
+      }
+      .convrow:last-child {
+        border-bottom: none;
+      }
+      .convrow .cic {
+        flex: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+        background: rgba(31, 157, 85, 0.12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+      }
+      .convrow .cmain {
+        flex: 1;
+        min-width: 0;
+      }
+      .convrow .cwhat {
+        font-weight: 700;
+        color: #1a2733;
+      }
+      .convrow .cwhere {
+        font-size: 11.5px;
+        color: #8aa0b2;
+      }
+      .convrow .cnum {
+        font-family: "Roboto Slab", serif;
+        font-weight: 800;
+        font-size: 18px;
+        color: var(--green);
+      }
+      .splitrow {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .splitrow .panel {
+        flex: 1;
+        min-width: 240px;
+      }
+      .bignote {
+        text-align: center;
+        padding: 36px 16px;
+        color: #5d7488;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .bignote strong {
+        color: var(--navy);
+      }
+      [hidden] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div id="pageHead">
+        <h1>How your website is going</h1>
+        <p class="sub" id="siteSub">Loading…</p>
+      </div>
+      <div class="periods" id="periods">
+        <button data-days="7">Last 7 days</button>
+        <button data-days="30" class="on">Last 30 days</button>
+        <button data-days="0">All time</button>
+      </div>
+
+      <div id="empty" class="bignote" hidden>
+        <strong>No visits recorded yet.</strong><br />
+        Stats start counting from the moment your site got its visit counter —
+        check back in a few days once people have had a look around.
+      </div>
+
+      <div id="dash" hidden>
+        <div class="cards">
+          <div class="kpi hero">
+            <button
+              class="info"
+              title="The number that matters most: how many times someone tapped your phone number or email address on the site. Each one is a potential job."
+            >
+              i
+            </button>
+            <div class="num" id="kConv">0</div>
+            <div class="lab">📞 Calls &amp; emails tapped</div>
+            <div class="why">
+              People who tapped your phone number or email — that's a lead.
+            </div>
+          </div>
+          <div class="kpi">
+            <button
+              class="info"
+              title="How many different people looked at your site. One person looking at five pages still counts as one visitor."
+            >
+              i
+            </button>
+            <div class="num" id="kVisitors">0</div>
+            <div class="lab">People who visited</div>
+            <div class="why" id="kReturning"></div>
+          </div>
+          <div class="kpi">
+            <button
+              class="info"
+              title="Total pages looked at, across everyone. Bigger means people are having a proper look around."
+            >
+              i
+            </button>
+            <div class="num" id="kViews">0</div>
+            <div class="lab">Pages looked at</div>
+            <div class="why" id="kTime"></div>
+          </div>
+        </div>
+
+        <div class="panel" id="convPanel">
+          <h2>Where people contacted you</h2>
+          <p class="phint">
+            Which button or link they tapped, and what page they were on at the
+            time.
+          </p>
+          <div id="convList"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Visitors day by day</h2>
+          <p class="phint">Melbourne time. Taller bar = busier day.</p>
+          <div class="chart" id="dayChart"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Most popular pages</h2>
+          <p class="phint">Where people spend their time on your site.</p>
+          <div id="pagesList"></div>
+        </div>
+
+        <div class="splitrow">
+          <div class="panel">
+            <h2>Phones vs computers</h2>
+            <p class="phint">
+              Most tradie customers browse on their phone — your site works on
+              both.
+            </p>
+            <div id="deviceList"></div>
+          </div>
+          <div class="panel">
+            <h2>How they found you</h2>
+            <p class="phint">
+              "Came directly" = typed your address, used a saved link, or tapped
+              a link in a text/email.
+            </p>
+            <div id="refList"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="loadErr" class="bignote" hidden></div>
+    </div>
+
+    <script>
+      (function () {
+        "use strict";
+        var API = "https://n8n-production-d02c.up.railway.app/webhook/analytics-data?site=";
+        var qs = new URLSearchParams(location.search);
+        var SITE =
+          qs.get("site") ||
+          (location.host && location.host.indexOf("completedigital") === -1
+            ? location.host
+            : "");
+        var MEL = "Australia/Melbourne";
+        var $ = function (id) {
+          return document.getElementById(id);
+        };
+        if (qs.get("embed") === "1") $("pageHead").hidden = true;
+
+        var events = [];
+        var days = 30;
+
+        function melDay(ts) {
+          return new Date(ts).toLocaleDateString("en-AU", {
+            timeZone: MEL,
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+          });
+        }
+        function melDayShort(ts) {
+          return new Date(ts).toLocaleDateString("en-AU", {
+            timeZone: MEL,
+            weekday: "short",
+            day: "numeric",
+          });
+        }
+        function pageNice(path) {
+          var p = String(path || "/").replace(/\/+$/, "/");
+          var names = {
+            "/": "Home page",
+            "/about/": "About page",
+            "/services/": "Services page",
+            "/pricing/": "Pricing page",
+            "/blog/": "Blog",
+            "/contact/": "Contact page",
+          };
+          if (names[p]) return names[p];
+          var bm = p.match(/^\/blog\/(\d+)\/$/);
+          if (bm) return "Blog post " + bm[1];
+          return p;
+        }
+        function fmtDur(ms) {
+          var s = Math.round(ms / 1000);
+          if (!s) return "";
+          if (s < 60) return s + " sec";
+          return Math.round(s / 60) + " min " + (s % 60) + " sec";
+        }
+
+        function filtered() {
+          if (!days) return events;
+          var cut = Date.now() - days * 86400000;
+          return events.filter(function (e) {
+            return Date.parse(e.ts) >= cut;
+          });
+        }
+
+        function bar(label, n, max, green) {
+          return (
+            '<div class="barrow"><div class="blab" title="' +
+            label.replace(/"/g, "&quot;") +
+            '">' +
+            label +
+            '</div><div class="btrack"><div class="bfill' +
+            (green ? " green" : "") +
+            '" style="width:' +
+            Math.max(2, Math.round((n / (max || 1)) * 100)) +
+            '%"></div></div><div class="bnum">' +
+            n +
+            "</div></div>"
+          );
+        }
+
+        function render() {
+          var ev = filtered();
+          var views = ev.filter(function (e) {
+            return e.event === "pageview";
+          });
+          var convs = ev.filter(function (e) {
+            return (
+              e.event === "click" &&
+              (e.link_type === "tel" || e.link_type === "mailto")
+            );
+          });
+          $("empty").hidden = ev.length > 0;
+          $("dash").hidden = ev.length === 0;
+          if (!ev.length) return;
+
+          var visitors = {};
+          var returning = {};
+          views.forEach(function (e) {
+            visitors[e.visitor_id] = 1;
+            if (e.returning) returning[e.visitor_id] = 1;
+          });
+          var nVis = Object.keys(visitors).length;
+          var nRet = Object.keys(returning).length;
+
+          $("kConv").textContent = convs.length;
+          $("kVisitors").textContent = nVis;
+          $("kReturning").textContent = nRet
+            ? nRet + " of them came back more than once — a good sign."
+            : "All new faces so far.";
+          $("kViews").textContent = views.length;
+          var durs = views
+            .map(function (e) {
+              return e.duration_ms || 0;
+            })
+            .filter(Boolean);
+          var avg = durs.length
+            ? durs.reduce(function (a, b) {
+                return a + b;
+              }, 0) / durs.length
+            : 0;
+          $("kTime").textContent = avg
+            ? "People stick around about " + fmtDur(avg) + " per page."
+            : "";
+
+          // conversions list
+          var convMap = {};
+          convs.forEach(function (e) {
+            var k =
+              (e.link_type === "tel" ? "📞" : "✉️") +
+              "|" +
+              (e.link_text ||
+                (e.link_type === "tel" ? "Phone number" : "Email")) +
+              "|" +
+              pageNice(e.path);
+            convMap[k] = (convMap[k] || 0) + 1;
+          });
+          var convRows = Object.keys(convMap)
+            .map(function (k) {
+              var p = k.split("|");
+              return { ic: p[0], what: p[1], where: p[2], n: convMap[k] };
+            })
+            .sort(function (a, b) {
+              return b.n - a.n;
+            });
+          $("convList").innerHTML = convRows.length
+            ? convRows
+                .map(function (r) {
+                  return (
+                    '<div class="convrow"><div class="cic">' +
+                    r.ic +
+                    '</div><div class="cmain"><div class="cwhat">' +
+                    r.what +
+                    '</div><div class="cwhere">on the ' +
+                    r.where +
+                    '</div></div><div class="cnum">' +
+                    r.n +
+                    "</div></div>"
+                  );
+                })
+                .join("")
+            : '<p class="phint" style="margin:0">No calls or emails tapped in this period yet. They\'ll show up here the moment someone taps your number.</p>';
+
+          // daily chart (last N days, or span of data for all-time)
+          var span = days || 30;
+          if (!days && views.length) {
+            var firstTs = Math.min.apply(
+              null,
+              views.map(function (e) {
+                return Date.parse(e.ts);
+              }),
+            );
+            span = Math.min(
+              60,
+              Math.max(7, Math.ceil((Date.now() - firstTs) / 86400000) + 1),
+            );
+          }
+          span = Math.min(span, 31);
+          var perDay = {};
+          views.forEach(function (e) {
+            var d = melDay(e.ts);
+            perDay[d] = perDay[d] || {};
+            perDay[d][e.visitor_id] = 1;
+          });
+          var cols = [];
+          var maxDay = 1;
+          for (var i = span - 1; i >= 0; i--) {
+            var ts = Date.now() - i * 86400000;
+            var key = melDay(ts);
+            var n = perDay[key] ? Object.keys(perDay[key]).length : 0;
+            maxDay = Math.max(maxDay, n);
+            cols.push({ lab: melDayShort(ts), n: n });
+          }
+          $("dayChart").innerHTML = cols
+            .map(function (c, i) {
+              var showLab =
+                cols.length <= 10 || i % Math.ceil(cols.length / 8) === 0;
+              return (
+                '<div class="col" title="' +
+                c.lab +
+                ": " +
+                c.n +
+                ' visitor(s)"><div class="cbar' +
+                (c.n ? "" : " zero") +
+                '" style="height:' +
+                Math.max(2, Math.round((c.n / maxDay) * 100)) +
+                '%"></div><div class="clab">' +
+                (showLab ? c.lab : "&nbsp;") +
+                "</div></div>"
+              );
+            })
+            .join("");
+
+          // popular pages
+          var perPage = {};
+          views.forEach(function (e) {
+            var p = pageNice(e.path);
+            perPage[p] = (perPage[p] || 0) + 1;
+          });
+          var pageRows = Object.keys(perPage)
+            .map(function (p) {
+              return { p: p, n: perPage[p] };
+            })
+            .sort(function (a, b) {
+              return b.n - a.n;
+            })
+            .slice(0, 8);
+          var maxPage = pageRows.length ? pageRows[0].n : 1;
+          $("pagesList").innerHTML = pageRows
+            .map(function (r) {
+              return bar(r.p, r.n, maxPage);
+            })
+            .join("");
+
+          // devices
+          var perDev = { mobile: {}, tablet: {}, desktop: {} };
+          views.forEach(function (e) {
+            var d = perDev[e.device] ? e.device : "desktop";
+            perDev[d][e.visitor_id] = 1;
+          });
+          var devRows = [
+            { p: "📱 On their phone", n: Object.keys(perDev.mobile).length },
+            { p: "💻 On a computer", n: Object.keys(perDev.desktop).length },
+            { p: "📟 On a tablet", n: Object.keys(perDev.tablet).length },
+          ].filter(function (r) {
+            return r.n > 0;
+          });
+          var maxDev = devRows.length
+            ? Math.max.apply(
+                null,
+                devRows.map(function (r) {
+                  return r.n;
+                }),
+              )
+            : 1;
+          $("deviceList").innerHTML = devRows
+            .map(function (r) {
+              return bar(r.p, r.n, maxDev);
+            })
+            .join("");
+
+          // referrers
+          var perRef = {};
+          var sessSeen = {};
+          views.forEach(function (e) {
+            if (sessSeen[e.session_id]) return;
+            sessSeen[e.session_id] = 1;
+            var r = "Came directly";
+            if (e.referrer) {
+              try {
+                var host = e.referrer
+                  .replace(/^https?:\/\//, "")
+                  .split("/")[0]
+                  .replace(/^www\./, "");
+                if (host && host !== location.host) {
+                  if (/google/.test(host)) r = "Found you on Google";
+                  else if (/facebook|instagram/.test(host))
+                    r = "From Facebook / Instagram";
+                  else r = "From " + host;
+                }
+              } catch (err) {}
+            }
+            perRef[r] = (perRef[r] || 0) + 1;
+          });
+          var refRows = Object.keys(perRef)
+            .map(function (p) {
+              return { p: p, n: perRef[p] };
+            })
+            .sort(function (a, b) {
+              return b.n - a.n;
+            })
+            .slice(0, 6);
+          var maxRef = refRows.length ? refRows[0].n : 1;
+          $("refList").innerHTML = refRows
+            .map(function (r) {
+              return bar(r.p, r.n, maxRef, r.p !== "Came directly");
+            })
+            .join("");
+        }
+
+        Array.prototype.forEach.call(
+          $("periods").querySelectorAll("button"),
+          function (b) {
+            b.onclick = function () {
+              days = Number(b.getAttribute("data-days"));
+              Array.prototype.forEach.call(
+                $("periods").querySelectorAll("button"),
+                function (x) {
+                  x.classList.toggle("on", x === b);
+                },
+              );
+              render();
+            };
+          },
+        );
+
+        if (!SITE) {
+          $("loadErr").hidden = false;
+          $("loadErr").innerHTML =
+            "<strong>No site selected.</strong><br>Open this page from your site editor.";
+          return;
+        }
+        $("siteSub").textContent = "Your website: " + SITE;
+
+        fetch(API + encodeURIComponent(SITE), { cache: "no-store" })
+          .then(function (r) {
+            if (r.status === 404)
+              throw new Error(
+                "We can't find stats for this site yet — they start collecting after your site's next update.",
+              );
+            if (!r.ok) throw new Error("Could not load your stats right now.");
+            return r.text();
+          })
+          .then(function (text) {
+            events = text
+              .split("\n")
+              .filter(Boolean)
+              .map(function (line) {
+                try {
+                  return JSON.parse(line);
+                } catch (e) {
+                  return null;
+                }
+              })
+              .filter(Boolean);
+            render();
+            if (!events.length) {
+              $("empty").hidden = false;
+              $("dash").hidden = true;
+            }
+          })
+          .catch(function (e) {
+            $("loadErr").hidden = false;
+            $("loadErr").innerHTML = "<strong>Hmm.</strong><br>" + e.message;
+          });
+      })();
+    </script>
+  </body>
+</html>

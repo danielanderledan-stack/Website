@@ -1,3 +1,5 @@
+> **2026-06-12: storage moved to n8n.** Events now live in the n8n data table `analytics` (workflow "ANALYTICS"): collect via POST https://n8n-production-d02c.up.railway.app/webhook/analytics-track, read via GET https://n8n-production-d02c.up.railway.app/webhook/analytics-data?site=<id>. `/api/track` is now a thin proxy to those webhooks; nothing is committed to git anymore. The flow described below is retired — events.ndjson files are frozen history (already imported into the table).
+
 # Customer-site visitor analytics
 
 Self-hosted, zero-dependency analytics for every Complete Digital customer

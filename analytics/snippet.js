@@ -7,7 +7,7 @@
    localStorage id — no cookies), new vs returning, referrer, device
    class, and — via event delegation on document — every tel: link,
    mailto: link and outbound link click. Events are beaconed to the
-   collector at completedigital.org/api/track, which appends them to
+   collector (n8n webhook on Railway), which stores them in
    analytics/events.ndjson in the Website repo.
 
    New sites get this automatically: the same code is embedded as
@@ -22,7 +22,7 @@
   "use strict";
   try {
     if (navigator.webdriver || /[?&]capture=1/.test(location.search)) return;
-    var ENDPOINT = "https://www.completedigital.org/api/track";
+    var ENDPOINT = "https://n8n-production-d02c.up.railway.app/webhook/analytics-track";
     var siteMeta = document.querySelector('meta[name="cd-site"]');
     var SITE =
       (siteMeta && siteMeta.getAttribute("content")) || location.hostname;
