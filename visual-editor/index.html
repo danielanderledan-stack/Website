@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;700;800&family=Montserrat:wght@700&family=Open+Sans:wght@400&family=Oswald:wght@700&family=Source+Sans+3:wght@400&family=Merriweather:wght@700&family=Lato:wght@400&family=Poppins:wght@700&family=Inter:wght@400&family=Playfair+Display:wght@700&family=Bebas+Neue&family=Space+Grotesk:wght@700&family=Nunito:wght@700&family=Nunito+Sans:wght@400&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -70,37 +70,78 @@
         text-decoration: underline;
       }
 
-      main {
+      .layout {
         flex: 1;
         width: 100%;
-        max-width: 880px;
+        max-width: 680px;
         margin: 0 auto;
-        padding: 22px 16px 40px;
+        padding: 16px 14px 40px;
       }
+      main {
+        width: 100%;
+        min-width: 0;
+      }
+
       .intro {
         font-size: 13.5px;
         color: #5d7488;
-        margin-bottom: 16px;
+        margin-bottom: 14px;
         line-height: 1.55;
       }
 
-      .vtabs {
+      .tabswrap {
         display: flex;
-        gap: 6px;
+        align-items: stretch;
+        gap: 4px;
         margin: 4px 0 18px;
+      }
+      .vtabs {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        gap: 2px;
         border-bottom: 1.5px solid #dde7f0;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+      .vtabs::-webkit-scrollbar {
+        display: none;
+      }
+      .tabarrow {
+        flex: none;
+        width: 30px;
+        align-self: center;
+        padding: 5px 0 7px;
+        border: 1.5px solid #dde7f0;
+        border-radius: 9px;
+        background: #fff;
+        color: #41637d;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .tabarrow:disabled {
+        opacity: 0.35;
+        cursor: default;
+      }
+      .tabswrap.noscroll .tabarrow {
+        display: none;
       }
       .vtab {
         background: none;
         border: none;
         font-family: inherit;
-        font-size: 14px;
+        font-size: 13.5px;
         font-weight: 700;
         color: #6c8398;
-        padding: 9px 16px;
+        padding: 9px 12px;
         cursor: pointer;
         border-bottom: 2.5px solid transparent;
         margin-bottom: -1.5px;
+        white-space: nowrap;
       }
       .vtab.on {
         color: var(--navy);
@@ -117,7 +158,11 @@
       }
       select,
       input[type="tel"],
-      input[type="password"] {
+      input[type="password"],
+      input[type="text"],
+      input[type="email"],
+      input[type="time"],
+      input[type="url"] {
         width: 100%;
         border: 1.5px solid #d6e2ec;
         border-radius: 11px;
@@ -178,7 +223,7 @@
       /* photos */
       .gallery-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 12px;
       }
       .gcard {
@@ -294,6 +339,248 @@
         cursor: pointer;
       }
 
+      /* generic cards / rows */
+      .card {
+        border: 1px solid #e2eaf2;
+        border-radius: 12px;
+        background: #fff;
+        padding: 12px 14px;
+        margin-bottom: 10px;
+      }
+      .rowflex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .smallbtn {
+        background: var(--navy);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 13px;
+        font-size: 12.5px;
+        font-weight: 700;
+        font-family: inherit;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .smallbtn.ghost {
+        background: #eef4f9;
+        color: #2c4a63;
+      }
+      .smallbtn.danger {
+        background: #b03333;
+      }
+      .smallbtn:disabled {
+        opacity: 0.5;
+      }
+
+      /* hours */
+      .hrow {
+        display: grid;
+        grid-template-columns: 92px 64px 1fr 1fr;
+        gap: 8px;
+        align-items: center;
+        padding: 6px 0;
+        border-bottom: 1px solid #eef2f6;
+        font-size: 13.5px;
+      }
+      .hrow .hday {
+        font-weight: 700;
+        color: #2c4a63;
+      }
+      .hrow label {
+        font-size: 12px;
+        color: #6c8398;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .hrow input[type="time"] {
+        padding: 7px 8px;
+        font-size: 13px;
+      }
+      .hrow.closed input[type="time"] {
+        opacity: 0.35;
+        pointer-events: none;
+      }
+
+      /* fonts */
+      .fontcard {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        border: 1.5px solid #e2eaf2;
+        border-radius: 12px;
+        background: #fff;
+        padding: 12px 16px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      .fontcard.on {
+        border-color: var(--cyan);
+        background: #f2fbfe;
+      }
+      .fontcard .fh {
+        font-size: 19px;
+        line-height: 1.2;
+      }
+      .fontcard .fb {
+        font-size: 12.5px;
+        color: #5d7488;
+      }
+      .fontcard .ftag {
+        margin-left: auto;
+        font-size: 10.5px;
+        font-weight: 700;
+        color: #0b5e74;
+        background: rgba(72, 202, 228, 0.16);
+        border-radius: 5px;
+        padding: 2px 8px;
+        white-space: nowrap;
+      }
+
+      /* sections */
+      .secrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid #e2eaf2;
+        border-radius: 11px;
+        background: #fff;
+        padding: 9px 12px;
+        margin-bottom: 8px;
+      }
+      .secrow.hiddenrow {
+        opacity: 0.62;
+        background: #f6f8fa;
+      }
+      .secrow .slabel {
+        font-size: 13.5px;
+        font-weight: 700;
+        color: #1a2733;
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .secrow .stag {
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #8aa0b2;
+      }
+
+      /* to-do */
+      .todo {
+        position: relative;
+        border: 1px solid #e2eaf2;
+        border-radius: 12px;
+        background: #fff;
+        padding: 13px 42px 13px 14px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      .todo:hover {
+        border-color: var(--cyan);
+      }
+      .todo .tdtitle {
+        font-size: 14px;
+        font-weight: 700;
+        color: #1a2733;
+      }
+      .todo .tddesc {
+        font-size: 12.5px;
+        color: #5d7488;
+        margin-top: 4px;
+        line-height: 1.5;
+      }
+      .todo .tdx {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 26px;
+        height: 26px;
+        border: none;
+        background: #eef4f9;
+        color: #6c8398;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .todo .tdx:hover {
+        background: #e2eaf2;
+        color: #2c4a63;
+      }
+
+      /* get a change */
+      .bigcall {
+        display: block;
+        text-align: center;
+        background: var(--navy);
+        color: #fff;
+        border-radius: 12px;
+        padding: 14px;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        margin-top: 12px;
+      }
+
+      .statsframe {
+        width: 100%;
+        height: calc(100dvh - 230px);
+        min-height: 480px;
+        border: 1px solid #d6e2ec;
+        border-radius: 14px;
+        background: #fff;
+      }
+
+      .switch {
+        position: relative;
+        width: 46px;
+        height: 26px;
+        flex: none;
+      }
+      .switch input {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        cursor: pointer;
+        z-index: 2;
+        margin: 0;
+      }
+      .switch .knob {
+        position: absolute;
+        inset: 0;
+        background: #cdd9e4;
+        border-radius: 20px;
+        transition: background 0.15s;
+      }
+      .switch .knob::after {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        border-radius: 50%;
+        transition: left 0.15s;
+      }
+      .switch input:checked + .knob {
+        background: var(--cyan);
+      }
+      .switch input:checked + .knob::after {
+        left: 23px;
+      }
+
       /* login modal */
       .overlay {
         position: fixed;
@@ -340,75 +627,255 @@
         complete digital<span style="color: var(--cyan)">.</span> site editor
       </div>
       <div class="right">
+        <a
+          class="pill"
+          id="openSite"
+          href="#"
+          target="_blank"
+          rel="noopener"
+          style="text-decoration: none"
+          hidden
+          >view site ↗</a
+        >
         <span class="pill" id="siteLabel" hidden></span>
         <button class="logout" id="logoutBtn" hidden>log out</button>
       </div>
     </header>
 
-    <main id="editor" hidden>
-      <p class="intro">
-        Change your website's photos, text and colours — every change is free
-        and goes live within a minute or two.
-      </p>
-      <div class="vtabs">
-        <button class="vtab on" data-tab="tabPhotos">Photos</button>
-        <button class="vtab" data-tab="tabText">Text</button>
-        <button class="vtab" data-tab="tabColours">Colours</button>
-      </div>
-
-      <div id="tabPhotos">
-        <div id="galleryGrid" class="gallery-grid">
-          <p class="loading">Loading your photos…</p>
-        </div>
-        <input
-          type="file"
-          id="swapFile"
-          accept="image/png,image/jpeg,image/webp,image/gif"
-          hidden
-        />
-      </div>
-
-      <div id="tabText" hidden>
-        <label class="vlabel">Page</label>
-        <select id="textPage">
-          <option value="index.html">Home</option>
-          <option value="about/index.html">About</option>
-          <option value="services/index.html">Services</option>
-          <option value="pricing/index.html">Pricing</option>
-          <option value="blog/index.html">Blog</option>
-          <option value="contact/index.html">Contact</option>
-        </select>
-        <div id="textList" class="text-list">
-          <p class="loading">Loading…</p>
-        </div>
-        <button class="primary" id="saveTexts" disabled>
-          Save text changes
-        </button>
-      </div>
-
-      <div id="tabColours" hidden>
-        <p class="intro" style="margin-bottom: 4px">
-          Re-theme every page of your site in one go.
+    <div class="layout">
+      <main id="editor" hidden>
+        <p class="intro">
+          Update your website yourself — every change here is free and goes live
+          within a minute or two.
         </p>
-        <div class="colorrow">
-          <div>
-            <label class="vlabel">Main colour</label
-            ><input type="color" id="themeMain" value="#00bfff" />
+        <div class="tabswrap" id="tabswrap">
+          <button
+            class="tabarrow"
+            id="tabPrev"
+            type="button"
+            aria-label="Scroll tabs left"
+          >
+            ‹
+          </button>
+          <div class="vtabs" id="vtabs">
+            <button class="vtab on" data-tab="tabTodo">To-do</button>
+            <button class="vtab" data-tab="tabPhotos">Photos</button>
+            <button class="vtab" data-tab="tabText">Text</button>
+            <button class="vtab" data-tab="tabColours">Colours</button>
+            <button class="vtab" data-tab="tabDetails">Details</button>
+            <button class="vtab" data-tab="tabHours">Hours</button>
+            <button class="vtab" data-tab="tabSections">Sections</button>
+            <button class="vtab" data-tab="tabFonts">Fonts</button>
+            <button class="vtab" data-tab="tabBanner">Banner</button>
+            <button class="vtab" data-tab="tabStats">Stats</button>
+            <button class="vtab" data-tab="tabChange">Get a change</button>
           </div>
-          <div>
-            <label class="vlabel">Dark colour</label
-            ><input type="color" id="themeDark" value="#1a1a1a" />
+          <button
+            class="tabarrow"
+            id="tabNext"
+            type="button"
+            aria-label="Scroll tabs right"
+          >
+            ›
+          </button>
+        </div>
+
+        <div id="tabTodo">
+          <p class="intro" style="margin-bottom: 10px">
+            A few things worth doing to get the most out of your website. Tap
+            one to get started, or hit ✕ when it's done.
+          </p>
+          <div id="todoList"></div>
+        </div>
+
+        <div id="tabPhotos" hidden>
+          <div id="galleryGrid" class="gallery-grid">
+            <p class="loading">Loading your photos…</p>
+          </div>
+          <input
+            type="file"
+            id="swapFile"
+            accept="image/png,image/jpeg,image/webp,image/gif"
+            hidden
+          />
+        </div>
+
+        <div id="tabText" hidden>
+          <label class="vlabel">Page</label>
+          <select id="textPage">
+            <option value="index.html">Home</option>
+            <option value="about/index.html">About</option>
+            <option value="services/index.html">Services</option>
+            <option value="pricing/index.html">Pricing</option>
+            <option value="blog/index.html">Blog</option>
+            <option value="contact/index.html">Contact</option>
+          </select>
+          <div id="textList" class="text-list">
+            <p class="loading">Loading…</p>
+          </div>
+          <button class="primary" id="saveTexts" disabled>
+            Save text changes
+          </button>
+        </div>
+
+        <div id="tabColours" hidden>
+          <p class="intro" style="margin-bottom: 4px">
+            Re-theme every page of your site in one go.
+          </p>
+          <div class="colorrow">
+            <div>
+              <label class="vlabel">Main colour</label
+              ><input type="color" id="themeMain" value="#00bfff" />
+            </div>
+            <div>
+              <label class="vlabel">Dark colour</label
+              ><input type="color" id="themeDark" value="#1a1a1a" />
+            </div>
+          </div>
+          <div style="max-width: 420px">
+            <button class="primary" id="applyColours">Apply colours</button>
+          </div>
+          <p class="note">
+            Tip: the main colour is used for buttons and highlights; the dark
+            colour for the menu bar and footer.
+          </p>
+        </div>
+
+        <div id="tabDetails" hidden>
+          <p class="intro" style="margin-bottom: 4px">
+            Your business details, updated everywhere at once — on every page,
+            in the small print, and in what Google reads.
+          </p>
+          <div id="detailsUnavailable" class="card" hidden>
+            Business details aren't editable on your site yet — message Dan and
+            he'll sort it.
+          </div>
+          <div id="detailsForm">
+            <label class="vlabel">Business name</label>
+            <input type="text" id="detName" maxlength="80" />
+            <label class="vlabel">Phone number</label>
+            <input type="tel" id="detPhone" maxlength="30" />
+            <label class="vlabel">Email</label>
+            <input type="email" id="detEmail" maxlength="80" />
+            <label class="vlabel">Street address</label>
+            <input type="text" id="detAddress" maxlength="140" />
+            <label class="vlabel">Suburb</label>
+            <input type="text" id="detSuburb" maxlength="40" />
+            <button class="primary" id="saveDetails">
+              Update my details everywhere
+            </button>
+            <p class="note">
+              Heads-up: this replaces your old details wherever they appear —
+              including page titles and the info Google shows.
+            </p>
           </div>
         </div>
-        <div style="max-width: 420px">
-          <button class="primary" id="applyColours">Apply colours</button>
+
+        <div id="tabHours" hidden>
+          <p class="intro" style="margin-bottom: 4px">
+            Set your opening hours. They'll show near the bottom of every page,
+            and Google gets told too.
+          </p>
+          <div class="card" id="hoursRows"></div>
+          <button class="primary" id="saveHours">Save opening hours</button>
         </div>
-        <p class="note">
-          Tip: the main colour is used for buttons and highlights; the dark
-          colour for the menu bar and footer.
-        </p>
-      </div>
-    </main>
+
+        <div id="tabSections" hidden>
+          <p class="intro" style="margin-bottom: 4px">
+            Hide parts of a page you don't want shown (nothing is deleted — you
+            can bring any section back any time).
+          </p>
+          <label class="vlabel">Page</label>
+          <select id="sectionsPage">
+            <option value="index.html">Home</option>
+            <option value="about/index.html">About</option>
+            <option value="services/index.html">Services</option>
+            <option value="pricing/index.html">Pricing</option>
+            <option value="blog/index.html">Blog</option>
+            <option value="contact/index.html">Contact</option>
+          </select>
+          <div id="sectionsList" style="margin-top: 12px">
+            <p class="loading">Loading…</p>
+          </div>
+          <p class="note">
+            Tip: "Show me" opens that part of your live site in a new tab so you
+            can see exactly what you're hiding.
+          </p>
+        </div>
+
+        <div id="tabFonts" hidden>
+          <p class="intro" style="margin-bottom: 10px">
+            Pick a look — the big headings use the first font, everything else
+            uses the second. Applies to your whole site.
+          </p>
+          <div id="fontCards"></div>
+          <button class="primary" id="saveFonts">Apply these fonts</button>
+        </div>
+
+        <div id="tabBanner" hidden>
+          <p class="intro" style="margin-bottom: 4px">
+            A slim announcement bar across the very top of every page — great
+            for specials, holiday hours or "book before summer".
+          </p>
+          <div class="card">
+            <div class="rowflex" style="justify-content: space-between">
+              <strong style="font-size: 14px; color: #2c4a63"
+                >Show the bar</strong
+              >
+              <span class="switch"
+                ><input type="checkbox" id="banOn" /><span class="knob"></span
+              ></span>
+            </div>
+            <label class="vlabel">What it says</label>
+            <input
+              type="text"
+              id="banText"
+              maxlength="160"
+              placeholder="e.g. 10% off all jobs booked this month — call now!"
+            />
+            <label class="vlabel">Link (optional)</label>
+            <input
+              type="text"
+              id="banHref"
+              maxlength="300"
+              placeholder="e.g. tel:0400000000 or /contact/"
+            />
+          </div>
+          <button class="primary" id="saveBanner">Save banner</button>
+        </div>
+
+        <div id="tabStats" hidden>
+          <p class="intro" style="margin-bottom: 8px">
+            How your website is doing — visits, and the big one: people who
+            tapped <strong>call</strong> or <strong>email</strong>.
+            <a id="statsOpen" href="#" target="_blank" rel="noopener"
+              >Open full screen</a
+            >
+          </p>
+          <iframe
+            id="statsFrame"
+            class="statsframe"
+            title="Your website stats"
+          ></iframe>
+        </div>
+
+        <div id="tabChange" hidden>
+          <p class="intro" style="margin-bottom: 10px">
+            Want something changed that the other tabs can't do — a new section,
+            a different layout, a whole new page? Easy.
+          </p>
+          <div class="card">
+            <strong style="font-size: 15px; color: #2c4a63">Talk to Dan</strong>
+            <p class="note" style="margin-top: 4px">
+              Call or text with what you're after — most changes are done the
+              same day.
+            </p>
+            <a class="bigcall" href="tel:0432839654">📞 0432 839 654</a>
+          </div>
+          <p class="note">AI editor coming soon — usage costs will apply.</p>
+        </div>
+      </main>
+    </div>
 
     <div class="overlay" id="loginOverlay" hidden>
       <div class="modal">
@@ -439,7 +906,12 @@
         "use strict";
         var AUTH =
           "https://n8n-production-d02c.up.railway.app/webhook/builder-auth";
-        var state = { token: localStorage.getItem("cd-builder-token") || "" };
+        var state = {
+          token: localStorage.getItem("cd-builder-token") || "",
+          info: null,
+          homepage: "",
+          fontPair: "",
+        };
         var $ = function (id) {
           return document.getElementById(id);
         };
@@ -452,7 +924,7 @@
           clearTimeout(toastTimer);
           toastTimer = setTimeout(function () {
             t.classList.remove("show");
-          }, 4200);
+          }, 4800);
         }
 
         function api(body) {
@@ -482,7 +954,9 @@
           $("siteLabel").hidden = false;
           $("siteLabel").textContent = site || "your website";
           $("logoutBtn").hidden = false;
+          syncArrows();
           loadGallery();
+          loadInfo();
         }
         $("loginGo").onclick = function () {
           var btn = this;
@@ -521,19 +995,88 @@
           location.reload();
         };
 
+        /* ---------- site info (prefills details/hours/fonts/banner) */
+        function loadInfo() {
+          api({ action: "site-info" })
+            .then(function (d) {
+              if (!d.ok) return;
+              state.info = d;
+              state.homepage = d.homepage || "";
+              if (state.homepage) {
+                $("openSite").hidden = false;
+                $("openSite").href = state.homepage;
+                var host = state.homepage
+                  .replace(/^https?:\/\//, "")
+                  .replace(/\/.*$/, "");
+                $("statsFrame").dataset.site = host;
+                $("statsOpen").href =
+                  "stats.html?site=" + encodeURIComponent(host);
+              }
+              if (d.details) {
+                $("detName").value = d.details.name || "";
+                $("detPhone").value = d.details.phone || "";
+                $("detEmail").value = d.details.email || "";
+                $("detAddress").value = d.details.address || "";
+                $("detSuburb").value = d.details.suburb || "";
+              } else {
+                $("detailsForm").hidden = true;
+                $("detailsUnavailable").hidden = false;
+              }
+              prefillHours(d.hours);
+              if (d.fonts) {
+                var match = FONT_PAIRS.filter(function (p) {
+                  return p.heading === d.fonts.heading;
+                })[0];
+                state.fontPair = match ? match.id : "";
+                renderFonts();
+              }
+              if (d.announce) {
+                $("banOn").checked = !!d.announce.on;
+                $("banText").value = d.announce.text || "";
+                $("banHref").value = d.announce.href || "";
+              }
+            })
+            .catch(function () {});
+        }
+
         /* ---------- tabs ---------- */
+        var TABS = [
+          "tabTodo",
+          "tabPhotos",
+          "tabText",
+          "tabColours",
+          "tabDetails",
+          "tabHours",
+          "tabSections",
+          "tabFonts",
+          "tabBanner",
+          "tabStats",
+          "tabChange",
+        ];
         function showTab(id) {
-          ["tabPhotos", "tabText", "tabColours"].forEach(function (t) {
+          TABS.forEach(function (t) {
             $(t).hidden = t !== id;
           });
           Array.prototype.forEach.call(
             document.querySelectorAll(".vtab"),
             function (b) {
               b.classList.toggle("on", b.getAttribute("data-tab") === id);
+              if (b.classList.contains("on") && b.scrollIntoView)
+                b.scrollIntoView({ block: "nearest", inline: "nearest" });
             },
           );
           if (id === "tabText" && !$("textList").querySelector(".trow"))
             loadTexts();
+          if (
+            id === "tabSections" &&
+            !$("sectionsList").querySelector(".secrow")
+          )
+            loadSections();
+          if (id === "tabStats" && !$("statsFrame").src) {
+            var host = $("statsFrame").dataset.site || "";
+            $("statsFrame").src =
+              "stats.html?site=" + encodeURIComponent(host) + "&embed=1";
+          }
         }
         Array.prototype.forEach.call(
           document.querySelectorAll(".vtab"),
@@ -543,6 +1086,109 @@
             };
           },
         );
+
+        /* ---------- tab strip arrows ---------- */
+        var strip = $("vtabs");
+        function syncArrows() {
+          var max = strip.scrollWidth - strip.clientWidth;
+          $("tabswrap").classList.toggle("noscroll", max <= 4);
+          $("tabPrev").disabled = strip.scrollLeft <= 2;
+          $("tabNext").disabled = strip.scrollLeft >= max - 2;
+        }
+        $("tabPrev").onclick = function () {
+          strip.scrollBy({
+            left: -Math.round(strip.clientWidth * 0.7),
+            behavior: "smooth",
+          });
+        };
+        $("tabNext").onclick = function () {
+          strip.scrollBy({
+            left: Math.round(strip.clientWidth * 0.7),
+            behavior: "smooth",
+          });
+        };
+        strip.addEventListener("scroll", syncArrows);
+        window.addEventListener("resize", syncArrows);
+        syncArrows();
+
+        /* ---------- to-do list ---------- */
+        var TODOS = [
+          {
+            id: "gbp",
+            title: "Connect your Google Business Profile",
+            desc: "Get your website linked to your Google listing so it shows on Maps and search. Call or text Dan on 0432 839 654 and he'll set it up.",
+            href: "tel:0432839654",
+          },
+          {
+            id: "stats",
+            title: "Check out your analytics",
+            desc: "See how many people visited your site and how many tapped call or email.",
+            tab: "tabStats",
+          },
+          {
+            id: "content",
+            title:
+              "Set your hours, business info, and check all website content",
+            desc: "Run through the Hours, Details and Text tabs and make sure everything reads exactly how you want it.",
+            tab: "tabHours",
+          },
+          {
+            id: "change",
+            title: "Change something",
+            desc: "Photos, colours, text — or ask Dan for something bigger.",
+            tab: "tabChange",
+          },
+        ];
+        function todoDone() {
+          try {
+            return JSON.parse(localStorage.getItem("cd-todo-done") || "[]");
+          } catch (e) {
+            return [];
+          }
+        }
+        function renderTodos() {
+          var box = $("todoList");
+          box.innerHTML = "";
+          var done = todoDone();
+          var shown = 0;
+          TODOS.forEach(function (t) {
+            if (done.indexOf(t.id) !== -1) return;
+            shown++;
+            var card = document.createElement("div");
+            card.className = "todo";
+            var x = document.createElement("button");
+            x.className = "tdx";
+            x.type = "button";
+            x.title = "Done — clear this";
+            x.setAttribute("aria-label", "Mark as done");
+            x.textContent = "✕";
+            x.onclick = function (ev) {
+              ev.stopPropagation();
+              var d = todoDone();
+              if (d.indexOf(t.id) === -1) d.push(t.id);
+              localStorage.setItem("cd-todo-done", JSON.stringify(d));
+              renderTodos();
+            };
+            var h = document.createElement("div");
+            h.className = "tdtitle";
+            h.textContent = t.title;
+            var p = document.createElement("div");
+            p.className = "tddesc";
+            p.textContent = t.desc;
+            card.onclick = function () {
+              if (t.tab) showTab(t.tab);
+              else if (t.href) location.href = t.href;
+            };
+            card.appendChild(x);
+            card.appendChild(h);
+            card.appendChild(p);
+            box.appendChild(card);
+          });
+          if (!shown)
+            box.innerHTML =
+              '<p class="loading">All done — nothing on the list.</p>';
+        }
+        renderTodos();
 
         /* ---------- photos ---------- */
         var swapTarget = null;
@@ -749,6 +1395,406 @@
             .catch(function (e) {
               btn.disabled = false;
               btn.textContent = "Apply colours";
+              toast(e.message);
+            });
+        };
+
+        /* ---------- business details ---------- */
+        $("saveDetails").onclick = function () {
+          var btn = this;
+          btn.disabled = true;
+          btn.textContent = "Updating everywhere…";
+          api({
+            action: "save-details",
+            name: $("detName").value,
+            phone: $("detPhone").value,
+            email: $("detEmail").value,
+            address: $("detAddress").value,
+            suburb: $("detSuburb").value,
+          })
+            .then(function (d) {
+              if (!d.ok)
+                throw new Error(d.error || "That didn't save — try again.");
+              btn.textContent = "Updated ✓";
+              toast(
+                "Details updated on " +
+                  d.pages +
+                  " page" +
+                  (d.pages === 1 ? "" : "s") +
+                  " — live within a minute or two.",
+              );
+              setTimeout(function () {
+                btn.disabled = false;
+                btn.textContent = "Update my details everywhere";
+                loadInfo();
+              }, 1500);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Update my details everywhere";
+              toast(e.message);
+            });
+        };
+
+        /* ---------- opening hours ---------- */
+        var DAYS = [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ];
+        function prefillHours(hours) {
+          var box = $("hoursRows");
+          box.innerHTML = "";
+          DAYS.forEach(function (day, i) {
+            var cur = null;
+            (hours || []).forEach(function (h) {
+              if (h.day === day) cur = h;
+            });
+            var open = cur && cur.opens ? cur.opens : i < 5 ? "07:00" : "";
+            var close = cur && cur.closes ? cur.closes : i < 5 ? "17:00" : "";
+            var closed = hours ? !cur : i >= 5;
+            var row = document.createElement("div");
+            row.className = "hrow" + (closed ? " closed" : "");
+            row.innerHTML =
+              '<span class="hday">' +
+              day +
+              "</span>" +
+              '<label><input type="checkbox" class="hclosed"' +
+              (closed ? " checked" : "") +
+              "> Closed</label>" +
+              '<input type="time" class="hopen" value="' +
+              open +
+              '">' +
+              '<input type="time" class="hclose" value="' +
+              close +
+              '">';
+            row.dataset.day = day;
+            row
+              .querySelector(".hclosed")
+              .addEventListener("change", function () {
+                row.classList.toggle("closed", this.checked);
+              });
+            box.appendChild(row);
+          });
+        }
+        prefillHours(null);
+        $("saveHours").onclick = function () {
+          var btn = this;
+          var rows = [];
+          Array.prototype.forEach.call(
+            $("hoursRows").querySelectorAll(".hrow"),
+            function (row) {
+              rows.push({
+                day: row.dataset.day,
+                closed: row.querySelector(".hclosed").checked,
+                opens: row.querySelector(".hopen").value,
+                closes: row.querySelector(".hclose").value,
+              });
+            },
+          );
+          btn.disabled = true;
+          btn.textContent = "Saving…";
+          api({ action: "save-hours", hours: rows })
+            .then(function (d) {
+              if (!d.ok)
+                throw new Error(d.error || "That didn't save — try again.");
+              btn.textContent = "Saved ✓";
+              toast(
+                "Opening hours saved on " +
+                  d.pages +
+                  " page" +
+                  (d.pages === 1 ? "" : "s") +
+                  " — live within a minute or two.",
+              );
+              setTimeout(function () {
+                btn.disabled = false;
+                btn.textContent = "Save opening hours";
+              }, 1500);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Save opening hours";
+              toast(e.message);
+            });
+        };
+
+        /* ---------- sections ---------- */
+        function loadSections() {
+          var list = $("sectionsList");
+          list.innerHTML = '<p class="loading">Loading sections…</p>';
+          api({ action: "sections", page: $("sectionsPage").value })
+            .then(function (d) {
+              if (!d.ok || !d.sections)
+                throw new Error(
+                  "Sections aren't available on this page of your site.",
+                );
+              list.innerHTML = "";
+              if (!d.sections.length) {
+                list.innerHTML =
+                  '<p class="loading">No sections found on this page.</p>';
+                return;
+              }
+              d.sections.forEach(function (s) {
+                var row = document.createElement("div");
+                row.className = "secrow" + (s.hidden ? " hiddenrow" : "");
+                var lab = document.createElement("div");
+                lab.className = "slabel";
+                lab.textContent = s.label;
+                var tag = document.createElement("span");
+                tag.className = "stag";
+                tag.textContent = s.hidden ? "hidden" : "";
+                var peek = document.createElement("button");
+                peek.className = "smallbtn ghost";
+                peek.textContent = "Show me";
+                peek.disabled = !s.anchor || s.hidden || !state.homepage;
+                peek.onclick = function () {
+                  var page = $("sectionsPage")
+                    .value.replace(/index\.html$/, "")
+                    .replace(/\/$/, "");
+                  window.open(
+                    state.homepage.replace(/\/$/, "") +
+                      "/" +
+                      (page ? page + "/" : "") +
+                      "#" +
+                      s.anchor,
+                    "_blank",
+                  );
+                };
+                var btn = document.createElement("button");
+                btn.className = "smallbtn" + (s.hidden ? "" : " danger");
+                btn.textContent = s.hidden ? "Bring it back" : "Hide";
+                btn.onclick = function () {
+                  if (
+                    !s.hidden &&
+                    !confirm(
+                      'Hide the "' +
+                        s.label +
+                        '" section? You can bring it back any time.',
+                    )
+                  )
+                    return;
+                  btn.disabled = true;
+                  btn.textContent = "Working…";
+                  api({
+                    action: "toggle-section",
+                    page: $("sectionsPage").value,
+                    name: s.name,
+                    hide: !s.hidden,
+                  })
+                    .then(function (d2) {
+                      if (!d2.ok)
+                        throw new Error(
+                          d2.error || "That didn't work — try again.",
+                        );
+                      toast(
+                        (s.hidden ? "Section restored" : "Section hidden") +
+                          " — live within a minute or two.",
+                      );
+                      loadSections();
+                    })
+                    .catch(function (e) {
+                      btn.disabled = false;
+                      btn.textContent = s.hidden ? "Bring it back" : "Hide";
+                      toast(e.message);
+                    });
+                };
+                row.appendChild(lab);
+                row.appendChild(tag);
+                row.appendChild(peek);
+                row.appendChild(btn);
+                list.appendChild(row);
+              });
+            })
+            .catch(function (e) {
+              list.innerHTML = '<p class="loading">' + e.message + "</p>";
+            });
+        }
+        $("sectionsPage").onchange = loadSections;
+
+        /* ---------- fonts ---------- */
+        var FONT_PAIRS = [
+          {
+            id: "classic",
+            label: "Classic",
+            heading: "Roboto Slab",
+            body: "Roboto",
+            blurb: "Solid and dependable — the standard look.",
+          },
+          {
+            id: "modern",
+            label: "Modern",
+            heading: "Montserrat",
+            body: "Open Sans",
+            blurb: "Clean and sharp, like a fresh quote.",
+          },
+          {
+            id: "bold",
+            label: "Bold",
+            heading: "Oswald",
+            body: "Source Sans 3",
+            blurb: "Big, confident headings that grab attention.",
+          },
+          {
+            id: "traditional",
+            label: "Traditional",
+            heading: "Merriweather",
+            body: "Lato",
+            blurb: "Established and trustworthy, old-school class.",
+          },
+          {
+            id: "friendly",
+            label: "Friendly",
+            heading: "Poppins",
+            body: "Inter",
+            blurb: "Round and approachable — easy to read.",
+          },
+          {
+            id: "elegant",
+            label: "Elegant",
+            heading: "Playfair Display",
+            body: "Source Sans 3",
+            blurb: "Upmarket and polished — a premium feel.",
+          },
+          {
+            id: "punchy",
+            label: "Punchy",
+            heading: "Bebas Neue",
+            body: "Inter",
+            blurb: "Tall, loud headings — impossible to miss.",
+          },
+          {
+            id: "tech",
+            label: "Tech",
+            heading: "Space Grotesk",
+            body: "Inter",
+            blurb: "Crisp and current, with a modern edge.",
+          },
+          {
+            id: "warm",
+            label: "Warm",
+            heading: "Nunito",
+            body: "Nunito Sans",
+            blurb: "Soft and welcoming — a family-business feel.",
+          },
+          {
+            id: "stylish",
+            label: "Stylish",
+            heading: "Raleway",
+            body: "Open Sans",
+            blurb: "Light and refined, effortlessly neat.",
+          },
+        ];
+        function renderFonts() {
+          var box = $("fontCards");
+          box.innerHTML = "";
+          FONT_PAIRS.forEach(function (p) {
+            var card = document.createElement("div");
+            card.className =
+              "fontcard" + (state.fontPair === p.id ? " on" : "");
+            var txt = document.createElement("div");
+            var h = document.createElement("div");
+            h.className = "fh";
+            h.style.fontFamily = '"' + p.heading + '", serif';
+            h.style.fontWeight = "700";
+            h.textContent = p.label + " — " + p.heading;
+            var b = document.createElement("div");
+            b.className = "fb";
+            b.style.fontFamily = '"' + p.body + '", sans-serif';
+            b.textContent = p.blurb + " (body text in " + p.body + ")";
+            txt.appendChild(h);
+            txt.appendChild(b);
+            card.appendChild(txt);
+            if (state.fontPair === p.id) {
+              var tag = document.createElement("span");
+              tag.className = "ftag";
+              tag.textContent = "current";
+              card.appendChild(tag);
+            }
+            card.onclick = function () {
+              state.fontSelected = p.id;
+              Array.prototype.forEach.call(
+                box.querySelectorAll(".fontcard"),
+                function (c) {
+                  c.classList.remove("on");
+                },
+              );
+              card.classList.add("on");
+            };
+            box.appendChild(card);
+          });
+        }
+        renderFonts();
+        $("saveFonts").onclick = function () {
+          var btn = this;
+          var pick = state.fontSelected || state.fontPair;
+          if (!pick) {
+            toast("Pick a font pairing first.");
+            return;
+          }
+          btn.disabled = true;
+          btn.textContent = "Changing fonts on every page…";
+          api({ action: "save-fonts", pair: pick })
+            .then(function (d) {
+              if (!d.ok)
+                throw new Error(d.error || "That didn't work — try again.");
+              state.fontPair = pick;
+              renderFonts();
+              btn.textContent = "Applied ✓";
+              toast(
+                "Fonts changed across " +
+                  d.pages +
+                  " file" +
+                  (d.pages === 1 ? "" : "s") +
+                  " — live within a minute or two.",
+              );
+              setTimeout(function () {
+                btn.disabled = false;
+                btn.textContent = "Apply these fonts";
+              }, 1500);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Apply these fonts";
+              toast(e.message);
+            });
+        };
+
+        /* ---------- announcement banner ---------- */
+        $("saveBanner").onclick = function () {
+          var btn = this;
+          btn.disabled = true;
+          btn.textContent = "Saving…";
+          api({
+            action: "save-announce",
+            on: $("banOn").checked,
+            text: $("banText").value,
+            href: $("banHref").value,
+          })
+            .then(function (d) {
+              if (!d.ok)
+                throw new Error(d.error || "That didn't save — try again.");
+              btn.textContent = "Saved ✓";
+              toast(
+                ($("banOn").checked
+                  ? "Banner is on across "
+                  : "Banner removed from ") +
+                  d.pages +
+                  " page" +
+                  (d.pages === 1 ? "" : "s") +
+                  " — live within a minute or two.",
+              );
+              setTimeout(function () {
+                btn.disabled = false;
+                btn.textContent = "Save banner";
+              }, 1500);
+            })
+            .catch(function (e) {
+              btn.disabled = false;
+              btn.textContent = "Save banner";
               toast(e.message);
             });
         };

@@ -346,6 +346,518 @@ const CODE_COLOURS_REPLY = `
 return [{ json: { ok: true, pages: $('Apply Colours').all().length } }];
 `.trim();
 
+/* ---------------- site info (read: details/fonts/hours/announce/homepage) ----- */
+
+const CODE_INFO_GUARD = `
+// Session check for the combined site-info read.
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+if (!row.site) throw new Error('No website linked to this account');
+return [{ json: { site: row.site } }];
+`.trim();
+
+const CODE_EXTRACT_INFO = `
+// One read serving the Details / Hours / Fonts / Banner tabs and the live
+// preview. Everything is feature-detected from index.html — fields a site
+// doesn't have come back null so the UI can hide those controls.
+let homepage = '';
+try { homepage = $('Get Repo Info').first().json.homepage || ''; } catch (e) {}
+let html = '';
+try { html = Buffer.from($('Get Index Info').first().json.content, 'base64').toString('utf8'); } catch (e) {}
+
+// business details live canonically in the JSON-LD block
+let ld = null;
+const ldm = html.match(/<script id="cd-ldjson"[^>]*>([\\s\\S]*?)<\\/script>/);
+if (ldm) { try { ld = JSON.parse(ldm[1]); } catch (e) {} }
+let details = null, hours = null;
+if (ld) {
+  const addr = ld.address || {};
+  const street = String(addr.streetAddress || '');
+  let suburb = String(addr.addressLocality || '');
+  if (!suburb) {
+    const sm = street.match(/,\\s*([A-Za-z' ]+?)\\s+(?:VIC|NSW|QLD|SA|WA|TAS|NT|ACT)\\b/i);
+    if (sm) suburb = sm[1].trim();
+  }
+  details = {
+    name: String(ld.name || ''),
+    phone: String(ld.telephone || ''),
+    email: String(ld.email || ''),
+    address: street,
+    suburb,
+  };
+  if (Array.isArray(ld.openingHoursSpecification)) {
+    hours = ld.openingHoursSpecification.map((h) => ({
+      day: String(h.dayOfWeek || ''), opens: String(h.opens || ''), closes: String(h.closes || ''),
+    }));
+  }
+}
+
+// current font pairing, from the Google Fonts link + how the page uses each
+// family (serif fallback = heading, sans-serif fallback = body)
+let fonts = null;
+const fl = html.match(/href="https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?([^"]+)"/);
+if (fl) {
+  const fams = [...fl[1].matchAll(/family=([^:&]+)/g)].map((m) => decodeURIComponent(m[1]).replace(/\\+/g, ' '));
+  const escRe = (s) => s.replace(/[.*+?^\\\${}()|[\\]\\\\]/g, '\\\\$&');
+  let heading = null, body = null;
+  for (const f of fams) {
+    if (new RegExp(escRe(f) + '\\\\s*,\\\\s*serif').test(html)) heading = heading || f;
+    else if (new RegExp(escRe(f) + '\\\\s*,\\\\s*sans-serif').test(html)) body = body || f;
+  }
+  if (fams.length >= 2) fonts = { heading: heading || fams[fams.length - 1], body: body || fams[0] };
+}
+
+// announcement bar state
+const announce = { on: false, text: '', href: '' };
+const am = html.match(/<div id="cd-announce"[^>]*>([\\s\\S]*?)<\\/div>/);
+if (am) {
+  announce.on = true;
+  const lm = am[1].match(/<a [^>]*href="([^"]*)"/);
+  if (lm) announce.href = lm[1];
+  announce.text = am[1].replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\\s+/g, ' ').trim();
+}
+
+return [{ json: {
+  ok: true, homepage, details, hours, fonts, announce,
+  sectionsSupported: /<!-- =+ SECTION: /.test(html) || /<section[\\s>]/.test(html),
+} }];
+`.trim();
+
+/* ---------------- sections (read, per page) ---------------- */
+
+const CODE_SECTIONS_GUARD = `
+// Session + page validation for the section list.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const page = String(body.page || 'index.html');
+if (!new RegExp('${PAGE_RE}').test(page)) throw new Error('Invalid page');
+return [{ json: { site: row.site, page } }];
+`.trim();
+
+const CODE_EXTRACT_SECTIONS = `
+// Sections come from the fuser's <!-- ===== SECTION: name ===== --> markers
+// (a section runs to the next marker or the footer). Sites without markers
+// fall back to depth-scanned top-level <section> elements.
+const g = $('Sections Guard').first().json;
+const html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+
+const labelOf = (region, fallback) => {
+  const h = region.match(/<h[1-3][^>]*>([^<]{2,90})</);
+  if (h) return h[1].replace(/&amp;/g, '&').trim();
+  return fallback.replace(/-/g, ' ').replace(/\\b\\w/g, (c) => c.toUpperCase()).trim();
+};
+
+const out = [];
+const marks = [];
+const mre = /<!-- =+ SECTION: ([a-z0-9-]+) =+ -->/g;
+let m;
+while ((m = mre.exec(html))) marks.push({ name: m[1], at: m.index, end: m.index + m[0].length });
+
+if (marks.length) {
+  const f = html.indexOf('<footer');
+  const stop = f === -1 ? html.length : f;
+  for (let i = 0; i < marks.length; i++) {
+    const region = html.slice(marks[i].end, i + 1 < marks.length ? marks[i + 1].at : stop);
+    const idm = region.match(/\\bid="([^"]+)"/);
+    out.push({
+      name: marks[i].name,
+      label: labelOf(region, marks[i].name),
+      hidden: /^\\s*<!-- cd-hide:/.test(region),
+      anchor: idm ? idm[1] : '',
+    });
+  }
+} else {
+  // top-level <section> scan
+  const tre = /<section\\b|<\\/section>/g;
+  let depth = 0, start = -1, t, idx = 0;
+  while ((t = tre.exec(html))) {
+    if (t[0] === '<section') { if (depth === 0) start = t.index; depth++; }
+    else if (depth > 0) {
+      depth--;
+      if (depth === 0) {
+        const region = html.slice(start, t.index + 10);
+        const idm = region.slice(0, 300).match(/\\bid="([^"]+)"/);
+        const name = idm ? idm[1] : 's' + idx;
+        out.push({
+          name,
+          label: labelOf(region, idm ? idm[1] : 'section ' + (idx + 1)),
+          hidden: /<!-- cd-hide:/.test(html.slice(Math.max(0, start - 120), start)),
+          anchor: idm ? idm[1] : '',
+        });
+        idx++;
+      }
+    }
+  }
+}
+return [{ json: { ok: true, page: g.page, mode: marks.length ? 'markers' : 'fallback', sections: out.slice(0, 40) } }];
+`.trim();
+
+/* ---------------- generic multi-page site writes ---------------- */
+
+const FONT_PAIRS = {
+  classic: {
+    heading: "Roboto Slab",
+    body: "Roboto",
+    hw: "400;600;700;800",
+    bw: "300;400;500;700",
+  },
+  modern: {
+    heading: "Montserrat",
+    body: "Open Sans",
+    hw: "400;600;700;800",
+    bw: "300;400;500;700",
+  },
+  bold: {
+    heading: "Oswald",
+    body: "Source Sans 3",
+    hw: "400;500;600;700",
+    bw: "300;400;500;700",
+  },
+  traditional: {
+    heading: "Merriweather",
+    body: "Lato",
+    hw: "400;700;900",
+    bw: "300;400;700",
+  },
+  friendly: {
+    heading: "Poppins",
+    body: "Inter",
+    hw: "400;600;700;800",
+    bw: "300;400;500;700",
+  },
+  elegant: {
+    heading: "Playfair Display",
+    body: "Source Sans 3",
+    hw: "400;600;700;800",
+    bw: "300;400;500;700",
+  },
+  punchy: {
+    heading: "Bebas Neue",
+    body: "Inter",
+    hw: "400",
+    bw: "300;400;500;700",
+  },
+  tech: {
+    heading: "Space Grotesk",
+    body: "Inter",
+    hw: "400;500;600;700",
+    bw: "300;400;500;700",
+  },
+  warm: {
+    heading: "Nunito",
+    body: "Nunito Sans",
+    hw: "400;600;700;800",
+    bw: "300;400;600;700",
+  },
+  stylish: {
+    heading: "Raleway",
+    body: "Open Sans",
+    hw: "400;600;700;800",
+    bw: "300;400;500;700",
+  },
+};
+
+const CODE_SITE_WRITE_GUARD = `
+// One guard for every deterministic multi-page write. Validates the
+// per-action payload and decides the commit message.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+if (!row.site) throw new Error('No website linked to this account');
+const action = String(body.action || '');
+const clean = (s, n) => String(s == null ? '' : s).slice(0, n).trim();
+const out = { site: row.site, action };
+
+if (action === 'save-details') {
+  out.details = {
+    name: clean(body.name, 80),
+    phone: clean(body.phone, 30),
+    email: clean(body.email, 80),
+    address: clean(body.address, 140),
+    suburb: clean(body.suburb, 40),
+  };
+  if (!Object.values(out.details).some(Boolean)) throw new Error('Nothing to save');
+  if (out.details.email && !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(out.details.email)) throw new Error('That email address does not look right');
+  out.commitMsg = 'business details update';
+} else if (action === 'save-hours') {
+  const days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+  const t = /^([01]?\\d|2[0-3]):[0-5]\\d$/;
+  const rows = Array.isArray(body.hours) ? body.hours : [];
+  out.hours = days.map((d) => {
+    const r = rows.find((x) => x && x.day === d) || {};
+    if (r.closed || !t.test(String(r.opens || '')) || !t.test(String(r.closes || ''))) return { day: d, closed: true };
+    return { day: d, opens: String(r.opens), closes: String(r.closes), closed: false };
+  });
+  if (!out.hours.some((h) => !h.closed)) throw new Error('Set at least one open day');
+  out.commitMsg = 'opening hours update';
+} else if (action === 'save-fonts') {
+  const pairs = ${JSON.stringify(FONT_PAIRS)};
+  const p = pairs[String(body.pair || '')];
+  if (!p) throw new Error('Unknown font pairing');
+  out.fonts = p;
+  out.commitMsg = 'font change: ' + p.heading + ' + ' + p.body;
+} else if (action === 'save-announce') {
+  out.announce = { on: !!body.on, text: clean(body.text, 160), href: clean(body.href, 300) };
+  if (out.announce.on && !out.announce.text) throw new Error('The bar needs some text');
+  if (out.announce.href && !/^(https?:\\/\\/|\\/|tel:|mailto:)/i.test(out.announce.href)) throw new Error('Link must start with https://, /, tel: or mailto:');
+  out.commitMsg = 'announcement bar ' + (out.announce.on ? 'on' : 'off');
+} else if (action === 'toggle-section') {
+  const page = String(body.page || '');
+  if (!new RegExp('${PAGE_RE}').test(page)) throw new Error('Invalid page');
+  const name = String(body.name || '');
+  if (!/^[a-z0-9][a-z0-9-]{0,59}$/i.test(name)) throw new Error('Invalid section');
+  out.toggle = { page, name, hide: !!body.hide };
+  out.commitMsg = 'section ' + (body.hide ? 'hidden' : 'restored') + ': ' + name + ' on ' + page;
+} else throw new Error('Unknown action');
+return [{ json: out }];
+`.trim();
+
+const CODE_SITE_PAGES = `
+// Page list for the write: sitemap-driven (like colours); fonts also edit
+// the shared stylesheet; section toggles touch exactly one page.
+const g = $('Site Write Guard').first().json;
+if (g.action === 'toggle-section') return [{ json: { path: g.toggle.page, site: g.site } }];
+let pages = ['index.html', 'about/index.html', 'services/index.html', 'pricing/index.html', 'blog/index.html', 'contact/index.html'];
+try {
+  const sm = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+  const urls = [...sm.matchAll(/<loc>([^<]+)<\\/loc>/g)].map((m) => String(m[1]).replace(/^https?:\\/\\/[^\\/]+/, ''));
+  if (urls.length) pages = urls.map((p) => (p.replace(/^\\/+|\\/+$/g, '') ? p.replace(/^\\/+|\\/+$/g, '') + '/index.html' : 'index.html'));
+} catch (e) {}
+if (g.action === 'save-fonts') pages.push('assets/site.css');
+return pages.map((p) => ({ json: { path: p, site: g.site } }));
+`.trim();
+
+const CODE_APPLY_SITE_EDIT = `
+// The transform hub for every deterministic write. Each handler feature-
+// detects its anchors and leaves pages it can't safely change untouched —
+// a page only comes back (and gets committed) when it actually changed.
+const g = $('Site Write Guard').first().json;
+const escRe = (s) => s.replace(/[.*+?^\\\${}()|[\\]\\\\]/g, '\\\\$&');
+const enc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const notes = [];
+
+const items = $input.all().map((i) => i.json).filter((i) => i && i.content && i.path);
+
+// ---- shared: tokenised multi-substitution (prevents chained replacements)
+const makeSub = () => {
+  const toks = [];
+  return {
+    sub(html, re, newV) {
+      const t = '\\u0001CD' + toks.length + '\\u0001';
+      const before = html;
+      html = html.replace(re, t);
+      if (html !== before) toks.push([t, newV]); else toks.push([t, newV]);
+      return html;
+    },
+    expand(html) {
+      for (const [t, v] of toks) html = html.split(t).join(v);
+      return html;
+    },
+  };
+};
+
+// ---- details: old values come from each page's own JSON-LD (fallback: the
+// first page that has one — index is first in the sitemap)
+let globalOld = null;
+const ldOf = (html) => {
+  const m = html.match(/<script id="cd-ldjson"[^>]*>([\\s\\S]*?)<\\/script>/);
+  if (!m) return null;
+  try { return { raw: m[0], inner: m[1], data: JSON.parse(m[1]) }; } catch (e) { return null; }
+};
+const oldFrom = (ld) => {
+  const addr = (ld.data.address || {});
+  const street = String(addr.streetAddress || '');
+  let suburb = String(addr.addressLocality || '');
+  if (!suburb) {
+    const sm = street.match(/,\\s*([A-Za-z' ]+?)\\s+(?:VIC|NSW|QLD|SA|WA|TAS|NT|ACT)\\b/i);
+    if (sm) suburb = sm[1].trim();
+  }
+  return { name: String(ld.data.name || ''), phone: String(ld.data.telephone || ''), email: String(ld.data.email || ''), address: street, suburb };
+};
+
+const phoneRes = (p) => {
+  const digits = String(p).replace(/\\D/g, '');
+  if (digits.length < 8) return [];
+  const variants = new Set([digits]);
+  if (digits.indexOf('61') === 0) variants.add('0' + digits.slice(2));
+  else if (digits.indexOf('0') === 0) variants.add('61' + digits.slice(1));
+  return [...variants].map((v) => new RegExp('\\\\+?' + v.split('').join('[\\\\s().-]{0,2}'), 'g'));
+};
+
+const applyDetails = (html) => {
+  const ld = ldOf(html);
+  if (ld && !globalOld) globalOld = oldFrom(ld);
+  const old = ld ? oldFrom(ld) : globalOld;
+  if (!old) { notes.push('No business-data block found on your site.'); return html; }
+  const d = g.details;
+  const s = makeSub();
+  if (d.phone && old.phone && d.phone !== old.phone) for (const re of phoneRes(old.phone)) html = s.sub(html, re, d.phone);
+  const pairs = [['name', 'gi'], ['address', 'g'], ['suburb', 'g'], ['email', 'gi']]
+    .filter(([k]) => d[k] && old[k] && d[k] !== old[k])
+    .map(([k, fl]) => [old[k], d[k], fl]);
+  pairs.sort((a, b) => b[0].length - a[0].length);
+  for (const [oldV, newV, fl] of pairs) html = s.sub(html, new RegExp(escRe(oldV), fl), newV);
+  html = s.expand(html);
+  // canonical JSON-LD fields, set explicitly
+  const ld2 = ldOf(html);
+  if (ld2) {
+    const data = ld2.data;
+    if (d.name) data.name = d.name;
+    if (d.phone) data.telephone = d.phone;
+    if (d.email) data.email = d.email;
+    if (d.address) { data.address = data.address || { '@type': 'PostalAddress' }; data.address.streetAddress = d.address; }
+    if (d.suburb) { data.address = data.address || { '@type': 'PostalAddress' }; data.address.addressLocality = d.suburb; }
+    html = html.replace(ld2.raw, ld2.raw.replace(ld2.inner, '\\n' + JSON.stringify(data) + '\\n    '));
+  }
+  return html;
+};
+
+// ---- opening hours
+const fmt12 = (t) => {
+  const [h, mn] = t.split(':').map(Number);
+  const ap = h >= 12 ? 'pm' : 'am';
+  const hh = h % 12 === 0 ? 12 : h % 12;
+  return hh + (mn ? ':' + String(mn).padStart(2, '0') : '') + ap;
+};
+const hoursBlock = () => {
+  const rows = g.hours.map((h) =>
+    '<div style="display:flex;justify-content:space-between;gap:18px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.12);font-size:14px;"><span style="font-weight:700;">' + h.day + '</span><span style="opacity:0.92;">' + (h.closed ? 'Closed' : fmt12(h.opens) + ' – ' + fmt12(h.closes)) + '</span></div>'
+  ).join('');
+  return '<div id="cd-hours" style="background:var(--color-secondary,#1a1a1a);color:#fff;padding:42px 30px;"><div style="max-width:560px;margin:0 auto;"><h4 style="margin:0 0 16px;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-align:center;">Opening Hours</h4>' + rows + '</div></div><!-- /cd-hours -->';
+};
+const applyHours = (html) => {
+  let changed = false;
+  const ld = ldOf(html);
+  if (ld) {
+    ld.data.openingHoursSpecification = g.hours.filter((h) => !h.closed).map((h) => ({ '@type': 'OpeningHoursSpecification', dayOfWeek: h.day, opens: h.opens, closes: h.closes }));
+    html = html.replace(ld.raw, ld.raw.replace(ld.inner, '\\n' + JSON.stringify(ld.data) + '\\n    '));
+    changed = true;
+  }
+  const block = hoursBlock();
+  if (/<div id="cd-hours"/.test(html)) {
+    html = html.replace(/<div id="cd-hours"[\\s\\S]*?<!-- \\/cd-hours -->/, () => block);
+    changed = true;
+  } else if (html.indexOf('</footer>') !== -1) {
+    html = html.replace('</footer>', () => block + '</footer>');
+    changed = true;
+  }
+  if (!changed) notes.push('No footer or business-data block to put the hours in.');
+  return html;
+};
+
+// ---- fonts (HTML pages AND the shared stylesheet)
+const applyFonts = (content, isCss) => {
+  const f = g.fonts;
+  const curH = (content.match(/font-family:\\s*"?([A-Za-z0-9 ]+?)"?\\s*,\\s*serif/) || [])[1];
+  const curB = (content.match(/font-family:\\s*"?([A-Za-z0-9 ]+?)"?\\s*,\\s*sans-serif/) || [])[1];
+  if (!curH && !curB) { if (!isCss) notes.push('Could not detect the current fonts on a page.'); return content; }
+  if (!isCss) {
+    const plus = (s) => s.replace(/ /g, '+');
+    const href = 'https://fonts.googleapis.com/css2?family=' + plus(f.heading) + ':wght@' + f.hw + '&amp;family=' + plus(f.body) + ':wght@' + f.bw + '&amp;display=swap';
+    content = content.replace(/href="https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?[^"]+"/, () => 'href="' + href + '"');
+  }
+  const s = makeSub();
+  const subs = [];
+  if (curH && curH !== f.heading) subs.push([curH, f.heading]);
+  if (curB && curB !== f.body) subs.push([curB, f.body]);
+  subs.sort((a, b) => b[0].length - a[0].length);
+  for (const [oldV, newV] of subs) {
+    content = s.sub(content, new RegExp(escRe(oldV) + '(?=\\\\s*[,"\\';])', 'g'), newV);
+  }
+  return s.expand(content);
+};
+
+// ---- announcement bar
+const applyAnnounce = (html) => {
+  const had = /<!-- cd-announce -->/.test(html);
+  html = html.replace(/<!-- cd-announce -->[\\s\\S]*?<!-- \\/cd-announce -->\\n?/, '');
+  const a = g.announce;
+  if (!a.on) { if (!had) notes.push('The bar was already off.'); return html; }
+  const text = enc(a.text);
+  const inner = a.href ? '<a href="' + enc(a.href) + '" style="color:inherit;text-decoration:underline;font-weight:700;">' + text + '</a>' : text;
+  const fixedNav = /<nav[^>]*(data-cd="nav"|class="[^"]*\\bfixed\\b)/.test(html);
+  const bar = fixedNav
+    ? '<!-- cd-announce --><div id="cd-announce" style="position:fixed;top:0;left:0;right:0;z-index:2000;display:flex;align-items:center;justify-content:center;min-height:40px;padding:8px 16px;box-sizing:border-box;background:var(--color-primary,#222);color:#fff;font-size:14px;font-weight:600;text-align:center;line-height:1.3;">' + inner + '</div><style id="cd-announce-style">nav[data-cd="nav"],nav.fixed{top:40px !important;}</style><!-- /cd-announce -->'
+    : '<!-- cd-announce --><div id="cd-announce" style="display:flex;align-items:center;justify-content:center;min-height:40px;padding:8px 16px;box-sizing:border-box;background:var(--color-primary,#222);color:#fff;font-size:14px;font-weight:600;text-align:center;line-height:1.3;">' + inner + '</div><!-- /cd-announce -->';
+  const bm = html.match(/<body[^>]*>/);
+  if (!bm) { notes.push('Could not find where to put the bar on a page.'); return html; }
+  const at = html.indexOf(bm[0]) + bm[0].length;
+  return html.slice(0, at) + '\\n' + bar + html.slice(at);
+};
+
+// ---- section show / hide (single page)
+const applyToggle = (html) => {
+  const t = g.toggle;
+  if (!t.hide) {
+    const un = new RegExp('<!-- cd-hide:' + escRe(t.name) + ' --><div[^>]*>([\\\\s\\\\S]*?)<\\\\/div><!-- \\\\/cd-hide:' + escRe(t.name) + ' -->');
+    const next = html.replace(un, (m, p1) => p1);
+    if (next === html) notes.push('That section is not hidden.');
+    return next;
+  }
+  if (new RegExp('<!-- cd-hide:' + escRe(t.name) + ' -->').test(html)) { notes.push('That section is already hidden.'); return html; }
+  const HIDE_OPEN = '<!-- cd-hide:' + t.name + ' --><div hidden style="display:none !important">';
+  const HIDE_CLOSE = '</div><!-- /cd-hide:' + t.name + ' -->';
+  const mm = html.match(new RegExp('<!-- =+ SECTION: ' + escRe(t.name) + ' =+ -->'));
+  if (mm) {
+    const from = html.indexOf(mm[0]) + mm[0].length;
+    const nxt = html.slice(from).search(/<!-- =+ SECTION: [a-z0-9-]+ =+ -->/);
+    const foot = html.indexOf('<footer', from);
+    let to = nxt !== -1 ? from + nxt : (foot !== -1 ? foot : html.length);
+    return html.slice(0, from) + HIDE_OPEN + html.slice(from, to) + HIDE_CLOSE + html.slice(to);
+  }
+  // fallback: top-level <section> matched by id or sN index
+  const tre = /<section\\b|<\\/section>/g;
+  let depth = 0, start = -1, m2, idx = 0;
+  while ((m2 = tre.exec(html))) {
+    if (m2[0] === '<section') { if (depth === 0) start = m2.index; depth++; }
+    else if (depth > 0) {
+      depth--;
+      if (depth === 0) {
+        const end = m2.index + 10;
+        const open = html.slice(start, html.indexOf('>', start) + 1);
+        const idm = open.match(/\\bid="([^"]+)"/);
+        const name = idm ? idm[1] : 's' + idx;
+        if (name === t.name) {
+          return html.slice(0, start) + HIDE_OPEN + html.slice(start, end) + HIDE_CLOSE + html.slice(end);
+        }
+        idx++;
+      }
+    }
+  }
+  notes.push('Could not find that section on the page.');
+  return html;
+};
+
+const out = [];
+for (const it of items) {
+  const isCss = /\\.css$/.test(it.path);
+  let content = Buffer.from(it.content, 'base64').toString('utf8');
+  const before = content;
+  if (g.action === 'save-details' && !isCss) content = applyDetails(content);
+  else if (g.action === 'save-hours' && !isCss) content = applyHours(content);
+  else if (g.action === 'save-fonts') content = applyFonts(content, isCss);
+  else if (g.action === 'save-announce' && !isCss) content = applyAnnounce(content);
+  else if (g.action === 'toggle-section' && !isCss) content = applyToggle(content);
+  if (content !== before) out.push({ json: { path: it.path, content, site: g.site } });
+}
+out.push({ json: { summary: true, changed: out.length, notes: [...new Set(notes)] } });
+return out;
+`.trim();
+
+const CODE_SITE_EDIT_REPLY = `
+let items = [];
+try { items = $('Apply Site Edit').all().map((i) => i.json); } catch (e) {}
+const changed = items.filter((i) => i.path).length;
+const sum = items.find((i) => i.summary) || {};
+const notes = sum.notes || [];
+if (!changed) return [{ json: { ok: false, error: notes[0] || 'That change is not available on your site yet.' } }];
+return [{ json: { ok: true, pages: changed, notes } }];
+`.trim();
+
 /* ---------------- editor chain: validate / route / bill ---------------- */
 
 const CODE_VALIDATE_V3 = `
@@ -615,6 +1127,13 @@ const accountNodes = [
           switchRule("texts", "texts"),
           switchRule("savetexts", "save-texts"),
           switchRule("colours", "colours"),
+          switchRule("siteinfo", "site-info"),
+          switchRule("sections", "sections"),
+          switchRule("savedetails", "save-details"),
+          switchRule("savehours", "save-hours"),
+          switchRule("savefonts", "save-fonts"),
+          switchRule("saveannounce", "save-announce"),
+          switchRule("togglesection", "toggle-section"),
         ],
       },
       options: {},
@@ -1081,6 +1600,229 @@ const accountNodes = [
     settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_COLOURS_REPLY },
   },
+  /* site info (read) */
+  {
+    name: "Find Session Info",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 1120],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Info Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 1120],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_INFO_GUARD },
+  },
+  {
+    name: "Get Repo Info",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 1120],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "repository",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Info Guard').first().json.site }}",
+        mode: "name",
+      },
+    },
+  },
+  {
+    name: "Get Index Info",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1900, Y + 1120],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Info Guard').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "index.html",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Extract Site Info",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2060, Y + 1120],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_EXTRACT_INFO },
+  },
+  /* sections (read) */
+  {
+    name: "Find Session Sections",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 1280],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Sections Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 1280],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SECTIONS_GUARD },
+  },
+  {
+    name: "Get Page Sections",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 1280],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Extract Sections",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 1280],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_EXTRACT_SECTIONS },
+  },
+  /* generic multi-page writes (details / hours / fonts / announce / toggle) */
+  {
+    name: "Find Session Site",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 1440],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Site Write Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 1440],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SITE_WRITE_GUARD },
+  },
+  {
+    name: "Get Site Sitemap",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 1440],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "sitemap.xml",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Site Pages",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 1440],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SITE_PAGES },
+  },
+  {
+    name: "Get Page For Site",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2060, Y + 1440],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Apply Site Edit",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2220, Y + 1440],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_APPLY_SITE_EDIT },
+  },
+  {
+    name: "Made Site Changes",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [2380, Y + 1440],
+    parameters: ifCond(
+      "msc1",
+      "={{ $json.path ? 1 : 0 }}",
+      { type: "number", operation: "equals" },
+      1,
+    ),
+  },
+  {
+    name: "Commit Site Edit",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2540, Y + 1400],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "={{ $('Site Write Guard').first().json.commitMsg }}",
+    },
+  },
+  {
+    name: "Site Edit Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2700, Y + 1480],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_SITE_EDIT_REPLY },
+  },
   {
     name: "Respond Builder",
     type: "n8n-nodes-base.respondToWebhook",
@@ -1366,6 +2108,33 @@ const accountConnections = [
   ["Apply Colours", "Commit Colours"],
   ["Commit Colours", "Colours Reply"],
   ["Colours Reply", "Respond Builder"],
+  /* site info + sections + generic site writes */
+  { source: "Route Action", target: "Find Session Info", sourceIndex: 8 },
+  { source: "Route Action", target: "Find Session Sections", sourceIndex: 9 },
+  { source: "Route Action", target: "Find Session Site", sourceIndex: 10 },
+  { source: "Route Action", target: "Find Session Site", sourceIndex: 11 },
+  { source: "Route Action", target: "Find Session Site", sourceIndex: 12 },
+  { source: "Route Action", target: "Find Session Site", sourceIndex: 13 },
+  { source: "Route Action", target: "Find Session Site", sourceIndex: 14 },
+  ["Find Session Info", "Info Guard"],
+  ["Info Guard", "Get Repo Info"],
+  ["Get Repo Info", "Get Index Info"],
+  ["Get Index Info", "Extract Site Info"],
+  ["Extract Site Info", "Respond Builder"],
+  ["Find Session Sections", "Sections Guard"],
+  ["Sections Guard", "Get Page Sections"],
+  ["Get Page Sections", "Extract Sections"],
+  ["Extract Sections", "Respond Builder"],
+  ["Find Session Site", "Site Write Guard"],
+  ["Site Write Guard", "Get Site Sitemap"],
+  ["Get Site Sitemap", "Site Pages"],
+  ["Site Pages", "Get Page For Site"],
+  ["Get Page For Site", "Apply Site Edit"],
+  ["Apply Site Edit", "Made Site Changes"],
+  { source: "Made Site Changes", target: "Commit Site Edit", sourceIndex: 0 },
+  { source: "Made Site Changes", target: "Site Edit Reply", sourceIndex: 1 },
+  ["Commit Site Edit", "Site Edit Reply"],
+  ["Site Edit Reply", "Respond Builder"],
 ];
 
 const editorConnections = [
