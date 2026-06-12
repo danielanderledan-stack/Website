@@ -303,6 +303,54 @@
   });
 
   /* ------------------------------------------------------------------
+     8b. Discount-notify form (pricing page; no backend — mirrors the
+     newsletter form: shows a confirmation instead of submitting)
+  ------------------------------------------------------------------ */
+  safe("discount-notify", function () {
+    $all('form[data-cd="discount-notify"]').forEach(function (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var input = form.querySelector("input");
+        if (!input || !input.value.trim()) return;
+        var p = document.createElement("p");
+        p.style.cssText =
+          "font-family:Roboto;font-size:14px;color:#1bd760;font-weight:700";
+        p.textContent = "Thanks! We'll let you know when a discount is on.";
+        form.parentNode.replaceChild(p, form);
+      });
+    });
+  });
+
+  /* ------------------------------------------------------------------
+     8c. Page loading screen
+     A full-screen [data-cd="loader"] overlay (content lives in the HTML)
+     is shown until the page finishes loading, then slides up out of view.
+     Fails safe: a CSS rule hides it without JS, and a timeout guarantees
+     it is removed even if the load event never fires.
+  ------------------------------------------------------------------ */
+  safe("loader", function () {
+    var loader = $('[data-cd="loader"]');
+    if (!loader) return;
+    var done = false;
+    function hide() {
+      if (done) return;
+      done = true;
+      loader.classList.add("cd-hide");
+      setTimeout(function () {
+        if (loader.parentNode) loader.parentNode.removeChild(loader);
+      }, 800);
+    }
+    if (document.readyState === "complete") {
+      setTimeout(hide, 250);
+    } else {
+      window.addEventListener("load", function () {
+        setTimeout(hide, 300);
+      });
+    }
+    setTimeout(hide, 6000); /* failsafe */
+  });
+
+  /* ------------------------------------------------------------------
      9. Broken-image fallback (identical to the original inline script):
      a failed image is replaced with a themed picsum placeholder, and if
      that fails too, with a neutral grey box. Also sweeps images that
@@ -369,7 +417,8 @@
   ------------------------------------------------------------------ */
   safe("analytics", function () {
     if (navigator.webdriver || /[?&]capture=1/.test(location.search)) return;
-    var ENDPOINT = "https://n8n-production-d02c.up.railway.app/webhook/analytics-track";
+    var ENDPOINT =
+      "https://n8n-production-d02c.up.railway.app/webhook/analytics-track";
     var siteMeta = document.querySelector('meta[name="cd-site"]');
     var SITE =
       (siteMeta && siteMeta.getAttribute("content")) || location.hostname;

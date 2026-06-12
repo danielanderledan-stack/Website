@@ -54,6 +54,23 @@ html:not(.js) .reveal,html:not(.js) .reveal-l,html:not(.js) .reveal-r{opacity:1!
 /* calculator toggle active states (site.js toggles .cd-on) */
 [data-cd="calc-urgency"] button.cd-on{background:var(--color-primary)!important;color:#111!important}
 [data-cd="calc-type"] button.cd-on{background:var(--color-secondary)!important;color:var(--color-primary)!important}
+/* outline button (quote-only + contact-band ctas) */
+.btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:transparent;color:var(--color-secondary);font-family:Roboto,sans-serif;font-size:13px;font-weight:700;letter-spacing:.5px;padding:9px 28px;border:2px solid var(--color-secondary);cursor:pointer;transition:background .2s ease,color .2s ease}
+.btn-outline:hover{background:var(--color-secondary);color:#fff}
+.btn-outline-light{color:#fff;border-color:rgba(255,255,255,.6)}
+.btn-outline-light:hover{background:#fff;color:var(--color-secondary)}
+/* quote-only section heading (clamp lives here, not inline — jsdom-safe) */
+.cd-quote-h2{font-size:clamp(26px,3.5vw,40px);margin-bottom:20px}
+/* full-screen loading screen (site.js slides it away after load) */
+.cd-loader{position:fixed;inset:0;z-index:9999;background:#0b0b0b;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;transition:transform .7s cubic-bezier(.7,0,.2,1)}
+.cd-loader.cd-hide{transform:translateY(-100%)}
+.cd-loader-name{font-family:Roboto Slab,serif;font-weight:800;color:#fff;font-size:clamp(28px,6vw,56px);letter-spacing:1px;line-height:1.12;opacity:0;animation:cd-loader-fade .8s ease .1s forwards}
+.cd-loader-slogan{font-family:Roboto,sans-serif;font-size:clamp(11px,2.4vw,14px);font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--color-primary);margin-top:16px;opacity:0;animation:cd-loader-fade .8s ease .35s forwards}
+.cd-loader-bar{width:54px;height:2px;background:rgba(255,255,255,.14);margin-top:30px;overflow:hidden;position:relative}
+.cd-loader-bar:after{content:"";position:absolute;top:0;bottom:0;left:-40%;width:40%;background:var(--color-primary);animation:cd-loader-slide 1.1s ease-in-out infinite}
+@keyframes cd-loader-fade{to{opacity:1}}
+@keyframes cd-loader-slide{0%{left:-40%}100%{left:100%}}
+html:not(.js) .cd-loader{display:none}
 `;
 
 const PAGES = ["home", "about", "services", "pricing", "blog", "contact"];
@@ -299,13 +316,159 @@ async function probeCalculator(w, warnings) {
 }
 
 /* ========================================================================
+   QUOTE-ONLY MARKUP — pricing is quote-only on every generated site: the
+   pricing page's price sections are replaced with a text block + call/email
+   CTAs, the home calculator becomes a static quote card, price-list rows
+   show "Quote only", and a discount-notify form sits under the quote block.
+   No config field carries the quote copy, so the text is generated from
+   trade/suburb; quoteOnlyHeading / quoteOnlyText (string or array) override
+   it when a config provides them.
+   ======================================================================== */
+function escHtml(s) {
+  return String(s == null ? "" : s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+function telHref(phone) {
+  return "tel:" + String(phone || "").replace(/[^\d+]/g, "");
+}
+
+/* Call + Email button pair. The call button dials config.phone; the email
+   button is mailto: when the config has an address and inert otherwise. */
+function ctaButtonsHtml(cfg, { callLabel, light }) {
+  const outline = "btn-outline" + (light ? " btn-outline-light" : "");
+  const call = cfg.phone
+    ? '<a href="' +
+      telHref(cfg.phone) +
+      '" class="btn-yellow" style="font-size: 14px; padding: 15px 34px;">' +
+      escHtml(callLabel || "Call " + cfg.phone) +
+      "</a>"
+    : "";
+  const email =
+    "<a" +
+    (cfg.email ? ' href="mailto:' + escHtml(cfg.email) + '"' : "") +
+    ' class="' +
+    outline +
+    '" style="font-size: 14px; padding: 13px 34px;">Email Us</a>';
+  return call + email;
+}
+
+function quoteOnlyParas(cfg) {
+  if (cfg.quoteOnlyText)
+    return (
+      Array.isArray(cfg.quoteOnlyText) ? cfg.quoteOnlyText : [cfg.quoteOnlyText]
+    ).map(escHtml);
+  const trade = (cfg.trade || "").toLowerCase();
+  const job = trade ? trade + " job" : "job";
+  return [
+    "Some " +
+      escHtml(job) +
+      "s are a quick fix and you're sorted the same day. Others take real time and care to get right. No two are ever quite the same, and we'd rather not pretend they are by putting a one-size-fits-all price on yours.",
+    "That's exactly why we're quote-only. We take a proper look at what you actually need and give you an honest, fixed price — nothing padded, nothing you didn't ask for. The quote is completely free, with no obligation to go ahead. If it turns out you only need a small fix, we'll tell you that too.",
+  ];
+}
+
+function buildQuoteOnlySection(cfg) {
+  const trade = (cfg.trade || "").toLowerCase();
+  const heading = cfg.quoteOnlyHeading
+    ? escHtml(cfg.quoteOnlyHeading)
+    : "Every " + escHtml(trade ? trade + " job" : "job") + " is different";
+  const paras = quoteOnlyParas(cfg);
+  const ps = paras
+    .map(
+      (p, i) =>
+        '<p style="font-family: Roboto, sans-serif; font-size: 16px; color: rgb(85, 85, 85); line-height: 1.85; margin-bottom: ' +
+        (i === paras.length - 1 ? "36px" : "18px") +
+        ';">' +
+        p +
+        "</p>",
+    )
+    .join("");
+  return (
+    '<section id="quote-only" style="padding: 64px 30px 76px;">' +
+    '<div class="mx-auto" style="max-width: 760px; text-align: center;">' +
+    '<div class="section-label" style="color: var(--color-primary);">Quote Only</div>' +
+    '<h2 class="section-h2 cd-quote-h2">' +
+    heading +
+    "</h2>" +
+    ps +
+    '<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">' +
+    ctaButtonsHtml(cfg, {}) +
+    "</div></div></section>"
+  );
+}
+
+function buildNotifySection() {
+  return (
+    '<section id="discount-notify" style="background: rgb(245, 245, 245); padding: 56px 30px 64px;">' +
+    '<div class="mx-auto" style="max-width: 560px; text-align: center;">' +
+    '<h2 class="section-h2" style="font-size: 24px; margin-bottom: 10px;">Get notified when we have a discount</h2>' +
+    '<p style="font-family: Roboto, sans-serif; font-size: 14px; color: rgb(85, 85, 85); margin-bottom: 24px;">Leave your number or email below and we\'ll let you know.</p>' +
+    '<form data-cd="discount-notify" style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">' +
+    '<input type="text" required="" placeholder="Phone number or email" style="flex: 1 1 240px; max-width: 340px; border: 1.5px solid rgb(204, 204, 204); padding: 12px 14px; font-family: Roboto, sans-serif; font-size: 14px; color: rgb(51, 51, 51); background: rgb(255, 255, 255); outline: none;">' +
+    '<button type="submit" class="btn-yellow" style="font-size: 13px;">Notify Me</button>' +
+    "</form></div></section>"
+  );
+}
+
+/* Static replacement for the home-page price calculator card. */
+function buildQuoteCardInner(cfg) {
+  const li = (t) =>
+    '<li style="font-family: Roboto, sans-serif; font-size: 14px; color: rgb(26, 26, 26); display: flex; gap: 11px; align-items: center;"><span style="color: var(--color-primary); font-weight: 800;">✓</span>' +
+    t +
+    "</li>";
+  const call = cfg.phone
+    ? '<a href="' +
+      telHref(cfg.phone) +
+      '" class="btn-yellow" style="justify-content: center; width: 100%; margin-bottom: 12px;">Call ' +
+      escHtml(cfg.phone) +
+      "</a>"
+    : "";
+  return (
+    '<h3 style="font-family: Roboto Slab, serif; font-weight: 700; font-size: 24px; color: rgb(26, 26, 26); margin-bottom: 14px;">Get a Free Quote</h3>' +
+    "<p style=\"font-family: Roboto, sans-serif; font-size: 14px; color: rgb(85, 85, 85); line-height: 1.7; margin-bottom: 26px;\">Every job is different, so we don't do guesswork. Tell us what you need and we'll give you a clear, fixed quote &mdash; free and no obligation.</p>" +
+    '<ul style="list-style: none; padding: 0px; margin: 0px 0px 28px; display: flex; flex-direction: column; gap: 12px;">' +
+    li("Free, no-obligation quotes") +
+    li("Upfront fixed pricing, no surprises") +
+    li("Fully licensed &amp; insured") +
+    "</ul>" +
+    call +
+    '<a href="/contact/" class="btn-outline" style="width: 100%;">Get a Quote</a>'
+  );
+}
+
+/* ========================================================================
    POST-PROCESS PHASE — tag hooks, rebuild conditional markup statically,
    strip React, rewrite URLs, add section markers
    ======================================================================== */
 
 function postProcess(w, ctx) {
   const doc = w.document;
-  const { slug, domain, menuClone, heroCap, testi, calc } = ctx;
+  const { slug, domain, route, config, menuClone, heroCap, testi, calc } = ctx;
+  const cfg = config || {};
+
+  /* --- loading screen: name + first header text; the bar/slogan pick up
+         the config colour via var(--color-primary) baked on <html> --- */
+  const loader = doc.createElement("div");
+  loader.className = "cd-loader";
+  loader.setAttribute("data-cd", "loader");
+  const loaderName = doc.createElement("div");
+  loaderName.className = "cd-loader-name";
+  loaderName.textContent = cfg.businessName || cfg.logoPrefix || slug;
+  const loaderSlogan = doc.createElement("div");
+  loaderSlogan.className = "cd-loader-slogan";
+  loaderSlogan.textContent =
+    (cfg.heroSlides && cfg.heroSlides[0] && cfg.heroSlides[0].title) ||
+    cfg.logoTagline ||
+    "";
+  const loaderBar = doc.createElement("div");
+  loaderBar.className = "cd-loader-bar";
+  loader.appendChild(loaderName);
+  loader.appendChild(loaderSlogan);
+  loader.appendChild(loaderBar);
+  doc.body.insertBefore(loader, doc.body.firstChild);
 
   /* --- navbar + mobile menu --- */
   const nav = doc.querySelector("#root nav") || doc.querySelector("nav");
@@ -392,6 +555,65 @@ function postProcess(w, ctx) {
     };
     tag(groups[0], "calc-urgency", 1); /* "No" is the default */
     tag(groups[1], "calc-type", 0);
+  }
+
+  /* --- quote-only: home calculator becomes a static quote card and
+         price-list rows show "Quote only" instead of a dollar figure --- */
+  const pricesSec = doc.getElementById("prices");
+  if (pricesSec) {
+    const card = pricesSec.querySelector(".pricing-calc-card");
+    if (card) {
+      card.removeAttribute("data-cd");
+      card.innerHTML = buildQuoteCardInner(cfg);
+    }
+    [...pricesSec.querySelectorAll(".price-row")].forEach((row) => {
+      const val = row.lastElementChild;
+      if (
+        val &&
+        val.tagName === "SPAN" &&
+        !val.classList.contains("price-dots")
+      )
+        val.textContent = "Quote only";
+    });
+  }
+
+  /* --- pricing page: drop every price section between the header banner
+         and the contact band; insert the quote-only text block + the
+         discount-notify form in their place --- */
+  if (route === "pricing") {
+    const main = doc.querySelector("#root main");
+    if (main && main.children.length) {
+      const first = main.children[0];
+      const contactSec = doc.getElementById("contact");
+      [...main.children].forEach((sec) => {
+        if (sec !== first && sec !== contactSec) sec.remove();
+      });
+      const holder = doc.createElement("div");
+      holder.innerHTML = buildQuoteOnlySection(cfg) + buildNotifySection();
+      [...holder.children].forEach((sec) =>
+        main.insertBefore(sec, contactSec || null),
+      );
+    }
+  }
+
+  /* --- contact band: the inert "Get a Quote" button becomes working
+         Call Now / Email Us links (email inert when config has none) --- */
+  const contactBand = doc.getElementById("contact");
+  if (contactBand) {
+    const bandBtn = contactBand.querySelector(
+      "div.reveal-r > button.btn-yellow",
+    );
+    if (bandBtn) {
+      const wrap = bandBtn.parentElement;
+      wrap.style.display = "flex";
+      wrap.style.gap = "12px";
+      wrap.style.flexWrap = "wrap";
+      wrap.style.justifyContent = "center";
+      wrap.innerHTML = ctaButtonsHtml(cfg, {
+        callLabel: "Call Now",
+        light: true,
+      });
+    }
   }
 
   /* --- stat/progress bar: keep final width baked (works without JS),
@@ -776,7 +998,16 @@ async function fuseSite(input) {
 
     await sleep(30); // drain React's pending microtask work from the capture clicks
 
-    postProcess(w, { slug, domain, menuClone, heroCap, testi, calc });
+    postProcess(w, {
+      slug,
+      domain,
+      route,
+      config,
+      menuClone,
+      heroCap,
+      testi,
+      calc,
+    });
 
     const path = route === "home" ? "index.html" : route + "/index.html";
     files.push({ path, content: restoreClamps(serializeDoc(w.document)) });
