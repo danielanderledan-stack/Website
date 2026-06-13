@@ -5,6 +5,8 @@
   },
   "outputDirectory": ".",
   "rewrites": [
+    { "source": "/homepagetest", "destination": "/homepagetest.html" },
+    { "source": "/homepagetest1", "destination": "/homepagetest1.html" },
     { "source": "/dashboard", "destination": "/dashboard.html" },
     { "source": "/sites/:path*", "destination": "/sites/index.html" },
     { "source": "/email/:path*", "destination": "/email/index.html" }
