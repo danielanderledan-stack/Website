@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-AU" class="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1280" />
+  <meta name="robots" content="noindex" />
+  <title>Tradie CRM — Complete Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // shadcn token bridge — maps Tailwind utilities to the CSS variables in styles.css
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+          colors: {
+            border: 'hsl(var(--border))',
+            input: 'hsl(var(--input))',
+            ring: 'hsl(var(--ring))',
+            background: 'hsl(var(--background))',
+            foreground: 'hsl(var(--foreground))',
+            primary: { DEFAULT: 'hsl(var(--primary))', foreground: 'hsl(var(--primary-foreground))' },
+            secondary: { DEFAULT: 'hsl(var(--secondary))', foreground: 'hsl(var(--secondary-foreground))' },
+            muted: { DEFAULT: 'hsl(var(--muted))', foreground: 'hsl(var(--muted-foreground))' },
+            accent: { DEFAULT: 'hsl(var(--accent))', foreground: 'hsl(var(--accent-foreground))' },
+            card: { DEFAULT: 'hsl(var(--card))', foreground: 'hsl(var(--card-foreground))' },
+            popover: { DEFAULT: 'hsl(var(--popover))', foreground: 'hsl(var(--popover-foreground))' },
+            sidebar: {
+              DEFAULT: 'hsl(var(--sidebar))', foreground: 'hsl(var(--sidebar-foreground))',
+              accent: 'hsl(var(--sidebar-accent))', border: 'hsl(var(--sidebar-border))',
+            },
+            // semantic palette — colour with intent
+            success: 'hsl(var(--success))',
+            warning: 'hsl(var(--warning))',
+            danger: 'hsl(var(--danger))',
+            info: 'hsl(var(--info))',
+            violet: 'hsl(var(--violet))',
+          },
+          borderRadius: {
+            lg: 'var(--radius)',
+            md: 'calc(var(--radius) - 2px)',
+            sm: 'calc(var(--radius) - 4px)',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-background text-foreground antialiased">
+  <div class="flex min-h-screen">
+    <!-- ============ SIDEBAR ============ -->
+    <aside id="sidebar" class="sidebar w-[240px] shrink-0 flex flex-col">
+      <div class="h-16 flex items-center gap-2.5 px-5 border-b border-sidebar-border/60">
+        <span class="grid place-items-center size-8 rounded-md bg-primary text-primary-foreground">
+          <i data-lucide="zap" class="size-5"></i>
+        </span>
+        <div class="leading-tight">
+          <div class="text-sm font-semibold tracking-tight" id="bizName">Sparky Dan</div>
+          <div class="text-[11px] text-sidebar-foreground/50">Electrical</div>
+        </div>
+      </div>
+
+      <nav class="flex-1 overflow-y-auto py-3 px-3 space-y-5 nav-scroll">
+        <div>
+          <a class="nav-item" data-view="home"><i data-lucide="layout-dashboard"></i><span>Home</span></a>
+        </div>
+        <div>
+          <p class="nav-group">Work</p>
+          <a class="nav-item" data-view="leads"><i data-lucide="inbox"></i><span>Leads</span><span class="nav-badge bg-info/15 text-info">3</span></a>
+          <a class="nav-item" data-view="quotes"><i data-lucide="file-text"></i><span>Quotes</span></a>
+          <a class="nav-item" data-view="jobs"><i data-lucide="wrench"></i><span>Jobs</span></a>
+          <a class="nav-item" data-view="clients"><i data-lucide="users"></i><span>Clients</span></a>
+        </div>
+        <div>
+          <p class="nav-group">Money</p>
+          <a class="nav-item" data-view="money"><i data-lucide="dollar-sign"></i><span>Money</span><span class="nav-dot bg-warning" title="overdue"></span></a>
+        </div>
+        <div>
+          <p class="nav-group">Website</p>
+          <a class="nav-item" data-view="chatbot"><i data-lucide="sparkles"></i><span>Chatbot</span></a>
+          <a class="nav-item" data-view="stats"><i data-lucide="bar-chart-3"></i><span>Stats</span></a>
+        </div>
+      </nav>
+
+      <div class="px-3 py-3 border-t border-sidebar-border/60 space-y-0.5">
+        <a class="nav-item" data-view="setup"><i data-lucide="settings"></i><span>Setup</span></a>
+        <a class="nav-item" data-view="help"><i data-lucide="life-buoy"></i><span>Help</span></a>
+      </div>
+    </aside>
+
+    <!-- ============ MAIN ============ -->
+    <div class="flex-1 min-w-0 flex flex-col">
+      <!-- topbar -->
+      <header class="h-16 shrink-0 border-b border-border bg-background/80 backdrop-blur sticky top-0 z-20 flex items-center gap-4 px-6">
+        <div class="min-w-0">
+          <h1 id="pageTitle" class="text-base font-semibold tracking-tight truncate">Home</h1>
+          <p id="pageSub" class="text-xs text-muted-foreground truncate">Friday, 15 June</p>
+        </div>
+        <div class="flex-1"></div>
+        <button class="search-btn" onclick="CRM.toast('Search is a mock in this preview')">
+          <i data-lucide="search" class="size-4"></i>
+          <span>Search</span>
+          <kbd>⌘K</kbd>
+        </button>
+        <div class="relative">
+          <button id="newBtn" class="btn-primary" onclick="CRM.toggleNewMenu(event)">
+            <i data-lucide="plus" class="size-4"></i> New <i data-lucide="chevron-down" class="size-3.5 opacity-70"></i>
+          </button>
+          <div id="newMenu" class="menu hidden">
+            <button onclick="CRM.go('leads');CRM.toast('New lead form (mock)')"><i data-lucide="inbox" class="size-4"></i> Lead</button>
+            <button onclick="CRM.go('quotes');CRM.toast('New quote builder (mock)')"><i data-lucide="file-text" class="size-4"></i> Quote</button>
+            <button onclick="CRM.go('jobs');CRM.toast('New job (mock)')"><i data-lucide="wrench" class="size-4"></i> Job</button>
+            <button onclick="CRM.go('money');CRM.toast('New invoice (mock)')"><i data-lucide="dollar-sign" class="size-4"></i> Invoice</button>
+          </div>
+        </div>
+        <button class="size-9 grid place-items-center rounded-full bg-muted text-sm font-semibold text-muted-foreground" title="Dan Anderle">DA</button>
+      </header>
+
+      <main id="view" class="flex-1 overflow-y-auto p-6 bg-muted/30"></main>
+    </div>
+  </div>
+
+  <!-- slide-over sheet -->
+  <div id="sheet" class="sheet-overlay hidden" onclick="CRM.closeSheet(event)">
+    <div class="sheet-panel" onclick="event.stopPropagation()">
+      <div id="sheetBody"></div>
+    </div>
+  </div>
+
+  <!-- toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="data.js"></script>
+  <script src="charts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
