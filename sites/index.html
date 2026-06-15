@@ -680,6 +680,62 @@
       })();
     </script>
     <!-- cd-track-end -->
+    <!-- cd-meta-pixel-start -->
+    <!-- Meta Pixel — powers the "Complete Digital — Demo Site Visitors" Website
+         Custom Audience used for retargeting /sites/<slug> demo visitors.
+         Pixel ID 1081587775048105. Skipped in ?capture=1 screenshot mode so the
+         email-screenshot pipeline never pollutes the audience. Server-side
+         Conversions API (CAPI) can be layered on later using the same pixel id;
+         this client-side base code does not block it. -->
+    <script>
+      (function () {
+        if (/[?&]capture=1(?:&|$)/.test(location.search)) return;
+        !(function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+            n.callMethod
+              ? n.callMethod.apply(n, arguments)
+              : n.queue.push(arguments);
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = "2.0";
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        })(
+          window,
+          document,
+          "script",
+          "https://connect.facebook.net/en_US/fbevents.js",
+        );
+        fbq("init", "1081587775048105");
+        fbq("track", "PageView");
+        // DPA-ready: tag WHICH demo site was viewed (the /sites/<slug> slug) so a
+        // future Dynamic Ads catalog can retarget each prospect with their OWN
+        // demo link/image. Harmless for plain retargeting; required for DPA.
+        var cdSlug = location.pathname.split("/").filter(Boolean)[1] || "";
+        if (cdSlug) {
+          fbq("track", "ViewContent", {
+            content_ids: [cdSlug],
+            content_type: "product",
+          });
+        }
+      })();
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        alt=""
+        src="https://www.facebook.com/tr?id=1081587775048105&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- cd-meta-pixel-end -->
     <!-- cd-fyi-start -->
     <script>
       (function () {
