@@ -47,6 +47,9 @@ html:not(.js) .reveal,html:not(.js) .reveal-l,html:not(.js) .reveal-r{opacity:1!
 .cd-zoom:hover .cd-tint{background:rgba(var(--color-primary-rgb),.18)!important}
 /* footer bottom-link hover (was a React mouseenter handler) */
 .cd-flink:hover{color:var(--color-primary)!important}
+/* "Website by Complete Digital" footer backlink */
+.cd-credit{transition:color .2s ease}
+.cd-credit:hover{color:var(--color-primary)!important}
 /* burger icon morphs into an X when open */
 [data-cd="burger"].cd-open span:nth-child(1){transform:rotate(45deg) translateY(7px)!important}
 [data-cd="burger"].cd-open span:nth-child(2){opacity:0!important}
@@ -439,6 +442,165 @@ function buildQuoteCardInner(cfg) {
   );
 }
 
+/* ----------------------------------------------------------------------
+   "Website by Complete Digital" footer backlink. A plain dofollow <a>
+   (no rel=nofollow, so it passes link equity) appended to the footer credit
+   line — the bottom-bar <p> carrying the business name — on every page of
+   every MERGED customer site. Demos render straight from the bundle and
+   never pass through fuse, so they stay credit-free. Inline-styled so it
+   renders correctly even on already-deployed sites whose site.css predates
+   the .cd-credit hover rule. Keep these constants in sync with the static
+   injector in prerender/add-backlink.cjs (used to retrofit existing sites).
+---------------------------------------------------------------------- */
+const CREDIT_HREF = "https://completedigital.org";
+const CREDIT_TEXT = "Website by Complete Digital";
+const CREDIT_TITLE = "Website by Complete Digital — Melbourne web design & SEO";
+const CREDIT_STYLE =
+  "color: inherit; text-decoration: underline; text-underline-offset: 2px;";
+
+function addCreditBacklink(doc, footer) {
+  if (footer.querySelector("a.cd-credit")) return; // idempotent
+  const a = doc.createElement("a");
+  a.className = "cd-credit";
+  a.setAttribute("href", CREDIT_HREF);
+  a.setAttribute("title", CREDIT_TITLE);
+  a.setAttribute("style", CREDIT_STYLE);
+  a.textContent = CREDIT_TEXT;
+  const bar = footer.lastElementChild;
+  const line = bar && bar.querySelector("p");
+  if (line) {
+    line.appendChild(doc.createTextNode("  ·  "));
+    line.appendChild(a);
+  } else {
+    /* fallback: no credit line — add our own centered bottom strip */
+    const strip = doc.createElement("div");
+    strip.setAttribute(
+      "style",
+      "padding: 16px 30px; text-align: center; font-family: Roboto, sans-serif; font-size: 12px; color: rgb(170, 170, 170);",
+    );
+    strip.appendChild(a);
+    footer.appendChild(strip);
+  }
+}
+
+/* ----------------------------------------------------------------------
+   CONFIG-DRIVEN IMAGES. The template engine baked into the bundle forces
+   every image to the hvac default set and ignores config-provided images.
+   Here we let a config OVERRIDE any image slot: after the bundle renders
+   (with hvac defaults), we swap the rendered default for the config value.
+
+   A slot left absent, blank, or set to the string "default" keeps the
+   standard (hvac) image — so existing image-less configs are unaffected.
+
+   Slots whose hvac default filename maps 1:1 to one slot are swapped by
+   filename (covers <img>, og/twitter image, preload, JSON-LD). The two
+   filenames the engine reuses across sections (hero-2 / hero-3 appear in
+   both the hero carousel AND the gallery) are handled by DOM position so
+   the hero and gallery can hold different images.
+
+   Accepted values: an absolute https URL, or a local /sites/images/<…>
+   path (fuse's copy manifest + URL rewriter handle local paths the same
+   way as the defaults).
+---------------------------------------------------------------------- */
+const HVAC_DIR = "/sites/images/hvac/";
+function cfgImg(v) {
+  if (typeof v !== "string") return null;
+  const t = v.trim();
+  if (!t || t.toLowerCase() === "default") return null;
+  return t;
+}
+function applyConfigImages(doc, cfg, ctx) {
+  cfg = cfg || {};
+  const arr = (k) => (Array.isArray(cfg[k]) ? cfg[k] : []);
+  const hero = arr("heroSlides");
+  const posts = arr("blogPosts");
+
+  /* --- filename -> override map (unique-filename slots only) --- */
+  const map = {};
+  const put = (file, val) => {
+    const v = cfgImg(val);
+    if (v) map[file] = v;
+  };
+  put("hero-1-owner-van.jpg", (hero[0] || {}).image);
+  put("splitcta-owner-phone.jpg", cfg.splitCtaImage);
+  [
+    "photorow-split-install-hands.jpg",
+    "photorow-refrigerant-gauges.jpg",
+    "photorow-ducted-vent.jpg",
+    "photorow-thermostat.jpg",
+  ].forEach((f, i) => put(f, arr("photoRowImages")[i]));
+  [
+    "about-owner-portrait.jpg",
+    "about-owner-condenser.jpg",
+    "about-owner-customer.jpg",
+  ].forEach((f, i) => put(f, arr("aboutImages")[i]));
+  put("fullwidth-van-home.jpg", cfg.fullWidthImage);
+  put("banner-living-room-split.jpg", cfg.bannerImage);
+  put("testimonial-ceiling-cassette.jpg", cfg.testimonialsImage);
+  put("pricingbg-split-dark.jpg", cfg.pricingBgImage);
+  [
+    "blog-1-smart-control.jpg",
+    "blog-2-filter-compare.jpg",
+    "blog-3-bedroom-split.jpg",
+    "blog-4-maintenance.jpg",
+  ].forEach((f, i) => put(f, (posts[i] || {}).image));
+
+  /* og:image / JSON-LD render the default as a domain-absolute URL
+     (domain + /sites/images/hvac/…); <img src> renders it relative. Replace
+     the absolute form first (else the relative match leaves the domain
+     stranded in front of an absolute override URL), then the relative form. */
+  const domain = ctx.domain || "";
+  const swap = (s) => {
+    if (!s) return s;
+    let out = s;
+    for (const f in map) {
+      const val = map[f];
+      const absVal = /^https?:\/\//.test(val) ? val : domain + val;
+      out = out.split(domain + HVAC_DIR + f).join(absVal);
+      out = out.split(HVAC_DIR + f).join(val);
+    }
+    return out;
+  };
+  const swapAttr = (el, attr) => {
+    const v = el.getAttribute(attr);
+    const n = swap(v);
+    if (n !== v) el.setAttribute(attr, n);
+  };
+  [...doc.querySelectorAll("#root img[src]")].forEach((im) =>
+    swapAttr(im, "src"),
+  );
+  [...doc.querySelectorAll("meta[content]")].forEach((m) =>
+    swapAttr(m, "content"),
+  );
+  [...doc.querySelectorAll("link[href]")].forEach((l) => swapAttr(l, "href"));
+  [...doc.querySelectorAll('script[type="application/ld+json"]')].forEach(
+    (s) => {
+      const n = swap(s.textContent);
+      if (n !== s.textContent) s.textContent = n;
+    },
+  );
+
+  /* --- collisions: hero slides 1 & 2 (shared with the gallery) --- */
+  if (ctx.heroCap && Array.isArray(ctx.heroCap.slides)) {
+    [1, 2].forEach((i) => {
+      const v = cfgImg((hero[i] || {}).image);
+      const sl = v && ctx.heroCap.slides[i];
+      const im = sl && sl.querySelector("img");
+      if (im) im.setAttribute("src", v);
+    });
+  }
+  /* --- gallery strip (5 images, rendered twice for the marquee) --- */
+  const gal = arr("galleryImages");
+  if (gal.some((x) => cfgImg(x))) {
+    [...doc.querySelectorAll("#root img.blog-card-img.object-cover")].forEach(
+      (im, idx) => {
+        const v = cfgImg(gal[idx % 5]);
+        if (v) im.setAttribute("src", v);
+      },
+    );
+  }
+}
+
 /* ========================================================================
    POST-PROCESS PHASE — tag hooks, rebuild conditional markup statically,
    strip React, rewrite URLs, add section markers
@@ -644,6 +806,13 @@ function postProcess(w, ctx) {
       if ((a.getAttribute("style") || "").includes("color 0.2s"))
         a.classList.add("cd-flink");
     });
+    /* --- "Website by Complete Digital" backlink: a real, crawlable dofollow
+           link baked into the footer credit line of EVERY page of every
+           MERGED (customer) site. Demos render straight from the bundle and
+           never pass through fuse, so they stay credit-free. The inline style
+           keeps it rendering correctly even on already-deployed sites whose
+           site.css predates the .cd-credit hover rule. --- */
+    addCreditBacklink(doc, footer);
   }
 
   /* --- reveal animations: strip the .visible our IO stub added so they
@@ -674,6 +843,10 @@ function postProcess(w, ctx) {
     siteIdMeta.setAttribute("content", slug);
     doc.head.insertBefore(siteIdMeta, siteScript);
   }
+
+  /* --- config-driven image overrides (before URL rewriting, so local
+         override paths get the same /sites -> /assets treatment) --- */
+  applyConfigImages(doc, config, ctx);
 
   /* --- URL rewriting: /sites/<slug>/page -> /page/, images -> /assets --- */
   const rew = (v) => {
