@@ -442,6 +442,92 @@
               });
             }
           }
+          /* config-driven images: the baked engine forces the hvac default
+             set, so swap each rendered hvac image for the one the config
+             provides. Absent / blank / "default" stays hvac. Idempotent (once
+             swapped the src no longer matches), so the ~10s re-apply loop
+             undoes any React revert. Mirrors applyConfigImages() in
+             prerender/fuse.cjs. */
+          (function () {
+            function iv(x) {
+              return typeof x === "string" &&
+                x.trim() &&
+                x.trim().toLowerCase() !== "default"
+                ? x.trim()
+                : null;
+            }
+            function arr(k) {
+              return Array.isArray(cfg[k]) ? cfg[k] : [];
+            }
+            var hero = arr("heroSlides"),
+              posts = arr("blogPosts"),
+              gal = arr("galleryImages");
+            /* unique-filename slots (one hvac filename -> one slot) */
+            var M = {};
+            function put(f, x) {
+              var v = iv(x);
+              if (v) M[f] = v;
+            }
+            put("hero-1-owner-van.jpg", (hero[0] || {}).image);
+            put("splitcta-owner-phone.jpg", cfg.splitCtaImage);
+            [
+              "photorow-split-install-hands.jpg",
+              "photorow-refrigerant-gauges.jpg",
+              "photorow-ducted-vent.jpg",
+              "photorow-thermostat.jpg",
+            ].forEach(function (f, i) {
+              put(f, arr("photoRowImages")[i]);
+            });
+            [
+              "about-owner-portrait.jpg",
+              "about-owner-condenser.jpg",
+              "about-owner-customer.jpg",
+            ].forEach(function (f, i) {
+              put(f, arr("aboutImages")[i]);
+            });
+            put("fullwidth-van-home.jpg", cfg.fullWidthImage);
+            put("banner-living-room-split.jpg", cfg.bannerImage);
+            put("testimonial-ceiling-cassette.jpg", cfg.testimonialsImage);
+            put("pricingbg-split-dark.jpg", cfg.pricingBgImage);
+            [
+              "blog-1-smart-control.jpg",
+              "blog-2-filter-compare.jpg",
+              "blog-3-bedroom-split.jpg",
+              "blog-4-maintenance.jpg",
+            ].forEach(function (f, i) {
+              put(f, (posts[i] || {}).image);
+            });
+            /* gallery (5 tiles; the engine reuses hero-2/hero-3 here, so this
+               must be keyed separately from the hero carousel) */
+            var GAL = {
+              "gallery-1-outdoor-condenser.jpg": iv(gal[0]),
+              "gallery-2-ceiling-ducts.jpg": iv(gal[1]),
+              "hero-2-split-install.jpg": iv(gal[2]),
+              "gallery-4-ducted-airhandler.jpg": iv(gal[3]),
+              "hero-3-rooftop-condenser.jpg": iv(gal[4]),
+            };
+            /* hero slides 1 & 2 (same filenames the gallery reuses) */
+            var H1 = iv((hero[1] || {}).image),
+              H2 = iv((hero[2] || {}).image);
+            var imgs = document.querySelectorAll("#root img[src]");
+            for (var i = 0; i < imgs.length; i++) {
+              var im = imgs[i],
+                src = im.getAttribute("src") || "";
+              var mm = src.match(
+                /\/sites\/images\/hvac\/([a-z0-9-]+\.(?:jpg|jpeg|png|webp))/i,
+              );
+              if (!mm) continue;
+              var f = mm[1],
+                cls = im.className || "",
+                isGal = /blog-card-img/.test(cls) && /object-cover/.test(cls),
+                nv = null;
+              if (isGal) nv = GAL[f] || null;
+              else if (M[f]) nv = M[f];
+              else if (f === "hero-2-split-install.jpg") nv = H1;
+              else if (f === "hero-3-rooftop-condenser.jpg") nv = H2;
+              if (nv) im.setAttribute("src", nv);
+            }
+          })();
         }
 
         /* discount-notify submit: confirmation instead of submitting (no backend) */
