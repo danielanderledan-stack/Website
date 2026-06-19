@@ -678,6 +678,50 @@ function applyConfigImages(doc, cfg, ctx) {
    strip React, rewrite URLs, add section markers
    ======================================================================== */
 
+/* ----------------------------------------------------------------------
+   EDITOR REFERENCES — stamp every editable leaf with data-ce/-cap/-label so
+   the visual editor can target it unambiguously (unique id => no occurrence
+   guessing). Self-contained (no requires) so it runs inside the n8n Code node.
+   Mirror of prerender/tag-editable.cjs + edit-schema.cjs (kept readable there).
+---------------------------------------------------------------------- */
+const CE_EXCLUDE = ['nav', 'header', 'footer', '[data-cd="hero-prev"]', '[data-cd="hero-next"]', '[data-cd="t-dot"]', '[data-cd="burger"]', '[data-cd="mobile-menu"]', '.cd-loader', '[data-ce]'];
+const CE_BYTAG = { h1: ['rich', 'Heading'], h2: ['rich', 'Heading'], h3: ['rich', 'Heading'], h4: ['rich', 'Subheading'], h5: ['rich', 'Subheading'], h6: ['rich', 'Subheading'], p: ['rich', 'Text'], li: ['rich', 'List item'], a: ['rich', 'Button'], button: ['rich', 'Button'], span: ['rich', 'Label'], img: ['image', 'Photo'] };
+const CE_SECTION_ROLES = [
+  ['Hero', (s) => s.querySelector('[data-cd="hero-title"]')],
+  ['About', (s) => s.querySelector('[data-cd="statbar"]')],
+  ['Reviews', (s) => s.querySelector('[data-cd="t-slide"]')],
+  ['Services', (s) => s.querySelectorAll('h3').length >= 3 && s.querySelectorAll('img').length === 0],
+  ['Gallery', (s) => s.querySelectorAll('img').length >= 3 && !s.querySelector('h1,h2,h3')],
+  ['Highlight', (s) => /circuit-bg/.test(String(s.className))],
+];
+const CE_BLOCK_CHILDREN = 'h1,h2,h3,h4,h5,h6,p,li,img,ul,ol,section,div,header,footer,nav';
+function tagEditable(doc) {
+  const main = doc.querySelector('#root main') || doc.querySelector('main');
+  if (!main) return 0;
+  const excluded = (el) => CE_EXCLUDE.some((sel) => { try { return el.matches(sel) || el.closest(sel); } catch (e) { return false; } });
+  const tagSel = Object.keys(CE_BYTAG).join(',');
+  let count = 0;
+  [...main.children].forEach((sec, si) => {
+    for (const [role, test] of CE_SECTION_ROLES) { try { if (test(sec)) { sec.setAttribute('data-ce-section', role); break; } } catch (e) {} }
+    const counters = {};
+    [...sec.querySelectorAll(tagSel)].forEach((el) => {
+      const tag = el.tagName.toLowerCase();
+      const def = CE_BYTAG[tag];
+      if (!def || el.hasAttribute('data-ce')) return;
+      if (excluded(el)) return;
+      if (el.parentElement && el.parentElement.closest('[data-ce]')) return;
+      if (def[0] === 'image') { const src = el.getAttribute('src') || ''; if (!src || src.indexOf('data:') === 0) return; }
+      else { if (!(el.textContent || '').trim()) return; if (el.querySelector(CE_BLOCK_CHILDREN)) return; }
+      counters[tag] = (counters[tag] || 0) + 1;
+      el.setAttribute('data-ce', 's' + si + '-' + tag + '-' + counters[tag]);
+      el.setAttribute('data-ce-cap', def[0]);
+      el.setAttribute('data-ce-label', def[1]);
+      count++;
+    });
+  });
+  return count;
+}
+
 function postProcess(w, ctx) {
   const doc = w.document;
   const { slug, domain, route, config, menuClone, heroCap, testi, calc } = ctx;
@@ -1033,6 +1077,9 @@ function postProcess(w, ctx) {
       );
     });
   }
+
+  /* --- editor references (data-ce/-cap/-label) for the visual editor --- */
+  tagEditable(doc);
 }
 
 /* ========================================================================

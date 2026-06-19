@@ -915,6 +915,57 @@
         color: var(--good);
       }
 
+      /* Canva-style rich-text toolbar */
+      .ce-toolbar {
+        position: fixed;
+        z-index: 75;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        background: var(--fg);
+        color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: var(--shadow-lg);
+      }
+      .ce-toolbar .tb-btn {
+        min-width: 30px;
+        height: 30px;
+        padding: 0 8px;
+        display: grid;
+        place-items: center;
+        border: none;
+        background: transparent;
+        color: #fff;
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .ce-toolbar .tb-btn:hover { background: rgba(255, 255, 255, 0.14); }
+      .ce-toolbar .tb-btn.on { background: var(--primary); }
+      .ce-toolbar .tb-sep { width: 1px; height: 20px; background: rgba(255, 255, 255, 0.18); margin: 0 3px; }
+      .ce-toolbar .tb-aa { border-bottom: 3px solid var(--amber); line-height: 1; padding-bottom: 1px; }
+      .ce-toolbar .tb-done { background: var(--primary); padding: 0 12px; font-size: 13px; }
+      .ce-toolbar .tb-done:hover { background: var(--primary-hover); }
+      .tb-wrap { position: relative; display: flex; }
+      .tb-pop {
+        position: absolute;
+        top: calc(100% + 6px);
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--fg);
+        border-radius: 9px;
+        padding: 8px;
+        box-shadow: var(--shadow-lg);
+        display: grid;
+        gap: 6px;
+      }
+      #tbColorPop { grid-template-columns: repeat(5, 1fr); }
+      #tbColorPop .sw { width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, 0.25); cursor: pointer; padding: 0; }
+      .tb-fonts { grid-template-columns: 1fr 1fr; min-width: 220px; }
+      .tb-fonts .fb { padding: 9px 10px; border: 1px solid rgba(255, 255, 255, 0.16); background: rgba(255, 255, 255, 0.04); color: #fff; border-radius: 7px; font-size: 15px; cursor: pointer; text-align: left; }
+      .tb-fonts .fb:hover { background: rgba(255, 255, 255, 0.12); }
+
       /* ---------- mobile bottom nav ---------- */
       .mob-nav {
         display: none;
@@ -1243,6 +1294,24 @@
       </div>
     </div>
 
+    <!-- Canva-style floating rich-text toolbar -->
+    <div class="ce-toolbar" id="ceToolbar" hidden>
+      <button class="tb-btn" id="tbB" title="Bold"><b>B</b></button>
+      <button class="tb-btn" id="tbI" title="Italic"><i>I</i></button>
+      <button class="tb-btn" id="tbU" title="Underline"><span style="text-decoration:underline">U</span></button>
+      <span class="tb-sep"></span>
+      <div class="tb-wrap">
+        <button class="tb-btn" id="tbColorBtn" title="Text colour"><span class="tb-aa">A</span></button>
+        <div class="tb-pop" id="tbColorPop" hidden></div>
+      </div>
+      <div class="tb-wrap">
+        <button class="tb-btn" id="tbFontBtn" title="Font">Aa</button>
+        <div class="tb-pop tb-fonts" id="tbFontPop" hidden></div>
+      </div>
+      <span class="tb-sep"></span>
+      <button class="tb-btn tb-done" id="tbDone">Done</button>
+    </div>
+
     <input type="file" id="imgFile" accept="image/png,image/jpeg,image/webp" hidden />
     <div class="toast" id="toast"></div>
 
@@ -1270,7 +1339,7 @@
           preview: "desktop",
           images: [],        // {path,url}
           rawHtml: {},       // page -> raw source HTML (for find/occurrence anchors)
-          ops: { text: {}, img: {}, colour: null, details: null, fonts: null },
+          ops: { el: {}, img: {}, colour: null, details: null, fonts: null },
           undo: [],
           details: null,
         };
@@ -1301,7 +1370,7 @@
 
         /* -------------------- ops / publish count -------------------- */
         function opCount() {
-          var n = Object.keys(state.ops.text).length + Object.keys(state.ops.img).length;
+          var n = Object.keys(state.ops.el).length + Object.keys(state.ops.img).length;
           if (state.ops.colour) n++;
           if (state.ops.details) n++;
           if (state.ops.fonts) n++;
@@ -1402,14 +1471,15 @@
         var EDIT_CSS =
           "html .reveal,html .reveal-l,html .reveal-r{opacity:1!important;transform:none!important;transition:none!important}" +
           ".cd-loader,#cd-fyi,#cd-cb-popup{display:none!important}" +
-          "[data-cd-edit]{cursor:text;border-radius:3px;transition:box-shadow .1s,background .1s;outline:none}" +
-          "[data-cd-edit]:hover{box-shadow:0 0 0 1.5px #ffb703;background:rgba(255,183,3,.08)}" +
-          "[data-cd-edit].cd-active{box-shadow:0 0 0 2px #fb8500!important;background:rgba(251,133,0,.06)!important}" +
-          "[data-cd-edit].cd-changed{box-shadow:0 0 0 1.5px rgba(251,133,0,.5)}" +
-          "[data-cd-img]{cursor:pointer;position:relative;outline:2px solid transparent;outline-offset:-2px;transition:outline-color .12s}" +
-          "[data-cd-img]:hover{outline-color:#fb8500}" +
+          "[data-ce]{border-radius:3px;outline:none;transition:box-shadow .1s,background .1s}" +
+          '[data-ce][data-ce-cap="rich"],[data-ce][data-ce-cap="plain"]{cursor:text}' +
+          "[data-ce]:hover{box-shadow:0 0 0 1.5px #ffb703;background:rgba(255,183,3,.08)}" +
+          "[data-ce].cd-active{box-shadow:0 0 0 2px #fb8500!important;background:rgba(251,133,0,.06)!important}" +
+          "[data-ce].cd-changed{box-shadow:0 0 0 1.5px rgba(251,133,0,.45)}" +
+          '[data-ce-cap="image"]{cursor:pointer;position:relative;outline:2px solid transparent;outline-offset:-2px;transition:outline-color .12s}' +
+          '[data-ce-cap="image"]:hover{outline-color:#fb8500}' +
           ".cd-img-tag{position:absolute;top:8px;left:8px;z-index:5;background:rgba(28,25,23,.82);color:#fff;font:600 12px Hanken Grotesk,sans-serif;padding:6px 11px;border-radius:7px;pointer-events:none;display:none}" +
-          "[data-cd-img]:hover .cd-img-tag{display:block}";
+          '[data-ce-cap="image"]:hover .cd-img-tag{display:block}';
 
         function transformHtml(html, baseHref) {
           // strip scripts (keep canvas static + predictable)
@@ -1447,124 +1517,180 @@
           $("canvasLoad").style.display = "none";
           var doc = $("siteFrame").contentDocument;
           if (!doc) return;
+          try { doc.execCommand("styleWithCSS", false, true); } catch (e) {}
           readColoursFrom(doc);
-          // block in-canvas navigation; route clicks to editing
+          // no in-canvas navigation; clicks route to editing
           doc.addEventListener("click", function (e) {
             var a = e.target.closest && e.target.closest("a,button");
-            if (a) { e.preventDefault(); }
+            if (a) e.preventDefault();
           }, true);
-          attachTextLayer(doc, pg);
+          // clicking empty space commits + closes the toolbar
+          doc.addEventListener("mousedown", function (e) {
+            if (!e.target.closest("[data-ce]")) {
+              var act = doc.querySelector("[data-ce].cd-active");
+              if (act) act.blur();
+              hideToolbar();
+            }
+          }, true);
+          attachEditLayer(doc, pg);
           attachImageLayer(doc);
         }
 
-        /* -------------------- text editing -------------------- */
-        var TEXT_TAGS = ["h1","h2","h3","h4","h5","h6","p","a","button","span","li"];
-
-        /* Robust text discovery: run the EXACT backend extractor over the raw
-           source HTML, so every find/occurrence anchor we send is guaranteed to
-           match what save-texts will splice. Covers all pure-text elements
-           (headings, paragraphs, buttons, links, labels, list items). */
-        function computeBlocks(raw) {
-          if (!raw) return [];
-          var bs = raw.indexOf("<body");
-          var body = bs < 0 ? raw : raw.slice(bs);
-          var re = /<(h[1-6]|p|a|button|span|li)\b([^>]*)>([^<>]+)<\/\1>/g;
-          var dec = function (s) {
-            return s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
-          };
-          var seen = {}, blocks = [], m;
-          while ((m = re.exec(body)) !== null) {
-            var text = m[3];
-            if (text.trim().length < 2) continue;
-            if (/^[\s\d.,$%–—\-]+$/.test(text)) continue;
-            var full = m[0];
-            seen[full] = (seen[full] || 0) + 1;
-            blocks.push({ tag: m[1], text: dec(text), find: full, occurrence: seen[full] });
-          }
-          return blocks;
-        }
-
-        function attachTextLayer(doc, pg) {
-          var blocks = computeBlocks(state.rawHtml[pg] || "");
-          matchAndBind(doc, blocks);
-          var n = doc.querySelectorAll("[data-cd-edit]").length;
-          $("editStats").textContent = n + " editable text spot" + (n === 1 ? "" : "s") + " on this page. Click any to change it.";
-          reapplyTextOps(doc, pg);
-        }
-
-        function matchAndBind(doc, blocks) {
-          var claimed = new WeakSet();
-          blocks.forEach(function (b, i) {
-            var sel = (b.tag || "").toLowerCase();
-            if (TEXT_TAGS.indexOf(sel) < 0) return;
-            var els = doc.getElementsByTagName(sel);
-            for (var j = 0; j < els.length; j++) {
-              var el = els[j];
-              if (claimed.has(el)) continue;
-              if (el.querySelector(TEXT_TAGS.join(","))) continue;
-              if (norm(el.textContent) === norm(b.text)) {
-                claimed.add(el);
-                bindText(el, i, b);
-                break;
-              }
-            }
+        /* ============ reference-based editing (data-ce, baked by fuse) ============ */
+        function attachEditLayer(doc, pg) {
+          var n = 0;
+          Array.prototype.forEach.call(doc.querySelectorAll("[data-ce][data-ce-cap]"), function (el) {
+            if (el.getAttribute("data-ce-cap") === "image") return;
+            bindEditable(el, pg); n++;
           });
+          $("editStats").textContent = n + " editable spot" + (n === 1 ? "" : "s") + " on this page. Click any to change it.";
+          reapplyOps(doc, pg);
         }
-
-        function bindText(el, idx, block) {
-          el.setAttribute("data-cd-edit", idx);
-          el.dataset.cdOrig = norm(block.text);
-          el.addEventListener("click", function (e) {
-            e.stopPropagation();
-            startEditing(el);
-          });
-          el.addEventListener("blur", function () { commitText(el, idx, block); });
+        function bindEditable(el, pg) {
+          if (el.__ce) return; el.__ce = true;
+          el.dataset.ceOrig = el.innerHTML;
+          el.addEventListener("click", function (e) { e.stopPropagation(); startEditing(el); });
+          el.addEventListener("blur", function () { commitEditable(el, pg); });
           el.addEventListener("keydown", function (e) {
-            if (e.key === "Enter" && el.tagName !== "P" && el.tagName !== "LI") { e.preventDefault(); el.blur(); }
-            if (e.key === "Escape") { el.textContent = el.dataset.cdOrig; el.blur(); }
+            if (e.key === "Enter") { e.preventDefault(); el.blur(); }
+            else if (e.key === "Escape") { el.innerHTML = el.dataset.ceOrig; el.blur(); }
           });
         }
         function startEditing(el) {
           var doc = el.ownerDocument;
-          doc.querySelectorAll(".cd-active").forEach(function (x) { if (x !== el) x.classList.remove("cd-active"); });
+          if (el.classList.contains("cd-active")) return;
+          Array.prototype.forEach.call(doc.querySelectorAll(".cd-active"), function (x) {
+            if (x !== el) { x.classList.remove("cd-active"); x.contentEditable = "false"; }
+          });
           el.classList.add("cd-active");
           el.contentEditable = "true";
           el.focus();
-          // place caret at end
-          try {
-            var r = doc.createRange(); r.selectNodeContents(el); r.collapse(false);
-            var s = doc.defaultView.getSelection(); s.removeAllRanges(); s.addRange(r);
-          } catch (e) {}
+          try { var r = doc.createRange(); r.selectNodeContents(el); r.collapse(false); var s = doc.defaultView.getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {}
+          if (el.getAttribute("data-ce-cap") === "rich") showToolbar(el); else hideToolbar();
         }
-        function commitText(el, idx, block) {
+        function commitEditable(el, pg) {
           el.classList.remove("cd-active");
           el.contentEditable = "false";
-          var val = norm(el.textContent);
-          var key = state.page + "::" + idx;
-          var prev = state.ops.text[key] ? state.ops.text[key].text : el.dataset.cdOrig;
-          if (val === el.dataset.cdOrig) {
-            if (state.ops.text[key]) { delete state.ops.text[key]; el.classList.remove("cd-changed"); pushUndo({ type: "text", el: el, idx: idx, prevText: prev, removed: true }); }
-            refreshPublish(); return;
+          var html = sanitizeInner(el.ownerDocument, el.innerHTML);
+          var orig = el.dataset.ceOrig;
+          var ce = el.getAttribute("data-ce");
+          var key = pg + "::" + ce;
+          if (html === orig) {
+            if (state.ops.el[key]) { delete state.ops.el[key]; el.classList.remove("cd-changed"); }
+            el.innerHTML = orig; refreshPublish(); return;
           }
-          if (val === prev) return; // no change
-          pushUndo({ type: "text", el: el, idx: idx, prevText: prev, prevOp: state.ops.text[key] || null });
-          state.ops.text[key] = {
-            page: state.page,
-            find: block.find != null ? block.find : el.dataset.cdOrig,
-            occurrence: block.occurrence || 0,
-            text: val,
-          };
+          var prevOp = state.ops.el[key] || null;
+          pushUndo({ type: "el", el: el, key: key, prevHtml: prevOp ? prevOp.html : orig, prevOp: prevOp });
+          state.ops.el[key] = { page: pg, ce: ce, html: html };
+          el.innerHTML = html;
           el.classList.add("cd-changed");
           refreshPublish();
         }
-        function reapplyTextOps(doc, pg) {
-          Object.keys(state.ops.text).forEach(function (key) {
+        function reapplyOps(doc, pg) {
+          Object.keys(state.ops.el).forEach(function (key) {
             if (key.indexOf(pg + "::") !== 0) return;
-            var idx = key.split("::")[1];
-            var el = doc.querySelector('[data-cd-edit="' + idx + '"]');
-            if (el) { el.textContent = state.ops.text[key].text; el.classList.add("cd-changed"); }
+            var ce = state.ops.el[key].ce;
+            var el = doc.querySelector('[data-ce="' + ce + '"]');
+            if (el) { el.innerHTML = state.ops.el[key].html; el.classList.add("cd-changed"); }
           });
         }
+        /* client-side mirror of the backend sanitiser — keep the live DOM clean */
+        function sanitizeInner(doc, html) {
+          var tmp = doc.createElement("div"); tmp.innerHTML = html;
+          var ALLOW = { B: 1, STRONG: 1, I: 1, EM: 1, U: 1, BR: 1, SPAN: 1, A: 1, FONT: 1 };
+          var DROP = { SCRIPT: 1, STYLE: 1, IFRAME: 1, OBJECT: 1, EMBED: 1, LINK: 1, META: 1, NOSCRIPT: 1, SVG: 1 };
+          var OK = ["color", "font-weight", "font-style", "text-decoration", "font-family", "background-color"];
+          (function walk(node) {
+            Array.prototype.slice.call(node.childNodes).forEach(function (c) {
+              if (c.nodeType === 1) {
+                if (DROP[c.tagName]) { node.removeChild(c); return; }
+                if (!ALLOW[c.tagName]) { while (c.firstChild) node.insertBefore(c.firstChild, c); node.removeChild(c); return; }
+                Array.prototype.slice.call(c.attributes).forEach(function (a) {
+                  if (c.tagName === "A" && a.name === "href") { if (!/^(https?:|tel:|mailto:|\/)/i.test(a.value)) c.removeAttribute("href"); return; }
+                  if (a.name === "style") {
+                    var clean = a.value.split(";").map(function (d) { return d.trim(); }).filter(Boolean).filter(function (d) { return OK.indexOf(d.split(":")[0].trim().toLowerCase()) >= 0; }).join("; ");
+                    if (clean) c.setAttribute("style", clean); else c.removeAttribute("style"); return;
+                  }
+                  if (a.name === "color" && c.tagName === "FONT") return;
+                  c.removeAttribute(a.name);
+                });
+                walk(c);
+              } else if (c.nodeType !== 3) { node.removeChild(c); }
+            });
+          })(tmp);
+          return tmp.innerHTML;
+        }
+
+        /* ============ Canva-style floating toolbar (rich text) ============ */
+        var tbRaf = null;
+        function activeDoc() { return $("siteFrame").contentDocument; }
+        function showToolbar(el) { state.activeEl = el; $("ceToolbar").hidden = false; syncToolbar(); loopTb(); }
+        function hideToolbar() {
+          var tb = $("ceToolbar"); if (tb) tb.hidden = true;
+          $("tbColorPop").hidden = true; $("tbFontPop").hidden = true;
+          state.activeEl = null;
+          if (tbRaf) { cancelAnimationFrame(tbRaf); tbRaf = null; }
+        }
+        function loopTb() { if (!state.activeEl) return; posToolbar(state.activeEl); tbRaf = requestAnimationFrame(loopTb); }
+        function posToolbar(el) {
+          var tb = $("ceToolbar"); if (tb.hidden) return;
+          var fr = $("siteFrame").getBoundingClientRect();
+          var r = el.getBoundingClientRect();
+          var th = tb.offsetHeight, tw = tb.offsetWidth;
+          var top = fr.top + r.top - th - 9;
+          if (top < 62) top = fr.top + r.bottom + 9;
+          top = Math.max(62, Math.min(top, window.innerHeight - th - 8));
+          var left = Math.max(8, Math.min(fr.left + r.left, window.innerWidth - tw - 8));
+          tb.style.top = top + "px"; tb.style.left = left + "px";
+        }
+        function selectAllActive() {
+          var el = state.activeEl, doc = activeDoc(); if (!el || !doc) return;
+          var sel = doc.defaultView.getSelection();
+          if (!sel.rangeCount || sel.isCollapsed) { var r = doc.createRange(); r.selectNodeContents(el); sel.removeAllRanges(); sel.addRange(r); }
+        }
+        function execRich(cmd, val) {
+          var doc = activeDoc(); if (!doc || !state.activeEl) return;
+          state.activeEl.focus();
+          if (cmd === "foreColor" || cmd === "fontName") selectAllActive();
+          try { doc.execCommand("styleWithCSS", false, true); } catch (e) {}
+          try { doc.execCommand(cmd, false, val); } catch (e) {}
+          syncToolbar();
+        }
+        function syncToolbar() {
+          var doc = activeDoc(); if (!doc) return;
+          [["bold", "tbB"], ["italic", "tbI"], ["underline", "tbU"]].forEach(function (p) {
+            var on = false; try { on = doc.queryCommandState(p[0]); } catch (e) {}
+            var b = $(p[1]); if (b) b.classList.toggle("on", on);
+          });
+        }
+        function ensureFont(doc, fam) {
+          if (!doc) return;
+          var id = "cd-f-" + fam.replace(/\W+/g, "");
+          if (doc.getElementById(id)) return;
+          var l = doc.createElement("link"); l.id = id; l.rel = "stylesheet";
+          l.href = "https://fonts.googleapis.com/css2?family=" + encodeURIComponent(fam).replace(/%20/g, "+") + ":wght@400;700&display=swap";
+          doc.head.appendChild(l);
+        }
+        (function wireToolbar() {
+          var tb = $("ceToolbar"); if (!tb) return;
+          tb.addEventListener("mousedown", function (e) { e.preventDefault(); }); // keep iframe selection
+          $("tbB").onclick = function () { execRich("bold"); };
+          $("tbI").onclick = function () { execRich("italic"); };
+          $("tbU").onclick = function () { execRich("underline"); };
+          $("tbColorBtn").onclick = function () { $("tbColorPop").hidden = !$("tbColorPop").hidden; $("tbFontPop").hidden = true; };
+          $("tbFontBtn").onclick = function () { $("tbFontPop").hidden = !$("tbFontPop").hidden; $("tbColorPop").hidden = true; };
+          ["#fb8500", "#ffb703", "#1c1917", "#ffffff", "#e11d48", "#2563eb", "#16a34a", "#7c3aed", "#0891b2", "#78716c"].forEach(function (c) {
+            var s = document.createElement("button"); s.className = "sw"; s.style.background = c;
+            s.onclick = function () { execRich("foreColor", c); $("tbColorPop").hidden = true; };
+            $("tbColorPop").appendChild(s);
+          });
+          [["Roboto Slab", "Classic"], ["Montserrat", "Modern"], ["Playfair Display", "Lean"], ["Oswald", "Bold"], ["Poppins", "Friendly"], ["Bebas Neue", "Punchy"]].forEach(function (f) {
+            var b = document.createElement("button"); b.className = "fb"; b.textContent = f[1]; b.style.fontFamily = "'" + f[0] + "'";
+            b.onclick = function () { ensureFont(activeDoc(), f[0]); execRich("fontName", f[0]); $("tbFontPop").hidden = true; };
+            $("tbFontPop").appendChild(b);
+          });
+          $("tbDone").onclick = function () { var a = activeDoc() && activeDoc().querySelector("[data-ce].cd-active"); if (a) a.blur(); hideToolbar(); };
+        })();
 
         /* -------------------- image editing -------------------- */
         var imgTarget = null;
@@ -1706,13 +1832,11 @@
         function pushUndo(entry) { state.undo.push(entry); }
         $("undoBtn").onclick = function () {
           var e = state.undo.pop(); if (!e) return;
-          if (e.type === "text") {
-            var key = state.page + "::" + e.idx;
-            if (e.removed) { /* nothing to restore beyond DOM */ }
-            if (e.prevOp) state.ops.text[key] = e.prevOp; else delete state.ops.text[key];
+          if (e.type === "el") {
+            if (e.prevOp) state.ops.el[e.key] = e.prevOp; else delete state.ops.el[e.key];
             if (e.el) {
-              e.el.textContent = e.prevText;
-              e.el.classList.toggle("cd-changed", !!state.ops.text[key]);
+              e.el.innerHTML = e.prevHtml;
+              e.el.classList.toggle("cd-changed", !!state.ops.el[e.key]);
             }
           } else if (e.type === "img") {
             if (e.prevOp) state.ops.img[e.path] = e.prevOp; else delete state.ops.img[e.path];
@@ -1725,10 +1849,11 @@
         function htmlEnc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
         // Pick one change we can detect on the live page, so we can confirm it landed.
         function pickWatchTarget() {
-          var tk = Object.keys(state.ops.text);
+          var tk = Object.keys(state.ops.el);
           if (tk.length) {
-            var o = state.ops.text[tk[0]];
-            return { url: pageUrl(o.page), needle: htmlEnc(o.text).trim().slice(0, 60) };
+            var o = state.ops.el[tk[0]];
+            var txt = o.html.replace(/<[^>]+>/g, "").trim();
+            if (txt) return { url: pageUrl(o.page), needle: txt.slice(0, 40) };
           }
           if (state.ops.details && state.ops.details.phone) return { url: pageUrl(state.page), needle: state.ops.details.phone };
           if (state.ops.colour) return { url: pageUrl(state.page), needle: state.ops.colour.primary.replace("#", "") };
@@ -1746,11 +1871,11 @@
 
           var jobs = [];
           var byPage = {};
-          Object.keys(state.ops.text).forEach(function (k) {
-            var o = state.ops.text[k];
-            (byPage[o.page] = byPage[o.page] || []).push({ find: o.find, occurrence: o.occurrence, text: o.text });
+          Object.keys(state.ops.el).forEach(function (k) {
+            var o = state.ops.el[k];
+            (byPage[o.page] = byPage[o.page] || []).push({ ce: o.ce, html: o.html });
           });
-          Object.keys(byPage).forEach(function (pg) { jobs.push(api({ action: "save-texts", page: pg, edits: byPage[pg] })); });
+          Object.keys(byPage).forEach(function (pg) { jobs.push(api({ action: "save-elements", page: pg, edits: byPage[pg] })); });
           Object.keys(state.ops.img).forEach(function (path) { jobs.push(api({ action: "swap", path: path, b64: state.ops.img[path].b64 })); });
           if (state.ops.colour) jobs.push(api({ action: "colours", primary: state.ops.colour.primary, secondary: state.ops.colour.secondary }));
           if (state.ops.details) {
@@ -1762,7 +1887,7 @@
           Promise.all(jobs.map(function (p) { return p.catch(function (e) { return { ok: false, error: String(e) }; }); }))
             .then(function (results) {
               var bad = results.filter(function (r) { return !r || r.ok === false; });
-              state.ops = { text: {}, img: {}, colour: null, details: null, fonts: null };
+              state.ops = { el: {}, img: {}, colour: null, details: null, fonts: null };
               state.undo = [];
               refreshPublish();
               $("publishLabel").textContent = "Publish";
