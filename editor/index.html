@@ -805,6 +805,116 @@
         padding: 8px 14px;
       }
 
+      /* device toggle (desktop preview size) */
+      .device {
+        display: flex;
+        background: var(--muted);
+        border-radius: var(--r-sm);
+        padding: 3px;
+      }
+      .device button {
+        width: 32px;
+        height: 28px;
+        display: grid;
+        place-items: center;
+        border: none;
+        background: transparent;
+        border-radius: 4px;
+        color: var(--muted-fg);
+      }
+      .device button.on {
+        background: var(--bg);
+        color: var(--fg);
+        box-shadow: var(--shadow-sm);
+      }
+      .device svg {
+        width: 15px;
+        height: 15px;
+      }
+      .histgrp {
+        display: flex;
+        gap: 4px;
+      }
+      .app.preview-mobile .frame {
+        max-width: 412px;
+        margin: 0 auto;
+      }
+
+      /* sidebar footer (logout) */
+      .side-foot {
+        padding: 12px 14px;
+        border-top: 1px solid var(--border);
+        flex: none;
+      }
+
+      /* fonts */
+      .fontlist {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .fontcard {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        border-radius: var(--r);
+        padding: 10px 12px;
+        cursor: pointer;
+        text-align: left;
+        transition:
+          border-color 0.14s,
+          background 0.14s;
+      }
+      .fontcard:hover {
+        border-color: var(--muted-fg);
+      }
+      .fontcard.on {
+        border-color: var(--primary);
+        background: var(--primary-tint);
+      }
+      .fontcard .fh {
+        font-size: 16px;
+        line-height: 1.1;
+        color: var(--fg);
+      }
+      .fontcard .fb {
+        font-size: 11.5px;
+        color: var(--muted-fg);
+        margin-top: 2px;
+      }
+      .fontcard .ftk {
+        margin-left: auto;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1.5px solid var(--border);
+        flex: none;
+      }
+      .fontcard.on .ftk {
+        border-color: var(--primary);
+        background: var(--primary);
+        box-shadow: inset 0 0 0 3px #fff;
+      }
+
+      /* publish watcher spinner */
+      .pub-spin {
+        width: 38px;
+        height: 38px;
+        border: 4px solid var(--muted-2);
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        margin: 0 auto 16px;
+        animation: spin 0.8s linear infinite;
+      }
+      .pub-spin.done {
+        border: none;
+        animation: none;
+        color: var(--good);
+      }
+
       /* ---------- mobile bottom nav ---------- */
       .mob-nav {
         display: none;
@@ -866,6 +976,9 @@
           max-width: 46vw;
         }
         .ghost-link span {
+          display: none;
+        }
+        .device {
           display: none;
         }
         .mob-nav {
@@ -932,6 +1045,10 @@
           <button class="nav-item" data-pane="colours">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="10.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 2a10 10 0 1 0 0 20 1.5 1.5 0 0 0 1-2.6 1.5 1.5 0 0 1 1-2.6h2A4 4 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>
             Colours
+          </button>
+          <button class="nav-item" data-pane="fonts">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5h16v2"/><path d="M9 19h6M12 5v14"/></svg>
+            Fonts
           </button>
           <button class="nav-item" data-pane="details">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h7M7 12h10M7 16h6"/></svg>
@@ -1013,6 +1130,21 @@
             </button>
             <p class="pane-note" id="detailsNote"></p>
           </section>
+
+          <!-- FONTS pane -->
+          <section class="pane" data-pane="fonts">
+            <h2 class="pane-title">Fonts</h2>
+            <p class="pane-sub">Pick a style for your whole site. Headings use the first font, body text the second.</p>
+            <div id="fontList" class="fontlist"></div>
+            <button class="btn btn-primary btn-block" id="applyFonts" style="margin-top:14px" disabled>Apply fonts</button>
+            <p class="pane-note">Changes the look of every page.</p>
+          </section>
+        </div>
+        <div class="side-foot">
+          <button class="btn btn-outline btn-block" id="logoutBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5M21 12H9"/></svg>
+            Log out
+          </button>
         </div>
       </aside>
 
@@ -1023,8 +1155,16 @@
         </button>
         <nav class="pages" id="pages" aria-label="Pages"></nav>
         <div class="top-right">
-          <button class="icon-btn" id="undoBtn" title="Undo" aria-label="Undo" disabled>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"/><path d="M3 13a9 9 0 1 0 3-7.7L3 8"/></svg>
+          <div class="device" id="device" title="Preview size">
+            <button class="on" data-dev="desktop" aria-label="Desktop preview">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </button>
+            <button data-dev="mobile" aria-label="Mobile preview">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+            </button>
+          </div>
+          <button class="icon-btn" id="undoBtn" title="Undo last change" aria-label="Undo" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg>
           </button>
           <a class="ghost-link" id="viewLive" href="#" target="_blank" rel="noopener">
             <span>View live</span>
@@ -1093,6 +1233,16 @@
       </div>
     </div>
 
+    <!-- publishing watcher (waits until the change is actually live) -->
+    <div class="overlay" id="pubOverlay" hidden>
+      <div class="modal" style="text-align:center">
+        <div class="pub-spin" id="pubSpin"></div>
+        <h2 id="pubTitle">Publishing your changes…</h2>
+        <p class="sub" id="pubMsg" style="margin-bottom:6px">Saving your site and pushing it live. This usually takes a minute or two — hang tight, we'll confirm when it's done.</p>
+        <button class="btn btn-outline btn-block" id="pubClose" hidden>Close</button>
+      </div>
+    </div>
+
     <input type="file" id="imgFile" accept="image/png,image/jpeg,image/webp" hidden />
     <div class="toast" id="toast"></div>
 
@@ -1117,12 +1267,12 @@
           number: "",
           homepage: "",
           page: "index.html",
-          blocks: [],        // text blocks for current page (from backend)
+          preview: "desktop",
           images: [],        // {path,url}
-          ops: { text: {}, img: {}, colour: null, details: null },
+          rawHtml: {},       // page -> raw source HTML (for find/occurrence anchors)
+          ops: { text: {}, img: {}, colour: null, details: null, fonts: null },
           undo: [],
           details: null,
-          loadedTexts: {},   // page -> blocks cache
         };
 
         /* -------------------- helpers -------------------- */
@@ -1154,6 +1304,7 @@
           var n = Object.keys(state.ops.text).length + Object.keys(state.ops.img).length;
           if (state.ops.colour) n++;
           if (state.ops.details) n++;
+          if (state.ops.fonts) n++;
           return n;
         }
         function refreshPublish() {
@@ -1284,6 +1435,7 @@
           fetch(fetchUrl)
             .then(function (r) { if (!r.ok) throw new Error("Could not load this page (" + r.status + ")."); return r.text(); })
             .then(function (html) {
+              state.rawHtml[pg] = html;
               var frame = $("siteFrame");
               frame.onload = function () { onFrameReady(pg); };
               frame.srcdoc = transformHtml(html, root(state.homepage));
@@ -1307,36 +1459,37 @@
 
         /* -------------------- text editing -------------------- */
         var TEXT_TAGS = ["h1","h2","h3","h4","h5","h6","p","a","button","span","li"];
-        function attachTextLayer(doc, pg) {
-          // get authoritative blocks (find/occurrence) then match to DOM
-          var done = function (blocks) {
-            state.blocks = blocks || [];
-            matchAndBind(doc, blocks || []);
-            var n = doc.querySelectorAll("[data-cd-edit]").length;
-            $("editStats").textContent = n + " editable text spot" + (n === 1 ? "" : "s") + " on this page.";
-            // re-apply any pending edits made earlier this session
-            reapplyTextOps(doc, pg);
+
+        /* Robust text discovery: run the EXACT backend extractor over the raw
+           source HTML, so every find/occurrence anchor we send is guaranteed to
+           match what save-texts will splice. Covers all pure-text elements
+           (headings, paragraphs, buttons, links, labels, list items). */
+        function computeBlocks(raw) {
+          if (!raw) return [];
+          var bs = raw.indexOf("<body");
+          var body = bs < 0 ? raw : raw.slice(bs);
+          var re = /<(h[1-6]|p|a|button|span|li)\b([^>]*)>([^<>]+)<\/\1>/g;
+          var dec = function (s) {
+            return s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'");
           };
-          if (state.loadedTexts[pg]) { done(state.loadedTexts[pg]); return; }
-          if (window.__DEV) { var bb = blocksFromDom(doc); state.loadedTexts[pg] = bb; done(bb); return; }
-          api({ action: "texts", page: pg })
-            .then(function (d) {
-              var blocks = (d && d.ok && d.blocks) ? d.blocks : null;
-              if (!blocks) blocks = blocksFromDom(doc); // fallback
-              state.loadedTexts[pg] = blocks;
-              done(blocks);
-            })
-            .catch(function () { var b = blocksFromDom(doc); state.loadedTexts[pg] = b; done(b); });
+          var seen = {}, blocks = [], m;
+          while ((m = re.exec(body)) !== null) {
+            var text = m[3];
+            if (text.trim().length < 2) continue;
+            if (/^[\s\d.,$%–—\-]+$/.test(text)) continue;
+            var full = m[0];
+            seen[full] = (seen[full] || 0) + 1;
+            blocks.push({ tag: m[1], text: dec(text), find: full, occurrence: seen[full] });
+          }
+          return blocks;
         }
 
-        function blocksFromDom(doc) {
-          var out = [];
-          doc.querySelectorAll(TEXT_TAGS.join(",")).forEach(function (el) {
-            if (el.querySelector(TEXT_TAGS.join(","))) return; // leaf text only
-            var t = norm(el.textContent);
-            if (t && t.length <= 400) out.push({ tag: el.tagName.toLowerCase(), text: t, find: t, occurrence: 0 });
-          });
-          return out;
+        function attachTextLayer(doc, pg) {
+          var blocks = computeBlocks(state.rawHtml[pg] || "");
+          matchAndBind(doc, blocks);
+          var n = doc.querySelectorAll("[data-cd-edit]").length;
+          $("editStats").textContent = n + " editable text spot" + (n === 1 ? "" : "s") + " on this page. Click any to change it.";
+          reapplyTextOps(doc, pg);
         }
 
         function matchAndBind(doc, blocks) {
@@ -1569,46 +1722,94 @@
         };
 
         /* -------------------- publish -------------------- */
+        function htmlEnc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+        // Pick one change we can detect on the live page, so we can confirm it landed.
+        function pickWatchTarget() {
+          var tk = Object.keys(state.ops.text);
+          if (tk.length) {
+            var o = state.ops.text[tk[0]];
+            return { url: pageUrl(o.page), needle: htmlEnc(o.text).trim().slice(0, 60) };
+          }
+          if (state.ops.details && state.ops.details.phone) return { url: pageUrl(state.page), needle: state.ops.details.phone };
+          if (state.ops.colour) return { url: pageUrl(state.page), needle: state.ops.colour.primary.replace("#", "") };
+          return null; // image/font-only — can't text-match; fall back to a timed confirm
+        }
+
         $("publishBtn").onclick = doPublish;
         function doPublish() {
           var n = opCount(); if (!n) return;
           if (window.__DEV) { toast("Dev preview — publishing is disabled."); return; }
-          var btn = $("publishBtn"); btn.disabled = true;
+          $("publishBtn").disabled = true;
           $("publishLabel").innerHTML = '<span class="saving-dot"></span>';
           $("publishCount").hidden = true;
+          var watch = pickWatchTarget();
 
           var jobs = [];
-          // group text ops by page
           var byPage = {};
           Object.keys(state.ops.text).forEach(function (k) {
             var o = state.ops.text[k];
             (byPage[o.page] = byPage[o.page] || []).push({ find: o.find, occurrence: o.occurrence, text: o.text });
           });
-          Object.keys(byPage).forEach(function (pg) {
-            jobs.push(api({ action: "save-texts", page: pg, edits: byPage[pg] }));
-          });
-          Object.keys(state.ops.img).forEach(function (path) {
-            jobs.push(api({ action: "swap", path: path, b64: state.ops.img[path].b64 }));
-          });
+          Object.keys(byPage).forEach(function (pg) { jobs.push(api({ action: "save-texts", page: pg, edits: byPage[pg] })); });
+          Object.keys(state.ops.img).forEach(function (path) { jobs.push(api({ action: "swap", path: path, b64: state.ops.img[path].b64 })); });
           if (state.ops.colour) jobs.push(api({ action: "colours", primary: state.ops.colour.primary, secondary: state.ops.colour.secondary }));
           if (state.ops.details) {
             var d = state.ops.details;
             jobs.push(api({ action: "save-details", name: d.name, phone: d.phone, email: d.email, address: d.address, suburb: d.suburb }));
           }
+          if (state.ops.fonts) jobs.push(api({ action: "save-fonts", pair: state.ops.fonts.id }));
 
           Promise.all(jobs.map(function (p) { return p.catch(function (e) { return { ok: false, error: String(e) }; }); }))
             .then(function (results) {
               var bad = results.filter(function (r) { return !r || r.ok === false; });
-              state.ops = { text: {}, img: {}, colour: null, details: null };
+              state.ops = { text: {}, img: {}, colour: null, details: null, fonts: null };
               state.undo = [];
-              state.loadedTexts = {};
               refreshPublish();
               $("publishLabel").textContent = "Publish";
-              if (bad.length) toast("Published with " + bad.length + " issue(s) — some changes may need a retry.");
-              else toast("Published! Your site updates in a minute or two.");
-              loadPage(state.page);
+              if (bad.length === results.length) { toast("Couldn't publish — please try again."); return; }
+              watchGoLive(watch);
             });
         }
+
+        // Loading screen that waits until the change is actually live on the site,
+        // so the customer never wonders "did that work?".
+        function watchGoLive(watch) {
+          $("pubOverlay").hidden = false;
+          $("pubClose").hidden = true;
+          $("pubSpin").style.cssText = "";
+          $("pubSpin").textContent = "";
+          $("pubSpin").classList.remove("done");
+          $("pubTitle").textContent = "Publishing your changes…";
+          $("pubMsg").textContent = "Saving your site and pushing it live — this usually takes a minute or two. We'll confirm the moment it's done.";
+
+          var finish = function (ok) {
+            $("pubSpin").classList.add("done");
+            $("pubSpin").style.cssText = "width:42px;height:42px;margin:0 auto 16px;display:grid;place-items:center;font-size:34px;border:none;animation:none;color:" + (ok ? "#16a34a" : "#fb8500");
+            $("pubSpin").textContent = ok ? "✓" : "↻";
+            $("pubTitle").textContent = ok ? "Your changes are live!" : "Almost there…";
+            $("pubMsg").textContent = ok
+              ? "Done — your site has been updated. Take a look."
+              : "Your changes are saved and going live in the background. They'll appear within a few minutes — you can keep editing.";
+            $("pubClose").hidden = false;
+            if (ok) loadPage(state.page);
+          };
+
+          if (!watch || !watch.needle) { setTimeout(function () { finish(true); }, 9000); return; }
+          var tries = 0, max = 28;
+          var poll = function () {
+            tries++;
+            fetch("/api/editor-page?url=" + encodeURIComponent(watch.url + (watch.url.indexOf("?") < 0 ? "?" : "&") + "_cd=" + Date.now()))
+              .then(function (r) { return r.text(); })
+              .then(function (html) {
+                if (html.indexOf(watch.needle) !== -1) finish(true);
+                else if (tries >= max) finish(false);
+                else setTimeout(poll, 5500);
+              })
+              .catch(function () { if (tries >= max) finish(false); else setTimeout(poll, 5500); });
+          };
+          setTimeout(poll, 6000);
+        }
+        $("pubClose").onclick = function () { $("pubOverlay").hidden = true; };
 
         /* -------------------- panes / nav -------------------- */
         function showPane(name) {
@@ -1638,6 +1839,70 @@
         }
         $("mobPopOk").onclick = function () { $("mobPop").style.display = "none"; sessionStorage.setItem("cd-mob-ok", "1"); };
         window.addEventListener("resize", function () { $("mobMenu").hidden = !isMobile(); });
+
+        /* -------------------- logout -------------------- */
+        $("logoutBtn").onclick = function () {
+          localStorage.removeItem("cd-builder-token");
+          location.reload();
+        };
+
+        /* -------------------- viewport preview (desktop only) -------------------- */
+        $("device").addEventListener("click", function (e) {
+          var b = e.target.closest("button"); if (!b) return;
+          document.querySelectorAll("#device button").forEach(function (t) { t.classList.toggle("on", t === b); });
+          state.preview = b.dataset.dev;
+          $("app").classList.toggle("preview-mobile", b.dataset.dev === "mobile");
+        });
+
+        /* -------------------- fonts -------------------- */
+        var FONT_PAIRS = [
+          { id: "classic", label: "Classic", heading: "Roboto Slab", body: "Roboto", blurb: "Solid and dependable" },
+          { id: "modern", label: "Modern", heading: "Montserrat", body: "Open Sans", blurb: "Clean and sharp" },
+          { id: "elegant", label: "Lean", heading: "Playfair Display", body: "Source Sans 3", blurb: "Light and upmarket" },
+          { id: "bold", label: "Bold", heading: "Oswald", body: "Source Sans 3", blurb: "Big, confident headings" },
+          { id: "friendly", label: "Friendly", heading: "Poppins", body: "Inter", blurb: "Round and approachable" },
+          { id: "punchy", label: "Punchy", heading: "Bebas Neue", body: "Inter", blurb: "Tall, loud headings" },
+        ];
+        function gfUrl(p) {
+          var f = function (n) { return encodeURIComponent(n).replace(/%20/g, "+"); };
+          return "https://fonts.googleapis.com/css2?family=" + f(p.heading) + ":wght@700&family=" + f(p.body) + "&display=swap";
+        }
+        function renderFonts() {
+          var box = $("fontList"); if (!box) return; box.innerHTML = "";
+          if (!document.getElementById("cd-fontprev")) {
+            var l = document.createElement("link"); l.id = "cd-fontprev"; l.rel = "stylesheet";
+            l.href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Playfair+Display:wght@700&family=Source+Sans+3&family=Oswald:wght@600&family=Poppins:wght@600&family=Inter&family=Bebas+Neue&display=swap";
+            document.head.appendChild(l);
+          }
+          FONT_PAIRS.forEach(function (p) {
+            var c = document.createElement("div");
+            c.className = "fontcard" + (state.ops.fonts && state.ops.fonts.id === p.id ? " on" : "");
+            c.innerHTML =
+              '<div><div class="fh" style="font-family:\'' + p.heading + '\'">' + p.label + '</div>' +
+              '<div class="fb" style="font-family:\'' + p.body + '\'">' + p.blurb + '</div></div><span class="ftk"></span>';
+            c.onclick = function () { stageFonts(p); renderFonts(); };
+            box.appendChild(c);
+          });
+        }
+        function stageFonts(p) {
+          state.ops.fonts = { id: p.id, heading: p.heading, body: p.body };
+          $("applyFonts").disabled = false;
+          previewFonts(p);
+          refreshPublish();
+        }
+        function previewFonts(p) {
+          var doc = $("siteFrame").contentDocument; if (!doc) return;
+          var link = doc.getElementById("cd-fontprev-link");
+          if (!link) { link = doc.createElement("link"); link.id = "cd-fontprev-link"; link.rel = "stylesheet"; doc.head.appendChild(link); }
+          link.href = gfUrl(p);
+          var st = doc.getElementById("cd-fontprev-style") || doc.createElement("style"); st.id = "cd-fontprev-style";
+          st.textContent =
+            "h1,h2,h3,h4,h5,h6,.section-h2,.logo{font-family:'" + p.heading + "',serif!important}" +
+            "body,p,a,button,span,li,input,div{font-family:'" + p.body + "',sans-serif!important}";
+          doc.head.appendChild(st);
+        }
+        $("applyFonts").onclick = function () { showPane("edit"); toast("Fonts staged — hit Publish to apply them across your site."); };
+        renderFonts();
 
         /* -------------------- boot -------------------- */
         if (qs.get("dev")) {
