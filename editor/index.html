@@ -8,47 +8,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <style>
       /* ============================================================
-         COMPLETE DIGITAL — EDITOR  ·  "warm precision" design system
-         Chrome = brand orange/amber. Canvas = the customer's own site.
-         This file is the v1 DESIGN MOCKUP (static; states shown inline).
+         COMPLETE DIGITAL — EDITOR
+         shadcn "stone" neutrals + brand orange. Chrome is orange;
+         the customer's site keeps its own colours inside the canvas.
          ============================================================ */
       :root {
-        --orange: #fb8500;
-        --orange-deep: #e36f00;
+        --primary: #fb8500;
+        --primary-hover: #e36f00;
+        --primary-tint: #fff3e4;
         --amber: #ffb703;
-        --amber-soft: #ffe9bf;
 
-        --ink: #1d1a16;
-        --ink-2: #4a443b;
-        --ink-soft: #8a8174;
-        --line: #e8e2d6;
-        --line-2: #f0ece2;
-        --panel: #ffffff;
-        --rail: #fbfaf6;
-        --canvas: #e9e3d6;
+        --bg: #ffffff;
+        --canvas: #eceae6;
+        --rail: #fcfbfa;
+        --muted: #f5f4f2;
+        --muted-2: #efeeeb;
+        --fg: #1c1917;
+        --fg-2: #44403c;
+        --muted-fg: #79716b;
+        --border: #e7e5e4;
+        --border-soft: #f0efec;
+        --ring: rgba(251, 133, 0, 0.35);
 
-        --shadow-sm: 0 1px 2px rgba(45, 32, 12, 0.05);
-        --shadow-md: 0 2px 6px rgba(45, 32, 12, 0.06),
-          0 14px 34px rgba(45, 32, 12, 0.08);
-        --shadow-lg: 0 8px 18px rgba(45, 32, 12, 0.1),
-          0 30px 60px rgba(45, 32, 12, 0.14);
+        --good: #16a34a;
+
+        --shadow-sm: 0 1px 2px rgba(28, 25, 23, 0.06);
+        --shadow-md: 0 1px 3px rgba(28, 25, 23, 0.08),
+          0 8px 24px rgba(28, 25, 23, 0.07);
+        --shadow-lg: 0 10px 24px rgba(28, 25, 23, 0.1),
+          0 30px 64px rgba(28, 25, 23, 0.16);
 
         --r-sm: 6px;
-        --r: 9px;
-        --r-lg: 14px;
+        --r: 8px;
+        --r-lg: 12px;
 
-        --topbar-h: 58px;
-        --rail-w: 312px;
+        --topbar-h: 56px;
+        --side-w: 256px;
 
         --display: "Bricolage Grotesque", "Hanken Grotesk", sans-serif;
         --ui: "Hanken Grotesk", system-ui, sans-serif;
       }
-
       * {
         box-sizing: border-box;
         margin: 0;
@@ -60,89 +64,140 @@
       }
       body {
         font-family: var(--ui);
-        color: var(--ink);
+        color: var(--fg);
         background: var(--rail);
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
         overflow: hidden;
+      }
+      [hidden] {
+        display: none !important;
       }
       button {
         font-family: inherit;
         cursor: pointer;
         color: inherit;
       }
-      .mono-label {
-        font-size: 10.5px;
-        font-weight: 700;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--ink-soft);
+      svg {
+        display: block;
       }
 
-      /* ---------- app grid ---------- */
+      /* ---------- buttons (solid, no gradients) ---------- */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        border: 1px solid transparent;
+        border-radius: var(--r-sm);
+        font-weight: 600;
+        font-size: 13.5px;
+        padding: 9px 14px;
+        transition:
+          background 0.14s,
+          border-color 0.14s,
+          color 0.14s,
+          box-shadow 0.14s,
+          opacity 0.14s;
+        white-space: nowrap;
+      }
+      .btn svg {
+        width: 15px;
+        height: 15px;
+      }
+      .btn-primary {
+        background: var(--primary);
+        color: #fff;
+        box-shadow: var(--shadow-sm);
+      }
+      .btn-primary:hover {
+        background: var(--primary-hover);
+      }
+      .btn-primary:disabled {
+        opacity: 0.55;
+        cursor: default;
+      }
+      .btn-dark {
+        background: var(--fg);
+        color: #fff;
+      }
+      .btn-dark:hover {
+        background: #000;
+      }
+      .btn-outline {
+        background: var(--bg);
+        border-color: var(--border);
+        color: var(--fg-2);
+      }
+      .btn-outline:hover {
+        background: var(--muted);
+        color: var(--fg);
+      }
+      .btn-ghost {
+        background: transparent;
+        color: var(--fg-2);
+      }
+      .btn-ghost:hover {
+        background: var(--muted);
+        color: var(--fg);
+      }
+      .btn-block {
+        width: 100%;
+      }
+      .icon-btn {
+        width: 34px;
+        height: 34px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        border-radius: var(--r-sm);
+        color: var(--fg-2);
+        transition:
+          border-color 0.14s,
+          color 0.14s,
+          background 0.14s,
+          opacity 0.14s;
+      }
+      .icon-btn:hover:not(:disabled) {
+        background: var(--muted);
+        color: var(--fg);
+      }
+      .icon-btn:disabled {
+        opacity: 0.4;
+        cursor: default;
+      }
+      .icon-btn svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      /* ======================= APP SHELL ======================= */
       .app {
         height: 100dvh;
         display: grid;
         grid-template-rows: var(--topbar-h) 1fr;
-        grid-template-columns: var(--rail-w) 1fr;
+        grid-template-columns: var(--side-w) 1fr;
         grid-template-areas:
-          "top top"
-          "rail canvas";
+          "side top"
+          "side canvas";
       }
 
-      /* ======================= TOP BAR ======================= */
+      /* ---------- top bar ---------- */
       .topbar {
         grid-area: top;
         display: flex;
         align-items: center;
-        gap: 18px;
-        padding: 0 16px;
-        background: var(--panel);
-        border-bottom: 1px solid var(--line);
-        z-index: 30;
+        gap: 12px;
+        padding: 0 14px;
+        background: var(--bg);
+        border-bottom: 1px solid var(--border);
+        z-index: 20;
       }
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 11px;
-        flex: none;
-      }
-      .brand .word {
-        font-family: var(--display);
-        font-weight: 800;
-        font-size: 17px;
-        letter-spacing: -0.02em;
-        color: var(--ink);
-        line-height: 1;
-      }
-      .brand .word b {
-        color: var(--orange);
-        font-weight: 800;
-      }
-      .brand .tag {
-        font-size: 9.5px;
-        font-weight: 700;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: var(--orange-deep);
-        background: var(--amber-soft);
-        padding: 3px 7px 2px;
-        border-radius: 4px;
-        align-self: center;
-      }
-
-      .divider {
-        width: 1px;
-        height: 26px;
-        background: var(--line);
-        flex: none;
-      }
-
-      /* page switcher (segmented) */
       .pages {
         display: flex;
-        gap: 2px;
-        background: var(--line-2);
+        gap: 1px;
+        background: var(--muted);
         padding: 3px;
         border-radius: var(--r);
         overflow-x: auto;
@@ -156,911 +211,751 @@
         background: transparent;
         font-size: 13px;
         font-weight: 600;
-        color: var(--ink-2);
+        color: var(--muted-fg);
         padding: 6px 13px;
-        border-radius: 6px;
+        border-radius: var(--r-sm);
         white-space: nowrap;
-        transition:
-          background 0.15s,
-          color 0.15s,
-          box-shadow 0.15s;
+        transition: all 0.14s;
       }
       .pages button:hover {
-        color: var(--ink);
+        color: var(--fg);
       }
       .pages button.on {
-        background: var(--panel);
-        color: var(--ink);
+        background: var(--bg);
+        color: var(--fg);
         box-shadow: var(--shadow-sm);
       }
-
       .top-right {
         margin-left: auto;
         display: flex;
         align-items: center;
-        gap: 10px;
-        flex: none;
+        gap: 8px;
       }
-      .icon-btn {
-        width: 34px;
-        height: 34px;
-        display: grid;
-        place-items: center;
-        border: 1px solid var(--line);
-        background: var(--panel);
-        border-radius: var(--r-sm);
-        color: var(--ink-2);
-        transition:
-          border-color 0.15s,
-          color 0.15s,
-          background 0.15s;
-      }
-      .icon-btn:hover {
-        border-color: var(--ink-soft);
-        color: var(--ink);
-      }
-      .icon-btn svg {
-        width: 16px;
-        height: 16px;
-      }
-
-      /* device toggle */
-      .device {
-        display: flex;
-        background: var(--line-2);
-        border-radius: var(--r-sm);
-        padding: 3px;
-      }
-      .device button {
-        width: 32px;
-        height: 28px;
-        display: grid;
-        place-items: center;
-        border: none;
-        background: transparent;
-        border-radius: 4px;
-        color: var(--ink-soft);
-      }
-      .device button.on {
-        background: var(--panel);
-        color: var(--ink);
-        box-shadow: var(--shadow-sm);
-      }
-      .device svg {
-        width: 15px;
-        height: 15px;
-      }
-
       .ghost-link {
         display: inline-flex;
         align-items: center;
         gap: 6px;
         font-size: 13px;
         font-weight: 600;
-        color: var(--ink-2);
+        color: var(--fg-2);
         text-decoration: none;
-        padding: 7px 10px;
+        padding: 8px 10px;
         border-radius: var(--r-sm);
       }
       .ghost-link:hover {
-        color: var(--ink);
-        background: var(--line-2);
+        background: var(--muted);
+        color: var(--fg);
       }
       .ghost-link svg {
         width: 13px;
         height: 13px;
       }
-
-      .publish {
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        gap: 9px;
-        border: none;
-        color: #fff;
-        font-weight: 700;
-        font-size: 13.5px;
-        letter-spacing: -0.01em;
-        padding: 9px 16px 9px 15px;
-        border-radius: var(--r-sm);
-        background: linear-gradient(135deg, var(--orange) 0%, var(--amber) 130%);
-        box-shadow:
-          0 1px 0 rgba(255, 255, 255, 0.25) inset,
-          0 4px 12px rgba(251, 133, 0, 0.32);
-        transition:
-          transform 0.12s ease,
-          box-shadow 0.2s;
-      }
-      .publish:hover {
-        transform: translateY(-1px);
-        box-shadow:
-          0 1px 0 rgba(255, 255, 255, 0.3) inset,
-          0 8px 20px rgba(251, 133, 0, 0.4);
-      }
-      .publish .count {
-        background: rgba(0, 0, 0, 0.22);
+      .publish .pc {
+        background: rgba(0, 0, 0, 0.18);
         border-radius: 20px;
         padding: 1px 7px;
         font-size: 11.5px;
         font-weight: 800;
-        min-width: 20px;
+        min-width: 19px;
         text-align: center;
       }
+      .saving-dot {
+        width: 13px;
+        height: 13px;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: spin 0.7s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
 
-      /* ======================= LEFT RAIL ======================= */
-      .rail {
-        grid-area: rail;
+      /* ---------- sidebar (shadcn-style nav) ---------- */
+      .sidebar {
+        grid-area: side;
         background: var(--rail);
-        border-right: 1px solid var(--line);
+        border-right: 1px solid var(--border);
         display: flex;
         flex-direction: column;
         min-height: 0;
       }
-      .rail-head {
-        padding: 16px 18px 13px;
-        border-bottom: 1px solid var(--line);
+      .side-brand {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding: 0 16px;
+        height: var(--topbar-h);
+        border-bottom: 1px solid var(--border);
+        flex: none;
       }
-      .rail-head .who {
+      .side-brand .word {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+      }
+      .side-brand .word b {
+        color: var(--primary);
+      }
+      .side-brand .tag {
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--primary-hover);
+        background: var(--primary-tint);
+        padding: 3px 6px 2px;
+        border-radius: 4px;
+      }
+      .biz {
         display: flex;
         align-items: center;
         gap: 10px;
+        padding: 13px 14px;
+        margin: 0;
+        border-bottom: 1px solid var(--border-soft);
       }
-      .who .badge {
+      .biz .badge {
         width: 32px;
         height: 32px;
         border-radius: 8px;
-        background:
-          radial-gradient(120% 120% at 30% 20%, #fff5, transparent),
-          linear-gradient(135deg, var(--orange), var(--amber));
+        background: var(--primary);
+        color: #fff;
         display: grid;
         place-items: center;
-        color: #fff;
         font-family: var(--display);
         font-weight: 800;
         font-size: 15px;
         flex: none;
-        box-shadow: var(--shadow-sm);
       }
-      .who .meta {
+      .biz .meta {
         min-width: 0;
       }
-      .who .meta .nm {
-        font-family: var(--display);
+      .biz .nm {
         font-weight: 700;
-        font-size: 14.5px;
-        letter-spacing: -0.01em;
+        font-size: 13.5px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
-      .who .meta .st {
+      .biz .st {
         font-size: 11.5px;
-        color: var(--ink-soft);
+        color: var(--muted-fg);
         display: flex;
         align-items: center;
         gap: 5px;
         margin-top: 1px;
       }
-      .who .meta .st::before {
+      .biz .st::before {
         content: "";
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #36c46a;
-        box-shadow: 0 0 0 3px rgba(54, 196, 106, 0.18);
+        background: var(--good);
+        box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.16);
       }
 
-      /* tool tabs */
-      .tools {
-        display: flex;
-        gap: 4px;
-        padding: 12px 14px;
+      .nav {
+        padding: 12px 10px 6px;
       }
-      .tool {
-        flex: 1;
+      .nav-label {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--muted-fg);
+        padding: 4px 8px 7px;
+      }
+      .nav-item {
+        width: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        gap: 5px;
-        padding: 11px 6px 9px;
-        border: 1px solid transparent;
+        gap: 10px;
+        padding: 8px 9px;
+        border: none;
         background: transparent;
-        border-radius: var(--r);
-        color: var(--ink-soft);
-        font-size: 11.5px;
+        border-radius: var(--r-sm);
+        font-size: 13.5px;
+        font-weight: 500;
+        color: var(--fg-2);
+        text-align: left;
+        transition:
+          background 0.13s,
+          color 0.13s;
+      }
+      .nav-item svg {
+        width: 17px;
+        height: 17px;
+        flex: none;
+        color: var(--muted-fg);
+        transition: color 0.13s;
+      }
+      .nav-item:hover {
+        background: var(--muted);
+        color: var(--fg);
+      }
+      .nav-item.on {
+        background: var(--muted-2);
+        color: var(--fg);
         font-weight: 600;
-        transition: all 0.15s;
       }
-      .tool svg {
-        width: 19px;
-        height: 19px;
+      .nav-item.on svg {
+        color: var(--primary);
       }
-      .tool:hover {
-        color: var(--ink-2);
-        background: var(--line-2);
+      .nav-item .soon {
+        margin-left: auto;
+        font-size: 9.5px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--muted-fg);
+        background: var(--muted-2);
+        padding: 2px 6px;
+        border-radius: 20px;
       }
-      .tool.on {
-        color: var(--orange-deep);
-        background: var(--panel);
-        border-color: var(--line);
-        box-shadow: var(--shadow-sm);
+      .nav-item:disabled {
+        opacity: 0.55;
+        cursor: default;
+      }
+      .nav-item:disabled:hover {
+        background: transparent;
+        color: var(--fg-2);
       }
 
-      .rail-body {
+      .side-sep {
+        height: 1px;
+        background: var(--border-soft);
+        margin: 8px 14px;
+      }
+      .tool-body {
         flex: 1;
         overflow-y: auto;
-        padding: 4px 16px 20px;
+        padding: 4px 14px 18px;
         min-height: 0;
       }
-      .panel {
+      .pane {
         display: none;
-        animation: rise 0.28s cubic-bezier(0.2, 0.7, 0.2, 1) both;
       }
-      .panel.on {
+      .pane.on {
         display: block;
+        animation: rise 0.22s ease both;
       }
       @keyframes rise {
         from {
           opacity: 0;
-          transform: translateY(7px);
+          transform: translateY(5px);
         }
       }
 
+      /* hint card (Edit pane) */
       .hint {
-        background: linear-gradient(180deg, #fffaf1, #fffefb);
-        border: 1px solid var(--amber-soft);
+        background: var(--primary-tint);
+        border: 1px solid #ffe1bd;
         border-radius: var(--r-lg);
-        padding: 16px;
-        margin-top: 8px;
-      }
-      .hint .ic {
-        width: 38px;
-        height: 38px;
-        border-radius: 10px;
-        background: var(--amber-soft);
-        display: grid;
-        place-items: center;
-        color: var(--orange-deep);
-        margin-bottom: 11px;
-      }
-      .hint .ic svg {
-        width: 20px;
-        height: 20px;
+        padding: 15px;
       }
       .hint h3 {
         font-family: var(--display);
-        font-size: 16px;
+        font-size: 15.5px;
         font-weight: 700;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.01em;
         margin-bottom: 5px;
       }
       .hint p {
-        font-size: 13px;
+        font-size: 12.8px;
         line-height: 1.55;
-        color: var(--ink-2);
+        color: var(--fg-2);
       }
-      .hint .legend {
-        margin-top: 13px;
+      .legend {
+        margin-top: 12px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 7px;
       }
       .legend .lrow {
         display: flex;
         align-items: center;
         gap: 9px;
-        font-size: 12.5px;
-        color: var(--ink-2);
+        font-size: 12px;
+        color: var(--fg-2);
       }
       .legend .sw {
-        width: 22px;
-        height: 16px;
+        width: 20px;
+        height: 15px;
         border-radius: 4px;
         flex: none;
       }
       .legend .sw.text {
         border: 1.5px dashed var(--amber);
-        background: rgba(255, 183, 3, 0.1);
+        background: rgba(255, 183, 3, 0.12);
       }
       .legend .sw.photo {
-        border: 1.5px solid var(--orange);
+        border: 1.5px solid var(--primary);
         background: rgba(251, 133, 0, 0.1);
+      }
+      .pane-note {
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--muted-fg);
+        margin-top: 12px;
+      }
+      .pane-title {
+        font-family: var(--display);
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        margin: 6px 0 3px;
+      }
+      .pane-sub {
+        font-size: 12.5px;
+        color: var(--muted-fg);
+        line-height: 1.5;
+        margin-bottom: 6px;
       }
 
       .field {
-        margin-top: 14px;
+        margin-top: 13px;
       }
       .field > label {
         display: block;
         font-size: 11.5px;
-        font-weight: 700;
-        color: var(--ink-2);
-        margin-bottom: 6px;
-        letter-spacing: 0.01em;
+        font-weight: 600;
+        color: var(--fg-2);
+        margin-bottom: 5px;
       }
-      .field input[type="text"],
-      .field input[type="tel"],
-      .field input[type="email"] {
+      .field input {
         width: 100%;
-        border: 1px solid var(--line);
-        background: var(--panel);
+        border: 1px solid var(--border);
+        background: var(--bg);
         border-radius: var(--r-sm);
-        padding: 10px 12px;
+        padding: 9px 11px;
         font-size: 13.5px;
         font-family: inherit;
-        color: var(--ink);
+        color: var(--fg);
         outline: none;
         transition:
-          border-color 0.15s,
-          box-shadow 0.15s;
+          border-color 0.14s,
+          box-shadow 0.14s;
       }
       .field input:focus {
-        border-color: var(--orange);
-        box-shadow: 0 0 0 3px rgba(251, 133, 0, 0.13);
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px var(--ring);
       }
 
       .swatches {
         display: flex;
-        gap: 12px;
+        gap: 10px;
         margin-top: 12px;
       }
       .swatch {
         flex: 1;
-        border: 1px solid var(--line);
-        background: var(--panel);
+        position: relative;
+        border: 1px solid var(--border);
+        background: var(--bg);
         border-radius: var(--r);
-        padding: 11px;
+        padding: 9px;
         text-align: left;
+        cursor: pointer;
+      }
+      .swatch:hover {
+        border-color: var(--muted-fg);
       }
       .swatch .chip {
         display: block;
         width: 100%;
-        height: 46px;
+        height: 42px;
         border-radius: var(--r-sm);
-        border: 1px solid rgba(0, 0, 0, 0.06);
-        margin-bottom: 9px;
+        border: 1px solid rgba(0, 0, 0, 0.07);
+        margin-bottom: 8px;
       }
       .swatch .nm {
         display: block;
         font-size: 11.5px;
         font-weight: 700;
-        color: var(--ink-2);
+        color: var(--fg-2);
       }
       .swatch .hex {
-        font-size: 11.5px;
-        color: var(--ink-soft);
+        display: block;
+        font-size: 11px;
+        color: var(--muted-fg);
         font-variant-numeric: tabular-nums;
+        text-transform: uppercase;
         margin-top: 1px;
       }
-
-      .apply {
+      .swatch input[type="color"] {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
         width: 100%;
-        margin-top: 16px;
-        border: none;
-        background: var(--ink);
-        color: #fff;
-        font-weight: 700;
-        font-size: 13.5px;
-        padding: 12px;
-        border-radius: var(--r-sm);
-        transition: background 0.15s;
-      }
-      .apply:hover {
-        background: #000;
-      }
-      .panel-note {
-        font-size: 12px;
-        line-height: 1.5;
-        color: var(--ink-soft);
-        margin-top: 11px;
-      }
-      .panel-title {
-        font-family: var(--display);
-        font-size: 15px;
-        font-weight: 700;
-        letter-spacing: -0.01em;
-        margin: 12px 0 2px;
-      }
-      .panel-sub {
-        font-size: 12.5px;
-        color: var(--ink-soft);
-        line-height: 1.5;
+        height: 100%;
+        cursor: pointer;
       }
 
       /* ======================= CANVAS ======================= */
-      .canvas {
+      .canvas-wrap {
         grid-area: canvas;
         position: relative;
         background:
           radial-gradient(
-            120% 80% at 50% -10%,
-            rgba(255, 183, 3, 0.08),
-            transparent 60%
+            120% 70% at 50% -10%,
+            rgba(251, 133, 0, 0.05),
+            transparent 55%
           ),
           var(--canvas);
         overflow: auto;
         display: flex;
         justify-content: center;
-        padding: 30px 30px 60px;
+        padding: 26px 26px 56px;
       }
-      /* faint grain for atmosphere */
-      .canvas::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        pointer-events: none;
-        opacity: 0.5;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
-      }
-
       .frame {
         position: relative;
         width: 100%;
-        max-width: 1180px;
+        max-width: 1200px;
         align-self: flex-start;
         background: #fff;
         border-radius: var(--r-lg);
         box-shadow: var(--shadow-lg);
         overflow: hidden;
-        transition: max-width 0.4s cubic-bezier(0.4, 0, 0.1, 1);
-        animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
-      }
-      .app.is-mobile .frame {
-        max-width: 412px;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
       }
       .framebar {
-        height: 38px;
-        background: #f4f2ee;
-        border-bottom: 1px solid #e6e2d9;
+        height: 36px;
+        background: var(--muted);
+        border-bottom: 1px solid var(--border);
         display: flex;
         align-items: center;
         gap: 7px;
-        padding: 0 13px;
+        padding: 0 12px;
+        flex: none;
       }
       .framebar .dots {
         display: flex;
         gap: 6px;
       }
       .framebar .dots span {
-        width: 10px;
-        height: 10px;
+        width: 9px;
+        height: 9px;
         border-radius: 50%;
-        background: #d8d3c8;
+        background: #d6d3cf;
       }
       .framebar .url {
         margin-left: 6px;
         flex: 1;
-        background: #fff;
-        border: 1px solid #e6e2d9;
+        background: var(--bg);
+        border: 1px solid var(--border);
         border-radius: 20px;
         font-size: 11.5px;
-        color: #8a8174;
+        color: var(--muted-fg);
         padding: 4px 12px;
-        max-width: 340px;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-      .framebar .url svg {
-        width: 11px;
-        height: 11px;
-        color: #36c46a;
+        max-width: 380px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       .edit-flag {
         margin-left: auto;
-        font-size: 10px;
+        font-size: 9.5px;
         font-weight: 800;
         letter-spacing: 0.1em;
-        color: var(--orange-deep);
-        background: var(--amber-soft);
+        color: var(--primary-hover);
+        background: var(--primary-tint);
         padding: 3px 8px;
         border-radius: 4px;
+        flex: none;
       }
-
-      /* the (mock) customer site lives here, in ITS OWN brand colours */
-      .site {
-        --site: #00aaff;
-        --site-dark: #122230;
-        font-family: "Hanken Grotesk", sans-serif;
-        color: #1a2733;
+      #siteFrame {
+        flex: 1;
+        width: 100%;
+        border: 0;
+        background: #fff;
+        min-height: 70vh;
       }
-      .site-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background: var(--site-dark);
-        color: #fff;
-        padding: 16px 30px;
-      }
-      .site-nav .logo {
-        font-weight: 800;
-        font-size: 17px;
-        letter-spacing: -0.01em;
-      }
-      .site-nav .logo i {
-        color: var(--site);
-        font-style: normal;
-      }
-      .site-nav .links {
-        display: flex;
-        gap: 22px;
-        font-size: 13px;
-        font-weight: 600;
-        opacity: 0.92;
-      }
-      .app.is-mobile .site-nav .links {
-        display: none;
-      }
-      .site-nav .nav-cta {
-        background: var(--site);
-        color: #062536;
-        font-weight: 700;
-        font-size: 12.5px;
-        padding: 9px 15px;
-        border-radius: 7px;
-      }
-      .site-hero {
-        position: relative;
-        min-height: 430px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 16px;
-        padding: 60px 46px;
-        background:
-          linear-gradient(
-            105deg,
-            rgba(8, 20, 30, 0.86) 18%,
-            rgba(8, 20, 30, 0.45) 75%
-          ),
-          url("https://images.unsplash.com/photo-1632759145351-1d592919f522?w=1400&q=80")
-            center/cover;
-        color: #fff;
-      }
-      .app.is-mobile .site-hero {
-        padding: 44px 26px;
-        min-height: 360px;
-      }
-      .site-hero .eyebrow {
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
-        color: var(--site);
-      }
-      .site-hero h1 {
-        font-size: clamp(28px, 4.4vw, 50px);
-        line-height: 1.04;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        max-width: 15ch;
-      }
-      .site-hero .sub {
-        font-size: clamp(15px, 1.5vw, 18px);
-        line-height: 1.5;
-        max-width: 46ch;
-        color: #e7eef4;
-      }
-      .site-hero .ctas {
-        display: flex;
-        gap: 12px;
-        margin-top: 6px;
-        flex-wrap: wrap;
-      }
-      .site-hero .b1 {
-        background: var(--site);
-        color: #062536;
-        font-weight: 700;
-        padding: 13px 22px;
-        border-radius: 8px;
-        font-size: 14px;
-      }
-      .site-hero .b2 {
-        background: rgba(255, 255, 255, 0.12);
-        color: #fff;
-        font-weight: 700;
-        padding: 13px 22px;
-        border-radius: 8px;
-        font-size: 14px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-      }
-      .site-strip {
-        display: flex;
-        gap: 36px;
-        padding: 22px 46px;
-        background: var(--site-dark);
-        color: #fff;
-        flex-wrap: wrap;
-      }
-      .site-strip .s b {
-        font-size: 24px;
-        font-weight: 800;
-        color: var(--site);
-        font-family: var(--display);
-      }
-      .site-strip .s span {
-        display: block;
-        font-size: 12px;
-        opacity: 0.78;
-        margin-top: 2px;
-      }
-      .site-about {
-        display: grid;
-        grid-template-columns: 1.1fr 1fr;
-        gap: 40px;
-        padding: 54px 46px;
-        align-items: center;
-      }
-      .app.is-mobile .site-about {
-        grid-template-columns: 1fr;
-        padding: 40px 26px;
-      }
-      .site-about h2 {
-        font-size: clamp(24px, 3vw, 34px);
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        line-height: 1.1;
-        margin-bottom: 14px;
-      }
-      .site-about h2 em {
-        color: var(--site);
-        font-style: normal;
-      }
-      .site-about p {
-        font-size: 15px;
-        line-height: 1.65;
-        color: #4a566090;
-        color: #46535f;
-        margin-bottom: 12px;
-      }
-      .site-about .photo {
-        position: relative;
-        height: 280px;
-        border-radius: 14px;
-        background: url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=80")
-          center/cover;
-        box-shadow: 0 20px 40px rgba(8, 20, 30, 0.18);
-      }
-
-      /* ---------- EDIT-LAYER affordances (shown statically) ---------- */
-      [data-edit] {
-        position: relative;
-        cursor: text;
-        border-radius: 4px;
-        transition:
-          box-shadow 0.12s,
-          background 0.12s;
-      }
-      [data-edit]:hover {
-        box-shadow: 0 0 0 1.5px var(--amber);
-        background: rgba(255, 183, 3, 0.07);
-      }
-      /* a tag that floats above a hovered/active text element */
-      .etag {
+      .canvas-load {
         position: absolute;
-        top: -10px;
-        left: -1px;
-        transform: translateY(-100%);
-        font-size: 10px;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: #fff;
-        background: var(--amber);
-        padding: 2px 7px;
-        border-radius: 4px;
-        white-space: nowrap;
-        box-shadow: var(--shadow-sm);
-        pointer-events: none;
-      }
-      .etag.orange {
-        background: var(--orange);
-      }
-      /* states for the demo */
-      [data-state="hover"] {
-        box-shadow: 0 0 0 1.5px var(--amber);
-        background: rgba(255, 183, 3, 0.07);
-      }
-      [data-state="editing"] {
-        box-shadow: 0 0 0 2px var(--orange);
-        background: rgba(251, 133, 0, 0.06);
-        cursor: text;
-      }
-      [data-state="editing"]::after {
-        content: "";
-        display: inline-block;
-        width: 2px;
-        height: 1em;
-        background: var(--orange);
-        margin-left: 1px;
-        vertical-align: -2px;
-        animation: caret 1.05s steps(1) infinite;
-      }
-      @keyframes caret {
-        50% {
-          opacity: 0;
-        }
-      }
-      /* "edited, not yet published" marker */
-      .dot {
-        position: absolute;
-        top: -6px;
-        right: -6px;
-        width: 11px;
-        height: 11px;
-        border-radius: 50%;
-        background: var(--amber);
-        border: 2px solid #fff;
-        box-shadow: var(--shadow-sm);
-      }
-      /* image change overlay */
-      .img-edit {
-        position: relative;
-        cursor: pointer;
-      }
-      .img-edit::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 14px;
-        box-shadow: 0 0 0 2px var(--orange) inset;
-        opacity: 0;
-        transition: opacity 0.15s;
-      }
-      .img-edit:hover::after,
-      .img-edit[data-state="hover"]::after {
-        opacity: 1;
-      }
-      .img-cta {
-        position: absolute;
-        inset: 0;
+        inset: 36px 0 0;
         display: grid;
         place-items: center;
-        opacity: 0;
-        transition: opacity 0.15s;
+        background: #fff;
+        z-index: 2;
       }
-      .img-edit:hover .img-cta,
-      .img-edit[data-state="hover"] .img-cta {
-        opacity: 1;
-      }
-      .img-cta span {
-        display: inline-flex;
-        align-items: center;
-        gap: 7px;
-        background: rgba(29, 26, 22, 0.82);
-        color: #fff;
-        font-size: 13px;
-        font-weight: 700;
-        padding: 9px 15px;
-        border-radius: 8px;
-        backdrop-filter: blur(2px);
-      }
-      .img-cta svg {
-        width: 15px;
-        height: 15px;
+      .canvas-load .spin {
+        width: 30px;
+        height: 30px;
+        border: 3px solid var(--muted-2);
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
       }
 
-      /* unpublished toast */
-      .unpub {
+      /* ---------- toast ---------- */
+      .toast {
         position: fixed;
-        left: calc(var(--rail-w) + 50%);
-        transform: translateX(-50%);
-        bottom: 22px;
+        left: calc(50% + var(--side-w) / 2);
+        transform: translateX(-50%) translateY(8px);
+        bottom: 20px;
+        background: var(--fg);
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 11px 18px;
+        border-radius: var(--r);
+        box-shadow: var(--shadow-lg);
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          opacity 0.2s,
+          transform 0.2s;
+        z-index: 60;
+        max-width: 80vw;
+        text-align: center;
+      }
+      .toast.show {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      /* ---------- login overlay ---------- */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(28, 25, 23, 0.5);
+        backdrop-filter: blur(3px);
         display: flex;
         align-items: center;
-        gap: 12px;
-        background: var(--ink);
-        color: #fff;
-        padding: 11px 13px 11px 16px;
-        border-radius: 12px;
+        justify-content: center;
+        padding: 18px;
+        z-index: 80;
+      }
+      .modal {
+        background: var(--bg);
+        border-radius: var(--r-lg);
+        max-width: 410px;
+        width: 100%;
+        padding: 28px 26px;
         box-shadow: var(--shadow-lg);
+        border-top: 3px solid var(--primary);
+      }
+      .modal .brandline {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 15px;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+      }
+      .modal .brandline b {
+        color: var(--primary);
+      }
+      .modal h2 {
+        font-family: var(--display);
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        margin-bottom: 5px;
+      }
+      .modal .sub {
         font-size: 13px;
-        z-index: 40;
+        color: var(--muted-fg);
+        margin-bottom: 18px;
+        line-height: 1.5;
       }
-      .unpub b {
-        font-weight: 700;
-      }
-      .unpub .mini {
-        background: linear-gradient(135deg, var(--orange), var(--amber));
-        color: #fff;
-        border: none;
-        font-weight: 700;
+      .modal .err {
+        color: #b91c1c;
         font-size: 12.5px;
-        padding: 7px 13px;
-        border-radius: 7px;
+        margin-top: 11px;
+        display: none;
       }
 
+      /* ---------- mobile recommend popup ---------- */
+      .mob-pop {
+        position: fixed;
+        left: 14px;
+        right: 14px;
+        bottom: 14px;
+        background: var(--fg);
+        color: #fff;
+        border-radius: var(--r-lg);
+        padding: 15px 16px;
+        box-shadow: var(--shadow-lg);
+        z-index: 70;
+        display: none;
+      }
+      .mob-pop h4 {
+        font-family: var(--display);
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+      .mob-pop p {
+        font-size: 12.5px;
+        line-height: 1.5;
+        color: #d6d3d1;
+      }
+      .mob-pop button {
+        margin-top: 11px;
+        background: #fff;
+        color: var(--fg);
+        border: none;
+        border-radius: var(--r-sm);
+        font-weight: 700;
+        font-size: 12.5px;
+        padding: 8px 14px;
+      }
+
+      /* ---------- mobile bottom nav ---------- */
+      .mob-nav {
+        display: none;
+      }
+
+      /* ============================================================
+         RESPONSIVE — phone editing (no device toggle; real device)
+         ============================================================ */
       @media (max-width: 860px) {
         :root {
-          --rail-w: 0px;
+          --side-w: 0px;
         }
-        .rail {
-          display: none;
+        .app {
+          grid-template-columns: 1fr;
+          grid-template-rows: var(--topbar-h) 1fr auto;
+          grid-template-areas:
+            "top"
+            "canvas"
+            "mobnav";
+        }
+        .sidebar {
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 84vw;
+          max-width: 320px;
+          z-index: 90;
+          transform: translateX(-102%);
+          transition: transform 0.26s cubic-bezier(0.4, 0, 0.1, 1);
+          box-shadow: var(--shadow-lg);
+        }
+        .app.sheet-open .sidebar {
+          transform: translateX(0);
+        }
+        .scrim {
+          position: fixed;
+          inset: 0;
+          background: rgba(28, 25, 23, 0.45);
+          z-index: 85;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.22s;
+        }
+        .app.sheet-open .scrim {
+          opacity: 1;
+          pointer-events: auto;
+        }
+        .canvas-wrap {
+          padding: 12px 10px 16px;
+        }
+        .frame {
+          border-radius: var(--r);
+        }
+        .toast {
+          left: 50%;
         }
         .pages {
+          max-width: 46vw;
+        }
+        .ghost-link span {
+          display: none;
+        }
+        .mob-nav {
+          grid-area: mobnav;
+          display: flex;
+          background: var(--bg);
+          border-top: 1px solid var(--border);
+          padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
+        }
+        .mob-nav button {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 3px;
+          border: none;
+          background: transparent;
+          padding: 7px 4px;
+          border-radius: var(--r-sm);
+          font-size: 11px;
+          font-weight: 600;
+          color: var(--muted-fg);
+        }
+        .mob-nav button svg {
+          width: 19px;
+          height: 19px;
+        }
+        .mob-nav button.on {
+          color: var(--primary);
+        }
+      }
+      @media (min-width: 861px) {
+        .scrim {
+          display: none;
+        }
+        .mob-menu-btn {
           display: none;
         }
       }
     </style>
   </head>
   <body>
-    <div class="app" id="app">
-      <!-- ============ TOP BAR ============ -->
-      <header class="topbar">
-        <div class="brand">
+    <div class="app" id="app" hidden>
+      <!-- ============ SIDEBAR ============ -->
+      <aside class="sidebar" id="sidebar">
+        <div class="side-brand">
           <span class="word">complete digital<b>.</b></span>
           <span class="tag">Editor</span>
         </div>
-        <div class="divider"></div>
-        <nav class="pages" aria-label="Pages">
-          <button class="on">Home</button>
-          <button>About</button>
-          <button>Services</button>
-          <button>Pricing</button>
-          <button>Blog</button>
-          <button>Contact</button>
-        </nav>
-
-        <div class="top-right">
-          <button class="icon-btn" title="Undo" aria-label="Undo">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"/><path d="M3 13a9 9 0 1 0 3-7.7L3 8"/></svg>
-          </button>
-          <div class="device" id="device">
-            <button class="on" data-dev="desktop" title="Desktop">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-            </button>
-            <button data-dev="mobile" title="Mobile">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
-            </button>
-          </div>
-          <a class="ghost-link" href="#" target="_blank" rel="noopener">
-            View live
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
-          </a>
-          <button class="publish">
-            Publish
-            <span class="count">3</span>
-          </button>
-        </div>
-      </header>
-
-      <!-- ============ LEFT RAIL ============ -->
-      <aside class="rail">
-        <div class="rail-head">
-          <div class="who">
-            <div class="badge">S</div>
-            <div class="meta">
-              <div class="nm">Safe Roof Restoration</div>
-              <div class="st">Editing live site</div>
-            </div>
+        <div class="biz">
+          <div class="badge" id="bizBadge">·</div>
+          <div class="meta">
+            <div class="nm" id="bizName">Your website</div>
+            <div class="st">Editing live site</div>
           </div>
         </div>
 
-        <div class="tools" id="tools">
-          <button class="tool on" data-panel="edit">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
-            Edit
+        <nav class="nav" id="nav">
+          <div class="nav-label">Edit your site</div>
+          <button class="nav-item on" data-pane="edit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+            Content
           </button>
-          <button class="tool" data-panel="colours">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="10.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 2a10 10 0 1 0 0 20 1.5 1.5 0 0 0 1-2.6 1.5 1.5 0 0 1 1-2.6h2A4 4 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>
+          <button class="nav-item" data-pane="colours">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="10.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 2a10 10 0 1 0 0 20 1.5 1.5 0 0 0 1-2.6 1.5 1.5 0 0 1 1-2.6h2A4 4 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>
             Colours
           </button>
-          <button class="tool" data-panel="details">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h6M7 12h10M7 16h7"/></svg>
-            Details
+          <button class="nav-item" data-pane="details">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h7M7 12h10M7 16h6"/></svg>
+            Business details
           </button>
-        </div>
+          <button class="nav-item" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            Analytics <span class="soon">Soon</span>
+          </button>
+          <button class="nav-item" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            Blog posts <span class="soon">Soon</span>
+          </button>
+        </nav>
 
-        <div class="rail-body">
-          <!-- EDIT panel -->
-          <section class="panel on" data-panel="edit">
+        <div class="side-sep"></div>
+
+        <div class="tool-body">
+          <!-- CONTENT pane -->
+          <section class="pane on" data-pane="edit">
             <div class="hint">
-              <div class="ic">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-              </div>
               <h3>Click anything to change it</h3>
               <p>
-                Tap any words or photo on your site, type your change, and hit
+                Tap any words or photo on your site, type your change, then hit
                 <strong>Publish</strong>. It's live in a minute or two.
               </p>
               <div class="legend">
@@ -1068,204 +963,708 @@
                 <div class="lrow"><span class="sw photo"></span> Photos — click to replace</div>
               </div>
             </div>
-            <p class="panel-note">
-              Want a new section, page or a bigger change? That's still a call to
-              Dan on 0432 839 654 — coming to the editor soon.
+            <p class="pane-note" id="editStats">Loading your page…</p>
+            <p class="pane-note">
+              Need a new section, page, or a bigger change? Call or text Dan on
+              0432 839 654.
             </p>
           </section>
 
-          <!-- COLOURS panel -->
-          <section class="panel" data-panel="colours">
-            <h2 class="panel-title">Site colours</h2>
-            <p class="panel-sub">Re-theme every page in one go. Preview updates as you pick.</p>
+          <!-- COLOURS pane -->
+          <section class="pane" data-pane="colours">
+            <h2 class="pane-title">Site colours</h2>
+            <p class="pane-sub">Re-theme every page at once. The preview updates live as you pick.</p>
             <div class="swatches">
-              <button class="swatch">
-                <span class="chip" style="background:#00aaff"></span>
+              <label class="swatch">
+                <span class="chip" id="chipMain" style="background:#cccccc"></span>
                 <span class="nm">Main colour</span>
-                <span class="hex">#00AAFF</span>
-              </button>
-              <button class="swatch">
-                <span class="chip" style="background:#122230"></span>
+                <span class="hex" id="hexMain">—</span>
+                <input type="color" id="colMain" value="#00aaff" />
+              </label>
+              <label class="swatch">
+                <span class="chip" id="chipDark" style="background:#1a1a1a"></span>
                 <span class="nm">Dark colour</span>
-                <span class="hex">#122230</span>
-              </button>
+                <span class="hex" id="hexDark">—</span>
+                <input type="color" id="colDark" value="#1a1a1a" />
+              </label>
             </div>
-            <button class="apply">Apply to whole site</button>
-            <p class="panel-note">
-              Main colour drives buttons &amp; highlights. Dark colour is the menu
-              bar and footer.
+            <button class="btn btn-primary btn-block" id="applyColours" style="margin-top:14px">
+              Apply to whole site
+            </button>
+            <p class="pane-note">
+              Main colour drives buttons &amp; highlights. Dark colour is the menu bar and footer.
             </p>
           </section>
 
-          <!-- DETAILS panel -->
-          <section class="panel" data-panel="details">
-            <h2 class="panel-title">Business details</h2>
-            <p class="panel-sub">
-              Change these once and they update <em>everywhere</em> on your site —
-              every page, the small print, and what Google reads.
+          <!-- DETAILS pane -->
+          <section class="pane" data-pane="details">
+            <h2 class="pane-title">Business details</h2>
+            <p class="pane-sub">
+              Change these once and they update <em>everywhere</em> on your site — every page, the
+              small print, and what Google reads.
             </p>
-            <div class="field">
-              <label>Business name</label>
-              <input type="text" value="Safe Roof Restoration" />
-            </div>
-            <div class="field">
-              <label>Phone</label>
-              <input type="tel" value="0400 693 889" />
-            </div>
-            <div class="field">
-              <label>Email</label>
-              <input type="email" value="hello@saferoofrepairs.au" />
-            </div>
-            <div class="field">
-              <label>Address</label>
-              <input type="text" value="15 Haresta Ave, Dandenong" />
-            </div>
-            <div class="field">
-              <label>Suburb</label>
-              <input type="text" value="Dandenong" />
-            </div>
-            <button class="apply">Update everywhere</button>
+            <div class="field"><label>Business name</label><input type="text" id="detName" maxlength="80" /></div>
+            <div class="field"><label>Phone</label><input type="tel" id="detPhone" maxlength="30" /></div>
+            <div class="field"><label>Email</label><input type="email" id="detEmail" maxlength="80" /></div>
+            <div class="field"><label>Street address</label><input type="text" id="detAddress" maxlength="140" /></div>
+            <div class="field"><label>Suburb</label><input type="text" id="detSuburb" maxlength="40" /></div>
+            <button class="btn btn-primary btn-block" id="applyDetails" style="margin-top:15px">
+              Update everywhere
+            </button>
+            <p class="pane-note" id="detailsNote"></p>
           </section>
         </div>
       </aside>
 
-      <!-- ============ CANVAS (the customer's real site) ============ -->
-      <main class="canvas">
+      <!-- ============ TOP BAR ============ -->
+      <header class="topbar">
+        <button class="icon-btn mob-menu-btn" id="mobMenu" aria-label="Menu" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <nav class="pages" id="pages" aria-label="Pages"></nav>
+        <div class="top-right">
+          <button class="icon-btn" id="undoBtn" title="Undo" aria-label="Undo" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"/><path d="M3 13a9 9 0 1 0 3-7.7L3 8"/></svg>
+          </button>
+          <a class="ghost-link" id="viewLive" href="#" target="_blank" rel="noopener">
+            <span>View live</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+          <button class="btn btn-primary publish" id="publishBtn" disabled>
+            <span id="publishLabel">Publish</span>
+            <span class="pc" id="publishCount" hidden>0</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- ============ CANVAS ============ -->
+      <main class="canvas-wrap">
         <div class="frame">
           <div class="framebar">
             <div class="dots"><span></span><span></span><span></span></div>
-            <div class="url">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg>
-              saferoofrepairs.au
-            </div>
+            <div class="url" id="frameUrl">your-site.com</div>
             <span class="edit-flag">EDIT MODE</span>
           </div>
-
-          <div class="site">
-            <!-- nav -->
-            <nav class="site-nav">
-              <div class="logo">Safe Roof <i>Restoration</i></div>
-              <div class="links"><span>Home</span><span>About</span><span>Services</span><span>Pricing</span><span>Contact</span></div>
-              <div class="nav-cta">Get a Quote</div>
-            </nav>
-
-            <!-- hero: shows hover + active editing states -->
-            <header class="site-hero">
-              <span class="eyebrow" data-edit>Dandenong's Trusted Roofers</span>
-              <h1 data-edit>
-                Roof Restoration Done Right, The First Time
-              </h1>
-              <p class="sub" data-edit data-state="editing">
-                20+ years protecting Dandenong homes — repairs, restorations and
-                painting, fully licensed and insured.
-                <span class="etag orange">Editing</span>
-              </p>
-              <div class="ctas">
-                <span class="b1" data-edit>Get a Free Quote</span>
-                <span class="b2" data-edit>Call 0400 693 889</span>
-              </div>
-            </header>
-
-            <!-- stat strip: one element marked "edited, unpublished" -->
-            <div class="site-strip">
-              <div class="s" data-edit style="position:relative">
-                <b>20+</b><span>Years experience</span>
-                <span class="dot" title="Edited — not yet published"></span>
-              </div>
-              <div class="s" data-edit><b>500+</b><span>Roofs restored</span></div>
-              <div class="s" data-edit><b>5★</b><span>Google rated</span></div>
-            </div>
-
-            <!-- about: shows image replace affordance -->
-            <section class="site-about">
-              <div>
-                <h2 data-edit data-state="hover" style="position:relative">
-                  Local roofers who <em>actually turn up</em>
-                  <span class="etag">Heading</span>
-                </h2>
-                <p data-edit>
-                  Safe Roof Restoration has served Dandenong and the south-east for
-                  over two decades. From a cracked tile to a full re-roof, we treat
-                  every job like it's our own home.
-                </p>
-                <p data-edit>
-                  Fully licensed, fully insured, and never a deposit until you're
-                  happy with the plan.
-                </p>
-              </div>
-              <div class="photo img-edit" data-state="hover">
-                <div class="img-cta">
-                  <span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15l-5-5L5 21"/><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/></svg>
-                    Change photo
-                  </span>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-
-        <div class="unpub">
-          <span><b>3 changes</b> ready to go live</span>
-          <button class="mini">Publish now</button>
+          <div class="canvas-load" id="canvasLoad"><div class="spin"></div></div>
+          <iframe id="siteFrame" title="Your website"></iframe>
         </div>
       </main>
+
+      <!-- ============ MOBILE BOTTOM NAV ============ -->
+      <nav class="mob-nav" id="mobNav">
+        <button class="on" data-mob="edit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          Content
+        </button>
+        <button data-mob="colours">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 2a10 10 0 1 0 0 20 1.5 1.5 0 0 0 1-2.6 1.5 1.5 0 0 1 1-2.6h2A4 4 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>
+          Colours
+        </button>
+        <button data-mob="details">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h7M7 12h10M7 16h6"/></svg>
+          Details
+        </button>
+        <button data-mob="publish">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
+          Publish
+        </button>
+      </nav>
+
+      <div class="scrim" id="scrim"></div>
     </div>
 
+    <!-- mobile recommend popup -->
+    <div class="mob-pop" id="mobPop">
+      <h4>Best on a computer 💻</h4>
+      <p>You can edit on your phone, but it's much easier on a laptop or desktop — more room to see your whole site.</p>
+      <button id="mobPopOk">Got it, continue</button>
+    </div>
+
+    <!-- login -->
+    <div class="overlay" id="loginOverlay" hidden>
+      <div class="modal">
+        <div class="brandline">complete digital<b>.</b></div>
+        <h2>Log in to edit your site</h2>
+        <p class="sub">Use the phone number and password we set up with you.</p>
+        <div class="field"><label>Phone number</label><input type="tel" id="loginNumber" autocomplete="username" placeholder="04xx xxx xxx" /></div>
+        <div class="field"><label>Password</label><input type="password" id="loginPassword" autocomplete="current-password" /></div>
+        <p class="err" id="loginErr"></p>
+        <button class="btn btn-primary btn-block" id="loginGo" style="margin-top:16px">Log in</button>
+      </div>
+    </div>
+
+    <input type="file" id="imgFile" accept="image/png,image/jpeg,image/webp" hidden />
+    <div class="toast" id="toast"></div>
+
     <script>
-      /* Mockup interactivity only: tab + device switching, and a live
-         demo of click-to-edit on the canvas. The real editor swaps the
-         inlined .site for a srcdoc iframe of the customer's HTML. */
       (function () {
-        var app = document.getElementById("app");
+        "use strict";
+        var AUTH = "https://n8n-production-d02c.up.railway.app/webhook/builder-auth";
+        var PAGES = [
+          { v: "index.html", label: "Home", path: "/" },
+          { v: "about/index.html", label: "About", path: "/about/" },
+          { v: "services/index.html", label: "Services", path: "/services/" },
+          { v: "pricing/index.html", label: "Pricing", path: "/pricing/" },
+          { v: "blog/index.html", label: "Blog", path: "/blog/" },
+          { v: "contact/index.html", label: "Contact", path: "/contact/" },
+        ];
+        var $ = function (id) { return document.getElementById(id); };
+        var qs = new URLSearchParams(location.search);
 
-        // left-rail tool tabs
-        document.getElementById("tools").addEventListener("click", function (e) {
-          var b = e.target.closest(".tool");
-          if (!b) return;
-          var name = b.dataset.panel;
-          document.querySelectorAll(".tool").forEach(function (t) {
-            t.classList.toggle("on", t === b);
-          });
-          document.querySelectorAll(".panel").forEach(function (p) {
-            p.classList.toggle("on", p.dataset.panel === name);
-          });
+        var state = {
+          token: localStorage.getItem("cd-builder-token") || "",
+          site: "",
+          number: "",
+          homepage: "",
+          page: "index.html",
+          blocks: [],        // text blocks for current page (from backend)
+          images: [],        // {path,url}
+          ops: { text: {}, img: {}, colour: null, details: null },
+          undo: [],
+          details: null,
+          loadedTexts: {},   // page -> blocks cache
+        };
+
+        /* -------------------- helpers -------------------- */
+        var toastT = null;
+        function toast(msg) {
+          var t = $("toast");
+          t.textContent = msg;
+          t.classList.add("show");
+          clearTimeout(toastT);
+          toastT = setTimeout(function () { t.classList.remove("show"); }, 4600);
+        }
+        function api(body) {
+          body.token = state.token;
+          return fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body),
+          }).then(function (r) { return r.json(); });
+        }
+        function norm(s) { return (s || "").replace(/\s+/g, " ").trim(); }
+        function root(url) { return (url || "").replace(/\/+$/, "") + "/"; }
+        function pageUrl(pg) {
+          var p = PAGES.filter(function (x) { return x.v === pg; })[0];
+          return root(state.homepage).replace(/\/$/, "") + (p ? p.path : "/");
+        }
+
+        /* -------------------- ops / publish count -------------------- */
+        function opCount() {
+          var n = Object.keys(state.ops.text).length + Object.keys(state.ops.img).length;
+          if (state.ops.colour) n++;
+          if (state.ops.details) n++;
+          return n;
+        }
+        function refreshPublish() {
+          var n = opCount();
+          var c = $("publishCount");
+          c.hidden = n === 0;
+          c.textContent = n;
+          $("publishBtn").disabled = n === 0;
+          $("undoBtn").disabled = state.undo.length === 0;
+          var mp = document.querySelector('.mob-nav [data-mob="publish"]');
+          if (mp) mp.classList.toggle("on", n > 0);
+        }
+
+        /* -------------------- auth -------------------- */
+        function showLogin(msg) {
+          $("app").hidden = true;
+          $("loginOverlay").hidden = false;
+          if (msg) { var e = $("loginErr"); e.textContent = msg; e.style.display = "block"; }
+        }
+        function bootEditor() {
+          $("loginOverlay").hidden = true;
+          $("app").hidden = false;
+          renderPageTabs();
+          loadInfo();
+          loadPage("index.html");
+          maybeMobilePopup();
+        }
+        $("loginGo").onclick = function () {
+          var btn = this; btn.disabled = true; $("loginErr").style.display = "none";
+          fetch(AUTH, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              action: "login",
+              number: $("loginNumber").value.trim().replace(/ /g, ""),
+              password: $("loginPassword").value,
+            }),
+          })
+            .then(function (r) { return r.json(); })
+            .then(function (d) {
+              if (!d.ok) throw new Error(d.error || "Login failed.");
+              state.token = d.token; state.site = d.site || ""; state.number = d.number || "";
+              localStorage.setItem("cd-builder-token", d.token);
+              bootEditor();
+            })
+            .catch(function (e) { showLogin(e.message); })
+            .finally(function () { btn.disabled = false; });
+        };
+        $("loginPassword").addEventListener("keydown", function (e) {
+          if (e.key === "Enter") $("loginGo").click();
         });
 
-        // device toggle
-        document.getElementById("device").addEventListener("click", function (e) {
-          var b = e.target.closest("button");
-          if (!b) return;
-          document.querySelectorAll("#device button").forEach(function (t) {
-            t.classList.toggle("on", t === b);
-          });
-          app.classList.toggle("is-mobile", b.dataset.dev === "mobile");
-        });
+        /* -------------------- site info -------------------- */
+        function loadInfo() {
+          api({ action: "site-info" }).then(function (d) {
+            if (!d.ok) return;
+            state.homepage = d.homepage || "";
+            var nm = (d.details && d.details.name) || state.site || "Your website";
+            $("bizName").textContent = nm;
+            $("bizBadge").textContent = (nm[0] || "·").toUpperCase();
+            if (state.homepage) { $("viewLive").href = state.homepage; }
+            if (d.details) {
+              state.details = d.details;
+              $("detName").value = d.details.name || "";
+              $("detPhone").value = d.details.phone || "";
+              $("detEmail").value = d.details.email || "";
+              $("detAddress").value = d.details.address || "";
+              $("detSuburb").value = d.details.suburb || "";
+            } else {
+              $("detailsNote").textContent = "Business details aren't editable on this site yet.";
+              ["detName","detPhone","detEmail","detAddress","detSuburb"].forEach(function(i){ $(i).disabled = true; });
+              $("applyDetails").disabled = true;
+            }
+          }).catch(function () {});
+        }
 
-        // page switcher (visual only in the mockup)
-        document.querySelector(".pages").addEventListener("click", function (e) {
-          var b = e.target.closest("button");
-          if (!b) return;
-          document.querySelectorAll(".pages button").forEach(function (t) {
-            t.classList.toggle("on", t === b);
+        /* -------------------- page tabs -------------------- */
+        function renderPageTabs() {
+          var box = $("pages"); box.innerHTML = "";
+          PAGES.forEach(function (p) {
+            var b = document.createElement("button");
+            b.textContent = p.label;
+            b.className = p.v === state.page ? "on" : "";
+            b.onclick = function () { loadPage(p.v); };
+            box.appendChild(b);
           });
-        });
+        }
+        function setActiveTab() {
+          Array.prototype.forEach.call($("pages").children, function (b, i) {
+            b.classList.toggle("on", PAGES[i].v === state.page);
+          });
+        }
 
-        // demo click-to-edit: make any data-edit element editable on click
-        document.querySelectorAll("[data-edit]").forEach(function (el) {
-          el.addEventListener("click", function () {
-            document.querySelectorAll('[data-state="editing"]').forEach(function (x) {
-              if (x !== el) x.removeAttribute("data-state");
+        /* -------------------- render a page into the iframe -------------------- */
+        var EDIT_CSS =
+          "html .reveal,html .reveal-l,html .reveal-r{opacity:1!important;transform:none!important;transition:none!important}" +
+          ".cd-loader,#cd-fyi,#cd-cb-popup{display:none!important}" +
+          "[data-cd-edit]{cursor:text;border-radius:3px;transition:box-shadow .1s,background .1s;outline:none}" +
+          "[data-cd-edit]:hover{box-shadow:0 0 0 1.5px #ffb703;background:rgba(255,183,3,.08)}" +
+          "[data-cd-edit].cd-active{box-shadow:0 0 0 2px #fb8500!important;background:rgba(251,133,0,.06)!important}" +
+          "[data-cd-edit].cd-changed{box-shadow:0 0 0 1.5px rgba(251,133,0,.5)}" +
+          "[data-cd-img]{cursor:pointer;position:relative;outline:2px solid transparent;outline-offset:-2px;transition:outline-color .12s}" +
+          "[data-cd-img]:hover{outline-color:#fb8500}" +
+          ".cd-img-tag{position:absolute;top:8px;left:8px;z-index:5;background:rgba(28,25,23,.82);color:#fff;font:600 12px Hanken Grotesk,sans-serif;padding:6px 11px;border-radius:7px;pointer-events:none;display:none}" +
+          "[data-cd-img]:hover .cd-img-tag{display:block}";
+
+        function transformHtml(html, baseHref) {
+          // strip scripts (keep canvas static + predictable)
+          html = html.replace(/<script[\s\S]*?<\/script>/gi, "");
+          // drop existing base, inject ours + edit css
+          html = html.replace(/<base[^>]*>/gi, "");
+          var head = "<base href=\"" + baseHref + "\"><style id=\"cd-edit-css\">" + EDIT_CSS + "</style>";
+          if (/<head[^>]*>/i.test(html)) html = html.replace(/<head[^>]*>/i, function (m) { return m + head; });
+          else html = head + html;
+          return html;
+        }
+
+        function loadPage(pg) {
+          state.page = pg;
+          setActiveTab();
+          $("canvasLoad").style.display = "grid";
+          var url = pageUrl(pg);
+          $("frameUrl").textContent = url.replace(/^https?:\/\//, "");
+          var fetchUrl = window.__DEV
+            ? "/editor/_sample.html"
+            : "/api/editor-page?url=" + encodeURIComponent(url + (url.indexOf("?") < 0 ? "?capture=1" : "&capture=1"));
+
+          fetch(fetchUrl)
+            .then(function (r) { if (!r.ok) throw new Error("Could not load this page (" + r.status + ")."); return r.text(); })
+            .then(function (html) {
+              var frame = $("siteFrame");
+              frame.onload = function () { onFrameReady(pg); };
+              frame.srcdoc = transformHtml(html, root(state.homepage));
+            })
+            .catch(function (e) { $("canvasLoad").style.display = "none"; toast(e.message); });
+        }
+
+        function onFrameReady(pg) {
+          $("canvasLoad").style.display = "none";
+          var doc = $("siteFrame").contentDocument;
+          if (!doc) return;
+          readColoursFrom(doc);
+          // block in-canvas navigation; route clicks to editing
+          doc.addEventListener("click", function (e) {
+            var a = e.target.closest && e.target.closest("a,button");
+            if (a) { e.preventDefault(); }
+          }, true);
+          attachTextLayer(doc, pg);
+          attachImageLayer(doc);
+        }
+
+        /* -------------------- text editing -------------------- */
+        var TEXT_TAGS = ["h1","h2","h3","h4","h5","h6","p","a","button","span","li"];
+        function attachTextLayer(doc, pg) {
+          // get authoritative blocks (find/occurrence) then match to DOM
+          var done = function (blocks) {
+            state.blocks = blocks || [];
+            matchAndBind(doc, blocks || []);
+            var n = doc.querySelectorAll("[data-cd-edit]").length;
+            $("editStats").textContent = n + " editable text spot" + (n === 1 ? "" : "s") + " on this page.";
+            // re-apply any pending edits made earlier this session
+            reapplyTextOps(doc, pg);
+          };
+          if (state.loadedTexts[pg]) { done(state.loadedTexts[pg]); return; }
+          if (window.__DEV) { var bb = blocksFromDom(doc); state.loadedTexts[pg] = bb; done(bb); return; }
+          api({ action: "texts", page: pg })
+            .then(function (d) {
+              var blocks = (d && d.ok && d.blocks) ? d.blocks : null;
+              if (!blocks) blocks = blocksFromDom(doc); // fallback
+              state.loadedTexts[pg] = blocks;
+              done(blocks);
+            })
+            .catch(function () { var b = blocksFromDom(doc); state.loadedTexts[pg] = b; done(b); });
+        }
+
+        function blocksFromDom(doc) {
+          var out = [];
+          doc.querySelectorAll(TEXT_TAGS.join(",")).forEach(function (el) {
+            if (el.querySelector(TEXT_TAGS.join(","))) return; // leaf text only
+            var t = norm(el.textContent);
+            if (t && t.length <= 400) out.push({ tag: el.tagName.toLowerCase(), text: t, find: t, occurrence: 0 });
+          });
+          return out;
+        }
+
+        function matchAndBind(doc, blocks) {
+          var claimed = new WeakSet();
+          blocks.forEach(function (b, i) {
+            var sel = (b.tag || "").toLowerCase();
+            if (TEXT_TAGS.indexOf(sel) < 0) return;
+            var els = doc.getElementsByTagName(sel);
+            for (var j = 0; j < els.length; j++) {
+              var el = els[j];
+              if (claimed.has(el)) continue;
+              if (el.querySelector(TEXT_TAGS.join(","))) continue;
+              if (norm(el.textContent) === norm(b.text)) {
+                claimed.add(el);
+                bindText(el, i, b);
+                break;
+              }
+            }
+          });
+        }
+
+        function bindText(el, idx, block) {
+          el.setAttribute("data-cd-edit", idx);
+          el.dataset.cdOrig = norm(block.text);
+          el.addEventListener("click", function (e) {
+            e.stopPropagation();
+            startEditing(el);
+          });
+          el.addEventListener("blur", function () { commitText(el, idx, block); });
+          el.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" && el.tagName !== "P" && el.tagName !== "LI") { e.preventDefault(); el.blur(); }
+            if (e.key === "Escape") { el.textContent = el.dataset.cdOrig; el.blur(); }
+          });
+        }
+        function startEditing(el) {
+          var doc = el.ownerDocument;
+          doc.querySelectorAll(".cd-active").forEach(function (x) { if (x !== el) x.classList.remove("cd-active"); });
+          el.classList.add("cd-active");
+          el.contentEditable = "true";
+          el.focus();
+          // place caret at end
+          try {
+            var r = doc.createRange(); r.selectNodeContents(el); r.collapse(false);
+            var s = doc.defaultView.getSelection(); s.removeAllRanges(); s.addRange(r);
+          } catch (e) {}
+        }
+        function commitText(el, idx, block) {
+          el.classList.remove("cd-active");
+          el.contentEditable = "false";
+          var val = norm(el.textContent);
+          var key = state.page + "::" + idx;
+          var prev = state.ops.text[key] ? state.ops.text[key].text : el.dataset.cdOrig;
+          if (val === el.dataset.cdOrig) {
+            if (state.ops.text[key]) { delete state.ops.text[key]; el.classList.remove("cd-changed"); pushUndo({ type: "text", el: el, idx: idx, prevText: prev, removed: true }); }
+            refreshPublish(); return;
+          }
+          if (val === prev) return; // no change
+          pushUndo({ type: "text", el: el, idx: idx, prevText: prev, prevOp: state.ops.text[key] || null });
+          state.ops.text[key] = {
+            page: state.page,
+            find: block.find != null ? block.find : el.dataset.cdOrig,
+            occurrence: block.occurrence || 0,
+            text: val,
+          };
+          el.classList.add("cd-changed");
+          refreshPublish();
+        }
+        function reapplyTextOps(doc, pg) {
+          Object.keys(state.ops.text).forEach(function (key) {
+            if (key.indexOf(pg + "::") !== 0) return;
+            var idx = key.split("::")[1];
+            var el = doc.querySelector('[data-cd-edit="' + idx + '"]');
+            if (el) { el.textContent = state.ops.text[key].text; el.classList.add("cd-changed"); }
+          });
+        }
+
+        /* -------------------- image editing -------------------- */
+        var imgTarget = null;
+        function attachImageLayer(doc) {
+          var bind = function () {
+            doc.querySelectorAll("img").forEach(function (img) {
+              if (img.hasAttribute("data-cd-img")) return;
+              var src = img.getAttribute("src") || "";
+              if (!src || src.indexOf("data:") === 0) return;
+              var match = matchImagePath(src);
+              if (!match) return;
+              img.setAttribute("data-cd-img", match);
+              var wrap = img.parentNode;
+              var tag = doc.createElement("span");
+              tag.className = "cd-img-tag"; tag.textContent = "Change photo";
+              if (wrap && getComputedStyle(wrap).position === "static") { /* leave */ }
+              img.addEventListener("click", function (e) { e.stopPropagation(); imgTarget = { img: img, path: match }; $("imgFile").click(); });
+              // overlay tag positioned over the image via wrapping span
+              try {
+                var holder = doc.createElement("span");
+                holder.style.cssText = "position:relative;display:inline-block;";
+                img.parentNode.insertBefore(holder, img); holder.appendChild(img); holder.appendChild(tag);
+              } catch (e) {}
             });
-            el.setAttribute("data-state", "editing");
-            el.setAttribute("contenteditable", "true");
-            el.focus();
+          };
+          if (state.images.length) { bind(); return; }
+          if (window.__DEV) { state.images = []; bind(); return; }
+          api({ action: "images" }).then(function (d) {
+            state.images = (d && d.ok && d.images) ? d.images : [];
+            bind();
+          }).catch(function () { bind(); });
+        }
+        function matchImagePath(src) {
+          // src like https://site/assets/images/hvac/x.jpg ; backend path like assets/images/hvac/x.jpg
+          var clean = src.replace(/^https?:\/\/[^/]+/, "").replace(/^\//, "").split("?")[0];
+          var hit = state.images.filter(function (im) {
+            var p = (im.path || "").replace(/^\//, "");
+            return p === clean || p.split("/").pop() === clean.split("/").pop();
+          })[0];
+          if (hit) return hit.path;
+          // fallback: allow any /assets/images/ path even if not in list (still swappable by path)
+          if (/assets\/images\//.test(clean)) return clean;
+          return null;
+        }
+        $("imgFile").onchange = function () {
+          var f = this.files[0]; this.value = "";
+          if (!f || !imgTarget) return;
+          var t = imgTarget; imgTarget = null;
+          downscale(f, function (b64, dataUrl) {
+            var prevSrc = t.img.getAttribute("src");
+            pushUndo({ type: "img", img: t.img, path: t.path, prevSrc: prevSrc, prevOp: state.ops.img[t.path] || null });
+            t.img.src = dataUrl;
+            state.ops.img[t.path] = { path: t.path, b64: b64 };
+            refreshPublish();
+            toast("Photo staged — hit Publish to make it live.");
           });
-          el.addEventListener("blur", function () {
-            el.removeAttribute("data-state");
-            el.removeAttribute("contenteditable");
-          });
+        };
+        function downscale(file, cb) {
+          var r = new FileReader();
+          r.onload = function () {
+            var img = new Image();
+            img.onload = function () {
+              var max = 1600, w = img.width, h = img.height;
+              if (w <= max && h <= max && file.size < 900 * 1024) {
+                cb(r.result.split(",")[1], r.result); return;
+              }
+              var sc = Math.min(1, max / Math.max(w, h));
+              var c = document.createElement("canvas");
+              c.width = Math.round(w * sc); c.height = Math.round(h * sc);
+              c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+              var out = c.toDataURL("image/jpeg", 0.85);
+              cb(out.split(",")[1], out);
+            };
+            img.src = r.result;
+          };
+          r.readAsDataURL(file);
+        }
+
+        /* -------------------- colours -------------------- */
+        function readColoursFrom(doc) {
+          var st = doc.documentElement.style;
+          var p = st.getPropertyValue("--color-primary").trim() || "#00aaff";
+          var s = st.getPropertyValue("--color-secondary").trim() || "#1a1a1a";
+          if (!state.ops.colour) {
+            setSwatch("Main", p); setSwatch("Dark", s);
+            $("colMain").value = toHex(p); $("colDark").value = toHex(s);
+          } else {
+            applyColourPreview(); // keep staged colour
+          }
+        }
+        function toHex(c) {
+          c = (c || "").trim();
+          if (c[0] === "#") return c.length === 4 ? "#" + c[1]+c[1]+c[2]+c[2]+c[3]+c[3] : c;
+          var m = c.match(/\d+/g);
+          if (m && m.length >= 3) return "#" + m.slice(0,3).map(function (n) { return ("0"+(+n).toString(16)).slice(-2); }).join("");
+          return "#00aaff";
+        }
+        function setSwatch(which, val) {
+          $("chip" + which).style.background = val;
+          $("hex" + which).textContent = toHex(val);
+        }
+        function hexToRgb(h) { var m = h.replace("#","").match(/.{2}/g); return m ? m.map(function (x){return parseInt(x,16);}).join(", ") : "0,0,0"; }
+        function darken(h, f) {
+          var m = h.replace("#","").match(/.{2}/g); if (!m) return h;
+          return "#" + m.map(function (x){ return ("0"+Math.round(parseInt(x,16)*(1-f)).toString(16)).slice(-2); }).join("");
+        }
+        function applyColourPreview() {
+          var doc = $("siteFrame").contentDocument; if (!doc) return;
+          var p = $("colMain").value, s = $("colDark").value;
+          var st = doc.documentElement.style;
+          st.setProperty("--color-primary", p);
+          st.setProperty("--color-primary-rgb", hexToRgb(p));
+          st.setProperty("--color-primary-hover", darken(p, 0.12));
+          st.setProperty("--color-secondary", s);
+        }
+        $("colMain").oninput = function () { setSwatch("Main", this.value); stageColour(); };
+        $("colDark").oninput = function () { setSwatch("Dark", this.value); stageColour(); };
+        function stageColour() {
+          state.ops.colour = { primary: $("colMain").value, secondary: $("colDark").value };
+          applyColourPreview(); refreshPublish();
+        }
+        $("applyColours").onclick = function () { showPane("edit"); toast("Colours staged — hit Publish to apply across your site."); };
+
+        /* -------------------- details (global) -------------------- */
+        ["detName","detPhone","detEmail","detAddress","detSuburb"].forEach(function (id) {
+          var el = $(id); if (!el) return;
+          el.addEventListener("input", stageDetails);
         });
+        function stageDetails() {
+          state.ops.details = {
+            name: $("detName").value, phone: $("detPhone").value, email: $("detEmail").value,
+            address: $("detAddress").value, suburb: $("detSuburb").value,
+          };
+          refreshPublish();
+        }
+        $("applyDetails").onclick = function () { stageDetails(); showPane("edit"); toast("Details staged — hit Publish to update them everywhere."); };
+
+        /* -------------------- undo -------------------- */
+        function pushUndo(entry) { state.undo.push(entry); }
+        $("undoBtn").onclick = function () {
+          var e = state.undo.pop(); if (!e) return;
+          if (e.type === "text") {
+            var key = state.page + "::" + e.idx;
+            if (e.removed) { /* nothing to restore beyond DOM */ }
+            if (e.prevOp) state.ops.text[key] = e.prevOp; else delete state.ops.text[key];
+            if (e.el) {
+              e.el.textContent = e.prevText;
+              e.el.classList.toggle("cd-changed", !!state.ops.text[key]);
+            }
+          } else if (e.type === "img") {
+            if (e.prevOp) state.ops.img[e.path] = e.prevOp; else delete state.ops.img[e.path];
+            if (e.img) e.img.src = e.prevSrc;
+          }
+          refreshPublish();
+        };
+
+        /* -------------------- publish -------------------- */
+        $("publishBtn").onclick = doPublish;
+        function doPublish() {
+          var n = opCount(); if (!n) return;
+          if (window.__DEV) { toast("Dev preview — publishing is disabled."); return; }
+          var btn = $("publishBtn"); btn.disabled = true;
+          $("publishLabel").innerHTML = '<span class="saving-dot"></span>';
+          $("publishCount").hidden = true;
+
+          var jobs = [];
+          // group text ops by page
+          var byPage = {};
+          Object.keys(state.ops.text).forEach(function (k) {
+            var o = state.ops.text[k];
+            (byPage[o.page] = byPage[o.page] || []).push({ find: o.find, occurrence: o.occurrence, text: o.text });
+          });
+          Object.keys(byPage).forEach(function (pg) {
+            jobs.push(api({ action: "save-texts", page: pg, edits: byPage[pg] }));
+          });
+          Object.keys(state.ops.img).forEach(function (path) {
+            jobs.push(api({ action: "swap", path: path, b64: state.ops.img[path].b64 }));
+          });
+          if (state.ops.colour) jobs.push(api({ action: "colours", primary: state.ops.colour.primary, secondary: state.ops.colour.secondary }));
+          if (state.ops.details) {
+            var d = state.ops.details;
+            jobs.push(api({ action: "save-details", name: d.name, phone: d.phone, email: d.email, address: d.address, suburb: d.suburb }));
+          }
+
+          Promise.all(jobs.map(function (p) { return p.catch(function (e) { return { ok: false, error: String(e) }; }); }))
+            .then(function (results) {
+              var bad = results.filter(function (r) { return !r || r.ok === false; });
+              state.ops = { text: {}, img: {}, colour: null, details: null };
+              state.undo = [];
+              state.loadedTexts = {};
+              refreshPublish();
+              $("publishLabel").textContent = "Publish";
+              if (bad.length) toast("Published with " + bad.length + " issue(s) — some changes may need a retry.");
+              else toast("Published! Your site updates in a minute or two.");
+              loadPage(state.page);
+            });
+        }
+
+        /* -------------------- panes / nav -------------------- */
+        function showPane(name) {
+          document.querySelectorAll(".nav-item[data-pane]").forEach(function (b) { b.classList.toggle("on", b.dataset.pane === name); });
+          document.querySelectorAll(".pane").forEach(function (p) { p.classList.toggle("on", p.dataset.pane === name); });
+          document.querySelectorAll(".mob-nav [data-mob]").forEach(function (b) { b.classList.toggle("on", b.dataset.mob === name); });
+        }
+        $("nav").addEventListener("click", function (e) {
+          var b = e.target.closest(".nav-item[data-pane]"); if (!b) return; showPane(b.dataset.pane);
+        });
+
+        /* -------------------- mobile -------------------- */
+        function isMobile() { return window.matchMedia("(max-width: 860px)").matches; }
+        $("mobNav").addEventListener("click", function (e) {
+          var b = e.target.closest("[data-mob]"); if (!b) return;
+          var m = b.dataset.mob;
+          if (m === "publish") { closeSheet(); doPublish(); return; }
+          showPane(m);
+          $("app").classList.add("sheet-open");
+        });
+        function closeSheet() { $("app").classList.remove("sheet-open"); }
+        $("scrim").onclick = closeSheet;
+        $("mobMenu") && ($("mobMenu").onclick = function () { $("app").classList.toggle("sheet-open"); });
+        function maybeMobilePopup() {
+          if (isMobile() && !sessionStorage.getItem("cd-mob-ok")) { $("mobPop").style.display = "block"; }
+          $("mobMenu").hidden = !isMobile();
+        }
+        $("mobPopOk").onclick = function () { $("mobPop").style.display = "none"; sessionStorage.setItem("cd-mob-ok", "1"); };
+        window.addEventListener("resize", function () { $("mobMenu").hidden = !isMobile(); });
+
+        /* -------------------- boot -------------------- */
+        if (qs.get("dev")) {
+          window.__DEV = true;
+          state.homepage = qs.get("home") || "https://saferoofrepairs.au";
+          $("loginOverlay").hidden = true;
+          $("app").hidden = false;
+          renderPageTabs();
+          $("bizName").textContent = "Safe Roof Restoration";
+          $("bizBadge").textContent = "S";
+          $("viewLive").href = state.homepage;
+          loadPage("index.html");
+          maybeMobilePopup();
+          refreshPublish();
+          return;
+        }
+        if (state.token) {
+          api({ action: "session" })
+            .then(function (d) {
+              if (d.ok) { state.site = d.site || ""; state.number = d.number || ""; bootEditor(); }
+              else { localStorage.removeItem("cd-builder-token"); state.token = ""; showLogin(); }
+            })
+            .catch(function () { showLogin("Could not reach the server — please try again."); });
+        } else {
+          showLogin();
+        }
+        refreshPublish();
       })();
     </script>
   </body>
