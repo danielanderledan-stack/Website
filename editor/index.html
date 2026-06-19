@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Editor — Complete Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ============================================================
+         COMPLETE DIGITAL — EDITOR  ·  "warm precision" design system
+         Chrome = brand orange/amber. Canvas = the customer's own site.
+         This file is the v1 DESIGN MOCKUP (static; states shown inline).
+         ============================================================ */
+      :root {
+        --orange: #fb8500;
+        --orange-deep: #e36f00;
+        --amber: #ffb703;
+        --amber-soft: #ffe9bf;
+
+        --ink: #1d1a16;
+        --ink-2: #4a443b;
+        --ink-soft: #8a8174;
+        --line: #e8e2d6;
+        --line-2: #f0ece2;
+        --panel: #ffffff;
+        --rail: #fbfaf6;
+        --canvas: #e9e3d6;
+
+        --shadow-sm: 0 1px 2px rgba(45, 32, 12, 0.05);
+        --shadow-md: 0 2px 6px rgba(45, 32, 12, 0.06),
+          0 14px 34px rgba(45, 32, 12, 0.08);
+        --shadow-lg: 0 8px 18px rgba(45, 32, 12, 0.1),
+          0 30px 60px rgba(45, 32, 12, 0.14);
+
+        --r-sm: 6px;
+        --r: 9px;
+        --r-lg: 14px;
+
+        --topbar-h: 58px;
+        --rail-w: 312px;
+
+        --display: "Bricolage Grotesque", "Hanken Grotesk", sans-serif;
+        --ui: "Hanken Grotesk", system-ui, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        font-family: var(--ui);
+        color: var(--ink);
+        background: var(--rail);
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        overflow: hidden;
+      }
+      button {
+        font-family: inherit;
+        cursor: pointer;
+        color: inherit;
+      }
+      .mono-label {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+      }
+
+      /* ---------- app grid ---------- */
+      .app {
+        height: 100dvh;
+        display: grid;
+        grid-template-rows: var(--topbar-h) 1fr;
+        grid-template-columns: var(--rail-w) 1fr;
+        grid-template-areas:
+          "top top"
+          "rail canvas";
+      }
+
+      /* ======================= TOP BAR ======================= */
+      .topbar {
+        grid-area: top;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 0 16px;
+        background: var(--panel);
+        border-bottom: 1px solid var(--line);
+        z-index: 30;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        flex: none;
+      }
+      .brand .word {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 17px;
+        letter-spacing: -0.02em;
+        color: var(--ink);
+        line-height: 1;
+      }
+      .brand .word b {
+        color: var(--orange);
+        font-weight: 800;
+      }
+      .brand .tag {
+        font-size: 9.5px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--orange-deep);
+        background: var(--amber-soft);
+        padding: 3px 7px 2px;
+        border-radius: 4px;
+        align-self: center;
+      }
+
+      .divider {
+        width: 1px;
+        height: 26px;
+        background: var(--line);
+        flex: none;
+      }
+
+      /* page switcher (segmented) */
+      .pages {
+        display: flex;
+        gap: 2px;
+        background: var(--line-2);
+        padding: 3px;
+        border-radius: var(--r);
+        overflow-x: auto;
+        scrollbar-width: none;
+      }
+      .pages::-webkit-scrollbar {
+        display: none;
+      }
+      .pages button {
+        border: none;
+        background: transparent;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--ink-2);
+        padding: 6px 13px;
+        border-radius: 6px;
+        white-space: nowrap;
+        transition:
+          background 0.15s,
+          color 0.15s,
+          box-shadow 0.15s;
+      }
+      .pages button:hover {
+        color: var(--ink);
+      }
+      .pages button.on {
+        background: var(--panel);
+        color: var(--ink);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .top-right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex: none;
+      }
+      .icon-btn {
+        width: 34px;
+        height: 34px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: var(--r-sm);
+        color: var(--ink-2);
+        transition:
+          border-color 0.15s,
+          color 0.15s,
+          background 0.15s;
+      }
+      .icon-btn:hover {
+        border-color: var(--ink-soft);
+        color: var(--ink);
+      }
+      .icon-btn svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      /* device toggle */
+      .device {
+        display: flex;
+        background: var(--line-2);
+        border-radius: var(--r-sm);
+        padding: 3px;
+      }
+      .device button {
+        width: 32px;
+        height: 28px;
+        display: grid;
+        place-items: center;
+        border: none;
+        background: transparent;
+        border-radius: 4px;
+        color: var(--ink-soft);
+      }
+      .device button.on {
+        background: var(--panel);
+        color: var(--ink);
+        box-shadow: var(--shadow-sm);
+      }
+      .device svg {
+        width: 15px;
+        height: 15px;
+      }
+
+      .ghost-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--ink-2);
+        text-decoration: none;
+        padding: 7px 10px;
+        border-radius: var(--r-sm);
+      }
+      .ghost-link:hover {
+        color: var(--ink);
+        background: var(--line-2);
+      }
+      .ghost-link svg {
+        width: 13px;
+        height: 13px;
+      }
+
+      .publish {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 13.5px;
+        letter-spacing: -0.01em;
+        padding: 9px 16px 9px 15px;
+        border-radius: var(--r-sm);
+        background: linear-gradient(135deg, var(--orange) 0%, var(--amber) 130%);
+        box-shadow:
+          0 1px 0 rgba(255, 255, 255, 0.25) inset,
+          0 4px 12px rgba(251, 133, 0, 0.32);
+        transition:
+          transform 0.12s ease,
+          box-shadow 0.2s;
+      }
+      .publish:hover {
+        transform: translateY(-1px);
+        box-shadow:
+          0 1px 0 rgba(255, 255, 255, 0.3) inset,
+          0 8px 20px rgba(251, 133, 0, 0.4);
+      }
+      .publish .count {
+        background: rgba(0, 0, 0, 0.22);
+        border-radius: 20px;
+        padding: 1px 7px;
+        font-size: 11.5px;
+        font-weight: 800;
+        min-width: 20px;
+        text-align: center;
+      }
+
+      /* ======================= LEFT RAIL ======================= */
+      .rail {
+        grid-area: rail;
+        background: var(--rail);
+        border-right: 1px solid var(--line);
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+      }
+      .rail-head {
+        padding: 16px 18px 13px;
+        border-bottom: 1px solid var(--line);
+      }
+      .rail-head .who {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .who .badge {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        background:
+          radial-gradient(120% 120% at 30% 20%, #fff5, transparent),
+          linear-gradient(135deg, var(--orange), var(--amber));
+        display: grid;
+        place-items: center;
+        color: #fff;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 15px;
+        flex: none;
+        box-shadow: var(--shadow-sm);
+      }
+      .who .meta {
+        min-width: 0;
+      }
+      .who .meta .nm {
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 14.5px;
+        letter-spacing: -0.01em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .who .meta .st {
+        font-size: 11.5px;
+        color: var(--ink-soft);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 1px;
+      }
+      .who .meta .st::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #36c46a;
+        box-shadow: 0 0 0 3px rgba(54, 196, 106, 0.18);
+      }
+
+      /* tool tabs */
+      .tools {
+        display: flex;
+        gap: 4px;
+        padding: 12px 14px;
+      }
+      .tool {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 11px 6px 9px;
+        border: 1px solid transparent;
+        background: transparent;
+        border-radius: var(--r);
+        color: var(--ink-soft);
+        font-size: 11.5px;
+        font-weight: 600;
+        transition: all 0.15s;
+      }
+      .tool svg {
+        width: 19px;
+        height: 19px;
+      }
+      .tool:hover {
+        color: var(--ink-2);
+        background: var(--line-2);
+      }
+      .tool.on {
+        color: var(--orange-deep);
+        background: var(--panel);
+        border-color: var(--line);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .rail-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 4px 16px 20px;
+        min-height: 0;
+      }
+      .panel {
+        display: none;
+        animation: rise 0.28s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      }
+      .panel.on {
+        display: block;
+      }
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(7px);
+        }
+      }
+
+      .hint {
+        background: linear-gradient(180deg, #fffaf1, #fffefb);
+        border: 1px solid var(--amber-soft);
+        border-radius: var(--r-lg);
+        padding: 16px;
+        margin-top: 8px;
+      }
+      .hint .ic {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        background: var(--amber-soft);
+        display: grid;
+        place-items: center;
+        color: var(--orange-deep);
+        margin-bottom: 11px;
+      }
+      .hint .ic svg {
+        width: 20px;
+        height: 20px;
+      }
+      .hint h3 {
+        font-family: var(--display);
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        margin-bottom: 5px;
+      }
+      .hint p {
+        font-size: 13px;
+        line-height: 1.55;
+        color: var(--ink-2);
+      }
+      .hint .legend {
+        margin-top: 13px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .legend .lrow {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        font-size: 12.5px;
+        color: var(--ink-2);
+      }
+      .legend .sw {
+        width: 22px;
+        height: 16px;
+        border-radius: 4px;
+        flex: none;
+      }
+      .legend .sw.text {
+        border: 1.5px dashed var(--amber);
+        background: rgba(255, 183, 3, 0.1);
+      }
+      .legend .sw.photo {
+        border: 1.5px solid var(--orange);
+        background: rgba(251, 133, 0, 0.1);
+      }
+
+      .field {
+        margin-top: 14px;
+      }
+      .field > label {
+        display: block;
+        font-size: 11.5px;
+        font-weight: 700;
+        color: var(--ink-2);
+        margin-bottom: 6px;
+        letter-spacing: 0.01em;
+      }
+      .field input[type="text"],
+      .field input[type="tel"],
+      .field input[type="email"] {
+        width: 100%;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: var(--r-sm);
+        padding: 10px 12px;
+        font-size: 13.5px;
+        font-family: inherit;
+        color: var(--ink);
+        outline: none;
+        transition:
+          border-color 0.15s,
+          box-shadow 0.15s;
+      }
+      .field input:focus {
+        border-color: var(--orange);
+        box-shadow: 0 0 0 3px rgba(251, 133, 0, 0.13);
+      }
+
+      .swatches {
+        display: flex;
+        gap: 12px;
+        margin-top: 12px;
+      }
+      .swatch {
+        flex: 1;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        border-radius: var(--r);
+        padding: 11px;
+        text-align: left;
+      }
+      .swatch .chip {
+        display: block;
+        width: 100%;
+        height: 46px;
+        border-radius: var(--r-sm);
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        margin-bottom: 9px;
+      }
+      .swatch .nm {
+        display: block;
+        font-size: 11.5px;
+        font-weight: 700;
+        color: var(--ink-2);
+      }
+      .swatch .hex {
+        font-size: 11.5px;
+        color: var(--ink-soft);
+        font-variant-numeric: tabular-nums;
+        margin-top: 1px;
+      }
+
+      .apply {
+        width: 100%;
+        margin-top: 16px;
+        border: none;
+        background: var(--ink);
+        color: #fff;
+        font-weight: 700;
+        font-size: 13.5px;
+        padding: 12px;
+        border-radius: var(--r-sm);
+        transition: background 0.15s;
+      }
+      .apply:hover {
+        background: #000;
+      }
+      .panel-note {
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--ink-soft);
+        margin-top: 11px;
+      }
+      .panel-title {
+        font-family: var(--display);
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        margin: 12px 0 2px;
+      }
+      .panel-sub {
+        font-size: 12.5px;
+        color: var(--ink-soft);
+        line-height: 1.5;
+      }
+
+      /* ======================= CANVAS ======================= */
+      .canvas {
+        grid-area: canvas;
+        position: relative;
+        background:
+          radial-gradient(
+            120% 80% at 50% -10%,
+            rgba(255, 183, 3, 0.08),
+            transparent 60%
+          ),
+          var(--canvas);
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        padding: 30px 30px 60px;
+      }
+      /* faint grain for atmosphere */
+      .canvas::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0.5;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+      }
+
+      .frame {
+        position: relative;
+        width: 100%;
+        max-width: 1180px;
+        align-self: flex-start;
+        background: #fff;
+        border-radius: var(--r-lg);
+        box-shadow: var(--shadow-lg);
+        overflow: hidden;
+        transition: max-width 0.4s cubic-bezier(0.4, 0, 0.1, 1);
+        animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      }
+      .app.is-mobile .frame {
+        max-width: 412px;
+      }
+      .framebar {
+        height: 38px;
+        background: #f4f2ee;
+        border-bottom: 1px solid #e6e2d9;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 0 13px;
+      }
+      .framebar .dots {
+        display: flex;
+        gap: 6px;
+      }
+      .framebar .dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #d8d3c8;
+      }
+      .framebar .url {
+        margin-left: 6px;
+        flex: 1;
+        background: #fff;
+        border: 1px solid #e6e2d9;
+        border-radius: 20px;
+        font-size: 11.5px;
+        color: #8a8174;
+        padding: 4px 12px;
+        max-width: 340px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .framebar .url svg {
+        width: 11px;
+        height: 11px;
+        color: #36c46a;
+      }
+      .edit-flag {
+        margin-left: auto;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        color: var(--orange-deep);
+        background: var(--amber-soft);
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+
+      /* the (mock) customer site lives here, in ITS OWN brand colours */
+      .site {
+        --site: #00aaff;
+        --site-dark: #122230;
+        font-family: "Hanken Grotesk", sans-serif;
+        color: #1a2733;
+      }
+      .site-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--site-dark);
+        color: #fff;
+        padding: 16px 30px;
+      }
+      .site-nav .logo {
+        font-weight: 800;
+        font-size: 17px;
+        letter-spacing: -0.01em;
+      }
+      .site-nav .logo i {
+        color: var(--site);
+        font-style: normal;
+      }
+      .site-nav .links {
+        display: flex;
+        gap: 22px;
+        font-size: 13px;
+        font-weight: 600;
+        opacity: 0.92;
+      }
+      .app.is-mobile .site-nav .links {
+        display: none;
+      }
+      .site-nav .nav-cta {
+        background: var(--site);
+        color: #062536;
+        font-weight: 700;
+        font-size: 12.5px;
+        padding: 9px 15px;
+        border-radius: 7px;
+      }
+      .site-hero {
+        position: relative;
+        min-height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        padding: 60px 46px;
+        background:
+          linear-gradient(
+            105deg,
+            rgba(8, 20, 30, 0.86) 18%,
+            rgba(8, 20, 30, 0.45) 75%
+          ),
+          url("https://images.unsplash.com/photo-1632759145351-1d592919f522?w=1400&q=80")
+            center/cover;
+        color: #fff;
+      }
+      .app.is-mobile .site-hero {
+        padding: 44px 26px;
+        min-height: 360px;
+      }
+      .site-hero .eyebrow {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--site);
+      }
+      .site-hero h1 {
+        font-size: clamp(28px, 4.4vw, 50px);
+        line-height: 1.04;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        max-width: 15ch;
+      }
+      .site-hero .sub {
+        font-size: clamp(15px, 1.5vw, 18px);
+        line-height: 1.5;
+        max-width: 46ch;
+        color: #e7eef4;
+      }
+      .site-hero .ctas {
+        display: flex;
+        gap: 12px;
+        margin-top: 6px;
+        flex-wrap: wrap;
+      }
+      .site-hero .b1 {
+        background: var(--site);
+        color: #062536;
+        font-weight: 700;
+        padding: 13px 22px;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+      .site-hero .b2 {
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        font-weight: 700;
+        padding: 13px 22px;
+        border-radius: 8px;
+        font-size: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .site-strip {
+        display: flex;
+        gap: 36px;
+        padding: 22px 46px;
+        background: var(--site-dark);
+        color: #fff;
+        flex-wrap: wrap;
+      }
+      .site-strip .s b {
+        font-size: 24px;
+        font-weight: 800;
+        color: var(--site);
+        font-family: var(--display);
+      }
+      .site-strip .s span {
+        display: block;
+        font-size: 12px;
+        opacity: 0.78;
+        margin-top: 2px;
+      }
+      .site-about {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        gap: 40px;
+        padding: 54px 46px;
+        align-items: center;
+      }
+      .app.is-mobile .site-about {
+        grid-template-columns: 1fr;
+        padding: 40px 26px;
+      }
+      .site-about h2 {
+        font-size: clamp(24px, 3vw, 34px);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+        margin-bottom: 14px;
+      }
+      .site-about h2 em {
+        color: var(--site);
+        font-style: normal;
+      }
+      .site-about p {
+        font-size: 15px;
+        line-height: 1.65;
+        color: #4a566090;
+        color: #46535f;
+        margin-bottom: 12px;
+      }
+      .site-about .photo {
+        position: relative;
+        height: 280px;
+        border-radius: 14px;
+        background: url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=80")
+          center/cover;
+        box-shadow: 0 20px 40px rgba(8, 20, 30, 0.18);
+      }
+
+      /* ---------- EDIT-LAYER affordances (shown statically) ---------- */
+      [data-edit] {
+        position: relative;
+        cursor: text;
+        border-radius: 4px;
+        transition:
+          box-shadow 0.12s,
+          background 0.12s;
+      }
+      [data-edit]:hover {
+        box-shadow: 0 0 0 1.5px var(--amber);
+        background: rgba(255, 183, 3, 0.07);
+      }
+      /* a tag that floats above a hovered/active text element */
+      .etag {
+        position: absolute;
+        top: -10px;
+        left: -1px;
+        transform: translateY(-100%);
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #fff;
+        background: var(--amber);
+        padding: 2px 7px;
+        border-radius: 4px;
+        white-space: nowrap;
+        box-shadow: var(--shadow-sm);
+        pointer-events: none;
+      }
+      .etag.orange {
+        background: var(--orange);
+      }
+      /* states for the demo */
+      [data-state="hover"] {
+        box-shadow: 0 0 0 1.5px var(--amber);
+        background: rgba(255, 183, 3, 0.07);
+      }
+      [data-state="editing"] {
+        box-shadow: 0 0 0 2px var(--orange);
+        background: rgba(251, 133, 0, 0.06);
+        cursor: text;
+      }
+      [data-state="editing"]::after {
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 1em;
+        background: var(--orange);
+        margin-left: 1px;
+        vertical-align: -2px;
+        animation: caret 1.05s steps(1) infinite;
+      }
+      @keyframes caret {
+        50% {
+          opacity: 0;
+        }
+      }
+      /* "edited, not yet published" marker */
+      .dot {
+        position: absolute;
+        top: -6px;
+        right: -6px;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background: var(--amber);
+        border: 2px solid #fff;
+        box-shadow: var(--shadow-sm);
+      }
+      /* image change overlay */
+      .img-edit {
+        position: relative;
+        cursor: pointer;
+      }
+      .img-edit::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 14px;
+        box-shadow: 0 0 0 2px var(--orange) inset;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .img-edit:hover::after,
+      .img-edit[data-state="hover"]::after {
+        opacity: 1;
+      }
+      .img-cta {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .img-edit:hover .img-cta,
+      .img-edit[data-state="hover"] .img-cta {
+        opacity: 1;
+      }
+      .img-cta span {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        background: rgba(29, 26, 22, 0.82);
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 9px 15px;
+        border-radius: 8px;
+        backdrop-filter: blur(2px);
+      }
+      .img-cta svg {
+        width: 15px;
+        height: 15px;
+      }
+
+      /* unpublished toast */
+      .unpub {
+        position: fixed;
+        left: calc(var(--rail-w) + 50%);
+        transform: translateX(-50%);
+        bottom: 22px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: var(--ink);
+        color: #fff;
+        padding: 11px 13px 11px 16px;
+        border-radius: 12px;
+        box-shadow: var(--shadow-lg);
+        font-size: 13px;
+        z-index: 40;
+      }
+      .unpub b {
+        font-weight: 700;
+      }
+      .unpub .mini {
+        background: linear-gradient(135deg, var(--orange), var(--amber));
+        color: #fff;
+        border: none;
+        font-weight: 700;
+        font-size: 12.5px;
+        padding: 7px 13px;
+        border-radius: 7px;
+      }
+
+      @media (max-width: 860px) {
+        :root {
+          --rail-w: 0px;
+        }
+        .rail {
+          display: none;
+        }
+        .pages {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app" id="app">
+      <!-- ============ TOP BAR ============ -->
+      <header class="topbar">
+        <div class="brand">
+          <span class="word">complete digital<b>.</b></span>
+          <span class="tag">Editor</span>
+        </div>
+        <div class="divider"></div>
+        <nav class="pages" aria-label="Pages">
+          <button class="on">Home</button>
+          <button>About</button>
+          <button>Services</button>
+          <button>Pricing</button>
+          <button>Blog</button>
+          <button>Contact</button>
+        </nav>
+
+        <div class="top-right">
+          <button class="icon-btn" title="Undo" aria-label="Undo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"/><path d="M3 13a9 9 0 1 0 3-7.7L3 8"/></svg>
+          </button>
+          <div class="device" id="device">
+            <button class="on" data-dev="desktop" title="Desktop">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </button>
+            <button data-dev="mobile" title="Mobile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+            </button>
+          </div>
+          <a class="ghost-link" href="#" target="_blank" rel="noopener">
+            View live
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+          <button class="publish">
+            Publish
+            <span class="count">3</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- ============ LEFT RAIL ============ -->
+      <aside class="rail">
+        <div class="rail-head">
+          <div class="who">
+            <div class="badge">S</div>
+            <div class="meta">
+              <div class="nm">Safe Roof Restoration</div>
+              <div class="st">Editing live site</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tools" id="tools">
+          <button class="tool on" data-panel="edit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            Edit
+          </button>
+          <button class="tool" data-panel="colours">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="10.5" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="12.5" r="2.5"/><path d="M12 2a10 10 0 1 0 0 20 1.5 1.5 0 0 0 1-2.6 1.5 1.5 0 0 1 1-2.6h2A4 4 0 0 0 22 12 10 10 0 0 0 12 2z"/></svg>
+            Colours
+          </button>
+          <button class="tool" data-panel="details">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h6M7 12h10M7 16h7"/></svg>
+            Details
+          </button>
+        </div>
+
+        <div class="rail-body">
+          <!-- EDIT panel -->
+          <section class="panel on" data-panel="edit">
+            <div class="hint">
+              <div class="ic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              </div>
+              <h3>Click anything to change it</h3>
+              <p>
+                Tap any words or photo on your site, type your change, and hit
+                <strong>Publish</strong>. It's live in a minute or two.
+              </p>
+              <div class="legend">
+                <div class="lrow"><span class="sw text"></span> Outlined = editable text</div>
+                <div class="lrow"><span class="sw photo"></span> Photos — click to replace</div>
+              </div>
+            </div>
+            <p class="panel-note">
+              Want a new section, page or a bigger change? That's still a call to
+              Dan on 0432 839 654 — coming to the editor soon.
+            </p>
+          </section>
+
+          <!-- COLOURS panel -->
+          <section class="panel" data-panel="colours">
+            <h2 class="panel-title">Site colours</h2>
+            <p class="panel-sub">Re-theme every page in one go. Preview updates as you pick.</p>
+            <div class="swatches">
+              <button class="swatch">
+                <span class="chip" style="background:#00aaff"></span>
+                <span class="nm">Main colour</span>
+                <span class="hex">#00AAFF</span>
+              </button>
+              <button class="swatch">
+                <span class="chip" style="background:#122230"></span>
+                <span class="nm">Dark colour</span>
+                <span class="hex">#122230</span>
+              </button>
+            </div>
+            <button class="apply">Apply to whole site</button>
+            <p class="panel-note">
+              Main colour drives buttons &amp; highlights. Dark colour is the menu
+              bar and footer.
+            </p>
+          </section>
+
+          <!-- DETAILS panel -->
+          <section class="panel" data-panel="details">
+            <h2 class="panel-title">Business details</h2>
+            <p class="panel-sub">
+              Change these once and they update <em>everywhere</em> on your site —
+              every page, the small print, and what Google reads.
+            </p>
+            <div class="field">
+              <label>Business name</label>
+              <input type="text" value="Safe Roof Restoration" />
+            </div>
+            <div class="field">
+              <label>Phone</label>
+              <input type="tel" value="0400 693 889" />
+            </div>
+            <div class="field">
+              <label>Email</label>
+              <input type="email" value="hello@saferoofrepairs.au" />
+            </div>
+            <div class="field">
+              <label>Address</label>
+              <input type="text" value="15 Haresta Ave, Dandenong" />
+            </div>
+            <div class="field">
+              <label>Suburb</label>
+              <input type="text" value="Dandenong" />
+            </div>
+            <button class="apply">Update everywhere</button>
+          </section>
+        </div>
+      </aside>
+
+      <!-- ============ CANVAS (the customer's real site) ============ -->
+      <main class="canvas">
+        <div class="frame">
+          <div class="framebar">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <div class="url">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg>
+              saferoofrepairs.au
+            </div>
+            <span class="edit-flag">EDIT MODE</span>
+          </div>
+
+          <div class="site">
+            <!-- nav -->
+            <nav class="site-nav">
+              <div class="logo">Safe Roof <i>Restoration</i></div>
+              <div class="links"><span>Home</span><span>About</span><span>Services</span><span>Pricing</span><span>Contact</span></div>
+              <div class="nav-cta">Get a Quote</div>
+            </nav>
+
+            <!-- hero: shows hover + active editing states -->
+            <header class="site-hero">
+              <span class="eyebrow" data-edit>Dandenong's Trusted Roofers</span>
+              <h1 data-edit>
+                Roof Restoration Done Right, The First Time
+              </h1>
+              <p class="sub" data-edit data-state="editing">
+                20+ years protecting Dandenong homes — repairs, restorations and
+                painting, fully licensed and insured.
+                <span class="etag orange">Editing</span>
+              </p>
+              <div class="ctas">
+                <span class="b1" data-edit>Get a Free Quote</span>
+                <span class="b2" data-edit>Call 0400 693 889</span>
+              </div>
+            </header>
+
+            <!-- stat strip: one element marked "edited, unpublished" -->
+            <div class="site-strip">
+              <div class="s" data-edit style="position:relative">
+                <b>20+</b><span>Years experience</span>
+                <span class="dot" title="Edited — not yet published"></span>
+              </div>
+              <div class="s" data-edit><b>500+</b><span>Roofs restored</span></div>
+              <div class="s" data-edit><b>5★</b><span>Google rated</span></div>
+            </div>
+
+            <!-- about: shows image replace affordance -->
+            <section class="site-about">
+              <div>
+                <h2 data-edit data-state="hover" style="position:relative">
+                  Local roofers who <em>actually turn up</em>
+                  <span class="etag">Heading</span>
+                </h2>
+                <p data-edit>
+                  Safe Roof Restoration has served Dandenong and the south-east for
+                  over two decades. From a cracked tile to a full re-roof, we treat
+                  every job like it's our own home.
+                </p>
+                <p data-edit>
+                  Fully licensed, fully insured, and never a deposit until you're
+                  happy with the plan.
+                </p>
+              </div>
+              <div class="photo img-edit" data-state="hover">
+                <div class="img-cta">
+                  <span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15l-5-5L5 21"/><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/></svg>
+                    Change photo
+                  </span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="unpub">
+          <span><b>3 changes</b> ready to go live</span>
+          <button class="mini">Publish now</button>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      /* Mockup interactivity only: tab + device switching, and a live
+         demo of click-to-edit on the canvas. The real editor swaps the
+         inlined .site for a srcdoc iframe of the customer's HTML. */
+      (function () {
+        var app = document.getElementById("app");
+
+        // left-rail tool tabs
+        document.getElementById("tools").addEventListener("click", function (e) {
+          var b = e.target.closest(".tool");
+          if (!b) return;
+          var name = b.dataset.panel;
+          document.querySelectorAll(".tool").forEach(function (t) {
+            t.classList.toggle("on", t === b);
+          });
+          document.querySelectorAll(".panel").forEach(function (p) {
+            p.classList.toggle("on", p.dataset.panel === name);
+          });
+        });
+
+        // device toggle
+        document.getElementById("device").addEventListener("click", function (e) {
+          var b = e.target.closest("button");
+          if (!b) return;
+          document.querySelectorAll("#device button").forEach(function (t) {
+            t.classList.toggle("on", t === b);
+          });
+          app.classList.toggle("is-mobile", b.dataset.dev === "mobile");
+        });
+
+        // page switcher (visual only in the mockup)
+        document.querySelector(".pages").addEventListener("click", function (e) {
+          var b = e.target.closest("button");
+          if (!b) return;
+          document.querySelectorAll(".pages button").forEach(function (t) {
+            t.classList.toggle("on", t === b);
+          });
+        });
+
+        // demo click-to-edit: make any data-edit element editable on click
+        document.querySelectorAll("[data-edit]").forEach(function (el) {
+          el.addEventListener("click", function () {
+            document.querySelectorAll('[data-state="editing"]').forEach(function (x) {
+              if (x !== el) x.removeAttribute("data-state");
+            });
+            el.setAttribute("data-state", "editing");
+            el.setAttribute("contenteditable", "true");
+            el.focus();
+          });
+          el.addEventListener("blur", function () {
+            el.removeAttribute("data-state");
+            el.removeAttribute("contenteditable");
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
