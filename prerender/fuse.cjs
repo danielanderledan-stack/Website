@@ -443,6 +443,78 @@ function buildQuoteCardInner(cfg) {
 }
 
 /* ----------------------------------------------------------------------
+   LOCATION MAP. A themed, rounded map card baked below the home "Get a
+   Free Quote" card and below the services-page "Areas We Cover" block.
+   Driven by a new config field:  "coordinates": { latitude, longitude }.
+   Uses a keyless OpenStreetMap embed (pin via &marker=) so it renders
+   identically in the live SPA and in merged static sites with no JS and
+   no API key. Returns "" when the config has no usable coordinates, so
+   existing coordinate-less configs are unaffected.
+---------------------------------------------------------------------- */
+function mapCoords(cfg) {
+  const c = cfg && cfg.coordinates;
+  if (!c || typeof c !== "object") return null;
+  const lat = parseFloat(c.latitude != null ? c.latitude : c.lat);
+  const lon = parseFloat(
+    c.longitude != null ? c.longitude : c.lng != null ? c.lng : c.lon,
+  );
+  if (isNaN(lat) || isNaN(lon)) return null;
+  if (lat < -90 || lat > 90 || lon < -180 || lon > 180) return null;
+  return { lat, lon };
+}
+
+function buildMapSection(cfg) {
+  const co = mapCoords(cfg);
+  if (!co) return "";
+  const { lat, lon } = co;
+  const dLat = 0.0085,
+    dLon = 0.014;
+  const bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].join(",");
+  const marker = lat + "," + lon;
+  const biz = cfg.businessName || cfg.logoPrefix || "us";
+  const heading = cfg.suburb ? "Visit Us in " + cfg.suburb : "Where to Find Us";
+  const sub = cfg.address
+    ? cfg.address
+    : cfg.suburb
+      ? "Servicing " + cfg.suburb + " and all surrounding suburbs."
+      : "";
+  const embed =
+    "https://www.openstreetmap.org/export/embed.html?bbox=" +
+    encodeURIComponent(bbox) +
+    "&layer=mapnik&marker=" +
+    encodeURIComponent(marker);
+  const directions =
+    "https://www.google.com/maps/search/?api=1&query=" +
+    encodeURIComponent(marker);
+  return (
+    '<section id="cd-map" data-cd="map" style="padding: 64px 30px; background: rgb(250, 250, 250);">' +
+    '<div class="mx-auto" style="max-width: 1000px;">' +
+    '<div class="text-center" style="margin-bottom: 32px;">' +
+    '<div class="section-label" style="color: var(--color-primary);">Find Us</div>' +
+    '<h2 class="section-h2" style="font-size: clamp(24px, 3vw, 38px); margin-bottom: 8px;">' +
+    escHtml(heading) +
+    "</h2>" +
+    (sub
+      ? '<p style="font-family: Roboto, sans-serif; font-size: 15px; color: rgb(119, 119, 119); max-width: 580px; margin: 0px auto; line-height: 1.6;">' +
+        escHtml(sub) +
+        "</p>"
+      : "") +
+    "</div>" +
+    '<div style="position: relative; border-radius: 18px; overflow: hidden; box-shadow: 0 18px 50px rgba(0,0,0,0.16); border: 1px solid rgba(0,0,0,0.06);">' +
+    '<div style="position: absolute; top: 0px; left: 0px; right: 0px; height: 4px; background: var(--color-primary); z-index: 2;"></div>' +
+    '<iframe title="Map showing ' +
+    escHtml(biz) +
+    '" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="' +
+    escHtml(embed) +
+    '" style="width: 100%; height: 420px; border: 0px; display: block;"></iframe>' +
+    '<a href="' +
+    escHtml(directions) +
+    '" target="_blank" rel="noopener" class="btn-yellow" style="position: absolute; right: 16px; bottom: 16px; z-index: 2; font-size: 13px; padding: 12px 22px; box-shadow: 0 8px 24px rgba(0,0,0,0.28);">Get Directions</a>' +
+    "</div></div></section>"
+  );
+}
+
+/* ----------------------------------------------------------------------
    "Website by Complete Digital" footer backlink. A plain dofollow <a>
    (no rel=nofollow, so it passes link equity) appended to the footer credit
    line — the bottom-bar <p> carrying the business name — on every page of
@@ -777,6 +849,42 @@ function postProcess(w, ctx) {
       });
     }
   }
+
+  /* --- location map: a themed map card below the home "Get a Free Quote"
+         card (after #prices) and below the services "Areas We Cover" block
+         (before #contact). Only when the config carries coordinates. --- */
+  if (mapCoords(cfg)) {
+    const holder = doc.createElement("div");
+    holder.innerHTML = buildMapSection(cfg);
+    const mapSec = holder.firstChild;
+    if (mapSec) {
+      if (route === "home") {
+        const pricesAnchor = doc.getElementById("prices");
+        if (pricesAnchor && pricesAnchor.parentNode)
+          pricesAnchor.parentNode.insertBefore(
+            mapSec,
+            pricesAnchor.nextSibling,
+          );
+      } else if (route === "services") {
+        const mainEl = doc.querySelector("#root main");
+        if (mainEl)
+          mainEl.insertBefore(mapSec, doc.getElementById("contact") || null);
+      }
+    }
+  }
+
+  /* --- remove the always-empty logo "circle": the engine hardcodes
+         logoCircleLetter to "", leaving a stray empty ring next to the
+         business name in the footer (and nav). --- */
+  [...doc.querySelectorAll("span")].forEach((s) => {
+    const st = s.getAttribute("style") || "";
+    if (
+      /border-radius:\s*50%/.test(st) &&
+      /border:/.test(st) &&
+      !s.textContent.trim()
+    )
+      s.remove();
+  });
 
   /* --- stat/progress bar: keep final width baked (works without JS),
          site.js re-animates from 0 using data-target --- */

@@ -204,22 +204,87 @@
   /* ------------------------------------------------------------------
      6. Testimonial switcher
      All testimonials are pre-rendered as [data-cd="t-slide"] blocks
-     (only the first visible). Dots toggle visibility + active state.
+     (only the first visible). Auto-advances every 6s, pauses on hover,
+     and supports touch swipe. Dots still jump to a slide on click and
+     reset the timer.
   ------------------------------------------------------------------ */
   safe("testimonials", function () {
     var slides = $all('[data-cd="t-slide"]');
     var dots = $all('[data-cd="t-dot"]');
-    if (!slides.length || !dots.length) return;
+    if (!slides.length) return;
+    var current = 0,
+      timer = null,
+      INTERVAL = 6000;
+
+    function show(i) {
+      current = (i + slides.length) % slides.length;
+      slides.forEach(function (sl, k) {
+        sl.style.display = k === current ? "" : "none";
+      });
+      dots.forEach(function (d, k) {
+        d.classList.toggle("active", k === current);
+      });
+    }
+    function stop() {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    }
+    function start() {
+      if (slides.length < 2) return;
+      stop();
+      timer = setInterval(function () {
+        show(current + 1);
+      }, INTERVAL);
+    }
+    function restart() {
+      stop();
+      start();
+    }
+
     dots.forEach(function (dot, i) {
       dot.addEventListener("click", function () {
-        slides.forEach(function (sl, k) {
-          sl.style.display = k === i ? "" : "none";
-        });
-        dots.forEach(function (d, k) {
-          d.classList.toggle("active", k === i);
-        });
+        show(i);
+        restart();
       });
     });
+
+    /* swipe + hover-pause on the surrounding testimonials section */
+    var container =
+      (slides[0].closest && slides[0].closest("section")) ||
+      slides[0].parentNode;
+    if (container) {
+      container.addEventListener("mouseenter", stop);
+      container.addEventListener("mouseleave", start);
+      var x0 = null;
+      container.addEventListener(
+        "touchstart",
+        function (e) {
+          x0 = e.touches && e.touches[0] ? e.touches[0].clientX : null;
+        },
+        { passive: true },
+      );
+      container.addEventListener(
+        "touchend",
+        function (e) {
+          if (x0 == null) return;
+          var x1 =
+            e.changedTouches && e.changedTouches[0]
+              ? e.changedTouches[0].clientX
+              : x0;
+          var dx = x1 - x0;
+          x0 = null;
+          if (Math.abs(dx) < 40) return;
+          show(dx < 0 ? current + 1 : current - 1);
+          restart();
+        },
+        { passive: true },
+      );
+    }
+
+    show(0);
+    start();
   });
 
   /* ------------------------------------------------------------------

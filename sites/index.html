@@ -384,6 +384,75 @@
           );
         }
 
+        /* Location map: a themed, rounded OpenStreetMap card (pin via
+           &marker=). Driven by cfg.coordinates {latitude, longitude};
+           returns "" when absent so coordinate-less demos are unaffected.
+           Kept in sync with buildMapSection in prerender/fuse.cjs. */
+        function mapCoords(cfg) {
+          var c = cfg && cfg.coordinates;
+          if (!c || typeof c !== "object") return null;
+          var lat = parseFloat(c.latitude != null ? c.latitude : c.lat);
+          var lon = parseFloat(
+            c.longitude != null ? c.longitude : c.lng != null ? c.lng : c.lon,
+          );
+          if (isNaN(lat) || isNaN(lon)) return null;
+          if (lat < -90 || lat > 90 || lon < -180 || lon > 180) return null;
+          return { lat: lat, lon: lon };
+        }
+        function buildMapSection(cfg) {
+          var co = mapCoords(cfg);
+          if (!co) return "";
+          var lat = co.lat,
+            lon = co.lon,
+            dLat = 0.0085,
+            dLon = 0.014;
+          var bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].join(",");
+          var marker = lat + "," + lon;
+          var biz = cfg.businessName || cfg.logoPrefix || "us";
+          var heading = cfg.suburb
+            ? "Visit Us in " + cfg.suburb
+            : "Where to Find Us";
+          var sub = cfg.address
+            ? cfg.address
+            : cfg.suburb
+              ? "Servicing " + cfg.suburb + " and all surrounding suburbs."
+              : "";
+          var embed =
+            "https://www.openstreetmap.org/export/embed.html?bbox=" +
+            encodeURIComponent(bbox) +
+            "&layer=mapnik&marker=" +
+            encodeURIComponent(marker);
+          var directions =
+            "https://www.google.com/maps/search/?api=1&query=" +
+            encodeURIComponent(marker);
+          return (
+            '<section id="cd-map" data-cd="map" style="padding:64px 30px;background:rgb(250,250,250);">' +
+            '<div class="mx-auto" style="max-width:1000px;">' +
+            '<div class="text-center" style="margin-bottom:32px;">' +
+            '<div class="section-label" style="color:var(--color-primary);">Find Us</div>' +
+            '<h2 class="section-h2" style="font-size:clamp(24px,3vw,38px);margin-bottom:8px;">' +
+            esc(heading) +
+            "</h2>" +
+            (sub
+              ? '<p style="font-family:Roboto,sans-serif;font-size:15px;color:rgb(119,119,119);max-width:580px;margin:0 auto;line-height:1.6;">' +
+                esc(sub) +
+                "</p>"
+              : "") +
+            "</div>" +
+            '<div style="position:relative;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.16);border:1px solid rgba(0,0,0,.06);">' +
+            '<div style="position:absolute;top:0;left:0;right:0;height:4px;background:var(--color-primary);z-index:2;"></div>' +
+            '<iframe title="Map showing ' +
+            esc(biz) +
+            '" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="' +
+            esc(embed) +
+            '" style="width:100%;height:420px;border:0;display:block;"></iframe>' +
+            '<a href="' +
+            esc(directions) +
+            '" target="_blank" rel="noopener" class="btn-yellow" style="position:absolute;right:16px;bottom:16px;z-index:2;font-size:13px;padding:12px 22px;box-shadow:0 8px 24px rgba(0,0,0,.28);">Get Directions</a>' +
+            "</div></div></section>"
+          );
+        }
+
         /* --- post-render transforms (idempotent; re-run while React settles) --- */
         function apply(cfg) {
           /* home calculator -> static quote card; price rows -> "Quote only" */
@@ -528,7 +597,21 @@
               if (nv) im.setAttribute("src", nv);
             }
           })();
-        }
+          /* location map: below #prices on home, before #contact (i.e.
+             below the "Areas We Cover" block) on the services page */
+          if (mapCoords(cfg) && !document.getElementById("cd-map")) {
+            var mainEl = document.querySelector("#root main");
+            if (mainEl) {
+              var mh = document.createElement("div");
+              mh.innerHTML = buildMapSection(cfg);
+              var mapSec = mh.firstChild;
+              var pricesA = document.getElementById("prices");
+              var contactA = document.getElementById("contact");
+              if (mapSec && (route === "home" || route === "") && pricesA) {
+                pricesA.parentNode.insertBefore(mapSec, pricesA.nextSibling);
+              } else if (mapSec && route === "services") {
+                mainEl.insertBefore(mapSec, contactA || null);
+              }
 
         /* discount-notify submit: confirmation instead of submitting (no backend) */
         document.addEventListener(
@@ -590,6 +673,89 @@
       })();
     </script>
     <!-- cd-quote-end -->
+    <!-- cd-reviews-start -->
+    <script>
+      /* Reviews: auto-advance through the testimonial slides (the React demo
+         otherwise waits for a manual dot click) and support swipe. Drives the
+         existing .dot controls so no template logic is duplicated. Disabled in
+         ?capture=1 screenshot mode. */
+      (function () {
+        if (/[?&]capture=1(?:&|$)/.test(location.search)) return;
+        var idx = 0,
+          timer = null,
+          started = false,
+          INTERVAL = 6000;
+        function dots() {
+          return [].slice.call(document.querySelectorAll("#root .dot"));
+        }
+        function go(n) {
+          var d = dots();
+          if (d.length < 2) return;
+          idx = ((n % d.length) + d.length) % d.length;
+          d[idx].click();
+        }
+        function stop() {
+          if (timer) {
+            clearInterval(timer);
+            timer = null;
+          }
+        }
+        function start() {
+          stop();
+          timer = setInterval(function () {
+            go(idx + 1);
+          }, INTERVAL);
+        }
+        function init() {
+          var d = dots();
+          if (started || d.length < 2) return;
+          started = true;
+          d.forEach(function (b, i) {
+            if (b.classList.contains("active")) idx = i;
+            b.addEventListener("click", function () {
+              idx = i;
+              start();
+            });
+          });
+          var sec = document.getElementById("testimonials");
+          if (sec) {
+            sec.addEventListener("mouseenter", stop);
+            sec.addEventListener("mouseleave", start);
+            var x0 = null;
+            sec.addEventListener(
+              "touchstart",
+              function (e) {
+                x0 = e.touches && e.touches[0] ? e.touches[0].clientX : null;
+              },
+              { passive: true },
+            );
+            sec.addEventListener(
+              "touchend",
+              function (e) {
+                if (x0 == null) return;
+                var x1 =
+                  e.changedTouches && e.changedTouches[0]
+                    ? e.changedTouches[0].clientX
+                    : x0;
+                var dx = x1 - x0;
+                x0 = null;
+                if (Math.abs(dx) < 40) return;
+                go(dx < 0 ? idx + 1 : idx - 1);
+                start();
+              },
+              { passive: true },
+            );
+          }
+          start();
+        }
+        var tries = 0;
+        (function tick() {
+          init();
+          if (!started && ++tries < 40) setTimeout(tick, 250);
+        })();
+      })();
+    </script>
+    <!-- cd-reviews-end -->
     <!-- cd-popup-start -->
     <script>
       (function () {
