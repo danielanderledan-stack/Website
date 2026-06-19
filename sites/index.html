@@ -612,6 +612,22 @@
               } else if (mapSec && route === "services") {
                 mainEl.insertBefore(mapSec, contactA || null);
               }
+            }
+          }
+          /* remove the always-empty logo "circle" ring (the engine hardcodes
+             logoCircleLetter to "") */
+          var cs = document.querySelectorAll("span");
+          for (var ci = 0; ci < cs.length; ci++) {
+            var cst = cs[ci].getAttribute("style") || "";
+            if (
+              /border-radius:\s*50%/.test(cst) &&
+              /border:/.test(cst) &&
+              !cs[ci].textContent.trim() &&
+              cs[ci].parentNode
+            )
+              cs[ci].parentNode.removeChild(cs[ci]);
+          }
+        }
 
         /* discount-notify submit: confirmation instead of submitting (no backend) */
         document.addEventListener(
