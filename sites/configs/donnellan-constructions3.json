@@ -1,0 +1,347 @@
+{
+  "siteType": "builder",
+  "businessName": "Donnellan Constructions",
+  "suburb": "Chelsea",
+  "phone": "+61 3 9772 7708",
+  "email": "enquiries@donnellanconstructions.com.au",
+  "address": "12 Barnes Grove, Chelsea VIC 3196",
+  "coordinates": {
+    "latitude": -38.049037899999995,
+    "longitude": 145.1128843
+  },
+  "tagline": "Chelsea's Reliable Builder",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55A00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Donnellan Constructions — Chelsea's Builder",
+      "sub": "New homes, extensions & more",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg"
+    },
+    {
+      "title": "Built for the Bayside Lifestyle",
+      "sub": "Local expertise, reliable service",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg"
+    },
+    {
+      "title": "20+ Years Serving Chelsea",
+      "sub": "From decks to dream homes",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Get in touch —",
+    "your trusted Chelsea builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "At Donnellan Constructions, we've been building quality homes and renovations across Chelsea and the Bayside for over 20 years. Our team prides itself on reliable, efficient service — from the first phone call to the final handover. We're approachable, easygoing, and committed to making your project stress-free.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From custom new homes to coastal renovations and outdoor living, Donnellan Constructions delivers quality workmanship across Chelsea and nearby suburbs. We handle everything from concept to completion with fixed quotes and clear communication.",
+  "services": [
+    {
+      "title": "New Home Builds",
+      "desc": "Custom homes designed for your lifestyle and block.",
+      "longDesc": "We build custom new homes in Chelsea and the Mornington Peninsula, tailored to coastal living. From slab to handover, we manage every trade for a stress-free build.",
+      "points": [
+        "Tailored to your block",
+        "Fixed-price contract",
+        "Council approvals handled"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Add space and value without moving.",
+      "longDesc": "Extend your Chelsea home with a seamless addition. Whether it's a second storey or rear extension, we work around your family's needs and budget.",
+      "points": [
+        "Minimal disruption",
+        "Design & build included",
+        "Local council knowledge"
+      ]
+    },
+    {
+      "title": "Renovations",
+      "desc": "Transform your existing space.",
+      "longDesc": "Full kitchen, bathroom and living area renovations in Chelsea. We understand Bayside homes and the unique challenges of older structures.",
+      "points": [
+        "Open-plan layouts",
+        "Premium finishes",
+        "Project managed end-to-end"
+      ]
+    },
+    {
+      "title": "Decking & Outdoor Living",
+      "desc": "Create the ultimate outdoor space.",
+      "longDesc": "Coastal decks, alfresco areas and pergolas built to withstand salt air and weather. Using treated timber or composite, we design for year-round enjoyment.",
+      "points": [
+        "Salt-resistant materials",
+        "Custom design",
+        "Built to last"
+      ]
+    },
+    {
+      "title": "Commercial Construction",
+      "desc": "Reliable building for local businesses.",
+      "longDesc": "Small to medium commercial projects in Chelsea and surrounds. Retail fitouts, office renovations and more — on time and on budget.",
+      "points": [
+        "Licensed & insured",
+        "Fast turnaround",
+        "Clear communication"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "We oversee every detail for you.",
+      "longDesc": "Let Donnellan Constructions manage your build from start to finish. We coordinate trades, order materials and keep your project on schedule.",
+      "points": [
+        "Single point of contact",
+        "Cost control",
+        "Regular site updates"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "Donnellan Constructions renovated our entire ground floor in Chelsea. They were professional, punctual and the quality is outstanding. Would highly recommend for any home extension work.",
+      "name": "Sarah F.",
+      "role": "Chelsea Homeowner"
+    },
+    {
+      "text": "We used Donnellan for a new deck and outdoor kitchen. The team listened to our ideas and delivered exactly what we wanted — even with the tricky coastal conditions. Great communication throughout.",
+      "name": "Mark T.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "As a property manager I've dealt with many builders, but Donnellan Constructions stands out for reliability and fair pricing. They completed our apartment renovation on time and within budget.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Chelsea",
+    "Bonbeach",
+    "Carrum",
+    "Aspendale",
+    "Edithvale",
+    "Chelsea Heights",
+    "Mentone",
+    "Seaford"
+  ],
+  "about": {
+    "intro": "Donnellan Constructions is a family-run building company based in Chelsea, VIC, specialising in new homes, extensions and renovations across the Bayside.",
+    "story": [
+      "Founded on the principles of reliability and quality, Donnellan Constructions has been serving Chelsea and surrounding suburbs for over two decades. What started as a small team of dedicated builders has grown into a trusted name in local residential and commercial construction.",
+      "We take pride in our approachable, easygoing style. From the moment you call us, you'll speak with real people who listen. Our administrative team is known for being extremely approachable and efficient, ensuring every client feels supported throughout their build.",
+      "Over the years we've built everything from coastal dream homes to boutique commercial fitouts. Every project gets the same commitment: clear communication, fixed prices and workmanship that stands the test of time."
+    ],
+    "mission": "To deliver reliable, high-quality building solutions to Chelsea and the Bayside — with honesty, transparency and a down-to-earth approach.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Chelsea's building regulations, soil conditions and coastal challenges inside out."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "No hidden surprises — you get a detailed quote upfront and we stick to it."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule and manage trades to hit every milestone."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Every project is backed by our workmanship guarantee and full insurance."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insurance to $20 million",
+      "Member of Master Builders Association",
+      "Fully insured workers compensation"
+    ]
+  },
+  "pricing": {
+    "intro": "No two builds are the same — that's why we offer a free, no-obligation consultation to discuss your project in Chelsea. Get a clear, fixed quote before any work begins.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility study",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Renovation Package",
+        "price": "from $50k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchen & bathroom",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Project management"
+        ]
+      },
+      {
+        "name": "Custom New Home",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council submission",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — no hourly rates, no surprises."
+  },
+  "contact": {
+    "intro": "Ready to discuss your build? Call us on (03) 9772 7708 or fill in the form below. We'll get back to you within 24 hours with a free, no-obligation chat about your project in Chelsea."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Donnellan Constructions | Chelsea Builder | New Homes & Renovations",
+      "description": "Donnellan Constructions: trusted builder in Chelsea VIC. Specialising in new homes, extensions & renovations. Fixed quotes, 20+ years experience. Call (03) 9772 7708."
+    },
+    "about": {
+      "title": "About Donnellan Constructions — Chelsea's Family Builder",
+      "description": "Learn about Donnellan Constructions, a family-run building company in Chelsea. Over 20 years of reliable, high-quality building across the Bayside. Registered, insured."
+    },
+    "services": {
+      "title": "Building Services in Chelsea | Donnellan Constructions",
+      "description": "Explore building services by Donnellan Constructions: new homes, extensions, renovations, decking, commercial. Servicing Chelsea, Bonbeach, Carrum & beyond. Free quote."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Chelsea | Donnellan Constructions",
+      "description": "Transparent pricing for building projects in Chelsea. Get a free initial consultation and fixed quote. No hidden fees, no lock-in contracts. Call us today."
+    },
+    "contact": {
+      "title": "Contact Donnellan Constructions | Free Consultation",
+      "description": "Contact Donnellan Constructions in Chelsea for a free quote on your build. Call (03) 9772 7708 or email. We'll respond within 24 hours."
+    },
+    "blog": {
+      "title": "Chelsea Building & Renovation Blog | Donnellan Constructions",
+      "description": "Expert advice on home building, extensions, and renovations in Chelsea and the Bayside. Tips on costs, design, coastal materials. Read our latest posts."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in Chelsea in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking of extending your Chelsea home? We break down the costs, from $50k for a single room to $150k+ for a full storey, plus tips on Bayside permits.",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+      "body": [
+        "Home extensions are one of the most popular ways to add space and value to a Chelsea property. But understanding the cost can be tricky — especially with Bayside's unique building conditions. In this guide, we'll give you realistic price ranges for 2026, including factors like foundation work on sandy soil and higher material costs near the coast.",
+        "A typical single-storey rear extension in Chelsea costs between $50,000 and $100,000 depending on size and finishes. That includes slab, framing, roofing, windows, internal lining and basic fixtures. If you're adding a bathroom or kitchen, expect to add $15,000 to $30,000 for plumbing and tiling. Always budget for an extra 10% contingency.",
+        "Two-storey extensions or second-storey additions run from $120,000 to $250,000. These require structural engineering, often steel beams, and careful coordination with existing foundations. Chelsea's sandy soil can mean deeper footings, adding $5,000 to $10,000 to the base cost. A site inspection is essential before quoting.",
+        "Council permits for extensions in Kingston and Frankston council areas vary. Expect to pay $1,500 to $3,000 for a building permit, plus additional fees for planning permits if you're extending within a heritage overlay. Donnellan Constructions handles all permit applications as part of our project management service.",
+        "Material choices make a big difference. Coastal Chelsea demands salt-resistant materials for external cladding, windows and roofing to avoid corrosion. Fibre cement, Colorbond steel and treated timber are smart choices. They cost slightly more upfront but save thousands in maintenance over the long term.",
+        "The timeline for a typical extension in Chelsea is 12 to 18 weeks from start to finish. Delays can happen due to weather (especially in winter) or material shortages. That's why we recommend starting planning in autumn to ensure a smooth build through spring. Our fixed-price contract means no surprises on the final bill.",
+        "Financing your extension? Many homeowners use equity from their existing home. Talk to your bank early and get pre-approval before you start. Some builders (including us) offer staged payment plans that align with key milestones — slab, frame, lock-up and completion.",
+        "If you're ready to explore an extension for your Chelsea home, call Donnellan Constructions for a free on-site consultation. We'll measure up, discuss your ideas and provide a detailed written quote — no obligation."
+      ]
+    },
+    {
+      "title": "Coastal Home Building: What You Must Know",
+      "date": "February 2026",
+      "excerpt": "Building near the coast in Chelsea? Learn about salt exposure, wind loads and the best materials to keep your home looking new for decades.",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+      "body": [
+        "Chelsea's beautiful coastal location comes with unique challenges for builders. Salt-laden air, strong winds and sandy soil all affect how a home is designed and constructed. This guide covers the critical factors every homeowner should know before building or renovating in a Bayside suburb.",
+        "Salt exposure is the number one enemy of coastal homes. It corrodes metal fittings, rusts steel frames and degrades paintwork quickly. To combat this, we recommend stainless steel or zinc-alume roofing, aluminium window frames with marine-grade finish, and stainless steel screws and fasteners throughout. These materials cost a bit more but last decades longer.",
+        "Wind loads in Chelsea are higher than inland areas because of open bayside exposure. Building codes require specific structural bracing, especially for large windows and roof overhangs. Ceiling battens and roof trusses may need to be engineered to withstand gusts up to 60 km/h. A good builder will factor this into the design from day one.",
+        "Sandy soil is common in Chelsea, which can shift or settle over time. Proper foundation design is crucial — typically requiring reinforced concrete slabs with deeper footings than clay soils. Geotechnical testing before construction is a must; it costs around $1,500 but saves huge headaches later.",
+        "Another consideration is drainage. Flat blocks near the coast can have poor natural drainage, leading to water pooling around foundations. We always include a perimeter drainage system with gravel and ag-pipe to channel water away from the slab. This prevents damp issues and concrete cancer in the long term.",
+        "Choosing the right paint and exterior finishes is also vital. Use high-quality, salt-resistant paint for render and timber. For decks, consider composite decking which won't rot or splinter, or hardwood like Spotted Gum treated with marine oil. Regular maintenance — washing down every six months — will keep everything looking fresh.",
+        "The good news is that modern building technology has solutions for every coastal challenge. At Donnellan Constructions, we've been building in Chelsea for over 20 years and know exactly what works. We source local suppliers who understand the coastal environment and provide warranties that stand up to real conditions.",
+        "Ready to build your dream coastal home? Get in touch with our team for a free consultation. We'll walk you through every step — from soil testing to final handover — with clear pricing and no hidden costs."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Renovating a Chelsea Home",
+      "date": "January 2026",
+      "excerpt": "Thinking of renovating in Chelsea? From opening up small rooms to adding modern kitchens, here's your step-by-step guide to a successful renovation.",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+      "body": [
+        "Renovating a home in Chelsea can breathe new life into an older property and significantly boost its value. Whether you're updating a 1970s brick veneer or modernising a weatherboard beach house, this guide covers the key steps, costs and local considerations for a successful renovation.",
+        "First, define your scope. Common Chelsea renovations include kitchen and bathroom updates, creating open-plan living by removing walls, adding a second bathroom, or re-cladding the exterior. Each has different budget and permit requirements. A full kitchen and bathroom renovation typically costs $40,000 to $70,000, while a cosmetic refresh can be as low as $20,000.",
+        "Check your home's structure before you start. Many older Chelsea homes have asbestos in wall linings, floor tiles or roofing. A professional asbestos inspection costs $500 to $1,000, and removal adds $3,000 to $10,000 depending on the amount. Don't skip this step — it's a legal requirement and protects your family's health.",
+        "Permits for renovations depend on the work. Replacing kitchen cabinets or flooring usually doesn't need a permit, but moving walls, plumbing or electrical does. If you're altering the building footprint or adding a second storey, you'll need a building permit from Kingston Council. Donnellan Constructions handles all permit applications as part of the project.",
+        "Designing for coastal conditions is key. In Chelsea, that means choosing moisture-resistant materials — waterproof gyprock in bathrooms, ceramic or porcelain tiles, and anti-mould paint. Good ventilation, especially in bathrooms and kitchens, prevents mould growth. We recommend installing exhaust fans with humidity sensors for automatic control.",
+        "Timing your renovation matters. Spring and autumn are ideal for major work because weather is mild, reducing delays. Winter can slow concrete curing and exterior painting. Summer is fine but can be hot for workers; ensure good ventilation and hydration on site. Plan for 8 to 12 weeks for a full kitchen and bathroom renovation.",
+        "Budget wisely. Allocate 15% of your total budget for unexpected issues — rotten timber, outdated wiring, or plumbing problems often surface once walls are opened. Work with a builder who provides a detailed scope of works and a fixed quote, so you know exactly where your money is going. Avoid hourly-rate builders who profit from delays.",
+        "Ready to transform your Chelsea home? Contact Donnellan Constructions for a free quote. We'll visit your property, listen to your goals, and provide a fixed-price proposal with a realistic timeline. No obligation, just honest advice."
+      ]
+    },
+    {
+      "title": "Fixed-Price vs Hourly Rate: Which Builder Pricing is Better?",
+      "date": "December 2025",
+      "excerpt": "Should you choose a fixed-price contract or an hourly rate for your build? We explain the pros and cons for Chelsea homeowners, with real examples.",
+      "image": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+      "body": [
+        "One of the biggest decisions when hiring a builder is how they charge: fixed-price or hourly rate. Each has advantages, but for most homeowners in Chelsea, fixed-price is the safer choice. This guide breaks down both models so you can make an informed decision for your project.",
+        "Fixed-price means the builder quotes a total cost for the entire project, based on detailed plans and specifications. You pay that amount — no more, no less — unless you change the scope. This gives you complete budget certainty. It's ideal for renovations and new homes where the design is finalised before work starts.",
+        "Hourly rate (or cost-plus) means you pay for the builder's time and materials as the job progresses, plus a margin. You only pay for what's actually used, which can be cheaper if everything goes smoothly. But if delays or mistakes happen, the cost can blow out significantly. This model suits very small jobs or projects where the scope isn't fixed.",
+        "The risks of hourly rate include lack of incentive to finish quickly, and you bear all the cost of unexpected issues. A fixed-price builder has a strong incentive to work efficiently and manage costs because any overrun comes out of their profit. That's why most reputable builders, including Donnellan Constructions, offer fixed-price contracts for renovations and new builds.",
+        "However, fixed-price doesn't mean you can change your mind without extra cost. Variations — any change from the original plan — will be quoted separately. That's why it's crucial to finalise your design and selections before signing the contract. Good builders will walk you through every detail to minimise variations.",
+        "In Chelsea, we often see homeowners tempted by low hourly rates from unlicensed builders. These rarely end well — poor workmanship, unfinished jobs, and no warranty. Always use a registered building practitioner with insurance. Fixed-price contracts are a sign of a professional, confident builder who stands behind their work.",
+        "To get a reliable fixed-price quote, you need a clear scope. That means detailed architectural plans, material selections (tiles, tapware, benchtops) and specifications for fixtures. Donnellan Constructions provides a comprehensive proposal with every item listed, so you know exactly what you're getting. No vague allowances.",
+        "If you're planning a build in Chelsea, call us for a free consultation. We'll discuss your project, explain our fixed-price process, and give you a written quote. No lock-in, no pressure — just honest advice from a local team you can trust."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+  "photoRowImages": [
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg"
+  ],
+  "aboutImages": [
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg"
+  ],
+  "fullWidthImage": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+  "testimonialsImage": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+  "galleryImages": [
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg",
+    "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-scaled.jpg"
+  ],
+  "pricingBgImage": "https://donnellanconstructions.com.au/wp-content/uploads/2023/04/3_Balcony-300x200.jpg"
+}
