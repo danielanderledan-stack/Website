@@ -1196,6 +1196,109 @@
         }
       }
 
+      /* ======================= BLOG POSTS ======================= */
+      .blog-list {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin: 14px 0 4px;
+      }
+      .blog-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        border-radius: var(--r-lg);
+        padding: 9px 11px;
+        transition:
+          border-color 0.14s,
+          box-shadow 0.14s;
+      }
+      .blog-row:hover {
+        border-color: var(--muted-fg);
+        box-shadow: var(--shadow-sm);
+      }
+      .blog-row.is-new {
+        border-color: var(--primary);
+        background: var(--primary-tint);
+      }
+      .blog-thumb {
+        width: 60px;
+        height: 46px;
+        border-radius: var(--r-sm);
+        object-fit: cover;
+        background: var(--muted-2);
+        flex: none;
+        border: 1px solid var(--border-soft);
+      }
+      .blog-thumb.ph {
+        display: grid;
+        place-items: center;
+        color: var(--muted-fg);
+      }
+      .blog-thumb.ph svg {
+        width: 20px;
+        height: 20px;
+      }
+      .blog-meta {
+        flex: 1;
+        min-width: 0;
+      }
+      .blog-meta .bt {
+        font-weight: 700;
+        font-size: 13.5px;
+        color: var(--fg);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .blog-meta .bu {
+        font-size: 11.5px;
+        color: var(--muted-fg);
+        margin-top: 1px;
+      }
+      .blog-meta .bnew {
+        display: inline-block;
+        font-size: 9.5px;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--primary-hover);
+        background: #fff;
+        border: 1px solid #ffe1bd;
+        padding: 1px 6px;
+        border-radius: 20px;
+        margin-top: 4px;
+      }
+      .blog-row .btn {
+        flex: none;
+        padding: 7px 12px;
+        font-size: 12.5px;
+      }
+      .blog-empty {
+        text-align: center;
+        padding: 26px 14px;
+        color: var(--muted-fg);
+        font-size: 13px;
+        line-height: 1.6;
+      }
+      .blog-state {
+        text-align: center;
+        padding: 34px 14px;
+        color: var(--muted-fg);
+        font-size: 13px;
+      }
+      .blog-state .an-spin {
+        width: 26px;
+        height: 26px;
+        border: 3px solid var(--muted-2);
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        margin: 0 auto 12px;
+        animation: spin 0.8s linear infinite;
+      }
+
       /* publish watcher spinner */
       .pub-spin {
         width: 38px;
@@ -1478,7 +1581,7 @@
             </svg>
             Business details
           </button>
-          <button class="nav-item" disabled>
+          <button class="nav-item" data-modal="blog">
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -1492,7 +1595,7 @@
                 d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
               />
             </svg>
-            Blog posts <span class="soon">Soon</span>
+            Blog posts
           </button>
           <button class="nav-item" data-modal="analytics">
             <svg
@@ -1997,6 +2100,62 @@
       </div>
     </div>
 
+    <!-- BLOG POSTS modal -->
+    <div class="overlay cd-modal" id="blogModal" hidden>
+      <div class="modal mdl">
+        <button class="mdl-x" data-modal-close aria-label="Close">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+        <h2 class="pane-title" style="margin-top: 0">Blog posts</h2>
+        <p class="pane-sub">
+          Your articles help customers find you on Google. Open one to edit its
+          words and photos, or add a fresh post.
+        </p>
+
+        <div class="blog-state" id="blogLoading" hidden>
+          <div class="an-spin"></div>
+          Loading your posts…
+        </div>
+        <div class="blog-list" id="blogList"></div>
+        <div class="blog-empty" id="blogEmpty" hidden>
+          No blog posts yet. Add your first one below — it's a great way to show
+          up on Google.
+        </div>
+
+        <button
+          class="btn btn-primary btn-block"
+          id="blogNew"
+          style="margin-top: 6px"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="width: 15px; height: 15px"
+          >
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+          New post
+        </button>
+        <p class="pane-note" id="blogNote">
+          A new post is created blank — open it to add your heading, words and a
+          photo, then hit Publish.
+        </p>
+      </div>
+    </div>
+
     <!-- Canva-style floating rich-text toolbar -->
     <div class="ce-toolbar" id="ceToolbar" hidden>
       <button class="tb-btn" id="tbB" title="Bold"><b>B</b></button>
@@ -2054,9 +2213,17 @@
           preview: "desktop",
           images: [], // {path,url}
           rawHtml: {}, // page -> raw source HTML (for find/occurrence anchors)
-          ops: { el: {}, img: {}, colour: null, details: null, fonts: null },
+          ops: {
+            el: {},
+            img: {},
+            colour: null,
+            details: null,
+            fonts: null,
+            blog: [],
+          },
           undo: [],
           details: null,
+          blog: null, // cached {posts:[{num,title,url,thumb}], nextNum} for the modal
         };
 
         /* -------------------- helpers -------------------- */
@@ -2090,7 +2257,12 @@
           var p = PAGES.filter(function (x) {
             return x.v === pg;
           })[0];
-          return root(state.homepage).replace(/\/$/, "") + (p ? p.path : "/");
+          var base = root(state.homepage).replace(/\/$/, "");
+          if (p) return base + p.path;
+          // blog posts (and any other deep page) aren't in the PAGES tab list —
+          // derive the URL from the page path: "blog/3/index.html" -> "/blog/3/".
+          var dir = String(pg || "").replace(/index\.html$/, "");
+          return base + "/" + dir.replace(/^\/+/, "");
         }
 
         /* -------------------- ops / publish count -------------------- */
@@ -2101,6 +2273,8 @@
           if (state.ops.colour) n++;
           if (state.ops.details) n++;
           if (state.ops.fonts) n++;
+          if (state.ops.blog && state.ops.blog.length)
+            n += state.ops.blog.length;
           return n;
         }
         function refreshPublish() {
@@ -3194,6 +3368,14 @@
           }
           if (state.ops.fonts)
             jobs.push(api({ action: "save-fonts", pair: state.ops.fonts.id }));
+          // Blog: one create-blog-post per staged new post. The backend picks
+          // the real next number itself; we only pass the title (optional).
+          var hadBlog = state.ops.blog && state.ops.blog.length > 0;
+          (state.ops.blog || []).forEach(function (op) {
+            jobs.push(
+              api({ action: "create-blog-post", title: op.title || "" }),
+            );
+          });
 
           Promise.all(
             jobs.map(function (p) {
@@ -3211,8 +3393,12 @@
               colour: null,
               details: null,
               fonts: null,
+              blog: [],
             };
             state.undo = [];
+            // New posts changed the listing — drop the cache so the Blog modal
+            // re-reads it (with the freshly created post) next time it opens.
+            if (hadBlog) state.blog = null;
             refreshPublish();
             $("publishLabel").textContent = "Publish";
             if (bad.length === results.length) {
@@ -3701,6 +3887,179 @@
           },
         );
 
+        /* -------------------- blog posts -------------------- */
+        // Read the site's posts from the blog listing page (the <a class="blog-card">
+        // anchors), so the list always matches what visitors actually see.
+        function parseBlogPosts(html) {
+          var posts = [];
+          try {
+            var doc = new DOMParser().parseFromString(html, "text/html");
+            var cards = doc.querySelectorAll('a[href^="/blog/"]');
+            Array.prototype.forEach.call(cards, function (a) {
+              var href = a.getAttribute("href") || "";
+              var m = href.match(/^\/blog\/(\d+)\/?$/);
+              if (!m) return;
+              var num = parseInt(m[1], 10);
+              var h = a.querySelector("h1,h2,h3");
+              var img = a.querySelector("img");
+              posts.push({
+                num: num,
+                title: h ? norm(h.textContent) : "Post " + num,
+                url: "blog/" + num + "/",
+                thumb: img ? img.getAttribute("src") || "" : "",
+              });
+            });
+          } catch (e) {}
+          posts.sort(function (a, b) {
+            return a.num - b.num;
+          });
+          return posts;
+        }
+        function blogThumbUrl(src) {
+          if (!src) return "";
+          if (/^https?:\/\//.test(src) || src.indexOf("data:") === 0)
+            return src;
+          return (
+            root(state.homepage).replace(/\/$/, "") +
+            "/" +
+            src.replace(/^\/+/, "")
+          );
+        }
+        function openBlog() {
+          // Render staged + cached immediately; (re)fetch the listing if needed.
+          if (state.blog) {
+            renderBlog();
+            return;
+          }
+          $("blogLoading").hidden = false;
+          $("blogList").innerHTML = "";
+          $("blogEmpty").hidden = true;
+          var done = function (html) {
+            state.blog = { posts: parseBlogPosts(html || "") };
+            $("blogLoading").hidden = true;
+            renderBlog();
+          };
+          if (window.__DEV) {
+            // Dev shell: use whatever the sample exposes (homepage has no cards,
+            // so this exercises the empty + staged-new paths).
+            fetch("/editor/_sample.html")
+              .then(function (r) {
+                return r.text();
+              })
+              .then(done)
+              .catch(function () {
+                done("");
+              });
+            return;
+          }
+          var url = pageUrl("blog/index.html");
+          fetch(
+            "/api/editor-page?url=" +
+              encodeURIComponent(
+                url + (url.indexOf("?") < 0 ? "?capture=1" : "&capture=1"),
+              ),
+          )
+            .then(function (r) {
+              if (!r.ok) throw new Error("load");
+              return r.text();
+            })
+            .then(done)
+            .catch(function () {
+              done("");
+            });
+        }
+        function nextBlogNum() {
+          var max = 0;
+          (state.blog && state.blog.posts ? state.blog.posts : []).forEach(
+            function (p) {
+              if (p.num > max) max = p.num;
+            },
+          );
+          state.ops.blog.forEach(function (op) {
+            if (op.num > max) max = op.num;
+          });
+          return max + 1;
+        }
+        function renderBlog() {
+          var box = $("blogList");
+          box.innerHTML = "";
+          var existing = state.blog && state.blog.posts ? state.blog.posts : [];
+          var staged = state.ops.blog || [];
+          if (!existing.length && !staged.length) {
+            $("blogEmpty").hidden = false;
+            return;
+          }
+          $("blogEmpty").hidden = true;
+          existing.forEach(function (p) {
+            box.appendChild(blogRow(p, false));
+          });
+          staged.forEach(function (op) {
+            box.appendChild(
+              blogRow(
+                {
+                  num: op.num,
+                  title: op.title || "New post",
+                  url: "blog/" + op.num + "/",
+                  thumb: "",
+                },
+                true,
+              ),
+            );
+          });
+        }
+        function blogRow(p, isNew) {
+          var row = document.createElement("div");
+          row.className = "blog-row" + (isNew ? " is-new" : "");
+          var thumb = blogThumbUrl(p.thumb);
+          var thumbHtml = thumb
+            ? '<img class="blog-thumb" src="' +
+              thumb.replace(/"/g, "&quot;") +
+              '" alt="" loading="lazy">'
+            : '<span class="blog-thumb ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg></span>';
+          row.innerHTML =
+            thumbHtml +
+            '<div class="blog-meta"><div class="bt"></div><div class="bu">/blog/' +
+            p.num +
+            "/</div>" +
+            (isNew ? '<span class="bnew">New · not published</span>' : "") +
+            "</div>";
+          row.querySelector(".bt").textContent = p.title;
+          var btn = document.createElement("button");
+          btn.className = "btn " + (isNew ? "btn-primary" : "btn-outline");
+          btn.textContent = "Open to edit";
+          btn.onclick = function () {
+            openBlogPost(p.num);
+          };
+          row.appendChild(btn);
+          return row;
+        }
+        function openBlogPost(num) {
+          closeAllModals();
+          loadPage("blog/" + num + "/index.html");
+          $("frameUrl").textContent = pageUrl(
+            "blog/" + num + "/index.html",
+          ).replace(/^https?:\/\//, "");
+          if (window.__DEV) {
+            toast(
+              "Dev preview shows the sample page — on a real site this opens /blog/" +
+                num +
+                "/.",
+            );
+          }
+        }
+        $("blogNew").onclick = function () {
+          if (window.__DEV) {
+            // allow staging in dev so the UI flow is testable, but it won't publish
+          }
+          var num = nextBlogNum();
+          state.ops.blog.push({ num: num, title: "" });
+          renderBlog();
+          refreshPublish();
+          toast(
+            "New post staged — hit Publish to create it, then open it to add your content.",
+          );
+        };
+
         /* -------------------- panes / nav -------------------- */
         function showPane(name) {
           document
@@ -3730,6 +4089,7 @@
         /* -------------------- settings modals (Colours / Details) -------------------- */
         function modalEl(name) {
           if (name === "analytics") return $("analyticsModal");
+          if (name === "blog") return $("blogModal");
           return $(name === "colours" ? "coloursModal" : "detailsModal");
         }
         function openModal(name) {
@@ -3739,6 +4099,10 @@
           closeSheet();
           if (name === "analytics") {
             openAnalytics();
+            return;
+          }
+          if (name === "blog") {
+            openBlog();
             return;
           }
           var f = el.querySelector("input");

@@ -858,6 +858,157 @@ if (!changed) return [{ json: { ok: false, error: notes[0] || 'That change is no
 return [{ json: { ok: true, pages: changed, notes } }];
 `.trim();
 
+/* ---------------- blog posts (free, deterministic, jsdom) ----------------
+   Mirrors prerender/blog-ops.cjs (kept in sync; that file is the tested source
+   of truth). Reads three GitHub-fetched files from the preceding nodes:
+     Blog Index   -> blog/index.html       (required)
+     Blog Sample  -> blog/<n>/index.html   (an existing post to clone; required)
+     Blog Sitemap -> sitemap.xml           (optional)
+   Emits one item per file to write: the NEW post page (isNew=true, GitHub
+   'create'), plus blog/index.html + sitemap.xml (isNew=false, GitHub 'edit').
+   The new page + the single inserted card + the single sitemap entry are the
+   ONLY changes — existing post pages are never touched. */
+const CODE_CREATE_BLOG = `
+const { JSDOM } = require('jsdom');
+const body = $('Builder Webhook').first().json.body || {};
+const guard = $('Blog Guard').first().json;
+const dec = (n) => { try { return Buffer.from(($(n).first().json.content)||'', 'base64').toString('utf8'); } catch (e) { return ''; } };
+const blogIndex = dec('Blog Index');
+const sample = dec('Blog Sample');
+const sitemap = dec('Blog Sitemap');
+if (!blogIndex) throw new Error('Could not read the blog page.');
+if (!sample) throw new Error('Could not read an existing post to base the new one on.');
+
+const esc = (s) => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const escAttr = (s) => esc(s).replace(/"/g,'&quot;');
+const stripTags = (s) => String(s==null?'':s).replace(/<[^>]+>/g,'').replace(/\\s+/g,' ').trim();
+
+// next number from the existing post dirs the guard discovered
+let max = 0; (guard.existing||[]).forEach((p) => { const m = String(p).match(/blog\\/(\\d+)\\//); if (m) max = Math.max(max, +m[1]||0); });
+const num = max + 1;
+const title = stripTags(body.title) || 'New blog post — edit me';
+
+// --- serialize-doc (fuse formatter + clamp protection), inlined ---
+const VOID_TAGS = new Set(['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']);
+const openTag = (el) => { let a=''; for (const at of el.attributes) a += ' '+at.name+'="'+at.value.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'"'; return '<'+el.tagName.toLowerCase()+a+'>'; };
+const isElementOnly = (el) => { let any=false; for (const ch of el.childNodes){ if (ch.nodeType===3 && ch.textContent.trim()!=='') return false; if (ch.nodeType===1||ch.nodeType===8) any=true; } return any; };
+const fmt = (node, indent, out) => {
+  if (node.nodeType===8){ out.push(indent+'<!--'+node.textContent+'-->'); return; }
+  if (node.nodeType===3){ const t=node.textContent.trim(); if (t) out.push(indent+t); return; }
+  if (node.nodeType!==1) return;
+  const tag=node.tagName.toLowerCase();
+  if (tag==='script'||tag==='style'){ const txt=node.textContent.trim(); if (txt){ out.push(indent+openTag(node)); out.push(txt); out.push(indent+'</'+tag+'>'); } else out.push(indent+openTag(node)+'</'+tag+'>'); return; }
+  if (VOID_TAGS.has(tag)){ out.push(indent+openTag(node)); return; }
+  if (!node.childNodes.length){ out.push(indent+openTag(node)+'</'+tag+'>'); return; }
+  if (isElementOnly(node)){ out.push(indent+openTag(node)); for (const ch of node.childNodes) fmt(ch, indent+'  ', out); out.push(indent+'</'+tag+'>'); }
+  else out.push(indent+node.outerHTML);
+};
+const serialize = (doc) => { const out=['<!DOCTYPE html>']; fmt(doc.documentElement,'',out); return out.join('\\n')+'\\n'; };
+const protectClamps = (html) => { const map=new Map(); const out=String(html).replace(/(?:clamp|min|max)\\([^()]*\\)/g,(expr)=>{ let key=null; for (const [k,v] of map) if (v===expr) key=k; if (!key){ key='var(--cdclamp-'+map.size+')'; map.set(key,expr); } return key; }); return { html: out, map }; };
+const restoreClamps = (html, map) => { for (const [key,expr] of map) html=html.split(key).join(expr); return html; };
+
+// --- build the new post page ---
+const prot = protectClamps(sample);
+const doc = new JSDOM(prot.html).window.document;
+let base='';
+const canon = doc.querySelector('link[rel="canonical"]');
+const ogUrl = doc.querySelector('meta[property="og:url"]');
+const srcUrl = (canon && canon.getAttribute('href')) || (ogUrl && ogUrl.getAttribute('content')) || '';
+const bm = srcUrl.match(/^(https?:\\/\\/[^\\/]+)/); if (bm) base = bm[1];
+const newUrl = base ? base+'/blog/'+num+'/' : '/blog/'+num+'/';
+const oldTitle = (doc.querySelector('title')||{}).textContent || '';
+const brand = oldTitle.indexOf('|')>=0 ? oldTitle.slice(oldTitle.lastIndexOf('|')+1).trim() : '';
+const pageTitle = brand ? title+' | '+brand : title;
+const desc = 'A new article — open the editor to write it.';
+const setT=(s,t)=>{ const el=doc.querySelector(s); if (el) el.textContent=t; };
+const setA=(s,a,v)=>{ const el=doc.querySelector(s); if (el) el.setAttribute(a,v); };
+setT('title', pageTitle);
+setA('meta[name="description"]','content',desc);
+setA('meta[property="og:title"]','content',pageTitle);
+setA('meta[property="og:description"]','content',desc);
+setA('meta[property="og:url"]','content',newUrl);
+setA('meta[name="twitter:title"]','content',pageTitle);
+setA('meta[name="twitter:description"]','content',desc);
+if (canon) canon.setAttribute('href', newUrl);
+const h1 = doc.querySelector('[data-ce="s0-h1-1"]'); if (h1) h1.textContent = title;
+const dp = doc.querySelector('[data-ce="s0-p-1"]'); if (dp) dp.textContent = new Date().toLocaleDateString('en-AU',{ month:'long', year:'numeric' });
+const fi = doc.querySelector('[data-ce="s1-img-1"]'); if (fi) fi.setAttribute('alt', title);
+const paras = Array.prototype.slice.call(doc.querySelectorAll('[data-ce^="s1-p-"]'));
+if (paras.length){ paras[0].textContent = 'Write your article here. Click this text in the editor to replace it with your own — share a tip, answer a common customer question, or talk about a recent job. Add as much as you like.'; for (let i=1;i<paras.length;i++){ if (paras[i].parentNode) paras[i].parentNode.removeChild(paras[i]); } }
+let postHtml = restoreClamps(serialize(doc), prot.map);
+
+// --- insert ONE card into blog/index.html (string splice; existing bytes preserved) ---
+let indexOut = blogIndex, cardOk=false;
+(function(){
+  const startRe = /<a\\b[^>]*class="[^"]*\\bblog-card\\b[^"]*"[^>]*>/i;
+  const sm = startRe.exec(blogIndex); if (!sm) return;
+  const openIdx = sm.index;
+  const aOpen=/<a\\b/gi, aClose=/<\\/a\\s*>/gi; let depth=1, pos=openIdx+sm[0].length, endIdx=-1;
+  while (depth>0){ aOpen.lastIndex=pos; aClose.lastIndex=pos; const o=aOpen.exec(blogIndex), c=aClose.exec(blogIndex); if (!c) break; if (o&&o.index<c.index){ depth++; pos=o.index+2; } else { depth--; if (depth===0) endIdx=c.index+c[0].length; pos=c.index+c[0].length; } }
+  if (endIdx===-1) return;
+  let card = blogIndex.slice(openIdx, endIdx);
+  const ls = blogIndex.lastIndexOf('\\n', openIdx); const indent = blogIndex.slice(ls+1, openIdx).match(/^\\s*/)[0];
+  const replInner = (frag, ceRe, txt) => { const m=ceRe.exec(frag); if (!m) return frag; const mi=m.index; const ts=frag.lastIndexOf('<',mi); if (ts===-1) return frag; const tm=/^<([a-zA-Z0-9]+)/.exec(frag.slice(ts)); if (!tm) return frag; const tag=tm[1].toLowerCase(); const gt=frag.indexOf('>',mi); if (gt===-1) return frag; const innerStart=gt+1; const oRe=new RegExp('<'+tag+'\\\\b','gi'), cRe=new RegExp('</'+tag+'\\\\s*>','gi'); let d=1,p=innerStart; while(d>0){ oRe.lastIndex=p; cRe.lastIndex=p; const o=oRe.exec(frag), c=cRe.exec(frag); if (!c) return frag; if (o&&o.index<c.index){ d++; p=o.index+1; } else { d--; if (d===0) return frag.slice(0,innerStart)+txt+frag.slice(c.index); p=c.index+c[0].length; } } return frag; };
+  card = card.replace(/(<a\\b[^>]*\\bhref=")[^"]*(")/i, '$1/blog/'+num+'/$2');
+  card = replInner(card, /data-ce="s1-h2-\\d+"/, esc(title));
+  card = replInner(card, /data-ce="s1-p-\\d+"/, 'A new article — open the editor to write it.');
+  card = card.replace(/(<img\\b[^>]*\\balt=")[^"]*(")/i, '$1'+escAttr(title)+'$2');
+  card = card.replace(/(color:\\s*var\\(--color-primary\\);[^"]*"\\s*>)[^<]*(<\\/div>)/i, '$1'+esc(new Date().toLocaleDateString('en-AU',{month:'long',year:'numeric'}))+'$2');
+  let maxIdx=0; { const re=/data-ce="s1-[a-z0-9]+-(\\d+)"/gi; let mm; while ((mm=re.exec(blogIndex))) maxIdx=Math.max(maxIdx,+mm[1]||0); }
+  card = card.replace(/data-ce="s1-(img|h2|p|span)-\\d+"/g, 'data-ce="s1-$1-'+(maxIdx+1)+'"');
+  const before = blogIndex.slice(0, openIdx); const gridOpen = before.lastIndexOf('<div');
+  if (gridOpen!==-1){ const gridClose = blogIndex.indexOf('>', gridOpen); indexOut = blogIndex.slice(0, gridClose+1) + '\\n' + indent + card + blogIndex.slice(gridClose+1); }
+  else indexOut = blogIndex.slice(0, openIdx) + card + '\\n' + indent + blogIndex.slice(openIdx);
+  cardOk = true;
+})();
+
+// --- insert ONE <url> into sitemap.xml (string splice) ---
+let sitemapOut = sitemap, sitemapOk=false;
+if (sitemap){
+  const loc = (base||'')+'/blog/'+num+'/';
+  if (sitemap.indexOf('<loc>'+loc+'</loc>')===-1){
+    const closeIdx = sitemap.lastIndexOf('</urlset>');
+    if (closeIdx!==-1){
+      const lastUrl = sitemap.lastIndexOf('<url>'); let indent='  ';
+      if (lastUrl!==-1){ const ls=sitemap.lastIndexOf('\\n',lastUrl); indent=sitemap.slice(ls+1,lastUrl).match(/^\\s*/)[0]||'  '; }
+      sitemapOut = sitemap.slice(0, closeIdx) + indent + '<url><loc>'+loc+'</loc></url>\\n' + sitemap.slice(closeIdx);
+      sitemapOk = true;
+    }
+  }
+}
+
+// Summary fields are carried ON the new-file item (not a separate item) so the
+// downstream IF only ever sees real files to commit — never an empty path.
+const out = [{ json: { site: guard.site, path: 'blog/'+num+'/index.html', content: postHtml, isNew: true, num, summary: true, url: newUrl, card: cardOk, sitemap: sitemapOk } }];
+if (cardOk) out.push({ json: { site: guard.site, path: 'blog/index.html', content: indexOut, isNew: false, num } });
+if (sitemapOk) out.push({ json: { site: guard.site, path: 'sitemap.xml', content: sitemapOut, isNew: false, num } });
+return out;
+`.trim();
+
+const CODE_BLOG_GUARD = `
+// Session check + discover existing posts from the sitemap so we can pick the
+// next post number and a sample post to clone.
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+if (!row.site) throw new Error('No website linked to this account');
+let existing = [];
+let sampleNum = 1;
+try {
+  const sm = Buffer.from($('Get Blog Sitemap').first().json.content, 'base64').toString('utf8');
+  existing = [...sm.matchAll(/\\/blog\\/(\\d+)\\//g)].map((m) => 'blog/' + m[1] + '/index.html');
+  const nums = [...new Set([...sm.matchAll(/\\/blog\\/(\\d+)\\//g)].map((m) => +m[1]))];
+  if (nums.length) sampleNum = Math.min(...nums);
+} catch (e) {}
+return [{ json: { site: row.site, existing, sampleNum, samplePath: 'blog/' + sampleNum + '/index.html' } }];
+`.trim();
+
+const CODE_BLOG_REPLY = `
+const sum = ($('Create Blog Post').all().map((i) => i.json).find((i) => i.summary)) || {};
+if (!sum.num) return [{ json: { ok: false, error: 'Could not create the post.' } }];
+return [{ json: { ok: true, num: sum.num, url: sum.url, card: !!sum.card, sitemap: !!sum.sitemap } }];
+`.trim();
+
 /* ---------------- editor chain: validate / route / bill ---------------- */
 
 const CODE_VALIDATE_V3 = `
@@ -1134,6 +1285,7 @@ const accountNodes = [
           switchRule("savefonts", "save-fonts"),
           switchRule("saveannounce", "save-announce"),
           switchRule("togglesection", "toggle-section"),
+          switchRule("createblogpost", "create-blog-post"),
         ],
       },
       options: {},
@@ -1823,6 +1975,177 @@ const accountNodes = [
     settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_SITE_EDIT_REPLY },
   },
+  /* ---- blog posts: create-blog-post (deterministic, jsdom) ---- */
+  {
+    name: "Find Session Blog",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 1760],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Get Blog Sitemap",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1580, Y + 1760],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $json.site }}",
+        mode: "name",
+      },
+      filePath: "sitemap.xml",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Blog Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1740, Y + 1760],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_BLOG_GUARD },
+  },
+  {
+    name: "Get Blog Index",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1900, Y + 1760],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "blog/index.html",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Get Blog Sample",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2060, Y + 1760],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Blog Guard').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "={{ $('Blog Guard').first().json.samplePath }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Get Blog Sitemap C",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2220, Y + 1760],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { alwaysOutputData: true, onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: {
+        __rl: true,
+        value: "={{ $('Blog Guard').first().json.site }}",
+        mode: "name",
+      },
+      filePath: "sitemap.xml",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Create Blog Post",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2380, Y + 1760],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_CREATE_BLOG },
+  },
+  {
+    name: "Blog Is New File",
+    type: "n8n-nodes-base.if",
+    typeVersion: 2.2,
+    position: [2540, Y + 1760],
+    parameters: ifCond(
+      "binf1",
+      "={{ $json.isNew ? 1 : 0 }}",
+      { type: "number", operation: "equals" },
+      1,
+    ),
+  },
+  {
+    name: "Commit Blog New",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2700, Y + 1720],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "create",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "={{ 'new blog post: /blog/' + $json.num + '/' }}",
+    },
+  },
+  {
+    name: "Commit Blog Edit",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2700, Y + 1820],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    settings: { onError: "continueRegularOutput" },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.path }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "={{ 'blog: link new post /blog/' + $json.num + '/' }}",
+    },
+  },
+  {
+    name: "Blog Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2860, Y + 1760],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_BLOG_REPLY },
+  },
   {
     name: "Respond Builder",
     type: "n8n-nodes-base.respondToWebhook",
@@ -2135,6 +2458,20 @@ const accountConnections = [
   { source: "Made Site Changes", target: "Site Edit Reply", sourceIndex: 1 },
   ["Commit Site Edit", "Site Edit Reply"],
   ["Site Edit Reply", "Respond Builder"],
+  /* blog posts: create-blog-post (switch output index 15) */
+  { source: "Route Action", target: "Find Session Blog", sourceIndex: 15 },
+  ["Find Session Blog", "Get Blog Sitemap"],
+  ["Get Blog Sitemap", "Blog Guard"],
+  ["Blog Guard", "Get Blog Index"],
+  ["Get Blog Index", "Get Blog Sample"],
+  ["Get Blog Sample", "Get Blog Sitemap C"],
+  ["Get Blog Sitemap C", "Create Blog Post"],
+  ["Create Blog Post", "Blog Is New File"],
+  { source: "Blog Is New File", target: "Commit Blog New", sourceIndex: 0 },
+  { source: "Blog Is New File", target: "Commit Blog Edit", sourceIndex: 1 },
+  ["Commit Blog New", "Blog Reply"],
+  ["Commit Blog Edit", "Blog Reply"],
+  ["Blog Reply", "Respond Builder"],
 ];
 
 const editorConnections = [
