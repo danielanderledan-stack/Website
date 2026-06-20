@@ -2020,6 +2020,16 @@
             <span class="hex" id="hexDark">—</span>
             <input type="color" id="colDark" value="#1a1a1a" />
           </label>
+          <label class="swatch">
+            <span
+              class="chip"
+              id="chipBg"
+              style="background: #ffffff; box-shadow: inset 0 0 0 1px #e5e0d8"
+            ></span>
+            <span class="nm">Background</span>
+            <span class="hex" id="hexBg">—</span>
+            <input type="color" id="colBg" value="#ffffff" />
+          </label>
         </div>
         <button
           class="btn btn-primary btn-block"
@@ -2030,7 +2040,8 @@
         </button>
         <p class="pane-note">
           Main colour drives buttons &amp; highlights. Dark colour is the menu
-          bar and footer.
+          bar and footer. Background re-tints the page — pick a light shade so
+          your text stays easy to read.
         </p>
       </div>
     </div>
@@ -3723,11 +3734,14 @@
           var st = doc.documentElement.style;
           var p = st.getPropertyValue("--color-primary").trim() || "#00aaff";
           var s = st.getPropertyValue("--color-secondary").trim() || "#1a1a1a";
+          var bg = st.getPropertyValue("--color-bg").trim() || "#ffffff";
           if (!state.ops.colour) {
             setSwatch("Main", p);
             setSwatch("Dark", s);
+            setSwatch("Bg", bg);
             $("colMain").value = toHex(p);
             $("colDark").value = toHex(s);
+            $("colBg").value = toHex(bg);
           } else {
             applyColourPreview(); // keep staged colour
           }
@@ -3783,12 +3797,14 @@
           var doc = $("siteFrame").contentDocument;
           if (!doc) return;
           var p = $("colMain").value,
-            s = $("colDark").value;
+            s = $("colDark").value,
+            bg = $("colBg").value;
           var st = doc.documentElement.style;
           st.setProperty("--color-primary", p);
           st.setProperty("--color-primary-rgb", hexToRgb(p));
           st.setProperty("--color-primary-hover", darken(p, 0.12));
           st.setProperty("--color-secondary", s);
+          st.setProperty("--color-bg", bg);
         }
         $("colMain").oninput = function () {
           setSwatch("Main", this.value);
@@ -3798,10 +3814,15 @@
           setSwatch("Dark", this.value);
           stageColour();
         };
+        $("colBg").oninput = function () {
+          setSwatch("Bg", this.value);
+          stageColour();
+        };
         function stageColour() {
           state.ops.colour = {
             primary: $("colMain").value,
             secondary: $("colDark").value,
+            bg: $("colBg").value,
           };
           applyColourPreview();
           refreshPublish();
@@ -3963,6 +3984,7 @@
                 action: "colours",
                 primary: state.ops.colour.primary,
                 secondary: state.ops.colour.secondary,
+                bg: state.ops.colour.bg,
               }),
             );
           if (state.ops.details) {

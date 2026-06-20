@@ -74,6 +74,17 @@ html:not(.js) .reveal,html:not(.js) .reveal-l,html:not(.js) .reveal-r{opacity:1!
 @keyframes cd-loader-fade{to{opacity:1}}
 @keyframes cd-loader-slide{0%{left:-40%}100%{left:100%}}
 html:not(.js) .cd-loader{display:none}
+/* split-CTA band: plain white (was the brand colour); the lightning bolt + dark
+   text stay readable. !important beats the inline background React baked in. */
+.split-cta-left{background:#fff!important}
+/* service/feature icons 60x60 + centred (mirrors the enlarge-icons migration so
+   new sites match already-deployed ones) */
+[data-ce-cap="icon"]{width:60px!important;height:60px!important;object-fit:contain;overflow:visible}
+/* themeable PAGE BACKGROUND. --color-bg (set by the Colours tab) recolours the
+   body + the neutral white sections; cards/cta/dark sections keep their own
+   colour. Defaults to white when unset, so the look is unchanged out of the box. */
+body{background:var(--color-bg,#fff)}
+section[style*="rgb(255, 255, 255)"]{background:var(--color-bg,#fff)!important}
 `;
 
 const PAGES = ["home", "about", "services", "pricing", "blog", "contact"];

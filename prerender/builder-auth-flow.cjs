@@ -266,7 +266,10 @@ if (!hexRe.test(primary) || !hexRe.test(secondary)) throw new Error('Invalid col
 const ch = (h, i) => parseInt(h.slice(1 + i * 2, 3 + i * 2), 16);
 const rgb = ch(primary, 0) + ', ' + ch(primary, 1) + ', ' + ch(primary, 2);
 const hover = '#' + [0, 1, 2].map((i) => Math.round(ch(primary, i) * 0.88).toString(16).padStart(2, '0')).join('');
-return [{ json: { site: row.site, primary, secondary, rgb, hover } }];
+// optional page background colour (Colours tab "Background"); null => leave as-is
+const bgIn = String(body.bg || '');
+const bg = hexRe.test(bgIn) ? bgIn : null;
+return [{ json: { site: row.site, primary, secondary, rgb, hover, bg } }];
 `.trim();
 
 const CODE_COLOUR_PAGES = `
@@ -337,6 +340,17 @@ return $input.all().map((it) => {
     .replace(/--color-primary-rgb:\\s*[^;"]+/, '--color-primary-rgb: ' + g.rgb)
     .replace(/--color-primary-hover:\\s*[^;"]+/, '--color-primary-hover: ' + g.hover)
     .replace(/--color-secondary:\\s*[^;"]+/, '--color-secondary: ' + g.secondary);
+
+  // page background variable (optional). The neutral white sections + body follow
+  // it via the var(--color-bg,#fff) rule shipped in site.css. Update in place, or
+  // insert it right after --color-secondary on first use.
+  if (g.bg) {
+    if (/--color-bg:\\s*[^;"]+/.test(html)) {
+      html = html.replace(/--color-bg:\\s*[^;"]+/, '--color-bg: ' + g.bg);
+    } else {
+      html = html.replace(/(--color-secondary:\\s*[^;"]+;?)/, '$1 --color-bg: ' + g.bg + ';');
+    }
+  }
 
   return { json: { path: it.json.path, content: html, site: g.site } };
 });
@@ -869,7 +883,6 @@ return [{ json: { ok: true, pages: changed, notes } }];
    The new page + the single inserted card + the single sitemap entry are the
    ONLY changes — existing post pages are never touched. */
 const CODE_CREATE_BLOG = `
-const { JSDOM } = require('jsdom');
 const body = $('Builder Webhook').first().json.body || {};
 const guard = $('Blog Guard').first().json;
 const dec = (n) => { try { return Buffer.from(($(n).first().json.content)||'', 'base64').toString('utf8'); } catch (e) { return ''; } };
@@ -888,56 +901,50 @@ let max = 0; (guard.existing||[]).forEach((p) => { const m = String(p).match(/bl
 const num = max + 1;
 const title = stripTags(body.title) || 'New blog post — edit me';
 
-// --- serialize-doc (fuse formatter + clamp protection), inlined ---
-const VOID_TAGS = new Set(['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']);
-const openTag = (el) => { let a=''; for (const at of el.attributes) a += ' '+at.name+'="'+at.value.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'"'; return '<'+el.tagName.toLowerCase()+a+'>'; };
-const isElementOnly = (el) => { let any=false; for (const ch of el.childNodes){ if (ch.nodeType===3 && ch.textContent.trim()!=='') return false; if (ch.nodeType===1||ch.nodeType===8) any=true; } return any; };
-const fmt = (node, indent, out) => {
-  if (node.nodeType===8){ out.push(indent+'<!--'+node.textContent+'-->'); return; }
-  if (node.nodeType===3){ const t=node.textContent.trim(); if (t) out.push(indent+t); return; }
-  if (node.nodeType!==1) return;
-  const tag=node.tagName.toLowerCase();
-  if (tag==='script'||tag==='style'){ const txt=node.textContent.trim(); if (txt){ out.push(indent+openTag(node)); out.push(txt); out.push(indent+'</'+tag+'>'); } else out.push(indent+openTag(node)+'</'+tag+'>'); return; }
-  if (VOID_TAGS.has(tag)){ out.push(indent+openTag(node)); return; }
-  if (!node.childNodes.length){ out.push(indent+openTag(node)+'</'+tag+'>'); return; }
-  if (isElementOnly(node)){ out.push(indent+openTag(node)); for (const ch of node.childNodes) fmt(ch, indent+'  ', out); out.push(indent+'</'+tag+'>'); }
-  else out.push(indent+node.outerHTML);
-};
-const serialize = (doc) => { const out=['<!DOCTYPE html>']; fmt(doc.documentElement,'',out); return out.join('\\n')+'\\n'; };
-const protectClamps = (html) => { const map=new Map(); const out=String(html).replace(/(?:clamp|min|max)\\([^()]*\\)/g,(expr)=>{ let key=null; for (const [k,v] of map) if (v===expr) key=k; if (!key){ key='var(--cdclamp-'+map.size+')'; map.set(key,expr); } return key; }); return { html: out, map }; };
-const restoreClamps = (html, map) => { for (const [key,expr] of map) html=html.split(key).join(expr); return html; };
+// --- build the new post page (PURE STRING; eval-safe — NO jsdom). A full-page
+// new JSDOM(html) crashes in this sandbox: inserting the page's <link> tags makes
+// jsdom resolve the document baseURL via querySelector('base'), whose CSS engine
+// compiles selectors with new Function ("Code generation from strings disallowed").
+// The sample is already fuse-formatted, so targeted string edits preserve every
+// untouched byte (including clamp()/min()/max()) and need no re-serialise. ---
+let postHtml = sample, base = '', newUrl = '';
+{
+  const replInner = (frag, ceRe, txt) => { const m=ceRe.exec(frag); if (!m) return frag; const mi=m.index; const ts=frag.lastIndexOf('<',mi); if (ts===-1) return frag; const tm=/^<([a-zA-Z0-9]+)/.exec(frag.slice(ts)); if (!tm) return frag; const tag=tm[1].toLowerCase(); const gt=frag.indexOf('>',mi); if (gt===-1) return frag; const innerStart=gt+1; const oRe=new RegExp('<'+tag+'\\\\b','gi'), cRe=new RegExp('</'+tag+'\\\\s*>','gi'); let d=1,p=innerStart; while(d>0){ oRe.lastIndex=p; cRe.lastIndex=p; const o=oRe.exec(frag), c=cRe.exec(frag); if (!c) return frag; if (o&&o.index<c.index){ d++; p=o.index+1; } else { d--; if (d===0) return frag.slice(0,innerStart)+txt+frag.slice(c.index); p=c.index+c[0].length; } } return frag; };
+  const setMetaStr = (h,k,v,c) => { const kr=new RegExp('\\\\b'+k+'="'+v+'"','i'); return h.replace(/<meta\\b[^>]*>/gi,(t)=>{ if (!kr.test(t)) return t; if (/\\bcontent="/i.test(t)) return t.replace(/(\\bcontent=")[^"]*(")/i,'$1'+escAttr(c)+'$2'); return t.replace(/\\s*\\/?>$/,' content="'+escAttr(c)+'">'); }); };
+  const setImgAlt = (h,ce,alt) => { const m=new RegExp('data-ce="'+ce+'"').exec(h); if (!m) return h; const ts=h.lastIndexOf('<',m.index), gt=h.indexOf('>',m.index); if (ts===-1||gt===-1) return h; let t=h.slice(ts,gt+1); if (/\\balt="/i.test(t)) t=t.replace(/(\\balt=")[^"]*(")/i,'$1'+escAttr(alt)+'$2'); else t=t.replace(/\\s*\\/?>$/,' alt="'+escAttr(alt)+'">'); return h.slice(0,ts)+t+h.slice(gt+1); };
+  const removeCe = (h,ce) => { const m=new RegExp('data-ce="'+ce+'"').exec(h); if (!m) return h; const ts=h.lastIndexOf('<',m.index); if (ts===-1) return h; const tm=/^<([a-zA-Z0-9]+)/.exec(h.slice(ts)); if (!tm) return h; const tag=tm[1].toLowerCase(); const gt=h.indexOf('>',m.index); if (gt===-1) return h; const oRe=new RegExp('<'+tag+'\\\\b','gi'), cRe=new RegExp('</'+tag+'\\\\s*>','gi'); let d=1,p=gt+1,end=-1; while(d>0){ oRe.lastIndex=p; cRe.lastIndex=p; const o=oRe.exec(h), c=cRe.exec(h); if (!c) break; if (o&&o.index<c.index){ d++; p=o.index+1; } else { d--; if (d===0) end=c.index+c[0].length; p=c.index+c[0].length; } } if (end===-1) return h; let from=ts; const ls=h.lastIndexOf('\\n',ts-1); if (ls!==-1 && h.slice(ls+1,ts).trim()==='') from=ls; return h.slice(0,from)+h.slice(end); };
 
-// --- build the new post page ---
-const prot = protectClamps(sample);
-const doc = new JSDOM(prot.html).window.document;
-let base='';
-const tags=(n)=>Array.prototype.slice.call(doc.getElementsByTagName(n));
-const metaBy=(k,v)=>tags('meta').filter((m)=>m.getAttribute(k)===v)[0]||null;
-const byCe=(id)=>tags('*').filter((e)=>e.getAttribute('data-ce')===id)[0]||null;
-const canon = tags('link').filter((l)=>l.getAttribute('rel')==='canonical')[0]||null;
-const ogUrl = metaBy('property','og:url');
-const srcUrl = (canon && canon.getAttribute('href')) || (ogUrl && ogUrl.getAttribute('content')) || '';
-const bm = srcUrl.match(/^(https?:\\/\\/[^\\/]+)/); if (bm) base = bm[1];
-const newUrl = base ? base+'/blog/'+num+'/' : '/blog/'+num+'/';
-const oldTitle = (tags('title')[0]||{}).textContent || '';
-const brand = oldTitle.indexOf('|')>=0 ? oldTitle.slice(oldTitle.lastIndexOf('|')+1).trim() : '';
-const pageTitle = brand ? title+' | '+brand : title;
-const desc = 'A new article — open the editor to write it.';
-const titleEl = tags('title')[0]; if (titleEl) titleEl.textContent = pageTitle;
-const setMeta=(k,v,c)=>{ const el=metaBy(k,v); if (el) el.setAttribute('content',c); };
-setMeta('name','description',desc);
-setMeta('property','og:title',pageTitle);
-setMeta('property','og:description',desc);
-setMeta('property','og:url',newUrl);
-setMeta('name','twitter:title',pageTitle);
-setMeta('name','twitter:description',desc);
-if (canon) canon.setAttribute('href', newUrl);
-const h1 = byCe('s0-h1-1'); if (h1) h1.textContent = title;
-const dp = byCe('s0-p-1'); if (dp) dp.textContent = new Date().toLocaleDateString('en-AU',{ month:'long', year:'numeric' });
-const fi = byCe('s1-img-1'); if (fi) fi.setAttribute('alt', title);
-const paras = tags('*').filter((e)=>{ const v=e.getAttribute('data-ce'); return v && v.indexOf('s1-p-')===0; });
-if (paras.length){ paras[0].textContent = 'Write your article here. Click this text in the editor to replace it with your own — share a tip, answer a common customer question, or talk about a recent job. Add as much as you like.'; for (let i=1;i<paras.length;i++){ if (paras[i].parentNode) paras[i].parentNode.removeChild(paras[i]); } }
-let postHtml = restoreClamps(serialize(doc), prot.map);
+  // canonical URL base (attr order-agnostic: canonical link, then og:url)
+  let srcUrl=''; let mm = postHtml.match(/<link\\b[^>]*\\brel="canonical"[^>]*\\bhref="([^"]*)"/i) || postHtml.match(/<link\\b[^>]*\\bhref="([^"]*)"[^>]*\\brel="canonical"/i); if (mm) srcUrl=mm[1];
+  if (!srcUrl){ mm = postHtml.match(/<meta\\b[^>]*\\bproperty="og:url"[^>]*\\bcontent="([^"]*)"/i) || postHtml.match(/<meta\\b[^>]*\\bcontent="([^"]*)"[^>]*\\bproperty="og:url"/i); if (mm) srcUrl=mm[1]; }
+  const bm = srcUrl.match(/^(https?:\\/\\/[^\\/]+)/); if (bm) base=bm[1];
+  newUrl = base ? base+'/blog/'+num+'/' : '/blog/'+num+'/';
+
+  // brand suffix from the sample <title> ("…Headline… | Brand")
+  const tt = postHtml.match(/<title>([\\s\\S]*?)<\\/title>/i); const oldTitle = tt?tt[1]:''; const brand = oldTitle.indexOf('|')>=0 ? oldTitle.slice(oldTitle.lastIndexOf('|')+1).trim() : '';
+  const pageTitle = brand ? title+' | '+brand : title;
+  const desc = 'A new article — open the editor to write it.';
+
+  // head: title, description, canonical, og/twitter url+title+description
+  postHtml = postHtml.replace(/<title>[\\s\\S]*?<\\/title>/i, '<title>'+esc(pageTitle)+'</title>');
+  postHtml = setMetaStr(postHtml,'name','description',desc);
+  postHtml = setMetaStr(postHtml,'property','og:title',pageTitle);
+  postHtml = setMetaStr(postHtml,'property','og:description',desc);
+  postHtml = setMetaStr(postHtml,'property','og:url',newUrl);
+  postHtml = setMetaStr(postHtml,'name','twitter:title',pageTitle);
+  postHtml = setMetaStr(postHtml,'name','twitter:description',desc);
+  postHtml = postHtml.replace(/(<link\\b[^>]*\\brel="canonical"[^>]*\\bhref=")[^"]*(")/i,'$1'+escAttr(newUrl)+'$2').replace(/(<link\\b[^>]*\\bhref=")[^"]*("[^>]*\\brel="canonical")/i,'$1'+escAttr(newUrl)+'$2');
+
+  // hero heading + date line (data-ce text)
+  postHtml = replInner(postHtml, /data-ce="s0-h1-1"/, esc(title));
+  postHtml = replInner(postHtml, /data-ce="s0-p-1"/, esc(new Date().toLocaleDateString('en-AU',{ month:'long', year:'numeric' })));
+
+  // feature image alt (keep src so it renders; customer swaps it)
+  postHtml = setImgAlt(postHtml, 's1-img-1', title);
+
+  // body: collapse the cloned s1-p-* paragraphs to ONE placeholder
+  { const re=/data-ce="(s1-p-\\d+)"/gi; const ids=[]; let g; while((g=re.exec(postHtml))) ids.push(g[1]); if (ids.length){ for (let i=ids.length-1;i>=1;i--) postHtml=removeCe(postHtml,ids[i]); postHtml=replInner(postHtml, new RegExp('data-ce="'+ids[0]+'"'), esc('Write your article here. Click this text in the editor to replace it with your own — share a tip, answer a common customer question, or talk about a recent job. Add as much as you like.')); } }
+}
 
 // --- insert ONE card into blog/index.html (string splice; existing bytes preserved) ---
 let indexOut = blogIndex, cardOk=false;

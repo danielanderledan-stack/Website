@@ -175,34 +175,38 @@ function nextPostNum(existing) {
   return max + 1;
 }
 
-/* -------------------- build the NEW post page (jsdom round-trip) -------------------- */
+/* -------------------- build the NEW post page (pure string; eval-safe) --------------------
+   The sample post is ALREADY fuse-formatted, so we edit it with targeted string
+   replacements and DON'T re-serialize — every untouched byte is preserved, and we
+   never parse the full page in jsdom. (A full-page `new JSDOM(html)` crashes in the
+   n8n Code-node sandbox: inserting the page's <link> tags makes jsdom resolve the
+   document baseURL via querySelector('base'), whose CSS engine compiles selectors
+   with `new Function` — "Code generation from strings disallowed". So: zero jsdom.) */
 function buildPostPage(JSDOM, sampleHtml, num, title, opts) {
   opts = opts || {};
   const safeTitle = _stripTags(title) || "New blog post — edit me";
-  const { html: protectedHtml, map } = _protect(sampleHtml);
-  const dom = new JSDOM(protectedHtml);
-  const doc = dom.window.document;
+  let html = String(sampleHtml);
 
-  // -- canonical URL base (from the sample's canonical / og:url) --
+  // -- canonical URL base (from the sample's canonical / og:url; attr order-agnostic) --
+  let srcUrl = "";
+  let m =
+    html.match(/<link\b[^>]*\brel="canonical"[^>]*\bhref="([^"]*)"/i) ||
+    html.match(/<link\b[^>]*\bhref="([^"]*)"[^>]*\brel="canonical"/i);
+  if (m) srcUrl = m[1];
+  if (!srcUrl) {
+    m =
+      html.match(/<meta\b[^>]*\bproperty="og:url"[^>]*\bcontent="([^"]*)"/i) ||
+      html.match(/<meta\b[^>]*\bcontent="([^"]*)"[^>]*\bproperty="og:url"/i);
+    if (m) srcUrl = m[1];
+  }
   let base = "";
-  // eval-free DOM access — n8n's Code-node sandbox forbids the Function/eval
-  // jsdom's CSS-selector engine uses, so NO querySelector/querySelectorAll.
-  const tags = (n) => Array.prototype.slice.call(doc.getElementsByTagName(n));
-  const metaBy = (k, v) => tags("meta").filter((m) => m.getAttribute(k) === v)[0] || null;
-  const byCe = (id) => tags("*").filter((e) => e.getAttribute("data-ce") === id)[0] || null;
-
-  const canon = tags("link").filter((l) => l.getAttribute("rel") === "canonical")[0] || null;
-  const ogUrl = metaBy("property", "og:url");
-  const srcUrl =
-    (canon && canon.getAttribute("href")) ||
-    (ogUrl && ogUrl.getAttribute("content")) ||
-    "";
   const bm = srcUrl.match(/^(https?:\/\/[^/]+)/);
   if (bm) base = bm[1];
   const newUrl = base ? base + "/blog/" + num + "/" : "/blog/" + num + "/";
 
   // Brand suffix taken from the existing <title> ("…Headline… | Brand")
-  const oldTitle = (tags("title")[0] || {}).textContent || "";
+  const tm = html.match(/<title>([\s\S]*?)<\/title>/i);
+  const oldTitle = tm ? tm[1] : "";
   const brand =
     oldTitle.indexOf("|") >= 0
       ? oldTitle.slice(oldTitle.lastIndexOf("|") + 1).trim()
@@ -211,60 +215,138 @@ function buildPostPage(JSDOM, sampleHtml, num, title, opts) {
   const desc = "A new article — open the editor to write it.";
 
   // -- head: title, description, canonical, og/twitter url+title+description --
-  const titleEl = tags("title")[0];
-  if (titleEl) titleEl.textContent = pageTitle;
-  const setMeta = (k, v, content) => {
-    const el = metaBy(k, v);
-    if (el) el.setAttribute("content", content);
-  };
-  setMeta("name", "description", desc);
-  setMeta("property", "og:title", pageTitle);
-  setMeta("property", "og:description", desc);
-  setMeta("property", "og:url", newUrl);
-  setMeta("name", "twitter:title", pageTitle);
-  setMeta("name", "twitter:description", desc);
-  if (canon) canon.setAttribute("href", newUrl);
+  html = html.replace(
+    /<title>[\s\S]*?<\/title>/i,
+    "<title>" + _esc(pageTitle) + "</title>",
+  );
+  html = _setMetaStr(html, "name", "description", desc);
+  html = _setMetaStr(html, "property", "og:title", pageTitle);
+  html = _setMetaStr(html, "property", "og:description", desc);
+  html = _setMetaStr(html, "property", "og:url", newUrl);
+  html = _setMetaStr(html, "name", "twitter:title", pageTitle);
+  html = _setMetaStr(html, "name", "twitter:description", desc);
+  html = html
+    .replace(
+      /(<link\b[^>]*\brel="canonical"[^>]*\bhref=")[^"]*(")/i,
+      "$1" + _escAttr(newUrl) + "$2",
+    )
+    .replace(
+      /(<link\b[^>]*\bhref=")[^"]*("[^>]*\brel="canonical")/i,
+      "$1" + _escAttr(newUrl) + "$2",
+    );
 
-  // -- hero heading + date line --
-  const h1 = byCe("s0-h1-1");
-  if (h1) h1.textContent = safeTitle;
-  const dateP = byCe("s0-p-1");
+  // -- hero heading + date line (data-ce text) --
+  html = _replaceCeInner(html, /data-ce="s0-h1-1"/, _esc(safeTitle));
   const monthYear = new Date().toLocaleDateString("en-AU", {
     month: "long",
     year: "numeric",
   });
-  if (dateP) dateP.textContent = monthYear;
+  html = _replaceCeInner(html, /data-ce="s0-p-1"/, _esc(monthYear));
 
   // -- feature image alt (keep src so it renders; customer swaps it) --
-  const featImg = byCe("s1-img-1");
-  if (featImg) featImg.setAttribute("alt", safeTitle);
+  html = _setCeImgAlt(html, "s1-img-1", safeTitle);
 
   // -- body: collapse the cloned paragraphs to a SINGLE placeholder --
-  const bodyParas = tags("*").filter((e) => {
-    const v = e.getAttribute("data-ce");
-    return v && v.indexOf("s1-p-") === 0;
+  html = _collapseBodyParas(
+    html,
+    "s1-p-",
+    "Write your article here. Click this text in the editor to replace it with your own — share a tip, answer a common customer question, or talk about a recent job. Add as much as you like.",
+  );
+
+  return { html, url: newUrl, title: safeTitle, desc, monthYear, brand, base };
+}
+
+/* ---- pure-string DOM helpers (eval-safe: no querySelector / no full-page parse) ---- */
+// Set the `content` of the <meta> whose attribute key="val" (order-independent;
+// inserts a content attr if the tag has none).
+function _setMetaStr(html, key, val, content) {
+  const kr = new RegExp(
+    "\\b" + key + '="' + val.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + '"',
+    "i",
+  );
+  return html.replace(/<meta\b[^>]*>/gi, (tag) => {
+    if (!kr.test(tag)) return tag;
+    if (/\bcontent="/i.test(tag))
+      return tag.replace(
+        /(\bcontent=")[^"]*(")/i,
+        "$1" + _escAttr(content) + "$2",
+      );
+    return tag.replace(/\s*\/?>$/, ' content="' + _escAttr(content) + '">');
   });
-  if (bodyParas.length) {
-    const first = bodyParas[0];
-    first.textContent =
-      "Write your article here. Click this text in the editor to replace it with your own — share a tip, answer a common customer question, or talk about a recent job. Add as much as you like.";
-    for (let i = 1; i < bodyParas.length; i++) {
-      if (bodyParas[i].parentNode)
-        bodyParas[i].parentNode.removeChild(bodyParas[i]);
+}
+
+// Set the alt of the <img> carrying data-ce="ceId" (insert alt if missing).
+function _setCeImgAlt(html, ceId, alt) {
+  const m = new RegExp('data-ce="' + ceId + '"').exec(html);
+  if (!m) return html;
+  const ts = html.lastIndexOf("<", m.index);
+  const gt = html.indexOf(">", m.index);
+  if (ts === -1 || gt === -1) return html;
+  let tag = html.slice(ts, gt + 1);
+  if (/\balt="/i.test(tag))
+    tag = tag.replace(/(\balt=")[^"]*(")/i, "$1" + _escAttr(alt) + "$2");
+  else tag = tag.replace(/\s*\/?>$/, ' alt="' + _escAttr(alt) + '">');
+  return html.slice(0, ts) + tag + html.slice(gt + 1);
+}
+
+// Remove the whole element carrying data-ce="ceId" (depth-matched, plus a leading
+// blank line so the diff stays clean).
+function _removeCeElement(html, ceId) {
+  const m = new RegExp('data-ce="' + ceId + '"').exec(html);
+  if (!m) return html;
+  const ts = html.lastIndexOf("<", m.index);
+  if (ts === -1) return html;
+  const tm = /^<([a-zA-Z0-9]+)/.exec(html.slice(ts));
+  if (!tm) return html;
+  const tag = tm[1].toLowerCase();
+  const gt = html.indexOf(">", m.index);
+  if (gt === -1) return html;
+  const openRe = new RegExp("<" + tag + "\\b", "gi");
+  const closeRe = new RegExp("</" + tag + "\\s*>", "gi");
+  let depth = 1,
+    pos = gt + 1,
+    endIdx = -1;
+  while (depth > 0) {
+    openRe.lastIndex = pos;
+    closeRe.lastIndex = pos;
+    const o = openRe.exec(html),
+      c = closeRe.exec(html);
+    if (!c) break;
+    if (o && o.index < c.index) {
+      depth++;
+      pos = o.index + 1;
+    } else {
+      depth--;
+      if (depth === 0) endIdx = c.index + c[0].length;
+      pos = c.index + c[0].length;
     }
   }
+  if (endIdx === -1) return html;
+  let from = ts;
+  const ls = html.lastIndexOf("\n", ts - 1);
+  if (ls !== -1 && html.slice(ls + 1, ts).trim() === "") from = ls;
+  return html.slice(0, from) + html.slice(endIdx);
+}
 
-  let out = _serialize(doc);
-  out = _restore(out, map);
-  return {
-    html: out,
-    url: newUrl,
-    title: safeTitle,
-    desc,
-    monthYear,
-    brand,
-    base,
-  };
+// Collapse a run of data-ce="{prefix}{n}" elements to ONE: the first gets the
+// placeholder text, the rest are removed (last->first so indices stay valid).
+function _collapseBodyParas(html, prefix, placeholder) {
+  const re = new RegExp(
+    'data-ce="(' + prefix.replace(/[-]/g, "\\$&") + '\\d+)"',
+    "gi",
+  );
+  const ids = [];
+  let mm;
+  while ((mm = re.exec(html))) ids.push(mm[1]);
+  if (!ids.length) return html;
+  for (let i = ids.length - 1; i >= 1; i--)
+    html = _removeCeElement(html, ids[i]);
+  html = _replaceCeInner(
+    html,
+    new RegExp('data-ce="' + ids[0] + '"'),
+    _esc(placeholder),
+  );
+  return html;
 }
 
 /* -------------------- splice a NEW card into blog/index.html -------------------- */
@@ -430,7 +512,10 @@ function buildSitemap(sitemapXml, num, base) {
 
 /* -------------------- top-level: create -------------------- */
 function applyCreateBlogPost(input) {
-  const JSDOM = input.JSDOM || require("jsdom").JSDOM;
+  // buildPostPage is now pure-string, so jsdom is not needed (and must not be
+  // used — see buildPostPage's note on the n8n sandbox eval ban). The param is
+  // kept only for backward-compatible call sites.
+  const JSDOM = input.JSDOM || null;
   const notes = [];
   if (!input.blogIndex || !input.blogIndex.content)
     throw new Error("blog/index.html is required");

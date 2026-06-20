@@ -95,7 +95,8 @@ module.exports = {
     label: "Icon",
     // never tag an svg matching/closest to any of these (decorative/structural/
     // chrome/already-editable). data-ce + a/button cover button arrows; data-cd
-    // covers hero arrows + scroll strip; split-cta-* are decorative accents.
+    // covers hero arrows + scroll strip; split-cta-right is a decorative accent
+    // (the split-cta-left lightning bolt IS an editable icon).
     exclude: [
       "nav",
       "header",
@@ -104,7 +105,9 @@ module.exports = {
       "button",
       "[data-cd]",
       "[data-ce]",
-      ".split-cta-left",
+      // .split-cta-left is intentionally NOT excluded: its prominent lightning
+      // bolt is a "icon + heading" card (lone svg in a div whose next sibling is
+      // the h2), so the customer can swap it like any other service icon.
       ".split-cta-right",
       ".cd-loader",
     ],
