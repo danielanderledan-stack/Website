@@ -1125,6 +1125,137 @@ const a = $('Apply Icons').first().json;
 return [{ json: { ok: true, applied: a.applied, failures: a.failures } }];
 `.trim();
 
+/* ---------------- element editor (free, deterministic, jsdom) -------------
+   Mirrors prerender/save-elements.cjs (kept in sync; that file is the tested
+   source of truth). Each edit is { ce, html }: locate the data-ce host element,
+   sanitise the new inner HTML to a TEXT-formatting allowlist (B/STRONG/I/EM/U/
+   BR/SPAN/A/FONT + safe style props), splice it as the host's new inner HTML.
+   Host open/close tags + every other byte are byte-preserved so git diffs stay
+   tiny. Customers format text, never inject markup/JS — script/style/iframe/etc.
+   are dropped and disallowed elements are unwrapped to their text. */
+
+const CODE_ELEMENTS_GUARD = `
+// Session + page + payload validation for element (text) saves.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const page = String(body.page || '');
+if (!new RegExp('${PAGE_RE}').test(page)) throw new Error('Invalid page');
+const edits = (Array.isArray(body.edits) ? body.edits : []).slice(0, 60)
+  .filter((e) => e && typeof e.ce === 'string' && typeof e.html === 'string')
+  .map((e) => ({ ce: e.ce.slice(0, 120), html: e.html.slice(0, 20000) }));
+if (!edits.length) throw new Error('No element edits supplied');
+return [{ json: { site: row.site, page, edits } }];
+`.trim();
+
+const CODE_APPLY_ELEMENTS = `
+// Splice each edit's sanitised inner HTML into its data-ce host element.
+// Inlined from prerender/save-elements.cjs (jsdom is global in n8n).
+const { JSDOM } = require('jsdom');
+const g = $('Elements Guard').first().json;
+let html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+
+const ALLOW = { B: 1, STRONG: 1, I: 1, EM: 1, U: 1, BR: 1, SPAN: 1, A: 1, FONT: 1 };
+const DROP = { SCRIPT: 1, STYLE: 1, IFRAME: 1, OBJECT: 1, EMBED: 1, LINK: 1, META: 1, NOSCRIPT: 1, SVG: 1 };
+const OK_STYLE = ["color", "font-weight", "font-style", "text-decoration", "font-family", "background-color"];
+const VOID = { img: 1, br: 1, hr: 1, input: 1, meta: 1, link: 1 };
+
+function sanitizeFragment(JSDOM, frag) {
+  const doc = new JSDOM("<!DOCTYPE html><body><div id='r'></div>").window.document;
+  const root = doc.getElementById("r");
+  root.innerHTML = String(frag || "");
+  (function walk(node) {
+    Array.prototype.slice.call(node.childNodes).forEach((c) => {
+      if (c.nodeType === 1) {
+        if (DROP[c.tagName]) { node.removeChild(c); return; }
+        if (!ALLOW[c.tagName]) {
+          while (c.firstChild) node.insertBefore(c.firstChild, c);
+          node.removeChild(c);
+          return;
+        }
+        Array.prototype.slice.call(c.attributes).forEach((a) => {
+          if (c.tagName === "A" && a.name === "href") {
+            if (!/^(https?:|tel:|mailto:|\\/)/i.test(a.value)) c.removeAttribute("href");
+            return;
+          }
+          if (a.name === "style") {
+            const clean = a.value
+              .split(";").map((d) => d.trim()).filter(Boolean)
+              .filter((d) => OK_STYLE.indexOf(d.split(":")[0].trim().toLowerCase()) >= 0)
+              .join("; ");
+            if (clean) c.setAttribute("style", clean); else c.removeAttribute("style");
+            return;
+          }
+          if (a.name === "color" && c.tagName === "FONT") return;
+          c.removeAttribute(a.name);
+        });
+        walk(c);
+      } else if (c.nodeType !== 3) {
+        node.removeChild(c);
+      }
+    });
+  })(root);
+  return root.innerHTML;
+}
+
+function locateInner(h, ce) {
+  const marker = 'data-ce="' + ce + '"';
+  const mi = h.indexOf(marker);
+  if (mi === -1) return null;
+  const ts = h.lastIndexOf("<", mi);
+  if (ts === -1) return null;
+  const tm = /^<([a-zA-Z0-9]+)/.exec(h.slice(ts, mi + marker.length));
+  if (!tm) return null;
+  const tag = tm[1].toLowerCase();
+  const gt = h.indexOf(">", mi);
+  if (gt === -1) return null;
+  if (VOID[tag] || h[gt - 1] === "/") return { void: true, tag };
+  const innerStart = gt + 1;
+  const openRe = new RegExp("<" + tag + "\\\\b", "gi");
+  const closeRe = new RegExp("</" + tag + "\\\\s*>", "gi");
+  let depth = 1, pos = innerStart;
+  while (depth > 0) {
+    openRe.lastIndex = pos;
+    closeRe.lastIndex = pos;
+    const o = openRe.exec(h);
+    const c = closeRe.exec(h);
+    if (!c) return null;
+    if (o && o.index < c.index) { depth++; pos = o.index + 1; }
+    else { depth--; if (depth === 0) return { tag, innerStart, innerEnd: c.index }; pos = c.index + c[0].length; }
+  }
+  return null;
+}
+
+function applyElementEdits(html, edits, JSDOM) {
+  let applied = 0;
+  const failures = [];
+  // apply from the END of the document backwards so earlier indices stay valid
+  const located = [];
+  for (const e of edits || []) {
+    const loc = locateInner(html, e.ce);
+    if (!loc || loc.void) { failures.push(String(e.ce) + ": not found"); continue; }
+    located.push({ loc, html: e.html });
+  }
+  located.sort((a, b) => b.loc.innerStart - a.loc.innerStart);
+  for (const { loc, html: frag } of located) {
+    const clean = sanitizeFragment(JSDOM, frag);
+    html = html.slice(0, loc.innerStart) + clean + html.slice(loc.innerEnd);
+    applied++;
+  }
+  return { html, applied, failures };
+}
+
+const res = applyElementEdits(html, g.edits, JSDOM);
+if (!res.applied) throw new Error('No elements could be applied: ' + res.failures.join('; '));
+return [{ json: { site: g.site, page: g.page, content: res.html, applied: res.applied, failures: res.failures } }];
+`.trim();
+
+const CODE_ELEMENTS_REPLY = `
+const a = $('Apply Elements').first().json;
+return [{ json: { ok: true, applied: a.applied, failures: a.failures } }];
+`.trim();
+
 /* ---------------- editor chain: validate / route / bill ---------------- */
 
 const CODE_VALIDATE_V3 = `
@@ -1403,6 +1534,7 @@ const accountNodes = [
           switchRule("togglesection", "toggle-section"),
           switchRule("createblogpost", "create-blog-post"),
           switchRule("saveicon", "save-icon"),
+          switchRule("saveelements", "save-elements"),
         ],
       },
       options: {},
@@ -2333,6 +2465,76 @@ const accountNodes = [
     settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_ICONS_REPLY },
   },
+  /* element (text) editor (free, deterministic) — mirrors the icon saver chain */
+  {
+    name: "Find Session Elements",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 2080],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Elements Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 2080],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_ELEMENTS_GUARD },
+  },
+  {
+    name: "Get Page For Elements",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 2080],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Apply Elements",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 2080],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_APPLY_ELEMENTS },
+  },
+  {
+    name: "Commit Elements",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2060, Y + 2080],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "={{ 'text edits: ' + $json.page }}",
+    },
+  },
+  {
+    name: "Elements Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2220, Y + 2080],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_ELEMENTS_REPLY },
+  },
   {
     name: "Respond Builder",
     type: "n8n-nodes-base.respondToWebhook",
@@ -2667,6 +2869,14 @@ const accountConnections = [
   ["Apply Icons", "Commit Icons"],
   ["Commit Icons", "Icons Reply"],
   ["Icons Reply", "Respond Builder"],
+  /* element (text) editor: save-elements (switch output index 17) */
+  { source: "Route Action", target: "Find Session Elements", sourceIndex: 17 },
+  ["Find Session Elements", "Elements Guard"],
+  ["Elements Guard", "Get Page For Elements"],
+  ["Get Page For Elements", "Apply Elements"],
+  ["Apply Elements", "Commit Elements"],
+  ["Commit Elements", "Elements Reply"],
+  ["Elements Reply", "Respond Builder"],
 ];
 
 const editorConnections = [
