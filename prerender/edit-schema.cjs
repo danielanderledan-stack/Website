@@ -12,8 +12,9 @@
 module.exports = {
   // Capability registry. The editor maps each to a UI:
   //   plain -> inline text only   rich -> text + bold/italic/underline/colour/font
-  //   image -> swap               (future: list, color-only, link…)
-  caps: ["plain", "rich", "image"],
+  //   image -> swap               icon -> Iconify picker (save-icon by data-ce)
+  //   (future: list, color-only, link…)
+  caps: ["plain", "rich", "image", "icon"],
 
   // Never tag these (chrome / controls / duplicated carousel nodes).
   exclude: [
@@ -70,6 +71,43 @@ module.exports = {
     linkLabel: "Menu link",
     // never tag these nav descendants (interactive / duplicated / icon-only)
     exclude: ['[data-cd="burger"]', '[data-cd="mobile-menu"]', ".btn-yellow"],
+  },
+
+  // SERVICE / FEATURE ICONS. Prominent inline-<svg> glyphs that sit directly
+  // above a service/feature title (the "icon + heading" card pattern). tagIcons()
+  // stamps these with the section-scoped s{section}-icon-{n} scheme (same family
+  // as the s{n}-* text ids) so they're unique + position-stable within a page.
+  // Capability "icon" -> the editor binds an Iconify picker + save-icon action.
+  //
+  // CONSERVATIVE by design — an <svg> is tagged ONLY when ALL hold:
+  //   - it is the ONLY element child of a plain wrapper <div>, and
+  //   - that wrapper's nextElementSibling is a heading (h1..h6).
+  // Everything else is skipped via `exclude` (logo, hero arrows/strip, burger,
+  // social, map pin, link/button arrows, decorative split-CTA accents, anything
+  // data-cd-marked or inside nav/header/footer, and any svg already in a
+  // [data-ce]). In-text checkmarks never match (no wrapper-div+heading-sibling).
+  icons: {
+    // the svg's wrapper div must have exactly one element child: the svg itself
+    iconSelector: "svg",
+    // the wrapper div's next sibling must be one of these (the card title)
+    headingTags: ["h1", "h2", "h3", "h4", "h5", "h6"],
+    cap: "icon",
+    label: "Icon",
+    // never tag an svg matching/closest to any of these (decorative/structural/
+    // chrome/already-editable). data-ce + a/button cover button arrows; data-cd
+    // covers hero arrows + scroll strip; split-cta-* are decorative accents.
+    exclude: [
+      "nav",
+      "header",
+      "footer",
+      "a",
+      "button",
+      "[data-cd]",
+      "[data-ce]",
+      ".split-cta-left",
+      ".split-cta-right",
+      ".cd-loader",
+    ],
   },
 
   // Friendly section names (LABEL only — never used for ids). Signature-based,

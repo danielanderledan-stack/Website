@@ -77,6 +77,81 @@ function tagEditable(doc, schema) {
   // tag the navbar too (lives outside <main>, in the header)
   count += tagNav(doc, schema);
 
+  // tag prominent service/feature SVG icons (icon-above-heading cards)
+  count += tagIcons(doc, schema);
+
+  return count;
+}
+
+/* ----------------------------------------------------------------------
+   tagIcons(doc[, schema]) — stamp `s{section}-icon-{n}` ids onto the prominent
+   inline-<svg> ICONS that sit directly above a service/feature title (the
+   "icon + heading" card pattern used by service cards and the services page).
+
+   These use the SAME section-scoped scheme as the text walk (s{section}-...),
+   so an icon's id is unique + position-stable within its page. Runs over
+   #root main's children (sharing the section index `si` with tagEditable's
+   text pass) and is CONSERVATIVE: an <svg> is tagged ONLY when it is the lone
+   element child of a plain wrapper <div> whose nextElementSibling is a heading.
+
+   Skips everything else via schema.icons.exclude: the logo, hero arrows/scroll
+   strip (data-cd), burger, in-text checkmarks (no wrapper+heading), social
+   icons, the map pin, link/button arrows (a/button + already-data-ce), the
+   decorative split-CTA accents, anything data-cd-marked or inside nav/header/
+   footer, and any svg already inside a [data-ce]. Idempotent; never re-tags and
+   never disturbs existing s{n}-* / nav-* ids.
+---------------------------------------------------------------------- */
+function tagIcons(doc, schema) {
+  schema = schema || DEFAULT_SCHEMA;
+  const cfg = schema.icons;
+  if (!cfg) return 0;
+  const main = doc.querySelector("#root main") || doc.querySelector("main");
+  if (!main) return 0;
+
+  const headSel = (cfg.headingTags || []).join(",");
+  const inExcluded = (el) =>
+    (cfg.exclude || []).some((sel) => {
+      try {
+        return el.matches(sel) || el.closest(sel);
+      } catch (e) {
+        return false;
+      }
+    });
+
+  // an <svg> qualifies as a card icon iff it is the ONLY element child of a
+  // <div> whose immediately following sibling is a heading.
+  const isCardIcon = (svg) => {
+    if (svg.hasAttribute("data-ce")) return false;
+    if (inExcluded(svg)) return false;
+    const wrap = svg.parentElement;
+    if (!wrap || wrap.tagName.toLowerCase() !== "div") return false;
+    if (wrap.children.length !== 1 || wrap.children[0] !== svg) return false;
+    const next = wrap.nextElementSibling;
+    if (!next) return false;
+    try {
+      if (!headSel || !next.matches(headSel)) return false;
+    } catch (e) {
+      return false;
+    }
+    return true;
+  };
+
+  let count = 0;
+  Array.prototype.forEach.call(main.children, (sec, si) => {
+    let n = 0;
+    Array.prototype.forEach.call(
+      sec.querySelectorAll(cfg.iconSelector),
+      (svg) => {
+        if (!isCardIcon(svg)) return;
+        n++;
+        svg.setAttribute("data-ce", "s" + si + "-icon-" + n);
+        svg.setAttribute("data-ce-cap", cfg.cap);
+        svg.setAttribute("data-ce-label", cfg.label);
+        count++;
+      },
+    );
+  });
+
   return count;
 }
 
@@ -180,4 +255,4 @@ function tagNav(doc, schema) {
   return count;
 }
 
-module.exports = { tagEditable, tagNav };
+module.exports = { tagEditable, tagNav, tagIcons };

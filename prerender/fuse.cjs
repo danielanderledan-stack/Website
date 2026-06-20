@@ -748,6 +748,26 @@ const CE_NAV = {
   linkLabel: "Menu link",
   exclude: ['[data-cd="burger"]', '[data-cd="mobile-menu"]', ".btn-yellow"],
 };
+// SERVICE / FEATURE ICONS (mirror of edit-schema.cjs `icons` + tag-editable.cjs
+// tagIcons). Section-scoped s{section}-icon-{n} ids; cap "icon" -> Iconify picker.
+const CE_ICONS = {
+  iconSelector: "svg",
+  headingTags: ["h1", "h2", "h3", "h4", "h5", "h6"],
+  cap: "icon",
+  label: "Icon",
+  exclude: [
+    "nav",
+    "header",
+    "footer",
+    "a",
+    "button",
+    "[data-cd]",
+    "[data-ce]",
+    ".split-cta-left",
+    ".split-cta-right",
+    ".cd-loader",
+  ],
+};
 function tagNav(doc) {
   const cfg = CE_NAV;
   let nav = null;
@@ -813,6 +833,48 @@ function tagNav(doc) {
   }
   return count;
 }
+function tagIcons(doc) {
+  const cfg = CE_ICONS;
+  const main = doc.querySelector("#root main") || doc.querySelector("main");
+  if (!main) return 0;
+  const headSel = cfg.headingTags.join(",");
+  const inExcluded = (el) =>
+    cfg.exclude.some((sel) => {
+      try {
+        return el.matches(sel) || el.closest(sel);
+      } catch (e) {
+        return false;
+      }
+    });
+  const isCardIcon = (svg) => {
+    if (svg.hasAttribute("data-ce")) return false;
+    if (inExcluded(svg)) return false;
+    const wrap = svg.parentElement;
+    if (!wrap || wrap.tagName.toLowerCase() !== "div") return false;
+    if (wrap.children.length !== 1 || wrap.children[0] !== svg) return false;
+    const next = wrap.nextElementSibling;
+    if (!next) return false;
+    try {
+      if (!headSel || !next.matches(headSel)) return false;
+    } catch (e) {
+      return false;
+    }
+    return true;
+  };
+  let count = 0;
+  [...main.children].forEach((sec, si) => {
+    let n = 0;
+    [...sec.querySelectorAll(cfg.iconSelector)].forEach((svg) => {
+      if (!isCardIcon(svg)) return;
+      n++;
+      svg.setAttribute("data-ce", "s" + si + "-icon-" + n);
+      svg.setAttribute("data-ce-cap", cfg.cap);
+      svg.setAttribute("data-ce-label", cfg.label);
+      count++;
+    });
+  });
+  return count;
+}
 function tagEditable(doc) {
   const main = doc.querySelector("#root main") || doc.querySelector("main");
   if (!main) return 0;
@@ -857,6 +919,7 @@ function tagEditable(doc) {
     });
   });
   count += tagNav(doc);
+  count += tagIcons(doc);
   return count;
 }
 
