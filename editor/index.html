@@ -2296,8 +2296,8 @@
           New post
         </button>
         <p class="pane-note" id="blogNote">
-          A new post is created blank — open it to add your heading, words and a
-          photo, then hit Publish.
+          A new post is created with a starter layout and opens automatically —
+          add your heading, words and a photo, then hit Publish.
         </p>
       </div>
     </div>
@@ -4698,14 +4698,19 @@
           row.querySelector(".bt").textContent = p.title;
           var btn = document.createElement("button");
           btn.className = "btn " + (isNew ? "btn-primary" : "btn-outline");
-          btn.textContent = "Open to edit";
+          btn.textContent = isNew ? "Create & edit" : "Open to edit";
           btn.onclick = function () {
-            openBlogPost(p.num);
+            openBlogPost(p.num, isNew, p.title);
           };
           row.appendChild(btn);
           return row;
         }
-        function openBlogPost(num) {
+        function openBlogPost(num, isNew, title) {
+          // A NOT-yet-published post has no live page — opening its URL 404s and
+          // the read proxy returns 502 ("Could not load this page"). So for a new
+          // post, create it for real first (the backend writes a placeholder
+          // article), wait for the deploy, then open it to edit.
+          if (isNew) return createPostThenOpen(num, title);
           closeAllModals();
           loadPage("blog/" + num + "/index.html");
           $("frameUrl").textContent = pageUrl(
@@ -4719,17 +4724,98 @@
             );
           }
         }
-        $("blogNew").onclick = function () {
+        // Create a new post on the live site, then open it for editing once the
+        // deploy lands. Replaces the old "stage then 502 when opened" flow.
+        function createPostThenOpen(stagedNum, title) {
           if (window.__DEV) {
-            // allow staging in dev so the UI flow is testable, but it won't publish
+            toast("Dev preview — new posts are created when you publish.");
+            return;
           }
-          var num = nextBlogNum();
-          state.ops.blog.push({ num: num, title: "" });
-          renderBlog();
-          refreshPublish();
-          toast(
-            "New post staged — hit Publish to create it, then open it to add your content.",
+          closeAllModals();
+          $("pubOverlay").hidden = false;
+          $("pubClose").hidden = true;
+          $("pubSpin").style.cssText = "";
+          $("pubSpin").textContent = "";
+          $("pubSpin").classList.remove("done");
+          $("pubTitle").textContent = "Creating your new post…";
+          $("pubMsg").textContent =
+            "Setting up the page and pushing it live — this usually takes a minute or two. We'll open it for you the moment it's ready.";
+          api({ action: "create-blog-post", title: title || "" })
+            .then(function (r) {
+              if (!r || r.ok === false) return blogCreateProblem();
+              var num = r.num || stagedNum;
+              // It's a real post now: drop any staged op + force the Blog list to
+              // re-read so it shows as published next time.
+              state.ops.blog = (state.ops.blog || []).filter(function (op) {
+                return op.num !== stagedNum && op.num !== num;
+              });
+              state.blog = null;
+              refreshPublish();
+              watchBlogLive(num);
+            })
+            .catch(function () {
+              blogCreateProblem();
+            });
+        }
+        function blogSpinError(titleTxt, msgTxt) {
+          $("pubSpin").classList.add("done");
+          $("pubSpin").style.cssText =
+            "width:42px;height:42px;margin:0 auto 16px;display:grid;place-items:center;font-size:34px;border:none;animation:none;color:#fb8500";
+          $("pubSpin").textContent = "↻";
+          $("pubTitle").textContent = titleTxt;
+          $("pubMsg").textContent = msgTxt;
+          $("pubClose").hidden = false;
+        }
+        function blogCreateProblem() {
+          blogSpinError(
+            "Couldn't create the post",
+            "Something went wrong setting it up. Please close this and try again.",
           );
+        }
+        // Poll the live URL through the read proxy until the freshly-created post
+        // is reachable, then open it. The host (Vercel/CF) rebuilds ~1-2 min after
+        // the commit, so we wait rather than 404.
+        function watchBlogLive(num) {
+          var path = "blog/" + num + "/index.html";
+          var url = pageUrl(path);
+          var proxy =
+            "/api/editor-page?url=" + encodeURIComponent(url);
+          var tries = 0;
+          (function poll() {
+            tries++;
+            fetch(proxy)
+              .then(function (r) {
+                if (r.ok) {
+                  $("pubOverlay").hidden = true;
+                  loadPage(path);
+                  $("frameUrl").textContent = url.replace(
+                    /^https?:\/\//,
+                    "",
+                  );
+                  toast(
+                    "New post ready — edit the words and photos, then Publish.",
+                  );
+                  return;
+                }
+                throw new Error("not live yet");
+              })
+              .catch(function () {
+                if (tries >= 80) {
+                  // ~4 min — give up waiting but the post WAS created
+                  blogSpinError(
+                    "Almost there…",
+                    "Your new post was created and is going live. Give it another minute, then open it from the Blog posts list.",
+                  );
+                  return;
+                }
+                setTimeout(poll, 3000);
+              });
+          })();
+        }
+        $("blogNew").onclick = function () {
+          // Create the post on the live site and open it for editing once it
+          // deploys — no "staged but can't open" limbo (that 404'd → 502).
+          createPostThenOpen(nextBlogNum(), "");
         };
 
         /* -------------------- panes / nav -------------------- */
