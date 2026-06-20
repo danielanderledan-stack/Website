@@ -1,0 +1,346 @@
+{
+  "siteType": "electrician",
+  "businessName": "Core Electrical",
+  "suburb": "Chelsea",
+  "phone": "+61 4 2166 7100",
+  "email": "info@coreelectrical.com.au",
+  "address": "Donald Grove, Chelsea VIC 3196",
+  "coordinates": {
+    "latitude": -38.04772,
+    "longitude": 145.1162106
+  },
+  "tagline": "Chelsea's trusted electrical experts",
+  "primaryColor": "#1E90FF",
+  "primaryColorRgb": "30, 144, 255",
+  "primaryColorHover": "#1A7AC9",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Chelsea's Go-To Electricians",
+      "sub": "Residential & commercial",
+      "image": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_25"
+    },
+    {
+      "title": "Smart Home & Automation Experts",
+      "sub": "C-Bus, security, intercoms",
+      "image": "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25"
+    },
+    {
+      "title": "20+ Years Serving Melbourne's Bayside",
+      "sub": "Reliable, guaranteed work",
+      "image": "https://static.wixstatic.com/media/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg/v1/fill/w_394,h_266,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't risk it —",
+    "call Core Electrical",
+    "for a free quote."
+  ],
+  "aboutHeading": "Electricians Who Know Chelsea Inside Out",
+  "aboutSubheading": "Your local electrical specialists",
+  "aboutText": "Core Electrical & Automation Pty Ltd has been serving Chelsea and Melbourne's South East Bayside for over 20 years. We handle everything from off-the-plan designs to final handover, including full wiring, smart home automation, and minor jobs like extra sockets. All work is fully guaranteed, and we pride ourselves on service and reliability.",
+  "servicesHeading": "Our Electrical Services",
+  "servicesSubheading": "Full range of electrical and automation solutions",
+  "servicesText": "We provide cost-effective, quality electrical services for residential and commercial clients across Chelsea, Carrum, and the Bayside. From smart home automation with Clipsal C-Bus to security systems and general wiring, we do it all with reliability and pride.",
+  "services": [
+    {
+      "title": "Electrical Wiring & Rewiring",
+      "desc": "Full rewiring and new wiring for homes and businesses in Chelsea and surrounds.",
+      "longDesc": "Professional wiring and rewiring services for old and new properties. We ensure compliance with Australian standards and Energy Safe Victoria regulations for safety and efficiency.",
+      "points": [
+        "Safe & compliant",
+        "Minimal disruption",
+        "Free inspection"
+      ]
+    },
+    {
+      "title": "Smart Home Automation (C-Bus)",
+      "desc": "Clipsal C-Bus systems for lighting, blinds, climate and more.",
+      "longDesc": "Design and install complete C-Bus automation for seamless control of your Chelsea home or office. Programmed to your lifestyle, with remote access and energy savings.",
+      "points": [
+        "Custom programmed",
+        "Remote control",
+        "Energy efficient"
+      ]
+    },
+    {
+      "title": "Home Security Systems",
+      "desc": "Alarms, cameras, and sensors to protect your property.",
+      "longDesc": "Integrated security solutions including CCTV, motion sensors, and alarm systems. Monitored or self-managed, we tailor systems to your Bayside property needs.",
+      "points": [
+        "24/7 monitoring",
+        "HD cameras",
+        "Smartphone alerts"
+      ]
+    },
+    {
+      "title": "Intercoms & Communications",
+      "desc": "Audio and video intercoms for homes and businesses.",
+      "longDesc": "Wireless and wired intercom systems for clear communication. From simple doorbell cameras to multi-unit video intercoms, we cover Chelsea and nearby suburbs.",
+      "points": [
+        "Audio & video",
+        "Easy installation",
+        "Expandable systems"
+      ]
+    },
+    {
+      "title": "Commercial Electrical",
+      "desc": "Wiring, data, and power for shops, offices, and warehouses.",
+      "longDesc": "Full commercial electrical services including three-phase power, data cabling, lighting, and switchboard upgrades. We work with businesses across the Bayside area.",
+      "points": [
+        "Licensed contractor",
+        "Compliant design",
+        "Minimised downtime"
+      ]
+    },
+    {
+      "title": "Lighting Design & Installation",
+      "desc": "LED, outdoor, feature and energy-efficient lighting solutions.",
+      "longDesc": "Expert lighting design and installation for indoor and outdoor spaces. We use energy-efficient LEDs and smart controls to create the perfect ambience for your Chelsea home.",
+      "points": [
+        "Energy saving",
+        "Custom designs",
+        "Indoor & outdoor"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "Core Electrical rewired our Chelsea home. Professional, on time, great value. They even helped with smart lighting. Highly recommend their team.",
+      "name": "John D.",
+      "role": "Chelsea Homeowner"
+    },
+    {
+      "text": "We needed C-Bus automation for our office in Carrum. The team designed a system that saved us on power bills. Reliable and knowledgeable.",
+      "name": "Lisa M.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Emergency callout after a storm. They arrived within an hour and fixed the issue. Safe and professional. Will use again.",
+      "name": "Tom R.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Chelsea",
+    "Carrum",
+    "Bonbeach",
+    "Edithvale",
+    "Aspendale",
+    "Mordialloc",
+    "Parkdale"
+  ],
+  "about": {
+    "intro": "Core Electrical & Automation is a family-run business based in Chelsea, serving Melbourne's Bayside for over 20 years with full electrical and automation services.",
+    "story": [
+      "Founded in Chelsea over two decades ago, Core Electrical & Automation started as a small team of qualified electricians. We quickly built a reputation for honest advice, high-quality work, and reliable service across the Bayside area.",
+      "Today we handle everything from complete rewires and smart home automation with Clipsal C-Bus to commercial fit-outs and emergency repairs. Our experience means we can take a project from design off the plans right through to final handover."
+    ],
+    "mission": "To provide safe, reliable electrical and automation solutions with absolute integrity for every Chelsea home and business.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "We know Chelsea's electrical needs - from heritage homes to new builds - and comply with all local codes."
+      },
+      {
+        "title": "Fixed Upfront Pricing",
+        "text": "No hidden fees or surprises. You get a written quote before any work starts."
+      },
+      {
+        "title": "Same Day Service",
+        "text": "Emergency? We offer same-day callouts across the Bayside, including weekends."
+      },
+      {
+        "title": "Full Guarantee",
+        "text": "All work is fully guaranteed. If it's not right, we fix it at no extra cost."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed Electrical Contractor",
+      "Registered with Energy Safe Victoria",
+      "Public liability insured to $20m",
+      "Clipsal C-Bus Certified Installer"
+    ]
+  },
+  "pricing": {
+    "intro": "We offer transparent, no-lock-in quotes for all electrical work across Chelsea. Whether it's a simple power point or a full smart home install, you'll know the cost upfront.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Discuss requirements",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $150",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Power point or light",
+          "Safety tested",
+          "Same day available",
+          "Fixed price"
+        ]
+      },
+      {
+        "name": "Full Home Automation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Custom C-Bus design",
+          "Remote access",
+          "Integration with security",
+          "Complete handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed with no hidden fees - you pay exactly what we agree."
+  },
+  "contact": {
+    "intro": "Ready to get started? Call or email for a free, no-obligation quote. We serve Chelsea and all Bayside suburbs with prompt, professional service."
+  },
+  "contactHeading": "Get in Touch",
+  "contactSubheading": "We'd love to hear about your project",
+  "seo": {
+    "home": {
+      "title": "Core Electrical | Chelsea Electrician | Smart Home Automation",
+      "description": "Core Electrical - trusted electricians in Chelsea since 2003. Expert smart home automation, C-Bus, security, rewiring & commercial electrical. Free quotes."
+    },
+    "about": {
+      "title": "About Core Electrical — Chelsea's Trusted Electricians for 20+ Years",
+      "description": "Learn about Core Electrical & Automation, a family-run business in Chelsea. Over 20 years of residential and commercial electrical, automation, and security experience."
+    },
+    "services": {
+      "title": "Electrical Services in Chelsea | Core Electrical",
+      "description": "Complete electrical and automation services in Chelsea and Bayside: wiring, smart home (C-Bus), security, intercoms, lighting, and commercial. Licensed & insured."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Quotes in Chelsea | Core Electrical",
+      "description": "Transparent pricing for electrical work in Chelsea. Free initial consultation, fixed quotes, no hidden fees. Call Core Electrical for an obligation-free estimate."
+    },
+    "contact": {
+      "title": "Contact Core Electrical | Free Quote within 24hrs",
+      "description": "Get in touch with Core Electrical for a free quote on electrical, automation, or security work in Chelsea and Melbourne's Bayside. Response within 24 hours."
+    },
+    "blog": {
+      "title": "Chelsea Electrical Blog | Core Electrical",
+      "description": "Expert electrical tips and local guides from Core Electrical. Cost guides, automation advice, safety tips, and more for Chelsea and Bayside homeowners and businesses."
+    }
+  },
+  "blogHeading": "Latest Electrical Tips",
+  "blogSubheading": "Local guides from your Chelsea electricians",
+  "blogPosts": [
+    {
+      "title": "How Much Does It Cost to Install Smart Lighting in Chelsea in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about smart lighting costs in Chelsea? We break down pricing, installation factors, and savings for homes in Melbourne's Bayside.",
+      "image": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_25",
+      "body": [
+        "Smart lighting is one of the most popular home upgrades in Chelsea right now, and for good reason. Not only does it add convenience and ambience, but it can significantly reduce your energy bills when paired with LED technology. In this guide, we'll give you a realistic cost breakdown for smart lighting installation in a typical Chelsea home, including factors that affect pricing in 2026.",
+        "The basic cost for smart lighting starts from around $150 per room for a simple switch-and-dimmer setup using brands like Clipsal C-Bus or Philips Hue. For a full-home system with automated blinds and sensors, you're looking at anywhere from $3,000 to $10,000 depending on the size of your property and the level of integration. Chelsea homes vary from modern townhouses to older weatherboards, so your exact quote will depend on your existing wiring and ceiling access.",
+        "Labour is a major factor. In Melbourne's Bayside, electricians charge between $80 and $120 per hour. Most smart lighting installations take one to three days. If your home needs new cable runs or a switchboard upgrade, that adds cost but ensures safety and compliance with Australian standards (AS/NZS 3000). We always recommend a site inspection before quoting — it's free with Core Electrical.",
+        "Another factor is the choice of system. Clipsal C-Bus is a robust Australian-made option commonly used in Chelsea homes for its reliability and resale value. Wireless systems like Lutron or Hue are cheaper but may not integrate as well with other automation. If you're planning a full home automation system in the future, investing in wired C-Bus now can save you money down the track.",
+        "Energy savings are real. Smart LED lighting can cut your lighting energy use by up to 80% compared to old halogens. With the average Chelsea household spending around $400 per year on lighting, a smart system can pay for itself in three to five years. Plus, you get the convenience of controlling lights from your phone or voice assistant.",
+        "We recommend getting at least three quotes from licensed electricians who specialise in automation. Ask about warranties — Core Electrical offers a full workmanship guarantee on all smart lighting installs. And remember, any electrical work in Victoria must be done by a registered electrical contractor. Don't be tempted by unlicensed handymen; safety first.",
+        "If you're in Chelsea or nearby Carrum, Bonbeach, or Edithvale, call Core Electrical for a fixed-price quote on smart lighting. We'll walk you through the options and help you choose a system that fits your budget and lifestyle. Smart lighting is an investment that adds value and comfort to your Bayside home.",
+        "In summary, expect to pay $150–$1,500 per room for smart lighting, depending on complexity. For a whole-house system in a typical Chelsea home, budget $4,000–$8,000. The long-term savings and convenience make it a worthwhile upgrade for 2026."
+      ]
+    },
+    {
+      "title": "A Complete Guide to Home Automation in Melbourne's Bayside",
+      "date": "February 2026",
+      "excerpt": "Discover the benefits of home automation for Bayside homeowners. From C-Bus to security, learn how to automate your Chelsea home efficiently.",
+      "image": "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d6893330740455c96d218258a458aa4.png",
+      "body": [
+        "Home automation is no longer a luxury — it's becoming a standard feature in modern Chelsea homes. Whether you want to control your lights, heating, blinds, or security from one app, automation makes life easier and more energy efficient. In this comprehensive guide, we cover everything Bayside homeowners need to know about automating their property.",
+        "The most popular system in Australia is Clipsal C-Bus, an Australian-designed wired automation platform. It's extremely reliable and can handle lighting, dimming, blinds, heating/cooling, and even pool pumps. Many Chelsea homes have C-Bus installed during renovations because it integrates seamlessly with existing wiring and adds significant resale value.",
+        "Wireless systems like Google Home, Amazon Alexa, and Apple HomeKit are easier to retrofit and cheaper upfront, but they rely on Wi-Fi and can be less reliable than a hardwired system. For a full-home solution in a larger Bayside property, we recommend a hybrid approach: wired C-Bus for critical functions and wireless for add-ons like smart plugs and sensors.",
+        "Security integration is a key driver. With C-Bus, you can program your lights to simulate occupancy when you're away, and link your alarm system to trigger lights in an emergency. Core Electrical installs compatible security cameras and sensors that work with your automation system, giving you peace of mind whether you're home or on holiday.",
+        "Energy management is another big benefit. Smart thermostats and automated blinds can reduce heating and cooling costs by up to 30%. In Chelsea's mild climate, programming your system to respond to the sun can keep your home comfortable without wasting power. We often set up scenes like 'Away' that turn off all unnecessary loads.",
+        "Costs vary widely. A basic automation system for a two-bedroom apartment might start at $2,000, while a full C-Bus install in a large Chelsea family home can be $15,000–$25,000. That includes wiring, programming, and commissioning. Ongoing maintenance is minimal, and systems typically last 15–20 years.",
+        "When planning automation, think about your long-term needs. Do you want voice control? Remote access? Integration with solar or battery storage? Core Electrical can design a system that grows with you. We serve all Bayside suburbs including Chelsea, Carrum, Edithvale, Aspendale, and Mordialloc.",
+        "Ready to make your home smarter? Contact Core Electrical for a free consultation. We'll discuss your goals, assess your property, and provide a detailed quote. Home automation is an investment that pays off in comfort, convenience, and energy savings for years to come."
+      ]
+    },
+    {
+      "title": "Why You Should Upgrade Your Switchboard in a Chelsea Home",
+      "date": "January 2026",
+      "excerpt": "Is your Chelsea home's switchboard outdated? Learn the signs, costs, and safety benefits of upgrading to a modern safety switch system.",
+      "image": "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25",
+      "body": [
+        "Your switchboard is the heart of your home's electrical system. If your Chelsea property still has an old ceramic fuse board or an outdated metal board without safety switches, it's time for an upgrade. Modern switchboards with circuit breakers and RCDs (safety switches) are essential for protecting your family and appliances.",
+        "In Victoria, safety switches have been mandatory for new homes since 1991, but many older Chelsea homes built before that still lack them. Without safety switches, a faulty appliance can cause electric shock or fire. Upgrading your switchboard is one of the most important electrical safety improvements you can make.",
+        "Signs you need an upgrade: fuses blowing frequently, lights flickering, discolouration around switches, or if your board is more than 25 years old. Also, if you're adding new appliances like air conditioning, a pool pump, or a EV charger, your old board may not handle the load. Core Electrical can assess your switchboard and recommend upgrades.",
+        "The cost of a switchboard upgrade in Chelsea typically ranges from $800 to $2,500, depending on the number of circuits and the complexity of the install. For a standard three-bedroom home with an existing meter box, expect around $1,200–$1,800. This includes replacing the main switch, installing RCDs, and testing all circuits.",
+        "A licensed electrician must do the work to comply with AS/NZS 3000 and Energy Safe Victoria requirements. Core Electrical is fully licensed and insured, and we provide a certificate of compliance for every upgrade. We also advise on surge protection — adding a surge diverter protects your expensive electronics from lightning strikes and grid spikes.",
+        "Upgrading your switchboard can also reduce your home insurance premiums. Many insurers offer discounts for properties with modern safety switches. And if you're planning to sell your Chelsea home, a recent switchboard upgrade is a strong selling point that reassures buyers.",
+        "We recommend scheduling an upgrade during a renovation when walls may be open, to minimise disruption. But it can be done anytime — Core Electrical offers same-day service for urgent safety concerns.",
+        "Don't wait for a fault to happen. Contact Core Electrical for a free switchboard inspection in Chelsea and surrounding suburbs. We'll give you an honest assessment and a fixed price quote. Your family's safety is worth it."
+      ]
+    },
+    {
+      "title": "Commercial Electrical Safety Inspections: What Every Business Owner Should Know",
+      "date": "December 2025",
+      "excerpt": "Ensure your commercial property in Chelsea or Bayside meets Victorian electrical safety standards. Key inspection tips and compliance advice.",
+      "image": "https://static.wixstatic.com/media/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg/v1/fill/w_394,h_266,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg",
+      "body": [
+        "If you run a business in Chelsea, Carrum, or anywhere in Melbourne's Bayside, regular electrical safety inspections are not just good practice — they're a legal requirement. Commercial properties must comply with Victorian occupational health and safety laws, and electrical contractors must verify that installations are safe and compliant.",
+        "A commercial electrical inspection covers your switchboard, wiring, power points, lighting, emergency exits, and any connected equipment. The inspector checks for overloaded circuits, damaged insulation, improper earthing, and missing safety switches. For restaurants and cafes, additional checks on kitchen equipment and exhaust systems are critical.",
+        "Core Electrical offers comprehensive commercial safety inspections tailored to your business type. We know that downtime costs you money, so we schedule inspections at your convenience — after hours or on weekends if needed. You get a detailed report with any issues found and a fixed price for rectification work.",
+        "Common problems we find in older Chelsea commercial properties: outdated switchboards without RCDs, insufficient power points leading to double adapters, and old wiring that can't handle modern equipment like computers and POS systems. These are fire hazards that need immediate attention.",
+        "How often should you inspect? Energy Safe Victoria recommends every 5 years for general commercial premises, and every 1-2 years for high-risk environments like workshops or wet areas. If you've had renovations or added machinery, an inspection should be done immediately.",
+        "The cost of a commercial electrical inspection starts from $300 for a small shop and goes up to $1,000+ for larger warehouses or factories. It's a small price for peace of mind and legal compliance. Non-compliance can result in fines, insurance void, or worse — an electrical fire or injury.",
+        "Core Electrical serves businesses across the Bayside, including Chelsea, Mordialloc, Parkdale, and Aspendale. We provide certificates of inspection and can help you schedule regular maintenance plans to stay compliant year after year.",
+        "Protect your business, your employees, and your customers. Call Core Electrical today to book a commercial electrical safety inspection. We'll give you honest advice and keep your premises safe and compliant with Australian standards."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d6893330740455c96d218258a458aa4.png",
+  "photoRowImages": [
+    "https://static.wixstatic.com/media/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg/v1/fill/w_394",
+    "https://static.wixstatic.com/media/3d4bbe_753e252699e24651b4451a2e3c5d07ee~mv2.jpg/v1/fill/w_147,h_91,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3d4bbe_753e252699e24651b4451a2e3c5d07ee~mv2.jpg",
+    "https://static.wixstatic.com/media/3d4bbe_4540b3c454014f0d945fa9022ad5e208~mv2.jpg/v1/fill/w_147,h_123,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3d4bbe_4540b3c454014f0d945fa9022ad5e208~mv2.jpg",
+    "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_25"
+  ],
+  "aboutImages": [
+    "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d6893330740455c96d218258a458aa4.png",
+    "https://static.wixstatic.com/media/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg/v1/fill/w_394,h_266,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg",
+    "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25"
+  ],
+  "fullWidthImage": "https://static.wixstatic.com/media/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg/v1/fill/w_394",
+  "bannerHeading": "Ready to start your electrical project?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_25",
+  "testimonialsImage": "https://static.wixstatic.com/media/3d4bbe_753e252699e24651b4451a2e3c5d07ee~mv2.jpg/v1/fill/w_147,h_91,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3d4bbe_753e252699e24651b4451a2e3c5d07ee~mv2.jpg",
+  "galleryImages": [
+    "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_25",
+    "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d6893330740455c96d218258a458aa4.png",
+    "https://static.wixstatic.com/media/8d6893330740455c96d218258a458aa4.png/v1/fill/w_25",
+    "https://static.wixstatic.com/media/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg/v1/fill/w_394,h_266,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3d4bbe_1a477c699d354cf68ab8aa8f93ce620e~mv2.jpg",
+    "https://static.wixstatic.com/media/3d4bbe_4540b3c454014f0d945fa9022ad5e208~mv2.jpg/v1/fill/w_147,h_123,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3d4bbe_4540b3c454014f0d945fa9022ad5e208~mv2.jpg"
+  ],
+  "pricingBgImage": "https://static.wixstatic.com/media/3d4bbe_4540b3c454014f0d945fa9022ad5e208~mv2.jpg/v1/fill/w_147,h_123,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3d4bbe_4540b3c454014f0d945fa9022ad5e208~mv2.jpg"
+}
