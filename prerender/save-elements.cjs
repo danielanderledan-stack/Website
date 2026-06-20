@@ -12,7 +12,7 @@
 
 const ALLOW = { B: 1, STRONG: 1, I: 1, EM: 1, U: 1, BR: 1, SPAN: 1, A: 1, FONT: 1 };
 const DROP = { SCRIPT: 1, STYLE: 1, IFRAME: 1, OBJECT: 1, EMBED: 1, LINK: 1, META: 1, NOSCRIPT: 1, SVG: 1 };
-const OK_STYLE = ["color", "font-weight", "font-style", "text-decoration", "font-family", "background-color"];
+const OK_STYLE = ["color", "font-weight", "font-style", "text-decoration", "text-decoration-color", "text-decoration-line", "text-decoration-style", "font-family", "background-color"];
 const VOID = { img: 1, br: 1, hr: 1, input: 1, meta: 1, link: 1 };
 
 function sanitizeFragment(JSDOM, html) {

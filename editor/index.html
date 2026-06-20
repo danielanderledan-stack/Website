@@ -1498,6 +1498,54 @@
       .tb-fonts .fb:hover {
         background: rgba(255, 255, 255, 0.12);
       }
+      /* highlight + underline-colour button glyphs */
+      .ce-toolbar .tb-hi {
+        background: #fde047;
+        color: #1c1917;
+        padding: 0 4px;
+        border-radius: 3px;
+        line-height: 1.5;
+      }
+      .ce-toolbar .tb-uc {
+        border-bottom: 3px solid #e11d48;
+        line-height: 1;
+        padding-bottom: 1px;
+      }
+      /* shared colour popups (text / highlight / underline) */
+      .tb-colorpop {
+        grid-template-columns: repeat(5, 1fr);
+      }
+      .tb-colorpop .sw {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1.5px solid rgba(255, 255, 255, 0.25);
+        cursor: pointer;
+        padding: 0;
+      }
+      .tb-colorpop .tb-spectrum {
+        grid-column: 1 / -1;
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        background: transparent;
+        cursor: pointer;
+        padding: 2px;
+      }
+      .tb-colorpop .tb-clear {
+        grid-column: 1 / -1;
+        font: 600 12px Hanken Grotesk, sans-serif;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 6px;
+        padding: 6px;
+        cursor: pointer;
+      }
+      .tb-colorpop .tb-clear:hover {
+        background: rgba(255, 255, 255, 0.16);
+      }
 
       /* ---------- mobile bottom nav ---------- */
       .mob-nav {
@@ -2317,6 +2365,18 @@
         <div class="tb-pop" id="tbColorPop" hidden></div>
       </div>
       <div class="tb-wrap">
+        <button class="tb-btn" id="tbHiliteBtn" title="Highlight">
+          <span class="tb-hi">A</span>
+        </button>
+        <div class="tb-pop" id="tbHilitePop" hidden></div>
+      </div>
+      <div class="tb-wrap">
+        <button class="tb-btn" id="tbUColorBtn" title="Underline colour">
+          <span class="tb-uc">U</span>
+        </button>
+        <div class="tb-pop" id="tbUColorPop" hidden></div>
+      </div>
+      <div class="tb-wrap">
         <button class="tb-btn" id="tbFontBtn" title="Font">Aa</button>
         <div class="tb-pop tb-fonts" id="tbFontPop" hidden></div>
       </div>
@@ -2830,6 +2890,7 @@
             startEditing(el);
           });
           el.addEventListener("blur", function () {
+            if (tbHoldFocus) return; // a colour picker stole focus — don't commit
             commitEditable(el, pg);
           });
           el.addEventListener("keydown", function (e) {
@@ -2939,6 +3000,9 @@
             "font-weight",
             "font-style",
             "text-decoration",
+            "text-decoration-color",
+            "text-decoration-line",
+            "text-decoration-style",
             "font-family",
             "background-color",
           ];
@@ -3004,6 +3068,8 @@
           var tb = $("ceToolbar");
           if (tb) tb.hidden = true;
           $("tbColorPop").hidden = true;
+          $("tbHilitePop").hidden = true;
+          $("tbUColorPop").hidden = true;
           $("tbFontPop").hidden = true;
           state.activeEl = null;
           if (tbRaf) {
@@ -3087,6 +3153,169 @@
             ":wght@400;700&display=swap";
           doc.head.appendChild(l);
         }
+        // Load a Google font into the EDITOR chrome doc too, so the font-picker
+        // previews render in the toolbar (not just inside the iframe).
+        function ensureFontParent(fam) {
+          var id = "cdp-f-" + fam.replace(/\W+/g, "");
+          if (document.getElementById(id)) return;
+          var l = document.createElement("link");
+          l.id = id;
+          l.rel = "stylesheet";
+          l.href =
+            "https://fonts.googleapis.com/css2?family=" +
+            encodeURIComponent(fam).replace(/%20/g, "+") +
+            ":wght@400;700&display=swap";
+          document.head.appendChild(l);
+        }
+        // Snapshot / restore the iframe text selection so the native full-spectrum
+        // colour picker (which steals focus from the iframe) still applies to the
+        // text the user had selected.
+        var tbSavedRange = null;
+        var tbSavedEl = null;
+        // True while a native colour picker holds focus — tells the
+        // contenteditable blur handler NOT to commit/close (which would reset the
+        // element's innerHTML and detach the saved selection range).
+        var tbHoldFocus = false;
+        function saveSel() {
+          tbSavedEl = state.activeEl;
+          var doc = activeDoc();
+          if (!doc) return;
+          var sel = doc.defaultView.getSelection();
+          tbSavedRange =
+            sel && sel.rangeCount && !sel.isCollapsed
+              ? sel.getRangeAt(0).cloneRange()
+              : null;
+        }
+        function restoreSel() {
+          var doc = activeDoc();
+          if (!doc) return;
+          var el = tbSavedEl || state.activeEl;
+          if (el) {
+            el.contentEditable = "true";
+            el.classList.add("cd-active");
+            state.activeEl = el;
+            el.focus();
+          }
+          if (!tbSavedRange) return;
+          var sel = doc.defaultView.getSelection();
+          if (!sel) return;
+          try {
+            sel.removeAllRanges();
+            sel.addRange(tbSavedRange);
+          } catch (e) {}
+        }
+        // Highlight = inline background-color. hiliteColor (Firefox) / backColor
+        // (Chrome, Safari, Edge) — try both so it works in every browser. With
+        // styleWithCSS both emit a <span style="background-color:…">. null clears.
+        function execHighlight(c) {
+          var doc = activeDoc();
+          if (!doc || !state.activeEl) return;
+          state.activeEl.focus();
+          var sel = doc.defaultView.getSelection();
+          if (!sel || !sel.rangeCount || sel.isCollapsed) selectAllActive();
+          var val = c || "transparent";
+          try {
+            doc.execCommand("styleWithCSS", false, true);
+          } catch (e) {}
+          var ok = false;
+          try {
+            ok = doc.execCommand("hiliteColor", false, val);
+          } catch (e) {}
+          if (!ok) {
+            try {
+              doc.execCommand("backColor", false, val);
+            } catch (e) {}
+          }
+          syncToolbar();
+        }
+        // Underline colour: no execCommand exists, so wrap the selection in a
+        // span that both underlines and colours the underline. Captured on blur
+        // (commitEditable reads innerHTML), so no manual staging needed.
+        function applyUnderlineColor(c) {
+          var doc = activeDoc();
+          if (!doc || !state.activeEl) return;
+          state.activeEl.focus();
+          var sel = doc.defaultView.getSelection();
+          if (!sel) return;
+          if (!sel.rangeCount || sel.isCollapsed) selectAllActive();
+          if (!sel.rangeCount) return;
+          var range = sel.getRangeAt(0);
+          if (range.collapsed) return;
+          var span = doc.createElement("span");
+          span.style.textDecorationLine = "underline";
+          span.style.textDecorationColor = c;
+          try {
+            range.surroundContents(span);
+          } catch (e) {
+            // range crosses element boundaries — extract + re-insert
+            var frag = range.extractContents();
+            span.appendChild(frag);
+            range.insertNode(span);
+          }
+          sel.removeAllRanges();
+          var r2 = doc.createRange();
+          r2.selectNodeContents(span);
+          sel.addRange(r2);
+          syncToolbar();
+        }
+        // Shared builder: swatch grid + full-spectrum <input type=color> (+ clear).
+        var TB_SWATCHES = [
+          "#fb8500",
+          "#ffb703",
+          "#1c1917",
+          "#ffffff",
+          "#e11d48",
+          "#2563eb",
+          "#16a34a",
+          "#7c3aed",
+          "#0891b2",
+          "#78716c",
+        ];
+        function fillColorPop(popEl, onPick, opts) {
+          opts = opts || {};
+          popEl.classList.add("tb-colorpop");
+          popEl.innerHTML = "";
+          TB_SWATCHES.forEach(function (c) {
+            var s = document.createElement("button");
+            s.className = "sw";
+            s.style.background = c;
+            s.onclick = function () {
+              onPick(c);
+              popEl.hidden = true;
+            };
+            popEl.appendChild(s);
+          });
+          if (opts.clear) {
+            var x = document.createElement("button");
+            x.className = "tb-clear";
+            x.textContent = opts.clearLabel || "Remove";
+            x.onclick = function () {
+              onPick(null);
+              popEl.hidden = true;
+            };
+            popEl.appendChild(x);
+          }
+          var inp = document.createElement("input");
+          inp.type = "color";
+          inp.className = "tb-spectrum";
+          inp.value = opts.initial || "#fb8500";
+          // let the input take focus (open the OS picker) but snapshot the
+          // selection first so we can re-apply it to the right text on change.
+          inp.addEventListener("mousedown", function (e) {
+            e.stopPropagation();
+            saveSel();
+            tbHoldFocus = true;
+          });
+          inp.addEventListener("blur", function () {
+            tbHoldFocus = false;
+          });
+          inp.addEventListener("change", function () {
+            onPick(inp.value);
+            tbHoldFocus = false;
+            popEl.hidden = true;
+          });
+          popEl.appendChild(inp);
+        }
         (function wireToolbar() {
           var tb = $("ceToolbar");
           if (!tb) return;
@@ -3102,43 +3331,68 @@
           $("tbU").onclick = function () {
             execRich("underline");
           };
-          $("tbColorBtn").onclick = function () {
-            $("tbColorPop").hidden = !$("tbColorPop").hidden;
-            $("tbFontPop").hidden = true;
-          };
-          $("tbFontBtn").onclick = function () {
-            $("tbFontPop").hidden = !$("tbFontPop").hidden;
-            $("tbColorPop").hidden = true;
-          };
-          [
-            "#fb8500",
-            "#ffb703",
-            "#1c1917",
-            "#ffffff",
-            "#e11d48",
-            "#2563eb",
-            "#16a34a",
-            "#7c3aed",
-            "#0891b2",
-            "#78716c",
-          ].forEach(function (c) {
-            var s = document.createElement("button");
-            s.className = "sw";
-            s.style.background = c;
-            s.onclick = function () {
-              execRich("foreColor", c);
-              $("tbColorPop").hidden = true;
+          function hideTbPops(except) {
+            ["tbColorPop", "tbHilitePop", "tbUColorPop", "tbFontPop"].forEach(
+              function (id) {
+                if (id !== except) $(id).hidden = true;
+              },
+            );
+          }
+          function tbToggle(btnId, popId, onOpen) {
+            $(btnId).onclick = function () {
+              var willShow = $(popId).hidden;
+              hideTbPops(popId);
+              $(popId).hidden = !willShow;
+              if (willShow && onOpen) onOpen();
             };
-            $("tbColorPop").appendChild(s);
+          }
+          // Text colour, highlight, underline-colour — swatches + full spectrum.
+          fillColorPop($("tbColorPop"), function (c) {
+            restoreSel();
+            if (c) execRich("foreColor", c);
           });
+          fillColorPop(
+            $("tbHilitePop"),
+            function (c) {
+              restoreSel();
+              execHighlight(c);
+            },
+            { clear: true, clearLabel: "No highlight", initial: "#fde047" },
+          );
+          fillColorPop(
+            $("tbUColorPop"),
+            function (c) {
+              restoreSel();
+              if (c) applyUnderlineColor(c);
+            },
+            { initial: "#e11d48" },
+          );
+          tbToggle("tbColorBtn", "tbColorPop", saveSel);
+          tbToggle("tbHiliteBtn", "tbHilitePop", saveSel);
+          tbToggle("tbUColorBtn", "tbUColorPop", saveSel);
+          tbToggle("tbFontBtn", "tbFontPop");
+          // Font picker — all Google Fonts (served as woff2; supported by Chrome,
+          // Firefox, Safari and Edge). Loaded into both the iframe (on apply) and
+          // the editor chrome (so the preview renders).
           [
             ["Roboto Slab", "Classic"],
             ["Montserrat", "Modern"],
-            ["Playfair Display", "Lean"],
+            ["Playfair Display", "Elegant"],
             ["Oswald", "Bold"],
             ["Poppins", "Friendly"],
             ["Bebas Neue", "Punchy"],
+            ["Lora", "Editorial"],
+            ["Merriweather", "Readable"],
+            ["Raleway", "Clean"],
+            ["Nunito", "Rounded"],
+            ["Work Sans", "Neutral"],
+            ["DM Serif Display", "Fashion"],
+            ["Archivo", "Strong"],
+            ["Lato", "Warm"],
+            ["Source Sans 3", "Plain"],
+            ["Inter", "Tech"],
           ].forEach(function (f) {
+            ensureFontParent(f[0]);
             var b = document.createElement("button");
             b.className = "fb";
             b.textContent = f[1];
