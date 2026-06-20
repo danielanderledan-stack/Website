@@ -2384,7 +2384,29 @@
             t.classList.remove("show");
           }, 4600);
         }
-        function api(body) {
+        // Actions that COMMIT to the customer's GitHub repo. They must NOT run
+        // concurrently: each is a separate commit to the same repo, and parallel
+        // commits race on the branch HEAD → GitHub 409 ("is at <sha> but expected
+        // <sha>"), so all-but-one silently fail ("changed 1, then none of the rest
+        // worked"). Worse, a loser's content was built from a pre-race snapshot, so
+        // blindly retrying it would REVERT the winner. The fix is to serialise:
+        // every write waits for the previous one to finish, so each action fetches
+        // the page AFTER the prior commit landed — fresh content, no SHA conflict.
+        var WRITE_ACTIONS = {
+          "save-elements": 1,
+          swap: 1,
+          "save-icon": 1,
+          colours: 1,
+          "save-details": 1,
+          "save-fonts": 1,
+          "save-hours": 1,
+          "save-announce": 1,
+          "toggle-section": 1,
+          "create-blog-post": 1,
+          "delete-blog-post": 1,
+        };
+        var __writeChain = Promise.resolve();
+        function rawApi(body) {
           body.token = state.token;
           return fetch(AUTH, {
             method: "POST",
@@ -2393,6 +2415,21 @@
           }).then(function (r) {
             return r.json();
           });
+        }
+        function api(body) {
+          // Reads (page fetch, site-info, analytics, login…) run immediately.
+          if (!body || !WRITE_ACTIONS[body.action]) return rawApi(body);
+          // Writes queue behind the previous write (whatever its outcome) so the
+          // commits to one repo land one-at-a-time, in call order.
+          var run = function () {
+            return rawApi(body);
+          };
+          var p = __writeChain.then(run, run);
+          __writeChain = p.then(
+            function () {},
+            function () {},
+          );
+          return p;
         }
         function norm(s) {
           return (s || "").replace(/\s+/g, " ").trim();
