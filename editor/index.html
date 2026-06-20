@@ -1898,6 +1898,9 @@
           "[data-ce].cd-changed{box-shadow:0 0 0 1.5px rgba(251,133,0,.45)}" +
           '[data-ce-cap="image"]{cursor:pointer;outline:2px solid transparent;outline-offset:-2px;transition:outline-color .12s}' +
           '[data-ce-cap="image"].cd-img-hover{outline-color:#fb8500}' +
+          /* overlaid images: force a pointer cursor even though the element
+             physically under the mouse is a scrim/gradient, not the <img>. */
+          "html.cd-img-cursor, html.cd-img-cursor *{cursor:pointer!important}" +
           ".cd-img-tag{position:absolute;top:8px;left:8px;z-index:5;background:rgba(28,25,23,.82);color:#fff;font:600 12px Hanken Grotesk,sans-serif;padding:6px 11px;border-radius:7px;pointer-events:none;display:none}" +
           ".cd-img-tag.show{display:block}";
 
@@ -1979,11 +1982,39 @@
                 );
                 return;
               }
+              // Editable TEXT click → let the element's own handler run.
+              var txt =
+                e.target.closest &&
+                e.target.closest('[data-ce-cap="rich"],[data-ce-cap="plain"]');
+              if (txt) return;
+              // Otherwise hit-test the z-stack for an editable image. Overlaid
+              // photos (hero scrim, gradients, photo-strip tints) never get the
+              // click on the <img>, so resolve by point instead of by target.
+              var hit = topEditableImageAt(doc, e.clientX, e.clientY);
+              if (hit) {
+                e.preventDefault();
+                e.stopPropagation();
+                imgTarget = { img: hit.img, path: hit.path };
+                $("imgFile").click();
+                return;
+              }
               var a = e.target.closest && e.target.closest("a,button");
               if (a) e.preventDefault();
             },
             true,
           );
+          // Hover affordance for overlaid images (point-resolved, like clicks).
+          doc.addEventListener("mousemove", function (e) {
+            if (
+              e.target.closest &&
+              e.target.closest('[data-ce-cap="rich"],[data-ce-cap="plain"]')
+            ) {
+              clearImgHover();
+              return;
+            }
+            imageHoverAt(doc, e.clientX, e.clientY);
+          });
+          doc.addEventListener("mouseleave", clearImgHover);
           setupHero(doc);
           // clicking empty space commits + closes the toolbar
           doc.addEventListener(
@@ -2422,10 +2453,62 @@
           }
           return el.parentElement || null;
         }
+        // Resolve the top-most EDITABLE image under a viewport point by
+        // hit-testing the whole z-stack (overlays, gradients, dark scrims),
+        // not by relying on a click landing on the <img> itself. Editable
+        // photos almost always sit at the BOTTOM of a stack with an overlay
+        // div on top, so a direct img click never fires — this is the fix.
+        function topEditableImageAt(doc, x, y) {
+          var stack;
+          try {
+            stack = doc.elementsFromPoint(x, y);
+          } catch (e) {
+            return null;
+          }
+          if (!stack) return null;
+          for (var i = 0; i < stack.length; i++) {
+            var el = stack[i];
+            if (
+              el &&
+              el.tagName === "IMG" &&
+              el.getAttribute("data-ce-cap") === "image" &&
+              el.hasAttribute("data-cd-img")
+            ) {
+              return { img: el, path: el.getAttribute("data-cd-img") };
+            }
+          }
+          return null;
+        }
+        // Hover affordance: highlight + show the "Change photo" tag for the
+        // top editable image under the cursor (skipped while over text).
+        var lastHoverImg = null;
+        function clearImgHover() {
+          if (!lastHoverImg) return;
+          lastHoverImg.classList.remove("cd-img-hover");
+          if (lastHoverImg.__cdTag)
+            lastHoverImg.__cdTag.classList.remove("show");
+          var d = lastHoverImg.ownerDocument;
+          if (d) d.documentElement.classList.remove("cd-img-cursor");
+          lastHoverImg = null;
+        }
+        function imageHoverAt(doc, x, y) {
+          var hit = topEditableImageAt(doc, x, y);
+          var img = hit ? hit.img : null;
+          if (img === lastHoverImg) return;
+          clearImgHover();
+          if (img) {
+            img.classList.add("cd-img-hover");
+            if (img.__cdTag) img.__cdTag.classList.add("show");
+            doc.documentElement.classList.add("cd-img-cursor");
+            lastHoverImg = img;
+          }
+        }
         function attachImageLayer(doc) {
           var bind = function () {
-            // Bind to the tagged image elements directly — same selector path
-            // as the text editor — so object-cover photos stay clickable.
+            // Tag each editable image with its resolved backend path and build
+            // the floating "Change photo" overlay. We deliberately DON'T bind a
+            // click handler to the <img> — overlaid photos never receive the
+            // click. Routing happens by hit-testing in onFrameReady instead.
             doc
               .querySelectorAll('[data-ce-cap="image"]')
               .forEach(function (img) {
@@ -2446,23 +2529,7 @@
                 tag.className = "cd-img-tag";
                 tag.textContent = "Change photo";
                 if (host) host.appendChild(tag);
-
-                var show = function () {
-                  img.classList.add("cd-img-hover");
-                  tag.classList.add("show");
-                };
-                var hide = function () {
-                  img.classList.remove("cd-img-hover");
-                  tag.classList.remove("show");
-                };
-                img.addEventListener("mouseenter", show);
-                img.addEventListener("mouseleave", hide);
-                img.addEventListener("click", function (e) {
-                  e.stopPropagation();
-                  e.preventDefault();
-                  imgTarget = { img: img, path: match };
-                  $("imgFile").click();
-                });
+                img.__cdTag = tag; // back-reference for hover toggling
               });
           };
           if (state.images.length) {
