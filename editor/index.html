@@ -3295,20 +3295,22 @@
         var iconSearchT = null;
         var iconReqId = 0;
 
-        // Tag every editable icon's <svg> with a stable original so undo/no-op
-        // detection works (mirrors bindEditable's dataset.ceOrig).
+        // Tag every editable icon's <svg> with a stable original (the FULL
+        // outerHTML, so undo restores viewBox/paint/size, not just inner) so
+        // undo/no-op detection works (mirrors bindEditable's dataset.ceOrig).
         function attachIconLayer(doc, pg) {
           Array.prototype.forEach.call(
             doc.querySelectorAll('[data-ce-cap="icon"]'),
             function (el) {
               if (!el.__cdIcon) {
                 el.__cdIcon = true;
-                if (el.dataset.ceIconOrig == null)
-                  el.dataset.ceIconOrig = el.innerHTML;
+                if (el.__cdIconOrig == null) el.__cdIconOrig = svgOuterHtml(el);
               }
             },
           );
-          // Re-apply any staged icon swaps for this page (page re-renders lose them).
+          // Re-apply any staged icon swaps for this page (page re-renders lose
+          // them). The staged svg is the FULL corrected element, so we replace
+          // the whole <svg> (attrs + inner), not inner-only.
           Object.keys(state.ops.icon).forEach(function (key) {
             if (key.indexOf(pg + "::") !== 0) return;
             var ce = state.ops.icon[key].ce;
@@ -3316,10 +3318,31 @@
               '[data-ce="' + cssEsc(ce) + '"][data-ce-cap="icon"]',
             );
             if (el) {
-              el.innerHTML = innerOfSvg(state.ops.icon[key].svg);
+              replaceSvgFromString(el, state.ops.icon[key].svg);
               el.classList.add("cd-changed");
             }
           });
+        }
+        // Replace a live <svg> element's open-tag attrs AND inner from a full
+        // "<svg ...>...</svg>" string, in place (keeps the node + its listeners /
+        // __cdIcon flag). Used by the staged re-apply and by undo.
+        function replaceSvgFromString(svgEl, full) {
+          var box = svgEl.ownerDocument.createElement("div");
+          box.innerHTML = String(full || "").trim();
+          var src = box.querySelector("svg");
+          if (!src) return;
+          // Set every attr the source declares; remove any host attr the source
+          // no longer has (except class, which carries the editor's markers).
+          var keep = {};
+          Array.prototype.forEach.call(src.attributes, function (a) {
+            svgEl.setAttribute(a.name, a.value);
+            keep[a.name] = 1;
+          });
+          Array.prototype.slice.call(svgEl.attributes).forEach(function (a) {
+            if (!keep[a.name] && a.name !== "class")
+              svgEl.removeAttribute(a.name);
+          });
+          svgEl.innerHTML = src.innerHTML;
         }
         function cssEsc(s) {
           return String(s).replace(/["\\\]]/g, "\\$&");
@@ -3453,33 +3476,52 @@
               toast("Couldn't load that icon — try another.");
             });
         }
+        // Display size (px) we force onto every swapped icon so they match the
+        // ~50%-larger sizing the migration applies to existing icons (40 -> 60).
+        var ICON_DISPLAY_PX = 60;
+        // Paint attributes whose VALUES are owned by the picked icon's own art
+        // style. We REPLACE the host's with the picked icon's (stroke icons keep
+        // stroke + drop fill="none" sensibly; fill icons keep fill + drop stroke).
+        var ICON_PAINT_ATTRS = [
+          "fill",
+          "stroke",
+          "stroke-width",
+          "stroke-linecap",
+          "stroke-linejoin",
+          "stroke-miterlimit",
+        ];
         function applyIconPick(t, name, svgText) {
           var svgEl = t.svgEl;
           if (!svgEl || !svgEl.ownerDocument) return;
-          // Sanitise to inner geometry (client mirror of save-icon.cjs) and keep
-          // the host <svg>'s own attributes (size/colour/class) untouched.
-          var newInner = sanitizeIconSvg(svgEl.ownerDocument, svgText);
-          if (!newInner) {
+          var doc = svgEl.ownerDocument;
+          // Parse the fetched Iconify svg: we ADOPT its viewBox + paint attrs (so
+          // a 24/256-unit icon renders full-size, and a filled icon is filled —
+          // not a hollow outline trapped under the host's fill="none" stroke),
+          // and sanitise its inner geometry. We keep currentColor so the icon
+          // still inherits the site ink, and preserve the host's data-ce*/class.
+          var picked = parseIconSvg(doc, svgText);
+          if (!picked || !picked.inner) {
             toast("That icon couldn't be used — try another.");
             return;
           }
           var key = t.page + "::" + t.ce;
           var prevOp = state.ops.icon[key] || null;
-          var prevInner = svgEl.innerHTML;
+          // Capture the host's ORIGINAL full open-tag attrs + inner so undo can
+          // restore viewBox/paint/size too — not just the inner geometry.
+          var prevFull = prevOp ? prevOp.svg : svgOuterHtml(svgEl);
           pushUndo({
             type: "icon",
             svgEl: svgEl,
             key: key,
-            prevInner: prevOp
-              ? innerOfSvg(prevOp.svg)
-              : svgEl.dataset.ceIconOrig,
+            prevFull: prevFull,
             prevOp: prevOp,
           });
-          svgEl.innerHTML = newInner;
+          applyPickedToHost(svgEl, picked);
           svgEl.classList.add("cd-changed");
-          // Stage the FULL host svg (open tag + new inner) so the backend's
-          // extractInner keeps geometry while preserving the host on disk.
-          var staged = serializeHostSvg(svgEl, newInner);
+          // Stage the FULL corrected host svg (adopted viewBox + paint + size +
+          // preserved data-ce + new inner). The backend now replaces the WHOLE
+          // <svg> element with this string (located by its unique data-ce).
+          var staged = svgOuterHtml(svgEl);
           state.ops.icon[key] = {
             page: t.page,
             ce: t.ce,
@@ -3490,10 +3532,30 @@
           closeAllModals();
           toast("Icon staged — hit Publish to make it live.");
         }
-        // Build the staged svg string: the host <svg>'s real open tag + new inner
-        // markup + </svg>. The backend only uses the INNER (extractInner), so the
-        // open tag is informational, but we serialise the live host for fidelity.
-        function serializeHostSvg(svgEl, inner) {
+        // Mutate the host <svg> in place: adopt the picked icon's viewBox + paint
+        // (replacing the host's), force the display size (FIX 2), and set the
+        // sanitised inner geometry. Preserves data-ce*/class + any non-paint host
+        // attrs. `picked` = { viewBox, paint:{name:value}, inner }.
+        function applyPickedToHost(svgEl, picked) {
+          if (picked.viewBox) svgEl.setAttribute("viewBox", picked.viewBox);
+          // Drop ALL of the host's paint attrs first, then set ONLY the ones the
+          // picked icon actually declares — so stroke icons lose a stale fill and
+          // fill icons lose a stale stroke="currentColor".
+          ICON_PAINT_ATTRS.forEach(function (a) {
+            svgEl.removeAttribute(a);
+          });
+          Object.keys(picked.paint).forEach(function (a) {
+            svgEl.setAttribute(a, picked.paint[a]);
+          });
+          // FIX 2: enlarge + (via the centred viewBox) centre the swapped icon.
+          svgEl.setAttribute("width", String(ICON_DISPLAY_PX));
+          svgEl.setAttribute("height", String(ICON_DISPLAY_PX));
+          svgEl.innerHTML = picked.inner;
+        }
+        // Serialise a live <svg> element to a string (open tag with all current
+        // attrs + inner + close). Used both to stage the corrected svg and to
+        // capture the original for undo.
+        function svgOuterHtml(svgEl) {
           var open = "<svg";
           Array.prototype.forEach.call(svgEl.attributes, function (a) {
             open +=
@@ -3504,7 +3566,34 @@
               '"';
           });
           open += ">";
-          return open + inner + "</svg>";
+          return open + svgEl.innerHTML + "</svg>";
+        }
+        // Parse a fetched Iconify svg into { viewBox, paint, inner }. paint only
+        // carries attrs the source svg actually declares (from ICON_PAINT_ATTRS);
+        // inner is sanitised to the geometry allowlist.
+        function parseIconSvg(doc, svgText) {
+          var box = doc.createElement("div");
+          box.innerHTML = String(svgText || "").trim();
+          var svg = box.querySelector("svg");
+          if (!svg) return null;
+          var paint = {};
+          ICON_PAINT_ATTRS.forEach(function (a) {
+            if (svg.hasAttribute(a)) paint[a] = svg.getAttribute(a);
+          });
+          // Iconify icons are authored with currentColor as their paint; if the
+          // source omitted fill/stroke entirely, default to a sensible fill so
+          // the glyph still paints (mdi/material-symbols sometimes rely on the
+          // CSS default fill). currentColor keeps the site ink.
+          if (!paint.fill && !paint.stroke) paint.fill = "currentColor";
+          // Only accept a numeric "minX minY width height" viewBox; anything else
+          // (or none) is dropped so no untrusted string reaches the attribute.
+          var vb = svg.getAttribute("viewBox") || "";
+          if (!/^-?[\d.]+(\s+-?[\d.]+){3}$/.test(vb.trim())) vb = "";
+          return {
+            viewBox: vb.trim(),
+            paint: paint,
+            inner: sanitizeIconSvg(doc, svgText),
+          };
         }
         // Client-side SVG sanitiser — mirror of prerender/save-icon.cjs. Returns
         // the cleaned INNER markup (children of the fetched <svg>), never script,
@@ -3768,7 +3857,10 @@
             if (e.prevOp) state.ops.icon[e.key] = e.prevOp;
             else delete state.ops.icon[e.key];
             if (e.svgEl) {
-              e.svgEl.innerHTML = e.prevInner;
+              // Restore the FULL previous svg (viewBox + paint + size + inner),
+              // not just the inner geometry — so undo reverts a viewBox/paint
+              // adoption exactly to the original.
+              replaceSvgFromString(e.svgEl, e.prevFull);
               e.svgEl.classList.toggle("cd-changed", !!state.ops.icon[e.key]);
             }
           }

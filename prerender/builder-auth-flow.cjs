@@ -1035,8 +1035,10 @@ return [{ json: { site: row.site, page, edits } }];
 `.trim();
 
 const CODE_APPLY_ICONS = `
-// Splice each new icon's sanitised inner SVG into its data-ce host element.
-// Inlined from prerender/save-icon.cjs (jsdom is global in n8n).
+// Replace each icon's WHOLE <svg> host element (located by unique data-ce) with
+// the editor's staged, sanitised svg (adopted viewBox + paint + display size +
+// preserved data-ce* + new inner geometry). Inlined from prerender/save-icon.cjs
+// (jsdom is global in n8n). MUST stay in sync with that file.
 const { JSDOM } = require('jsdom');
 const g = $('Icon Guard').first().json;
 let html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
@@ -1044,6 +1046,7 @@ let html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
 const ALLOW = { G:1, PATH:1, CIRCLE:1, RECT:1, LINE:1, POLYLINE:1, POLYGON:1, ELLIPSE:1, DEFS:1, USE:1, TITLE:1, LINEARGRADIENT:1, RADIALGRADIENT:1, STOP:1 };
 const DROP = { SCRIPT:1, FOREIGNOBJECT:1, IMAGE:1, A:1, STYLE:1, IFRAME:1, OBJECT:1, ANIMATE:1, ANIMATETRANSFORM:1, ANIMATEMOTION:1, SET:1, MPATH:1 };
 const OK_ATTR = { viewbox:1, d:1, fill:1, stroke:1, 'stroke-width':1, 'stroke-linecap':1, 'stroke-linejoin':1, 'stroke-miterlimit':1, 'stroke-dasharray':1, cx:1, cy:1, r:1, rx:1, ry:1, x:1, y:1, x1:1, y1:1, x2:1, y2:1, width:1, height:1, points:1, transform:1, opacity:1, 'fill-opacity':1, 'stroke-opacity':1, 'fill-rule':1, 'clip-rule':1, offset:1, 'stop-color':1, 'stop-opacity':1, gradientunits:1, gradienttransform:1, spreadmethod:1, id:1, xmlns:1, 'xmlns:xlink':1 };
+const OK_SVG_ATTR = Object.assign({ class:1, role:1, 'aria-hidden':1, focusable:1, preserveaspectratio:1, 'data-ce':1, 'data-ce-cap':1, 'data-ce-label':1 }, OK_ATTR);
 
 const sanitizeIconInner = (inner) => {
   const doc = new JSDOM("<!DOCTYPE html><body><svg id='r'></svg>").window.document;
@@ -1069,11 +1072,25 @@ const sanitizeIconInner = (inner) => {
   return root.innerHTML;
 };
 
-const extractInner = (svg) => {
-  const s = String(svg || '');
-  const open = s.match(/<svg\\b[^>]*>/i);
-  if (open) { const start = s.indexOf(open[0]) + open[0].length; const end = s.lastIndexOf('</svg>'); return end > start ? s.slice(start, end) : s.slice(start); }
-  return s;
+// Sanitise a FULL <svg>...</svg> to an allowlisted root + inner; re-assert the
+// host's data-ce* (passed in) so the swapped element stays editable.
+const sanitizeIconSvg = (fullSvg, ceAttrs) => {
+  const doc = new JSDOM("<!DOCTYPE html><body><div id='r'></div>").window.document;
+  const host = doc.getElementById('r');
+  host.innerHTML = String(fullSvg || '').trim();
+  const svg = host.querySelector('svg');
+  if (!svg) return null;
+  Array.prototype.slice.call(svg.attributes).forEach((a) => {
+    const name = String(a.name || '').toLowerCase();
+    if (name.indexOf('on') === 0) { svg.removeAttribute(a.name); return; }
+    if (name === 'href' || name.indexOf(':href') >= 0) { svg.removeAttribute(a.name); return; }
+    if (name.indexOf('data-ce') === 0) { svg.removeAttribute(a.name); return; }
+    if (!OK_SVG_ATTR[name]) { svg.removeAttribute(a.name); return; }
+    if (/url\\s*\\(|javascript:|expression\\s*\\(|<|>/i.test(a.value)) svg.removeAttribute(a.name);
+  });
+  svg.innerHTML = sanitizeIconInner(svg.innerHTML);
+  if (ceAttrs) Object.keys(ceAttrs).forEach((k) => { if (ceAttrs[k] != null) svg.setAttribute(k, ceAttrs[k]); });
+  return svg.outerHTML;
 };
 
 const locateInner = (h, ce) => {
@@ -1087,7 +1104,10 @@ const locateInner = (h, ce) => {
   const tag = tm[1].toLowerCase();
   const gt = h.indexOf('>', mi);
   if (gt === -1) return null;
-  if (h[gt - 1] === '/') return { void: true };
+  const openTag = h.slice(ts, gt + 1);
+  const ceAttrs = {};
+  for (const m of openTag.matchAll(/\\s(data-ce(?:-cap|-label)?)="([^"]*)"/g)) { ceAttrs[m[1]] = m[2]; }
+  if (h[gt - 1] === '/') return { void: true, ceAttrs, elStart: ts, elEnd: gt + 1 };
   const innerStart = gt + 1;
   const openRe = new RegExp('<' + tag + '\\\\b', 'gi');
   const closeRe = new RegExp('</' + tag + '\\\\s*>', 'gi');
@@ -1097,7 +1117,7 @@ const locateInner = (h, ce) => {
     const o = openRe.exec(h); const c = closeRe.exec(h);
     if (!c) return null;
     if (o && o.index < c.index) { depth++; pos = o.index + 1; }
-    else { depth--; if (depth === 0) return { innerStart, innerEnd: c.index }; pos = c.index + c[0].length; }
+    else { depth--; if (depth === 0) return { innerStart, innerEnd: c.index, elStart: ts, elEnd: c.index + c[0].length, ceAttrs }; pos = c.index + c[0].length; }
   }
   return null;
 };
@@ -1108,12 +1128,13 @@ const located = [];
 for (const e of g.edits) {
   const loc = locateInner(html, e.ce);
   if (!loc || loc.void) { failures.push(String(e.ce) + ': not found'); continue; }
-  located.push({ loc, svg: e.svg });
+  const clean = sanitizeIconSvg(e.svg, loc.ceAttrs);
+  if (!clean) { failures.push(String(e.ce) + ': no svg in payload'); continue; }
+  located.push({ loc, clean });
 }
-located.sort((a, b) => b.loc.innerStart - a.loc.innerStart);
-for (const { loc, svg } of located) {
-  const clean = sanitizeIconInner(extractInner(svg));
-  html = html.slice(0, loc.innerStart) + clean + html.slice(loc.innerEnd);
+located.sort((a, b) => b.loc.elStart - a.loc.elStart);
+for (const { loc, clean } of located) {
+  html = html.slice(0, loc.elStart) + clean + html.slice(loc.elEnd);
   applied++;
 }
 if (!applied) throw new Error('No icons could be applied: ' + failures.join('; '));

@@ -4,17 +4,24 @@
    globally; pass it in, or it falls back to require).
 
    Modeled on save-elements.cjs: targeting is by the UNIQUE data-ce id (no
-   occurrence ambiguity) and we splice ONLY the element's inner HTML as a string,
-   so formatting elsewhere is byte-preserved => tiny git diffs.
+   occurrence ambiguity). We locate the WHOLE <svg ...data-ce="id"...>...</svg>
+   element and replace it with the op's sanitised svg, byte-preserving every
+   other byte on the page => tiny git diffs.
 
-   The tagged element (data-ce-cap="icon") IS the <svg> baked by the site. Its
-   OWN attributes (width/height/class/viewBox + the site's sizing/colour context)
-   are byte-preserved — we only replace what is BETWEEN <svg ...> and </svg> with
-   the new icon's inner geometry (paths/shapes/gradients).
+   WHY whole-element (not inner-only): the host <svg> is baked with the site's
+   own viewBox + paint (e.g. viewBox="0 0 40 40" fill="none" stroke="currentColor")
+   but Iconify icons are authored for THEIR own coordinate space + paint
+   (tabler/lucide=24 stroke, phosphor=256 fill, mdi=24 fill). Splicing a 24/256-
+   unit, fill-based icon INSIDE the host's kept 0 0 40 40 / stroke viewBox renders
+   it tiny / clipped / offset / hollow. So the editor stages the FULL corrected
+   svg (adopted viewBox + paint + display size + preserved data-ce* + new inner)
+   and we drop that whole element in.
 
-   Because the icon comes from a third-party API (Iconify), the inner markup is
-   hard-sanitised through jsdom to an SVG geometry allowlist: customers swap
-   icons, never inject script/handlers/external references.
+   Because the icon comes from a third-party API (Iconify), the svg is hard-
+   sanitised through jsdom to an SVG allowlist — root svg attrs AND inner geometry
+   — so customers swap icons, never inject script/handlers/external references.
+   The host's unique data-ce / data-ce-cap / data-ce-label are re-asserted on the
+   sanitised root so the element stays editable.
    ============================================================================ */
 "use strict";
 
@@ -95,10 +102,21 @@ const OK_ATTR = {
   xmlns: 1,
   "xmlns:xlink": 1,
 };
-// Attributes allowed ONLY on the host <svg> open tag (when serialising a full
-// replacement svg — not used by the inner-splice path, kept for completeness).
+// Attributes allowed on the REPLACEMENT root <svg> open tag. Superset of the
+// geometry attrs plus presentational/structural ones the host carries. The
+// data-ce* editing refs are validated separately (re-asserted from the located
+// host) so they survive sanitisation and keep the element editable.
 const OK_SVG_ATTR = Object.assign(
-  { class: 1, role: 1, "aria-hidden": 1 },
+  {
+    class: 1,
+    role: 1,
+    "aria-hidden": 1,
+    focusable: 1,
+    preserveaspectratio: 1,
+    "data-ce": 1,
+    "data-ce-cap": 1,
+    "data-ce-label": 1,
+  },
   OK_ATTR,
 );
 
@@ -158,6 +176,54 @@ function sanitizeIconInner(JSDOM, inner) {
   return root.innerHTML;
 }
 
+// Sanitise a FULL <svg ...>...</svg> string to an allowlisted root <svg> with
+// sanitised inner geometry. `ceAttrs` = { 'data-ce':..., 'data-ce-cap':...,
+// 'data-ce-label':... } captured from the located host; these are re-asserted on
+// the sanitised root so the element stays editable regardless of what the staged
+// svg carried. Returns the serialised "<svg ...>...</svg>" string, or null if no
+// svg root is found.
+function sanitizeIconSvg(JSDOM, fullSvg, ceAttrs) {
+  const win = new JSDOM("<!DOCTYPE html><body><div id='r'></div>").window;
+  const doc = win.document;
+  const host = doc.getElementById("r");
+  host.innerHTML = String(fullSvg || "").trim();
+  const svg = host.querySelector("svg");
+  if (!svg) return null;
+  // Sanitise the root svg's OWN attributes to the svg allowlist.
+  Array.prototype.slice.call(svg.attributes).forEach((a) => {
+    const name = String(a.name || "").toLowerCase();
+    if (name.indexOf("on") === 0) {
+      svg.removeAttribute(a.name);
+      return;
+    }
+    if (name === "href" || name.indexOf(":href") >= 0) {
+      svg.removeAttribute(a.name);
+      return;
+    }
+    // data-ce* are re-asserted below from the host; drop whatever came in.
+    if (name.indexOf("data-ce") === 0) {
+      svg.removeAttribute(a.name);
+      return;
+    }
+    if (!OK_SVG_ATTR[name]) {
+      svg.removeAttribute(a.name);
+      return;
+    }
+    if (/url\s*\(|javascript:|expression\s*\(|<|>/i.test(a.value)) {
+      svg.removeAttribute(a.name);
+    }
+  });
+  // Sanitise the inner geometry with the existing inner sanitiser, then re-set it.
+  svg.innerHTML = sanitizeIconInner(JSDOM, svg.innerHTML);
+  // Re-assert the host's editing refs so the swapped element stays targetable.
+  if (ceAttrs) {
+    Object.keys(ceAttrs).forEach((k) => {
+      if (ceAttrs[k] != null) svg.setAttribute(k, ceAttrs[k]);
+    });
+  }
+  return svg.outerHTML;
+}
+
 // Pull the inner markup out of a payload. Accepts either a full "<svg ...>...</svg>"
 // (we take what's inside the outermost svg) or already-inner markup.
 function extractInner(svg) {
@@ -172,8 +238,11 @@ function extractInner(svg) {
   return s;
 }
 
-// Find the inner-HTML span [innerStart, innerEnd) of the element carrying
-// data-ce=ce. Same deterministic scan as save-elements.locateInner.
+// Locate the element carrying data-ce=ce. Returns BOTH the inner-HTML span
+// [innerStart, innerEnd) AND the whole-element span [elStart, elEnd) plus the
+// host's own data-ce* attrs (parsed from the open tag) — so callers can either
+// inner-splice or replace the whole element while preserving the editing refs.
+// Same deterministic depth scan as save-elements.locateInner.
 function locateInner(html, ce) {
   const marker = 'data-ce="' + ce + '"';
   const mi = html.indexOf(marker);
@@ -185,7 +254,15 @@ function locateInner(html, ce) {
   const tag = tm[1].toLowerCase();
   const gt = html.indexOf(">", mi);
   if (gt === -1) return null;
-  if (html[gt - 1] === "/") return { void: true, tag };
+  // Parse the host's editing refs straight from the open tag so a whole-element
+  // replacement can re-assert them onto the sanitised svg.
+  const openTag = html.slice(ts, gt + 1);
+  const ceAttrs = {};
+  for (const m of openTag.matchAll(/\s(data-ce(?:-cap|-label)?)="([^"]*)"/g)) {
+    ceAttrs[m[1]] = m[2];
+  }
+  if (html[gt - 1] === "/")
+    return { void: true, tag, elStart: ts, elEnd: gt + 1, ceAttrs };
   const innerStart = gt + 1;
   const openRe = new RegExp("<" + tag + "\\b", "gi");
   const closeRe = new RegExp("</" + tag + "\\s*>", "gi");
@@ -202,16 +279,26 @@ function locateInner(html, ce) {
       pos = o.index + 1;
     } else {
       depth--;
-      if (depth === 0) return { tag, innerStart, innerEnd: c.index };
+      if (depth === 0)
+        return {
+          tag,
+          innerStart,
+          innerEnd: c.index,
+          elStart: ts,
+          elEnd: c.index + c[0].length,
+          ceAttrs,
+        };
       pos = c.index + c[0].length;
     }
   }
   return null;
 }
 
-// Apply icon edits. Each edit: { ce, svg }. We locate the data-ce host element
-// (the <svg>), sanitise the new icon's inner geometry, and splice it as the
-// host's new inner HTML — host open/close tags & every other byte untouched.
+// Apply icon edits. Each edit: { ce, svg } where svg is the FULL corrected
+// "<svg ...>...</svg>" (adopted viewBox + paint + display size + new inner) the
+// editor staged. We locate the WHOLE host <svg> by its unique data-ce, sanitise
+// the op's svg (root attrs + inner geometry) re-asserting the host's data-ce*
+// editing refs, and replace the whole element — every other byte untouched.
 function applyIconEdits(html, edits, JSDOM) {
   JSDOM = JSDOM || require("jsdom").JSDOM;
   let applied = 0;
@@ -227,13 +314,17 @@ function applyIconEdits(html, edits, JSDOM) {
       failures.push(String(e.ce) + ": not found");
       continue;
     }
-    located.push({ loc, svg: e.svg });
+    const clean = sanitizeIconSvg(JSDOM, e.svg, loc.ceAttrs);
+    if (!clean) {
+      failures.push(String(e.ce) + ": no svg in payload");
+      continue;
+    }
+    located.push({ loc, clean });
   }
   // splice from the END backwards so earlier indices stay valid
-  located.sort((a, b) => b.loc.innerStart - a.loc.innerStart);
-  for (const { loc, svg } of located) {
-    const clean = sanitizeIconInner(JSDOM, extractInner(svg));
-    html = html.slice(0, loc.innerStart) + clean + html.slice(loc.innerEnd);
+  located.sort((a, b) => b.loc.elStart - a.loc.elStart);
+  for (const { loc, clean } of located) {
+    html = html.slice(0, loc.elStart) + clean + html.slice(loc.elEnd);
     applied++;
   }
   return { html, applied, failures };
@@ -242,6 +333,7 @@ function applyIconEdits(html, edits, JSDOM) {
 module.exports = {
   applyIconEdits,
   sanitizeIconInner,
+  sanitizeIconSvg,
   extractInner,
   locateInner,
   ALLOW,
