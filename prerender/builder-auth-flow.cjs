@@ -911,29 +911,31 @@ const restoreClamps = (html, map) => { for (const [key,expr] of map) html=html.s
 const prot = protectClamps(sample);
 const doc = new JSDOM(prot.html).window.document;
 let base='';
-const canon = doc.querySelector('link[rel="canonical"]');
-const ogUrl = doc.querySelector('meta[property="og:url"]');
+const tags=(n)=>Array.prototype.slice.call(doc.getElementsByTagName(n));
+const metaBy=(k,v)=>tags('meta').filter((m)=>m.getAttribute(k)===v)[0]||null;
+const byCe=(id)=>tags('*').filter((e)=>e.getAttribute('data-ce')===id)[0]||null;
+const canon = tags('link').filter((l)=>l.getAttribute('rel')==='canonical')[0]||null;
+const ogUrl = metaBy('property','og:url');
 const srcUrl = (canon && canon.getAttribute('href')) || (ogUrl && ogUrl.getAttribute('content')) || '';
 const bm = srcUrl.match(/^(https?:\\/\\/[^\\/]+)/); if (bm) base = bm[1];
 const newUrl = base ? base+'/blog/'+num+'/' : '/blog/'+num+'/';
-const oldTitle = (doc.querySelector('title')||{}).textContent || '';
+const oldTitle = (tags('title')[0]||{}).textContent || '';
 const brand = oldTitle.indexOf('|')>=0 ? oldTitle.slice(oldTitle.lastIndexOf('|')+1).trim() : '';
 const pageTitle = brand ? title+' | '+brand : title;
 const desc = 'A new article — open the editor to write it.';
-const setT=(s,t)=>{ const el=doc.querySelector(s); if (el) el.textContent=t; };
-const setA=(s,a,v)=>{ const el=doc.querySelector(s); if (el) el.setAttribute(a,v); };
-setT('title', pageTitle);
-setA('meta[name="description"]','content',desc);
-setA('meta[property="og:title"]','content',pageTitle);
-setA('meta[property="og:description"]','content',desc);
-setA('meta[property="og:url"]','content',newUrl);
-setA('meta[name="twitter:title"]','content',pageTitle);
-setA('meta[name="twitter:description"]','content',desc);
+const titleEl = tags('title')[0]; if (titleEl) titleEl.textContent = pageTitle;
+const setMeta=(k,v,c)=>{ const el=metaBy(k,v); if (el) el.setAttribute('content',c); };
+setMeta('name','description',desc);
+setMeta('property','og:title',pageTitle);
+setMeta('property','og:description',desc);
+setMeta('property','og:url',newUrl);
+setMeta('name','twitter:title',pageTitle);
+setMeta('name','twitter:description',desc);
 if (canon) canon.setAttribute('href', newUrl);
-const h1 = doc.querySelector('[data-ce="s0-h1-1"]'); if (h1) h1.textContent = title;
-const dp = doc.querySelector('[data-ce="s0-p-1"]'); if (dp) dp.textContent = new Date().toLocaleDateString('en-AU',{ month:'long', year:'numeric' });
-const fi = doc.querySelector('[data-ce="s1-img-1"]'); if (fi) fi.setAttribute('alt', title);
-const paras = Array.prototype.slice.call(doc.querySelectorAll('[data-ce^="s1-p-"]'));
+const h1 = byCe('s0-h1-1'); if (h1) h1.textContent = title;
+const dp = byCe('s0-p-1'); if (dp) dp.textContent = new Date().toLocaleDateString('en-AU',{ month:'long', year:'numeric' });
+const fi = byCe('s1-img-1'); if (fi) fi.setAttribute('alt', title);
+const paras = tags('*').filter((e)=>{ const v=e.getAttribute('data-ce'); return v && v.indexOf('s1-p-')===0; });
 if (paras.length){ paras[0].textContent = 'Write your article here. Click this text in the editor to replace it with your own — share a tip, answer a common customer question, or talk about a recent job. Add as much as you like.'; for (let i=1;i<paras.length;i++){ if (paras[i].parentNode) paras[i].parentNode.removeChild(paras[i]); } }
 let postHtml = restoreClamps(serialize(doc), prot.map);
 
@@ -1078,7 +1080,7 @@ const sanitizeIconSvg = (fullSvg, ceAttrs) => {
   const doc = new JSDOM("<!DOCTYPE html><body><div id='r'></div>").window.document;
   const host = doc.getElementById('r');
   host.innerHTML = String(fullSvg || '').trim();
-  const svg = host.querySelector('svg');
+  const svg = host.getElementsByTagName('svg')[0] || null;
   if (!svg) return null;
   Array.prototype.slice.call(svg.attributes).forEach((a) => {
     const name = String(a.name || '').toLowerCase();

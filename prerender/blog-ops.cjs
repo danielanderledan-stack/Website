@@ -185,8 +185,14 @@ function buildPostPage(JSDOM, sampleHtml, num, title, opts) {
 
   // -- canonical URL base (from the sample's canonical / og:url) --
   let base = "";
-  const canon = doc.querySelector('link[rel="canonical"]');
-  const ogUrl = doc.querySelector('meta[property="og:url"]');
+  // eval-free DOM access — n8n's Code-node sandbox forbids the Function/eval
+  // jsdom's CSS-selector engine uses, so NO querySelector/querySelectorAll.
+  const tags = (n) => Array.prototype.slice.call(doc.getElementsByTagName(n));
+  const metaBy = (k, v) => tags("meta").filter((m) => m.getAttribute(k) === v)[0] || null;
+  const byCe = (id) => tags("*").filter((e) => e.getAttribute("data-ce") === id)[0] || null;
+
+  const canon = tags("link").filter((l) => l.getAttribute("rel") === "canonical")[0] || null;
+  const ogUrl = metaBy("property", "og:url");
   const srcUrl =
     (canon && canon.getAttribute("href")) ||
     (ogUrl && ogUrl.getAttribute("content")) ||
@@ -196,7 +202,7 @@ function buildPostPage(JSDOM, sampleHtml, num, title, opts) {
   const newUrl = base ? base + "/blog/" + num + "/" : "/blog/" + num + "/";
 
   // Brand suffix taken from the existing <title> ("…Headline… | Brand")
-  const oldTitle = (doc.querySelector("title") || {}).textContent || "";
+  const oldTitle = (tags("title")[0] || {}).textContent || "";
   const brand =
     oldTitle.indexOf("|") >= 0
       ? oldTitle.slice(oldTitle.lastIndexOf("|") + 1).trim()
@@ -205,27 +211,24 @@ function buildPostPage(JSDOM, sampleHtml, num, title, opts) {
   const desc = "A new article — open the editor to write it.";
 
   // -- head: title, description, canonical, og/twitter url+title+description --
-  const setText = (sel, txt) => {
-    const el = doc.querySelector(sel);
-    if (el) el.textContent = txt;
+  const titleEl = tags("title")[0];
+  if (titleEl) titleEl.textContent = pageTitle;
+  const setMeta = (k, v, content) => {
+    const el = metaBy(k, v);
+    if (el) el.setAttribute("content", content);
   };
-  const setAttr = (sel, attr, v) => {
-    const el = doc.querySelector(sel);
-    if (el) el.setAttribute(attr, v);
-  };
-  setText("title", pageTitle);
-  setAttr('meta[name="description"]', "content", desc);
-  setAttr('meta[property="og:title"]', "content", pageTitle);
-  setAttr('meta[property="og:description"]', "content", desc);
-  setAttr('meta[property="og:url"]', "content", newUrl);
-  setAttr('meta[name="twitter:title"]', "content", pageTitle);
-  setAttr('meta[name="twitter:description"]', "content", desc);
+  setMeta("name", "description", desc);
+  setMeta("property", "og:title", pageTitle);
+  setMeta("property", "og:description", desc);
+  setMeta("property", "og:url", newUrl);
+  setMeta("name", "twitter:title", pageTitle);
+  setMeta("name", "twitter:description", desc);
   if (canon) canon.setAttribute("href", newUrl);
 
   // -- hero heading + date line --
-  const h1 = doc.querySelector('[data-ce="s0-h1-1"]');
+  const h1 = byCe("s0-h1-1");
   if (h1) h1.textContent = safeTitle;
-  const dateP = doc.querySelector('[data-ce="s0-p-1"]');
+  const dateP = byCe("s0-p-1");
   const monthYear = new Date().toLocaleDateString("en-AU", {
     month: "long",
     year: "numeric",
@@ -233,13 +236,14 @@ function buildPostPage(JSDOM, sampleHtml, num, title, opts) {
   if (dateP) dateP.textContent = monthYear;
 
   // -- feature image alt (keep src so it renders; customer swaps it) --
-  const featImg = doc.querySelector('[data-ce="s1-img-1"]');
+  const featImg = byCe("s1-img-1");
   if (featImg) featImg.setAttribute("alt", safeTitle);
 
   // -- body: collapse the cloned paragraphs to a SINGLE placeholder --
-  const bodyParas = Array.prototype.slice.call(
-    doc.querySelectorAll('[data-ce^="s1-p-"]'),
-  );
+  const bodyParas = tags("*").filter((e) => {
+    const v = e.getAttribute("data-ce");
+    return v && v.indexOf("s1-p-") === 0;
+  });
   if (bodyParas.length) {
     const first = bodyParas[0];
     first.textContent =

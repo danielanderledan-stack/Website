@@ -187,7 +187,9 @@ function sanitizeIconSvg(JSDOM, fullSvg, ceAttrs) {
   const doc = win.document;
   const host = doc.getElementById("r");
   host.innerHTML = String(fullSvg || "").trim();
-  const svg = host.querySelector("svg");
+  // NB: getElementsByTagName (not querySelector) — n8n's Code-node sandbox
+  // forbids the eval/Function that jsdom's CSS-selector engine (nwsapi) uses.
+  const svg = host.getElementsByTagName("svg")[0] || null;
   if (!svg) return null;
   // Sanitise the root svg's OWN attributes to the svg allowlist.
   Array.prototype.slice.call(svg.attributes).forEach((a) => {
