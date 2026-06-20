@@ -1009,6 +1009,122 @@ if (!sum.num) return [{ json: { ok: false, error: 'Could not create the post.' }
 return [{ json: { ok: true, num: sum.num, url: sum.url, card: !!sum.card, sitemap: !!sum.sitemap } }];
 `.trim();
 
+/* ---------------- icon editor (free, deterministic, jsdom) ----------------
+   Mirrors prerender/save-icon.cjs (kept in sync; that file is the tested source
+   of truth). Each edit is { ce, svg }: locate the data-ce host <svg>, sanitise
+   the new icon's inner geometry to an SVG allowlist, splice it as the host's
+   new inner HTML. Host open/close tags + every other byte are preserved, so
+   the customer's baked sizing/colour context survives and git diffs stay tiny.
+   Icons come from the third-party Iconify API, so the markup is hard-sanitised:
+   STRIP script, foreignObject, image, a, animate (all), set + ALL on* handlers
+   + any href/xlink:href; allow only geometry + safe presentational attributes. */
+
+const CODE_ICON_GUARD = `
+// Session + page + payload validation for icon saves.
+const body = $('Builder Webhook').first().json.body || {};
+const row = $input.first().json || {};
+const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
+if (!valid) throw new Error('Session expired');
+const page = String(body.page || '');
+if (!new RegExp('${PAGE_RE}').test(page)) throw new Error('Invalid page');
+const edits = (Array.isArray(body.edits) ? body.edits : []).slice(0, 60)
+  .filter((e) => e && typeof e.ce === 'string' && typeof e.svg === 'string')
+  .map((e) => ({ ce: e.ce.slice(0, 120), svg: e.svg.slice(0, 20000) }));
+if (!edits.length) throw new Error('No icon edits supplied');
+return [{ json: { site: row.site, page, edits } }];
+`.trim();
+
+const CODE_APPLY_ICONS = `
+// Splice each new icon's sanitised inner SVG into its data-ce host element.
+// Inlined from prerender/save-icon.cjs (jsdom is global in n8n).
+const { JSDOM } = require('jsdom');
+const g = $('Icon Guard').first().json;
+let html = Buffer.from($input.first().json.content, 'base64').toString('utf8');
+
+const ALLOW = { G:1, PATH:1, CIRCLE:1, RECT:1, LINE:1, POLYLINE:1, POLYGON:1, ELLIPSE:1, DEFS:1, USE:1, TITLE:1, LINEARGRADIENT:1, RADIALGRADIENT:1, STOP:1 };
+const DROP = { SCRIPT:1, FOREIGNOBJECT:1, IMAGE:1, A:1, STYLE:1, IFRAME:1, OBJECT:1, ANIMATE:1, ANIMATETRANSFORM:1, ANIMATEMOTION:1, SET:1, MPATH:1 };
+const OK_ATTR = { viewbox:1, d:1, fill:1, stroke:1, 'stroke-width':1, 'stroke-linecap':1, 'stroke-linejoin':1, 'stroke-miterlimit':1, 'stroke-dasharray':1, cx:1, cy:1, r:1, rx:1, ry:1, x:1, y:1, x1:1, y1:1, x2:1, y2:1, width:1, height:1, points:1, transform:1, opacity:1, 'fill-opacity':1, 'stroke-opacity':1, 'fill-rule':1, 'clip-rule':1, offset:1, 'stop-color':1, 'stop-opacity':1, gradientunits:1, gradienttransform:1, spreadmethod:1, id:1, xmlns:1, 'xmlns:xlink':1 };
+
+const sanitizeIconInner = (inner) => {
+  const doc = new JSDOM("<!DOCTYPE html><body><svg id='r'></svg>").window.document;
+  const root = doc.getElementById('r');
+  root.innerHTML = String(inner || '');
+  (function walk(node) {
+    Array.prototype.slice.call(node.childNodes).forEach((c) => {
+      if (c.nodeType === 1) {
+        const tag = String(c.tagName || '').toUpperCase();
+        if (DROP[tag]) { node.removeChild(c); return; }
+        if (!ALLOW[tag]) { while (c.firstChild) node.insertBefore(c.firstChild, c); node.removeChild(c); return; }
+        Array.prototype.slice.call(c.attributes).forEach((a) => {
+          const name = String(a.name || '').toLowerCase();
+          if (name.indexOf('on') === 0) { c.removeAttribute(a.name); return; }
+          if (name === 'href' || name.indexOf(':href') >= 0) { c.removeAttribute(a.name); return; }
+          if (!OK_ATTR[name]) { c.removeAttribute(a.name); return; }
+          if (/url\\s*\\(|javascript:|expression\\s*\\(|<|>/i.test(a.value)) c.removeAttribute(a.name);
+        });
+        walk(c);
+      } else if (c.nodeType !== 3) { node.removeChild(c); }
+    });
+  })(root);
+  return root.innerHTML;
+};
+
+const extractInner = (svg) => {
+  const s = String(svg || '');
+  const open = s.match(/<svg\\b[^>]*>/i);
+  if (open) { const start = s.indexOf(open[0]) + open[0].length; const end = s.lastIndexOf('</svg>'); return end > start ? s.slice(start, end) : s.slice(start); }
+  return s;
+};
+
+const locateInner = (h, ce) => {
+  const marker = 'data-ce="' + ce + '"';
+  const mi = h.indexOf(marker);
+  if (mi === -1) return null;
+  const ts = h.lastIndexOf('<', mi);
+  if (ts === -1) return null;
+  const tm = /^<([a-zA-Z0-9]+)/.exec(h.slice(ts, mi + marker.length));
+  if (!tm) return null;
+  const tag = tm[1].toLowerCase();
+  const gt = h.indexOf('>', mi);
+  if (gt === -1) return null;
+  if (h[gt - 1] === '/') return { void: true };
+  const innerStart = gt + 1;
+  const openRe = new RegExp('<' + tag + '\\\\b', 'gi');
+  const closeRe = new RegExp('</' + tag + '\\\\s*>', 'gi');
+  let depth = 1, pos = innerStart;
+  while (depth > 0) {
+    openRe.lastIndex = pos; closeRe.lastIndex = pos;
+    const o = openRe.exec(h); const c = closeRe.exec(h);
+    if (!c) return null;
+    if (o && o.index < c.index) { depth++; pos = o.index + 1; }
+    else { depth--; if (depth === 0) return { innerStart, innerEnd: c.index }; pos = c.index + c[0].length; }
+  }
+  return null;
+};
+
+let applied = 0;
+const failures = [];
+const located = [];
+for (const e of g.edits) {
+  const loc = locateInner(html, e.ce);
+  if (!loc || loc.void) { failures.push(String(e.ce) + ': not found'); continue; }
+  located.push({ loc, svg: e.svg });
+}
+located.sort((a, b) => b.loc.innerStart - a.loc.innerStart);
+for (const { loc, svg } of located) {
+  const clean = sanitizeIconInner(extractInner(svg));
+  html = html.slice(0, loc.innerStart) + clean + html.slice(loc.innerEnd);
+  applied++;
+}
+if (!applied) throw new Error('No icons could be applied: ' + failures.join('; '));
+return [{ json: { site: g.site, page: g.page, content: html, applied, failures } }];
+`.trim();
+
+const CODE_ICONS_REPLY = `
+const a = $('Apply Icons').first().json;
+return [{ json: { ok: true, applied: a.applied, failures: a.failures } }];
+`.trim();
+
 /* ---------------- editor chain: validate / route / bill ---------------- */
 
 const CODE_VALIDATE_V3 = `
@@ -1286,6 +1402,7 @@ const accountNodes = [
           switchRule("saveannounce", "save-announce"),
           switchRule("togglesection", "toggle-section"),
           switchRule("createblogpost", "create-blog-post"),
+          switchRule("saveicon", "save-icon"),
         ],
       },
       options: {},
@@ -2146,6 +2263,76 @@ const accountNodes = [
     settings: { executeOnce: true },
     parameters: { mode: "runOnceForAllItems", jsCode: CODE_BLOG_REPLY },
   },
+  /* icon editor (free, deterministic) — mirrors the text saver chain */
+  {
+    name: "Find Session Icons",
+    type: "n8n-nodes-base.dataTable",
+    typeVersion: 1.1,
+    position: [1420, Y + 1920],
+    settings: { alwaysOutputData: true },
+    parameters: dtGet(
+      "session_token",
+      "={{ $('Builder Webhook').first().json.body.token }}",
+    ),
+  },
+  {
+    name: "Icon Guard",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1580, Y + 1920],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_ICON_GUARD },
+  },
+  {
+    name: "Get Page For Icon",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [1740, Y + 1920],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "get",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      asBinaryProperty: false,
+      additionalParameters: {},
+    },
+  },
+  {
+    name: "Apply Icons",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [1900, Y + 1920],
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_APPLY_ICONS },
+  },
+  {
+    name: "Commit Icons",
+    type: "n8n-nodes-base.github",
+    typeVersion: 1.1,
+    position: [2060, Y + 1920],
+    credentials: {
+      githubApi: { id: "5nFNKB7SlRtiwZqO", name: "GitHub account" },
+    },
+    parameters: {
+      resource: "file",
+      operation: "edit",
+      owner: { __rl: true, value: "danielanderledan-stack", mode: "name" },
+      repository: { __rl: true, value: "={{ $json.site }}", mode: "name" },
+      filePath: "={{ $json.page }}",
+      fileContent: "={{ $json.content }}",
+      commitMessage: "={{ 'icon edits: ' + $json.page }}",
+    },
+  },
+  {
+    name: "Icons Reply",
+    type: "n8n-nodes-base.code",
+    typeVersion: 2,
+    position: [2220, Y + 1920],
+    settings: { executeOnce: true },
+    parameters: { mode: "runOnceForAllItems", jsCode: CODE_ICONS_REPLY },
+  },
   {
     name: "Respond Builder",
     type: "n8n-nodes-base.respondToWebhook",
@@ -2472,6 +2659,14 @@ const accountConnections = [
   ["Commit Blog New", "Blog Reply"],
   ["Commit Blog Edit", "Blog Reply"],
   ["Blog Reply", "Respond Builder"],
+  /* icon editor: save-icon (switch output index 16) */
+  { source: "Route Action", target: "Find Session Icons", sourceIndex: 16 },
+  ["Find Session Icons", "Icon Guard"],
+  ["Icon Guard", "Get Page For Icon"],
+  ["Get Page For Icon", "Apply Icons"],
+  ["Apply Icons", "Commit Icons"],
+  ["Commit Icons", "Icons Reply"],
+  ["Icons Reply", "Respond Builder"],
 ];
 
 const editorConnections = [
