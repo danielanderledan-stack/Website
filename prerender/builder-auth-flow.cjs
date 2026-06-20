@@ -873,9 +873,9 @@ const { JSDOM } = require('jsdom');
 const body = $('Builder Webhook').first().json.body || {};
 const guard = $('Blog Guard').first().json;
 const dec = (n) => { try { return Buffer.from(($(n).first().json.content)||'', 'base64').toString('utf8'); } catch (e) { return ''; } };
-const blogIndex = dec('Blog Index');
-const sample = dec('Blog Sample');
-const sitemap = dec('Blog Sitemap');
+const blogIndex = dec('Get Blog Index');
+const sample = dec('Get Blog Sample');
+const sitemap = dec('Get Blog Sitemap C');
 if (!blogIndex) throw new Error('Could not read the blog page.');
 if (!sample) throw new Error('Could not read an existing post to base the new one on.');
 
