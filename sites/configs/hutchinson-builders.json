@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "Hutchinson Builders",
+  "suburb": "South Melbourne",
+  "phone": "+61 3 9282 9500",
+  "email": "info@hutchinsonbuilders.com.au",
+  "address": "70-72 Cecil St, South Melbourne VIC 3205",
+  "coordinates": {
+    "latitude": -37.8302372,
+    "longitude": 144.95619349999998
+  },
+  "tagline": "South Melbourne's trusted builder since 1912",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Melbourne's Trusted Builder",
+      "sub": "Over a century of building excellence",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-thecurl-39-jpg.jpg?1760319309"
+    },
+    {
+      "title": "Built Around Your Vision",
+      "sub": "From concept to completion",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-i-gladstoneglobalgreenenergymanufacturingcentre-45-lowres-jpg.jpg?1697614018"
+    },
+    {
+      "title": "100+ Years on the Ground",
+      "sub": "Local knowledge, national reach",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-kingsfordtce-francisbuilding-1-lowres-jpg.jpg?1697614019"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "Hutchinson Builders",
+    "is ready to bring your project to life."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "Hutchinson Builders has been a cornerstone of South Melbourne's construction scene since 1912. With over a century of experience, we've delivered everything from high-rise towers to community centres across Victoria. Our team brings unmatched local knowledge and a down-to-earth approach to every project, big or small.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From commercial high-rises to residential renovations, Hutchinson Builders covers it all. We specialise in delivering quality projects on time and on budget across South Melbourne and beyond.",
+  "services": [
+    {
+      "title": "Commercial Construction",
+      "desc": "Office towers, retail centres, and mixed-use developments built to last.",
+      "longDesc": "Hutchinson Builders delivers large-scale commercial projects across South Melbourne, including data centres, showrooms, and car parks. Our team manages every stage from design to handover.",
+      "points": [
+        "On-time delivery",
+        "Fixed-price contracts",
+        "Safety-first culture"
+      ]
+    },
+    {
+      "title": "Residential High-Rise",
+      "desc": "Luxury apartments and build-to-rent towers with premium finishes.",
+      "longDesc": "We specialise in high-rise residential projects in South Melbourne, from 20 to 50+ storeys. Our expertise ensures stunning views, quality interiors, and strong structural integrity.",
+      "points": [
+        "Premium materials",
+        "Expert project management",
+        "Council-approved designs"
+      ]
+    },
+    {
+      "title": "Industrial & Warehousing",
+      "desc": "Large-scale warehouses, cold storage, and distribution centres.",
+      "longDesc": "Hutchinson Builders constructs industrial facilities across Victoria, including cold storage and logistics hubs. We handle complex requirements like high clearances and heavy floor loads.",
+      "points": [
+        "Fast-track construction",
+        "Energy-efficient design",
+        "Compliance assured"
+      ]
+    },
+    {
+      "title": "Education & Community",
+      "desc": "Schools, libraries, and community centres that inspire.",
+      "longDesc": "We build educational and community facilities in South Melbourne, from early learning centres to university campuses. Our projects focus on safety, sustainability, and functionality.",
+      "points": [
+        "Green Star certified",
+        "Community-focused",
+        "Durable finishes"
+      ]
+    },
+    {
+      "title": "Health & Aged Care",
+      "desc": "Clinics, hospitals, and retirement villages with care in every detail.",
+      "longDesc": "Hutchinson Builders delivers health and aged care projects across South Melbourne, including hospitals and retirement living. We meet strict regulatory standards and infection control requirements.",
+      "points": [
+        "Specialist fit-outs",
+        "Patient-centred design",
+        "Regulatory expertise"
+      ]
+    },
+    {
+      "title": "Hospitality & Tourism",
+      "desc": "Hotels, bars, and restaurants that create memorable experiences.",
+      "longDesc": "We build hospitality venues in South Melbourne, from boutique hotels to large tourist attractions. Our team delivers unique interiors and efficient layouts that maximise revenue.",
+      "points": [
+        "Bespoke interiors",
+        "Fast turnaround",
+        "Licensed builders"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across South Melbourne",
+  "reviews": [
+    {
+      "text": "Hutchinson Builders transformed our South Melbourne office into a modern workspace. The team was professional, on time, and kept us informed every step of the way. Highly recommend.",
+      "name": "Sarah F.",
+      "role": "South Melbourne Business Owner"
+    },
+    {
+      "text": "We used Hutchinson Builders for our new warehouse in Port Melbourne. The project came in on budget and ahead of schedule. Great communication and quality workmanship.",
+      "name": "Mark T.",
+      "role": "Logistics Manager"
+    },
+    {
+      "text": "The team built our new community centre in St Kilda. They listened to our needs and delivered a beautiful, functional space that everyone loves. Thanks Hutchies!",
+      "name": "Priya N.",
+      "role": "Community Centre Coordinator"
+    }
+  ],
+  "serviceAreas": [
+    "South Melbourne",
+    "Port Melbourne",
+    "St Kilda",
+    "Docklands",
+    "Richmond",
+    "Fitzroy",
+    "Carlton",
+    "Brunswick"
+  ],
+  "about": {
+    "intro": "Hutchinson Builders has been shaping South Melbourne's skyline since 1912, delivering quality construction across commercial, residential, and community projects.",
+    "story": [
+      "Founded in 1912 by Jack Hutchinson, our company started as a small carpentry business in South Melbourne. Over the decades, we grew into one of Australia's most trusted builders, known for our reliability and straight-talking approach.",
+      "Today, Hutchinson Builders is a 100% Australian-owned company with offices nationwide. We've delivered iconic projects like the Howard Smith Wharves and the Hutchinson Builders Centre of Excellence, always staying true to our roots in South Melbourne.",
+      "Our team of over 2,000 skilled professionals brings decades of combined experience to every project. We're proud to be a family-run business that treats every client like a neighbour, with honesty and respect."
+    ],
+    "mission": "To build lasting structures and relationships across South Melbourne, one project at a time.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "Over 100 years in South Melbourne means we know the council, the soil, and the community inside out."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "We give you a clear, fixed quote upfront with no hidden surprises or cost blowouts."
+      },
+      {
+        "title": "On Time",
+        "text": "Our project managers keep everything on schedule, so you can plan with confidence."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Every build meets our high standards, backed by a comprehensive workmanship guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "100+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2000+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Australian Owned"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Green Star accredited"
+    ]
+  },
+  "pricing": {
+    "intro": "At Hutchinson Builders in South Melbourne, we believe in transparent pricing with no lock-in contracts. Get a clear quote before we start.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Commercial Fit-Out",
+        "price": "from $150k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Design & construct",
+          "Fixed-price contract",
+          "Project management",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Build",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "End-to-end delivery",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees, so you know exactly where you stand."
+  },
+  "contact": {
+    "intro": "Ready to start your next project in South Melbourne? Give us a call or drop by our Cecil St office for a free, no-obligation chat."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Hutchinson Builders | South Melbourne Builder | Commercial & Residential",
+      "description": "Hutchinson Builders has been South Melbourne's trusted builder since 1912. Specialising in commercial, residential, and industrial construction. Get a free quote today."
+    },
+    "about": {
+      "title": "About Hutchinson Builders — South Melbourne's Family Builder",
+      "description": "Learn about Hutchinson Builders' 100+ year history in South Melbourne. Family-owned, Australian-owned, and committed to quality construction across Victoria."
+    },
+    "services": {
+      "title": "Building Services in South Melbourne | Hutchinson Builders",
+      "description": "Hutchinson Builders offers commercial, residential, industrial, education, health, and hospitality construction services in South Melbourne. Expert project management."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in South Melbourne | Hutchinson Builders",
+      "description": "Transparent pricing for construction projects in South Melbourne. Get a free initial consultation and fixed-price quote from Hutchinson Builders."
+    },
+    "contact": {
+      "title": "Contact Hutchinson Builders | Free Consultation South Melbourne",
+      "description": "Contact Hutchinson Builders in South Melbourne for a free, no-obligation consultation. Call +61 3 9282 9500 or visit our Cecil St office."
+    },
+    "blog": {
+      "title": "South Melbourne Building & Construction Blog | Hutchinson Builders",
+      "description": "Expert advice on construction costs, timelines, and trends in South Melbourne. Read Hutchinson Builders' blog for local building insights."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Commercial Fit-Out Cost in South Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "A detailed breakdown of commercial fit-out costs in South Melbourne, including office, retail, and warehouse spaces. Get realistic budgets for your project.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-443queenstreet-lowres-116-jpg.jpg?1728865936",
+      "body": [
+        "Planning a commercial fit-out in South Melbourne? Costs vary widely depending on the size, scope, and finish level of your project. On average, you can expect to pay between $1,500 and $4,000 per square metre for a basic to premium fit-out. Factors like structural changes, HVAC upgrades, and heritage requirements can push costs higher.",
+        "South Melbourne's commercial precinct is booming, with demand for modern office spaces and retail fit-outs on the rise. The City of Port Phillip council has specific guidelines for heritage buildings, which may require additional approvals and specialised trades. Always factor in a 10-15% contingency for unexpected issues.",
+        "A basic fit-out for a small office might cost around $150,000, while a full-scale retail fit-out with custom joinery and lighting can exceed $500,000. Warehouse conversions are often more affordable, starting from $800 per square metre. Hutchinson Builders provides fixed-price quotes so you know exactly what you're paying.",
+        "Timing is another key factor. Most commercial fit-outs in South Melbourne take 8 to 16 weeks, depending on complexity. Delays can occur if you need council permits or if materials are back-ordered. We recommend starting the planning process at least 3 months before your desired move-in date.",
+        "Choosing the right builder is crucial. Look for a team with local experience, like Hutchinson Builders, who understand South Melbourne's council requirements and have strong relationships with local suppliers. This can save you time and money on your fit-out.",
+        "Finally, don't forget about sustainability. Many South Melbourne businesses are opting for Green Star-rated fit-outs to reduce energy costs and attract eco-conscious clients. Features like LED lighting, efficient HVAC, and recycled materials can qualify for government rebates and improve your bottom line."
+      ]
+    },
+    {
+      "title": "Top 5 Things to Know Before Building a Home in South Melbourne",
+      "date": "February 2026",
+      "excerpt": "Thinking of building a new home in South Melbourne? Here are five essential tips on council rules, soil conditions, and choosing the right builder.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-i-walleniuswilhelmsen-1-lowres-jpg.jpg?1697614019",
+      "body": [
+        "Building a new home in South Melbourne is an exciting journey, but it comes with unique challenges. The area's mix of heritage overlays, narrow blocks, and high land values means you need a builder who knows the local landscape. Here are five things to consider before you start.",
+        "First, check the zoning and heritage status of your block. South Melbourne has several heritage precincts that restrict what you can build. You may need a heritage impact assessment and council approval for any changes to the facade. Hutchinson Builders can help navigate these requirements.",
+        "Second, understand the soil conditions. Much of South Melbourne sits on former swamp land, which means reactive clay soils that can shift with moisture. This requires specialised foundation designs, such as screw piles or waffle slabs, to prevent cracking. A soil test is essential before any design work.",
+        "Third, plan for parking and access. Many South Melbourne streets are narrow, and council may require on-site parking for new homes. If your block is small, consider a basement or car stacker. Also, factor in construction vehicle access, which can be tricky in tight laneways.",
+        "Fourth, budget for higher costs. Land in South Melbourne is among the most expensive in Melbourne, and construction costs are higher due to labour and material demands. A typical new home can cost $2,500 to $4,000 per square metre. Get a detailed quote from a local builder early.",
+        "Finally, choose a builder with local experience. Hutchinson Builders has been building in South Melbourne for over a century. We know the council, the subcontractors, and the best ways to deliver your dream home on time and on budget."
+      ]
+    },
+    {
+      "title": "The Cost of Building a Warehouse in Port Melbourne in 2026",
+      "date": "January 2026",
+      "excerpt": "A comprehensive guide to warehouse construction costs in Port Melbourne, including factors like size, height, and fit-out. Plan your budget with confidence.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-ci-lifeflighttoowoomba-19-lowres-jpg.jpg?1697616059",
+      "body": [
+        "Port Melbourne is a prime location for industrial and warehouse construction, thanks to its proximity to the port and major transport routes. Building a warehouse here in 2026 involves several cost factors, from land acquisition to fit-out. Here's what you need to know.",
+        "The average cost to build a warehouse in Port Melbourne ranges from $1,200 to $2,500 per square metre, depending on the size and specifications. A basic 2,000 square metre warehouse with a clear height of 10 metres might cost around $2.4 million, while a high-spec cold storage facility could exceed $5 million.",
+        "Key cost drivers include the type of cladding, insulation, and roofing. For cold storage, you'll need specialised insulated panels and refrigeration systems, which can add 30-50% to the base cost. Also, consider the floor loading capacity if you plan to use heavy machinery or racking systems.",
+        "Council approvals in Port Melbourne are generally straightforward for industrial zones, but you may need a planning permit if your site is near residential areas. Environmental assessments for stormwater management and contamination are also common. Factor in 8-12 weeks for approvals.",
+        "Timeline is another consideration. A standard warehouse build takes 6 to 12 months, depending on weather and material availability. Steel and concrete prices have stabilised in 2026, but it's wise to lock in prices early with your builder to avoid fluctuations.",
+        "Hutchinson Builders has extensive experience in industrial construction across Port Melbourne. We've delivered projects for clients like NewCold and Wallenius Wilhelmsen, ensuring quality, safety, and on-time delivery. Contact us for a free quote on your warehouse project."
+      ]
+    },
+    {
+      "title": "How to Choose a Builder for Your South Melbourne Renovation",
+      "date": "December 2025",
+      "excerpt": "Renovating in South Melbourne? Learn how to pick the right builder, what questions to ask, and how to avoid common pitfalls. Expert advice from Hutchinson Builders.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-sussexhotelredevelopment-76-lowres-jpg.jpg?1752609579",
+      "body": [
+        "Renovating your home in South Melbourne can add value and comfort, but choosing the right builder is critical. With so many options, it's easy to feel overwhelmed. Here's a step-by-step guide to finding a builder who will deliver quality work without the stress.",
+        "Start by checking credentials. Your builder should be registered with the Victorian Building Authority (VBA) and have public liability insurance. Ask for references and visit past projects if possible. Hutchinson Builders has been registered and insured for over 100 years, giving you peace of mind.",
+        "Next, get multiple quotes. A detailed quote should include materials, labour, timelines, and a payment schedule. Be wary of quotes that are significantly lower than others — they may cut corners or add hidden costs later. A fixed-price contract is always best.",
+        "Communication is key. Choose a builder who listens to your ideas and provides clear answers. At Hutchinson Builders, we pride ourselves on our straight-talking approach. We'll keep you updated throughout the renovation, so there are no surprises.",
+        "Consider the scope of your renovation. A kitchen and bathroom remodel might take 6-8 weeks, while a full home renovation could take 4-6 months. Make sure your builder has the capacity to handle your project without delays. We manage our schedule carefully to stay on track.",
+        "Finally, trust your gut. If a builder seems pushy or vague, move on. The right builder will be transparent, professional, and passionate about your project. Hutchinson Builders is here to help you create the home you've always wanted in South Melbourne."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-skytower-construction-craneremoval-070419-34-lowres-jpg.jpg?1697614022",
+  "photoRowImages": [
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-co-parkwoodintltitans-1-lowres-jpg.jpg?1711071903",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-e-monashuni-bstf-1-lowres-jpg.jpg?1711075411",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-r-newportretirementliving-4-lowres-jpg.jpg?1697675110",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-t-halcyonspa-47-lowres-jpg.jpg?1711074434"
+  ],
+  "aboutImages": [
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-r-thestandard-1-lowres-jpg-1656986817.jpg?1698044297",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-re-ampolkfctingalpa-4-lowres-jpg.jpg?1698099066",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-h-stepupstepdown-logan-1-lowres-jpg.jpg?1698200992"
+  ],
+  "fullWidthImage": "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-co-toowoombalibrary-1-lowres-jpg.jpg?1711072265",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-thecurl-39-jpg.jpg?1760319309",
+  "testimonialsImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-sussexhotelredevelopment-76-lowres-jpg.jpg?1752609579",
+  "galleryImages": [
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-dmc2023-lowres-1-jpg-1695846146.jpg?1697614017",
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-443queenstreet-lowres-116-jpg.jpg?1728865936",
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/scotthutchinson-2016-profile-triffid-37-lowres-jpg.jpg?1717706330",
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-mona-jettytunnel-2-lowres-jpg.jpg?1697614008",
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-i-gladstoneglobalgreenenergymanufacturingcentre-45-lowres-jpg.jpg?1697614018"
+  ],
+  "pricingBgImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-skytower-construction-craneremoval-070419-34-lowres-jpg.jpg?1697614022"
+}
