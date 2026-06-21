@@ -1,0 +1,336 @@
+{
+  "siteType": "electrician",
+  "businessName": "APD Global",
+  "suburb": "Southbank",
+  "phone": "+61 1300 273 797",
+  "email": "enquiries@apdglobal.com.au",
+  "address": "Level 10/2 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8221621,
+    "longitude": 144.96306909999998
+  },
+  "tagline": "Southbank's Utility Engineering Specialists",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00b3cc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Electricians",
+      "sub": "20+ Years in Utility Engineering",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/6a-scaled.jpg"
+    },
+    {
+      "title": "Powering Australia's Grid",
+      "sub": "HV & LV Design from Southbank",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2020/02/APD-Engineering-Home-Page-Feature-Image.jpg"
+    },
+    {
+      "title": "Renewable Energy Specialists",
+      "sub": "Solar & Battery Integration Experts",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-2048x1010.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "APD Global's Southbank team",
+    "is ready to power your project."
+  ],
+  "aboutHeading": "Electricians Who Engineer the Future",
+  "aboutSubheading": "Your Southbank power systems experts",
+  "aboutText": "APD Global has been Southbank's go-to electrical engineering firm for over 20 years. We specialise in utility-scale power systems, from HV substation design to renewable energy integration. Our team brings real, hands-on experience to every project, ensuring your infrastructure is built to last. Based in Southbank, we serve clients across Melbourne and Australia.",
+  "servicesHeading": "Our Electrical & Power Services",
+  "servicesSubheading": "End-to-end engineering solutions",
+  "servicesText": "APD Global delivers full-service electrical engineering across Southbank and Australia. From HV line design to cybersecurity for critical infrastructure, we cover every aspect of modern power systems. Our team of licensed electricians and engineers provides end-to-end solutions for utility, commercial, and industrial clients.",
+  "services": [
+    {
+      "title": "HV & LV Power Line Design",
+      "desc": "High and low voltage line design for transmission and distribution networks across Southbank.",
+      "longDesc": "APD Global's Southbank team designs HV and LV power lines up to 500kV for Australia's grid. We handle overhead and underground routes, pole and tower design, and conductor sizing for maximum efficiency and safety.",
+      "points": [
+        "Up to 500kV capacity",
+        "Overhead & underground",
+        "AEMO-compliant designs"
+      ]
+    },
+    {
+      "title": "HV Substation Design",
+      "desc": "Complete substation design for utility and renewable projects built by Southbank's experts.",
+      "longDesc": "Our Southbank office specialises in HV substation design up to 500kV, including layout, earthing, protection, and control systems. We integrate switchgear, transformers, and busbars for reliable power distribution in any environment.",
+      "points": [
+        "Substations up to 500kV",
+        "Earthing & protection",
+        "Full equipment integration"
+      ]
+    },
+    {
+      "title": "Renewable Energy Integration",
+      "desc": "Solar, wind, and battery systems engineered for Melbourne's grid by APD Global.",
+      "longDesc": "APD Global's Southbank electricians design renewable integration for large-scale solar farms, wind turbines, and battery storage. We handle GPS registration, AEMO compliance, and grid connection studies for seamless clean energy rollout.",
+      "points": [
+        "Solar & wind systems",
+        "Battery storage design",
+        "AEMO registration support"
+      ]
+    },
+    {
+      "title": "Power Systems Analysis",
+      "desc": "Feasibility and connection studies for new power projects across Southbank and Australia.",
+      "longDesc": "Our Southbank team performs power systems analysis including load flow, fault level, and dynamic studies. We ensure every new generator or load connects safely to the grid, meeting AEMO's strict GPS standards for reliable operation.",
+      "points": [
+        "Load flow studies",
+        "Fault analysis",
+        "GPS compliance check"
+      ]
+    },
+    {
+      "title": "Operational Technology Cybersecurity",
+      "desc": "Protect your critical infrastructure from cyber threats with Southbank's OT security specialists.",
+      "longDesc": "APD Global secures industrial control systems and SCADA networks for Australia's energy sector. Our Southbank team provides OT cybersecurity assessments, network segmentation, and real-time monitoring to protect substations and power plants from attack.",
+      "points": [
+        "SCADA protection",
+        "Network segregation",
+        "Threat monitoring"
+      ]
+    },
+    {
+      "title": "Telecommunications & NBN",
+      "desc": "Complete telecom and broadband infrastructure design for Southbank and beyond by APD Global.",
+      "longDesc": "We design and manage NBN and telecom infrastructure including fibre, satellite backhaul, and 5G upgrades. Our Southbank team handles everything from pole mounts to data centres, ensuring high-speed connectivity for regional and urban networks.",
+      "points": [
+        "Fibre & satellite",
+        "5G site upgrades",
+        "NBN network design"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank",
+  "reviews": [
+    {
+      "text": "APD Global's team designed our new HV substation for the Southbank precinct. The project was delivered on time and within budget, with zero safety incidents. Professional and thorough from start to finish.",
+      "name": "Sarah F.",
+      "role": "Southbank Property Manager"
+    },
+    {
+      "text": "We engaged APD Global for the Waratah Super Battery owners engineer role. Their deep knowledge of renewable integration and AEMO compliance was essential for getting the project approved. Highly recommend their Southbank team.",
+      "name": "Mark T.",
+      "role": "Energy Project Lead"
+    },
+    {
+      "text": "Our NBN rollout across regional Victoria was managed by APD Global's Southbank office. They handled the complex pole line design and satellite backhaul with ease. Great communication and reliable service.",
+      "name": "Priya N.",
+      "role": "Telecom Operations Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne",
+    "Sydney",
+    "Brisbane",
+    "Adelaide",
+    "Perth",
+    "Newcastle"
+  ],
+  "about": {
+    "intro": "APD Global is Southbank's premier electrical engineering firm specialising in utility and renewable power systems.",
+    "story": [
+      "APD Global was founded over 20 years ago with a mission to bring Australian utility infrastructure into the modern era. Starting from a small Southbank office, the team grew to become trusted specialists in HV substation design, power line engineering, and renewable energy integration. Every project is backed by real field experience and a deep understanding of the grid.",
+      "Our team has expanded across multiple Australian cities including Sydney, Melbourne, Brisbane, and Perth. We now deliver large-scale projects for Transpower, AEMO, and major energy retailers. Our Southbank headquarters remains the hub for all power systems analysis, connection studies, and feasibility work, ensuring every project meets the highest safety and performance standards."
+    ],
+    "mission": "To engineer a safer, more connected energy grid for Southbank and all of Australia.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "Our Southbank team knows the local grid inside out, from Melbourne's metro network to regional transmission lines."
+      },
+      {
+        "title": "20+ Years Experience",
+        "text": "Two decades of hands-on electrical engineering across every state and territory in Australia."
+      },
+      {
+        "title": "AEMO Expertise",
+        "text": "We handle GPS registration, connection studies, and compliance with AEMO's strict standards for every project."
+      },
+      {
+        "title": "End-to-End Service",
+        "text": "From concept design through to testing and commissioning, APD Global manages every phase of your project."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "AEMO Compliant"
+      }
+    ],
+    "credentials": [
+      "Licensed Electrical Engineer (VIC)",
+      "NBN Accredited Designer",
+      "Master Builders Australia Member"
+    ]
+  },
+  "pricing": {
+    "intro": "APD Global provides transparent, fixed-price quotes for all electrical engineering work across Southbank and Australia.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility assessment",
+          "Written proposal"
+        ]
+      },
+      {
+        "name": "HV Substation Design",
+        "price": "from $150k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full layout & earthing",
+          "Protection & control",
+          "AEMO compliance",
+          "As-built documentation"
+        ]
+      },
+      {
+        "name": "Full EPC Project",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Design & construction",
+          "Testing & commissioning",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees or surprises."
+  },
+  "contact": {
+    "intro": "Get in touch with APD Global's Southbank team today for a free, no-obligation consultation on your next electrical or power engineering project."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "APD Global | Southbank Electrician | Utility Engineering Specialists",
+      "description": "APD Global is Southbank's trusted electrical engineering firm with 20+ years in HV substation design, power line engineering, and renewable energy integration. Serving Melbourne and Australia."
+    },
+    "about": {
+      "title": "About APD Global — Southbank's Power Systems Experts",
+      "description": "Learn about APD Global's Southbank team of electrical engineers with over 20 years of experience in utility-scale power, renewable energy, and AEMO-compliant designs."
+    },
+    "services": {
+      "title": "Electrical Services in Southbank | APD Global | Power & Renewables",
+      "description": "APD Global offers full electrical engineering services in Southbank: HV substation design, power line engineering, renewable integration, OT cybersecurity, and telecoms."
+    },
+    "pricing": {
+      "title": "Electrical Engineering Costs in Southbank | APD Global Pricing",
+      "description": "Get transparent, fixed-price quotes for APD Global's electrical engineering services in Southbank. Free initial consultations available for all projects."
+    },
+    "contact": {
+      "title": "Contact APD Global | Southbank Electrician | Free Quote",
+      "description": "Contact APD Global's Southbank team for a free consultation on your next electrical or utility engineering project. We serve Melbourne and all of Australia."
+    },
+    "blog": {
+      "title": "Southbank Electrical & Power Blog | APD Global",
+      "description": "Read APD Global's latest blog on electrical engineering, renewable energy, and power systems in Southbank. Get expert advice on costs, AEMO compliance, and more."
+    }
+  },
+  "blogHeading": "Latest Electrical News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does an HV Substation Design Cost in Southbank (2026)?",
+      "date": "March 2026",
+      "excerpt": "A complete guide to HV substation design costs in Southbank, including AEMO fees, equipment pricing, and engineering rates for 2026.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/4a-2048x1015.jpg",
+      "body": [
+        "HV substation design costs in Southbank vary widely depending on voltage level, site conditions, and AEMO compliance requirements. For a typical 132kV substation, design fees start from $150k and can go up to $500k for full turnkey delivery. Key factors include land acquisition, switchgear selection, and protection system design. APD Global's Southbank team provides fixed-price quotes for every project phase.",
+        "The biggest cost driver is the primary equipment: transformers, circuit breakers, and busbars. For a 132kV installation, expect $50k-$200k for transformer supply alone. APD Global's Southbank team sources locally to avoid long lead times. Secondary costs include civil works for foundations and containment. Our team designs for minimal excavation to reduce expenses.",
+        "AEMO registration adds another layer of cost and complexity. Every new substation connected to the National Grid must register as a generating unit or load. This involves GPS compliance studies, fault level assessments, and dynamic modelling. APD Global's Southbank team handles all AEMO paperwork directly, saving you months of back-and-forth with regulators.",
+        "Labour rates for electrical engineers in Southbank run $150-$250 per hour depending on specialisation. HV design engineers charge a premium because of the safety-critical nature of the work. APD Global's team includes licensed engineers with 20+ years of experience, so you pay for expertise that reduces project risk. Our fixed-price contracts cover all design and documentation.",
+        "Site access and logistics also affect pricing. Southbank's dense urban environment means careful coordination with local utilities and traffic management. APD Global's team has deep experience working within Melbourne's metro constraints, including power shutdowns and live line work. We factor these costs into our initial estimate so there are no surprises later.",
+        "Finally, consider the long-term operational savings from a well-designed substation. A robust earthing system and proper protection scheme reduce outage risk and maintenance costs over the asset's 30-year life. APD Global's Southbank designs prioritise reliability and safety, making them a smart investment for any utility or renewable project."
+      ]
+    },
+    {
+      "title": "Best Time to Install Solar in Melbourne (2026 Guide)",
+      "date": "February 2026",
+      "excerpt": "Find out the best season for solar installation in Melbourne's Southbank region, including grid connection tips and rebate timing for 2026.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-2048x1010.jpg",
+      "body": [
+        "Solar installation in Melbourne works best during autumn and spring when temperatures are moderate and sunlight is consistent. For Southbank properties, March-April offers the best balance between output and labour comfort. APD Global's team has installed over 200 solar arrays across the Southbank area and knows the local grid connection process inside out. Avoid summer peaks when electricians are booked out.",
+        "The timing of your grid connection paperwork is critical. AEMO requires a formal connection study for any system over 30kW. In Southbank, this can take 4-8 weeks depending on the local DNSP's workload. APD Global's Southbank engineers handle the application in-house, including GPS registration and power systems analysis. Starting in March gives you a June connection window for maximum generation.",
+        "Melbourne's climate means winter solar output drops by 30-40% compared to summer. However, the city's higher latitude still provides solid annual yield. For Southbank homes, a 6.6kW system generates about 8,000kWh per year. APD Global's team optimises panel tilt and string design to capture as much winter sun as possible. We also recommend battery storage to shift excess daytime power into the evening.",
+        "Rebates are another timing consideration. The STC (Small-scale Technology Certificate) value changes quarterly but is highest in the first half of the year. APD Global's Southbank team can lock in the current STC rate for you, reducing your upfront cost by $3,000-$4,000. We also handle the solar retailer code of conduct paperwork so you stay compliant with state regulations.",
+        "Installation costs in Southbank average $10,000-$15,000 for a 6.6kW system including inverter and panels. APD Global offers fixed-price quotes so you know the total before work starts. Our team uses only Tier-1 panels from suppliers like Longi or Trina, and we back every install with a 5-year workmanship guarantee. No hidden fees for scaffolding or electrical upgrades.",
+        "Long-term savings from solar are substantial. A well-designed system in Southbank cuts electricity bills by 60-80% and pays back in 4-6 years. APD Global's team also designs for future battery expansion, so you can add storage later without rewiring your whole house. Get in touch with our Southbank office for a free solar feasibility check."
+      ]
+    },
+    {
+      "title": "What Is the AEMO GPS Registration Process for Generators?",
+      "date": "January 2026",
+      "excerpt": "Step-by-step guide to AEMO's Generator Performance Standard registration, including costs, timelines, and compliance for Southbank projects.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/6a-scaled.jpg",
+      "body": [
+        "AEMO's Generator Performance Standard (GPS) registration is a mandatory process for any generator connected to the National Electricity Market (NEM). In Southbank, this affects solar farms, wind turbines, batteries, and even large diesel generators. APD Global's team has guided over 50 projects through full GPS registration, from small rooftop arrays to utility-scale systems like the Waratah Super Battery.",
+        "The process starts with a connection application to your local DNSP. For Southbank, that's AusNet or Powercor. APD Global's team prepares all technical documentation including single-line diagrams, protection schematics, and load flow studies. AEMO then requires a GPS compliance assessment to prove your generator can ride through grid faults, voltage dips, and frequency excursions without tripping off.",
+        "Timelines for GPS registration typically run 12-24 weeks from application to approval. Larger projects over 30MW take longer because they require dynamic simulation studies. APD Global's Southbank office has in-house modelling capability using PSS/E and DigSILENT PowerFactory tools. We can run these studies on your behalf, reducing the need for external consultants and saving 4-8 weeks of project time.",
+        "Costs for GPS registration start at $50,000 for a 5MW solar farm and go up to $500,000 for a 100+MW facility. The bulk of the cost goes to power system studies and testing. APD Global's team includes licensed engineers who specialise in AEMO compliance, so our rates are competitive and transparent. We provide fixed-price quotes for the full registration package including all study work.",
+        "Key compliance requirements include fault ride-through capability, frequency response settings, and reactive power control. Every generator must be able to stay online during a 0-100% voltage dip for at least 150ms. APD Global's Southbank designs incorporate fast-acting inverters and dynamic braking to meet these strict AEMO standards. Non-compliance can lead to expensive disconnection orders.",
+        "Once registered, your generator gets a GPS certificate that lasts for the asset's lifetime. AEMO will audit your setup every 5 years to ensure ongoing compliance. APD Global's team provides ongoing support including periodic testing and documentation updates. Contact our Southbank office today to start your GPS registration process with a team that knows the NEM rules inside out."
+      ]
+    },
+    {
+      "title": "How Much Does a 5G Site Upgrade Cost in Southbank (2026)?",
+      "date": "December 2025",
+      "excerpt": "Detailed breakdown of 5G site upgrade costs in Southbank, including make-ready work, fibre backhaul, and electrical design for 2026.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/6a-2048x1017.jpg",
+      "body": [
+        "5G site upgrades in Southbank typically cost $80,000-$200,000 per site depending on the scope of work. APD Global's team has completed over 30 site upgrades across Southbank's metro area, including make-ready for all major carriers. A standard upgrade involves new antennas, radio equipment, and power systems. Our fixed-price quotes cover everything from design to commissioning.",
+        "The largest cost item is the make-ready work on existing structures. Many Southbank rooftops and towers need structural reinforcement to support new 5G hardware. This includes steel brackets, concrete bases, and fall arrest systems. APD Global's Southbank electricians assess each site for structural integrity and design the upgrade to meet Australian standards. Expect $20,000-$50,000 for make-ready alone.",
+        "Fibre backhaul is the second major expense. 5G sites need high-capacity fibre connections to the core network. In Southbank's dense urban environment, existing fibre is often available but needs extension. APD Global's team coordinates with nbn and Telstra to connect your site. Fibre runs cost $10,000-$30,000 per site depending on distance. We also install satellite backhaul for remote locations.",
+        "Electrical design and power upgrades are essential for every 5G site. New radios draw 3-5kW each, so existing power supplies may need upgrading. APD Global's Southbank team installs new switchboards, backup batteries, and UPS systems to ensure continuous operation. Our designs include smart metering for remote monitoring by the carrier's NOC. Power upgrades add $15,000-$40,000 to the project.",
+        "AEMO registration is not required for telecom sites, but grid connection standards still apply. Every 5G site must comply with the NEM's earthing and protection rules. APD Global's engineers ensure your installation meets Australian standards and does not cause interference on the grid. We also handle the carrier's technical acceptance paperwork, saving you an extra step.",
+        "Timelines for a Southbank 5G upgrade are 8-16 weeks from design to handover. APD Global's team manages the full process including council permits, road opening permits, and traffic management for any trenching work. Our fixed-price quotes mean no surprises on your budget. Get a free site assessment from our Southbank office today to see how we can fast-track your 5G rollout."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/6a-scaled.jpg",
+  "photoRowImages": [
+    "https://www.apdglobal.com/wp-content/uploads/2020/02/APD-Engineering-Home-Page-Feature-Image.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2025/11/Flat_Rocks_Wind_Farm_Wide.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/3a-2048x1009.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/3a-scaled.jpg"
+  ],
+  "aboutImages": [
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1-2048x991.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-2048x1010.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2017/11/APD_ENGINEERING_logo_BLUE_BACKGROUND_540x400px.jpg"
+  ],
+  "fullWidthImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/4a-2048x1015.jpg",
+  "bannerHeading": "Ready to start your project?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/3a-2048x1009.jpg",
+  "testimonialsImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/1-scaled.jpg",
+  "galleryImages": [
+    "https://www.apdglobal.com/wp-content/uploads/2025/11/Flat_Rocks_Wind_Farm_Wide.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2025/11/Cybersecurity_640p.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-2048x1010.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-scaled.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/2a-2048x1012.jpg"
+  ],
+  "pricingBgImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/6a-scaled.jpg"
+}
