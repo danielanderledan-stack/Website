@@ -997,7 +997,9 @@ return out;
 const CODE_BLOG_GUARD = `
 // Session check + discover existing posts from the sitemap so we can pick the
 // next post number and a sample post to clone.
-const row = $input.first().json || {};
+// NB: read the session by NAME - a GitHub node (Get Blog Sitemap) runs between
+// the session lookup and this guard, so $input is the sitemap blob, not the row.
+const row = $('Find Session Blog').first().json || {};
 const valid = row.id !== undefined && Number(row.session_expiry || 0) > Date.now();
 if (!valid) throw new Error('Session expired');
 if (!row.site) throw new Error('No website linked to this account');
@@ -1005,8 +1007,11 @@ let existing = [];
 let sampleNum = 1;
 try {
   const sm = Buffer.from($('Get Blog Sitemap').first().json.content, 'base64').toString('utf8');
-  existing = [...sm.matchAll(/\\/blog\\/(\\d+)\\//g)].map((m) => 'blog/' + m[1] + '/index.html');
-  const nums = [...new Set([...sm.matchAll(/\\/blog\\/(\\d+)\\//g)].map((m) => +m[1]))];
+  // backslash-free regex: setNodeParameter (MCP sync) strips '\\' from jsCode, which
+  // would turn /\\/blog.../ into a '//...' line comment and break the node.
+  const re = new RegExp('/blog/([0-9]+)/', 'g');
+  existing = [...sm.matchAll(re)].map((m) => 'blog/' + m[1] + '/index.html');
+  const nums = [...new Set([...sm.matchAll(re)].map((m) => +m[1]))];
   if (nums.length) sampleNum = Math.min(...nums);
 } catch (e) {}
 return [{ json: { site: row.site, existing, sampleNum, samplePath: 'blog/' + sampleNum + '/index.html' } }];
