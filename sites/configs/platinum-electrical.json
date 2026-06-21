@@ -1,0 +1,313 @@
+{
+  "siteType": "electrician",
+  "businessName": "Platinum Electrical",
+  "suburb": "South Melbourne",
+  "phone": "+61 3 8679 2299",
+  "email": "info@platinumelectricalcompany.com.au",
+  "address": "80 Market St, South Melbourne VIC 3205",
+  "coordinates": {
+    "latitude": -37.8297891,
+    "longitude": 144.9580624
+  },
+  "tagline": "South Melbourne's trusted electricians",
+  "primaryColor": "#00bfff",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#009acd",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Melbourne's Go-To Electrician",
+      "sub": "Reliable, licensed & local",
+      "image": ""
+    },
+    {
+      "title": "Smart Homes & Solar Solutions",
+      "sub": "Future-proof your property",
+      "image": ""
+    },
+    {
+      "title": "24/7 Emergency Call-Outs",
+      "sub": "Fast response across the inner south",
+      "image": ""
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your South Melbourne electrician",
+    "is ready to help."
+  ],
+  "aboutHeading": "Electricians Who Deliver",
+  "aboutSubheading": "Your local experts in electrical",
+  "aboutText": "Platinum Electrical has been keeping South Melbourne powered for over 15 years. We handle everything from smart home automation to emergency call-outs with the same no-nonsense, quality-first approach. Our team of fully licensed electricians uses the latest technology to get the job done right the first time. Whether it's a new build, a rewire, or a simple switchboard upgrade, we've got you covered.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end electrical solutions",
+  "servicesText": "From simple lighting upgrades to full smart home automation, we deliver reliable electrical services across South Melbourne and the inner south. We specialise in solar, EV chargers, heating and cooling, and gas-to-electric conversions.",
+  "services": [
+    {
+      "title": "Electrical Services",
+      "desc": "Full range of residential and commercial electrical work, from switchboards to data cabling.",
+      "longDesc": "Our electricians handle all electrical needs in South Melbourne: wiring, lighting, switchboard upgrades, inspection and testing. Safety and compliance are our priority.",
+      "points": [
+        "Fully licensed team",
+        "Compliance certified",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Gas to Electric Conversion",
+      "desc": "Switch from gas to modern electric appliances for lower bills and a greener home.",
+      "longDesc": "Upgrade your South Melbourne home with induction cooktops, heat pumps, and electric hot water. We manage the full conversion from gas disconnect to final sign-off.",
+      "points": [
+        "Save on energy bills",
+        "Reduce carbon footprint",
+        "Rebates available"
+      ]
+    },
+    {
+      "title": "Heating & Cooling",
+      "desc": "Installation and servicing of split systems, ducted heating, and reverse cycle air conditioning.",
+      "longDesc": "Stay comfortable year-round with professional installation of energy-efficient heating and cooling systems. We serve South Melbourne and surrounding suburbs.",
+      "points": [
+        "Energy efficient units",
+        "Expert installation",
+        "Ongoing maintenance"
+      ]
+    },
+    {
+      "title": "Smart Home Automation",
+      "desc": "Control lighting, blinds, security and entertainment from your phone or voice assistant.",
+      "longDesc": "Transform your South Melbourne home with custom automation solutions. We integrate smart lighting, motorised blinds, CCTV, and whole-home audio for seamless living.",
+      "points": [
+        "Custom programmable",
+        "Voice & app control",
+        "Future-proof wiring"
+      ]
+    },
+    {
+      "title": "Solar & EV Chargers",
+      "desc": "Solar panel installation and electric vehicle charger setup for homes and businesses.",
+      "longDesc": "Take control of your energy with rooftop solar and fast EV charging. We design systems tailored to South Melbourne properties, maximising feed-in tariffs and STCs.",
+      "points": [
+        "CEC accredited installers",
+        "Fast charger install",
+        "Maximised rebates"
+      ]
+    },
+    {
+      "title": "Emergency Electrical",
+      "desc": "24/7 emergency call-out for power outages, sparking, faults, and safety hazards.",
+      "longDesc": "When electrical issues can't wait, our South Melbourne emergency team responds quickly. Fully equipped vans, licensed electricians, and guaranteed workmanship.",
+      "points": [
+        "24/7 availability",
+        "Rapid response",
+        "Safety first"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the inner south",
+  "reviews": [
+    {
+      "text": "Allen's team transformed my home with their incredible automation solutions. I'm living in the future now, thanks to Platinum Electrical. Highly recommend them for smart home work in Port Melbourne.",
+      "name": "Emma T.",
+      "role": "Port Melbourne Homeowner"
+    },
+    {
+      "text": "Top-notch service — the automation technology has streamlined my business, making my day-to-day so much easier. Highly recommend their expertise to any Richmond business owner.",
+      "name": "Liam C.",
+      "role": "Richmond Business Owner"
+    },
+    {
+      "text": "Absolutely impressed with their automation solutions. My energy bills have plummeted, and my home feels like a smart oasis. Thank you for the magic, Platinum Electrical!",
+      "name": "Sarah M.",
+      "role": "Yarraville Homeowner"
+    }
+  ],
+  "serviceAreas": [
+    "South Melbourne",
+    "Port Melbourne",
+    "St Kilda",
+    "Richmond",
+    "Yarraville",
+    "Albert Park",
+    "Middle Park",
+    "Balaclava"
+  ],
+  "about": {
+    "intro": "Platinum Electrical is a family-owned South Melbourne business with over 15 years of experience in residential and commercial electrical services.",
+    "story": [
+      "What started as a one-man operation on Market Street has grown into the go-to electrical team across the inner south. Founder Allen built the business on straightforward pricing and honest advice — no upsells, no messing around. Today we're a crew of fully licensed electricians who still answer our own phones.",
+      "We've wired everything from heritage terraces in St Kilda to new apartment blocks in Southbank. Every job gets the same treatment: a detailed walk-through, a fixed quote, and a guarantee that the work is done to Australian standards. We don't cut corners because we've got to live with our reputation.",
+      "The industry keeps changing — solar, batteries, smart tech, EV chargers — and we stay ahead of the curve. But the core stays the same: show up on time, do quality work, and leave the place cleaner than you found it. That's what keeps our clients coming back."
+    ],
+    "mission": "To deliver reliable, safe, and innovative electrical solutions to every South Melbourne home and business with absolute transparency.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know the South Melbourne streets, the council rules, and the best suppliers. No learning curve on your job."
+      },
+      {
+        "title": "Fixed-Quote Promise",
+        "text": "You get a written price upfront. No hidden fees, no surprises when the invoice arrives."
+      },
+      {
+        "title": "24/7 Emergency Cover",
+        "text": "Electrical faults don't wait for business hours. We're on call round the clock for the inner south."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "All work carries a full warranty and meets the latest Australian electrical standards."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "2500+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed Electrician (REC)",
+      "Registered Electrical Contractor",
+      "Master Electricians Australia member",
+      "CEC Accredited Solar Installer"
+    ]
+  },
+  "pricing": {
+    "intro": "We keep it simple: a free on-site quote, no pressure, and you only pay when you're happy. All prices quoted in South Melbourne and suburbs.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Written fixed quote",
+          "Obligation-free advice"
+        ]
+      },
+      {
+        "name": "Standard Electrical",
+        "price": "from $220",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Switchboard upgrade",
+          "Lighting installation",
+          "Power point additions",
+          "Safety switch testing"
+        ]
+      },
+      {
+        "name": "Full Automation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Custom smart home design",
+          "All wiring & programming",
+          "CCTV & security integration",
+          "Whole-home audio"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — no hourly rates, no call-out fees, no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get started? Give us a call or send a message for a free, no-obligation quote. We serve South Melbourne and all inner southern suburbs."
+  },
+  "contactHeading": "Let's Talk About Your Electrical Needs",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Platinum Electrical | Electrician South Melbourne | 24/7 Services",
+      "description": "Platinum Electrical offers expert electrical services in South Melbourne — smart home, solar, EV chargers, gas conversion & 24/7 emergency call-outs. Licensed & local."
+    },
+    "about": {
+      "title": "About Platinum Electrical — South Melbourne's Family Electrician",
+      "description": "Learn about Platinum Electrical: 15+ years serving South Melbourne. Family-owned, fixed quotes, and a commitment to quality workmanship on every job."
+    },
+    "services": {
+      "title": "Electrical Services in South Melbourne | Platinum Electrical",
+      "description": "Full electrical services in South Melbourne: wiring, switchboards, smart automation, solar, EV chargers, heating & cooling, gas conversion. Call us today."
+    },
+    "pricing": {
+      "title": "Electrical Costs & Prices in South Melbourne | Platinum Electrical",
+      "description": "Transparent electrical pricing in South Melbourne. Free quotes, fixed prices, no surprises. See our packages for standard, smart home and emergency work."
+    },
+    "contact": {
+      "title": "Contact Platinum Electrical | Free Quote South Melbourne",
+      "description": "Get in touch with Platinum Electrical for a free on-site quote. We're located at 80 Market St, South Melbourne. Call (03) 8679 2299."
+    },
+    "blog": {
+      "title": "South Melbourne Electrical & Smart Home Blog | Platinum Electrical",
+      "description": "Read our blog for expert tips on smart home automation, solar, EV chargers, electrical safety, and gas conversion — written for South Melbourne homeowners."
+    }
+  },
+  "blogHeading": "Latest Electrical Tips & Guides",
+  "blogSubheading": "Local advice for South Melbourne homes",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Smart Home Installation Cost in South Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking about a smart home in South Melbourne? We break down the costs for lighting, blinds, security, and whole-home automation in 2026.",
+      "image": "",
+      "body": [
+        "Smart home automation isn't just for tech enthusiasts anymore. In South Melbourne, more homeowners are adding smart lighting, motorised blinds, and voice-controlled security to their terrace houses and apartments. But the big question is always: how much does it actually cost? The short answer is somewhere between $2,000 and $15,000, depending on how deep you go. A basic smart lighting setup for a three-bedroom home with dimmers and smart switches will set you back around $2,500 to $4,000 installed. That includes the wiring, the switches, and programming the app. If you want voice control through Google Home or Alexa, add a few hundred more for compatible hubs. For a full automation package — lights, blinds, heating and cooling, security cameras, and whole-home audio — you're looking at $8,000 to $15,000 in a typical South Melbourne home. The price jumps if you're doing a heritage property with solid brick walls, where running new cables is trickier. Wireless options exist but can be less reliable.",
+        "The biggest cost driver is the amount of rewiring required. Older homes in South Melbourne often have switchboards that can't handle modern loads. You might need a switchboard upgrade (around $1,200 to $2,000) before any smart system goes in. That's actually a good thing — a modern switchboard with safety switches is essential. Another factor is how many rooms you want automated. Doing the living areas only keeps the price down, but once you add bedrooms, outdoor spaces, and the kitchen, the labour and materials add up. We always recommend starting with a free on-site consultation. Our team at Platinum Electrical walks through your home, checks the existing wiring, and gives you a fixed quote. No guessing, no hidden fees. Smart home gear prices have dropped in the last few years, but installation labour still makes up the bulk. Expect around $200 to $300 per room for basic smart switch wiring, more if you need motorised blinds or sensors.",
+        "Is it worth the money for South Melbourne homeowners? In our experience, yes. Smart homes increase property value — especially in the inner south where buyers expect modern conveniences. They also save energy. Smart thermostats and automated blinds can cut heating and cooling costs by 20-30%. Plus, you get peace of mind with remote security monitoring. If you're in South Melbourne, Port Melbourne, or St Kilda, and thinking about automation, give us a call. We'll design a system that fits your budget and your lifestyle. And remember: always use a licensed electrician for any wiring work. DIY smart home gear can be dangerous and might void your insurance."
+      ]
+    },
+    {
+      "title": "Gas to Electric Conversion: Is It Worth It for South Melbourne Homes in 2026?",
+      "date": "February 2026",
+      "excerpt": "Thinking of ditching gas? We explore the costs, rebates, and benefits of switching to electric appliances for your home in South Melbourne.",
+      "image": "",
+      "body": [
+        "Victoria is slowly moving away from gas. New homes in some areas are being built all-electric, and the state government is offering incentives for existing homes to make the switch. For South Melbourne households, converting from gas to electric can mean lower energy bills, a smaller carbon footprint, and a safer home. But it's not a decision to make lightly. The upfront cost can be significant, especially if you need to upgrade your switchboard or run new circuits. A typical conversion includes replacing a gas cooktop with induction, swapping a gas hot water system for a heat pump, and changing gas heating to a reverse-cycle split system. Each appliance comes with its own installation cost. Induction cooktops range from $800 to $3,000, plus installation and potentially a new circuit. Heat pump hot water systems cost between $2,500 and $4,500 installed. Split system air conditioners vary by size but budget $2,000 to $5,000 per unit.",
+        "The good news is there are generous rebates available in 2026. The Victorian Energy Upgrades program can cover part of the cost for heat pumps and efficient appliances. The Solar Homes program also offers interest-free loans for solar and battery systems. You might also qualify for a gas disconnect rebate from the state government. In total, a full conversion from gas to electric for an average South Melbourne home could cost $8,000 to $15,000, but after rebates you might save $2,000 to $4,000. Over time, you'll save on gas supply charges and the cost per kilowatt-hour of electricity is typically lower than gas for heating. Induction cooking is faster and more precise, and reverse-cycle heating/cooling is efficient year-round.",
+        "One thing to keep in mind: your home's electrical capacity. Many older South Melbourne properties have 63 amp switchboards that can't handle the extra load. Upgrading to a 100 amp board with safety switches might add $2,000 to the bill. But it's worth it for safety and future-proofing. We've done dozens of gas-to-electric conversions across South Melbourne, Richmond, and Yarraville. The process usually takes a few days, and we coordinate with gas plumbers for the disconnect and capping. Our advice: get a full site assessment first. We'll check your switchboard, measure your cooking and heating needs, and give you a fixed quote including all rebate paperwork. Going all-electric is a smart move for the environment and your hip pocket."
+      ]
+    },
+    {
+      "title": "Top 5 Electrical Safety Checks Every South Melbourne Homeowner Should Do",
+      "date": "January 2026",
+      "excerpt": "Keep your family safe with these essential electrical safety checks. Plus, what to look for in older homes across South Melbourne and Port Melbourne.",
+      "image": "",
+      "body": [
+        "Electrical safety is something most homeowners don't think about until something goes wrong. In older South Melbourne homes — many built in the 1950s or earlier — the wiring can be outdated and dangerous. We recommend doing these five checks at least once a year. First: test your safety switches (RCDs). Every switchboard should have at least one RCD. Press the test button monthly; if it doesn't trip, call an electrician immediately. Second: look for old wiring. If you see cloth-insulated wiring, ceramic fuses, or black rubber cabling, that's a red flag. Homes built before 1970 often have wiring that can't handle modern appliances. A full rewiring costs $5,000 to $12,000 but it's non-negotiable for safety. Third: check your power points. Loose sockets, discolouration, or burning smells mean urgent repair. Fourth: inspect outdoor power points. They should be weatherproof and have a cover. Exposed outlets near pools, gardens, or patios are a shock risk. Fifth: make sure your smoke alarms are less than 10 years old and interconnected.",
+        "In South Melbourne, we also see a lot of DIY electrical work — people adding power points or light fixtures without a license. This is illegal and dangerous. Faulty wiring causes thousands of house fires each year in Victoria. If you've just bought an older home, or if you're planning renovations, get a full electrical safety inspection. It costs around $300 to $500 and covers the switchboard, wiring, earthing, smoke alarms, and RCDs. We include a detailed report with photos and a quote for any repairs needed. Many insurance companies now require an electrical safety certificate before they'll cover older homes. Don't skip it.",
+        "Another common issue in South Melbourne: DIYers have used mismatched wiring colours or joined cables with tape instead of junction boxes. These are fire hazards. If you notice flickering lights, buzzing sounds, or a tingling sensation when touching appliances, call a licensed electrician immediately. At Platinum Electrical, we offer priority emergency inspections across the inner south. We'll find the problem and fix it fast. Safety first, always. And remember: never overload power boards with heaters or air conditioners. Plug high-wattage appliances directly into wall sockets."
+      ]
+    },
+    {
+      "title": "Complete Guide to Solar Panel Installation in South Melbourne (2026 Update)",
+      "date": "December 2025",
+      "excerpt": "Thinking about solar for your South Melbourne home? Here's everything you need to know about costs, rebates, and finding the right installer.",
+      "image": "",
+      "body": [
+        "Solar power is more accessible than ever for South Melbourne homeowners. With rising electricity prices and generous federal and state incentives, installing solar panels can slash your power bills by 50-80%. A standard 6.6kW system — the most common size for a three-bedroom home — costs between $4,000 and $7,000 after the STC rebate. That's the Small-scale Technology Certificate discount applied upfront by reputable installers. For a larger 10kW system, expect $7,000 to $10,000. The payback period is usually 3 to 5 years in Victoria, thanks to our high feed-in tariffs. After that, you're essentially getting free electricity for the remaining 20+ years of the panels' life. South Melbourne gets decent sun exposure — even with Melbourne's variable weather, a well-oriented north-facing roof can generate enough power to cover most of your daytime usage.",
+        "Choosing the right installer is crucial. Make sure they are CEC (Clean Energy Council) accredited and use Tier 1 solar panels. Cheap systems using poor-quality panels will degrade faster and won't save you as much in the long run. We use brands like Jinko, Trina, and Longi, paired with Fronius or Sungrow inverters. Battery storage is becoming more popular too. A 5kWh battery adds about $8,000 to $10,000 to the system cost, but it lets you store excess solar energy for use at night. With the Victorian Solar Battery Rebate, you might get up to $4,800 off. For South Melbourne homes with limited roof space, we also offer microinverters that maximise energy harvest even when parts of the roof are shaded. We always do a full site inspection to design the best layout for your roof pitch and orientation.",
+        "Planning permission is straightforward in South Melbourne. Most residential solar installations are covered under exempt development as long as they don't protrude more than 10cm above the roofline. Your installer should handle all the paperwork, including the connection application to your electricity distributor. Once installed, a 6.6kW system can save around $1,300 per year on an average bill. Combine it with a heat pump hot water system and induction cooking, and you could almost eliminate your energy costs. We've installed over 500 solar systems across South Melbourne, Port Melbourne, and St Kilda. Give us a call for a free quote and we'll walk you through the numbers."
+      ]
+    }
+  ],
+  "splitCtaImage": "",
+  "photoRowImages": [],
+  "aboutImages": [],
+  "fullWidthImage": "",
+  "bannerHeading": "Ready to take the next step?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "",
+  "testimonialsImage": "",
+  "galleryImages": [],
+  "pricingBgImage": ""
+}
