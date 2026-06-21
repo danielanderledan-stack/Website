@@ -1,0 +1,338 @@
+{
+  "siteType": "electrician",
+  "businessName": "Voltex Power Engineers",
+  "suburb": "Southbank",
+  "phone": "+61 3 9982 4522",
+  "email": "info@voltexpower.com.au",
+  "address": "Level 2, Riverside Quay, 1 Southbank Boulevard, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.821042899999995,
+    "longitude": 144.9628184
+  },
+  "tagline": "Voltex — High Voltage Experts, Southbank",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#00A0E0",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's High Voltage Gurus",
+      "sub": "From design to end-of-life — we've got your power covered",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg"
+    },
+    {
+      "title": "Advanced Power Management & Simulation",
+      "sub": "IEC 61850 substation automation specialists",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-electrical-engineering-consultants.jpg"
+    },
+    {
+      "title": "20+ Years Keeping Melbourne Powered",
+      "sub": "Nationally recognised HV training too",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/11/Voltex-Systems-Integration.webp"
+    }
+  ],
+  "ctaHeading": [
+    "Don't mess around with high voltage —",
+    "Southbank's most trusted electrical engineers",
+    "are one call away."
+  ],
+  "aboutHeading": "Who We Are — Voltex Power Engineers",
+  "aboutSubheading": "Your local HV specialists in Southbank",
+  "aboutText": "Voltex Power Engineers have been operating out of Southbank for over 20 years. We're a team of high voltage electrical engineers who take the mystery out of power systems. From HV design and protection studies to auditing and asset management, we tell you what you need to know — not what you want to hear. No fluff, no bull.",
+  "servicesHeading": "Our High Voltage Services",
+  "servicesSubheading": "End-to-end HV electrical solutions",
+  "servicesText": "We handle everything HV — from the design office to the field. Our six core services cover design, auditing, systems integration, training, renewable energy connections, and commissioning. All delivered by experienced engineers who know the Australian standards inside out.",
+  "services": [
+    {
+      "title": "HV Electrical Engineering",
+      "desc": "Design, specification, and verification of high voltage systems for industrial and utility clients.",
+      "longDesc": "Our HV electrical engineering covers equipment selection, technical manuals, power system studies including load flow and short circuit analysis. We deliver compliant, reliable designs for Melbourne's toughest projects.",
+      "points": [
+        "Full design & verification",
+        "Protection coordination studies",
+        "Compliant to AS/NZS 3000"
+      ]
+    },
+    {
+      "title": "HV Audits & Asset Management",
+      "desc": "Auditing, compliance certification, and strategic asset management for existing HV infrastructure.",
+      "longDesc": "We audit your high voltage plant for safety and compliance, identify risks, and manage end-of-life strategies. Our reports cut through the noise and give you actionable steps to improve reliability and reduce downtime.",
+      "points": [
+        "Safety & compliance audits",
+        "Asset life extension plans",
+        "Risk management strategies"
+      ]
+    },
+    {
+      "title": "HV Systems & Integration",
+      "desc": "Substation automation, IEC 61850, and SCADA integration for smarter power networks.",
+      "longDesc": "We design and implement advanced power management systems using ETAP Real Time and Schneider Electric EcoStruxure. Our IEC 61850 expertise ensures seamless communication between protection relays and control systems.",
+      "points": [
+        "IEC 61850 GOOSE messaging",
+        "Substation automation",
+        "Digital twin integration"
+      ]
+    },
+    {
+      "title": "HV Operator Training",
+      "desc": "Nationally recognised training for high voltage isolation, arc flash safety, and protection systems.",
+      "longDesc": "Voltex Power & Plant Training is a registered training organisation. We deliver practical HV isolation and access training plus arc flash hazard safety courses tailored to your site's safety management system.",
+      "points": [
+        "Nationally recognised units",
+        "On-site & custom courses",
+        "Arc flash safety certified"
+      ]
+    },
+    {
+      "title": "HV Renewable Energy",
+      "desc": "AEMO grid connection, DER integration, and microgrid design for renewable projects.",
+      "longDesc": "We help solar farms, wind projects, and battery storage systems connect to the grid. Our engineers handle AEMO GC4 compliance, distributed energy resource studies, and microgrid control strategies for Southbank and beyond.",
+      "points": [
+        "AEMO grid connection",
+        "Solar & wind farm studies",
+        "Microgrid design & control"
+      ]
+    },
+    {
+      "title": "HV Testing & Commissioning",
+      "desc": "Site testing, protection scheme commissioning, and relay calibration for new and upgraded plant.",
+      "longDesc": "Our commissioning engineers test and validate protection schemes, earthing systems, and switchgear. We provide detailed reports and ensure your HV plant is ready for energisation safely and on schedule.",
+      "points": [
+        "Protection scheme testing",
+        "Switchgear commissioning",
+        "Energisation support"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne's industrial sector",
+  "reviews": [
+    {
+      "text": "Voltex handled the HV design and commissioning for our new substation in Southbank. Their engineers were thorough, communicated clearly, and delivered on time. The arc flash study saved us from a nasty surprise.",
+      "name": "David M.",
+      "role": "Operations Manager, Southbank"
+    },
+    {
+      "text": "We needed an independent audit of our high voltage switchgear. Voltex found issues we'd missed for years. Their report was honest and gave us a clear plan. We'll be using them for all our HV asset management from now on.",
+      "name": "Sarah T.",
+      "role": "Plant Manager"
+    },
+    {
+      "text": "The HV isolation training Voltex ran for our team was top-notch. Practical, hands-on, and tailored to our site. Everyone came away confident and compliant. Highly recommend for any Melbourne facility working with high voltage.",
+      "name": "Michael K.",
+      "role": "Safety Coordinator"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "Richmond",
+    "Port Melbourne",
+    "St Kilda",
+    "Flemington",
+    "Kensington"
+  ],
+  "about": {
+    "intro": "Voltex Power Engineers are high voltage electrical engineering consultants based in Southbank, Melbourne. We specialise in HV power from design to end-of-life.",
+    "story": [
+      "Voltex was founded by a group of senior HV engineers who were sick of consultants who promised the world but delivered excuses. We set up shop in Southbank with a simple philosophy: tell the client what they need to know, even if it's uncomfortable. That honesty has earned us long-term partnerships with major industrial, mining, and utility clients across Australia.",
+      "Over the past two decades, we've grown into a group that includes Voltex Systems & Integration and Voltex Power & Plant Training. But we've never lost sight of our roots. Every project — whether it's a microgrid for a remote mine or a substation automation upgrade in Melbourne — gets the same meticulous attention. We don't believe in learning on your dollar."
+    ],
+    "mission": "To deliver clear, honest high voltage engineering advice and execution that keeps Melbourne and beyond powered safely and reliably.",
+    "whyUs": [
+      {
+        "title": "Real Engineers",
+        "text": "Our team has decades of hands-on HV experience. No one is learning on your job."
+      },
+      {
+        "title": "Honest Advice",
+        "text": "We tell you what you need to hear, not what's easy. That's how trust is built."
+      },
+      {
+        "title": "Full Lifecycle",
+        "text": "From first design to end-of-life decommissioning, we've got every stage covered."
+      },
+      {
+        "title": "Locally Based",
+        "text": "Based in Southbank, we know Melbourne's power infrastructure inside out."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Australian Owned"
+      }
+    ],
+    "credentials": [
+      "Registered Electrical Engineering Consultancy",
+      "Public liability insured to $20 million",
+      "Nationally Recognised Training Provider (RTO)"
+    ]
+  },
+  "pricing": {
+    "intro": "Every HV project is different, so we tailor our pricing to the scope. We give you a fixed price upfront — no hidden extras, no surprises. Contact us for a no-obligation quote.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit or remote call",
+          "Scope discussion & feasibility",
+          "Written fee proposal"
+        ]
+      },
+      {
+        "name": "HV Study Package",
+        "price": "from $8,500",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Load flow & short circuit",
+          "Protection coordination",
+          "Arc flash analysis",
+          "Detailed report & recommendations"
+        ]
+      },
+      {
+        "name": "Full Design & Commission",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "End-to-end HV design",
+          "IEC 61850 integration",
+          "Testing & energisation",
+          "As-built documentation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed price with no hidden charges. We'll walk you through every line item."
+  },
+  "contact": {
+    "intro": "Got a high voltage project in Southbank or anywhere in Australia? Give us a call or drop an email. We'll get back to you within 24 hours with a clear, no-nonsense answer."
+  },
+  "contactHeading": "Let's Talk About Your HV Project",
+  "contactSubheading": "Free quotes — no obligation",
+  "seo": {
+    "home": {
+      "title": "Voltex Power Engineers | HV Electrical Engineers Southbank",
+      "description": "Voltex Power Engineers: high voltage electrical engineering consultants in Southbank, Melbourne. HV design, audits, IEC 61850, training. 20+ years. Get a fixed quote."
+    },
+    "about": {
+      "title": "About Voltex Power Engineers — Southbank's HV Experts",
+      "description": "Learn about Voltex Power Engineers: honest, experienced HV consultants based in Southbank. We handle design, audits, systems integration, and training for Melbourne's industry."
+    },
+    "services": {
+      "title": "HV Electrical Services Southbank | Voltex Power Engineers",
+      "description": "Full range of high voltage services in Southbank & Melbourne: engineering, audits, integration, training, renewable connections, commissioning. Certified HV specialists."
+    },
+    "pricing": {
+      "title": "HV Engineering Costs Southbank | Voltex Power Engineers",
+      "description": "Transparent pricing for high voltage electrical engineering. Free initial consultation. Fixed-price packages for studies, design, and commissioning. Get a quote today."
+    },
+    "contact": {
+      "title": "Contact Voltex Power Engineers | Free HV Consultation",
+      "description": "Get in touch with Voltex Power Engineers in Southbank. Call or email for a free, no-obligation discussion about your high voltage project. We respond within 24 hours."
+    },
+    "blog": {
+      "title": "HV Electrical Blog Southbank | Voltex Power Engineers",
+      "description": "Expert articles on high voltage engineering, IEC 61850, arc flash safety, asset management, and grid connection. Written by Melbourne's HV specialists."
+    }
+  },
+  "blogHeading": "Latest High Voltage Insights",
+  "blogSubheading": "Expert articles from Southbank's HV engineers",
+  "blogPosts": [
+    {
+      "title": "How Much Does High Voltage Switchgear Maintenance Cost in Southbank?",
+      "date": "March 2026",
+      "excerpt": "Breakdown of HV switchgear maintenance costs in Southbank and Melbourne: typical inspection fees, oil testing, and circuit breaker servicing from experienced local engineers.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-audits-asset-management.jpg",
+      "body": [
+        "If you're responsible for high voltage switchgear in Southbank or anywhere around Melbourne, you know maintenance isn't optional. But what does it actually cost? The answer depends on voltage class, number of panels, and condition. A basic annual inspection of a 11 kV switchboard might run $2,000–$4,000, but if you need oil sampling, partial discharge testing, or breaker timing, that figure climbs fast. We've seen clients delayed by budget surprises — and that's exactly what we help you avoid.",
+        "Most switchgear in Melbourne's industrial estates is 11 kV or 22 kV, with some 66 kV gear in transmission-connected sites. For a typical 10-panel 11 kV switchboard, a comprehensive maintenance program including visual inspection, thermal imaging, insulation resistance tests, and contact resistance measurement will land between $8,000 and $15,000 per annum. Add in oil dielectric testing and DGA (dissolved gas analysis) for oil-filled breakers, and you're looking at another $3,000–$5,000. Don't skip these — we've seen oil breakdown cause catastrophic failures.",
+        "The Australian standard AS/NZS 2467 sets the benchmark for switchgear maintenance intervals. Generally, you should inspect annually and do a major overhaul every 5–6 years. But if your switchgear is in a dusty or corrosive environment — like near the Yarra or in a chemical plant — you'll want to increase frequency. Voltex's asset management team can help you build a risk-based maintenance plan that aligns with your budget and operational needs. We'll be honest if you can push something out or if it's urgent.",
+        "One cost that often gets overlooked is downtime. When you schedule maintenance, you need to isolate the switchboard, which may mean shutting down part of your plant. That lost production can dwarf the maintenance cost itself. Smart operators plan maintenance during scheduled shutdowns or use temporary bypass arrangements. Our engineers can help you design a switching sequence that minimises disruption. We've done this for major Southbank data centres and manufacturing plants — they trust us to keep the lights on.",
+        "If you're bringing in external contractors for HV switchgear maintenance in Melbourne, make sure they're authorised and insured. Not every electrical contractor holds the necessary high voltage endorsements. At Voltex, all our field staff hold current HV switching tickets and have completed arc flash safety training. We also provide detailed reports that satisfy your insurers and safety regulators. And because we're based in Southbank, we can be on-site quickly — often same-day for urgent call-outs.",
+        "To get a precise cost for your specific switchgear, we recommend a one-off condition assessment. We'll inspect, test, and give you a prioritised list of repairs and a cost estimate for the next 12 months. That first assessment usually costs $1,500–$3,000, and it pays for itself by flagging issues early. Contact Voltex Power Engineers for a fixed-price quote — we'll break down every dollar so there are no surprises. Your switchgear is too important to guess."
+      ]
+    },
+    {
+      "title": "IEC 61850 Substation Automation: What Southbank Facilities Need to Know",
+      "date": "February 2026",
+      "excerpt": "IEC 61850 is transforming how Melbourne's substations communicate. Learn the benefits, costs, and implementation steps from Southbank's integration experts.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-operation-training.jpg",
+      "body": [
+        "IEC 61850 is the global standard for substation automation and communication. If your Southbank facility is upgrading or building new high voltage infrastructure, you've likely heard the term. But what does it actually mean for your operations? Simply put, it replaces hardwired control cables with digital Ethernet communication between protection relays, meters, and controllers. This saves tonnes of copper, simplifies commissioning, and opens the door to advanced features like GOOSE messaging for ultra-fast tripping.",
+        "The biggest advantage for Melbourne industrial sites is flexibility. With IEC 61850, you can reconfigure protection schemes without pulling new wires. Want to add a new feeder or change a trip logic? You can do it in software. That's a massive time and cost saving compared to traditional hardwired systems. We've implemented IEC 61850 at several Southbank facilities, including a large commercial building complex where the owner wanted the ability to change load shedding schemes as tenants moved in and out.",
+        "Costs vary widely depending on the size of the substation and the level of redundancy required. For a typical 11 kV distribution substation with 5–10 bays, expect to spend $80,000–$150,000 on the automation system including relays, switches, and engineering. That's competitive with conventional systems once you account for wiring savings. And the long-term benefits — reduced downtime, remote monitoring, and easier fault finding — make it a solid investment. Many Southbank property managers are now specifying IEC 61850 for new builds.",
+        "Implementation isn't plug-and-play. You need engineers who understand the standard deeply — from SCL (Substation Configuration Language) to GOOSE performance requirements. A poorly configured IEC 61850 system can actually be less reliable than its hardwired predecessor. That's where Voltex Systems & Integration comes in. Our team has certified IEC 61850 engineers who have delivered projects for mines and utilities. We don't just sell relays; we design the entire communication architecture and test it rigorously before commissioning.",
+        "One area that often catches people out is cyber security. IEC 61850 networks are IP-based, which means they're potentially vulnerable to cyber attacks if not properly segmented and protected. Australian facilities are increasingly required to comply with the Security of Critical Infrastructure Act. We always design IEC 61850 networks with firewalls, VPNs, and role-based access control. We also provide training for your team on managing the digital substation safely.",
+        "If you're considering IEC 61850 for your Southbank facility, start with a feasibility study. We'll review your existing protection scheme, identify opportunities, and give you a cost-benefit analysis. The study typically costs around $5,000 and includes a high-level design and migration strategy. Email us or call — we're right here in Southbank and happy to sit down and talk through your project over a coffee."
+      ]
+    },
+    {
+      "title": "Arc Flash Hazard Safety in Melbourne: Compliance & Training Guide",
+      "date": "January 2026",
+      "excerpt": "Arc flash is a deadly risk for anyone working near high voltage. This guide covers your obligations under Australian standards and how Voltex training keeps Southbank workers safe.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-systems-integration.png",
+      "body": [
+        "Every year in Australia, workers are seriously injured by arc flash incidents. The blast can reach temperatures higher than the sun's surface, causing severe burns, blindness, and even death. If you operate high voltage equipment in Southbank or anywhere in Melbourne, you have a legal obligation to assess and control arc flash hazards under the Work Health and Safety Act and AS/NZS 3000. The good news? It's manageable with the right approach.",
+        "The first step is an arc flash study. This calculates the incident energy at every point in your electrical system — switchboards, transformers, cables — and determines the arc flash boundary and the required personal protective equipment (PPE). Voltex Power Engineers performs arc flash analyses using ETAP software. We model your system, run worst-case scenarios, and produce clear labels that tell your workers exactly what PPE to wear. A typical study for a medium-sized industrial site costs $5,000–$12,000.",
+        "Once you have the study results, you need to train your staff. Arc flash safety training is not a tick-box exercise. Workers must understand how to interpret labels, select the correct PPE, and follow safe work practices. Our Voltex Power & Plant Training division delivers nationally recognised units of competency in arc flash hazard safety. We come to your Southbank site and run practical sessions with real arc-rated clothing and switching gear. The training is hands-on and scenario-based.",
+        "The cost of arc flash training varies. For a group of up to 12 people, a one-day on-site course is around $3,500–$5,000 including all materials and certificates. We also offer refresher half-days for $2,000. Considering the alternative — a serious injury claim, fines from WorkSafe, or worse — it's a small price. Many of our clients in Melbourne's industrial precincts schedule annual refreshers as part of their safety management system. We keep records and can issue replacement cards if needed.",
+        "Don't forget that as equipment ages or as you modify your electrical system, the arc flash study becomes outdated. We recommend reviewing it every five years or after any significant change. We've seen sites where a simple breaker change increased incident energy dramatically without anyone realising. Voltex can re-run the study quickly because we already have your model. We'll update the labels and retrain your team if necessary.",
+        "Arc flash safety isn't just about compliance; it's about people going home safe. Our trainers have decades of hands-on HV experience — they've seen the aftermath of arcs and they're passionate about prevention. If you're in Southbank, ring us for a no-obligation chat about your arc flash requirements. We'll tell you honestly what you need, and what you can do with your existing budget. That's the Voltex way."
+      ]
+    },
+    {
+      "title": "AEMO Grid Connection for Renewable Energy Projects in Victoria: A Practical Guide",
+      "date": "December 2025",
+      "excerpt": "Connecting a solar farm or battery project to Victoria's grid? This guide walks through AEMO's GC4 process and how Voltex Southbank engineers get you connected.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2022/11/Voltex-OG-Waihi-Gold-Substation-Automation-Power-System-Studies.webp",
+      "body": [
+        "Victoria's renewable energy targets mean more solar and battery projects are seeking grid connection every year. Whether you're developing a 5 MW solar farm near Ballarat or a 50 MW battery in the Latrobe Valley, you'll need to navigate AEMO's Generator Connection process, specifically the GC4 pathway for large-scale generators. It's a complex, technical process that can take 12–18 months — and mistakes are expensive. Voltex Power Engineers, based in Southbank, specialises in getting these connections approved efficiently.",
+        "The GC4 process starts with a connection enquiry. You provide AEMO with preliminary design data, and they respond with connection requirements. This is where most developers hit trouble — poor quality studies or incomplete data lead to AEMO rejecting the application. We've seen it happen. Voltex prepares thorough connection studies, including load flow, short circuit, and transient stability analyses. We know exactly what AEMO's technical reviewers look for. Our studies have a high first-pass approval rate.",
+        "One critical aspect is the power system model. You need to submit a validated dynamic model of your generating plant (solar inverter or battery converter) in PSS/E or PSCAD format. Many equipment suppliers provide generic models that don't match the actual performance. We can review and validate those models against real test data. If the model doesn't match, AEMO will kick it back, causing delays. We've helped Southbank-based developers avoid months of rework by getting the model right the first time.",
+        "Costs for grid connection studies vary widely based on project size and complexity. For a typical 10 MW solar farm, expect to spend $30,000–$60,000 on connection studies and documentation. That includes the connection application, model validation, and response to AEMO queries. If you need earthing studies or protection coordination as well, add another $15,000–$25,000. It sounds like a lot, but a single rejection can cost you six months of delay and lost revenue. It's worth doing properly.",
+        "Voltex also assists with commissioning tests once your plant is built. AEMO requires a series of tests to prove the plant behaves as modelled — things like reactive power capability, voltage ride-through, and frequency response. Our engineers can write the test plan, supervise the testing, and prepare the compliance report. We've done this for several Victorian projects, including one just outside Melbourne that connected on the first attempt.",
+        "If you're planning a renewable energy project in Victoria and need help with grid connection, contact Voltex Power Engineers in Southbank. We'll review your project scope and give you a fixed-price quote for the studies and support you need. No hidden costs, no jargon — just straight talk from engineers who've been doing this for decades. Call us today and let's get your project connected."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.voltex.com.au/wp-content/uploads/2026/06/Voltex-ETAP-Spark-2026-Web-Banner-Home.webp",
+  "photoRowImages": [
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-audits-asset-management.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-operation-training.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2026/06/Voltex-ETAP-Spark-2026-Web-Banner-Home.webp",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg"
+  ],
+  "aboutImages": [
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-systems-integration.png",
+    "https://www.voltex.com.au/wp-content/uploads/2022/11/Voltex-OG-Waihi-Gold-Substation-Automation-Power-System-Studies.webp",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-electrical-engineering-consultants.jpg"
+  ],
+  "fullWidthImage": "https://www.voltex.com.au/wp-content/uploads/2023/11/Voltex-Systems-Integration.webp",
+  "bannerHeading": "Ready to sort your high voltage system?",
+  "bannerSubheading": "Get a free, no-obligation quote from our Southbank team.",
+  "bannerImage": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-electrical-engineering-consultants.jpg",
+  "testimonialsImage": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-audits-asset-management.jpg",
+  "galleryImages": [
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2026/06/Voltex-ETAP-Spark-2026-Web-Banner-Home.webp",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-systems-integration.png",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-operation-training.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2022/11/Voltex-OG-Waihi-Gold-Substation-Automation-Power-System-Studies.webp"
+  ],
+  "pricingBgImage": "https://www.voltex.com.au/wp-content/uploads/2023/11/Voltex-Systems-Integration.webp"
+}
