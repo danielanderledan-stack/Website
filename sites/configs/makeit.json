@@ -1,0 +1,347 @@
+{
+  "siteType": "roofer",
+  "businessName": "Makeit",
+  "suburb": "Melbourne",
+  "phone": "+61 3 9112 5850",
+  "email": "info@makeitconstructions.com.au",
+  "address": "Ground Floor/80 Dorcas St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8307863,
+    "longitude": 144.9669146
+  },
+  "tagline": "Melbourne's Reliable Roofing Team",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Roofing Specialists",
+      "sub": "Roof replacements & repairs you can count on",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg"
+    },
+    {
+      "title": "Quality Metal Roofing",
+      "sub": "Durable, long-lasting solutions",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg"
+    },
+    {
+      "title": "10+ Years Serving Melbourne",
+      "sub": "Local, licensed, transparent",
+      "image": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "Melbourne's trusted roofers",
+    "are ready to inspect your roof."
+  ],
+  "aboutHeading": "Roofers Who Actually Deliver",
+  "aboutSubheading": "Your local Melbourne roofing experts",
+  "aboutText": "Makeit has been servicing Melbourne's homes and businesses for over a decade. We specialise in roofing, guttering, skylights, cladding, plumbing, and electrical work — all backed by transparent systems and total quality control. Based in Southbank, we cover the entire metro area with a no-nonsense approach.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end roofing and trade solutions",
+  "servicesText": "From simple roof repairs to complex multi-trade projects, Makeit delivers across Melbourne. Our in-house divisions cover roofing, plumbing, electrical, and cladding — so you get one team, one point of contact, and total accountability.",
+  "services": [
+    {
+      "title": "Roofing & Guttering",
+      "desc": "Full roof replacements, repairs, and gutter installations for Melbourne homes.",
+      "longDesc": "Expert roofing services across Melbourne — Colorbond, tile, and metal roofing systems installed with precision. Gutter replacements and downpipe upgrades included for complete protection.",
+      "points": [
+        "25-year workmanship warranty",
+        "Fast, tidy installation",
+        "All materials sourced locally"
+      ]
+    },
+    {
+      "title": "Skylights & Ventilation",
+      "desc": "Natural light and airflow solutions tailored to your home.",
+      "longDesc": "Transform dark rooms with energy-efficient skylights and roof ventilation systems. We install VELUX and custom units designed for Melbourne's variable climate.",
+      "points": [
+        "Reduces electricity bills",
+        "Improves indoor air quality",
+        "Professional sealing guarantee"
+      ]
+    },
+    {
+      "title": "Metal & Architectural Cladding",
+      "desc": "Modern cladding for weatherproofing and aesthetics.",
+      "longDesc": "High-quality metal and composite cladding systems for new builds and renovations. Fire-rated, durable, and designed to withstand Melbourne's coastal weather and bushfire zones.",
+      "points": [
+        "Fire-resistant options",
+        "Custom colour matching",
+        "Thermal insulation included"
+      ]
+    },
+    {
+      "title": "Plumbing & Drainage",
+      "desc": "Hydraulic services, storm water, gas fitting, and drainage.",
+      "longDesc": "Licensed plumbers handle everything from hot water systems to commercial drainage. We coordinate with our roofing team for seamless roof-to-ground water management.",
+      "points": [
+        "Emergency call-outs available",
+        "Backflow prevention installed",
+        "Gas compliance certified"
+      ]
+    },
+    {
+      "title": "Electrical & Data",
+      "desc": "Wiring, data cabling, solar, and air conditioning installation.",
+      "longDesc": "Our electricians are A-Grade licensed and experienced in residential and commercial projects. Solar panel installation and split-system air conditioning included — all with full compliance documentation.",
+      "points": [
+        "Safety switches and RCDs",
+        "Energy-efficient solutions",
+        "Same-day service in Melbourne"
+      ]
+    },
+    {
+      "title": "Solar & Air Conditioning",
+      "desc": "Renewable energy and climate control for your property.",
+      "longDesc": "Reduce your power bills with rooftop solar installations from leading brands. We also install and service reverse-cycle air conditioners, ducted systems, and evaporative cooling.",
+      "points": [
+        "Government rebates available",
+        "10-year panel warranty",
+        "Free energy assessment"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "Makeit replaced our old tile roof with Colorbond and did a fantastic job. The team was punctual, clean, and kept us updated every step of the way. Highly recommend their roofing service in Melbourne.",
+      "name": "Sarah F.",
+      "role": "Melbourne Homeowner"
+    },
+    {
+      "text": "We used Makeit for a full plumbing upgrade and new gutters. Their coordination between trades saved us time and money. The quality of work is outstanding.",
+      "name": "Mark T.",
+      "role": "Hampton Homeowner"
+    },
+    {
+      "text": "Professional from start to finish. Makeit handled our strata's roof remediation and cladding replacement with minimal disruption to residents. Communication was excellent.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Melbourne",
+    "Southbank",
+    "St Kilda",
+    "Prahran",
+    "Richmond",
+    "Carlton",
+    "Brunswick",
+    "Fitzroy"
+  ],
+  "about": {
+    "intro": "Makeit is a Melbourne-based roofing and construction project management team that has been delivering quality work since 2014.",
+    "story": [
+      "Makeit started with a simple idea: bring transparency and accountability back to the trades. Founded by specialists with decades of combined experience, we built a team of in-house roofers, plumbers, electricians, and cladding experts who work together under one roof. No subcontractors, no finger-pointing — just coordinated project delivery.",
+      "Today we serve homeowners, builders, and strata corporations across Melbourne's metro and bayside suburbs. Our systems include drone inspections, thermal imaging, digital client portals, and strict quality control checkpoints. We believe in clear communication, fixed quotes, and doing the job right the first time."
+    ],
+    "mission": "To provide Melbourne with honest, high-quality roofing and trade services — no surprises, no shortcuts, just solid workmanship.",
+    "whyUs": [
+      {
+        "title": "In-House Team",
+        "text": "We employ our own roofers, plumbers, sparkies, and cladders so you get one team, one standard, one warranty."
+      },
+      {
+        "title": "Transparent Pricing",
+        "text": "Line-by-line proposals with no hidden fees. What we quote is what you pay — guaranteed."
+      },
+      {
+        "title": "Quality Systems",
+        "text": "Digital tracking, inspections, and compliance checks at every stage keep your project on time and on spec."
+      },
+      {
+        "title": "Local Knowledge",
+        "text": "We know Melbourne's weather, council rules, and building codes inside out — no learning on your job."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (VIC)",
+      "Licensed Plumber & Electrician",
+      "Master Builders Association member",
+      "Public liability insurance to $20 million"
+    ]
+  },
+  "pricing": {
+    "intro": "Straight-up pricing for Melbourne homeowners and builders. No lock-in contracts, no hidden fees — just a clear quote you can trust.",
+    "packages": [
+      {
+        "name": "Initial Roof Inspection",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Drone roof assessment",
+          "Written report & quote"
+        ]
+      },
+      {
+        "name": "Standard Roof Replacement",
+        "price": "from $9,500",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full strip and replace",
+          "Colorbond or tile roofing",
+          "Gutter upgrade included",
+          "5-year workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Multi-Trade Package",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Roofing + plumbing + electrical",
+          "Design & build coordination",
+          "Complete project management",
+          "Fixed-price contract"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — no surprises, no extras, just the work you asked for."
+  },
+  "contact": {
+    "intro": "Ready to get your project started? Call us or fill in the form for a free, no-obligation inspection and quote."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Makeit | Melbourne Roofing & Construction Experts",
+      "description": "Makeit is Melbourne's trusted roofing and construction team. Free inspections, fixed quotes, and expert roof repairs, replacements, plumbing, and electrical services. Call 03 9112 5850."
+    },
+    "about": {
+      "title": "About Makeit — Melbourne's Roofing & Trade Specialists",
+      "description": "Learn about Makeit's 10+ year history serving Melbourne. In-house roofers, plumbers, and electricians with transparent systems and a commitment to quality."
+    },
+    "services": {
+      "title": "Roofing Services in Melbourne | Makeit Construction",
+      "description": "Explore Makeit's full range of roofing, guttering, cladding, plumbing, and electrical services across Melbourne. Free quotes and fixed-price guarantees."
+    },
+    "pricing": {
+      "title": "Roof Replacement Cost Melbourne | Makeit Pricing",
+      "description": "Transparent pricing for roof replacements, repairs, and multi-trade projects in Melbourne. Free inspections and no-obligation quotes from Makeit."
+    },
+    "contact": {
+      "title": "Contact Makeit | Free Roof Inspection & Quote Melbourne",
+      "description": "Get in touch with Makeit for a free roof inspection or project consultation. Call 03 9112 5850 or fill in our online form. We serve all Melbourne suburbs."
+    },
+    "blog": {
+      "title": "Melbourne Roofing & Building Blog | Makeit",
+      "description": "Expert advice on roof replacements, costs, materials, and maintenance for Melbourne homes and businesses. Read the Makeit blog for local tips and guides."
+    }
+  },
+  "blogHeading": "Latest Roofing News",
+  "blogSubheading": "Tips, costs & local guides for Melbourne",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Roof Replacement Cost in Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Discover the true cost of replacing a roof in Melbourne — from tile to Colorbond, plus factors like roof size, pitch, and council permits.",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+      "body": [
+        "Roof replacement is one of the biggest investments a Melbourne homeowner will make. In 2026, the average cost for a standard single-storey home sits between $9,000 and $18,000, depending on materials, roof size, and accessibility. Tile roofs tend to be on the lower end, while Colorbond steel roofs can push higher due to material costs and installation time. But these are just starting points — your specific Melbourne suburb can also affect pricing.",
+        "For instance, homes in coastal suburbs like St Kilda or Brighton may need extra corrosion-resistant materials, adding $1,500–$3,000 to the bill. Properties in bushfire-prone zones around the Dandenongs require BAL-rated roofing, which further increases costs. And if your roof has a steep pitch (over 30 degrees), expect a 20–30% premium for safety equipment and slower work. Always get a site-specific quote rather than relying on online averages.",
+        "Material choice is the biggest cost driver. Concrete tiles are affordable ($50–$70 per square metre installed) but heavy — your home's structure may need reinforcement. Terracotta tiles look stunning but are fragile and cost $90–$120 per square metre. Colorbond steel sits around $80–$110 per square metre but offers superior longevity (40+ years) and energy efficiency with its reflective coating. For Melbourne's variable climate, metal roofing is increasingly popular.",
+        "Don't forget hidden costs: removal and disposal of old roofing ($2–$4 per square metre), gutter replacement if needed ($25–$40 per linear metre), and council permits ($200–$800 depending on your municipality). In Melbourne, most councils require a building permit for full roof replacements, especially if you're altering the structure or materials. Makeit handles all permit applications as part of our service — no extra stress for you.",
+        "Labour costs in Melbourne range from $60–$100 per hour per roofer, and a typical replacement takes 3–6 days for a team of 3–4. During winter, rain delays can extend the timeline, so factor in some buffer. We recommend scheduling roof work between October and April when Melbourne's weather is most cooperative. That said, skilled roofers work year-round using weather covers and safety protocols.",
+        "Finally, always ask for a fixed-price written quote. At Makeit, we include everything in our proposal — materials, labour, disposal, permits, and GST. No surprises, no extras. We also offer a 5-year workmanship guarantee on all roof replacements. So when you're comparing quotes, look beyond the bottom line and check what's included. A cheap quote might leave out critical steps like sarking insulation or flashing replacement.",
+        "To get an accurate cost for your specific Melbourne roof, book a free inspection with Makeit. We'll visit your property, take drone photos, assess the structure, and provide a detailed line-item quote within 48 hours. No obligation, just honest advice. Call 03 9112 5850 or use our online form to start the process.",
+        "Remember: your roof is your home's first line of defence against Melbourne's rain, hail, and heat. Investing in quality materials and professional installation saves you thousands in future repairs. Don't settle for the cheapest option — invest in a roof that'll last decades."
+      ]
+    },
+    {
+      "title": "Signs Your Melbourne Home Needs a New Roof",
+      "date": "February 2026",
+      "excerpt": "Learn the telltale signs of roof failure — from water stains to sagging valleys — and when to call a Melbourne roofer for a professional inspection.",
+      "image": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+      "body": [
+        "Melbourne's weather is famously unpredictable — four seasons in one day. That constant cycle of heat, rain, and wind takes a toll on your roof. Many homeowners don't notice the early warning signs until a leak damages ceilings, insulation, or electrical systems. Knowing what to look for can save you thousands in emergency repairs. Here are the key signs your Melbourne home may need a new roof.",
+        "Water stains on your ceiling or walls are the most obvious red flag. But even small brown patches can indicate a slow leak that's already rotting timber roof battens. Check your roof cavity (attic) for damp insulation, mould growth, or light coming through gaps. If you see daylight, your roof has failed. In Melbourne's older suburbs like Fitzroy or Carlton, many terraced homes still have original terracotta tiles that can crack after decades of thermal expansion.",
+        "Curling, cracked, or missing tiles are another clear sign. Concrete tiles can become porous over time, absorbing moisture and causing them to crumble. If you find pieces of tile in your gutters or on the ground, your roof is deteriorating. For metal roofs, look for rust spots, loose screws, or lifted sheets. Strong winds in Melbourne can peel back poorly fastened metal roofing, especially after a storm front rolls through from the bay.",
+        "Sagging roof lines indicate serious structural issues — possibly rotten trusses or beams due to prolonged water ingress. This is an emergency. Do not walk on a sagging roof; call a professional immediately. Similarly, if you see algae or moss growing on your roof, it's not just cosmetic. Moss holds moisture against the roof surface, accelerating decay. In Melbourne's shaded inner-north suburbs, this is especially common on south-facing roof slopes.",
+        "Your gutters can also tell a story. If you find granular sediment from asphalt shingles (uncommon in Australia but found on some modern homes) or excessive dirt and debris, your roof may be breaking down. Gutters pulling away from the fascia can indicate roof movement or rot. And if your energy bills have spiked, it could mean your roof's insulation or ventilation has failed, forcing your heating or cooling system to work harder.",
+        "Age is a reliable indicator. Concrete tile roofs typically last 25–30 years, terracotta 30–50, and Colorbond steel 40+ if properly maintained. If your roof is approaching or past these lifespans, a proactive replacement is cheaper than reactive repairs. In Melbourne, many homes built during the 1990s boom are now due for their first roof replacement. Don't wait for a leak — schedule an inspection today.",
+        "Makeit offers free, no-obligation roof inspections across Melbourne. We use drones to check hard-to-reach areas and provide a digital report with photos and recommendations. If your roof does need replacing, we'll give you a fixed-price quote with no hidden costs. And if it just needs repairs, we'll be honest about that too. Our goal is to help you make an informed decision.",
+        "Don't ignore the signs. A small leak today can become a major structural issue tomorrow. Call Makeit on 03 9112 5850 or book online to get your roof checked by Melbourne's trusted roofing team."
+      ]
+    },
+    {
+      "title": "The Best Roofing Materials for Melbourne's Climate",
+      "date": "January 2026",
+      "excerpt": "Compare Colorbond steel, concrete tiles, terracotta, and slate for Melbourne weather. Find out which material suits your home, budget, and location.",
+      "image": "https://static.wixstatic.com/media/66a2ce_462589cb05414f4d9da9bfc74a6ccb14%7Emv2.png",
+      "body": [
+        "Choosing the right roofing material for your Melbourne home is a decision that affects your comfort, energy bills, and resale value for decades. Melbourne's climate is temperate but notoriously variable — hot summers, cool winters, hail, and strong northerly winds. The best materials balance durability, thermal performance, and aesthetics. Let's break down the top options available in 2026.",
+        "Colorbond steel remains the most popular choice for new homes and replacements in Melbourne. Its baked-on paint system resists fading, chipping, and corrosion — ideal for coastal suburbs like Brighton and Elwood. Colorbond also comes with a thermal break option (insulated panels) that reduces heat transfer, cutting cooling costs by up to 30% in summer. It's lightweight, fire-resistant (BAL ratings available), and recyclable. Expect 40+ years of life with minimal maintenance.",
+        "Concrete tiles are a budget-friendly classic. They're heavy (about 50 kg per square metre), which provides good thermal mass but requires strong roof framing. Concrete tiles are excellent at insulating against noise — great if you live near a main road or flight path. However, they can absorb moisture and develop moss in shaded areas. In Melbourne's inner-city terraces, concrete tiles are common but often need replacement after 25–30 years when they begin to crumble.",
+        "Terracotta tiles offer timeless beauty and natural thermal properties. They're fired clay, so they don't rot or rust, and their colour is integral — no paint to fade. Terracotta holds up well to Melbourne's UV radiation but can crack under hail or if walked on incorrectly. Installation costs are higher due to their fragility and weight. They suit period homes in suburbs like Hawthorn, Kew, and Armadale where heritage overlays may require preservation of original materials.",
+        "Slate is the premium option — natural stone with a lifespan of over 100 years. It's fireproof, waterproof, and incredibly durable. However, slate is very heavy (requiring reinforced roof structure), expensive ($200+ per square metre installed), and needs specialist installers. It's mainly used on high-end homes in Toorak and Brighton. For most Melbourne homeowners, the cost-to-benefit ratio doesn't stack up unless you're building a heritage-style mansion.",
+        "There are also newer options like standing seam metal roofing, which offers a sleek, modern look with hidden fasteners — popular in contemporary builds in South Yarra and Port Melbourne. And synthetic slate or shake products made from recycled polymers are gaining traction for their light weight, low cost, and realistic appearance. They're a good choice if you want the slate look without the structural load or price tag.",
+        "Whichever material you choose, proper installation is critical. Melbourne's building codes require specific underlayment, flashing, and ventilation details to handle our climate. At Makeit, we install only to current Australian standards (AS 1562, AS 2047) and provide a 5-year guarantee on workmanship. We can advise on which material suits your suburb's specific microclimate — for example, darker roofs in cooler areas like the Dandenongs vs lighter reflective roofs in hotter areas like Werribee.",
+        "Still unsure? Book a free consultation with Makeit. We'll assess your home's structure, orientation, and local weather patterns to recommend the best roofing material for your budget and lifestyle. Call 03 9112 5850 or visit our contact page to get started."
+      ]
+    },
+    {
+      "title": "How to Choose a Roofer in Melbourne: A Complete Guide",
+      "date": "December 2025",
+      "excerpt": "Avoid cowboy builders with this step-by-step guide to choosing a licensed, insured roofer in Melbourne. Questions to ask and red flags to watch for.",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+      "body": [
+        "Finding a reliable roofer in Melbourne can feel like a minefield. With hundreds of operators advertising online, how do you separate the professionals from the cowboys? Your roof is too important to trust to just anyone. This guide walks you through exactly what to look for, what questions to ask, and how to avoid common pitfalls when hiring a roofing contractor in Melbourne.",
+        "Step one: verify licensing and insurance. In Victoria, any roofing work over $10,000 (or any project requiring a building permit) must be carried out by a registered building practitioner with the Victorian Building Authority (VBA). You can check a practitioner's licence status online. Also ask for proof of public liability insurance — at least $10–20 million coverage. Makeit carries $20 million public liability and is registered with the VBA. Never hire a roofer who can't provide these documents.",
+        "Step two: get multiple written quotes. A minimum of three quotes is standard. Be wary of quotes that are significantly lower than others — they may use substandard materials, skip safety measures, or add hidden charges later. A reputable roofer like Makeit provides a detailed, fixed-price contract that lists materials, timelines, disposal fees, and warranties. Watch for vague terms like 'subject to inspection' without a cap on extras.",
+        "Step three: ask about the team. Will the same crew work start to finish, or will the job be subcontracted? Subcontracting can lead to quality control issues. At Makeit, all our roofers are direct employees — we train them, supervise them, and back their work. Ask how long the lead roofer has been with the company. Experienced teams work faster and make fewer mistakes, especially on tricky roofs in Melbourne's older suburbs.",
+        "Step four: check references and online reviews. Look beyond the star rating. Read recent reviews on Google, Oneflare, or Hipages — especially negative ones. How did the company respond? Did they resolve issues? Also ask for local references in your suburb. A roofer who has done several jobs in your area will know the local council requirements, typical roof structures, and prevalent issues like possum infestations or rising damp.",
+        "Step five: understand the warranty. A roofer's workmanship warranty should be at least 5 years, and material warranties vary by product (Colorbond offers 25 years, tile manufacturers 15–20). Make sure the warranty is in writing and covers both materials and labour. Beware of roofers who offer 'lifetime warranties' from fly-by-night companies — they may not exist if you need to claim. Always keep a copy of your contract and warranty certificate.",
+        "Step six: communication matters. From your first call, notice how the company communicates. Do they return calls promptly? Do they explain the process clearly? Good roofers schedule a site visit before quoting, use photos or drones to document the existing roof, and provide a written scope of work. At Makeit, we pride ourselves on clear, honest communication — you'll get a dedicated project manager and regular progress updates via your online portal.",
+        "Finally, trust your gut. If a roofer pressures you to sign immediately, demands cash payment, or insists on a large deposit upfront, walk away. Reputable companies like Makeit ask for a modest deposit (typically 10–20%) with the balance due on completion. We're proud of our 4.9-star Google rating and the hundreds of Melbourne homeowners who have trusted us with their roofs. Ready to start? Call us today for a free quote."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+  "photoRowImages": [
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_462589cb05414f4d9da9bfc74a6ccb14%7Emv2.png",
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg"
+  ],
+  "aboutImages": [
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_462589cb05414f4d9da9bfc74a6ccb14%7Emv2.png"
+  ],
+  "fullWidthImage": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+  "bannerHeading": "Ready to start your roof project?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+  "testimonialsImage": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+  "galleryImages": [
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_462589cb05414f4d9da9bfc74a6ccb14%7Emv2.png",
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+  ],
+  "pricingBgImage": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+}
