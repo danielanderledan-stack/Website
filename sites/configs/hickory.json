@@ -1,0 +1,346 @@
+{
+  "siteType": "builder",
+  "businessName": "Hickory",
+  "suburb": "Southbank",
+  "phone": "+61 3 9429 7411",
+  "email": "hello@hickory.com.au",
+  "address": "L5/68 Clarke St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.828972,
+    "longitude": 144.9598907
+  },
+  "tagline": "Southbank's go-to builder",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builder",
+      "sub": "Commercial & residential projects",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_C1G7tlMazyPzBoAQ9uQzuk5YMiE6XKgSTkl0Zed58sZNZE948RBkDEE3qvbMOFlQjUsiVKrSs07-x3pGWU2qLxfvzcrpB20e2toXltyd7SSKQlR0x6LUpjLBs1s_XOSNJKu3=w1600-h1200-k-no"
+    },
+    {
+      "title": "Built Around Your Needs",
+      "sub": "Fixed quotes, no surprises",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKG7bilL0SgHuUBRPROSD7--UAwLCl8MbPF3b6KBFGV4q9rqpehl5xI361ZbVgKxuUJsOMYQyjkyx8pZrE4L9XvnNZC7K3hNTRKuPdC761RCQubsK7pflxluWNAlk5ocr6Bbsi=w1600-h1200-k-no"
+    },
+    {
+      "title": "30+ Years Building Melbourne",
+      "sub": "Local & licensed",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-SdrPpr9k3ttd3IyYH79adWrcDehgYig4PQvQID7M3Fs1GyKyG8pbRnrF-kIl-EV91acQG9MxHSkq1h8ujXJG3GzFFcTrY2tWpK2t9aIbtyJZbKMNmhY-gNMThkQZ64FGvu0=w1600-h1200-k-no"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted Southbank builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "Hickory has been a cornerstone of Southbank's construction scene for over 30 years. We specialise in commercial, residential, and data centre projects across Melbourne. Our team of 1000+ pros brings real know-how to every job, from high-rises to custom homes.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "We cover the full build — from design and approvals to handover. Our services include new builds, renovations, facades, structures, and data centres. We work across Southbank and the greater Melbourne area.",
+  "services": [
+    {
+      "title": "New Home Builds",
+      "desc": "Full design and construction for custom homes in Southbank.",
+      "longDesc": "From slab to roof, we handle every stage of your new home build. Our fixed-price contracts mean no surprises, and we work with local councils to get it done right.",
+      "points": [
+        "Fixed-price contract",
+        "Council approvals",
+        "Turnkey handover"
+      ]
+    },
+    {
+      "title": "Renovations & Extensions",
+      "desc": "Transform your existing space with a seamless renovation.",
+      "longDesc": "Whether it's a kitchen reno or a full extension, we bring over 30 years of experience to your Southbank project. We keep the mess minimal and the timeline tight.",
+      "points": [
+        "Open-plan living",
+        "Kitchens & bathrooms",
+        "No surprises"
+      ]
+    },
+    {
+      "title": "Commercial Construction",
+      "desc": "Office, retail, and mixed-use builds done on time.",
+      "longDesc": "We've built some of Melbourne's biggest commercial spaces. From fit-outs to ground-up builds, we stick to budget and deliver a quality finish every time.",
+      "points": [
+        "On-time delivery",
+        "Budget control",
+        "Safety first"
+      ]
+    },
+    {
+      "title": "Facades & Structures",
+      "desc": "Specialist facade and structural work for any build.",
+      "longDesc": "Our team handles complex facades and structural elements. We use the latest tech to make sure your building is solid, safe, and looks the part.",
+      "points": [
+        "Engineered solutions",
+        "Durable materials",
+        "A-grade finish"
+      ]
+    },
+    {
+      "title": "Data Centres",
+      "desc": "High-spec data centre construction for the digital age.",
+      "longDesc": "We build modern data centres that meet strict international standards. Our team knows the ins and outs of cooling, power, and security for critical infrastructure.",
+      "points": [
+        "Security focused",
+        "Scalable design",
+        "24/7 support"
+      ]
+    },
+    {
+      "title": "Manufacturing & Prefab",
+      "desc": "Off-site manufacturing for faster, cleaner builds.",
+      "longDesc": "We use prefab methods to cut build time and waste. Our Southbank factory turns out precision components that slot right into place on site.",
+      "points": [
+        "Less waste",
+        "Faster builds",
+        "Precision quality"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "Hickory built our new office in Southbank and it came in on time and on budget. Couldn't ask for more from a builder. Their team was professional and kept us in the loop the whole way.",
+      "name": "Sarah F.",
+      "role": "Southbank Business Owner"
+    },
+    {
+      "text": "We used Hickory for a big renovation on our home in Southbank. The fixed-price contract meant no nasty surprises. The tradies were clean and respectful. Highly recommend.",
+      "name": "Mark T.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "Hickory managed our data centre fit-out in Melbourne. The project was complex but they nailed it. Safety and security were top priorities. I'd use them again without hesitation.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "Richmond",
+    "St Kilda",
+    "Port Melbourne",
+    "South Yarra"
+  ],
+  "about": {
+    "intro": "Hickory is a Southbank-based construction company with over 30 years of experience in commercial, residential, and data centre projects.",
+    "story": [
+      "Hickory was founded in 1991 with a simple idea: build things better. Over the years, we've grown from a small team to over 1000 strong, working on some of Melbourne's biggest projects. We're based in Southbank and we know the local market inside out.",
+      "Our approach is hands-on. We don't just manage projects — we build them. From the initial planning to the final handover, our team is on site making sure every detail is right. We've completed over 150 projects and we keep pushing to do better."
+    ],
+    "mission": "To build better places for future communities, right here in Southbank.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We've worked in Southbank for over 30 years. We know the council, the tradies, and the lay of the land."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "We quote you a price and stick to it. No surprises, no blowouts. That's how we work."
+      },
+      {
+        "title": "On Time",
+        "text": "We plan every project to the day. Our schedule is tight but we deliver on time, every time."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We use the best materials and the best people. Every build is backed by our workmanship guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "150+",
+        "label": "Projects Complete"
+      },
+      {
+        "value": "1000+",
+        "label": "Team Members"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "ISO 9001 certified"
+    ]
+  },
+  "pricing": {
+    "intro": "We give you a real, fixed price up front — no hidden fees, no surprises. Whether it's a small reno or a big commercial build, we'll sit down with you and go through the numbers.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Standard Renovation",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom New Build",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All our quotes are fixed upfront — no hidden fees, no surprises."
+  },
+  "contact": {
+    "intro": "Ready to get started on your Southbank project? Give us a call or send a message. We'll get back to you within a day for a free, no-obligation chat."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Hickory | Builder in Southbank | Commercial & Residential",
+      "description": "Hickory is Southbank's trusted builder with 30+ years in commercial and residential projects. Fixed-price contracts, local know-how. Get a free quote today."
+    },
+    "about": {
+      "title": "About Hickory — Southbank's Family Builder Since 1991",
+      "description": "Learn about Hickory, a Southbank-based construction company with over 30 years of experience. We build better places for future communities."
+    },
+    "services": {
+      "title": "Building Services in Southbank | Hickory",
+      "description": "Hickory offers a full range of building services in Southbank: new homes, renovations, commercial builds, facades, data centres. Get a fixed-price quote."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Hickory",
+      "description": "Get a clear, fixed-price quote from Hickory. No hidden fees, no surprises. We work with you to make your project affordable and stress-free."
+    },
+    "contact": {
+      "title": "Contact Hickory | Free Consultation Southbank",
+      "description": "Reach out to Hickory for a free, no-obligation consultation. We're based in Southbank and ready to help with your next build."
+    },
+    "blog": {
+      "title": "Southbank Building & Renovation Blog | Hickory",
+      "description": "Read the latest building tips, costs, and local guides from Hickory. Stay informed on everything from new homes to renovations in Southbank."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Commercial Build Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Find out what a commercial build in Southbank costs in 2026. Get real pricing factors, local tips, and how to budget for your project.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiF8O9wGNfheYnwR6cGXp7Muz76WL98yQE1S4mesDIkPcq6JyGTIz26UJFx8tkRidqPY5_Ip1wZA4hpIgaV6aA9tf65pxXSVgxDl3lhk9gzBCNNrKJO1_Yjzzk-x1Nj0W7_oBY=w1600-h1200-k-no",
+      "body": [
+        "Thinking about a commercial build in Southbank in 2026? You're not alone. Lots of businesses are looking to set up shop in this part of Melbourne. The cost can vary a lot depending on what you need — a simple fit-out might cost $50k while a ground-up build can run into the millions. We'll break it down.",
+        "First thing to know: location matters. Southbank is close to the CBD and that means higher land costs and stricter council rules. You'll need to budget for permits and approvals. A good builder will handle all that for you, but it's worth knowing upfront. Expect to pay a premium for sites near public transport.",
+        "The type of build also changes the price. A retail fit-out is different to an office. If you need a full commercial build from scratch, you're looking at $2000-$3000 per square metre. That includes everything: slab, structure, services, and finishes. If you're doing a fit-out only, it can be $800-$1200 per square metre.",
+        "Labour is a big chunk of the cost. In Melbourne, good builders don't come cheap. You're paying for experience and reliability. A fixed-price contract is the way to go — it protects you from cost blowouts. Make sure your contract includes a reasonable escalation clause for materials if the market shifts.",
+        "Materials themselves have gone up in price. Steel, concrete, and timber are all more expensive than they were five years ago. But a good builder will source smartly and avoid waste. That's where experience counts. We've been building in Southbank for over 30 years and we know where to get the best prices.",
+        "Timing is another factor. If you need the build done fast, you'll pay more for a rush. Most commercial builds take 6-12 months from start to finish. Add another 3-6 months for planning and approvals. Build that into your timeline so you're not caught out.",
+        "Finally, don't forget the hidden costs. Demolition, site preparation, utilities connections, and insurance all add up. A good builder will give you a detailed breakdown so there are no surprises. At Hickory, we give you a fixed price up front and stick to it.",
+        "If you're planning a commercial build in Southbank, the best thing you can do is talk to a local builder early. Get a few quotes, ask around, and go with someone who's done it before. We've been at it for 30+ years and we're always happy to have a chat."
+      ]
+    },
+    {
+      "title": "Best Time to Build in Melbourne: A Guide for 2026",
+      "date": "February 2026",
+      "excerpt": "Learn the best time of year to start your build in Melbourne. Avoid weather delays and get the best prices with our local tips.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiF8O9wGNfheYnwR6cGXp7Muz76WL98yQE1S4mesDIkPcq6JyGTIz26UJFx8tkRidqPY5_Ip1wZA4hpIgaV6aA9tf65pxXSVgxDl3lhk9gzBCNNrKJO1_Yjzzk-x1Nj0W7_oBY=w1600-h1200-k-no",
+      "body": [
+        "If you're planning a build in Melbourne, timing is everything. We get four seasons in one day and the weather can mess with your schedule. The best time to start is usually late spring (October to December). The weather's settled, the ground's dry, and you've got the whole summer ahead to get the structure up.",
+        "Starting in winter can be tricky. Rain and cold mean concrete takes longer to cure and work gets delayed. But if you plan for it, you can still build. Good builders use weather covers and schedule around the rain. The upside is that tradies are often less busy in winter, so you might get a better price.",
+        "Summer is the busiest time for builders in Melbourne. Everyone wants to get their job done before Christmas. That means you'll be competing for labour and materials. Book early if you want a summer start — like, September early. We usually have our schedule full by then.",
+        "Autumn is a sweet spot. March to May is usually mild and not too wet. It's a good time for extensions and renovations. The days are shorter but that's fine for most jobs. If you're doing a big build, aim for a spring start so the heavy work is done before the wet weather hits.",
+        "Material prices also shift with the seasons. Steel and concrete are usually stable, but timber can go up in winter when demand dips. Think about locking in your materials early. We usually order timber and steel 3-4 months ahead to avoid price hikes.",
+        "If you're renovating, think about when you can live without your kitchen or bathroom. Summer is best for those jobs because you can cook outside. Winter reno? That's doable but make sure you've got a plan for meals and showers. We always tell clients to have a backup plan.",
+        "Council approvals are another season factor. Most councils in Melbourne take 3-4 months for permits. If you apply in spring, you might get approval by summer. Apply in winter and you're waiting until spring. Factor that into your timeline so you're not sitting around.",
+        "Bottom line: talk to a local builder about when to start. We know the Melbourne weather and we can plan around it. A good start date can save you weeks and thousands. We're in Southbank and happy to have a look at your site and give you a realistic timeline."
+      ]
+    },
+    {
+      "title": "How to Save Money on Your Southbank Renovation",
+      "date": "January 2026",
+      "excerpt": "Smart tips for keeping your Southbank renovation on budget. From choosing the right finishes to planning ahead, here's what works.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiF8O9wGNfheYnwR6cGXp7Muz76WL98yQE1S4mesDIkPcq6JyGTIz26UJFx8tkRidqPY5_Ip1wZA4hpIgaV6aA9tf65pxXSVgxDl3lhk9gzBCNNrKJO1_Yjzzk-x1Nj0W7_oBY=w1600-h1200-k-no",
+      "body": [
+        "Renovating in Southbank can be expensive, but it doesn't have to be. The key is planning. Know what you want before you start and stick to it. Changes on the fly cost money. A fixed-price contract is your best friend — it locks in the cost and stops the budget from creeping.",
+        "Start with a clear scope. Write down everything you want to do: new kitchen, knock down a wall, rewiring, new floors. The more detail, the better. Then get a builder to quote on that exact scope. If you change your mind later, it'll cost extra. That's just how it works.",
+        "Materials are a big place to save. You don't need marble benchtops if quartz does the job. You don't need engineered timber if good laminate looks just as good. A good builder will suggest mid-range options that look premium but don't cost a bomb. We do that all the time for our clients.",
+        "Labour is the other big cost. In Southbank, good tradies charge $60-$100 an hour. That adds up fast. The best way to save is to group work together. If you're already doing a kitchen reno, do the bathroom at the same time. The same tradies are on site and you save on setup costs.",
+        "Timing matters too. Renovating in the off-season (winter) can get you better rates. Tradies are less busy and might give you a deal. Just be ready for a bit of weather delay. We always schedule a few buffer days into the project to account for the wet.",
+        "The biggest money saver is going local. Use a Southbank builder who knows the area. They'll know which suppliers are good and which are overpriced. They'll know the council rules and save you on permits. A local builder can save you thousands just by knowing the lay of the land.",
+        "And don't forget the little things. Keep your existing layout if you can — moving walls costs. Keep your existing plumbing if it works — new pipes cost. Keep your existing windows if they're in good shape — new ones cost a heap. Small decisions add up.",
+        "If you want a real idea of what your Southbank renovation will cost, get a few quotes. We do free, no-obligation site visits. We'll walk through with you and give you a fixed price. No hard feelings if you go with someone else. But we reckon you'll like what we have to say."
+      ]
+    },
+    {
+      "title": "Understanding Building Codes in Victoria for 2026",
+      "date": "December 2025",
+      "excerpt": "A plain-English guide to Victoria's building codes. What you need to know for your Southbank build in 2026.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiF8O9wGNfheYnwR6cGXp7Muz76WL98yQE1S4mesDIkPcq6JyGTIz26UJFx8tkRidqPY5_Ip1wZA4hpIgaV6aA9tf65pxXSVgxDl3lhk9gzBCNNrKJO1_Yjzzk-x1Nj0W7_oBY=w1600-h1200-k-no",
+      "body": [
+        "Building codes in Victoria are changing all the time. If you're planning a build in Southbank in 2026, you need to know the rules. The National Construction Code (NCC) sets the standard, and Victoria adds its own twists. It covers everything from structural safety to energy efficiency.",
+        "The big one is energy efficiency. New homes need a 6-star rating (minimum) under the NatHERS scheme. That means good insulation, double glazing, and sealing. It's not optional — it's the law. A good builder will make sure your design hits that target without blowing the budget.",
+        "Fire safety is another big one, especially in high-rises. Buildings over 25m need sprinkler systems, fire alarms, and fire-rated materials. Every new building in Southbank gets checked. You don't want to be the one that doesn't pass. We've done hundreds of high-rise builds, so we know the drill.",
+        "Accessibility rules are getting tighter. All new builds need to be accessible — that means wider doorways, no steps at entrances, and accessible bathrooms. It's not just for people in wheelchairs; it makes your home easier to live in as you get older. Smart design helps.",
+        "Materials also need to meet the code. For example, cladding must be fire-safe. After the Grenfell fire, the rules got tough. No more combustible cladding on high-rises. We use only approved materials and we test everything. It's not worth the risk.",
+        "Structural rules are strict too. Your foundation, framing, and roof all need to meet minimum standards. The good news: a good builder's work will already exceed the code. We build to a higher standard because it's cheaper in the long run. No callbacks, no repairs.",
+        "If you're renovating, the rules apply too. Any change that affects the structure, the fire safety, or the energy rating needs a permit. Don't try to skip it — you'll get caught when you sell. We always get the right permits and do the job to code.",
+        "Best way to stay on top of the codes? Use a local builder who knows them. We're in Southbank and we deal with the council every day. We can tell you what's needed and what's not. We keep your build legal and safe, and that's peace of mind.",
+        "If you're starting a project in 2026, talk to us early. We'll walk you through the codes, the costs, and the timeline. No pressure, just good advice. We've been building in Southbank for over 30 years and we're happy to share what we know."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENelBrwpa04IL0Xf00aXejS_COzMQOR1sGRvZ2iE7p3z11an0SIthJfHnuQYSjSpKPGY-nnK4KKh3GQUuWg3jFJGsASphX-DhnlJ8eyeBDYUHBgdI7TM6KTAtK_j0ZbGMooGVR=w1600-h1200-k-no",
+  "photoRowImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAGqbT2UhuD60Eu0zgamlpWSnIjVTqB7yfIT_skGO8sm2hwV535eCMCT-DgdcjGge-XsO7UAGB5tGWeRUdX4vuvRRIsy6eUfbwg2gnkN8g6poQdAIlYcqc4j_xwhiYOMeeConZ=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKpVkZndR6NTgxFE1klcLBGsMy4dRRgpQfhJCVnVccEaxRmm8YlA-Vx14NfUgHrbOVpnNjAkzAEowUAnLsyOHYVOIpHMpFQH4NNAuCuuVYZjUfQpTAsyLEyqEUzqmQXoHxXkn3=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpGdOa9R76hqAALTHwwwSAr4veE1s01i_i_7-ENt1KhqcMgmbBngNI4-WswVG6hdDYiFLMxESYABk2Rbw0mwDQMH1JuHFooRlcB_hoKbRjTtdEGU2fUQX53bxPXZ0KmTC6Qu__-A=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOaNDRx_cn3eb40nv1zJxOSF-SeQC3pEXuce70KFoBeg4ygg5azKvlAOlKITl-K-RnlhdZwWAbnUwZKl_NGBFLaAT5wY_l710S1UYgQro-aDbsTz3UINJ4FH5Gn8e77xGgV62iiw=w1600-h1200-k-no"
+  ],
+  "aboutImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0P2W2raNXmM5U2PgKCy1OKGX7gFB6LN3idp5UFIqDZdBP1C_uMhCRV5d5TF3Ak79Vh_by564qs1D_L43obsiA3sv4Ns38fBH9Bx58YB2hpHqrxnKT19zwPTmg0okT5eLikyYw0Q=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4fNxNjZDqxxuVFWN-UBVNm8BWEnULQJlVLfoDqT5TgmAaPPmGHBsdazp2WJhZoGNcuJVN2J5_1LyDygDjXEIUhIAy3v4jGSiehWpR9c-zZiZFxaJzo2FQMIAQLcZD2uBB42ECTg=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSzzBLVEiSPj2DeUssACZC7XPbpeQhD3Rh0Ed2Kn3X3IN6liScBZcOi2A4Hk9QOi2q4AALswx9jn8FE1Q2Eu9DTV-kaxoC46PunELWTHHmCt6pn1fiVjgL3nuO4zsz5Fh7zIlfCw=w1600-h1200-k-no"
+  ],
+  "fullWidthImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHCnsXC34JJnQ2kncfJ3MtFKdhTXNBvZlbUb15NIm8qbo9SXkEhdgZWY_5SOKpKAm5caHPYJe3K9AFfVp2y2JA1pkx5S9l-7477D1PrW2uFuvwAHOaHvyMVtFpQ5ikrKuMvnYm=w1600-h1200-k-no",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_C1G7tlMazyPzBoAQ9uQzuk5YMiE6XKgSTkl0Zed58sZNZE948RBkDEE3qvbMOFlQjUsiVKrSs07-x3pGWU2qLxfvzcrpB20e2toXltyd7SSKQlR0x6LUpjLBs1s_XOSNJKu3=w1600-h1200-k-no",
+  "testimonialsImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKG7bilL0SgHuUBRPROSD7--UAwLCl8MbPF3b6KBFGV4q9rqpehl5xI361ZbVgKxuUJsOMYQyjkyx8pZrE4L9XvnNZC7K3hNTRKuPdC761RCQubsK7pflxluWNAlk5ocr6Bbsi=w1600-h1200-k-no",
+  "galleryImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-SdrPpr9k3ttd3IyYH79adWrcDehgYig4PQvQID7M3Fs1GyKyG8pbRnrF-kIl-EV91acQG9MxHSkq1h8ujXJG3GzFFcTrY2tWpK2t9aIbtyJZbKMNmhY-gNMThkQZ64FGvu0=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENelBrwpa04IL0Xf00aXejS_COzMQOR1sGRvZ2iE7p3z11an0SIthJfHnuQYSjSpKPGY-nnK4KKh3GQUuWg3jFJGsASphX-DhnlJ8eyeBDYUHBgdI7TM6KTAtK_j0ZbGMooGVR=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAGqbT2UhuD60Eu0zgamlpWSnIjVTqB7yfIT_skGO8sm2hwV535eCMCT-DgdcjGge-XsO7UAGB5tGWeRUdX4vuvRRIsy6eUfbwg2gnkN8g6poQdAIlYcqc4j_xwhiYOMeeConZ=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKpVkZndR6NTgxFE1klcLBGsMy4dRRgpQfhJCVnVccEaxRmm8YlA-Vx14NfUgHrbOVpnNjAkzAEowUAnLsyOHYVOIpHMpFQH4NNAuCuuVYZjUfQpTAsyLEyqEUzqmQXoHxXkn3=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpGdOa9R76hqAALTHwwwSAr4veE1s01i_i_7-ENt1KhqcMgmbBngNI4-WswVG6hdDYiFLMxESYABk2Rbw0mwDQMH1JuHFooRlcB_hoKbRjTtdEGU2fUQX53bxPXZ0KmTC6Qu__-A=w1600-h1200-k-no"
+  ],
+  "pricingBgImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOaNDRx_cn3eb40nv1zJxOSF-SeQC3pEXuce70KFoBeg4ygg5azKvlAOlKITl-K-RnlhdZwWAbnUwZKl_NGBFLaAT5wY_l710S1UYgQro-aDbsTz3UINJ4FH5Gn8e77xGgV62iiw=w1600-h1200-k-no"
+}
