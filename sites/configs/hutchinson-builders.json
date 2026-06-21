@@ -1,0 +1,338 @@
+{
+  "siteType": "builder",
+  "businessName": "Hutchinson Builders",
+  "suburb": "South Melbourne",
+  "phone": "+61 3 9282 9500",
+  "email": "hello@hutchinsonbuilders.com.au",
+  "address": "70-72 Cecil St, South Melbourne VIC 3205",
+  "coordinates": {
+    "latitude": -37.8302372,
+    "longitude": 144.95619349999998
+  },
+  "tagline": "South Melbourne's iconic builder",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Melbourne's Trusted Builder",
+      "sub": "100% Australian owned",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-thecurl-39-jpg.jpg?1760319309"
+    },
+    {
+      "title": "Building Since 1916",
+      "sub": "Over a century of know-how",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-i-gladstoneglobalgreenenergymanufacturingcentre-45-lowres-jpg.jpg?1697614018"
+    },
+    {
+      "title": "From Schools to Skyscrapers",
+      "sub": "Local team, national reach",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-r-thelangston-92-lowres-jpg.jpg?1697615792"
+    }
+  ],
+  "ctaHeading": [
+    "South Melbourne locals —",
+    "Hutchinson Builders",
+    "is ready for your next project."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "Hutchinson Builders has been the backbone of South Melbourne construction since 1916. Over 105 years, we've delivered everything from civic landmarks to high-rise towers. Our team knows local council rules, soil conditions, and tradies by first name. If you want a builder who treats your project like their own backyard, call us.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "We handle commercial, industrial, residential, and mixed-use builds across South Melbourne and Victoria. Every project gets fixed-price certainty, a dedicated site manager, and the craftsmanship that only comes from a century of hard yakka.",
+  "services": [
+    {
+      "title": "Commercial Construction",
+      "desc": "Office towers, retail centres, and data centres built for longevity.",
+      "longDesc": "From the ground up, Hutchinson Builders delivers Grade-A commercial spaces in South Melbourne and beyond. We manage all trades, approvals, and fit-out for a seamless handover.",
+      "points": [
+        "Fixed-price contracts",
+        "End-to-end delivery",
+        "Fast-track programs"
+      ]
+    },
+    {
+      "title": "Residential High Rise",
+      "desc": "Mid-rise and high-rise apartments with quality finishes.",
+      "longDesc": "Our residential team builds luxury apartments, build-to-rent towers, and retirement villages across Melbourne. Every level passes strict quality checks before handover.",
+      "points": [
+        "Premium finishes",
+        "On-time completion",
+        "Defects-free handover"
+      ]
+    },
+    {
+      "title": "Industrial & Warehousing",
+      "desc": "Distribution centres, factories, and warehouses of any scale.",
+      "longDesc": "We engineer and construct cold stores, logistics hubs, and manufacturing plants. Our industrial specialists optimise every square metre for productivity and safety.",
+      "points": [
+        "Large span capability",
+        "Safety-first culture",
+        "Green Star options"
+      ]
+    },
+    {
+      "title": "Education Facilities",
+      "desc": "Primary schools, secondary colleges, and university buildings.",
+      "longDesc": "Hutchinson Builders has delivered classrooms, libraries, and sports halls for schools across Victoria. We work around term schedules to minimise disruption to students.",
+      "points": [
+        "Community focused",
+        "Compliant & safe",
+        "Minimal site noise"
+      ]
+    },
+    {
+      "title": "Health & Aged Care",
+      "desc": "Clinics, hospitals, and aged-care villages with specialist fit-outs.",
+      "longDesc": "We understand the stringent requirements of healthcare builds. From medical imaging rooms to aged-care communal areas, every detail meets health department standards.",
+      "points": [
+        "24/7 project support",
+        "Infection control ready",
+        "Proven track record"
+      ]
+    },
+    {
+      "title": "Mixed Use Developments",
+      "desc": "Retail, hospitality, and residential under one roof.",
+      "longDesc": "Mixed-use is our sweet spot. Hutchinson Builders coordinates complex phasing so cafes, apartments, and offices open on time — and on budget.",
+      "points": [
+        "Integrated planning",
+        "Phased delivery",
+        "Minimal disruption"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across South Melbourne",
+  "reviews": [
+    {
+      "text": "Hutchinson Builders turned our South Melbourne office into a modern workspace. The team was on site every day, kept the mess to a minimum, and finished a week early.",
+      "name": "Emma R.",
+      "role": "South Melbourne Business Owner"
+    },
+    {
+      "text": "We used Hutchies for our new warehouse in Altona. The project came in under budget and the site manager flagged a foundation issue early that saved us thousands.",
+      "name": "David L.",
+      "role": "Logistics Director"
+    },
+    {
+      "text": "Our retirement village build was complex with three phases. Hutchies coordinated everything flawlessly. The residents loved the low disruption.",
+      "name": "Margaret T.",
+      "role": "Property Developer"
+    }
+  ],
+  "serviceAreas": [
+    "South Melbourne",
+    "Port Melbourne",
+    "Albert Park",
+    "St Kilda",
+    "Richmond",
+    "Fitzroy",
+    "Docklands",
+    "Southbank"
+  ],
+  "about": {
+    "intro": "Hutchinson Builders has been shaping Melbourne's skyline since 1916, and we're still family-owned and 100% Australian.",
+    "story": [
+      "We started as a small carpentry shop in South Melbourne in 1916. Back then, jobs were small — a shopfront here, a house there. Over the decades, we built schools, hospitals, and towers that define this city. The Scott family took over in the 1970s and kept the culture of hard work and straight talk.",
+      "Today, we're one of Australia's largest privately owned builders with offices nationwide. But our home base is still South Melbourne. Every project — from a $2 million cafe fit-out to a $200 million residential tower — gets the same attention to detail and local know-how. Our trades are the best in the game, and many have been with us for decades."
+    ],
+    "mission": "To build Australia's best projects with straight-talking, no-surprises service from our South Melbourne base.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know South Melbourne council, soil, and suppliers. That saves you time and money on every project."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "We give you a fixed price upfront with clear scope. No variation surprises, no hidden fees."
+      },
+      {
+        "title": "On Time",
+        "text": "We track every milestone weekly. Our project managers are ruthless about schedule without cutting corners."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We warrant every tradesperson's work for 12 months. If it's not right, we fix it — no questions asked."
+      }
+    ],
+    "stats": [
+      {
+        "value": "105+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "1000+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Australian Owned"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner in VIC",
+      "Public liability insured to $50m",
+      "Master Builders Association member",
+      "Green Star accredited"
+    ]
+  },
+  "pricing": {
+    "intro": "Big builder quality with straight-up pricing. We'll come to your South Melbourne site, talk through what you need, and give you a fixed quote with no lock-in contracts.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Commercial Fit-Out",
+        "price": "from $150k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design & construct",
+          "Fixed-price contract",
+          "Fast-track program",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Development",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "End-to-end delivery",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with a crystal-clear scope — no surprises, no blowouts."
+  },
+  "contact": {
+    "intro": "Ready to get started? Give us a call or drop in to our South Melbourne office. We'll talk about your project over a cuppa and give you a straight answer."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Hutchinson Builders | South Melbourne Builder | Commercial Construction",
+      "description": "Hutchinson Builders — 105+ years of South Melbourne construction. Commercial, residential & industrial. Fixed-price quotes. 100% Australian owned. Call now."
+    },
+    "about": {
+      "title": "About Hutchinson Builders — South Melbourne's Family Builder Since 1916",
+      "description": "Learn the story of Hutchinson Builders, South Melbourne's most experienced builder. Over a century of local construction, still family-owned and Aussie-operated."
+    },
+    "services": {
+      "title": "Construction Services in South Melbourne | Hutchinson Builders",
+      "description": "Commercial, residential, industrial and mixed-use building services in South Melbourne. Fixed-price contracts, site management, and quality guaranteed."
+    },
+    "pricing": {
+      "title": "Construction Costs & Prices in South Melbourne | Hutchinson Builders",
+      "description": "Get a free on-site quote for construction in South Melbourne. We give clear, fixed prices upfront — no surprises, no lock-in contracts. Contact us today."
+    },
+    "contact": {
+      "title": "Contact Hutchinson Builders | Free Consultation South Melbourne",
+      "description": "Contact Hutchinson Builders for a free consultation. Visit our South Melbourne office or call +61 3 9282 9500. Let's build something great together."
+    },
+    "blog": {
+      "title": "South Melbourne Building & Renovation Blog | Hutchinson Builders",
+      "description": "Expert building guides for South Melbourne homeowners and developers. Costs, approvals, timelines, and local tips from a century of experience."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Commercial Fit-Out Cost in South Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Breakdown of fit-out costs for South Melbourne offices and retail spaces in 2026, with tips to avoid budget blowouts.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-sussexhotelredevelopment-76-lowres-jpg.jpg?1752609579",
+      "body": [
+        "If you're planning a commercial fit-out in South Melbourne in 2026, you're probably wondering what it'll cost. The short answer is that a basic fit-out for a small office might start around $150,000, while a full-scale retail or hospitality space at the South Melbourne Market end could run $500,000 or more. The numbers depend on the condition of the shell, the level of finish, and whether you need structural changes.",
+        "The biggest cost driver in South Melbourne is structural modifications. Many older buildings on Cecil Street and Clarendon Street have heritage overlays, which means you'll need council approval before knocking down walls. Our team at Hutchinson Builders recommends a full structural assessment before you sign a lease. We've seen tenants pay big money for fit-outs only to find the ceiling can't support ducted air conditioning.",
+        "Materials and labour make up the rest. South Melbourne is a premium suburb, and tradies charge accordingly. But you can save money by choosing standard-sized tiles and off-the-shelf joinery instead of custom pieces. A good builder will also help you stage the works to stay open for business — we did a phased fit-out for a cafe in South Melbourne that saved the owner four weeks of lost revenue.",
+        "Don't forget permits and approvals. A building permit in Port Phillip City Council can take 6 to 10 weeks, depending on complexity. We always factor that into the project timeline. If you're in a corporate lease, check whether the landlord gives a rent-free period for fit-out — that can offset some of the cost.",
+        "The biggest hidden cost is air conditioning and electrical. A lot of South Melbourne commercial spaces have old switchboards that aren't up to current standards. Upgrading a three-phase switchboard and running new data cabling can add $15,000 to $30,000. Always budget for a contingency of at least 15 per cent.",
+        "At Hutchinson Builders, we give you a fixed-price contract before any work starts. We've been doing fit-outs in South Melbourne since 1916, so we know the local inspectors, the suppliers, and the shortcuts that cost you later. Call us for a free on-site quote and we'll walk you through every line item."
+      ]
+    },
+    {
+      "title": "Building a Multi-Unit Residential in South Melbourne: Permits & Timelines",
+      "date": "February 2026",
+      "excerpt": "A practical guide to approvals, community consultation, and construction schedules for townhouses and apartments in South Melbourne.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-mona-jettytunnel-2-lowres-jpg.jpg?1697614008",
+      "body": [
+        "South Melbourne is one of Melbourne's most sought-after suburbs for multi-unit residential, and demand isn't slowing down. But the approval process is more rigorous than ever under the new 2026 planning overlays. If you're thinking of building three or more units on a single lot, you'll need a planning permit from the City of Port Phillip. Expect a minimum of 12 months from start of design to construction.",
+        "The first step is a site analysis. Council wants to see how your building fits with the neighbourhood character. In the area around Montague Street and the Fishermans Bend precinct, that means modern designs with minimal setbacks. In the quieter heritage streets near Coventry Street, you'll need to match the existing rooflines and materials. Our team prepares all this documentation in-house.",
+        "Community consultation is mandatory for developments of five or more dwellings. You'll need to notify neighbours within a certain radius and attend a council meeting if objections are raised. We can handle that for you — we've presented to Port Phillip Council more times than we can count and know what they want to hear.",
+        "Construction timelines for a typical 8-unit development in South Melbourne run 14 to 18 months. The longest phase is the basement and foundations, especially if the site has a high water table like many near the Yarra. We've built on some tricky sites on Bank Street where the water table sits only 2m down, requiring a complex dewatering system.",
+        "The structural frame goes up quickly in 2 to 3 months. Fit-out and finishing takes the longest — about 6 months for all the bathrooms, kitchens, flooring, and painting. We recommend locking in your suppliers early because lead times for things like lifts and aluminium windows can extend the schedule.",
+        "The biggest advice we give local developers is: budget for council conditions. You'll often be asked to contribute to public art, streetscape works, or affordable housing levies. For a 10-unit development in South Melbourne, those extras can total $200,000 or more. We factor them into our fixed-price quote upfront."
+      ]
+    },
+    {
+      "title": "10 Things You Must Know Before Building a Warehouse in Melbourne's Industrial Belt",
+      "date": "January 2026",
+      "excerpt": "Site selection, floor loads, truck access, and energy efficiency for industrial construction in Altona, Laverton and surrounds.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-i-walleniuswilhelmsen-1-lowres-jpg.jpg?1697614019",
+      "body": [
+        "Building a warehouse in Melbourne's industrial belt — Altona, Laverton, Truganina — is different from building in the city. The big issues are floor slab capacity, truck turning circles, and energy compliance. We've built dozens of warehouses in this corridor for clients like Allied Mills and NewCold. Here's what we've learned.",
+        "Floor slab design is critical. If you're storing heavy pallets or running forklifts, you need a reinforced slab with good joint layout. A poor slab will crack and heave, costing you a fortune in repairs. We always do a soil test first because Melbourne's volcanic clays expand and contract with moisture. In Altona, the ground can move up to 40mm between seasons if you don't treat it properly.",
+        "Truck access is another make-or-break. Council will require swept path diagrams showing that semi-trailers can enter, turn around, and exit without reversing onto the road. If your site is on a tight corner, you might need a roundabout or additional land. We've seen too many warehouse projects fail at the planning stage because the architect didn't check truck turning circles.",
+        "Energy efficiency is now mandatory under the NCC 2026. Your warehouse needs a minimum energy performance rating, which means insulated panels, energy-efficient lighting, and often solar-ready roofs. The good news is these upgrades pay for themselves quickly. One of our clients at Laverton saved $40,000 a year on power after we installed a high-performance insulation system.",
+        "Fire services and water retention are the hidden costs. Warehouses over a certain size need fire sprinklers, water tanks, and sometimes on-site detention for stormwater. In Melbourne's west, the water table is high and the soil is clay, so soakage pits often don't work. You end up installing a pump-out system. That can add $100,000 to the budget.",
+        "Our biggest tip: involve the builder early. We've helped clients save millions by adjusting the site layout before they bought the land. A 10-metre shift in the building footprint can eliminate the need for expensive retaining walls. Give us a call and we'll visit your site in Altona or Laverton with a no-obligation assessment."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Aged Care Construction in Victoria 2026",
+      "date": "December 2025",
+      "excerpt": "New standards, compliance, and design trends for retirement villages and aged care homes across South Melbourne and Victoria.",
+      "image": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-jewelhotelfitout-38-lowres-jpg.jpg?1697614019",
+      "body": [
+        "Aged care construction in Victoria is undergoing its biggest shake-up since the 1997 Act. The new Aged Care Quality Standards took full effect in 2025, and they're raising the bar on room sizes, outdoor access, and infection control. If you're planning a retirement village or aged care home in South Melbourne or regional Victoria, you need a builder who knows these rules cold.",
+        "The first standard requires single rooms with ensuite bathrooms that are large enough for hoists and wheelchairs. Minimum room dimensions have increased to 18 square metres for the bedroom alone. We've designed and built dozens of rooms that meet the standard without wasting space — including the popular Kingsford Terrace project.",
+        "Outdoor access is non-negotiable. Every resident must have direct access to a secure outdoor area with seating, gardens, and shade. In South Melbourne, where sites are tight, we create rooftop gardens and sheltered courtyards with non-slip paving and handrails. These spaces need drainage and irrigation, which we coordinate with the landscape architect from day one.",
+        "Infection control is now a major design focus. We install antimicrobial surfaces in bathrooms, HEPA-rated air filtration systems, and hands-free taps throughout. The building must also be easily zoned for isolation. That means separate HVAC zones, separate access, and negative pressure capability in certain rooms. We've been doing this since before COVID.",
+        "The approval process for aged care is slower than other projects. You'll need a planning permit from the local council, a registration from the Aged Care Quality and Safety Commission, and often a building permit with special conditions. We've helped clients in South Melbourne navigate this process more than a dozen times.",
+        "If you're thinking about entering the aged care market in Victoria, there's never been a better time. The federal government is offering subsidies for new builds in underserved areas. But you need a builder with aged care experience to avoid the common pitfalls. At Hutchinson Builders, we've delivered aged care projects from Melbourne to Cairns. Call us for a confidential chat about your site."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-skytower-construction-craneremoval-070419-34-lowres-jpg.jpg?1697614022",
+  "photoRowImages": [
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-dmc2023-lowres-1-jpg-1695846146.jpg?1697614017",
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/scotthutchinson-2016-profile-triffid-37-lowres-jpg.jpg?1717706330",
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-kingsfordtce-francisbuilding-1-lowres-jpg.jpg?1697614019",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-t-mona-jettytunnel-10-lowres-jpg.jpg?1697614209"
+  ],
+  "aboutImages": [
+    "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/stockland-aura-077-lowres-jpg.jpg?1697614337",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-c-310anndsitifitout-1-lowres-jpg.jpg?1698198987",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-re-paradisecentre-easternprecinct-14-lowres-jpg.jpg?1697680676"
+  ],
+  "fullWidthImage": "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-i-alliedmills-1-lowres-jpg.jpg?1697616106",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-r-thecurl-39-jpg.jpg?1760319309",
+  "testimonialsImage": "https://www.hutchinsonbuilders.com.au/generated/1920w-3-2/hb-t-sussexhotelredevelopment-76-lowres-jpg.jpg?1752609579",
+  "galleryImages": [
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-ci-goldcoastairportapz-1-lowres-jpg.jpg?1697616060",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-r-mondrian-2-jpg.jpg?1777460667",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-t-palaistheatre-18-lowres-jpg.jpg?1711074072",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-i-knauf-1-lowres-jpg.jpg?1711073251",
+    "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-e-westendstateschoolexpansion-37-lowres-jpg.jpg?1711073829"
+  ],
+  "pricingBgImage": "https://www.hutchinsonbuilders.com.au/generated/720w-auto/hb-r-aveoclayfield-1-lowres-jpg.jpg?1700542404"
+}
