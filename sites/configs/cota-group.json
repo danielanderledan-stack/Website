@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "Cota Group",
+  "suburb": "Southbank",
+  "phone": "+61386915544",
+  "email": "info@cotagroup.com.au",
+  "address": "68 Clarke St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.828955199999996,
+    "longitude": 144.9599711
+  },
+  "tagline": "Southbank's Commercial Builder",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55A00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Commercial Builder",
+      "sub": "Design & Construct Specialists",
+      "image": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2026/04/ADAPTA-lift.jpg?resize=800%2C600&ssl=1"
+    },
+    {
+      "title": "Complex Projects Delivered",
+      "sub": "On Time & On Budget",
+      "image": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Cold-Store-Warehouse1-1.jpg?resize=800%2C600&ssl=1"
+    },
+    {
+      "title": "15+ Years of Expertise",
+      "sub": "Industrial & Commercial",
+      "image": "https://cotagroup.com.au/wp-content/uploads/2025/11/COTA-GROUP-OFFICE-DARK-1A.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Cota Group —",
+    "your Southbank commercial builder",
+    "ready to take on your next project."
+  ],
+  "aboutHeading": "Builders of Complex Commercial Projects",
+  "aboutSubheading": "Your local Southbank construction team",
+  "aboutText": "With over 15 years of experience in Southbank and across Melbourne, Cota Group specialises in design and construct commercial and industrial projects. We manage everything from small extensions to large warehouse developments, delivering on time and within budget. Our agile approach ensures every client gets a tailored solution that meets their exact needs.",
+  "servicesHeading": "Our Commercial Building Services",
+  "servicesSubheading": "End-to-End Design & Construct",
+  "servicesText": "From small commercial extensions to large warehouse developments, Cota Group offers a full range of design and construction services across Southbank and Victoria. Our agile approach ensures every project is delivered on time, within budget, and to the highest standard.",
+  "services": [
+    {
+      "title": "Design & Construct",
+      "desc": "Integrated design and construction for seamless project delivery.",
+      "longDesc": "Our design and construct service in Southbank streamlines your project from concept to completion. Single-point accountability means faster timelines and fewer risks for your commercial build.",
+      "points": [
+        "Single-point accountability",
+        "Faster project delivery",
+        "Cost certainty from day one"
+      ]
+    },
+    {
+      "title": "Commercial Extensions",
+      "desc": "Expand your existing premises with minimal disruption.",
+      "longDesc": "Cota Group specialises in commercial extensions across Southbank and Melbourne. We manage structural challenges and council approvals so you can grow your business without the headaches.",
+      "points": [
+        "Minimal business disruption",
+        "Council approval assistance",
+        "Seamless integration with existing"
+      ]
+    },
+    {
+      "title": "Warehouse Developments",
+      "desc": "Full-scale warehouse construction from ground up.",
+      "longDesc": "From logistics hubs to storage facilities, we build warehouses designed for efficiency. Our Southbank-based team handles site selection, design, and construction for industrial clients.",
+      "points": [
+        "Optimised for logistics",
+        "Large-scale capability",
+        "Turnkey delivery"
+      ]
+    },
+    {
+      "title": "Industrial Fit-Out",
+      "desc": "Custom interior fit-outs for industrial spaces.",
+      "longDesc": "Our industrial fit-out service in Southbank covers everything from office interiors to specialised manufacturing areas. We deliver functional, code-compliant spaces that boost productivity.",
+      "points": [
+        "Functional layouts",
+        "Code-compliant build",
+        "Boosted productivity"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "End-to-end management for complex builds.",
+      "longDesc": "Cota Group provides professional project management for commercial projects in Southbank. We coordinate trades, manage budgets, and keep your timeline on track from start to finish.",
+      "points": [
+        "Budget and schedule control",
+        "Trade coordination",
+        "Risk management"
+      ]
+    },
+    {
+      "title": "Sustainable Construction",
+      "desc": "Environmentally responsible building practices.",
+      "longDesc": "We integrate sustainable initiatives into every Southbank project — from energy-efficient materials to waste reduction. Lower your operational costs and meet green certification targets.",
+      "points": [
+        "Energy-efficient materials",
+        "Waste reduction",
+        "Green certification support"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank and beyond",
+  "reviews": [
+    {
+      "text": "Cota Group handled our Southbank office extension with professionalism. They kept us informed at every stage and delivered ahead of schedule. Highly recommend their design and construct service.",
+      "name": "Mark T.",
+      "role": "Southbank Business Owner"
+    },
+    {
+      "text": "We needed a large warehouse built in a tight timeframe. Cota Group managed the entire project seamlessly, from council approvals to final handover. Great communication and quality work.",
+      "name": "Sarah F.",
+      "role": "Logistics Manager"
+    },
+    {
+      "text": "Our industrial fit-out was completed with minimal downtime. The team understood our operational needs and delivered a space that works perfectly for our team. Professional and reliable.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "South Melbourne",
+    "Melbourne CBD",
+    "Docklands",
+    "Port Melbourne",
+    "St Kilda",
+    "Richmond",
+    "Cremorne"
+  ],
+  "about": {
+    "intro": "Cota Group is a Southbank-based design and construct company specialising in commercial and industrial projects across Melbourne.",
+    "story": [
+      "Founded on the belief that building is about creating environments that inspire, Cota Group has grown into a trusted name in Southbank's commercial construction scene. We've delivered everything from small office extensions to multi-million dollar warehouse developments, always with a focus on quality and reliability.",
+      "Our agile business model allows us to take on projects of any scale. By combining careful programme management, quality control, and a commitment to safe work environments, we ensure every build is completed to the highest standard. Our clients return to us because we deliver on our promises."
+    ],
+    "mission": "To deliver complex commercial and industrial projects across Southbank and Melbourne that exceed expectations — on time, on budget, and built to last.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Southbank and Melbourne's planning regulations ensures smooth approvals and fewer surprises."
+      },
+      {
+        "title": "Fixed-Price Contracts",
+        "text": "We lock in your price upfront — no hidden costs, no budget blowouts, just honest building."
+      },
+      {
+        "title": "On-Time Delivery",
+        "text": "Our detailed programme management keeps every project on track, even when challenges arise."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We employ rigorous quality planning and inspection to deliver a finish that stands the test of time."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "150+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insured to $20 million",
+      "Master Builders Association member",
+      "WorkSafe compliant"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is different, so we provide tailored quotes with no lock-in contracts. For your commercial build in Southbank, we'll walk you through the costs and give you a fixed price from the start.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility assessment",
+          "Written preliminary estimate"
+        ]
+      },
+      {
+        "name": "Design & Construct",
+        "price": "from $500k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design & construct",
+          "Council & permit handling",
+          "Fixed-price contract",
+          "Project management"
+        ]
+      },
+      {
+        "name": "Turnkey Solution",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Complete project delivery",
+          "Interior fit-out",
+          "Landscaping & external works",
+          "Handover & aftercare"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Get in touch with the Cota Group team to discuss your next commercial or industrial project in Southbank. We'd love to hear about your vision and provide a free, no-obligation quote."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Cota Group | Southbank Commercial Builder | Design & Construct",
+      "description": "Cota Group is Southbank's trusted commercial and industrial builder. Specialising in design & construct, warehouse developments, and extensions. 15+ years of experience. Get a fixed-price quote."
+    },
+    "about": {
+      "title": "About Cota Group — Southbank's Family-Owned Builder",
+      "description": "Learn about Cota Group, a Southbank-based commercial builder with 15+ years of experience. We deliver complex projects on time and within budget. Read our story."
+    },
+    "services": {
+      "title": "Commercial Building Services in Southbank | Cota Group",
+      "description": "Explore Cota Group's full range of commercial and industrial building services in Southbank: design & construct, extensions, warehouses, fit-outs and more."
+    },
+    "pricing": {
+      "title": "Commercial Building Costs in Southbank | Cota Group Pricing",
+      "description": "Transparent pricing for commercial construction in Southbank. Get a free initial consultation and a fixed-price quote from Cota Group. No hidden fees."
+    },
+    "contact": {
+      "title": "Contact Cota Group | Free Consultation Southbank",
+      "description": "Get in touch with Cota Group for your commercial building project in Southbank. Free on-site consultation and no-obligation quote. Call 03 8691 5544."
+    },
+    "blog": {
+      "title": "Commercial Construction Blog | Cota Group Southbank",
+      "description": "Expert advice on commercial construction in Southbank and Melbourne. Read guides on costs, design & construct, warehouse development, and sustainable building."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides from Cota Group",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Commercial Building Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about commercial construction costs in Southbank? We break down the key factors — from site conditions to fit-out — and give you realistic budget ranges.",
+      "image": "https://cotagroup.com.au/wp-content/uploads/2025/10/Terra-Mater-Floors-1.jpg",
+      "body": [
+        "The cost of commercial building in Southbank varies widely depending on project size, complexity, and location. In 2026, typical rates for design and construct projects in Melbourne's inner suburbs range from $2,500 to $5,000 per square metre. Factors like site access, existing services, and council requirements all play a part. For a small office extension, expect a lower per-metre cost, while a warehouse with specialised fit-outs sits at the higher end.",
+        "One of the biggest cost drivers is the structural system. Steel-framed warehouses are generally more expensive per square metre than tilt-panel concrete, but offer longer clear spans. In Southbank, site constraints — like narrow laneways or heritage overlays — can add to logistics and engineering costs. We always recommend a thorough feasibility study before committing to a budget.",
+        "Another important factor is the level of finish. A basic warehouse shell with minimal fit-out will be cheaper than a fully fitted industrial space with offices, amenities, and high-end finishes. Similarly, green building initiatives — like solar panels, rainwater harvesting, or high-performance glazing — add upfront cost but reduce operational expenses over time. Many Southbank businesses are now targeting NABERS or Green Star ratings.",
+        "Council fees and approvals also contribute. The City of Melbourne and surrounding councils have specific requirements for commercial developments, including sustainability measures, traffic management plans, and heritage considerations. These can add months and thousands of dollars to the project timeline. Engaging a local builder like Cota Group who knows the system can streamline this process significantly.",
+        "Labour and material costs have risen across Australia in recent years. In Melbourne, skilled trades are in high demand, which pushes up hourly rates. Sourcing materials locally where possible helps keep transport costs down, but some specialised items — like structural steel or glazing — may need to be imported. We always provide a fixed-price contract upfront to give you certainty.",
+        "Finally, contingency is key. We recommend setting aside 10-15% of the total budget for unforeseen site conditions, such as contaminated soil or unexpected underground services. This is standard practice in commercial construction and ensures your project doesn't stall. For a detailed cost estimate tailored to your Southbank site, contact Cota Group for a free initial consultation."
+      ]
+    },
+    {
+      "title": "The Benefits of Design & Construct for Your Melbourne Warehouse",
+      "date": "February 2026",
+      "excerpt": "Design & construct (D&C) is the preferred delivery method for commercial warehouses in Melbourne. Discover how single-point accountability saves time and money.",
+      "image": "https://cotagroup.com.au/wp-content/uploads/2025/10/Terra-Mater-Floors-1H.jpg",
+      "body": [
+        "Design and construct (D&C) has become the go-to project delivery method for commercial warehouses across Melbourne — and for good reason. With D&C, one team handles both the design and construction, creating a seamless workflow from concept to completion. For Southbank businesses needing efficient industrial spaces, this integrated approach reduces delays and eliminates the 'finger-pointing' that often plagues traditional contracts.",
+        "The main advantage is single-point accountability. Instead of juggling separate architects, engineers, and builders, you deal with one team. This means faster decision-making, clearer communication, and a fixed price earlier in the process. For warehouse developments, where layout and functionality are critical, D&C ensures the design is buildable and optimised for your operations from day one.",
+        "Another key benefit is cost certainty. In a D&C contract, the builder takes on the risk of design changes and variations. At Cota Group, we provide a fixed-price contract after the initial design phase, so you know exactly what you're paying. This is especially valuable in a market where material prices fluctuate. No surprises, no budget blowouts.",
+        "Time savings are also significant. Because design and construction overlap, the overall schedule can be compressed by weeks or even months. For example, early site works can begin while detailed engineering is still being finalised. This is crucial for businesses that need to move into their new warehouse quickly to capture market opportunities.",
+        "Quality is not compromised. In fact, because the same team is responsible for both design and construction, there's a strong incentive to get it right the first time. We employ rigorous quality management practices — from material selection to on-site inspections — ensuring your warehouse meets all Australian standards and your specific requirements.",
+        "Finally, D&C allows for greater flexibility. If your needs change during the design phase, adjustments can be made without the costly variations typical of traditional contracts. For Southbank companies expanding or relocating, this adaptability is invaluable. To explore how D&C can work for your warehouse project, speak to the Cota Group team today."
+      ]
+    },
+    {
+      "title": "Warehouse Development Guide for Melbourne Businesses in 2026",
+      "date": "January 2026",
+      "excerpt": "Planning a warehouse development in Melbourne? Our step-by-step guide covers site selection, design, approvals, and construction — with tips for Southbank locations.",
+      "image": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Terra-Mater-Floors-1H.jpg",
+      "body": [
+        "Developing a warehouse in Melbourne requires careful planning. From finding the right site to managing council approvals, each step can make or break your project. Southbank and surrounding suburbs offer excellent transport links but come with unique challenges like limited land availability and heritage overlays. This guide walks through the key stages to help you achieve a successful warehouse development in 2026.",
+        "Step one: site selection. Consider proximity to major freight routes, public transport, and workforce. Sites in Southbank are premium but offer excellent connectivity to the West Gate Freeway and CityLink. Zoning is critical — ensure the land is zoned for industrial use. Engage a town planner early to check for any overlays or restrictions that could delay your project.",
+        "Step two: design for efficiency. Modern warehouses prioritise clear span layouts, high clearance heights, and adequate dock levellers. Think about future needs — will you need additional mezzanine storage or office space? Sustainable design features like skylights for natural light and solar panels can reduce ongoing costs. At Cota Group, we incorporate these elements into our designs from the outset.",
+        "Step three: approvals and permits. In Melbourne, warehouse developments typically require a planning permit from the local council. The City of Melbourne and neighbouring councils have specific requirements regarding traffic impact, stormwater management, and waste disposal. Allow 4-8 months for the approval process. A builder experienced in local regulations can help navigate this stage efficiently.",
+        "Step four: construction and project management. Once approved, the build phase begins. For large warehouses, we typically use a combination of steel frame and tilt-up concrete panels for speed and durability. Our project managers coordinate all trades, manage the budget, and ensure the site stays safe. Regular progress reports keep you informed every step of the way.",
+        "Step five: handover and aftercare. After construction, a thorough inspection ensures everything meets the specified standards. We provide comprehensive documentation, including warranties and maintenance guides. Post-handover, Cota Group offers ongoing support to address any issues. A well-managed warehouse development can serve your business for decades. Contact us to start your project."
+      ]
+    },
+    {
+      "title": "Sustainable Commercial Construction in Melbourne's Inner Suburbs",
+      "date": "December 2025",
+      "excerpt": "Green building is becoming standard in Melbourne. Learn about sustainable commercial construction practices for Southbank and how they can lower your operating costs.",
+      "image": "https://cotagroup.com.au/wp-content/uploads/2025/10/Cold-Store-Warehouse1-1.jpg",
+      "body": [
+        "Sustainability is no longer optional in commercial construction — it's expected. In Melbourne's inner suburbs like Southbank, businesses are increasingly demanding buildings that are energy-efficient, water-wise, and healthy for occupants. Sustainable construction not only reduces environmental impact but also lowers long-term operating costs and can increase property value.",
+        "Key sustainable practices include high-performance building envelopes — using insulated panels, double-glazed windows, and reflective roofing to reduce heating and cooling loads. In a warehouse or commercial building, this can cut energy bills by up to 30%. Solar photovoltaic systems are also becoming standard, especially in Southbank where roof space is often available.",
+        "Water management is another critical area. Rainwater harvesting for landscaping or toilet flushing reduces demand on mains water. Permeable paving in car parks helps manage stormwater runoff — a requirement for many new developments in Melbourne. Green roofs and walls can also improve insulation and biodiversity, though they require structural consideration.",
+        "Waste reduction during construction is a growing focus. Cota Group implements waste management plans that prioritise recycling and reuse of materials. We partner with local recyclers to divert construction waste from landfill. For clients seeking Green Star or NABERS certification, we track and document all sustainable initiatives throughout the build.",
+        "Indoor environmental quality matters too. Good ventilation, natural light, and low-VOC materials create healthier workspaces. In commercial fit-outs, we specify LED lighting, efficient HVAC systems, and smart controls that adapt to occupancy. These features not only improve comfort but also attract tenants and retain staff.",
+        "Finally, life-cycle thinking ensures that buildings remain efficient for years. Choosing durable materials, designing for adaptability, and incorporating smart building technology all contribute to a lower carbon footprint. For Southbank businesses ready to embrace sustainable construction, Cota Group offers tailored solutions. Contact us to discuss your green building goals."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/We-Ef-1-1.jpg?resize=800%2C600&ssl=1",
+  "photoRowImages": [
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Terra-Mater-Floors-1.jpg?resize=800%2C600&ssl=1",
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Warehouse-Office-Dev1.jpg?resize=800%2C600&ssl=1",
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Super-Awning-1.jpg?resize=800%2C600&ssl=1",
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/ESFR-T1-1.jpg?resize=800%2C600&ssl=1"
+  ],
+  "aboutImages": [
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Tempur-P1-1.jpg?resize=800%2C600&ssl=1",
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Waste-Sorting1.jpg?resize=800%2C600&ssl=1",
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/Organic-Oil-H.jpg?resize=800%2C600&ssl=1"
+  ],
+  "fullWidthImage": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/11/Prolife-Foods.jpg?resize=800%2C600&ssl=1",
+  "bannerHeading": "Ready to start your commercial build?",
+  "bannerSubheading": "Get a free, no-obligation quote from Cota Group today.",
+  "bannerImage": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2020/12/HERTZ-1.jpg?resize=800%2C600&ssl=1",
+  "testimonialsImage": "https://cotagroup.com.au/wp-content/uploads/2025/11/COTA-GROUP-OFFICE-WORKAREA-2.jpg",
+  "galleryImages": [
+    "https://cotagroup.com.au/wp-content/uploads/2026/04/ADAPTA-lift.jpg",
+    "https://cotagroup.com.au/wp-content/uploads/2026/04/ADAPTA-lift-hover.jpg",
+    "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2026/04/ADAPTA-lift-hover.jpg",
+    "https://cotagroup.com.au/wp-content/uploads/2025/10/We-Ef-1-1.jpg",
+    "https://cotagroup.com.au/wp-content/uploads/2025/10/We-Ef-1H-1.jpg"
+  ],
+  "pricingBgImage": "https://i0.wp.com/cotagroup.com.au/wp-content/uploads/2025/10/We-Ef-1H-1.jpg"
+}
