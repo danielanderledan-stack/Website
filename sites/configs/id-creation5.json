@@ -1,0 +1,339 @@
+{
+  "siteType": "landscaper",
+  "businessName": "ID Creation",
+  "suburb": "Southbank",
+  "phone": "+61403689931",
+  "email": "nick@idcreation.com.au",
+  "address": "152 Sturt St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8253201,
+    "longitude": 144.9660535
+  },
+  "tagline": "Southbank's Premier Landscape Designers",
+  "primaryColor": "#00CC66",
+  "primaryColorRgb": "0, 204, 102",
+  "primaryColorHover": "#00b359",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Landscaper",
+      "sub": "Landscape design & construction",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1vtSHoFcXHlNSQqVhIiKe1Af-Pb_OcGEvgDU6e7dGgbjJHcjIQFYY-277gt2uTVeMO_EVmqNCWpAwDG-J46oMHdfIkqhnsBXLmYUaqHpB_3KvIG-0F0ssBHY_1eeM5P3Sm-QkB2hIzrcn=w1600-h1200-k-no"
+    },
+    {
+      "title": "Louvre Roof Systems for Year-Round Living",
+      "sub": "Adjustable shade & style",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGFKgifwNpOhSkS9J54Z6oqXoGOGNMnM49mMxSNoyo5fJQU8oLSoUg6ZSXaUQ-KnOsWi1teJ_Q30QVYPWbnh20P68bfu-P7boR8PpKytU2J1EIDv9Zu9JFwqu7P5-MrUDAplJonDBWPhs=w1600-h1200-k-no"
+    },
+    {
+      "title": "25 Years Creating Outdoor Oases",
+      "sub": "From concept to completion",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2nqPpxhEKYQcnLj9Tv5gDVd_pADtAXH9LQdTEbN17t7DjGAmN5h6anz_yanUuOHoWywCIp5e4Fb8TJa9AT5X3XcP508CHRscOFlvnNM5r1l7RCKdysOlBBWw-YCKTND_NcMEEOcIqwyzX=w1600-h1200-k-no"
+    }
+  ],
+  "ctaHeading": [
+    "Let's create your",
+    "dream outdoor space in Southbank",
+    "— book a free consultation."
+  ],
+  "aboutHeading": "Southbank's Go-To Landscape Designers",
+  "aboutSubheading": "25 years of crafting outdoor living",
+  "aboutText": "ID Creation has been transforming Southbank homes since 2016, with founder Nick bringing over 25 years of hands-on building and landscaping experience. We specialise in custom landscape design and premium louvre roof systems, creating functional outdoor spaces tailored to your lifestyle. From initial concept to final construction, we manage every detail — ensuring your project is finished on time, on budget, and built to last. Trusted by homeowners across Southbank, South Melbourne, and St Kilda.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end landscape solutions",
+  "servicesText": "We offer a full range of landscape design and construction services, from initial consultation and custom design to installation of louvre roof systems, stonework, paving, tiling, and pool surrounds. Our team handles every aspect of your outdoor transformation, ensuring a seamless experience. No job is too big or small for our experienced crew.",
+  "services": [
+    {
+      "title": "Landscape Design",
+      "desc": "Custom landscape designs tailored to your Southbank property.",
+      "longDesc": "From concept sketches to detailed planting plans, we design outdoor spaces that reflect your style and maximise your block's potential. Our designs integrate native plants, hardscaping, and water features.",
+      "points": [
+        "Personalised design",
+        "3D visualisations",
+        "Council-ready plans"
+      ]
+    },
+    {
+      "title": "Louvre Roof Systems",
+      "desc": "Premium louvre roof systems for year-round outdoor living.",
+      "longDesc": "Our Louvre Co roof systems provide adjustable shade and protection, allowing you to enjoy your patio or alfresco area in any weather. Fully retractable, with integrated LED lighting options.",
+      "points": [
+        "Adjustable louvres",
+        "Weatherproof design",
+        "Remote control option"
+      ]
+    },
+    {
+      "title": "Stonework & Paving",
+      "desc": "Expert stonework and paving for pathways, patios, and pool surrounds.",
+      "longDesc": "We source premium natural stone, sandstone, and concrete pavers to create durable, attractive surfaces. Our skilled masons deliver precision laying for a flawless finish.",
+      "points": [
+        "Natural stone options",
+        "Patterned designs",
+        "Slip-resistant finishes"
+      ]
+    },
+    {
+      "title": "Landscape Construction",
+      "desc": "Full-service construction from earthworks to planting.",
+      "longDesc": "We handle all aspects of landscape construction including excavation, retaining walls, irrigation, planting, and turf installation. Our team uses quality materials and modern techniques for long-lasting results.",
+      "points": [
+        "Complete project management",
+        "Quality materials",
+        "On-time delivery"
+      ]
+    },
+    {
+      "title": "Outdoor Renovations",
+      "desc": "Transform your existing outdoor area into something special.",
+      "longDesc": "Whether it's updating an old patio, adding a pergola, or re-landscaping your garden, we breathe new life into tired outdoor spaces. We work within your budget to maximise impact.",
+      "points": [
+        "Minimal disruption",
+        "Fixed-price quotes",
+        "Creative solutions"
+      ]
+    },
+    {
+      "title": "Tiling & Pool Surrounds",
+      "desc": "Premium tiling for pools, patios, and outdoor entertaining areas.",
+      "longDesc": "We specialise in non-slip outdoor tiling, including porcelain, ceramic, and natural stone. Perfect for pool surrounds, alfresco dining areas, and walkways.",
+      "points": [
+        "Non-slip options",
+        "Heat-resistant tiles",
+        "Expert installation"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank and beyond",
+  "reviews": [
+    {
+      "text": "ID Creation transformed our average outdoor area into an amazing family space. They designed and installed sandstone walkways, pool, and entertainment areas. Their attention to detail and creative flair is unmatched. Highly recommend!",
+      "name": "Lucie J.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "Nick from ID Creation was a delight to work with. His landscape design ideas were innovative and perfect for our needs. Work quality impeccable, attention to detail very impressive. No hesitation recommending.",
+      "name": "Leonie C.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "I've engaged Nick for several projects including pergola work, paving, tiling, and brickwork. He is extremely skilled, punctual, polite, and tidy. Valuable guidance on landscape design too.",
+      "name": "Joylene B.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "South Melbourne",
+    "St Kilda",
+    "Port Melbourne",
+    "Albert Park",
+    "Prahran",
+    "Elwood"
+  ],
+  "about": {
+    "intro": "ID Creation is a family-run landscape design and construction business based in Southbank, Melbourne. We've been helping homeowners create stunning outdoor spaces since 2016.",
+    "story": [
+      "Founder Nick brings over 25 years of hands-on building and landscaping experience. He started his career on tools, working for high-end residential companies like Ian Barker Gardens and Yardstick, and later for Landstruct where he was involved in estimating, designing, and managing job sites. He also studied and graduated with a Landscape Design Diploma in Australia, giving him a strong blend of practical build knowledge and design theory.",
+      "After securing his permanent residency, Nick founded ID Creation to offer a personalised, boutique service to homeowners in Southbank and surrounding suburbs. Since 2016, the business has specialised in landscape design and innovative louvre roof systems, combining creative vision with expert craftsmanship. Every project is supervised by Nick, ensuring consistent quality and attention to detail."
+    ],
+    "mission": "To transform every Southbank backyard into a functional, beautiful outdoor living space that families love.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "Deep understanding of Southbank's soil, climate, and council regulations."
+      },
+      {
+        "title": "25 Years Experience",
+        "text": "Nick's hands-on background ensures every build is solid and detail-perfect."
+      },
+      {
+        "title": "End-to-End Service",
+        "text": "From design to construction, we manage everything — no subcontractors."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We use premium materials and stand behind our work with a full warranty."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Client Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (No. 325369)",
+      "Public Liability Insurance to $20M",
+      "Landscape Design Diploma (Australia)",
+      "Member of Master Builders Association"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent pricing with no hidden fees. For Southbank homeowners, we offer a free initial design consultation to discuss your project and provide a detailed fixed-price quote.",
+    "packages": [
+      {
+        "name": "Free Site Visit",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Discuss your ideas",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Landscape Design Package",
+        "price": "from $2,500",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Detailed landscape design",
+          "Planting & material plan",
+          "3D renderings",
+          "Council submission support"
+        ]
+      },
+      {
+        "name": "Full Construction",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Complete project management",
+          "Louvre roof systems",
+          "Stonework & planting",
+          "Fixed-price contract"
+        ]
+      }
+    ],
+    "note": "Our quotes are fixed upfront — no surprises once work begins."
+  },
+  "contact": {
+    "intro": "Ready to transform your Southbank outdoor space? Get in touch for a free, no-obligation consultation. Call 0403 689 931 or email nick@idcreation.com.au."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "ID Creation | Southbank Landscape Design & Louvre Roof Systems",
+      "description": "ID Creation is Southbank's trusted landscape designer. Specialising in custom landscape design, louvre roof pergolas, and stonework. Free consultation. Call 0403 689 931."
+    },
+    "about": {
+      "title": "About ID Creation — Southbank's Landscape Design Experts",
+      "description": "Learn about Nick's 25+ years of landscape construction experience, from high-end projects to your Southbank backyard. Family-run, licensed builder."
+    },
+    "services": {
+      "title": "Landscape Design Services Southbank | ID Creation",
+      "description": "Explore ID Creation's full range of landscape design, louvre roof, stonework, paving, tiling, and renovation services for Southbank homes."
+    },
+    "pricing": {
+      "title": "Landscape Design Costs Southbank | ID Creation Quotes",
+      "description": "Get transparent pricing for landscape design and construction in Southbank. Free initial consultation. Fixed-price quotes from ID Creation."
+    },
+    "contact": {
+      "title": "Contact ID Creation | Free Quote Southbank",
+      "description": "Reach out to ID Creation for a free consultation on your Southbank landscape project. Call 0403 689 931 or email."
+    },
+    "blog": {
+      "title": "Southbank Landscaping Blog | ID Creation",
+      "description": "Read expert tips and local guides on landscape design, louvre roof installation, and outdoor renovation in Southbank, Melbourne."
+    }
+  },
+  "blogHeading": "Latest Landscaping News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Louvre Roof System Cost in Southbank? (2026 Guide)",
+      "date": "March 2026",
+      "excerpt": "Discover the cost of installing a louvre roof system in Southbank, Melbourne. Learn about factors like size, materials, and features that affect price. Get a free quote from ID Creation.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsM32V4h7uYEBp5QRXhtJ5IJG_ylVsL7_-uYjhoYIHb5wqkojIBOOwGc-DQVgJzG5YFhA8qhnETCT4KlrkYnBFl0Q-Non1HpPnXJaTblKndJ2PalpBfFZmL2uBYyz2yw-gMHyZgq18a9Ov=w1600-h1200-k-no",
+      "body": [
+        "Louvre roof systems have become increasingly popular among Southbank homeowners who want to enjoy their outdoor spaces regardless of Melbourne's unpredictable weather. These adjustable pergolas allow you to control sunlight and ventilation with the touch of a button, creating a comfortable alfresco area all year round. With ID Creation, you get a premium Louvre Co system that combines durability with sleek design.",
+        "The cost of a louvre roof system in Southbank typically ranges from $8,000 for a basic manual 3x3 metre structure to $25,000 or more for a large motorised system with integrated lighting and heating. Key factors influencing price include the size of the roof, the type of louvre blades (aluminium vs. polycarbonate), the inclusion of remote control or smart home integration, and the complexity of the installation site.",
+        "Many Southbank homeowners are choosing louvre roofs over traditional fixed pergolas because of their versatility. On sunny days, the louvres can be angled to let in light and breeze; during rain, they seal tightly to keep the area dry. This adaptability makes them ideal for Melbourne's climate, where conditions can change rapidly. Adding a louvre roof also increases property value and extends your living space.",
+        "Installation of a louvre roof system usually takes two to three weeks from start to finish. The process begins with a site inspection and structural assessment, followed by council permit applications if required. Our team then installs the support posts, framework, and louvre mechanism. Finally, we test the system and provide a full demonstration. We work around your schedule to minimise disruption.",
+        "Council regulations in the City of Port Phillip (which covers Southbank) generally allow louvre roof systems as long as they comply with height limits and setback requirements. In most cases, a building permit is not needed for a freestanding pergola under 20 square metres, but we always recommend checking with your local council. ID Creation can handle the permit process on your behalf.",
+        "Choosing ID Creation for your louvre roof installation means you're backed by over 25 years of construction experience. We use only high-quality materials and offer a full warranty on all workmanship. Our fixed-price quotes mean no hidden costs. Contact us today for a free on-site consultation and detailed quote tailored to your Southbank home."
+      ]
+    },
+    {
+      "title": "Top 5 Landscape Design Trends for Melbourne Homes in 2026",
+      "date": "February 2026",
+      "excerpt": "Explore the hottest landscape design trends in Melbourne for 2026, from native gardens to outdoor kitchens. See how Southbank homeowners are transforming their backyards.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1vtSHoFcXHlNSQqVhIiKe1Af-Pb_OcGEvgDU6e7dGgbjJHcjIQFYY-277gt2uTVeMO_EVmqNCWpAwDG-J46oMHdfIkqhnsBXLmYUaqHpB_3KvIG-0F0ssBHY_1eeM5P3Sm-QkB2hIzrcn=w1600-h1200-k-no",
+      "body": [
+        "Melbourne's landscape design scene is evolving rapidly, and Southbank homeowners are at the forefront of embracing new trends. In 2026, we're seeing a shift towards sustainable, functional, and highly personalised outdoor spaces. Here are the top five trends that are shaping gardens and backyards across the city, and how ID Creation can help you achieve them.",
+        "Trend 1: Native and drought-tolerant gardens. With water restrictions and a warming climate, Melbourne residents are turning to Australian native plants that thrive with minimal irrigation. These gardens attract local wildlife and require less maintenance. ID Creation designs planting schemes that blend natives with structural hardscaping for a modern, low-maintenance look.",
+        "Trend 2: Outdoor kitchens and dining zones. Entertaining at home is bigger than ever. Built-in barbecues, pizza ovens, and prep stations with stone benchtops are becoming standard in high-end landscape designs. Combined with a louvre roof system, you can cook and dine outdoors in any weather. Our team can integrate a full outdoor kitchen into your landscape plan.",
+        "Trend 3: Sustainable water features. Rain gardens, bio-swales, and recirculating water features are gaining popularity. They manage stormwater runoff, reduce water usage, and add a calming aesthetic. Southbank properties with limited space can incorporate a small pond or vertical water wall. ID Creation designs water features that are both beautiful and environmentally friendly.",
+        "Trend 4: Smart irrigation and lighting. Automated drip irrigation systems that adjust based on soil moisture and weather forecasts are now affordable. Smart LED lighting with colour-changing options allows you to set the mood for any occasion. These technologies enhance convenience and reduce utility costs. We can specify and install these systems as part of your project.",
+        "Trend 5: Multi-functional spaces. With more people working from home, backyards are becoming extensions of the indoor living area. Think home offices in garden studios, yoga decks, and play areas for kids. ID Creation designs landscapes that serve multiple purposes without compromising on aesthetics. Our goal is to create a space that works for your lifestyle, now and in the future."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Pool Surround Tiling in Southbank",
+      "date": "January 2026",
+      "excerpt": "Everything you need to know about pool surround tiling in Southbank: materials, costs, slip resistance, and design ideas. Expert advice from ID Creation.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGFKgifwNpOhSkS9J54Z6oqXoGOGNMnM49mMxSNoyo5fJQU8oLSoUg6ZSXaUQ-KnOsWi1teJ_Q30QVYPWbnh20P68bfu-P7boR8PpKytU2J1EIDv9Zu9JFwqu7P5-MrUDAplJonDBWPhs=w1600-h1200-k-no",
+      "body": [
+        "A beautifully tiled pool surround can transform your backyard into a resort-style retreat. In Southbank, where many homes have compact outdoor areas, choosing the right tiling is crucial for safety, durability, and visual appeal. ID Creation specialises in pool surround tiling and has completed numerous projects across the inner suburbs.",
+        "The most popular materials for pool surrounds in Melbourne are porcelain, natural stone (like travertine and sandstone), and ceramic tiles. Porcelain is highly durable, non-porous, and available in slip-resistant finishes — ideal for wet areas. Travertine stays cool underfoot and has a timeless look, but requires sealing. Ceramic is budget-friendly but less durable in freeze-thaw cycles.",
+        "Costs for pool surround tiling in Southbank typically range from $80 to $200 per square metre installed, depending on the material and complexity of the design. Porcelain pavers are mid-range, natural stone is at the higher end, and ceramic tiles are more affordable. Additional costs include preparation work (levelling, waterproofing) and edging. ID Creation provides a detailed breakdown in our quote.",
+        "Slip resistance is a critical consideration. Australian standards (AS 4586) classify tiles by slip resistance — you want a rating of P3 or P4 for pool surrounds. Textured tiles, small mosaics, or tiles with a matte finish provide better grip. We can help you select tiles that meet safety standards without compromising on style.",
+        "Maintenance is another factor. Pool surrounds are exposed to chlorine, sunlight, and constant foot traffic. Sealing natural stone every two years prevents staining. Porcelain tiles require only regular sweeping and occasional mopping. We recommend a non-slip sealer for added safety. Our team can advise on the best maintenance routine for your chosen tiles.",
+        "Hiring a professional for pool surround tiling ensures a flawless finish and long-term durability. ID Creation's tiling team has decades of experience with wet-area installations. We pay attention to drainage, expansion joints, and pattern alignment. Contact us for a free quote and let us help you choose the perfect tiles for your Southbank pool project."
+      ]
+    },
+    {
+      "title": "Landscape Construction: What to Expect from Start to Finish in Southbank",
+      "date": "December 2025",
+      "excerpt": "From initial design to final planting, a step-by-step guide to landscape construction in Southbank. Learn the process, timeline, and how to prepare.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2nqPpxhEKYQcnLj9Tv5gDVd_pADtAXH9LQdTEbN17t7DjGAmN5h6anz_yanUuOHoWywCIp5e4Fb8TJa9AT5X3XcP508CHRscOFlvnNM5r1l7RCKdysOlBBWw-YCKTND_NcMEEOcIqwyzX=w1600-h1200-k-no",
+      "body": [
+        "Undertaking a landscape construction project can feel overwhelming, but with the right partner, it's an exciting journey. At ID Creation, we guide Southbank homeowners through every stage, ensuring clear communication and a stress-free experience. Here's what you can expect from start to finish when you choose us.",
+        "Step 1: Consultation and Design. We begin with a free on-site visit to understand your vision, measure the space, and discuss your budget. Nick then creates a detailed landscape design, including layout, plant selection, hardscaping, and any features like louvre roofs or water elements. We revise until you're completely happy. This phase typically takes one to two weeks.",
+        "Step 2: Earthworks and Drainage. Once the design is approved and permits obtained, we start site preparation. This includes excavation, grading, and installing drainage systems to prevent water pooling. For Southbank properties with clay soils, proper drainage is essential. We also prepare the base for hardscaping elements like pathways and patios.",
+        "Step 3: Hardscaping Installation. This stage involves building retaining walls, laying paving, constructing pergolas or louvre roofs, and installing stonework. Our skilled tradesmen bring years of experience to ensure everything is level, strong, and beautifully finished. Depending on the scope, this phase can take two to four weeks.",
+        "Step 4: Planting and Irrigation. With hardscaping complete, we bring the garden to life. We install an efficient irrigation system tailored to your plant choices, then plant trees, shrubs, groundcovers, and turf. We also add mulch or decorative stone. Our plant selection favours species suited to Melbourne's climate for long-term success.",
+        "Step 5: Final Touches and Handover. We clean the site, test all features (lighting, irrigation, louvre controls), and walk you through the completed space. We provide care instructions for plants and maintenance tips for hardscaping. At ID Creation, our job isn't done until you're thrilled. We also offer ongoing maintenance services if needed.",
+        "The entire landscape construction process typically takes six to twelve weeks for a standard residential project in Southbank, depending on complexity and weather. We keep you updated with regular progress photos and site meetings. Ready to start? Contact ID Creation for a free consultation and we'll turn your dream garden into reality."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGFKgifwNpOhSkS9J54Z6oqXoGOGNMnM49mMxSNoyo5fJQU8oLSoUg6ZSXaUQ-KnOsWi1teJ_Q30QVYPWbnh20P68bfu-P7boR8PpKytU2J1EIDv9Zu9JFwqu7P5-MrUDAplJonDBWPhs=w1600-h1200-k-no",
+  "photoRowImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2nqPpxhEKYQcnLj9Tv5gDVd_pADtAXH9LQdTEbN17t7DjGAmN5h6anz_yanUuOHoWywCIp5e4Fb8TJa9AT5X3XcP508CHRscOFlvnNM5r1l7RCKdysOlBBWw-YCKTND_NcMEEOcIqwyzX=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGssYFfou3N9TRZ_9xOma_NbsUcgozl3BctLmsuGY_odw5-lXstA35RXbu3wfGfZvyR2mrf-I0qZI871mWU9wZZW8tLwRkPSEQXoAH3ehwGXtJRZV5hM7rTnxMdM6kt8sjL8a7Bjs08eqt6=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmgj5hpRUrTvCjH6Fokk0USA2zleVf5QBx9-esdTGwyZaSA7WFDzDhZrwN2PT1_r61mVFGiAzHP8MC9x8gNxz5HGv2LUB-9o-eWxQllNPu-GqSX8-RgEwHOz-elLnSyqjjB9BSovPCn1VF=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHrD8MOH9VqNgZm-wckcj9El41MMp0wAedITllZsESJBYEx_UiNyh5-0NfsMyqv6VbpFwP3sQheEnujBkZzlXkoq6deSuIqcSJTxbHAbgCfsJ6FoM4Gf2VloBT4ySk3lR1R5-yXuk8f5Vw=w1600-h1200-k-no"
+  ],
+  "aboutImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGssYFfou3N9TRZ_9xOma_NbsUcgozl3BctLmsuGY_odw5-lXstA35RXbu3wfGfZvyR2mrf-I0qZI871mWU9wZZW8tLwRkPSEQXoAH3ehwGXtJRZV5hM7rTnxMdM6kt8sjL8a7Bjs08eqt6=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmgj5hpRUrTvCjH6Fokk0USA2zleVf5QBx9-esdTGwyZaSA7WFDzDhZrwN2PT1_r61mVFGiAzHP8MC9x8gNxz5HGv2LUB-9o-eWxQllNPu-GqSX8-RgEwHOz-elLnSyqjjB9BSovPCn1VF=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHrD8MOH9VqNgZm-wckcj9El41MMp0wAedITllZsESJBYEx_UiNyh5-0NfsMyqv6VbpFwP3sQheEnujBkZzlXkoq6deSuIqcSJTxbHAbgCfsJ6FoM4Gf2VloBT4ySk3lR1R5-yXuk8f5Vw=w1600-h1200-k-no"
+  ],
+  "fullWidthImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsM32V4h7uYEBp5QRXhtJ5IJG_ylVsL7_-uYjhoYIHb5wqkojIBOOwGc-DQVgJzG5YFhA8qhnETCT4KlrkYnBFl0Q-Non1HpPnXJaTblKndJ2PalpBfFZmL2uBYyz2yw-gMHyZgq18a9Ov=w1600-h1200-k-no",
+  "bannerHeading": "Ready to start your landscape project?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1vtSHoFcXHlNSQqVhIiKe1Af-Pb_OcGEvgDU6e7dGgbjJHcjIQFYY-277gt2uTVeMO_EVmqNCWpAwDG-J46oMHdfIkqhnsBXLmYUaqHpB_3KvIG-0F0ssBHY_1eeM5P3Sm-QkB2hIzrcn=w1600-h1200-k-no",
+  "testimonialsImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEGFKgifwNpOhSkS9J54Z6oqXoGOGNMnM49mMxSNoyo5fJQU8oLSoUg6ZSXaUQ-KnOsWi1teJ_Q30QVYPWbnh20P68bfu-P7boR8PpKytU2J1EIDv9Zu9JFwqu7P5-MrUDAplJonDBWPhs=w1600-h1200-k-no",
+  "galleryImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2nqPpxhEKYQcnLj9Tv5gDVd_pADtAXH9LQdTEbN17t7DjGAmN5h6anz_yanUuOHoWywCIp5e4Fb8TJa9AT5X3XcP508CHRscOFlvnNM5r1l7RCKdysOlBBWw-YCKTND_NcMEEOcIqwyzX=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGssYFfou3N9TRZ_9xOma_NbsUcgozl3BctLmsuGY_odw5-lXstA35RXbu3wfGfZvyR2mrf-I0qZI871mWU9wZZW8tLwRkPSEQXoAH3ehwGXtJRZV5hM7rTnxMdM6kt8sjL8a7Bjs08eqt6=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmgj5hpRUrTvCjH6Fokk0USA2zleVf5QBx9-esdTGwyZaSA7WFDzDhZrwN2PT1_r61mVFGiAzHP8MC9x8gNxz5HGv2LUB-9o-eWxQllNPu-GqSX8-RgEwHOz-elLnSyqjjB9BSovPCn1VF=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHrD8MOH9VqNgZm-wckcj9El41MMp0wAedITllZsESJBYEx_UiNyh5-0NfsMyqv6VbpFwP3sQheEnujBkZzlXkoq6deSuIqcSJTxbHAbgCfsJ6FoM4Gf2VloBT4ySk3lR1R5-yXuk8f5Vw=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsM32V4h7uYEBp5QRXhtJ5IJG_ylVsL7_-uYjhoYIHb5wqkojIBOOwGc-DQVgJzG5YFhA8qhnETCT4KlrkYnBFl0Q-Non1HpPnXJaTblKndJ2PalpBfFZmL2uBYyz2yw-gMHyZgq18a9Ov=w1600-h1200-k-no"
+  ],
+  "pricingBgImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1vtSHoFcXHlNSQqVhIiKe1Af-Pb_OcGEvgDU6e7dGgbjJHcjIQFYY-277gt2uTVeMO_EVmqNCWpAwDG-J46oMHdfIkqhnsBXLmYUaqHpB_3KvIG-0F0ssBHY_1eeM5P3Sm-QkB2hIzrcn=w1600-h1200-k-no"
+}
