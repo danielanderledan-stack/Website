@@ -1,0 +1,338 @@
+{
+  "siteType": "builder",
+  "businessName": "RPC Group Pty Ltd",
+  "suburb": "Southbank",
+  "phone": "+61 3 9645 5210",
+  "email": "admin@rpcongroup.com",
+  "address": "7 Riverside Quay, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8213341,
+    "longitude": 144.9646982
+  },
+  "tagline": "Southbank's Trusted Commercial Builder",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Premier Fitout Builder",
+      "sub": "Office & retail fitouts done right",
+      "image": "https://rpcongroup.com/wp-content/uploads/2020/01/Capture-600x400.jpg"
+    },
+    {
+      "title": "From Concept to Creation",
+      "sub": "20+ years building Melbourne's best spaces",
+      "image": "https://rpcongroup.com/wp-content/uploads/2019/04/9-600x400.jpg"
+    },
+    {
+      "title": "Built Around Your Business",
+      "sub": "No surprises, fixed quotes",
+      "image": "https://rpcongroup.com/wp-content/uploads/2019/04/8-600x400.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted Southbank builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in commercial construction",
+  "aboutText": "With over 20 years in the game, RPC Group has been transforming commercial spaces across Southbank and greater Melbourne. We specialise in office fitouts, retail fitouts, and make good services that are built to last. Our team brings real experience, honest advice, and a down-to-earth approach to every project. Whether it's a small office revamp or a full corporate fitout, we handle it all with zero fuss.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end commercial building solutions",
+  "servicesText": "From office fitouts to restaurant renovations and make good services, RPC Group covers the full spectrum of commercial construction. We work across Southbank, Melbourne CBD, and surrounding suburbs, delivering quality spaces that boost productivity and brand image.",
+  "services": [
+    {
+      "title": "Office Fitouts",
+      "desc": "Custom office fitouts designed for productivity and style.",
+      "longDesc": "We transform tired commercial spaces into modern, functional offices that impress clients and boost staff morale. Our team manages everything from layout to finishes, ensuring a seamless fitout that meets your budget and timeline.",
+      "points": [
+        "Open-plan layouts",
+        "Ergonomic workstations",
+        "Fast turnaround"
+      ]
+    },
+    {
+      "title": "Retail Fitouts",
+      "desc": "Eye-catching retail spaces that drive sales.",
+      "longDesc": "From flagship stores to pop-ups, we deliver retail fitouts that reflect your brand and engage customers. Our experience with major retailers means we know how to create spaces that convert foot traffic into revenue.",
+      "points": [
+        "Brand-focused design",
+        "Customer flow optimisation",
+        "Shopfitting expertise"
+      ]
+    },
+    {
+      "title": "Restaurant Fitouts",
+      "desc": "Restaurant renovations that create atmosphere.",
+      "longDesc": "We specialise in restaurant and cafe fitouts that balance aesthetics with functionality. Our team handles kitchen fitouts, dining area design, and compliance with health regulations, so you can focus on serving great food.",
+      "points": [
+        "Kitchen design",
+        "Dining ambience",
+        "Health compliance"
+      ]
+    },
+    {
+      "title": "Office Make Good",
+      "desc": "Stress-free make good services for end of lease.",
+      "longDesc": "Leaving a leased property? We manage the entire make good process, restoring the space to its original condition per your lease agreement. No surprises, no disputes — just a smooth handover that saves you time and money.",
+      "points": [
+        "Lease compliance",
+        "Full restoration",
+        "Fast clearance"
+      ]
+    },
+    {
+      "title": "Small Office Fitouts",
+      "desc": "Affordable fitouts for small businesses.",
+      "longDesc": "We understand small businesses need smart solutions on a budget. Our small office fitout packages maximise every square metre, creating efficient workspaces that look professional without breaking the bank.",
+      "points": [
+        "Cost-effective",
+        "Space optimisation",
+        "Quick installation"
+      ]
+    },
+    {
+      "title": "Corporate Fitouts",
+      "desc": "Large-scale fitouts for corporate head offices.",
+      "longDesc": "For large corporates, we deliver end-to-end fitout solutions including design, project management, and construction. Our team coordinates with all stakeholders to deliver complex projects on time and on budget.",
+      "points": [
+        "Full project management",
+        "Compliance auditing",
+        "Scalable solutions"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "RPC Group did an amazing job on our office fitout in Southbank. The team was professional, the project ran on schedule, and the result is a modern workspace our staff love. Highly recommend.",
+      "name": "Sarah W.",
+      "role": "Southbank Business Owner"
+    },
+    {
+      "text": "We needed a quick retail fitout for our pop-up store and RPC delivered in record time. The quality of the finishes was top-notch and they worked around our trading hours. Great crew.",
+      "name": "Mark T.",
+      "role": "Retail Manager"
+    },
+    {
+      "text": "The make good service RPC provided saved us thousands. They handled every detail, kept us informed, and the final inspection passed without a hitch. Professional from start to finish.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "Richmond",
+    "Fitzroy",
+    "St Kilda",
+    "Port Melbourne",
+    "South Yarra"
+  ],
+  "about": {
+    "intro": "RPC Group has been building and renovating commercial spaces in Southbank and across Melbourne for over 20 years.",
+    "story": [
+      "RPC Group started with a simple mission: deliver quality commercial construction without the corporate fluff. Founders saw too many fitout projects go over budget and over time, so they built a business around honest communication, fixed-price quotes, and real accountability. Today we work with some of Australia's biggest brands, but we still run the business the same way — transparent, reliable, and focused on getting it right.",
+      "From small office fitouts to multi-million dollar corporate projects, our team brings decades of combined experience. We've got a knack for turning empty shells into vibrant workspaces that people actually enjoy being in. Every project gets the same dedication, whether it's a one-room make good or a full-floor headquarters. We take pride in our workmanship and it shows in the results."
+    ],
+    "mission": "To build functional, beautiful commercial spaces across Southbank and Melbourne that help businesses thrive, delivered on time and on budget with zero surprises.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We've been working in Southbank and Melbourne for over 20 years. We know the council requirements, the best tradies, and how to get things done fast."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "No hourly rates, no blowouts. We give you a clear fixed-price quote upfront and stick to it. What you see is what you pay."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule. Our project managers keep everything moving so your fitout is ready when you need it, not a week later."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We only use the best materials and licensed tradespeople. Every finish is checked twice. If it's not right, we fix it — no questions asked."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "WorkSafe accredited"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is different, so we tailor our pricing to your specific needs. Here's a rough guide to what you can expect working with RPC Group in Southbank.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Office Fitout",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design & build",
+          "Fixed-price contract",
+          "Project management",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom Corporate Fitout",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "End-to-end delivery",
+          "Compliance auditing",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All our quotes are fixed upfront with no hidden fees — so you can budget with confidence."
+  },
+  "contact": {
+    "intro": "Ready to talk about your next commercial project in Southbank or Melbourne? Give us a call or send an email and we'll arrange a free on-site consultation."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "RPC Group | Southbank Commercial Builder | Office Fitouts Melbourne",
+      "description": "RPC Group is Southbank's trusted commercial builder specialising in office fitouts, retail fitouts, and make good services. 20+ years, fixed pricing, Melbourne-wide."
+    },
+    "about": {
+      "title": "About RPC Group — Southbank's Family Commercial Builder",
+      "description": "Learn about RPC Group, a Southbank-based commercial builder with over 20 years experience in office fitouts, retail fitouts, and make good services across Melbourne."
+    },
+    "services": {
+      "title": "Commercial Building Services in Southbank | RPC Group",
+      "description": "RPC Group offers office fitouts, retail fitouts, restaurant renovations, and make good services in Southbank and Melbourne. Expert commercial builders with fixed pricing."
+    },
+    "pricing": {
+      "title": "Commercial Fitout Costs Southbank | RPC Group Pricing Guide",
+      "description": "Get a clear picture of commercial fitout costs in Southbank with RPC Group. Free initial consultations, fixed-price quotes, and no hidden fees. Call us today."
+    },
+    "contact": {
+      "title": "Contact RPC Group | Free Commercial Fitout Consultation",
+      "description": "Contact RPC Group for a free consultation on your office fitout, retail fitout, or make good project in Southbank and Melbourne. Call 03 9645 5210."
+    },
+    "blog": {
+      "title": "Southbank Commercial Building Blog | RPC Group",
+      "description": "Read the latest from RPC Group on office fitout costs, retail fitout tips, make good services, and commercial building advice for Southbank and Melbourne businesses."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does an Office Fitout Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about office fitout costs in Southbank? We break down the numbers, from basic make goods to full corporate fitouts, with real Melbourne prices.",
+      "image": "https://rpcongroup.com/wp-content/uploads/2024/07/custom-office-fitouts-Melbourne.webp",
+      "body": [
+        "If you're planning an office fitout in Southbank in 2026, one of the first questions you'll ask is 'how much is this going to cost?' And it's a fair question — commercial fitouts can range from a modest $30,000 for a small office make good to well over $500,000 for a full corporate floor. In this guide, we break down the typical costs you can expect for different types of fitouts in the Southbank and Melbourne CBD area, based on our 20+ years of experience.",
+        "The biggest factor driving cost is the scope of work. A basic make good — where you're just restoring a leased space to its original condition — is the cheapest option, typically starting around $15,000 to $40,000 depending on the size and condition of the space. On the other hand, a full design and build office fitout with new partitions, electricals, data cabling, and premium finishes can easily hit $150,000 to $300,000 for a 200-square-metre space. The key is to get a detailed scope before you budget.",
+        "Location matters too. Southbank and Melbourne CBD have premium rates for tradies and materials due to access restrictions, union requirements, and high demand. If your project is in a high-rise with limited loading dock access, expect to pay a premium for logistics. We always advise clients to budget an extra 10-15% for unexpected site conditions, especially in older buildings where the concrete slab or ceiling might need remediation.",
+        "Another big cost driver is the level of fitout finish. Basic 'cat A' fitouts (just the bare shell with services) might cost $800-$1,200 per square metre. A 'cat B' fitout with full partitioning, carpet, paint, and lighting runs $1,500-$2,500 per square metre. And if you're after a premium fitout with feature walls, designer joinery, and smart technology, you're looking at $3,000+ per square metre. We always recommend getting at least three competitive quotes from reputable builders.",
+        "Don't forget about hidden costs. Things like fire safety compliance, accessible bathrooms, and building permits can add 10-20% to your budget. Many Southbank buildings also require strict after-hours work conditions, which can push up labour costs. The best way to avoid surprises is to work with a builder who does a thorough site inspection upfront and provides a fixed-price contract. That's what we do at RPC Group — no hourly rates, no blowouts.",
+        "Finally, think about timing and project management. A rushed fitout always costs more because you're paying for overtime and urgent material orders. Give yourself at least 8-12 weeks for a typical office fitout in Southbank, longer if it's a large corporate project. And always choose a builder who assigns a dedicated project manager — someone who coordinates the electricians, carpenters, painters, and data guys so everything runs on schedule. That alone can save you thousands in delays."
+      ]
+    },
+    {
+      "title": "Restaurant Fitout Costs in Melbourne: A Complete Guide for 2026",
+      "date": "February 2026",
+      "excerpt": "Thinking of opening a restaurant in Melbourne? Here's everything you need to know about restaurant fitout costs, permits, and timelines for 2026.",
+      "image": "https://rpcongroup.com/wp-content/uploads/2018/11/MahaSelects-BrookJames-Large-26-600x400.jpg",
+      "body": [
+        "Opening a restaurant in Melbourne is an exciting venture, but the fitout process can be daunting. In 2026, the cost of a restaurant fitout in Melbourne typically ranges from $150,000 for a small cafe to over $600,000 for a full-service restaurant with a commercial kitchen. The final number depends heavily on the size of the space, the quality of finishes, and whether you're fitting out a new shell or renovating an existing venue.",
+        "The kitchen is usually the most expensive part of any restaurant fitout. A commercial kitchen fitout can cost anywhere from $30,000 to $150,000 depending on the equipment you need — rangehoods, cool rooms, fryers, and fire suppression systems all add up. In Melbourne, you also need to meet strict health department regulations, which often require stainless steel benchtops, easy-clean floor drains, and specific ventilation systems. Don't cut corners here; a failed health inspection can delay your opening by weeks.",
+        "The dining area fitout is where you can really express your brand. This includes flooring, lighting, wall finishes, furniture, and decor. For a mid-range restaurant, expect to spend $50,000 to $100,000 on the dining area. High-end venues with designer furniture and custom joinery can easily exceed $200,000. We always recommend investing in good lighting — it sets the mood and makes your food look better in photos, which is essential for social media marketing.",
+        "Don't forget about the bar and service areas. A fully fitted bar with back bar shelving, glasswashers, and under-counter refrigeration can cost $20,000 to $60,000. If you're serving cocktails, you'll need dedicated cocktail stations with ice wells and speed rails. And remember that in Melbourne, you'll need a liquor licence application which can take 3-6 months and cost around $5,000 to $15,000 in fees — factor that into your timeline.",
+        "Permits and approvals are another major consideration. In Melbourne, any restaurant fitout requires a building permit, and depending on the scope, you may also need a planning permit if you're changing the use of the space. Fire safety compliance is mandatory, including fire-rated ceilings, sprinkler systems, and emergency exits. Budget at least $10,000-$20,000 for permits and compliance, and always work with a builder who knows the local council requirements.",
+        "Timeline-wise, a typical restaurant fitout in Melbourne takes 8 to 16 weeks from start to finish. The biggest delays usually come from kitchen equipment lead times (some commercial ovens take 10 weeks), and council inspections. Our advice: get your builder involved early, preferably during the lease negotiation stage, so they can assess the space and flag any issues before you sign. At RPC Group, we've done dozens of restaurant fitouts across Southbank and Melbourne and can help you navigate the whole process."
+      ]
+    },
+    {
+      "title": "What Is an Office Make Good? A Southbank Business Owner's Guide",
+      "date": "January 2026",
+      "excerpt": "If you're leasing commercial space in Southbank, you need to understand make good clauses. Here's what they mean and how to manage the process without stress.",
+      "image": "https://rpcongroup.com/wp-content/uploads/2024/07/custom-office-fitouts-Melbourne.webp",
+      "body": [
+        "If you're a business owner leasing commercial space in Southbank or Melbourne CBD, chances are your lease agreement includes a 'make good' clause. This clause requires you to restore the premises to its original condition at the end of the lease. Many tenants underestimate the cost and complexity of make good works, which can easily run into tens of thousands of dollars if not managed properly. Understanding the process early can save you a lot of stress and money.",
+        "A standard make good typically involves removing all your fitted furniture, partitions, and equipment, repairing any damage to walls and floors, repainting, and reinstating the ceiling and lighting. If you've installed a kitchen or bathroom, you may need to remove those too. The exact scope depends on your lease — some landlords require a 'bare shell' condition, while others are more relaxed. Always read your lease carefully and clarify the make good requirements before you sign.",
+        "The cost of an office make good in Southbank varies based on the size of the space and the extent of the work. For a small 50-square-metre office, you might spend $10,000 to $20,000. For a larger 200-square-metre space with custom partitions and data cabling, costs can reach $40,000 to $80,000. The cheapest way to handle a make good is to negotiate with the landlord to take the space 'as is' — sometimes they'll agree, especially if the next tenant can use your fitout.",
+        "Timing is critical for make good works. Most leases require you to hand back the premises within a specific timeframe after the lease ends (often 30 days). If you're late, you may face daily penalties or lose your bond. That's why it's smart to start planning your make good at least 3 months before your lease expires. Book a builder early, get a fixed-price quote, and schedule the work so it aligns with your move-out date.",
+        "One of the biggest mistakes tenants make is trying to do the make good themselves or hiring an unlicensed handyman. If the works don't meet the landlord's standards, they can reject them and you'll have to pay again. Always use a licensed commercial builder who knows the local requirements. At RPC Group, we've managed hundreds of make good projects across Southbank and Melbourne. We liaise directly with your landlord or property manager, so you don't have to.",
+        "Finally, consider using a professional project manager for your make good. They can coordinate the trades, handle the paperwork, and ensure the space is signed off without drama. Many tenants think they're saving money by managing it themselves, but in reality, a good project manager will cost a fraction of what you'd lose in penalties and reworks. The bottom line: treat your make good as a serious project, not an afterthought. Get it done right and you'll walk away with your bond intact and no surprises."
+      ]
+    },
+    {
+      "title": "Retail Fitout Design Trends in Melbourne for 2026",
+      "date": "December 2025",
+      "excerpt": "Retail fitout design is evolving fast. Here are the top trends shaping Melbourne's retail spaces in 2026, from sustainable materials to tech integration.",
+      "image": "https://rpcongroup.com/wp-content/uploads/2019/04/3-600x400.jpg",
+      "body": [
+        "Retail fitout design in Melbourne is always evolving, and 2026 is shaping up to be a big year for innovation. With consumers demanding more experiential shopping and brands needing to stand out in a competitive market, retail fitouts are becoming more creative, sustainable, and tech-driven. Whether you're planning a flagship store in the CBD or a boutique in Southbank, staying on top of these trends can help you create a space that attracts customers and drives sales.",
+        "Sustainability is the number one trend for 2026. Melbourne consumers are increasingly eco-conscious, and they expect the same from the brands they support. This means using recycled materials, energy-efficient lighting, and low-VOC paints in your fitout. Reclaimed timber, recycled steel, and biodegradable display units are all popular choices. Not only do sustainable materials reduce your environmental footprint, but they also tell a story — something that resonates with today's shoppers.",
+        "Technology integration is another huge trend. Smart mirrors, interactive displays, and digital price tags are becoming standard in retail fitouts. Customers want to touch, scan, and interact with products before they buy. In Melbourne, many retailers are also incorporating augmented reality (AR) fitting rooms where customers can see how clothes look without trying them on. These features require careful planning in the fitout stage, including additional power and data points, so it's important to brief your builder early.",
+        "Flexibility is key in 2026. Retail spaces need to adapt quickly to changing seasons, promotions, and inventory. Modular shelving, movable walls, and pop-up zones allow you to reconfigure your store in hours rather than days. We're also seeing more 'phygital' spaces — stores that blend physical and digital experiences, like click-and-collect counters with integrated screens showing online inventory. Your fitout should be designed to accommodate these future needs without major renovations.",
+        "Lighting continues to be a game-changer in retail fitouts. LED track lighting with adjustable colour temperature lets you change the mood of your store throughout the day — bright and energetic for morning shoppers, warmer and cosy for evening browsing. Feature lighting also draws attention to key products. In Melbourne's competitive retail market, a well-lit store can make the difference between a window-shopper and a paying customer. Always work with a lighting designer who specialises in retail.",
+        "Finally, don't underestimate the power of local character. Melbourne is known for its unique neighbourhoods — each with its own vibe. A retail fitout in Fitzroy should feel different from one in Southbank. Incorporate local materials, artwork, or design elements that reflect the area. Customers appreciate when a brand feels authentically connected to its location. At RPC Group, we help retailers design fitouts that capture that local essence while delivering a premium shopping experience."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://rpcongroup.com/wp-content/uploads/2018/11/rpa-after-600x400.jpg",
+  "photoRowImages": [
+    "https://rpcongroup.com/wp-content/uploads/2018/11/maha-bar-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2018/11/optimized-samsung-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2018/11/maha-lounge-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2018/11/MahaSelects-BrookJames-Large-26-600x400.jpg"
+  ],
+  "aboutImages": [
+    "https://rpcongroup.com/wp-content/uploads/2024/07/custom-office-fitouts-Melbourne.webp",
+    "https://rpcongroup.com/wp-content/uploads/2020/01/Capture-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2019/04/9-600x400.jpg"
+  ],
+  "fullWidthImage": "https://rpcongroup.com/wp-content/uploads/2019/04/8-600x400.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://rpcongroup.com/wp-content/uploads/2018/11/rpa-after-600x400.jpg",
+  "testimonialsImage": "https://rpcongroup.com/wp-content/uploads/2024/07/custom-office-fitouts-Melbourne.webp",
+  "galleryImages": [
+    "https://rpcongroup.com/wp-content/uploads/2019/04/8-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2019/04/3-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2018/11/maha-lounge-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2018/11/maha-bar-600x400.jpg",
+    "https://rpcongroup.com/wp-content/uploads/2018/11/MahaSelects-BrookJames-Large-26-600x400.jpg"
+  ],
+  "pricingBgImage": "https://rpcongroup.com/wp-content/uploads/2019/04/3-600x400.jpg"
+}
