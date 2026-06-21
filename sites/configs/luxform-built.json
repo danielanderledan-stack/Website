@@ -1,0 +1,338 @@
+{
+  "siteType": "builder",
+  "businessName": "Luxform Built",
+  "suburb": "Southbank",
+  "phone": "+61468737735",
+  "email": "admin@luxform.com.au",
+  "address": "Level 7/80 Dorcas St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8309189,
+    "longitude": 144.9669371
+  },
+  "tagline": "Luxform Built — Southbank's Luxury Builder",
+  "primaryColor": "#FFD700",
+  "primaryColorRgb": "255, 215, 0",
+  "primaryColorHover": "#E6C200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builder",
+      "sub": "Luxury custom homes & renovations",
+      "image": "https://luxform.com.au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkyo2l5i3%2Fproduction%2F73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg&w=3840&q=75"
+    },
+    {
+      "title": "Built Around Your Vision",
+      "sub": "Fixed quotes, no surprises",
+      "image": "https://midrkyvoweuvbuh5.public.blob.vercel-storage.com/1HoWTHa-fWvpeEfHR2vLYKL5vFhojkeFO4na90.png"
+    },
+    {
+      "title": "20+ Years Combined Experience",
+      "sub": "Local & licensed",
+      "image": "https://cdn.sanity.io/images/kyo2l5i3/production/73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Ready to get started?",
+    "Luxform Built has",
+    "the experience you need."
+  ],
+  "aboutHeading": "About Luxform Built — Southbank's Luxury Builder",
+  "aboutSubheading": "20+ Years Combined Experience",
+  "aboutText": "Luxform Built is a Southbank-based custom home builder with over 20 years of combined experience. Founded by Jacob Sheehan and Richard Caruso, we specialise in luxury residential construction across Melbourne's inner suburbs. From heritage renovations in East Melbourne to modern custom homes in Southbank, we deliver quality craftsmanship and transparent communication.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end luxury building solutions",
+  "servicesText": "From custom home builds to heritage renovations and luxury apartment fit-outs, Luxform Built offers a full range of construction services in Southbank and beyond. We manage every stage — from initial consultation to final handover — ensuring a seamless, stress-free experience.",
+  "services": [
+    {
+      "title": "Custom Home Building",
+      "desc": "Luxury custom homes designed and built to your exact specifications in Southbank and Melbourne.",
+      "longDesc": "We build bespoke homes in Southbank and Melbourne's inner suburbs, from initial design to turnkey handover. Our team manages all aspects, including council approvals and fixed-price contracts.",
+      "points": [
+        "Bespoke design",
+        "Fixed-price contracts",
+        "Turnkey delivery"
+      ]
+    },
+    {
+      "title": "Heritage Renovations",
+      "desc": "Sensitive renovations that honour the original character while modernising for today.",
+      "longDesc": "With Richard's background in heritage renovations, we specialise in restoring and updating period homes across East Melbourne, South Yarra, and beyond.",
+      "points": [
+        "Period details preserved",
+        "Modern amenities",
+        "Council approvals handled"
+      ]
+    },
+    {
+      "title": "Luxury Apartment Fit-Outs",
+      "desc": "High-end apartment renovations in Melbourne's premier buildings.",
+      "longDesc": "We deliver top-tier fit-outs for apartments in Southbank, Docklands, and St Kilda, with meticulous attention to detail and premium finishes.",
+      "points": [
+        "Premium finishes",
+        "Minimal disruption",
+        "Fixed timeline"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Seamless extensions that add space and value to your property.",
+      "longDesc": "Whether it's a rear extension, second storey, or wraparound addition, we integrate new spaces perfectly with the existing structure.",
+      "points": [
+        "Space maximised",
+        "Structural integrity",
+        "Value-adding design"
+      ]
+    },
+    {
+      "title": "Design & Construct",
+      "desc": "End-to-end design and construction under one roof for cohesive results.",
+      "longDesc": "Our design & construct service streamlines the process, with in-house collaboration between architects, engineers, and builders to deliver cost-effective outcomes.",
+      "points": [
+        "Single point of contact",
+        "Design integration",
+        "Cost certainty"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "Professional oversight for complex residential builds.",
+      "longDesc": "We offer dedicated project management for large-scale residential projects, ensuring timelines, budgets, and quality standards are met throughout.",
+      "points": [
+        "Schedule control",
+        "Budget management",
+        "Quality assurance"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank",
+  "reviews": [
+    {
+      "text": "Luxform Built built our dream home in Southbank and the result is beyond what we imagined. Richard and Jacob supported us every step with clear communication and exceptional attention to detail. We highly recommend them for luxury custom homes.",
+      "name": "Natasha T.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "We recently renovated our 1920s East Melbourne home with Luxform Built. From start to finish they were professional, confident, and took great pride in their work. The craftsmanship is outstanding.",
+      "name": "Susan V.",
+      "role": "East Melbourne Homeowner"
+    },
+    {
+      "text": "We hired Luxform for a luxury apartment renovation in Southbank. They delivered on time, within budget, and the finishes are superb. Truly a professional and trustworthy team.",
+      "name": "Mark D.",
+      "role": "Southbank Property Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "East Melbourne",
+    "South Yarra",
+    "Docklands",
+    "St Kilda",
+    "Richmond",
+    "Toorak"
+  ],
+  "about": {
+    "intro": "Luxform Built is a family-owned luxury custom home builder based in Southbank, serving Melbourne's premier suburbs with over 20 years of combined experience.",
+    "story": [
+      "Luxform Built was founded by Jacob Sheehan and Richard Caruso, two experienced builders who wanted to create a company that prioritises trust, transparency, and craftsmanship. Jacob's journey began at age 13, working on building sites, followed by formal training at RMIT and years managing complex luxury projects. Richard started as a carpenter specialising in heritage renovations, bringing over 20 years of hands-on expertise.",
+      "Together they combine traditional tradesmanship with modern construction techniques. Their shared passion for detail and client satisfaction led them to establish Luxform Built, a boutique builder focused on delivering exceptional living spaces across Melbourne. Every project is treated as a collaboration, with open communication and a fixed-price approach from the start.",
+      "From custom homes in Southbank to heritage restorations in East Melbourne, Luxform Built has built a reputation for quality and integrity. The founders' hands-on involvement ensures every job receives the same level of care and attention, no matter the scale."
+    ],
+    "mission": "To build exceptional homes that reflect our clients' vision, with integrity, transparency, and meticulous craftsmanship in every detail.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Southbank and inner Melbourne suburbs, including council requirements and local suppliers."
+      },
+      {
+        "title": "Fixed-Price Guarantee",
+        "text": "We provide a fixed tender quote before construction begins so there are no surprises along the way."
+      },
+      {
+        "title": "Personalised Service",
+        "text": "Direct access to the founders throughout the build, with clear communication and a collaborative approach."
+      },
+      {
+        "title": "Quality Craftsmanship",
+        "text": "Every detail is finished to the highest standard, backed by years of experience and a commitment to excellence."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Combined Experience"
+      },
+      {
+        "value": "50+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Master Builders Association Member",
+      "Public Liability Insurance up to $20M",
+      "Full Residential Building Licence"
+    ]
+  },
+  "pricing": {
+    "intro": "At Luxform Built, we believe in transparent pricing. Every project starts with a free consultation and a detailed fixed-price quote — no hidden fees, no surprises.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Renovation Package",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom Home Build",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront, so you know exactly where you stand before construction begins."
+  },
+  "contact": {
+    "intro": "Ready to discuss your dream home or renovation? Get in touch with Luxform Built for a free, no-obligation consultation. We'd love to hear about your vision."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Luxform Built | Southbank Custom Home Builder | Luxury Homes",
+      "description": "Luxform Built is Southbank's premier custom home builder specialising in luxury residential construction. From heritage renovations to new builds, we deliver quality craftsmanship and fixed-price guarantees. Call 0468 737 735."
+    },
+    "about": {
+      "title": "About Luxform Built — Southbank's Luxury Builder Team",
+      "description": "Learn about Luxform Built's founders Jacob Sheehan and Richard Caruso, their 20+ years experience, and commitment to transparent, high-quality custom home building in Southbank and Melbourne."
+    },
+    "services": {
+      "title": "Luxury Building Services in Southbank | Luxform Built",
+      "description": "Explore Luxform Built's full range of luxury building services: custom homes, heritage renovations, apartment fit-outs, extensions, and project management in Southbank, East Melbourne, and beyond."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Luxform Built",
+      "description": "Get transparent pricing from Luxform Built for your luxury home or renovation. Free initial consultation and fixed-price quotes. No hidden fees. Serving Southbank and inner Melbourne."
+    },
+    "contact": {
+      "title": "Contact Luxform Built | Free Consultation Southbank",
+      "description": "Contact Luxform Built for a free, no-obligation consultation. Call 0468 737 735 or email admin@luxform.com.au. Let's start your luxury building project in Southbank."
+    },
+    "blog": {
+      "title": "Southbank Building & Renovation Blog | Luxform Built",
+      "description": "Read expert tips, cost guides, and local advice from Luxform Built on luxury home building and renovations in Southbank, Melbourne. Stay informed with our latest blog posts."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Custom Home Cost in Southbank, Melbourne?",
+      "date": "March 2026",
+      "excerpt": "Discover the real cost of building a luxury custom home in Southbank, including factors like design, materials, council fees, and fixed-price contracts from Luxform Built.",
+      "image": "https://luxform.com.au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkyo2l5i3%2Fproduction%2F73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg&w=3840&q=75",
+      "body": [
+        "Building a custom home in Southbank is an exciting journey, but one of the first questions every client asks is: 'How much will it cost?' The answer depends on several factors including the size of the home, the complexity of the design, and the finishes you choose. In Melbourne's inner suburbs, luxury custom homes typically range from $1,500 to $3,000 per square metre, with high-end projects often exceeding that. Southbank's premium location and council requirements can also influence the final figure.",
+        "Luxform Built specialises in fixed-price contracts, which means you'll know the total cost before construction begins. We provide a detailed tender quote after the design phase, breaking down every element from structural work to joinery and landscaping. This transparency ensures there are no surprises along the way. Our process includes a thorough feasibility check at the start, covering site conditions, zoning, and any heritage overlays that might apply in Southbank or nearby suburbs.",
+        "Design fees typically account for 8–12% of the total build cost. This includes architectural drawings, engineering, and interior design consultations. At Luxform Built, we work closely with trusted architects and consultants to ensure your vision aligns with your budget. We recommend setting aside a contingency of 10–15% for unforeseen site conditions, especially in older Southbank areas where underground services or soil issues can arise.",
+        "Council fees and permits are another significant cost. In Southbank, you'll need a building permit from the City of Melbourne, which can cost between $2,000 and $10,000 depending on the project's scope. Additionally, if your home is in a heritage overlay, you may require a heritage impact assessment. Our team handles all council liaison as part of our service, saving you time and stress.",
+        "Material choices greatly affect the final price. For luxury homes, clients often opt for natural stone benchtops, solid timber floors, custom cabinetry, and high-end appliances. These can add 30–50% compared to standard finishes. Luxform Built sources premium materials directly from trusted suppliers, and we provide clear options at every stage so you can balance quality with cost.",
+        "Labour costs in Melbourne remain competitive, but skilled trades are in high demand. We employ qualified carpenters, plasterers, and finishers who take pride in their work. Our fixed-price contracts protect you from price fluctuations in materials or labour. When you build with Luxform Built, you get a comprehensive warranty and ongoing support after handover, ensuring your investment is protected for years to come."
+      ]
+    },
+    {
+      "title": "How to Choose a Luxury Home Builder in Melbourne's Inner Suburbs",
+      "date": "February 2026",
+      "excerpt": "A step-by-step guide to selecting the right builder for your luxury home or renovation in Southbank, East Melbourne, and beyond — from checking licences to reviewing past projects.",
+      "image": "https://midrkyvoweuvbuh5.public.blob.vercel-storage.com/1HoWTHa-fWvpeEfHR2vLYKL5vFhojkeFO4na90.png",
+      "body": [
+        "Choosing the right builder for your luxury home is one of the most important decisions you'll make. In Melbourne's inner suburbs like Southbank, East Melbourne, and South Yarra, the market is filled with options but not all builders are equal. Start by checking their licence and insurance. Every builder in Victoria must hold a registered building practitioner licence. Luxform Built is fully licensed and insured, providing peace of mind from day one.",
+        "Look at their portfolio of completed projects. A reputable builder will have a range of homes that showcase their craftsmanship. For luxury builds, you want to see attention to detail in joinery, finishes, and spatial planning. Ask for references and take the time to speak with past clients. Our clients often highlight our communication, transparency, and the personal involvement of the founders in every project.",
+        "Consider their experience with projects similar to yours. If you're renovating a heritage home in East Melbourne, you need a builder who understands heritage overlays and traditional construction methods. Richard Caruso's background in heritage renovations makes Luxform Built an ideal partner for such projects. For modern custom homes, Jacob Sheehan's experience with complex architectural details ensures precision.",
+        "Transparency in pricing is critical. Avoid builders who provide vague estimates or refuse to give a fixed quote. At Luxform Built, we provide a detailed fixed tender quote after the design phase. This includes a breakdown of costs for each trade, materials, and contingency. We believe in no hidden fees and clear communication throughout the build.",
+        "Meet the team in person. A luxury build is a collaborative process that can last many months. You need to feel comfortable with the builder and trust their advice. Our founders are directly involved in every project, from the initial meeting to the final walk-through. We take the time to understand your lifestyle, preferences, and budget before we start.",
+        "Finally, check their industry affiliations and warranties. Membership in the Master Builders Association and proper warranties demonstrate a commitment to professionalism. Luxform Built offers a comprehensive warranty on all workmanship and materials, and we stand behind every home we build. By following these steps, you'll find a builder who delivers quality, integrity, and a home you'll love for decades."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Heritage Home Renovations in East Melbourne",
+      "date": "January 2026",
+      "excerpt": "Everything you need to know about renovating a heritage home in East Melbourne, including council approvals, period-appropriate materials, and working with a specialist builder like Luxform Built.",
+      "image": "https://cdn.sanity.io/images/kyo2l5i3/production/73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg",
+      "body": [
+        "Renovating a heritage home in East Melbourne is both a privilege and a challenge. These beautiful period properties require careful planning to preserve their character while introducing modern amenities. East Melbourne is known for its Victorian and Edwardian terraces, many of which are covered by heritage overlays. Any renovation must respect the original fabric and comply with strict council guidelines.",
+        "The first step is understanding your property's heritage status. Contact the City of Melbourne to check if your home is individually listed or part of a heritage precinct. You may need a heritage impact statement from a qualified professional. Luxform Built has extensive experience navigating these approvals, and we work with heritage consultants to ensure your renovation meets all requirements.",
+        "When it comes to materials, authenticity matters. Original features such as cornices, ceiling roses, leadlight windows, and timber floorboards should be restored where possible. For additions, we recommend sympathetic materials like recycled bricks, slate roofing, and timber sash windows. Modern elements like underfloor heating and ducted air-conditioning can be discreetly integrated without compromising the home's heritage value.",
+        "The structural challenges of heritage homes often include uneven floors, rising damp, and outdated wiring. A thorough structural assessment before starting is essential. Luxform Built's team includes carpenters skilled in traditional techniques, so we can repair and reinforce original timber frames while preserving their integrity. We also handle asbestos removal safely and in compliance with regulations.",
+        "Kitchens and bathrooms are where many heritage renovations see the biggest changes. Our approach is to create functional, modern spaces that feel like a natural part of the home. We use custom joinery that mirrors the period style, with shaker cabinets, brass fixtures, and butler sinks. Stone benchtops and modern appliances are carefully chosen to blend seamlessly.",
+        "The result is a home that retains its original charm but lives comfortably for today's family. Heritage renovations typically take 6 to 12 months depending on scope. Luxform Built manages every stage with a detailed timeline and regular updates. We're proud to have transformed many East Melbourne homes into beautiful, liveable spaces that honour their history."
+      ]
+    },
+    {
+      "title": "Luxury Apartment Renovation in Southbank: What to Expect",
+      "date": "December 2025",
+      "excerpt": "Thinking of renovating your Southbank apartment? This guide covers everything from body corporate approvals to premium finishes, timelines, and working with Luxform Built.",
+      "image": "https://cdn.sanity.io/images/kyo2l5i3/production/36d2c9ec2202919900bb61ec02cf79fb710bd313-1800x1200.jpg",
+      "body": [
+        "Southbank is home to some of Melbourne's most prestigious apartment buildings, and renovating a luxury apartment comes with its own set of rules and opportunities. Whether you're updating a kitchen, bathroom, or doing a full fit-out, you'll need to navigate body corporate regulations, building managers, and strict noise restrictions. Luxform Built has extensive experience in apartment renovations across Southbank and Docklands.",
+        "The first step is obtaining approval from your owners corporation. Most buildings require a detailed renovation application, including plans, insurance certificates, and a timeline of works. We handle all the paperwork and liaise directly with the building manager to ensure everything is approved before we start. Some buildings have restricted working hours, which we factor into our schedule.",
+        "Luxury apartment renovations focus on maximising space and light. Southbank apartments often feature floor-to-ceiling windows and open-plan layouts. Our designs enhance these features with minimal structural changes. For example, we can install custom joinery that integrates storage seamlessly, upgrade lighting to smart systems, and replace flooring with premium timber or stone.",
+        "High-end finishes define a luxury renovation. Popular choices include marble benchtops, Miele appliances, custom cabinetry with soft-close mechanisms, and feature wall tiles in bathrooms. We source materials from leading suppliers and offer samples so you can see and feel the quality before committing. Our fixed-price quote covers everything, so there are no surprise costs.",
+        "Timelines for apartment renovations are typically shorter than houses — often 4 to 8 weeks for a kitchen or bathroom, and up to 12 weeks for a full fit-out. We work efficiently to minimise disruption and keep the worksite clean and secure. Our team is experienced in working in occupied buildings, coordinating with building management for deliveries and waste removal.",
+        "The result is a transformed living space that reflects your style and meets the highest standards of luxury living. Whether you're preparing to sell or creating your dream home, a well-executed renovation adds significant value. Luxform Built has completed numerous apartment projects in Southbank, and our clients appreciate the care, communication, and quality we bring to every project."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://luxform.com.au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkyo2l5i3%2Fproduction%2F73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg&w=3840&q=75",
+  "photoRowImages": [
+    "https://midrkyvoweuvbuh5.public.blob.vercel-storage.com/1HoWTHa-fWvpeEfHR2vLYKL5vFhojkeFO4na90.png",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/36d2c9ec2202919900bb61ec02cf79fb710bd313-1800x1200.jpg",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/28d9383d869bcab35a24389d71a299ee92bcc852-1400x1900.jpg"
+  ],
+  "aboutImages": [
+    "https://luxform.com.au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkyo2l5i3%2Fproduction%2F73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg&w=3840&q=75",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/36d2c9ec2202919900bb61ec02cf79fb710bd313-1800x1200.jpg"
+  ],
+  "fullWidthImage": "https://cdn.sanity.io/images/kyo2l5i3/production/28d9383d869bcab35a24389d71a299ee92bcc852-1400x1900.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://midrkyvoweuvbuh5.public.blob.vercel-storage.com/1HoWTHa-fWvpeEfHR2vLYKL5vFhojkeFO4na90.png",
+  "testimonialsImage": "https://cdn.sanity.io/images/kyo2l5i3/production/73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg",
+  "galleryImages": [
+    "https://luxform.com.au/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkyo2l5i3%2Fproduction%2F73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg&w=3840&q=75",
+    "https://midrkyvoweuvbuh5.public.blob.vercel-storage.com/1HoWTHa-fWvpeEfHR2vLYKL5vFhojkeFO4na90.png",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/73342b09f9c5aeb3f7be9215f49423b09648676f-2560x1680.jpg",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/36d2c9ec2202919900bb61ec02cf79fb710bd313-1800x1200.jpg",
+    "https://cdn.sanity.io/images/kyo2l5i3/production/28d9383d869bcab35a24389d71a299ee92bcc852-1400x1900.jpg"
+  ],
+  "pricingBgImage": "https://cdn.sanity.io/images/kyo2l5i3/production/36d2c9ec2202919900bb61ec02cf79fb710bd313-1800x1200.jpg"
+}
