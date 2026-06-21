@@ -1,0 +1,338 @@
+{
+  "siteType": "builder",
+  "businessName": "Lotus Living",
+  "suburb": "Southbank",
+  "phone": "+61 4 7444 4504",
+  "email": "info@lotusliving.com.au",
+  "address": "Level 35/2 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8219888,
+    "longitude": 144.9629718
+  },
+  "tagline": "Southbank's premier developer",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00b8d4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Developer",
+      "sub": "Building communities with heart",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/Project-Logos-2.png"
+    },
+    {
+      "title": "Award-Winning Projects",
+      "sub": "100% Australian owned",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/banner.jpg"
+    },
+    {
+      "title": "Lotus Living in Southbank",
+      "sub": "Welcoming places to live",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2025/06/AS1_9837-1024x684.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted Southbank developer",
+    "is ready to help."
+  ],
+  "aboutHeading": "Developers Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in development",
+  "aboutText": "Lotus Living has been building communities with heart and soul across Southbank and Victoria for over a decade. As an award-winning, 100% Australian-owned developer, we take pride in delivering welcoming places to live, work and play. Our team brings deep local knowledge and a down-to-earth approach to every project, from Yarrawonga to Wyndham Vale.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end development solutions",
+  "servicesText": "From master-planned communities to boutique apartment towers, Lotus Living handles every stage of the development process. We specialise in residential, resort and mixed-use projects across Victoria, with a focus on quality, sustainability and community.",
+  "services": [
+    {
+      "title": "Master-Planned Communities",
+      "desc": "Large-scale residential estates with parks, shops and infrastructure.",
+      "longDesc": "Lotus Living creates master-planned communities in Southbank and regional Victoria, featuring green spaces, retail precincts and quality homes. Our Jubilee and Silverwoods projects set the standard.",
+      "points": [
+        "Integrated neighbourhood design",
+        "Community-focused amenities",
+        "Sustainable infrastructure"
+      ]
+    },
+    {
+      "title": "Resort & Lifestyle Developments",
+      "desc": "Premium resort living with golf courses and luxury amenities.",
+      "longDesc": "From The Sebel Yarrawonga to Black Bull Golf Club, we deliver resort-style communities that blend luxury with natural beauty. Perfect for investors and homeowners seeking a lifestyle upgrade.",
+      "points": [
+        "Golf course integration",
+        "Luxury accommodation",
+        "Recreational facilities"
+      ]
+    },
+    {
+      "title": "Apartment & Townhouse Projects",
+      "desc": "Modern apartments and townhouses in sought-after locations.",
+      "longDesc": "Lotus Living builds contemporary apartments and townhouses in Southbank, Keysborough and beyond. Each project features high-end finishes, open-plan living and energy-efficient design.",
+      "points": [
+        "Prime urban locations",
+        "High-quality finishes",
+        "Energy-efficient design"
+      ]
+    },
+    {
+      "title": "Land Subdivision & Sales",
+      "desc": "Turnkey land subdivision with full council approvals.",
+      "longDesc": "We handle the entire subdivision process from concept to settlement, including rezoning, infrastructure and marketing. Our Oakwood Estate and Pelican Cove projects showcase our expertise.",
+      "points": [
+        "Full council approvals",
+        "Infrastructure delivery",
+        "Sales & marketing"
+      ]
+    },
+    {
+      "title": "Commercial & Mixed-Use",
+      "desc": "Retail, office and residential mixed-use precincts.",
+      "longDesc": "Lotus Living develops vibrant mixed-use precincts that combine retail, commercial and residential spaces. Our projects create jobs, stimulate local economies and enhance community life.",
+      "points": [
+        "Retail & office spaces",
+        "Integrated design",
+        "Economic growth driver"
+      ]
+    },
+    {
+      "title": "Community & Charity Partnerships",
+      "desc": "Supporting local charities and community organisations.",
+      "longDesc": "We partner with Melbourne Storm, Variety Bash and Starlight Foundation to give back. Lotus Living believes in building communities that care, from Southbank to regional Victoria.",
+      "points": [
+        "Charity partnerships",
+        "Community events",
+        "Local sponsorships"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Victoria",
+  "reviews": [
+    {
+      "text": "Lotus Living transformed our vision into reality at Jubilee in Wyndham Vale. The community feel and quality of homes exceeded our expectations. Highly recommend their team.",
+      "name": "Sarah F.",
+      "role": "Wyndham Vale Homeowner"
+    },
+    {
+      "text": "We purchased at Silverwoods Resort and couldn't be happier. The attention to detail and the resort amenities are world-class. Lotus Living made the process seamless.",
+      "name": "Mark T.",
+      "role": "Yarrawonga Homeowner"
+    },
+    {
+      "text": "Working with Lotus Living on our investment property was a breeze. Their knowledge of the Southbank market and project management skills are second to none.",
+      "name": "Priya N.",
+      "role": "Southbank Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Yarrawonga",
+    "Wyndham Vale",
+    "Keysborough",
+    "Point Cook",
+    "Melbourne CBD",
+    "Geelong",
+    "Ballarat"
+  ],
+  "about": {
+    "intro": "Lotus Living is an award-winning, 100% Australian-owned developer based in Southbank, Victoria, specialising in residential, resort and mixed-use communities.",
+    "story": [
+      "Lotus Living was founded with a simple mission: build communities with heart and soul. From our headquarters in Southbank, we've delivered landmark projects across Victoria, including Jubilee in Wyndham Vale, Silverwoods Resort in Yarrawonga and The Sebel Yarrawonga. Our team brings decades of combined experience in development, construction and community planning.",
+      "We believe in creating places where people feel at home from the start. Every project is designed with the end-user in mind, whether it's a family buying their first home or an investor seeking premium returns. Our partnerships with Melbourne Storm, Variety Bash and Starlight Foundation reflect our commitment to giving back to the communities we build in."
+    ],
+    "mission": "To build welcoming, sustainable communities across Victoria that enrich lives and stand the test of time.",
+    "whyUs": [
+      {
+        "title": "Local Expertise",
+        "text": "Deep knowledge of Southbank and Victorian markets ensures every project is tailored to local needs."
+      },
+      {
+        "title": "Award-Winning Quality",
+        "text": "Our developments consistently win industry awards for design, sustainability and community impact."
+      },
+      {
+        "title": "100% Australian Owned",
+        "text": "We're proudly local, reinvesting profits back into Victorian communities and jobs."
+      },
+      {
+        "title": "End-to-End Service",
+        "text": "From concept to completion, we manage every stage of development with transparency and care."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "20+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Australian Owned"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Urban Development Institute of Australia member",
+      "Master Builders Association member"
+    ]
+  },
+  "pricing": {
+    "intro": "At Lotus Living, we believe in transparent pricing with no hidden surprises. Whether you're buying off-plan or investing in a resort community, we'll walk you through every cost upfront.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "Site tour",
+          "Project overview",
+          "Price guide"
+        ]
+      },
+      {
+        "name": "Off-Plan Purchase",
+        "price": "from $550k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Deposit protection",
+          "Fixed price contract",
+          "Choice of finishes",
+          "Stamp duty savings"
+        ]
+      },
+      {
+        "name": "Custom Development",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council approvals",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to find your dream home or investment property? Get in touch with the Lotus Living team for a free, no-obligation chat about our current projects in Southbank and across Victoria."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Lotus Living | Southbank Developer | Award-Winning Communities",
+      "description": "Lotus Living is an award-winning, 100% Australian-owned developer in Southbank. Master-planned communities, resort living and apartments across Victoria. Enquire today."
+    },
+    "about": {
+      "title": "About Lotus Living — Southbank's Premier Developer",
+      "description": "Learn about Lotus Living, a 100% Australian-owned developer based in Southbank. 15+ years building communities with heart across Victoria. Read our story."
+    },
+    "services": {
+      "title": "Development Services in Southbank | Lotus Living",
+      "description": "Lotus Living offers master-planned communities, resort developments, apartments and land subdivision across Victoria. Expert development services from Southbank."
+    },
+    "pricing": {
+      "title": "Property Prices & Development Costs | Lotus Living Southbank",
+      "description": "Transparent pricing for off-plan purchases and custom developments from Lotus Living. Free initial consultation. Fixed-price contracts. Enquire now."
+    },
+    "contact": {
+      "title": "Contact Lotus Living | Free Consultation Southbank",
+      "description": "Contact Lotus Living in Southbank for a free consultation. Call 0474 444 504 or visit our office. We'd love to discuss your next project."
+    },
+    "blog": {
+      "title": "Victorian Property & Development Blog | Lotus Living",
+      "description": "Expert insights on property development, off-plan buying and community living in Victoria. Read the Lotus Living blog for tips and local guides."
+    }
+  },
+  "blogHeading": "Latest Development News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does an Off-Plan Apartment Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Discover the true cost of buying off-plan in Southbank, including deposit requirements, stamp duty savings and hidden fees every buyer should know.",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/SAVI_WYNDHAMVALE_B-011-scaled-2-1024x683.jpg",
+      "body": [
+        "Buying off-plan in Southbank is an increasingly popular way to secure a modern apartment in one of Melbourne's most vibrant precincts. But how much does it actually cost in 2026? Prices for a one-bedroom apartment typically start around $550,000, while two-bedroom units range from $750,000 to $1.2 million depending on floor level, views and finishes. Premium penthouses can exceed $2 million.",
+        "One of the biggest advantages of buying off-plan is stamp duty savings. In Victoria, you only pay stamp duty on the land value at the time of contract, not the completed value. This can save you tens of thousands of dollars. Additionally, developers like Lotus Living often offer fixed-price contracts, meaning no nasty surprises when construction finishes.",
+        "Deposit requirements for off-plan purchases are typically 10% of the purchase price, paid in stages. Some developers offer deposit bonds or smaller initial deposits for genuine buyers. It's crucial to have pre-approval from your lender before signing, as valuations can change during the construction period.",
+        "Hidden costs to watch for include owners corporation fees, which in Southbank can range from $2,000 to $6,000 per year depending on amenities like pools, gyms and concierge services. Council rates and water charges add another $1,500 to $3,000 annually. Always ask for a full disclosure statement before committing.",
+        "The Southbank market in 2026 remains strong due to limited supply and high demand from both owner-occupiers and investors. With major infrastructure projects like the Metro Tunnel and new parklands, capital growth is expected to outpace Melbourne's average. Lotus Living's Southbank projects are perfectly positioned to benefit from this growth.",
+        "Finally, work with a buyer's advocate who knows the Southbank market. They can negotiate incentives like free upgrades, reduced deposits or included appliances. At Lotus Living, we believe in transparent pricing — what you see is what you pay. Contact our team today for a personalised price guide and site tour."
+      ]
+    },
+    {
+      "title": "Top 5 Reasons to Invest in Yarrawonga Property in 2026",
+      "date": "February 2026",
+      "excerpt": "Yarrawonga is booming. From resort living to strong rental yields, here's why savvy investors are flocking to this Murray River gem in 2026.",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/Project-BBGC-Feature-768x1024.webp",
+      "body": [
+        "Yarrawonga has emerged as one of Victoria's hottest property markets, and 2026 is shaping up to be another bumper year. Located on the Murray River just three hours from Melbourne, this regional centre offers a lifestyle that city dwellers dream of. With projects like Silverwoods Resort and The Sebel Yarrawonga, Lotus Living is at the forefront of this transformation.",
+        "Rental yields in Yarrawonga are among the strongest in regional Victoria, averaging 5-6% for houses and 6-7% for units. The short-stay holiday market is particularly lucrative, with many properties achieving nightly rates of $250-$500 during peak season. Investors are capitalising on the growing trend of 'work from anywhere' professionals seeking tree-change lifestyles.",
+        "Infrastructure spending is driving growth. The new Yarrawonga Health precinct, upgraded shopping centres and improved highway connections are making the town more accessible. The Murray River tourism economy is worth over $500 million annually, and new developments are capturing a growing share of that spend.",
+        "Silverwoods Resort by Lotus Living offers a unique investment opportunity. Buyers can purchase a villa or apartment within a gated resort community featuring a golf course, clubhouse and swimming pool. These properties appeal to both permanent residents and holiday-makers, ensuring strong occupancy rates year-round.",
+        "Capital growth in Yarrawonga has averaged 8-10% per annum over the past five years, outperforming many Melbourne suburbs. With land supply constrained by the river and national parks, prices are expected to continue rising. Early buyers at Silverwoods have already seen significant equity gains.",
+        "For investors, the key is to buy early in the development cycle. Lotus Living offers off-plan purchases with fixed prices and flexible deposit terms. Whether you're after a holiday home, a rental investment or a permanent tree-change, Yarrawonga in 2026 is a smart move. Contact us to explore available lots and villas."
+      ]
+    },
+    {
+      "title": "What Is a Master-Planned Community and Is It Right for You?",
+      "date": "January 2026",
+      "excerpt": "Master-planned communities are redefining Australian living. Learn what they offer, from parks to shops, and whether one suits your lifestyle.",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Oakwood-Hero-Image-1024x683.webp",
+      "body": [
+        "A master-planned community is a large-scale residential development designed from the ground up with integrated amenities, green spaces and infrastructure. Unlike traditional subdivisions where houses are built on empty blocks, these communities are carefully planned to create a genuine neighbourhood feel. Lotus Living's Jubilee in Wyndham Vale is a prime example.",
+        "Key features include parks, playgrounds, walking trails, community centres and often a town centre with shops and cafes. Schools and medical facilities are usually included or located nearby. The idea is that everything you need is within walking distance, reducing car dependency and fostering a sense of belonging.",
+        "For families, master-planned communities offer safe streets, quality homes and plenty of space for kids to play. Many include swimming pools, sports ovals and barbecue areas. Social events like community markets and movie nights help neighbours connect. It's a lifestyle that many Australians are seeking post-pandemic.",
+        "Investors also benefit. Properties in well-designed master-planned communities tend to hold their value better and attract quality tenants. The consistent architectural standards and maintained common areas ensure the neighbourhood looks good for decades. Rental demand is typically strong due to the lifestyle appeal.",
+        "However, there are trade-offs. Owners corporation fees apply to maintain common areas, typically $500-$2,000 per year. Some people prefer more freedom to modify their homes. It's important to review the community rules before buying. At Jubilee, Lotus Living keeps fees reasonable while maintaining high standards.",
+        "If you value community, convenience and quality design, a master-planned community could be perfect. Visit Jubilee in Wyndham Vale or Silverwoods in Yarrawonga to experience the difference. Lotus Living's team can walk you through available homes and lots. Contact us today for a tour."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Developer for Your Next Property Purchase",
+      "date": "December 2025",
+      "excerpt": "Not all developers are equal. Learn the key questions to ask before buying off-plan or investing in a new community development in Victoria.",
+      "image": "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Lotus-Apartments-Hero-Image-1024x666.webp",
+      "body": [
+        "Choosing the right developer is one of the most important decisions you'll make when buying property. A good developer delivers on time, on budget and with quality that lasts. A bad one can leave you with defects, delays and legal headaches. So how do you separate the best from the rest? Start by checking their track record.",
+        "Look for developers with a portfolio of completed projects. Visit them in person if possible. Talk to residents about their experience. Lotus Living has delivered over 20 projects across Victoria, from Jubilee in Wyndham Vale to The Sebel in Yarrawonga. We're proud of our reputation and happy to provide references.",
+        "Financial stability is crucial. Ask about their funding sources and whether they have any history of insolvency. A developer that is 100% Australian-owned, like Lotus Living, often has deeper local roots and accountability. Check if they are members of industry bodies like the Urban Development Institute of Australia.",
+        "Transparency in contracts is a red flag if missing. A reputable developer will provide a full disclosure statement, including plans, specifications, finishes and any easements. Fixed-price contracts protect you from cost overruns. At Lotus Living, we believe in clear, straightforward contracts with no hidden surprises.",
+        "After-sales service matters too. What happens if there's a defect after settlement? Good developers offer structural warranties and responsive customer service. Lotus Living stands behind every project with a dedicated after-care team. We want our buyers to be happy long after the sale is complete.",
+        "Finally, choose a developer whose values align with yours. If community, sustainability and quality matter to you, look for a developer that prioritises these. Lotus Living builds communities with heart and soul — it's not just a tagline, it's how we operate. Contact us to learn more about our current projects and how we can help you find your perfect home."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/SAVI_WYNDHAMVALE_B-011-scaled-2-1024x683.jpg",
+  "photoRowImages": [
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/05/Project-BBGC-Feature-768x1024.webp",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Oakwood-Hero-Image-1024x683.webp",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Lotus-Apartments-Hero-Image-1024x666.webp",
+    "https://www.lotusliving.com.au/wp-content/uploads/2026/02/260205_Lotus-Living-Announcement-Lotus-Living-Shane-Dunne-089A9409.webp"
+  ],
+  "aboutImages": [
+    "https://www.lotusliving.com.au/wp-content/uploads/2025/07/20180823_074528-rotated.jpg",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Melbourne-Storm-Group.jpg",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Lotus-Living-Shorts-edited.jpg"
+  ],
+  "fullWidthImage": "https://www.lotusliving.com.au/wp-content/uploads/2023/06/A-Storm-Came-To-Town-Image1-e1715145893348.webp",
+  "bannerHeading": "Ready to find your dream home?",
+  "bannerSubheading": "Get a free, no-obligation consultation today.",
+  "bannerImage": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/Project-Logos-2.png",
+  "testimonialsImage": "https://www.lotusliving.com.au/wp-content/uploads/2024/05/banner.jpg",
+  "galleryImages": [
+    "https://www.lotusliving.com.au/wp-content/uploads/2025/06/AS1_9837-1024x684.jpg",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/05/The-Sebel-Yarrawonga-1-1024x767.jpg",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/05/SAVI_WYNDHAMVALE_B-011-scaled-2-1024x683.jpg",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/05/Project-BBGC-Feature-768x1024.webp",
+    "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Oakwood-Hero-Image-1024x683.webp"
+  ],
+  "pricingBgImage": "https://www.lotusliving.com.au/wp-content/uploads/2024/07/Lotus-Apartments-Hero-Image-1024x666.webp"
+}
