@@ -1,0 +1,347 @@
+{
+  "siteType": "electrician",
+  "businessName": "APD Global",
+  "suburb": "Southbank",
+  "phone": "+61 1300 273 797",
+  "email": "info@apdglobal.com.au",
+  "address": "Level 10/2 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8221621,
+    "longitude": 144.96306909999998
+  },
+  "tagline": "Southbank's Utility Engineering Specialists",
+  "primaryColor": "#00aaff",
+  "primaryColorRgb": "0, 170, 255",
+  "primaryColorHover": "#0099e6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "APD Global: Powering Australia",
+      "sub": "Renewable energy & grid solutions",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2025/11/Flat_Rocks_Wind_Farm_Wide.jpg"
+    },
+    {
+      "title": "From Southbank to the Nation",
+      "sub": "20+ years of utility engineering",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2025/11/Cybersecurity_640p.jpg"
+    },
+    {
+      "title": "Secure Infrastructure",
+      "sub": "Cybersecurity for critical assets",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-2048x1010.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Get in touch –",
+    "APD Global's Southbank team",
+    "is ready to engineer your future."
+  ],
+  "aboutHeading": "Engineers Who Power Progress",
+  "aboutSubheading": "Your local utility engineering experts",
+  "aboutText": "With over 20 years of experience, APD Global has been delivering high-voltage power line design, substation engineering, and renewable energy integration across Australia from our Southbank headquarters. We're a trusted partner for utilities, government, and private sector clients — combining technical precision with a down-to-earth approach that gets the job done safely and on time.",
+  "servicesHeading": "Our Engineering Services",
+  "servicesSubheading": "End-to-end utility solutions",
+  "servicesText": "From concept to commissioning, APD Global covers the full spectrum of electrical and utility engineering. Whether it's HV substations, power systems analysis, or OT cybersecurity, our Southbank team brings deep expertise and local knowledge to every project across Australia.",
+  "services": [
+    {
+      "title": "HV & LV Power Line Design",
+      "desc": "Overhead and underground line design up to 500kV, fully compliant with Australian standards.",
+      "longDesc": "We design HV and LV power lines for transmission and distribution networks, including pole route selection, sag-tension calculations, and earthing. Our Southbank engineers have delivered projects from single-span upgrades to major transmission corridors.",
+      "points": [
+        "Up to 500kV design",
+        "Route optimisation",
+        "Compliance assured"
+      ]
+    },
+    {
+      "title": "HV Substation Design",
+      "desc": "Primary and secondary substation design including protection, control, and SCADA integration.",
+      "longDesc": "APD Global provides full substation design from 11kV to 500kV, covering layout, busbar sizing, insulators, and protection schemes. We work closely with ASP3 contractors and utilities across Victoria and beyond.",
+      "points": [
+        "Primary & secondary",
+        "Protection coordination",
+        "SCADA ready"
+      ]
+    },
+    {
+      "title": "Renewable Energy Integration",
+      "desc": "Solar, wind, and BESS grid connection studies and design to meet AEMO requirements.",
+      "longDesc": "We help renewable developers connect to the grid with power system studies, generator performance standards, and network connection designs. Our team has supported major BESS and solar farms across NSW and Victoria.",
+      "points": [
+        "Grid connection studies",
+        "GPS registration",
+        "BESS expertise"
+      ]
+    },
+    {
+      "title": "Power Systems Analysis",
+      "desc": "Load flow, fault level, transient stability and harmonic studies using industry-standard tools.",
+      "longDesc": "Our power systems engineers use PSS/E, PSCAD, and DIgSILENT PowerFactory to model complex networks. We deliver detailed reports that satisfy AEMO, TNSPs, and DNSPs across Australia.",
+      "points": [
+        "Load flow & fault",
+        "Transient stability",
+        "Harmonic analysis"
+      ]
+    },
+    {
+      "title": "Operational Technology Cybersecurity",
+      "desc": "Protect SCADA, RTU, and ICS systems from threats with our OT security services.",
+      "longDesc": "APD Global's OT cybersecurity team conducts vulnerability assessments, network segmentation, and incident response planning for critical infrastructure. We serve water, energy, and transport clients nationwide.",
+      "points": [
+        "Vulnerability audit",
+        "Network segmentation",
+        "Incident response"
+      ]
+    },
+    {
+      "title": "Testing & Commissioning",
+      "desc": "Factory acceptance testing, site commissioning, and primary plant inspections for new assets.",
+      "longDesc": "We provide end-to-end testing and commissioning services, from FAT at manufacturer premises to SAT on-site. Our team ensures every circuit breaker, transformer, and protection relay performs to specification.",
+      "points": [
+        "FAT & SAT",
+        "Relay testing",
+        "As-built documentation"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Australia",
+  "reviews": [
+    {
+      "text": "APD Global handled the substation design for our new solar farm near Mildura. Their Southbank team was responsive, thorough, and the protection studies were spot on. Highly recommend.",
+      "name": "James M.",
+      "role": "Renewable Project Manager"
+    },
+    {
+      "text": "We engaged APD for OT cybersecurity at our water treatment plant in Melbourne. They were professional, explained everything clearly, and implemented robust controls without any downtime.",
+      "name": "Sarah L.",
+      "role": "Utility Operations Director"
+    },
+    {
+      "text": "The power line design team at APD Global is top-notch. They redesigned a 66kV line for us in regional NSW, saving us months of delays. Genuinely easy to deal with.",
+      "name": "David K.",
+      "role": "Infrastructure Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "South Yarra",
+    "Richmond",
+    "St Kilda",
+    "Port Melbourne",
+    "Carlton"
+  ],
+  "about": {
+    "intro": "APD Global has been at the forefront of utility engineering since 2005, delivering critical infrastructure solutions from our Southbase office across Australia and New Zealand.",
+    "story": [
+      "Founded in Southbank, APD Global started as a small team of electrical engineers focused on power line design. Over the past 20 years, we've grown into a multi-disciplined utility engineering firm, delivering projects from HV substations to renewable energy integration and OT cybersecurity.",
+      "Our team now spans offices in every major Australian city and Auckland, but our roots remain in Southbank. We've been privileged to work on some of the nation's most critical infrastructure - from the Waratah Super Battery to the Eraring BESS, and regional network upgrades that keep communities powered.",
+      "What sets us apart is our no-nonsense approach. We know the Australian energy landscape - the standards, the regulators, the climate challenges - and we bring that local knowledge to every project. Our clients trust us because we deliver on time, on budget, and without the corporate fluff."
+    ],
+    "mission": "To engineer safe, reliable, and sustainable utility infrastructure for Australia, one project at a time.",
+    "whyUs": [
+      {
+        "title": "20+ Years Experience",
+        "text": "We've been solving complex engineering problems since 2005, earning a reputation for quality and reliability."
+      },
+      {
+        "title": "Nationwide Reach",
+        "text": "From Southbank to Darwin, we have teams on the ground in every state and territory."
+      },
+      {
+        "title": "Technical Depth",
+        "text": "Our engineers specialise in everything from 500kV lines to OT security – no problem is too big or niche."
+      },
+      {
+        "title": "Down-to-Earth Service",
+        "text": "We explain things plainly, keep you in the loop, and never overpromise. That's the APD way."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Australian Owned"
+      }
+    ],
+    "credentials": [
+      "Registered Engineering Practitioners (RPEQ, CPEng)",
+      "ASP3/47.X accredited designers",
+      "ISO 9001, 14001, 45001 certified"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is different – that's why we offer free initial consultations to understand your scope and provide a clear, fixed-price proposal. No hidden fees, no surprises.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site or virtual meeting",
+          "Scope assessment",
+          "Preliminary cost estimate"
+        ]
+      },
+      {
+        "name": "Feasibility Study",
+        "price": "from $5,000",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Desktop study",
+          "High-level design",
+          "Regulatory pathway report",
+          "Risk assessment"
+        ]
+      },
+      {
+        "name": "Full Engineering Package",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Detailed design",
+          "Approvals & compliance",
+          "Construction support",
+          "Commissioning handover"
+        ]
+      }
+    ],
+    "note": "All quotes are based on your specific requirements – we'll walk you through the numbers before any work begins."
+  },
+  "contact": {
+    "intro": "Ready to discuss your next utility or renewable project? Get in touch with our Southbank team for a free, no-obligation chat about how APD Global can help."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "APD Global | Utility Engineering in Southbank | Power Line Design",
+      "description": "APD Global: 20+ years of utility engineering from Southbank. HV substations, renewable integration, OT cybersecurity. Australia-wide. Free consultation."
+    },
+    "about": {
+      "title": "About APD Global — Southbank Utility Engineering Experts",
+      "description": "Learn about APD Global's 20-year history, our Southbank headquarters, and our mission to deliver safe, reliable utility infrastructure across Australia."
+    },
+    "services": {
+      "title": "Utility Engineering Services in Southbank | APD Global",
+      "description": "APD Global offers HV power line design, substation engineering, renewable energy integration, OT cybersecurity, and more. Based in Southbank, serving Australia."
+    },
+    "pricing": {
+      "title": "Engineering Pricing & Free Consultation | APD Global Southbank",
+      "description": "Transparent pricing for utility engineering projects. Get a free initial consultation from APD Global's Southbank team. No lock-in, no surprises."
+    },
+    "contact": {
+      "title": "Contact APD Global | Free Engineering Consultation",
+      "description": "Contact APD Global in Southbank for a free consultation. Call +61 1300 273 797 or email. We're ready to engineer your next project."
+    },
+    "blog": {
+      "title": "Utility Engineering Blog | APD Global Southbank",
+      "description": "Expert guides on HV substations, renewable energy costs, OT cybersecurity, and more from APD Global's Southbank engineers. Stay informed."
+    }
+  },
+  "blogHeading": "Latest Engineering Insights",
+  "blogSubheading": "From our Southbank team",
+  "blogPosts": [
+    {
+      "title": "How Much Does a HV Substation Cost in 2026? A Southbank Engineer's Guide",
+      "date": "March 2026",
+      "excerpt": "Breakdown of HV substation costs in Victoria 2026: equipment, labour, approvals, and typical budgets for 11kV to 500kV projects. Local insights from APD Global.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/4a-2048x1015.jpg",
+      "body": [
+        "HV substation costs vary widely depending on voltage level, location, and complexity. In Victoria, a typical 33kV indoor substation for a commercial development might start around $2 million, while a major 500kV transmission substation can exceed $100 million. At APD Global, we've designed substations across every price point from our Southbank office, and we know the key drivers that affect your budget.",
+        "The largest cost component is usually the high-voltage equipment: power transformers can account for 30-40% of total expenditure. A 30MVA transformer for a 66kV substation might cost between $500,000 and $1 million alone. Circuit breakers, disconnectors, and GIS (gas-insulated switchgear) add significant sums, especially if you need SF6-free alternatives to meet new environmental regulations coming into effect in 2026.",
+        "Civil works and site preparation are often underestimated. In Melbourne's inner suburbs like Southbank, land costs and access restrictions can push civil costs 20-30% higher than regional sites. Rock excavation, drainage, and retaining walls are common. APD Global's team always recommends a thorough geotechnical survey early to avoid surprises.",
+        "Approvals and connection agreements add both time and cost. You'll need to negotiate with the relevant DNSP (e.g., AusNet, Powercor, Jemena) and potentially AEMO for transmission-connected substations. Connection studies typically run $50,000-$150,000 and can take 6-12 months. Our power systems team has a strong track record of streamlining these approvals for Victorian clients.",
+        "Secondary systems – protection relays, SCADA, metering, and control panels – are another major line item. A modern IEC 61850-based protection scheme can cost $200,000-$500,000 for a medium substation. However, investing in digital substation technology can reduce lifetime maintenance costs and improve reliability. We always advise clients to consider whole-of-life costs, not just upfront Capex.",
+        "Labour costs in Victoria remain high due to demand for skilled electrical trades and engineers. Rates for ASP3 designers and commissioning engineers have risen 5-8% year-on-year. Engaging a firm like APD Global that has in-house design, project management, and commissioning teams can save you the margin stack of multiple subcontractors.",
+        "Don't forget contingency: we recommend 10-15% for substation projects, given the risk of underground services, weather delays, and supply chain fluctuations. In 2026, transformer lead times are still 12-18 months. Plan early and order long-lead items as soon as the design is locked in.",
+        "For a free budget estimate specific to your site, contact APD Global's Southbank office. We'll walk you through the key cost drivers and give you a realistic figure with no obligation. It's what we've done for over 20 years."
+      ]
+    },
+    {
+      "title": "Renewable Energy Grid Connection in Victoria: A Complete 2026 Guide",
+      "date": "February 2026",
+      "excerpt": "Step-by-step guide to connecting solar, wind, or BESS projects to Victoria's grid. GPS registration, performance standards, and network studies explained by APD Global.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2025/11/Flat_Rocks_Wind_Farm_Wide.jpg",
+      "body": [
+        "Connecting a renewable energy project to the National Electricity Market (NEM) is one of the most complex parts of development. In Victoria, you're dealing with AEMO, the local DNSP, and often multiple transmission network service providers (TNSPs). At APD Global, our power systems team has helped dozens of solar farms, wind farms, and battery projects navigate this process from our Southbank base.",
+        "The first step is a feasibility study: we assess the local network capacity, identify constraints, and determine the connection voltage. For a 100MW solar farm in northern Victoria, you might connect at 132kV or 220kV. We'll run load flow and fault level studies using PSS/E to see if the network can handle the injection without upgrades. If not, we identify augmentation options.",
+        "Next comes the Generator Performance Standard (GPS) registration process with AEMO. This requires detailed modelling of the plant's behaviour under faults, frequency excursions, and voltage disturbances. The GPS must demonstrate compliance with the National Electricity Rules, including ride-through capability and power quality. APD Global has successfully registered multiple GPS applications, including for the Waratah Super Battery.",
+        "Network connection agreements with the TNSP or DNSP involve technical specifications, metering requirements, and commissioning plans. In Victoria, you'll likely deal with AusNet or Powercor for distribution-connected projects, or AEMO for transmission-connected ones. Expect to provide protection grading documents, single-line diagrams, and SCADA protocols. Our team prepares all this documentation to minimise back-and-forth.",
+        "Construction and commissioning require rigorous testing: from factory acceptance tests on transformers and inverters to site acceptance tests on protection relays and SCADA. APD Global's testing and commissioning team works alongside the EPC contractor to ensure every component performs as modelled. We also handle the connection energisation process, coordinating with the network operator to switch in the new asset safely.",
+        "Timeline: a straightforward distribution-connected solar farm (5-20MW) might take 18-24 months from feasibility to energisation. Larger transmission-connected projects (100MW+) often take 3-5 years. Delays often occur in the GPS approval stage if the modelling isn't robust. Our advice: engage a power systems consultant early and budget at least $150,000 for studies and compliance.",
+        "Victoria's Renewable Energy Zones (REZs) are accelerating grid connection in areas like the Murray River and Western Victoria. However, network congestion is a growing issue. APD Global is actively involved in REZ planning and can advise on the best locations for new projects. We also help clients assess whether battery storage can unlock curtailment issues.",
+        "If you're developing a renewable project in Victoria and need expert grid connection support, reach out to APD Global's Southbank office. We offer free initial consultations to review your project's feasibility and outline the pathway to energisation."
+      ]
+    },
+    {
+      "title": "OT Cybersecurity for Critical Infrastructure: What Australian Utilities Need in 2026",
+      "date": "January 2026",
+      "excerpt": "Operational Technology (OT) cybersecurity is now mandatory for many utilities. Learn about the threats, standards, and how APD Global protects SCADA and ICS systems.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2025/11/Cybersecurity_640p.jpg",
+      "body": [
+        "Australian critical infrastructure is under increasing cyber threat. The Security of Critical Infrastructure Act (SOCI) now mandates minimum cybersecurity standards for sectors including energy, water, and transport. At APD Global, our OT cybersecurity practice based in Southbank helps utilities assess and strengthen their operational technology (OT) environments – from SCADA systems to RTUs and intelligent electronic devices.",
+        "The most common OT vulnerabilities we find are outdated firmware, unsegmented networks, and weak remote access controls. Many utilities still run legacy Windows XP or embedded controllers that were never designed for connectivity. Our team performs comprehensive vulnerability assessments using industry-recognised frameworks like NIST SP 800-82 and the ACSC Essential Eight for OT.",
+        "Network segmentation is often the single most effective control. By separating the IT and OT networks with firewalls and unidirectional gateways, you can prevent a ransomware attack in the corporate environment from spreading to the control systems. We design and implement Purdue Model-compliant architectures tailored to each site's operational needs.",
+        "Incident response planning for OT environments is different from IT. You can't simply reboot a substation RTU or a water treatment PLC – the impact on supply is immediate. APD Global helps utilities develop playbooks that account for safety, operational continuity, and regulatory reporting. We also conduct tabletop exercises with your control room staff.",
+        "Supply chain risk is another growing concern. With many OT devices sourced from international vendors, you need to verify their security posture. We assist with vendor risk assessments, secure procurement specifications, and firmware integrity checks. For example, we recently helped a Victorian water utility validate the security of new RTUs before deployment across 50 sites.",
+        "Compliance with SOCI and the new Cyber Security Regulations requires evidence of continuous monitoring and improvement. Our team deploys OT-specific SIEM solutions that can detect anomalous traffic patterns, unauthorised configuration changes, and potential malware – all while remaining passive to avoid disrupting operations.",
+        "Training is often overlooked. Your control room operators and field technicians need to understand the basics of OT cyber hygiene. We deliver tailored training sessions covering phishing awareness, secure remote access protocols, and incident reporting. A well-informed workforce is your best defence.",
+        "If your utility needs to harden its OT environment or demonstrate compliance, talk to APD Global's Southbank cybersecurity team. We provide free initial assessments to identify your biggest risks and recommend a prioritised roadmap."
+      ]
+    },
+    {
+      "title": "Power Line Design in Victoria: Standards, Costs, and Lead Times for 2026",
+      "date": "December 2025",
+      "excerpt": "A deep dive into overhead and underground power line design in Victoria – from 11kV distribution to 500kV transmission, including ASP3 requirements and cost factors.",
+      "image": "https://www.apdglobal.com/wp-content/uploads/2024/11/5a-2048x1020.jpg",
+      "body": [
+        "Power line design in Victoria is governed by a complex set of standards: AS/NZS 7000 for overhead lines, AS/NZS 3000 for wiring, and the specific requirements of the local DNSP or TNSP. At APD Global, our ASP3 and PM2-accredited designers have been delivering compliant, cost-effective line designs for over 20 years from our Southbank office.",
+        "For overhead lines, key design parameters include conductor type (AAC, ACSR, or AAAC), structure type (wood poles, steel poles, or lattice towers), and clearance requirements. Victoria's varied terrain – from the flat plains of the north to the hills of the east – demands different foundation and grading solutions. Our engineers use PLS-CADD and PLS-POLE for structural analysis and sag-tension calculations.",
+        "Underground cable design is becoming more common in urban areas like Southbank and Melbourne's CBD. XLPE cables at 11kV to 132kV are typical, with direct burial or duct bank installations. Thermal calculations are critical to ensure the cable rating does not exceed its capacity, especially when cables are grouped. APD Global uses CYMCAP for thermal modelling.",
+        "Costs: a new 66kV overhead line on steel poles might cost $800,000 to $1.5 million per kilometre depending on terrain and access. Underground at the same voltage can be 3-5 times more expensive due to excavation, cable jointing, and reinstatement. For distribution-level 11kV lines, overhead is typically $200,000-$400,000 per kilometre, underground $600,000-$1 million.",
+        "Lead times are heavily influenced by approvals. In Victoria, you need planning permits, road opening permits, and network operator approvals. The ASP3 process for connection to the distribution network can take 6-12 months. For transmission lines, the regulatory pathway via AEMO and the ESC is even longer. Our team manages the entire approvals process to keep projects on track.",
+        "Environmental and cultural heritage considerations are increasingly important. We conduct flora and fauna surveys, visual impact assessments, and Aboriginal heritage due diligence as part of the design. In sensitive areas, we may recommend undergrounding or route realignment. APD Global has successfully navigated these issues for projects in the Yarra Valley and Mornington Peninsula.",
+        "Construction support is a service we pride ourselves on. Our designers stay involved during construction to answer RFIs, review as-builts, and ensure the design intent is carried through. This reduces costly mistakes and delays. We also offer construction supervision for complex line crossings and live-line works.",
+        "Whether you need a new 11kV spur for a housing development or a 500kV transmission line for a renewable energy zone, APD Global's Southbank power line design team can help. Contact us for a free initial discussion and a no-obligation quote."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/4a-2048x1015.jpg",
+  "photoRowImages": [
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-2048x1010.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1a-scaled.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/5a-2048x1020.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/6a-scaled.jpg"
+  ],
+  "aboutImages": [
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/3a-2048x1009.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/3a-scaled.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/7a-2048x1012.jpg"
+  ],
+  "fullWidthImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/7a-scaled.jpg",
+  "bannerHeading": "Ready to engineer your next project?",
+  "bannerSubheading": "Get a free, no-obligation consultation with our Southbank team.",
+  "bannerImage": "https://www.apdglobal.com/wp-content/uploads/2025/11/Flat_Rocks_Wind_Farm_Wide.jpg",
+  "testimonialsImage": "https://www.apdglobal.com/wp-content/uploads/2017/11/APD_ENGINEERING_logo_BLUE_BACKGROUND_540x400px.jpg",
+  "galleryImages": [
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/Website-Prototype-1.png",
+    "https://www.apdglobal.com/wp-content/uploads/2024/04/APD-Transpower-Full-Panel-Selection-APR-2024-120x120.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1-2048x991.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/1-scaled.jpg",
+    "https://www.apdglobal.com/wp-content/uploads/2024/11/2a-2048x1012.jpg"
+  ],
+  "pricingBgImage": "https://www.apdglobal.com/wp-content/uploads/2024/11/2a-scaled.jpg"
+}
