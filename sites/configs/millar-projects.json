@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "Millar Projects",
+  "suburb": "Southbank",
+  "phone": "+61 3 9982 4574",
+  "email": "craig@millarprojects.com.au",
+  "address": "Level 2 Riverside Quay, 1 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.821165,
+    "longitude": 144.9627509
+  },
+  "tagline": "Southbank's construction consultants",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55A00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builders",
+      "sub": "End-to-end project management",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2019/10/img_30132-1214x800.jpg"
+    },
+    {
+      "title": "Built Around Your Vision",
+      "sub": "From design to handover",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2020/01/IMG_5395-1067x800.jpg"
+    },
+    {
+      "title": "15+ Years in the Game",
+      "sub": "Local & nationwide",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2019/10/consult-img.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "Millar Projects",
+    "is ready to guide your build."
+  ],
+  "aboutHeading": "Construction Consultants Who Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "Millar Projects is a privately owned Australian company based in Southbank, managing end-to-end construction projects across Australia and South East Asia for over 15 years. We specialise in medium-rise residential, commercial, and government buildings, blending innovation with plain-spoken service. Our consultants keep your project on track, from initial feasibility to final certification.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "Comprehensive construction solutions",
+  "servicesText": "We offer a full range of construction consultancy services — from project management and engineering design to on-site supervision and modular builds. Each service is tailored to your site and budget, using trusted local contractors and the latest technology.",
+  "services": [
+    {
+      "title": "Construction Management",
+      "desc": "Full control of your build from start to finish, with regular site visits and clear reporting.",
+      "longDesc": "Our construction management service covers every stage — design, costing, compliance, and handover. We coordinate trades, manage timelines, and solve problems before they arise, keeping your Southbank project on budget.",
+      "points": [
+        "Single point of contact",
+        "Fixed-price oversight",
+        "Proactive problem solving"
+      ]
+    },
+    {
+      "title": "Project Management & Consulting",
+      "desc": "Strategic guidance for residential, commercial, and government builds across Victoria.",
+      "longDesc": "From townhouses to tower apartments, our project managers bring decades of experience. We handle feasibility, value engineering, and contractor selection, ensuring your build meets Australian standards and your vision.",
+      "points": [
+        "End-to-end planning",
+        "Cost & risk control",
+        "Local contractor network"
+      ]
+    },
+    {
+      "title": "Engineering & Design",
+      "desc": "Innovative design solutions that maximise space, budget, and sustainability.",
+      "longDesc": "Our engineers and designers work with you to create functional, cost-effective layouts. We specialise in medium-density residential and commercial projects in Southbank and surrounding suburbs, integrating modern materials and energy-efficient systems.",
+      "points": [
+        "Feasibility studies",
+        "3D modelling available",
+        "Sustainable options"
+      ]
+    },
+    {
+      "title": "On-Site Services & Supervision",
+      "desc": "Hands-on oversight to keep your project safe, on time, and within spec.",
+      "longDesc": "We don't sit in an office — our consultants are on-site regularly, checking quality and progress. We liaise with certifiers, manage safety plans, and ensure every trade meets the required standards for your South Melbourne or Port Melbourne build.",
+      "points": [
+        "Daily site inspections",
+        "Quality assurance",
+        "Safety compliance"
+      ]
+    },
+    {
+      "title": "Modular Construction",
+      "desc": "Faster, cleaner builds using off-site manufacturing for commercial and residential projects.",
+      "longDesc": "Modular construction reduces on-site time and waste. We coordinate design, fabrication, and installation of prefabricated modules for apartments, offices, and government facilities across Melbourne. Ideal for tight sites and tight timelines.",
+      "points": [
+        "Reduced build time",
+        "Lower site disruption",
+        "Factory-controlled quality"
+      ]
+    },
+    {
+      "title": "Structural Steel & Reports",
+      "desc": "Specialist steel solutions and investigative reports for existing structures.",
+      "longDesc": "We provide structural steel design, fabrication oversight, and investigative reports for existing buildings. Whether you need a steel frame for a new build or a condition report for a heritage property, our team has the expertise.",
+      "points": [
+        "Steel frame design",
+        "Condition assessments",
+        "Remediation advice"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "Millar Projects managed our Southbank apartment complex from concept to handover. Their communication was outstanding and they kept the build on schedule. Highly recommend their project management service.",
+      "name": "Sarah F.",
+      "role": "Southbank Developer"
+    },
+    {
+      "text": "We used their modular construction for a commercial fit-out in Port Melbourne. The team was professional, the timeline was spot on, and the quality was excellent. Will definitely use them again.",
+      "name": "Mark T.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The engineering and design phase saved us thousands. They identified a better layout that worked perfectly for our townhouse project in Richmond. Couldn't be happier.",
+      "name": "Priya N.",
+      "role": "Richmond Homeowner"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "South Melbourne",
+    "Port Melbourne",
+    "St Kilda",
+    "Docklands",
+    "Richmond",
+    "Prahran",
+    "Melbourne CBD"
+  ],
+  "about": {
+    "intro": "Millar Projects is a privately owned Australian construction consultancy, based in Southbank, with a reputation for delivering complex projects on time and on budget.",
+    "story": [
+      "Founded over a decade ago by experienced project managers, Millar Projects started as a small team specialising in medium-rise residential builds. We quickly earned a name for clear communication and hands-on oversight, growing to manage commercial and government projects across Australia and Southeast Asia.",
+      "Our approach is simple: we get on-site, we talk straight, and we solve problems before they cost you. We don't hide behind desks. Every project gets the same level of attention — from a single townhouse in Richmond to a 10-storey apartment block in Southbank.",
+      "Today we work with trusted local contractors and engineers, bringing decades of combined experience. Our team stays current with the latest building technologies and standards, ensuring your project is not just completed, but built for the long haul."
+    ],
+    "mission": "To deliver honest, innovative construction consulting that keeps your Southbank project on track, on budget, and built right.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Southbank and Melbourne's building regulations, soil conditions, and council requirements inside out."
+      },
+      {
+        "title": "Hands-On Service",
+        "text": "Our consultants are on-site regularly, not stuck in an office. We catch issues early and keep trades accountable."
+      },
+      {
+        "title": "Fixed-Price Clarity",
+        "text": "No hidden fees. We provide detailed costings upfront and stick to the quote unless you change the scope."
+      },
+      {
+        "title": "Proven Track Record",
+        "text": "Over 500 projects completed, from townhouses to government buildings, all with 100% satisfaction focus."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Certified & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insurance to $20 million",
+      "Member of Master Builders Association",
+      "ISO 9001 Quality Management compliant"
+    ]
+  },
+  "pricing": {
+    "intro": "We keep it straightforward — no lock-in contracts, no surprises. Your initial consultation in Southbank is free, and every quote is written and itemised.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility assessment",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Project Management",
+        "price": "from $15k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full project oversight",
+          "Cost & schedule control",
+          "Contractor management",
+          "Regular reporting"
+        ]
+      },
+      {
+        "name": "Full Design & Build",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Concept to handover",
+          "Council & certifier liaison",
+          "Turnkey delivery"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — we only adjust if you change the scope, not because of market fluctuations."
+  },
+  "contact": {
+    "intro": "Ready to get your project moving? Call or email us for a free, no-obligation chat about your build. We're based in Southbank and cover all of Melbourne and beyond."
+  },
+  "contactHeading": "Let's Talk About Your Build",
+  "contactSubheading": "Free consultation and quote",
+  "seo": {
+    "home": {
+      "title": "Millar Projects | Construction Consultants Southbank | Project Management",
+      "description": "Millar Projects: Southbank construction consultants with 15+ years experience. Project management, design & build, modular construction. Free quote."
+    },
+    "about": {
+      "title": "About Millar Projects — Southbank's Trusted Construction Consultants",
+      "description": "Learn about Millar Projects, a privately owned Australian construction consultancy based in Southbank. Over 500 projects delivered nationwide."
+    },
+    "services": {
+      "title": "Construction Services in Southbank | Millar Projects",
+      "description": "Full range of construction services in Southbank: project management, engineering, on-site supervision, modular construction, and structural steel."
+    },
+    "pricing": {
+      "title": "Construction Consulting Costs | Millar Projects Southbank",
+      "description": "Transparent pricing for construction consulting in Southbank. Free initial consultation, fixed-price project management, and custom quotes."
+    },
+    "contact": {
+      "title": "Contact Millar Projects | Free Consultation Southbank",
+      "description": "Get a free consultation with Millar Projects. Call or email to discuss your residential or commercial build in Southbank and Melbourne."
+    },
+    "blog": {
+      "title": "Construction Blog | Millar Projects Southbank",
+      "description": "Expert construction tips, cost guides, and project advice from Millar Projects in Southbank. Read about modular builds, project management, and more."
+    }
+  },
+  "blogHeading": "Latest Construction Insights",
+  "blogSubheading": "Tips, costs & local guides for Southbank builds",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Commercial Construction Project Cost in Melbourne? 2026 Guide",
+      "date": "March 2026",
+      "excerpt": "Wondering about commercial construction costs in Southbank? We break down per-square-metre rates, council fees, and hidden expenses for Melbourne projects.",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon2.png",
+      "body": [
+        "Commercial construction costs in Melbourne vary widely depending on the project type, location, and finishes. For a typical office fit-out in Southbank, you're looking at $1,800 to $4,500 per square metre. That includes base build, services like HVAC and electrical, and interior finishes. Warehouse or industrial builds are often cheaper at $700–$1,500 per square metre, but require more structural work.",
+        "Council fees add another layer. In Southbank, the City of Melbourne charges development application fees based on project value — expect $2,000 to $20,000 depending on complexity. You'll also need building permits, which run around 0.5–1% of the total build cost. Factor in professional fees for architects, engineers, and a construction consultant like Millar Projects — typically 5–10% of the project budget.",
+        "Materials costs have been volatile. Steel and concrete prices in Victoria have risen 20–30% since 2022, though they're stabilising in 2025–2026. Timber is a mixed bag, with pine and hardwood fluctuating with global supply. To avoid budget blowouts, a fixed-price contract with escalation clauses for major materials is recommended. Our team in Southbank negotiates bulk rates with trusted suppliers.",
+        "Labour is tight in Melbourne. Skilled trades like electricians and plumbers are in high demand, pushing hourly rates to $80–$120. Construction managers are even harder to find. That's where using a consultant who already has a network of reliable subcontractors saves you time and money. We pre-qualify every trade we work with on Southbank projects.",
+        "Don't forget contingency. Experienced builders recommend setting aside 10–15% of the budget for unforeseen issues — site conditions, council delays, or design changes. A well-managed project can reduce that, but never eliminate it. Our project management fee is a fraction of what you'd lose from poor planning.",
+        "If you're planning a commercial project in Southbank or anywhere in Melbourne, start with a feasibility study. We can give you a realistic budget range, a timeline, and identify risks before you commit. Contact us for a free initial consultation."
+      ]
+    },
+    {
+      "title": "The Benefits of Modular Construction for Melbourne Townhouses",
+      "date": "February 2026",
+      "excerpt": "Modular construction is gaining traction in Melbourne for townhouses and apartments. Here's why it's faster, cleaner, and often cheaper than traditional building.",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon3.png",
+      "body": [
+        "Modular construction, where sections of a building are built off-site in a factory and assembled on-site, is transforming the way Melbourne builds. For townhouses — especially on tight inner-city blocks in suburbs like Richmond, Southbank, or Port Melbourne — it offers huge advantages. Assembly on site can take weeks instead of months, and weather delays are drastically reduced.",
+        "Quality is often better because modules are built in a controlled factory environment. Tolerances are tighter, materials are stored dry, and trades work in sequence without the chaos of a muddy building site. The result is fewer defects and a more consistent finish. Many clients are surprised that modular townhouses can achieve the same architectural quality as traditional builds.",
+        "Cost savings come from reduced build time and less waste. Off-site manufacturing cuts material waste by up to 20% compared to traditional stick-built. Shorter on-site time means fewer labour hours and less hire cost for scaffolding, cranes, and site facilities. However, upfront factory costs can be similar; the savings are in efficiency and speed.",
+        "Council approval for modular builds in Victoria follows the same process as traditional construction. You still need a building permit, a development application, and compliance with the NCC. But because the design is finalised early, the approval process can actually be smoother. We've found Southbank council to be receptive to modular projects when accompanied by a detailed engineering submission.",
+        "Transport logistics are something to consider. Modules need to be trucked from the factory to your site. For townhouses in Melbourne's inner suburbs, access and crane space must be carefully planned. Our team coordinates with traffic management authorities to minimise disruption. We've delivered modules to tight streets in Richmond without a hitch.",
+        "If you're considering a townhouse development in Melbourne, modular is worth a serious look. It's not right for every site, but for repetitive, multi-unit projects it's a game changer. We can advise on whether your site is suitable and manage the entire process from design to handover."
+      ]
+    },
+    {
+      "title": "What Does a Construction Consultant Actually Do? A Southbank Guide",
+      "date": "January 2026",
+      "excerpt": "Ever wondered what a construction consultant brings to the table? We explain the role, from feasibility to handover, and how it saves you time and money.",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon4.png",
+      "body": [
+        "A construction consultant is your project's safety net. They don't swing hammers — they manage the team that does. From the initial idea through to final handover, a consultant coordinates architects, engineers, builders, and certifiers. In Southbank, where developments are often complex and tightly regulated, having a consultant like Millar Projects on your side can mean the difference between a smooth build and a costly nightmare.",
+        "Early stage: we help with feasibility. Is your site suitable? What's the zoning? What council overlays apply? For a Southbank apartment block, we'll check flood risk, heritage overlays, and height limits. We estimate costs and timelines so you can make an informed decision. This alone saves clients from committing to unworkable designs.",
+        "Design stage: we liaise between you, architects, and engineers to ensure the design is buildable and budget-friendly. We flag potential issues before they hit the tender stage. For example, specifying a cheaper cladding system that performs just as well can shave months off the schedule. We've done this for numerous townhouses in South Melbourne.",
+        "During construction, consultants are the eyes on site. We don't just visit once a month — we're there weekly (sometimes daily) checking progress, quality, and safety. If a structural steel issue arises, we fix it before it delays the pour. We also handle payment schedules, variations, and disputes with subcontractors. Our clients rarely need to visit site because we handle it all.",
+        "At handover, we ensure all certification, as-built drawings, and manuals are in order. We walk through with you, document any defects, and push the builder to fix them. After handover, we remain available for any structural or operational questions. Many clients come back to us for their next project because they trust us to have their back.",
+        "In short, a construction consultant is the glue that holds your project together. If you're building in Southbank, St Kilda, or anywhere in Victoria, consider hiring one — the cost is minimal compared to the stress and waste of a poorly managed build. Contact Millar Projects for a free chat about your project."
+      ]
+    },
+    {
+      "title": "How to Choose a Builder in Southbank: 5 Key Factors",
+      "date": "December 2025",
+      "excerpt": "Finding a reliable builder in Southbank can be tough. We share the five things to look for when selecting a construction partner for your next project.",
+      "image": "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon5.png",
+      "body": [
+        "Choosing the right builder or construction team for your Southbank project is one of the biggest decisions you'll make. Whether you're building a new home, an apartment block, or a commercial fit-out, the wrong choice can cost you thousands and months of delay. Here are five factors we recommend every client consider.",
+        "First, look at their track record. Ask for examples of similar projects in the area. A builder who's done a townhouse in Southbank will know the local council requirements and soil conditions. Check references — actually call them. A good builder won't hesitate to provide client testimonials. We've completed over 500 projects in Victoria, and we're happy to share contact details of previous clients in Southbank.",
+        "Second, communication style matters. If a builder doesn't return calls promptly during the quoting phase, imagine how they'll be on site. Millar Projects prides itself on being approachable and available. We believe in plain-spoken, honest communication — no jargon, no excuses. You should feel comfortable asking questions at any stage.",
+        "Third, check their insurance and licences. In Victoria, any builder doing work over $10,000 must be registered with the Victorian Building Authority. They need public liability insurance (at least $5 million, but $20 million is safer). Make sure subcontractors are also insured. We ensure every trade we bring on site has current coverage and certifications.",
+        "Fourth, get multiple quotes — but don't pick the cheapest. A low price often means corners cut on materials or management. Look for a detailed scope of works. Our quotes are itemised so you see exactly where every dollar goes. We also include a fixed-price guarantee: the only way the price changes is if you change the scope.",
+        "Finally, trust your gut. Meet the team in person. Do they listen? Do they understand your vision? For a project in Southbank, working with someone who knows the local market — including subbies, suppliers, and council planners — is invaluable. We've built relationships over decades, and that network translates to smoother projects for our clients."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://millarprojects.com.au/wp-content/uploads/2019/10/project-manag.jpg",
+  "photoRowImages": [
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/consult.jpg",
+    "https://millarprojects.com.au/wp-content/uploads/2020/01/IMG_0228-601x800.jpg",
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon6.png",
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/build.png"
+  ],
+  "aboutImages": [
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/images-1.png",
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/partners.png",
+    "https://millarprojects.com.au/wp-content/uploads/2020/01/AdobeStock_216146203.mov"
+  ],
+  "fullWidthImage": "https://millarprojects.com.au/wp-content/uploads/2020/02/Office-Snap-1026x800.png",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation consultation today.",
+  "bannerImage": "https://millarprojects.com.au/wp-content/uploads/2019/10/img_30132-1214x800.jpg",
+  "testimonialsImage": "https://millarprojects.com.au/wp-content/uploads/2019/10/consult-img.jpg",
+  "galleryImages": [
+    "https://millarprojects.com.au/wp-content/uploads/2020/01/IMG_5395-1067x800.jpg",
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/welcm-project-banner.jpg",
+    "https://millarprojects.com.au/main-menu-overlay",
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon2.png",
+    "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon3.png"
+  ],
+  "pricingBgImage": "https://millarprojects.com.au/wp-content/uploads/2019/10/home-icon4.png"
+}
