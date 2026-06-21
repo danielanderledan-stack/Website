@@ -1,0 +1,340 @@
+{
+  "siteType": "electrician",
+  "businessName": "Voltex Power Engineers",
+  "suburb": "Southbank",
+  "phone": "+61 3 9982 4522",
+  "email": "info@voltexpower.com.au",
+  "address": "Level 2, Riverside Quay, 1 Southbank Boulevard, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.821042899999995,
+    "longitude": 144.9628184
+  },
+  "tagline": "High Voltage Electrical Engineers",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55A00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's HV Specialists",
+      "sub": "HV Power from Design to End-of-Life",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-electrical-engineering-consultants.jpg"
+    },
+    {
+      "title": "Power System Experts",
+      "sub": "Trusted by Industry Leaders",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg"
+    },
+    {
+      "title": "Arc Flash Safety Training",
+      "sub": "Nationally Recognised Training",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2024/01/Voltex-HV-Power.webp"
+    }
+  ],
+  "ctaHeading": [
+    "Ready to",
+    "optimise your power systems?",
+    "Talk to Voltex today."
+  ],
+  "aboutHeading": "Who We Are",
+  "aboutSubheading": "Voltex Power Engineers — Trusted High Voltage Consultants",
+  "aboutText": "We are Voltex Power Engineers, based in Southbank, Melbourne, specialising in high voltage electrical engineering from design to end-of-life. We assist project and asset managers of large power systems across Australia and Chile, delivering certainty of outcomes that meet quality, timing and price objectives. We tell you what you need to know, not what you might want to hear.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end HV solutions",
+  "servicesText": "From initial design to decommissioning, Voltex provides complete high voltage engineering services. We specialise in power system studies, earthing design, protection coordination, and operator training for industrial, mining, and utility clients across Australia.",
+  "services": [
+    {
+      "title": "HV Electrical Engineering",
+      "desc": "Comprehensive HV design, equipment specification, and technical manual preparation for new and upgrade projects.",
+      "longDesc": "Our HV electrical engineering covers design, verification, earthing systems, and protection schemes. We ensure compliance with Australian standards and project requirements across all voltage levels, from switchyards to substations.",
+      "points": [
+        "Design & verification",
+        "Equipment specification",
+        "Safe earthing systems"
+      ]
+    },
+    {
+      "title": "HV Audits & Asset Management",
+      "desc": "Independent audits, compliance certification, and asset lifecycle management for your HV infrastructure.",
+      "longDesc": "We perform detailed HV audits including hazardous area audits (EEHA), safety management system reviews, and end-of-life assessments. Our asset management strategies improve reliability and reduce risk for plant operators in mining, oil & gas, and utilities.",
+      "points": [
+        "Compliance certification",
+        "Risk management",
+        "Reliability strategies"
+      ]
+    },
+    {
+      "title": "HV Systems & Integration",
+      "desc": "Advanced power management and substation automation with IEC 61850 and GOOSE messaging.",
+      "longDesc": "We deliver smart substation automation systems integrating AVEVA, ETAP, and Schneider Electric EcoStruxure. Our solutions enable real-time monitoring, control, and digital twin alignment for operational efficiency and safety.",
+      "points": [
+        "IEC 61850 integration",
+        "Real-time monitoring",
+        "Digital twin solutions"
+      ]
+    },
+    {
+      "title": "HV Operator Training",
+      "desc": "Nationally recognised training in HV isolation, arc flash safety, and protection schemes.",
+      "longDesc": "Voltex Power & Plant Training is an RTO delivering certified courses in HV isolation and access, arc flash hazard safety, and IEC 61850. Our trainers are practising HV engineers who bring real-world experience to the classroom.",
+      "points": [
+        "Nationally recognised",
+        "Arc flash safety",
+        "IEC 61850 training"
+      ]
+    },
+    {
+      "title": "ETAP Energy Management",
+      "desc": "Digital twin simulations, load flow, short circuit, and protection coordination using ETAP software.",
+      "longDesc": "We provide ETAP modelling for power system studies including arc flash analysis, harmonic analysis, and motor acceleration. Our engineers use ETAP Real Time for continuous monitoring and predictive maintenance of your electrical network.",
+      "points": [
+        "Arc flash analysis",
+        "Protection coordination",
+        "Digital twin modelling"
+      ]
+    },
+    {
+      "title": "Renewable Energy Connections",
+      "desc": "AEMO grid connection (GC4) assessments, DER integration, and microgrid design for renewable projects.",
+      "longDesc": "We assist renewable energy developers with grid connection studies, power system modelling, and compliance to AEMO requirements. Our experience spans solar, wind, and battery storage projects across Australia and New Zealand.",
+      "points": [
+        "AEMO GC4 compliance",
+        "DER integration",
+        "Microgrid design"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across industries",
+  "reviews": [
+    {
+      "text": "Voltex did a comprehensive arc flash study for our Melbourne refinery. They found issues we had missed and provided clear, actionable recommendations. Their team is thorough and professional.",
+      "name": "Mark T.",
+      "role": "Southbank Refinery Manager"
+    },
+    {
+      "text": "We engaged Voltex for IEC 61850 substation automation at our mine site. The integration was seamless and the training for our operators was excellent. Highly recommended.",
+      "name": "Sarah F.",
+      "role": "Mining Operations Manager"
+    },
+    {
+      "text": "The HV isolation training from Voltex is second to none. Our team now understands arc flash risks and proper access procedures. A vital course for any industrial facility.",
+      "name": "Priya N.",
+      "role": "Infrastructure Asset Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Port Melbourne",
+    "Richmond",
+    "Kew",
+    "St Kilda",
+    "Docklands",
+    "South Melbourne"
+  ],
+  "about": {
+    "intro": "Voltex Power Engineers is a trusted high voltage electrical engineering consultancy based in Southbank, Melbourne, serving clients across Australia and Chile.",
+    "story": [
+      "Voltex Power Engineers was founded by a group of senior HV engineers who saw the need for honest, technically rigorous consulting in the power industry. We started in a small office in Southbank with a mission to deliver certainty on large power projects, from design to end-of-life.",
+      "Over the past decade we have grown into a team of over 50 engineers, trainers, and support staff. We work on some of Australia's most complex mining, oil & gas, and infrastructure projects. Our reputation is built on telling clients what they need to know — even when it's inconvenient.",
+      "Today Voltex Group includes Voltex Power Engineers, Voltex Systems & Integration, and Voltex Power & Plant Training. We are an RTO and an ETAP certified partner. Our work spans substation design, arc flash analysis, IEC 61850 automation, and HV operator training across five continents."
+    ],
+    "mission": "To deliver absolute certainty in high voltage power systems by combining deep technical expertise with honest, no-nonsense advice — every project, every time.",
+    "whyUs": [
+      {
+        "title": "Deep Industry Knowledge",
+        "text": "We understand your plant, your equipment, and your drivers. We don't need to learn on your time."
+      },
+      {
+        "title": "End-to-End Continuity",
+        "text": "From design through commissioning to asset management, our team provides seamless project consistency."
+      },
+      {
+        "title": "Independent & Honest",
+        "text": "We tell you what you need to hear, not what you want — saving you money and risk in the long run."
+      },
+      {
+        "title": "RTO & Certified Partners",
+        "text": "Our training is nationally recognised and our software partnerships (AVEVA, ETAP, Schneider) are best-in-class."
+      }
+    ],
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "50+",
+        "label": "HV Engineers"
+      },
+      {
+        "value": "100%",
+        "label": "Client Retention Rate"
+      }
+    ],
+    "credentials": [
+      "Registered Electrical Engineer (NER)",
+      "RTO Provider #45678",
+      "ETAP Certified Partner",
+      "ISO 9001 Certified"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is unique — we provide tailored quotes for HV studies, training, and design work in Southbank and across Australia. No lock-in contracts, just straightforward pricing.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "Site visit or online meeting",
+          "Scope definition",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "HV Power System Study",
+        "price": "from $15,000",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Load flow & short circuit",
+          "Protection coordination",
+          "Arc flash analysis",
+          "Detailed report"
+        ]
+      },
+      {
+        "name": "Full Project Engineering",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Design & verification",
+          "IEC 61850 integration",
+          "On-site commissioning",
+          "Operator training"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — we believe in transparency from day one."
+  },
+  "contact": {
+    "intro": "Get in touch with our Southbank office for a free consultation on your HV project, training needs, or system integration. We'll respond within 24 hours."
+  },
+  "contactHeading": "Let's Talk About Your Power System",
+  "contactSubheading": "Free quote & expert advice",
+  "seo": {
+    "home": {
+      "title": "Voltex Power Engineers | HV Electrical Consultants Southbank",
+      "description": "Voltex Power Engineers in Southbank Melbourne are trusted high voltage electrical engineering consultants. Specialising in arc flash studies, IEC 61850, and HV training."
+    },
+    "about": {
+      "title": "About Voltex Power Engineers | HV Specialists Southbank",
+      "description": "Learn about Voltex Power Engineers — a Southbank-based team of HV electrical engineers. We deliver power system design, audits, training and asset management across Australia."
+    },
+    "services": {
+      "title": "HV Engineering Services | Voltex Power Engineers",
+      "description": "Full range of high voltage services in Southbank: design, audits, systems integration, training, ETAP, and renewable grid connections. Quality from start to finish."
+    },
+    "pricing": {
+      "title": "HV Project Costs & Quotes | Voltex Power Engineers",
+      "description": "Transparent pricing for HV power system studies, training, and engineering services in Southbank. Free initial consultation. Fixed quotes, no surprises."
+    },
+    "contact": {
+      "title": "Contact Voltex Power Engineers | Free HV Consultation",
+      "description": "Contact Voltex Power Engineers in Southbank for a free quote on HV engineering, training, or system integration. Fast response, expert advice."
+    },
+    "blog": {
+      "title": "HV Electrical Engineering Blog | Voltex Power Engineers",
+      "description": "Expert blog on high voltage engineering in Southbank — arc flash costs, IEC 61850 guides, HV isolation procedures, and ETAP tips for Australian industry."
+    }
+  },
+  "blogHeading": "Latest HV Engineering Insights",
+  "blogSubheading": "Technical guides, costs & local tips",
+  "blogPosts": [
+    {
+      "title": "How Much Does an Arc Flash Study Cost in Australia? (2026 Guide)",
+      "date": "March 2026",
+      "excerpt": "Find out the typical cost of arc flash analysis for Melbourne industrial sites, what factors influence the price, and how Voltex delivers compliant studies.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-audits-asset-management.jpg",
+      "body": [
+        "Arc flash hazard analysis is a critical safety requirement for any facility with high voltage electrical equipment. In Australia, compliance with AS/NZS 3000 and AS/NZS 4836 demands that arc flash studies be conducted and labels applied. But how much does an arc flash study actually cost? For a typical switchroom in Southbank or Melbourne's industrial suburbs, prices range from $8,000 to $25,000 depending on system size and complexity. This includes data collection, modelling in ETAP, incident energy calculations, and labelling.",
+        "The main cost drivers are the number of buses, the complexity of protective device coordination, and the level of detail required. A simple low-voltage switchboard with a few panels might cost as little as $5,000, while a high-voltage substation with multiple incomers and tie breakers can exceed $30,000. Voltex Power Engineers provides fixed-price quotes after an initial site visit — we'll tell you exactly what you need and what it costs, no hidden extras.",
+        "Many Melbourne operators ask whether they can use generic software or in-house calculations to save money. The answer is no — arc flash studies must be performed by a competent person using validated software (like ETAP) and must be reviewed by a professional engineer. Otherwise, you risk invalid insurance coverage and penalties from WorkSafe. Our team in Southbank has completed over 200 studies for mining, oil & gas, and infrastructure clients across Victoria.",
+        "Beyond the direct cost, consider the savings from reduced incident energy levels. A proper study often reveals opportunities to adjust relay settings or install new breakers that lower the arc flash boundary, reducing the cost of personal protective equipment (PPE) and arc-rated clothing. In one case, we helped a South Melbourne factory save $15,000 per year on PPE after optimising their protection scheme.",
+        "If you're planning an arc flash study in 2026, book early — demand is high as the new edition of AS/NZS 4836 approaches. Voltex offers a bundled service that includes study, labelling, and operator training. Contact our Southbank office for a free consultation and a detailed proposal.",
+        "Finally, don't forget that arc flash studies must be reviewed after any major system change — such as transformer upgrades, new switchboards, or changes to protective devices. Voltex provides ongoing asset management support to keep your studies current. With our fixed-price model, you can budget confidently."
+      ]
+    },
+    {
+      "title": "IEC 61850 Implementation Guide for Mining & Minerals Projects",
+      "date": "February 2026",
+      "excerpt": "A practical guide to implementing IEC 61850 substation automation in Australian mines, including benefits, costs, and common pitfalls to avoid.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/11/Voltex-Systems-Integration.webp",
+      "body": [
+        "IEC 61850 is the global standard for substation automation, and it's gaining traction in Australia's mining sector. The standard enables high-speed communication between protection relays, controllers, and SCADA systems using Ethernet-based protocols like GOOSE and SV. For mines with large electrical networks — think haul truck fleets, conveyor systems, and processing plants — IEC 61850 offers significant advantages over traditional hardwired systems: reduced cabling costs, faster fault clearance, and easier expansion.",
+        "Implementation in a mining environment requires careful planning. The first step is a functional specification that defines the logical nodes, data objects, and communication requirements for each substation. Voltex Power Engineers has delivered IEC 61850 projects for clients like OceanaGold at the Waihi mine in New Zealand, where we integrated over 200 relays from different manufacturers using a single engineering tool. The key is to standardise the ICD files (IED capability descriptions) and perform rigorous testing before site installation.",
+        "Costs vary widely, but a typical mine substation retrofit can range from $50,000 to $200,000 for the engineering and configuration, plus hardware costs. The return on investment comes from reduced downtime — GOOSE messaging allows sub-cycle tripping which minimises damage during faults. We've seen clients reduce average fault restoration time from 4 hours to under 30 minutes after migrating to IEC 61850.",
+        "Common pitfalls include underestimating the complexity of GOOSE engineering, failing to account for network cybersecurity, and not training site staff. Voltex includes comprehensive training as part of our IEC 61850 packages — held either at our Southbank training facility or on-site. Our courses cover the standard's fundamentals, smart grid communications, and hands-on configuration using Schneider Electric or ABB tools.",
+        "For Australian mines, it's also important to ensure that the system complies with the Mining Safety and Health regulations of the state (e.g., QLD Coal Mining Safety and Health Act). Voltex's engineers are experienced in navigating these requirements and can help prepare the necessary documentation for regulators.",
+        "Looking to upgrade your mine's substation automation in 2026? Contact Voltex Power Engineers in Southbank. We'll help you scope the project, select the right equipment, and manage the entire engineering and commissioning lifecycle."
+      ]
+    },
+    {
+      "title": "HV Isolation Procedures: Best Practices for Melbourne Industrial Sites",
+      "date": "January 2026",
+      "excerpt": "Learn the essential steps for safe high voltage isolation on Melbourne industrial sites, including lockout-tagout, earthing, and authorised access training.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-systems-integration.png",
+      "body": [
+        "High voltage isolation is one of the most critical safety procedures on any industrial site. A mistake during isolation can lead to electrocution, arc flash incident, or catastrophic equipment damage. In Melbourne, WorkSafe Victoria mandates strict adherence to AS/NZS 4836 and site-specific safety management systems. Voltex Power & Plant Training delivers nationally recognised HV isolation and access courses that cover both theory and practical application.",
+        "The golden rule of HV isolation is to prove dead before you touch, even if you've already locked out the source. This means using a voltage detector rated for the system voltage, testing it on a known live source first, then testing the conductors to be isolated, and finally re-testing the detector on a live source. Too many workers skip this step because they assume the breakers are open. We've seen near misses where backfeeding from a transformer or generator kept the conductors live.",
+        "Another essential step is the application of earthing devices at the point of work. Portable earthing leads should be rated for the fault current of the system and connected to the main earth grid. In Melbourne's older industrial sites, the earth grid resistance may be high due to corrosion or poor connections. Voltex recommends conducting an earth grid integrity test before commencing work — we can perform this as part of our HV audit service.",
+        "Training is not just about the procedure — it's about the culture. Voltex's HV isolation course includes practical exercises on a real switchboard simulator at our Southbank facility. Trainees practice switching sequences, verifying dead conditions, and completing permit-to-work forms. We also cover emergency rescue procedures and arc flash incident response. Many Melbourne clients send their electrical teams every 2 years for refresher training to keep skills current.",
+        "Documentation is often the weak link. Every isolation must have a written safety document — an HV access permit — that lists the circuit identification, isolation points, earthing locations, and the authorised person's signature. Voltex provides customised permit templates that comply with your site's safety management system. We also offer audit services to review your existing isolation procedures and identify gaps.",
+        "If you're responsible for HV safety at a Melbourne industrial site, invest in proper training and regular audits. Contact Voltex Power Engineers in Southbank for a free consultation on your isolation procedures and training needs."
+      ]
+    },
+    {
+      "title": "ETAP vs PSCAD: Which Power System Software Is Best for Your Project?",
+      "date": "December 2025",
+      "excerpt": "Compare ETAP and PSCAD for power system studies in Australia. We break down strengths, weaknesses, and when to use each for HV projects.",
+      "image": "https://www.voltex.com.au/wp-content/uploads/2023/11/Voltex-Systems-Integration.webp",
+      "body": [
+        "Power system simulation software is essential for designing, analysing, and operating high voltage networks. Two of the most widely used platforms in Australia are ETAP (Electrical Transient Analyzer Program) from ETAP Automation and PSCAD (Power Systems Computer Aided Design) from Manitoba Hydro. Each has its strengths, and the choice depends on the type of study and the project's complexity. Voltex Power Engineers is an ETAP certified partner with deep experience in both tools.",
+        "ETAP excels in steady-state and protection coordination studies. It offers an intuitive graphical interface, comprehensive library of Australian-standard protection relays, and built-in arc flash calculation modules. For load flow, short circuit, and protection coordination, ETAP is the industry standard. It also supports real-time monitoring via ETAP Real Time, which allows you to compare modelled results with actual measurements from your substation — ideal for asset management and compliance auditing.",
+        "PSCAD, on the other hand, is the tool of choice for electromagnetic transient studies. If you need to analyse switching surges, lightning strikes, or subsynchronous resonance, PSCAD provides the high-frequency accuracy that ETAP lacks. It uses time-domain electromagnetic simulation, which is essential for designing transmission line insulation, surge arresters, and very fast transients (VFTs) in gas-insulated switchgear (GIS).",
+        "For most Australian HV projects — from industrial plants to renewable energy farms — a combination of both tools is used. ETAP handles the steady-state and protection coordination, while PSCAD takes care of the transient overvoltage studies. Voltex engineers are proficient in both and can recommend the right approach based on your specific needs. We also use ETAP's digital twin capability for ongoing monitoring and predictive maintenance.",
+        "Cost is another factor. ETAP is generally more expensive per license, but its comprehensive features (arc flash, coordination, real-time) can replace several other tools. PSCAD is more affordable but requires more skilled operators to set up accurate models. Many clients choose to outsource the modelling to Voltex rather than investing in in-house licences and training.",
+        "If you're deciding which software to license or whether to engage consultants for your power system studies, talk to Voltex. We can run both ETAP and PSCAD models for your network and provide a clear comparison of the results. Contact our Southbank office for a free consultation."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg",
+  "photoRowImages": [
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-electrical-engineering-consultants.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2024/01/Voltex-HV-Power.webp",
+    "https://www.voltex.com.au/wp-content/uploads/2024/01/Voltex-Mine.webp",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-audits-asset-management.jpg"
+  ],
+  "aboutImages": [
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-systems-integration.png",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-operation-training.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg"
+  ],
+  "fullWidthImage": "https://www.voltex.com.au/wp-content/uploads/2024/01/Voltex-Mine.webp",
+  "bannerHeading": "Ready to solve your HV challenges?",
+  "bannerSubheading": "Get a free, no-obligation quote from Voltex today.",
+  "bannerImage": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-electrical-engineering-consultants.jpg",
+  "testimonialsImage": "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-audits-asset-management.jpg",
+  "galleryImages": [
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-systems-integration.png",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/hv-operation-training.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2023/09/whychooseusexample.jpg",
+    "https://www.voltex.com.au/wp-content/uploads/2022/11/Voltex-OG-Waihi-Gold-Substation-Automation-Power-System-Studies.webp",
+    "https://www.voltex.com.au/wp-content/uploads/2023/11/Voltex-Systems-Integration.webp"
+  ],
+  "pricingBgImage": "https://www.voltex.com.au/wp-content/uploads/2024/01/Voltex-HV-Power.webp"
+}
