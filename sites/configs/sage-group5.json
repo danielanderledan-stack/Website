@@ -1,0 +1,339 @@
+{
+  "siteType": "electrician",
+  "businessName": "SAGE Group",
+  "suburb": "Southbank",
+  "phone": "+61 1300 007 243",
+  "email": "info@sagegroup.com.au",
+  "address": "HWT Tower, Level 21/40 City Rd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.821025399999996,
+    "longitude": 144.9667385
+  },
+  "tagline": "Southbank's Industrial Automation Experts",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00b8d4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Automation Leaders",
+      "sub": "Control systems & digital enablement",
+      "image": "https://gotosage.com/hs-fs/hubfs/key%201.png?width=753&height=383&name=key%201.png"
+    },
+    {
+      "title": "Built for Complex Industries",
+      "sub": "Energy, defence, water & transport",
+      "image": "https://gotosage.com/hs-fs/hubfs/resources-1.png?width=497&height=276&name=resources-1.png"
+    },
+    {
+      "title": "24/7 Support Across Australia",
+      "sub": "Backed by Tetra Tech",
+      "image": "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "SAGE Group in Southbank",
+    "is ready to automate your future."
+  ],
+  "aboutHeading": "Automation That Moves Australia Forward",
+  "aboutSubheading": "Your local experts in industrial automation",
+  "aboutText": "SAGE Group, based in Southbank, has been delivering industrial automation, control systems, and digital enablement solutions across Australia for over 25 years. We serve critical industries including energy, water, defence, and manufacturing. Our team of 500+ engineers and specialists design, build, and support smart systems that keep your operations running smoothly and securely.",
+  "servicesHeading": "Our Core Capabilities",
+  "servicesSubheading": "End-to-end automation solutions",
+  "servicesText": "From control system design to full digital transformation, SAGE Group delivers integrated solutions for Australia's most demanding industries. Our services cover automation, data, training, and embedded expertise.",
+  "services": [
+    {
+      "title": "Control Systems Engineering",
+      "desc": "Design and integration of PLC, SCADA, and DCS systems for industrial environments.",
+      "longDesc": "We engineer robust control systems for manufacturing, water treatment, and energy plants across Australia. Our certified engineers deliver reliable, scalable automation tailored to your operations.",
+      "points": [
+        "Custom PLC programming",
+        "SCADA integration",
+        "24/7 support"
+      ]
+    },
+    {
+      "title": "Digital Enablement",
+      "desc": "Turn operational data into actionable insights with IIoT and analytics.",
+      "longDesc": "Nukon, part of SAGE Group, specialises in industrial data solutions, process automation, and systems integration. We help you stop drowning in data and start making smarter decisions.",
+      "points": [
+        "IIoT implementation",
+        "Data visualisation",
+        "Predictive analytics"
+      ]
+    },
+    {
+      "title": "Training & Upskilling",
+      "desc": "Hands-on programs in automation, AI, and cyber security through Skills Lab.",
+      "longDesc": "Skills Lab delivers industry-focused micro-credentials and cyber-physical training courses. Bridge the gap between where your workforce is and where it needs to be.",
+      "points": [
+        "Micro-credentials",
+        "Cyber-physical training",
+        "On-site workshops"
+      ]
+    },
+    {
+      "title": "Embedded Expertise",
+      "desc": "High-calibre technical specialists who integrate with your team.",
+      "longDesc": "Our Embedded Expertise service places skilled consultants on-site for weeks or months. They transfer knowledge and build lasting capability within your organisation.",
+      "points": [
+        "On-demand specialists",
+        "Knowledge transfer",
+        "Flexible durations"
+      ]
+    },
+    {
+      "title": "Cyber Security",
+      "desc": "Protect operational technology with robust cyber security frameworks.",
+      "longDesc": "We secure your industrial control systems against evolving threats. Our cyber security services include risk assessments, network segmentation, and compliance support.",
+      "points": [
+        "OT security audits",
+        "Network hardening",
+        "Incident response"
+      ]
+    },
+    {
+      "title": "Project Delivery",
+      "desc": "End-to-end project management for complex automation projects.",
+      "longDesc": "From concept to commissioning, we deliver automation projects on time and on budget. Our project managers coordinate across disciplines to ensure seamless execution.",
+      "points": [
+        "Full lifecycle delivery",
+        "Risk management",
+        "Commissioning support"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across critical industries",
+  "reviews": [
+    {
+      "text": "SAGE Group delivered a complete control system upgrade for our water treatment plant in Southbank. The team was professional, on time, and the system has been running flawlessly. Highly recommend.",
+      "name": "David M.",
+      "role": "Water Operations Manager"
+    },
+    {
+      "text": "We engaged SAGE for digital enablement across our manufacturing lines. The IIoT insights they provided have reduced downtime by 30%. Their Southbank team really knows their stuff.",
+      "name": "Lisa T.",
+      "role": "Manufacturing Director"
+    },
+    {
+      "text": "The embedded expertise model worked perfectly for our defence project. SAGE placed two control engineers on-site for six months. They integrated seamlessly and delivered beyond expectations.",
+      "name": "Andrew K.",
+      "role": "Defence Project Lead"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Port Melbourne",
+    "Richmond",
+    "St Kilda",
+    "Docklands",
+    "Fitzroy",
+    "Collingwood"
+  ],
+  "about": {
+    "intro": "SAGE Group is a Tetra Tech company headquartered in Southbank, delivering automation, digital, and workforce solutions across Australia.",
+    "story": [
+      "SAGE Group started over 25 years ago with a simple mission: help Australian industries run smarter. From our base in Southbank, we've grown into a national force in automation and digital enablement, serving energy, water, defence, transport, and manufacturing sectors.",
+      "Today, we bring together four specialist companies — SAGE Automation, Nukon, Skills Lab, and Embedded Expertise — under one roof. Backed by Tetra Tech's global reach, we design, build, and support systems that keep Australia's critical infrastructure moving. Our team of over 500 engineers and consultants works across the country, 24/7."
+    ],
+    "mission": "To accelerate Australia's industrial future through smart automation, data-driven decisions, and skilled people — starting right here in Southbank.",
+    "whyUs": [
+      {
+        "title": "Deep Industry Expertise",
+        "text": "We've delivered complex projects in energy, defence, water, and transport across Australia for over 25 years."
+      },
+      {
+        "title": "Technology-Agnostic",
+        "text": "We recommend the best platform for your needs, with top-tier certifications across all major automation systems."
+      },
+      {
+        "title": "National 24/7 Support",
+        "text": "Our Southbank team coordinates round-the-clock support to minimise downtime and keep you operational."
+      },
+      {
+        "title": "Backed by Tetra Tech",
+        "text": "We combine local agility with global resources, giving you the best of both worlds."
+      }
+    ],
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Engineers & Consultants"
+      },
+      {
+        "value": "100%",
+        "label": "Australian Owned"
+      }
+    ],
+    "credentials": [
+      "ISO 9001 Certified",
+      "Defence Industry Security Program (DISP) Member",
+      "Tetra Tech Global Partner",
+      "Registered Training Organisation (RTO)"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is different. We provide tailored quotes after understanding your specific needs. No lock-in contracts — just honest advice from our Southbank team.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Needs assessment",
+          "Preliminary scope"
+        ]
+      },
+      {
+        "name": "Automation Project",
+        "price": "from $50k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design & build",
+          "PLC/SCADA integration",
+          "Commissioning & testing",
+          "12-month support"
+        ]
+      },
+      {
+        "name": "Enterprise Digital Transformation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "IIoT & analytics",
+          "Systems integration",
+          "Workforce upskilling",
+          "Ongoing optimisation"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — we believe in transparent pricing."
+  },
+  "contact": {
+    "intro": "Ready to automate your operations? Get in touch with our Southbank team for a free, no-obligation consultation. We'll discuss your goals and find the right solution."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "SAGE Group | Industrial Automation Southbank | Control Systems",
+      "description": "SAGE Group in Southbank delivers industrial automation, control systems, and digital enablement for energy, defence, water & manufacturing. 25+ years. 24/7 support."
+    },
+    "about": {
+      "title": "About SAGE Group — Southbank's Automation Experts",
+      "description": "Learn about SAGE Group, a Tetra Tech company based in Southbank. Over 25 years delivering automation, digital, and workforce solutions across Australia."
+    },
+    "services": {
+      "title": "Automation Services in Southbank | SAGE Group",
+      "description": "Explore SAGE Group's services: control systems, digital enablement, training, embedded expertise, cyber security, and project delivery. Based in Southbank."
+    },
+    "pricing": {
+      "title": "Automation Project Costs Southbank | SAGE Group",
+      "description": "Get a free quote for industrial automation in Southbank. SAGE Group offers transparent pricing for control systems, IIoT, and digital transformation projects."
+    },
+    "contact": {
+      "title": "Contact SAGE Group Southbank | Free Consultation",
+      "description": "Contact SAGE Group in Southbank for a free consultation. Call 1300 007 243 or email us. We're ready to discuss your automation needs."
+    },
+    "blog": {
+      "title": "Industrial Automation Blog Southbank | SAGE Group",
+      "description": "Read the latest insights on industrial automation, digital enablement, and workforce training from SAGE Group in Southbank. Expert advice for Australian industries."
+    }
+  },
+  "blogHeading": "Latest Industry Insights",
+  "blogSubheading": "Automation, digital & workforce tips",
+  "blogPosts": [
+    {
+      "title": "How Much Does Industrial Automation Cost in Southbank?",
+      "date": "March 2026",
+      "excerpt": "Wondering about automation costs in Southbank? We break down pricing factors for control systems, IIoT, and digital transformation projects.",
+      "image": "https://gotosage.com/hs-fs/hubfs/key%201.png?width=753&height=383&name=key%201.png",
+      "body": [
+        "Industrial automation is a significant investment, and businesses in Southbank often ask us about the costs involved. The truth is, pricing varies widely depending on the scope, complexity, and industry. A simple PLC upgrade for a small manufacturing line might start around $50,000, while a full digital transformation for a water treatment plant can run into the millions. In this guide, we'll break down the key factors that influence automation costs in Southbank and help you budget effectively.",
+        "The first factor is the type of system you need. Control systems like PLCs, SCADA, and DCS form the backbone of most automation projects. A basic PLC installation with programming and commissioning typically costs between $50,000 and $150,000. SCADA systems, which provide centralised monitoring and control, add another $30,000 to $100,000 depending on the number of data points and integration requirements. For DCS systems used in large-scale process industries, costs can exceed $500,000.",
+        "Digital enablement projects, including IIoT and data analytics, have a different cost structure. Sensors, gateways, and cloud platforms are the main expenses. A typical IIoT deployment for a Southbank manufacturing plant might cost $20,000 to $80,000 for hardware and setup, plus ongoing subscription fees for data storage and analytics. The return on investment often comes from reduced downtime, predictive maintenance, and energy savings, which can pay back the initial outlay within 12 to 18 months.",
+        "Labour and expertise are another major cost driver. SAGE Group's engineers in Southbank charge competitive rates for design, programming, and commissioning. Complex projects requiring specialised skills — such as functional safety or cyber security — may attract higher rates. However, investing in experienced professionals ensures your system is reliable, compliant, and built to last. Cutting corners on expertise often leads to costly rework and downtime down the track.",
+        "Industry-specific requirements also affect pricing. Defence projects, for example, require security clearances and compliance with strict standards, which adds to the cost. Water and energy projects often involve integration with existing infrastructure, requiring additional engineering hours. Manufacturing projects may focus on production line optimisation, which can be more modular and cost-effective. SAGE Group's Southbank team has experience across all these sectors and can provide accurate estimates.",
+        "Finally, ongoing support and maintenance should be factored into your budget. SAGE Group offers 24/7 support packages starting from $15,000 per year for remote monitoring and troubleshooting. On-site support agreements are also available for critical infrastructure. A well-maintained automation system lasts longer, performs better, and reduces the risk of unexpected failures. For a detailed quote tailored to your Southbank facility, contact our team for a free consultation."
+      ]
+    },
+    {
+      "title": "Top 5 Benefits of SCADA Systems for Water Treatment in Southbank",
+      "date": "February 2026",
+      "excerpt": "SCADA systems are transforming water treatment in Southbank. Discover the top benefits including remote monitoring, compliance, and cost savings.",
+      "image": "https://gotosage.com/hs-fs/hubfs/water.png?width=500&height=301&name=water.png",
+      "body": [
+        "Water treatment plants in Southbank are increasingly turning to SCADA systems to improve efficiency, compliance, and reliability. SCADA — Supervisory Control and Data Acquisition — allows operators to monitor and control processes from a central location, reducing the need for manual intervention. In this post, we explore the top five benefits of implementing SCADA in your water treatment facility, with real-world examples from our Southbank projects.",
+        "First, remote monitoring and control. With SCADA, operators can view real-time data on flow rates, chemical dosing, and equipment status from anywhere. This is especially valuable for Southbank plants with multiple sites or limited on-site staff. Alarms can be configured to notify operators of issues immediately, allowing rapid response to prevent downtime or environmental incidents. SAGE Group has implemented SCADA systems that reduced operator travel time by 60%.",
+        "Second, improved regulatory compliance. Water treatment is heavily regulated in Australia, with strict standards for water quality and discharge. SCADA systems automatically log data and generate reports, making it easy to demonstrate compliance to authorities. Historical data can be analysed to identify trends and optimise treatment processes. Our Southbank clients have used SCADA to achieve 100% compliance during audits, saving time and avoiding penalties.",
+        "Third, cost savings through efficiency. SCADA optimises chemical dosing, energy use, and equipment scheduling, leading to significant operational savings. For example, a Southbank water treatment plant we worked with reduced chemical costs by 15% after implementing a SCADA-based dosing control system. Energy consumption for pumps and blowers can also be optimised based on real-time demand, cutting electricity bills by up to 20%.",
+        "Fourth, enhanced asset management. SCADA systems track equipment performance and maintenance schedules, helping you extend the life of pumps, valves, and sensors. Predictive maintenance alerts can identify potential failures before they occur, reducing unplanned downtime. SAGE Group's SCADA solutions include asset management modules that integrate with your existing CMMS for seamless workflow.",
+        "Fifth, scalability and future-proofing. SCADA systems can be expanded as your plant grows or new treatment processes are added. Modern SCADA platforms support integration with IIoT sensors, cloud analytics, and AI-based optimisation tools. This means your investment today will continue to deliver value for years to come. Contact SAGE Group in Southbank to discuss how SCADA can benefit your water treatment operations."
+      ]
+    },
+    {
+      "title": "Cyber Security for Industrial Control Systems: A Southbank Guide",
+      "date": "January 2026",
+      "excerpt": "Protect your industrial control systems from cyber threats. This Southbank guide covers risk assessments, network segmentation, and compliance.",
+      "image": "https://gotosage.com/hs-fs/hubfs/vision-reality-impact-shield.png?width=618&height=658&name=vision-reality-impact-shield.png",
+      "body": [
+        "Cyber security for industrial control systems (ICS) is no longer optional — it's essential. With the rise of connected devices and IIoT, operational technology (OT) networks are increasingly exposed to cyber threats. In Southbank, industries like energy, water, and manufacturing are prime targets. This guide outlines the key steps to secure your ICS, based on SAGE Group's experience protecting critical infrastructure across Australia.",
+        "The first step is a comprehensive risk assessment. You need to understand your current security posture, identify vulnerabilities, and prioritise remediation. SAGE Group's cyber security team in Southbank conducts OT-specific assessments that cover network architecture, device configurations, and access controls. We also review your incident response plan and provide recommendations tailored to your industry and regulatory requirements.",
+        "Network segmentation is one of the most effective controls. By separating OT networks from IT networks and the internet, you limit the blast radius of any potential breach. Use firewalls, VLANs, and one-way data diodes to enforce segmentation. SAGE Group has designed segmented networks for defence and energy clients in Southbank that meet the highest security standards, including the Australian Signals Directorate's Essential Eight.",
+        "Access control is another critical area. Implement multi-factor authentication for all remote access to OT systems. Use role-based access controls to ensure operators only have the permissions they need. Regularly review and revoke access for former employees or contractors. SAGE Group can help you deploy secure remote access solutions that balance productivity with security, including VPNs and jump boxes.",
+        "Monitoring and detection are essential for identifying threats in real time. Deploy intrusion detection systems (IDS) and security information and event management (SIEM) tools tailored to OT protocols like Modbus and DNP3. SAGE Group's managed security services provide 24/7 monitoring of your OT environment, with alerts and incident response support. Our Southbank team has helped clients detect and neutralise threats before they caused operational impact.",
+        "Finally, ensure your team is trained. Human error is a leading cause of cyber incidents. Regular training on phishing, password hygiene, and incident reporting can significantly reduce risk. Skills Lab, part of SAGE Group, offers cyber security micro-credentials and hands-on training courses for industrial operators. For a full cyber security assessment or to discuss your OT security needs, contact SAGE Group in Southbank today."
+      ]
+    },
+    {
+      "title": "How Embedded Expertise Can Accelerate Your Southbank Project",
+      "date": "December 2025",
+      "excerpt": "Need specialised skills for a short-term project? Embedded expertise from SAGE Group in Southbank provides experienced engineers who integrate with your team.",
+      "image": "https://gotosage.com/hs-fs/hubfs/DILP-DTC-Skills-Lab.jpg?width=800&height=500&name=DILP-DTC-Skills-Lab.jpg",
+      "body": [
+        "Finding the right technical expertise for a specific project can be challenging, especially in Southbank's competitive industrial landscape. Hiring permanent staff takes time and may not be cost-effective for short-term needs. That's where embedded expertise comes in. SAGE Group's Embedded Expertise service places high-calibre engineers and consultants on-site to work alongside your team for weeks, months, or longer.",
+        "The model is simple: you tell us the skills you need, and we provide the right person. Our consultants are experienced in control systems, digital enablement, cyber security, and project management. They integrate seamlessly with your existing team, bringing best practices and fresh perspectives. SAGE Group's Southbank office manages the recruitment, onboarding, and performance of these consultants, so you can focus on your core business.",
+        "One of the key benefits is knowledge transfer. Our consultants don't just do the work — they share their expertise with your team, building capability that remains long after they've left. This is especially valuable for organisations looking to upskill their workforce or adopt new technologies. SAGE Group has delivered embedded expertise projects for defence, energy, and manufacturing clients across Australia, with outstanding results.",
+        "Flexibility is another advantage. You can scale the team up or down as your project evolves, without the overhead of permanent hires. Need a control systems engineer for three months? Done. Require a digital transformation lead for a year? We can do that too. SAGE Group's embedded consultants are available for full-time, part-time, or hybrid arrangements, depending on your needs.",
+        "Cost-effectiveness is also a major draw. You pay a fixed monthly fee that covers the consultant's salary, benefits, and management overhead. There are no recruitment fees, no training costs, and no long-term commitments. This makes embedded expertise an attractive option for Southbank businesses that need specialised skills without the permanent headcount.",
+        "If you're planning a project in Southbank and need extra technical firepower, consider embedded expertise from SAGE Group. Our team is ready to start within weeks. Contact us for a free consultation to discuss your requirements and get a tailored proposal."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://gotosage.com/hs-fs/hubfs/resources-1.png?width=497&height=276&name=resources-1.png",
+  "photoRowImages": [
+    "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png",
+    "https://gotosage.com/hs-fs/hubfs/energy.png?width=497&height=276&name=energy.png",
+    "https://gotosage.com/hs-fs/hubfs/sage-automation/Case%20Studies/22-ZCEF-phase-2/Solar-Panels-Enerven-Christies-Beach.jpg?width=800&height=500&name=Solar-Panels-Enerven-Christies-Beach.jpg",
+    "https://gotosage.com/hs-fs/hubfs/predictive-blockage-detection.png?width=395&height=284&name=predictive-blockage-detection.png"
+  ],
+  "aboutImages": [
+    "https://gotosage.com/hs-fs/hubfs/DILP-DTC-Skills-Lab.jpg?width=800&height=500&name=DILP-DTC-Skills-Lab.jpg",
+    "https://gotosage.com/hs-fs/hubfs/resources-1.png?width=497&height=276&name=resources-1.png",
+    "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png"
+  ],
+  "fullWidthImage": "https://gotosage.com/hs-fs/hubfs/water.png?width=500&height=301&name=water.png",
+  "bannerHeading": "Ready to automate your future?",
+  "bannerSubheading": "Get a free, no-obligation consultation today.",
+  "bannerImage": "https://gotosage.com/hs-fs/hubfs/key%201.png?width=753&height=383&name=key%201.png",
+  "testimonialsImage": "https://gotosage.com/hs-fs/hubfs/DILP-DTC-Skills-Lab.jpg?width=800&height=500&name=DILP-DTC-Skills-Lab.jpg",
+  "galleryImages": [
+    "https://gotosage.com/hs-fs/hubfs/energy.png?width=497&height=276&name=energy.png",
+    "https://gotosage.com/hs-fs/hubfs/resources-1.png?width=497&height=276&name=resources-1.png",
+    "https://gotosage.com/hs-fs/hubfs/water.png?width=500&height=301&name=water.png",
+    "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png",
+    "https://gotosage.com/hs-fs/hubfs/sage-automation/Case%20Studies/22-ZCEF-phase-2/Solar-Panels-Enerven-Christies-Beach.jpg?width=800&height=500&name=Solar-Panels-Enerven-Christies-Beach.jpg"
+  ],
+  "pricingBgImage": "https://gotosage.com/hs-fs/hubfs/vision-reality-impact-shield.png?width=618&height=658&name=vision-reality-impact-shield.png"
+}
