@@ -1,0 +1,338 @@
+{
+  "siteType": "builder",
+  "businessName": "UGL",
+  "suburb": "Southbank",
+  "phone": "+61 3 8413 3300",
+  "email": "hello@ugl.com.au",
+  "address": "1 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.821118,
+    "longitude": 144.9626969
+  },
+  "tagline": "Southbank's engineering backbone since 1899",
+  "primaryColor": "#00bfff",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#009acd",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builder",
+      "sub": "Engineering & construction since 1899",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/milmerran_2_males_ppe_800-x-590.png?h=590&iar=0&w=800"
+    },
+    {
+      "title": "Built Around Your Project",
+      "sub": "Fixed quotes, no surprises",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/millmeran_fam_yellowppe_5.png?h=590&iar=0&w=800"
+    },
+    {
+      "title": "125+ Years on the Job",
+      "sub": "Local & licenced",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/800-x-590-ugl-unipart.png?h=590&iar=0&w=800"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted Southbank builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "UGL has been keeping Australia moving since 1899, with deep roots in Southbank and Melbourne. We deliver end-to-end engineering and construction services across rail, freight, mining, and infrastructure. Our team brings 125 years of experience to every project, big or small. We build for the long haul with quality and safety front and centre.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From heavy engineering to commercial construction, UGL handles the lot. We specialise in rail, mining, and infrastructure projects across Melbourne and beyond. Our team delivers on time, on budget, and to the highest safety standards.",
+  "services": [
+    {
+      "title": "Rail Construction & Maintenance",
+      "desc": "Track laying, signalling, and rolling stock maintenance across Australia.",
+      "longDesc": "UGL is the top rail builder in Australia, handling everything from track construction to train maintenance. We keep freight and passenger lines moving safely and efficiently.",
+      "points": [
+        "Track & signalling",
+        "Rolling stock repair",
+        "Safety compliant"
+      ]
+    },
+    {
+      "title": "Mining Infrastructure",
+      "desc": "Heavy equipment installation and mine site construction nationwide.",
+      "longDesc": "We deliver turnkey mining infrastructure including processing plants, conveyors, and workshops. Our crews work safely in remote and harsh environments.",
+      "points": [
+        "Plant installation",
+        "Remote site work",
+        "Heavy engineering"
+      ]
+    },
+    {
+      "title": "Commercial Construction",
+      "desc": "Office towers, industrial sheds, and mixed-use developments in Melbourne.",
+      "longDesc": "UGL builds commercial spaces from the ground up — including fit-outs, structural steel, and services. We manage complex projects with tight deadlines.",
+      "points": [
+        "Steel structures",
+        "Fit-out & finishes",
+        "Project management"
+      ]
+    },
+    {
+      "title": "Transport Component Manufacturing",
+      "desc": "Custom fabrication of train carriages, bus bodies, and heavy parts.",
+      "longDesc": "Our manufacturing facility produces high-quality transport components for rail, freight, and defence. We use advanced welding and assembly techniques.",
+      "points": [
+        "Custom fabrication",
+        "Quality assured",
+        "Supply chain ready"
+      ]
+    },
+    {
+      "title": "Infrastructure Upgrades",
+      "desc": "Bridge, road, and tunnel upgrades across Victoria and beyond.",
+      "longDesc": "We specialise in large-scale infrastructure upgrades that minimise disruption. From road widening to bridge strengthening, UGL has the expertise.",
+      "points": [
+        "Bridge works",
+        "Road upgrades",
+        "Traffic management"
+      ]
+    },
+    {
+      "title": "Engineering Design & Consulting",
+      "desc": "Structural, civil, and mechanical design for complex builds.",
+      "longDesc": "Our in-house engineers design cost-effective, safe solutions for challenging projects. We support construction with detailed drawings and approvals.",
+      "points": [
+        "In-house engineers",
+        "DA approvals",
+        "Design & construct"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "UGL built our new rail maintenance depot in Southbank on time and under budget. The team was professional and kept us informed every step. Highly recommend.",
+      "name": "Sarah F.",
+      "role": "Southbank Infrastructure Manager"
+    },
+    {
+      "text": "We used UGL for a major conveyor system upgrade at our mine. They handled the remote logistics like pros and finished early. Great work.",
+      "name": "Mark T.",
+      "role": "Mining Operations Director"
+    },
+    {
+      "text": "UGL did the structural steel and fit-out for our new office in the city. The quality of the welding and finishes was top notch. Will use them again.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne",
+    "Richmond",
+    "Port Melbourne",
+    "Footscray",
+    "Kensington",
+    "Docklands",
+    "Flemington"
+  ],
+  "about": {
+    "intro": "UGL has been a cornerstone of Australian engineering and construction since 1899, based in Southbank, Melbourne.",
+    "story": [
+      "UGL started over 125 years ago, building infrastructure that shaped the nation. From early railway works to modern skyscrapers, we've been there. Our Southbank office has been the heart of operations for decades, managing projects across Australia.",
+      "Today, UGL is part of the CIMIC Group and employs thousands of skilled tradespeople and engineers. We focus on rail, mining, and commercial construction. Our culture is built on safety, quality, and getting the job done right.",
+      "We take pride in our history and our people. Many of our team have been with us for decades, passing down skills and knowledge. We're not just building structures — we're building communities and keeping Australia moving."
+    ],
+    "mission": "To deliver safe, high-quality engineering and construction that keeps Australia moving, from our Southbank base since 1899.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Southbank and Melbourne inside out. Our team has been part of the community for over a century."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "We provide detailed fixed-price quotes upfront. No surprises, no blowouts — just honest building."
+      },
+      {
+        "title": "Safety First",
+        "text": "Every UGL site runs on strict safety protocols. We never cut corners when it comes to protecting our people."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "We stand behind every weld, every bolt, every beam. Workmanship guaranteed or we fix it."
+      }
+    ],
+    "stats": [
+      {
+        "value": "125+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "5000+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licenced & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner VIC",
+      "Public liability insured to $50m",
+      "ISO 9001 & 45001 certified",
+      "Master Builders Association member"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is different, so we give you a clear, no-obligation quote before any work starts. Based in Southbank, we cover all of Melbourne.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Infrastructure Project",
+        "price": "from $500k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design & build",
+          "Regulatory compliance",
+          "Project management",
+          "Safety plan included"
+        ]
+      },
+      {
+        "name": "Custom Build",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Tailored engineering",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — no hidden fees, no surprises."
+  },
+  "contact": {
+    "intro": "Ready to start your project? Give us a call or drop by our Southbank office for a free, no-obligation chat about your build."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "UGL | Southbank Builder & Engineer | Infrastructure & Rail",
+      "description": "UGL — trusted Southbank builder since 1899. Specialising in rail, mining, and commercial construction. Fixed quotes, licenced, and local. Call +61384133300."
+    },
+    "about": {
+      "title": "About UGL — Southbank's Oldest Builder Since 1899",
+      "description": "Learn about UGL's 125-year history in Southbank. We deliver end-to-end engineering and construction across Australia. Safety, quality, and local expertise."
+    },
+    "services": {
+      "title": "Construction Services in Southbank | UGL Rail & Mining",
+      "description": "UGL offers 6 key services in Southbank: rail construction, mining infrastructure, commercial builds, manufacturing, upgrades, and engineering consulting."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | UGL Construction",
+      "description": "Get a free fixed-price quote from UGL. Our Southbank team offers clear pricing for rail, mining, and infrastructure projects. No-obligation consultation."
+    },
+    "contact": {
+      "title": "Contact UGL | Free Consultation & Quote Southbank",
+      "description": "Contact UGL in Southbank for your next construction or engineering project. Call +61384133300 or visit our office. Free initial consultation."
+    },
+    "blog": {
+      "title": "Southbank Construction Blog | UGL Engineering Insights",
+      "description": "Expert construction guides from UGL. Learn about rail costs, mining infrastructure, and building in Melbourne. Locally focused advice from Southbank."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does Rail Infrastructure Cost in Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking about a rail siding or depot upgrade? We break down the real costs for rail infrastructure in Southbank and Melbourne in 2026.",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/img_0534.jpg?h=4284&iar=0&w=5712",
+      "body": [
+        "Rail infrastructure projects in Melbourne vary widely in cost depending on scope, location, and complexity. A simple siding extension might cost $500,000 while a full depot build can run into tens of millions. In Southbank, land access and existing services add to the price tag. UGL has delivered dozens of rail projects across the city and knows how to keep costs under control.",
+        "The biggest factors driving cost are earthworks, track materials, and signalling. Melbourne's clay soils often require deeper excavation and stabilisation, especially near the Yarra. Concrete sleepers cost more upfront but last 50 years. Steel rail is subject to global price fluctuations, so locking in a fixed-price contract early saves money. Signalling systems add $200k to $1m depending on complexity.",
+        "Labour is another major cost — skilled rail trades are in high demand across Victoria. UGL employs local Southbank tradespeople who know the conditions. We also use modern machinery to speed up track laying, reducing labour hours. Permits and public transport disruption fees can add 10-15% to the budget in metro areas like Southbank.",
+        "Contingency is essential. We always recommend a 15% buffer for unforeseen ground conditions or scope changes. In Melbourne's rail projects, old services and contaminated soil are common surprises. UGL's fixed-price approach means you know the top line from day one. We also handle all council and VicTrack approvals.",
+        "For a typical freight siding in Melbourne's west, expect $800k to $1.2m. A new passenger station platform runs $2m to $5m. Full depot builds with maintenance sheds and stabling start at $15m. Every project is different, and we provide detailed line-item quotes. Contact UGL in Southbank for a free assessment of your rail project.",
+        "Financing rail infrastructure can be complex, but government grants and industry co-investment programs help. UGL has experience managing these funding streams. We also offer staged delivery options to spread costs. The key is to start with a thorough feasibility study — and we do that for free as part of our initial consultation."
+      ]
+    },
+    {
+      "title": "Top 5 Factors Affecting Mining Construction Costs in 2026",
+      "date": "February 2026",
+      "excerpt": "Building in remote mine sites comes with unique cost drivers. Here's what every mining company should budget for in 2026.",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/ugl-062.jpg?h=4057&iar=0&w=6085",
+      "body": [
+        "Mining construction costs have risen in 2026 due to labour shortages, material inflation, and stricter environmental rules. For operators in Western Australia and Queensland, a typical processing plant can cost $50m to $200m. UGL builds mine infrastructure across Australia, from conveyor systems to workshops. We've seen costs shift significantly in the last two years.",
+        "Labour is the number one cost driver. Skilled boilermakers, electricians, and heavy diesel fitters are in short supply. FIFO premiums add 30-50% to base rates. UGL mitigates this by using a core of long-term employees who are already site-ready. We also invest in training programs to grow our own talent. Camp accommodation adds another $100-$200 per person per day.",
+        "Materials like structural steel and plate have seen 20% price increases since 2024. Lead times for imported grinding mills and crushers can be 12-18 months. UGL orders key components early and locks in prices with suppliers. Local fabrication in our Southbank workshops reduces transport costs. Concrete costs vary hugely by region, with remote sites paying double metro prices.",
+        "Environmental compliance is a growing expense. New heritage surveys, water management plans, and rehabilitation bonds add 5-10% to project budgets. UGL has dedicated environmental advisors who streamline approvals. We also use low-emission plant and equipment to meet green targets. The cost of carbon offsets is now a line item for most big projects.",
+        "Logistics in remote areas is a nightmare. Roads may be unsealed, airstrips basic, and fuel expensive. We build temporary airstrips and fuel depots where needed. UGL's experience in the Pilbara and Goldfields means we know how to keep supply chains moving. We budget for weather delays during wet seasons — cyclone season in the north can stop work for weeks.",
+        "Despite the challenges, mining construction remains a strong investment. UGL offers fixed-price contracts for most elements, giving you cost certainty. We also advise on value engineering to reduce scope without sacrificing quality. Contact our Southbank office for a confidential discussion about your next mining project."
+      ]
+    },
+    {
+      "title": "How Long Does a Commercial Build Take in Melbourne? Timeline Guide",
+      "date": "January 2026",
+      "excerpt": "Planning a commercial build in Southbank or Melbourne? Here's a realistic timeline from concept to handover, plus tips to avoid delays.",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/img_1176.jpg?h=4284&iar=0&w=5712",
+      "body": [
+        "A typical commercial build in Melbourne takes 12 to 24 months from initial concept to handover. The timeline depends on size, complexity, and approvals. In Southbank, high-rise projects often take longer due to boundary setbacks and wind studies. UGL has delivered commercial projects across the city and knows how to keep schedules on track.",
+        "The design and approvals phase takes 3 to 6 months. You'll need architects, structural engineers, and surveyors. Council permits in Melbourne can take 8-12 weeks for straightforward builds, longer for heritage or overlays. UGL's in-house engineering team speeds up this phase by providing ready-to-submit drawings. We also handle traffic management plans and waste permits.",
+        "Site preparation takes 4 to 8 weeks. This includes demolition, excavation, and ground improvement. In Southbank, you might encounter old river silt requiring piling. UGL uses vibrating hammers to install piles quickly and quietly. We also manage dewatering and shoring. Services relocation — gas, water, power — can add weeks if not planned ahead.",
+        "The main build — structure, cladding, fit-out — takes 6 to 12 months. Steel frames go up fastest, concrete takes longer due to curing. UGL prefers pre-cast panels for speed and quality. Fit-out includes electrical, plumbing, HVAC, and finishing. We run overlapping trades to compress the schedule. Regular site meetings keep everyone accountable.",
+        "Commissioning and handover takes 4 to 8 weeks. Systems testing, defect rectification, and final inspections. UGL provides a detailed defects list and fixes issues quickly. We also train your facilities team on building systems. A smooth handover means you can move in on schedule. We offer a 12-month defects liability period for peace of mind.",
+        "Delays happen, but UGL minimises them with proactive planning. We order long-lead items like lifts and switchboards early. We have backup suppliers for critical materials. Weather is the biggest wildcard — Melbourne winters can halt concrete pours. We build weather contingencies into the schedule. Contact UGL in Southbank for a free timeline estimate for your commercial project."
+      ]
+    },
+    {
+      "title": "The Cost of Building a Railway Station in Victoria in 2026",
+      "date": "December 2025",
+      "excerpt": "New railway stations cost millions. We look at the factors driving costs in Victoria and how to budget for your local station project.",
+      "image": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/man_ppe_telecomms_sm_800-x-590.png",
+      "body": [
+        "Building a new railway station in Victoria in 2026 costs between $5 million for a basic platform to over $50 million for a premium interchange. Location is everything — urban infill sites like Southbank cost more due to land value and existing services. UGL has built and upgraded stations across the state. We know the V/Line and Metro standards inside out.",
+        "Platform length and width drive cost. Standard platforms are 160m for V/Line trains. Wider platforms with canopies add $1m to $3m. Accessibility requirements — lifts, ramps, tactile paving — add significant cost but are mandatory. UGL works closely with the Disability Access Commissioner to get designs approved fast. We also install hearing loops and wayfinding signs.",
+        "Signalling integration is a major technical cost. Connecting a new station to the existing network requires changes to interlockings and control systems. This can add $2m to $5m. UGL's signalling division manages this complex work. We also install CCTV, PA systems, and passenger information displays. Smart ticketing gates are another $500k per station.",
+        "Civil works — earthworks, drainage, paving — vary hugely by site. In Southbank, you might need piled foundations due to poor ground. In regional areas, flood mitigation is critical. UGL conducts thorough geotechnical surveys before quoting. We also manage utility relocations, which can take months. Contaminated soil removal is a common cost blowout.",
+        "Architecture and urban design are becoming more important. Communities want attractive stations that fit the neighbourhood. UGL engages local architects to create context-sensitive designs. Green roofs, solar panels, and water harvesting are now standard for new builds. These add 5-10% upfront but reduce operating costs over the long term.",
+        "Funding for stations often comes from state and federal programs. UGL can help navigate grant applications and business case development. We also offer design-and-build contracts that lock in the price early. The key is to start early — feasibility studies take 3 months alone. Contact our Southbank office for a free consultation on your station project."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/millmeran_6.png?h=590&iar=0&w=800",
+  "photoRowImages": [
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/milmerran_2_males_ppe_800-x-590.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/grsf_female_ppe_800-x-590.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/ugl-mackay_male-employee-in-workshop-800-x-590.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/millmeran_fam_yellowppe_5.png?h=590&iar=0&w=800"
+  ],
+  "aboutImages": [
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/800-x-590-ugl-unipart.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/landing-helicopter-dock-landing-craft-card-list.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/millmeran_6.png?h=590&iar=0&w=800"
+  ],
+  "fullWidthImage": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/ugl-062.jpg?h=4057&iar=0&w=6085",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/milmerran_2_males_ppe_800-x-590.png?h=590&iar=0&w=800",
+  "testimonialsImage": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/grsf_female_ppe_800-x-590.png?h=590&iar=0&w=800",
+  "galleryImages": [
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/ugl-mackay_male-employee-in-workshop-800-x-590.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/millmeran_fam_yellowppe_5.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/800-x-590-ugl-unipart.png?h=590&iar=0&w=800",
+    "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/people/goninan/goninan-workforce-1905_800-x-590.png?h=590&iar=0&w=800"
+  ],
+  "pricingBgImage": "https://edge.sitecorecloud.io/cimicgroupl634d-cimicxmcloud-production-16eb/media/project/cimic/ugl/projects/transport/ugl-062.jpg?h=4057&iar=0&w=6085"
+}
