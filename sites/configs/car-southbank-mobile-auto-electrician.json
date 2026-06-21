@@ -1,0 +1,324 @@
+{
+  "siteType": "electrician",
+  "businessName": "Car Southbank Mobile Auto Electrician",
+  "suburb": "Southbank",
+  "phone": "+61 3 9012 6171",
+  "email": "info@carsouthbankauto.com.au",
+  "address": "274 City Rd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8261914,
+    "longitude": 144.9591955
+  },
+  "tagline": "Southbank's Mobile Auto Electrician",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00b8d4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Mobile Auto Electrician",
+      "sub": "We come to you — home or work",
+      "image": "http://www.melbourneautoelectricians.com.au/images/c12.jpg"
+    },
+    {
+      "title": "Fast Auto Electrical Repairs",
+      "sub": "Jump starts, batteries, alternators",
+      "image": "http://www.melbourneautoelectricians.com.au/images/Alternator.jpg"
+    },
+    {
+      "title": "Melbourne's Best Mobile Service",
+      "sub": "Open 6 days, emergency help",
+      "image": ""
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "Southbank's mobile auto electrician",
+    "is ready to help."
+  ],
+  "aboutHeading": "Auto Electricians Who Come to You",
+  "aboutSubheading": "Your local experts in mobile car care",
+  "aboutText": "Car Southbank Mobile Auto Electrician has been serving Southbank and all of Melbourne for over 15 years. We specialise in on-site auto electrical repairs, battery replacements, and emergency roadside assistance. Our fully equipped vans bring the workshop to your driveway, office carpark, or roadside. No towing, no waiting, no fuss.",
+  "servicesHeading": "Our Express Mobile Services",
+  "servicesSubheading": "Everything auto electrical, delivered to you",
+  "servicesText": "From jump starts and new batteries to starter motor and alternator replacements, we handle all makes and models. Our mobile auto electricians carry top-quality parts and state-of-the-art diagnostic gear. We service Southbank, the CBD, and the entire Melbourne metro area.",
+  "services": [
+    {
+      "title": "Mobile Car Battery Replacement",
+      "desc": "Cheap new car batteries delivered and installed onsite in Southbank.",
+      "longDesc": "We supply and fit premium AGM, EFB, and standard batteries for all vehicles. Memory-saver tools protect your radio and ECU settings. Same-day service across Melbourne.",
+      "points": [
+        "Free battery testing",
+        "Memory-saver installation",
+        "Competitive prices"
+      ]
+    },
+    {
+      "title": "Starter Motor Replacement",
+      "desc": "Clicking sound? We replace starter motors at your location.",
+      "longDesc": "Faulty starter motors are diagnosed and replaced on the spot. We carry stock for most makes. Full charging system check included to prevent repeat failures.",
+      "points": [
+        "On-the-spot replacement",
+        "Full system check",
+        "Quality parts fitted"
+      ]
+    },
+    {
+      "title": "Alternator Replacement Service",
+      "desc": "Dim lights or battery warning? We fix alternators fast.",
+      "longDesc": "Our mobile technicians test your charging system and replace faulty alternators immediately. We use high-quality units and verify output before leaving.",
+      "points": [
+        "Comprehensive diagnosis",
+        "High-quality alternators",
+        "System output test"
+      ]
+    },
+    {
+      "title": "Jump Starts & Lights On Rescues",
+      "desc": "Left your lights on? Rapid jump start service in Southbank.",
+      "longDesc": "Flat battery from lights or cold weather? We arrive quickly with heavy-duty boost packs. Safe jump start procedure protects your vehicle's electronics.",
+      "points": [
+        "Fast response time",
+        "Safe jump start",
+        "Battery health check"
+      ]
+    },
+    {
+      "title": "Auto Electrical Diagnostics",
+      "desc": "Check engine light? We scan and fix faults onsite.",
+      "longDesc": "State-of-the-art diagnostic scanners read all systems including engine, ABS, airbags, and immobilisers. We identify the root cause and repair it then and there.",
+      "points": [
+        "Advanced scanners",
+        "All systems covered",
+        "Same-day repair"
+      ]
+    },
+    {
+      "title": "Trailer Rewiring & Accessories",
+      "desc": "Trailer lights not working? We rewire and install 12V gear.",
+      "longDesc": "From trailer plug wiring to Anderson connectors and caravan electric brakes, our mobile sparkys handle it all. All wiring is fused and weatherproofed for Australian conditions.",
+      "points": [
+        "Trailer plug repair",
+        "Anderson fitment",
+        "Weatherproof wiring"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank and Melbourne",
+  "reviews": [
+    {
+      "text": "My car wouldn't start in the Southbank carpark. They arrived within 30 minutes, diagnosed a dead battery, and fitted a new one on the spot. Great service and fair price.",
+      "name": "Sarah F.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "Alternator died on my way to work. Called these guys and they met me at my office in the CBD. Replaced the alternator in under an hour. Highly recommend.",
+      "name": "Mark T.",
+      "role": "CBD Office Worker"
+    },
+    {
+      "text": "We run a small fleet and use Car Southbank for all our battery and electrical needs. Reliable, fast, and they come to our depot. No downtime.",
+      "name": "Priya N.",
+      "role": "Fleet Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "South Melbourne",
+    "Port Melbourne",
+    "Richmond",
+    "St Kilda",
+    "Fitzroy",
+    "Brunswick"
+  ],
+  "about": {
+    "intro": "Car Southbank Mobile Auto Electrician is your go-to mobile auto electrical specialist serving Southbank and the entire Melbourne metro area.",
+    "story": [
+      "We started over 15 years ago with a simple idea: bring the workshop to the customer. No more towing, no more waiting days for a simple fix. Our fully equipped vans carry everything needed to diagnose and repair most auto electrical issues on the spot.",
+      "Today we cover Melbourne from the CBD to the outer suburbs, the Mornington Peninsula, and everywhere in between. Our team of qualified auto electricians is passionate about getting you back on the road quickly and safely. We treat every car like it's our own."
+    ],
+    "mission": "To provide Southbank and Melbourne with the fastest, most reliable mobile auto electrical service — no towing, no fuss, just fixed.",
+    "whyUs": [
+      {
+        "title": "Mobile Convenience",
+        "text": "We come to your home, office, or roadside. No towing or workshop visits needed."
+      },
+      {
+        "title": "Same-Day Service",
+        "text": "Most jobs completed within hours. Emergency callouts available 6 days a week."
+      },
+      {
+        "title": "Quality Parts",
+        "text": "We use only premium batteries, alternators, and starters from trusted brands."
+      },
+      {
+        "title": "Fair Upfront Pricing",
+        "text": "Get a fixed quote before we start. No hidden fees, no surprises."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "10,000+",
+        "label": "Cars Repaired"
+      },
+      {
+        "value": "100%",
+        "label": "Mobile Service"
+      }
+    ],
+    "credentials": [
+      "Licensed Auto Electrician",
+      "Public liability insured",
+      "Member of the Australian Automotive Aftermarket Association"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in fair, transparent pricing for Southbank and Melbourne drivers. No call-out fee, no lock-in contracts — just honest quotes upfront.",
+    "packages": [
+      {
+        "name": "Battery Replacement",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "Free battery testing",
+          "Competitive battery prices",
+          "Memory-saver installation",
+          "Recycling of old battery"
+        ]
+      },
+      {
+        "name": "Starter or Alternator",
+        "price": "from $220",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full charging system test",
+          "Quality replacement part",
+          "Labour included",
+          "12-month warranty"
+        ]
+      },
+      {
+        "name": "Full Diagnostic & Repair",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Advanced scan of all systems",
+          "Detailed report",
+          "On-site repair",
+          "Same-day service"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and provided before any work begins — no surprises, just honest pricing."
+  },
+  "contact": {
+    "intro": "Give us a call or fill in the form for a free quote. We'll come to you anywhere in Southbank or Melbourne metro."
+  },
+  "contactHeading": "Let's Get You Back on the Road",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Car Southbank Mobile Auto Electrician | Southbank VIC",
+      "description": "Mobile auto electrician in Southbank & Melbourne. Car battery replacement, starter motor, alternator & jump starts. We come to you. Call 03 9012 6171."
+    },
+    "about": {
+      "title": "About Car Southbank Mobile Auto Electrician | 15+ Years",
+      "description": "Learn about Southbank's trusted mobile auto electrician. 15+ years serving Melbourne with on-site battery, alternator & electrical repairs."
+    },
+    "services": {
+      "title": "Mobile Auto Electrical Services Southbank | Car Southbank",
+      "description": "Full range of mobile auto electrical services in Southbank: batteries, starters, alternators, diagnostics & trailer wiring. Same-day service."
+    },
+    "pricing": {
+      "title": "Auto Electrician Prices Southbank | Car Southbank",
+      "description": "Transparent pricing for mobile auto electrician in Southbank. Free battery testing, fixed quotes, no call-out fee. Call for a quote."
+    },
+    "contact": {
+      "title": "Contact Car Southbank Mobile Auto Electrician | Free Quote",
+      "description": "Get a free quote from Southbank's mobile auto electrician. Call 03 9012 6171 or book online. We come to your home or work."
+    },
+    "blog": {
+      "title": "Auto Electrical Tips & Guides | Car Southbank Blog",
+      "description": "Expert advice on car batteries, alternators, starters & diagnostics from Southbank's mobile auto electricians. Local Melbourne guides."
+    }
+  },
+  "blogHeading": "Latest Auto Electrical Tips",
+  "blogSubheading": "Guides, costs & local advice",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Car Battery Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about car battery prices in Southbank? We break down costs for standard, AGM and EFB batteries plus mobile installation fees.",
+      "image": "",
+      "body": [
+        "If your car battery is struggling to start on a cold Melbourne morning, you are probably wondering how much a replacement will set you back. In Southbank, prices vary depending on the type of battery your vehicle requires. A standard lead-acid battery for a small hatchback typically costs between $120 and $200 including installation. For vehicles with Start-Stop technology, you will need an EFB or AGM battery, which ranges from $220 to $450. These batteries are designed to handle the higher electrical demands of modern cars and last longer under heavy use.",
+        "When you book a mobile battery replacement with Car Southbank, there is no call-out fee and no hidden charges. Our technician arrives at your home, office, or roadside location in Southbank, tests your old battery, and fits the correct replacement on the spot. We use memory-saver tools to keep your radio presets and ECU settings intact. The whole process takes about 15 to 20 minutes. We also recycle your old battery responsibly, so you do not have to worry about disposal.",
+        "Several factors influence the final price. The brand of battery matters — premium brands like Bosch, Century, and Supercharge cost a bit more but offer better cranking power and longer warranties. Your vehicle's make and model also plays a role; a battery for a Toyota Corolla is cheaper than one for a BMW X5. Additionally, if your car requires a battery with reverse terminals or a specific size, that can affect availability and price. We always quote upfront so you know exactly what you are paying.",
+        "One common question is whether to buy a battery from a retail store and fit it yourself. While that can save a few dollars, modern vehicles often require battery registration or coding after replacement. Without the proper diagnostic tool, you may trigger warning lights or reduce the battery's lifespan. Our mobile auto electricians handle all that for you. We also perform a full charging system check to ensure your alternator is working correctly — a failing alternator can kill a new battery in weeks.",
+        "For Southbank residents and workers, convenience is key. You do not need to take time off work or arrange a tow. Simply call us or book online, and we come to your location. We service Southbank, the CBD, South Melbourne, Port Melbourne, and all surrounding suburbs. Most appointments are available within a few hours. Whether you are stuck in a carpark on City Road or need a battery replaced at your office in the CBD, we have you covered.",
+        "To get the best price on a car battery in Southbank, always ask for a quote that includes installation and the old battery disposal. Compare that with the total cost of buying a battery yourself plus the hassle of fitting and coding. In most cases, mobile installation is not only more convenient but also more cost-effective when you factor in your time and the risk of doing it wrong. Call Car Southbank Mobile Auto Electrician today for a free, no-obligation quote."
+      ]
+    },
+    {
+      "title": "Signs Your Alternator Is Failing — Melbourne Driver's Guide",
+      "date": "February 2026",
+      "excerpt": "Is your battery warning light on? Learn the common signs of a failing alternator and why you should act fast. Mobile repair across Melbourne.",
+      "image": "",
+      "body": [
+        "Your car's alternator is responsible for charging the battery and powering the electrical system while the engine runs. When it starts to fail, you will notice several warning signs. The most obvious is the battery warning light illuminating on your dashboard. Other symptoms include dimming headlights, a weak or dead battery, strange whining noises from the engine bay, and electrical accessories like power windows or radio behaving erratically. If you experience any of these in Southbank or anywhere in Melbourne, it is time to get the charging system checked.",
+        "A failing alternator can leave you stranded. Unlike a flat battery that can be jump-started, a faulty alternator means the battery will not recharge while driving. You might make it a few kilometres before the car dies completely. That is why we recommend addressing the issue as soon as the warning light appears. Our mobile auto electricians in Southbank can come to your location, test the alternator's output, and replace it on the spot if needed. We carry a range of alternators for most makes and models.",
+        "The cost of alternator replacement in Melbourne varies depending on your vehicle. For a common car like a Holden Commodore or Toyota Camry, expect to pay between $350 and $600 for a quality replacement unit including labour. European cars like BMW, Mercedes, or Audi can cost $800 to $1,500 or more due to higher parts prices and more complex installation. We always provide a fixed quote before starting any work, so there are no surprises. Our prices include a full charging system test to ensure the new alternator is working correctly.",
+        "Sometimes the problem is not the alternator itself but a loose belt, a faulty voltage regulator, or a wiring issue. Our diagnostic process identifies the root cause rather than just replacing parts. We check the serpentine belt tension, inspect all connections, and measure the voltage at the battery with the engine running. A healthy alternator should produce between 13.8 and 14.4 volts. If the reading is lower, we investigate further. This thorough approach saves you money and prevents repeat failures.",
+        "Melbourne's weather can also affect alternator life. Hot summers put extra strain on the electrical system, while cold winters make batteries work harder, which in turn stresses the alternator. If you do a lot of short trips around Southbank or the CBD, your alternator may not have enough time to fully recharge the battery, leading to premature wear. Regular charging system checks during routine servicing can catch problems early. We recommend testing your alternator every two years or whenever you replace your battery.",
+        "If you suspect your alternator is failing, do not wait. Call Car Southbank Mobile Auto Electrician and we will come to your home, office, or roadside location anywhere in Melbourne. Our mobile service means you do not have to risk driving to a workshop. We diagnose, quote, and repair on the spot. Most alternator replacements take under an hour. Get back on the road with confidence. Contact us today for a free quote."
+      ]
+    },
+    {
+      "title": "Why Your Car Won't Start in Southbank — Common Causes",
+      "date": "January 2026",
+      "excerpt": "Car won't start in Southbank? From flat batteries to faulty starters, we cover the most common reasons and how our mobile service can help.",
+      "image": "",
+      "body": [
+        "Few things are more frustrating than turning the key and hearing nothing — or just a clicking sound. If your car won't start in Southbank, the cause is often simple and fixable on the spot. The most common culprit is a flat or weak battery. This can happen if you left your lights on, if the battery is old, or if the weather is cold. A quick jump start or battery replacement gets you going. Our mobile auto electricians carry heavy-duty boost packs and a full range of batteries for all vehicles.",
+        "A clicking sound when you turn the key usually points to a faulty starter motor. The starter motor engages the engine's flywheel to crank it over. When it fails, you hear a single click or rapid clicking but the engine does not turn. This is a common issue in Melbourne's stop-start traffic, where the starter gets used more frequently. Our technicians can replace the starter motor at your location in Southbank, often within an hour. We also check the battery and alternator to ensure the whole system is healthy.",
+        "Another possible cause is a blown fuse or a faulty ignition switch. Modern cars have complex electrical systems, and a single blown fuse can stop the car from starting. Our diagnostic scanners quickly identify the problem. We carry a comprehensive range of fuses and relays in our vans, so we can fix most electrical faults on the spot. Immobiliser issues are also common, especially in European cars. If your key fob is not recognised, we can reprogram or bypass the immobiliser to get you moving.",
+        "Fuel system problems can also prevent starting, though they are less common than electrical faults. A clogged fuel filter, a dead fuel pump, or an empty tank (it happens!) are all possibilities. Our mobile service includes basic fuel system checks, but we specialise in electrical diagnostics. If we suspect a mechanical fuel issue, we will advise you on the best next steps. In most cases, though, the problem is electrical, and we can fix it right there in your Southbank carpark or driveway.",
+        "Prevention is better than cure. Regular battery testing, especially before winter, can save you from a no-start situation. If your battery is more than three years old, consider replacing it proactively. Also, pay attention to slow cranking — if the engine turns over slowly before starting, your battery is losing capacity. Our mobile auto electricians offer free battery testing with no obligation. We can also check your starter motor and alternator during the same visit, giving you peace of mind.",
+        "If you are stuck with a car that won't start in Southbank, call Car Southbank Mobile Auto Electrician. We respond quickly, diagnose the problem, and fix it on the spot. No towing, no waiting days for a workshop appointment. We serve Southbank, the CBD, and all Melbourne suburbs. Keep our number in your phone — you never know when you might need a fast, reliable mobile auto electrician."
+      ]
+    },
+    {
+      "title": "Trailer Wiring Repairs in Melbourne — What You Need to Know",
+      "date": "December 2025",
+      "excerpt": "Trailer lights not working? Learn about common trailer wiring issues in Melbourne and how our mobile rewiring service can get you roadworthy fast.",
+      "image": "",
+      "body": [
+        "If you tow a trailer, caravan, or boat in Melbourne, you know how important working lights are. Faulty trailer wiring is not just annoying — it is illegal and dangerous. Common problems include corroded connectors, broken wires inside the trailer cable, blown fuses, or a faulty trailer module in the tow vehicle. In Southbank and across Melbourne, our mobile auto electricians can diagnose and repair trailer wiring issues at your home, storage yard, or wherever you are parked.",
+        "The most frequent issue we see is corrosion in the trailer plug. Melbourne's variable weather — hot summers, cold winters, and plenty of rain — takes a toll on electrical connections. A corroded pin can cause intermittent or complete loss of lights. We clean or replace the plug and apply dielectric grease to prevent future corrosion. We also check the wiring from the plug to each light, looking for breaks or chafing. Often the problem is a simple fix that takes less than 30 minutes.",
+        "For more complex issues, such as a faulty trailer module or broken wiring inside the vehicle, we use advanced diagnostic tools. Modern cars with CAN-Bus electrical systems often require a dedicated trailer module to operate the lights correctly. If that module fails, you may get error messages on your dashboard or no trailer lights at all. We can test the module, replace it if necessary, and code it to your vehicle. This is a job best left to professionals with the right equipment.",
+        "We also install Anderson plugs for charging auxiliary batteries in caravans and campers. An Anderson plug provides a reliable, high-current connection for charging your caravan battery while driving. We use heavy-duty cable, proper fusing, and weatherproof mounting to ensure the system works in all conditions. Whether you need a simple 7-pin flat plug replacement or a full dual-battery setup for your 4WD, our mobile sparkys have the experience and parts to do the job right.",
+        "Regular maintenance of your trailer wiring can prevent problems before they happen. We recommend checking your trailer lights before every trip, especially if the trailer has been sitting unused for a while. Clean the plug contacts with a wire brush and apply dielectric grease. If you notice any flickering or dim lights, get it checked immediately. A small wiring fault can escalate into a complete failure, leaving you stranded or facing a fine. Our mobile service makes it easy to stay roadworthy.",
+        "For professional trailer wiring repairs and installations in Southbank and all Melbourne suburbs, call Car Southbank Mobile Auto Electrician. We come to you with everything needed to diagnose and fix the problem. From simple plug replacements to full rewiring and accessory installations, we ensure your trailer lights are bright, reliable, and legal. Contact us today for a free quote."
+      ]
+    }
+  ],
+  "splitCtaImage": "",
+  "photoRowImages": [],
+  "aboutImages": [],
+  "fullWidthImage": "",
+  "bannerHeading": "Ready to get back on the road?",
+  "bannerSubheading": "Call us or book online for a free quote.",
+  "bannerImage": "http://www.melbourneautoelectricians.com.au/images/c12.jpg",
+  "testimonialsImage": "http://www.melbourneautoelectricians.com.au/images/Alternator.jpg",
+  "galleryImages": [],
+  "pricingBgImage": ""
+}
