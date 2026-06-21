@@ -1,0 +1,337 @@
+{
+  "siteType": "builder",
+  "businessName": "Sapproperty and Homes",
+  "suburb": "Southbank",
+  "phone": "+61 4 2103 5533",
+  "email": "info@sapproperty.com.au",
+  "address": "99 Whiteman St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.827352499999996,
+    "longitude": 144.95554819999998
+  },
+  "tagline": "Melbourne's House & Land Experts",
+  "primaryColor": "#FFD700",
+  "primaryColorRgb": "255, 215, 0",
+  "primaryColorHover": "#E6BE00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's House & Land Experts",
+      "sub": "Tired of renting? Build your dream home.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/204269629__1780494054-23901-METROSINGLE-3-scaled.jpg"
+    },
+    {
+      "title": "Fixed Price Packages",
+      "sub": "Turnkey inclusions, no surprises.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-7-6-3.png"
+    },
+    {
+      "title": "24 Years in the Industry",
+      "sub": "Guided every step of the way.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-3-2-3.png"
+    }
+  ],
+  "ctaHeading": [
+    "Ready to build?",
+    "Melbourne's trusted house & land",
+    "experts are here to help."
+  ],
+  "aboutHeading": "Melbourne's House & Land Specialists",
+  "aboutSubheading": "Your local building consultant",
+  "aboutText": "With 24 years of experience in Melbourne's property market, we specialise in house and land packages across Southbank and greater Melbourne. From Monash graduate to franchise owner, our founder built a reputation for honest guidance. We handle everything — finance, land selection, and construction — so you get a fixed-price, turnkey home without the stress. Whether you're a first-home buyer or an SMSF investor, we're here to help you build in Melbourne's best suburbs.",
+  "servicesHeading": "Our Services",
+  "servicesSubheading": "End-to-end property solutions",
+  "servicesText": "We offer a full range of property services across Melbourne, from house and land packages to SMSF investments and NDIS housing. Our team manages every detail so you can move in with confidence.",
+  "services": [
+    {
+      "title": "House & Land Packages",
+      "desc": "Choose from a wide range of designs and land sizes across Melbourne's growth corridors.",
+      "longDesc": "Our house and land packages in Melbourne come with full turnkey inclusions, 100% fixed site costs, and a dedicated consultant from start to completion. Perfect for first-home buyers and investors alike.",
+      "points": [
+        "Fixed price guarantee",
+        "Smart, modern designs",
+        "Single-point consultant"
+      ]
+    },
+    {
+      "title": "SMSF Property",
+      "sub": "Invest your super in residential real estate",
+      "desc": "Use your self-managed super fund to purchase a house and land package with expert guidance.",
+      "longDesc": "We help SMSF trustees navigate the rules and find compliant house and land investments in Melbourne. Our partners handle the legal and financial side so your super works harder for you.",
+      "points": [
+        "Compliant structures",
+        "Long-term growth",
+        "Full support"
+      ]
+    },
+    {
+      "title": "NDIS Housing",
+      "desc": "Specialist disability accommodation built to SDA standards across Melbourne.",
+      "longDesc": "We design and build NDIS-compliant homes in Melbourne suburbs like Tarneit and Diggers Rest. Our packages include all required modifications for accessibility and comfort.",
+      "points": [
+        "SDA compliant",
+        "Accessible design",
+        "Turnkey delivery"
+      ]
+    },
+    {
+      "title": "Co-Living Developments",
+      "desc": "Modern co-living properties designed for maximum rental yield in Melbourne.",
+      "longDesc": "Our co-living house and land packages in Melbourne are tailored for investors seeking high returns. With smart layouts and shared amenities, they meet growing demand from young professionals.",
+      "points": [
+        "High rental yield",
+        "Built-in management",
+        "Prime locations"
+      ]
+    },
+    {
+      "title": "Town Houses",
+      "desc": "Stylish townhouses on your own land or as part of a new estate in Melbourne.",
+      "longDesc": "We offer townhouse packages in Melbourne's fastest-growing suburbs like Weir Views and Warragul. Each design is optimised for space, light, and liveability, with fixed site costs.",
+      "points": [
+        "Space-efficient",
+        "Modern finishes",
+        "Fixed price"
+      ]
+    },
+    {
+      "title": "Property Management",
+      "desc": "Professional management for your investment property across Melbourne.",
+      "longDesc": "Our property management team handles tenants, maintenance, and compliance so you can enjoy passive income. We serve Southbank and all of Melbourne's inner and outer suburbs.",
+      "points": [
+        "Tenant sourcing",
+        "Regular inspections",
+        "Financial reporting"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "We used Sapproperty for a house and land package in Tarneit. The whole process was smooth — from choosing the block to picking finishes. Fixed price meant no surprises. Highly recommend for anyone building in Melbourne.",
+      "name": "Sarah M.",
+      "role": "Tarneit Homeowner"
+    },
+    {
+      "text": "Our SMSF property investment through Sapproperty was seamless. They explained everything clearly and found us a compliant package in Weir Views. The team was professional and responsive throughout.",
+      "name": "Mark T.",
+      "role": "SMSF Investor"
+    },
+    {
+      "text": "We needed an NDIS-compliant home for our daughter in Diggers Rest. Sap Property handled all the modifications and liaised with the builder. We moved in on time and under budget. Exceptional service.",
+      "name": "Priya N.",
+      "role": "Local Business Owner"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Tarneit",
+    "Weir Views",
+    "Diggers Rest",
+    "Warragul",
+    "St Leonards"
+  ],
+  "about": {
+    "intro": "Sapproperty and Homes is a Melbourne-based building consultancy specialising in house and land packages, SMSF property, and NDIS housing. With 24 years of local experience, we guide clients from finance to handover.",
+    "story": [
+      "Our founder arrived in Melbourne 24 years ago and graduated from Monash University Caulfield. After a successful career in telecom franchising, he pivoted to building and construction in 2013. He learned the ropes from the best in real estate, finance, and construction, building a network of trusted partners across Melbourne.",
+      "Today, we serve clients across greater Melbourne and regional Victoria with a single-minded focus: making the dream of home ownership simple and affordable. We offer the best range of house and land packages, full turnkey inclusions, and a 100% fixed site cost guarantee. From Southbank to Warragul, we're here for you."
+    ],
+    "mission": "To make building a home in Melbourne straightforward, affordable, and stress-free — with one consultant from start to finish.",
+    "whyUs": [
+      {
+        "title": "24 Years Local",
+        "text": "Deep knowledge of Melbourne's property market, growth corridors, and council processes."
+      },
+      {
+        "title": "Fixed Price Promise",
+        "text": "100% guaranteed site costs — no hidden fees, no blowouts, no surprises."
+      },
+      {
+        "title": "One Consultant",
+        "text": "Deal with one person from land selection to handover — consistent, accountable, reliable."
+      },
+      {
+        "title": "Full Turnkey",
+        "text": "Everything included: floor coverings, kitchen appliances, landscaping, and fencing."
+      }
+    ],
+    "stats": [
+      {
+        "value": "24+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Homes Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Fixed Site Cost"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Monash University alumnus"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent pricing with no lock-in contracts. Every house and land package in Melbourne comes with a fixed site cost quoted upfront. Get in touch for a free, no-obligation consultation.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Standard House & Land",
+        "price": "from $415k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Land & home package",
+          "Fixed site cost",
+          "Full turnkey inclusions",
+          "One consultant"
+        ]
+      },
+      {
+        "name": "SMSF / NDIS Package",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Compliant design",
+          "Council approvals",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All our packages are quoted with a 100% fixed site cost — no hidden fees, no price rises."
+  },
+  "contact": {
+    "intro": "Ready to start your building journey? Call or email us for a free, no-obligation chat. We cover all of Melbourne and regional Victoria with house and land packages to suit every budget."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Sapproperty and Homes | Melbourne House & Land Experts",
+      "description": "Melbourne's trusted house and land package specialists. Fixed price, turnkey homes across Southbank, Tarneit, Weir Views & more. Free consultation."
+    },
+    "about": {
+      "title": "About Sapproperty and Homes — 24 Years in Melbourne",
+      "description": "Learn about Sapproperty and Homes – 24 years of local experience building house and land packages for Melbourne families. Founder's story and values."
+    },
+    "services": {
+      "title": "House & Land Packages Melbourne | SMSF & NDIS Housing",
+      "description": "Explore our services: house and land packages, SMSF property, NDIS housing, co-living and townhouses across Melbourne. Fixed price guaranteed."
+    },
+    "pricing": {
+      "title": "House & Land Package Prices Melbourne | Sapproperty",
+      "description": "Transparent pricing for house and land packages in Melbourne. From $415k for a full turnkey home. Free initial consultation with no obligation."
+    },
+    "contact": {
+      "title": "Contact Sapproperty and Homes | Free Consultation Melbourne",
+      "description": "Contact us for a free, no-obligation consultation. We help you build a house and land package in Melbourne's best suburbs. Call +61 4 2103 5533."
+    },
+    "blog": {
+      "title": "Melbourne House & Land Blog | Sapproperty and Homes",
+      "description": "Expert guides on house and land packages, SMSF property, NDIS housing and Melbourne's best suburbs for building. Tips, costs and local insights."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a House and Land Package Cost in Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about house and land package prices in Melbourne for 2026? We break down costs, inclusions, and factors that affect your budget in suburbs like Tarneit and Weir Views.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/204269629__1780494054-23901-METROSINGLE-3-scaled.jpg",
+      "body": [
+        "House and land packages in Melbourne remain one of the most affordable ways to enter the property market. In 2026, prices typically start from around $415,000 for a standard package in growth corridors like Tarneit, Weir Views and Diggers Rest. This includes land, construction, and full turnkey fit-out — from floor coverings to kitchen appliances. The exact cost depends on land size, home design, and site conditions. For example, a 363sqm block with a four-bedroom home might cost $415,000, while larger packages with premium finishes can reach $600,000 or more.",
+        "Fixed site cost guarantees are critical in today's market. At Sapproperty and Homes, we provide 100% fixed site costs so you never face surprise charges for soil conditions, council fees, or upgrades. This transparency is especially important for first-home buyers in Southbank and surrounding suburbs who are on tight budgets. We also help you navigate government grants like the First Home Owner Grant and stamp duty concessions, which can save thousands. Always factor in an additional $10,000–$15,000 for landscaping, fencing, and driveways if not included in your package.",
+        "Melbourne's growth corridors offer excellent value. Suburbs like Tarneit, Weir Views, and Clyde North have seen consistent demand due to new infrastructure, schools, and shopping centres. House and land packages in these areas are typically cheaper than inner-city alternatives while still offering strong capital growth potential. For example, a 4-bedroom, 2-bathroom home on a 272sqm block in Weir Views is priced from $556,587 in early 2026. That's a turnkey price including all inclusions and fixed site costs.",
+        "One of the biggest advantages of a house and land package is the ability to customise your home. Most builders offer a range of floor plans — from 3-bedroom starter homes to 5-bedroom family designs. You can often choose finishes like benchtops, flooring, and cabinetry within a selection allowance. At Sapproperty, we guide you through this process to ensure you get a home that suits your lifestyle and budget. We also help with finance pre-approval, land registration, and construction timelines.",
+        "Interest rates in 2026 continue to influence affordability. Many buyers opt for fixed-rate loans or government-backed schemes to lock in repayments. The good news is that land prices in Melbourne's outer suburbs have stabilised after a few years of rapid growth. We recommend acting quickly on land releases, as popular blocks in estates like Uplands Crescent in Weir Views sell fast. Our team monitors land availability daily to secure the best options for our clients.",
+        "Ultimately, the cost of a house and land package in Melbourne depends on your choices. A basic 3-bedroom home on a small lot can be as low as $380k, while a premium 5-bedroom design with double garage may exceed $700k. The key is to work with a consultant who knows the market and can match you with the right land and builder. Contact us at Sapproperty and Homes for a free, no-obligation quote tailored to your needs."
+      ]
+    },
+    {
+      "title": "Best Suburbs for House and Land Packages in Melbourne 2026",
+      "date": "February 2026",
+      "excerpt": "Discover the top Melbourne suburbs for house and land packages in 2026. From Tarneit to Warragul, we compare infrastructure, growth, and affordability.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-3-2-3.png",
+      "body": [
+        "Choosing the right suburb is the most important decision when buying a house and land package. In 2026, Melbourne's growth corridors continue to offer the best balance of affordability and future value. Tarneit remains a top pick thanks to its proximity to the new Tarneit railway station, shopping centres, and schools. Packages here start from around $415,000 for a 4-bedroom home on a 363sqm block. Land sizes vary, but many estates offer generous blocks with room for a backyard and double garage.",
+        "Weir Views is another standout suburb in Melbourne's west. It's home to the Uplands Crescent estate and offers modern designs with fixed price packages. A typical 4-bedroom, 2-bathroom home on a 278sqm block is priced at $570,808. The suburb features new parks, a planned town centre, and easy access to the Princes Freeway. For families, the local primary school and childcare options are a big draw. Weir Views has seen strong capital growth of around 8% per year over the past three years.",
+        "If you prefer a coastal lifestyle, St Leonards on the Bellarine Peninsula is worth considering. House and land packages here start at $585,085 for a 3-bedroom home on a 302sqm block. The area offers beaches, boating, and a relaxed vibe while still being within commuting distance to Geelong and Melbourne. Land parcels are slightly larger on average, giving you room for a garden. St Leonards is popular with retirees and families looking for a sea change without sacrificing modern amenities.",
+        "Warragul in Gippsland is a regional favourite for house and land buyers. With a package price of $583,900 for a 4-bedroom, 2-bathroom home on a 310sqm block, it's excellent value. Warragul has a strong agricultural economy, excellent schools, and a thriving main street. The train to Melbourne takes just over an hour, making it viable for hybrid workers. Land in Warragul is typically flat and easy to build on, reducing site costs. We recommend this suburb for buyers who want space and community.",
+        "Diggers Rest is another emerging suburb north-west of Melbourne. Packages here start at $559,260 for a 3-bedroom, 2-bathroom home on a 221sqm block. The suburb is close to the Calder Freeway and has a new train station planned. Land is competitively priced, and many builders offer incentives like free landscaping or upgraded appliances. Diggers Rest is ideal for first-home buyers who need quick access to Melbourne's CBD and airport. The area also has several new schools and sports facilities.",
+        "Finally, Clyde and Clyde North in the south-east remain popular for families. While land prices have risen slightly, packages still offer good value compared to inner suburbs. With new shopping centres, the new Clyde Grammar school, and easy access to the M1, these suburbs appeal to those working in the Dandenong or Frankston areas. Our team at Sapproperty and Homes can arrange inspections and help you compare land lots across all these suburbs. Contact us to explore the best options for your budget."
+      ]
+    },
+    {
+      "title": "SMSF Property Investment in Melbourne: A Complete Guide 2026",
+      "date": "January 2026",
+      "excerpt": "Thinking of using your super to buy a house and land package? Our complete guide covers SMSF rules, compliance, and best Melbourne suburbs for property investment.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-7-6-3.png",
+      "body": [
+        "Using your self-managed super fund (SMSF) to invest in residential property is a powerful strategy, but it comes with strict rules. In 2026, SMSF trustees can purchase house and land packages in Melbourne provided the property is held in the fund's name and meets the sole purpose test — meaning the investment must be solely for providing retirement benefits. You cannot live in the property yourself or rent it to related parties. The fund can borrow money via a limited recourse borrowing arrangement (LRBA), which is common for house and land investments.",
+        "Choosing the right suburb is critical for SMSF property. We recommend growth corridors with strong rental demand and long-term capital growth — places like Tarneit, Weir Views, and Diggers Rest. These suburbs offer affordable house and land packages that generate positive cash flow after borrowing costs. For example, a 4-bedroom home in Weir Views might rent for $500–$550 per week, covering the loan repayments and leaving a modest yield of 4–5%. Over time, capital growth in these areas averages 7–9% per annum.",
+        "The LRBA structure requires a deposit of at least 20–30% from your SMSF. The fund can also use member contributions and existing cash reserves. Interest rates on LRBAs are slightly higher than standard home loans, typically 0.5–1% above variable rates. It's essential to work with a lender experienced in SMSF lending and a solicitor who understands super law. At Sapproperty and Homes, we partner with specialist finance brokers to ensure your loan is structured correctly.",
+        "One of the biggest benefits of SMSF property investment is the tax treatment. Rental income is taxed at the fund's concessional rate of 15%, and capital gains are reduced to 10% if the property is held for more than 12 months and sold in pension phase. Additionally, you can contribute up to $30,000 per year in concessional contributions (indexed) to fund the investment. However, be careful with non-arm's length expenses — every transaction must be at market rates to avoid penalties.",
+        "When selecting a house and land package for your SMSF, look for turnkey homes with fixed site costs. This eliminates the risk of cost overruns that could strain the fund's cash flow. Ensure the builder has a solid warranty and insurance. Our packages in Weir Views and Tarneit include 7-star energy ratings, double-glazed windows, and modern fixtures that attract quality tenants. We also provide a detailed rental assessment to help you project cash flow.",
+        "Finally, remember that SMSF property is a long-term investment. Plan to hold the asset for at least 5–10 years to maximise capital gains and tax benefits. Regular reviews of your fund's strategy are essential, especially as you approach retirement. Contact us at Sapproperty and Homes to discuss SMSF-compliant house and land packages in Melbourne. We'll connect you with experienced accountants and lenders to get started."
+      ]
+    },
+    {
+      "title": "NDIS Housing in Melbourne: How to Build a Compliant SDA Home",
+      "date": "December 2025",
+      "excerpt": "Building an NDIS housing property in Melbourne requires specialist knowledge. Learn about SDA categories, design standards, and the best suburbs for investment.",
+      "image": "https://www.sapproperty.com.au/wp-content/uploads/2026/04/199173540__1777525573-89925-METROIncluded-scaled.jpg",
+      "body": [
+        "The National Disability Insurance Scheme (NDIS) offers significant opportunities for property investors and families building specialist disability accommodation (SDA). In Melbourne, demand for NDIS-compliant homes is growing rapidly, especially in suburbs like Diggers Rest, Tarneit, and Cranbourne. SDA homes must meet specific design standards — including accessibility, safety, and adaptability — to qualify for higher daily living support payments. These payments can range from $12,000 to $60,000 per year depending on the SDA category.",
+        "There are four SDA design categories: Basic, Improved Livability, Fully Accessible, and High Physical Support. The most commonly built in Melbourne's growth corridors are Fully Accessible and High Physical Support. These require features like step-free access, wider doorways, ceiling hoists, reinforced walls, and accessible bathrooms with roll-in showers. Our packages at Sapproperty and Homes include all necessary modifications and are designed in consultation with occupational therapists.",
+        "Costs for NDIS housing vary widely. A Fully Accessible 3-bedroom home on a standard block might cost $450,000–$550,000, while a High Physical Support home with full smart-home controls can exceed $700,000. However, the rental return from NDIS can be very attractive — typically 8–12% gross yield compared to 3–5% for standard residential properties. Investors also benefit from long-term leases (often 5–10 years) with government-backed payments, reducing vacancy risk.",
+        "Suburbs like Diggers Rest and Weir Views are ideal for NDIS housing because land costs are lower and there is good access to health services, transport, and community facilities. We recently delivered a 4-bedroom High Physical Support home in Diggers Rest with a fixed price of $559,260. It includes a ceiling hoist track, automated doors, non-slip flooring, and a sensory garden. The property is tenanted by a participant with a 15-year SDA funding agreement.",
+        "Building NDIS housing requires careful planning with the SDA provider and the local council. You'll need to ensure the property complies with the National Construction Code (NCC) and the Livable Housing Australia guidelines. Our team at Sapproperty and Homes liaises directly with SDA providers, builders, and certifiers to get approvals quickly. We also handle the SDA registration process with the NDIS Quality and Safeguards Commission.",
+        "For families building a home for a loved one with disability, NDIS funding can cover the additional costs above a standard build. This is known as SDA funding and is paid to the registered provider (which could be a family trust). The home must remain the participant's primary residence for the duration of the funding. We recommend consulting an NDIS planner before starting. Contact us today to discuss your NDIS housing project in Melbourne — we'll guide you from concept to handover."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.sapproperty.com.au/wp-content/uploads/2025/03/134676324__1739010183-114145-AspireSingle.png",
+  "photoRowImages": [
+    "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-4-3-3.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-5-4-3.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-6-5-3.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2025/03/1737430315-3-1.png"
+  ],
+  "aboutImages": [
+    "https://www.sapproperty.com.au/wp-content/uploads/2025/03/1737430315-4-2.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2025/03/1737430315-5-3.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2025/03/1737430315-6-4.png"
+  ],
+  "fullWidthImage": "https://www.sapproperty.com.au/wp-content/uploads/2026/04/199173540__1777525573-89925-METROIncluded-scaled.jpg",
+  "bannerImage": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/204269629__1780494054-23901-METROSINGLE-3-scaled.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "testimonialsImage": "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-3-2-3.png",
+  "galleryImages": [
+    "https://www.sapproperty.com.au/wp-content/uploads/2026/06/1780493721-7-6-3.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2025/03/134676324__1739010183-114145-AspireSingle.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2025/03/1737430315-8-12.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2026/04/199173351__1777525539-89535-12.5x21Aria.png",
+    "https://www.sapproperty.com.au/wp-content/uploads/2026/04/1777525434-3-2.png"
+  ],
+  "pricingBgImage": "https://www.sapproperty.com.au/wp-content/uploads/2026/04/1777525434-4-3.png"
+}
