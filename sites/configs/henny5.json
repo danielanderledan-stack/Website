@@ -1,0 +1,340 @@
+{
+  "siteType": "builder",
+  "businessName": "Henny",
+  "suburb": "Southbank",
+  "phone": "+61 1300 043 669",
+  "email": "hello@henny.com.au",
+  "address": "Level 4/100 Dorcas St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8310076,
+    "longitude": 144.9663033
+  },
+  "tagline": "Southbank's premium builder",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00b8d4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builder",
+      "sub": "Premium commercial & residential",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_TheCommons_Hero_1920x1095.jpg"
+    },
+    {
+      "title": "Built Around You",
+      "sub": "Design-manage-construct, no surprises",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png"
+    },
+    {
+      "title": "20+ Years in Melbourne",
+      "sub": "Local & licensed",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/203_65-MAITLAND-ST-GLEN-IRIS-116.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your Southbank builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in construction",
+  "aboutText": "Henny has been delivering premium construction projects across Southbank and greater Melbourne for over 20 years. We specialise in complex commercial builds, luxury residential, and social housing — always with a focus on quality, collaboration, and getting the job done right. Our team brings deep local knowledge and a down-to-earth approach to every site.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From concept to handover, Henny offers a full suite of construction services tailored to your project. We handle feasibility, design management, and construction with a single point of contact — keeping things simple and on track.",
+  "services": [
+    {
+      "title": "Project Feasibility",
+      "desc": "We assess your site and budget early to avoid costly surprises.",
+      "longDesc": "Henny's feasibility studies for Southbank and inner-Melbourne sites evaluate zoning, soil conditions, and council requirements so you know exactly what's possible before spending a cent.",
+      "points": [
+        "Site analysis",
+        "Budget planning",
+        "Council check"
+      ]
+    },
+    {
+      "title": "Early Contractor Involvement",
+      "desc": "Bring us in early to save time and money.",
+      "longDesc": "Engaging Henny at the design stage means we can price materials, sequence trades, and avoid redesigns. It's a smarter way to build in Southbank and across Victoria.",
+      "points": [
+        "Cost certainty",
+        "Smarter design",
+        "Faster approvals"
+      ]
+    },
+    {
+      "title": "Design Management",
+      "desc": "We coordinate architects and engineers for a seamless build.",
+      "longDesc": "Henny manages the entire design process, from concept drawings to construction documentation. We keep your project compliant with Australian standards while respecting your vision.",
+      "points": [
+        "Architect liaison",
+        "Engineer coordination",
+        "Permit ready"
+      ]
+    },
+    {
+      "title": "Design and Construct",
+      "desc": "Single-point accountability for your entire project.",
+      "longDesc": "With Henny's D&C service, you get one team for design and construction. This streamlines communication, reduces risk, and delivers a fixed-price outcome for your Southbank development.",
+      "points": [
+        "Fixed price",
+        "Single team",
+        "On-time delivery"
+      ]
+    },
+    {
+      "title": "Construction Management",
+      "desc": "Expert oversight from first dig to handover.",
+      "longDesc": "Henny's construction management covers site safety, trade procurement, and program management. We keep your Southbank project running smoothly, even in tight inner-city sites.",
+      "points": [
+        "Trade coordination",
+        "Safety compliance",
+        "Progress reports"
+      ]
+    },
+    {
+      "title": "After Care",
+      "desc": "We stick around after handover to ensure everything works.",
+      "longDesc": "Henny's robust after-care service means we respond promptly to any defects or adjustments. Your Southbank project is supported long after the tools are packed away.",
+      "points": [
+        "Defects rectification",
+        "Maintenance advice",
+        "Phone support"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "Henny managed our Southbank commercial fit-out from start to finish. The team was professional, communicated clearly, and delivered on time. Would highly recommend.",
+      "name": "Sarah F.",
+      "role": "Southbank Business Owner"
+    },
+    {
+      "text": "We used Henny for a residential renovation in Fitzroy. The early contractor involvement saved us thousands. They were honest about costs and never cut corners.",
+      "name": "Mark T.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "Henny's construction management for our social housing project was outstanding. They coordinated multiple trades and kept the project on budget despite supply issues.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Fitzroy",
+    "Cremorne",
+    "Glen Iris",
+    "Kew",
+    "Richmond",
+    "South Yarra"
+  ],
+  "about": {
+    "intro": "Henny is a Southbank-based construction company with over 20 years of experience delivering premium projects across Melbourne.",
+    "story": [
+      "Henny was founded on the belief that great buildings come from genuine collaboration. We started in Southbank, working on small commercial fit-outs, and grew by building lasting relationships with clients and partners who value quality.",
+      "Our portfolio now includes luxury residential, commercial towers, and social housing. We've delivered projects like The Commons in Cremorne and The Maitland in Glen Iris. Every build reflects our commitment to craftsmanship and clear communication.",
+      "We're proud to be part of Melbourne's building community. Our team includes experienced construction managers, designers, and procurement specialists who work as one unit. We treat every project like it's our own."
+    ],
+    "mission": "To deliver premium, trouble-free buildings that Southbank and Melbourne can be proud of.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Southbank's council rules, soil conditions, and trades inside out."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "Our early involvement model locks in costs before construction starts."
+      },
+      {
+        "title": "On Time",
+        "text": "We build realistic schedules and stick to them, rain or shine."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Every Henny project comes with a workmanship guarantee and after-care."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "150+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "ISO 9001 certified"
+    ]
+  },
+  "pricing": {
+    "intro": "At Henny, we believe in transparent pricing with no hidden fees. We'll give you a clear, fixed quote before any work begins on your Southbank project.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Budget estimate"
+        ]
+      },
+      {
+        "name": "Design & Construct",
+        "price": "from $500k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design service",
+          "Fixed-price contract",
+          "Council liaison",
+          "Project management"
+        ]
+      },
+      {
+        "name": "Construction Management",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Trade procurement",
+          "Site supervision",
+          "Progress reporting",
+          "Defects period"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises — we honour the price we quote."
+  },
+  "contact": {
+    "intro": "Ready to start your next project? Give Henny a call or drop us an email for a free, no-obligation chat about your build."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Henny | Southbank Builder | Commercial & Residential Construction",
+      "description": "Henny is a premium Southbank builder specialising in commercial construction, residential projects, and design-manage-construct. 20+ years delivering quality in Melbourne."
+    },
+    "about": {
+      "title": "About Henny — Southbank's Experienced Construction Company",
+      "description": "Learn about Henny's 20+ year history building in Southbank and Melbourne. We deliver premium commercial, residential, and social housing projects with a collaborative approach."
+    },
+    "services": {
+      "title": "Construction Services in Southbank | Henny Builders",
+      "description": "Henny offers project feasibility, design management, design and construct, and construction management in Southbank and greater Melbourne. Quality guaranteed."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Henny Construction",
+      "description": "Get transparent, fixed-price quotes for your Southbank construction project. Henny offers free initial consultations and clear pricing with no hidden fees."
+    },
+    "contact": {
+      "title": "Contact Henny | Free Southbank Building Consultation",
+      "description": "Contact Henny for a free, no-obligation quote on your Southbank commercial or residential build. Call or email our friendly team today."
+    },
+    "blog": {
+      "title": "Southbank Building & Construction Blog | Henny",
+      "description": "Read Henny's construction guides and tips for Southbank and Melbourne. Learn about costs, timelines, and how to plan your project the right way."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Commercial Fit-Out Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking about a commercial fit-out in Southbank? We break down the costs, from shell to turnkey, and what factors affect your budget in 2026.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/KTA_Kerr_144_-scaled-1.png",
+      "body": [
+        "If you're planning a commercial fit-out in Southbank, one of the first questions is always 'how much?'. The answer depends on the size of your space, the level of finish, and whether it's a shell or existing tenancy. In 2026, typical costs for a basic fit-out start around $1,500 per square metre, while premium finishes can push that to $3,500. Henny has delivered dozens of commercial projects in Southbank, from small offices to full-floor suites. We've seen how material prices and labour availability have shifted post-pandemic. Getting an early budget estimate is crucial to avoid nasty surprises.",
+        "Your location within Southbank also matters. Buildings near the CBD core often have stricter access hours and longer lift wait times, which can add to your program. Heritage-listed buildings may require specialised approvals. Henny's team knows the local council requirements inside out. We've dealt with the City of Melbourne's planning department on numerous fit-outs. This local knowledge saves you time and money. We can tell you upfront whether your proposed layout will fly or needs tweaking to meet fire safety and accessibility standards.",
+        "The scope of work is the biggest cost driver. A basic fit-out might include new carpet, paint, lighting, and minor partitioning. A mid-range fit-out adds ceiling replacement, upgraded HVAC, and kitchenette joinery. High-end fit-outs include custom joinery, feature lighting, premium finishes, and integrated technology. Henny uses an early contractor involvement model to price your fit-out accurately before construction starts. This means no change orders halfway through because the architect changed their mind. We lock in costs early and stick to them.",
+        "Don't forget hidden costs like permits, asbestos testing, and structural engineering. In Southbank, many older buildings have asbestos in floor tiles or ceiling linings. Removing it adds $50–$100 per square metre to your budget. Fire upgrade requirements, such as sprinkler systems or fire-rated doors, can also add $10,000–$50,000 depending on the size of your tenancy. Henny includes these in our feasibility assessments so you know the full picture upfront. No surprises, no stalling.",
+        "Timing is another factor. A standard commercial fit-out takes 8–12 weeks from start to finish. If you need it faster, you'll pay a premium for overtime and express materials. Henny has a network of reliable trades who work efficiently in Southbank's commercial buildings. We coordinate with building managers to minimise disruption and keep your project on track. We've delivered fit-outs in as little as 6 weeks when needed. But we recommend allowing 10 weeks for a smooth process.",
+        "The best way to get a realistic price is to have Henny walk through your space. We'll measure up, check the existing services, and give you a written estimate within a week. There's no charge for the initial consultation. We'll also advise on whether a design and construct or construction management approach suits your project better. Either way, you get a single point of contact and one team responsible for the outcome. Call Henny today to get started on your Southbank commercial fit-out."
+      ]
+    },
+    {
+      "title": "Top 5 Things to Know Before Building in Melbourne's Inner Suburbs",
+      "date": "February 2026",
+      "excerpt": "Building in Melbourne's inner suburbs like Southbank, Fitzroy, and Cremorne comes with unique challenges. Here's what Henny has learned from 20 years of experience.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/04/PrimeEdition_Como_LowRes144-2048x1366.jpg",
+      "body": [
+        "Building in Melbourne's inner suburbs is a different beast to greenfield sites. Tight sites, heritage overlays, and strict council conditions are standard. At Henny, we've navigated these challenges on projects across Southbank, Fitzroy, Cremorne, and Glen Iris. The first thing to understand is your zone. Many inner-city areas have a mix of residential, commercial, and mixed-use zones. Each has different height limits, setback requirements, and parking rules. Getting this wrong can delay your project by months and cost thousands in redesign.",
+        "Heritage overlays are common in suburbs like Fitzroy and Cremorne. If your site is in a heritage precinct, you'll need a permit for most external changes. Even window replacements or new cladding can require council approval. Henny's team has strong relationships with heritage advisors and council planners. We know what's likely to be approved and what will be knocked back. We can also advise on whether a modern addition that contrasts with the existing building is more likely to get through than a replica.",
+        "Site access is another major consideration. Inner-city sites often have narrow laneways, limited parking, and no room for material storage. Henny plans every delivery and crane lift in advance. We coordinate with neighbours and the council to minimise street closures and noise complaints. In Southbank, some buildings have loading docks with restricted hours. We factor that into the program. Our construction managers are used to working in tight spaces and keeping sites tidy. It's part of the job.",
+        "Noise and dust management is critical when building near existing homes and businesses. Melbourne's inner suburbs are densely populated, and complaints can shut down your site. Henny uses noise barriers, dust suppressants, and works within approved hours (usually 7am–6pm Monday to Friday, 8am–1pm Saturday). We keep neighbours informed of noisy activities like piling or concrete pours. Good communication goes a long way. We've had zero formal complaints on our last 20 inner-city projects.",
+        "Underground services are another hidden headache. Old suburbs like Fitzroy and Cremorne have ageing water mains, gas lines, and sewer pipes that aren't always where the plans say. Henny always does a dial-before-you-dig check and often recommends potholing to confirm service locations. Hitting a gas main can stop work for days and cost big money. We avoid this by preparing properly. It's one of those boring but essential steps that separates a good builder from a great one.",
+        "Finally, have a contingency plan. Inner-city building always throws up surprises — unexpected ground conditions, late material deliveries, or council inspection delays. Henny builds a 10–15% program contingency into every inner-city project. This means even if something goes wrong, your handover date stays realistic. We're upfront about this from the start. No one likes hearing about delays, but everyone appreciates honesty. If you're planning a build in Melbourne's inner suburbs, get in touch with Henny. We'll help you navigate the process with confidence."
+      ]
+    },
+    {
+      "title": "Design and Construct vs Construction Management — Which Is Best for Your Project?",
+      "date": "January 2026",
+      "excerpt": "Not sure whether to use a design and construct contract or construction management for your build? Henny explains the pros and cons of each approach.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/04/Awards-3.jpg",
+      "body": [
+        "Choosing the right delivery method for your construction project is one of the most important decisions you'll make. At Henny, we offer both design and construct (D&C) and construction management (CM) services. Each has its strengths, and the best choice depends on your project's complexity, budget, and timeline. In a D&C contract, one team handles both the design and the construction. This gives you a single point of contact and a fixed price. It's ideal for straightforward projects where the scope is clear from the start.",
+        "With D&C, Henny takes responsibility for the entire process. We hire the architects, engineers, and consultants, and we manage the build. This means fewer coordination issues and faster decision-making. If the architect wants to change something, we can cost it immediately and tell you the impact. D&C is popular for commercial fit-outs and residential projects where time is tight. The downside is that you have less direct control over the design team. You need to trust the builder to deliver what you asked for.",
+        "Construction management, on the other hand, keeps you more involved. In a CM contract, you hire the architect and consultants directly, and Henny manages the construction. We procure trades, supervise the site, and report to you. This gives you more flexibility to make changes during the build. It's often used for complex projects like heritage restorations or multi-residential developments where the design evolves. The downside is that costs are less certain. If the design changes, the price changes.",
+        "Most clients choose D&C when they want simplicity and cost certainty. For example, a Southbank office fit-out with a fixed layout and budget is a perfect D&C job. Henny can price it early and deliver it without surprises. Construction management works better for projects with a lot of unknowns, like a Fitzroy terrace renovation where you want to keep the original facade but don't know what's behind the walls. CM lets you uncover issues and decide on the fly, but you need a healthy contingency.",
+        "There's also a hybrid approach we call early contractor involvement (ECI). This is where Henny comes on board during the design phase, even on a CM project. We provide pricing and buildability advice while the architect is still drawing. This reduces the risk of redesigns and keeps the budget realistic. ECI is one of our specialties. We've used it on projects from Cremorne to Glen Iris. Clients love the transparency and the lack of surprises at tender time.",
+        "The best advice is to talk to us early. Henny can review your project and recommend the best approach. We're not locked into one method — we'll tell you honestly what suits your needs. Come in for a coffee at our Southbank office, and we'll walk through your options. There's no charge, and no pressure. We just want to help you get the right outcome. Call Henny today to start the conversation."
+      ]
+    },
+    {
+      "title": "How to Plan a Social Housing Development in Victoria — A Step-by-Step Guide",
+      "date": "December 2025",
+      "excerpt": "Planning a social housing development in Victoria? Henny outlines the key stages, from funding applications to construction handover, based on our experience with projects like Lincoln Square.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_77Stephenson_1080x1080_Facade.jpg",
+      "body": [
+        "Social housing is a vital part of Victoria's building landscape, and Henny has been proud to deliver projects like Lincoln Square. If you're planning a social housing development, the first step is understanding the funding landscape. Most projects are funded through the Victorian Housing Register or the Commonwealth's National Housing and Homelessness Agreement. You'll need a detailed business case showing need, site suitability, and cost. Grants are competitive, so your proposal needs to stack up.",
+        "Site selection is critical. Look for locations near public transport, schools, and healthcare. In Melbourne's inner suburbs, sites are scarce and expensive. Brownfield sites often require remediation, which adds cost. Henny can help with feasibility assessments to see if a site works for social housing. We consider soil conditions, zoning, and council requirements. We've also worked closely with the Department of Families, Fairness and Housing on standards for room sizes, accessibility, and energy efficiency.",
+        "Once you have funding and a site, you need a design that meets the Social Housing Design Guidelines. These cover everything from minimum dwelling sizes to thermal comfort. Henny's design management team integrates these requirements from the start. We ensure each unit has adequate natural light, ventilation, and storage. Accessibility is non-negotiable — at least 10% of units must be fully wheelchair-accessible. Our architects are experienced in designing to these standards without sacrificing aesthetics.",
+        "Planning approval can be a hurdle. Some councils resist social housing due to perceived impacts on property values. Henny works with planners to present a strong case. We highlight the community benefits and show that the design respects the neighbourhood character. In Southbank, we've seen approvals go through smoothly when the design includes ground-floor community spaces and good landscaping. We also engage with neighbours early to address concerns before they become objections.",
+        "Construction of social housing requires careful trade procurement. Henny maintains a panel of pre-qualified subcontractors who understand the sector's quality standards. We use local trades where possible to support the community. During construction, we run regular site reviews with the client to ensure compliance with the funding agreement. Progress reports go to the department every month. Henny's construction management system keeps everything transparent.",
+        "Handover includes community consultation and maintenance training for the housing provider. We also provide a defects liability period of 12 months, with a dedicated after-care team. Social housing developments are among the most rewarding projects Henny does. They create lasting change for vulnerable Victorians. If you're planning a social housing project, contact Henny. We'll guide you through the entire process, from funding application to final handover. Let's build something that matters."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://henny.com.au/wp-content/uploads/2024/04/Henny_Projects_LincolnSq_1920x1095_Hero.jpg",
+  "photoRowImages": [
+    "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_TheCommons_Hero_1920x1095.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png",
+    "https://henny.com.au/wp-content/uploads/2024/02/203_65-MAITLAND-ST-GLEN-IRIS-116.png",
+    "https://henny.com.au/wp-content/uploads/2024/02/KTA_Kerr_144_-scaled-1.png"
+  ],
+  "aboutImages": [
+    "https://henny.com.au/wp-content/uploads/2024/04/PrimeEdition_Como_LowRes144-2048x1366.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/04/Awards-3.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_77Stephenson_1080x1080_Facade.jpg"
+  ],
+  "fullWidthImage": "https://henny.com.au/wp-content/uploads/2024/04/Henny_Collaborators_Logo_250x56_PrimeEdition.png",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://henny.com.au/wp-content/uploads/2024/04/Henny_Collaborators_Logo_250x56_Jolson-1.png",
+  "testimonialsImage": "https://henny.com.au/wp-content/uploads/2024/04/Henny_Collaborators_Logo_250x56_HeckerGuthrie.png",
+  "galleryImages": [
+    "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_TheCommons_Hero_1920x1095.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png",
+    "https://henny.com.au/wp-content/uploads/2024/02/KTA_Kerr_144_-scaled-1.png",
+    "https://henny.com.au/wp-content/uploads/2024/04/PrimeEdition_Como_LowRes144-2048x1366.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/04/Awards-3.jpg"
+  ],
+  "pricingBgImage": "https://henny.com.au/wp-content/uploads/2024/04/Henny_Collaborators_Logo_250x56_HeckerGuthrie.png"
+}
