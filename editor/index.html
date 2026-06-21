@@ -2881,6 +2881,33 @@
             " on this page. Click any to change it.";
           reapplyOps(doc, pg);
         }
+        // Insert a line break at the caret inside a contenteditable. execCommand
+        // handles the caret + trailing-<br> quirks; layered fallbacks cover any
+        // browser that lacks insertLineBreak/insertHTML (Chrome/Edge/Safari/FF).
+        function insertLineBreak(doc) {
+          try {
+            if (doc.execCommand("insertLineBreak")) return;
+          } catch (e) {}
+          try {
+            if (doc.execCommand("insertHTML", false, "<br>")) return;
+          } catch (e) {}
+          var sel = doc.defaultView.getSelection();
+          if (!sel || !sel.rangeCount) return;
+          var range = sel.getRangeAt(0);
+          range.deleteContents();
+          var br = doc.createElement("br");
+          range.insertNode(br);
+          range.setStartAfter(br);
+          range.collapse(true);
+          sel.removeAllRanges();
+          sel.addRange(range);
+        }
+        function escapeHtmlText(s) {
+          return String(s == null ? "" : s)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+        }
         function bindEditable(el, pg) {
           if (el.__ce) return;
           el.__ce = true;
@@ -2896,11 +2923,35 @@
           el.addEventListener("keydown", function (e) {
             if (e.key === "Enter") {
               e.preventDefault();
-              el.blur();
+              // Rich (prose) elements: Enter inserts a line break so paragraphs
+              // and headings can be multi-line. Click away (blur) to save, Esc to
+              // cancel. Plain single-line labels keep Enter = commit-and-close.
+              if (el.getAttribute("data-ce-cap") === "rich") {
+                insertLineBreak(el.ownerDocument);
+              } else {
+                el.blur();
+              }
             } else if (e.key === "Escape") {
               el.innerHTML = el.dataset.ceOrig;
               el.blur();
             }
+          });
+          // Paste as clean text: strip foreign markup/styles, but preserve newlines
+          // as <br> for rich prose (collapse to spaces for single-line plain labels).
+          el.addEventListener("paste", function (e) {
+            e.preventDefault();
+            var cd =
+              e.clipboardData || el.ownerDocument.defaultView.clipboardData;
+            var text = cd ? cd.getData("text/plain") : "";
+            var parts = String(text || "")
+              .split(/\r\n|\r|\n/)
+              .map(escapeHtmlText);
+            var rich = el.getAttribute("data-ce-cap") === "rich";
+            el.ownerDocument.execCommand(
+              "insertHTML",
+              false,
+              rich ? parts.join("<br>") : parts.join(" "),
+            );
           });
         }
         function startEditing(el) {

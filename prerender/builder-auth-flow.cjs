@@ -159,8 +159,12 @@ return [{ json: { ok: true, path: $('Swap Guard').first().json.path } }];
 
 /* ---------------- text editor (free, deterministic) ---------------- */
 
+// Backslash-FREE on purpose: this string is spliced into Code-node jsCode, and the
+// n8n MCP setNodeParameter sync strips '\\' — which once silently turned '\\d+' into
+// 'd+' and made Elements Guard reject blog/<n>/index pages. '[0-9]' and '[.]' need no
+// escapes, so the regex survives any re-sync. (See [[n8n-setnodeparameter-backslash]].)
 const PAGE_RE =
-  "^(index|about\\\\/index|services\\\\/index|pricing\\\\/index|blog\\\\/index|contact\\\\/index|blog\\\\/\\\\d+\\\\/index)\\\\.html$";
+  "^(index|about/index|services/index|pricing/index|blog/index|contact/index|blog/[0-9]+/index)[.]html$";
 
 const CODE_TEXTS_GUARD = `
 // Session + page validation for text extraction.
