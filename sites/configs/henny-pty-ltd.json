@@ -1,0 +1,340 @@
+{
+  "siteType": "builder",
+  "businessName": "Henny Pty Ltd",
+  "suburb": "Southbank",
+  "phone": "+611300043669",
+  "email": "hello@henny.com.au",
+  "address": "Level 4/100 Dorcas St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8310076,
+    "longitude": 144.9663033
+  },
+  "tagline": "Southbank's premium builder since 2006",
+  "primaryColor": "#ff6b35",
+  "primaryColorRgb": "255, 107, 53",
+  "primaryColorHover": "#e55a2b",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Go-To Builder",
+      "sub": "Luxury homes & commercial",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/01.-Bruce-Williams-Corner-2-scaled-1.jpg"
+    },
+    {
+      "title": "Built Around Your Vision",
+      "sub": "Fixed-price contracts, no surprises",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png"
+    },
+    {
+      "title": "15+ Years Delivering Excellence",
+      "sub": "Local & licensed",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/203_65-MAITLAND-ST-GLEN-IRIS-116.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted Southbank builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in construction",
+  "aboutText": "Henny Pty Ltd has been the backbone of Southbank construction since 2006. With over 15 years of hands-on experience, we've transformed visions into reality across Melbourne's finest suburbs. Our team of dedicated experts specialises in project feasibility, design management, and construction management, ensuring every build meets the highest standard.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From early contractor involvement to full construction management, Henny delivers tailored solutions for every project. Our team handles everything from feasibility studies to after-care, backed by proven expertise in Southbank and beyond.",
+  "services": [
+    {
+      "title": "Project Feasibility",
+      "desc": "Assess your site's potential with our expert team.",
+      "longDesc": "We evaluate land, zoning, and costs to determine the best path for your Southbank project, saving you time and money.",
+      "points": [
+        "Site evaluation",
+        "Cost analysis",
+        "Zoning checks"
+      ]
+    },
+    {
+      "title": "Early Contractor Involvement",
+      "desc": "Get builders involved from day one for better results.",
+      "longDesc": "Collaborating early with Henny ensures your design is buildable, on budget, and tailored to your Southbank site.",
+      "points": [
+        "Collaborative design",
+        "Budget alignment",
+        "Risk reduction"
+      ]
+    },
+    {
+      "title": "Design Management",
+      "desc": "Expert oversight from concept to completion.",
+      "longDesc": "Our team coordinates architects and engineers to deliver a seamless design that meets Southbank's standards.",
+      "points": [
+        "Architect liaison",
+        "Permit handling",
+        "Design reviews"
+      ]
+    },
+    {
+      "title": "Design and Construct",
+      "desc": "Single-contract delivery for stress-free builds.",
+      "longDesc": "Henny handles both design and construction, giving you one point of contact and a fixed price for your Southbank project.",
+      "points": [
+        "Single contract",
+        "Fixed pricing",
+        "Streamlined process"
+      ]
+    },
+    {
+      "title": "Construction Management",
+      "desc": "On-site oversight for quality and safety.",
+      "longDesc": "We manage every stage of construction, from trades to timelines, ensuring your Southbank build stays on track.",
+      "points": [
+        "Timeline control",
+        "Quality checks",
+        "Safety compliance"
+      ]
+    },
+    {
+      "title": "After Care",
+      "desc": "Ongoing support long after handover.",
+      "longDesc": "Henny provides post-completion service to address any issues and keep your Southbank property performing well.",
+      "points": [
+        "Defect fixes",
+        "Maintenance tips",
+        "Warranty support"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "Henny managed our Southbank commercial fit-out from start to finish. Their attention to detail and fixed-price contract gave us total peace of mind. Highly recommend.",
+      "name": "Sarah F.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "We used Henny for a full renovation in Southbank. The team was professional, on time, and the quality of the finish exceeded our expectations. Great communicators.",
+      "name": "Mark T.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "As a property manager in Southbank, I've worked with Henny on multiple projects. Their construction management is second to none, and they always deliver on budget.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "South Melbourne",
+    "Melbourne CBD",
+    "Port Melbourne",
+    "St Kilda",
+    "Albert Park",
+    "Fitzroy",
+    "Toorak"
+  ],
+  "about": {
+    "intro": "Henny Pty Ltd is a Southbank-based construction company with over 15 years of experience delivering premium projects across Melbourne.",
+    "story": [
+      "Founded in 2006, Henny started with a simple vision: to build better. Based in Southbank, we've grown from a small team into a trusted name in construction, known for our hands-on approach.",
+      "Our portfolio includes landmark projects like the Como and the Maitland, each showcasing our commitment to quality. We work closely with clients and partners to ensure every build reflects their vision.",
+      "We're proud to be part of Southbank's community, supporting local jobs and sourcing materials responsibly. Our team is dedicated to creating spaces that stand the test of time."
+    ],
+    "mission": "To deliver exceptional construction in Southbank through collaboration, quality, and unwavering attention to detail.",
+    "whyUs": [
+      {
+        "title": "Local Roots",
+        "text": "We're based in Southbank and know the local councils, regulations, and suppliers inside out."
+      },
+      {
+        "title": "Fixed-Price",
+        "text": "Every project gets a fixed-price contract with no hidden costs, so you stay in control."
+      },
+      {
+        "title": "On Time",
+        "text": "We plan every phase meticulously, ensuring your Southbank build finishes on schedule."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Our work comes with a guarantee, backed by years of Southbank experience and satisfied clients."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member"
+    ]
+  },
+  "pricing": {
+    "intro": "At Henny, every Southbank project is different. We offer transparent pricing with no hidden costs, starting with a free on-site consultation to discuss your needs.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Renovation",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom New Home",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront so you know exactly where you stand from the start."
+  },
+  "contact": {
+    "intro": "Ready to start your Southbank project? Call us or drop by our Level 4 office for a free, no-obligation chat about your build."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Henny Pty Ltd | Southbank Builder | Premium Construction",
+      "description": "Henny Pty Ltd is Southbank's trusted builder with 15+ years of experience. Specialising in design and construct, construction management, and renovation. Fixed-price contracts, local expertise. Call now for a free quote."
+    },
+    "about": {
+      "title": "About Henny Pty Ltd — Southbank's Family Builder",
+      "description": "Learn about Henny Pty Ltd, a Southbank-based construction company with over 15 years of experience. From Como to Toorak, we deliver quality projects with a personal touch."
+    },
+    "services": {
+      "title": "Building Services in Southbank | Henny Pty Ltd",
+      "description": "Explore Henny's full range of services: project feasibility, design management, construction management, and more. Serving Southbank and across Melbourne with a fixed-price promise."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Henny Pty Ltd",
+      "description": "Get transparent pricing from Henny. Free initial consultation, fixed-price renovations, and custom new homes. No hidden fees, no surprises. Serving Southbank and surrounds."
+    },
+    "contact": {
+      "title": "Contact Henny Pty Ltd | Free Consultation",
+      "description": "Reach out to Henny in Southbank for a free, no-obligation consultation. Call +61 1300 043 669 or visit our Level 4 office. We're ready to discuss your project."
+    },
+    "blog": {
+      "title": "Southbank Building & Renovation Blog | Henny Pty Ltd",
+      "description": "Read the latest from Henny: building guides, cost breakdowns, and local tips for Southbank and Melbourne. From feasibility to after-care, we cover it all."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking of extending in Southbank? We break down costs, council fees, and design factors to help you budget.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/01.-Bruce-Williams-Corner-2-scaled-1.jpg",
+      "body": [
+        "Home extensions in Southbank are a popular way to add space without moving. In 2026, costs typically range from $2,000 to $3,500 per square metre, depending on the complexity of the design and your site's conditions. Henny Pty Ltd has seen everything from single-room additions to full second-storey builds in the Southbank area.",
+        "Council approval is a major factor. Southbank falls under the City of Melbourne, which has specific heritage and zoning rules. A standard extension can take 3-6 months to get a permit. Working with a builder like Henny who knows the local process speeds things up and avoids costly delays.",
+        "The type of extension matters. A ground-floor addition is cheapest, while a second-storey involves structural work and scaffolding. For a typical 40-square-metre extension in Southbank, you're looking at $80,000 to $140,000. Add a bathroom or kitchen and that figure goes up by 20-30 percent.",
+        "Material choices also affect the budget. Brick and glass are common in Southbank for their modern look and durability. The cost of a brick extension is around $2,500 per square metre installed, while glass walls can cost more but add light and value. Henny can advise on the best materials for your build.",
+        "Don't forget the extras like landscaping, new flooring, and painting. Many Southbank homeowners budget an extra 10-15% for finishing touches. We recommend getting a fixed-price contract from Henny to avoid surprises — we've done this for dozens of local projects.",
+        "Timing is tight in Southbank. Most extensions take 4-6 months from approval to handover. Winter can slow things down due to weather, but Henny plans around this. We've completed extensions in Como and Toorak that came in on schedule, even in wet months.",
+        "Financing is another key factor. Many homeowners use equity or savings. There are also government grants for energy-efficient extensions. Henny can help you with feasibility checks before you commit, so you know exactly what's involved.",
+        "In summary, a Southbank home extension in 2026 is a solid investment. With Henny's fixed-price approach and local know-how, you can expect a high-quality build without the stress. Contact us for a free on-site quote."
+      ]
+    },
+    {
+      "title": "Best Time to Pour Concrete in Melbourne Winter",
+      "date": "February 2026",
+      "excerpt": "Melbourne's winter can be tricky for concrete. Our guide covers the best months, curing tips, and why Southbank builders plan ahead.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png",
+      "body": [
+        "Pouring concrete in Melbourne winter is a challenge even for experienced builders. The ideal temperature for concrete is 10-25 degrees Celsius, and winter in Southbank often dips below that. Henny Pty Ltd schedules pours between March and May for the best results, when the ground is still warm and frost is rare.",
+        "Cold weather slows down curing. If concrete freezes, it can lose up to 50% of its strength. In Southbank, we use blankets and heaters to keep it warm, especially for foundations. Our team has done this on projects across Fitzroy and St Kilda, and it works.",
+        "Wind is another factor. The Southbank area near the river gets strong gusts that can dry concrete too fast, causing cracks. We time our pours for calm days and use windbreaks. The Maitland project in Toorak was a winter pour and it held up perfectly.",
+        "Summer is the opposite problem — too hot, and the concrete dries too fast. We prefer spring or early autumn for large slabs. For smaller jobs, like paths, winter can work if you're careful. Henny uses additives to slow setting in heat and speed it up in cold.",
+        "The cost of concrete in Southbank varies. A standard driveway slab is $80-$120 per square metre. Exposed aggregate costs more but looks great. We always advise getting a fixed-price contract to cover weather-related delays — something we've offered for years.",
+        "Finally, plan ahead. Melbourne weather is unpredictable. Henny builds in a 10-day window for concrete pours to account for rain. With our local experience, we can pour year-round if the conditions are right. Ask us for a site assessment."
+      ]
+    },
+    {
+      "title": "Design and Construct vs Construction Management in Southbank",
+      "date": "January 2026",
+      "excerpt": "Not sure which building method suits your Southbank project? We compare design and construct with construction management to help you decide.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/203_65-MAITLAND-ST-GLEN-IRIS-116.png",
+      "body": [
+        "Design and construct (D&C) and construction management are two common approaches in Southbank. With D&C, you have one contract for both design and build. Henny Pty Ltd offers this as a single-point solution, which means less paperwork and no finger-pointing between the architect and builder.",
+        "Construction management is different. You hire a builder as a manager to oversee trades, but you contract with each one separately. This gives you more control but also more risk. In Southbank, many homeowners prefer D&C because it's simpler and cheaper when things go wrong.",
+        "Cost is a major difference. With D&C, you get a fixed price upfront. With construction management, costs can vary as you change things. Henny has delivered D&C projects in Como and the Maitland that came in on budget, while construction management works best for large, complex jobs.",
+        "Time is another factor. D&C is faster because the builder and designer work together from day one. Construction management can be slower if there are disputes. For a typical Southbank renovation, D&C saves 2-3 months.",
+        "Quality is similar in both if the right team is involved. Henny uses the same trades for both methods. The main difference is who holds the risk. With D&C, it's with us. With construction management, it's with you. That's why most Southbank clients choose D&C.",
+        "Ultimately, D&C is best for most residential projects in Southbank. Henny's fixed-price contracts give you certainty. Construction management is for when you have your own designers and want more hands-on control. Either way, we can help."
+      ]
+    },
+    {
+      "title": "Southbank Building Trends 2026: What's Popular in New Homes",
+      "date": "December 2025",
+      "excerpt": "Discover the top trends in Southbank building for 2026, from sustainable materials to open-plan living, with insights from Henny.",
+      "image": "https://henny.com.au/wp-content/uploads/2024/02/KTA_Kerr_144_-scaled-1.png",
+      "body": [
+        "Southbank's building scene in 2026 is all about sustainability and efficiency. Henny Pty Ltd sees more clients asking for solar panels, double-glazed windows, and recycled materials. The cost of these upgrades has come down, making them standard in new builds.",
+        "Open-plan living is still king. Kitchens that flow into living areas are essential, with islands for seating. In Southbank, we've installed luxury islands with seating for six. They're a centrepiece for modern family life. The trend is for oversized, functional spaces.",
+        "Outdoor living is big too. Decks and courtyards that connect to the indoors are common. In Southbank, we use glass doors to merge the two. The Kerr Street project in Fitzroy did this beautifully, and the results speak for themselves.",
+        "Smart homes are on the rise. Automation for lighting, blinds, and security is now standard. Henny integrates these as part of the build, not aftermarket. It's cheaper and ensures it all works together. Many Southbank homes are fully integrated.",
+        "Colours are trending toward neutrals. Matte black is popular for hardware and windows, while walls stay white or warm grey. Henny uses this on many projects. It complements the natural light in Southbank's apartments.",
+        "Finally, there's a push for ethical building. Clients want to know where materials come from. Henny sources locally where possible, cutting down on transport and supporting Victorian suppliers. It's a win for everyone."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://henny.com.au/wp-content/uploads/2024/04/PrimeEdition_Como_LowRes144-2048x1366.jpg",
+  "photoRowImages": [
+    "https://henny.com.au/wp-content/uploads/2024/04/Awards-3.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_77Stephenson_1080x1080_Facade.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/04/Henny_Projects_LincolnSq_1920x1095_Hero.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/02/01.-Bruce-Williams-Corner-2-scaled-1.jpg"
+  ],
+  "aboutImages": [
+    "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png",
+    "https://henny.com.au/wp-content/uploads/2024/02/203_65-MAITLAND-ST-GLEN-IRIS-116.png",
+    "https://henny.com.au/wp-content/uploads/2024/02/KTA_Kerr_144_-scaled-1.png"
+  ],
+  "fullWidthImage": "https://henny.com.au/wp-content/uploads/2024/04/PrimeEdition_Como_LowRes144-2048x1366.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://henny.com.au/wp-content/uploads/2024/02/01.-Bruce-Williams-Corner-2-scaled-1.jpg",
+  "testimonialsImage": "https://henny.com.au/wp-content/uploads/2024/02/1-44-Greeves-031_Home.png",
+  "galleryImages": [
+    "https://henny.com.au/wp-content/uploads/2024/02/203_65-MAITLAND-ST-GLEN-IRIS-116.png",
+    "https://henny.com.au/wp-content/uploads/2024/02/KTA_Kerr_144_-scaled-1.png",
+    "https://henny.com.au/wp-content/uploads/2024/04/PrimeEdition_Como_LowRes144-2048x1366.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/04/Awards-3.jpg",
+    "https://henny.com.au/wp-content/uploads/2024/02/Henny_Projects_77Stephenson_1080x1080_Facade.jpg"
+  ],
+  "pricingBgImage": "https://henny.com.au/wp-content/uploads/2024/04/Henny_Projects_LincolnSq_1920x1095_Hero.jpg"
+}
