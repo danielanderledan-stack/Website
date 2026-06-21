@@ -4388,40 +4388,35 @@
 
         // Loading screen that waits until the change is actually live on the site,
         // so the customer never wonders "did that work?".
+        // Set the overlay to a finished state (done icon + message + close button).
+        function pubResult(icon, color, title, msg) {
+          $("pubSpin").classList.add("done");
+          $("pubSpin").style.cssText =
+            "width:42px;height:42px;margin:0 auto 16px;display:grid;place-items:center;font-size:34px;border:none;animation:none;color:" +
+            color;
+          $("pubSpin").textContent = icon;
+          $("pubTitle").textContent = title;
+          $("pubMsg").textContent = msg;
+          $("pubClose").hidden = false;
+        }
         function watchGoLive(watch) {
+          // The commit already succeeded (that's why we're here). Re-deploying the
+          // customer's site (a Cloudflare/Vercel rebuild) can take several minutes
+          // and isn't something we control — so we DON'T block on it. We confirm the
+          // save right away and let it propagate; the live check below is a
+          // non-blocking bonus, never a gate. No more hanging on a spinner.
           $("pubOverlay").hidden = false;
-          $("pubClose").hidden = true;
-          $("pubSpin").style.cssText = "";
-          $("pubSpin").textContent = "";
-          $("pubSpin").classList.remove("done");
-          $("pubTitle").textContent = "Publishing your changes…";
-          $("pubMsg").textContent =
-            "Saving your site and pushing it live — this usually takes a minute or two. We'll confirm the moment it's done.";
-
-          var finish = function (ok) {
-            $("pubSpin").classList.add("done");
-            $("pubSpin").style.cssText =
-              "width:42px;height:42px;margin:0 auto 16px;display:grid;place-items:center;font-size:34px;border:none;animation:none;color:" +
-              (ok ? "#16a34a" : "#fb8500");
-            $("pubSpin").textContent = ok ? "✓" : "↻";
-            $("pubTitle").textContent = ok
-              ? "Your changes are live!"
-              : "Almost there…";
-            $("pubMsg").textContent = ok
-              ? "Done — your site has been updated. Take a look."
-              : "Your changes are saved and going live in the background. They'll appear within a few minutes — you can keep editing.";
-            $("pubClose").hidden = false;
-            if (ok) loadPage(state.page);
-          };
-
-          if (!watch || !watch.needle) {
-            setTimeout(function () {
-              finish(true);
-            }, 9000);
-            return;
-          }
+          pubResult(
+            "✓",
+            "#16a34a",
+            "Your changes are saved!",
+            "They're publishing now and will appear on your live site within a minute or two. You can close this and keep editing.",
+          );
+          if (!watch || !watch.needle) return;
+          // Background: if the edit is detected live while the overlay is still
+          // open, upgrade the message and refresh the preview. Harmless otherwise.
           var tries = 0,
-            max = 28;
+            max = 60; // keep checking ~6 min, then stop quietly
           var poll = function () {
             tries++;
             fetch(
@@ -4437,13 +4432,20 @@
                 return r.text();
               })
               .then(function (html) {
-                if (html.indexOf(watch.needle) !== -1) finish(true);
-                else if (tries >= max) finish(false);
-                else setTimeout(poll, 5500);
+                if (html.indexOf(watch.needle) !== -1) {
+                  if (!$("pubOverlay").hidden) {
+                    pubResult(
+                      "✓",
+                      "#16a34a",
+                      "Your changes are live!",
+                      "Done — your site has been updated. Take a look.",
+                    );
+                    loadPage(state.page);
+                  }
+                } else if (tries < max) setTimeout(poll, 6000);
               })
               .catch(function () {
-                if (tries >= max) finish(false);
-                else setTimeout(poll, 5500);
+                if (tries < max) setTimeout(poll, 6000);
               });
           };
           setTimeout(poll, 6000);
@@ -5077,26 +5079,31 @@
             "Something went wrong setting it up. Please close this and try again.",
           );
         }
-        // Poll the live URL through the read proxy until the freshly-created post
-        // is reachable, then open it. The host (Vercel/CF) rebuilds ~1-2 min after
-        // the commit, so we wait rather than 404.
+        // The post is committed (creation already succeeded). Confirm that now and
+        // let the user close — we keep watching in the background and open it for
+        // editing the moment the deploy makes it reachable. Never a blocking spinner.
         function watchBlogLive(num) {
           var path = "blog/" + num + "/index.html";
           var url = pageUrl(path);
-          var proxy =
-            "/api/editor-page?url=" + encodeURIComponent(url);
+          var proxy = "/api/editor-page?url=" + encodeURIComponent(url);
+          pubResult(
+            "✓",
+            "#16a34a",
+            "Your new post is created!",
+            "It's publishing now and will be ready to edit in a minute or two — we'll open it for you automatically. Or close this and find it any time under “Blog posts.”",
+          );
           var tries = 0;
           (function poll() {
             tries++;
             fetch(proxy)
               .then(function (r) {
                 if (r.ok) {
+                  // Only auto-open if they're still waiting on this screen — never
+                  // hijack the editor if they've closed it and moved on.
+                  if ($("pubOverlay").hidden) return;
                   $("pubOverlay").hidden = true;
                   loadPage(path);
-                  $("frameUrl").textContent = url.replace(
-                    /^https?:\/\//,
-                    "",
-                  );
+                  $("frameUrl").textContent = url.replace(/^https?:\/\//, "");
                   toast(
                     "New post ready — edit the words and photos, then Publish.",
                   );
@@ -5105,15 +5112,8 @@
                 throw new Error("not live yet");
               })
               .catch(function () {
-                if (tries >= 80) {
-                  // ~4 min — give up waiting but the post WAS created
-                  blogSpinError(
-                    "Almost there…",
-                    "Your new post was created and is going live. Give it another minute, then open it from the Blog posts list.",
-                  );
-                  return;
-                }
-                setTimeout(poll, 3000);
+                if (tries < 140) setTimeout(poll, 3000); // keep trying ~7 min
+                // else stop quietly — the message already says where to find it
               });
           })();
         }
