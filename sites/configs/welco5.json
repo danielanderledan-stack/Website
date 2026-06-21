@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "Wel.Co",
+  "suburb": "Southbank",
+  "phone": "+61385958300",
+  "email": "hello@welco.com.au",
+  "address": "Level 10/2 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8219764,
+    "longitude": 144.96291689999998
+  },
+  "tagline": "Better communities, built together",
+  "primaryColor": "#00b4d8",
+  "primaryColorRgb": "0, 180, 216",
+  "primaryColorHover": "#0096c7",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Developer",
+      "sub": "Building vibrant communities from the ground up",
+      "image": "https://framerusercontent.com/images/QPCyqxzRA3MKSu3RyIUfM2YyL0.jpg?width=1920&height=1080"
+    },
+    {
+      "title": "Wel.Co — Better Communities Built Together",
+      "sub": "Over 20 years of experience across Victoria, SA & QLD",
+      "image": "https://framerusercontent.com/images/MUSReCGocjCnKtRf3pyhdwrVp0.jpg?width=1920&height=1080"
+    },
+    {
+      "title": "Unlocking Land Opportunities",
+      "sub": "From vision to reality — every project is personal",
+      "image": "https://framerusercontent.com/images/xJxGHhkeOBXeztJr7qenhdhcuzU.jpg?width=1920&height=1080"
+    }
+  ],
+  "ctaHeading": [
+    "Let's build something great —",
+    "your Southbank development partner",
+    "is ready to talk."
+  ],
+  "aboutHeading": "Better Communities, Built Together",
+  "aboutSubheading": "A trusted Australian property developer since 2004",
+  "aboutText": "Wel.Co is a proud Southbank-based property developer with over 20 years of experience unlocking land opportunities across Victoria, South Australia and Queensland. Founded by Andrew Welsh, we combine foresight, disciplined execution and strong relationships to deliver thriving communities that stand the test of time.",
+  "servicesHeading": "Our Expert Development Services",
+  "servicesSubheading": "End-to-end solutions for landowners and communities",
+  "servicesText": "From residential subdivisions to commercial projects, Wel.Co offers a full suite of property development services. We work alongside landowners, councils and stakeholders to turn raw land into thriving, well-connected neighbourhoods across Australia.",
+  "services": [
+    {
+      "title": "Residential Development",
+      "desc": "Master-planned communities with parks, schools and infrastructure.",
+      "longDesc": "Wel.Co specialises in large-scale residential communities across Victoria, SA and QLD. Each project is thoughtfully designed with green spaces, community hubs and sustainable infrastructure to create a better place to live.",
+      "points": [
+        "Master-planned estates",
+        "Community-focused design",
+        "Sustainable infrastructure"
+      ]
+    },
+    {
+      "title": "Commercial Projects",
+      "desc": "Retail, childcare and mixed-use developments that serve growing suburbs.",
+      "longDesc": "Our commercial portfolio includes early learning centres, retail precincts and mixed-use spaces that anchor new communities. We deliver projects on time and on budget, with a focus on long-term value.",
+      "points": [
+        "Childcare centres",
+        "Retail precincts",
+        "Mixed-use spaces"
+      ]
+    },
+    {
+      "title": "Landowner Partnerships",
+      "desc": "Transparent, long-term partnerships that maximise land value.",
+      "longDesc": "We work alongside landowners to realise the full value of their land through well-structured partnerships grounded in alignment, transparency and shared success. Our track record ensures clarity and confidence at every stage.",
+      "points": [
+        "No hidden fees",
+        "Shared success model",
+        "Full development support"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "End-to-end management from feasibility to final handover.",
+      "longDesc": "From rezoning and approvals through to construction and settlement, our experienced project managers oversee every detail. We coordinate councils, builders and contractors to keep your project moving.",
+      "points": [
+        "Feasibility studies",
+        "Council liaison",
+        "Construction oversight"
+      ]
+    },
+    {
+      "title": "Custom Home Building",
+      "desc": "Bespoke homes designed for modern families in Southbank and beyond.",
+      "longDesc": "Whether you're building your dream home or a townhouse development, our in-house team delivers quality craftsmanship. We use local suppliers and trades to ensure a home that's built to last in Melbourne's climate.",
+      "points": [
+        "Bespoke designs",
+        "Local trades",
+        "Fixed-price contracts"
+      ]
+    },
+    {
+      "title": "Town Planning & Approvals",
+      "desc": "Navigate council requirements with expert planning support.",
+      "longDesc": "Our town planning team handles rezoning, permits and community consultation. With deep knowledge of Victorian, SA and QLD regulations, we fast-track approvals while maintaining community engagement.",
+      "points": [
+        "Rezoning expertise",
+        "Permit applications",
+        "Community consultation"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Partners Say",
+  "testimonialsSubheading": "Trusted by landowners and communities",
+  "reviews": [
+    {
+      "text": "Wel.Co transformed our family's land in Yallarah into a beautiful community with parks and walking trails. The whole process was transparent and they kept us informed every step of the way. Highly recommend their Southbank team.",
+      "name": "Sarah M.",
+      "role": "Victorian Landowner"
+    },
+    {
+      "text": "We partnered with Wel.Co for a large commercial development in Springwood. Their project management was outstanding — they navigated council approvals smoothly and delivered ahead of schedule. A pleasure to work with.",
+      "name": "Mark T.",
+      "role": "SA Business Owner"
+    },
+    {
+      "text": "As a local council in Queensland, we've worked with many developers. Wel.Co stood out for their genuine community focus and environmental stewardship. The Fernvale project is a testament to their commitment.",
+      "name": "Priya N.",
+      "role": "QLD Council Representative"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "St Kilda",
+    "Richmond",
+    "Port Melbourne",
+    "South Yarra",
+    "Toorak"
+  ],
+  "about": {
+    "intro": "Wel.Co is a Southbank-based property developer dedicated to building better communities across Australia since 2004.",
+    "story": [
+      "Wel.Co was founded in 2004 by Andrew Welsh with a simple vision: create thriving communities where people love to live. Starting with a single project in regional Victoria, we quickly built a reputation for integrity, quality and long-term thinking. Today, we have active projects in Victoria, South Australia and Queensland.",
+      "Our team of 50+ professionals includes town planners, architects, project managers and construction supervisors who share a passion for placemaking. We believe great communities are built on strong relationships — with landowners, councils, builders and future residents. Every project is a partnership.",
+      "From the early days in Ballan to our current flagship developments like Gracewood and Harlowe, we've stayed true to our roots. We still operate from our Southbank headquarters, but our impact spans three states. We're proud to have delivered thousands of homesites and helped shape the suburbs of tomorrow."
+    ],
+    "mission": "To unlock land opportunities and deliver well-considered, future-focused communities that make a better place to live — starting right here in Southbank.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "Deep understanding of Victorian, SA and QLD planning systems and community needs."
+      },
+      {
+        "title": "Transparent Partnerships",
+        "text": "Open-book, aligned with landowners — no surprises, no hidden fees."
+      },
+      {
+        "title": "Proven Track Record",
+        "text": "Billions in project pipeline, thousands of homesites delivered across Australia."
+      },
+      {
+        "title": "Community Focused",
+        "text": "Every development includes green spaces, childcare, sporting partnerships and local jobs."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "3,000+",
+        "label": "Homesites Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Australian Property Developer of the Year finalist",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Green Building Council of Australia member"
+    ]
+  },
+  "pricing": {
+    "intro": "Every development is unique — we begin with a free, no-obligation consultation to understand your land and goals. No lock-in contracts, just honest advice from our Southbank team.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site land assessment",
+          "Feasibility overview",
+          "Investment timeline estimate"
+        ]
+      },
+      {
+        "name": "Development Partnership",
+        "price": "POA",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full project management",
+          "Council approval handling",
+          "Construction oversight",
+          "Community engagement"
+        ]
+      },
+      {
+        "name": "Custom Home Build",
+        "price": "from $600k",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Bespoke design",
+          "Fixed-price contract",
+          "12-month workmanship guarantee"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs — we believe in transparency from day one."
+  },
+  "contact": {
+    "intro": "Ready to discuss your land or next project? Our Southbank team is here to help. Call us or drop in for a coffee and a chat."
+  },
+  "contactHeading": "Let's Talk About Your Land",
+  "contactSubheading": "Free, no-obligation consultation",
+  "seo": {
+    "home": {
+      "title": "Wel.Co | Southbank Property Developer | Better Communities",
+      "description": "Wel.Co is a trusted Southbank property developer building thriving communities across Victoria, SA & QLD. Residential, commercial & land partnerships. Since 2004."
+    },
+    "about": {
+      "title": "About Wel.Co — Southbank's Community-First Developer",
+      "description": "Learn about Wel.Co's 20+ year journey from a vision in Southbank to a national developer delivering thousands of homesites across Australia."
+    },
+    "services": {
+      "title": "Property Development Services in Southbank | Wel.Co",
+      "description": "Full-service property development from residential estates to commercial projects. Landowner partnerships, project management & custom home building."
+    },
+    "pricing": {
+      "title": "Development Costs & Pricing in Southbank | Wel.Co",
+      "description": "Transparent pricing for property development projects. Free initial consultation with our Southbank team. No lock-in contracts, fixed quotes."
+    },
+    "contact": {
+      "title": "Contact Wel.Co | Free Development Consultation",
+      "description": "Get in touch with Wel.Co's Southbank office for a free, no-obligation consultation. Call +61385958300 or visit Level 10/2 Southbank Blvd."
+    },
+    "blog": {
+      "title": "Property Development Blog | Wel.Co Southbank",
+      "description": "Expert guides on property development costs, town planning, community design and local market insights from Wel.Co's Southbank team."
+    }
+  },
+  "blogHeading": "Latest Development News",
+  "blogSubheading": "Tips, costs & local guides from our Southbank team",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Townhouse Development Cost in Southbank? A 2026 Guide",
+      "date": "March 2026",
+      "excerpt": "Thinking of developing a townhouse site in Southbank? We break down land costs, build rates, council fees and hidden extras to give you a realistic budget.",
+      "image": "https://framerusercontent.com/images/bx8mLjjzSfQgAsfY0VQiEOUAZd4.jpg?width=5500&height=3670",
+      "body": [
+        "Townhouse developments are becoming increasingly popular in Southbank and surrounding Melbourne suburbs due to rising demand for medium-density housing. If you own a block in Southbank or nearby suburbs like South Yarra or Richmond, you might be wondering how much it actually costs to develop townhouses. The answer depends on several factors including land size, zoning, design complexity and site conditions. In this comprehensive 2026 guide, we'll break down every cost component so you can plan with confidence.",
+        "Land acquisition is usually the biggest upfront cost. In Southbank, a typical 300sqm block with development potential can range from $800,000 to $1.2 million depending on proximity to transport and amenities. Zoning is critical — some areas allow three townhouses, others only two. Always check the local council's planning scheme and overlay controls before purchasing. Rezoning from older residential zones can add 12-18 months to your timeline and significant consultant fees.",
+        "Construction costs for a standard three-bedroom townhouse in Melbourne currently sit around $3,500 to $4,500 per square metre for a basic finish, rising to $6,000+ for premium finishes. In Southbank, you'll also need to account for higher density requirements like fire ratings, noise insulation and car parking. Expect to budget at least $1.5 million for a three-townhouse project including all construction, site costs and contingency. Don't forget basement parking if required — that alone can add $100,000-$200,000.",
+        "Council fees and infrastructure contributions are often underestimated. Southbank falls under the City of Melbourne council, which charges development application fees, public open space contributions and possibly growth areas infrastructure charges. For a medium-density townhouse development, these can total $150,000-$300,000. You'll also need a town planner, surveyor, engineer and architect — professional fees typically run 8-12% of construction cost. Factor in $120,000-$180,000 for consultants.",
+        "Time is money in property development. A townhouse project in Southbank can take 24-30 months from acquisition to completion, including design, approvals, construction and settlement. Holding costs — interest on your land loan, council rates, insurance — can quickly add $50,000-$100,000. A good project manager will keep your timeline tight and minimise delays. Wel.Co's Southbank team has managed dozens of similar projects and can help you create a realistic schedule and budget.",
+        "Ultimately, a well-executed townhouse development in Southbank can yield strong returns — typically 15-20% profit on total project cost if done right. But the margin is tight, and mistakes can be costly. That's why it pays to partner with an experienced developer like Wel.Co. We offer a full feasibility analysis, fixed-price project management and transparent reporting. Book a free consultation at our Southbank office to discuss your land and get a custom budget."
+      ]
+    },
+    {
+      "title": "The Complete Guide to Subdivision Costs in Victoria for 2026",
+      "date": "February 2026",
+      "excerpt": "Whether you're subdividing a single block in Southbank or a large parcel in regional Victoria, this detailed cost guide covers survey, council, infrastructure and construction.",
+      "image": "https://framerusercontent.com/images/7ecD21YyKVrDML4PBJTaliWzgQw.jpg?width=1686&height=933",
+      "body": [
+        "Subdividing land is one of the most effective ways to unlock value from your property, but the costs and processes can be bewildering. In Victoria, subdivision costs vary dramatically based on location, lot size, servicing requirements and council regulations. This 2026 guide from Wel.Co's Southbank development team walks you through every cost category so you can budget accurately and avoid nasty surprises. We draw on our experience with projects from Yallarah to Springwood.",
+        "The first major cost is the subdivision survey and planning. You'll need a licensed surveyor to create a plan of subdivision, which typically costs $5,000-$15,000 for a simple two-lot subdivision. For complex multi-lot subdivisions, expect $20,000-$50,000. Add $10,000-$25,000 for a town planner to prepare the application and liaise with council. In Southbank, you'll also need a traffic report, landscape plan and possibly a biodiversity assessment — these can add another $10,000-$15,000.",
+        "Council application fees vary by municipality. In metropolitan Melbourne councils like the City of Melbourne (Southbank), application fees for a standard subdivision are around $2,000-$5,000 per lot. But the real cost is in infrastructure contributions — many councils charge per lot for roads, drainage, parks and community facilities. These can range from $5,000 per lot in outer suburbs to $30,000+ per lot in inner suburbs like Southbank. Always ask for a council fee schedule before you buy.",
+        "Engineering and construction costs form the bulk of subdivision expenses. You'll need to extend or upgrade water, sewer, electricity, gas and NBN connections to each new lot. In established areas like Southbank, connection costs can be $15,000-$30,000 per lot. Roads, kerbs, and pedestrian access may also require upgrades. Add $50,000-$150,000 for earthworks, drainage and retaining walls if the site has slopes or poor soil. Don't forget $10,000-$20,000 for legal and settlement costs per lot.",
+        "Time is another hidden cost. A simple two-lot subdivision in Victoria can take 6-12 months; a multi-lot subdivision can easily take 18-24 months. During this time you're paying holding costs — land loan interest, council rates, insurance, and possibly lost rental income. At current interest rates, holding costs can be $1,000-$3,000 per month. A good project manager can shave months off the timeline by coordinating surveyors, engineers and council in parallel.",
+        "Despite the costs, subdivision remains one of the most reliable wealth-building strategies in Victoria. Even after all expenses, a well-executed subdivision can increase property value by 30-50% or more. If you own land in Southbank, Mornington or anywhere in Victoria, Wel.Co can help. Our Southbank office provides free feasibility assessments and fixed-price subdivision management. Contact us today to see what your land could become."
+      ]
+    },
+    {
+      "title": "Community-Focused Development: How Wel.Co Designs Thriving Neighbourhoods",
+      "date": "January 2026",
+      "excerpt": "Learn how Wel.Co's approach to community design — with parks, childcare centres and sporting partnerships — creates lasting value for residents and landowners alike.",
+      "image": "https://framerusercontent.com/images/MUSReCGocjCnKtRf3pyhdwrVp0.jpg?width=1920&height=1080",
+      "body": [
+        "At Wel.Co, we believe a development is only successful if it creates a genuine community where people want to live, work and play. That's why every project we undertake — from our flagship Gracewood estate in South Australia to Yallarah in Victoria — is planned around community infrastructure first. Our Southbank design team works closely with councils, local schools and sporting clubs to ensure new neighbourhoods are connected, green and active from day one.",
+        "Parks and open space are non-negotiable. Every Wel.Co development reserves at least 10% of the total land for parks, wetlands or nature reserves. In Yallarah, we created a central park with walking trails, a playground and a pond that doubles as stormwater management. In Springwood, we set aside land for a future community sports oval. These spaces not only improve quality of life but also add significant property value — homes adjacent to parks sell for 15-20% more.",
+        "Early learning centres are another priority. We partner with trusted operators to build childcare centres at the heart of our communities, often co-located with retail and community hubs. At Harlowe in Victoria, our soon-to-open early learning centre will accommodate 120 children and create local jobs. Parents can walk their kids to daycare, grab a coffee at the neighbourhood café and commute to Southbank in 30 minutes. It's about convenience and connection.",
+        "Sporting partnerships are a hallmark of Wel.Co's community philosophy. We sponsor local clubs like the Springwood East Gawler Football Club, Ballan Football and Netball Club, and others. Our team regularly attends games, donates facilities and supports junior programs. This isn't just marketing — it's our genuine commitment to the towns we build in. When we develop a community, we become part of it. Our Southbank office coordinates these partnerships across all three states.",
+        "Sustainability runs through every decision. We design for passive solar orientation, install water-sensitive urban design features, and require energy-efficient appliances in all new homes. In Queensland's Fernvale project, we're preserving existing vegetation and creating wildlife corridors. In Southbank's own backyard, we push for higher sustainability standards across our developments. Our goal is net-zero ready communities by 2030.",
+        "The result? Higher resale values, lower turnover rates and genuinely happy residents. Our post-occupancy surveys show 92% of Wel.Co homeowners rate their neighbourhood as excellent or good. If you're a landowner considering development, or a homebuyer looking for a new community, come visit our Southbank headquarters. We'll show you why Wel.Co's approach to community-focused development works."
+      ]
+    },
+    {
+      "title": "Building in Melbourne's Climate: Key Considerations for Developers in 2026",
+      "date": "December 2025",
+      "excerpt": "Melbourne's four-seasons-in-one-day climate presents unique challenges for property developers. From soil types to building materials, here's what you need to know.",
+      "image": "https://framerusercontent.com/images/X8TyUf3Yr6P7LrH5mE3432Xuwc.jpg?width=1920&height=1075",
+      "body": [
+        "Melbourne is famous for its unpredictable weather — hot summers, cool winters and everything in between, sometimes all in the same day. For property developers, this means careful planning around climate resilience, thermal performance and material selection. Whether you're building in Southbank, Yallarah or anywhere in Victoria, understanding local climate factors is critical to delivering a quality project that lasts. Wel.Co's Southbank team has navigated these conditions for over 20 years.",
+        "Soil conditions vary dramatically across Melbourne. The inner suburbs like Southbank often have fill or clay soils that expand and contract with moisture changes. This can cause foundation movement if not managed properly. A proper geotechnical report ($3,000-$8,000) is essential. For reactive clay sites, you'll need deeper footings, waffle pod slabs or screw piles — adding $20,000-$50,000 to foundation costs. Wel.Co always factors soil risk into our feasibility studies.",
+        "Thermal performance is non-negotiable under the current National Construction Code. All new homes must meet minimum 7-star energy rating, which requires high-performance glazing, insulation and airtightness. In Melbourne's climate, double-glazing is standard, and triple-glazing is becoming common for premium homes. Expect to spend $10,000-$25,000 extra on energy-efficient windows and doors. However, this investment pays off in lower heating and cooling bills — and higher resale value.",
+        "Rainfall management is another key challenge. Melbourne receives around 650mm of rain annually, but it's concentrated in winter months. All developments must include onsite stormwater detention to prevent flooding downstream. For medium-density sites in Southbank, this often means underground tanks or rain gardens, costing $15,000-$40,000. Our team works with hydraulic engineers to design systems that are both functional and attractive — integrating water features into landscape design.",
+        "Material selection matters for durability. Western red cedar cladding looks beautiful but may not withstand Melbourne's UV and moisture cycles without heavy maintenance. We recommend fibre cement, brick or Colorbond steel for longevity. Roofing should be insulated and ventilated to prevent condensation. In Bushfire Prone Areas (BAL ratings), you'll need ember-proof vents and non-combustible materials — a growing concern in Melbourne's outer suburbs like Yallarah and Ballan.",
+        "At Wel.Co, we've learned to embrace Melbourne's climate rather than fight it. Our designs maximise northern orientation, include generous eaves for summer shading, and incorporate cross-ventilation to capture cool breezes. We also use local materials like Victorian bluestone and recycled bricks to reduce transport emissions. If you're planning a development in Melbourne, our Southbank office can provide a climate-specific feasibility assessment. Free consultations available — call us today."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://framerusercontent.com/images/VZLzLUaLvLKy5ixcHgdIJmRa310.jpeg?width=2048&height=1024",
+  "photoRowImages": [
+    "https://framerusercontent.com/images/G3EYMZpdInRQ0Lf940GlX4PNCEw.jpg?width=1920&height=1079",
+    "https://framerusercontent.com/images/pjQWs4qgfWJ1omwyend8KKGCCA.jpg?width=1920&height=1080",
+    "https://framerusercontent.com/images/i4otatjl1tUClfH7pmxAynio.jpg?width=1920&height=1280",
+    "https://framerusercontent.com/images/sjDSSQIeBQwns0HyP086fyVTq0.jpg?width=2048&height=1365"
+  ],
+  "aboutImages": [
+    "https://framerusercontent.com/images/7ecD21YyKVrDML4PBJTaliWzgQw.jpg?width=1686&height=933",
+    "https://framerusercontent.com/images/bx8mLjjzSfQgAsfY0VQiEOUAZd4.jpg?width=5500&height=3670",
+    "https://framerusercontent.com/images/QPCyqxzRA3MKSu3RyIUfM2YyL0.jpg?width=1920&height=1080"
+  ],
+  "fullWidthImage": "https://framerusercontent.com/images/HO1erkcjGix0H2j4yztjczSurpo.png",
+  "bannerHeading": "Ready to unlock your land's potential?",
+  "bannerSubheading": "Get a free, no-obligation development assessment.",
+  "bannerImage": "https://framerusercontent.com/images/QPCyqxzRA3MKSu3RyIUfM2YyL0.jpg?width=1920&height=1080",
+  "testimonialsImage": "https://framerusercontent.com/images/g1owYoy7e0UwXMQhUagWCdIClOY.jpg?width=1500&height=805",
+  "galleryImages": [
+    "https://framerusercontent.com/images/oL07zFhJRTJ3b5bh1fQNmcInw.jpg?width=1920&height=1080",
+    "https://framerusercontent.com/images/8ib04MorJ6RLWg8xb2sJoFNuk.jpg?width=1280&height=720",
+    "https://framerusercontent.com/images/Rva2CFJN3XaB4GYcYFRx3nVM.jpg?width=1280&height=1250",
+    "https://framerusercontent.com/images/QDYXAWGdLbw7N89D5gWvgbZCiM.jpg?width=2048&height=1365",
+    "https://framerusercontent.com/images/dHOZgwVg2wLDymHgBtp9iRatWBw.jpg?width=1280&height=1707"
+  ],
+  "pricingBgImage": "https://framerusercontent.com/images/sjDSSQIeBQwns0HyP086fyVTq0.jpg?width=2048&height=1365"
+}
