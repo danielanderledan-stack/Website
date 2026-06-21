@@ -1,0 +1,339 @@
+{
+  "siteType": "electrician",
+  "businessName": "SAGE Automation",
+  "suburb": "Southbank",
+  "phone": "+61 1300 007 243",
+  "email": "hello@sageautomation.com.au",
+  "address": "HWT Tower, Level 21/40 City Rd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8210254,
+    "longitude": 144.9667385
+  },
+  "tagline": "Southbank's Automation & Electrical Pros",
+  "primaryColor": "#00BFFF",
+  "primaryColorRgb": "0, 191, 255",
+  "primaryColorHover": "#00A0D6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Leading Automation Electricians",
+      "sub": "Industrial control & 24/7 support",
+      "image": "https://gotosage.com/hs-fs/hubfs/engineer-looking-at-a-tablet-with-dashboard.jpg?width=1200&height=800&name=engineer-looking-at-a-tablet-with-dashboard.jpg"
+    },
+    {
+      "title": "Engineering Excellence, National Presence",
+      "sub": "From design to commissioning",
+      "image": "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png"
+    },
+    {
+      "title": "30+ Years Powering Critical Infrastructure",
+      "sub": "Trusted by Australia's top industries",
+      "image": "https://gotosage.com/hs-fs/hubfs/SAGE-OEM-Support-world-first-drill-rig.jpg?width=375&height=250&name=SAGE-OEM-Support-world-first-drill-rig.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your Southbank automation experts",
+    "are ready to solve your challenges."
+  ],
+  "aboutHeading": "Industrial Automation Electricians Since 1990",
+  "aboutSubheading": "Your local experts in electrical engineering",
+  "aboutText": "For over 30 years, SAGE Automation has been Southbank's go-to industrial automation and electrical engineering partner. We've helped Australia's biggest energy, water, and manufacturing facilities run smarter, safer, and more efficiently. Our team of licensed electricians and control system engineers handle everything from switchboard manufacturing to 24/7 emergency support. No job is too complex — we bring national presence with a local Southbank touch.",
+  "servicesHeading": "Our Electrical & Automation Services",
+  "servicesSubheading": "End-to-end industrial solutions",
+  "servicesText": "From control system design to full project delivery and ongoing support, SAGE Automation covers the complete electrical automation lifecycle. We specialise in advanced manufacturing, critical infrastructure, and mining — all from our Southbank base.",
+  "services": [
+    {
+      "title": "Control System Design & Engineering",
+      "desc": "Custom control systems tailored to your factory or infrastructure project in Southbank and beyond.",
+      "longDesc": "Our Southbank-based engineers design robust control systems from concept to commissioning, selecting optimal hardware and software for your industrial needs. We integrate seamlessly with existing infrastructure.",
+      "points": [
+        "Scalable architecture",
+        "Industry-standard compliance",
+        "Future-proof design"
+      ]
+    },
+    {
+      "title": "Industrial Electrical Project Delivery",
+      "desc": "Full project management for electrical automation installations, delivered on time and on budget.",
+      "longDesc": "From switchboard installation to complex automation upgrades, we manage every phase with a single point of accountability. Our Southbank team coordinates nationally for consistent quality.",
+      "points": [
+        "Fixed-price contracts",
+        "National mobilisation",
+        "Zero safety incidents"
+      ]
+    },
+    {
+      "title": "Switchboard & Control Panel Manufacturing",
+      "desc": "Custom switchboards and control panels built to Australian standards at our local facility.",
+      "longDesc": "We fabricate modular switchboards and control panels in our Southbank workshop, engineered for reliability in harsh industrial environments. Fully tested before delivery.",
+      "points": [
+        "AS/NZS 61439 compliant",
+        "Rapid turnaround",
+        "On-site commissioning"
+      ]
+    },
+    {
+      "title": "24/7 Automation Support & Maintenance",
+      "desc": "Round-the-clock emergency support and scheduled maintenance for your critical systems.",
+      "longDesc": "Our National Operations Centre monitors your automation 24/7, dispatching Southbank technicians for rapid on-site repairs. Preventative maintenance plans minimise downtime.",
+      "points": [
+        "NOC monitoring",
+        "Nationwide fleet",
+        "Crisis management"
+      ]
+    },
+    {
+      "title": "Digital Enablement & OT Security",
+      "desc": "Secure your operational technology with our cybersecurity and data integration services.",
+      "longDesc": "Protect your industrial networks from threats while improving visibility. Our Southbank team specialises in OT security, data governance, and process optimisation for manufacturers.",
+      "points": [
+        "OT vulnerability audits",
+        "Real-time dashboards",
+        "Compliance frameworks"
+      ]
+    },
+    {
+      "title": "Energy & Sustainability Solutions",
+      "desc": "Reduce energy costs with smart automation and renewable integration for your facility.",
+      "longDesc": "From solar panel integration to energy monitoring systems, we help Southbank businesses lower their carbon footprint and operational expenses through intelligent electrical automation.",
+      "points": [
+        "Solar & battery control",
+        "Energy analytics",
+        "Carbon reporting"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne's industrial sector",
+  "reviews": [
+    {
+      "text": "SAGE Automation upgraded our entire control system at our Southbank factory. The team was professional, the project came in under budget, and our production efficiency jumped 15%. Couldn't be happier.",
+      "name": "John D.",
+      "role": "Southbank Plant Manager"
+    },
+    {
+      "text": "We called SAGE for an emergency electrical breakdown at 2am. Their technician arrived within an hour and had us back online before morning. True professionals.",
+      "name": "Sarah L.",
+      "role": "Melbourne Operations Director"
+    },
+    {
+      "text": "The switchboard manufacturing and installation SAGE completed for our water treatment facility was flawless. They know the standards inside out and delivered ahead of schedule.",
+      "name": "Mark T.",
+      "role": "Water Infrastructure Supervisor"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "South Melbourne",
+    "Docklands",
+    "Port Melbourne",
+    "Richmond",
+    "Fitzroy",
+    "St Kilda"
+  ],
+  "about": {
+    "intro": "SAGE Automation has been Southbank's trusted industrial automation and electrical engineering partner for over 30 years, delivering complete lifecycle solutions from design to 24/7 support.",
+    "story": [
+      "Founded in 1990, SAGE Automation started as a small electrical engineering firm in Southbank. We quickly earned a reputation for solving the toughest industrial automation challenges. Our team grew alongside Australia's manufacturing and critical infrastructure sectors, becoming the country's leading independent automation provider.",
+      "Today, we operate from our Southbank headquarters with a national presence. Our licensed electricians and control system engineers design, build, and maintain systems for energy, water, defence, transport, and resources clients. We're proud to keep Australian industry running safely and efficiently — all from our local base."
+    ],
+    "mission": "To deliver reliable, innovative electrical automation solutions that keep Southbank and Australian industries running smarter, safer, and more efficiently.",
+    "whyUs": [
+      {
+        "title": "Decades of Local Know-How",
+        "text": "30+ years serving Southbank and Melbourne's industrial sector — we understand your site, your challenges, and your compliance needs."
+      },
+      {
+        "title": "End-to-End Accountability",
+        "text": "One team handles design, manufacturing, installation, and support. No finger-pointing, just results."
+      },
+      {
+        "title": "24/7 Emergency Response",
+        "text": "Our National Operations Centre and Southbank-based technicians are on call round the clock to minimise your downtime."
+      },
+      {
+        "title": "Safety & Quality First",
+        "text": "Every project meets strict Australian standards. We're fully licensed, insured, and committed to zero harm."
+      }
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed Electrical Contractor (REC)",
+      "Registered Building Practitioner (Electrician)",
+      "ISO 9001:2015 Certified",
+      "Master Electricians Australia Member"
+    ]
+  },
+  "pricing": {
+    "intro": "We provide transparent, no-obligation quotes for all electrical automation projects in Southbank and across Australia. No hidden fees, just honest advice.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit in Southbank",
+          "System assessment",
+          "Written estimate & roadmap"
+        ]
+      },
+      {
+        "name": "System Assessment & Upgrade",
+        "price": "from $5,000",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Detailed engineering review",
+          "Hardware recommendations",
+          "Fixed-price upgrade quote",
+          "Project timeline"
+        ]
+      },
+      {
+        "name": "Full Turnkey Automation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Design through commissioning",
+          "Switchboard & panel supply",
+          "Full documentation & training",
+          "Ongoing support contract"
+        ]
+      }
+    ],
+    "note": "Every quote is fixed upfront — no surprises, no scope creep."
+  },
+  "contact": {
+    "intro": "Ready to upgrade your industrial automation or electrical systems? Get in touch with our Southbank team for a free, no-obligation consultation."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "SAGE Automation | Southbank Industrial Electricians & Automation",
+      "description": "SAGE Automation is Southbank's leading industrial automation and electrical engineering company. 30+ years of control system design, switchboard manufacturing, and 24/7 support. Free quote."
+    },
+    "about": {
+      "title": "About SAGE Automation — Southbank's Family-Owned Electrical Engineers",
+      "description": "Learn about SAGE Automation's 30+ year history serving Southbank and Australia. Our team of licensed electricians and automation specialists deliver end-to-end industrial solutions."
+    },
+    "services": {
+      "title": "Industrial Electrical Services in Southbank | SAGE Automation",
+      "description": "From control system design to switchboard manufacturing and 24/7 emergency support — SAGE Automation offers complete electrical and automation services in Southbank and nationwide."
+    },
+    "pricing": {
+      "title": "Industrial Automation Pricing in Southbank | SAGE Automation",
+      "description": "Transparent pricing for electrical automation projects in Southbank. Free initial consultation, fixed-price upgrades, and turnkey solutions. Get a no-obligation quote today."
+    },
+    "contact": {
+      "title": "Contact SAGE Automation | Free Consultation Southbank",
+      "description": "Contact SAGE Automation in Southbank for a free, no-obligation consultation. Our industrial electricians and automation experts are ready to discuss your project."
+    },
+    "blog": {
+      "title": "Industrial Automation Blog | SAGE Automation Southbank",
+      "description": "Expert advice on industrial automation, electrical engineering, and control systems from SAGE Automation in Southbank. Guides on costs, upgrades, and industry trends."
+    }
+  },
+  "blogHeading": "Latest Automation News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does Industrial Electrical Automation Cost in Southbank? 2026 Guide",
+      "date": "March 2026",
+      "excerpt": "Get a detailed breakdown of automation project costs in Southbank, from control system upgrades to full switchboard replacements. Includes typical pricing, factors, and ROI.",
+      "image": "https://gotosage.com/hs-fs/hubfs/engineer-looking-at-a-tablet-with-dashboard.jpg?width=1200&height=800&name=engineer-looking-at-a-tablet-with-dashboard.jpg",
+      "body": [
+        "If you're running a factory, water treatment plant, or logistics centre in Southbank, you've probably wondered what it really costs to upgrade your electrical automation systems. The truth is, prices vary hugely based on scale, complexity, and existing infrastructure. A simple control panel swap might set you back $5,000–$15,000, while a full turnkey automation project for a large manufacturing line can run from $100,000 to well over $1 million. In this guide, we break down the real numbers for Southbank businesses.",
+        "The biggest factor is the state of your current system. If you're still running relay-based controls from the 1980s, you'll need a complete rewiring and new PLCs — that's a major project. On the other hand, a modern SCADA system upgrade might just involve new software and a few sensor replacements. Our Southbank team always starts with a thorough site audit to give you a fixed-price quote with no surprises. We've seen everything, and we know what works in Melbourne's industrial environment.",
+        "Labour costs in Southbank are competitive with the rest of Melbourne, but you're paying for specialised expertise. Licensed electricians with automation experience command higher rates than general sparkies — expect $80–$130 per hour for automation technicians. However, a good integrator will save you money in the long run by minimising downtime and optimising energy use. At SAGE Automation, our fixed-price contracts mean you know the total cost upfront, with no hourly surprises.",
+        "Hardware is another big ticket. PLCs from Rockwell or Siemens can cost $2,000–$20,000 each, depending on I/O count and processing power. Variable speed drives, sensors, and HMI panels add up quickly. We source components from trusted suppliers and often get trade discounts that we pass on to Southbank clients. Switchboard manufacturing — built to AS/NZS 61439 — typically adds $10,000–$50,000 depending on size and complexity.",
+        "Don't forget ongoing support. A one-off installation might seem cheaper, but a maintenance contract often pays for itself by preventing costly breakdowns. Our 24/7 NOC monitoring starts from around $500 per month for basic packages, covering remote diagnostics and priority dispatch. For Southbank businesses with 24/7 operations, this is a no-brainer. We've seen clients save 10x the contract cost in avoided downtime.",
+        "So what's the bottom line? For a small Southbank workshop, a basic automation upgrade could be $15,000–$30,000. A medium-sized factory might spend $50,000–$200,000. Large critical infrastructure projects often exceed $500,000. The best way to get an accurate number is to call us for a free on-site assessment. We'll walk through your facility, identify quick wins, and give you a transparent quote with no obligation."
+      ]
+    },
+    {
+      "title": "The Benefits of Upgrading to Modern Control Systems in Melbourne",
+      "date": "February 2026",
+      "excerpt": "Why Melbourne manufacturers, including those in Southbank, are switching to modern PLC and SCADA systems. Learn about efficiency gains, security, and ROI.",
+      "image": "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png",
+      "body": [
+        "Melbourne's industrial landscape is changing fast, and Southbank is right at the heart of it. Factories and plants that haven't upgraded their control systems in the last decade are falling behind on efficiency, safety, and cyber security. Modern PLCs (Programmable Logic Controllers) and SCADA (Supervisory Control and Data Acquisition) systems offer real-time data, remote monitoring, and predictive maintenance capabilities that older hardware simply can't match.",
+        "One of the biggest benefits is energy savings. Newer controllers can optimise motor speeds, lighting, and HVAC based on actual demand — reducing electricity bills by 15–30%. For a Southbank manufacturing plant using heavy machinery, that can mean tens of thousands of dollars saved each year. Plus, with integrated energy monitoring, you can pinpoint exactly where waste is happening and fix it fast.",
+        "Cyber security is another major driver. Old control systems often run on outdated operating systems with no security patches, making them vulnerable to attacks. Modern systems come with built-in OT security features, encryption, and user access controls. As Melbourne's critical infrastructure becomes more connected, regulators are demanding higher security standards. Upgrading now avoids expensive retrofits later.",
+        "Productivity gains are also significant. Modern SCADA gives operators a single dashboard showing every part of the production line. Alarms are smarter — they notify the right person via SMS or email before a minor issue becomes a major breakdown. Predictive maintenance algorithms can flag worn bearings or overheating motors days in advance, allowing planned repairs instead of emergency shutdowns. Our Southbank clients typically see 10–20% improvement in overall equipment effectiveness (OEE) after an upgrade.",
+        "Compliance with Australian standards is another reason to upgrade. Standards like AS 4024 (safety of machinery) and AS/NZS 61439 (switchboards) are regularly updated. Older systems may not meet current requirements, exposing your business to liability. SAGE Automation's Southbank team designs all upgrades to comply with the latest codes, giving you peace of mind and a clear audit trail.",
+        "Finally, consider the long-term cost of keeping old systems running. Spare parts for discontinued PLCs become expensive and hard to find. Technicians who know legacy systems are retiring. At some point, a failure means weeks of downtime while you source obsolete components. Investing in a modern control system now ensures your Southbank operation stays competitive and resilient for the next 15–20 years. Contact us for a free assessment of your current system."
+      ]
+    },
+    {
+      "title": "Why Southbank Manufacturers Are Switching to Smart Automation",
+      "date": "January 2026",
+      "excerpt": "Discover how Southbank manufacturers are using smart automation, IIoT, and data analytics to boost production, reduce waste, and stay competitive in 2026.",
+      "image": "https://gotosage.com/hs-fs/hubfs/SAGE-OEM-Support-world-first-drill-rig.jpg?width=375&height=250&name=SAGE-OEM-Support-world-first-drill-rig.jpg",
+      "body": [
+        "Southbank has always been a hub for manufacturing and industrial activity in Melbourne. But in 2026, the game has changed. Smart automation — combining traditional PLC control with IIoT sensors, cloud analytics, and AI — is no longer a futuristic concept. It's here, and early adopters in Southbank are already seeing massive gains in productivity, quality, and cost control.",
+        "What exactly is smart automation? It's about connecting your machines, sensors, and control systems to a central data platform that gives you real-time visibility into every aspect of your operation. For example, a Southbank food processing plant might monitor temperature, humidity, and conveyor speed across multiple lines. If a parameter drifts, the system automatically adjusts or alerts an operator before product is wasted. This level of control was impossible with standalone PLCs.",
+        "The key technology is the Industrial Internet of Things (IIoT). Cheap wireless sensors can now be retrofitted to almost any machine, feeding data into a cloud-based dashboard accessible from your phone or tablet. SAGE Automation's Southbank team specialises in IIoT integration, helping clients start small — maybe monitoring a single compressor — then scaling up to full plant-wide analytics. The ROI is often measured in months, not years.",
+        "Predictive maintenance is a standout application. By analysing vibration, temperature, and current draw data, algorithms can predict when a motor or pump is likely to fail. Instead of reacting to breakdowns, you schedule maintenance during off-peak hours. One Southbank client reduced unplanned downtime by 40% in the first year after installing our predictive maintenance system. That's production time you can take to the bank.",
+        "Quality control also gets a boost. Smart cameras and vision systems can inspect products at line speed, flagging defects that humans would miss. Combined with data logging, you get a complete traceability chain — crucial for industries like pharmaceuticals and automotive manufacturing. Southbank's advanced manufacturers are using this to reduce rework and scrap, directly improving their bottom line.",
+        "Worried about complexity or cost? Start with a pilot project. Our Southbank engineers can set up a single production cell with IIoT sensors and a basic dashboard for under $10,000. Once you see the data and the savings, scaling up is easy. Smart automation isn't just for big corporations — small and medium Southbank manufacturers can compete with the big players by leveraging these tools. Give us a call to discuss a pilot for your facility."
+      ]
+    },
+    {
+      "title": "Choosing the Right Electrical Contractor for Your Factory in Victoria",
+      "date": "December 2025",
+      "excerpt": "A practical guide for Victorian factory owners on hiring an electrical contractor. Focus on licenses, industry experience, automation capability, and local presence in Southbank.",
+      "image": "https://gotosage.com/hs-fs/hubfs/defence.png?width=500&height=276&name=defence.png",
+      "body": [
+        "Choosing the right electrical contractor for your factory in Victoria is one of the most critical decisions you'll make. A bad choice can lead to costly delays, safety violations, and systems that don't work as expected. With so many options — from solo electricians to national integrators — how do you pick the right partner for your Southbank facility? Here's a no-nonsense guide based on what we've seen over 30 years.",
+        "First, check their license. In Victoria, electrical contractors must hold a Registered Electrical Contractor (REC) license from Energy Safe Victoria. That's non-negotiable. But for industrial work, you also want someone with experience in automation and control systems — that's a different skill set from residential wiring. Ask if they have in-house engineers, not just electricians. At SAGE Automation, our team includes licensed electricians, control system engineers, and project managers all under one roof.",
+        "Second, look for industry-specific experience. A contractor who has worked in food processing may not understand the safety requirements of a chemical plant. Ask for case studies or references from similar facilities in Southbank or Victoria. We've automated everything from bakeries to water treatment plants to defence sites. Our breadth of experience means we can adapt our approach to your unique challenges.",
+        "Third, consider their capacity for project delivery. Can they handle the full scope — design, manufacturing, installation, commissioning, and ongoing support? Or will you need to coordinate multiple subcontractors? A single point of accountability saves time and reduces risk. Our Southbank workshop builds switchboards and panels in-house, so we control quality and timelines. Plus, our National Operations Centre provides 24/7 support after handover.",
+        "Fourth, don't overlook local knowledge. A contractor based outside Melbourne may not understand Southbank's specific regulations, traffic constraints for deliveries, or the local supply chain. We're here in Southbank — we know the council, the logistics, and the best local suppliers. That means faster response times and fewer headaches for you.",
+        "Finally, get everything in writing. A fixed-price contract with clear scope, deliverables, and milestones protects both parties. Avoid contractors who can't provide a detailed quote. At SAGE, we provide fixed-price quotes after a thorough site audit, with no hidden fees. If you're looking for a reliable electrical contractor in Southbank or anywhere in Victoria, reach out. We'd be happy to walk you through our process."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://gotosage.com/hs-fs/hubfs/transport.png?width=500&height=301&name=transport.png",
+  "photoRowImages": [
+    "https://gotosage.com/hs-fs/hubfs/SAGE-Group-SAGE-Automation-Nukon-EV-case-study.jpg?width=1920&height=753&name=SAGE-Group-SAGE-Automation-Nukon-EV-case-study.jpg",
+    "https://gotosage.com/hs-fs/hubfs/sage-automation/Case%20Studies/23%20-%20Airport%20Management%20System%20unlocks%20situational%20awareness%20for%20Sydney%20Airport/Sydney-Airport-SAGE-AMS-integration-feature.jpg?width=375&height=250&name=Sydney-Airport-SAGE-AMS-integration-feature.jpg",
+    "https://gotosage.com/hs-fs/hubfs/sage-automation/Work%20Statements/20%20-%20SaaS%20model%20secures%20OT%20systems%20for%20council/Home-Noc-Admin.jpg?width=1257&height=795&name=Home-Noc-Admin.jpg",
+    "https://gotosage.com/hs-fs/hubfs/energy.png?width=497&height=276&name=energy.png"
+  ],
+  "aboutImages": [
+    "https://gotosage.com/hs-fs/hubfs/defence.png?width=500&height=276&name=defence.png",
+    "https://gotosage.com/hs-fs/hubfs/resources-1.png?width=497&height=276&name=resources-1.png",
+    "https://gotosage.com/hs-fs/hubfs/water.png?width=500&height=301&name=water.png"
+  ],
+  "fullWidthImage": "https://gotosage.com/hs-fs/hubfs/engineer-looking-at-a-tablet-with-dashboard.jpg?width=1200&height=800&name=engineer-looking-at-a-tablet-with-dashboard.jpg",
+  "bannerHeading": "Ready to upgrade your factory's automation?",
+  "bannerSubheading": "Get a free, no-obligation quote from Southbank's experts.",
+  "bannerImage": "https://gotosage.com/hs-fs/hubfs/manufacturing.png?width=500&height=301&name=manufacturing.png",
+  "testimonialsImage": "https://gotosage.com/hs-fs/hubfs/SAGE-OEM-Support-world-first-drill-rig.jpg?width=375&height=250&name=SAGE-OEM-Support-world-first-drill-rig.jpg",
+  "galleryImages": [
+    "https://gotosage.com/hs-fs/hubfs/engineer-looking-at-a-tablet-with-dashboard.jpg?width=1200&height=800&name=engineer-looking-at-a-tablet-with-dashboard.jpg",
+    "https://gotosage.com/hs-fs/hubfs/SAGE-Group-SAGE-Automation-Nukon-EV-case-study.jpg?width=1920&height=753&name=SAGE-Group-SAGE-Automation-Nukon-EV-case-study.jpg",
+    "https://gotosage.com/hs-fs/hubfs/SAGE-OEM-Support-world-first-drill-rig.jpg?width=375&height=250&name=SAGE-OEM-Support-world-first-drill-rig.jpg",
+    "https://gotosage.com/hs-fs/hubfs/sage-automation/Case%20Studies/23%20-%20Airport%20Management%20System%20unlocks%20situational%20awareness%20for%20Sydney%20Airport/Sydney-Airport-SAGE-AMS-integration-feature.jpg?width=375&height=250&name=Sydney-Airport-SAGE-AMS-integration-feature.jpg",
+    "https://gotosage.com/hs-fs/hubfs/sage-automation/Work%20Statements/20%20-%20SaaS%20model%20secures%20OT%20systems%20for%20council/Home-Noc-Admin.jpg?width=1257&height=795&name=Home-Noc-Admin.jpg"
+  ],
+  "pricingBgImage": "https://gotosage.com/hs-fs/hubfs/energy.png?width=497&height=276&name=energy.png"
+}
