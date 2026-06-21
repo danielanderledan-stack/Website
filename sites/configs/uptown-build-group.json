@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "Uptown Build Group",
+  "suburb": "South Melbourne",
+  "phone": "+61 4 5577 5442",
+  "email": "hello@uptownbuildgroup.com.au",
+  "address": "80 Market St, South Melbourne VIC 3205",
+  "coordinates": {
+    "latitude": -37.8296567,
+    "longitude": 144.9579837
+  },
+  "tagline": "South Melbourne's trusted builder",
+  "primaryColor": "#00e5ff",
+  "primaryColorRgb": "0, 229, 255",
+  "primaryColorHover": "#00b8d4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Melbourne's Trusted Builder",
+      "sub": "Renovations, extensions & new builds",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/our-services-1.jpg"
+    },
+    {
+      "title": "Built Around Your Lifestyle",
+      "sub": "Fixed quotes, no surprises",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-4-1024x576.jpg"
+    },
+    {
+      "title": "15+ Years in Melbourne",
+      "sub": "Local & licensed",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-2-1024x576.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your South Melbourne builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "With over 15 years of experience, Uptown Build Group has been transforming homes across South Melbourne and greater Melbourne. We specialise in complete renovations, extensions, and new builds, handling everything from design to construction. Our focus on clear communication and high-end finishes ensures your vision becomes reality, on time and within budget.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From bathroom and kitchen renovations to full home extensions and new builds, we cover every stage of your project. Our team manages permits, design, and construction, delivering quality results across Melbourne.",
+  "services": [
+    {
+      "title": "Bathroom Renovations",
+      "desc": "Modern, functional bathrooms with premium finishes and smart layouts.",
+      "longDesc": "We transform your bathroom into a stylish, practical space using quality materials and expert tiling. From walk-in showers to custom vanities, we handle every detail for a seamless renovation in South Melbourne.",
+      "points": [
+        "Walk-in showers",
+        "Premium tiling",
+        "Custom vanities"
+      ]
+    },
+    {
+      "title": "Kitchen Renovations",
+      "desc": "Beautiful kitchens designed for cooking, living, and entertaining.",
+      "longDesc": "Our kitchen renovations combine innovative design with high-end appliances and cabinetry. We create open-plan spaces that become the heart of your home, perfect for Melbourne's lifestyle.",
+      "points": [
+        "Custom cabinetry",
+        "Stone benchtops",
+        "Open-plan layouts"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Add space and value with a seamless extension to your existing home.",
+      "longDesc": "Whether you need an extra bedroom, a larger living area, or a second storey, we design and build extensions that blend perfectly with your current home. Our team manages council approvals and construction for a stress-free experience.",
+      "points": [
+        "Second storey adds",
+        "Open-plan living",
+        "Council approvals"
+      ]
+    },
+    {
+      "title": "New Home Builds",
+      "desc": "Custom-designed homes built to your exact specifications and lifestyle.",
+      "longDesc": "From concept to handover, we build your dream home with attention to every detail. Our team works closely with you to create a home that reflects your style and meets your family's needs, right here in Melbourne.",
+      "points": [
+        "Custom designs",
+        "Energy-efficient",
+        "Turnkey handover"
+      ]
+    },
+    {
+      "title": "Full Home Renovations",
+      "desc": "Complete transformations that modernise and improve your entire home.",
+      "longDesc": "We handle whole-house renovations, updating layouts, finishes, and systems for a fresh, contemporary feel. Our integrated approach ensures a cohesive result that maximises your home's potential and value.",
+      "points": [
+        "Structural changes",
+        "New flooring",
+        "Updated electrical"
+      ]
+    },
+    {
+      "title": "Deck & Outdoor",
+      "desc": "Beautiful outdoor living spaces that extend your home's footprint.",
+      "longDesc": "We build decks, pergolas, and outdoor areas that are perfect for Melbourne's climate. Using durable materials and smart design, we create spaces for entertaining, relaxing, and enjoying the outdoors year-round.",
+      "points": [
+        "Timber & composite",
+        "Pergolas included",
+        "Low maintenance"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "Adis did a wonderful job building our deck in South Melbourne. He showed excellent attention to detail and communicated clearly throughout the job. We won't hesitate to use him again for future renovation projects.",
+      "name": "Emma D.",
+      "role": "South Melbourne Homeowner"
+    },
+    {
+      "text": "Adis was fantastic managing our home renovation. He kept us completely informed throughout the entire process and completed the job to the highest standard. We are very satisfied with the final result.",
+      "name": "Jasmina O.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "We engaged Adis for our home renovation and addition of an extra bedroom. Was informed of progress and changes throughout the project. Happy with service and outcome.",
+      "name": "Ukwatta E.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "South Melbourne",
+    "Port Melbourne",
+    "Albert Park",
+    "Middle Park",
+    "St Kilda",
+    "Elwood",
+    "Prahran",
+    "Windsor"
+  ],
+  "about": {
+    "intro": "Uptown Build Group is a family-run building company serving South Melbourne and surrounding suburbs with over 15 years of experience in renovations, extensions, and new builds.",
+    "story": [
+      "Founded by Adis, Uptown Build Group started with a simple mission: deliver quality homes through honest communication and exceptional workmanship. With over 15 years in the industry, Adis has built a reputation for precision, reliability, and high-end finishes across Melbourne.",
+      "Every project, whether a small bathroom renovation or a full new home build, receives the same care and attention as if it were our own home. We believe in clear communication, keeping you informed at every stage, and delivering on time and within budget.",
+      "Today, we've completed over $7 million in projects and served more than 2,000 satisfied customers. Our team continues to grow, but our values remain the same: honest, respectful, and reliable service for every client."
+    ],
+    "mission": "To transform your vision into reality with honest communication, quality craftsmanship, and a builder who treats your home like their own.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know South Melbourne and the surrounding suburbs inside out, from council rules to local tradies."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "No surprises. We give you a fixed quote upfront and stick to it, with no hidden costs."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule. Our team completes projects on time, every time, with 95% on-time delivery."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Every build meets the highest standards. We use premium materials and stand behind our work."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "$7M+",
+        "label": "Projects Value"
+      },
+      {
+        "value": "2,000+",
+        "label": "Satisfied Clients"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (VBA)",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Over 15 years industry experience"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent pricing with no hidden fees. Get a free, no-obligation quote for your South Melbourne project and see exactly what your renovation or build will cost.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Renovation",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom New Home",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden costs, so you can plan your budget with confidence."
+  },
+  "contact": {
+    "intro": "Ready to start your project in South Melbourne? Get in touch for a free, no-obligation consultation. We'll discuss your ideas, answer your questions, and provide a clear quote."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Uptown Build Group | South Melbourne Builder | Renovations & New Builds",
+      "description": "Uptown Build Group is South Melbourne's trusted builder for renovations, extensions, and new homes. Over 15 years experience. Fixed quotes. Call 0455 775 442."
+    },
+    "about": {
+      "title": "About Uptown Build Group — South Melbourne's Family Builder",
+      "description": "Learn about Uptown Build Group, a family-run building company in South Melbourne with 15+ years of experience in quality renovations, extensions, and new builds."
+    },
+    "services": {
+      "title": "Building Services in South Melbourne | Uptown Build Group",
+      "description": "Explore our full range of building services in South Melbourne: bathroom & kitchen renovations, home extensions, new builds, decks, and more. Free quotes."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in South Melbourne | Uptown Build Group",
+      "description": "Get transparent pricing for your South Melbourne renovation or new build. Free initial consultation with fixed quotes. No hidden fees. Call us today."
+    },
+    "contact": {
+      "title": "Contact Uptown Build Group | Free Consultation South Melbourne",
+      "description": "Contact Uptown Build Group for a free consultation. We serve South Melbourne, Port Melbourne, Albert Park, and surrounding suburbs. Call 0455 775 442."
+    },
+    "blog": {
+      "title": "South Melbourne Building & Renovation Blog | Uptown Build Group",
+      "description": "Read expert tips, cost guides, and local advice on home renovations and building in South Melbourne. From kitchen extensions to new builds, we cover it all."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in South Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking of extending your South Melbourne home? We break down the costs, from single-storey additions to second-storey builds, with real local examples.",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-2-1024x576.jpg",
+      "body": [
+        "Home extensions are one of the most popular ways to add space and value to your property in South Melbourne. Whether you need an extra bedroom, a larger living area, or a home office, extending your existing footprint can be more cost-effective than moving. But how much does it actually cost in 2026? Let's break it down by project type and size.",
+        "For a single-storey rear extension in South Melbourne, you're typically looking at $3,000 to $5,000 per square metre. A 30-square-metre extension — enough for a new living and dining area — would cost between $90,000 and $150,000. This includes foundations, framing, roofing, internal finishes, and connections to existing services. Costs vary based on site conditions, access, and the complexity of the design.",
+        "Second-storey additions are more complex and generally cost $4,000 to $6,500 per square metre. A two-bedroom upper level with a bathroom could run from $250,000 to $400,000. These projects require structural engineering, council approvals, and careful staging to minimise disruption to your existing home. In South Melbourne, heritage overlays can also affect design and material choices, adding to the timeline and cost.",
+        "Council approval costs in Port Phillip typically range from $1,500 to $5,000 depending on the scope. You'll also need a building surveyor for permits, which adds another $2,000 to $4,000. Don't forget contingency — we recommend setting aside 10-15% of your budget for unexpected issues like asbestos removal, termite damage, or hidden wiring problems common in older Melbourne homes.",
+        "To save money, consider keeping the existing roof line and foundation where possible. A simple rear extension that doesn't require major structural changes is the most affordable option. Also, choosing standard finishes and fixtures over custom designs can reduce costs significantly. We always advise getting at least three quotes from licensed builders and checking their VBA registration before committing.",
+        "At Uptown Build Group, we provide fixed-price quotes for all our South Melbourne extensions. We handle everything from design and council approvals to construction and handover. Contact us for a free on-site consultation and we'll give you a clear, no-obligation estimate for your project. Your dream extension is closer than you think."
+      ]
+    },
+    {
+      "title": "Kitchen Renovation Cost Guide for South Melbourne Homes in 2026",
+      "date": "February 2026",
+      "excerpt": "Planning a kitchen renovation in South Melbourne? Our guide covers typical costs, design trends, and tips to maximise your budget for a stunning result.",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-4-1024x576.jpg",
+      "body": [
+        "The kitchen is the heart of any South Melbourne home, and a well-planned renovation can transform how you live and entertain. In 2026, kitchen renovation costs in Melbourne's inner suburbs range from $25,000 for a basic refresh to over $80,000 for a high-end custom fit-out. The final price depends on size, materials, appliances, and whether you're changing the layout.",
+        "A mid-range kitchen renovation — new cabinetry, stone benchtops, quality appliances, and splashback — typically costs $35,000 to $55,000. This includes demolition, plumbing, electrical work, plastering, and tiling. If you're keeping the same footprint, you save on structural costs. But if you're knocking down walls to create an open-plan space, expect to add $10,000 to $20,000 for structural work and permits.",
+        "Cabinetry is the biggest expense, accounting for 30-40% of your budget. Custom joinery offers the best fit and finish but costs more than flat-pack options. In South Melbourne, many homeowners opt for two-tone cabinets — dark lower units with light uppers — for a modern look. Stone benchtops like Caesarstone or natural marble add $3,000 to $8,000 depending on the slab size and edge profile.",
+        "Appliances are another major cost. A quality induction cooktop, oven, rangehood, and dishwasher can set you back $5,000 to $15,000. European brands like Miele and Bosch are popular for their reliability and performance. Don't forget the sink and tapware — a large undermount sink with a gooseneck mixer adds function and style for around $500 to $1,500.",
+        "Lighting is often overlooked but makes a huge difference. Under-cabinet LED strips, pendant lights over an island, and recessed downlights create a warm, functional space. Budget $1,000 to $3,000 for good lighting. Flooring — whether timber, tiles, or engineered wood — adds another $2,000 to $5,000. And always include a contingency of 10-15% for surprises like old wiring or plumbing issues.",
+        "At Uptown Build Group, we specialise in kitchen renovations across South Melbourne, Port Melbourne, and Albert Park. We manage the entire process from design to completion, ensuring your new kitchen is beautiful, functional, and built to last. Contact us for a free quote and let's bring your dream kitchen to life."
+      ]
+    },
+    {
+      "title": "Bathroom Renovation Tips for Melbourne's Older Homes",
+      "date": "January 2026",
+      "excerpt": "Renovating a bathroom in a period home? Learn how to blend modern amenities with heritage charm, plus cost-saving tips for South Melbourne homeowners.",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-1-1024x576.jpg",
+      "body": [
+        "Many homes in South Melbourne and surrounding suburbs were built in the Victorian or Edwardian era, with bathrooms that are small, dated, and often poorly laid out. Renovating these spaces requires a careful balance between preserving heritage character and introducing modern functionality. In 2026, a typical bathroom renovation in a period home costs $20,000 to $45,000.",
+        "The biggest challenge in older bathrooms is the lack of space. Many are less than 3 square metres, making it tricky to fit a shower, toilet, and vanity. One solution is to steal space from an adjacent room or hallway. Another is to use a wet-room layout with a walk-in shower and a floating vanity to create a sense of openness. Both options require structural changes and council approval in heritage areas.",
+        "Plumbing and electrical are often the biggest unknowns. Old galvanised pipes and cloth-wired electrical systems need to be replaced to meet current Australian standards. This can add $5,000 to $10,000 to your budget. We always recommend a full inspection before starting work so there are no surprises. Waterproofing is critical — all wet areas must comply with the National Construction Code and AS 3740.",
+        "Heritage overlays in Port Phillip mean you may need to retain original features like ceiling roses, cornices, or window styles. You can still install modern fixtures, but the overall look should complement the era. For example, a claw-foot bathtub or a pedestal basin can blend period charm with contemporary comfort. Tiles in subway or hexagon patterns are popular choices that suit both old and new.",
+        "To save money, keep the existing plumbing layout if possible. Moving a toilet or shower drain adds significant cost. Also, choose standard-sized tiles and fixtures over custom orders — they're cheaper and easier to source. A good builder will help you prioritise where to spend and where to save. For example, invest in quality waterproofing and tapware, but save on decorative elements like niche shelving.",
+        "At Uptown Build Group, we've renovated dozens of bathrooms in South Melbourne's heritage homes. We understand the local council requirements and work with heritage advisors when needed. Our team delivers beautiful, functional bathrooms that respect your home's history while giving you the modern comfort you deserve. Call us for a free consultation and quote."
+      ]
+    },
+    {
+      "title": "New Home Builds in South Melbourne: What You Need to Know",
+      "date": "December 2025",
+      "excerpt": "Building a new home in South Melbourne? From site selection to handover, our guide covers costs, timelines, and tips for a successful project in 2026.",
+      "image": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-2-1024x576.jpg",
+      "body": [
+        "Building a new home in South Melbourne is an exciting opportunity to create a space that perfectly suits your lifestyle. Whether you're replacing an old dwelling or developing a vacant block, the process involves careful planning, budgeting, and collaboration with experienced professionals. In 2026, the cost of a new custom home in this area ranges from $1,500 to $3,000 per square metre, depending on finishes and complexity.",
+        "The first step is finding the right block. South Melbourne has a mix of narrow lots, wide blocks, and heritage-restricted areas. Check the zoning and any overlays with the City of Port Phillip before you buy. Some blocks come with easements or covenants that affect where you can build. A building surveyor can help you understand the constraints and opportunities of your site.",
+        "Design is where your vision takes shape. Work with an architect or building designer who knows local regulations. They'll help you maximise floor space, natural light, and energy efficiency. In South Melbourne, many new homes feature open-plan living, high ceilings, and large windows to capture northern light. Sustainable features like solar panels, double glazing, and rainwater tanks are increasingly popular and can reduce long-term costs.",
+        "Council approval for a new home in Port Phillip typically takes 3 to 6 months. You'll need a planning permit if your design doesn't meet the neighbourhood character guidelines. A building permit is also required before construction starts. Your builder should handle both, liaising with council and certifiers to keep the process moving. Factor in $5,000 to $15,000 for permits and fees.",
+        "Construction timelines vary, but a typical single-storey home takes 8 to 12 months from slab to handover. Two-storey homes can take 12 to 18 months. Delays can happen due to weather, material shortages, or council inspections. A good builder will keep you updated and manage subcontractors to stay on track. Always have a contingency of 10-15% of your budget for unexpected costs.",
+        "At Uptown Build Group, we specialise in custom new home builds across South Melbourne and the inner suburbs. From initial design to final handover, we manage every detail to ensure your new home is built to the highest standard. Contact us for a free consultation and let's start planning your dream home today."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/our-services-1.jpg",
+  "photoRowImages": [
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-4-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-6-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-3-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-1-1024x576.jpg"
+  ],
+  "aboutImages": [
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/our-services-1.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-2-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-4-1024x576.jpg"
+  ],
+  "fullWidthImage": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-2-1024x576.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/our-services-1.jpg",
+  "testimonialsImage": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/our-experience.jpg",
+  "galleryImages": [
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-4-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-6-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-3-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-1-1024x576.jpg",
+    "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-5-1024x576.jpg"
+  ],
+  "pricingBgImage": "https://uptownbuildgroup.com.au/wp-content/uploads/2025/05/gallery-img-2-1024x576.jpg"
+}
