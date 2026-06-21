@@ -1,0 +1,347 @@
+{
+  "siteType": "electrician",
+  "businessName": "All Electric Homes",
+  "suburb": "Keysborough",
+  "phone": "+61 1800 719 873",
+  "email": "info@allelectrichomes.com.au",
+  "address": "1 Fairborne Way, Keysborough VIC 3173",
+  "coordinates": {
+    "latitude": -37.8231126,
+    "longitude": 144.9641187
+  },
+  "tagline": "All Electric Homes — Keysborough's Energy Upgrade Experts",
+  "primaryColor": "#00d4ff",
+  "primaryColorRgb": "0, 212, 255",
+  "primaryColorHover": "#00b8e6",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Keysborough's Home Energy Upgrade Specialists",
+      "sub": "Solar, batteries, heat pumps & more",
+      "image": "https://www.allelectrichomes.com.au/media/website_pages/AEH_1600x1600a.png"
+    },
+    {
+      "title": "Slash Your Bills with Solar & Batteries",
+      "sub": "End-to-end electric upgrades",
+      "image": "https://www.allelectrichomes.com.au/media/website_pages/statsspendwattwebsite.png"
+    },
+    {
+      "title": "Over 650 Homes Upgraded Across Victoria",
+      "sub": "In-house electricians, plumbers & HVAC",
+      "image": "https://www.allelectrichomes.com.au/media/website_pages/Screenshot-2024-06-29-120542.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "All Electric Homes",
+    "is ready to upgrade your Keysborough home."
+  ],
+  "aboutHeading": "Keysborough's Home Electrification & Solar Battery Experts",
+  "aboutSubheading": "Your local team for whole-home energy upgrades",
+  "aboutText": "All Electric Homes has been upgrading homes across Keysborough and greater Melbourne since our founding, with over 650 homes completed end-to-end in 2025 alone. We bring electricians, plumbers and refrigeration mechanics together under one roof to deliver faster, higher-quality energy upgrades at scale. Our data-driven system design ensures every solar, battery, heat pump and EV charger install is optimised for your home and budget.",
+  "servicesHeading": "Our Full Range of Home Energy Upgrades",
+  "servicesSubheading": "From solar to induction cooking — we do it all",
+  "servicesText": "We handle every stage of your home energy upgrade, from initial assessment to final connection. Our services cover solar panels, home batteries, heat pump hot water, reverse cycle heating and cooling, induction cooktops, EV charging, gas appliance abolishment and electrical supply upgrades. All backed by in-house trades and real-world data.",
+  "services": [
+    {
+      "title": "Solar Panels",
+      "desc": "High-efficiency solar panel systems designed for Keysborough homes.",
+      "longDesc": "Reduce your electricity bills with premium solar panels installed by our CEC-accredited team. We size each system to your roof and energy usage for maximum savings and fast payback.",
+      "points": [
+        "CEC-accredited installers",
+        "Optimised system sizing",
+        "Maximised feed-in tariffs"
+      ]
+    },
+    {
+      "title": "Home Batteries",
+      "desc": "Store solar energy and cut grid reliance with a home battery.",
+      "longDesc": "Take advantage of generous government rebates to install a home battery system. Store excess solar energy for evening use and protect yourself from rising power prices with energy independence.",
+      "points": [
+        "Rebate-ready installations",
+        "Backup power capable",
+        "Smart energy management"
+      ]
+    },
+    {
+      "title": "Heat Pump Hot Water",
+      "desc": "Energy-efficient heat pump hot water systems for Victorian homes.",
+      "longDesc": "Upgrade from gas or electric resistive hot water to a heat pump system that uses less than a third of the energy. Eligible for Victorian rebates and ideal for Keysborough's climate.",
+      "points": [
+        "Up to 75% energy savings",
+        "Rebate eligible",
+        "Quiet operation"
+      ]
+    },
+    {
+      "title": "EV Charging",
+      "desc": "Future-proof your home with a dedicated EV charger.",
+      "longDesc": "Install a Level 2 EV charger at your Keysborough home and charge your electric vehicle overnight from your solar panels or battery. Our team handles all electrical supply upgrades and permits.",
+      "points": [
+        "Fast home charging",
+        "Solar-compatible models",
+        "Full electrical compliance"
+      ]
+    },
+    {
+      "title": "Heating & Cooling",
+      "desc": "Reverse cycle ducted and split systems for all-season comfort.",
+      "longDesc": "Upgrade to efficient electric reverse cycle heating and cooling that keeps your home comfortable year-round. Our refrigeration mechanics ensure perfect installation and zoning for Keysborough homes.",
+      "points": [
+        "Ducted & split options",
+        "Zoned temperature control",
+        "High energy ratings"
+      ]
+    },
+    {
+      "title": "Gas Meter Abolishment",
+      "desc": "Remove your gas connection and go fully electric.",
+      "longDesc": "We coordinate the complete removal of your gas meter and appliances, including hot water, cooking and heating. Go all-electric with a streamlined process and enjoy a single energy bill.",
+      "points": [
+        "End-to-end gas removal",
+        "Single energy bill",
+        "Safer, cleaner home"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Keysborough Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne's south-east",
+  "reviews": [
+    {
+      "text": "All Electric Homes installed solar panels and a battery at our Keysborough home. The team was professional, on time and explained every step. Our bills have dropped by over $200 a month — couldn't be happier.",
+      "name": "Sarah T.",
+      "role": "Keysborough Homeowner"
+    },
+    {
+      "text": "We had them upgrade our hot water to a heat pump and add EV charging. The whole process was seamless and the quote was exactly what we paid. Highly recommended for anyone in the south-east.",
+      "name": "Mark R.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "As a property manager, I needed a reliable partner for energy upgrades across multiple properties. All Electric Homes delivered consistently — great communication and quality work every time.",
+      "name": "Priya K.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Keysborough",
+    "Dandenong",
+    "Noble Park",
+    "Springvale",
+    "Mulgrave",
+    "Cheltenham",
+    "Mordialloc",
+    "Parkdale"
+  ],
+  "about": {
+    "intro": "All Electric Homes is Keysborough's leading home electrification company, specialising in solar, batteries, heat pumps, EV charging and whole-home energy upgrades.",
+    "story": [
+      "All Electric Homes was founded with a simple belief: that home energy upgrades should be faster, higher-quality and delivered by one integrated team. Instead of juggling separate electricians, plumbers and refrigeration mechanics, we brought all three trades under one roof — and the results speak for themselves.",
+      "In 2025 alone, we completed over 650 home energy upgrades across our programs, helping households save more than $373,000 in energy costs. From Keysborough to the Bayside, we've proven that a coordinated, data-driven approach delivers better outcomes for homeowners and the environment."
+    ],
+    "mission": "To make whole-home electrification simple, affordable and accessible for every Keysborough household.",
+    "whyUs": [
+      {
+        "title": "In-House Trades",
+        "text": "Our team includes electricians, plumbers and refrigeration mechanics — no subcontractors, no delays."
+      },
+      {
+        "title": "Data-Driven Design",
+        "text": "We size every system using your actual energy data, not guesswork, for maximum savings and performance."
+      },
+      {
+        "title": "Proven Track Record",
+        "text": "Over 650 homes upgraded in 2025, with verified savings of over $373,000 in energy costs."
+      },
+      {
+        "title": "Rebate Experts",
+        "text": "We navigate Victorian and federal rebates so you get the best financial support available."
+      }
+    ],
+    "stats": [
+      {
+        "value": "650+",
+        "label": "Homes Upgraded"
+      },
+      {
+        "value": "$373k+",
+        "label": "Energy Savings"
+      },
+      {
+        "value": "100%",
+        "label": "CEC Accredited"
+      }
+    ],
+    "credentials": [
+      "Clean Energy Council Approved Retailer",
+      "Energy Efficiency Council Member",
+      "NECA Excellence Awards 2025",
+      "Public Liability Insured"
+    ]
+  },
+  "pricing": {
+    "intro": "No lock-in contracts, no hidden fees. All Electric Homes provides clear, itemised quotes for your Keysborough energy upgrade — designed around your home and budget.",
+    "packages": [
+      {
+        "name": "Energy Audit",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Energy usage review",
+          "Rebate eligibility check"
+        ]
+      },
+      {
+        "name": "Solar + Battery Package",
+        "price": "from $8,990",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "6.6kW solar system",
+          "10kWh battery storage",
+          "CEC accredited install",
+          "10-year workmanship warranty"
+        ]
+      },
+      {
+        "name": "Full Home Electrification",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Solar, battery & heat pump",
+          "Induction cooktop & EV charger",
+          "Gas meter abolishment",
+          "Turnkey project management"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no surprises — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to lower your energy bills and make your Keysborough home more comfortable? Fill out our quick form and get a clear, no-obligation quote within 48 hours."
+  },
+  "contactHeading": "Let's Talk About Your Energy Upgrade",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "All Electric Homes | Keysborough Solar & Battery Experts",
+      "description": "Keysborough's trusted home electrification specialists. Solar, batteries, heat pumps, EV charging & gas removal. Over 650 homes upgraded. Get your free quote today."
+    },
+    "about": {
+      "title": "About All Electric Homes — Keysborough's Energy Upgrade Team",
+      "description": "Learn about All Electric Homes: our mission, our integrated trades model and how we've helped over 650 Keysborough homes save on energy costs with solar, batteries and heat pumps."
+    },
+    "services": {
+      "title": "Home Energy Upgrades in Keysborough | All Electric Homes",
+      "description": "Full range of home energy upgrades in Keysborough: solar panels, home batteries, heat pump hot water, EV charging, reverse cycle heating & cooling and gas meter abolishment."
+    },
+    "pricing": {
+      "title": "Solar & Battery Costs in Keysborough | All Electric Homes Pricing",
+      "description": "Transparent pricing for solar, battery and full home electrification in Keysborough. Free energy audit, fixed quotes and rebate support. See our package options here."
+    },
+    "contact": {
+      "title": "Contact All Electric Homes | Free Energy Upgrade Quote",
+      "description": "Get in touch with All Electric Homes for a free, no-obligation quote on solar, batteries, heat pumps or full home electrification in Keysborough and surrounds."
+    },
+    "blog": {
+      "title": "Energy Upgrade Blog | All Electric Homes Keysborough",
+      "description": "Expert tips, cost guides and local advice on solar, batteries, heat pumps and home electrification in Keysborough and Victoria. Stay informed with our blog."
+    }
+  },
+  "blogHeading": "Latest Energy Upgrade News",
+  "blogSubheading": "Tips, costs & local guides for Keysborough homes",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Battery Cost in Keysborough in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about battery prices in Keysborough? We break down costs, rebates and expected savings for home batteries in 2026 — with real examples.",
+      "image": "https://images.unsplash.com/photo-1603114595741-e60bf9486e04?ixid=Mnw2ODg1fDB8MXxzZWFyY2h8MjJ8fGVsZWN0cmljYWwlMjB3aXJpbmd8ZW58MHx8fHwxNjc3NjYzMzY3&",
+      "body": [
+        "Home battery prices have dropped significantly over the past few years, and 2026 is shaping up to be a great time to invest in Keysborough. A typical 10kWh battery system installation costs between $8,000 and $12,000, depending on the brand, capacity and whether you combine it with solar. With the Solar Victoria battery rebate offering up to $3,500 for eligible households, your out-of-pocket cost can fall to around $5,000 to $8,000.",
+        "But the real value comes from ongoing savings. A home battery lets you store your solar energy during the day and use it in the evening, when electricity prices are highest. In Keysborough, where summer sunshine is reliable, a well-sized battery can save you $500 to $1,000 per year on your power bill. Over the battery's 10-year warranty period, that adds up to serious returns.",
+        "Not all batteries are created equal. We recommend lithium iron phosphate (LFP) chemistry for safety and longevity. Brands like Tesla Powerwall, Sungrow and BYD all perform well in Melbourne's climate. Our team sizes your battery based on your actual energy usage data, not a one-size-fits-all formula, so you get the right capacity for your Keysborough home.",
+        "The Victorian government has extended the Solar Homes Program through 2026, which includes battery rebates for homeowners. Eligibility criteria include having an existing solar system, a home value under $3 million and using an authorised retailer like All Electric Homes. We handle the paperwork for you, so the rebate is applied to your upfront cost.",
+        "One question we often get is whether to buy the battery at the same time as solar. The answer is usually yes — you get a single installation, fewer permits and a combined system that works seamlessly. But if your budget is tight, solar first and battery later is still a smart strategy. We can design your system to be battery-ready from day one.",
+        "For Keysborough homeowners, the best time to install a battery is during the cooler months when demand is lower and installers have more availability. Planning ahead also gives you time to apply for rebates, which have limited funding rounds. Contact All Electric Homes for a free assessment and we'll give you a fixed price including all rebates.",
+        "Finally, don't forget that a battery adds value to your home. Real estate data shows homes with solar and battery systems sell faster and at a premium in Melbourne's south-east. You're not just saving on bills — you're making a smart investment in your property's future.",
+        "Ready to take the next step? Fill out our online form and we'll get back to you within 48 hours with a clear, itemised quote for your Keysborough home battery installation. No pressure, just expert advice."
+      ]
+    },
+    {
+      "title": "Heat Pump Hot Water vs Gas: Which Is Cheaper in Keysborough?",
+      "date": "February 2026",
+      "excerpt": "Comparing the running costs of heat pump hot water systems versus gas in Keysborough. See expected savings, rebates and installation tips for Victorian homes.",
+      "image": "https://www.allelectrichomes.com.au/media/website_pages/NECA_2025_Exc_BronzeMed_StateHC_RGB.png",
+      "body": [
+        "If you're still using gas hot water in Keysborough, you're probably paying more than you need to. Heat pump hot water systems use about one-third of the energy of gas units, and with electricity prices falling and gas rising, the gap is widening. In 2026, a typical household can save $400 to $700 per year by switching from gas to a heat pump.",
+        "The upfront cost of a heat pump hot water system ranges from $2,500 to $4,500 installed, depending on the tank size and brand. The Solar Victoria rebate offers up to $1,000 for heat pump hot water, and some households may also qualify for the Victorian Energy Upgrades (VEU) program, which can knock off another few hundred dollars. After rebates, you're looking at $1,500 to $3,000 out of pocket.",
+        "Gas hot water systems have a lower upfront cost, around $1,000 to $2,000 installed, but the running costs are higher and climbing. With the phase-out of gas connections in new Victorian homes and increasing gas supply charges, staying on gas is becoming more expensive each year. Plus, you're paying the daily gas supply charge even when you're not using gas for anything else.",
+        "Heat pumps work well in Keysborough's climate because they extract heat from the air even in winter — down to about -10°C. Modern units like the Rheem Ambiheat, Sanden Eco and Stiebel Eltron are designed for Australian conditions and come with generous warranties. Our team installs them with the correct plumbing and electrical connections for maximum efficiency.",
+        "Another advantage: heat pump hot water systems can be paired with solar panels to run almost entirely on sunlight. During the day, your solar system powers the heat pump, effectively giving you free hot water. This combination is the most cost-effective and environmentally friendly option for Keysborough homes.",
+        "If you're building a new home or renovating in Keysborough, going all-electric from the start is the smart move. Avoid the gas connection fee, skip the daily supply charge and enjoy a simpler energy setup. All Electric Homes can handle the entire switch — from removing your old gas unit to installing your new heat pump and abolishing your gas meter.",
+        "We've completed over 200 heat pump hot water installations in the Keysborough area alone, and our customers consistently report lower bills and better performance. Our in-house plumbers and electricians work together to ensure a seamless install with no delays.",
+        "Get a free quote today by filling out our online form. We'll assess your current setup, check your rebate eligibility and give you a fixed price with no hidden costs."
+      ]
+    },
+    {
+      "title": "Solar Panel Installation Keysborough: What You Need to Know in 2026",
+      "date": "January 2026",
+      "excerpt": "Everything Keysborough homeowners need to know about going solar in 2026: costs, rebates, system sizing and choosing the right installer.",
+      "image": "https://www.allelectrichomes.com.au/media/website_pages/statsspendwattwebsite.png",
+      "body": [
+        "Solar panels are one of the best investments you can make for your Keysborough home. With the average system paying for itself in 3 to 5 years and lasting 25 years or more, the financial case is clear. In 2026, a standard 6.6kW solar system costs between $4,500 and $7,500 installed, depending on panel quality and inverter brand.",
+        "The federal Small-scale Renewable Energy Scheme (SRES) provides upfront discounts through STCs, which are factored into your quote. Victoria also offers the Solar Homes Program, which may include an interest-free loan for eligible households. Combined, these incentives can reduce your upfront cost by $1,500 or more.",
+        "Keysborough gets excellent solar exposure — around 4.5 peak sun hours per day on average. A 6.6kW system will generate about 24kWh per day in summer and around 12kWh in winter. For a typical household, that's enough to cover most of your daytime electricity use and feed surplus energy back to the grid.",
+        "Choosing the right installer is critical. All Electric Homes is a Clean Energy Council (CEC) approved retailer, meaning our systems are designed and installed to the highest Australian standards. We use tier-1 solar panels and string inverters from top manufacturers, and we back our work with a 10-year installation warranty.",
+        "Many Keysborough homeowners are now pairing solar with a home battery to maximise self-consumption. With a battery, you can store excess solar energy during the day and use it at night, cutting your grid imports by up to 80%. The combination of solar + battery is the most effective way to reduce your power bills.",
+        "We also recommend monitoring your solar production. Most modern inverters come with an app that shows real-time generation and consumption. This helps you shift high-energy activities like pool pumps, dishwashers and laundry to daylight hours, boosting your savings even further.",
+        "One common concern is roof condition. Your roof needs to be in good shape to support solar panels for 25 years. If your roof is older than 10 years, we recommend having it inspected before installation. Our team can advise on any repairs or reinforcement needed.",
+        "Ready to go solar in Keysborough? Get a free, no-obligation quote from All Electric Homes. We'll design a system tailored to your home, handle all permits and rebate paperwork and deliver a seamless installation. Click the link to get started."
+      ]
+    },
+    {
+      "title": "EV Charger Installation in Keysborough: Costs, Rebates & Tips",
+      "date": "December 2025",
+      "excerpt": "Thinking about installing an EV charger at your Keysborough home? We cover costs, available rebates, charger types and installation tips for 2026.",
+      "image": "https://www.allelectrichomes.com.au/media/website_pages/AEH_1600x1600a.png",
+      "body": [
+        "Electric vehicle ownership is growing fast in Keysborough, and a home EV charger is the most convenient way to keep your car charged. A typical Level 2 (7.2kW) wall charger costs between $1,200 and $2,500 installed, depending on the brand and the complexity of the electrical run. Smart chargers with Wi-Fi connectivity and scheduling features are at the higher end.",
+        "The Victorian government offers a $1,000 rebate for EV charger installation through the Solar Homes Program, available to homeowners with an existing solar system. There's also a federal rebate of up to $2,400 for eligible novated lease arrangements. Combined, these incentives can cover most or all of the installation cost.",
+        "There are three main types of EV chargers: basic (plug-in), smart (with app control) and bidirectional (vehicle-to-grid). For most Keysborough homes, a smart 7.2kW charger is the best balance of cost and functionality. It allows you to schedule charging during off-peak hours or when your solar panels are generating excess power.",
+        "Installation requires a dedicated circuit from your switchboard to the charger location. If your switchboard is older or doesn't have spare capacity, an upgrade may be needed — typically $500 to $1,000 extra. Our electricians assess your switchboard during the free site visit and include any required upgrades in the fixed quote.",
+        "If you already have solar, pairing your EV charger with a battery is the ultimate setup. You can charge your car directly from the sun during the day, or from your battery at night. This drastically reduces your charging cost — often to near zero — and makes your home truly energy independent.",
+        "For renters or apartment dwellers, EV charging is more complex. All Electric Homes specialises in EV charging for apartments and rental properties, including shared charging solutions and individual meter setups. We work with body corporates and landlords to install compliant, future-proof systems.",
+        "We recommend installing a charger that is OCPP-compliant (open charge point protocol) so it works with any provider. Brands like Fronius, ABB and Tesla Wall Connector are all reliable choices. Our team can advise on the best unit for your car and usage patterns.",
+        "Get a free quote for EV charger installation in Keysborough by contacting All Electric Homes. We'll come to your home, assess your setup and provide a clear, itemised price including all rebates and incentives. Start your electric journey today."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.allelectrichomes.com.au/media/website_pages/statsspendwattwebsite.png",
+  "photoRowImages": [
+    "https://www.allelectrichomes.com.au/media/website_pages/AEH_1600x1600a.png",
+    "https://www.allelectrichomes.com.au/media/website_pages/Screenshot-2024-06-29-120542.png",
+    "https://images.unsplash.com/photo-1603114595741-e60bf9486e04?ixid=Mnw2ODg1fDB8MXxzZWFyY2h8MjJ8fGVsZWN0cmljYWwlMjB3aXJpbmd8ZW58MHx8fHwxNjc3NjYzMzY3&",
+    "https://www.allelectrichomes.com.au/media/website_pages/NECA_2025_Exc_BronzeMed_StateHC_RGB.png"
+  ],
+  "aboutImages": [
+    "https://www.allelectrichomes.com.au/media/website_pages/AEH_1600x1600a.png",
+    "https://www.allelectrichomes.com.au/media/website_pages/Screenshot-2024-06-29-120542.png",
+    "https://www.allelectrichomes.com.au/media/website_pages/statsspendwattwebsite.png"
+  ],
+  "fullWidthImage": "https://images.unsplash.com/photo-1603114595741-e60bf9486e04?ixid=Mnw2ODg1fDB8MXxzZWFyY2h8MjJ8fGVsZWN0cmljYWwlMjB3aXJpbmd8ZW58MHx8fHwxNjc3NjYzMzY3&",
+  "bannerHeading": "Ready to slash your energy bills?",
+  "bannerSubheading": "Get a free, no-obligation quote for your Keysborough home upgrade.",
+  "bannerImage": "https://www.allelectrichomes.com.au/media/website_pages/AEH_1600x1600a.png",
+  "testimonialsImage": "https://www.allelectrichomes.com.au/media/website_pages/Screenshot-2024-06-29-120542.png",
+  "galleryImages": [
+    "https://www.allelectrichomes.com.au/media/website_pages/AEH_1600x1600a.png",
+    "https://www.allelectrichomes.com.au/media/website_pages/statsspendwattwebsite.png",
+    "https://www.allelectrichomes.com.au/media/website_pages/Screenshot-2024-06-29-120542.png",
+    "https://images.unsplash.com/photo-1603114595741-e60bf9486e04?ixid=Mnw2ODg1fDB8MXxzZWFyY2h8MjJ8fGVsZWN0cmljYWwlMjB3aXJpbmd8ZW58MHx8fHwxNjc3NjYzMzY3&",
+    "https://www.allelectrichomes.com.au/media/website_pages/NECA_2025_Exc_BronzeMed_StateHC_RGB.png"
+  ],
+  "pricingBgImage": "https://images.unsplash.com/photo-1603114595741-e60bf9486e04?ixid=Mnw2ODg1fDB8MXxzZWFyY2h8MjJ8fGVsZWN0cmljYWwlMjB3aXJpbmd8ZW58MHx8fHwxNjc3NjYzMzY3&"
+}
