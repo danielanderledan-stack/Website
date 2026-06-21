@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "MAKEIT",
+  "suburb": "Southbank",
+  "phone": "+61 3 9112 5850",
+  "email": "info@makeit.com.au",
+  "address": "Ground Floor/80 Dorcas St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8307863,
+    "longitude": 144.9669146
+  },
+  "tagline": "Southbank's construction project managers",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builders",
+      "sub": "Roofing, plumbing, electrical & cladding",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg"
+    },
+    {
+      "title": "Construction Evolved",
+      "sub": "Transparent systems, total quality control",
+      "image": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+    },
+    {
+      "title": "Multi-Trade Made Simple",
+      "sub": "In-house expertise across Victoria",
+      "image": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "MAKEIT in Southbank",
+    "is ready to manage your project."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "MAKEIT is Southbank's next-generation construction project management team. With years of experience across roofing, plumbing, electrical, and cladding, we deliver transparent, accountable projects for builders, strata, and homeowners. Our smarter systems and in-house trades ensure every stage is clear and on track.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From small repairs to complex multi-trade projects, MAKEIT covers roofing, plumbing, electrical, and cladding across Southbank and greater Melbourne. We bundle trades for builders, specialise in strata remediation, and offer homeowners full transparency.",
+  "services": [
+    {
+      "title": "Roofing & Guttering",
+      "desc": "Metal roofing, skylights, gutter replacements and roof remediation.",
+      "longDesc": "Expert roofing services in Southbank including metal roofing, skylights, gutter replacements, and full roof remediation. We handle everything from small repairs to complex multi-trade projects with quality assurance.",
+      "points": [
+        "Durable metal roofing",
+        "Skylight installation",
+        "Gutter replacements"
+      ]
+    },
+    {
+      "title": "Plumbing & Hydraulic",
+      "desc": "Hydraulic services, drainage, gas fitting and storm water solutions.",
+      "longDesc": "Comprehensive plumbing and hydraulic services for Southbank properties. We manage drainage, gas fitting, storm water systems, and fire services with full compliance and minimal disruption.",
+      "points": [
+        "Hydraulic systems",
+        "Gas fitting",
+        "Storm water drainage"
+      ]
+    },
+    {
+      "title": "Electrical & Data",
+      "desc": "Electrical upgrades, data cabling, solar and air conditioning.",
+      "longDesc": "Full electrical services including data cabling, solar panel installation, and air conditioning for Southbank homes and commercial sites. Our in-house team ensures reliable scheduling and quality.",
+      "points": [
+        "Electrical upgrades",
+        "Data cabling",
+        "Solar & air con"
+      ]
+    },
+    {
+      "title": "Cladding & Facades",
+      "desc": "Metal and architectural cladding for modern builds.",
+      "longDesc": "Specialist cladding services in Southbank including metal and architectural cladding for new builds and remedial projects. We coordinate with builders for seamless integration.",
+      "points": [
+        "Architectural cladding",
+        "Metal facades",
+        "Remedial work"
+      ]
+    },
+    {
+      "title": "Strata Remediation",
+      "desc": "Roof remediation, cladding replacements and water ingress solutions.",
+      "longDesc": "Tailored strata solutions for Southbank owners corporations. We specialise in roof remediation, cladding replacements, and water ingress repairs with minimal disruption to residents.",
+      "points": [
+        "Roof remediation",
+        "Cladding replacement",
+        "Water ingress fixes"
+      ]
+    },
+    {
+      "title": "Multi-Trade Packages",
+      "desc": "Bundled roofing, plumbing, electrical and cladding for builders.",
+      "longDesc": "Streamlined multi-trade packages for Southbank builders. We handle compliance, documentation, and sequencing so you stay focused on delivery. One point of contact, total accountability.",
+      "points": [
+        "Bundled trades",
+        "Compliance handled",
+        "Single contact"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "MAKEIT managed our Southbank strata roof replacement from start to finish. The coordination was seamless and residents barely noticed the work. Highly recommend their team.",
+      "name": "Sarah F.",
+      "role": "Southbank Strata Manager"
+    },
+    {
+      "text": "We used MAKEIT for a full electrical and plumbing upgrade on our commercial property. Their in-house trades made scheduling easy and the quality was top-notch.",
+      "name": "Mark T.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "The team handled our cladding replacement with minimal fuss. Clear communication and they stuck to the timeline. Would definitely use them again.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "St Kilda",
+    "Richmond",
+    "Fitzroy",
+    "Port Melbourne",
+    "Docklands",
+    "South Yarra"
+  ],
+  "about": {
+    "intro": "MAKEIT is Southbank's next-generation construction project management team, delivering roofing, plumbing, electrical, and cladding with transparency and smarter systems.",
+    "story": [
+      "MAKEIT was formed by specialists who saw the need for a better way to manage construction projects. Based in Southbank, we built a team that brings roofing, plumbing, electrical, and cladding in-house to deliver greater consistency across every project.",
+      "By managing these key trades ourselves, we maintain tighter coordination, stronger quality assurance, and reliable scheduling. Our clients experience a smoother process and a superior result from start to finish, whether it's a small repair or a complex multi-trade project.",
+      "Today, MAKEIT is trusted by builders, strata corporations, and homeowners across Victoria. We keep things simple with clear scopes, line-by-line proposals, digital tracking, and a commitment to total quality control."
+    ],
+    "mission": "To deliver construction projects across Southbank with transparency, smarter systems, and total quality control.",
+    "whyUs": [
+      {
+        "title": "In-House Trades",
+        "text": "Roofing, plumbing, electrical and cladding all under one roof for seamless coordination."
+      },
+      {
+        "title": "Transparent Systems",
+        "text": "Clear scopes, line-by-line proposals, and progress updates so you always know where you stand."
+      },
+      {
+        "title": "Quality Control",
+        "text": "ITPs, audits, and compliance checks before every handover ensure a superior result."
+      },
+      {
+        "title": "Smarter Technology",
+        "text": "Digital tracking, client portals, drone inspections and thermal imaging for precision."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "WorkSafe compliant"
+    ]
+  },
+  "pricing": {
+    "intro": "At MAKEIT in Southbank, we believe in upfront pricing with no hidden surprises. Every project starts with a free inspection and a clear, line-by-line quote.",
+    "packages": [
+      {
+        "name": "Initial Inspection",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Multi-Trade Package",
+        "price": "from $15k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Bundled trades",
+          "Compliance docs",
+          "Fixed-price contract",
+          "Progress updates"
+        ]
+      },
+      {
+        "name": "Full Remediation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Roof & cladding",
+          "Water ingress fix",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to get started? Contact MAKEIT in Southbank for a free inspection and quote. Our team will walk you through your project and provide a clear, no-obligation estimate."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "MAKEIT | Southbank Builder | Construction Project Management",
+      "description": "MAKEIT is Southbank's trusted construction project management team. Roofing, plumbing, electrical & cladding. Free inspection & quote. Call 03 9112 5850."
+    },
+    "about": {
+      "title": "About MAKEIT — Southbank's Construction Project Managers",
+      "description": "Learn about MAKEIT's story, in-house trades, and commitment to transparency. Based in Southbank, we deliver quality construction across Victoria."
+    },
+    "services": {
+      "title": "Building Services in Southbank | MAKEIT Construction",
+      "description": "Explore MAKEIT's full range of services: roofing, plumbing, electrical, cladding, strata remediation and multi-trade packages in Southbank and Melbourne."
+    },
+    "pricing": {
+      "title": "Construction Costs & Prices in Southbank | MAKEIT",
+      "description": "Get transparent pricing for your Southbank construction project. Free inspection, fixed quotes, no hidden fees. Contact MAKEIT today."
+    },
+    "contact": {
+      "title": "Contact MAKEIT | Free Construction Consultation Southbank",
+      "description": "Contact MAKEIT in Southbank for a free inspection and quote. Call 03 9112 5850 or fill in our online form. We'll respond within 24 hours."
+    },
+    "blog": {
+      "title": "Southbank Construction & Renovation Blog | MAKEIT",
+      "description": "Read MAKEIT's blog for expert advice on roofing, plumbing, electrical and cladding in Southbank. Tips, costs, and local guides for homeowners and builders."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Roof Replacement Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking about a new roof in Southbank? We break down the costs, materials, and factors that affect your roof replacement budget in 2026.",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+      "body": [
+        "If you own a property in Southbank, a roof replacement is one of the biggest investments you'll make. With Melbourne's variable climate — from scorching summer sun to winter storms — your roof needs to be durable and well-installed. In 2026, the cost of replacing a roof in Southbank typically ranges from $8,000 to $25,000 depending on the size, material, and complexity of the job.",
+        "Metal roofing is a popular choice in Southbank due to its longevity and fire resistance. Colorbond steel, for example, can last 40+ years with minimal maintenance. Expect to pay between $50 and $80 per square metre for metal roofing installed. Tile roofs, while traditional, are heavier and may require structural reinforcement, pushing costs higher.",
+        "The condition of your existing roof structure also matters. If your roof deck or battens need replacement, that adds to the total. At MAKEIT, we always include a thorough inspection in our quote so there are no surprises. We also handle permits and compliance with Victorian building regulations, which is essential for Southbank properties.",
+        "Labour costs in Southbank are competitive but reflect the area's high standards. A full roof replacement typically takes 5 to 10 days, depending on weather and access. We recommend planning your project in late spring or early autumn to avoid delays from rain or extreme heat.",
+        "Don't forget about skylights and ventilation. Adding a skylight during a roof replacement can cost an extra $1,000 to $2,500 but adds natural light and energy savings. Gutter upgrades are also worth considering — we often bundle these with roof replacements for a seamless result.",
+        "At MAKEIT, we provide fixed-price quotes with no hidden fees. Our in-house roofing team ensures quality control from start to finish. Contact us for a free inspection and we'll give you a clear breakdown of costs for your Southbank roof replacement."
+      ]
+    },
+    {
+      "title": "Electrical Upgrades for Southbank Homes: What You Need to Know",
+      "date": "February 2026",
+      "excerpt": "Upgrading your electrical system in Southbank? Learn about switchboard upgrades, data cabling, solar installation, and air conditioning options.",
+      "image": "https://static.wixstatic.com/media/66a2ce_b9c18edad5b94e50855458298e907438~mv2.png",
+      "body": [
+        "Southbank homes and apartments often need electrical upgrades to meet modern demands. Whether you're renovating, adding solar, or just need more power points, it's important to work with a licensed electrician who understands local regulations. At MAKEIT, our in-house electrical division handles everything from switchboard upgrades to full rewires.",
+        "One of the most common upgrades in Southbank is switchboard replacement. Older fuse boards can be unsafe and may not support modern appliances. A new switchboard with safety switches costs around $1,500 to $3,000 and is a worthwhile investment for peace of mind. We also install surge protection to safeguard your electronics.",
+        "Data cabling is another growing need. With more people working from home in Southbank, a reliable wired network is essential. We install Cat6 cabling for fast, stable internet throughout your property. This is often done during renovations when walls are open, saving time and money.",
+        "Solar panel installation is popular in Southbank thanks to Victoria's generous feed-in tariffs. A typical 6.6kW system costs between $5,000 and $8,000 after rebates. We handle the entire process, from design to grid connection, ensuring compliance with all regulations.",
+        "Air conditioning installation is also in high demand. Split systems are the most common, with costs ranging from $1,500 to $4,000 depending on the size and brand. We recommend reverse-cycle units for year-round comfort. Our team ensures proper sizing and installation for maximum efficiency.",
+        "At MAKEIT, we provide clear quotes and progress updates for every electrical project. Whether it's a small repair or a full upgrade, our Southbank electricians deliver quality work with minimal disruption. Contact us for a free inspection."
+      ]
+    },
+    {
+      "title": "Strata Roof Remediation in Southbank: A Complete Guide",
+      "date": "January 2026",
+      "excerpt": "Is your Southbank strata building due for roof remediation? Learn about the process, costs, and how to minimise disruption for residents.",
+      "image": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+      "body": [
+        "Strata roof remediation is a specialised service that requires careful planning and coordination. In Southbank, many older apartment blocks have roofs that need repair or replacement due to age, water ingress, or non-compliant materials. At MAKEIT, we've completed numerous strata projects with minimal disruption to residents.",
+        "The first step is a thorough inspection, often using drone technology and thermal imaging to identify issues without intrusive access. We then provide a detailed report and a clear scope of work. Common problems include leaking roofs, corroded gutters, and failing cladding. Each issue is addressed with a tailored solution.",
+        "Costs for strata roof remediation in Southbank vary widely depending on the size of the building and the extent of the work. A typical project might range from $50,000 to $200,000. We provide itemised quotes so owners corporations can make informed decisions. We also handle all necessary permits and compliance with Victorian building codes.",
+        "Minimising disruption is a top priority. We schedule noisy work during business hours and use dust control measures to protect residents. Our team coordinates with building managers to ensure access and safety. Most projects are completed within 4 to 8 weeks, depending on weather and complexity.",
+        "Water ingress is a common issue in Southbank strata buildings. Left untreated, it can lead to structural damage and mould. Our remediation includes identifying the source, repairing the roof or cladding, and installing proper waterproofing. We also upgrade gutters and downpipes to handle Melbourne's heavy rainfall.",
+        "At MAKEIT, we understand the unique challenges of strata projects. Our in-house trades mean we can coordinate roofing, plumbing, and cladding work seamlessly. Contact us for a free inspection and we'll help you plan your Southbank strata roof remediation."
+      ]
+    },
+    {
+      "title": "Cladding Replacement in Southbank: Costs, Regulations & Timelines",
+      "date": "December 2025",
+      "excerpt": "Thinking about cladding replacement for your Southbank property? We cover the costs, compliance requirements, and what to expect during the project.",
+      "image": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+      "body": [
+        "Cladding replacement is a major project for any Southbank property, whether it's a commercial building or a residential apartment. With stricter regulations following the Grenfell tragedy, non-compliant cladding must be replaced to meet Australian standards. At MAKEIT, we specialise in cladding remediation and new installations.",
+        "The cost of cladding replacement in Southbank depends on the type of cladding, the size of the building, and access requirements. Aluminium composite panels are common but may need replacement if they don't meet fire safety standards. Costs typically range from $100 to $250 per square metre installed, including removal of old cladding.",
+        "Regulations in Victoria require that all cladding materials meet the National Construction Code (NCC) and relevant Australian standards. We ensure every project complies with the Victorian Building Authority (VBA) requirements. Our team handles all documentation, including permits and compliance certificates.",
+        "Timelines for cladding replacement vary. A small building might take 2 to 4 weeks, while a larger project could take 2 to 3 months. We work closely with building managers to minimise disruption, using scaffolding and safety netting to protect pedestrians and residents. Our in-house team coordinates with other trades if needed.",
+        "Choosing the right cladding material is crucial. Options include metal sheeting, fibre cement, and architectural panels. Each has different aesthetic and performance characteristics. We help you select a material that suits your building's design and budget while meeting all fire safety requirements.",
+        "At MAKEIT, we've completed cladding projects across Southbank and Melbourne. Our transparent process means you'll know the timeline and costs upfront. Contact us for a free inspection and quote for your cladding replacement project."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+  "photoRowImages": [
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg"
+  ],
+  "aboutImages": [
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+  ],
+  "fullWidthImage": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+  "testimonialsImage": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+  "galleryImages": [
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png/v1/fill/w_160,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg",
+    "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png",
+    "https://static.wixstatic.com/media/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg/v1/fill/w_135,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_avif,quality_auto/66a2ce_834d1254d7fb4540816d92b7c29ae879~mv2.jpg"
+  ],
+  "pricingBgImage": "https://static.wixstatic.com/media/66a2ce_bc76d21e368045d08f57eb5b8a77eaa3~mv2.png"
+}
