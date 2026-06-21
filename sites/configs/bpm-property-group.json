@@ -1,0 +1,337 @@
+{
+  "siteType": "builder",
+  "businessName": "BPM Property Group",
+  "suburb": "Southbank",
+  "phone": "+61 3 9693 2900",
+  "email": "hello@bpmpropertygroup.com.au",
+  "address": "105 Clarendon St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.827103,
+    "longitude": 144.9581274
+  },
+  "tagline": "Southbank's Premier Property Builder",
+  "primaryColor": "#FF4500",
+  "primaryColorRgb": "255, 69, 0",
+  "primaryColorHover": "#CC3700",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Developer",
+      "sub": "Luxury apartments & hotels",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/Flinders3_IMAGEMODULE_landscape_large.jpg"
+    },
+    {
+      "title": "Building Melbourne's Skyline",
+      "sub": "Iconic design since day one",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/1631_BPM_Gold_Street_External_REVA_WEB_5_landscape_large.jpg"
+    },
+    {
+      "title": "From Vision to Reality",
+      "sub": "Local expertise, global vision",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/DesktopEF_Shadowplay_April_2019_0035_HM_landscape_large.jpeg"
+    }
+  ],
+  "ctaHeading": [
+    "Your Southbank project",
+    "deserves a developer",
+    "who delivers on time."
+  ],
+  "aboutHeading": "Developers Who Build Communities",
+  "aboutSubheading": "Your local experts in property development",
+  "aboutText": "For over a decade, BPM Property Group has been transforming Southbank and Melbourne's skyline with iconic designer apartments and boutique hotels. Based at 105 Clarendon Street, we bring a down-to-earth approach to high-end development, making sure every project adds real value to the neighbourhood. From Flinders Lane to Toowong, our work speaks for itself.",
+  "servicesHeading": "Our Development Services",
+  "servicesSubheading": "End-to-end property solutions",
+  "servicesText": "We handle everything from concept to completion across Melbourne and Brisbane. Whether it's a luxury apartment tower, a boutique hotel, or a mixed-use precinct, we've got the runs on the board to make it happen on time and on budget.",
+  "services": [
+    {
+      "title": "Luxury Apartments",
+      "desc": "Designer apartments in Melbourne and Brisbane's best locations.",
+      "longDesc": "We create high-end apartment living with iconic architecture, premium finishes, and a strong sense of place in Southbank, Collingwood, and beyond.",
+      "points": [
+        "Prime locations",
+        "Architect-led design",
+        "Premium finishes"
+      ]
+    },
+    {
+      "title": "Boutique Hotels",
+      "desc": "BPM Hotels like Shadow Play — unique stays with personality.",
+      "longDesc": "Our hotel division delivers intimate, design-driven hospitality experiences across Melbourne's CBD, Southbank, and Brisbane's Toowong.",
+      "points": [
+        "Boutique character",
+        "Prime CBD sites",
+        "Strong returns"
+      ]
+    },
+    {
+      "title": "Mixed-Use Precincts",
+      "desc": "Combining retail, hospitality, and residential in one project.",
+      "longDesc": "We master-plan vibrant precincts that blend living, dining, and culture — think Edwin Wine Bar meets luxury living in Southbank.",
+      "points": [
+        "Integrated design",
+        "Retail + residential",
+        "Community focus"
+      ]
+    },
+    {
+      "title": "Heritage Adaptations",
+      "desc": "Breathing new life into iconic Melbourne buildings.",
+      "longDesc": "We specialise in transforming heritage structures into modern spaces — like The Cloakroom in Southbank — while preserving their soul.",
+      "points": [
+        "Heritage sensitive",
+        "Modern interiors",
+        "Council expertise"
+      ]
+    },
+    {
+      "title": "Hospitality Fitouts",
+      "desc": "Bars, restaurants, and wine bars built for the long haul.",
+      "longDesc": "From Edwin Wine Bar to Grandma's Recorders in Hollywood, we deliver world-class hospitality fitouts that stand out.",
+      "points": [
+        "Bar & restaurant",
+        "Global standard",
+        "Turnkey delivery"
+      ]
+    },
+    {
+      "title": "Property Development",
+      "desc": "Full-service development from feasibility to handover.",
+      "longDesc": "We manage every stage of the development process — site acquisition, council approvals, construction, and marketing — across Melbourne and Brisbane.",
+      "points": [
+        "Feasibility first",
+        "Approvals managed",
+        "End-to-end service"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne and Brisbane",
+  "reviews": [
+    {
+      "text": "BPM transformed our vision into a stunning apartment complex in Southbank. The quality of the finishes and attention to detail was outstanding. We couldn't be happier with the result.",
+      "name": "Sarah F.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "We engaged BPM for a boutique hotel fitout in Melbourne's CBD. Their team managed the entire process professionally, delivering on time and within budget. Highly recommended.",
+      "name": "Mark T.",
+      "role": "Hotel Developer"
+    },
+    {
+      "text": "As a local business owner in Toowong, I've seen BPM's work firsthand. The White Dawn project has really lifted the area. They're genuine, skilled, and know their stuff.",
+      "name": "Priya N.",
+      "role": "Brisbane Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Collingwood",
+    "Carlton",
+    "Richmond",
+    "Toowong",
+    "Brisbane CBD"
+  ],
+  "about": {
+    "intro": "BPM Property Group is a Melbourne-based developer behind some of Australia's most iconic apartment and hotel projects.",
+    "story": [
+      "BPM started with a simple idea: build spaces that people genuinely love to live, work, and play in. From our base in Southbank, we've grown into a team that delivers across Melbourne and Brisbane, from boutique hotels to designer apartment towers.",
+      "Our first major project was a small apartment block in Collingwood that set the standard for everything we do. Since then, we've completed projects in Flinders Lane, Toowong, and even expanded into Los Angeles with Grandma's Recorders. We keep it real, we keep it honest, and we always deliver."
+    ],
+    "mission": "To create iconic, liveable spaces that enrich Southbank and Melbourne's communities for generations.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Southbank, Melbourne, and Brisbane inside out — councils, contractors, and community."
+      },
+      {
+        "title": "Design-Led",
+        "text": "Every project is guided by world-class architecture and a relentless focus on quality."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "No blowouts, no surprises. We quote you a price and stick to it."
+      },
+      {
+        "title": "Full Service",
+        "text": "From feasibility to handover, we handle it all so you don't have to."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "50+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Registered & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Australian Institute of Architects affiliate"
+    ]
+  },
+  "pricing": {
+    "intro": "Every project is different, so we start with a free, no-obligation chat about what you need in Southbank or Melbourne. No lock-in contracts, just honest advice.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Apartment Development",
+        "price": "from $500k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Full design & build",
+          "Council approvals",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Boutique Hotel",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Turnkey delivery",
+          "Hospitality fitout",
+          "Marketing support"
+        ]
+      }
+    ],
+    "note": "All quoted prices are fixed upfront with no hidden costs — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to talk about your next project in Southbank or Melbourne? Give us a call or drop by our Clarendon Street office for a coffee and a chat."
+  },
+  "contactHeading": "Let's Build Something Iconic",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "BPM Property Group | Southbank Developer | Luxury Apartments & Hotels",
+      "description": "BPM Property Group is Southbank's premier developer of iconic apartments and boutique hotels. 15+ years delivering design-led projects across Melbourne and Brisbane. Free consultation."
+    },
+    "about": {
+      "title": "About BPM Property Group — Southbank's Family Developer",
+      "description": "Learn about BPM Property Group's journey from a small Collingwood project to a leading developer in Southbank, Melbourne, and Brisbane. Real experience, real results."
+    },
+    "services": {
+      "title": "Development Services in Southbank | BPM Property Group",
+      "description": "BPM offers full-service property development in Southbank, Melbourne, and Brisbane — luxury apartments, boutique hotels, mixed-use precincts, and heritage adaptations."
+    },
+    "pricing": {
+      "title": "Development Costs & Pricing in Southbank | BPM Property Group",
+      "description": "Transparent pricing for apartment and hotel development in Southbank. Free initial consultation with no obligation. Fixed-price contracts, no surprises."
+    },
+    "contact": {
+      "title": "Contact BPM Property Group | Free Development Consultation",
+      "description": "Get in touch with BPM Property Group for a free, no-obligation consultation. Based in Southbank, serving Melbourne and Brisbane. Call +61 3 9693 2900."
+    },
+    "blog": {
+      "title": "Property Development Blog | BPM Property Group Southbank",
+      "description": "Expert advice on property development, apartment building costs, and boutique hotel design in Southbank and Melbourne. Local guides from a trusted developer."
+    }
+  },
+  "blogHeading": "Latest Development News",
+  "blogSubheading": "Tips, costs & local guides for developers",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Luxury Apartment Development Cost in Southbank?",
+      "date": "March 2026",
+      "excerpt": "Breaking down the real costs of building a luxury apartment project in Southbank, Melbourne — from site acquisition to handover, including council fees and construction.",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/Flinders3_IMAGEMODULE_landscape_large.jpg",
+      "body": [
+        "Developing a luxury apartment building in Southbank is a serious investment, and the costs can vary wildly depending on location, design, and scope. On average, you're looking at anywhere from $500,000 to $2 million per unit in prime Southbank spots like Clarendon Street or City Road. Site acquisition alone can eat up 30-40% of your budget, with land prices hovering around $5,000 to $8,000 per square metre in this precinct.",
+        "Construction costs for a mid-rise apartment building in Southbank typically range from $3,500 to $6,000 per square metre, depending on finishes and structural complexity. If you're going for designer architecture with premium materials — think natural stone, custom joinery, and floor-to-ceiling glass — you'll be at the upper end. Add in basement parking, landscaping, and common areas, and the numbers climb quickly.",
+        "Council fees and contributions in Southbank are another big ticket. The City of Melbourne charges developer contributions for public infrastructure, which can add 5-10% to your total project cost. You'll also need a planning permit, which can take 6-12 months and cost upwards of $50,000 in consultant fees — architects, traffic engineers, and town planners all need a seat at the table.",
+        "Don't forget holding costs while you're waiting for approvals. Land tax, stamp duty, and interest on your construction loan can stack up to $100,000 or more per year. A good rule of thumb is to budget 15-20% of your total project cost for contingencies and holding costs — especially in a market like Southbank where delays are common.",
+        "Then there's the fitout. Luxury apartments in Southbank expect high-end kitchens with Miele or Gaggenau appliances, engineered stone benchtops, and custom cabinetry. Bathrooms need floor-to-ceiling tiles, rain showers, and freestanding baths. These finishes can push your fitout cost to $2,500-$4,000 per square metre, but they're essential for commanding top dollar in this market.",
+        "Finally, factor in marketing and sales. A well-executed marketing campaign for a Southbank development can cost 2-3% of gross realisation — that's $200,000-$300,000 on a $10 million project. Display suites, digital campaigns, and agent commissions all add up. But with the right team — like BPM — you can keep costs under control and deliver a project that stands out."
+      ]
+    },
+    {
+      "title": "Boutique Hotel Development in Southbank: A Complete Guide",
+      "date": "February 2026",
+      "excerpt": "Everything you need to know about developing a boutique hotel in Southbank, Melbourne — from zoning and approvals to design, fitout, and opening day.",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/2C4A8403_3_landscape_large.jpg",
+      "body": [
+        "Southbank is one of Melbourne's hottest suburbs for boutique hotel development, thanks to its proximity to the CBD, Southbank Promenade, and the Arts Precinct. But building a hotel here comes with unique challenges. The City of Melbourne's planning scheme requires a mix of uses — ground-floor retail or hospitality, with hotel rooms above — so you need to think about the whole building, not just the accommodation.",
+        "Zoning in Southbank is predominantly Capital City Zone (Schedule 1), which allows for hotels, but you'll need a planning permit unless the use is already specified. The council also requires a Transport Impact Assessment and a Waste Management Plan, which can add $20,000-$40,000 in consultant fees. Allow at least 9-12 months for approvals, especially if your design is non-standard or includes heritage elements.",
+        "Design is everything in the boutique hotel market. Guests expect Instagrammable lobbies, unique room layouts, and a strong sense of place. At BPM, we've delivered projects like Shadow Play by Peppers in Southbank, where the design draws on the industrial heritage of the area with exposed concrete, warm timber, and moody lighting. That kind of character doesn't come cheap — fitout costs for boutique hotels typically run $4,000-$7,000 per square metre.",
+        "Operational considerations are just as important as design. You'll need a commercial kitchen if you're running a restaurant, a bar license, and a 24-hour reception. Back-of-house areas like laundry, storage, and staff facilities need to be planned carefully to avoid wasted space. And don't forget about soundproofing — Southbank can be noisy, especially near the casino and entertainment precinct.",
+        "The financials of a boutique hotel in Southbank are compelling if you get the numbers right. Average daily rates for a 4-star boutique hotel in this area range from $250-$400, with occupancy rates around 75-85% pre-COVID. A 50-room hotel could generate $4-$6 million in annual revenue. But your EBITDA margins will be tight at 25-35%, so cost control from day one is critical.",
+        "Partnering with an experienced developer like BPM can make or break your project. We handle everything from site selection and feasibility to design management, council approvals, construction, and even operational handover. Our track record in Southbank — from The Cloakroom to Shadow Play — means we know exactly what works in this market and what doesn't."
+      ]
+    },
+    {
+      "title": "The Cost of Heritage Building Adaptation in Melbourne's CBD",
+      "date": "January 2026",
+      "excerpt": "How much it really costs to adapt a heritage building in Melbourne's CBD into a modern hotel, apartment, or retail space. Case studies and cost breakdowns.",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/SPReception_landscape_large.jpg",
+      "body": [
+        "Melbourne's CBD is packed with heritage-listed buildings that are crying out for a new life. But adapting a heritage structure — like turning an old warehouse into a boutique hotel or a bank into apartments — comes with a premium. On average, heritage adaptation costs 20-30% more than a new build, thanks to strict council requirements, specialist trades, and the challenge of retrofitting modern services into an old shell.",
+        "The first cost hit is the heritage impact assessment, which can run $30,000-$60,000 depending on the building's significance. You'll also need a conservation management plan, which outlines how you'll preserve original features like facades, cornices, and staircases. The City of Melbourne's Heritage Team will scrutinise every change, so expect multiple rounds of revisions before you get your permit.",
+        "Then there's the structural work. Many heritage buildings in Melbourne's CBD have foundations that weren't designed for modern loads — think 19th-century bluestone footings under a 10-storey steel frame. Underpinning, piering, and concrete strengthening can add $500,000-$1 million to your project. And if the building has termite damage or rising damp — common in older stock — you're looking at another $200,000-$400,000 in remediation.",
+        "Services are a major cost driver too. Running new electrical, plumbing, HVAC, and fire services through heritage walls is painstaking work. You can't just chase walls or drill through decorative plaster. The solution is often surface-mounted services in discreet zones, which requires careful design coordination. Budget an extra 15-20% on services compared to a new build.",
+        "Interior fitout in a heritage building offers opportunities for character but also constraints. You're limited in ceiling heights, window placements, and floor layouts. Open-plan spaces that are standard in new builds may not be possible — but that's often a selling point. Guests and tenants love the high ceilings, exposed brick, and sash windows that heritage buildings deliver. Just make sure your architect knows how to work within the constraints.",
+        "BPM has extensive experience adapting heritage buildings in Melbourne's CBD. Our Cloakroom Tailor project in Southbank is a perfect example — we turned a historic space into a high-end bar while preserving its original charm. The key is to start with a thorough heritage assessment, build a realistic contingency (20-30% of project cost), and work closely with councils from day one. With the right approach, heritage adaptation can deliver a truly unique asset that stands out in the market."
+      ]
+    },
+    {
+      "title": "Mixed-Use Development in Southbank: Combining Retail, Hospitality & Residential",
+      "date": "December 2025",
+      "excerpt": "A step-by-step guide to mixed-use development in Southbank, including planning rules, design strategies, and financial modelling for retail, hospitality, and residential.",
+      "image": "https://www.bpmcorp.com.au/assets/uploads/images/DesktopEF_Shadowplay_April_2019_0035_HM_landscape_large.jpeg",
+      "body": [
+        "Mixed-use development is the future of Southbank. Combining retail, hospitality, and residential in one project creates a vibrant, walkable precinct that residents love and investors value. But it's also one of the most complex development types, requiring careful balance between different uses, tenancies, and operational needs. Getting it right starts with a solid feasibility study.",
+        "The City of Melbourne's planning scheme encourages mixed-use in Southbank, but there are specific requirements. Ground-floor frontages must be active — think cafes, bars, or retail — with residential above. You'll need to provide bicycle parking, waste storage, and loading bays that don't impact the streetscape. The council also requires a Urban Design Report and a Wind Impact Assessment for taller buildings, which can add $50,000-$80,000 to your consultant budget.",
+        "Designing a mixed-use project means thinking about vertical and horizontal zoning. You want the ground floor to buzz with activity, so plan for generous ceiling heights (4-5 metres) and flexible floorplates that can accommodate different tenancies. The first few floors above can be office or serviced apartments, with full-floor residential above that. This stacking creates natural separation — residents get quiet and privacy, while the street level stays lively.",
+        "Financial modelling for mixed-use is more complex than a single-use project. You're juggling different rental rates — retail at $800-$1,200 per square metre per year in Southbank, hospitality at similar rates, and residential apartments selling for $12,000-$18,000 per square metre. The key is to phase your project so that retail and hospitality tenancies are secured early, giving you cash flow and de-risking the residential component.",
+        "Operational challenges include managing shared access, waste, and noise. Residential lobbies should be separate from hotel or bar entrances to avoid conflicts. Waste collection needs to be coordinated across all uses, and acoustic separation between loud ground-floor venues and quiet apartments above is non-negotiable. Budget an extra $100-$200 per square metre for soundproofing and vibration control.",
+        "BPM has delivered mixed-use projects across Melbourne and Brisbane, including the White Dawn in Toowong and numerous Southbank precincts. Our approach is to start with detailed market analysis — what does this suburb need? — and then design a scheme that delivers on all fronts. If you're thinking about a mixed-use development in Southbank, get in touch. We'll walk you through the feasibility, costs, and timelines so you can make an informed decision."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.bpmcorp.com.au/assets/uploads/images/1631_BPM_Gold_Street_External_REVA_WEB_5_landscape_large.jpg",
+  "photoRowImages": [
+    "https://www.bpmcorp.com.au/assets/uploads/images/Flinders3_IMAGEMODULE_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/2C4A8403_3_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/DesktopEF_Shadowplay_April_2019_0035_HM_landscape_large.jpeg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/GrandmasterInside_landscape_large.jpg"
+  ],
+  "aboutImages": [
+    "https://www.bpmcorp.com.au/assets/uploads/images/1631_BPM_Gold_Street_External_REVA_WEB_5_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/Walter_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/ShadowPlay2005_2_landscape_large.jpg"
+  ],
+  "fullWidthImage": "https://www.bpmcorp.com.au/assets/uploads/images/BPMCandle1_3_portrait_large.jpg",
+  "bannerHeading": "Ready to Start Your Next Development?",
+  "bannerSubheading": "Get a free, no-obligation consultation today.",
+  "bannerImage": "https://www.bpmcorp.com.au/assets/uploads/images/Flinders3_IMAGEMODULE_landscape_large.jpg",
+  "testimonialsImage": "https://www.bpmcorp.com.au/assets/uploads/images/SPReception_landscape_large.jpg",
+  "galleryImages": [
+    "https://www.bpmcorp.com.au/assets/uploads/images/Flinders3_IMAGEMODULE_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/Cloak3_1_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/2C4A8403_3_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/1631_BPM_Gold_Street_External_REVA_WEB_5_landscape_large.jpg",
+    "https://www.bpmcorp.com.au/assets/uploads/images/DesktopEF_Shadowplay_April_2019_0035_HM_landscape_large.jpeg"
+  ],
+  "pricingBgImage": "https://www.bpmcorp.com.au/assets/uploads/images/GrandmasterInside_landscape_large.jpg"
+}
