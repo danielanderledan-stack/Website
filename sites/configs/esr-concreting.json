@@ -1,0 +1,338 @@
+{
+  "siteType": "concreter",
+  "businessName": "ESR Concreting",
+  "suburb": "Southbank",
+  "phone": "+61390095299",
+  "email": "info@esrconcreting.com.au",
+  "address": "HWT Tower, Level 19/40 City Rd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8208292,
+    "longitude": 144.9668887
+  },
+  "tagline": "Southbank's Concrete Specialists",
+  "primaryColor": "#FF6B00",
+  "primaryColorRgb": "255, 107, 0",
+  "primaryColorHover": "#E05F00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Concreters",
+      "sub": "Industrial & commercial foundations",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/70vezYcrBzGIXaL4MrqmBv/13ba44e79de66f3c84f60f65d8a071d6/esr_HomepageVideo.jpg?w=1416&h=607&fl=progressive&q=100&fm=jpg"
+    },
+    {
+      "title": "Precision Concrete Work",
+      "sub": "Polished floors, slabs & more",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/337PMNIEh1SAihQUVmHI1I/182641aa19dd1fbaf537c958c1ce4cc2/083_DJI_0999-HDR.jpg?w=900&h=599&fl=progressive&q=100&fm=jpg"
+    },
+    {
+      "title": "Decades of Melbourne Expertise",
+      "sub": "On time, on budget, guaranteed",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/6K3G6MfGJBG3Zo3LJytYLq/6cfddedc1a4161e2cf54b7c4e5730948/Image_for_Hero_Content_block__1_.png?w=1360&h=486&q=100&fm=png"
+    }
+  ],
+  "ctaHeading": [
+    "Get in touch —",
+    "your Southbank concreting team",
+    "is ready to quote."
+  ],
+  "aboutHeading": "Concreters Who Deliver Certainty",
+  "aboutSubheading": "Your local concrete experts",
+  "aboutText": "ESR Concreting has been serving Southbank and greater Melbourne for over 25 years. We specialise in industrial, commercial and residential concrete work — from massive warehouse slabs to polished retail floors. Our in-house team brings structural engineering and project management expertise to every pour, ensuring your job is done right the first time.",
+  "servicesHeading": "Our Concrete Services",
+  "servicesSubheading": "End-to-end concreting solutions",
+  "servicesText": "Whether you need a new driveway, a warehouse slab or decorative exposed aggregate, ESR Concreting covers it all. We combine modern equipment with old-school craftsmanship across Southbank and Melbourne's suburbs.",
+  "services": [
+    {
+      "title": "Concrete Slabs & Foundations",
+      "desc": "Reinforced slabs for residential, industrial and commercial builds.",
+      "longDesc": "From single-storey home slabs to heavy-duty warehouse foundations, our team designs and pours to Australian standards. We handle site prep, rebar, and curing for long-lasting results.",
+      "points": [
+        "Engineered to AS 2870",
+        "Site cut & compaction",
+        "Crack control included"
+      ]
+    },
+    {
+      "title": "Polished Concrete Floors",
+      "desc": "High-gloss, low-maintenance floors for any space.",
+      "longDesc": "Achieve a sleek, durable finish with our mechanical grinding and sealing process. Ideal for showrooms, retail, warehouses and homes. We offer multiple sheen levels and colour options.",
+      "points": [
+        "Dust-proof & stain resistant",
+        "Up to 3x harder than tile",
+        "Thermal mass benefits"
+      ]
+    },
+    {
+      "title": "Exposed Aggregate",
+      "desc": "Decorative concrete for driveways, paths and patios.",
+      "longDesc": "Combine strength with visual appeal using exposed aggregate. We use premium stone blends and retarders to create textured surfaces that resist slipping and look great for years.",
+      "points": [
+        "Slip-resistant finish",
+        "Wide colour range",
+        "Sealed for longevity"
+      ]
+    },
+    {
+      "title": "Concrete Driveways & Paths",
+      "desc": "Bespoke driveways, footpaths and crossovers.",
+      "longDesc": "Upgrade your entry with a reinforced concrete driveway designed for heavy vehicles. We cut joints, add colour, and seal to protect against Melbourne's weather extremes.",
+      "points": [
+        "Reinforced for vehicles",
+        "Custom colours & patterns",
+        "Matching crossovers"
+      ]
+    },
+    {
+      "title": "Industrial Flooring",
+      "desc": "Heavy-duty floors for factories, warehouses and workshops.",
+      "longDesc": "Our industrial floors are designed for high loads and heavy traffic. We use fibre-reinforced concrete, power trowelling and hardeners to create a durable, low-dust surface.",
+      "points": [
+        "Forklift & racking ready",
+        "Jointless options available",
+        "Anti-static coatings"
+      ]
+    },
+    {
+      "title": "Concrete Repairs & Resurfacing",
+      "desc": "Restore and protect existing concrete structures.",
+      "longDesc": "Cracked or spalling concrete? We assess, repair and resurface using polymer-modified mortars and sealers. Perfect for commercial pods, carparks and heritage slabs.",
+      "points": [
+        "Non-shrink patching",
+        "Structural epoxy injections",
+        "Anti-graffiti coatings"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "ESR did our warehouse slab in Southbank. The team arrived on time, poured perfectly, and cleaned up completely. No cracking, no drama. Highly recommend their industrial concrete expertise.",
+      "name": "Jason M.",
+      "role": "Warehouse Owner, Southbank"
+    },
+    {
+      "text": "We needed a polished concrete floor for our office lobby. ESR's finish is mirror-like and easy to maintain. They guided us on sealer options and delivered ahead of schedule.",
+      "name": "Natalie R.",
+      "role": "Office Manager, Docklands"
+    },
+    {
+      "text": "Our exposed aggregate driveway turned heads. The crew was professional, kept noise down, and the stone blend looks natural. Five years on it still looks brand new.",
+      "name": "Paul K.",
+      "role": "Homeowner, Albert Park"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "Port Melbourne",
+    "Richmond",
+    "South Yarra",
+    "St Kilda",
+    "Fitzroy"
+  ],
+  "about": {
+    "intro": "We're ESR Concreting — a team of qualified concreters, engineers and project managers based in Southbank, Melbourne. We've delivered hundreds of concrete solutions across the city's industrial, commercial and residential sectors.",
+    "story": [
+      "Founded in 1998 by a group of structural engineers, ESR started as a specialist concreting contractor for large industrial projects. Over the years we expanded into commercial and high-end residential work, always keeping a hands-on approach. Our Southbank office sits right in the heart of Melbourne's construction hub.",
+      "We've poured slabs for major logistics hubs, polished floors for tech offices, and crafted decorative driveways for bayside homes. Every project gets the same dedication: proper site assessment, precise formwork, correct mix design, and thorough curing. Our reputation is built on concrete that lasts decades."
+    ],
+    "mission": "To deliver concrete work that stands up to Melbourne's climate and your expectations — every pour, every time.",
+    "whyUs": [
+      {
+        "title": "In-House Engineering",
+        "text": "Our team includes structural engineers who design every slab for load and soil conditions specific to your site."
+      },
+      {
+        "title": "Fixed-Price Contracts",
+        "text": "No hidden extras. We quote you the full scope upfront and stick to it — including reinforcement and finish."
+      },
+      {
+        "title": "Melbourne-Made Materials",
+        "text": "We source concrete from local batch plants and use only Australian-certified steel and additives."
+      },
+      {
+        "title": "Warranty You Can Trust",
+        "text": "Every job comes with a written structural and workmanship warranty. We stand behind our pours."
+      }
+    ],
+    "stats": [
+      {
+        "value": "27+",
+        "label": "Years in Business"
+      },
+      {
+        "value": "600+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Vic)",
+      "Public liability insured to $20M",
+      "Master Concrete Placers Association member",
+      "Engineers Australia accredited"
+    ]
+  },
+  "pricing": {
+    "intro": "Concrete pricing depends on slab size, reinforcement and finish. We'll visit your Southbank site, take measurements, and give you a fixed quote with no surprises.",
+    "packages": [
+      {
+        "name": "Initial Consultation & Measure",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Load & soil check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Standard Slab or Driveway",
+        "price": "from $8,500",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Reinforced slab up to 50m2",
+          "Edge formwork included",
+          "Sealed finish",
+          "7-day cure timing"
+        ]
+      },
+      {
+        "name": "Polished / Exposed Finish",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full surface preparation",
+          "Custom colour/aggregate",
+          "Grinding & multiple seal coats"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed once site conditions are confirmed — no last-minute add-ons."
+  },
+  "contact": {
+    "intro": "Ready to discuss your concrete project? Call us or fill in the form. We'll come to your site in Southbank or anywhere across Melbourne and give you a straight-up quote."
+  },
+  "contactHeading": "Let's Talk Concrete",
+  "contactSubheading": "Free quote, no obligation",
+  "seo": {
+    "home": {
+      "title": "ESR Concreting | Southbank Concrete Specialists | Melbourne",
+      "description": "ESR Concreting in Southbank — over 27 years of industrial, commercial & residential concrete. Slabs, polished floors, driveways. Fixed quotes. Call 03 9009 5299."
+    },
+    "about": {
+      "title": "About ESR Concreting — Southbank's Experienced Concreters",
+      "description": "Learn about ESR Concreting's 27+ year history, in-house engineering team, and commitment to quality concrete work across Melbourne's Southbank and beyond."
+    },
+    "services": {
+      "title": "Concrete Services in Southbank | ESR Concreting",
+      "description": "Full range of concrete services: slabs, polished floors, exposed aggregate, driveways, industrial flooring. Serving Southbank, Docklands, Port Melbourne."
+    },
+    "pricing": {
+      "title": "Concrete Pricing Southbank | ESR Concreting Free Quote",
+      "description": "Transparent pricing for concrete slabs, driveways and polished floors in Southbank. Free on-site quote. No hidden fees. Call 03 9009 5299."
+    },
+    "contact": {
+      "title": "Contact ESR Concreting | Free Quote Southbank",
+      "description": "Get in touch with ESR Concreting for a free fixed-price quote on your concrete project in Southbank or anywhere in Melbourne."
+    },
+    "blog": {
+      "title": "Concreting Tips & Costs | ESR Concreting Blog Southbank",
+      "description": "Expert articles on concrete costs, slab preparation, polished floor maintenance, and seasonal concreting in Melbourne's Southbank and suburbs."
+    }
+  },
+  "blogHeading": "Concreting Tips & News",
+  "blogSubheading": "Costs, methods & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Concrete Slab Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Breaking down concrete slab costs in Southbank including site prep, reinforcement, and finishing. Typical ranges for 50m2 and 100m2 slabs.",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/5xyGE12Vo3i2fJNmwmwn1o/d9243b894b9070201c585c515f5d87d4/20230414_esr_bringelly_drone_0122.jpg?w=1104&h=735&fl=progressive&q=100&fm=jpg",
+      "body": [
+        "If you're planning a warehouse extension or a new home in Southbank, the cost of a concrete slab is one of the biggest line items you'll face. Prices vary based on slab thickness, reinforcement type, soil conditions and access. As of early 2026, you're looking at roughly $150 to $250 per square metre for a standard residential slab, including formwork and basic steel mesh. For industrial slabs with heavy load ratings, that can climb to $350/m2 or more.",
+        "Southbank sits on a mix of reclaimed land and river silt, so soil testing is critical. A standard site classification (Class M or H) will need proper compaction and sometimes a vapour barrier. ESR always includes a geotechnical check before quoting. Slab thickness for a single-storey home is typically 100mm, but if you're building a warehouse with racking, you might need 150mm to 200mm with additional reinforcement.",
+        "Reinforcement costs add up quickly. Steel mesh (SL72 or SL82) is common for residential slabs. For industrial floors, we use fibre-reinforced concrete or rebar grids. Labour rates in Southbank are competitive but reflect the inner-city access constraints — narrow lanes, crane lifts, and limited parking for concrete trucks. Expect to pay a premium if your site requires pumping over a long distance.",
+        "Finishing choices also affect the total. A basic broom finish is cheapest. Polished concrete adds $25-$50/m2 depending on the number of grinds and sealer coats. Exposed aggregate adds similar cost but gives a decorative, non-slip surface ideal for driveways. We always recommend a sealer to protect against Melbourne's frequent rain and UV damage.",
+        "One way to save is to combine your slab with other concrete work — a driveway, path or patio poured at the same time reduces mobilisation fees. ESR offers bundle discounts for jobs over 100m2. And don't forget council permits. Southbank falls under the City of Melbourne, and any slab over a certain size may require a building permit and compliance with the Building Code of Australia.",
+        "Get a fixed quote early. Concrete prices fluctuate based on cement and aggregate availability. By locking in a price with ESR, you avoid mid-job surcharges. We always include a detailed breakdown — slab area, reinforcement, finishing, and site prep — so you know exactly what you're paying for."
+      ]
+    },
+    {
+      "title": "Polished Concrete vs Tiles for Melbourne Offices: Pros and Cons",
+      "date": "February 2026",
+      "excerpt": "Comparing polished concrete and tile flooring for offices in Southbank and Melbourne CBD. Cost, durability, maintenance and aesthetic factors.",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/4zfcPTZ2RJvslfSURoxTEW/8878d41a4098968d9d24c7100f9a1075/News_Article_Image_Spec.png?w=900&h=675&q=100&fm=png",
+      "body": [
+        "When fitting out an office in Southbank or the CBD, flooring is a major decision. Polished concrete has become hugely popular for its industrial look and low maintenance. Tiles offer more colour variety but have joint lines that crack and collect dirt. ESR has installed polished concrete in dozens of commercial spaces, and the feedback is consistently positive: it's tough, reflects light well (reducing energy costs), and needs only an occasional mop.",
+        "Cost-wise, polished concrete typically runs $60-$100/m2 for a standard grind and seal, while commercial-grade porcelain tiles can be $80-$150/m2 installed — and that's before grouting and sealants. Tiles also need underlay if installed over concrete, adding expense. Over a 200m2 office floor, polished concrete can save you $5,000-$10,000 upfront.",
+        "Durability is another big win for concrete. Tiles chip when heavy furniture is dragged across them; polished concrete, if properly hardened, can withstand forklifts and pallet jacks. For tech offices with rolling chairs and server rooms, concrete is nearly indestructible. It also doesn't harbour dust mites or allergens like carpet, making it a healthier choice.",
+        "Aesthetics are subjective. Polished concrete comes in grey tones with aggregate speckles — you can add a stain or dye for colour. Tiles offer endless patterns but the grout lines collect dirt and may yellow over time. In open-plan offices, the seamless look of polished concrete can make the space feel larger and more modern.",
+        "Maintenance is straightforward: polished concrete needs resealing every 3-5 years depending on traffic. Tiles need regrouting if joints degrade, and broken tiles have to be replaced individually. For landlords, concrete floors hold up better between tenancies. ESR offers a maintenance program that includes annual inspections and top-up sealing if needed.",
+        "One thing to watch: polished concrete can be slippery when wet if not finished with an anti-slip additive. In entry areas, we recommend a matte finish with grit. Also, underfloor heating works well with concrete — the thermal mass retains heat and reduces HVAC load. For Southbank offices with river views, polished concrete pairs beautifully with glass partitions."
+      ]
+    },
+    {
+      "title": "Why Exposed Aggregate Driveways Are Perfect for Melbourne's Climate",
+      "date": "January 2026",
+      "excerpt": "Exposed aggregate driveways handle Melbourne's hot summers and wet winters. Cost, stone options, sealing tips and local examples in Southbank area.",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/6ByCY7AkAlDeAQ6oTMhuA5/c74fe153deaabf514f9b0692c33d38b8/Moorebank_Intermodal.jpg?w=900&h=675&fl=progressive&q=100&fm=jpg",
+      "body": [
+        "Melbourne's weather is famously unpredictable — scorching summer days, sudden downpours, and frosty winter mornings. A standard concrete driveway can become slippery when wet and absorb heat, cracking under thermal stress. Exposed aggregate is the smart choice: the textured surface provides excellent traction, and the exposed stones reflect sunlight, keeping the surface cooler. Many homeowners in Southbank, Albert Park and St Kilda are choosing this finish.",
+        "Cost for an exposed aggregate driveway is around $100-$150/m2, including the stone mix, retarder application and sealing. That's slightly more than a standard broom-finished driveway, but the longevity and aesthetic make it worth the extra. The stones come in a range of colours — from warm pebbles to grey granite — so you can match your home's facade or landscaping.",
+        "Installation requires skill. The concrete is poured, then a chemical retarder is sprayed on the surface. After curing, the top layer is brushed away to reveal the stones underneath. Getting the timing right is critical: too early and the surface washes away; too late and the stones are hard to expose. ESR's team has over two decades of experience with this technique.",
+        "Sealing is essential for Melbourne's climate. A good penetrating sealer protects against UV fading, oil stains, and moisture ingress that can cause freeze-thaw damage in winter. We recommend resealing every 2-3 years. A matte sealer gives a natural look; a wet-look sealer adds gloss and makes colours pop. We'll advise based on your driveway's sun exposure.",
+        "Maintenance is easy — just sweep and occasionally hose down. Avoid harsh chemicals or pressure washing at close range, as that can strip the sealer. If you get oil drips from your car, a strong degreaser and soft brush will lift them without harming the concrete. For heavy stains, we offer a spot-cleaning service.",
+        "Southbank properties often have limited off-street parking, so a compact driveway layout is crucial. We design the approach with enough turning radius and integrate a cross-over from the street. Many clients add a matching exposed aggregate path to the front door, creating a cohesive look. Contact ESR for a free measure and stone sample kit."
+      ]
+    },
+    {
+      "title": "Concrete Curing Times: How Long Before You Can Use Your Slab?",
+      "date": "December 2025",
+      "excerpt": "Understanding concrete curing in Melbourne's seasons. When to walk on, drive on, and build on a new slab. Tips from ESR's Southbank team.",
+      "image": "https://images.ctfassets.net/nq9kuc33ycuo/70vezYcrBzGIXaL4MrqmBv/13ba44e79de66f3c84f60f65d8a071d6/esr_HomepageVideo.jpg?w=1416&h=607&fl=progressive&q=100&fm=jpg",
+      "body": [
+        "One of the most common questions we hear from Southbank clients is: 'How long before I can park on my new driveway?' The answer depends on concrete strength gain, weather, and slab thickness. Concrete doesn't just dry — it cures through a chemical reaction called hydration. This process can take 28 days to reach full design strength, but you can walk on it after 24 hours and drive on it after 7 days (for standard 100mm slabs).",
+        "Melbourne's climate affects curing. In summer, high temperatures speed up curing but can cause surface cracking if the slab dries too fast. We apply curing compounds or wet blankets to retain moisture. In winter, cold slows down hydration — if temperatures drop below 5°C, we use insulated blankets or accelerators to ensure the concrete gains strength properly. ESR always plans pours around the 7-day weather forecast.",
+        "For residential slabs, foot traffic is safe after 24 hours from the pour, as long as you stay off areas with exposed edges. Light vehicle traffic (cars, small vans) can begin after 7 days, but avoid heavy trucks or turning sharply, which could damage the edges. For industrial slabs with forklift loads, we recommend a minimum 14-21 day cure, especially if the concrete is fibre-reinforced.",
+        "Construction loads — like scaffolding or brick stacks — should only be placed after 28 days. Even then, spread the load using plywood sheets to avoid point loading. Polished concrete floors require extra care: the grinding process generates heat that can affect curing, so we wait at least 28 days before the first grind to avoid delamination.",
+        "Professionals use the 'pull-out test' or core samples to verify concrete strength if you need earlier access. ESR includes a testing regime for time-sensitive industrial projects. We also provide written curing instructions for every job, so you know exactly when to apply sealers or coatings.",
+        "Remember: rushing the cure is the fastest way to get cracks, dusting or surface failure. A well-cured slab can last 50+ years. If you're building in Southbank and need to plan your schedule, talk to us. We'll coordinate with your builder or landscape team to ensure the concrete is ready exactly when you need it."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://images.ctfassets.net/nq9kuc33ycuo/337PMNIEh1SAihQUVmHI1I/182641aa19dd1fbaf537c958c1ce4cc2/083_DJI_0999-HDR.jpg?w=900&h=599&fl=progressive&q=100&fm=jpg",
+  "photoRowImages": [
+    "https://images.ctfassets.net/nq9kuc33ycuo/4zfcPTZ2RJvslfSURoxTEW/8878d41a4098968d9d24c7100f9a1075/News_Article_Image_Spec.png?w=900&h=675&q=100&fm=png",
+    "https://images.ctfassets.net/nq9kuc33ycuo/6ByCY7AkAlDeAQ6oTMhuA5/c74fe153deaabf514f9b0692c33d38b8/Moorebank_Intermodal.jpg?w=900&h=675&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/70vezYcrBzGIXaL4MrqmBv/13ba44e79de66f3c84f60f65d8a071d6/esr_HomepageVideo.jpg?w=1416&h=607&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/6K3G6MfGJBG3Zo3LJytYLq/6cfddedc1a4161e2cf54b7c4e5730948/Image_for_Hero_Content_block__1_.png?w=1360&h=486&q=100&fm=png"
+  ],
+  "aboutImages": [
+    "https://images.ctfassets.net/nq9kuc33ycuo/5xyGE12Vo3i2fJNmwmwn1o/d9243b894b9070201c585c515f5d87d4/20230414_esr_bringelly_drone_0122.jpg?w=1104&h=735&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/337PMNIEh1SAihQUVmHI1I/182641aa19dd1fbaf537c958c1ce4cc2/083_DJI_0999-HDR.jpg?w=900&h=599&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/4zfcPTZ2RJvslfSURoxTEW/8878d41a4098968d9d24c7100f9a1075/News_Article_Image_Spec.png?w=900&h=675&q=100&fm=png"
+  ],
+  "fullWidthImage": "https://images.ctfassets.net/nq9kuc33ycuo/6ByCY7AkAlDeAQ6oTMhuA5/c74fe153deaabf514f9b0692c33d38b8/Moorebank_Intermodal.jpg?w=900&h=675&fl=progressive&q=100&fm=jpg",
+  "bannerHeading": "Ready to pour?",
+  "bannerSubheading": "Get a free, fixed-price quote today.",
+  "bannerImage": "https://images.ctfassets.net/nq9kuc33ycuo/70vezYcrBzGIXaL4MrqmBv/13ba44e79de66f3c84f60f65d8a071d6/esr_HomepageVideo.jpg?w=1416&h=607&fl=progressive&q=100&fm=jpg",
+  "testimonialsImage": "https://images.ctfassets.net/nq9kuc33ycuo/6K3G6MfGJBG3Zo3LJytYLq/6cfddedc1a4161e2cf54b7c4e5730948/Image_for_Hero_Content_block__1_.png?w=1360&h=486&q=100&fm=png",
+  "galleryImages": [
+    "https://images.ctfassets.net/nq9kuc33ycuo/5xyGE12Vo3i2fJNmwmwn1o/d9243b894b9070201c585c515f5d87d4/20230414_esr_bringelly_drone_0122.jpg?w=1104&h=735&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/337PMNIEh1SAihQUVmHI1I/182641aa19dd1fbaf537c958c1ce4cc2/083_DJI_0999-HDR.jpg?w=900&h=599&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/4zfcPTZ2RJvslfSURoxTEW/8878d41a4098968d9d24c7100f9a1075/News_Article_Image_Spec.png?w=900&h=675&q=100&fm=png",
+    "https://images.ctfassets.net/nq9kuc33ycuo/6ByCY7AkAlDeAQ6oTMhuA5/c74fe153deaabf514f9b0692c33d38b8/Moorebank_Intermodal.jpg?w=900&h=675&fl=progressive&q=100&fm=jpg",
+    "https://images.ctfassets.net/nq9kuc33ycuo/70vezYcrBzGIXaL4MrqmBv/13ba44e79de66f3c84f60f65d8a071d6/esr_HomepageVideo.jpg?w=1416&h=607&fl=progressive&q=100&fm=jpg"
+  ],
+  "pricingBgImage": "https://images.ctfassets.net/nq9kuc33ycuo/6K3G6MfGJBG3Zo3LJytYLq/6cfddedc1a4161e2cf54b7c4e5730948/Image_for_Hero_Content_block__1_.png?w=1360&h=486&q=100&fm=png"
+}
