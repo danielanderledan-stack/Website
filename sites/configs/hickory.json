@@ -1,0 +1,348 @@
+{
+  "siteType": "builder",
+  "businessName": "Hickory",
+  "suburb": "Southbank",
+  "phone": "+61 3 9429 7411",
+  "email": "hello@hickory.com.au",
+  "address": "L5/68 Clarke St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.828972,
+    "longitude": 144.9598907
+  },
+  "tagline": "Southbank's go-to builder",
+  "primaryColor": "#FF4500",
+  "primaryColorRgb": "255, 69, 0",
+  "primaryColorHover": "#E63900",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builder",
+      "sub": "30 years of trade know-how",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_C1G7tlMazyPzBoAQ9uQzuk5YMiE6XKgSTkl0Zed58sZNZE948RBkDEE3qvbMOFlQjUsiVKrSs07-x3pGWU2qLxfvzcrpB20e2toXltyd7SSKQlR0x6LUpjLBs1s_XOSNJKu3=w1600-h1200-k-no"
+    },
+    {
+      "title": "Built Around Your Life",
+      "sub": "Fixed quotes, on time every time",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKG7bilL0SgHuUBRPROSD7--UAwLCl8MbPF3b6KBFGV4q9rqpehl5xI361ZbVgKxuUJsOMYQyjkyx8pZrE4L9XvnNZC7K3hNTRKuPdC761RCQubsK7pflxluWNAlk5ocr6Bbsi=w1600-h1200-k-no"
+    },
+    {
+      "title": "Over 30 Years in Melbourne",
+      "sub": "Local & fully licensed",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-SdrPpr9k3ttd3IyYH79adWrcDehgYig4PQvQID7M3Fs1GyKyG8pbRnrF-kIl-EV91acQG9MxHSkq1h8ujXJG3GzFFcTrY2tWpK2t9aIbtyJZbKMNmhY-gNMThkQZ64FGvu0=w1600-h1200-k-no"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted local builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "Hickory has been building right across Melbourne's Southbank and beyond for over 30 years. We're a down-to-earth crew that specialises in every kind of project from new homes to big commercial builds. No fancy talk, just straight-up quality workmanship and a promise to get it done right.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From the ground up to the final coat of paint, we handle every stage of construction across Southbank and the wider Melbourne area. Our team brings decades of experience to every job site, big or small.",
+  "services": [
+    {
+      "title": "New Home Builds",
+      "desc": "Design and build your dream home from scratch with our experienced team.",
+      "longDesc": "We take care of everything from site prep to handover, building custom homes in Southbank and across Melbourne that are made to last.",
+      "points": [
+        "Custom floor plans",
+        "Fixed-price contracts",
+        "Local council approvals"
+      ]
+    },
+    {
+      "title": "Renovations & Extensions",
+      "desc": "Transform your current space with a seamless renovation that adds real value.",
+      "longDesc": "Kitchen, bathroom, or whole-house renovation specialists working across Southbank to give your home a fresh new feel without the drama.",
+      "points": [
+        "Open-plan reconfig",
+        "Quality finishes",
+        "Minimal site disruption"
+      ]
+    },
+    {
+      "title": "Commercial Construction",
+      "desc": "Full-scale commercial builds for offices, retail, and industrial spaces.",
+      "longDesc": "We manage every stage of the commercial build process for Southbank businesses from concept to completion with strict timelines and budgets.",
+      "points": [
+        "Fast-track programs",
+        "Safety-first sites",
+        "Turnkey delivery"
+      ]
+    },
+    {
+      "title": "Data Centres",
+      "desc": "Specialist construction for high-tech data and server facilities.",
+      "longDesc": "Hickory brings 30-plus years of complex project know-how to data centre builds across Melbourne's Southbank ensuring precision and power.",
+      "points": [
+        "Precision engineering",
+        "24/7 build schedule",
+        "Secure environments"
+      ]
+    },
+    {
+      "title": "Facade & Structure Work",
+      "desc": "Expert facade and structural engineering for standout buildings.",
+      "longDesc": "Our facade and structural teams handle everything from glass curtain walls to steel frames across Southbank projects big and small.",
+      "points": [
+        "Glass & steel",
+        "Weatherproof systems",
+        "Engineering support"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "Full project oversight from budget to completion, no surprises.",
+      "longDesc": "We keep your Southbank build on track, on budget, and on spec with transparent project management and real-time updates every step.",
+      "points": [
+        "Real-time reporting",
+        "Budget control",
+        "Quality checks"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the Bayside",
+  "reviews": [
+    {
+      "text": "Hickory handled our whole Southbank office fit-out from start to finish. The team kept us updated every week and finished ahead of schedule. Could not ask for more.",
+      "name": "Sarah F.",
+      "role": "Southbank Business Owner"
+    },
+    {
+      "text": "We used Hickory for a major renovation on our family home in Southbank. They were straightforward about the costs and the build quality is top notch. Highly recommend.",
+      "name": "Mark T.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "As a property manager in Southbank, I've seen a lot of builders. Hickory stands out for their clear communication and no-nonsense approach. They delivered exactly what they promised.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne",
+    "Coburg",
+    "Fitzroy",
+    "Richmond",
+    "St Kilda",
+    "Port Melbourne",
+    "Docklands"
+  ],
+  "about": {
+    "intro": "Hickory is a Southbank-based construction company with over 30 years in the game building everything from homes to data centres across Melbourne.",
+    "story": [
+      "Hickory started out in Southbank more than three decades ago with a simple goal: build things right and treat people fair. From a small crew, we have grown into a team of over 1000 strong across Melbourne.",
+      "We have worked on everything from single-home renovations to massive commercial projects like the Fitzroy Gasworks development and high-tech data centres. Every job gets the same honest, no-nonsense treatment."
+    ],
+    "mission": "To keep building better places for Southbank and Melbourne communities for the next 30 years.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Southbank and Melbourne inside out from council rules to the best tradies."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "We give you a solid number upfront and stick to it no nasty surprises."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule and finish every project when we say we will."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Every job is backed by our workmanship guarantee so you can sleep easy."
+      }
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "150+",
+        "label": "Projects Complete"
+      },
+      {
+        "value": "1000+",
+        "label": "Team Members"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Licensed in all categories"
+    ]
+  },
+  "pricing": {
+    "intro": "We keep pricing straight-up and honest for every Southbank project. No hidden fees, no lock-in contracts you can not get out of.",
+    "packages": [
+      {
+        "name": "Initial Chat",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Renovation",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom New Home",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council liaison",
+          "Turnkey handover",
+          "Premium finishes"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and written up front so you know exactly where you stand."
+  },
+  "contact": {
+    "intro": "Want a free quote for your Southbank project or just want to talk it through with someone who knows their stuff? Get in touch today."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Hickory | Southbank Builder | Custom Home & Commercial Builds",
+      "description": "Hickory is Southbank's trusted builder with over 30 years experience in new homes, renovations, and commercial projects across Melbourne. Fixed prices, no surprises."
+    },
+    "about": {
+      "title": "About Hickory — Southbank's Family-Run Builder",
+      "description": "Learn about Hickory, a Southbank construction company with 30+ years of hands-on experience. We build homes, offices, data centres, and more across Melbourne."
+    },
+    "services": {
+      "title": "Building Services in Southbank | Hickory Construction",
+      "description": "Full range of building services in Southbank from new home builds to commercial construction. Hickory handles every stage with fixed prices and a licensed team."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Hickory",
+      "description": "Get a free fixed-price quote for your Southbank build. No hidden fees, no lock-in contracts. Honest pricing from a builder with 30+ years in the game."
+    },
+    "contact": {
+      "title": "Contact Hickory | Free Southbank Build Consultation",
+      "description": "Call or email Hickory for a free no-obligation chat about your Southbank construction project. Real advice from real builders."
+    },
+    "blog": {
+      "title": "Southbank Building & Renovation Blog | Hickory",
+      "description": "Read the latest Southbank building guides, cost breakdowns, and local renovation tips from the team at Hickory with 30+ years experience."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "A full breakdown of home extension costs in Southbank including materials, labour, and council fees from a local builder with 30 years experience.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0P2W2raNXmM5U2PgKCy1OKGX7gFB6LN3idp5UFIqDZdBP1C_uMhCRV5d5TF3Ak79Vh_by564qs1D_L43obsiA3sv4Ns38fBH9Bx58YB2hpHqrxnKT19zwPTmg0okT5eLikyYw0Q=w1600-h1200-k-no",
+      "body": [
+        "Thinking about extending your home in Southbank in 2026? You are not alone. With property prices climbing in Melbourne's inner suburbs, more homeowners are choosing to add square metres rather than move. But how much does a home extension actually cost in Southbank right now? The short answer is anywhere from $80k for a basic single-room addition to $250k-plus for a full two-storey rear extension including a new kitchen and living space.",
+        "Every Southbank extension is different because every house is different. You have the old Victorians in the back streets and the newer apartment blocks near the river. That means your foundation type, roof structure, and access all change the price. For a standard single-level rear extension on a Southbank terrace you are looking at roughly $3000 to $4500 per square metre for the build alone. That does not include design, engineering, or council permits.",
+        "Council permits are where a lot of Southbank projects blow out. The City of Melbourne has strict rules around heritage overlays, height limits, and setback distances. If your property sits in a heritage zone you will need a planning permit which can take 3 to 6 months and cost between $3000 and $10k just in application fees. You also have to factor in a building surveyor, structural engineer, and sometimes a traffic report if you are blocking a lane.",
+        "Materials are another big cost driver in 2026. Timber, steel, and concrete have all jumped since 2023. For a typical Southbank extension you will spend about 30 to 40 percent of the total budget on materials alone. That includes framing timber, roof trusses, bricks or cladding, insulation, and all the internal finishes like plasterboard, paint, and flooring. Choose mid-range fittings and you will save thousands over the premium brands.",
+        "Labour costs in Southbank sit around $600 to $900 per day for a qualified carpenter and $400 to $600 for a general labourer. Most extensions take 8 to 16 weeks from site start to handover depending on the size and complexity. A good builder will have you on site for the minimum time and get the job done clean. Hickory always gives a firm completion date in the contract.",
+        "One thing we see a lot in Southbank is homeowners forgetting about the hidden costs. Waste removal, skip bins, temporary fencing, and site insurance add up fast. Budget at least $5000 for site costs on a small extension and $15k plus on a large one. You also need to factor in a contingency of around 10 percent of the total build cost for things that pop up during the work like rotten joists or dodgy wiring.",
+        "The best way to get a real price for your Southbank extension is to have a builder walk through with you. That is why we do free on-site quotes. We look at the access, the existing structure, and the services and give you a fixed number. No guesswork, no hidden fees. Just a straight-up price for the job you want done.",
+        "So if you are thinking about adding space to your Southbank home in 2026, give the team at Hickory a call. We have been doing this for over 30 years and we know exactly what works and what does not in this part of town."
+      ]
+    },
+    {
+      "title": "Best Time to Pour Concrete in Melbourne Winter",
+      "date": "February 2026",
+      "excerpt": "Everything you need to know about pouring concrete in Melbourne's cold months including curing tips, frost risks, and how to avoid cracking in Southbank.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSzzBLVEiSPj2DeUssACZC7XPbpeQhD3Rh0Ed2Kn3X3IN6liScBZcOi2A4Hk9QOi2q4AALswx9jn8FE1Q2Eu9DTV-kaxoC46PunELWTHHmCt6pn1fiVjgL3nuO4zsz5Fh7zIlfCw=w1600-h1200-k-no",
+      "body": [
+        "Pouring concrete in Melbourne during winter is a different game entirely. The temperature drops, the rain comes, and the curing time changes. But if you plan properly you can pour all year round even in Southbank where the weather is notoriously unpredictable. The key is understanding how cold affects the concrete mix and the setting process.",
+        "Concrete needs to stay above 5 degrees Celsius for at least 48 hours after pouring to cure properly. When the temperature in Southbank drops below that, the water in the mix can freeze and expand causing cracks and surface spalling that ruin the finish. That is why we always check the 7-day forecast before scheduling a pour in winter. If we see a cold snap coming we either delay or add insulation blankets.",
+        "There is also the rain factor. Melbourne winter can dump 50mm in a day and that is a problem for fresh concrete. Rain on the surface washes out the cement paste and leaves a weak sandy layer behind. We cover every pour with plastic sheeting and keep it covered for at least 3 days. That adds a bit of cost but saves a lot of headaches.",
+        "The good news is that winter concrete actually cures slower and stronger. Summer concrete dries fast and can shrink crack if you do not keep it wet. Winter concrete takes its time and reaches a higher final strength if you protect it right. We add accelerators to the mix to speed things up a bit and keep the schedule on track.",
+        "For Southbank projects like driveways, patios, or footings we use a standard 20MPa to 32MPa mix depending on the load. In winter we might bump that up to 25MPa minimum to give a bit more margin. We also use a low-shrinkage additive to reduce the risk of hairline cracks as the concrete settles.",
+        "Site preparation matters more in winter. The ground under your slab needs to be dry and compacted. Wet ground shifts and can cause the slab to crack later. We strip any topsoil, put down a compacted crusher dust base, and always use a vapour barrier under the slab. That is not optional in Southbank where the water table can get high.",
+        "If you are planning a concrete job in Southbank this winter, talk to your builder about the weather window. We have been doing this for 30 years and we know exactly when to pour and when to wait. A few days delay in winter can save you thousands in repairs later.",
+        "Pouring concrete in Melbourne winter is totally doable if you have the right team. Call Hickory for a no-obligation chat about your next project and we will walk you through the best timeline for the job."
+      ]
+    },
+    {
+      "title": "Cost of a New Kitchen in Southbank: Full 2026 Guide",
+      "date": "January 2026",
+      "excerpt": "A detailed 2026 guide to kitchen renovation costs in Southbank including cabinet choices, bench top materials, and appliance prices from a local builder.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhSJWJTXzqraqZtIT2oyWk-ibup_7zcDLBQZJtrmWXA5RMXBxZe6A2fpeON21IAWxVEBmmcX3P1pt4n0prrhh3AXQ9pBQM8bBX8vnRvwJoqmPxaoaChRnxDwejjU175C3keffAZw=w1600-h1200-k-no",
+      "body": [
+        "A new kitchen is one of the best investments you can make in your Southbank home. Whether you are in a classic terrace or a modern apartment near the river, the kitchen is the heart of the house. But what does a full kitchen renovation cost in Southbank in 2026? It varies hugely depending on size, materials, and whether you move walls or keep the same layout.",
+        "For a basic kitchen refresh in Southbank like new benchtops, cabinets, and appliances you can expect to spend $15k to $25k. If you are doing a full gut and reconfigure including moving plumbing and electrical, you are looking at $35k to $60k for a standard 3x4 metre space. For a large open-plan kitchen with an island, custom joinery, and premium appliances, the price goes up to $80k or more.",
+        "The biggest cost in any Southbank kitchen job is the cabinetry. Most kitchens use 15 to 20 linear metres of cabinets including base and wall units. Flat-pack cabinets from a big box store cost around $100 to $150 per linear metre installed but the quality is not great. Custom-built cabinetry from a local joinery like what we use is $250 to $450 per metre and gives you a much better result with stronger construction and better hardware.",
+        "Benchtops are another big line item. Laminate is the budget option at $50 to $100 per square metre installed. Stone benchtops like Caesarstone or engineered quartz run $250 to $500 per square metre. Natural stone like marble or granite is $500 to $800 plus. For most Southbank homes we recommend a good engineered stone because it looks great, does not stain, and stays within most renovation budgets.",
+        "Appliances eat about 15 to 20 percent of your kitchen budget. A mid-range range cooker, fridge, and dishwasher combo runs $4000 to $6000. Premium European brands like Miele or Gaggenau push that to $10k or more. You can save by buying bundle deals or choosing last year's models, but we always say spend on the things you use every day like the cooktop and oven.",
+        "Plumbing and electrical work in Southbank needs a licensed pro and that adds $2000 to $4000 depending on how much you move. If you are relocating the sink or the cooktop, the cost goes up because of gas lines, drainage, and electrical rerouting. Keep the same layout and you save a chunk of that.",
+        "Labour for a kitchen install is around $600 to $900 per day for a good carpenter and the job usually takes 2 to 4 weeks from start to finish including the cabinet installation, benchtop fitting, tiling, and final touches. A good builder will have a set schedule and stick to it.",
+        "For a free fixed-price quote on your Southbank kitchen renovation, call Hickory. We give you a full breakdown of every cost line so there are no surprises."
+      ]
+    },
+    {
+      "title": "Tile vs Timber Flooring for Southbank Homes in 2026",
+      "date": "December 2025",
+      "excerpt": "A comparison of tile and timber flooring options for Southbank homes including cost, durability, and maintenance tips for Melbourne's climate.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnB9sOmLP2ze06VO7RhKtwtGlhNRM5xuKu1H983DSQHE2QxDm73CF00TzlVrqK3ye4fUv0c52bEAuF_4_KNpkn5Nrm3dlqQXL8dhuQdP8y9yQ7lzaSOAvoCgBilmLF5Z_NDMu8=w1600-h1200-k-no",
+      "body": [
+        "Choosing between tile and timber flooring for your Southbank home in 2026 is a big decision and one that affects the look, feel, and value of your property. Both have their place but they work differently in Melbourne's climate with its wet winters and dry summers. Here is a breakdown of what each option costs and how it performs in a real Southbank home.",
+        "Timber flooring is the classic choice for Melbourne homes. It looks warm, adds character, and generally increases resale value. Solid hardwood timber costs $80 to $150 per square metre installed for materials and labour combined. Engineered timber is a bit cheaper at $60 to $120 but has a plywood core that handles moisture better. Neither is ideal for wet areas like bathrooms or laundry rooms.",
+        "Tile flooring is the workhorse of the Australian home. Porcelain and ceramic tiles are waterproof, scratch-resistant, and handle heat and cold well. Prices range from $30 to $80 per square metre for standard rectified tiles up to $100 plus for large format or natural stone tiles. Installation is $40 to $70 per square metre depending on the tile size and pattern. Large format tiles cost more to lay but look cleaner with fewer grout lines.",
+        "In Southbank homes with the old timber floor joists, you need to be careful about adding heavy tiling because the structure might not handle the extra weight. A standard porcelain tile weighs around 20kg per square metre and that is fine for most floors, but if you go for natural stone you are looking at 40kg plus and that needs a structural engineer to check.",
+        "Maintenance is a key difference. Timber needs to be sanded and resealed every 7 to 10 years costing about $25 to $40 per square metre. Tile just needs a mop and a periodic re-grout if the joints start to crack. In Southbank where the humidity can be high, timber expands and contracts more than tile, so you need to leave proper expansion gaps around the edges.",
+        "We see a lot of Southbank homeowners choosing a mix of both. Tile in the high-traffic areas like the kitchen, hallway, and bathrooms, and timber in the living room and bedrooms. That gives you the best of both worlds and keeps the budget in check. The transition strip between the two materials is a simple detail that makes a huge difference.",
+        "If you are building new or renovating in Southbank and want flooring advice, talk to the team at Hickory. We have worked with both materials for decades and we can tell you exactly what suits your project and your budget.",
+        "A free on-site quote will get you a clear picture of the costs and the timeline for your new floors."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENelBrwpa04IL0Xf00aXejS_COzMQOR1sGRvZ2iE7p3z11an0SIthJfHnuQYSjSpKPGY-nnK4KKh3GQUuWg3jFJGsASphX-DhnlJ8eyeBDYUHBgdI7TM6KTAtK_j0ZbGMooGVR=w1600-h1200-k-no",
+  "photoRowImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAGqbT2UhuD60Eu0zgamlpWSnIjVTqB7yfIT_skGO8sm2hwV535eCMCT-DgdcjGge-XsO7UAGB5tGWeRUdX4vuvRRIsy6eUfbwg2gnkN8g6poQdAIlYcqc4j_xwhiYOMeeConZ=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKpVkZndR6NTgxFE1klcLBGsMy4dRRgpQfhJCVnVccEaxRmm8YlA-Vx14NfUgHrbOVpnNjAkzAEowUAnLsyOHYVOIpHMpFQH4NNAuCuuVYZjUfQpTAsyLEyqEUzqmQXoHxXkn3=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpGdOa9R76hqAALTHwwwSAr4veE1s01i_i_7-ENt1KhqcMgmbBngNI4-WswVG6hdDYiFLMxESYABk2Rbw0mwDQMH1JuHFooRlcB_hoKbRjTtdEGU2fUQX53bxPXZ0KmTC6Qu__-A=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOaNDRx_cn3eb40nv1zJxOSF-SeQC3pEXuce70KFoBeg4ygg5azKvlAOlKITl-K-RnlhdZwWAbnUwZKl_NGBFLaAT5wY_l710S1UYgQro-aDbsTz3UINJ4FH5Gn8e77xGgV62iiw=w1600-h1200-k-no"
+  ],
+  "aboutImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0P2W2raNXmM5U2PgKCy1OKGX7gFB6LN3idp5UFIqDZdBP1C_uMhCRV5d5TF3Ak79Vh_by564qs1D_L43obsiA3sv4Ns38fBH9Bx58YB2hpHqrxnKT19zwPTmg0okT5eLikyYw0Q=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4fNxNjZDqxxuVFWN-UBVNm8BWEnULQJlVLfoDqT5TgmAaPPmGHBsdazp2WJhZoGNcuJVN2J5_1LyDygDjXEIUhIAy3v4jGSiehWpR9c-zZiZFxaJzo2FQMIAQLcZD2uBB42ECTg=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGSzzBLVEiSPj2DeUssACZC7XPbpeQhD3Rh0Ed2Kn3X3IN6liScBZcOi2A4Hk9QOi2q4AALswx9jn8FE1Q2Eu9DTV-kaxoC46PunELWTHHmCt6pn1fiVjgL3nuO4zsz5Fh7zIlfCw=w1600-h1200-k-no"
+  ],
+  "fullWidthImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHCnsXC34JJnQ2kncfJ3MtFKdhTXNBvZlbUb15NIm8qbo9SXkEhdgZWY_5SOKpKAm5caHPYJe3K9AFfVp2y2JA1pkx5S9l-7477D1PrW2uFuvwAHOaHvyMVtFpQ5ikrKuMvnYm=w1600-h1200-k-no",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_C1G7tlMazyPzBoAQ9uQzuk5YMiE6XKgSTkl0Zed58sZNZE948RBkDEE3qvbMOFlQjUsiVKrSs07-x3pGWU2qLxfvzcrpB20e2toXltyd7SSKQlR0x6LUpjLBs1s_XOSNJKu3=w1600-h1200-k-no",
+  "testimonialsImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKG7bilL0SgHuUBRPROSD7--UAwLCl8MbPF3b6KBFGV4q9rqpehl5xI361ZbVgKxuUJsOMYQyjkyx8pZrE4L9XvnNZC7K3hNTRKuPdC761RCQubsK7pflxluWNAlk5ocr6Bbsi=w1600-h1200-k-no",
+  "galleryImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-SdrPpr9k3ttd3IyYH79adWrcDehgYig4PQvQID7M3Fs1GyKyG8pbRnrF-kIl-EV91acQG9MxHSkq1h8ujXJG3GzFFcTrY2tWpK2t9aIbtyJZbKMNmhY-gNMThkQZ64FGvu0=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENelBrwpa04IL0Xf00aXejS_COzMQOR1sGRvZ2iE7p3z11an0SIthJfHnuQYSjSpKPGY-nnK4KKh3GQUuWg3jFJGsASphX-DhnlJ8eyeBDYUHBgdI7TM6KTAtK_j0ZbGMooGVR=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAGqbT2UhuD60Eu0zgamlpWSnIjVTqB7yfIT_skGO8sm2hwV535eCMCT-DgdcjGge-XsO7UAGB5tGWeRUdX4vuvRRIsy6eUfbwg2gnkN8g6poQdAIlYcqc4j_xwhiYOMeeConZ=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHKpVkZndR6NTgxFE1klcLBGsMy4dRRgpQfhJCVnVccEaxRmm8YlA-Vx14NfUgHrbOVpnNjAkzAEowUAnLsyOHYVOIpHMpFQH4NNAuCuuVYZjUfQpTAsyLEyqEUzqmQXoHxXkn3=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFpGdOa9R76hqAALTHwwwSAr4veE1s01i_i_7-ENt1KhqcMgmbBngNI4-WswVG6hdDYiFLMxESYABk2Rbw0mwDQMH1JuHFooRlcB_hoKbRjTtdEGU2fUQX53bxPXZ0KmTC6Qu__-A=w1600-h1200-k-no"
+  ],
+  "pricingBgImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHOaNDRx_cn3eb40nv1zJxOSF-SeQC3pEXuce70KFoBeg4ygg5azKvlAOlKITl-K-RnlhdZwWAbnUwZKl_NGBFLaAT5wY_l710S1UYgQro-aDbsTz3UINJ4FH5Gn8e77xGgV62iiw=w1600-h1200-k-no"
+}
