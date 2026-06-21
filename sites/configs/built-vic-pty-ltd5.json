@@ -1,0 +1,338 @@
+{
+  "siteType": "builder",
+  "businessName": "Built Vic Pty Ltd",
+  "suburb": "Southbank",
+  "phone": "+61 3 9926 1900",
+  "email": "hello@builtvic.com.au",
+  "address": "L15/2 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8219877,
+    "longitude": 144.96288629999998
+  },
+  "tagline": "Construction, built differently",
+  "primaryColor": "#FF6B35",
+  "primaryColorRgb": "255, 107, 53",
+  "primaryColorHover": "#E55A2B",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Digital Builder",
+      "sub": "26 years of innovation",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFM7kO7DibaqSODs33DxW3_n-vA6o76UqTq22lgv7Ttl2T4fpC070vlv19SQvYlLazg9t6vXLQfaHTNF_ZpgjYxUy3FGiMsdm5MioEuy8xRGNtJpgdZcPffFWHh6Cr3wH8FQvWdPOQ9V4E0=w1600-h1200-k-no"
+    },
+    {
+      "title": "Certainty at Scale",
+      "sub": "Digital-first delivery",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLECFQZ-pUsIiKT7x4y18gFvIwhFDWEyLca21FQZuCYbSjLaSXrNT6U21hsGUwtHZsshHNLhwecm6lpDl9XSqpztFAPLqOM0zITZlczv3DQt5cUDR0mzrxgdP9NaJNcvSCdt4Z39X2nz2q=w1600-h1200-k-no"
+    },
+    {
+      "title": "Built for Southbank",
+      "sub": "Locally rooted, globally connected",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEbIgMbzEsxsOqTGw3a1med8C3Bw0h8zjx7FlqZaXKJ9YHSzl_7afQtKGnz8jBPUwVkI3hktvtQnBlj1dmBev3UDxVMHiSEHJ95YSZf6Li2_GSHmdNjGvs_LCXdNE7Iucklw0vzD9QCb4=w1600-h1200-k-no"
+    }
+  ],
+  "ctaHeading": [
+    "Ready to build?",
+    "Built Vic delivers",
+    "for Southbank."
+  ],
+  "aboutHeading": "Builder That Innovates",
+  "aboutSubheading": "Digital-first construction since 1999",
+  "aboutText": "For 26 years, Built Vic has redefined construction across Melbourne from our Southbank headquarters. We combine deep industry expertise with a digital-first approach, delivering certainty for projects of all scales. Our team of 1,500 people globally brings innovative solutions to every build, from commercial towers to data centres.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end construction solutions",
+  "servicesText": "From commercial precincts to specialised data centres, Built Vic delivers certainty at scale across Southbank and greater Melbourne. Our digital-first methodology unlocks site constraints and optimises delivery for every project.",
+  "services": [
+    {
+      "title": "Commercial Construction",
+      "desc": "Office towers, retail spaces and mixed-use developments with precision.",
+      "longDesc": "Built Vic delivers high-rise commercial projects in Southbank and Melbourne CBD. Our digital tools slash timelines and improve safety, ensuring your commercial build stays on schedule and budget.",
+      "points": [
+        "Fast-track scheduling",
+        "Safety-first culture",
+        "BIM-enabled delivery"
+      ]
+    },
+    {
+      "title": "Data Centres",
+      "desc": "Mission-critical facilities built to hyperscale standards.",
+      "longDesc": "We specialise in data centre construction across Victoria, meeting stringent uptime and cooling requirements. Our digital-first approach reduces risk and accelerates commissioning for Southbank's tech backbone.",
+      "points": [
+        "Hyperscale ready",
+        "Redundant systems",
+        "24/7 project oversight"
+      ]
+    },
+    {
+      "title": "Health Facilities",
+      "desc": "Hospitals and medical precincts designed for care.",
+      "longDesc": "Built Vic builds health infrastructure for Melbourne's growing population. From Southbank to the suburbs, we deliver sterile, compliant, and future-proof medical environments that heal.",
+      "points": [
+        "Infection control",
+        "Patient flow design",
+        "Regulatory compliance"
+      ]
+    },
+    {
+      "title": "Defence Infrastructure",
+      "desc": "Secure, resilient facilities for national priorities.",
+      "longDesc": "We deliver defence-grade construction with uncompromising security and durability. Our Southbank team manages complex classified projects across Australia with absolute discretion.",
+      "points": [
+        "Security cleared",
+        "AUDDS compliant",
+        "Integrated logistics"
+      ]
+    },
+    {
+      "title": "Stadiums & Precincts",
+      "desc": "Iconic venues and large-scale precinct developments.",
+      "longDesc": "From sporting arenas to civic precincts, Built Vic creates community landmarks. Our Southbank headquarters coordinates multi-trade workflows for seamless delivery of major public spaces.",
+      "points": [
+        "Crowd flow expertise",
+        "Sustainability focused",
+        "Public-private delivery"
+      ]
+    },
+    {
+      "title": "Digital-First Project Management",
+      "desc": "Data and AI driving certainty on every job.",
+      "longDesc": "Our proprietary digital tools transform how Southbank projects are managed. Real-time dashboards, AI-driven risk alerts and BIM integration give you total visibility from groundbreak to handover.",
+      "points": [
+        "Real-time dashboards",
+        "AI risk alerts",
+        "BIM integration"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank",
+  "reviews": [
+    {
+      "text": "Built Vic delivered our new commercial tower in Southbank six weeks early. Their digital-first approach meant we could track progress daily. Absolutely seamless.",
+      "name": "Sarah F.",
+      "role": "Southbank Property Developer"
+    },
+    {
+      "text": "We engaged Built Vic for a data centre expansion in Melbourne. The team understood our uptime requirements and managed the build with zero disruptions. Highly recommend.",
+      "name": "Mark T.",
+      "role": "Data Centre Manager"
+    },
+    {
+      "text": "Our health facility in Southbank was completed under budget thanks to Built Vic's innovative construction methods. The site was always clean and safe.",
+      "name": "Priya N.",
+      "role": "Hospital Director"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "Docklands",
+    "Port Melbourne",
+    "St Kilda",
+    "Richmond",
+    "South Melbourne",
+    "Flemington"
+  ],
+  "about": {
+    "intro": "Built Vic is a 100% Australian-owned digital-first contractor with 26 years of year-on-year profit, headquartered in Southbank. We deliver certainty at scale across Australia.",
+    "story": [
+      "Founded in 1999, Built Vic started as a small Melbourne crew with a big idea: construction could be smarter. From our Southbank office, we grew to a national contractor by embracing digital tools and a culture of safety. Today, we manage a $7.5 billion secured pipeline, with 65% of our work in government projects. Our team of 1,500 people leads 20,000 across our sites globally.",
+      "Our digital-first process began over a decade ago, and it's now woven into everything we do. We use data, AI, and BIM to unlock site constraints, optimise logistics, and deliver on time. From commercial towers to defence infrastructure, Built Vic is redefining what's possible in Australian construction."
+    ],
+    "mission": "To accelerate Australia's built environment through digital-first certainty, from our Southbank base to every project we touch.",
+    "whyUs": [
+      {
+        "title": "Digital-First",
+        "text": "Our proprietary technology gives you real-time visibility and reduces risk on every Southbank project."
+      },
+      {
+        "title": "26 Years Strong",
+        "text": "Year-on-year profit and a $7.5bn pipeline prove we deliver, even in tough markets."
+      },
+      {
+        "title": "Government Trusted",
+        "text": "65% of our work comes from government clients who demand the highest standards."
+      },
+      {
+        "title": "Local Team",
+        "text": "Our Southbank headquarters means quick site visits and deep knowledge of Melbourne's regulations."
+      }
+    ],
+    "stats": [
+      {
+        "value": "26+",
+        "label": "Years of Profit"
+      },
+      {
+        "value": "$7.5bn",
+        "label": "Secured Pipeline"
+      },
+      {
+        "value": "1,500",
+        "label": "Team Members"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insured to $50m",
+      "ISO 9001:2015 Certified",
+      "Master Builders Association member"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent pricing. Every Southbank project starts with a no-obligation consultation where we outline costs, timelines, and digital tools — no surprises, no lock-in.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site assessment",
+          "Feasibility study",
+          "Preliminary budget estimate"
+        ]
+      },
+      {
+        "name": "Standard Delivery",
+        "price": "from $500k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Digital project dashboard",
+          "Fixed-price contract",
+          "Weekly site reports",
+          "Defects liability period"
+        ]
+      },
+      {
+        "name": "Turnkey Design & Build",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & approvals",
+          "Procurement & construction",
+          "Commission & handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — we believe in building trust as strongly as we build structures."
+  },
+  "contact": {
+    "intro": "Ready to start your next Southbank project? Get in touch for a free, no-obligation consultation. Our team will walk you through the possibilities and show you how digital-first construction can deliver certainty for your build."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Built Vic | Southbank Builder | Digital-First Construction",
+      "description": "Built Vic is Southbank's leading digital-first construction company. 26 years of profit, 1,500 staff, and a $7.5bn pipeline. Get certainty at scale for your next project."
+    },
+    "about": {
+      "title": "About Built Vic — Southbank's Digital Builder Since 1999",
+      "description": "Learn about Built Vic, a 100% Australian-owned contractor based in Southbank. 26 years of innovation, 65% government work, and a digital-first process that delivers."
+    },
+    "services": {
+      "title": "Construction Services in Southbank | Built Vic",
+      "description": "Commercial construction, data centres, health facilities and more in Southbank and Melbourne. Built Vic's digital-first approach ensures on-time, on-budget delivery."
+    },
+    "pricing": {
+      "title": "Construction Pricing Southbank | Built Vic Free Estimate",
+      "description": "Transparent pricing for construction projects in Southbank. Get a free initial consultation and fixed-price quote from Built Vic. No lock-in, no surprises."
+    },
+    "contact": {
+      "title": "Contact Built Vic | Southbank Construction Experts",
+      "description": "Contact Built Vic for a free consultation on your Southbank construction project. Digital-first delivery from Australia's most innovative builder."
+    },
+    "blog": {
+      "title": "Southbank Building & Construction Blog | Built Vic",
+      "description": "Expert insights on commercial construction, data centres, and digital building in Southbank and Melbourne. Tips, costs and local guides from Built Vic."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does Commercial Construction Cost in Southbank 2026?",
+      "date": "March 2026",
+      "excerpt": "Discover the average cost per square metre for commercial construction in Southbank, Melbourne. Factors include materials, labour and digital tools.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrDihxwaYmL1GYFWjqXybqJBvqHjnSnLIlTAipYZtkyKHO5yuL-lPKznER8W7872PhdcRhRFEJC9UT1trYwHGYFtdva1_KBadUQBE1CL3M46neOFKjo5uqgEak5hfQqCN44Nwth8PcR_Zs=w1600-h1200-k-no",
+      "body": [
+        "If you're planning a commercial build in Southbank, the first question is always cost. As of 2026, commercial construction in Southbank typically ranges from $4,500 to $7,500 per square metre, depending on fit-out complexity and site conditions. Built Vic uses digital twin technology to give you a precise estimate before you commit a dollar.",
+        "Labour costs in Melbourne have stabilised after the post-pandemic surge, but skilled trades remain in high demand. Southbank's proximity to the CBD means premium rates, yet our digital-first scheduling reduces labour waste by up to 15%. We track every hour against the model to keep your project on budget.",
+        "Material costs have seen fluctuations in steel and concrete. Sourcing locally from Victorian suppliers cuts transport costs and delays. Built Vic's procurement team locks in prices early, shielding you from market swings. Green building materials also attract government incentives, reducing your overall spend.",
+        "Site conditions in Southbank vary from brownfield redevelopments to greenfield sites. Underground services and heritage overlays can add $200-$500 per square metre. Our pre-construction feasibility study includes a full geotechnical and services audit, so there are no surprises when the excavator arrives.",
+        "Digital tools are a game-changer for cost control. Built Vic's real-time dashboards give you a live view of spend against progress. We use AI to flag potential overruns weeks early, letting you make informed decisions. This digital-first approach cuts cost blowouts by an average of 12% compared to traditional methods.",
+        "Ultimately, the key to accurate cost forecasting is early engagement. Contact Built Vic for a free initial consultation. We'll walk your site, review your plans, and produce a detailed digital estimate within a week. No obligation, just clarity."
+      ]
+    },
+    {
+      "title": "Building a Data Centre in Melbourne: What You Need to Know",
+      "date": "February 2026",
+      "excerpt": "Melbourne's data centre boom is real. Learn about site selection, power requirements, and why Southbank is becoming a hub for digital infrastructure.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYua2_obos8FvOvj-co9YWpZ_AjKub-cTL-k7TQ-Jhq26yw8z9Ud-yzA037M_dlRCQeanpDWyBWtTIS76sAPeu-sxrmb1M_ZpwxnZsZDx3PkOc7icjHa07luQGYWO6e4gGpqXzeRVqq-d1=w1600-h1200-k-no",
+      "body": [
+        "Melbourne's demand for data centres is exploding, with Southbank emerging as a prime location due to its fibre connectivity and stable power grid. Building a hyperscale facility requires meticulous planning around cooling, redundancy, and security. Built Vic has delivered several data centres in the region, each meeting Tier III and IV standards.",
+        "Site selection is critical. Southbank offers proximity to major internet exchanges and multiple power substations. However, flood risk and heritage overlays can complicate development. Our team conducts a thorough site suitability assessment, including fibre path diversity and utility capacity checks, before you commit to a purchase.",
+        "Power is the biggest cost driver. A 10MW facility can consume $8-12 million annually in electricity. Built Vic integrates on-site renewable generation and efficient cooling systems to lower operational costs. We also negotiate with retailers to secure competitive power purchase agreements for your facility.",
+        "Cooling technology is evolving fast. Traditional CRAC units are giving way to liquid cooling and free air cooling, which reduce energy use by up to 40%. Our digital models simulate thermal loads to optimise airflow, ensuring your servers stay within operating thresholds even on Melbourne's hottest days.",
+        "Security and compliance are non-negotiable. Data centres must meet AS/NZS ISO 27001 and often require government security clearances. Built Vic's defence background means we understand site hardening, access control, and surveillance. We build in compliance from the ground up.",
+        "Timeline is another factor. A typical data centre build takes 18-24 months from design to commissioning. Our digital-first approach compresses the schedule by using off-site prefabrication and modular build techniques. Talk to Built Vic about your Melbourne data centre project today."
+      ]
+    },
+    {
+      "title": "The Future of Health Facility Construction in Melbourne",
+      "date": "January 2026",
+      "excerpt": "Health infrastructure is evolving rapidly. Explore design trends, infection control, and why Southbank builders are leading the way in hospital construction.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFM7kO7DibaqSODs33DxW3_n-vA6o76UqTq22lgv7Ttl2T4fpC070vlv19SQvYlLazg9t6vXLQfaHTNF_ZpgjYxUy3FGiMsdm5MioEuy8xRGNtJpgdZcPffFWHh6Cr3wH8FQvWdPOQ9V4E0=w1600-h1200-k-no",
+      "body": [
+        "Melbourne's health sector is investing billions in new facilities, and Southbank builders like Built Vic are at the forefront. Modern health construction demands flexibility, infection control, and patient-centred design. Gone are the days of sterile corridors — today's hospitals are healing environments with natural light and green spaces.",
+        "Infection control is the top priority. Built Vic uses antimicrobial materials, advanced HVAC filtration, and negative pressure rooms as standard. Our BIM models simulate airflow to identify potential contamination zones before construction begins. This reduces post-commissioning adjustments and ensures AS/NZS 1668 compliance.",
+        "Patient flow is a major design consideration. We work with clinicians to map patient journeys and optimise layout. Shorter travel distances for staff and better wayfinding for visitors improve outcomes. Digital twin technology lets you walk through the facility virtually before a single brick is laid.",
+        "Sustainability is driving change. Hospitals are energy-intensive, but our designs incorporate on-site solar, heat recovery systems, and smart lighting. The new Royal Melbourne Hospital extension, for example, achieved a 5-star Green Star rating. Built Vic can help your project meet similar targets.",
+        "Funding models vary. Public-private partnerships (PPPs) are common for large health projects, requiring rigorous cost management. Built Vic's digital dashboards give government clients full transparency on spend, milestones, and risk. We have delivered over $1 billion in health infrastructure across Victoria.",
+        "If you're planning a health facility in Melbourne, engage a builder early. Built Vic offers a free consultation to discuss your site, budget, and clinical requirements. Let's build a healthier future together."
+      ]
+    },
+    {
+      "title": "Top 5 Reasons to Choose Digital-First Construction in Southbank",
+      "date": "December 2025",
+      "excerpt": "Digital-first construction is transforming Southbank's skyline. Here are five compelling reasons to adopt it for your next project — from cost savings to safety.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLECFQZ-pUsIiKT7x4y18gFvIwhFDWEyLca21FQZuCYbSjLaSXrNT6U21hsGUwtHZsshHNLhwecm6lpDl9XSqpztFAPLqOM0zITZlczv3DQt5cUDR0mzrxgdP9NaJNcvSCdt4Z39X2nz2q=w1600-h1200-k-no",
+      "body": [
+        "Southbank is a hub for innovation, and digital-first construction is the new standard. Built Vic pioneered this approach over a decade ago, and it's now proven to reduce project delays by 20% and cost overruns by 15%. Here's why you should consider it for your next build.",
+        "Reason one: real-time visibility. With Built Vic's digital dashboard, you can see progress, budget, and risk metrics 24/7 from your phone or computer. No more waiting for weekly meetings — you know exactly where your project stands at any moment.",
+        "Reason two: AI-driven risk prediction. Our system analyses thousands of data points to flag potential issues before they become problems. Whether it's a weather delay, a supply chain hiccup, or a workforce shortage, we alert you early so you can act.",
+        "Reason three: collision-free design. BIM integration means all trades work from the same 3D model. MEP clashes are resolved in the virtual world, not on site. This eliminates rework, saving time and money. Southbank projects using BIM report 30% fewer change orders.",
+        "Reason four: safety improvements. Digital tools allow us to simulate high-risk activities like crane lifts and confined space entry. Workers can rehearse scenarios in VR before stepping on site. Built Vic has achieved a 40% reduction in lost-time injuries since adopting digital-first methods.",
+        "Reason five: sustainability outcomes. Digital construction reduces material waste through precise quantity take-offs and off-site fabrication. We track carbon emissions in real time and optimise logistics to cut fuel use. Your Southbank project can be both efficient and green."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwFCyoU4Ze8y0i7nXUXNRlTCY0BnFQoQdp4LGJiQalFzy3hhmz3y84wAzpAqml0tVfhMqZXCTLhCh3q7twLV_S4UQjzLgEEu_tAvy4Xt-GhA-BCQ9xZ4NLx-_9_zi-re2ISSpVJQcE2N5w=w1600-h1200-k-no",
+  "photoRowImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHK7LuJR664ouZ2QEClmx2PWiPVIh67JalCK53zxRBisk6WtuTLxBbjDOB-2p1_WYHrkBShnK-AeVpExckwiOeOW1WPApYynvjuC4ntfh4qhGAmtrjYmI769YCiTRtfWyFflmQl31M2anq9=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIPsXQpwggiy60UCikPWuK5d4iZMv2ghhFC9I51bHfFqTBP9HBr6SW77kpKyRJpegvCVuGO1r5dXYSzzPG-x3CimNscwC3kKaa7PBZHoc2Z4bOnadi283fG1vEtCWz7xEKM4sweeohDGA=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrDihxwaYmL1GYFWjqXybqJBvqHjnSnLIlTAipYZtkyKHO5yuL-lPKznER8W7872PhdcRhRFEJC9UT1trYwHGYFtdva1_KBadUQBE1CL3M46neOFKjo5uqgEak5hfQqCN44Nwth8PcR_Zs=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYua2_obos8FvOvj-co9YWpZ_AjKub-cTL-k7TQ-Jhq26yw8z9Ud-yzA037M_dlRCQeanpDWyBWtTIS76sAPeu-sxrmb1M_ZpwxnZsZDx3PkOc7icjHa07luQGYWO6e4gGpqXzeRVqq-d1=w1600-h1200-k-no"
+  ],
+  "aboutImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFM7kO7DibaqSODs33DxW3_n-vA6o76UqTq22lgv7Ttl2T4fpC070vlv19SQvYlLazg9t6vXLQfaHTNF_ZpgjYxUy3FGiMsdm5MioEuy8xRGNtJpgdZcPffFWHh6Cr3wH8FQvWdPOQ9V4E0=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLECFQZ-pUsIiKT7x4y18gFvIwhFDWEyLca21FQZuCYbSjLaSXrNT6U21hsGUwtHZsshHNLhwecm6lpDl9XSqpztFAPLqOM0zITZlczv3DQt5cUDR0mzrxgdP9NaJNcvSCdt4Z39X2nz2q=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEbIgMbzEsxsOqTGw3a1med8C3Bw0h8zjx7FlqZaXKJ9YHSzl_7afQtKGnz8jBPUwVkI3hktvtQnBlj1dmBev3UDxVMHiSEHJ95YSZf6Li2_GSHmdNjGvs_LCXdNE7Iucklw0vzD9QCb4=w1600-h1200-k-no"
+  ],
+  "fullWidthImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwFCyoU4Ze8y0i7nXUXNRlTCY0BnFQoQdp4LGJiQalFzy3hhmz3y84wAzpAqml0tVfhMqZXCTLhCh3q7twLV_S4UQjzLgEEu_tAvy4Xt-GhA-BCQ9xZ4NLx-_9_zi-re2ISSpVJQcE2N5w=w1600-h1200-k-no",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHK7LuJR664ouZ2QEClmx2PWiPVIh67JalCK53zxRBisk6WtuTLxBbjDOB-2p1_WYHrkBShnK-AeVpExckwiOeOW1WPApYynvjuC4ntfh4qhGAmtrjYmI769YCiTRtfWyFflmQl31M2anq9=w1600-h1200-k-no",
+  "testimonialsImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIPsXQpwggiy60UCikPWuK5d4iZMv2ghhFC9I51bHfFqTBP9HBr6SW77kpKyRJpegvCVuGO1r5dXYSzzPG-x3CimNscwC3kKaa7PBZHoc2Z4bOnadi283fG1vEtCWz7xEKM4sweeohDGA=w1600-h1200-k-no",
+  "galleryImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFM7kO7DibaqSODs33DxW3_n-vA6o76UqTq22lgv7Ttl2T4fpC070vlv19SQvYlLazg9t6vXLQfaHTNF_ZpgjYxUy3FGiMsdm5MioEuy8xRGNtJpgdZcPffFWHh6Cr3wH8FQvWdPOQ9V4E0=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGLECFQZ-pUsIiKT7x4y18gFvIwhFDWEyLca21FQZuCYbSjLaSXrNT6U21hsGUwtHZsshHNLhwecm6lpDl9XSqpztFAPLqOM0zITZlczv3DQt5cUDR0mzrxgdP9NaJNcvSCdt4Z39X2nz2q=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEbIgMbzEsxsOqTGw3a1med8C3Bw0h8zjx7FlqZaXKJ9YHSzl_7afQtKGnz8jBPUwVkI3hktvtQnBlj1dmBev3UDxVMHiSEHJ95YSZf6Li2_GSHmdNjGvs_LCXdNE7Iucklw0vzD9QCb4=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwFCyoU4Ze8y0i7nXUXNRlTCY0BnFQoQdp4LGJiQalFzy3hhmz3y84wAzpAqml0tVfhMqZXCTLhCh3q7twLV_S4UQjzLgEEu_tAvy4Xt-GhA-BCQ9xZ4NLx-_9_zi-re2ISSpVJQcE2N5w=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHK7LuJR664ouZ2QEClmx2PWiPVIh67JalCK53zxRBisk6WtuTLxBbjDOB-2p1_WYHrkBShnK-AeVpExckwiOeOW1WPApYynvjuC4ntfh4qhGAmtrjYmI769YCiTRtfWyFflmQl31M2anq9=w1600-h1200-k-no"
+  ],
+  "pricingBgImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIPsXQpwggiy60UCikPWuK5d4iZMv2ghhFC9I51bHfFqTBP9HBr6SW77kpKyRJpegvCVuGO1r5dXYSzzPG-x3CimNscwC3kKaa7PBZHoc2Z4bOnadi283fG1vEtCWz7xEKM4sweeohDGA=w1600-h1200-k-no"
+}
