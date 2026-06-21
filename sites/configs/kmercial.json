@@ -1,0 +1,324 @@
+{
+  "siteType": "builder",
+  "businessName": "Kmercial",
+  "suburb": "Southbank",
+  "phone": "+61 3 9674 0445",
+  "email": "info@kmercial.com.au",
+  "address": "Level 23 HWT Tower, 40 City Rd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8209541,
+    "longitude": 144.9666119
+  },
+  "tagline": "Southbank's reliable builder",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55B00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Trusted Builder",
+      "sub": "Custom builds & renovations",
+      "image": ""
+    },
+    {
+      "title": "Built Around Your Lifestyle",
+      "sub": "Fixed quotes, no surprises",
+      "image": ""
+    },
+    {
+      "title": "20+ Years Serving Southbank",
+      "sub": "Local & licensed",
+      "image": ""
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your Southbank builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "With over 20 years in the trade, Kmercial is Southbank's go-to builder for quality homes and renovations. We know the local council rules, the weather challenges, and what works for Melbourne's inner-city lifestyle. From heritage restorations to modern townhouses, every project gets our full attention.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From custom new homes to full renovations, we handle every stage of your build in Southbank and surrounding suburbs. Our team keeps things straightforward—clear quotes, regular updates, and solid workmanship that stands up to Melbourne's climate.",
+  "services": [
+    {
+      "title": "Custom New Homes",
+      "desc": "Design and build your dream home from the ground up, tailored to your block.",
+      "longDesc": "Building a new home in Southbank? We manage every step—council approvals, slab to roof, and final finishes. Your vision, our expertise.",
+      "points": [
+        "Tailored floor plans",
+        "Energy-efficient design",
+        "Fixed-price contract"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Add space and value with a seamless extension that blends with your existing home.",
+      "longDesc": "Need a bigger kitchen, extra bedroom, or open-plan living? We extend out or up, matching brickwork, roofing, and finishes perfectly.",
+      "points": [
+        "No compromise on quality",
+        "Minimised disruption",
+        "All approvals handled"
+      ]
+    },
+    {
+      "title": "Kitchen & Bathroom Renovations",
+      "desc": "Transform the heart of your home with modern, functional wet areas.",
+      "longDesc": "Renovating a kitchen or bathroom in Southbank? We re‑plumb, re‑wire, tile, and install cabinetry to create a space you'll love for years.",
+      "points": [
+        "Custom joinery",
+        "Waterproofing guaranteed",
+        "Quick turnaround"
+      ]
+    },
+    {
+      "title": "Decking & Outdoor Living",
+      "desc": "Create an outdoor entertaining area with durable, low-maintenance decking.",
+      "longDesc": "Perfect for Melbourne's lifestyle, we build timber and composite decks that handle rain and sun. Add a pergola or outdoor kitchen—the choice is yours.",
+      "points": [
+        "Merbau or composite",
+        "Integrated lighting",
+        "Council-compliant"
+      ]
+    },
+    {
+      "title": "Heritage Restorations",
+      "desc": "Restore period features while upgrading for modern comfort and safety.",
+      "longDesc": "Southbank has many heritage properties. We sensitively restore cornices, fireplaces, and sash windows, then bring in new wiring, plumbing, and insulation.",
+      "points": [
+        "Heritage-listed expertise",
+        "Energy upgrades",
+        "Original details kept"
+      ]
+    },
+    {
+      "title": "Commercial Fit‑Outs",
+      "desc": "Retail, office, or hospitality—turn a shell into a functional workspace.",
+      "longDesc": "From cafes in South Melbourne to offices in Docklands, we handle commercial fit‑outs with minimal downtime. We coordinate all trades for a smooth handover.",
+      "points": [
+        "Fast turnaround",
+        "All trades managed",
+        "Compliance certified"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank",
+  "reviews": [
+    {
+      "text": "Kmercial transformed our tired old kitchen into a stunning open‑plan space. They were on time, kept to budget, and the finish is superb. Highly recommend to anyone in Southbank.",
+      "name": "Sarah F.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "We hired them for a full house renovation in Albert Park. The team was professional, communicated clearly, and the result exceeded our expectations. Will use again.",
+      "name": "Mark T.",
+      "role": "Albert Park Homeowner"
+    },
+    {
+      "text": "As a property manager, I need trades who deliver on schedule and to standard. Kmercial handled three bathroom renovations seamlessly. Tenants love the results.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "South Melbourne",
+    "Albert Park",
+    "Port Melbourne",
+    "Docklands",
+    "St Kilda",
+    "Middle Park",
+    "Windsor"
+  ],
+  "about": {
+    "intro": "Kmercial is a family‑run building company serving Southbank and the inner‑south for over two decades.",
+    "story": [
+      "What started as a one‑man carpentry business in Southbank has grown into a full‑service building company. Our founder, Dave, cut his teeth renovating Victorian terraces and soon built a reputation for honest work and fair prices.",
+      "Today we employ a team of qualified carpenters, plumbers, and electricians who share the same values: show up on time, do it right, and leave the site cleaner than you found it. We've built dozens of homes, extensions, and commercial fit‑outs across Melbourne's best suburbs.",
+      "We're proud to be local – we live here, work here, and know exactly what it takes to build in Southbank's unique environment. From heritage overlays to high‑density zoning, we navigate the red tape so you don't have to."
+    ],
+    "mission": "To build lasting homes and genuine relationships, one Southbank project at a time.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "20+ years building in Southbank means we know every council rule, soil type, and tradie in the area."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "No surprises. We give you a detailed quote upfront and stick to it – no hidden costs."
+      },
+      {
+        "title": "On Time",
+        "text": "We plan backwards from your deadline and run tight schedules. We respect your time."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "All work comes with a structural guarantee. We stand behind every nail and tile."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "White Card certified"
+    ]
+  },
+  "pricing": {
+    "intro": "Every build is different, so we start with a free, no‑obligation chat about your project in Southbank. We'll walk you through realistic costs and timelines – no lock‑in contracts, just honest advice.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On‑site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Renovation",
+        "price": "from $80k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open‑plan living",
+          "Fixed‑price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Custom New Home",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full design & build",
+          "Council liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront – no hourly surprises, no escalating costs."
+  },
+  "contact": {
+    "intro": "Ready to get started on your Southbank build? Call or email for a free quote – we'd love to hear about your project."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Kmercial | Southbank Builder | Custom Homes & Renovations",
+      "description": "Kmercial is Southbank's trusted builder for custom homes, extensions, and renovations. 20+ years local experience. Get a free quote today."
+    },
+    "about": {
+      "title": "About Kmercial – Southbank's Family Builder",
+      "description": "Learn about Kmercial – a family‑run building company in Southbank with 20+ years of experience. Quality homes, fixed prices, local expertise."
+    },
+    "services": {
+      "title": "Building Services in Southbank | Kmercial",
+      "description": "Explore our full range of building services in Southbank: custom homes, renovations, extensions, kitchen and bathroom makeovers, decking, and more."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Kmercial",
+      "description": "Transparent pricing for your Southbank build. Free initial consultation, fixed‑price contracts, no hidden costs. Get a clear quote from Kmercial."
+    },
+    "contact": {
+      "title": "Contact Kmercial | Free Consultation Southbank",
+      "description": "Contact Kmercial for a free, no‑obligation consultation in Southbank. Call +61 3 9674 0445 or email info@kmercial.com.au."
+    },
+    "blog": {
+      "title": "Southbank Building & Renovation Blog | Kmercial",
+      "description": "Read expert guides on building and renovating in Southbank, Melbourne. Costs, tips, council rules, and more from Kmercial's team."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking of extending your home in Southbank? We break down the costs per square metre, including council fees, materials, and labour for 2026.",
+      "image": "",
+      "body": [
+        "Planning a home extension in Southbank? The cost varies widely depending on size, complexity, and finishes. In 2026, you're looking at roughly $2,500 to $4,000 per square metre for a standard extension, excluding architectural fees and council permits. That might sound steep, but remember: you're adding real value to your property in one of Melbourne's most desirable suburbs.",
+        "Southbank is part of the City of Melbourne council, which has specific rules around setbacks, height limits, and heritage overlays – especially near the Yarra River. Before you even get quotes, you'll need a planning permit if your extension changes the building envelope. We've seen projects stalled for months because owners skipped this step. Always talk to a local builder who knows the council's current policies.",
+        "Materials also drive costs. In 2026, timber framing is still the go‑to for extensions, but engineered steel is becoming popular for open‑plan spans. Brickwork in Southbank often needs to match existing heritage tones, which can be pricey. We recommend budgeting a 15% contingency for unexpected finds – like old wiring or soil issues during excavation.",
+        "Labour costs in inner Melbourne are among the highest in Victoria, with builders charging $80–$120 per hour for qualified trades. However, a fixed‑price contract protects you from hourly blowouts. At Kmercial, we quote fixed for the entire project after a detailed site inspection. That way, you know exactly what you'll pay before we break ground.",
+        "The best time to build in Southbank? Spring and autumn are ideal – fewer weather delays. Summer can be tricky with afternoon storms, and winter rains often slow concrete pours. We schedule projects to minimise downtime, but a good builder will always factor in weather buffers.",
+        "To get an accurate cost for your specific extension, call us for a free site visit. We'll measure up, check the soil, and advise on the best way to add space without breaking the bank. Southbank homeowners trust us because we deliver on time and on budget."
+      ]
+    },
+    {
+      "title": "Top 5 Renovation Mistakes to Avoid in Melbourne's Inner Suburbs",
+      "date": "February 2026",
+      "excerpt": "Renovating a home in Southbank, Albert Park or South Melbourne? Avoid these common pitfalls – from ignoring heritage rules to cutting corners on waterproofing.",
+      "image": "",
+      "body": [
+        "Renovating in Melbourne's inner suburbs is exciting, but it's easy to make mistakes that cost time and money. We've seen it all: from homeowners who start demo without permits to those who choose cheap materials that fail within a year. Here are the top five errors to steer clear of – especially if you're in Southbank or nearby.",
+        "First, ignoring heritage overlays. Many period homes in Southbank, Albert Park, and Middle Park have heritage protections. You can't just rip out a fireplace or change the window proportions without council approval. We've rescued clients from fines by doing the paperwork upfront. Always check your property's heritage status before you pick up a sledgehammer.",
+        "Second, skimping on waterproofing. Melbourne's wet winters put bathrooms and laundries to the test. Poor waterproofing leads to mould, rot, and expensive repairs. We use a three‑coat system and test every wet area before tiling. It's not the place to save a few hundred dollars.",
+        "Third, underestimating electrical and plumbing upgrades. Old wiring in Victorian terraces can't handle modern appliances. Similarly, galvanised pipes need replacing. A renovation is the perfect time to upgrade your switchboard and meter box. Factor in $5,000–$10,000 for these hidden costs.",
+        "Fourth, not planning for structural changes. Knocking down a wall might require a steel beam or a new footing. We always get a structural engineer to assess load‑bearing walls. One client in South Melbourne wanted an open‑plan kitchen but their wall was supporting the second storey – we had to design a hidden beam solution.",
+        "Finally, hiring the cheapest quote. Renovations are long‑term investments. A lower price often means skipped steps, unlicensed trades, or substandard materials. At Kmercial, we compete on value, not price – and our many repeat clients in Southbank prove that quality pays off."
+      ]
+    },
+    {
+      "title": "What You Need to Know About Building a New Home in Southbank",
+      "date": "January 2026",
+      "excerpt": "Building a new home in Southbank? Learn about site costs, council approvals, and design tips for Melbourne's inner‑city lifestyle.",
+      "image": "",
+      "body": [
+        "Southbank is one of Melbourne's most sought‑after suburbs for new builds, especially on infill blocks and former industrial sites. But building from scratch here comes with unique challenges. From high water tables to narrow laneway access, every site has its quirks. Here's what you need to know before starting your new home journey.",
+        "Site costs are often higher than expected. Many Southbank blocks require deep foundations due to the Yarra River's floodplain. You might also need groundwater dewatering during excavation – an extra $10,000–$20,000. We always recommend a geotechnical report before you buy the block. It's a small investment that avoids nasty surprises.",
+        "Council approvals can take three to six months. The City of Melbourne requires detailed plans, shadow diagrams, and often a traffic management plan for construction vehicles. We handle all the submissions for our clients, so you don't have to navigate the bureaucracy alone. Having a builder with local experience speeds up the process.",
+        "Designing for Southbank means making the most of limited space. Open‑plan living with large windows to the north (yes, north) captures natural light and makes a small footprint feel bigger. We also recommend double‑glazing and insulation to cope with Melbourne's temperature swings – hot summers and cold winters.",
+        "Material choices matter. Lightweight construction is common in Southbank, but we prefer brick veneer or Hebel for soundproofing – important in a dense suburb. Roof terraces are popular but need careful waterproofing and balustrade compliance. We've built several with built‑in planters and outdoor kitchens.",
+        "Think long‑term. A new home in Southbank should be adaptable – maybe a home office, a granny flat, or future elevator shaft. We incorporate these possibilities into the design. The upfront cost is minimal, but retrofitting later is expensive. Talk to us about your vision – we'll make it happen."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Builder for Your Melbourne Renovation",
+      "date": "December 2025",
+      "excerpt": "Finding a reliable builder in Southbank? We share key questions to ask, red flags to watch for, and why local experience matters.",
+      "image": "",
+      "body": [
+        "Choosing a builder is one of the biggest decisions in any renovation. In Southbank, where regulations are strict and neighbours are close, you need someone who understands the local landscape – literally and figuratively. Here's our guide to picking the right builder for your project.",
+        "First, check their licence and insurance. Every builder in Victoria must be registered with the VBA and have at least $20 million public liability insurance. Ask for their licence number and verify it online. Unlicensed builders are a major red flag – you have no recourse if something goes wrong.",
+        "Second, ask for recent local references. A builder who's worked in Southbank will have projects you can visit (or at least photos of nearby homes). Ask about their experience with council approvals, especially if you're in a heritage overlay. We keep a portfolio of Southbank and Albert Park projects to show potential clients.",
+        "Third, get a detailed written quote. Avoid builders who give verbal estimates or vague ballpark figures. A proper quote includes materials, labour, timelines, and a payment schedule. At Kmercial, we break down every line item so you know exactly what you're paying for.",
+        "Fourth, discuss communication. Who will be the main contact on site? How often will you get updates? A good builder sends weekly progress reports and responds within 24 hours. We assign a dedicated project manager for every job, so you're never left guessing.",
+        "Finally, trust your gut. If a builder seems dismissive or avoids answering your questions, walk away. Renovations can be stressful – you need someone who listens and communicates clearly. We pride ourselves on being approachable and transparent. Call us for a chat – no obligation, just honest advice."
+      ]
+    }
+  ],
+  "splitCtaImage": "",
+  "photoRowImages": [],
+  "aboutImages": [],
+  "fullWidthImage": "",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no‑obligation quote today.",
+  "bannerImage": "",
+  "testimonialsImage": "",
+  "galleryImages": [],
+  "pricingBgImage": ""
+}
