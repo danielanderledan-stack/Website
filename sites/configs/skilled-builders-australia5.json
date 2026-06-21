@@ -1,0 +1,333 @@
+{
+  "siteType": "builder",
+  "businessName": "Skilled Builders Australia",
+  "suburb": "Melbourne",
+  "phone": "+61 3 9021 1340",
+  "email": "info@skilledbuildersaus.com.au",
+  "address": "HWT Tower, Suite 604, Level 6/40 City Rd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8209678,
+    "longitude": 144.96662849999998
+  },
+  "tagline": "Melbourne's go-to builder for full builds",
+  "primaryColor": "#ff6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#cc5200",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's Trusted Builder",
+      "sub": "Full builds & extensions",
+      "image": "https://skilledbuildersaus.com.au/_next/image?url=%2Fapi%2Fmedia%2Ffile%2Fkit3-11.jpg%3F2026-05-27T18%253A13%253A53.037Z&w=3840&q=100"
+    },
+    {
+      "title": "Built Around Your Lifestyle",
+      "sub": "Fixed quotes, no surprises",
+      "image": "https://skilledbuildersaus.com.au/\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b"
+    },
+    {
+      "title": "12+ Years Building Across Melbourne",
+      "sub": "Local & licensed",
+      "image": "https://skilledbuildersaus.com.au/api/media/file/IMG_0310-11-1200x630.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "your trusted local Melbourne builder",
+    "is ready to help."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building",
+  "aboutText": "Skilled Builders Australia has been building across Melbourne for over 12 years. We specialise in full new builds, knockdown rebuilds, home extensions, and renovations across suburbs like Glen Waverley, Mount Waverley, and Box Hill. Our team delivers fixed-price certainty from foundation to final coat.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building solutions",
+  "servicesText": "From full new builds to kitchen renovations, Skilled Builders Australia covers every stage of your home project in Melbourne. We offer fixed-price contracts, single point of contact, and a 7-year structural warranty.",
+  "services": [
+    {
+      "title": "Full New Builds",
+      "desc": "Your forever home designed and built end-to-end with fixed-price certainty.",
+      "longDesc": "Full new builds in Melbourne from Skilled Builders Australia include design, permits, construction, and handover with a single point of contact for no surprises.",
+      "points": [
+        "Fixed-price certainty",
+        "Single point of contact",
+        "7-year warranty"
+      ]
+    },
+    {
+      "title": "Knockdown & Rebuild",
+      "desc": "Stay on the land you love with a seamless demolition and rebuild.",
+      "longDesc": "We handle demolition, design and rebuild as one seamless project in Melbourne with fixed-price and end-to-end coordination so you never have to chase anyone.",
+      "points": [
+        "Seamless project",
+        "Fixed-price",
+        "Stay on your block"
+      ]
+    },
+    {
+      "title": "Home Extensions",
+      "desc": "Single and double-storey extensions that feel like they were always part of the home.",
+      "longDesc": "Skilled Builders Australia specialises in home extensions across Melbourne that blend perfectly with existing structures, adding space and value without moving.",
+      "points": [
+        "Blends seamlessly",
+        "Adds value",
+        "No moving"
+      ]
+    },
+    {
+      "title": "Renovations",
+      "desc": "Full or partial home renovations from cosmetic refresh to structural rebuild.",
+      "longDesc": "Melbourne renovation specialists at Skilled Builders Australia handle everything from kitchen and bathroom updates to full structural changes, finished beautifully on schedule.",
+      "points": [
+        "Cosmetic or full",
+        "On schedule",
+        "Beautiful finish"
+      ]
+    },
+    {
+      "title": "Outdoor Living",
+      "desc": "Decking, pergolas and fencing designed for the Melbourne climate.",
+      "longDesc": "Outdoor living builds by Skilled Builders Australia include decking, pergolas, and fencing that stand up to Melbourne's weather and extend your living space year-round.",
+      "points": [
+        "Weather-ready",
+        "Year-round use",
+        "Adds space"
+      ]
+    },
+    {
+      "title": "Bathroom, Kitchen & Laundry",
+      "desc": "Renovation specialists for the rooms that change a home most.",
+      "longDesc": "Detailed bathroom, kitchen and laundry renovations in Melbourne by Skilled Builders Australia, designed to be the most-used rooms in your home, finished beautifully and on time.",
+      "points": [
+        "Detailed work",
+        "Most-used rooms",
+        "On time"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Melbourne",
+  "reviews": [
+    {
+      "text": "We interviewed four builders. Skilled was the only one who walked the site in Glen Waverley, listened, and came back with a real number. The build came in on time and under budget.",
+      "name": "Anh T.",
+      "role": "Glen Waverley Homeowner"
+    },
+    {
+      "text": "Our extension in Mount Waverley is the part of the house we live in now. It feels like it was always there. Communication was the difference — we knew what was happening every day.",
+      "name": "Patel F.",
+      "role": "Mount Waverley Homeowner"
+    },
+    {
+      "text": "We just wanted the kitchen done right and on schedule in Wheelers Hill. They delivered both. Already planning the bathroom with Skilled Builders.",
+      "name": "Sarah K.",
+      "role": "Wheelers Hill Homeowner"
+    }
+  ],
+  "serviceAreas": [
+    "Glen Waverley",
+    "Mount Waverley",
+    "Wheelers Hill",
+    "Burwood",
+    "Box Hill",
+    "Camberwell",
+    "Clayton",
+    "Doncaster"
+  ],
+  "about": {
+    "intro": "Skilled Builders Australia is a Melbourne-based building company with over 12 years experience, specialising in full builds, extensions, and renovations across the city's eastern suburbs.",
+    "story": [
+      "Skilled Builders Australia started in Melbourne with a simple mission: build the homes that Melbourne grows up in. From day one, we focused on fixed-price contracts and clear communication — no vague allowances, no mid-build surprises.",
+      "Over 12 years, we have completed more than 200 homes across suburbs like Glen Waverley, Mount Waverley, and Box Hill. Our team of licensed builders and project managers handle every stage from discovery to handover, always with a single point of contact.",
+      "We are proud to be a Master Builders Association member, fully insured to $20m, and backed by a 7-year structural warranty. Every project we take on is built on trust, transparency, and quality workmanship."
+    ],
+    "mission": "To build Melbourne's best homes — on time, on budget, and finished beautifully.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know Melbourne's suburbs, councils, and climate. Our designs and builds work with local conditions for better results."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "Every project comes with a locked-in quote. No vague allowances, no mid-build surprises. You pay what we agree."
+      },
+      {
+        "title": "On Time",
+        "text": "Our six-stage process and daily site updates keep every build on track. We schedule realistically and deliver on time."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "A 7-year structural warranty and final clean on every build. We stand behind our work and the homes we build."
+      }
+    ],
+    "stats": [
+      {
+        "value": "12+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "200+",
+        "label": "Homes Built"
+      },
+      {
+        "value": "5",
+        "label": "Star Rating"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner",
+      "Public liability insured to $20m",
+      "Master Builders Association member"
+    ]
+  },
+  "pricing": {
+    "intro": "We give every Melbourne project a transparent, ballpark figure during the initial concept stage — no lock-in, no obligation, just a real number based on your site and vision.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Site walk-through",
+          "Honest ballpark"
+        ]
+      },
+      {
+        "name": "Full New Build",
+        "price": "from $350k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Design & build",
+          "Fixed-price contract",
+          "Single point of contact",
+          "7-year warranty"
+        ]
+      },
+      {
+        "name": "Custom Renovation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Scope & design",
+          "Permits handled",
+          "Project managed"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with itemised costs — no percentages, no surprises."
+  },
+  "contact": {
+    "intro": "Book a free, no-obligation consultation with Skilled Builders Australia. We come to your home in Melbourne, walk the site, and tell you honestly what your project will cost."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Skilled Builders Australia | Melbourne Builder | Full Builds & Extensions",
+      "description": "Skilled Builders Australia — Melbourne's trusted builder for full new builds, knockdown rebuilds, and home extensions. 12+ years experience, fixed-price contracts, 200+ homes built. Free consultation."
+    },
+    "about": {
+      "title": "About Skilled Builders Australia — Melbourne's Family Builder",
+      "description": "Learn about Skilled Builders Australia, Melbourne's family-owned building company with 12+ years experience building homes across Glen Waverley, Mount Waverley, and more. Fixed-price, quality guaranteed."
+    },
+    "services": {
+      "title": "Building Services in Melbourne | Skilled Builders Australia",
+      "description": "Explore full building services from Skilled Builders Australia in Melbourne: new builds, knockdown rebuilds, extensions, renovations, outdoor living, and kitchen/bathroom specialists. Fixed-price contracts."
+    },
+    "pricing": {
+      "title": "Building Costs in Melbourne | Skilled Builders Australia",
+      "description": "Get transparent pricing from Skilled Builders Australia for your Melbourne build. Free initial consultation, fixed-price contracts, and itemised quotes. No lock-in, no surprises."
+    },
+    "contact": {
+      "title": "Contact Skilled Builders Australia | Free Consultation",
+      "description": "Book a free consultation with Skilled Builders Australia in Melbourne. We come to your site, listen to your vision, and give you a real project cost. Call 03 9021 1340 today."
+    },
+    "blog": {
+      "title": "Melbourne Building & Renovation Blog | Skilled Builders Australia",
+      "description": "Expert building guides from Skilled Builders Australia covering home extension costs, renovation tips, and building advice for Melbourne's eastern suburbs. Local insights from 12+ years experience."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Home Extension Cost in 2026 in Melbourne?",
+      "date": "March 2026",
+      "excerpt": "A detailed guide to home extension costs in Melbourne, with real examples from Glen Waverley and factors that affect pricing in 2026.",
+      "image": "",
+      "body": [
+        "Planning a home extension in Melbourne in 2026? Costs vary widely depending on your suburb, the size, and the complexity of the build. In areas like Glen Waverley or Mount Waverley, a single-storey rear extension typically ranges from $80,000 to $150,000 for a basic addition, while larger two-storey projects can easily hit $250,000 or more.",
+        "The biggest factor affecting your extension cost in Melbourne is the type of foundation work needed. Many homes in suburbs like Burwood or Box Hill sit on clay or reactive soil, which requires deeper footings and more engineering. That can add $10,000 to $20,000 to the base cost before you even start on framing.",
+        "Material prices have also shifted in 2026. Timber framing, steel beams, and cladding all had significant price increases over the past year. Australian-grown hardwood is becoming harder to source, driving up costs for pergolas and decking. If you are planning an outdoor living extension, budget for at least $30,000 to $50,000 for a decent-sized space.",
+        "Council fees in Melbourne are another major factor. Suburbs like Camberwell and Doncaster have different planning requirements. A building permit can cost $3,000 to $8,000 depending on the scope, and you may also need a surveyor for boundary adjustments. Skilled Builders Australia includes all these in our fixed-price quote so you know exactly where you stand.",
+        "The design phase itself is critical. A detailed architectural plan for an extension in a suburb like Wheelers Hill can cost $5,000 to $15,000, but it saves money long-term because it avoids surprises. We always recommend getting the design right before committing to build — it's cheaper to change a drawing than a wall.",
+        "Labour costs in Melbourne have been rising steadily. Skilled builders and project managers are in high demand across the eastern suburbs. A typical extension build takes 12 to 16 weeks from demolition to handover, but that timeline can stretch if you are adding a bathroom or kitchen, which require multiple trades to co-ordinate.",
+        "One way to save money is to go for a fixed-price contract from the start. Skilled Builders Australia offers locked-in quotes with itemised costs. No percentage overheads, no vague allowances. Every client in Glen Waverley and beyond gets the same transparent treatment — whether it's a small deck or a full second-storey addition.",
+        "To sum up, a home extension in Melbourne in 2026 costs anywhere from $80,000 for a basic room add-on to $300,000 for a premium single storey. The best approach is to book a free on-site consultation with Skilled Builders Australia to get a real number based on your specific block and vision."
+      ]
+    },
+    {
+      "title": "The Best Time to Pour Concrete in Melbourne's Winter",
+      "date": "February 2026",
+      "excerpt": "Expert advice on pouring concrete in Melbourne's cooler months, covering curing times, costs, and tips for slabs in suburbs like Doncaster.",
+      "image": "",
+      "body": [
+        "Pouring concrete in Melbourne during winter is tricky but absolutely manageable if you plan ahead. The key concern is the curing temperature. Concrete sets best between 10°C and 30°C. In Melbourne, winter days can drop below 5°C at night, which slows the curing process and risks cracking if the slab freezes before fully hardening.",
+        "In suburbs like Doncaster and Templestowe, where the weather is slightly cooler due to elevation, we often schedule concrete pours for mid-morning after the sun has warmed the ground. We also use insulation blankets and heating cables for larger slabs to keep the curing temperature steady. This adds a bit to the cost — around $500 to $1,500 for a standard driveway or patio slab.",
+        "The type of concrete mix matters too. For winter pours in Melbourne, a high-early-strength mix with less water content sets faster and is less prone to frost damage. We also add accelerators to the mix to speed up the chemical reaction. This is standard practice for all our slabs in Box Hill and Camberwell projects.",
+        "Another factor to consider is the ground condition. Melbourne's clay soils can get waterlogged during winter rains, which means you need to prepare the sub base properly. We always excavate deeper and use a layer of crushed rock to allow drainage before the concrete goes down. That prevents the slab from shifting or cracking later.",
+        "If you are planning a concrete driveway, path, or patio in winter, expect a slightly longer finishing time. The concrete needs to be kept moist during curing, so we cover it with wet hessian or plastic sheeting for at least 7 days. It's not a fast process, but it results in a much stronger, more durable surface that will last for decades.",
+        "Cost-wise, a standard concrete slab for a driveway in Melbourne's eastern suburbs ranges from $75 to $110 per square metre for the material alone. Labour adds another $40 to $60 per square metre. Winter pours can have a small premium because of the extra curing materials and labour time, but the difference is usually less than 10%.",
+        "At Skilled Builders Australia, we have poured concrete in every condition — rain, cold, heat. Our team in Melbourne knows exactly when to pour and how to protect the work. We always give a fixed price for the slab and include all the winter precautions so you have no surprises.",
+        "Bottom line: you can pour concrete in Melbourne any time of year. Just work with a builder who understands the local climate and has the right experience. Book a free consultation with Skilled Builders Australia to discuss your upcoming concrete project."
+      ]
+    },
+    {
+      "title": "How to Choose the Right Builder for Your Home in Melbourne",
+      "date": "January 2026",
+      "excerpt": "A step-by-step guide to vetting builders in Melbourne, from checking licences to reading reviews in Glen Waverley and beyond.",
+      "image": "",
+      "body": [
+        "Choosing a builder for your home in Melbourne is one of the biggest decisions you'll make. With hundreds of companies advertising across the eastern suburbs, it's easy to get overwhelmed. The key is to focus on three things: experience, communication, and fixed-price contracts. Here is how to vet any builder before signing.",
+        "First, always check their licence and insurance. Every registered building practitioner in Victoria has a licence number you can verify on the VBA website. Skilled Builders Australia is fully registered and insured to $20m — that covers public liability, so if something goes wrong on site, you are not out of pocket. Never work with an uninsured builder.",
+        "Second, look at their completed projects. A builder who has worked in your suburb before knows the local council rules, the soil conditions, and the typical permit paths. We build across Glen Waverley, Mount Waverley, Box Hill, and beyond, so we know exactly what each area requires. Ask for photos of similar projects to yours.",
+        "Third, ask about their quoting process. The best builders give a fixed price after a site visit, not a ballpark over the phone. Skilled Builders Australia gives every client a detailed, itemised quote after our initial consultation. We walk the site, measure, and talk through your vision. That is the only way to get a real number.",
+        "Fourth, check reviews from real clients. A good builder will have plenty of testimonials from local homeowners. Look for reviews that mention communication, timeline, and budget — those are the most reliable. In Mount Waverley, our clients regularly praise our daily site updates and single point of contact. That type of feedback is real.",
+        "Fifth, make sure the builder offers a warranty. A 7-year structural warranty is standard in Victoria but not all builders are willing to give it. Skilled Builders Australia backs every project with a full warranty, so you have peace of mind long after the build is finished. It's a sign of confidence in their work.",
+        "Finally, trust your gut. The best builder for your home in Melbourne is one who listens to you, communicates clearly, and doesn't try to rush you into a decision. Book a free consultation with Skilled Builders Australia and see for yourself how a real local builder operates. We come to you, walk the site, and give it to you straight.",
+        "Choosing the right builder means your project runs smoothly, on time, and on budget. Don't settle for less than a fixed-price, insured, local team that stands behind their work."
+      ]
+    },
+    {
+      "title": "Renovation vs New Build in 2026 — What's Best for Your Block?",
+      "date": "December 2025",
+      "excerpt": "Compare the costs and benefits of renovating your home versus a knockdown rebuild in Melbourne with real suburb examples and pricing.",
+      "image": "",
+      "body": [
+        "If you own a home in Melbourne's eastern suburbs, you have probably wondered whether it's better to renovate what you have or knock it down and start fresh. Both options work, but they suit different situations. Here is a detailed comparison to help you decide, with real examples from suburbs like Glen Waverley and Box Hill.",
+        "Renovation is often the cheaper path if your existing home has sound structure. In suburbs like Camberwell or Burwood, a full kitchen and bathroom renovation can cost from $50,000 to $80,000 and take 6 to 10 weeks. But if you need to rewire, replumb, or add new rooms, that cost can double quickly. The benefit is that you stay in the home generally and avoid demolition fees.",
+        "A knockdown rebuild, on the other hand, is ideal if the existing home is old, poorly laid out, or has structural issues. In Box Hill and Doncaster, where many homes are 50 to 60 years old, the land value is often higher than the house. A full knockdown rebuild can cost $300,000 to $500,000 for a custom home, but you end up with a modern, energy-efficient build that's easier to maintain.",
+        "The cost of demolition in Melbourne varies. A standard single-storey house on a flat block can be demolished for around $15,000 to $25,000 including permits and waste removal. But if your site is on a slope or has constraints like easements in Glen Waverley, that figure rises. Skilled Builders Australia includes demolition in our fixed-price quote for full new builds.",
+        "Another factor is building standards. New builds in 2026 must meet the latest 7-star energy efficiency standard. That means better insulation, double glazing, and more efficient heating and cooling. Renovations can be exempted from some standards but still need to meet basic compliance. A new build is more predictable for energy costs long-term.",
+        "Time frame is also a big difference. A renovation often takes 12 to 20 weeks depending on the scope, while a knockdown rebuild takes 6 to 12 months from concept to handover. If you need to move out during the build, that adds cost — temporary rental in Melbourne's eastern suburbs can run $3,000 to $5,000 a month for a family home.",
+        "Skilled Builders Australia offers both renovation and new build services, all under fixed-price contracts. Whether you are refreshing a bathroom in Wheelers Hill or building a brand new home in Mount Waverley, we manage the whole project with a single point of contact. No one passes you between different teams.",
+        "The verdict: if your home is structurally sound and you like the location, renovate. If the block is the asset and the house is past its use, a knockdown rebuild is the better investment. Book a free consultation with Skilled Builders Australia and we will walk you through both options on your site with real numbers."
+      ]
+    }
+  ],
+  "splitCtaImage": "",
+  "photoRowImages": [],
+  "aboutImages": [],
+  "fullWidthImage": "",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://skilledbuildersaus.com.au/_next/image?url=%2Fapi%2Fmedia%2Ffile%2Fkit3-11.jpg%3F2026-05-27T18%253A13%253A53.037Z&w=3840&q=100",
+  "testimonialsImage": "https://skilledbuildersaus.com.au/\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='none' style='filter: url(%23b",
+  "galleryImages": [
+    "https://skilledbuildersaus.com.au/api/media/file/IMG_0310-11-1200x630.jpg"
+  ],
+  "pricingBgImage": ""
+}
