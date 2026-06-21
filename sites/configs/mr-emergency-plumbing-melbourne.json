@@ -1,0 +1,337 @@
+{
+  "siteType": "plumber",
+  "businessName": "Mr Emergency Plumbing Melbourne",
+  "suburb": "Melbourne",
+  "phone": "1300 164 064",
+  "email": "melbourne@mremegencyplumbing.com.au",
+  "address": "Parade Ground, St Kilda Road, Southbank, Victoria, 3006, Australia",
+  "coordinates": {
+    "latitude": -37.8274869,
+    "longitude": 144.9702663
+  },
+  "tagline": "Melbourne's 30-Minute Emergency Plumber",
+  "primaryColor": "#00A3E0",
+  "primaryColorRgb": "0, 163, 224",
+  "primaryColorHover": "#0088c4",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Melbourne's 30-Minute Emergency Plumber",
+      "sub": "Burst pipes? We're on our way",
+      "image": "https://www.mremergency.com.au/wp-content/themes/metro-group/img/van-sidebar.png"
+    },
+    {
+      "title": "24/7 Plumbing for Melbourne Homes",
+      "sub": "Same rates, day or night",
+      "image": "https://www.mremergency.com.au/wp-content/uploads/2020/03/cta-banner-bg.jpg"
+    },
+    {
+      "title": "Trusted Local Plumbers in Melbourne",
+      "sub": "Over a decade of experience",
+      "image": "https://www.mremergency.com.au/wp-content/uploads/2020/05/mr-emergency-schema-img.jpg"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "Melbourne's trusted emergency plumber",
+    "is ready to help now."
+  ],
+  "aboutHeading": "Melbourne's Go-To Emergency Plumbers",
+  "aboutSubheading": "Fast, reliable, and local",
+  "aboutText": "Mr Emergency Plumbing Melbourne has been serving Melbourne and surrounding suburbs for over a decade. We specialise in emergency plumbing, hot water systems, blocked drains, and gas fitting. Our fully stocked vans and 30-minute response time mean we get your plumbing fixed fast. Based in Southbank, we cover from Werribee to Sunbury and down the Mornington Peninsula.",
+  "servicesHeading": "Our Plumbing Services",
+  "servicesSubheading": "From emergencies to renovations",
+  "servicesText": "We offer a full range of plumbing services across Melbourne, from emergency burst pipe repairs and blocked drains to hot water system replacements and gas fitting. Our licensed plumbers use the latest technology like CCTV drain cameras to diagnose problems quickly.",
+  "services": [
+    {
+      "title": "Emergency Plumbing",
+      "desc": "Rapid response for burst pipes, leaks, and blocked drains across Melbourne. Available 24/7.",
+      "longDesc": "When a plumbing emergency strikes in your Melbourne home, Mr Emergency Plumbing arrives within 30 minutes. Our vans carry all parts to fix burst pipes, sewer backups, and water heater failures on the spot.",
+      "points": [
+        "30-minute response",
+        "Fully stocked vans",
+        "24/7 availability"
+      ]
+    },
+    {
+      "title": "Hot Water Systems",
+      "desc": "Same-day installation and repair for electric, gas, solar, and heat pump hot water systems.",
+      "longDesc": "From electric storage to continuous flow gas systems, we source and install any hot water system in Melbourne. Our plumbers handle replacements, repairs, and tempering valve upgrades efficiently.",
+      "points": [
+        "Same-day installation",
+        "All types & brands",
+        "Tempering valve experts"
+      ]
+    },
+    {
+      "title": "Blocked Drains & Sewer",
+      "desc": "Fast drain clearing and CCTV inspections to find and fix blockages permanently.",
+      "longDesc": "Blocked drains can overflow quickly in Melbourne properties. We use high-pressure hydro-jetting and CCTV drain cameras to clear blockages from kitchen sinks, stormwater drains, and sewer lines.",
+      "points": [
+        "CCTV drain camera",
+        "Hydro-jet cleaning",
+        "No-dig solutions"
+      ]
+    },
+    {
+      "title": "Bathroom Plumbing",
+      "desc": "Toilet installation, shower repairs, bidet fitting, and blocked toilet solutions.",
+      "longDesc": "Whether you need a new toilet installed or a leaking shower head fixed, our Melbourne plumbers handle all bathroom plumbing. We also repair toilet cisterns and unblock toilets fast.",
+      "points": [
+        "Toilet & bidet install",
+        "Shower repairs",
+        "Blocked toilets cleared"
+      ]
+    },
+    {
+      "title": "Gas Services",
+      "desc": "Licensed gas fitting for leaks, appliance installation, and BBQ connection.",
+      "longDesc": "Gas leaks are dangerous – our team responds immediately across Melbourne. We install gas ovens, cooktops, heaters, and BBQ points, plus carry out carbon monoxide testing for safety.",
+      "points": [
+        "Emergency gas leak",
+        "Appliance installation",
+        "Safety testing"
+      ]
+    },
+    {
+      "title": "Roof & Outdoor Plumbing",
+      "desc": "Roof leak repairs, gutter unblocking, and outdoor tap installation.",
+      "longDesc": "Melbourne's weather can damage roof plumbing fast. We repair leaking roofs, unblock gutters, and install outdoor taps and irrigation connections. Our team works safely at height.",
+      "points": [
+        "Roof leak repair",
+        "Gutter clearing",
+        "Outdoor tap install"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted by Melbourne homeowners",
+  "reviews": [
+    {
+      "text": "Our hot water system died on a Sunday and Mr Emergency had a plumber at our Southbank apartment within 30 minutes. They installed a new gas continuous flow unit the same day. Fantastic service.",
+      "name": "Sarah M.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "I run a cafe in Richmond and a blocked drain was flooding the kitchen. They arrived fast, used a CCTV camera to find the blockage, and cleared it with hydro-jetting. Minimal downtime.",
+      "name": "David L.",
+      "role": "Local Business Owner"
+    },
+    {
+      "text": "Mr Emergency replaced the gas pipes in our old Fitzroy property. They were professional, on time, and left the place spotless. Highly recommend for gas fitting work.",
+      "name": "Emma P.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Melbourne",
+    "Southbank",
+    "St Kilda",
+    "Richmond",
+    "Brunswick",
+    "Footscray"
+  ],
+  "about": {
+    "intro": "Mr Emergency Plumbing Melbourne has been the trusted choice for residents and businesses across Melbourne for over ten years, providing fast, reliable plumbing solutions when they're needed most.",
+    "story": [
+      "Founded in Melbourne with a simple mission: get a qualified plumber to any home or business within 30 minutes. We started small, serving Southbank and St Kilda, and grew thanks to word-of-mouth from happy customers who appreciated our upfront pricing and no-surprises quotes.",
+      "Today we cover the entire greater Melbourne area from Werribee to Sunbury and down to the Mornington Peninsula. Our plumbers undergo continuous training and carry thousands of dollars worth of parts in each van so we can fix most problems on the first visit. We're proud to be Melbourne's emergency plumbing specialists."
+    ],
+    "mission": "To be Melbourne's most reliable plumber – on time, upfront, and fixing it right the first time.",
+    "whyUs": [
+      {
+        "title": "30-Minute Promise",
+        "text": "We guarantee a plumber at your Melbourne property within 30 minutes, any time of day or night."
+      },
+      {
+        "title": "Upfront Pricing",
+        "text": "You'll receive a fixed quote before any work starts. No hidden fees, no surprises."
+      },
+      {
+        "title": "Fully Stocked Vans",
+        "text": "Our vans carry parts for 90% of common plumbing issues, so we rarely need to leave to source supplies."
+      },
+      {
+        "title": "Licensed & Insured",
+        "text": "All our plumbers are fully licensed, insured to $20 million, and undergo regular safety training."
+      }
+    ],
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "15,000+",
+        "label": "Jobs Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licensed & Insured"
+      }
+    ],
+    "credentials": [
+      "Licensed Plumber & Gasfitter",
+      "Public liability insured to $20m",
+      "Master Plumbers Association member",
+      "WorkCover compliant"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent pricing with no lock-in contracts. Your Melbourne plumber will give you a clear quote before any work starts, so you know exactly what you're paying.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "Phone assessment",
+          "On-site inspection",
+          "Written quote"
+        ]
+      },
+      {
+        "name": "Emergency Callout",
+        "price": "from $99",
+        "unit": "callout",
+        "highlight": true,
+        "features": [
+          "30-minute response",
+          "Diagnosis included",
+          "Parts at cost",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Installation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Same-day install",
+          "All materials supplied",
+          "Old unit removal",
+          "12-month warranty"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront – you'll never pay more than the agreed price."
+  },
+  "contact": {
+    "intro": "Got a plumbing problem in Melbourne? Call us now for a free quote or to book an emergency plumber. We're available 24/7, including public holidays."
+  },
+  "contactHeading": "Let's Talk About Your Plumbing",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Mr Emergency Plumbing Melbourne | Emergency Plumber 30 Min",
+      "description": "Need a plumber in Melbourne? Mr Emergency offers 24/7 emergency plumbing with a 30-minute response. Burst pipes, blocked drains, hot water – call 1300 164 064."
+    },
+    "about": {
+      "title": "About Mr Emergency Plumbing Melbourne | Local Plumbers",
+      "description": "Learn about Mr Emergency Plumbing Melbourne – over a decade of fast, reliable plumbing across Melbourne. Upfront pricing, fully stocked vans, 30-min response."
+    },
+    "services": {
+      "title": "Plumbing Services in Melbourne | Mr Emergency Plumbing",
+      "description": "Full range of plumbing services in Melbourne: emergency plumbing, hot water systems, blocked drains, gas fitting, roof plumbing. Licensed plumbers, 24/7."
+    },
+    "pricing": {
+      "title": "Plumbing Prices & Costs Melbourne | Mr Emergency Plumbing",
+      "description": "Transparent plumbing pricing in Melbourne. Free consultation, emergency callout from $99, fixed quotes. No hidden fees. Call 1300 164 064."
+    },
+    "contact": {
+      "title": "Contact Mr Emergency Plumbing Melbourne | Free Quote",
+      "description": "Contact Mr Emergency Plumbing Melbourne for a free quote or emergency service. 24/7 plumbers in Melbourne. Call 1300 164 064 or book online."
+    },
+    "blog": {
+      "title": "Melbourne Plumbing Blog | Mr Emergency Plumbing",
+      "description": "Expert plumbing tips for Melbourne homeowners. Guides on hot water systems, blocked drains, gas safety, and emergency plumbing costs. Read our blog."
+    }
+  },
+  "blogHeading": "Latest Plumbing Advice",
+  "blogSubheading": "Tips, costs & local guides for Melbourne homeowners",
+  "blogPosts": [
+    {
+      "title": "How Much Does an Emergency Plumber Cost in Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering what emergency plumbing costs in Melbourne? We break down callout fees, hourly rates, and typical repair costs for burst pipes, blocked drains, and hot water failures.",
+      "image": "https://www.mremergency.com.au/wp-content/uploads/2020/03/header-bg-2.jpg",
+      "body": [
+        "When a plumbing emergency hits your Melbourne home, the first question is often 'How much will this cost?' Emergency plumber prices in Melbourne vary depending on the time of day, the severity of the issue, and the parts needed. Most emergency plumbers charge a callout fee between $99 and $180, plus an hourly rate of around $120 to $200. At Mr Emergency Plumbing, we keep our callout fee low and give you a fixed quote before any work starts.",
+        "Burst pipes are one of the most common emergencies, especially during Melbourne's cold winter months. A burst pipe repair typically costs between $250 and $600, depending on accessibility and the extent of the damage. If the pipe is behind a wall, you may also need plaster repair, which adds to the total. Our plumbers carry all the fittings needed to fix most burst pipes on the spot, saving you time and money.",
+        "Blocked drains are another frequent callout. A simple drain blockage can cost around $150 to $350 to clear with a hand snake, but if hydro-jetting or CCTV inspection is needed, the price can rise to $400–$800. In Melbourne, tree roots are a major cause of blocked drains, especially in older suburbs like St Kilda and Richmond. We recommend annual drain inspections to catch root intrusion early.",
+        "Hot water system failures often happen at the worst times – early morning or late at night. Emergency replacement of a hot water system costs between $800 and $2,500 depending on the type and size. Gas continuous flow systems are popular in Melbourne because they're energy-efficient and provide endless hot water. Our plumbers can source and install a new system the same day, so you're not left without hot water for long.",
+        "Gas leaks are the most dangerous plumbing emergency. If you smell gas, evacuate immediately and call a licensed gas fitter. Emergency gas leak repairs in Melbourne typically cost $150–$400 for a simple leak, but if the gas line needs replacement, it can be $500–$1,500. Never attempt to fix a gas leak yourself – always call a professional like Mr Emergency.",
+        "To avoid surprise costs, always ask for a written quote before work starts. At Mr Emergency, we provide upfront pricing for every job. We also offer a 12-month workmanship guarantee on repairs, giving you peace of mind. Whether it's a dripping tap or a major pipe burst, our Melbourne plumbers are here to help 24/7."
+      ]
+    },
+    {
+      "title": "Complete Guide to Hot Water System Replacement in Melbourne",
+      "date": "February 2026",
+      "excerpt": "Replacing your hot water system? This guide covers types, costs, rebates, and what to consider for Melbourne homes. From electric to solar and heat pump.",
+      "image": "https://www.mremergency.com.au/wp-content/uploads/2024/06/finance-options.png",
+      "body": [
+        "Hot water system replacement is one of the most common plumbing jobs in Melbourne. Whether your old unit has failed or you want to upgrade to a more efficient model, understanding your options helps you make the right choice. Melbourne's climate makes gas continuous flow and heat pump systems popular, but electric storage and solar also have their place.",
+        "Electric storage hot water systems are the cheapest upfront, costing $600–$1,200 installed. They're reliable but have higher running costs because electricity is expensive in Victoria. If you're on a time-of-use tariff, you can save by heating water overnight. However, many Melbourne homeowners are switching to more efficient options to reduce bills.",
+        "Gas continuous flow (instantaneous) systems are a top seller in Melbourne. They heat water on demand, so you never run out. Installation costs range from $1,200 to $2,500, including removal of the old unit. Running costs are lower than electric, and they take up less space – ideal for apartments and small homes in suburbs like Southbank and Fitzroy.",
+        "Heat pump hot water systems are becoming more popular due to government rebates. They use ambient air to heat water and can cut energy use by up to 70% compared to electric storage. Installation costs $2,000–$3,500, but the Victorian Energy Upgrades (VEU) program offers significant rebates, often reducing the out-of-pocket cost by hundreds of dollars.",
+        "Solar hot water systems are great for Melbourne homes with good roof exposure. They use solar panels to pre-heat water, with a gas or electric booster for cloudy days. Installation costs $3,000–$5,000, but federal and state rebates can bring that down. Over the long term, solar systems have the lowest running costs and increase property value.",
+        "When replacing your hot water system, consider the size of your household, your roof space, and your budget. A plumber can help you calculate the right capacity – for example, a family of four typically needs a 250–315 litre tank or a gas continuous flow unit with a flow rate of at least 20 litres per minute. Mr Emergency can supply and install any system the same day, with a full warranty."
+      ]
+    },
+    {
+      "title": "How to Prevent Blocked Drains in Melbourne Homes – Expert Tips",
+      "date": "January 2026",
+      "excerpt": "Blocked drains are a common headache for Melbourne homeowners. Learn how to prevent them with simple habits and when to call a plumber for CCTV inspections.",
+      "image": "https://www.mremergency.com.au/wp-content/uploads/2020/03/services-bg.jpg",
+      "body": [
+        "Blocked drains are one of the most frequent calls we get at Mr Emergency Plumbing Melbourne. From kitchen sinks to stormwater drains, blockages can cause water damage, bad smells, and even flooding. The good news is that many blockages are preventable with a few simple habits. Here's our expert advice for Melbourne homeowners.",
+        "Kitchen sinks often get blocked by grease, oil, and food scraps. Never pour cooking oil down the drain – instead, let it cool and dispose of it in the bin. Use a sink strainer to catch food particles, and avoid putting coffee grounds, pasta, or rice down the sink. In winter, Melbourne's cold water can solidify grease further down the pipe, creating a stubborn blockage.",
+        "Toilets are another common source of blockages. Only flush the three Ps – pee, poo, and paper. Wet wipes, cotton buds, and sanitary products should never go down the toilet. Even 'flushable' wipes don't break down properly and can cause major sewer blockages. If your toilet is draining slowly, it's a sign of a developing blockage that needs attention.",
+        "Outdoor drains and stormwater pits can get blocked by leaves, dirt, and debris. Melbourne's autumn and winter storms can quickly overwhelm gutters and drains. Clean your gutters regularly and consider installing gutter guards. Make sure stormwater drains are clear of leaves and sediment before the rainy season. A blocked stormwater drain can lead to water pooling around your home's foundations.",
+        "Tree roots are a major cause of blocked drains in Melbourne's older suburbs. Roots from trees like willows and poplars can find tiny cracks in pipes and grow inside, eventually causing blockages. If you have slow drains and gurgling noises, it could be tree roots. A CCTV drain camera inspection by a plumber can identify the problem. In some cases, pipe relining can fix the issue without digging up your yard.",
+        "If you do get a blocked drain, avoid using chemical drain cleaners – they can damage pipes and are harmful to the environment. Instead, try a plunger or a drain snake for minor blockages. For stubborn or recurring blockages, call a professional plumber. Mr Emergency offers hydro-jet cleaning and CCTV inspections across Melbourne to clear and prevent blockages permanently."
+      ]
+    },
+    {
+      "title": "Gas Safety in Melbourne: When to Call a Licensed Gas Fitter",
+      "date": "December 2025",
+      "excerpt": "Gas appliances are common in Melbourne homes, but they need proper installation and maintenance. Learn the signs of a gas leak and when to call a professional gas fitter.",
+      "image": "https://www.mremergency.com.au/wp-content/uploads/2020/04/running-man-img.png",
+      "body": [
+        "Gas is a safe and efficient energy source when installed correctly, but gas leaks can be dangerous – even fatal. In Melbourne, many homes use gas for heating, hot water, and cooking. Knowing the signs of a gas leak and when to call a licensed gas fitter could save your life. At Mr Emergency, we respond immediately to gas emergencies.",
+        "The most obvious sign of a gas leak is the smell of rotten eggs. Natural gas is odourless, so gas companies add a chemical called mercaptan to give it that distinctive smell. If you smell gas, don't use any electrical switches, light a match, or use your phone. Evacuate the property and call a licensed gas fitter from outside. Mr Emergency offers 24/7 emergency gas leak services in Melbourne.",
+        "Other signs of a gas leak include hissing sounds near gas lines or appliances, dead grass or plants near underground gas pipes, and higher gas bills than usual. Carbon monoxide poisoning is another risk – symptoms include headaches, dizziness, nausea, and confusion. If you suspect carbon monoxide, leave the property immediately and seek medical help.",
+        "Gas appliance installation should always be done by a licensed gas fitter. In Victoria, it's illegal to do gas work without a licence. Incorrect installation can lead to leaks, fires, or carbon monoxide poisoning. Whether you're installing a new gas cooktop, heater, or BBQ, always hire a professional. Mr Emergency's gas fitters are fully licensed and insured.",
+        "Regular maintenance of gas appliances is essential for safety and efficiency. Gas heaters should be serviced every two years, and gas hot water systems every five years. A service includes checking for leaks, cleaning burners, and testing carbon monoxide levels. In Melbourne, many insurance policies require annual gas safety checks for rental properties – make sure you're compliant.",
+        "If you smell gas or suspect a problem, don't delay. Call Mr Emergency Plumbing Melbourne on 1300 164 064. Our licensed gas fitters will arrive within 30 minutes to assess and fix the issue. Remember, gas safety is not something to gamble with – always use a qualified professional."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://www.mremergency.com.au/wp-content/uploads/2020/03/header-bg-2.jpg",
+  "photoRowImages": [
+    "https://www.mremergency.com.au/wp-content/themes/metro-group/img/van-sidebar.png",
+    "https://www.mremergency.com.au/wp-content/uploads/2024/06/finance-options.png",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/03/cta-banner-bg.jpg",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/03/services-bg.jpg"
+  ],
+  "aboutImages": [
+    "https://www.mremergency.com.au/wp-content/uploads/2020/04/running-man-img.png",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/05/mr-emergency-schema-img.jpg",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/03/header-bg-2.jpg"
+  ],
+  "fullWidthImage": "https://www.mremergency.com.au/wp-content/themes/metro-group/img/van-sidebar.png",
+  "bannerHeading": "Ready to fix your plumbing?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://www.mremergency.com.au/wp-content/uploads/2024/06/finance-options.png",
+  "testimonialsImage": "https://www.mremergency.com.au/wp-content/uploads/2020/03/services-bg.jpg",
+  "galleryImages": [
+    "https://www.mremergency.com.au/wp-content/uploads/2020/03/header-bg-2.jpg",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/03/cta-banner-bg.jpg",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/04/running-man-img.png",
+    "https://www.mremergency.com.au/wp-content/uploads/2020/05/mr-emergency-schema-img.jpg",
+    "https://www.mremergency.com.au/wp-content/themes/metro-group/img/van-sidebar.png"
+  ],
+  "pricingBgImage": "https://www.mremergency.com.au/wp-content/uploads/2024/06/finance-options.png"
+}
