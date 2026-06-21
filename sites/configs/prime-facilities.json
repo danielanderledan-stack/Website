@@ -1,0 +1,340 @@
+{
+  "siteType": "builder",
+  "businessName": "Prime Facilities",
+  "suburb": "Southbank",
+  "phone": "+61386302807",
+  "email": "facilities@primegroup.com.au",
+  "address": "Lvl 2/1 Southbank Blvd, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8210652,
+    "longitude": 144.96282929999998
+  },
+  "tagline": "Southbank's Go-To Builder",
+  "primaryColor": "#FF6600",
+  "primaryColorRgb": "255, 102, 0",
+  "primaryColorHover": "#E55C00",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Prime Facilities — Southbank's Builder",
+      "sub": "Renovations & maintenance",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/08/Prime-Group-Logo_black-300x207.png"
+    },
+    {
+      "title": "Built Around Your Business Needs",
+      "sub": "Fixed quotes, no surprises",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/08/Prime-Training.png"
+    },
+    {
+      "title": "15+ Years Serving Southbank",
+      "sub": "Local & licensed",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/08/ASIAL-Gold-member.png"
+    }
+  ],
+  "ctaHeading": [
+    "Don't wait —",
+    "Prime Facilities",
+    "is ready to build for you."
+  ],
+  "aboutHeading": "Builders Who Listen & Deliver",
+  "aboutSubheading": "Your local experts in building and maintenance",
+  "aboutText": "For over 15 years, Prime Facilities has been the trusted builder for businesses and homeowners across Southbank and Melbourne. We specialise in renovations, carpentry, electrical, plumbing, and full facility maintenance. Our team brings hands-on experience and a no-nonsense approach to every project, big or small. We're proud to be a local company that actually shows up on time and sticks to the quote.",
+  "servicesHeading": "Our Expert Services",
+  "servicesSubheading": "End-to-end building and maintenance solutions",
+  "servicesText": "From carpentry and electrical work to full renovations and plumbing, Prime Facilities covers every aspect of your building and facility needs. We deliver quality workmanship across Southbank, Melbourne CBD, and surrounding suburbs.",
+  "services": [
+    {
+      "title": "Carpentry",
+      "desc": "Custom framing, trusses, decks, and joinery tailored to your project.",
+      "longDesc": "Professional carpentry services in Southbank for renovations, new builds, and repairs. We handle everything from custom shelving to roofing frames with precision and care.",
+      "points": [
+        "Custom joinery",
+        "Decking & pergolas",
+        "Structural framing"
+      ]
+    },
+    {
+      "title": "Electrical",
+      "desc": "Licenced electricians for data cabling, lighting, and power points.",
+      "longDesc": "Our licenced electricians provide safe, compliant electrical installations and upgrades across Southbank. From switchboard replacements to smart home wiring, we've got you covered.",
+      "points": [
+        "Safety inspected",
+        "LED upgrades",
+        "Switchboard repairs"
+      ]
+    },
+    {
+      "title": "Plumbing",
+      "desc": "Reliable plumbing for leaks, hot water, and new installations.",
+      "longDesc": "Full plumbing services for commercial and residential properties in Southbank. We fix leaks, install hot water systems, and handle all pipework with a focus on durability.",
+      "points": [
+        "24/7 emergency calls",
+        "Hot water systems",
+        "Blocked drains"
+      ]
+    },
+    {
+      "title": "Painting",
+      "desc": "Interior and exterior painting with premium finishes.",
+      "longDesc": "Transform your space with our professional painting services in Southbank. We use high-quality paints and prepare surfaces thoroughly for a long-lasting finish.",
+      "points": [
+        "Colour consultation",
+        "Weather-proof coatings",
+        "Commercial quick dry"
+      ]
+    },
+    {
+      "title": "Renovations",
+      "desc": "Kitchen, bathroom, and whole-home renovations done right.",
+      "longDesc": "Experienced renovation builders in Southbank specialising in open-plan living, kitchen upgrades, and bathroom makeovers. We manage council approvals and coordinate trades for a smooth build.",
+      "points": [
+        "Kitchen & bathroom",
+        "Open-plan design",
+        "Fixed-price contract"
+      ]
+    },
+    {
+      "title": "Facility Maintenance",
+      "desc": "Ongoing maintenance for your building's long-term health.",
+      "longDesc": "Prime Facilities offers scheduled and reactive maintenance for commercial and residential buildings. From gutter cleaning to structural repairs, we keep your property in top shape.",
+      "points": [
+        "Scheduled inspections",
+        "Emergency repairs",
+        "Asset management"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across Southbank and Melbourne",
+  "reviews": [
+    {
+      "text": "Prime Facilities renovated our office in Southbank from start to finish. The carpentry and electrical work was spot on, and they finished two weeks early. Highly recommend their building services.",
+      "name": "Sarah F.",
+      "role": "Southbank Business Owner"
+    },
+    {
+      "text": "Had them fix a leaking pipe and replace our hot water system. The plumber was on time, friendly, and the price matched the quote exactly. No surprises, just good old-fashioned workmanship.",
+      "name": "Mark T.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "We manage a block of apartments near Southbank and Prime handles all our maintenance. From painting common areas to emergency electrical callouts, they're reliable and professional.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "Melbourne CBD",
+    "St Kilda",
+    "Richmond",
+    "South Yarra",
+    "Docklands",
+    "Port Melbourne",
+    "Fitzroy"
+  ],
+  "about": {
+    "intro": "Prime Facilities is a Southbank-based building and maintenance company with over 15 years of hands-on experience in Melbourne's inner suburbs.",
+    "story": [
+      "Prime Facilities started as a small carpentry crew working out of a ute in Southbank. Over the years, we expanded into electrical, plumbing, painting, and full renovations. Our team now handles everything from a single tap replacement to a complete office fit-out.",
+      "We built our reputation on reliability and straightforward pricing. Every project, big or small, gets the same attention to detail. We don't cut corners and we don't disappear once the job's done. Our clients know they can call us for maintenance years later.",
+      "Being local means we understand Melbourne's building codes, weather challenges, and the unique quirks of Southbank's older buildings and modern apartments. We're proud to be part of this community and to help keep its properties safe and functional."
+    ],
+    "mission": "To deliver honest, high-quality building and maintenance services that make Southbank and Melbourne properties safer, smarter, and more comfortable.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We've worked in Southbank and surrounds for 15 years, knowing the council rules and local tradies."
+      },
+      {
+        "title": "Fixed-Price Promise",
+        "text": "No hourly surprises. We give you a firm quote upfront and stick to it."
+      },
+      {
+        "title": "On Time",
+        "text": "We respect your schedule. Our crews arrive when we say and finish on deadline."
+      },
+      {
+        "title": "Quality Guaranteed",
+        "text": "Every job is backed by our workmanship guarantee. If it's not right, we fix it."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Licenced & Insured"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (VIC)",
+      "Public liability insured to $20m",
+      "Master Builders Association member",
+      "Plumbing & Electrical licenced"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent pricing for all building and maintenance work in Southbank. No hidden fees, no lock-in contracts.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site visit",
+          "Feasibility check",
+          "Written estimate"
+        ]
+      },
+      {
+        "name": "Standard Renovation",
+        "price": "from $85k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Kitchens & bathrooms",
+          "Open-plan living",
+          "Fixed-price contract",
+          "Workmanship guarantee"
+        ]
+      },
+      {
+        "name": "Full Facility Maintenance",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Scheduled inspections",
+          "Emergency call-outs",
+          "Asset management",
+          "Discount for annual plans"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront — no extra charges unless you change the scope."
+  },
+  "contact": {
+    "intro": "Ready to start your building or maintenance project in Southbank? Give us a call or drop an email for a free, no-obligation quote."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Prime Facilities | Southbank Builder & Maintenance | Melbourne",
+      "description": "Prime Facilities is Southbank's trusted builder for renovations, carpentry, electrical, plumbing, painting, and facility maintenance. 15+ years local experience. Fixed quotes. Call now."
+    },
+    "about": {
+      "title": "About Prime Facilities — Southbank's Reliable Building Team",
+      "description": "Learn about Prime Facilities, a family-run building and maintenance company serving Southbank and Melbourne since 2009. Local, licenced, and trusted by hundreds of clients."
+    },
+    "services": {
+      "title": "Building & Maintenance Services in Southbank | Prime Facilities",
+      "description": "Full range of building services in Southbank: carpentry, electrical, plumbing, painting, renovations, facility maintenance. Free quotes. Quality workmanship guaranteed."
+    },
+    "pricing": {
+      "title": "Building Costs & Prices in Southbank | Prime Facilities",
+      "description": "Transparent pricing for building and maintenance in Southbank. Free initial consultation, fixed-price quotes, no lock-in contracts. See our packages and get a quote today."
+    },
+    "contact": {
+      "title": "Contact Prime Facilities | Free Consultation Southbank",
+      "description": "Get in touch with Prime Facilities for a free consultation. Serving Southbank, Melbourne CBD, and inner suburbs. Call +61386302807 or email facilities@primegroup.com.au."
+    },
+    "blog": {
+      "title": "Southbank Building & Renovation Blog | Prime Facilities",
+      "description": "Read expert advice on building, renovations, and maintenance in Southbank. Cost guides, local tips, and project inspiration from Prime Facilities."
+    }
+  },
+  "blogHeading": "Latest Building & Maintenance News",
+  "blogSubheading": "Tips, costs & local guides from Prime Facilities",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Bathroom Renovation Cost in Southbank in 2026?",
+      "date": "March 2026",
+      "excerpt": "Thinking of renovating your bathroom in Southbank? We break down average costs, permit requirements, and tips to save without cutting corners.",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-22.jpg",
+      "body": [
+        "Bathroom renovations in Southbank typically cost between $15,000 and $35,000 depending on the size, materials, and scope of work. For a standard 3x2 metre bathroom with a shower, vanity, and toilet, expect around $20,000 for a mid-range fit-out with quality tiles and fixtures. Prices in inner suburbs like Southbank tend to be slightly higher due to building access restrictions and council requirements for high-rise apartments.",
+        "One of the biggest cost drivers is waterproofing. In Southbank's apartment blocks, many bathrooms are older and may need complete membrane replacement to meet current Australian standards (AS 3740-2021). This alone can add $2,000 to $4,000. If you're in a heritage building, you may also need approvals from Heritage Victoria, which can delay the project and add consultant fees.",
+        "Labour costs in Melbourne's inner suburbs range from $1,200 to $1,800 per day for a qualified builder and apprentice. Prime Facilities offers fixed-price quotes, so you know exactly what you're paying before we start. Our bathroom renovation package includes demolition, waterproofing, tiling, plumbing, electrical, and painting — no hidden extras.",
+        "To save money, consider keeping the existing layout. Moving a toilet or shower over even a metre requires significant plumbing work that can blow out your budget by $3,000–$5,000. Also, choose mid-range Australian-made tiles ($35–$60 per square metre) rather than imported stone. They're more durable and easier to replace if needed.",
+        "A common mistake we see in Southbank renovations is poor ventilation. Many apartments have limited external wall space for windows, so you'll need a high-capacity exhaust fan that meets the Building Code of Australia. A good inline fan with a humidity sensor costs around $400–$800 installed but is essential to prevent mould in Melbourne's humid summers.",
+        "Timeline-wise, a full bathroom renovation in a Southbank apartment typically takes 4 to 6 weeks. That includes a week for demolition and waterproofing, two weeks for tiling, and a week for plumbing and electrical fit-off. Prime Facilities coordinates all trades to keep the job moving smoothly, so you're not left without a shower for months."
+      ]
+    },
+    {
+      "title": "Best Time to Renovate Your Home in Melbourne's Southbank",
+      "date": "February 2026",
+      "excerpt": "Melbourne's weather can be unpredictable. Find out the optimum seasons for building projects in Southbank and how to plan around rain and heat.",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-24.jpg",
+      "body": [
+        "If you're planning a renovation in Southbank, timing matters. Melbourne's climate is notoriously fickle — hot summers, cold winters, and sudden rain showers can throw a spanner in the works. The most reliable months for exterior work are October through April, when rainfall is lowest and temperatures are mild. Spring is especially good because the ground is dry but not baking hot.",
+        "For interior renovations, you can work year-round, but winter (June–August) often means shorter daylight hours and wet conditions that affect material deliveries and concrete curing. If your project involves demolition or structural changes, factor in potential delays. Many Southbank apartments have after-hours noise restrictions, so loud work may be limited to 8am–5pm weekdays.",
+        "Another consideration is council processing times. The City of Melbourne requires building permits for most structural changes, even in apartments. In peak periods (September–November), permit approvals can take 6–8 weeks. Start the paperwork early to avoid a quiet period over summer when you'd rather be building.",
+        "Costs also fluctuate seasonally. Many builders offer off-peak discounts in July and August when demand drops. Prime Facilities runs a winter special on maintenance work — painting, plumbing, electrical upgrades — that can save you 10–15%. However, for major renovations, we recommend booking in autumn or spring when the weather is stable and materials are readily available.",
+        "Melbourne's heatwaves (36°C+) can cause issues with adhesives, paints, and concrete. If you're pouring a slab in summer, plan for early morning starts and use hydration techniques. Conversely, in winter, avoid external painting when the temperature is below 10°C, as the paint won't cure properly. Our team uses weather-monitoring tools to adjust schedules on the fly.",
+        "Ultimately, there's never a perfect time, but with careful planning and a flexible builder like Prime Facilities, you can avoid the worst of Melbourne's weather. We've completed projects through heavy rain and heatwaves by working under covers and using fast-setting materials. Talk to us about your timeline — we'll help you pick the sweet spot."
+      ]
+    },
+    {
+      "title": "What Does a Commercial Fit-Out Cost in Southbank in 2026?",
+      "date": "January 2026",
+      "excerpt": "Opening a new office or retail space in Southbank? Here's your guide to fit-out costs, council approvals, and essential trades to budget for.",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-25.jpg",
+      "body": [
+        "A commercial fit-out in Southbank can cost anywhere from $1,000 per square metre for a basic office to over $5,000 per square metre for a high-end retail or hospitality space. The wide range depends on the condition of the shell, the level of finishes, and whether you need structural changes. In Southbank's modern high-rises, many tenancies are delivered as 'grey shells' with concrete floors, bare walls, and basic services.",
+        "Major cost categories include: partitioning and joinery (20–30% of budget), electrical and data cabling (15–20%), air conditioning and mechanical (10–15%), flooring and ceiling (10–15%), and painting and finishes (5–10%). Don't forget fire services — sprinkler modifications and fire-rated walls can add 5–8% if the layout changes significantly.",
+        "Council permits in the City of Melbourne require a building permit for any fit-out over $10,000. If the space is in a heritage overlay (common around Southbank's older streets), you may need a planning permit as well. Allow 8–12 weeks for approvals. Our team at Prime Facilities handles all lodging with the council and can recommend an accredited building surveyor.",
+        "A smart way to save is to reuse existing services where possible. For example, if the existing ceiling grid, ductwork, and wiring are in good condition, you can avoid a full strip-out. We often advise clients to invest in quality flooring and lighting — these are the elements that make the biggest impression and have the longest lifespan.",
+        "Another hidden cost is waste disposal. Construction and demolition waste in Melbourne's CBD is regulated, and skip bin fees plus disposal levies can run $1,500–$3,000 for a medium fit-out. Prime Facilities includes waste management in our quotes and works with recycling centres to minimise landfill.",
+        "Timeline: a typical 200sqm office fit-out in Southbank takes 10–16 weeks from start of demolition to practical completion. That assumes no delays in permits or materials. We've done many fit-outs in Southbank and know the building managers' requirements — after-hours access, lift booking, and noise restrictions — so we can keep your project on track."
+      ]
+    },
+    {
+      "title": "Why Leaking Plumbing in Southbank Needs Immediate Attention",
+      "date": "December 2025",
+      "excerpt": "A small leak can become a big problem in Melbourne's climate. Learn the signs of hidden water damage, repair costs, and when to call a plumber.",
+      "image": "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-26.jpg",
+      "body": [
+        "In Southbank's apartment towers and townhouses, a slow plumbing leak can quickly escalate into serious structural damage. Melbourne's humid summers and cool winters create perfect conditions for mould growth behind walls. Even a drip at 10 drops per minute wastes over 500 litres per year and can rot timber framing within months.",
+        "Common signs of hidden leaks include: unexplained water stains on ceilings or walls, a musty smell, peeling paint or bubbling wallpaper, and a sudden increase in your water bill. In many Southbank apartments, leaks originate from faulty shower pans or corroded pipe joints in walls. If you notice any of these, call a licenced plumber immediately.",
+        "The cost to repair a leaking pipe in Southbank typically ranges from $200 to $800 for an accessible pipe, but if the leak is hidden inside a wall or concrete slab, expect $1,000–$2,500 once the wall is opened and repaired. Insurance usually covers sudden damage but not gradual deterioration, so early detection saves money.",
+        "Melbourne's water quality is generally good, but older Southbank buildings (pre-1990) may have copper pipes affected by pitting corrosion. A plumber can perform a pressure test to identify weak points. If your building has multiple leaks, a full re-pipe using PEX plastic might be more economical — around $3,000–$6,000 for a one-bedroom apartment.",
+        "For body corporates, we recommend annual plumbing inspections as part of your facility maintenance plan. Prime Facilities offers a service where we check all common-area plumbing, including roof drainage, and report any issues before they become emergency call-outs. This proactive approach can reduce repair costs by up to 40%.",
+        "If you do have a leak, turn off the water supply immediately and call us. We're available 24/7 for emergency plumbing in Southbank. We'll locate the leak using thermal imaging and pin-point detection equipment, so we only open up the wall where necessary. Then we repair and restore, leaving your home or office looking like new."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://primefacilities.com.au/wp-content/uploads/2022/08/Labour-HIre-Certificate2.png",
+  "photoRowImages": [
+    "https://primefacilities.com.au/wp-content/uploads/2022/08/Labour-HIre-Certificate.png",
+    "https://primefacilities.com.au/wp-content/uploads/2022/08/CM3-Certificate.png",
+    "https://i.ytimg.com/vi/ID/hqdefault.jpg",
+    "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-21.jpg"
+  ],
+  "aboutImages": [
+    "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-22.jpg",
+    "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-24.jpg",
+    "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-25.jpg"
+  ],
+  "fullWidthImage": "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-26.jpg",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://primefacilities.com.au/wp-content/uploads/2022/08/Prime-Group-Logo_black-300x207.png",
+  "testimonialsImage": "https://primefacilities.com.au/wp-content/uploads/2022/08/Prime-Training.png",
+  "galleryImages": [
+    "https://primefacilities.com.au/wp-content/uploads/2022/08/ASIAL-Gold-member.png",
+    "https://primefacilities.com.au/wp-content/uploads/2022/08/Labour-HIre-Certificate2.png",
+    "https://primefacilities.com.au/wp-content/uploads/2022/08/Labour-HIre-Certificate.png",
+    "https://primefacilities.com.au/wp-content/uploads/2022/08/CM3-Certificate.png",
+    "https://i.ytimg.com/vi/ID/hqdefault.jpg"
+  ],
+  "pricingBgImage": "https://primefacilities.com.au/wp-content/uploads/2022/09/PG-ClientelleLogos-21.jpg"
+}
