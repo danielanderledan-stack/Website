@@ -1,0 +1,337 @@
+{
+  "siteType": "electrician",
+  "businessName": "Platinum Electrical",
+  "suburb": "South Melbourne",
+  "phone": "+61 3 8679 2299",
+  "email": "info@platinumelectricalcompany.com.au",
+  "address": "80 Market St, South Melbourne VIC 3205",
+  "coordinates": {
+    "latitude": -37.8297891,
+    "longitude": 144.9580624
+  },
+  "tagline": "South Melbourne's Trusted Electricians",
+  "primaryColor": "#00c6ff",
+  "primaryColorRgb": "0, 198, 255",
+  "primaryColorHover": "#009fcc",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "South Melbourne's Reliable Electricians",
+      "sub": "Residential & commercial electrical services",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbPk6cz_69gySgfSIi9wPpGkRN7dzryk4ibRqqExWQ0nVuqmNkvHlJVYn54p9pvVoi-DrC3yH2uUzfR5Q1rShXEKF4Q1OIVsU_SzX3QUCgDprtnS7yS6-wCYUKjZNOrWIj_R8b=w1600-h1200-k-no"
+    },
+    {
+      "title": "Smart Home Automation Experts",
+      "sub": "Cutting-edge technology for your home",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWumP1Daur2idvjPYISRwhyTkpcgvM4eHNyuwyOrNKbiaHbnKUcEdjT76Xc2_HdS334KwY9A45E42IWdcyZvFYghng0fvSXr71Dnzz0k3oFp4U-h2SOAzlgHH3EEuQx872BJVy=w1600-h1200-k-no"
+    },
+    {
+      "title": "24/7 Emergency Call Out",
+      "sub": "Fast response when you need us",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSBiVjkQDVSoM0FdhD9TaS_GoH2TXOdTUBB4g_0OVCB7aOXpMF4GkRTb73lOKA6kbSn03Vec5TDhNSP8yUhlDZxVtC5zvR2bNlbh_JuA1pXG2e2T4OmcKM2M4x3E1Fa4OpECnwqcOyPg=w1600-h1200-k-no"
+    }
+  ],
+  "ctaHeading": [
+    "Get your free quote",
+    "from South Melbourne's",
+    "top-rated electricians."
+  ],
+  "aboutHeading": "Electricians Who Deliver Excellence",
+  "aboutSubheading": "Your local experts in electrical solutions",
+  "aboutText": "For over 15 years, Platinum Electrical has been serving South Melbourne and surrounding suburbs with reliable electrical services. Our team of fully licensed electricians handles everything from smart home automation to EV charging, ensuring quality workmanship and fast response times. We're proud to be a trusted local name in Melbourne's inner south, using cutting-edge technology on every job.",
+  "servicesHeading": "Our Expert Electrical Services",
+  "servicesSubheading": "From small repairs to full home automation",
+  "servicesText": "Platinum Electrical offers a full range of electrical services across South Melbourne and the inner suburbs. We specialise in smart home automation, heating and cooling installations, EV charger setup, gas to electric conversions, and general electrical maintenance. Our licensed electricians use the latest technology to deliver safe, efficient solutions tailored to your needs.",
+  "services": [
+    {
+      "title": "General Electrical Services",
+      "desc": "From power points to switchboard upgrades, we handle all residential and commercial electrical work.",
+      "longDesc": "Our licensed electricians provide comprehensive general electrical services in South Melbourne including wiring, lighting, fuse box upgrades, safety switches, and troubleshooting. We ensure all work meets Australian standards.",
+      "points": [
+        "Same-day service",
+        "Fully licensed team",
+        "Fixed-price quotes"
+      ]
+    },
+    {
+      "title": "Smart Home Automation",
+      "desc": "Control lighting, blinds, heating, and security from your phone with our smart home solutions.",
+      "longDesc": "Transform your home with custom automation. We install systems from leading brands, integrating lighting, HVAC, blinds, and security into one seamless app. Energy savings and convenience for South Melbourne homes.",
+      "points": [
+        "Customised to your home",
+        "App-based control",
+        "Energy efficient"
+      ]
+    },
+    {
+      "title": "Heating & Cooling",
+      "desc": "Expert installation and maintenance of reverse cycle air conditioners and split systems.",
+      "longDesc": "Stay comfortable year-round with our heating and cooling services. We install, service, and repair split systems, ducted air conditioners, and heat pumps across South Melbourne and beyond. Daikin, Fujitsu, Mitsubishi approved.",
+      "points": [
+        "All major brands",
+        "Energy rating advice",
+        "24/7 emergency repairs"
+      ]
+    },
+    {
+      "title": "Gas to Electric Conversions",
+      "desc": "Replace old gas appliances with modern, efficient electric alternatives for lower bills.",
+      "longDesc": "Make the switch from gas to electric with Platinum Electrical. We convert hot water systems, cooktops, and heating to electric, reducing your carbon footprint and energy costs. Rebates available in Victoria.",
+      "points": [
+        "Reduced energy bills",
+        "Government rebates",
+        "Cleaner energy"
+      ]
+    },
+    {
+      "title": "EV Charger Installation",
+      "desc": "Professional installation of Tesla, Wallbox, and universal EV chargers for homes and businesses.",
+      "longDesc": "Future-proof your property with a dedicated EV charging station. We handle the full install from electrical upgrades to charger mounting, ensuring compliance with all safety standards. Servicing South Melbourne and inner suburbs.",
+      "points": [
+        "All charger types",
+        "Fast installation",
+        "Safety certified"
+      ]
+    },
+    {
+      "title": "Solar Electrical Services",
+      "desc": "Solar panel wiring, inverter installation, and battery storage integration for maximum savings.",
+      "longDesc": "Go solar with confidence. Our electricians handle all electrical aspects of solar PV systems, including inverter connections, switchboard upgrades, and battery storage. We work with leading solar brands across Melbourne.",
+      "points": [
+        "Seamless integration",
+        "Maximise solar savings",
+        "Licensed & insured"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted across the inner suburbs",
+  "reviews": [
+    {
+      "text": "Allen's team transformed my home with their incredible automation solutions. I'm living in the future now, thanks to Platinum Electrical. They installed a complete smart home system in my Port Melbourne house, and the energy savings are amazing.",
+      "name": "Emma T.",
+      "role": "Port Melbourne Homeowner"
+    },
+    {
+      "text": "Top-notch service — the automation technology has streamlined my business, making my day-to-day so much easier. Highly recommend their expertise! They set up our Richmond office with smart lighting and HVAC controls.",
+      "name": "Liam R.",
+      "role": "Richmond Business Owner"
+    },
+    {
+      "text": "Exceptional service, turning my garage electric-car-friendly. Their attention to detail and technical prowess exceeded my expectations. Grateful for Allen and the team in St Kilda East. The EV charger works flawlessly.",
+      "name": "David K.",
+      "role": "St Kilda East Homeowner"
+    }
+  ],
+  "serviceAreas": [
+    "South Melbourne",
+    "Port Melbourne",
+    "St Kilda",
+    "Richmond",
+    "Albert Park",
+    "Middle Park",
+    "Prahran"
+  ],
+  "about": {
+    "intro": "Platinum Electrical has been a trusted name in South Melbourne for over 15 years, delivering professional electrical services to homes and businesses across the inner suburbs.",
+    "story": [
+      "Platinum Electrical was founded by Allen with a simple mission: provide reliable, high-quality electrical work that locals can count on. Starting from a small van in South Melbourne, Allen built a team of licensed electricians who share his passion for precision and customer care. We've grown organically through word-of-mouth because our clients know we show up on time and finish the job right.",
+      "Today, we're proud to serve South Melbourne, Port Melbourne, St Kilda, Richmond, and beyond. From smart home automation to EV chargers, we stay at the forefront of technology to give our clients the best solutions. Our team undergoes continuous training on Australian standards and new products, ensuring every installation is safe, efficient, and built to last."
+    ],
+    "mission": "To power South Melbourne homes and businesses with safe, innovative electrical solutions that make life easier and more efficient.",
+    "whyUs": [
+      {
+        "title": "Local Knowledge",
+        "text": "We know South Melbourne inside out — older homes, new developments, and council requirements — so your job goes smoothly."
+      },
+      {
+        "title": "24/7 Emergency Service",
+        "text": "Electrical faults don't wait for business hours. We're on call around the clock for urgent repairs across the inner suburbs."
+      },
+      {
+        "title": "Fully Licensed & Insured",
+        "text": "Every electrician on our team holds an A Grade licence, and we carry $20 million public liability insurance for peace of mind."
+      },
+      {
+        "title": "Cutting-Edge Technology",
+        "text": "We use the latest diagnostic tools and smart home systems to deliver modern, energy-efficient solutions tailored to your lifestyle."
+      }
+    ],
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      }
+    ],
+    "credentials": [
+      "Licensed Electricians (A Grade)",
+      "Registered Electrical Contractors",
+      "Master Electricians Australia Member"
+    ]
+  },
+  "pricing": {
+    "intro": "At Platinum Electrical, we believe in transparent pricing with no hidden fees. Get a free, no-obligation quote for any job in South Melbourne and the inner suburbs.",
+    "packages": [
+      {
+        "name": "Free Quote & Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site inspection",
+          "Written estimate",
+          "No obligation"
+        ]
+      },
+      {
+        "name": "Standard Electrical Job",
+        "price": "from $150",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "All labour & materials",
+          "Fixed price quoted upfront",
+          "Workmanship guarantee",
+          "Fully licensed electrician"
+        ]
+      },
+      {
+        "name": "Full Home Automation",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Custom design & install",
+          "Smart lighting, blinds, HVAC",
+          "App control via phone",
+          "Ongoing support"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed and come with our satisfaction guarantee — no surprises, just honest pricing."
+  },
+  "contact": {
+    "intro": "Ready to upgrade your home or business? Call Platinum Electrical today for a free quote and expert advice from South Melbourne's most trusted electricians."
+  },
+  "contactHeading": "Let's Talk About Your Electrical Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "Platinum Electrical | South Melbourne Electrician | Smart Home",
+      "description": "Platinum Electrical provides reliable electrical services, smart home automation, EV charging, and heating & cooling in South Melbourne, Port Melbourne & St Kilda. Call now for a free quote!"
+    },
+    "about": {
+      "title": "About Platinum Electrical — South Melbourne's Trusted Electricians",
+      "description": "Learn about Platinum Electrical's story, our licensed team, and our commitment to quality electrical work in South Melbourne and surrounding suburbs. Over 15 years of experience."
+    },
+    "services": {
+      "title": "Electrical Services in South Melbourne | Platinum Electrical",
+      "description": "Explore our full range: general electrical, smart home automation, EV chargers, gas to electric, heating & cooling. Serving South Melbourne, Richmond, Albert Park."
+    },
+    "pricing": {
+      "title": "Electrical Pricing & Costs in South Melbourne | Free Quotes",
+      "description": "Transparent pricing for electrical services in South Melbourne. Get a free quote for your project - no hidden fees. Call Platinum Electrical today."
+    },
+    "contact": {
+      "title": "Contact Platinum Electrical | Free Quote & Consultation",
+      "description": "Get in touch with Platinum Electrical for a free, no-obligation quote. We serve South Melbourne and all inner suburbs. Call or email us today."
+    },
+    "blog": {
+      "title": "South Melbourne Electrical Blog | Platinum Electrical",
+      "description": "Read our blog for expert tips on smart home automation, EV charging, electrical safety, and local upgrades in South Melbourne. Stay informed."
+    }
+  },
+  "blogHeading": "Latest Electrical Tips & Guides",
+  "blogSubheading": "Expert advice for South Melbourne homes",
+  "blogPosts": [
+    {
+      "title": "How Much Does Smart Home Automation Cost in South Melbourne in 2026?",
+      "date": "March 2026",
+      "excerpt": "Wondering about the cost of smart home automation in South Melbourne? We break down pricing for lighting, blinds, HVAC, and security systems in this comprehensive guide.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfAk4AijpkOObotYYTfGZL6rTBUHg7RoqyL2IiRS_8r03QE4uPgjUkjmL9F1wxL82QFOxA7-CZVRKmTz0OMQ4yQp7fNr6XCklNgNrreL1-P-nBjyguRwasqD7Ajagu3vYrgT4-=w1600-h1200-k-no",
+      "body": [
+        "Smart home automation is becoming increasingly popular in South Melbourne, with homeowners looking to control lighting, blinds, heating, and security from a single app. But what does it actually cost? Prices vary significantly based on the size of your home, the systems you choose, and the level of integration. In this guide, we'll break down typical costs for South Melbourne homes in 2026, including hardware, installation, and ongoing maintenance fees.",
+        "The most basic smart home setup — a few smart lights and a thermostat — can start at around $1,500 installed. These entry-level systems are perfect for renters or first-time buyers in South Melbourne's older apartments. However, for a fully integrated system with automated blinds, multi-zone air conditioning, and security cameras, you can expect to spend between $8,000 and $20,000. The range depends on the number of rooms and the brand of equipment you choose (Control4, Savant, or Apple HomeKit).",
+        "Labour costs for installation in South Melbourne typically range from $80 to $120 per hour per electrician, and a full home automation project can take two to five days. We recommend getting a fixed-price quote upfront to avoid surprises. Platinum Electrical includes all wiring, programming, and testing in our quotes, and we only use certified equipment that meets Australian standards for safety and reliability.",
+        "One of the biggest factors affecting cost is whether your home needs new wiring or a switchboard upgrade. Many older South Melbourne homes have outdated fuse boxes that can't handle the load of modern smart systems. Upgrading to a safety switchboard can add $1,500 to $3,000, but it's a worthwhile investment for safety and future-proofing. We always include a free on-site inspection to assess your existing electrical setup before quoting.",
+        "Government rebates and energy savings can offset some of the cost. Smart thermostats and automated blinds can reduce heating and cooling bills by 20–30%, which is a big deal in Melbourne's variable climate. Additionally, if you bundle your automation with a solar or EV charger installation, you may be eligible for Victorian Energy Upgrades incentives. We help you navigate these options to maximise your savings.",
+        "At the end of the day, smart home automation is an investment that adds value to your property and convenience to your life. For a customised quote in South Melbourne, contact Platinum Electrical. Our team will walk you through the options, from basic start-up packs to full luxury automation, ensuring you get the right system for your home and budget."
+      ]
+    },
+    {
+      "title": "The Complete Guide to EV Charger Installation in Melbourne's Inner Suburbs",
+      "date": "February 2026",
+      "excerpt": "Considering an EV charger at your South Melbourne home? Learn about installation costs, charger types, home electrical upgrades, and rebates available in 2026.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEI1sBY0LJA92AMTK_tORt62nQy6V-xOZBlgQ8AdvUdg82HiYhdqdcw6w8WoPBcqSAZd5dQW8fc3A6dWoRFmfrEEXEN7An_3pBlC6a5FHP0AWFC9Fcm6_XbMO7QarbBGg8dpvIyebSM6VLc=w1600-h1200-k-no",
+      "body": [
+        "Electric vehicle ownership is booming across Melbourne's inner suburbs, and South Melbourne is no exception. With more residents making the switch to electric, having a dedicated home charger is essential for convenience and cost savings. This guide covers everything you need to know about installing an EV charger in South Melbourne, including types of chargers, costs, and electrical considerations for your property.",
+        "There are three main types of chargers: Level 1 (standard wall outlet), Level 2 (240V dedicated unit), and Level 3 (DC fast charger — usually commercial). For home installation, Level 2 chargers are the sweet spot, delivering about 30–60 km of range per hour. Popular brands include Tesla Wall Connector, Wallbox Pulsar Plus, and Ocular. Prices for the unit range from $800 to $2,500, with installation typically adding $600 to $1,500 depending on your existing wiring.",
+        "Before installing a charger, your home's electrical panel must be able to handle the additional load. Many older South Melbourne homes have 40-amp or 60-amp mains, which may be insufficient. An upgrade to 80 or 100 amps might be necessary, costing between $800 and $2,500. Our electricians will assess your switchboard and advise on any upgrades needed. We also install safety switches and surge protection as part of the job.",
+        "Location matters. You'll want the charger installed in your garage, carport, or driveway, as close to the meter box as possible to minimise trenching and conduit costs. For townhouses and apartments in South Melbourne, strata approval may be required, and we can help with compliance documents. Our team has extensive experience with multi-unit developments and can work with your body corporate.",
+        "The Victorian Government offers a rebate of up to $1,000 for the purchase and installation of a smart charger through the Solar Homes Program, subject to eligibility. Additionally, some electricity retailers provide off-peak charging tariffs to reduce running costs. We recommend signing up for a time-of-use plan to charge your vehicle overnight at the cheapest rates. Combined with solar panels, you could be driving for free.",
+        "Whether you drive a Tesla, BYD, MG, or any other EV, Platinum Electrical can install your charger safely and professionally. We handle all paperwork for rebates and ensure your installation meets all Australian standards (AS/NZS 3000 and AS/NZS 4777). Contact us for a free on-site quote in South Melbourne, Port Melbourne, or any inner suburb."
+      ]
+    },
+    {
+      "title": "Gas to Electric Conversions: What South Melbourne Homeowners Need to Know",
+      "date": "January 2026",
+      "excerpt": "Thinking of switching from gas to electric in South Melbourne? We cover costs, rebates, appliance options, and how to choose the right electrician for your conversion.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGw8BUECgaiv3IIJtNLifsprY_ONxQfnaNabb8Uy7Yc--iKpxrtKYG_krQx8IOqVbVm5znygICtgpsguPO6hBTg84WuXWOIt_lnE26nWXd1I9EA1LdmiGTO-esR-OUATr0NBL8=w1600-h1200-k-no",
+      "body": [
+        "Gas to electric conversions are gaining momentum across South Melbourne as homeowners look to reduce their carbon footprint and energy bills. With the Victorian Government's push towards all-electric homes and generous rebates available, now is the perfect time to make the switch. This guide explains the process, costs, and benefits of converting your gas appliances to electric, and how Platinum Electrical can help.",
+        "The most common conversions include replacing gas hot water systems with electric heat pumps, gas cooktops with induction cooktops, and gas heaters with reverse cycle air conditioners. Each conversion involves electrical work — running new circuits, upgrading switchboards, and ensuring compliance with the latest standards. The cost varies: a heat pump hot water system installed typically costs $3,500–$6,000 after rebates, while induction cooktop installation runs $1,000–$2,500 depending on wiring.",
+        "One of the biggest advantages of going all-electric is the ability to power your home with solar panels. South Melbourne gets plenty of sunny days, and with a solar system, you can heat your water and cook your meals for free during daylight hours. Even without solar, electric appliances are generally more efficient than gas, and running costs can be lower thanks to off-peak electricity tariffs. We help you calculate your potential savings.",
+        "The Victorian Energy Upgrades program offers substantial rebates for switching to efficient electric appliances. For example, you can receive up to $1,000 off a heat pump hot water system and up to $1,200 off an electric heat pump for space heating. Additionally, the Solar Homes Program provides interest-free loans for solar and battery systems. Our team is experienced in processing these rebates and can handle the paperwork on your behalf.",
+        "Safety is a key consideration when converting from gas. Once the gas supply is disconnected, you must ensure the gas line is capped properly by a licensed gas fitter. Platinum Electrical works with trusted gas plumbers to coordinate the switch seamlessly. We also install safety switches and arc fault detection devices (AFDDs) as recommended by Victorian regulations for new circuits. Your safety is our priority.",
+        "Thinking of making the swap? Contact Platinum Electrical for a comprehensive assessment of your home's electrical capacity and a fixed-price quote for your gas-to-electric conversion. We serve South Melbourne and all inner suburbs, and we're here to guide you through every step — from rebates to installation to final testing."
+      ]
+    },
+    {
+      "title": "Essential Electrical Safety Tips for Your Home in South Melbourne",
+      "date": "December 2025",
+      "excerpt": "Keep your family safe with these essential electrical safety tips for South Melbourne homes, including checking switchboards, using safety switches, and knowing when to call a pro.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI1zbxKfHfXFiCYOqKunTnHxES_C04720Jti1Nh_ONTNKyHimmsDMygw1XoPMkFIfnyb1nnB1G81sEf5IykoKDuwYpi4i4DgYwBtkPjWIsjyw_hZ-TACuIj8wrPZkEKcZubCjg=w1600-h1200-k-no",
+      "body": [
+        "Electrical safety is often overlooked until something goes wrong. In South Melbourne, where many homes are over 50 years old, outdated wiring and switchboards can pose serious risks. This guide covers the most important electrical safety checks every homeowner should perform, and when it's time to call a licensed electrician like Platinum Electrical.",
+        "First, check your switchboard. If it has ceramic fuses or an old-style fuse box, it's time for an upgrade. Modern safety switches (RCDs) are designed to trip within milliseconds if they detect a fault, preventing electrocution and fires. In Victoria, it's now mandatory to have RCD protection on all power and lighting circuits. If your home doesn't have them, we recommend scheduling an upgrade as soon as possible — it's a small investment for potentially life-saving protection.",
+        "Another common issue in older South Melbourne homes is the lack of earthing. Appliances with metal casings — like fridges and washing machines — need a proper earth connection to prevent shocks. Our electricians can test your earth stake and wiring to ensure everything is safe. We also recommend installing surge protection devices to safeguard your expensive electronics from lightning strikes and grid spikes, which are common in Melbourne's stormy summers.",
+        "Never ignore warning signs: flickering lights, buzzing switches, warm power points, or burning smells all indicate potential electrical faults. These issues can be caused by loose connections, overloaded circuits, or damaged wiring. If you notice any of these, turn off the appliance immediately and call a licensed electrician. Do not attempt DIY repairs — electricity is dangerous, and incorrect work can void insurance.",
+        "Outdoor electrical safety is just as important. Ensure all exterior power points have weatherproof covers and are installed at a safe distance from pools, spas, and water features. If you have a garden shed or workshop, make sure any wiring is protected by a dedicated circuit with RCD protection. During Melbourne's rainy winters, it's wise to inspect outdoor outlets for moisture or damage.",
+        "Finally, never overload power boards or double adapters. South Melbourne homes with limited power points often resort to daisy-chaining extensions, which is a fire hazard. Instead, have a licensed electrician install additional points where you need them. Platinum Electrical offers same-day service for urgent safety checks and upgrades. Contact us for a free safety inspection of your home."
+      ]
+    }
+  ],
+  "splitCtaImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjCIturynFwMFG1nXGvqSn9w66XFB76gnN-nOkFYwgmGsrijkTNrR_X75r_V5uLIbbo8aXeDI3otzX_hgZtgU8owBEds670mgH7U4KPEHyKPM_jJMru8G4_kGBPYzXgijttNS78g=w1600-h1200-k-no",
+  "photoRowImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6BOVF64iJwhXrjADwA7Zc6DsqIU0bQQegzupkeA7-6Bc5XhY1kPPG8pDU8INGkgQeR-FMWpG-pKux4TMfk4Cj0gE2NgZeJQVu8bKG75Oj4-K1_qdvs4ecMkaWkmpI0LvoAVZlCQ=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFn_Mvs357LWzZcr_LcCp5j7CS23YhzKDR5nz-KPyfG3hbeQrKf1Zeu3amY3hOqTeqWCqpHGyZOygLL8b-XSbMO5LioRFqhziWKlmjeaSVKm8dZridGzk92Mieoq52z_A6glZ6lzg=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElQVZrH1JSvv2eMufiOQsMlxr7B7Zsq85YRlLqitva8y_QZ3NXc-g6TdzTTQ-8AzdiFlL_tqkF04e9W6XitGRlcwnAbZK9d7TNhK-SzVKtqNcnuXAIPCNpF3MYZcSFagNF8VUpu3_PM8ZP=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWBMGcVmgUUjnu650aWRo4Wv1PhEP0LqAnzTkS9izn6Ql6Q-oTnWCGNCbyFqraDHkzmsQcejt7g700lVyPQi23PgCjtwa2T03MdNcBgmv0XAo8YB7T5aqPyNZValI3GED5fDgmIw=w1600-h1200-k-no"
+  ],
+  "aboutImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHM9uPfFf-GX7frtIVS5z1v1_VPOQWeW6Q6lqkBwa2BGopaLiTOuCkZ6xMFt18fR0iyvi3Vjy1zo4tShYJAYSTp9hTmjfZ1EJ0MN-vToah7OYx0VcUOchY0THQZF6H0OhviyFoKJg=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5atSWH12JiQ4mWXm25pfjWPjuCRrgEEPAyFHyD6Mq9oFMbNb5op2yR5qTUFCsUigSTu24vXLQxgpTilaZ-0rBgZrYOF03TNRnZzwHHIsyLmtGH3ksT_Yp9h3aRCyhaU6mxlmlng4yPqwT=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfPf0UngsNAJLDcFTM1QB3leGuObPO9BMJWIJ78FsBDl1qO0wf6Nz34_FhQpLzYKuxdf4JnmoB7ZVCnAfutpDznzMH_uSzl7QLC-0v7sisDiFHvU3sEGguZp-hSh5e9hhUZnFkHDHGNbXe=w1600-h1200-k-no"
+  ],
+  "fullWidthImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmuXPCT4B2qc6pV-ui6YRZrMQL8aDYaKe348QbtutdoP7d5pgtIJj7D9ItXTFpJYK30kZiJtGgwebehPjrsZadkLfcbaIm_Zrb7i3sUA6gRXx9YCWhU_srX2FoHnIDEA6cnmwd=w1600-h1200-k-no",
+  "bannerHeading": "Ready to start your electrical project?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSBiVjkQDVSoM0FdhD9TaS_GoH2TXOdTUBB4g_0OVCB7aOXpMF4GkRTb73lOKA6kbSn03Vec5TDhNSP8yUhlDZxVtC5zvR2bNlbh_JuA1pXG2e2T4OmcKM2M4x3E1Fa4OpECnwqcOyPg=w1600-h1200-k-no",
+  "testimonialsImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbPk6cz_69gySgfSIi9wPpGkRN7dzryk4ibRqqExWQ0nVuqmNkvHlJVYn54p9pvVoi-DrC3yH2uUzfR5Q1rShXEKF4Q1OIVsU_SzX3QUCgDprtnS7yS6-wCYUKjZNOrWIj_R8b=w1600-h1200-k-no",
+  "galleryImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWumP1Daur2idvjPYISRwhyTkpcgvM4eHNyuwyOrNKbiaHbnKUcEdjT76Xc2_HdS334KwY9A45E42IWdcyZvFYghng0fvSXr71Dnzz0k3oFp4U-h2SOAzlgHH3EEuQx872BJVy=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfAk4AijpkOObotYYTfGZL6rTBUHg7RoqyL2IiRS_8r03QE4uPgjUkjmL9F1wxL82QFOxA7-CZVRKmTz0OMQ4yQp7fNr6XCklNgNrreL1-P-nBjyguRwasqD7Ajagu3vYrgT4-=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEI1sBY0LJA92AMTK_tORt62nQy6V-xOZBlgQ8AdvUdg82HiYhdqdcw6w8WoPBcqSAZd5dQW8fc3A6dWoRFmfrEEXEN7An_3pBlC6a5FHP0AWFC9Fcm6_XbMO7QarbBGg8dpvIyebSM6VLc=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGw8BUECgaiv3IIJtNLifsprY_ONxQfnaNabb8Uy7Yc--iKpxrtKYG_krQx8IOqVbVm5znygICtgpsguPO6hBTg84WuXWOIt_lnE26nWXd1I9EA1LdmiGTO-esR-OUATr0NBL8=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI1zbxKfHfXFiCYOqKunTnHxES_C04720Jti1Nh_ONTNKyHimmsDMygw1XoPMkFIfnyb1nnB1G81sEf5IykoKDuwYpi4i4DgYwBtkPjWIsjyw_hZ-TACuIj8wrPZkEKcZubCjg=w1600-h1200-k-no"
+  ],
+  "pricingBgImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEihymOEbLuo4OPnSoZnjdHaoixlGiVrj_Xh7ZsteFiw4wXj7fblPf56cGnreNF4CF7mTx1ybS4fIAlp5FEh8XmTuZxnac_hPCIzjfos9Eeejv7gmha8jzN3zGCaClVYdYAh8z1=w1600-h1200-k-no"
+}
