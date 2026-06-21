@@ -1,0 +1,339 @@
+{
+  "siteType": "builder",
+  "businessName": "W.Build",
+  "suburb": "Southbank",
+  "phone": "+61413688220",
+  "email": "hello@wbuild.com.au",
+  "address": "Tenancy 5, Level 3/111 Coventry St, Southbank VIC 3006",
+  "coordinates": {
+    "latitude": -37.8309618,
+    "longitude": 144.96576199999998
+  },
+  "tagline": "Southbank's exclusive luxury builder",
+  "primaryColor": "#ffbe0b",
+  "primaryColorRgb": "255, 190, 11",
+  "primaryColorHover": "#e0a800",
+  "secondaryColor": "#1a1a1a",
+  "heroSlides": [
+    {
+      "title": "Southbank's Finest Luxury Builder",
+      "sub": "Tailored residences of distinction",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsrdsucp5cR7S_ZEd96wnR0y_-8TjsuZ1umCh2ywY_KNOutn510W6EvvtTjE29LDtCew9vWMu3E_Qgp7LRmJcVWdjsn7R5n7l1Jj5TG2gJB0fWOzeZjFqhxRen_iJWTtHtIC7jiBunJTbB=w1600-h1200-k-no"
+    },
+    {
+      "title": "Design & Build, In Unity",
+      "sub": "From concept to handover",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF32fiLM6czzeTasYiMdmn2v7-46UbAKuZCzlK8I74wbuPY-rjlIvrc088F7X70h0Ika7xTbz4UwpDXiDHGpDCVBbrRR7ZG4Lc6dcXn7lWnmJI3Zr_9B3c5fPIIXZjicxhfh5RKvQ3C12zM=w1600-h1200-k-no"
+    },
+    {
+      "title": "Bespoke Homes Across Melbourne",
+      "sub": "Exclusive, private & personal",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOwQgYwf0yDR926_smAS6Q094ngkleONXNA80b7SqGN0WJWoGvjQUcObuzb7qocWUUIITYxZslT2XW192zxEvIHxSaUuFa74lxU6xU31IkmyA1IXRCKy29Co5KmRWcsK-Cz5ZBgVOoVCQK=w1600-h1200-k-no"
+    }
+  ],
+  "ctaHeading": [
+    "Your vision,",
+    "W.Build's expertise —",
+    "let's create something extraordinary."
+  ],
+  "aboutHeading": "Who We Are",
+  "aboutSubheading": "Crafting luxury homes in Southbank",
+  "aboutText": "W.Build is an exclusive luxury builder rooted in Southbank, Melbourne. With years of experience delivering high-end residential projects across the city, we specialise in bespoke homes that blend architectural integrity with liveable comfort. From contemporary townhouses to refined apartments, every build is a partnership between vision and craft.",
+  "servicesHeading": "Our Exclusive Services",
+  "servicesSubheading": "End-to-end luxury building solutions",
+  "servicesText": "We offer a full suite of luxury building services across Southbank and Melbourne's inner suburbs. From initial concept design through to construction and handover, every project is managed with precision and care.",
+  "services": [
+    {
+      "title": "Luxury Custom Homes",
+      "desc": "Full design & build of bespoke residences tailored to your lifestyle.",
+      "longDesc": "We build one-of-a-kind homes in Southbank and beyond — using premium materials and considered design. Each residence is a true reflection of the way you live.",
+      "points": [
+        "Bespoke architectural design",
+        "Premium material selection",
+        "Turnkey delivery"
+      ]
+    },
+    {
+      "title": "High-End Renovations",
+      "desc": "Transform your existing home with a seamless luxury renovation.",
+      "longDesc": "From kitchen and bathroom upgrades to full home transformations, our renovations elevate your space without compromising on quality or aesthetic.",
+      "points": [
+        "Kitchen & bathroom refits",
+        "Open-plan living solutions",
+        "Minimal disruption guaranteed"
+      ]
+    },
+    {
+      "title": "Architectural Design & Planning",
+      "desc": "Expert design services that turn ideas into buildable reality.",
+      "longDesc": "Our in-house design team works with you to create refined architectural plans that maximise space, light, and flow — all while meeting council and heritage requirements.",
+      "points": [
+        "Concept to council approval",
+        "3D visualisations",
+        "Sustainability integrated"
+      ]
+    },
+    {
+      "title": "Project Management",
+      "desc": "End-to-end management of your build, from permit to handover.",
+      "longDesc": "We coordinate every trade, timeline, and budget line so you don't have to. You get regular updates, fixed costs, and total peace of mind from start to finish.",
+      "points": [
+        "Single point of contact",
+        "Transparent cost reporting",
+        "On-time delivery"
+      ]
+    },
+    {
+      "title": "Luxury Interiors & Joinery",
+      "desc": "Custom cabinetry, joinery, and interior fitouts for the discerning owner.",
+      "longDesc": "Our joinery team crafts bespoke wardrobes, kitchens, media units, and more — using premium timbers and finishes that match your home's character.",
+      "points": [
+        "Custom cabinetry & joinery",
+        "Premium materials & finishes",
+        "Designed to last"
+      ]
+    },
+    {
+      "title": "New Home Construction",
+      "desc": "Full construction of luxury new homes on your land or ours.",
+      "longDesc": "Whether it's a townhouse, detached residence, or multi-unit development, we deliver high-quality new builds that meet the highest standards of design and durability.",
+      "points": [
+        "Site analysis & preparation",
+        "Quality assurance throughout",
+        "Fixed-price contracts"
+      ]
+    }
+  ],
+  "testimonialsHeading": "What Our Clients Say",
+  "testimonialsSubheading": "Trusted by homeowners across Southbank",
+  "reviews": [
+    {
+      "text": "W.Build transformed our Southbank apartment into a stunning, light-filled home. The attention to detail and quality of finishes were outstanding. Would not hesitate to recommend.",
+      "name": "Sarah F.",
+      "role": "Southbank Homeowner"
+    },
+    {
+      "text": "We engaged W.Build for a full home renovation in South Yarra. They managed everything — design, permitting, construction — and delivered ahead of schedule. Impressive.",
+      "name": "Mark T.",
+      "role": "Homeowner"
+    },
+    {
+      "text": "The team at W.Build built our family home from the ground up. Transparent pricing, clear communication, and a beautiful result. Could not be happier.",
+      "name": "Priya N.",
+      "role": "Property Manager"
+    }
+  ],
+  "serviceAreas": [
+    "Southbank",
+    "South Yarra",
+    "Prahran",
+    "Richmond",
+    "St Kilda",
+    "Port Melbourne",
+    "Toorak",
+    "Armadale"
+  ],
+  "about": {
+    "intro": "W.Build is a luxury builder based in Southbank, Melbourne, specialising in custom homes, high-end renovations, and architectural design.",
+    "story": [
+      "Founded in Melbourne, W.Build was born from a passion for architectural excellence and a belief that every home should be as unique as the people who live in it. Based in Southbank, we've built a reputation for delivering projects that combine sophisticated design with honest craftsmanship.",
+      "Our team brings together architects, designers, project managers, and trades who share a single vision: to create spaces that elevate everyday life. Every project we take on is treated with the same level of care and attention, whether it's a compact apartment renovation or a full custom home build.",
+      "We work closely with our clients from the very first sketch to the final handover. No pushy sales, no hidden fees — just straight-talking, high-quality building that stands the test of time."
+    ],
+    "mission": "To build exceptional, bespoke homes across Southbank and Melbourne that reflect the way our clients actually live.",
+    "whyUs": [
+      {
+        "title": "Local Mastery",
+        "text": "Deep knowledge of Southbank and inner-Melbourne council requirements, heritage overlays, and site constraints."
+      },
+      {
+        "title": "Fixed-Price Clarity",
+        "text": "No surprises. We provide detailed fixed-price contracts with full scope from day one."
+      },
+      {
+        "title": "Design & Build Unity",
+        "text": "In-house design and construction teams work together to save time and reduce risk."
+      },
+      {
+        "title": "Premium Craftsmanship",
+        "text": "We use only proven trades and premium materials, backed by a comprehensive workmanship guarantee."
+      }
+    ],
+    "stats": [
+      {
+        "value": "50+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "100%",
+        "label": "Client Satisfaction"
+      },
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      }
+    ],
+    "credentials": [
+      "Registered Building Practitioner (Victoria)",
+      "Public liability insurance to $20M",
+      "Member of Master Builders Association",
+      "Licensed asbestos removal"
+    ]
+  },
+  "pricing": {
+    "intro": "We believe in transparent, no-lock-in pricing. Every Southbank project comes with a clear, written quote before any work starts.",
+    "packages": [
+      {
+        "name": "Initial Consultation",
+        "price": "$0",
+        "unit": "free",
+        "highlight": false,
+        "features": [
+          "On-site meeting",
+          "Feasibility assessment",
+          "Preliminary cost guide"
+        ]
+      },
+      {
+        "name": "Luxury Renovation",
+        "price": "from $120k",
+        "unit": "project",
+        "highlight": true,
+        "features": [
+          "Design & approval",
+          "Kitchen & bathroom fitout",
+          "Living area expansion",
+          "Fixed-price contract"
+        ]
+      },
+      {
+        "name": "Custom New Home",
+        "price": "POA",
+        "unit": "project",
+        "highlight": false,
+        "features": [
+          "Full architectural design",
+          "Council & permit liaison",
+          "Turnkey handover"
+        ]
+      }
+    ],
+    "note": "All quotes are fixed upfront with no hidden fees — what we quote is what you pay."
+  },
+  "contact": {
+    "intro": "Ready to start building? Get in touch for a free, no-obligation consultation. We'd love to discuss your project over coffee."
+  },
+  "contactHeading": "Let's Talk About Your Project",
+  "contactSubheading": "We'd love to hear from you",
+  "seo": {
+    "home": {
+      "title": "W.Build | Luxury Builder Southbank | Custom Homes Melbourne",
+      "description": "W.Build is Southbank's exclusive luxury builder. Specialising in custom homes, high-end renovations & architectural design across Melbourne. Fixed-price, personal service."
+    },
+    "about": {
+      "title": "About W.Build — Southbank's Bespoke Luxury Builder",
+      "description": "Learn more about W.Build, a family-owned luxury builder in Southbank, Melbourne. 15+ years crafting one-of-a-kind homes with integrity and precision."
+    },
+    "services": {
+      "title": "Building Services in Southbank | W.Build Luxury Builder",
+      "description": "Explore our full range of luxury building services in Southbank & inner Melbourne — custom homes, renovations, joinery, project management & more."
+    },
+    "pricing": {
+      "title": "Luxury Building Costs Southbank | W.Build Pricing Guide",
+      "description": "Transparent pricing for luxury builds in Southbank. Free initial consultation, fixed-price contracts, and no hidden fees. Get a clear quote today."
+    },
+    "contact": {
+      "title": "Contact W.Build | Free Consultation Southbank",
+      "description": "Get in touch with W.Build for a free consultation in Southbank or anywhere in Melbourne. Let's bring your luxury home vision to life."
+    },
+    "blog": {
+      "title": "Luxury Building Blog | W.Build Southbank",
+      "description": "Expert guides on luxury home building, renovation costs, and design tips in Southbank, Melbourne. Stay informed with W.Build's local blog."
+    }
+  },
+  "blogHeading": "Latest Building News",
+  "blogSubheading": "Tips, costs & local guides",
+  "blogPosts": [
+    {
+      "title": "How Much Does a Custom Home Cost in Southbank? (2026 Guide)",
+      "date": "March 2026",
+      "excerpt": "Wondering about the cost of building a custom home in Southbank? We break down budgets, site costs, and what you get for your money in 2026.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsrdsucp5cR7S_ZEd96wnR0y_-8TjsuZ1umCh2ywY_KNOutn510W6EvvtTjE29LDtCew9vWMu3E_Qgp7LRmJcVWdjsn7R5n7l1Jj5TG2gJB0fWOzeZjFqhxRen_iJWTtHtIC7jiBunJTbB=w1600-h1200-k-no",
+      "body": [
+        "Building a custom home in Southbank is an exciting investment, but the price tag can vary dramatically depending on size, site conditions, and finish quality. In this guide, we break down typical costs per square metre for luxury homes in Melbourne's inner suburbs, including factors like demolition, excavation, and council permits. On average, you can expect to pay between $3,500 and $5,500 per square metre for a bespoke build with premium finishes.",
+        "Site-specific costs in Southbank and South Yarra can push budgets higher due to tight access, heritage overlays, and underground services. We recommend budgeting an extra 10-15% for contingency — especially if you're renovating an existing structure. Our fixed-price approach means you'll know the full cost before a shovel hits the ground, with no nasty surprises halfway through.",
+        "Tier 1 finishes — including natural stone benchtops, custom joinery, heated floors, and smart home integration — can bump the final cost. However, these features add real value to your home and lifestyle. We find that most clients in Southbank prioritise kitchen and bathroom quality above all else. That's where your money makes the biggest difference to both daily enjoyment and resale value.",
+        "Council fees and permits in the City of Port Phillip and Stonnington can add another $15,000 to $30,000 depending on the complexity of your project. Heritage overlays may require additional reports, including conservation management plans. Our team manages all approvals for you, so you're never left dealing with red tape on your own.",
+        "One thing we always tell clients: don't compromise on the design phase. Spending more upfront on architecture and documentation saves you far more in variations and delays later. We've seen projects balloon by 20% or more when changes are made on site. With our design-and-build model, everything is resolved before construction starts.",
+        "Financing a custom home build in Southbank (2026) typically requires a construction loan with staged drawdowns. Most lenders will ask for a fixed-price contract and a licensed builder. We provide both, plus regular progress reports to keep your lender and your peace of mind on track. If you're planning a build in 2026, start the conversation early — timelines for premium builders can stretch six to twelve months ahead."
+      ]
+    },
+    {
+      "title": "Top 10 Things to Know Before Renovating in South Yarra",
+      "date": "February 2026",
+      "excerpt": "Planning a renovation in South Yarra? From heritage rules to structural surprises, here's what every homeowner should know before starting work.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF32fiLM6czzeTasYiMdmn2v7-46UbAKuZCzlK8I74wbuPY-rjlIvrc088F7X70h0Ika7xTbz4UwpDXiDHGpDCVBbrRR7ZG4Lc6dcXn7lWnmJI3Zr_9B3c5fPIIXZjicxhfh5RKvQ3C12zM=w1600-h1200-k-no",
+      "body": [
+        "Renovating a home in South Yarra comes with unique challenges — and unique opportunities. The suburb is known for its mix of Victorian and Edwardian homes, many of which sit within heritage overlays. Before you even sketch a floor plan, check with Stonnington Council to understand what's protected. Some changes, like front fence replacement or window alterations, may require a permit even for minor works.",
+        "Structural surprises are common in older homes. We've opened up walls to find deteriorating brickwork, asbestos sheeting, and even old fireplaces that weren't documented. That's why we always recommend a pre-purchase or pre-renovation inspection by a structural engineer. A few thousand dollars spent upfront can save you tens of thousands in unforeseen costs.",
+        "Budgeting for a South Yarra renovation should include a 15-20% contingency. Most of our clients end up using some of it — whether for upgrading a subfloor, rewiring outdated electricals, or reinforcing load-bearing walls. The key is to not blow your full contingency on finishes. Save it for the structural essentials that make your home safe and sound.",
+        "Open-plan living is hugely popular in South Yarra renovations. But removing internal walls in a Victorian terrace isn't always straightforward. You may need steel beams, pad footings, or even a new structural column. A good builder — like us — will advise on the most cost-effective way to achieve the open feel you want without compromising the home's character.",
+        "Kitchen and bathroom renovations typically return the highest value in South Yarra. Modern, minimal designs with high-end appliances and natural stone benchtops appeal to buyers and add everyday joy. We recommend investing in joinery that's both beautiful and functional — plenty of storage, soft-close drawers, and durable benchtops that stand up to real life.",
+        "Timing is everything when renovating in South Yarra. Council approvals can take three to six months for heritage-listed homes. Once you have a permit, your build timeline will depend on scope. A full home renovation typically takes six to nine months. We'll give you a realistic schedule from day one and keep you updated every step of the way."
+      ]
+    },
+    {
+      "title": "How to Choose a Luxury Builder in Melbourne's Inner Suburbs",
+      "date": "January 2026",
+      "excerpt": "Not all builders are equal. Here's how to find a luxury builder in Southbank, Toorak or Armadale who delivers on time, on budget, and on vision.",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOwQgYwf0yDR926_smAS6Q094ngkleONXNA80b7SqGN0WJWoGvjQUcObuzb7qocWUUIITYxZslT2XW192zxEvIHxSaUuFa74lxU6xU31IkmyA1IXRCKy29Co5KmRWcsK-Cz5ZBgVOoVCQK=w1600-h1200-k-no",
+      "body": [
+        "Choosing a luxury builder for your Melbourne home is one of the biggest decisions you'll make. The right builder will guide you through design, approvals, construction, and finishing with transparency and skill. The wrong one can cost you time, money, and peace of mind. So how do you separate the true craftsmen from the rest?",
+        "First, look for a builder with a track record of high-end projects in your specific suburb. Local knowledge matters more than most people realise. A builder who knows Southbank's council requirements, site constraints, and preferred subcontractors will save you months of frustration. Ask for at least three recent references and — if possible — visit completed homes.",
+        "Second, ask about their contracting model. Many luxury builders operate on a cost-plus basis, which leaves the final price uncertain. At W.Build, we prefer fixed-price contracts with a detailed scope of works. This means you know exactly what you're paying from the start. There's no grey area. Every line item is agreed before we begin.",
+        "Third, communication is everything. The best builders provide regular updates — weekly progress reports, site photos, and a clear point of contact. You should never have to chase your builder for answers. If a builder is vague about their process during the quoting stage, that's a red flag. Trust your gut.",
+        "Fourth, look at the finishes they typically use. A true luxury builder sources premium materials — natural stone, solid timber, European appliances. They can show you samples, supplier relationships, and past projects that demonstrate a commitment to quality. Don't be afraid to ask for detailed specifications on joinery, insulation, and waterproofing.",
+        "Finally, consider the rapport. You'll be working with your builder for months — sometimes over a year. Choose someone you actually like and trust. The best building partnerships are built on mutual respect, clear communication, and a shared passion for creating something exceptional. At W.Build, we treat every client like a partner, not a contract."
+      ]
+    },
+    {
+      "title": "The Cost of Building a Poolside Renovation in Southbank in 2026",
+      "date": "December 2025",
+      "excerpt": "Thinking of adding a pool or renovating your outdoor space in Southbank? Here's what you can expect to pay and how to plan for it in 2026.",
+      "body": [
+        "A poolside renovation in Southbank is the ultimate luxury upgrade — but it comes with its own set of costs and considerations. Whether you're adding a plunge pool to an apartment terrace or fully overhauling a backyard pool area, the key is to plan carefully. In 2026, expect to pay between $40,000 and $120,000 for a high-end pool and landscape renovation, depending on size and complexity.",
+        "Site access is the biggest cost driver in inner Melbourne. If your Southbank home is in a laneway or has limited rear access, bringing in an excavator and concrete truck can require road closures or crane lifts. That can add $5,000 to $15,000 to your budget. We always assess access early and factor it into the quote so you're never caught out.",
+        "Materials matter too. Natural stone paving, glass fencing, and automated pool covers are popular choices among our clients. They look stunning and last for decades. But they come at a premium. A basic concrete pool with tile finish might cost $70,000, while a fully bespoke fibreglass pool with heated water, LED lighting, and an integrated spa can push the budget past $150,000.",
+        "Planning permits are another consideration. In Southbank, council may require a planning permit for a new pool, especially if it's close to a property boundary or in a heritage area. We handle all the paperwork and liaise directly with council to ensure your project is compliant. This step alone can take eight to sixteen weeks, so start your planning well in advance.",
+        "If you're renovating an existing pool area, consider upgrading the surrounding landscaping, outdoor kitchen, and lighting. These elements transform your outdoor space into a true extension of your home. We've seen clients complete complete poolside makeovers for around $80,000, including new paving, an outdoor shower, and planted garden beds.",
+        "The best advice we can give: don't rush. A well-planned poolside renovation adds significant value to your Southbank property and creates a space you'll enjoy for decades. Start with a clear budget, get professional advice, and choose a builder who values quality as much as you do. At W.Build, we're here to help make your outdoor dreams a reality."
+      ],
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBcPb01U0PiNdr1SSMoNbYuIE_vRrkOCw2mAFxkrWJ-kvIQsnhVNWTj5wpREnVli7YI01N1T7ABTsw8tmXkxftPM2QfDL5Q9P47lDAVMdiXhVaQZU9upIdyZXEf9FvKJ9Rw2Qjt1j5i_vm=w1600-h1200-k-no"
+    }
+  ],
+  "splitCtaImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGzI0v5iwk7ROVDxtDbVBFNzffQmkl5NGVctFM9cl4kn55tsAU9qDIvrq5dV_JDOFm9-FQnkgNvClLJU3rSRyrJpwXBUwcAaEpPq4WdUvLi7rRsi9TWzt4gY8gqVWhs_Jj39H-IrNrOEMrY=w1600-h1200-k-no",
+  "photoRowImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmGeeY58UoBCVUd2zYxvQSw7PRMa75ygJEJZSSR7tEzG1rNnn6JnDsUBO04fWAFeIcN8oTJuLLuWUxrDk2vje7GJiV6PZLrZNj-PAuMk7k9JaQinl8apnggwizF7TjEk1KdntlH_K19_1v=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUnLIloeo1IfREJfqYEm29RQvdOOAa3h7gMw9rMGBL4kztZzr6l9p2xlab3KLvfb1ov-cnkvO9NXmaEcVFzEGZA7WRnMk1SdeteyEDu-e7kpQkNFKt4rCYAu7C7-l0Q22WOgcOjTJM8pjn=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIn2bcG0-BzMOcSkXtHoh9v8bCRlQrRWIf2DA-2sAMnoVMa4hj7d82V-ZaGLqO8tk59LYPDTGOhN-F9Cxntzur-9uOjLKFbcaUbhR-wnw4Gl5Lav7000xiLKBAZeAzD03tJkfdpocgINzA=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsrdsucp5cR7S_ZEd96wnR0y_-8TjsuZ1umCh2ywY_KNOutn510W6EvvtTjE29LDtCew9vWMu3E_Qgp7LRmJcVWdjsn7R5n7l1Jj5TG2gJB0fWOzeZjFqhxRen_iJWTtHtIC7jiBunJTbB=w1600-h1200-k-no"
+  ],
+  "aboutImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF32fiLM6czzeTasYiMdmn2v7-46UbAKuZCzlK8I74wbuPY-rjlIvrc088F7X70h0Ika7xTbz4UwpDXiDHGpDCVBbrRR7ZG4Lc6dcXn7lWnmJI3Zr_9B3c5fPIIXZjicxhfh5RKvQ3C12zM=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOwQgYwf0yDR926_smAS6Q094ngkleONXNA80b7SqGN0WJWoGvjQUcObuzb7qocWUUIITYxZslT2XW192zxEvIHxSaUuFa74lxU6xU31IkmyA1IXRCKy29Co5KmRWcsK-Cz5ZBgVOoVCQK=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBcPb01U0PiNdr1SSMoNbYuIE_vRrkOCw2mAFxkrWJ-kvIQsnhVNWTj5wpREnVli7YI01N1T7ABTsw8tmXkxftPM2QfDL5Q9P47lDAVMdiXhVaQZU9upIdyZXEf9FvKJ9Rw2Qjt1j5i_vm=w1600-h1200-k-no"
+  ],
+  "fullWidthImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGzI0v5iwk7ROVDxtDbVBFNzffQmkl5NGVctFM9cl4kn55tsAU9qDIvrq5dV_JDOFm9-FQnkgNvClLJU3rSRyrJpwXBUwcAaEpPq4WdUvLi7rRsi9TWzt4gY8gqVWhs_Jj39H-IrNrOEMrY=w1600-h1200-k-no",
+  "bannerHeading": "Ready to start your build?",
+  "bannerSubheading": "Get a free, no-obligation quote today.",
+  "bannerImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsrdsucp5cR7S_ZEd96wnR0y_-8TjsuZ1umCh2ywY_KNOutn510W6EvvtTjE29LDtCew9vWMu3E_Qgp7LRmJcVWdjsn7R5n7l1Jj5TG2gJB0fWOzeZjFqhxRen_iJWTtHtIC7jiBunJTbB=w1600-h1200-k-no",
+  "testimonialsImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF32fiLM6czzeTasYiMdmn2v7-46UbAKuZCzlK8I74wbuPY-rjlIvrc088F7X70h0Ika7xTbz4UwpDXiDHGpDCVBbrRR7ZG4Lc6dcXn7lWnmJI3Zr_9B3c5fPIIXZjicxhfh5RKvQ3C12zM=w1600-h1200-k-no",
+  "galleryImages": [
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOwQgYwf0yDR926_smAS6Q094ngkleONXNA80b7SqGN0WJWoGvjQUcObuzb7qocWUUIITYxZslT2XW192zxEvIHxSaUuFa74lxU6xU31IkmyA1IXRCKy29Co5KmRWcsK-Cz5ZBgVOoVCQK=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBcPb01U0PiNdr1SSMoNbYuIE_vRrkOCw2mAFxkrWJ-kvIQsnhVNWTj5wpREnVli7YI01N1T7ABTsw8tmXkxftPM2QfDL5Q9P47lDAVMdiXhVaQZU9upIdyZXEf9FvKJ9Rw2Qjt1j5i_vm=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGzI0v5iwk7ROVDxtDbVBFNzffQmkl5NGVctFM9cl4kn55tsAU9qDIvrq5dV_JDOFm9-FQnkgNvClLJU3rSRyrJpwXBUwcAaEpPq4WdUvLi7rRsi9TWzt4gY8gqVWhs_Jj39H-IrNrOEMrY=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmGeeY58UoBCVUd2zYxvQSw7PRMa75ygJEJZSSR7tEzG1rNnn6JnDsUBO04fWAFeIcN8oTJuLLuWUxrDk2vje7GJiV6PZLrZNj-PAuMk7k9JaQinl8apnggwizF7TjEk1KdntlH_K19_1v=w1600-h1200-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUnLIloeo1IfREJfqYEm29RQvdOOAa3h7gMw9rMGBL4kztZzr6l9p2xlab3KLvfb1ov-cnkvO9NXmaEcVFzEGZA7WRnMk1SdeteyEDu-e7kpQkNFKt4rCYAu7C7-l0Q22WOgcOjTJM8pjn=w1600-h1200-k-no"
+  ],
+  "pricingBgImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIn2bcG0-BzMOcSkXtHoh9v8bCRlQrRWIf2DA-2sAMnoVMa4hj7d82V-ZaGLqO8tk59LYPDTGOhN-F9Cxntzur-9uOjLKFbcaUbhR-wnw4Gl5Lav7000xiLKBAZeAzD03tJkfdpocgINzA=w1600-h1200-k-no"
+}
