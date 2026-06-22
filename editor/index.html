@@ -2908,6 +2908,19 @@
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;");
         }
+        // Plain-text, length-capped excerpt for a blog card (from a post's intro).
+        function cardExcerpt(html) {
+          var txt = String(html || "")
+            .replace(/<[^>]+>/g, " ")
+            .replace(/&nbsp;/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
+          if (txt.length <= 160) return escapeHtmlText(txt);
+          var cut = txt.slice(0, 160);
+          var sp = cut.lastIndexOf(" ");
+          if (sp > 100) cut = cut.slice(0, sp);
+          return escapeHtmlText(cut.replace(/[\s,;:.–—-]+$/, "")) + "…";
+        }
         function bindEditable(el, pg) {
           if (el.__ce) return;
           el.__ce = true;
@@ -4295,6 +4308,24 @@
                 html: navEdits[ce],
               });
             });
+          });
+          // Blog cards on /blog/ are denormalised copies of each post. Keep them
+          // honest: when a post page (blog/N/index.html) has its title or intro
+          // edited, mirror those into that post's card on the index — title to
+          // s1-h2-N, first paragraph to the s1-p-N excerpt. (The card image already
+          // shares the post's hero file, so it stays in sync on its own.)
+          Object.keys(state.ops.el).forEach(function (k) {
+            var o = state.ops.el[k];
+            var m = /^blog\/(\d+)\/index\.html$/.exec(o.page || "");
+            if (!m) return;
+            var card = null;
+            if (o.ce === "s0-h1-1") card = { ce: "s1-h2-" + m[1], html: o.html };
+            else if (o.ce === "s1-p-1")
+              card = { ce: "s1-p-" + m[1], html: cardExcerpt(o.html) };
+            if (card)
+              (byPage["blog/index.html"] = byPage["blog/index.html"] || []).push(
+                card,
+              );
           });
           Object.keys(byPage).forEach(function (pg) {
             jobs.push(
