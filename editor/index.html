@@ -1272,6 +1272,382 @@
         margin: 0;
         line-height: 1.5;
       }
+      /* greeting badge: favicon instead of the letter */
+      .biz .st.greet::before {
+        display: none;
+      }
+      .biz .st.greet {
+        font-weight: 600;
+        color: var(--muted-fg);
+      }
+      .biz .badge.has-fav {
+        background: #fff;
+        border: 1px solid var(--border);
+        overflow: hidden;
+      }
+      .biz .badge img.biz-fav {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 4px;
+        box-sizing: border-box;
+      }
+
+      /* ============ Digital Quote workspace ============ */
+      .quote-view {
+        position: absolute;
+        inset: 0;
+        z-index: 5;
+        display: none;
+        flex-direction: column;
+        min-height: 0;
+        background: var(--bg);
+      }
+      .quote-view.on {
+        display: flex;
+      }
+      .quote-tabs {
+        display: flex;
+        gap: 4px;
+        padding: 10px 14px;
+        background: var(--card, #fff);
+        border-bottom: 1px solid var(--border);
+        flex: none;
+      }
+      .quote-tabs button {
+        flex: 1;
+        max-width: 180px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        border: 1px solid transparent;
+        background: transparent;
+        color: var(--muted-fg);
+        font-weight: 600;
+        font-size: 13.5px;
+        padding: 9px 14px;
+        border-radius: var(--r-sm, 9px);
+        cursor: pointer;
+        transition:
+          background 0.15s,
+          color 0.15s;
+      }
+      .quote-tabs button svg {
+        width: 16px;
+        height: 16px;
+      }
+      .quote-tabs button:hover {
+        background: var(--primary-tint);
+        color: var(--primary-hover);
+      }
+      .quote-tabs button.on {
+        background: var(--primary);
+        color: #fff;
+      }
+      .quote-body {
+        position: relative;
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow: auto;
+      }
+      .qpane {
+        display: none;
+        padding: 26px 20px 60px;
+      }
+      .qpane.on {
+        display: block;
+      }
+      /* --- Create form --- */
+      .q-form {
+        max-width: 620px;
+        margin: 0 auto;
+        background: var(--card, #fff);
+        border: 1px solid var(--border);
+        border-radius: var(--r, 16px);
+        padding: 26px 24px 22px;
+        box-shadow: 0 14px 40px -32px rgba(0, 0, 0, 0.5);
+      }
+      .q-title {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 22px;
+        margin: 0 0 4px;
+      }
+      .q-sub {
+        color: var(--muted-fg);
+        font-size: 13px;
+        margin: 0 0 20px;
+      }
+      .q-field {
+        margin-bottom: 15px;
+      }
+      .q-field > label {
+        display: block;
+        font-size: 12.5px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: var(--fg, #1c1917);
+      }
+      .q-field .opt {
+        color: var(--muted-fg);
+        font-weight: 500;
+      }
+      .q-field input,
+      .q-field textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid var(--border);
+        border-radius: var(--r-sm, 9px);
+        padding: 11px 12px;
+        font: inherit;
+        font-size: 14px;
+        background: var(--bg, #fafaf9);
+        color: var(--fg, #1c1917);
+        transition:
+          border-color 0.15s,
+          box-shadow 0.15s;
+      }
+      .q-field textarea {
+        resize: vertical;
+        min-height: 92px;
+      }
+      .q-field input:focus,
+      .q-field textarea:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px var(--primary-tint);
+      }
+      .q-cost {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .q-money {
+        position: relative;
+        flex: 1 1 140px;
+      }
+      .q-money span {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--muted-fg);
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .q-money input {
+        padding-left: 24px;
+      }
+      .q-toggle {
+        display: inline-flex;
+        background: var(--bg, #f4f4f5);
+        border: 1px solid var(--border);
+        border-radius: var(--r-sm, 9px);
+        padding: 3px;
+        gap: 3px;
+      }
+      .q-toggle button {
+        border: none;
+        background: transparent;
+        color: var(--muted-fg);
+        font: inherit;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 7px 14px;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      .q-toggle button.on {
+        background: var(--primary);
+        color: #fff;
+      }
+      .q-create-btn {
+        margin-top: 8px;
+      }
+      .q-note {
+        text-align: center;
+        color: var(--muted-fg);
+        font-size: 12px;
+        margin: 12px 0 0;
+      }
+      /* --- Sent / Signed tiles --- */
+      .q-list {
+        max-width: 880px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 14px;
+      }
+      .q-empty {
+        max-width: 880px;
+        margin: 40px auto;
+        text-align: center;
+        color: var(--muted-fg);
+        font-size: 14px;
+      }
+      .q-tile {
+        text-align: left;
+        background: var(--card, #fff);
+        border: 1px solid var(--border);
+        border-radius: var(--r, 14px);
+        padding: 15px 16px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        transition:
+          transform 0.12s,
+          box-shadow 0.12s,
+          border-color 0.12s;
+      }
+      .q-tile:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 30px -22px rgba(0, 0, 0, 0.5);
+        border-color: var(--primary);
+      }
+      .q-tile .qt-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+      }
+      .q-tile .qt-name {
+        font-weight: 700;
+        font-size: 15px;
+      }
+      .q-tile .qt-cost {
+        font-weight: 800;
+        font-size: 15px;
+        color: var(--primary-hover);
+        white-space: nowrap;
+      }
+      .q-tile .qt-addr {
+        font-size: 12.5px;
+        color: var(--muted-fg);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .q-tile .qt-foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2px;
+      }
+      .q-tile .qt-date {
+        font-size: 11.5px;
+        color: var(--muted-fg);
+      }
+      .qt-pill {
+        font-size: 10.5px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 3px 8px;
+        border-radius: 999px;
+      }
+      .qt-pill.sent {
+        background: #fff4e5;
+        color: #b45309;
+      }
+      .qt-pill.signed {
+        background: #e7f7ec;
+        color: #15803d;
+      }
+      /* --- tile detail (placeholder for now) --- */
+      .q-detail {
+        position: absolute;
+        inset: 0;
+        background: var(--bg);
+        display: none;
+        flex-direction: column;
+        padding: 22px 20px 60px;
+        overflow: auto;
+      }
+      .q-detail.on {
+        display: flex;
+      }
+      .q-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: none;
+        border: none;
+        color: var(--primary-hover);
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 0;
+        margin-bottom: 16px;
+      }
+      .q-back svg {
+        width: 16px;
+        height: 16px;
+      }
+      .q-detail-card {
+        max-width: 620px;
+        margin: 0 auto;
+        width: 100%;
+        background: var(--card, #fff);
+        border: 1px solid var(--border);
+        border-radius: var(--r, 16px);
+        padding: 24px;
+      }
+      .q-detail-card h2 {
+        font-family: var(--display);
+        font-weight: 800;
+        margin: 0 0 14px;
+      }
+      .q-drow {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 10px 0;
+        border-top: 1px solid var(--border-soft);
+        font-size: 14px;
+      }
+      .q-drow .k {
+        color: var(--muted-fg);
+      }
+      .q-drow .v {
+        font-weight: 600;
+        text-align: right;
+      }
+      .q-detail-soon {
+        margin-top: 18px;
+        padding: 14px;
+        border: 1px dashed var(--border);
+        border-radius: var(--r-sm, 9px);
+        text-align: center;
+        color: var(--muted-fg);
+        font-size: 13px;
+      }
+      @media (max-width: 860px) {
+        /* sub-tabs at the BOTTOM on mobile (above the main bottom nav) */
+        .quote-view.on {
+          flex-direction: column-reverse;
+        }
+        .quote-tabs {
+          border-bottom: none;
+          border-top: 1px solid var(--border);
+        }
+        .quote-tabs button {
+          flex-direction: column;
+          gap: 3px;
+          font-size: 11px;
+          padding: 7px 4px;
+          max-width: none;
+        }
+        .qpane {
+          padding: 16px 12px 28px;
+        }
+        .q-form {
+          padding: 20px 16px;
+        }
+      }
+
       @media (max-width: 560px) {
         .an-cards {
           grid-template-columns: 1fr;
@@ -1663,8 +2039,8 @@
         <div class="biz">
           <div class="badge" id="bizBadge">·</div>
           <div class="meta">
-            <div class="nm" id="bizName">Your website</div>
-            <div class="st">Editing live site</div>
+            <div class="st greet">Hello,</div>
+            <div class="nm" id="bizName">there</div>
           </div>
         </div>
 
@@ -1746,6 +2122,21 @@
               <path d="m19 9-5 5-4-4-3 3" />
             </svg>
             Analytics
+          </button>
+          <button class="nav-item" data-view="quote">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <path d="M14 2v6h6" />
+              <path d="M9 13h6M9 17h4" />
+            </svg>
+            Digital quote
           </button>
         </nav>
 
@@ -1909,6 +2300,86 @@
           </div>
           <iframe id="siteFrame" title="Your website"></iframe>
         </div>
+
+        <!-- ===== Digital Quote workspace (full-screen, frontend only) ===== -->
+        <section class="quote-view" id="quoteView">
+          <nav class="quote-tabs" id="quoteTabs">
+            <button class="on" data-qtab="create">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+              Create
+            </button>
+            <button data-qtab="sent">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+              Sent
+            </button>
+            <button data-qtab="signed">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              Signed
+            </button>
+          </nav>
+          <div class="quote-body">
+            <!-- CREATE -->
+            <section class="qpane on" data-qpane="create">
+              <form class="q-form" id="qCreateForm" autocomplete="off">
+                <h2 class="q-title">Create a quote</h2>
+                <p class="q-sub">Fill in the job details below.</p>
+                <div class="q-field">
+                  <label>Customer name</label>
+                  <input type="text" placeholder="e.g. Jane Smith" />
+                </div>
+                <div class="q-field">
+                  <label>Customer number</label>
+                  <input type="tel" placeholder="04xx xxx xxx" />
+                </div>
+                <div class="q-field">
+                  <label>Customer email <span class="opt">(optional)</span></label>
+                  <input type="email" placeholder="jane@email.com" />
+                </div>
+                <div class="q-field">
+                  <label>Address</label>
+                  <input type="text" placeholder="12 Example St, Suburb VIC" />
+                </div>
+                <div class="q-field">
+                  <label>What you did</label>
+                  <textarea rows="4" placeholder="Describe the work you carried out…"></textarea>
+                </div>
+                <div class="q-field">
+                  <label>Total cost</label>
+                  <div class="q-cost">
+                    <div class="q-money">
+                      <span>$</span>
+                      <input type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00" />
+                    </div>
+                    <div class="q-toggle" id="qCostToggle">
+                      <button type="button" class="on" data-cost="set">Set price</button>
+                      <button type="button" data-cost="estimate">Estimate</button>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary btn-block q-create-btn">
+                  Create quote
+                </button>
+                <p class="q-note">Preview only — quotes aren't saved or sent yet.</p>
+              </form>
+            </section>
+            <!-- SENT -->
+            <section class="qpane" data-qpane="sent">
+              <div class="q-list" id="qSentList"></div>
+            </section>
+            <!-- SIGNED -->
+            <section class="qpane" data-qpane="signed">
+              <div class="q-list" id="qSignedList"></div>
+            </section>
+            <!-- shared detail (placeholder content for now) -->
+            <div class="q-detail" id="qDetail">
+              <button type="button" class="q-back" id="qDetailBack">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Back
+              </button>
+              <div class="q-detail-card" id="qDetailCard"></div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <!-- ============ MOBILE BOTTOM NAV ============ -->
@@ -1958,6 +2429,21 @@
             <path d="M7 8h7M7 12h10M7 16h6" />
           </svg>
           Details
+        </button>
+        <button data-mob="quote">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <path d="M14 2v6h6" />
+            <path d="M9 13h6M9 17h4" />
+          </svg>
+          Quote
         </button>
         <button data-mob="publish">
           <svg
@@ -2413,6 +2899,7 @@
         var state = {
           token: localStorage.getItem("cd-builder-token") || "",
           site: "",
+          name: "", // owner's full name (Customer table) for the greeting
           number: "",
           homepage: "",
           page: "index.html",
@@ -2578,6 +3065,7 @@
               if (!d.ok) throw new Error(d.error || "Login failed.");
               state.token = d.token;
               state.site = d.site || "";
+              state.name = d.name || "";
               state.number = d.number || "";
               localStorage.setItem("cd-builder-token", d.token);
               bootEditor();
@@ -2594,15 +3082,36 @@
         });
 
         /* -------------------- site info -------------------- */
+        // Show the site's favicon in the brand badge; fall back to a letter if it
+        // isn't there yet (older sites) or fails to load.
+        function setBizBadge(homepage, letter) {
+          var badge = $("bizBadge");
+          badge.classList.remove("has-fav");
+          badge.textContent = String(letter || "·").toUpperCase();
+          if (!homepage) return;
+          var url = root(homepage).replace(/\/$/, "") + "/favicon.svg";
+          var im = new Image();
+          im.alt = "";
+          im.className = "biz-fav";
+          im.onload = function () {
+            badge.textContent = "";
+            badge.classList.add("has-fav");
+            badge.appendChild(im);
+          };
+          im.onerror = function () {}; // keep the letter
+          im.src = url;
+        }
         function loadInfo() {
           return api({ action: "site-info" })
             .then(function (d) {
               if (!d.ok) return;
               state.homepage = d.homepage || "";
-              var nm =
-                (d.details && d.details.name) || state.site || "Your website";
-              $("bizName").textContent = nm;
-              $("bizBadge").textContent = (nm[0] || "·").toUpperCase();
+              // Greeting: "Hello," over the owner's name (Customer table `name`);
+              // fall back to the business name, then a generic.
+              var bizNm = (d.details && d.details.name) || state.site || "";
+              var greet = (state.name || "").trim() || bizNm || "there";
+              $("bizName").textContent = greet;
+              setBizBadge(state.homepage, greet[0] || bizNm[0] || "·");
               if (state.homepage) {
                 $("viewLive").href = state.homepage;
               }
@@ -5171,13 +5680,175 @@
             });
         }
         $("nav").addEventListener("click", function (e) {
+          var v = e.target.closest(".nav-item[data-view]");
+          if (v) {
+            showQuote();
+            return;
+          }
           var p = e.target.closest(".nav-item[data-pane]");
           if (p) {
+            showSite();
             showPane(p.dataset.pane);
             return;
           }
           var m = e.target.closest(".nav-item[data-modal]");
-          if (m) openModal(m.dataset.modal);
+          if (m) {
+            showSite();
+            openModal(m.dataset.modal);
+          }
+        });
+
+        /* -------------------- Digital Quote (frontend only) -------------------- */
+        function showQuote() {
+          $("quoteView").classList.add("on");
+          document.querySelector(".frame").style.display = "none";
+          $("pages").style.visibility = "hidden";
+          if ($("device")) $("device").style.visibility = "hidden";
+          document.querySelectorAll(".nav-item").forEach(function (b) {
+            b.classList.toggle("on", b.dataset.view === "quote");
+          });
+          document.querySelectorAll(".mob-nav [data-mob]").forEach(function (b) {
+            b.classList.toggle("on", b.dataset.mob === "quote");
+          });
+          qRenderLists();
+        }
+        function showSite() {
+          if (!$("quoteView").classList.contains("on")) return;
+          $("quoteView").classList.remove("on");
+          document.querySelector(".frame").style.display = "";
+          $("pages").style.visibility = "";
+          if ($("device")) $("device").style.visibility = "";
+          // restore the sidebar/mobile highlight to the active content pane
+          var on = document.querySelector(".pane.on");
+          var active = on ? on.dataset.pane : "edit";
+          document.querySelectorAll(".nav-item").forEach(function (b) {
+            b.classList.toggle("on", b.dataset.pane === active);
+          });
+          document.querySelectorAll(".mob-nav [data-mob]").forEach(function (b) {
+            b.classList.toggle("on", b.dataset.mob === active);
+          });
+        }
+        // sub-tabs (Create / Sent / Signed)
+        $("quoteTabs").addEventListener("click", function (e) {
+          var b = e.target.closest("[data-qtab]");
+          if (b) qShowTab(b.dataset.qtab);
+        });
+        function qShowTab(name) {
+          $("qDetail").classList.remove("on");
+          document.querySelectorAll(".quote-tabs [data-qtab]").forEach(function (b) {
+            b.classList.toggle("on", b.dataset.qtab === name);
+          });
+          document.querySelectorAll(".qpane").forEach(function (p) {
+            p.classList.toggle("on", p.dataset.qpane === name);
+          });
+        }
+        // Set / Estimate toggle
+        $("qCostToggle").addEventListener("click", function (e) {
+          var b = e.target.closest("[data-cost]");
+          if (!b) return;
+          this.querySelectorAll("button").forEach(function (x) {
+            x.classList.toggle("on", x === b);
+          });
+        });
+        // Create button — no backend yet, just acknowledge
+        var qCreateBtn = document.querySelector(".q-create-btn");
+        if (qCreateBtn)
+          qCreateBtn.addEventListener("click", function () {
+            toast("Quote created (preview) — saving & sending come later.");
+          });
+        // Sample data so the Sent/Signed designs are visible (frontend only).
+        var Q_SENT = [
+          {
+            name: "Jane Smith",
+            addr: "12 Example St, Dandenong VIC",
+            cost: "1,850",
+            date: "18 Jun 2026",
+          },
+          {
+            name: "Tom Nguyen",
+            addr: "5 Roof Ave, Noble Park VIC",
+            cost: "640 (est.)",
+            date: "16 Jun 2026",
+          },
+        ];
+        var Q_SIGNED = [
+          {
+            name: "Priya Patel",
+            addr: "88 Hill Rd, Keysborough VIC",
+            cost: "3,200",
+            date: "14 Jun 2026",
+          },
+        ];
+        function qTile(item, kind) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "q-tile";
+          b.innerHTML =
+            '<div class="qt-top"><span class="qt-name"></span><span class="qt-cost"></span></div>' +
+            '<div class="qt-addr"></div>' +
+            '<div class="qt-foot"><span class="qt-date"></span><span class="qt-pill ' +
+            kind +
+            '">' +
+            kind +
+            "</span></div>";
+          b.querySelector(".qt-name").textContent = item.name;
+          b.querySelector(".qt-cost").textContent = "$" + item.cost;
+          b.querySelector(".qt-addr").textContent = item.addr;
+          b.querySelector(".qt-date").textContent = item.date;
+          b.addEventListener("click", function () {
+            qOpenDetail(item, kind);
+          });
+          return b;
+        }
+        var qRendered = false;
+        function qRenderLists() {
+          if (qRendered) return;
+          qRendered = true;
+          var s = $("qSentList"),
+            g = $("qSignedList");
+          if (Q_SENT.length)
+            Q_SENT.forEach(function (it) {
+              s.appendChild(qTile(it, "sent"));
+            });
+          else s.innerHTML = '<p class="q-empty">No sent quotes yet.</p>';
+          if (Q_SIGNED.length)
+            Q_SIGNED.forEach(function (it) {
+              g.appendChild(qTile(it, "signed"));
+            });
+          else g.innerHTML = '<p class="q-empty">No signed quotes yet.</p>';
+        }
+        function qOpenDetail(item, kind) {
+          var c = $("qDetailCard");
+          c.innerHTML = "";
+          var h = document.createElement("h2");
+          h.textContent = item.name;
+          c.appendChild(h);
+          [
+            ["Address", item.addr],
+            ["Total", "$" + item.cost],
+            ["Date", item.date],
+            ["Status", kind.charAt(0).toUpperCase() + kind.slice(1)],
+          ].forEach(function (r) {
+            var row = document.createElement("div");
+            row.className = "q-drow";
+            var k = document.createElement("span");
+            k.className = "k";
+            k.textContent = r[0];
+            var v = document.createElement("span");
+            v.className = "v";
+            v.textContent = r[1];
+            row.appendChild(k);
+            row.appendChild(v);
+            c.appendChild(row);
+          });
+          var soon = document.createElement("div");
+          soon.className = "q-detail-soon";
+          soon.textContent = "Full quote details will appear here soon.";
+          c.appendChild(soon);
+          $("qDetail").classList.add("on");
+        }
+        $("qDetailBack").addEventListener("click", function () {
+          $("qDetail").classList.remove("on");
         });
 
         /* -------------------- settings modals (Colours / Details) -------------------- */
@@ -5246,6 +5917,12 @@
             doPublish();
             return;
           }
+          if (m === "quote") {
+            showQuote();
+            closeSheet();
+            return;
+          }
+          showSite();
           if (m === "colours" || m === "details") {
             openModal(m);
             return;
@@ -5443,6 +6120,7 @@
             .then(function (d) {
               if (d.ok) {
                 state.site = d.site || "";
+                state.name = d.name || "";
                 state.number = d.number || "";
                 bootEditor();
               } else {
