@@ -2325,30 +2325,30 @@
                 <p class="q-sub">Fill in the job details below.</p>
                 <div class="q-field">
                   <label>Customer name</label>
-                  <input type="text" placeholder="e.g. Jane Smith" />
+                  <input type="text" id="qcName" placeholder="e.g. Jane Smith" />
                 </div>
                 <div class="q-field">
                   <label>Customer number</label>
-                  <input type="tel" placeholder="04xx xxx xxx" />
+                  <input type="tel" id="qcPhone" placeholder="04xx xxx xxx" />
                 </div>
                 <div class="q-field">
                   <label>Customer email <span class="opt">(optional)</span></label>
-                  <input type="email" placeholder="jane@email.com" />
+                  <input type="email" id="qcEmail" placeholder="jane@email.com" />
                 </div>
                 <div class="q-field">
                   <label>Address</label>
-                  <input type="text" placeholder="12 Example St, Suburb VIC" />
+                  <input type="text" id="qcAddress" placeholder="12 Example St, Suburb VIC" />
                 </div>
                 <div class="q-field">
                   <label>What you did</label>
-                  <textarea rows="4" placeholder="Describe the work you carried out…"></textarea>
+                  <textarea id="qcWork" rows="4" placeholder="Describe the work you carried out…"></textarea>
                 </div>
                 <div class="q-field">
                   <label>Total cost</label>
                   <div class="q-cost">
                     <div class="q-money">
                       <span>$</span>
-                      <input type="number" inputmode="decimal" min="0" step="0.01" placeholder="0.00" />
+                      <input type="number" id="qcCost" inputmode="decimal" min="0" step="0.01" placeholder="0.00" />
                     </div>
                     <div class="q-toggle" id="qCostToggle">
                       <button type="button" class="on" data-cost="set">Set price</button>
@@ -2883,6 +2883,9 @@
         "use strict";
         var AUTH =
           "https://n8n-production-d02c.up.railway.app/webhook/builder-auth";
+        // AI quote builder — the Create-quote form POSTs the job info here.
+        var QUOTE_WEBHOOK =
+          "https://n8n-production-d02c.up.railway.app/webhook/c5f8bc23-8063-4364-bb77-6961cfc5e23d";
         var PAGES = [
           { v: "index.html", label: "Home", path: "/" },
           { v: "about/index.html", label: "About", path: "/about/" },
@@ -5750,11 +5753,64 @@
             x.classList.toggle("on", x === b);
           });
         });
-        // Create button — no backend yet, just acknowledge
+        // Create button — POST the job info to the AI quote-builder webhook.
         var qCreateBtn = document.querySelector(".q-create-btn");
         if (qCreateBtn)
           qCreateBtn.addEventListener("click", function () {
-            toast("Quote created (preview) — saving & sending come later.");
+            var name = $("qcName").value.trim();
+            if (!name) {
+              toast("Add a customer name first.");
+              $("qcName").focus();
+              return;
+            }
+            var costOn = document.querySelector("#qCostToggle button.on");
+            var payload = {
+              source: "editor-quote-builder",
+              site: state.site,
+              token: state.token,
+              business: {
+                name: (state.details && state.details.name) || state.site || "",
+                owner: state.name || "",
+              },
+              customer: {
+                name: name,
+                phone: $("qcPhone").value.trim(),
+                email: $("qcEmail").value.trim(),
+                address: $("qcAddress").value.trim(),
+              },
+              work: $("qcWork").value.trim(),
+              cost: {
+                amount: $("qcCost").value.trim(),
+                mode: costOn ? costOn.dataset.cost : "set",
+              },
+            };
+            var label = qCreateBtn.textContent;
+            qCreateBtn.disabled = true;
+            qCreateBtn.textContent = "Sending…";
+            fetch(QUOTE_WEBHOOK, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload),
+            })
+              .then(function (r) {
+                if (!r.ok) throw new Error("status " + r.status);
+                return r.text();
+              })
+              .then(function (txt) {
+                var data = null;
+                try {
+                  data = JSON.parse(txt);
+                } catch (e) {}
+                toast((data && data.message) || "Quote sent to the builder.");
+                if (data && data.url) window.open(data.url, "_blank");
+              })
+              .catch(function () {
+                toast("Couldn't send the quote — please try again.");
+              })
+              .finally(function () {
+                qCreateBtn.disabled = false;
+                qCreateBtn.textContent = label;
+              });
           });
         // Sample data so the Sent/Signed designs are visible (frontend only).
         var Q_SENT = [
